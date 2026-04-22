@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="is">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sveitarstjórnarkosningar 2026 – Ísland</title>
+  <meta name="description" content="Yfirlit yfir flokka og frambjóðendur í sveitarstjórnarkosningum 2026 á Íslandi." />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Leaflet -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+
+  <!-- App styles -->
+  <link rel="stylesheet" href="css/variables.css?v=2" />
+  <link rel="stylesheet" href="css/map.css?v=2" />
+</head>
+<body class="page-map">
+
+  <header class="site-header">
+    <div class="site-logo">
+      <div class="logo-icon">🗺️</div>
+      <div>
+        <div class="logo-text">Kosningar 2026</div>
+        <div class="logo-sub">Sveitarstjórnarkosningar · Ísland</div>
+      </div>
+    </div>
+    <div class="header-badge">
+      <span class="dot"></span>
+      <span>Kosningar 16. maí 2026</span>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-eyebrow">🇮🇸 Sveitarstjórnarkosningar 2026</div>
+    <h1 class="hero-title">Kanntu <span>frambjóðendur</span><br/>og stefnur flokka</h1>
+    <p class="hero-subtitle">
+      Smelltu á sveitarfélag á kortinu til að sjá alla flokka, frambjóðendur og stefnur þeirra.
+      Komdu upplýst til kjörfundarins.
+    </p>
+    <div class="stats-bar">
+      <div class="stat-item">
+        <div class="stat-value" id="stat-municipalities">15</div>
+        <div class="stat-label">Sveitarfélög</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-value" id="stat-parties">—</div>
+        <div class="stat-label">Flokkar</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-value" id="stat-candidates">~120</div>
+        <div class="stat-label">Frambjóðendur</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="map-section">
+    <div class="map-wrapper">
+      <div id="map"></div>
+      <div class="map-overlay">
+        <div class="map-overlay-card">
+          <strong>Veldu sveitarfélag</strong>
+          Sveipa yfir merkið til að sjá upplýsingar · Smelltu til að fara inn
+        </div>
+      </div>
+      <div class="party-legend" id="party-legend">
+        <div class="legend-title">Flokkar</div>
+        <div class="legend-items" id="legend-items"></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="instructions">
+    <div class="instruction-item">
+      <div class="instruction-icon">👆</div>
+      Sveipa yfir merkið til að sjá upplýsingar
+    </div>
+    <div class="instruction-item">
+      <div class="instruction-icon">🖱️</div>
+      Smelltu til að fara inn í sveitarfélagið
+    </div>
+    <div class="instruction-item">
+      <div class="instruction-icon">🔍</div>
+      Þys inn og út á kortinu
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script type="module" src="js/map.js?v=2"></script>
+</body>
+</html>

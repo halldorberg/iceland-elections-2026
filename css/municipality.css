@@ -1,0 +1,795 @@
+/* ─── Municipality Page ─────────────────────────────────── */
+
+.page-municipality {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: var(--color-bg);
+  overflow: hidden;
+}
+
+/* Back nav */
+.muni-nav {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: var(--z-ui);
+  padding: var(--space-4) var(--space-6);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(to bottom, rgba(10,14,26,0.97), transparent);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.back-btn {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-2) var(--space-4);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-full);
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--color-text-muted);
+  transition: all var(--transition-base);
+  text-decoration: none;
+}
+
+.back-btn:hover {
+  background: var(--color-surface-2);
+  color: var(--color-text);
+  border-color: var(--color-border-strong);
+  transform: translateX(-2px);
+}
+
+.back-btn svg { transition: transform var(--transition-base); }
+.back-btn:hover svg { transform: translateX(-3px); }
+
+.muni-header-info {
+  text-align: center;
+}
+
+.muni-name {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.muni-region {
+  font-size: 0.72rem;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.muni-pop {
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+}
+
+/* ─── Election type notice card ──────────────────────────── */
+
+#election-type-notice:empty { display: none; }
+
+.election-notice {
+  margin: 80px var(--space-6) 0;
+  padding: var(--space-6) var(--space-8);
+  border-radius: var(--radius-lg);
+  display: flex;
+  gap: var(--space-6);
+  align-items: flex-start;
+  border: 1px solid;
+}
+
+.election-notice--unbound {
+  background: rgba(251, 191, 36, 0.06);
+  border-color: rgba(251, 191, 36, 0.2);
+}
+
+.election-notice--sjalkjort {
+  background: rgba(52, 211, 153, 0.06);
+  border-color: rgba(52, 211, 153, 0.2);
+}
+
+.en-icon {
+  font-size: 2rem;
+  line-height: 1;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.en-body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.en-badge {
+  display: inline-block;
+  padding: 3px 12px;
+  border-radius: var(--radius-full);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  align-self: flex-start;
+}
+
+.election-notice--unbound .en-badge {
+  background: rgba(251, 191, 36, 0.15);
+  color: #fbbf24;
+  border: 1px solid rgba(251, 191, 36, 0.35);
+}
+
+.election-notice--sjalkjort .en-badge {
+  background: rgba(52, 211, 153, 0.15);
+  color: #34d399;
+  border: 1px solid rgba(52, 211, 153, 0.35);
+}
+
+.en-title {
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--color-text);
+}
+
+.en-text {
+  font-size: 0.875rem;
+  color: var(--color-text-muted);
+  line-height: 1.65;
+  max-width: 680px;
+}
+
+@media (max-width: 600px) {
+  .election-notice {
+    flex-direction: column;
+    gap: var(--space-3);
+    margin: 80px var(--space-4) 0;
+    padding: var(--space-5);
+  }
+}
+
+/* Random party tooltip */
+.random-tooltip {
+  position: fixed;
+  top: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: var(--z-tooltip);
+  background: rgba(12,18,36,0.96);
+  border: 1px solid rgba(100,181,246,0.25);
+  border-radius: var(--radius-full);
+  padding: var(--space-2) var(--space-5);
+  font-size: 0.82rem;
+  color: var(--color-accent);
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  box-shadow: var(--shadow-md);
+  pointer-events: none;
+  animation: tooltip-in 0.5s var(--ease-out-expo) 0.5s both,
+             tooltip-out 0.4s ease 4s both;
+}
+
+@keyframes tooltip-in {
+  from { opacity: 0; transform: translateX(-50%) translateY(-10px); }
+  to { opacity: 1; transform: translateX(-50%) translateY(0); }
+}
+
+@keyframes tooltip-out {
+  from { opacity: 1; transform: translateX(-50%) translateY(0); }
+  to { opacity: 0; transform: translateX(-50%) translateY(-8px); }
+}
+
+.random-tooltip .dice-icon { font-size: 1rem; }
+
+/* ─── Accordion / Ribbons ─────────────────────────────── */
+
+.accordion-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding-top: 72px;
+  min-height: calc(100vh - 72px);
+}
+
+.accordion-container {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  height: calc(100vh - 72px);
+  overflow: hidden;
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fade-in-up {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Each ribbon */
+.party-ribbon {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  cursor: pointer;
+  transition:
+    flex var(--transition-accordion),
+    min-width var(--transition-accordion);
+  min-width: 52px;
+  flex: 1;
+}
+
+.party-ribbon.is-expanded {
+  flex: 8;
+  min-width: 320px;
+  cursor: default;
+}
+
+.party-ribbon:not(.is-expanded):hover {
+  flex: 1.5;
+}
+
+/* Ribbon color band + label (shown when collapsed) */
+.ribbon-strip {
+  position: absolute;
+  top: 0; bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: opacity var(--transition-accordion);
+  z-index: 2;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.party-ribbon.is-expanded .ribbon-strip {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.ribbon-label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-2);
+  white-space: nowrap;
+  transform: rotate(-90deg);
+  transition: opacity var(--transition-accordion);
+}
+
+.ribbon-code {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-weight: 900;
+  letter-spacing: -0.05em;
+  line-height: 1;
+}
+
+.ribbon-party-name {
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  opacity: 0.7;
+  max-width: 140px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Collapsed side indicator */
+.ribbon-side {
+  position: absolute;
+  top: 0; left: 0; bottom: 0;
+  width: 4px;
+  background: rgba(255,255,255,0.15);
+  transition: width var(--transition-accordion);
+}
+
+.party-ribbon:hover .ribbon-side { width: 6px; background: rgba(255,255,255,0.25); }
+.party-ribbon.is-expanded .ribbon-side { width: 0; }
+
+/* Hover prompt */
+.ribbon-hover-text {
+  font-size: 0.68rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  opacity: 0;
+  transition: opacity var(--transition-base);
+  margin-top: var(--space-2);
+  white-space: nowrap;
+}
+
+.party-ribbon:not(.is-expanded):hover .ribbon-hover-text {
+  opacity: 0.7;
+}
+
+/* ─── Expanded Content ─────────────────────────────────── */
+
+.ribbon-content {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease 0s;
+  scrollbar-width: thin;
+}
+
+.party-ribbon.is-expanded .ribbon-content {
+  opacity: 1;
+  pointer-events: auto;
+  transition: opacity 0.4s ease 0.25s;
+}
+
+/* Splash / Agenda header */
+.party-splash {
+  position: relative;
+  padding: var(--space-12) var(--space-10) var(--space-10);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.splash-bg {
+  position: absolute;
+  inset: 0;
+  opacity: 0.12;
+  background: radial-gradient(ellipse at 50% 0%, white 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.splash-eyebrow {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  margin-bottom: var(--space-5);
+}
+
+.splash-party-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-1) var(--space-3);
+  background: rgba(255,255,255,0.15);
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: var(--radius-full);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.splash-tagline {
+  font-family: var(--font-display);
+  font-size: clamp(1.2rem, 2.5vw, 1.8rem);
+  font-weight: 800;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  color: #fff;
+  margin-bottom: var(--space-8);
+  max-width: 600px;
+}
+
+.agenda-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: var(--space-4);
+}
+
+.agenda-card {
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: var(--radius-md);
+  padding: var(--space-5);
+  transition: background var(--transition-base);
+}
+
+.agenda-card:hover {
+  background: rgba(255,255,255,0.12);
+}
+
+.agenda-icon {
+  font-size: 1.5rem;
+  margin-bottom: var(--space-3);
+}
+
+.agenda-title {
+  font-family: var(--font-display);
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: rgba(255,255,255,0.9);
+  margin-bottom: var(--space-2);
+}
+
+.agenda-text {
+  font-size: 0.82rem;
+  color: rgba(255,255,255,0.65);
+  line-height: 1.65;
+}
+
+/* ─── Candidate Gallery ──────────────────────────────── */
+
+.candidates-section {
+  padding: var(--space-10);
+  background: var(--color-bg);
+  flex: 1;
+}
+
+.candidates-section-title {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  margin-bottom: var(--space-6);
+  font-family: var(--font-display);
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--color-text-muted);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.candidates-section-title::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--color-border);
+}
+
+.candidates-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+  gap: var(--space-4);
+}
+
+/* Candidate card */
+.candidate-card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  cursor: pointer;
+  transition: all var(--transition-base);
+  position: relative;
+  animation: card-in 0.5s var(--ease-out-expo) both;
+}
+
+.candidate-card:nth-child(1) { animation-delay: 0.05s; }
+.candidate-card:nth-child(2) { animation-delay: 0.1s; }
+.candidate-card:nth-child(3) { animation-delay: 0.15s; }
+.candidate-card:nth-child(4) { animation-delay: 0.2s; }
+.candidate-card:nth-child(5) { animation-delay: 0.25s; }
+.candidate-card:nth-child(6) { animation-delay: 0.3s; }
+.candidate-card:nth-child(7) { animation-delay: 0.35s; }
+.candidate-card:nth-child(8) { animation-delay: 0.4s; }
+
+@keyframes card-in {
+  from { opacity: 0; transform: translateY(16px) scale(0.97); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+.candidate-card:hover {
+  border-color: var(--color-border-strong);
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-md);
+}
+
+.candidate-card:active { transform: translateY(-1px); }
+
+.candidate-photo-wrap {
+  position: relative;
+  aspect-ratio: 1;
+  overflow: hidden;
+  background: var(--color-surface-2);
+}
+
+.candidate-photo-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.candidate-card:hover .candidate-photo-wrap img {
+  transform: scale(1.06);
+}
+
+.candidate-ballot {
+  position: absolute;
+  top: var(--space-2);
+  left: var(--space-2);
+  width: 22px;
+  height: 22px;
+  background: rgba(0,0,0,0.75);
+  border-radius: var(--radius-sm);
+  font-size: 0.7rem;
+  font-weight: 800;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(4px);
+}
+
+.candidate-info {
+  padding: var(--space-3);
+}
+
+.candidate-name {
+  font-family: var(--font-display);
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--color-text);
+  line-height: 1.3;
+  margin-bottom: var(--space-1);
+}
+
+.candidate-occupation {
+  font-size: 0.7rem;
+  color: var(--color-text-muted);
+  line-height: 1.4;
+}
+
+.candidate-card-hover-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, transparent 50%);
+  opacity: 0;
+  transition: opacity var(--transition-base);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: var(--space-3);
+}
+
+.candidate-card:hover .candidate-card-hover-overlay { opacity: 1; }
+
+.candidate-card-hover-overlay span {
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  color: rgba(255,255,255,0.8);
+  text-transform: uppercase;
+}
+
+/* ─── Candidate Modal ────────────────────────────────── */
+
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: var(--z-overlay);
+  background: rgba(5, 8, 18, 0.85);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-4);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.modal-overlay.is-open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.modal-card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border-strong);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  max-width: 560px;
+  width: 100%;
+  max-height: 90vh;
+  overflow-y: auto;
+  box-shadow: var(--shadow-xl);
+  transform: scale(0.94) translateY(20px);
+  transition: transform 0.4s var(--ease-out-expo);
+}
+
+.modal-overlay.is-open .modal-card {
+  transform: scale(1) translateY(0);
+}
+
+.modal-hero {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  height: 260px;
+  overflow: hidden;
+}
+
+.modal-hero-photo {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.modal-hero-gradient {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(20,25,39,1) 0%, rgba(20,25,39,0.3) 60%, transparent 100%);
+}
+
+.modal-hero-info {
+  position: relative;
+  z-index: 1;
+  padding: var(--space-6);
+}
+
+.modal-ballot-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: 3px var(--space-3);
+  border-radius: var(--radius-full);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  margin-bottom: var(--space-3);
+}
+
+.modal-candidate-name {
+  font-family: var(--font-display);
+  font-size: 1.6rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: #fff;
+  line-height: 1.1;
+  margin-bottom: var(--space-2);
+}
+
+.modal-candidate-meta {
+  display: flex;
+  gap: var(--space-3);
+  font-size: 0.82rem;
+  color: rgba(255,255,255,0.65);
+}
+
+.modal-body {
+  padding: var(--space-6);
+}
+
+.modal-section {
+  margin-bottom: var(--space-6);
+}
+
+.modal-section-label {
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+  margin-bottom: var(--space-3);
+}
+
+.modal-bio {
+  font-size: 0.9rem;
+  line-height: 1.75;
+  color: var(--color-text-muted);
+}
+
+.modal-interests {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+.interest-chip {
+  padding: var(--space-1) var(--space-3);
+  background: var(--color-surface-2);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-full);
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+}
+
+.modal-close {
+  position: absolute;
+  top: var(--space-4);
+  right: var(--space-4);
+  z-index: var(--z-modal);
+  width: 36px;
+  height: 36px;
+  background: rgba(0,0,0,0.5);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: 1px solid rgba(255,255,255,0.15);
+  transition: all var(--transition-base);
+  color: rgba(255,255,255,0.7);
+}
+
+.modal-close:hover {
+  background: rgba(0,0,0,0.8);
+  color: #fff;
+}
+
+/* ─── Mobile: Horizontal ribbons ──────────────────────── */
+
+@media (max-width: 768px) {
+  .accordion-container {
+    flex-direction: column;
+    height: auto;
+  }
+
+  /* On mobile use max-height transitions (flex-grow needs fixed container height) */
+  .party-ribbon {
+    flex: none;
+    min-width: unset;
+    max-height: 56px;
+    min-height: 56px;
+    overflow: hidden;
+    transition:
+      max-height var(--transition-accordion),
+      min-height var(--transition-accordion);
+  }
+
+  .party-ribbon.is-expanded {
+    flex: none;
+    min-width: unset;
+    max-height: 100vh;
+    min-height: 60vh;
+  }
+
+  .party-ribbon:not(.is-expanded):hover {
+    max-height: 68px;
+    min-height: 68px;
+  }
+
+  .ribbon-label {
+    transform: rotate(0deg);
+    flex-direction: row;
+    gap: var(--space-3);
+    padding-left: var(--space-4);
+  }
+
+  .ribbon-code { font-size: 1.1rem; }
+  .ribbon-party-name { font-size: 0.72rem; }
+  .ribbon-hover-text { display: none; }
+
+  .ribbon-side {
+    width: unset;
+    top: 0; left: 0; right: 0;
+    height: 4px;
+    bottom: unset;
+  }
+
+  .party-ribbon:hover .ribbon-side { height: 6px; width: unset; }
+  .party-ribbon.is-expanded .ribbon-side { height: 0; }
+
+  .party-splash { padding: var(--space-8) var(--space-5) var(--space-6); }
+  .candidates-section { padding: var(--space-6) var(--space-5); }
+
+  .muni-nav { padding: var(--space-3) var(--space-4); }
+
+  .modal-card { max-height: 85vh; }
+  .modal-hero { height: 200px; }
+}
+
+@media (max-width: 480px) {
+  .candidates-grid { grid-template-columns: repeat(3, 1fr); gap: var(--space-3); }
+  .agenda-grid { grid-template-columns: 1fr; }
+}
