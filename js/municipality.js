@@ -1,6 +1,6 @@
-import { MUNICIPALITIES } from './data/municipalities.js?v=8';
-import { PARTIES } from './data/parties.js?v=8';
-import { getMunicipalityPartyData } from './data/candidates.js?v=8';
+import { MUNICIPALITIES } from './data/municipalities.js?v=9';
+import { PARTIES } from './data/parties.js?v=9';
+import { getMunicipalityPartyData } from './data/candidates.js?v=9';
 
 // ─── Init ──────────────────────────────────────────────────
 
