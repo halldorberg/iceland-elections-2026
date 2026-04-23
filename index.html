@@ -28,9 +28,12 @@
         <div class="logo-sub">Sveitarstjórnarkosningar · Ísland</div>
       </div>
     </div>
-    <div class="header-badge">
-      <span class="dot"></span>
-      <span>Kosningar 16. maí 2026</span>
+    <div class="header-right">
+      <div class="header-badge">
+        <span class="dot"></span>
+        <span>Kosningar 16. maí 2026</span>
+      </div>
+      <div class="countdown-badge" id="countdown-badge" aria-live="polite"></div>
     </div>
   </header>
 
@@ -91,5 +94,42 @@
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script type="module" src="js/map.js?v=2"></script>
   <script type="module" src="js/outreach.js?v=1"></script>
+  <script>
+    (function () {
+      // Election day: 16 May 2026 09:00 Iceland time (UTC+0, no DST)
+      const TARGET = new Date('2026-05-16T09:00:00Z');
+      const el = document.getElementById('countdown-badge');
+      if (!el) return;
+
+      function pad(n) { return String(n).padStart(2, '0'); }
+
+      function render() {
+        const diff = TARGET - Date.now();
+        if (diff <= 0) {
+          el.innerHTML = '<span style="color:var(--color-accent)">🗳️ Kosningadagur!</span>';
+          return;
+        }
+        const d = Math.floor(diff / 86400000);
+        const h = Math.floor((diff % 86400000) / 3600000);
+        const m = Math.floor((diff % 3600000) / 60000);
+        const s = Math.floor((diff % 60000) / 1000);
+
+        el.innerHTML =
+          unit(d, 'dagar') + sep() +
+          unit(pad(h), 'klst') + sep() +
+          unit(pad(m), 'mín') + sep() +
+          unit(pad(s), 'sek');
+      }
+
+      function unit(v, l) {
+        return '<span class="cd-unit"><span class="cd-val">' + v +
+               '</span><span class="cd-lbl">' + l + '</span></span>';
+      }
+      function sep() { return '<span class="cd-sep">:</span>'; }
+
+      render();
+      setInterval(render, 1000);
+    })();
+  </script>
 </body>
 </html>
