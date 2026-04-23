@@ -94,3 +94,169 @@ ul, ol { list-style: none; }
 ::-webkit-scrollbar-track { background: var(--color-bg); }
 ::-webkit-scrollbar-thumb { background: var(--color-surface-2); border-radius: 3px; }
 ::-webkit-scrollbar-thumb:hover { background: var(--color-border-strong); }
+
+/* ─── Outreach floating button ─────────────────────────────────────────────── */
+
+.outreach-btn {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: var(--z-tooltip);
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 9px 16px 9px 12px;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border-strong);
+  border-radius: var(--radius-full);
+  color: var(--color-text-muted);
+  font-size: 0.78rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  box-shadow: var(--shadow-md);
+  backdrop-filter: blur(8px);
+  transition:
+    color var(--transition-base),
+    border-color var(--transition-base),
+    box-shadow var(--transition-base),
+    transform var(--transition-base);
+}
+
+.outreach-btn:hover {
+  color: var(--color-text);
+  border-color: rgba(255,255,255,0.28);
+  box-shadow: var(--shadow-lg), 0 0 0 1px rgba(255,255,255,0.06);
+  transform: translateY(-2px);
+}
+
+.outreach-btn-icon { font-size: 1rem; line-height: 1; }
+
+/* One-shot attention pulse */
+@keyframes outreach-pulse {
+  0%   { box-shadow: var(--shadow-md), 0 0 0 0 rgba(100,181,246,0.5); transform: translateY(0); }
+  40%  { box-shadow: var(--shadow-lg), 0 0 0 8px rgba(100,181,246,0.18); transform: translateY(-3px); }
+  70%  { box-shadow: var(--shadow-md), 0 0 0 14px rgba(100,181,246,0); transform: translateY(0); }
+  100% { box-shadow: var(--shadow-md), 0 0 0 0 rgba(100,181,246,0); }
+}
+.outreach-btn--pulse {
+  animation: outreach-pulse 1.1s var(--ease-out-expo) forwards;
+}
+
+/* ─── Outreach modal ────────────────────────────────────────────────────────── */
+
+.outreach-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: var(--z-modal);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background: rgba(5, 8, 18, 0.72);
+  backdrop-filter: blur(6px);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity var(--transition-base);
+}
+
+.outreach-overlay.is-open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.outreach-overlay.is-open .outreach-card {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.outreach-card {
+  position: relative;
+  max-width: 500px;
+  width: 100%;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border-strong);
+  border-radius: var(--radius-lg);
+  padding: 40px 36px 32px;
+  box-shadow: var(--shadow-xl);
+  transform: translateY(16px);
+  opacity: 0;
+  transition:
+    transform var(--transition-slow),
+    opacity var(--transition-slow);
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.outreach-close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-text-muted);
+  background: var(--color-surface-2);
+  border-radius: var(--radius-full);
+  transition: color var(--transition-fast), background var(--transition-fast);
+}
+.outreach-close:hover {
+  color: var(--color-text);
+  background: var(--color-border-strong);
+}
+
+.outreach-icon-header {
+  font-size: 2rem;
+  line-height: 1;
+}
+
+.outreach-title {
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--color-text);
+  line-height: 1.35;
+}
+
+.outreach-body {
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+  line-height: 1.65;
+}
+
+.outreach-email {
+  color: var(--color-accent);
+  text-decoration: underline;
+  text-decoration-color: rgba(100,181,246,0.4);
+  text-underline-offset: 2px;
+  transition: text-decoration-color var(--transition-fast);
+}
+.outreach-email:hover { text-decoration-color: var(--color-accent); }
+
+.outreach-mailto-btn {
+  display: inline-flex;
+  align-self: flex-start;
+  margin-top: 4px;
+  padding: 9px 20px;
+  background: rgba(100,181,246,0.1);
+  border: 1px solid rgba(100,181,246,0.3);
+  border-radius: var(--radius-full);
+  color: var(--color-accent);
+  font-size: 0.85rem;
+  font-weight: 600;
+  transition:
+    background var(--transition-fast),
+    border-color var(--transition-fast);
+}
+.outreach-mailto-btn:hover {
+  background: rgba(100,181,246,0.18);
+  border-color: rgba(100,181,246,0.5);
+}
+
+@media (max-width: 480px) {
+  .outreach-btn-text { display: none; }
+  .outreach-btn { padding: 10px; }
+  .outreach-card { padding: 32px 20px 24px; }
+}

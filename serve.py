@@ -28,6 +28,7 @@ class Handler(http.server.SimpleHTTPRequestHandler):
     def log_message(self, format, *args):
         pass  # silence request logging
 
-with socketserver.TCPServer(('', PORT), Handler) as httpd:
+socketserver.TCPServer.allow_reuse_address = True
+with socketserver.ThreadingTCPServer(('', PORT), Handler) as httpd:
     print(f'Serving on port {PORT}')
     httpd.serve_forever()
