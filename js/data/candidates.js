@@ -3969,15 +3969,17 @@ function deterministicInterests(name) {
 }
 
 function makeCandidatesFromList(municipalityId, partyCode, list) {
-  return list.map(([ballotOrder, name, occupation, photoUrl]) => ({
+  return list.map(([ballotOrder, name, occupation, photoUrl, realData]) => ({
     id: `${municipalityId}-${partyCode}-${ballotOrder}`,
     ballotOrder,
     name,
     occupation,
     imageUrl: photoUrl || `https://ui-avatars.com/api/?name=${encodeURIComponent(name)}&size=300&background=1c2335&color=8892a4&bold=true`,
-    age: deterministicAge(name, ballotOrder),
-    bio: bioFromOccupation(name, occupation, partyCode),
-    interests: deterministicInterests(name),
+    age:       realData?.age       ?? null,
+    bio:       realData?.bio       ?? null,
+    interests: realData?.interests ?? null,
+    social:    realData?.social    ?? null,
+    news:      realData?.news      ?? null,
   }));
 }
 

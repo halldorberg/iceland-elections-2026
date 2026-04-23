@@ -1,6 +1,6 @@
 import { MUNICIPALITIES } from './data/municipalities.js?v=10';
 import { PARTIES } from './data/parties.js?v=10';
-import { getMunicipalityPartyData } from './data/candidates.js?v=10';
+import { getMunicipalityPartyData } from './data/candidates.js?v=11';
 
 // ─── Init ──────────────────────────────────────────────────
 
@@ -308,13 +308,66 @@ function openModal(id) {
   badge.textContent = `#${c.ballotOrder} · ${party.name}`;
   badge.style.cssText = `background:${party.color}22;border:1px solid ${party.color}55;color:${party.color};`;
 
-  document.getElementById('modal-meta').innerHTML =
-    `<span>${c.age} ára</span><span>·</span><span>${c.occupation}</span>`;
+  // Meta: show age only if real data is available
+  const metaParts = [];
+  if (c.age) metaParts.push(`<span>${c.age} ára</span><span>·</span>`);
+  metaParts.push(`<span>${c.occupation}</span>`);
+  document.getElementById('modal-meta').innerHTML = metaParts.join('');
 
-  document.getElementById('modal-bio').textContent = c.bio;
+  // Bio section
+  const bioSection = document.getElementById('modal-bio-section');
+  const bioEl = document.getElementById('modal-bio');
+  if (c.bio) {
+    bioSection.style.display = '';
+    bioEl.textContent = c.bio;
+  } else {
+    bioSection.style.display = 'none';
+  }
 
-  document.getElementById('modal-interests').innerHTML =
-    c.interests.map(i => `<span class="interest-chip">${i}</span>`).join('');
+  // Interests section
+  const interestsSection = document.getElementById('modal-interests-section');
+  const interestsEl = document.getElementById('modal-interests');
+  if (c.interests && c.interests.length) {
+    interestsSection.style.display = '';
+    interestsEl.innerHTML = c.interests.map(i => `<span class="interest-chip">${i}</span>`).join('');
+  } else {
+    interestsSection.style.display = 'none';
+  }
+
+  // Social links section
+  const socialSection = document.getElementById('modal-social-section');
+  const socialEl = document.getElementById('modal-social');
+  if (c.social && c.social.length) {
+    socialSection.style.display = '';
+    socialEl.innerHTML = c.social.map(s => {
+      const icons = { facebook: '📘', twitter: '🐦', x: '𝕏', instagram: '📸', linkedin: '💼', web: '🌐', tiktok: '🎵' };
+      const icon = icons[s.type] || '🔗';
+      return `<a class="social-link" href="${s.url}" target="_blank" rel="noopener">${icon} ${s.label}</a>`;
+    }).join('');
+  } else {
+    socialSection.style.display = 'none';
+  }
+
+  // News section
+  const newsSection = document.getElementById('modal-news-section');
+  const newsEl = document.getElementById('modal-news');
+  if (c.news && c.news.length) {
+    newsSection.style.display = '';
+    newsEl.innerHTML = c.news.map(n =>
+      `<a class="news-link" href="${n.url}" target="_blank" rel="noopener">
+        <span class="news-title">${n.title}</span>
+        <span class="news-source">${n.source}</span>
+      </a>`
+    ).join('');
+  } else {
+    newsSection.style.display = 'none';
+  }
+
+  // "No info" notice — show if none of bio/interests/social/news
+  const noInfo = document.getElementById('modal-no-info');
+  const hasAnyInfo = c.bio || (c.interests && c.interests.length) ||
+                     (c.social && c.social.length) || (c.news && c.news.length);
+  noInfo.style.display = hasAnyInfo ? 'none' : '';
 
   overlay.classList.add('is-open');
   document.body.style.overflow = 'hidden';
