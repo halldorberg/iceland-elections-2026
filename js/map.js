@@ -128,19 +128,4 @@ if (legendItems) {
 
 // ─── Stats ─────────────────────────────────────────────────
 
-const statMuni = document.getElementById('stat-municipalities');
-const statCandidates = document.getElementById('stat-candidates');
-const statParties = document.getElementById('stat-parties');
-if (statMuni) statMuni.textContent = MUNICIPALITIES.length;
-if (statParties) {
-  const uniqueParties = new Set(MUNICIPALITIES.flatMap(m => m.partyIds));
-  statParties.textContent = uniqueParties.size;
-}
-if (statCandidates) {
-  // Reykjavík has 46 candidates per list, others average ~12
-  const total = MUNICIPALITIES.reduce((sum, m) => {
-    const perParty = m.id === 'reykjavik' ? 46 : 12;
-    return sum + m.partyIds.length * perParty;
-  }, 0);
-  statCandidates.textContent = '~' + Math.round(total / 100) * 100 + '+';
-}
+// Stats are hardcoded in index.html with accurate counts from the data.
