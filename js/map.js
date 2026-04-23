@@ -13,27 +13,10 @@ const map = L.map('map', {
   maxZoom: 13,
 });
 
-// Tile providers in priority order — first one to load tiles wins.
-// CartoDB dark (no labels) looks best; OSM inverted is the reliable fallback.
+// OpenStreetMap tiles — free, no authentication required.
+// CSS invert + hue-rotate in map.css gives a dark map appearance.
 const tileProviders = [
   {
-    url: 'https://{s}.basemaps.cartocdn.com/dark_matter_no_labels/{z}/{x}/{y}{r}.png',
-    options: {
-      attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors © <a href="https://carto.com/attributions">CARTO</a>',
-      subdomains: 'abcd',
-      maxZoom: 19,
-    },
-  },
-  {
-    // Stadia Alidade Smooth Dark — requires no key for low traffic
-    url: 'https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png',
-    options: {
-      attribution: '© <a href="https://stadiamaps.com/">Stadia Maps</a> © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-      maxZoom: 20,
-    },
-  },
-  {
-    // OSM standard + CSS invert filter applied in map.css → looks like a dark map
     url: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
     options: {
       attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
