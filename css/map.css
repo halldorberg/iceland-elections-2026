@@ -74,6 +74,11 @@
   font-weight: 500;
 }
 
+.header-badge:hover {
+  background: rgba(100, 181, 246, 0.18);
+  border-color: rgba(100, 181, 246, 0.4);
+}
+
 .header-badge .dot {
   width: 6px;
   height: 6px;
