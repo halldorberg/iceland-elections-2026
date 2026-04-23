@@ -237,6 +237,56 @@ container.addEventListener('keydown', e => {
   if (card) { e.preventDefault(); openModal(card.dataset.candidateId); }
 });
 
+// ─── Smart face crop ───────────────────────────────────────
+// Uses the browser's FaceDetector API (Chrome/Edge) to position
+// eyes ~33% down in the hero frame. Falls back to object-position
+// center 20% on unsupported browsers (good default for headshots).
+
+const faceDetector = ('FaceDetector' in window) ? new FaceDetector({ fastMode: true }) : null;
+
+async function applySmartCrop(img) {
+  // Sensible default: show upper portion of image
+  img.style.objectPosition = 'center 20%';
+
+  if (!faceDetector) return;
+
+  // Wait for the image to finish loading
+  if (!img.complete || !img.naturalWidth) {
+    await new Promise(resolve => { img.addEventListener('load', resolve, { once: true }); });
+  }
+
+  try {
+    const faces = await faceDetector.detect(img);
+    if (!faces.length) return;
+
+    // Pick the largest face (most likely the subject)
+    const face = faces.reduce((a, b) =>
+      b.boundingBox.width * b.boundingBox.height > a.boundingBox.width * a.boundingBox.height ? b : a
+    );
+
+    // Eyes sit roughly 35% down inside the face bounding box
+    const eyeY = face.boundingBox.top + face.boundingBox.height * 0.35;
+
+    // Calculate object-position Y% that places the eye at ~33% of container height
+    const containerH = img.parentElement.offsetHeight;
+    const containerW = img.parentElement.offsetWidth;
+    const scale = Math.max(containerW / img.naturalWidth, containerH / img.naturalHeight);
+    const renderedH = img.naturalHeight * scale;
+    const overflow = renderedH - containerH;
+
+    if (overflow <= 0) return; // image fits entirely — no crop needed
+
+    const targetY = containerH * 0.33;           // eyes a third down from top
+    const eyeRendered = eyeY * scale;
+    const P = Math.max(0, Math.min(100, (eyeRendered - targetY) / overflow * 100));
+
+    img.style.transition = 'object-position 0.35s ease';
+    img.style.objectPosition = `center ${P}%`;
+  } catch {
+    // FaceDetector rejected (CORS image, security, etc.) — keep default
+  }
+}
+
 function openModal(id) {
   const c = allCandidates[id];
   if (!c) return;
@@ -244,9 +294,13 @@ function openModal(id) {
 
   const fallback = `https://ui-avatars.com/api/?name=${encodeURIComponent(c.name)}&size=400&background=1c2335&color=8892a4&bold=true`;
   const photo = document.getElementById('modal-photo');
+  // Reset position before loading new image
+  photo.style.objectPosition = 'center 20%';
+  photo.style.transition = '';
   photo.src = c.imageUrl;
   photo.alt = c.name;
   photo.onerror = () => { photo.onerror = null; photo.src = fallback; };
+  applySmartCrop(photo);
 
   document.getElementById('modal-name').textContent = c.name;
 
