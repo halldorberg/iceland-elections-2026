@@ -16,7 +16,7 @@
 
   <!-- App styles -->
   <link rel="stylesheet" href="css/variables.css?v=2" />
-  <link rel="stylesheet" href="css/map.css?v=2" />
+  <link rel="stylesheet" href="css/map.css?v=5" />
 </head>
 <body class="page-map">
 
@@ -32,8 +32,9 @@
       <a class="header-badge" href="https://island.is/v/sveitarstjornarkosningar-2026" target="_blank" rel="noopener">
         <span class="dot"></span>
         <span>Kosningar 16. maí 2026</span>
+        <span class="pill-sep"></span>
+        <span id="countdown-badge" aria-live="polite"></span>
       </a>
-      <div class="countdown-badge" id="countdown-badge" aria-live="polite"></div>
     </div>
   </header>
 
@@ -50,11 +51,11 @@
         <div class="stat-label">Sveitarfélög</div>
       </div>
       <div class="stat-item">
-        <div class="stat-value" id="stat-parties">181</div>
+        <div class="stat-value" id="stat-parties">182</div>
         <div class="stat-label">Framboðslistar</div>
       </div>
       <div class="stat-item">
-        <div class="stat-value" id="stat-candidates">3500+</div>
+        <div class="stat-value" id="stat-candidates">3.236</div>
         <div class="stat-label">Frambjóðendur</div>
       </div>
     </div>
@@ -92,7 +93,7 @@
   </div>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-  <script type="module" src="js/map.js?v=2"></script>
+  <script type="module" src="js/map.js?v=3"></script>
   <script type="module" src="js/outreach.js?v=1"></script>
   <script>
     (function () {
@@ -115,7 +116,7 @@
         const s = Math.floor((diff % 60000) / 1000);
 
         el.innerHTML =
-          unit(d, 'dagar') + sep() +
+          unit(pad(d), 'dagar') + sep() +
           unit(pad(h), 'klst') + sep() +
           unit(pad(m), 'mín') + sep() +
           unit(pad(s), 'sek');

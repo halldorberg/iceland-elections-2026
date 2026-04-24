@@ -1,6 +1,7 @@
-import { MUNICIPALITIES } from './data/municipalities.js?v=10';
-import { PARTIES } from './data/parties.js?v=10';
-import { getMunicipalityPartyData } from './data/candidates.js?v=12';
+import { MUNICIPALITIES } from './data/municipalities.js?v=13';
+import { PARTIES } from './data/parties.js?v=4';
+import { getMunicipalityPartyData } from './data/candidates.js?v=13';
+import { RESULTS_2022 } from './data/results2022.js?v=2';
 
 // ─── Init ──────────────────────────────────────────────────
 
@@ -152,6 +153,70 @@ function switchParty(code) {
 
 // ─── Splash / Agenda ───────────────────────────────────────
 
+function buildResultsHTML(partyCode, muniId) {
+  const muniResults = RESULTS_2022[muniId];
+  if (!muniResults) return '';
+
+  // Municipality held unbound/uncontested election in 2022
+  if (muniResults.sjalkjorinn) {
+    return `
+      <div class="results-2022 results-2022--uncontested">
+        <div class="results-label">📊 Kosningaúrslit 2022</div>
+        <div class="results-uncontested-text">🤝 Óbundnar kosningar — engir listar 2022</div>
+      </div>`;
+  }
+
+  const r = muniResults.parties?.[partyCode];
+  const total = muniResults.totalSeats;
+
+  // Party ran as part of a joint/coalition list in 2022
+  if (r?.joint) {
+    return `
+      <div class="results-2022 results-2022--joint">
+        <div class="results-label">📊 Kosningaúrslit 2022</div>
+        <div class="results-joint-text">
+          Keppti sem hluti af <em>${r.joint}</em>
+          &nbsp;·&nbsp; ${r.pct}%&nbsp;&nbsp;${r.seats} sæti af ${total}
+        </div>
+      </div>`;
+  }
+
+  // Party has no 2022 data (new in 2026 or simply absent)
+  if (!r) {
+    return `
+      <div class="results-2022 results-2022--new">
+        <div class="results-label">📊 Kosningaúrslit 2022</div>
+        <div class="results-new-text">✨ Nýtt framboð — keppti ekki árið 2022</div>
+      </div>`;
+  }
+
+  const barPct = Math.min(r.pct, 100);
+  const seatsLabel = r.seats === 0
+    ? 'Engin sæti'
+    : `af ${total} sætum`;
+
+  return `
+    <div class="results-2022">
+      <div class="results-label">📊 Kosningaúrslit 2022</div>
+      <div class="results-row">
+        <div class="results-pct">
+          <span class="results-pct-num">${r.pct}<span class="results-pct-sign">%</span></span>
+          <span class="results-pct-desc">atkvæða</span>
+        </div>
+        <div class="results-bar-wrap">
+          <div class="results-bar-track">
+            <div class="results-bar-fill" style="width:${barPct}%"></div>
+          </div>
+          ${r.note ? `<div class="results-note">${r.note}</div>` : ''}
+        </div>
+        <div class="results-seats">
+          <span class="results-seats-num">${r.seats === 0 ? '–' : r.seats}</span>
+          <span class="results-seats-desc">${seatsLabel}</span>
+        </div>
+      </div>
+    </div>`;
+}
+
 function buildSplashHTML(party, data) {
   const cards = data.agenda.map(item => `
     <div class="agenda-card">
@@ -159,6 +224,8 @@ function buildSplashHTML(party, data) {
       <div class="agenda-title">${item.title}</div>
       <div class="agenda-text">${item.text}</div>
     </div>`).join('');
+
+  const resultsHTML = buildResultsHTML(data.partyCode, data.municipalityId);
 
   return `
     <div class="party-splash">
@@ -168,6 +235,7 @@ function buildSplashHTML(party, data) {
           ${party.code} – ${party.name}
         </span>
       </div>
+      ${resultsHTML}
       <div class="splash-tagline" style="color:${party.textColor}">${data.tagline}</div>
       <div class="agenda-grid">${cards}</div>
     </div>`;

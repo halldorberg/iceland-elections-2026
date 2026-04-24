@@ -393,7 +393,7 @@ export const PARTIES = {
   FLI: { code: 'I', name: 'Framfaralistinn', shortName: 'Framfaralistinn', englishName: 'Progressive List (Flóahreppur)', color: '#2E7D32', lightColor: '#e8f5e9', textColor: '#ffffff', accentColor: '#388E3C' },
   FLT: { code: 'T', name: 'T-listinn Flóa', shortName: 'T-listinn', englishName: 'T-List (Flóahreppur)', color: '#F57F17', lightColor: '#fff8e1', textColor: '#ffffff', accentColor: '#F9A825' },
   HRL: { code: 'L', name: 'L-listinn', shortName: 'L-listinn', englishName: 'The L-List (Hrunamannahreppur)', color: '#006064', lightColor: '#e0f7fa', textColor: '#ffffff', accentColor: '#00838F' },
-  GGA: { code: 'E', name: 'E-listi óháðra lýðræðissinna', shortName: 'E-listinn (Grímsnes)', englishName: 'E-List of Independent Democrats', color: '#1B5E20', lightColor: '#e8f5e9', textColor: '#ffffff', accentColor: '#2E7D32' },
+  GGA: { code: 'A', name: 'Framboðslisti um öflugt samfélag', shortName: 'Framboðslisti (Grímsnes)', englishName: 'List for a Strong Community (Grímsnes)', color: '#1B5E20', lightColor: '#e8f5e9', textColor: '#ffffff', accentColor: '#2E7D32' },
   GGO: { code: 'Ö', name: 'Betri sveit – fyrir okkur öll', shortName: 'Betri sveit', englishName: 'Better Municipality – For All of Us', color: '#BF360C', lightColor: '#fbe9e7', textColor: '#ffffff', accentColor: '#D84315' },
   SGE: { code: 'E', name: 'Uppbyggingarlistinn', shortName: 'Uppbyggingarlistinn', englishName: 'The Development List (Skeiða- og Gnúpverjahreppur)', color: '#1B5E20', lightColor: '#e8f5e9', textColor: '#ffffff', accentColor: '#2E7D32' },
   SGL: { code: 'L', name: 'Samvinnulistinn', shortName: 'Samvinnulistinn', englishName: 'The Cooperation List (Skeiða- og Gnúpverjahreppur)', color: '#0D47A1', lightColor: '#e3f2fd', textColor: '#ffffff', accentColor: '#1565C0' },
@@ -426,4 +426,9 @@ export const PARTIES = {
   TJN: { code: 'T', name: 'T-listinn (Tjörnes)', shortName: 'T-listi', englishName: 'T-list (Tjörneshreppur)', color: '#22d3ee', lightColor: '#cffafe', textColor: '#164e63', accentColor: '#06b6d4' },
   // ── Vestfirðir local list ─────────────────────────────────────────────────────
   ARNA: { code: 'Á', name: 'Á-listi í Árneshreppi', shortName: 'Á-listi', englishName: 'Á-list (Árneshreppur)', color: '#fb923c', lightColor: '#ffedd5', textColor: '#7c2d12', accentColor: '#ea580c' },
+  ARNS: { code: 'S', name: 'Sólstöður', shortName: 'Sólstöður', englishName: 'Sólstöður (Árneshreppur)', color: '#f59e0b', lightColor: '#fef3c7', textColor: '#78350f', accentColor: '#d97706' },
+  // ── Akureyri local list ───────────────────────────────────────────────────────
+  AL: { code: 'A', name: 'Akureyrarlistinn', shortName: 'Akureyrarlistinn', englishName: 'The Akureyri List', color: '#B45309', lightColor: '#fef3c7', textColor: '#ffffff', accentColor: '#D97706' },
+  // ── Norðurþing local list ─────────────────────────────────────────────────────
+  NBO: { code: 'Ó', name: 'Óskalistinn', shortName: 'Óskalistinn', englishName: 'The Wish List (Norðurþing)', color: '#475569', lightColor: '#f1f5f9', textColor: '#ffffff', accentColor: '#64748B' },
 };

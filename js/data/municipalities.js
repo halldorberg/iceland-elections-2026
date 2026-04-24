@@ -45,7 +45,7 @@ export const MUNICIPALITIES = [
     region: 'Norðurland eystra',
     population: 20284,
     coords: { lat: 65.6835, lng: -18.0878 },
-    partyIds: ['D', 'B', 'C', 'L', 'M', 'S', 'V', 'A'],
+    partyIds: ['D', 'B', 'C', 'L', 'M', 'S', 'V', 'AL'],
   },
   {
     id: 'arborg',
@@ -77,7 +77,7 @@ export const MUNICIPALITIES = [
     region: 'Norðurland eystra',
     population: 3017,
     coords: { lat: 66.0444, lng: -17.3389 },
-    partyIds: ['B', 'D', 'NPM', 'S', 'NPV'],
+    partyIds: ['B', 'D', 'NPM', 'NBO', 'S', 'NPV'],
   },
   {
     id: 'fjardabyggd',
@@ -97,7 +97,7 @@ export const MUNICIPALITIES = [
   },
   {
     id: 'borgarbyggd',
-    name: 'Borgarbyggð',
+    name: 'Sameinað sveitarfélag Borgarbyggðar og Skorradalshrepps',
     region: 'Vesturland',
     population: 4154,
     coords: { lat: 64.5357, lng: -21.9194 },
@@ -223,12 +223,12 @@ export const MUNICIPALITIES = [
   // ── Suðurland additions ──────────────────────────────────────────────────────
   { id: 'hveragerdi', name: 'Hveragerðisbær', region: 'Suðurland', population: 3344, coords: { lat: 64.003, lng: -21.183 }, partyIds: ['OKH', 'B', 'S', 'D'] },
   { id: 'rangarthingeystra', name: 'Rangárþing eystra', region: 'Suðurland', population: 2142, coords: { lat: 63.850, lng: -19.983 }, partyIds: ['B', 'D', 'NRE'] },
-  { id: 'rangarthingytra', name: 'Rangárþing ytra', region: 'Suðurland', population: 1966, coords: { lat: 63.700, lng: -20.800 }, partyIds: ['RYA', 'D'] },
+  { id: 'rangarthingytra', name: 'Rangárþing ytra', region: 'Suðurland', population: 1966, coords: { lat: 63.833, lng: -20.400 }, partyIds: ['RYA', 'D'] },
   { id: 'olfus', name: 'Sveitarfélagið Ölfus', region: 'Suðurland', population: 2907, coords: { lat: 63.983, lng: -21.467 }, partyIds: ['D', 'S'] },
   { id: 'skaftarhreppur', name: 'Skaftárhreppur', region: 'Suðurland', population: 651, coords: { lat: 63.783, lng: -18.633 }, partyIds: ['D', 'SKO'] },
   { id: 'myrdalshr', name: 'Mýrdalshreppur', region: 'Suðurland', population: 1004, coords: { lat: 63.450, lng: -19.000 }, partyIds: ['MYA', 'MYZ'] },
   { id: 'blaskogabyggd', name: 'Bláskógabyggð', region: 'Suðurland', population: 1453, coords: { lat: 64.233, lng: -20.617 }, partyIds: ['BST', 'BSP'] },
-  { id: 'floahreppur', name: 'Flóahreppur', region: 'Suðurland', population: 741, coords: { lat: 63.833, lng: -21.217 }, partyIds: ['FLI', 'FLT'] },
+  { id: 'floahreppur', name: 'Flóahreppur', region: 'Suðurland', population: 741, coords: { lat: 63.920, lng: -20.850 }, partyIds: ['FLI', 'FLT'] },
   { id: 'hrunamannahreppur', name: 'Hrunamannahreppur', region: 'Suðurland', population: 912, coords: { lat: 64.100, lng: -20.583 }, partyIds: ['D', 'HRL'] },
   { id: 'grimsnesgrafningur', name: 'Grímsnes- og Grafningshreppur', region: 'Suðurland', population: 658, coords: { lat: 64.017, lng: -20.833 }, partyIds: ['GGA', 'GGO'] },
   { id: 'skeidagnup', name: 'Skeiða- og Gnúpverjahreppur', region: 'Suðurland', population: 667, coords: { lat: 63.900, lng: -20.467 }, partyIds: ['SGE', 'SGL'] },
@@ -257,7 +257,7 @@ export const MUNICIPALITIES = [
   { id: 'tjornes', name: 'Tjörneshreppur', region: 'Norðurland eystra', population: 54, coords: { lat: 65.860, lng: -17.450 }, partyIds: ['TJN'] },
   { id: 'grytubakkar', name: 'Grýtubakkahreppur', region: 'Norðurland eystra', population: 373, coords: { lat: 65.878, lng: -18.156 }, partyIds: [] },
   // ── Vestfirðir additions ─────────────────────────────────────────────────────
-  { id: 'arneshr', name: 'Árneshreppur', region: 'Vestfirðir', population: 60, coords: { lat: 65.857, lng: -21.583 }, partyIds: ['ARNA', 'S'] },
+  { id: 'arneshr', name: 'Árneshreppur', region: 'Vestfirðir', population: 60, coords: { lat: 65.857, lng: -21.583 }, partyIds: ['ARNA', 'ARNS'] },
   { id: 'kaldrananes', name: 'Kaldrananeshreppur', region: 'Vestfirðir', population: 117, coords: { lat: 65.660, lng: -21.900 }, partyIds: [] },
   // ── Vesturland additions ─────────────────────────────────────────────────────
   { id: 'dalabyggd', name: 'Dalabyggð', region: 'Vesturland', population: 653, coords: { lat: 64.833, lng: -22.167 }, partyIds: [] },

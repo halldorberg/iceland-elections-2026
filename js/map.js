@@ -1,5 +1,5 @@
-import { MUNICIPALITIES } from './data/municipalities.js?v=2';
-import { PARTIES } from './data/parties.js?v=2';
+import { MUNICIPALITIES } from './data/municipalities.js?v=13';
+import { PARTIES } from './data/parties.js?v=4';
 
 // ─── Map init ──────────────────────────────────────────────
 
