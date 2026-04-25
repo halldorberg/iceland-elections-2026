@@ -19,7 +19,7 @@ const MODAL_HTML = `
     <div class="outreach-icon-header">🙋</div>
     <h2 class="outreach-title" id="outreach-title">Ertu frambjóðandi eða í forsvari fyrir framboð?</h2>
     <p class="outreach-body">
-      Það eru yfir 3500 frambjóðendur fyrir þessar kosningar og við viljum leggja metnað í að hafa
+      Það eru yfir 3000 frambjóðendur fyrir þessar kosningar og við viljum leggja metnað í að hafa
       upplýsingar og myndir fyrir sem flest ykkar! Ég er með gervigreind sem reynir að finna sem
       flest um alla framboð og frambjóðendur og skannar helstu síður daglega — en ef það er ekki
       að finna réttar upplýsingar og myndir um þig og þitt framboð, endilega sendu mér línu á
