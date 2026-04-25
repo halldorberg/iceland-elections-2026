@@ -6715,10 +6715,14 @@ const SFJ = {
   },
   M: {
     tagline: 'Miðflokkurinn í Skagafirði — landbúnaður og samfélag',
+    platformUrl: 'https://midflokkurinn.is/sveitarstjorn/skagafjordur/',
     agenda: [
-      { icon: '🌾', title: 'Landbúnaður', text: 'Sterkur stuðningur við bændur og landbúnað.' },
-      { icon: '🏘️', title: 'Dreifbýli', text: 'Lifandi dreifbýlissamfélag.' },
-      { icon: '💡', title: 'Þróun', text: 'Þróun og uppbygging sveitarfélagsins.' },
+      { icon: '💰', title: 'Ábyrg fjármál', text: 'Ábyrgur fjármálastjórnun og aðhald í rekstri; skuldir greiddar, aukið gagnsæi og skýr forgangsröðun.' },
+      { icon: '🧒', title: 'Leikskólamál', text: 'Hækkun heimagreiðslna þar til leikskólaplás fæst, sveigjanlegir greiðslumöguleikar og bætt starfsumhverfi leikskólakennara.' },
+      { icon: '🏫', title: 'Grunnskólar og íþróttastarf', text: 'Sterkt skóla- og íþróttastarf; íþróttamannvirki á Hofsósi og Sauðárkróki; fagmennska í kennslu og stuðningur við börn með sérþarfir.' },
+      { icon: '🔧', title: 'Innviðir og grunnþjónusta', text: 'Fráveitukerfi uppfært, jarðhitavæðing aukin, vegaviðhald og snjómokstur bætt og sorphirða endurbætt.' },
+      { icon: '🌾', title: 'Atvinnuuppbygging', text: 'Stuðningur við sjávarútveg, landbúnað, matvælaframleiðslu, ferðaþjónustu og iðnað; samstarf við Hóla háskóla.' },
+      { icon: '🏥', title: 'Velferð og þjónusta', text: 'Hjúkrunarheimili þróað, þjónusta við aldraða og fatlaða bætt og barist gegn mismunun — þjónustan nái til allra íbúa.' },
     ],
     list: [
       [1, 'Högni Elfar Gylfason', 'Bóndi og vélfræðingur', 'images/candidates/785e11bd5fc0c5e2.jpg', {
