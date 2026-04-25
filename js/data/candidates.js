@@ -27,6 +27,14 @@ const RVK = {
         ],
         news: [
           { title: 'Hildur sjálfkjörinn leiðtogi í Reykjavík', url: 'https://www.mbl.is/frettir/innlent/2026/01/06/hildur_sjalfkjorinn_leidtogi/', source: 'mbl.is' },
+          { title: 'Mikið svigrúm til breytinga í borginni', url: 'https://www.mbl.is/frettir/innlent/2026/01/07/mikid_svigrum_til_breytinga_i_borginni/', source: 'mbl.is' },
+          { title: 'Fólk í fremstu röð í framboð', url: 'https://www.mbl.is/frettir/innlent/2026/01/09/folk_i_fremstu_rod_i_frambod/', source: 'mbl.is' },
+          { title: 'Þau skipa lista Sjálfstæðisflokksins í Reykjavík', url: 'https://www.visir.is/g/20262849507d/thau-skipa-lista-sjalf-staedis-flokksins-i-reykja-vik', source: 'visir.is' },
+          { title: 'Sjálfstæðismenn birta framboðslista sinn í Reykjavík', url: 'https://www.dv.is/eyjan/2026/02/28/sjalfstaedismenn-birta-frambodslista-sinn-reykjavik/', source: 'dv.is' },
+          { title: 'Segir ákall um breytingar: „Ég er klár í verkefnið"', url: 'https://www.mbl.is/frettir/innlent/2025/04/01/segir_akall_um_breytingar_eg_er_klar_i_verkefnid/', source: 'mbl.is' },
+          { title: 'Óttast að ný leið leggist þungt á vinnandi foreldra', url: 'https://www.mbl.is/frettir/innlent/2026/02/18/ottast_ad_ny_leid_leggist_thungt_a_vinnandi_foreldr/', source: 'mbl.is' },
+          { title: 'Öllum ljóst að breytingarnar misheppnuðust', url: 'https://www.mbl.is/frettir/innlent/2026/04/14/ollum_ljost_ad_breytingarnar_misheppnudust/', source: 'mbl.is' },
+          { title: 'Hildur Björnsdóttir vill verða borgarstjóri – Ætlar að velta Eyþóri Arnalds úr oddvitasæti', url: 'https://kjarninn.is/frettir/hildur-bjornsdottir-vill-verda-borgarstjori-aetlar-ad-velta-eythori-arnalds-ur-oddvitasaeti/', source: 'kjarninn.is' },
           { title: 'Fyrstu tölur: Hildur í fyrsta sæti í prófkjöri Sjálfstæðisflokksins', url: 'https://kjarninn.is/frettir/fyrstu-tolur-hildur-i-fyrsta-saeti/', source: 'kjarninn.is' },
         ],
       }],
@@ -39,8 +47,16 @@ const RVK = {
           { type: 'instagram', url: 'https://www.instagram.com/bjarnigudjons/', label: 'Instagram' },
         ],
         news: [
-          { title: 'Bjarni Guðjónsson: Úr boltanum og í framboð til borgarstjórnar', url: 'https://utvarpsaga.is/bjarni-gudjonsson-ur-boltanum-og-i-frambod-til-borgarstjornar-reykjavikur/', source: 'utvarpsaga.is' },
+          { title: 'Bjarni Guðjónsson orðaður við sæti á lista', url: 'https://www.ruv.is/frettir/innlent/2026-02-26-bjarni-gudjonsson-ordadur-vid-saeti-a-lista-468019', source: 'ruv.is' },
           { title: 'Þau skipa lista Sjálfstæðisflokksins í Reykjavík', url: 'https://www.visir.is/g/20262849507d/thau-skipa-lista-sjalf-staedis-flokksins-i-reykja-vik', source: 'visir.is' },
+          { title: 'Bjarni Guðjónsson snýr aftur til KR - Nú sem framkvæmdastjóri', url: 'https://www.dv.is/433/2021/08/11/bjarni-gudjonsson-snyr-aftur-til-kr-nu-sem-framkvaemdarstjori/', source: 'dv.is' },
+          { title: 'Bjarni nýr framkvæmdastjóri KR', url: 'https://www.mbl.is/sport/efstadeild/2021/08/11/bjarni_nyr_framkvaemdastjori_kr/', source: 'mbl.is' },
+          { title: 'Bjarni segir Newcastle stærra félag en Tottenham', url: 'https://www.visir.is/g/20252818140d/bjarni-segir-newcastle-staerra-felag-en-tottenham', source: 'visir.is' },
+          { title: 'Titilinn tekinn af KR - Alex Þór var ólöglegur og Bjarni náði ekki í Ryder til að segja honum það', url: 'https://www.dv.is/433/2024/02/02/titilinn-tekinn-af-kr-alex-thor-var-ologlegur-og-bjarni-nadi-ekki-ryder-til-ad-segja-honum-thad/', source: 'dv.is' },
+          { title: 'Bjarni Guðjóns hættir hjá VÍS', url: 'https://www.visir.is/g/20262848421d/bjarni-gud-jons-haettir-hja-vis', source: 'visir.is' },
+          { title: 'Sér ekki meirihluta með Samfylkingunni', url: 'https://www.mbl.is/frettir/innlent/2026/02/28/ser_ekki_meirihluta_med_samfylkingunni/', source: 'mbl.is' },
+          { title: 'Bjarni gefur ekkert fyrir þessar afsakanir - „Það er ekkert vit í því"', url: 'https://www.dv.is/433/2026/04/13/bjarni-gefur-ekkert-fyrir-thessar-afsakanir-thad-er-ekkert-vit-thvi/', source: 'dv.is' },
+          { title: 'Utvarpsaga: Bjarni Guðjónsson – Úr boltanum og í framboð til borgarstjórnar', url: 'https://utvarpsaga.is/bjarni-gudjonsson-ur-boltanum-og-i-frambod-til-borgarstjornar-reykjavikur/', source: 'utvarpsaga.is' },
         ],
       }],
       [3, 'Brynjar Þór Níelsson', 'Lögfræðingur, varaþingmaður', 'images/candidates/4f05faf71bb32aad.jpg', {
@@ -54,6 +70,15 @@ const RVK = {
         ],
         news: [
           { title: 'Þau skipa lista Sjálfstæðisflokksins í Reykjavík', url: 'https://www.visir.is/g/20262849507d/thau-skipa-lista-sjalf-staedis-flokksins-i-reykja-vik', source: 'visir.is' },
+          { title: 'Er Brynjar á leið í borgarmálin?', url: 'https://www.dv.is/eyjan/2026/02/17/er-brynjar-leid-borgarmalin/', source: 'dv.is' },
+          { title: 'Brynjar ráðinn korter í kosningar', url: 'https://www.visir.is/g/20262851203d/brynjar-radinn-korter-i-kosningar', source: 'visir.is' },
+          { title: 'Brynjar Níelsson talinn hæfastur til að verða dómari', url: 'https://www.visir.is/g/20252683537d/brynjar-niels-son-talinn-haefastur-til-ad-verda-domari', source: 'visir.is' },
+          { title: 'Brynjar settur dómari', url: 'https://www.visir.is/g/20252688708d/brynjar-settur-domari', source: 'visir.is' },
+          { title: 'Brynjar Níelsson metinn hæfastur í embætti héraðsdómara', url: 'https://www.ruv.is/frettir/innlent/2025-02-03-brynjar-nielsson-metinn-haefastur-i-embaetti-heradsdomara-434888', source: 'ruv.is' },
+          { title: 'Fetta fingur út í skipun Brynjars Níelssonar', url: 'https://www.dv.is/frettir/2025/02/14/fetta-fingur-ut-skipun-brynjars-nielssonar-raun-getur-nefndin-komist-ad-nanast-hvada-nidurstodu-sem-er/', source: 'dv.is' },
+          { title: 'Brynjar er einsamall í hópferð erlendis – „Fullkomlega stjórnlaust"', url: 'https://www.dv.is/eyjan/2025/09/08/brynjar-er-einsamall-hopferd-erlendis-fullkomlega-stjornlaust/', source: 'dv.is' },
+          { title: 'Brynjar Níelsson segir af sér varaþingmennsku', url: 'https://www.ruv.is/frettir/innlent/2024-09-19-brynjar-nielsson-segir-af-ser-varathingmennsku-422166', source: 'ruv.is' },
+          { title: 'Brynjar skýtur föstum skotum á Flokk fólksins', url: 'https://www.visir.is/g/20262831629d/brynjar-skytur-fostum-skotum-a-flokk-folksins', source: 'visir.is' },
         ],
       }],
       [4, 'Ragnhildur Alda María Vilhjálmsdóttir', 'Borgarfulltrúi', 'images/candidates/b288be6579d5a1a9.jpg', {
@@ -66,6 +91,13 @@ const RVK = {
         ],
         news: [
           { title: 'Þau skipa lista Sjálfstæðisflokksins í Reykjavík', url: 'https://www.visir.is/g/20262849507d/thau-skipa-lista-sjalf-staedis-flokksins-i-reykja-vik', source: 'visir.is' },
+          { title: 'Ragnhildur Alda vill leiða Sjálfstæðisflokkinn í Reykjavík', url: 'https://www.mbl.is/frettir/kosning/2022/02/12/ragnhildur_alda_vill_leida_i_reykjavik/', source: 'mbl.is' },
+          { title: 'Ragnhildur Alda boðar oddvitaslag hjá Sjálfstæðisflokknum í borginni', url: 'https://www.visir.is/g/20222221619d/ragnhildur-alda-bodar-oddvitaslag-hja-sjalfstaedisflokknum-i-borginni', source: 'visir.is' },
+          { title: '„Besta leiðin upp úr fátækt er að hjálpa fólki að eignast"', url: 'https://www.visir.is/g/20252715542d/-besta-leidin-upp-ur-fataekt-er-ad-hjalpa-folki-ad-eignast-', source: 'visir.is' },
+          { title: 'Ragnhildur Alda María flytur sig um set', url: 'https://www.dv.is/fokus/2026/04/14/ragnhildur-alda-maria-flytur-sig-um-set/', source: 'dv.is' },
+          { title: 'Ragnhildur Alda selur íbúð á heitasta stað Vesturbæjar', url: 'https://www.mbl.is/smartland/heimili/2026/04/14/ragnhildur_alda_selur_ibud_a_heitasta_stad_vesturba/', source: 'mbl.is' },
+          { title: '„Hvaða forstjóra á að reka?"', url: 'https://www.mbl.is/frettir/innlent/2023/05/09/hvada_forstjora_a_ad_reka/', source: 'mbl.is' },
+          { title: 'Ragnhildur Alda María Vilhjálmsdóttir – DV tag', url: 'https://www.dv.is/tag/ragnhildur-alda-maria-vilhjalmsdottir/', source: 'dv.is' },
         ],
       }],
       [5, 'Rúnar Freyr Gíslason', 'Leikari', 'images/candidates/da316a996a1aea4e.jpg', {
@@ -78,6 +110,13 @@ const RVK = {
         ],
         news: [
           { title: 'Þau skipa lista Sjálfstæðisflokksins í Reykjavík', url: 'https://www.visir.is/g/20262849507d/thau-skipa-lista-sjalf-staedis-flokksins-i-reykja-vik', source: 'visir.is' },
+          { title: '„Ég er ekki stoltur af því hvernig ég lét"', url: 'https://www.visir.is/g/20262872106d/-afengi-var-mitt-efni-', source: 'visir.is' },
+          { title: 'Rúnar Freyr varð edrú eftir þriðju meðferðina: „Ég hrundi algjörlega niður"', url: 'https://www.dv.is/fokus/folk/2017/03/21/runar-freyr-vard-edru-eftir-thridju-medferdina-eg-var-buinn-thvi-og-hrundi-algjorlega-nidur/', source: 'dv.is' },
+          { title: 'Rúnar Freyr gjaldþrota', url: 'https://www.dv.is/frettir/2018/03/20/runar-freyr-gjaldthrota/', source: 'dv.is' },
+          { title: 'Rúnar Freyr greiddi götu Murad í Söngvakeppnina', url: 'https://www.mbl.is/folk/frettir/2024/03/02/runar_freyr_greiddi_gotu_murad_i_songvakeppnina/', source: 'mbl.is' },
+          { title: '„Við höfum sjaldan verið með eins glæsilegt atriði"', url: 'https://www.ruv.is/frettir/menning-og-daegurmal/2024-04-30-vid-hofum-sjaldan-verid-med-eins-glaesilegt-atridi-411613', source: 'ruv.is' },
+          { title: 'Rúnar Freyr og Guðrún trúlofuð', url: 'https://www.mbl.is/smartland/stars/2021/02/21/runar_freyr_og_gudrun_trulofud/', source: 'mbl.is' },
+          { title: 'Meirihlutinn ekki að sinna því sem hann á að sinna', url: 'https://www.mbl.is/frettir/innlent/2026/03/01/meirihlutinn_ekki_ad_sinna_thvi_sem_hann_a_ad_sinna/', source: 'mbl.is' },
         ],
       }],
       [6, 'Guðný María Jóhannsdóttir', 'Viðskiptafræðingur', 'images/candidates/7c14e6f72f352257.jpg'],
@@ -146,7 +185,15 @@ const RVK = {
         ],
         news: [
           { title: 'Einar áfram oddviti Framsóknar í Reykjavík', url: 'https://www.ruv.is/frettir/innlent/2026-01-26-einar-afram-oddviti-framsoknar-i-reykjavik-465077', source: 'ruv.is' },
-          { title: 'Listi Framsóknar í Reykjavík kynntur', url: 'https://utvarpsaga.is/listi-framsoknar-i-reykjavik-kynntur/', source: 'utvarpsaga.is' },
+          { title: 'Einar leiðir lista Framsóknar í Reykjavík – Segir flokkinn „ferskan og öfgalausan valkost"', url: 'https://kjarninn.is/frettir/einar-leidir-lista-framsoknar-i-reykjavik-segir-flokkinn-ferskan-og-ofgalausan-valkost/', source: 'kjarninn.is' },
+          { title: 'Einar kjörinn borgarstjóri', url: 'https://www.ruv.is/frettir/innlent/2024-01-16-einar-kjorinn-borgarstjori-402504', source: 'ruv.is' },
+          { title: 'Listi Framsóknar í Reykjavík samþykktur', url: 'https://www.mbl.is/frettir/innlent/2026/02/28/listi_framsoknar_i_reykjavik_samthykktur/', source: 'mbl.is' },
+          { title: 'Kennarar vilja að Einar borgarstjóri biðjist afsökunar á orðum sínum', url: 'https://www.dv.is/eyjan/2024/10/13/kennarar-vilja-ad-einar-borgarstjori-bidjist-afsokunar-ordum-sinum/', source: 'dv.is' },
+          { title: 'Borgarstjórinn baðst afsökunar', url: 'https://www.mbl.is/frettir/innlent/2024/10/17/borgarstjorinn_badst_afsokunar/', source: 'mbl.is' },
+          { title: 'Segir kennara hafa sagt upp vegna orða Einars', url: 'https://www.mbl.is/frettir/innlent/2024/10/15/segir_kennara_hafa_sagt_upp_vegna_orda_einars/', source: 'mbl.is' },
+          { title: 'Einar segir fólk hafi upplifað Kastljósviðtalið sem árás á hinsegin samfélagið – „Fautaskapur" hjá Snorra', url: 'https://www.dv.is/frettir/2025/09/05/einar-segir-folk-hafi-upplifad-kastljosvidtalid-sem-aras-hinsegin-samfelagid-fautaskapur-hja-snorra/', source: 'dv.is' },
+          { title: 'Allt á suðupunkti eftir Kastljósið í gær: „Ég er gjörsamlega orðlaus"', url: 'https://www.dv.is/frettir/2025/09/02/allt-sudupunkti-eftir-kastljosid-gaer-eg-er-gjorsamlega-ordlaus-thetta-er-bara-byrjunin/', source: 'dv.is' },
+          { title: 'Listi Framsóknar í Reykjavík staðfestur', url: 'https://utvarpsaga.is/listi-framsoknar-i-reykjavik-kynntur/', source: 'utvarpsaga.is' },
         ],
       }],
       [2, 'Magnea Gná Jóhannsdóttir', 'Borgarfulltrúi', 'images/candidates/4e96814ed68909bb.jpg', {
@@ -160,6 +207,14 @@ const RVK = {
         ],
         news: [
           { title: 'Magnea Gná gefur kost á sér', url: 'https://www.mbl.is/frettir/innlent/2026/01/22/magnea_gna_gefur_kost_a_ser/', source: 'mbl.is' },
+          { title: 'Yngsti borgarfulltrúinn: „Þetta er ákall um breytingar"', url: 'https://www.mbl.is/frettir/kosning/2022/05/15/yngsti_borgarfulltruinn_thetta_er_akall_um_breyting/', source: 'mbl.is' },
+          { title: 'Einar og Magnea í efstu sætum Framsóknar í Reykjavík', url: 'https://www.visir.is/g/20262834306d/einar-og-magnea-i-efstu-saetum-framsoknar-i-reykjavik', source: 'visir.is' },
+          { title: 'Magnea vill hækka sig um sæti', url: 'https://www.visir.is/g/20262832870d/magnea-vill-haekka-sig-um-saeti', source: 'visir.is' },
+          { title: 'Þessi skipa lista Framsóknar í Reykjavík', url: 'https://www.visir.is/g/20262849525d/thessi-skipa-lista-framsoknar-i-reykjavik', source: 'visir.is' },
+          { title: 'Spyr um eftirlit með fósturforeldrum', url: 'https://www.mbl.is/frettir/innlent/2026/02/05/spyr_um_eftirlit_med_fosturforeldrum/', source: 'mbl.is' },
+          { title: 'Leggur til að eldri borgarar fái frístundastyrk eins og börnin', url: 'https://www.dv.is/frettir/2026/03/17/leggur-til-ad-eldri-borgarar-fai-fristundastyrk-eins-og-bornin/', source: 'dv.is' },
+          { title: 'Vill upplýsingaspjald um kjörna fulltrúa í Ráðhúsið', url: 'https://www.mbl.is/frettir/innlent/2025/06/01/vill_upplysingaspjald_um_kjorna_fulltrua_i_radhusid/', source: 'mbl.is' },
+          { title: 'Magnea kjörin formaður Ung Framsókn í Reykjavík', url: 'https://www.mbl.is/frettir/kosning/2022/04/20/magnea_kjorin_formadur_ung_framsokn_i_reykjavik/', source: 'mbl.is' },
         ],
       }],
       [3, 'Þorvaldur Daníelsson', 'Varaborgafulltrúi, framkvæmdastjóri Hjólahrafts', 'images/candidates/5ecc70a4e48271b3.jpg', {
@@ -171,7 +226,12 @@ const RVK = {
         ],
         news: [
           { title: 'Valdi í Hjólakrafti Reykvíkingur ársins', url: 'https://www.mbl.is/frettir/innlent/2020/06/20/valdi_i_hjolakrafti_reykvikingur_arsins/', source: 'mbl.is' },
+          { title: 'Þorvaldur Daníelsson er Reykvíkingur ársins', url: 'https://www.dv.is/frettir/2020/06/20/thorvaldur-danielsson-er-reykvikingur-arsins/', source: 'dv.is' },
           { title: 'Þessi skipa lista Framsóknar í Reykjavík', url: 'https://www.visir.is/g/20262849525d/thessi-skipa-lista-framsoknar-i-reykjavik', source: 'visir.is' },
+          { title: '„Hjólakraftur er alls konar fyrir alls konar"', url: 'https://www.mbl.is/frettir/innlent/2021/05/01/hjolakraftur_er_alls_konar_fyrir_alls_konar/', source: 'mbl.is' },
+          { title: '„Að gera frekar en að gera ekki"', url: 'https://www.mbl.is/frettir/innlent/2021/02/20/ad_gera_frekar_en_ad_gera_ekki/', source: 'mbl.is' },
+          { title: 'Valdi í Hjólakrafti er Reykvíkingur ársins – frettabladid.is', url: 'https://www.frettabladid.is/frettir/valdi-i-hjolakrafti-er-reykvikingur-arsins/', source: 'frettabladid.is' },
+          { title: 'Listi Framsóknar í Reykjavík staðfestur', url: 'https://www.ruv.is/frettir/innlent/2026-02-28-listi-framsoknar-i-reykjavik-stadfestur-468270', source: 'ruv.is' },
         ],
       }],
       [4, 'Halldór Bachmann', 'Samskiptastjóri', null, {
@@ -181,6 +241,10 @@ const RVK = {
         social: [],
         news: [
           { title: 'Þessi skipa lista Framsóknar í Reykjavík', url: 'https://www.visir.is/g/20262849525d/thessi-skipa-lista-framsoknar-i-reykjavik', source: 'visir.is' },
+          { title: 'Listi Framsóknar í Reykjavík samþykktur', url: 'https://www.mbl.is/frettir/innlent/2026/02/28/listi_framsoknar_i_reykjavik_samthykktur/', source: 'mbl.is' },
+          { title: 'Listi Framsóknar í Reykjavík staðfestur', url: 'https://www.ruv.is/frettir/innlent/2026-02-28-listi-framsoknar-i-reykjavik-stadfestur-468270', source: 'ruv.is' },
+          { title: 'Af hverju? – Af hverju ekki?', url: 'https://www.visir.is/g/20262870004d/af-hverju-af-hverju-ekki-', source: 'visir.is' },
+          { title: 'Halldór og Júlíus í KR', url: 'https://www.dv.is/433/2024/10/4/halldor-og-julius-kr/', source: 'dv.is' },
         ],
       }],
       [5, 'Andrea Edda Guðlaugsdóttir', 'Hagfræðinemi, námsráðgjafi', null, {
@@ -192,6 +256,11 @@ const RVK = {
         ],
         news: [
           { title: 'Listi Framsóknar í Reykjavík staðfestur', url: 'https://www.ruv.is/frettir/innlent/2026-02-28-listi-framsoknar-i-reykjavik-stadfestur-468270', source: 'ruv.is' },
+          { title: 'Þessi skipa lista Framsóknar í Reykjavík', url: 'https://www.visir.is/g/20262849525d/thessi-skipa-lista-framsoknar-i-reykjavik', source: 'visir.is' },
+          { title: 'Listi Framsóknar í Reykjavík samþykktur', url: 'https://www.mbl.is/frettir/innlent/2026/02/28/listi_framsoknar_i_reykjavik_samthykktur/', source: 'mbl.is' },
+          { title: '4.927 stúdentar borga kaffið og kleinurnar', url: 'https://www.visir.is/g/20262845915d/4.927-studentar-borga-kaffid-og-kleinurnar', source: 'visir.is' },
+          { title: 'Ósátt við hækkun skráningargjalds – HÍ ætti frekar að lækka reikninginn á Jómfrúnni', url: 'https://www.dv.is/frettir/2026/02/20/osatt-vid-haekkun-skraningargjalds-hi-aetti-frekar-ad-laekka-reikninginn-jomfrunni/', source: 'dv.is' },
+          { title: 'Kvarta undan fjárskorti og hækka gjöld á nemendur', url: 'https://www.mbl.is/frettir/innlent/2026/02/16/kvarta_undan_fjarskorti_og_haekka_gjold_a_nemendur/', source: 'mbl.is' },
         ],
       }],
       [6, 'Þórdís Jóna Jakobsdóttir', 'Vímuefnaráðgjafi'],
@@ -260,6 +329,14 @@ const RVK = {
         news: [
           { title: 'Pétur Hafliði Marteinsson hafði betur í oddvitaslagnum', url: 'https://www.mbl.is/frettir/innlent/2026/01/24/petur_h_marteinsson_hafdi_betur_i_oddvitaslagnum/', source: 'mbl.is' },
           { title: 'Pétur vill leiða Samfylkinguna í Reykjavík', url: 'https://www.ruv.is/frettir/innlent/2026-01-01-petur-vill-leida-samfylkinguna-i-reykjavik-462655', source: 'ruv.is' },
+          { title: 'Pétur býður sig fram á móti Heiðu borgarstjóra', url: 'https://www.mbl.is/frettir/innlent/2026/01/01/petur_bydur_sig_fram_a_moti_heidu_borgarstjora/', source: 'mbl.is' },
+          { title: 'Reynslan hafi breytt sér úr ungum hægrimanni í klassískan krata', url: 'https://www.visir.is/g/20262825140d/reynslan-hafi-breytt-ser-ur-ungum-haegrimanni-i-klassiskan-krata', source: 'visir.is' },
+          { title: 'Svarar fyrir sig vegna lóðarréttinda', url: 'https://www.mbl.is/frettir/innlent/2026/01/15/svarar_fyrir_sig_vegna_lodarrettinda/', source: 'mbl.is' },
+          { title: 'Lögfræðingar kanna hvort Pétur hafi framselt hlut sinn', url: 'https://www.mbl.is/frettir/innlent/2026/01/09/logfraedingar_kanna_hvort_petur_hafi_framselt_hlut_/', source: 'mbl.is' },
+          { title: '232 milljónir fyrir lóðina', url: 'https://www.mbl.is/frettir/innlent/2026/01/27/232_milljonir_fyrir_lodina/', source: 'mbl.is' },
+          { title: 'Þurfti að fara í hart til að fá afhent gögn um viðskipti Péturs Marteinssonar', url: 'https://www.dv.is/frettir/2026/4/8/thurfti-ad-fara-hart-til-ad-fa-afhent-gogn-um-vidskipti-peturs-marteinssonar/', source: 'dv.is' },
+          { title: 'Pétur urðar yfir nýja stjórn á Hlíðarenda – „Ekkert faglegt við neitt sem gert hefur verið undanfarið ár"', url: 'https://www.dv.is/433/2025/12/09/petur-urdar-yfir-nyja-stjorn-a-hlidarenda-ekkert-faglegt-vid-neitt-sem-gert-hefur-verid-undanfarid-ar/', source: 'dv.is' },
+          { title: 'Pétur vill rauða dregilinn út', url: 'https://www.mbl.is/frettir/innlent/2026/04/19/petur_vill_rauda_dregilinn_ut/', source: 'mbl.is' },
         ],
       }],
       [2,  'Heiða Björg Hilmisdóttir',      'Borgarstjóri Reykjavíkur (síðan feb. 2025), næringarfræðingur/MBA', 'images/candidates/0e1115282c1c46e2.png', {
@@ -272,8 +349,16 @@ const RVK = {
           { type: 'twitter', url: 'https://twitter.com/heidabjorg', label: 'X/Twitter' },
         ],
         news: [
-          { title: 'Heiða þiggur annað sætið', url: 'https://www.mbl.is/frettir/innlent/2026/01/27/heida_thiggur_annad_saetid/', source: 'mbl.is' },
+          { title: 'Heiða Björg er nýr borgarstjóri', url: 'https://www.mbl.is/frettir/innlent/2025/02/21/heida_bjorg_er_nyr_borgarstjori/', source: 'mbl.is' },
+          { title: 'Nýr meirihluti í borginni: Heiða Björg er borgarstjóri', url: 'https://www.ruv.is/frettir/innlent/2025-02-21-nyr-meirihluti-i-borginni-heida-bjorg-er-borgarstjori-436892', source: 'ruv.is' },
           { title: 'Tíundi borgarstjórinn á öldinni', url: 'https://www.mbl.is/frettir/innlent/2025/02/24/tiundi_borgarstjorinn_a_oldinni/', source: 'mbl.is' },
+          { title: 'Heiða þiggur annað sætið', url: 'https://www.mbl.is/frettir/innlent/2026/01/27/heida_thiggur_annad_saetid/', source: 'mbl.is' },
+          { title: 'Heiða biðst afsökunar á skilaboðunum', url: 'https://www.mbl.is/frettir/innlent/2026/01/23/heida_bidst_afsokunar_a_skilabodunum/', source: 'mbl.is' },
+          { title: 'Heiða biður Pétur afsökunar vegna umdeildra skilaboða', url: 'https://www.ruv.is/frettir/innlent/2026-01-23-heida-bidur-petur-afsokunar-vegna-umdeildra-skilaboda-464848', source: 'ruv.is' },
+          { title: 'Vandræðagangur með skilaboð á versta tíma fyrir Heiðu', url: 'https://www.visir.is/g/20262833569d/vand-raeda-gangur-med-skila-bod-a-versta-tima-fyrir-heidu', source: 'visir.is' },
+          { title: 'Heiða Björg Hilmisdóttir: Þurfum hraðari uppbyggingu – lítið gerðist í tíð Einars sem borgarstjóra', url: 'https://www.dv.is/eyjan/2025/03/21/heida-bjorg-hilmisdottir-thurfum-hradari-uppbyggingu-litid-gerdist-tid-einars-sem-borgarstjora/', source: 'dv.is' },
+          { title: 'Heiða Björg Hilmisdóttir – forystukona sem leysir hnútana', url: 'https://www.visir.is/g/20262825357d/heida-bjorg-hilmisdottir-forystukona-sem-leysir-hnutana', source: 'visir.is' },
+          { title: 'Heiða Björg: „Krakkarnir forðuðust hann og sögðu að hann myndi örugglega deyja"', url: 'https://www.dv.is/fokus/2018/05/07/heida-bjorg-krakkarnir-sogdu-ad-hann-vaeri-aumingi-og-myndi-orugglega-deyja/', source: 'dv.is' },
         ],
       }],
       [3,  'Steinunn Guðjónsdóttir',        'Ráðgjafi, fyrrverandi málsvari',                       'images/candidates/4555184c81034725.png', {
@@ -285,6 +370,12 @@ const RVK = {
         ],
         news: [
           { title: 'Steinunn gefur kost á sér í forvalinu', url: 'https://www.mbl.is/frettir/innlent/2026/01/03/steinunn_gefur_kost_a_ser_i_forvalinu/', source: 'mbl.is' },
+          { title: 'Steinunn Gyðu- og Guðjónsdóttir sækist eftir 2. sæti hjá Samfylkingunni í Reykjavík', url: 'https://www.ruv.is/frettir/innlent/2026-01-03-steinunn-gydu-og-gudjonsdottir-saekist-eftir-2-saeti-hja-samfylkingunni-i-reykjavik-462745', source: 'ruv.is' },
+          { title: 'Þessi bjóða sig fram fyrir Samfylkinguna í Reykjavík', url: 'https://www.visir.is/g/20262824233d/thessi-bjoda-sig-fram-fyrir-sam-fylkinguna-i-reykja-vik', source: 'visir.is' },
+          { title: 'Ekki stórt atriði hvort hún sé í 2. eða 3. sæti', url: 'https://www.mbl.is/frettir/innlent/2026/01/25/ekki_stort_atridi_hvort_hun_se_i_2_eda_3_saeti/', source: 'mbl.is' },
+          { title: 'Steinunn, Svanhildur og Guðrún til Aton.JL', url: 'https://www.mbl.is/vidskipti/frettir/2023/04/04/steinunn_svanhildur_og_gudrun_til_aton_jl/', source: 'mbl.is' },
+          { title: 'Skilgreina forgangsat­riði í baráttunni gegn kynbundnu ofbeldi', url: 'https://www.frettabladid.is/frettir/vilja-skilgreina-forgangsatridi-i-barattunni-gegn-kynbundnu-ofbeldi-naestu-arin/', source: 'frettabladid.is' },
+          { title: 'Spunaleikari vill annað sæti Samfylkingarinnar í borginni', url: 'https://www.visir.is/g/20262824061d/spunaleikari-vill-annad-saeti-sam-fylkingarinnar-i-borginni', source: 'visir.is' },
         ],
       }],
       [4,  'Skúli Helgason',                'Borgarfulltrúi',                                       'images/candidates/b27f3dea12777b10.png', {
@@ -296,6 +387,13 @@ const RVK = {
         ],
         news: [
           { title: 'Skúli þiggur sætið og segir Heiðu hafa átt betra skilið', url: 'https://www.mbl.is/frettir/innlent/2026/01/25/skuli_thiggur_saetid_og_segir_heidu_hafa_att_betra_/', source: 'mbl.is' },
+          { title: 'Skúli býður sig fram í 2. sætið', url: 'https://www.mbl.is/frettir/innlent/2025/11/20/skuli_bydur_sig_fram_i_2_saetid/', source: 'mbl.is' },
+          { title: 'Segir Heiðu hafa átt betra skilið', url: 'https://www.visir.is/g/20262833833d/segir-heidu-hafa-att-betra-skilid', source: 'visir.is' },
+          { title: 'Skúli sækist eftir 2. sæti', url: 'https://www.visir.is/g/20252806111d/skuli-saekist-eftir-2.-saeti', source: 'visir.is' },
+          { title: 'Tónlistarborgin eflist!', url: 'https://www.visir.is/g/20262870431d/tonlistarborgin-eflist-', source: 'visir.is' },
+          { title: 'Kynntu sex aðgerðir til að flýta innritun barna á leikskóla', url: 'https://kjarninn.is/frettir/kynntu-sex-adgerdir-til-ad-flyta-innritun-barna-a-leikskola/', source: 'kjarninn.is' },
+          { title: 'Skúli vill þriðja sætið hjá Samfylkingunni', url: 'https://kjarninn.is/frettir/2018-01-17-skuli-vill-thridja-saetid-hja-samfylkingunni/', source: 'kjarninn.is' },
+          { title: '„Hef ekki sagt neitt í þessa veru"', url: 'https://www.mbl.is/frettir/innlent/2023/03/16/hef_ekki_sagt_neitt_i_thessa_veru/', source: 'mbl.is' },
         ],
       }],
       [5,  'Stein Olav Romslo',             'Kennari',                                              'images/candidates/84bbce63d93637e4.png', {
@@ -308,6 +406,12 @@ const RVK = {
         ],
         news: [
           { title: 'Stein Olav sækist eftir 4. sæti hjá Samfylkingunni', url: 'https://www.ruv.is/frettir/innlent/2026-01-03-stein-olav-saekist-eftir-4-saeti-hja-samfylkingunni-462775', source: 'ruv.is' },
+          { title: 'Stein Olav vill fjórða sætið', url: 'https://www.mbl.is/frettir/innlent/2026/01/03/stein_olav_vill_fjorda_saetid/', source: 'mbl.is' },
+          { title: 'Stærðfræðikennarinn Stein sækist eftir fjórða sæti', url: 'https://www.visir.is/g/20262824136d/staerd-fraedi-kennarinn-stein-saekist-eftir-fjorda-saeti', source: 'visir.is' },
+          { title: 'Stein Olav sækist eftir 4. sæti hjá Samfylkingunni – DV', url: 'https://www.dv.is/frettir/2026/01/03/stein-olav-saekist-eftir-3-saeti-hja-samfylkingunni/', source: 'dv.is' },
+          { title: 'Bjarnveig Birta og Stein Olav sigruðu ungliðaprófkjör Hallveigar', url: 'https://www.mbl.is/frettir/innlent/2025/12/13/bjarnveig_birta_og_stein_olav_sigrudu_unglidaprofkj/', source: 'mbl.is' },
+          { title: 'Bjarnveig Birta og Stein Olav sigurvegarar forpróf­kjörs', url: 'https://www.visir.is/g/20252817245d/bjarn-veig-birta-og-stein-olav-sigur-vegarar-for-prof-kjors', source: 'visir.is' },
+          { title: 'Samfylking til framtíðar', url: 'https://www.visir.is/g/20262833499d/sam-fylking-til-fram-tidar', source: 'visir.is' },
         ],
       }],
       [6,  'Bjarnveig Birta Bjarnadóttir',  'Rekstrarstjóri',                                       'images/candidates/f97b7ca1c59185bc.png'],
@@ -376,6 +480,12 @@ const RVK = {
         news: [
           { title: 'Sameiginlega framboðið nefnt Vinstrið', url: 'https://www.mbl.is/frettir/innlent/2026/02/23/sameiginlega_frambodid_nefnt_vinstrid/', source: 'mbl.is' },
           { title: 'Sanna Magdalena býður fram krafta sína fyrir næstu borgarstjórnarkosningar', url: 'https://kjarninn.is/frettir/sanna-magdalena-bidur-fram-krafta-sina-fyrir-naestu-borgarstjornarkosningar/', source: 'kjarninn.is' },
+          { title: 'Sam­þykktu aldrei að Sanna fengi oddvitasætið', url: 'https://www.visir.is/g/20262830765d/sam-thykktu-aldrei-ad-sanna-fengi-oddvitasaetid', source: 'visir.is' },
+          { title: 'VG og Sanna sam­eina krafta sína', url: 'https://www.visir.is/g/20262830666d/vg-og-vor-til-vinstri-i-somu-saeng', source: 'visir.is' },
+          { title: 'Sanna á hrakhólum talin standa sig best', url: 'https://heimildin.is/grein/25772/sanna-a-hrakholum-talin-standa-sig-best/', source: 'heimildin.is' },
+          { title: 'Sanna með nýtt framboð', url: 'https://heimildin.is/grein/25803/sanna-med-nytt-frambod/', source: 'heimildin.is' },
+          { title: 'Borgarviti Maskínu: flestir segja Sönnu hafa staðið sig best á kjörtímabilinu', url: 'https://maskina.is/borgarviti-maskinu-flestir-segja-sonnu-hafa-stadid-sig-best-a-kjortimabilinu/', source: 'maskina.is' },
+          { title: 'Vinstrið kynnir framboðslista sinn í Reykjavík', url: 'https://www.ruv.is/frettir/innlent/2026-03-21-vinstrid-kynnir-frambodslista-sinn-i-reykjavik-470529', source: 'ruv.is' },
         ],
       }],
       [2, 'Líf Magneudóttir', 'Grunnskólakennari, borgarfulltrúi (VG)', 'images/candidates/502644a62c46a8cd.jpg', {
@@ -389,6 +499,10 @@ const RVK = {
         ],
         news: [
           { title: 'Líf verður oddviti VG', url: 'https://www.mbl.is/frettir/innlent/2026/02/22/lif_verdur_oddviti_vg/', source: 'mbl.is' },
+          { title: 'Var bara búin að undirbúa tapræðu', url: 'https://www.mbl.is/frettir/innlent/2026/02/22/var_bara_buin_ad_undirbua_tapraedu/', source: 'mbl.is' },
+          { title: '„Þessi mál standa mér afar nærri. Þau hafa haft bein og óbein áhrif á líf mitt"', url: 'https://www.dv.is/frettir/2026/01/20/thessi-mal-standa-mer-afar-naerri-thau-hafa-haft-bein-og-obein-ahrif-lif-mitt/', source: 'dv.is' },
+          { title: 'Líf bar sigur úr býtum', url: 'https://www.visir.is/g/20262846938d/lif-bar-sigur-ur-bytum', source: 'visir.is' },
+          { title: '„Þetta snýst ekki um persónur og leikendur"', url: 'https://www.mbl.is/frettir/innlent/2026/01/18/thetta_snyst_ekki_um_personur_og_leikendur/', source: 'mbl.is' },
         ],
       }],
       [3, 'Stefán Pálsson', 'Sagnfræðingur, varaborgafulltrúi (VG)', 'images/candidates/6efb5b3e0d587cb7.jpg', {
@@ -400,6 +514,9 @@ const RVK = {
         ],
         news: [
           { title: 'Stefán Pálsson sækist eftir 3. sæti', url: 'https://www.mbl.is/frettir/innlent/2026/01/25/stefan_palsson_saekist_eftir_3_saeti/', source: 'mbl.is' },
+          { title: 'Varaborgarfulltrúi varð fyrir opinberun í gær – „Það er enginn að hlusta"', url: 'https://www.dv.is/frettir/2026/04/15/varaborgarfulltrui-vard-fyrir-opinberun-gaer-thad-er-enginn-ad-hlusta/', source: 'dv.is' },
+          { title: '„Óbærilega leiðinlegir" fundir', url: 'https://www.mbl.is/frettir/innlent/2025/02/12/obaerilega_leidinlegir_fundir/', source: 'mbl.is' },
+          { title: '„Svo hef ég alltaf einhverjar teiknimyndasögur upp á að hlaupa"', url: 'https://www.dv.is/fokus/2025/12/20/svo-hef-eg-alltaf-einhverjar-teiknimyndasogur-upp-a-ad-hlaupa/', source: 'dv.is' },
         ],
       }],
       [4, 'Ásta Þ. Skjalddal Guðjónsdóttir', 'Löggiltur endurskoðandi, varaborgafulltrúi (Vor til vinstri)', 'images/candidates/d03697c7cf0e2db5.jpg', {
@@ -409,6 +526,8 @@ const RVK = {
         social: [],
         news: [
           { title: 'Vinstrið kynnir framboðslista sinn í Reykjavík', url: 'https://www.ruv.is/frettir/innlent/2026-03-21-vinstrid-kynnir-frambodslista-sinn-i-reykjavik-470529', source: 'ruv.is' },
+          { title: 'Framboðslisti Vinstrisins í Reykjavík kynntur', url: 'https://www.visir.is/g/20262859169d/fram-bods-listi-vinstrisins-i-reykja-vik-kynntur', source: 'visir.is' },
+          { title: 'Þær skipa efstu sæti lista Vor til vinstri', url: 'https://www.visir.is/g/20262852645d/thaer-skipa-efstu-saeti-lista-vor-til-vinstri', source: 'visir.is' },
         ],
       }],
       [5, 'Arna Magnea Danks', 'Leikkona, stuntleikstjóri, kennari (Vor til vinstri)', null, {
@@ -421,6 +540,11 @@ const RVK = {
         ],
         news: [
           { title: 'Arna Magnea Danks og Magdalena fundu ástina', url: 'https://www.mbl.is/smartland/stars/2024/12/03/arna_magnea_danks_og_magdalena_fundu_astina/', source: 'mbl.is' },
+          { title: 'Arna Magnea birtir hatursfull skilaboð frá þekktum einstaklingum', url: 'https://www.dv.is/frettir/2025/04/10/arna-magnea-birtir-hatursfull-skilabod-fra-thekktum-einstaklingum/', source: 'dv.is' },
+          { title: 'Heimur á heljar­þröm? Inn­flutningur á hatursorðræðu til Ís­lands!', url: 'https://www.visir.is/g/20252777917d/heimur-a-heljar-throm-inn-flutningur-a-hatursordraedu-til-is-lands-', source: 'visir.is' },
+          { title: 'Jólahugvekja trans konu', url: 'https://www.visir.is/g/20252818948d/jolahugvekja-trans-konu', source: 'visir.is' },
+          { title: 'Arna Danks býður sig fram', url: 'https://mannlif.is/greinar/arna-danks-bydur-sig-fram/', source: 'mannlif.is' },
+          { title: 'Vinstrið kynnir framboðslistann sinn', url: 'https://www.mbl.is/frettir/innlent/2026/03/21/vinstrid_kynnir_frambodslistann_sinn/', source: 'mbl.is' },
         ],
       }],
       [6, 'Finnur Ricart Andrason', 'Umhverfis- og loftslagssérfræðingur (VG)'],
@@ -488,6 +612,9 @@ const RVK = {
         news: [
           { title: 'Kristinn skákar sitjandi oddvita og leiðir Pírata í Reykjavík', url: 'https://www.ruv.is/frettir/innlent/2026-03-06-kristinn-skakar-sitjandi-oddvita-og-leidir-pirata-i-reykjavik-469042', source: 'ruv.is' },
           { title: 'Kristinn Jón fer gegn Alexöndru í borginni', url: 'https://www.mbl.is/frettir/innlent/2026/02/16/kristinn_jon_fer_gegn_alexondru_i_borginni/', source: 'mbl.is' },
+          { title: 'Kristinn Jón tekur slaginn við Alexöndru', url: 'https://www.visir.is/g/20262844042d/kristinn-jon-tekur-slaginn-vid-alexondru', source: 'visir.is' },
+          { title: 'Drakk ó­vart á­fengi í fyrsta sinn og það undir stýri', url: 'https://www.visir.is/g/20262871809d/drakk-o-vart-a-fengi-i-fyrsta-sinn-og-thad-undir-styri', source: 'visir.is' },
+          { title: 'Af vængjum fram – Flokkur fólksins og Píratar', url: 'https://www.visir.is/k/dfbda7eb-7ba8-42f7-af2e-c85fd36852d0-1776512661489/af-vaengjum-fram-flokkur-folksins-og-piratar', source: 'visir.is' },
         ],
       }],
       [2, 'Alexandra Briem',                   'Borgarfulltrúi, formaður framkvæmdastjórnar borgar, staðgengill borgarstjóra',    'images/candidates/2276904b2fa8cf74.jpg', {
@@ -500,6 +627,10 @@ const RVK = {
         ],
         news: [
           { title: 'Kristinn Jón fer gegn Alexöndru í borginni', url: 'https://www.mbl.is/frettir/innlent/2026/02/16/kristinn_jon_fer_gegn_alexondru_i_borginni/', source: 'mbl.is' },
+          { title: 'Geti átt í sam­starfi við nær alla flokka', url: 'https://www.visir.is/g/20262848309d/geti-att-i-sam-starfi-vid-naer-alla-flokka', source: 'visir.is' },
+          { title: '„Ég tel þetta ekki vera á­kveðna höfnun á Alexöndru"', url: 'https://www.visir.is/g/20262852633d/-eg-tel-thetta-ekki-vera-a-kvedna-hofnun-a-alexondru-', source: 'visir.is' },
+          { title: 'Á kross­götum', url: 'https://www.visir.is/g/20262823552d/a-kross-gotum', source: 'visir.is' },
+          { title: 'For­maður Pírata sækist eftir öðru til fjórða sæti', url: 'https://www.visir.is/g/20262844149d/for-madur-pirata-saekist-eftir-odru-til-fjorda-saeti', source: 'visir.is' },
         ],
       }],
       [3, 'Oktavía Hrund Guðrúnar Jóns',       'Formaður Pírata á landsvísu, grínisti, eigandi fyrirtækis, menningastjórnunarnemi', 'images/candidates/0d65365b9b4c5bb3.jpg', {
@@ -511,6 +642,11 @@ const RVK = {
         ],
         news: [
           { title: 'Oktavía Hrund fyrsti formaður Pírata', url: 'https://www.mbl.is/frettir/innlent/2025/11/29/oktavia_hrund_fyrsti_formadur_pirata/', source: 'mbl.is' },
+          { title: 'Oktavía Hrund kjörið fyrsti for­maður Pírata', url: 'https://www.visir.is/g/20252810400d/oktavia-kjorid-fyrsti-for-madur-pirata', source: 'visir.is' },
+          { title: 'Særindi og drama í Pírötum – „Vanþakklæti og vantraust eru fyrstu orðin sem koma upp í hugann"', url: 'https://www.dv.is/eyjan/2025/11/30/saerindi-og-drama-pirotum-vanthakklaeti-og-vantraust-eru-fyrstu-ordin-sem-koma-upp-hugann/', source: 'dv.is' },
+          { title: '„Ég fæddist inn í pólitískan líkama"', url: 'https://www.visir.is/g/20252817140d/-eg-faeddist-inn-i-politiskan-likama-', source: 'visir.is' },
+          { title: 'Píratar vilja ganga til við­ræðna um sam­eigin­legt fram­boð', url: 'https://www.visir.is/g/20252817173d/piratar-vilja-ganga-til-vid-raedna-um-sam-eigin-legt-fram-bod', source: 'visir.is' },
+          { title: 'Píratar leysa úr hnökrum og fá greitt á næstu vikum', url: 'https://www.mbl.is/frettir/innlent/2026/02/24/piratar_leysa_ur_hnokrum_og_fa_greitt_a_naestu_viku/', source: 'mbl.is' },
         ],
       }],
       [4, 'Unnar Þór Sæmundsson',               'Stjórnandi fyrirtækis, lagastúdent',                                               'images/candidates/d419baff45cabae6.jpg', {
@@ -521,7 +657,12 @@ const RVK = {
           { type: 'instagram', url: 'https://www.instagram.com/unnarthor42/', label: 'Instagram' },
         ],
         news: [
-          { title: 'Unnar Þór gefur kost á sér í prófkjöri Pírata', url: 'https://www.mbl.is/frettir/innlent/2026/02/23/unnar_thor_gefur_kost_a_ser_i_profkjori_pirata/', source: 'mbl.is' },
+          { title: 'Unnar Þór gefur kost á sér í Prófkjöri Pírata', url: 'https://www.mbl.is/frettir/innlent/2026/02/23/unnar_thor_gefur_kost_a_ser_i_profkjori_pirata/', source: 'mbl.is' },
+          { title: 'Unnar Þór ætlar ekki að láta Bakkakot skemma meira fyrir sér og fer í framboð', url: 'https://www.dv.is/frettir/2026/02/23/unnar-thor-aetlar-ekki-ad-lata-bakkakot-skemma-meira-fyrir-ser-og-fer-frambod/', source: 'dv.is' },
+          { title: 'Unnar ómyrkur í máli: „Við eigum bókstaflega að brenna núverandi kerfi til grunna"', url: 'https://www.dv.is/frettir/2026/02/18/unnar-omyrkur-mali-vid-eigum-bokstaflega-ad-brenna-nuverandi-kerfi-til-grunna/', source: 'dv.is' },
+          { title: 'Eigi að „brenna barnaverndarkerfið til grunna og byrja aftur"', url: 'https://www.visir.is/g/20262844904d/eigi-ad-brenna-barnaverndarkerfid-til-grunna-og-byrja-aftur', source: 'visir.is' },
+          { title: 'Hvetur borgarfulltrúa til að bjarga Foreldrahúsi', url: 'https://www.dv.is/frettir/2026/4/21/hvetur-borgarfulltrua-til-ad-bjarga-foreldrahusi/', source: 'dv.is' },
+          { title: 'Unnar Þór: „Ég var heppinn þegar ég lauk afplánun í síðasta skipti…"', url: 'https://www.dv.is/fokus/2024/03/25/unnar-thor-eg-var-heppinn-thegar-eg-lauk-afplanun-sidasta-skipti-ad-eiga-konu-og-heimili-en-thad-eru-ekki-allir-eins-heppnir/', source: 'dv.is' },
         ],
       }],
       [5, 'Olga Margrét Kristínardóttir Cilia', 'Sjálfstæður lögfræðingur',                                                        'images/candidates/901d76ce5b9b93fa.jpg', {
@@ -529,7 +670,10 @@ const RVK = {
         bio: 'Olga Margrét Kristínardóttir Cilia er löggiltur lögfræðingur, fædd 28. febrúar 1986. Hún hefur setið sem varaþingmaður á Alþingi fyrir Reykjavíkurkjördæmi suður með Pírötum 2018–2021 og var formaður Pírata í Reykjavík árið 2017. Hún telur mannréttindi vera kjarnann í öllum ákvarðanatökum.',
         interests: ['LGBTQ+ mannréttindi og trans-réttindi', 'Skaðaminnkun í fíknimálum', 'Gagnsæi og lýðræði'],
         social: [],
-        news: [],
+        news: [
+          { title: 'For­maður Pírata sækist eftir öðru til fjórða sæti', url: 'https://www.visir.is/g/20262844149d/for-madur-pirata-saekist-eftir-odru-til-fjorda-saeti', source: 'visir.is' },
+          { title: 'Píratar flykkjast í framboð í Reykjavík', url: 'https://kjarninn.is/frettir/piratar-flykkjast-i-frambod-i-reykjavik/', source: 'kjarninn.is' },
+        ],
       }],
       [6, 'Hans Alexander Margrétarson Hansen', 'Deildarstjóri leikskóla',                                                         'images/candidates/2870178466752a02.jpg'],
       [7, 'Oddur Björn Jónsson',                'Þjónustufulltrúi á búsetuúrræði',                                                  'images/candidates/1d8c4369a3ca5dbb.jpg'],
@@ -596,7 +740,14 @@ const RVK = {
         ],
         news: [
           { title: 'Ari Edwald leiðir lista Miðflokksins í Reykjavík', url: 'https://www.ruv.is/frettir/innlent/2026-02-09-ari-edwald-leidir-lista-midflokksins-i-reykjavik-466516', source: 'ruv.is' },
-          { title: 'Ari segir allt í klessu hjá borginni', url: 'https://www.dv.is/frettir/2026/4/14/ari-segir-allt-klessu-hja-borginni-bilastaedi-eru-nuna-ordin-einhver-luxusvara/', source: 'dv.is' },
+          { title: 'Ari segir allt í klessu hjá borginni – „Bílastæði eru núna orðin einhver lúxusvara"', url: 'https://www.dv.is/frettir/2026/4/14/ari-segir-allt-klessu-hja-borginni-bilastaedi-eru-nuna-ordin-einhver-luxusvara/', source: 'dv.is' },
+          { title: 'Myndband oddvita Miðflokksins vekur hörð viðbrögð – „Ertu í alvöru að aka í göngugötu og kvarta yfir skort á bílastæðum?"', url: 'https://www.dv.is/frettir/2026/4/12/myndband-oddvita-midflokksins-vekur-hord-vidbrogd-ertu-alvoru-ad-aka-gongugotu-og-kvarta-yfir-skort-bilastaedum/', source: 'dv.is' },
+          { title: 'Myndband: Ari Edwald hneykslaður – „Bara skemmdarverk"', url: 'https://www.dv.is/frettir/2026/04/11/myndband-ari-edvald-hneyksladur-bara-skemmdarverk/', source: 'dv.is' },
+          { title: 'Gerir upp Vítalíu-málið í eitt skipti fyrir öll', url: 'https://www.mbl.is/frettir/innlent/2026/02/10/gerir_upp_vitaliu_malid_i_eitt_skipti_fyrir_oll/', source: 'mbl.is' },
+          { title: 'Ari Edwald farinn í tíma­bundið leyfi vegna á­sakana um kyn­ferðis­brot', url: 'https://www.visir.is/g/20222205145d/ari-edwald-farinn-i-tima-bundid-leyfi-vegna-a-sakana-um-kyn-ferdis-brot', source: 'visir.is' },
+          { title: 'Ara Edwald sagt upp störfum í kjölfar ásakana um kynferðisofbeldi', url: 'https://www.visir.is/g/20222206269d/ara-edwald-sagt-upp-storfum-i-kjolfar-asakana-um-kynferdisofbeldi', source: 'visir.is' },
+          { title: 'Ari Edwald selur þakíbúðina í Garðabænum', url: 'https://www.mbl.is/smartland/heimili/2026/04/20/ari_edwald_selur_thakibudina_i_gardabaenum/', source: 'mbl.is' },
+          { title: 'Ari hlær að gagn­rýni á mynd­bandið', url: 'https://www.visir.is/g/20262869018d/ari-hlaer-ad-gagnryni-a-myndbandid', source: 'visir.is' },
         ],
       }],
       [2, 'Kristín Kolbrún Kolbeinsdóttir',  'Kennari, foreldraráðgjafi; fyrrverandi formaður Hvatar',              'images/candidates/9d77a1dad14e5fef.jpg', {
@@ -606,6 +757,7 @@ const RVK = {
         social: [],
         news: [
           { title: 'Líkir borginni við ofskreytt jólatré', url: 'https://www.mbl.is/frettir/innlent/2026/02/26/likir_borginni_vid_ofskreytt_jolatre/', source: 'mbl.is' },
+          { title: 'Miðflokkurinn afhjúpar listann í borginni', url: 'https://www.mbl.is/frettir/innlent/2026/02/27/midflokkurinn_afhjupar_listann_i_borginni/', source: 'mbl.is' },
         ],
       }],
       [3, 'Lárus Sigurðsson',                'Framkvæmdastjóri',                                                   'images/candidates/4131b782a3f18691.jpg', {
@@ -615,6 +767,7 @@ const RVK = {
         social: [],
         news: [
           { title: 'Frambjóðandi Miðflokksins baunar á meirihlutann vegna framkomu við íþróttafélög', url: 'https://www.dv.is/433/2026/4/22/frambodandi-midflokksins-baunar-a-meirihlutann-i-borginni-vegna-framkomu-hans-vid-thennan-hop-hafa-itrekad-maett-donaskap-og-valdahroka/', source: 'dv.is' },
+          { title: 'Miðflokkurinn afhjúpar listann í borginni', url: 'https://www.mbl.is/frettir/innlent/2026/02/27/midflokkurinn_afhjupar_listann_i_borginni/', source: 'mbl.is' },
         ],
       }],
       [4, 'Hlédís Maren Guðmundsdóttir',     'Félagsfræðingur',                                                    'images/candidates/260150d9afd706cb.jpg', {
@@ -646,6 +799,10 @@ const RVK = {
         ],
         news: [
           { title: 'Helgi Áss genginn til liðs við Miðflokkinn', url: 'https://www.mbl.is/frettir/innlent/2026/01/20/helgi_ass_genginn_til_lids_vid_midflokkinn/', source: 'mbl.is' },
+          { title: 'Sættir sig ekki við starfshætti Sjálfstæðisflokksins', url: 'https://www.mbl.is/frettir/innlent/2026/01/20/saettir_sig_ekki_vid_starfshaetti_sjalfstaedisflokk/', source: 'mbl.is' },
+          { title: 'Hrókering hjá Helga og Miðflokknum vex Áss megin', url: 'https://www.visir.is/g/20262829763d/hrokering-hja-helga-og-midflokknum-vex-ass-megin', source: 'visir.is' },
+          { title: 'Hefur setið tvo af þremur borgar­stjórnar­fundum frá því að hann skipti um lið', url: 'https://www.visir.is/g/20262853376d/hefur-setid-tvo-af-thremur-borgar-stjornar-fundum-fra-thvi-ad-hann-skipti-um-lid', source: 'visir.is' },
+          { title: 'Helgi Áss Íslandsmeistari í skák', url: 'https://www.mbl.is/sport/frettir/2024/04/26/helgi_ass_islandsmeistari_i_skak/', source: 'mbl.is' },
         ],
       }],
       [6, 'Páll Edwald',                     'Yfirlagamaður',                                                      'images/candidates/2545e09d7969b973.jpg'],
@@ -709,8 +866,14 @@ const RVK = {
         interests: ['Fangaréttindi og enduruppbygging', 'Velferðarþjónusta og heimilislausir', 'Jafnræði í réttarkerfinu'],
         social: [],
         news: [
-          { title: 'Guðmundur Ingi segir sig úr Flokki fólksins', url: 'https://www.ruv.is/frettir/innlent/2026-04-13-gudmundur-ingi-segir-sig-ur-flokki-folksins-ber-vid-trunadarbresti-472609', source: 'ruv.is' },
+          { title: 'Guðmundur Ingi segir sig úr Flokki fólksins – ber við trúnaðarbresti', url: 'https://www.ruv.is/frettir/innlent/2026-04-13-gudmundur-ingi-segir-sig-ur-flokki-folksins-ber-vid-trunadarbresti-472609', source: 'ruv.is' },
           { title: 'Guðmundur Ingi býður fram í Reykjavík', url: 'https://www.ruv.is/frettir/innlent/2026-03-30-gudmundur-ingi-bydur-fram-i-reykjavik-471356', source: 'ruv.is' },
+          { title: 'Guðmundur Ingi hallar sér að Flokki fólksins', url: 'https://www.mbl.is/frettir/innlent/2026/03/28/gudmundur_ingi_hallar_ser_ad_flokki_folksins/', source: 'mbl.is' },
+          { title: 'Guðmundur Ingi tekur slaginn með Flokki fólksins', url: 'https://www.dv.is/frettir/2026/3/31/gudmundur-ingi-tekur-slaginn-med-flokki-folksins/', source: 'dv.is' },
+          { title: 'Guðmundur Ingi segir skilið við Flokk fólksins', url: 'https://www.mbl.is/frettir/innlent/2026/04/13/gudmundur_ingi_segir_skilid_vid_flokk_folksins/', source: 'mbl.is' },
+          { title: 'Guðmundur Ingi: „Þetta er uppskrift að meiriháttar vandræðum"', url: 'https://www.dv.is/frettir/2025/05/05/gudmundur-ingi-thetta-er-uppskrift-ad-meirihattar-vandraedum/', source: 'dv.is' },
+          { title: 'Í fangelsi í sextán ár: Á endanum var það ástin sem bjargaði öllu', url: 'https://www.visir.is/g/20232475356d/i-fangelsi-i-sextan-ar-a-endanum-var-thad-astin-sem-bjargadi-ollu', source: 'visir.is' },
+          { title: 'Guðmundur Ingi færir sig um set', url: 'https://www.mbl.is/frettir/innlent/2026/04/17/gudmundur_ingi_faerir_sig_um_set/', source: 'mbl.is' },
         ],
       }],
       [2,  'Einar Sveinbjörn Guðmundsson',    'Kerfisverkfræðingur, varaborgafulltrúi',                   'images/candidates/1f82c3c4ed37b0a8.jpg', {
@@ -718,7 +881,9 @@ const RVK = {
         bio: 'Einar Sveinbjörn Guðmundsson er kerfisverkfræðingur og hefur þjónað sem varaborgafulltrúi Flokks fólksins í borgarstjórn Reykjavíkur. Hann er einn reynslumesti frambjóðandi flokksins í borginni.',
         interests: ['Stafræn þjónusta', 'Velferð og réttindi íbúa', 'Gagnsæi í stjórnun'],
         social: null,
-        news: [],
+        news: [
+          { title: 'Töldu framboðinu ekki til fram­dráttar að mæta í þáttinn', url: 'https://www.visir.is/g/20262869531d/toldu-frambodinu-ekki-til-fram-drattar-ad-maeta-i-thattinn', source: 'visir.is' },
+        ],
       }],
       [3,  'Guðbjörg Ingunn Magnúsdóttir',    'Grunnskólakennari',                                        'images/candidates/ac24ae158afaf0ce.jpg', {
         age: null,
@@ -812,6 +977,10 @@ const RVK = {
         news: [
           { title: 'Björg Magnúsdóttir er nýr oddviti Viðreisnar í Reykjavík', url: 'https://www.ruv.is/frettir/innlent/2026-01-31-bjorg-magnusdottir-er-nyr-oddviti-vidreisnar-i-reykjavik-465781', source: 'ruv.is' },
           { title: 'Björg vill leiða Viðreisn í Reykjavík', url: 'https://www.mbl.is/frettir/innlent/2026/01/07/bjorg_vill_leida_vidreisn_i_reykjavik/', source: 'mbl.is' },
+          { title: 'Björg nýr oddviti Viðreisnar', url: 'https://www.mbl.is/frettir/innlent/2026/01/31/bjorg_nyr_oddviti_vidreisnar/', source: 'mbl.is' },
+          { title: 'Fékk 890 þúsund frá borginni', url: 'https://www.mbl.is/frettir/innlent/2024/05/11/fekk_890_thusund_fra_borginni/', source: 'mbl.is' },
+          { title: 'Viðreisn kynnir áherslur sínar í Reykjavík: „Þessu ætlum við að snúa við"', url: 'https://www.dv.is/eyjan/2026/4/21/vidreisn-kynnir-aherslur-sinar-reykjavik-thessu-aetlum-vid-ad-snua-vid/', source: 'dv.is' },
+          { title: 'Orðið á götunni: Viðreisn í lykilstöðu samkvæmt nýrri könnun', url: 'https://www.dv.is/eyjan/2026/4/25/ordid-gotunni-vidreisn-lykilstodu-samkvaemt-nyrri-konnun/', source: 'dv.is' },
         ],
       }],
       [2,  'Róbert Ragnarsson',              'Stjórnsýsluráðgjafi',                                  'images/candidates/119735209c5503c6.jpg', {
@@ -822,7 +991,7 @@ const RVK = {
           { type: 'instagram', url: 'https://www.instagram.com/robert.ragnars/', label: 'Instagram' },
         ],
         news: [
-          { title: 'Fjölmiðlakona, stjórnsýsluráðgjafi og leikari í þremur efstu sætum Viðreisnar', url: 'https://www.ruv.is/frettir/innlent/2026-03-05-fjolmidlakona-stjornsysluradgjafi-og-leikari-i-thremur-efstu-saetum-vidreisnar-i-reykjavik-468882', source: 'ruv.is' },
+          { title: 'Fjölmiðlakona, stjórnsýsluráðgjafi og leikari í þremur efstu sætum Viðreisnar í Reykjavík', url: 'https://www.ruv.is/frettir/innlent/2026-03-05-fjolmidlakona-stjornsysluradgjafi-og-leikari-i-thremur-efstu-saetum-vidreisnar-i-reykjavik-468882', source: 'ruv.is' },
           { title: 'Róbert vill leiða Viðreisn í borginni', url: 'https://www.mbl.is/frettir/innlent/2025/12/10/robert_vill_leida_vidreisn_i_borginni/', source: 'mbl.is' },
         ],
       }],
@@ -834,7 +1003,10 @@ const RVK = {
           { type: 'instagram', url: 'https://www.instagram.com/thorkristjansson/', label: 'Instagram' },
         ],
         news: [
-          { title: 'Fjölmiðlakona, stjórnsýsluráðgjafi og leikari í þremur efstu sætum Viðreisnar', url: 'https://www.ruv.is/frettir/innlent/2026-03-05-fjolmidlakona-stjornsysluradgjafi-og-leikari-i-thremur-efstu-saetum-vidreisnar-i-reykjavik-468882', source: 'ruv.is' },
+          { title: 'Fjölmiðlakona, stjórnsýsluráðgjafi og leikari í þremur efstu sætum Viðreisnar í Reykjavík', url: 'https://www.ruv.is/frettir/innlent/2026-03-05-fjolmidlakona-stjornsysluradgjafi-og-leikari-i-thremur-efstu-saetum-vidreisnar-i-reykjavik-468882', source: 'ruv.is' },
+          { title: 'Þorvaldur vann á skrifstofu og var kominn á góðan stað – En þá sagði líkaminn stopp', url: 'https://www.dv.is/fokus/2025/06/11/thorvaldur-vann-skrifstofu-og-var-kominn-godan-stad-en-tha-sagdi-likaminn-stopp/', source: 'dv.is' },
+          { title: 'Þorvaldur Davíð valinn í Shooting Stars hópinn fyrir 2023', url: 'https://www.visir.is/g/20222352171d/thorvaldur-david-valinn-i-shooting-stars-hopinn-fyrir-2023', source: 'visir.is' },
+          { title: 'Framboðslisti Viðreisnar í Reykjavík', url: 'https://www.dv.is/eyjan/2026/03/05/frambodslisti-vidreisnar-reykjavik/', source: 'dv.is' },
         ],
       }],
       [4,  'Margrét Rós Sigurjónsdóttir',    'Umhverfisfræðingur, forstjóri Kolaportið',             'images/candidates/883b191be94067c6.jpg', {
@@ -846,6 +1018,7 @@ const RVK = {
         ],
         news: [
           { title: 'Þau skipa lista Viðreisnar í Reykjavík', url: 'https://www.visir.is/g/20262851854d/thau-skipa-lista-vid-reisnar-i-reykja-vik', source: 'visir.is' },
+          { title: 'Framboðslisti Viðreisnar í Reykjavík', url: 'https://www.dv.is/eyjan/2026/03/05/frambodslisti-vidreisnar-reykjavik/', source: 'dv.is' },
         ],
       }],
       [5,  'Eyþór Máni Steinarsson',         'Frumkvöðull, meðstofnandi Hopp',                      'images/candidates/c518892529d88df5.jpg', {
@@ -858,6 +1031,8 @@ const RVK = {
         ],
         news: [
           { title: 'Þau skipa lista Viðreisnar í Reykjavík', url: 'https://www.visir.is/g/20262851854d/thau-skipa-lista-vid-reisnar-i-reykja-vik', source: 'visir.is' },
+          { title: '24 ára milljónamæringur: Með eitt par af hnífapörum, einn disk og örbylgjuofn', url: 'https://www.visir.is/g/20232358094d/24-ara-milljonamaeringur-med-eitt-par-af-hnifaporum-einn-disk-og-orbylgjuofn', source: 'visir.is' },
+          { title: 'Eyþór hættir sem framkvæmdastjóri Hopp', url: 'https://www.mbl.is/frettir/innlent/2025/07/05/eythor_haettir_sem_framkvaemdastjori_hopp/', source: 'mbl.is' },
         ],
       }],
       [6,  'Sandra Hlín Guðmundsdóttir',     'Skólaráðgjafi, félagsformaður',                        'images/candidates/f0e4cff51bc7d470.jpg'],
@@ -923,6 +1098,8 @@ const RVK = {
         news: [
           { title: 'Góðan daginn býður fram í Reykjavík', url: 'https://www.ruv.is/frettir/innlent/2026-04-10-godan-daginn-bydur-fram-i-reykjavik-472412', source: 'ruv.is' },
           { title: 'Nýtt framboð í Reykjavík á elleftu stundu', url: 'https://www.visir.is/g/20262867276d/nytt-fram-bod-i-reykja-vik-a-elleftu-stundu', source: 'visir.is' },
+          { title: 'Góðan daginn býður góðan dag', url: 'https://www.visir.is/g/20262867523d/godan-daginn-bydur-godan-dag', source: 'visir.is' },
+          { title: 'Töldu framboðinu ekki til fram­dráttar að mæta í þáttinn', url: 'https://www.visir.is/g/20262869531d/toldu-frambodinu-ekki-til-fram-drattar-ad-maeta-i-thattinn', source: 'visir.is' },
         ],
       }],
       [2, 'Hjördís Dröfn Vilhjálmsdóttir', 'Leiðtoga- og teymisþjálfari', 'images/candidates/7bf5d3e940e2e319.png', {
@@ -934,6 +1111,7 @@ const RVK = {
         ],
         news: [
           { title: 'Góðan daginn býður fram í Reykjavík', url: 'https://www.ruv.is/frettir/innlent/2026-04-10-godan-daginn-bydur-fram-i-reykjavik-472412', source: 'ruv.is' },
+          { title: 'Góðan daginn býður góðan dag', url: 'https://www.visir.is/g/20262867523d/godan-daginn-bydur-godan-dag', source: 'visir.is' },
         ],
       }],
       [3, 'Torfi Markússon', 'Rekstrarfræðingur', null, {
@@ -943,6 +1121,7 @@ const RVK = {
         social: [],
         news: [
           { title: 'Góðan daginn býður góðan dag', url: 'https://www.visir.is/g/20262867523d/godan-daginn-bydur-godan-dag', source: 'visir.is' },
+          { title: 'Góðan daginn býður fram í Reykjavík', url: 'https://www.ruv.is/frettir/innlent/2026-04-10-godan-daginn-bydur-fram-i-reykjavik-472412', source: 'ruv.is' },
         ],
       }],
       [4, 'Nathalia B. Tómasdóttir', 'Vörumerkjahönnuður', null, {
@@ -952,6 +1131,7 @@ const RVK = {
         social: [],
         news: [
           { title: 'Góðan daginn býður fram í Reykjavík', url: 'https://www.ruv.is/frettir/innlent/2026-04-10-godan-daginn-bydur-fram-i-reykjavik-472412', source: 'ruv.is' },
+          { title: 'Nýtt framboð í Reykjavík á elleftu stundu', url: 'https://www.visir.is/g/20262867276d/nytt-fram-bod-i-reykja-vik-a-elleftu-stundu', source: 'visir.is' },
         ],
       }],
       [5, 'Jón L. Árnason', 'Framkvæmdastjóri', null, {
@@ -961,6 +1141,7 @@ const RVK = {
         social: null,
         news: [
           { title: 'Nýtt framboð í Reykjavík á elleftu stundu', url: 'https://www.visir.is/g/20262867276d/nytt-fram-bod-i-reykja-vik-a-elleftu-stundu', source: 'visir.is' },
+          { title: 'Góðan daginn býður góðan dag', url: 'https://www.visir.is/g/20262867523d/godan-daginn-bydur-godan-dag', source: 'visir.is' },
         ],
       }],
       [6, 'Björn Jóhann Þórsson', 'Verkfræðingur'],
@@ -1004,6 +1185,10 @@ const RVK = {
         news: [
           { title: 'Hin 25 ára Silja Sóley oddviti Sósíalista í Reykjavík', url: 'https://www.visir.is/g/20262841326d/hin-25-ara-silja-sol-ey-odd-viti-sosial-ista-i-reykja-vik', source: 'visir.is' },
           { title: 'Silja Sóley leiðir lista Sósíalista í borginni', url: 'https://www.ruv.is/frettir/innlent/2026-02-10-silja-soley-leidir-lista-sosialista-i-borginni-466613', source: 'ruv.is' },
+          { title: 'Framboðslisti Sósíalistaflokks Íslands í borginni', url: 'https://www.mbl.is/frettir/innlent/2026/04/07/frambodslisti_sosialistaflokks_islands_i_borginni/', source: 'mbl.is' },
+          { title: 'Vilja bregðast við húsnæðisvanda með því að borgin byggi meira sjálf', url: 'https://www.ruv.is/frettir/innlent/2026-02-11-vilja-bregdast-vid-husnaedisvanda-med-thvi-ad-borgin-byggi-meira-sjalf-466719', source: 'ruv.is' },
+          { title: '#547 Silja Sóley Birgisdóttir (J) – Borgarstjórnarkosningar 2026 á Hlaðvarp mbl.is', url: 'https://www.mbl.is/hladvarp/hlusta/ein-paeling/thattur/905770533fabcebb01646055e6fe557c/', source: 'mbl.is' },
+          { title: 'Þau skipa lista Sósíalistaflokksins í Reykjavík', url: 'https://www.visir.is/g/20262865767d/thau-skipa-lista-sosialistaflokksins-i-reykjavik', source: 'visir.is' },
         ],
       }],
       [2, 'Sigrún E. Unnsteinsdóttir', 'Kaupsýslumaður', null, {
@@ -1105,6 +1290,11 @@ const RVK = {
         news: [
           { title: 'Sigfús í efsta sæti hjá Okkar borg', url: 'https://www.ruv.is/frettir/innlent/2026-01-28-sigfus-i-efsta-saeti-hja-okkar-borg-465352', source: 'ruv.is' },
           { title: 'Sigfús Aðalsteinsson: Trömpistinn sem vill bjarga Íslandi', url: 'https://www.visir.is/g/20252738782d/sig-fus-adal-steins-son-trompistinn-sem-vill-bjarga-is-landi', source: 'visir.is' },
+          { title: 'Ísland, þvert á flokka kærir þrjú fyrir hatursorðræðu', url: 'https://www.visir.is/g/20252739831d/is-land-thvert-a-flokka-kaerir-thrju-fyrir-hatur-sordraedu', source: 'visir.is' },
+          { title: '„Við erum engir rasistar"', url: 'https://www.visir.is/g/20252733453d/-vid-erum-engir-rasistar-', source: 'visir.is' },
+          { title: 'Þöggun – Okkar Borg', url: 'https://www.visir.is/g/20262862296d/thoggun-okkar-borg', source: 'visir.is' },
+          { title: 'Karlarnir leiða að ósk kvennanna', url: 'https://www.visir.is/g/20262835297d/sig-fus-baldur-og-hlynur-leida-hja-okkar-borg', source: 'visir.is' },
+          { title: 'Okkar borg birtir framboðslista', url: 'https://www.ruv.is/frettir/innlent/2026-03-23-okkar-borg-birtir-frambodslista-470631', source: 'ruv.is' },
         ],
       }],
       [2,  'Baldur Borgþórsson',          'Ráðgjafi',                         'images/candidates/2e7a4d9ac5ac3434.png', {
@@ -1115,7 +1305,9 @@ const RVK = {
           { type: 'facebook', url: 'https://www.facebook.com/people/Baldur-Borgþórsson/100001276888554', label: 'Facebook' },
         ],
         news: [
-          { title: 'Okkar Borg kynnir framboðslista sinn', url: 'https://utvarpsaga.is/okkar-borg-kynnir-frambodslista-sinn-i-reykjavik/', source: 'utvarpsaga.is' },
+          { title: 'Okkar Borg kynnir framboðslista sinn í Reykjavík', url: 'https://utvarpsaga.is/okkar-borg-kynnir-frambodslista-sinn-i-reykjavik/', source: 'utvarpsaga.is' },
+          { title: 'Karlarnir leiða að ósk kvennanna', url: 'https://www.visir.is/g/20262835297d/sig-fus-baldur-og-hlynur-leida-hja-okkar-borg', source: 'visir.is' },
+          { title: 'Okkar borg birtir framboðslista', url: 'https://www.ruv.is/frettir/innlent/2026-03-23-okkar-borg-birtir-frambodslista-470631', source: 'ruv.is' },
         ],
       }],
       [3,  'Hlynur Áskelson',             'Kennari',                          'images/candidates/9d9b546984a10294.png', {
@@ -1124,7 +1316,8 @@ const RVK = {
         interests: ['Menntamál', 'Breytingar á skólaáherslum borgarinnar'],
         social: null,
         news: [
-          { title: 'Okkar Borg kynnir framboðslista sinn', url: 'https://utvarpsaga.is/okkar-borg-kynnir-frambodslista-sinn-i-reykjavik/', source: 'utvarpsaga.is' },
+          { title: 'Okkar Borg kynnir framboðslista sinn í Reykjavík', url: 'https://utvarpsaga.is/okkar-borg-kynnir-frambodslista-sinn-i-reykjavik/', source: 'utvarpsaga.is' },
+          { title: 'Karlarnir leiða að ósk kvennanna', url: 'https://www.visir.is/g/20262835297d/sig-fus-baldur-og-hlynur-leida-hja-okkar-borg', source: 'visir.is' },
         ],
       }],
       [4,  'Ágústa Árnadóttir',           'Jógaþjálfari',                     'images/candidates/bcf4b8d3ec878ad7.png', {
@@ -1352,6 +1545,10 @@ const AKU = {
           { title: 'Berglind Ósk leiðir Sjálfstæðismenn á Akureyri', url: 'https://www.mbl.is/frettir/innlent/2026/02/07/berglind_osk_leidir_sjalfstaedismenn_a_akureyri_2/', source: 'mbl.is' },
           { title: 'Berglind Ósk vill oddvitasæti', url: 'https://www.mbl.is/frettir/innlent/2026/01/15/berglind_osk_vill_oddvitasaeti/', source: 'mbl.is' },
           { title: 'Fyrrverandi þingmaður vill oddvitasæti á Akureyri', url: 'https://www.visir.is/g/20262829312d/fyrr-verandi-thing-madur-vill-oddvitasaeti-a-akur-eyri', source: 'visir.is' },
+          { title: 'Stofna til kosningabandalags á Akureyri', url: 'https://www.mbl.is/frettir/innlent/2026/01/25/stofna_til_kosningabandalags_a_akureyri/', source: 'mbl.is' },
+          { title: 'Berglind klæðist aldrei neinu óþægilegu', url: 'https://www.mbl.is/smartland/frami/2022/02/19/berglind_klaedist_aldrei_neinu_othaegilegu/', source: 'mbl.is' },
+          { title: 'Berglind Harpa í þriðja sætinu hjá Sjálfstæðisflokknum: Berglind Ósk hætt', url: 'https://austurfrett.is/frettir/berglind-harpa-i-thridhja-saetinu-hja-sjalfstaedhisflokknum-berglind-osk-haett', source: 'austurfrett.is' },
+          { title: 'Hingað til náms - hingað til framtíðar', url: 'https://kaffid.is/hingad-til-nams-hingad-til-framtidar/', source: 'kaffid.is' },
           { title: 'Fullskipaður framboðslisti Sjálfstæðisflokksins á Akureyri', url: 'https://xd.is/2026/02/26/fullskipadur-frambodislisti-sjalfstaedisflokksins-a-akureyri/', source: 'xd.is' },
         ],
       }],
@@ -1361,7 +1558,9 @@ const AKU = {
         interests: ['Atvinnuþróun og nýsköpun', 'Uppbygging og innviðir', 'Ábyrg fjármálastjórnun', 'Góð þjónusta við íbúa'],
         social: null,
         news: [
+          { title: 'Stofna til kosningabandalags á Akureyri', url: 'https://www.mbl.is/frettir/innlent/2026/01/25/stofna_til_kosningabandalags_a_akureyri/', source: 'mbl.is' },
           { title: 'Fullskipaður framboðslisti Sjálfstæðisflokksins á Akureyri', url: 'https://xd.is/2026/02/26/fullskipadur-frambodislisti-sjalfstaedisflokksins-a-akureyri/', source: 'xd.is' },
+          { title: 'Listi Sjálfstæðisflokksins á Akureyri kynntur', url: 'https://www.mbl.is/frettir/innlent/2026/03/14/listi_sjalfstaedisflokksins_a_akureyri_kynntur/', source: 'mbl.is' },
         ],
       }],
       [3, 'Arna Rut Gunnarsdóttir', 'Framkvæmdastjóri', 'images/candidates/4cdad139cabe1f4d.png', {
@@ -1389,6 +1588,7 @@ const AKU = {
         social: null,
         news: [
           { title: 'Fullskipaður framboðslisti Sjálfstæðisflokksins á Akureyri', url: 'https://xd.is/2026/02/26/fullskipadur-frambodislisti-sjalfstaedisflokksins-a-akureyri/', source: 'xd.is' },
+          { title: 'Hingað til náms - hingað til framtíðar', url: 'https://kaffid.is/hingad-til-nams-hingad-til-framtidar/', source: 'kaffid.is' },
         ],
       }],
       [6, 'Kristína Björk Arnórsdóttir', 'Persónuverndarfulltrúi', 'images/candidates/9600c4623657d8ee.png'],
@@ -1428,7 +1628,13 @@ const AKU = {
         social: [],
         news: [
           { title: 'Sunna Hlín leiðir lista Framsóknar á Akureyri', url: 'https://www.kaffid.is/sunna-hlin-leidir-lista-framsoknar-a-akureyri/', source: 'kaffid.is' },
-          { title: 'Sunna Hlín Jóhannesdóttir leiðir lista Framsóknar', url: 'https://framsokn.is/nyjast/frettir/sunna-hlin-johannesdottir-framhaldsskolakennari-og-varabaejarfulltrui-leidir-lista-framsoknar-a-akureyri/', source: 'framsokn.is' },
+          { title: 'Sunna Hlín Jóhannesdóttir framhaldsskólakennari og varabæjarfulltrúi leiðir lista Framsóknar á Akureyri', url: 'https://framsokn.is/nyjast/frettir/sunna-hlin-johannesdottir-framhaldsskolakennari-og-varabaejarfulltrui-leidir-lista-framsoknar-a-akureyri/', source: 'framsokn.is' },
+          { title: 'Oddvitaspjall - Sunna Hlín Jóhannesdóttir', url: 'https://kaffid.is/oddvitaspjall-sunna-hlin-johannesdottir/', source: 'kaffid.is' },
+          { title: 'Sunna Hlín gefur kost á sér í oddvitasæti Framsóknar á Akureyri', url: 'https://www.kaffid.is/sunna-hlin-gefur-kost-a-ser-i-oddvitasaeti-framsoknar-a-akureyri/', source: 'kaffid.is' },
+          { title: 'Meirihlutinn skilaði auðu í stefnumörkun atvinnumála', url: 'https://www.kaffid.is/meirihlutinn-skiladi-audu-i-stefnumorkun-atvinnumala/', source: 'kaffid.is' },
+          { title: 'Spörum okkur ekki til óbóta', url: 'https://kaffid.is/sporum-okkur-ekki-til-obota/', source: 'kaffid.is' },
+          { title: 'Framtíðarsýn í fræðslu- og dagvistarmálum á Akureyri', url: 'https://www.vikubladid.is/is/frettir/framtidarsyn-i-fraedslu-og-dagvistarmalum-a-akureyri', source: 'vikubladid.is' },
+          { title: 'Oddvitaáskorunin: Horfir vandræðalega mikið á raunveruleikaþætti', url: 'https://www.visir.is/g/20222257242d', source: 'visir.is' },
         ],
       }],
       [2, 'Gunnar Már Gunnarsson', 'Bæjarfulltrúi', null, {
@@ -1438,6 +1644,7 @@ const AKU = {
         social: null,
         news: [
           { title: 'Sunna Hlín leiðir lista Framsóknar á Akureyri', url: 'https://www.kaffid.is/sunna-hlin-leidir-lista-framsoknar-a-akureyri/', source: 'kaffid.is' },
+          { title: 'Framboðslisti Framsóknarflokksins á Akureyri tilbúinn', url: 'https://www.vikubladid.is/is/moya/news/frambodslisti-framsoknarflokksins-a-akureyri-tilbuinn', source: 'vikubladid.is' },
         ],
       }],
       [3, 'Sverre Andreas Jakobsson', 'Svæðisstjóri hjá Arion banka', null, {
@@ -1447,6 +1654,7 @@ const AKU = {
         social: null,
         news: [
           { title: 'Sunna Hlín leiðir lista Framsóknar á Akureyri', url: 'https://www.kaffid.is/sunna-hlin-leidir-lista-framsoknar-a-akureyri/', source: 'kaffid.is' },
+          { title: 'Spörum okkur ekki til óbóta', url: 'https://kaffid.is/sporum-okkur-ekki-til-obota/', source: 'kaffid.is' },
         ],
       }],
       [4, 'Guðbjörg Anna Björnsdóttir', 'Skrifstofustjóri', null, {
@@ -1506,6 +1714,10 @@ const AKU = {
           { title: 'Lovísa leiðir lista Viðreisnar', url: 'https://www.mbl.is/frettir/innlent/2026/02/23/lovisa_leidir_lista_vidreisnar/', source: 'mbl.is' },
           { title: 'Lovísa Oktovía leiðir lista Viðreisnar á Akureyri', url: 'https://www.ruv.is/frettir/innlent/2026-02-24-lovisa-oktovia-leidir-lista-vidreisnar-a-akureyri-467768', source: 'ruv.is' },
           { title: 'Vill leiða lista Viðreisnar á Akureyri', url: 'https://www.mbl.is/frettir/innlent/2026/01/19/vill_leida_lista_vidreisnar_a_akureyri/', source: 'mbl.is' },
+          { title: 'Lovísa Oktovía leiðir lista Viðreisnar á Akureyri', url: 'https://www.vikubladid.is/is/moya/news/lovisa-oktovia-leidir-lista-vidreisnar-a-akureyri', source: 'vikubladid.is' },
+          { title: 'Lovísa Oktovía leiðir lista Viðreisnar á Akureyri', url: 'https://www.kaffid.is/lovisa-oktovia-leidir-lista-vidreisnar-a-akureyri/', source: 'kaffid.is' },
+          { title: 'Börnin okkar kalla - hver er að hlusta?', url: 'https://www.vikubladid.is/is/moya/news/bornin-okkar-kalla-hver-er-ad-hlusta-1', source: 'vikubladid.is' },
+          { title: 'Fyrir hvað á Akureyri að standa?', url: 'https://www.kaffid.is/fyrir-hvad-a-akureyri-ad-standa/', source: 'kaffid.is' },
         ],
       }],
       [2, 'Elías Gunnar Þorbjörnsson', 'Skólastjóri', 'images/candidates/2c8e38b4a138c22e.jpg', {
@@ -1515,6 +1727,7 @@ const AKU = {
         social: null,
         news: [
           { title: 'Lovísa leiðir lista Viðreisnar', url: 'https://www.mbl.is/frettir/innlent/2026/02/23/lovisa_leidir_lista_vidreisnar/', source: 'mbl.is' },
+          { title: 'Börnin okkar kalla - hver er að hlusta?', url: 'https://www.vikubladid.is/is/moya/news/bornin-okkar-kalla-hver-er-ad-hlusta-1', source: 'vikubladid.is' },
         ],
       }],
       [3, 'Þóroddur Ingvarsson', 'Svæfinga- og gjörgæslulæknir', 'images/candidates/1a778837f3afea2f.jpg', {
@@ -1582,8 +1795,11 @@ const AKU = {
         social: [],
         news: [
           { title: 'Hættur á RÚV og heldur í bæjarpólitíkina', url: 'https://www.mbl.is/frettir/innlent/2026/02/13/haettur_a_ruv_og_heldur_i_baejarpolitikina/', source: 'mbl.is' },
-          { title: 'Óðinn Svan hættur hjá RÚV', url: 'https://www.visir.is/g/20262843166d/odinn-svan-haettur-hja-ruv-madur-getur-ekki-verid-at-vinnu-laus-lengi-', source: 'visir.is' },
+          { title: 'Óðinn Svan hættir á RÚV og leiðir L-listann', url: 'https://www.kaffid.is/af-ruv-yfir-i-baejarpolitikina/', source: 'kaffid.is' },
           { title: 'Listi L-listans ákveðinn', url: 'https://www.ruv.is/frettir/innlent/2026-03-13-listi-l-listans-akvedinn-469773', source: 'ruv.is' },
+          { title: 'Óðinn Svan hættir á RÚV og leiðir L-listann', url: 'https://www.visir.is/g/20262843231d/odinn-svan-leidir-l-listann', source: 'visir.is' },
+          { title: 'Óðinn Svan verður í efsta sæti L-listans', url: 'https://www.akureyri.net/is/frettir/odinn-svan-verdur-i-efsta-saeti-l-listans', source: 'akureyri.net' },
+          { title: 'Þau skipa L-listann á Akureyri', url: 'https://www.visir.is/g/20262866820d/thau-skipa-l-listann-a-akureyri', source: 'visir.is' },
         ],
       }],
       [2, 'Brynja Hlíf Þorsteinsdóttir', 'Bæjarfulltrúi og lífeindafræðingur', 'images/candidates/29c915b00a084139.jpg', {
@@ -1593,6 +1809,7 @@ const AKU = {
         social: null,
         news: [
           { title: 'Listi L-listans ákveðinn', url: 'https://www.ruv.is/frettir/innlent/2026-03-13-listi-l-listans-akvedinn-469773', source: 'ruv.is' },
+          { title: 'Þau skipa L-listann á Akureyri', url: 'https://www.visir.is/g/20262866820d/thau-skipa-l-listann-a-akureyri', source: 'visir.is' },
         ],
       }],
       [3, 'Preben Jón Pétursson', 'Mjólkurtæknifræðingur', 'images/candidates/f362d598505c9b68.jpg', {
@@ -1659,6 +1876,9 @@ const AKU = {
         news: [
           { title: 'Hlynur leiðir lista Miðflokksins á Akureyri áfram', url: 'https://kaffid.is/hlynur-leidir-midflokkinn-a-akureyri-afram/', source: 'kaffid.is' },
           { title: 'Hlynur áfram efstur hjá Miðflokknum', url: 'https://www.akureyri.net/is/frettir/hlynur-afram-efstur-hja-midflokknum', source: 'akureyri.net' },
+          { title: 'Oddvitaspjall - Hlynur Jóhannsson', url: 'https://kaffid.is/oddvitaspjall-hlynur-johannsson/', source: 'kaffid.is' },
+          { title: 'Hlynur Jóhannsson bæjarfulltrúi leiðir lista Miðflokksins á Akureyri', url: 'https://www.vikubladid.is/is/moya/news/hlynur-johannsson-baejarfulltrui-leidir-lista-midflokksins-a-akureyri', source: 'vikubladid.is' },
+          { title: 'Hlynur leiðir Miðflokkinn á Akureyri', url: 'https://www.mbl.is/frettir/kosning/2018/05/06/hlynur_leidir_midflokkinn_a_akureyri/', source: 'mbl.is' },
         ],
       }],
       [2, 'Inga Dís Sigurðardóttir', 'Kennari og náms- og starfsráðgjafi', 'images/candidates/0c5926d9875e3788.png', {
@@ -1736,6 +1956,9 @@ const AKU = {
         news: [
           { title: 'Sindri nýr oddviti Samfylkingingarinnar á Akureyri', url: 'https://www.mbl.is/frettir/innlent/2026/03/14/sindri_nyr_oddviti_samfylkingingarinnar_a_akureyri/', source: 'mbl.is' },
           { title: 'Nýr oddviti hjá Samfylkingunni á Akureyri', url: 'https://www.ruv.is/frettir/innlent/2026-03-14-nyr-oddviti-hja-samfylkingunni-a-akureyri-469825', source: 'ruv.is' },
+          { title: 'Sindri S. Kristjánsson er oddviti Samfylkingarinnar á Akureyri', url: 'https://www.vikubladid.is/is/moya/news/sindri-s-kristjansson-er-oddviti-samfylkingarinnar-a-akureyri-fyrir-komandi-sveitarstjornarkosninga-i-vor', source: 'vikubladid.is' },
+          { title: 'Sterkari saman', url: 'https://www.visir.is/g/20262872428d/sterkari-saman', source: 'visir.is' },
+          { title: 'Hvað ætlar Akureyri að verða þegar hún verður stór?', url: 'https://kaffid.is/hvad-aetlar-akureyri-ad-verda-thegar-hun-verdur-stor/', source: 'kaffid.is' },
         ],
       }],
       [2, 'Hanna Dóra Markúsdóttir', 'Grunnskólakennari', 'images/candidates/ecf356f7b68a1e49.png', {
@@ -1754,6 +1977,9 @@ const AKU = {
         social: null,
         news: [
           { title: 'Sindri nýr oddviti Samfylkingingarinnar á Akureyri', url: 'https://www.mbl.is/frettir/innlent/2026/03/14/sindri_nyr_oddviti_samfylkingingarinnar_a_akureyri/', source: 'mbl.is' },
+          { title: 'Matargjafir Akureyri og nágrenni - söfnuðu 7 milljónum og náðu að aðstoða rúmlega 200 fjölskyldur', url: 'https://www.vikubladid.is/is/frettir/matargjafir-akureyri-og-nagrenni-sofnudu-7-milljonum-og-nadu-ad-adstoda-rumlega-200-fjolskyldur', source: 'vikubladid.is' },
+          { title: 'Matargjafir styrktu fjölskyldur fyrir ríflega 7 milljónir', url: 'https://www.kaffid.is/matargjafir-styrktu-fjolskyldur-fyrir-riflega-7-milljonir/', source: 'kaffid.is' },
+          { title: 'Fjölmargar fjölskyldur á Akureyri í vandræðum - Óska eftir matargjöfum til að anna eftirspurn', url: 'https://www.kaffid.is/fjolmargar-fjolskyldur-a-akureyri-i-vandraedum-oska-eftir-matargjofum-til-ad-anna-eftirspurn/', source: 'kaffid.is' },
         ],
       }],
       [4, 'Jóhannes Már Pétursson', 'Háskólanemi', 'images/candidates/7d3cddff4ec98cfa.png', {
@@ -1809,9 +2035,13 @@ const AKU = {
           { type: 'facebook', url: 'https://www.facebook.com/janasalome', label: 'Facebook' },
         ],
         news: [
-          { title: 'Jana Salóme leiðir lista VG á Akureyri', url: 'https://www.vikubladid.is/is/moya/news/jana-salome-ingibjargar-josepsdottir-leidir-lista-vg-a-akureyri-i-komandi-sveitarstjornarkosningum', source: 'vikubladid.is' },
-          { title: 'Oddvitaspjall - Jana Salóme', url: 'https://kaffid.is/oddvitaspjall-jana-salome-ingibjargar-josepsdottir/', source: 'kaffid.is' },
+          { title: 'Jana Salóme Ingibjargar Jósepsdóttir leiðir lista VG á Akureyri í komandi sveitarstjórnarkosningum', url: 'https://www.vikubladid.is/is/moya/news/jana-salome-ingibjargar-josepsdottir-leidir-lista-vg-a-akureyri-i-komandi-sveitarstjornarkosningum', source: 'vikubladid.is' },
+          { title: 'Oddvitaspjall - Jana Salóme Ingibjargar Jósepsdóttir', url: 'https://kaffid.is/oddvitaspjall-jana-salome-ingibjargar-josepsdottir/', source: 'kaffid.is' },
           { title: 'Jana Salóme gefur kost á sér til að leiða VG fyrir norðan', url: 'https://www.dv.is/eyjan/2022/01/10/jana-salome-gefur-kost-ser-til-ad-leida-vg-fyrir-nordan/', source: 'dv.is' },
+          { title: 'Jana Salóme og Steinar höfðu betur á landsfundi VG', url: 'https://www.visir.is/g/20232391233d', source: 'visir.is' },
+          { title: 'Jana vill 1. sæti VG á Akureyri', url: 'https://www.mbl.is/frettir/innlent/2022/01/10/jana_vill_1_saeti_vg_a_akureyri/', source: 'mbl.is' },
+          { title: 'Sjókvíaeldi við Eyjafjörð', url: 'https://kaffid.is/sjokviaeldi-vid-eyjafjord/', source: 'kaffid.is' },
+          { title: 'Framboðslisti VG samþykktur á Akureyri', url: 'https://www.kaffid.is/frambodslisti-vg-samthykktur-a-akureyri/', source: 'kaffid.is' },
         ],
       }],
       [2, 'Stefán Oddur Hrafnsson', 'Meistaranemi í uppeldis- og menntunarfræði', null, {
@@ -1820,7 +2050,7 @@ const AKU = {
         interests: ['Menntamál og uppeldi', 'Jafnrétti og félagslegt réttlæti', 'Umhverfismál', 'Húsnæðismál'],
         social: null,
         news: [
-          { title: 'Jana Salóme leiðir lista VG á Akureyri', url: 'https://www.vikubladid.is/is/moya/news/jana-salome-ingibjargar-josepsdottir-leidir-lista-vg-a-akureyri-i-komandi-sveitarstjornarkosningum', source: 'vikubladid.is' },
+          { title: 'Jana Salóme Ingibjargar Jósepsdóttir leiðir lista VG á Akureyri í komandi sveitarstjórnarkosningum', url: 'https://www.vikubladid.is/is/moya/news/jana-salome-ingibjargar-josepsdottir-leidir-lista-vg-a-akureyri-i-komandi-sveitarstjornarkosningum', source: 'vikubladid.is' },
         ],
       }],
       [3, 'Ásrún Ýr Gestsdóttir', 'Frumkvöðull', null, {
@@ -1829,7 +2059,7 @@ const AKU = {
         interests: ['Nýsköpun og sjálfbær þróun', 'Umhverfismál', 'Jafnrétti', 'Húsnæðismál'],
         social: null,
         news: [
-          { title: 'Jana Salóme leiðir lista VG á Akureyri', url: 'https://www.vikubladid.is/is/moya/news/jana-salome-ingibjargar-josepsdottir-leidir-lista-vg-a-akureyri-i-komandi-sveitarstjornarkosningum', source: 'vikubladid.is' },
+          { title: 'Jana Salóme Ingibjargar Jósepsdóttir leiðir lista VG á Akureyri í komandi sveitarstjórnarkosningum', url: 'https://www.vikubladid.is/is/moya/news/jana-salome-ingibjargar-josepsdottir-leidir-lista-vg-a-akureyri-i-komandi-sveitarstjornarkosningum', source: 'vikubladid.is' },
         ],
       }],
       [4, 'Sigtryggur Ellertsson', 'Kaupsýslumaður', null, {
@@ -1838,7 +2068,7 @@ const AKU = {
         interests: ['Umhverfismál og loftslagsmál', 'Sjálfbær atvinnuþróun', 'Húsnæðismál', 'Jafnrétti'],
         social: null,
         news: [
-          { title: 'Jana Salóme leiðir lista VG á Akureyri', url: 'https://www.vikubladid.is/is/moya/news/jana-salome-ingibjargar-josepsdottir-leidir-lista-vg-a-akureyri-i-komandi-sveitarstjornarkosningum', source: 'vikubladid.is' },
+          { title: 'Jana Salóme Ingibjargar Jósepsdóttir leiðir lista VG á Akureyri í komandi sveitarstjórnarkosningum', url: 'https://www.vikubladid.is/is/moya/news/jana-salome-ingibjargar-josepsdottir-leidir-lista-vg-a-akureyri-i-komandi-sveitarstjornarkosningum', source: 'vikubladid.is' },
         ],
       }],
       [5, 'Herdís Júlía Júlíusdóttir', 'Iðnnemi', null, {
@@ -1847,7 +2077,7 @@ const AKU = {
         interests: ['Ungmennamál og framtíðarsýn', 'Umhverfismál', 'Jafnrétti', 'Húsnæðismál'],
         social: null,
         news: [
-          { title: 'Jana Salóme leiðir lista VG á Akureyri', url: 'https://www.vikubladid.is/is/moya/news/jana-salome-ingibjargar-josepsdottir-leidir-lista-vg-a-akureyri-i-komandi-sveitarstjornarkosningum', source: 'vikubladid.is' },
+          { title: 'Jana Salóme Ingibjargar Jósepsdóttir leiðir lista VG á Akureyri í komandi sveitarstjórnarkosningum', url: 'https://www.vikubladid.is/is/moya/news/jana-salome-ingibjargar-josepsdottir-leidir-lista-vg-a-akureyri-i-komandi-sveitarstjornarkosningum', source: 'vikubladid.is' },
         ],
       }],
       [6, 'Erlendur Steinar Friðriksson', 'Sjávarútvegssérfræðingur'],
@@ -1887,6 +2117,10 @@ const AKU = {
           { title: 'Þórhallur leiðir Akureyrarlistann', url: 'https://www.ruv.is/frettir/innlent/2026-03-27-thorhallur-leidir-akureyrarlistann-471175', source: 'ruv.is' },
           { title: 'Þórhallur teflir fram nýjum lista', url: 'https://www.kaffid.is/thorhallur-teflir-fram-nyjum-lista/', source: 'kaffid.is' },
           { title: 'Þórhallur fer fram í 1. sæti og krefst prófkjörs', url: 'https://www.mbl.is/frettir/innlent/2026/01/29/thorhallur_fer_fram_i_1_saeti_og_krefst_profkjors/', source: 'mbl.is' },
+          { title: 'Þórhallur Jónsson sækist eftir fyrst sæti hjá Sjálfstæðismönnum og vill prófkjör', url: 'https://www.vikubladid.is/is/moya/news/thorhallur-jonsson-saekist-eftir-fyrst-saeti-hja-sjalfstaedismonnum-og-vill-profkjor-1', source: 'vikubladid.is' },
+          { title: 'Þórhallur Jónsson fer í sérframboð', url: 'https://www.akureyri.net/is/moya/news/thorhallur-jonsson-fer-i-serframbod', source: 'akureyri.net' },
+          { title: 'Ótækt að breyta aðferð við val á listann', url: 'https://www.akureyri.net/is/frettir/otaekt-ad-breyta-adferd-vid-val-a-listann', source: 'akureyri.net' },
+          { title: 'Þórhallur, Karen og Helgi Steinar', url: 'https://www.akureyri.net/is/moya/news/thorhallur-karen-og-helgi-steinar', source: 'akureyri.net' },
         ],
       }],
       [2, 'Karen Sigurbjörnsdóttir', 'Mannauðsfulltrúi', 'images/candidates/387b2edd4a103cb5.jpg', {
@@ -1896,6 +2130,7 @@ const AKU = {
         social: null,
         news: [
           { title: 'Þórhallur leiðir Akureyrarlistann', url: 'https://www.ruv.is/frettir/innlent/2026-03-27-thorhallur-leidir-akureyrarlistann-471175', source: 'ruv.is' },
+          { title: 'Þórhallur, Karen og Helgi Steinar', url: 'https://www.akureyri.net/is/moya/news/thorhallur-karen-og-helgi-steinar', source: 'akureyri.net' },
         ],
       }],
       [3, 'Helgi Steinar Halldórsson', 'Fasteignasali og lýsingahönnuður', 'images/candidates/1d6f10eaca9e7985.jpg', {
@@ -1905,6 +2140,7 @@ const AKU = {
         social: null,
         news: [
           { title: 'Þórhallur leiðir Akureyrarlistann', url: 'https://www.ruv.is/frettir/innlent/2026-03-27-thorhallur-leidir-akureyrarlistann-471175', source: 'ruv.is' },
+          { title: 'Þórhallur, Karen og Helgi Steinar', url: 'https://www.akureyri.net/is/moya/news/thorhallur-karen-og-helgi-steinar', source: 'akureyri.net' },
         ],
       }],
       [4, 'Kristrún María Björnsdóttir', 'Doktorsnemi', null, {
@@ -1966,6 +2202,11 @@ const GAR = {
           { title: 'Almar leiðir Sjálfstæðismenn í Garðabæ', url: 'https://www.ruv.is/frettir/innlent/2026-02-17-almar-leidir-sjalfstaedismenn-i-gardabae-467281', source: 'ruv.is' },
           { title: 'Almar leiðir lista Sjálfstæðisflokksins í Garðabæ', url: 'https://xd.is/2026/02/17/almar-leidir-lista-sjalfstaedisflokksins-i-gardabae/', source: 'xd.is' },
           { title: 'Almar Guðmundsson nýr bæjarstjóri Garðabæjar', url: 'https://www.visir.is/g/20222271140d/almar-gudmundsson-nyr-baejarstjori-gardabaejar', source: 'visir.is' },
+          { title: 'Almar Guðmundsson látinn fara frá Samtökum iðnaðarins', url: 'https://kjarninn.is/frettir/2017-05-30-almar-gudmundsson-latinn-fara-fra-samtokum-idnadarins/', source: 'kjarninn.is' },
+          { title: 'Hyggjast hækka skatta og hagræða í Garðabæ', url: 'https://www.mbl.is/frettir/innlent/2023/11/02/hyggjast_haekka_skatta_og_hagraeda_i_gardabae/', source: 'mbl.is' },
+          { title: 'Við leggjum verk okkar óhrædd í dóm Garðbæinga', url: 'https://postar.is/gardabaer/vid-leggjum-verk-okkar-ohraedd-i-dom-gardbaeinga-segir-almar-gudmundsson-baejarstjori-gardabaejar-i-addraganda-kosning/', source: 'postar.is' },
+          { title: 'Lægri skattar og skuldahlutfall lækkar verulega', url: 'https://www.globenewswire.com/news-release/2025/12/04/3200270/0/is/L%C3%A6gri-skattar-og-skuldahlutfall-l%C3%A6kkar-verulega.html', source: 'globenewswire.com' },
+          { title: 'Kosningapallborð fréttatofu: Mun Sjálfstæðisflokkurinn halda velli í Garðabæ?', url: 'https://www.visir.is/g/20262872176d/kosningapallbord-frettastofu-mun-sjalfstaedisflokkurinn-halda-velli-i-gardabae-', source: 'visir.is' },
         ],
       }],
       [2, 'Björg Fenger', 'Formaður bæjarráðs og lögfræðingur', 'images/candidates/ec5805a90d116e9d.jpg', {
@@ -2042,6 +2283,12 @@ const GAR = {
         news: [
           { title: 'Hlynur leiðir lista Framsóknar í Garðabæ', url: 'https://www.mbl.is/frettir/innlent/2026/03/14/hlynur_leidir_lista_framsoknar_i_gardabae/', source: 'mbl.is' },
           { title: 'Framsókn í Garðabæ kynnir nýjan oddvita', url: 'https://www.ruv.is/frettir/innlent/2026-03-14-framsokn-i-gardabae-kynnir-nyjan-oddvita-469830', source: 'ruv.is' },
+          { title: 'Körfuboltastjarna íhugar framboð í Garðabæ', url: 'https://www.visir.is/g/20262844552d/korfuboltastjarna-ihugar-frambod-i-gardabae', source: 'visir.is' },
+          { title: 'Hlynur Elías Bæringsson - þvílíka goðsögnin', url: 'https://www.mbl.is/sport/korfubolti/2025/05/21/hlynur_elias_baeringsson_thvilika_godsognin/', source: 'mbl.is' },
+          { title: 'Ég þarf að finna nýjan tilgang', url: 'https://www.mbl.is/sport/korfubolti/2025/05/21/eg_tharf_ad_finna_nyjan_tilgang/', source: 'mbl.is' },
+          { title: 'Stjarnan Íslandsmeistari í fyrsta sinn', url: 'https://www.mbl.is/sport/korfubolti/2025/05/21/stjarnan_islandsmeistari_i_fyrsta_sinn/', source: 'mbl.is' },
+          { title: 'Hlynur Bæringsson missti föður sinn ungur: Ég slapp fyrir horn', url: 'https://www.mannlif.is/frettir/hlynur-baeringsson-thad-sitja-ekki-allir-vid-habordid/', source: 'mannlif.is' },
+          { title: 'Hlynur Bæringsson leiðir Framsókn í Garðabæ', url: 'https://www.framsokn.is/blog/hlynur-baeringsson-leidir-framsokn-i-gardabae', source: 'framsokn.is' },
         ],
       }],
       [2, 'Anna Margrét Steingrímsdóttir', 'Markaðs- og þjónustustjóri', null, {
@@ -2117,7 +2364,8 @@ const GAR = {
         interests: ['Gagnsæi og skilvirkni í stjórnsýslu', 'Nýsköpun og atvinnuþróun', 'Umhverfismál og sjálfbær þróun', 'Menntun og skólamál', 'Samgöngumál'],
         social: null,
         news: [
-          { title: 'Fyrrum framkvæmdastjóri Viðreisnar fær oddvitasætið í Garðabæ', url: 'https://www.ruv.is/frettir/innlent/2026-03-12-fyrrum-framkvaedastjori-vidreisnar-faer-oddvitasaetid-i-gardabae-469558', source: 'ruv.is' },
+          { title: 'Fyrrum framkvæmdastjóri Viðreisnar fær oddvitasætið í Garðabæ', url: 'https://www.ruv.is/frettir/innlent/2026-03-05-fyrrum-framkvaemdastjori-vidreisnar-faer-oddvitasaetid-i-gardabae-468884', source: 'ruv.is' },
+          { title: 'Þessir leiða Viðreisn í Garðabæ', url: 'https://www.visir.is/g/20262851833d/thessi-leida-vid-reisn-i-garda-bae', source: 'visir.is' },
         ],
       }],
       [2, 'Harpa Þorsteinsdóttir', 'Frambjóðandi', 'images/candidates/0bf5abbdd33030ac.jpg', {
@@ -2126,7 +2374,7 @@ const GAR = {
         interests: ['Nýsköpun og þróun', 'Umhverfismál', 'Gagnsæi í stjórnun', 'Menntamál'],
         social: null,
         news: [
-          { title: 'Fyrrum framkvæmdastjóri Viðreisnar fær oddvitasætið í Garðabæ', url: 'https://www.ruv.is/frettir/innlent/2026-03-12-fyrrum-framkvaedastjori-vidreisnar-faer-oddvitasaetid-i-gardabae-469558', source: 'ruv.is' },
+          { title: 'Fyrrum framkvæmdastjóri Viðreisnar fær oddvitasætið í Garðabæ', url: 'https://www.ruv.is/frettir/innlent/2026-03-05-fyrrum-framkvaemdastjori-vidreisnar-faer-oddvitasaetid-i-gardabae-468884', source: 'ruv.is' },
         ],
       }],
       [3, 'Jón Bjarni Steinsson', 'Frambjóðandi', 'images/candidates/e676da035b8ec33b.jpg', {
@@ -2135,7 +2383,7 @@ const GAR = {
         interests: ['Atvinnuþróun og nýsköpun', 'Umhverfismál', 'Frjálslæg gildi', 'Gagnsæi'],
         social: null,
         news: [
-          { title: 'Fyrrum framkvæmdastjóri Viðreisnar fær oddvitasætið í Garðabæ', url: 'https://www.ruv.is/frettir/innlent/2026-03-12-fyrrum-framkvaedastjori-vidreisnar-faer-oddvitasaetid-i-gardabae-469558', source: 'ruv.is' },
+          { title: 'Fyrrum framkvæmdastjóri Viðreisnar fær oddvitasætið í Garðabæ', url: 'https://www.ruv.is/frettir/innlent/2026-03-05-fyrrum-framkvaemdastjori-vidreisnar-faer-oddvitasaetid-i-gardabae-468884', source: 'ruv.is' },
         ],
       }],
       [4, 'Sigríður Þóra Ásgeirsdóttir', 'Frambjóðandi', 'images/candidates/89346718ace91ca4.jpg', {
@@ -2144,7 +2392,7 @@ const GAR = {
         interests: ['Sjálfbær þróun', 'Umhverfismál', 'Menntamál', 'Gagnsæi og samstarf'],
         social: null,
         news: [
-          { title: 'Fyrrum framkvæmdastjóri Viðreisnar fær oddvitasætið í Garðabæ', url: 'https://www.ruv.is/frettir/innlent/2026-03-12-fyrrum-framkvaedastjori-vidreisnar-faer-oddvitasaetid-i-gardabae-469558', source: 'ruv.is' },
+          { title: 'Fyrrum framkvæmdastjóri Viðreisnar fær oddvitasætið í Garðabæ', url: 'https://www.ruv.is/frettir/innlent/2026-03-05-fyrrum-framkvaemdastjori-vidreisnar-faer-oddvitasaetid-i-gardabae-468884', source: 'ruv.is' },
         ],
       }],
       [5, 'Hreiðar Þór Jónsson', 'Frambjóðandi', 'images/candidates/2fc91e9746ce790c.jpg', {
@@ -2153,7 +2401,7 @@ const GAR = {
         interests: ['Frjálslæg gildi', 'Nýsköpun og þróun', 'Atvinnuþróun', 'Umhverfismál'],
         social: null,
         news: [
-          { title: 'Fyrrum framkvæmdastjóri Viðreisnar fær oddvitasætið í Garðabæ', url: 'https://www.ruv.is/frettir/innlent/2026-03-12-fyrrum-framkvaedastjori-vidreisnar-faer-oddvitasaetid-i-gardabae-469558', source: 'ruv.is' },
+          { title: 'Fyrrum framkvæmdastjóri Viðreisnar fær oddvitasætið í Garðabæ', url: 'https://www.ruv.is/frettir/innlent/2026-03-05-fyrrum-framkvaemdastjori-vidreisnar-faer-oddvitasaetid-i-gardabae-468884', source: 'ruv.is' },
         ],
       }],
       [6, 'Tamara Klara Lipka Þormarsdóttir', 'Frambjóðandi', null],
@@ -2192,7 +2440,13 @@ const GAR = {
           { type: 'facebook', url: 'https://www.facebook.com/thorbjorgthorvaldsd/', label: 'Facebook' },
         ],
         news: [
-          { title: 'Þorbjörg leiðir Garðabæjarlistann aftur', url: 'https://www.ruv.is/frettir/innlent/2026-03-13-thorbjorg-leidir-gardabaejarlistann-aftur-469700', source: 'ruv.is' },
+          { title: 'Þorbjörg leiðir Garðabæjarlistann aftur', url: 'https://www.ruv.is/frettir/innlent/2026-01-23-thorbjorg-leidir-gardabaejarlistann-aftur-464839', source: 'ruv.is' },
+          { title: 'Þorbjörg leiðir Garðabæjarlistann áfram í kosningunum 2026', url: 'https://postar.is/gardabaer/thorbjorg-leidir-gardabaejarlistann-afram-i-kosningunum-2026/', source: 'postar.is' },
+          { title: 'Þorbjörg nýr formaður Samtakanna '78', url: 'https://www.mbl.is/frettir/innlent/2019/03/03/thorbjorg_nyr_formadur_samtakanna_78/', source: 'mbl.is' },
+          { title: 'Þorbjörg er nýr formaður Samtakanna '78', url: 'https://www.ruv.is/frett/thorbjorg-er-nyr-formadur-samtakanna-78', source: 'ruv.is' },
+          { title: 'Þorbjörg hættir aftur hjá Samtökunum '78', url: 'https://www.visir.is/g/20252814991d/thor-bjorg-haettir-aftur-hja-sam-tokunum-78', source: 'visir.is' },
+          { title: 'Oddvitinn heldur áfram og knattspyrnuhetja í öðru sæti', url: 'https://www.mbl.is/frettir/innlent/2026/01/23/oddvitinn_heldur_afram_og_knattspyrnuhetja_i_odru/', source: 'mbl.is' },
+          { title: 'Kosningapallborð: Baráttan um Garðabæ', url: 'https://www.visir.is/k/f2d643a8-3763-49d6-9f4b-715d0f0a5e6d-1776786445778/kosningapallbord-barattan-um-gardabae', source: 'visir.is' },
         ],
       }],
       [2, 'Guðjón Pétur Lýðsson', 'Atvinnurekandi', 'images/candidates/ae31b0a765bb7497.jpg', {
@@ -2201,7 +2455,8 @@ const GAR = {
         interests: ['Atvinnuþróun', 'Samfélag og umhverfi', 'Fjölskyldumál', 'Skipulagsmál'],
         social: null,
         news: [
-          { title: 'Þorbjörg leiðir Garðabæjarlistann aftur', url: 'https://www.ruv.is/frettir/innlent/2026-03-13-thorbjorg-leidir-gardabaejarlistann-aftur-469700', source: 'ruv.is' },
+          { title: 'Þorbjörg leiðir Garðabæjarlistann aftur', url: 'https://www.ruv.is/frettir/innlent/2026-01-23-thorbjorg-leidir-gardabaejarlistann-aftur-464839', source: 'ruv.is' },
+          { title: 'Oddvitinn heldur áfram og knattspyrnuhetja í öðru sæti', url: 'https://www.mbl.is/frettir/innlent/2026/01/23/oddvitinn_heldur_afram_og_knattspyrnuhetja_i_odru/', source: 'mbl.is' },
         ],
       }],
       [3, 'Joanna Marcinkowska', 'Verkefnastjóri inngildingar', 'images/candidates/14f769b51c2ed8ec.jpg', {
@@ -2210,7 +2465,8 @@ const GAR = {
         interests: ['Inngildning og fjölbreytni', 'Réttindi og jafnrétti', 'Samfélag og velferð', 'Menntamál'],
         social: null,
         news: [
-          { title: 'Þorbjörg leiðir Garðabæjarlistann aftur', url: 'https://www.ruv.is/frettir/innlent/2026-03-13-thorbjorg-leidir-gardabaejarlistann-aftur-469700', source: 'ruv.is' },
+          { title: 'Þorbjörg leiðir Garðabæjarlistann aftur', url: 'https://www.ruv.is/frettir/innlent/2026-01-23-thorbjorg-leidir-gardabaejarlistann-aftur-464839', source: 'ruv.is' },
+          { title: 'Garðabæjarlistinn í Garðabæ liggur fyrir', url: 'https://www.ruv.is/frettir/innlent/2026-03-16-gardabaejarlistinn-i-gardabae-liggur-fyrir-469898', source: 'ruv.is' },
         ],
       }],
       [4, 'Finnur Jónsson', 'Umsjónarkennari', null, {
@@ -2219,7 +2475,7 @@ const GAR = {
         interests: ['Menntamál og skólaþjónusta', 'Velferð barna', 'Fjölskyldumál', 'Umhverfismál'],
         social: null,
         news: [
-          { title: 'Þorbjörg leiðir Garðabæjarlistann aftur', url: 'https://www.ruv.is/frettir/innlent/2026-03-13-thorbjorg-leidir-gardabaejarlistann-aftur-469700', source: 'ruv.is' },
+          { title: 'Garðabæjarlistinn í Garðabæ liggur fyrir', url: 'https://www.ruv.is/frettir/innlent/2026-03-16-gardabaejarlistinn-i-gardabae-liggur-fyrir-469898', source: 'ruv.is' },
         ],
       }],
       [5, 'Baldur Ó. Svavarsson', 'Arkitekt', null, {
@@ -2228,7 +2484,7 @@ const GAR = {
         interests: ['Skipulag og hönnun', 'Umhverfismál og sjálfbærni', 'Uppbygging', 'Samfélag'],
         social: null,
         news: [
-          { title: 'Þorbjörg leiðir Garðabæjarlistann aftur', url: 'https://www.ruv.is/frettir/innlent/2026-03-13-thorbjorg-leidir-gardabaejarlistann-aftur-469700', source: 'ruv.is' },
+          { title: 'Garðabæjarlistinn í Garðabæ liggur fyrir', url: 'https://www.ruv.is/frettir/innlent/2026-03-16-gardabaejarlistinn-i-gardabae-liggur-fyrir-469898', source: 'ruv.is' },
         ],
       }],
       [6, 'Harpa Grétarsdóttir', 'Verkefnastjóri'],
@@ -2270,6 +2526,11 @@ const GAR = {
         ],
         news: [
           { title: 'Oddvitinn heldur áfram og knattspyrnuhetja í öðru sæti', url: 'https://www.mbl.is/frettir/innlent/2026/03/15/oddvitinn_heldr_afram_og_knattspyrnuhetja_i_odru/', source: 'mbl.is' },
+          { title: 'Lárus Guðmundsson leiðir lista Miðflokksins í Garðabæ', url: 'https://kgp.is/gardabaer/larus-gudmundsson-leidir-lista-midflokksins-i-gardabae/', source: 'kgp.is' },
+          { title: 'Lárus í fyrsta sæti Miðflokksins í Garðabæ', url: 'https://www.mbl.is/frettir/kosning/2022/04/08/larus_i_fyrsta_saeti_midflokksins_i_gardabae/', source: 'mbl.is' },
+          { title: 'Lárus leiðir lista Miðflokksins í Garðabæ', url: 'https://www.visir.is/g/20222246325d/larus-leidir-lista-midflokksins-i-gardabae', source: 'visir.is' },
+          { title: 'Lárus Guðmundsson (M): ræða á Alþingi', url: 'https://www.althingi.is/altext/raeda/156/rad20250305T150335.html', source: 'althingi.is' },
+          { title: 'Lárus Guðmundsson - Wikipedia', url: 'https://en.wikipedia.org/wiki/L%C3%A1rus_Gu%C3%B0mundsson', source: 'en.wikipedia.org' },
         ],
       }],
       [2, 'Laufey Gunnþórsdóttir', 'Verkfræðingur', 'images/candidates/9bdebd56e38296db.jpg', {
@@ -2346,6 +2607,13 @@ const GAR = {
         ],
         news: [
           { title: 'Kjartan Atli leiðir Samfylkinguna í Garðabæ', url: 'https://www.ruv.is/frettir/innlent/2026-03-12-kjartan-atli-leidir-samfylkinguna-i-gardabae-469510', source: 'ruv.is' },
+          { title: 'Kjartan Atli leiðir Samfylkinguna í Garðabæ', url: 'https://www.visir.is/g/20262856786d/kjartan-atli-leidir-sam-fylkinguna-i-garda-bae', source: 'visir.is' },
+          { title: 'Kjartan Atli hættir störfum', url: 'https://www.mbl.is/sport/korfubolti/2025/12/13/kjartan_atli_haettir_storfum/', source: 'mbl.is' },
+          { title: 'Kjartan Atli hættur með Álftanes eftir sögulegt tap', url: 'https://www.ruv.is/frettir/ithrottir/2025-12-13-kjartan-atli-haettur-med-alftanes-eftir-sogulegt-tap-461471', source: 'ruv.is' },
+          { title: 'Kjartan Atli lætur af störfum', url: 'https://www.visir.is/g/20252817063d/kjartan-atli-laetur-af-storfum', source: 'visir.is' },
+          { title: 'Tveir flokkar í Garðabæ útiloka samstarf', url: 'https://www.visir.is/g/20262872518d/tveir-flokkar-i-gardabae-utiloka-samstarf', source: 'visir.is' },
+          { title: 'Kjartan Atli um nýju bókina, körfuboltaáhugann og innblásturinn á sínum yngri árum', url: 'https://www.visir.is/g/20202046341d/kjartan-atli-um-nyju-bokina-korfu-bolta-a-hugann-og-inn-blasturinn-a-sinum-yngri-arum', source: 'visir.is' },
+          { title: 'Dagur í lífi Kjartans Atla', url: 'https://www.dv.is/fokus/birta/2018/01/22/korfubolti-kria-i-hadeginu-og-kostir-thess-ad-setja-simann-silent-4hyh5o/', source: 'dv.is' },
         ],
       }],
       [2, 'Vilborg Anna Strange Garðarsdóttir', 'Fjármála- og rekstrarstjóri', null, {
@@ -2425,8 +2693,15 @@ const MOS = {
           { type: 'instagram', url: 'https://www.instagram.com/himmigunn/', label: 'Instagram' },
         ],
         news: [
+          { title: 'Hilmar vill leiða lista Sjálfstæðismanna', url: 'https://www.mbl.is/frettir/innlent/2025/11/27/hilmar_vill_leida_lista_sjalfstaedismanna/', source: 'mbl.is' },
+          { title: 'Hefur haldið í sveitabraginn í 20 ár', url: 'https://www.mbl.is/frettir/innlent/2025/10/11/hefur_haldid_i_sveitabraginn_i_20_ar/', source: 'mbl.is' },
+          { title: 'Ritstjórinn sækist eftir fyrsta sæti í Mosfellsbæ', url: 'https://www.dv.is/eyjan/2025/11/27/ritstjorinn-saekist-eftir-fyrsta-saeti-mosfellsbae/', source: 'dv.is' },
           { title: 'Hilmar nýr oddviti Sjálfstæðisflokksins í Mosfellsbæ', url: 'https://www.ruv.is/frettir/innlent/2026-01-31-hilmar-nyr-oddviti-sjalfstaedisflokksins-i-mosfellsbae-465791', source: 'ruv.is' },
           { title: 'Hilmar nýr oddviti með 92%', url: 'https://mosfellingur.is/hilmar-nyr-oddviti-med-92/', source: 'mosfellingur.is' },
+          { title: 'Svona stillir Sjálfstæðisflokkurinn upp í Mosfellsbæ', url: 'https://www.mbl.is/frettir/innlent/2026/02/27/svona_stillir_sjalfstaedisflokkurinn_upp_i_mosfells/', source: 'mbl.is' },
+          { title: '„Nú verður fjör" hjá Sjálfstæðismönnum sem kynna lista í Mosó', url: 'https://www.visir.is/g/20262849308d/-nu-verdur-fjor-hja-sjalf-staedis-monnum-sem-kynna-lista-i-moso', source: 'visir.is' },
+          { title: '50 fyrirheit', url: 'https://mosfellingur.is/50-fyrirheit/', source: 'mosfellingur.is' },
+          { title: 'Fyrsta pallborð fyrir kosningarnar í maí: Mosfellsbær á sviðið', url: 'https://www.visir.is/g/20262866350d/fyrsta-pallbord-fyrir-kosningarnar-i-mai-mosfellsbaer-a-svidid', source: 'visir.is' },
         ],
       }],
       [2, 'Jana Katrín Knútsdóttir', 'Bæjarfulltrúi og hjúkrunarfræðingur', 'images/candidates/f1dab75b7cab1973.jpg', {
@@ -2435,7 +2710,9 @@ const MOS = {
         interests: ['Heilbrigðisþjónusta og velferð', 'Gæðamenntun og skólamál', 'Uppbygging', 'Gagnsæi í stjórnun'],
         social: null,
         news: [
-          { title: 'Hilmar nýr oddviti Sjálfstæðisflokksins í Mosfellsbæ', url: 'https://www.ruv.is/frettir/innlent/2026-01-31-hilmar-nyr-oddviti-sjalfstaedisflokksins-i-mosfellsbae-465791', source: 'ruv.is' },
+          { title: 'Framboðslisti Sjálfstæðisflokksins í Mosfellsbæ samþykktur', url: 'https://www.ruv.is/frettir/innlent/2026-02-27-frambodslisti-sjalfstaedisflokksins-i-mosfellsbae-samthykktur-468178', source: 'ruv.is' },
+          { title: 'Svona stillir Sjálfstæðisflokkurinn upp í Mosfellsbæ', url: 'https://www.mbl.is/frettir/innlent/2026/02/27/svona_stillir_sjalfstaedisflokkurinn_upp_i_mosfells/', source: 'mbl.is' },
+          { title: 'Fullskipaður framboðslisti Sjálfstæðisflokksins í Mosfellsbæ', url: 'https://xd.is/2026/02/27/fullskipadur-frambodslisti-sjalfstaedisflokksins-i-mosfellsbae/', source: 'xd.is' },
         ],
       }],
       [3, 'Elísabet S. Ólafsdóttir', 'Sáttasemjari', 'images/candidates/645a890d497d0fb9.jpg', {
@@ -2444,7 +2721,8 @@ const MOS = {
         interests: ['Samskipti og samráð við íbúa', 'Skipulag og uppbygging', 'Fjármálastjórnun', 'Þjónusta við íbúa'],
         social: null,
         news: [
-          { title: 'Hilmar nýr oddviti Sjálfstæðisflokksins í Mosfellsbæ', url: 'https://www.ruv.is/frettir/innlent/2026-01-31-hilmar-nyr-oddviti-sjalfstaedisflokksins-i-mosfellsbae-465791', source: 'ruv.is' },
+          { title: 'Framboðslisti Sjálfstæðisflokksins í Mosfellsbæ samþykktur', url: 'https://www.ruv.is/frettir/innlent/2026-02-27-frambodslisti-sjalfstaedisflokksins-i-mosfellsbae-samthykktur-468178', source: 'ruv.is' },
+          { title: 'Svona stillir Sjálfstæðisflokkurinn upp í Mosfellsbæ', url: 'https://www.mbl.is/frettir/innlent/2026/02/27/svona_stillir_sjalfstaedisflokkurinn_upp_i_mosfells/', source: 'mbl.is' },
         ],
       }],
       [4, 'Hjörtur Örn Arnarson', 'Landfræðingur', 'images/candidates/a1e87163411e9ba8.jpg', {
@@ -2453,7 +2731,8 @@ const MOS = {
         interests: ['Skipulag og landfræðileg greining', 'Náttúruvernd', 'Uppbygging innviða', 'Fjármálastjórnun'],
         social: null,
         news: [
-          { title: 'Hilmar nýr oddviti Sjálfstæðisflokksins í Mosfellsbæ', url: 'https://www.ruv.is/frettir/innlent/2026-01-31-hilmar-nyr-oddviti-sjalfstaedisflokksins-i-mosfellsbae-465791', source: 'ruv.is' },
+          { title: 'Framboðslisti Sjálfstæðisflokksins í Mosfellsbæ samþykktur', url: 'https://www.ruv.is/frettir/innlent/2026-02-27-frambodslisti-sjalfstaedisflokksins-i-mosfellsbae-samthykktur-468178', source: 'ruv.is' },
+          { title: 'Fullskipaður framboðslisti Sjálfstæðisflokksins í Mosfellsbæ', url: 'https://xd.is/2026/02/27/fullskipadur-frambodslisti-sjalfstaedisflokksins-i-mosfellsbae/', source: 'xd.is' },
         ],
       }],
       [5, 'Þórarinn Örn Andrésson', 'Framkvæmdastjóri', 'images/candidates/b296e69f3a096707.jpg', {
@@ -2462,7 +2741,8 @@ const MOS = {
         interests: ['Framkvæmdastjórnun', 'Atvinnuþróun', 'Uppbygging', 'Fjármálastjórnun'],
         social: null,
         news: [
-          { title: 'Hilmar nýr oddviti Sjálfstæðisflokksins í Mosfellsbæ', url: 'https://www.ruv.is/frettir/innlent/2026-01-31-hilmar-nyr-oddviti-sjalfstaedisflokksins-i-mosfellsbae-465791', source: 'ruv.is' },
+          { title: 'Framboðslisti Sjálfstæðisflokksins í Mosfellsbæ samþykktur', url: 'https://www.ruv.is/frettir/innlent/2026-02-27-frambodslisti-sjalfstaedisflokksins-i-mosfellsbae-samthykktur-468178', source: 'ruv.is' },
+          { title: 'Fullskipaður framboðslisti Sjálfstæðisflokksins í Mosfellsbæ', url: 'https://xd.is/2026/02/27/fullskipadur-frambodslisti-sjalfstaedisflokksins-i-mosfellsbae/', source: 'xd.is' },
         ],
       }],
       [6, 'Ásgeir Sveinsson', 'Bæjarfulltrúi og framkvæmdastjóri', 'images/candidates/4274ffb0411f909b.jpg'],
@@ -2502,7 +2782,12 @@ const MOS = {
           { type: 'instagram', url: 'https://www.instagram.com/sbirgis/', label: 'Instagram' },
         ],
         news: [
-          { title: 'Heilbrigt og fjölskylduvænt samfélag — Sævar leiðir B-listann', url: 'https://mosfellingur.is/heilbrigt-og-fjolskylduvaent-samfelag/', source: 'mosfellingur.is' },
+          { title: '„Heilbrigt og fjölskylduvænt samfélag" — Sævar leiðir B-listann', url: 'https://mosfellingur.is/heilbrigt-og-fjolskylduvaent-samfelag/', source: 'mosfellingur.is' },
+          { title: 'Sævar Birgisson — Wikipedia', url: 'https://en.wikipedia.org/wiki/S%C3%A6var_Birgisson', source: 'en.wikipedia.org' },
+          { title: 'Sævar Birgisson leggur skíðin á hilluna', url: 'https://www.ski.is/is/um-ski/frettir/saevar-birgisson-leggur-skidin-a-hilluna', source: 'ski.is' },
+          { title: 'Veronika og Sævar unnu fyrstu greinina á Skíðalandsmótinu', url: 'https://www.mbl.is/sport/frettir/2014/04/03/veronika_og_saevar_unnu_fyrstu_greinina_a_skidaland/', source: 'mbl.is' },
+          { title: 'Fyrsta pallborð fyrir kosningarnar í maí: Mosfellsbær á sviðið', url: 'https://www.visir.is/g/20262866350d/fyrsta-pallbord-fyrir-kosningarnar-i-mai-mosfellsbaer-a-svidid', source: 'visir.is' },
+          { title: 'Blikastaðaland – bílastæði og ásýnd í sátt við umhverfið', url: 'https://mosfellingur.is/blikastadaland-bilastaedi-og-asynd-i-satt-vid-umhverfid/', source: 'mosfellingur.is' },
         ],
       }],
       [2, 'Halla Karen Kristjánsdóttir', 'Íþróttakennari og formaður bæjarráðs', 'images/candidates/ad90fff1ca94b3ce.jpg', {
@@ -2511,7 +2796,10 @@ const MOS = {
         interests: ['Íþróttir og heilsa', 'Fjölskyldumál og velferð', 'Náttúruvernd', 'Menntamál'],
         social: null,
         news: [
-          { title: 'Heilbrigt og fjölskylduvænt samfélag — Sævar leiðir B-listann', url: 'https://mosfellingur.is/heilbrigt-og-fjolskylduvaent-samfelag/', source: 'mosfellingur.is' },
+          { title: '„Heilbrigt og fjölskylduvænt samfélag" — Sævar leiðir B-listann', url: 'https://mosfellingur.is/heilbrigt-og-fjolskylduvaent-samfelag/', source: 'mosfellingur.is' },
+          { title: 'Framsókn í stórsókn og fellir meirihlutann', url: 'https://www.mbl.is/frettir/kosning/2022/05/15/framsokn_i_storsokn_og_fellir_meirihlutann/', source: 'mbl.is' },
+          { title: 'Börnin í forgangi', url: 'https://mosfellingur.is/bornin-i-forgangi/', source: 'mosfellingur.is' },
+          { title: 'Hugsum stórt og til framtíðar', url: 'https://mosfellingur.is/hugsum-stort-og-til-framtidar/', source: 'mosfellingur.is' },
         ],
       }],
       [3, 'Leifur Ingi Eysteinsson', 'Tómstunda- og félagsmálasérfræðingur', 'images/candidates/1b19d0fe7bf67cd6.jpg', {
@@ -2520,7 +2808,8 @@ const MOS = {
         interests: ['Tómstundar- og félagsmál', 'Fjölskyldumál', 'Náttúruvernd', 'Samgöngumál'],
         social: null,
         news: [
-          { title: 'Heilbrigt og fjölskylduvænt samfélag — Sævar leiðir B-listann', url: 'https://mosfellingur.is/heilbrigt-og-fjolskylduvaent-samfelag/', source: 'mosfellingur.is' },
+          { title: '„Heilbrigt og fjölskylduvænt samfélag" — Sævar leiðir B-listann', url: 'https://mosfellingur.is/heilbrigt-og-fjolskylduvaent-samfelag/', source: 'mosfellingur.is' },
+          { title: 'Framboðslisti Framsóknar í Mosfellsbæ', url: 'https://kosningasaga.wordpress.com/2026/02/27/frambodslisti-framsoknar-i-mosfellsbae-2/', source: 'kosningasaga.wordpress.com' },
         ],
       }],
       [4, 'Elín Guðný Hlöðversdóttir', 'Rekstrarstjóri', null, {
@@ -2529,7 +2818,8 @@ const MOS = {
         interests: ['Rekstrarumbætur', 'Fjölskyldumál', 'Samgöngumál', 'Náttúruvernd'],
         social: null,
         news: [
-          { title: 'Heilbrigt og fjölskylduvænt samfélag — Sævar leiðir B-listann', url: 'https://mosfellingur.is/heilbrigt-og-fjolskylduvaent-samfelag/', source: 'mosfellingur.is' },
+          { title: '„Heilbrigt og fjölskylduvænt samfélag" — Sævar leiðir B-listann', url: 'https://mosfellingur.is/heilbrigt-og-fjolskylduvaent-samfelag/', source: 'mosfellingur.is' },
+          { title: 'Framboðslisti Framsóknar í Mosfellsbæ', url: 'https://kosningasaga.wordpress.com/2026/02/27/frambodslisti-framsoknar-i-mosfellsbae-2/', source: 'kosningasaga.wordpress.com' },
         ],
       }],
       [5, 'Ýmir Örn Hafsteinsson', 'Álverksmaður', null, {
@@ -2538,7 +2828,8 @@ const MOS = {
         interests: ['Atvinnulíf og iðnaður', 'Samgöngumál', 'Fjölskyldumál', 'Náttúruvernd'],
         social: null,
         news: [
-          { title: 'Heilbrigt og fjölskylduvænt samfélag — Sævar leiðir B-listann', url: 'https://mosfellingur.is/heilbrigt-og-fjolskylduvaent-samfelag/', source: 'mosfellingur.is' },
+          { title: '„Heilbrigt og fjölskylduvænt samfélag" — Sævar leiðir B-listann', url: 'https://mosfellingur.is/heilbrigt-og-fjolskylduvaent-samfelag/', source: 'mosfellingur.is' },
+          { title: 'Framboðslisti Framsóknar í Mosfellsbæ', url: 'https://kosningasaga.wordpress.com/2026/02/27/frambodslisti-framsoknar-i-mosfellsbae-2/', source: 'kosningasaga.wordpress.com' },
         ],
       }],
       [6, 'Sandra Dís Bjarnadóttir', 'Ráðgjafi og verkefnastjóri'],
@@ -2580,6 +2871,13 @@ const MOS = {
         news: [
           { title: 'Gylfi Þór leiðir Viðreisn í Mosfellsbæ', url: 'https://www.mbl.is/frettir/innlent/2026/02/28/gylfi_thor_leidir_vidreisn_i_mosfellsbae/', source: 'mbl.is' },
           { title: 'Gylfi Þór er oddviti Viðreisnar í Mosfellsbæ', url: 'https://www.ruv.is/frettir/innlent/2026-02-28-gylfi-thor-er-oddviti-vidreisnar-i-mosfellsbae-468235', source: 'ruv.is' },
+          { title: 'Gylfi Þór leiðir Viðreisn í Mosfellsbæ', url: 'https://www.visir.is/g/20262849464d/gylfi-thor-leidir-vidreisn-i-mosfellsbae', source: 'visir.is' },
+          { title: 'Gylfi Þór er nýr oddviti Viðreisnar', url: 'https://mosfellingur.is/gylfi-thor-er-nyr-oddviti-vidreisnar/', source: 'mosfellingur.is' },
+          { title: 'Gylfi Þór aðgerðastjóri yfir móttöku Úkraínumanna', url: 'https://www.mbl.is/frettir/innlent/2022/03/07/gylfi_thor_adgerdastjori_yfir_mottoku_ukrainumanna/', source: 'mbl.is' },
+          { title: 'Gylfi Þór ráðinn í samhæfingu vegna Grindavíkur', url: 'https://www.mbl.is/frettir/innlent/2024/04/26/gylfi_thor_radinn_i_samhaefingu_vegna_grindavikur/', source: 'mbl.is' },
+          { title: 'Gylfi Þór leiðir samhæfingu fyrir Grindavík', url: 'https://www.ruv.is/frettir/innlent/2024-04-26-gylfi-thor-leidir-samhaefingu-fyrir-grindavik-411344', source: 'ruv.is' },
+          { title: 'Gylfi Þór stóð í ströngu í Covid faraldrinum', url: 'https://gamla.mannlif.is/frettir/gylfi-thor-stod-vaktina-i-covid-faraldrinum-eg-var-a-vakt-allan-solarhringinn-thessi-tvo-ar/', source: 'mannlif.is' },
+          { title: 'Gylfi Þór, verndari Covid-sjúklinganna, kominn með veiruna', url: 'https://gamla.mannlif.is/frettir/innlent/gylfi-thor-verndari-covid-sjuklinganna-kominn-med-veiruna-lidanin-er-drulluslaem/', source: 'mannlif.is' },
         ],
       }],
       [2, 'Valdimar Birgisson', 'Rekstrarráðgjafi og varaþingmaður Viðreisnar', 'images/candidates/a916c02b41a02c3e.png', {
@@ -2589,6 +2887,9 @@ const MOS = {
         social: null,
         news: [
           { title: 'Gylfi Þór leiðir Viðreisn í Mosfellsbæ', url: 'https://www.mbl.is/frettir/innlent/2026/02/28/gylfi_thor_leidir_vidreisn_i_mosfellsbae/', source: 'mbl.is' },
+          { title: 'Gylfi Þór er nýr oddviti Viðreisnar', url: 'https://mosfellingur.is/gylfi-thor-er-nyr-oddviti-vidreisnar/', source: 'mosfellingur.is' },
+          { title: 'Tveir Vestfirðingar á Alþingi í vikunni', url: 'https://bb.is/2026/02/tveir-vestfirdingar-a-althingi-i-vikunni/', source: 'bb.is' },
+          { title: 'Tengingin við bæjarbúa gefandi', url: 'https://mosfellingur.is/tengingin-vid-baejarbua-gefandi/', source: 'mosfellingur.is' },
         ],
       }],
       [3, 'Elín Anna Gísladóttir', 'Deildarstjóri', 'images/candidates/8be43939db925f2a.png', {
@@ -2598,6 +2899,7 @@ const MOS = {
         social: null,
         news: [
           { title: 'Gylfi Þór leiðir Viðreisn í Mosfellsbæ', url: 'https://www.mbl.is/frettir/innlent/2026/02/28/gylfi_thor_leidir_vidreisn_i_mosfellsbae/', source: 'mbl.is' },
+          { title: 'Gylfi Þór Þorsteinsson leiðir lista Viðreisnar í Mosfellsbæ', url: 'https://vidreisn.is/2026/02/gylfi-thor-thorsteinsson-leidir-lista-vidreisnar-i-mosfellsbae/', source: 'vidreisn.is' },
         ],
       }],
       [4, 'Berglind Robertson Grétarsdóttir', 'Leikskólastjóri', 'images/candidates/ed15c27c74d93b4c.png', {
@@ -2607,6 +2909,7 @@ const MOS = {
         social: null,
         news: [
           { title: 'Gylfi Þór leiðir Viðreisn í Mosfellsbæ', url: 'https://www.mbl.is/frettir/innlent/2026/02/28/gylfi_thor_leidir_vidreisn_i_mosfellsbae/', source: 'mbl.is' },
+          { title: 'Gylfi Þór Þorsteinsson leiðir lista Viðreisnar í Mosfellsbæ', url: 'https://vidreisn.is/2026/02/gylfi-thor-thorsteinsson-leidir-lista-vidreisnar-i-mosfellsbae/', source: 'vidreisn.is' },
         ],
       }],
       [5, 'Haukur Skúlason', 'Frumkvöðull og meðstofnandi indó', 'images/candidates/14f1c3cec4936aaa.png', {
@@ -2616,6 +2919,7 @@ const MOS = {
         social: null,
         news: [
           { title: 'Gylfi Þór leiðir Viðreisn í Mosfellsbæ', url: 'https://www.mbl.is/frettir/innlent/2026/02/28/gylfi_thor_leidir_vidreisn_i_mosfellsbae/', source: 'mbl.is' },
+          { title: 'Gylfi Þór Þorsteinsson leiðir lista Viðreisnar í Mosfellsbæ', url: 'https://vidreisn.is/2026/02/gylfi-thor-thorsteinsson-leidir-lista-vidreisnar-i-mosfellsbae/', source: 'vidreisn.is' },
         ],
       }],
       [6, 'Guðrún Þórarinsdóttir', 'Félagsmálafulltrúi Viðreisnar', 'images/candidates/c02d939a8a00e5cb.png'],
@@ -2662,6 +2966,13 @@ const MOS = {
         news: [
           { title: 'Sveinn Óskar oddviti Miðflokksins í Mosfellsbæ', url: 'https://www.ruv.is/frettir/innlent/2026-04-04-sveinn-oskar-oddviti-midflokksins-i-mosfellsbae-471687', source: 'ruv.is' },
           { title: 'Kalla eftir breytingum í Mosfellsbæ', url: 'https://www.mbl.is/frettir/innlent/2026/04/05/kalla_eftir_breytingum_i_mosfellsbae/', source: 'mbl.is' },
+          { title: 'Sveinn Óskar áfram oddviti Miðflokksins', url: 'https://www.mbl.is/frettir/innlent/2025/11/21/sveinn_oskar_afram_oddviti_midflokksins/', source: 'mbl.is' },
+          { title: 'Sveinn Óskar leiðir Miðflokkinn í Mosfellsbæ', url: 'https://www.mbl.is/frettir/kosning/2022/04/05/sveinn_oskar_leidir_midflokkinn_i_mosfellsbae/', source: 'mbl.is' },
+          { title: 'Sveinn Óskar vill verða oddviti hjá Miðflokknum', url: 'https://www.mbl.is/frettir/innlent/2024/10/23/sveinn_oskar_vill_verda_oddviti_hja_midflokknum/', source: 'mbl.is' },
+          { title: 'Sakar héraðsdómara um að hafa slegið sig sem barn', url: 'https://www.mbl.is/frettir/innlent/2020/01/10/sakar_heradsdomara_um_ad_hafa_slegid_sig_sem_barn/', source: 'mbl.is' },
+          { title: 'Fjármál á veikum grunni og framúrkeyrsla', url: 'https://mosfellingur.is/fjarmal-a-veikum-grunni-og-framurkeyrsla/', source: 'mosfellingur.is' },
+          { title: 'Mikilvægt að hlusta á fólkið í bænum', url: 'https://mosfellingur.is/mikilvaegt-ad-hlusta-a-folkid-i-baenum/', source: 'mosfellingur.is' },
+          { title: 'Það er af mörgu að taka', url: 'https://mosfellingur.is/thad-er-af-morgu-ad-taka/', source: 'mosfellingur.is' },
         ],
       }],
       [2, 'Ingibjörg Einarsdóttir', 'Tannfræðitækni og dósent við HÍ', 'images/candidates/e803c1be8312f9b7.jpg', {
@@ -2670,7 +2981,11 @@ const MOS = {
         interests: ['Heilbrigðisþjónusta og lýðheilsa', 'Börn og fjölskyldur', 'Menntamál', 'Velferð'],
         social: null,
         news: [
+          { title: 'Kalla eftir breytingum í Mosfellsbæ', url: 'https://www.mbl.is/frettir/innlent/2026/04/05/kalla_eftir_breytingum_i_mosfellsbae/', source: 'mbl.is' },
           { title: 'Sveinn Óskar oddviti Miðflokksins í Mosfellsbæ', url: 'https://www.ruv.is/frettir/innlent/2026-04-04-sveinn-oskar-oddviti-midflokksins-i-mosfellsbae-471687', source: 'ruv.is' },
+          { title: 'Við erum að sýna börnunum okkar virðingarleysi – og þau finna það', url: 'https://www.visir.is/g/20262872052d/vid-erum-ad-syna-bornunum-okkar-virdingarleysi-og-thau-finna-thad', source: 'visir.is' },
+          { title: 'Börnin fyrst – ábyrgð sem við getum ekki frestað', url: 'https://mosfellingur.is/bornin-fyrst-abyrgd-sem-vid-getum-ekki-frestad/', source: 'mosfellingur.is' },
+          { title: 'Merkir Íslendingar – Ingibjörg Einarsdóttir', url: 'https://bb.is/2020/12/merkir-islendingar-ingibjorg-einarsdottir/', source: 'bb.is' },
         ],
       }],
       [3, 'Hjalti Árnason', 'Frambjóðandi', 'images/candidates/1814046c4f798104.jpg', {
@@ -2680,6 +2995,7 @@ const MOS = {
         social: null,
         news: [
           { title: 'Sveinn Óskar oddviti Miðflokksins í Mosfellsbæ', url: 'https://www.ruv.is/frettir/innlent/2026-04-04-sveinn-oskar-oddviti-midflokksins-i-mosfellsbae-471687', source: 'ruv.is' },
+          { title: 'Miðflokkurinn setur börn og barnafólk í forgrunn', url: 'https://mosfellingur.is/midflokkurinn-setur-born-og-barnafolk-i-forgrunn/', source: 'mosfellingur.is' },
         ],
       }],
       [4, 'Sóley Sævarsdóttir Meyer', 'Frambjóðandi', 'images/candidates/b7988437783251c4.jpg', {
@@ -2689,6 +3005,7 @@ const MOS = {
         social: null,
         news: [
           { title: 'Sveinn Óskar oddviti Miðflokksins í Mosfellsbæ', url: 'https://www.ruv.is/frettir/innlent/2026-04-04-sveinn-oskar-oddviti-midflokksins-i-mosfellsbae-471687', source: 'ruv.is' },
+          { title: 'Miðflokkurinn setur börn og barnafólk í forgrunn', url: 'https://mosfellingur.is/midflokkurinn-setur-born-og-barnafolk-i-forgrunn/', source: 'mosfellingur.is' },
         ],
       }],
       [5, 'Kristján Davíð Sigurjónsson', 'Frambjóðandi', 'images/candidates/93568a1c153a1ae7.jpg', {
@@ -2698,6 +3015,7 @@ const MOS = {
         social: null,
         news: [
           { title: 'Sveinn Óskar oddviti Miðflokksins í Mosfellsbæ', url: 'https://www.ruv.is/frettir/innlent/2026-04-04-sveinn-oskar-oddviti-midflokksins-i-mosfellsbae-471687', source: 'ruv.is' },
+          { title: 'Miðflokkurinn setur börn og barnafólk í forgrunn', url: 'https://mosfellingur.is/midflokkurinn-setur-born-og-barnafolk-i-forgrunn/', source: 'mosfellingur.is' },
         ],
       }],
       [6, 'Karl Gissur Þórisson', 'Frambjóðandi'],
@@ -2739,6 +3057,10 @@ const MOS = {
         social: null,
         news: [
           { title: 'Nýr oddviti leiðir Samfylkinguna í Mosfellsbæ', url: 'https://www.ruv.is/frettir/innlent/2026-03-09-nyr-oddviti-leidir-samfylkinguna-i-mosfellsbae-469367', source: 'ruv.is' },
+          { title: 'Karlabyltingin hefst í Mosfellsbæ', url: 'https://www.visir.is/g/20262866446d/karlabyltingin-hefst-i-mosfellsbae', source: 'visir.is' },
+          { title: 'Fyrsta pallborð fyrir kosningarnar í maí: Mosfellsbær á sviðið', url: 'https://www.visir.is/g/20262866350d/fyrsta-pallbord-fyrir-kosningarnar-i-mai-mosfellsbaer-a-svidid', source: 'visir.is' },
+          { title: 'Framboðslisti Samfylkingarinnar í Mosfellsbæ', url: 'https://kosningasaga.wordpress.com/2026/03/09/frambodslisti-samfylkingarinnar-i-mosfellsbae/', source: 'kosningasaga.wordpress.com' },
+          { title: 'Mikið tilhlökkunarefni að hefja kosningabaráttuna', url: 'https://mosfellingur.is/mikid-tilhlokkunarefni/', source: 'mosfellingur.is' },
         ],
       }],
       [2, 'Guðný Maja Riba', 'Kennari og bæjarfulltrúi', 'images/candidates/632d4df9b0b5b0cf.jpg', {
@@ -2748,6 +3070,10 @@ const MOS = {
         social: null,
         news: [
           { title: 'Nýr oddviti leiðir Samfylkinguna í Mosfellsbæ', url: 'https://www.ruv.is/frettir/innlent/2026-03-09-nyr-oddviti-leidir-samfylkinguna-i-mosfellsbae-469367', source: 'ruv.is' },
+          { title: 'Varaborgarfulltrúinn Guðný Maja segist verða fyrir stöðugu áreiti frá barnsföður sínum', url: 'https://www.dv.is/frettir/2022/06/13/varaborgarfulltruinn-gudny-maja-segist-verda-fyrir-stodugu-areiti-fra-barnsfodur-sinum/', source: 'dv.is' },
+          { title: 'Guðný Maja Riba býður sig fram til varaformanns KÍ', url: 'https://www.ki.is/um-ki/utgafa/frettir-og-pistlar/frettir/2021/gudny-maja-riba-bydur-sig-fram-til-varaformanns-ki/', source: 'ki.is' },
+          { title: 'Framtíðarsýn Mosfellsbæjar í íþróttum og tómstundum', url: 'https://mosfellingur.is/framtidarsyn-mosfellsbaejar-i-ithrottum-og-tomstundum/', source: 'mosfellingur.is' },
+          { title: 'Áfram veginn — í þágu barna og ungmenna', url: 'https://mosfellingur.is/afram-veginn-i-thagu-barna-og-ungmenna/', source: 'mosfellingur.is' },
         ],
       }],
       [3, 'Ómar Ingþórsson', 'Landslagsarkitekt og náttúrufræðingur', null, {
@@ -2757,6 +3083,7 @@ const MOS = {
         social: null,
         news: [
           { title: 'Nýr oddviti leiðir Samfylkinguna í Mosfellsbæ', url: 'https://www.ruv.is/frettir/innlent/2026-03-09-nyr-oddviti-leidir-samfylkinguna-i-mosfellsbae-469367', source: 'ruv.is' },
+          { title: 'Framboðslisti Samfylkingarinnar í Mosfellsbæ', url: 'https://kosningasaga.wordpress.com/2026/03/09/frambodslisti-samfylkingarinnar-i-mosfellsbae/', source: 'kosningasaga.wordpress.com' },
         ],
       }],
       [4, 'Auður Einarsdóttir', 'Lagalanemi', 'images/candidates/8d655884977b9a9a.jpg', {
@@ -2766,6 +3093,7 @@ const MOS = {
         social: null,
         news: [
           { title: 'Nýr oddviti leiðir Samfylkinguna í Mosfellsbæ', url: 'https://www.ruv.is/frettir/innlent/2026-03-09-nyr-oddviti-leidir-samfylkinguna-i-mosfellsbae-469367', source: 'ruv.is' },
+          { title: 'Framboðslisti Samfylkingarinnar í Mosfellsbæ', url: 'https://kosningasaga.wordpress.com/2026/03/09/frambodslisti-samfylkingarinnar-i-mosfellsbae/', source: 'kosningasaga.wordpress.com' },
         ],
       }],
       [5, 'Guðlaugur Bjarki Lúðvíksson', 'Verkfræðingur', null, {
@@ -2775,6 +3103,7 @@ const MOS = {
         social: null,
         news: [
           { title: 'Nýr oddviti leiðir Samfylkinguna í Mosfellsbæ', url: 'https://www.ruv.is/frettir/innlent/2026-03-09-nyr-oddviti-leidir-samfylkinguna-i-mosfellsbae-469367', source: 'ruv.is' },
+          { title: 'Framboðslisti Samfylkingarinnar í Mosfellsbæ', url: 'https://kosningasaga.wordpress.com/2026/03/09/frambodslisti-samfylkingarinnar-i-mosfellsbae/', source: 'kosningasaga.wordpress.com' },
         ],
       }],
       [6, 'Elín Eiríksdóttir', 'Sérkennslumaður'],
@@ -2803,7 +3132,12 @@ const MOS = {
           { type: 'facebook', url: 'https://www.facebook.com/bjarki.bjarnason.9/', label: 'Facebook' },
         ],
         news: [
-          { title: 'Bjarki Bjarnason leiðir lista VG í Mosfellsbæ 2022', url: 'https://www.ruv.is/frettir/innlent/2022-03-12-bjarki-bjarnason-leidir-lista-vg-i-mosfellsbae', source: 'ruv.is' },
+          { title: 'Bjarki Bjarnason leiðir lista VG í Mosfellsbæ', url: 'https://www.ruv.is/frettir/innlent/2022-03-12-bjarki-bjarnason-leidir-lista-vg-i-mosfellsbae', source: 'ruv.is' },
+          { title: 'Bjarki leiðir lista VG í Mosó', url: 'https://www.mbl.is/frettir/burdargrein/2022/03/12/bjarki_leidir_lista_vg_i_moso/', source: 'mbl.is' },
+          { title: 'Bjarki leiðir lista VG í Mosfellsbæ', url: 'https://www.visir.is/g/2018180409209/bjarki-leidir-lista-vg-i-mosfellsbae', source: 'visir.is' },
+          { title: 'Bjarki leiðir VG í Mosfellsbæ', url: 'https://www.mbl.is/frettir/innlent/2018/04/07/bjarki_leidir_vg_i_mosfellsbae/', source: 'mbl.is' },
+          { title: 'Vinir Mosfellsbæjar og ofurþétting á Blikastöðum', url: 'https://mosfellingur.is/vinir-mosfellsbaejar-og-ofurthetting-a-blikastodum/', source: 'mosfellingur.is' },
+          { title: 'Reiðubúin að láta gott af okkur leiða í samfélaginu', url: 'https://mosfellingur.is/reidubuin-ad-lata-gott-af-okkur-leida-samfelaginu/', source: 'mosfellingur.is' },
         ],
       }],
       [2, 'Kolbrún Ýr Oddgeirsdóttir', 'Flugleiðsögumaður', null, {
@@ -2839,8 +3173,13 @@ const KOP = {
         interests: ['Atvinnumál og nýsköpun', 'Menntamál og leikskólar', 'Samgöngumál', 'Hagkvæmur rekstur bæjarins'],
         social: [],
         news: [
-          { title: 'Orri Hlöðversson nýr oddviti Framsóknar í Kópavogi', url: 'https://framsokn.is/nyjast/frettir/orri-hlodversson-nyr-oddviti-framsoknar-i-kopavogi/', source: 'framsokn.is' },
-          { title: 'Vill taka ný skref í takti við nýjar kröfur', url: 'https://kgp.is/kopavogur/vill-taka-ny-skref-i-takti-vid-nyjar-krofur/', source: 'kgp.is' },
+          { title: 'Orri vill leiða Framsókn í Kópavogi', url: 'https://www.mbl.is/frettir/kosning/2022/01/21/orri_vill_leida_framsokn_i_kopavogi/', source: 'mbl.is' },
+          { title: 'Orri oddviti framsóknarmanna í Kópavogi', url: 'https://www.mbl.is/frettir/kosning/2022/02/24/orri_oddviti_framsoknarmanna_i_kopavogi/', source: 'mbl.is' },
+          { title: 'Orri Hlöðversson ráðinn bæjarstjóri', url: 'https://www.mbl.is/greinasafn/grein/672154/', source: 'mbl.is' },
+          { title: 'Orri Hlöðversson nýr oddviti Framsóknar í Kópavogi', url: 'https://www.kopavogsbladid.is/orri-hlodversson-nyr-oddviti-framsoknar-i-kopavogi/', source: 'kopavogsbladid.is' },
+          { title: 'Orri vill leiða framsóknarmenn í Kópavogi', url: 'https://www.dv.is/eyjan/2022/01/21/orri-vill-leida-framsoknarmenn-kopavogi/', source: 'dv.is' },
+          { title: 'Forstjóraskipti hjá Frumherja', url: 'https://www.mbl.is/vidskipti/frettir/2025/02/11/forstjoraskipti_hja_frumherja/', source: 'mbl.is' },
+          { title: 'Ný könnun í Kópavogi: Miklar sviptingar og margir möguleikar í stöðunni', url: 'https://www.dv.is/frettir/2026/4/25/ny-konnun-kopavogi-miklar-sviptingar-og-margir-moguleikar-stodunni/', source: 'dv.is' },
         ],
       }],
       [2, 'Björg Baldursdóttir', 'Skólastjóri Kársnesskóla, bæjarfulltrúi', 'images/candidates/71f0f3fc01da2cbe.jpg', {
@@ -2848,7 +3187,11 @@ const KOP = {
         bio: 'Björg Baldursdóttir er skólastjóri Kársnesskóla í Kópavogi og bæjarfulltrúi Framsóknarflokksins. Hún situr í bæjarráði Kópavogs.',
         interests: ['Skólamál og menntun barna', 'Leikskólamál', 'Þjónusta við fjölskyldur'],
         social: null,
-        news: [],
+        news: [
+          { title: 'Kársnesskóli jafnaður við jörðu', url: 'https://www.mbl.is/frettir/innlent/2021/01/04/karsnesskoli_jafnadur_vid_jordu/', source: 'mbl.is' },
+          { title: 'Kársnesskóli rifinn vegna myglu og rakaskemmda um áramótin', url: 'https://www.visir.is/g/20171927445d/karsnesskoli-rifinn-vegna-myglu-og-rakaskemmda-um-aramotin', source: 'visir.is' },
+          { title: 'Fagna byggingu nýs Kársnesskóla', url: 'https://kgp.is/kopavogur/fagna-byggingu-nys-karsnesskola/', source: 'kgp.is' },
+        ],
       }],
       [3, 'Gunnar Súr Ragnarsson', 'Lögfræðingur', null, {
         age: null,
@@ -2908,8 +3251,12 @@ const KOP = {
         interests: ['Innviðir og viðhald grunnskóla', 'Skólamál', 'Jafnrétti og mannréttindi'],
         social: [],
         news: [
+          { title: 'María vill oddvitasætið', url: 'https://www.mbl.is/frettir/innlent/2026/01/18/maria_vill_oddvitasaetid/', source: 'mbl.is' },
+          { title: 'María Ellen nýr oddviti Viðreisnar', url: 'https://www.mbl.is/frettir/innlent/2026/02/07/maria_ellen_nyr_oddviti_vidreisnar/', source: 'mbl.is' },
+          { title: 'María Ellen býður sig fram sem oddviti Viðreisnar í Kópavogi', url: 'https://www.ruv.is/frettir/innlent/2026-01-18-maria-ellen-bydur-sig-fram-sem-oddviti-vidreisnar-i-kopavogi-464063', source: 'ruv.is' },
           { title: 'María Ellen kjörin oddviti Viðreisnar í Kópavogi', url: 'https://www.visir.is/g/20262840103d/maria-ellen-kjorin-odd-viti-vid-reisnar-i-kopa-vogi', source: 'visir.is' },
-          { title: 'Viðreisn opinberar listann í Kópavogi', url: 'https://www.visir.is/g/20262851919d/vidreisn-opinberar-listann-i-kopavogi', source: 'visir.is' },
+          { title: 'Innviðir grunnskólanna í forgang í Kópavogi', url: 'https://www.visir.is/g/20262838522d/inn-vidir-grunn-skolanna-i-for-gang-i-kopa-vogi', source: 'visir.is' },
+          { title: 'Getnaðarsigur og fullnægjandi árangur', url: 'https://www.visir.is/g/20262873437d/getnadarsigur-og-fullnaegjandi-arangur', source: 'visir.is' },
         ],
       }],
       [2, 'Pétur Björgvin Sveinsson', 'Aðstoðarmaður þingflokks', 'images/candidates/aa2a111ba8b1e688.jpg', {
@@ -2982,7 +3329,12 @@ const KOP = {
         social: [],
         news: [
           { title: 'Ásdís verður bæjarstjóri í Kópavogi', url: 'https://www.mbl.is/frettir/kosning/2022/05/25/asdis_verdur_baejarstjori_i_kopavogi/', source: 'mbl.is' },
-          { title: 'Fullskipaður framboðslisti í Kópavogi', url: 'https://xd.is/2026/03/17/fullskipadur-frambodslisti-i-kopavogi/', source: 'xd.is' },
+          { title: 'Ásdís verður bæjarstjóri í Kópavogi', url: 'https://kjarninn.is/frettir/asdis-verdur-baejarstjori-i-kopavogi/', source: 'kjarninn.is' },
+          { title: 'Ásdís Kristjánsdóttir valin hagfræðingur ársins 2025', url: 'https://www.mbl.is/vidskipti/frettir/2025/05/26/asdis_kristjansdottir_valin_hagfraedingur_arsins_20/', source: 'mbl.is' },
+          { title: 'Bæjarstjórinn ósammála ritara Sjálfstæðisflokksins', url: 'https://www.mbl.is/frettir/innlent/2024/08/31/baejarstjorinn_osammala_ritara_sjalfstaedisflokksin/', source: 'mbl.is' },
+          { title: 'Átök í Kópavogi og gerræði utanríkisráðherra', url: 'https://www.mbl.is/frettir/innlent/2025/10/10/atok_i_kopavogi_og_gerraedi_utanrikisradherra/', source: 'mbl.is' },
+          { title: 'Bæjarstjóri Kópavogs lýsir yfir sárum vonbrigðum með efnahagsáætlun ríkisstjórnarinnar', url: 'https://www.visir.is/g/20262867475d/baejarstjori-kopavogs-lysir-yfir-sarum-vonbrigdum-med-efnahagsaaetlun-rikisstjornarinnar', source: 'visir.is' },
+          { title: 'Ásdís segir formannsframboð ekki á dagskrá', url: 'https://www.mbl.is/frettir/innlent/2025/01/13/asdis_segir_formannsframbod_ekki_a_dagskra/', source: 'mbl.is' },
         ],
       }],
       [2, 'Hjördís Ýr Johnson', 'Bæjarfulltrúi, framleiðslustjóri StudioM', 'images/candidates/818f29b1ca6f227e.jpg', {
@@ -2991,6 +3343,8 @@ const KOP = {
         interests: ['Menntamál og skólar', 'Þjónusta við íbúa', 'Fjármál bæjarins'],
         social: [],
         news: [
+          { title: 'Hjördís Ýr Johnson gefur kost á sér í 2. sætið í prófkjöri Sjálfstæðisflokksins í Kópavogi', url: 'https://kgp.is/kopavogur/hjordis-yr-johnson-gefur-kost-a-ser-i-2-saeti-i-profkjori-sjalfstaedisflokksins-i-kopavogi/', source: 'kgp.is' },
+          { title: 'Hjördís Ýr Johnson gefur kost á sér í 2. sætið', url: 'https://www.visir.is/g/20222218097d/hjordis-yr-johnson-gefur-kost-a-ser-i-2.-saetid', source: 'visir.is' },
           { title: 'Fullskipaður framboðslisti í Kópavogi', url: 'https://xd.is/2026/03/17/fullskipadur-frambodslisti-i-kopavogi/', source: 'xd.is' },
         ],
       }],
@@ -3000,6 +3354,8 @@ const KOP = {
         interests: ['Nýsköpun og þekkingargreinar', 'Skóla- og menntamál', 'Þjónusta borgar'],
         social: [],
         news: [
+          { title: 'Andri Steinn sækist eftir 2.-3. sæti í Kópavogi', url: 'https://www.mbl.is/frettir/burdargrein/2022/02/10/andri_steinn_saekist_eftir_2_3_saeti_i_kopavogi/', source: 'mbl.is' },
+          { title: 'Gerir lítið úr félaginu með málflutningnum', url: 'https://www.mbl.is/frettir/innlent/2024/08/30/thar_er_raunverulegt_bakslag/', source: 'mbl.is' },
           { title: 'Fullskipaður framboðslisti í Kópavogi', url: 'https://xd.is/2026/03/17/fullskipadur-frambodslisti-i-kopavogi/', source: 'xd.is' },
         ],
       }],
@@ -3060,6 +3416,9 @@ const KOP = {
         news: [
           { title: 'Leikjahönnuður oddviti Sósíalista í Kópavogi', url: 'https://www.ruv.is/frettir/innlent/2026-03-23-leikjahonnudur-oddviti-sosialista-i-kopavogi-470613', source: 'ruv.is' },
           { title: 'Markús leiðir lista Sósíalistaflokksins í Kópavogi', url: 'https://www.mbl.is/frettir/innlent/2026/03/23/markus_leidir_lista_sosialistaflokksins_i_kopavogi/', source: 'mbl.is' },
+          { title: 'Sósíalistar skila ekki auðu í húsnæðismálum Kópavogs', url: 'https://www.visir.is/g/20262859524d/sosialistar-skila-ekki-audu-i-husnaedismalum-kopavogs', source: 'visir.is' },
+          { title: '3 efstu sæti í Kópavogsbæ', url: 'https://www.sosialistaflokkurinn.is/frettir/3-efstu-saeti-i-kopavogsbae', source: 'sosialistaflokkurinn.is' },
+          { title: 'Sósíalistaflokkurinn býður fram í Kópavogi', url: 'https://www.kopavogsbladid.is/sosialistaflokkurinn-bydur-fram-i-kopavogi/', source: 'kopavogsbladid.is' },
         ],
       }],
       [2, 'Anna Ceridwen Auðnudóttir', 'Listfræðinemi', null, {
@@ -3128,8 +3487,14 @@ const KOP = {
         interests: ['Andstaða við ofþéttni', 'Endurskoðun Borgarlínuáforma', 'Leikskóla- og grunnskólamál', 'Hagkvæmni í bæjarrekstri'],
         social: [],
         news: [
+          { title: 'Einar sækist eftir oddivitasæti í Kópavogi', url: 'https://www.mbl.is/frettir/innlent/2025/10/14/einar_saekist_eftir_oddivitasaeti_i_kopavogi/', source: 'mbl.is' },
+          { title: 'Einar vill leiða lista Miðflokksins í Kópavogi', url: 'https://www.dv.is/eyjan/2025/10/14/einar-vill-leida-lista-midflokksins-kopavogi/', source: 'dv.is' },
           { title: 'Einar verður oddviti Miðflokksins í Kópavogi', url: 'https://www.mbl.is/frettir/innlent/2026/02/26/einar_verdur_oddviti_midflokksins_i_kopavogi/', source: 'mbl.is' },
-          { title: 'Einar Jóhannes leiðir Miðflokkinn', url: 'https://www.kopavogsbladid.is/einar-johannes-leidir-midflokkinn/', source: 'kopavogsbladid.is' },
+          { title: 'Eru grunnskólar Kópavogs að gera börnin okkar að skjáfíklum?', url: 'https://midflokkurinn.is/eru-grunnskolar-kopavogs-ad-gera-bornin-okkar-ad-skjafiklum', source: 'midflokkurinn.is' },
+          { title: 'Miðflokkurinn búinn að stilla upp í Kópavogi', url: 'https://www.ruv.is/frettir/innlent/2026-03-30-midflokkurinn-buinn-ad-stilla-upp-i-kopavogi-471342', source: 'ruv.is' },
+          { title: 'Örvæntir ekki yfir fregnum af falli meirihlutans', url: 'https://www.visir.is/g/20262874146d/or-vaentir-ekki-yfir-fregnum-af-falli-meiri-hlutans', source: 'visir.is' },
+          { title: 'Varaþingmaður Miðflokksins svarar gagnrýni á lista flokksins í borginni', url: 'https://www.dv.is/frettir/2026/4/10/varathingmadur-svarar-fyrir-ovaegna-gagnryni-studningsmanna-lista-flokksins-borginni-menn-aettu-kannski-ad-fara-eftir-mer-naest/', source: 'dv.is' },
+          { title: 'Einar varð fyrir vonbrigðum með unga fólkið – „Þetta var bóla sem sprakk"', url: 'https://www.dv.is/frettir/2026/4/10/einar-vard-fyrir-vonbrigdum-med-unga-folkid-thetta-var-bola-sem-sprakk/', source: 'dv.is' },
         ],
       }],
       [2, 'Nóna Berglind Sigurgeirsdóttir', 'Leikskólastjóri', 'images/candidates/ed3c63b8ab93d71d.jpg', {
@@ -3208,7 +3573,11 @@ const KOP = {
         ],
         news: [
           { title: 'Jónas Már oddviti Samfylkingarinnar í Kópavogi', url: 'https://www.mbl.is/frettir/innlent/2026/02/07/jonas_mar_oddviti_samfylkingarinnar_i_kopavogi/', source: 'mbl.is' },
-          { title: 'Þau eru á lista Samfylkingarinnar í Kópavogi', url: 'https://www.visir.is/g/20262854763d/thau-eru-a-lista-sam-fylkingarinnar-i-kopa-vogi', source: 'visir.is' },
+          { title: 'Jónas Már kjörinn oddviti Samfylkingarinnar í Kópavogi', url: 'https://www.visir.is/g/20262840071d/jonas-mar-kjorinn-odd-viti-sam-fylkingarinnar-i-kopa-vogi', source: 'visir.is' },
+          { title: 'Þau eru á lista Samfylkingarinnar í Kópavogi', url: 'https://www.visir.is/g/20262854763d/thau-eru-a-lista-samfylkingarinnar-i-kopavogi', source: 'visir.is' },
+          { title: 'Samfylking boðar lægri leikskólagjöld í Kópavogi', url: 'https://utvarpsaga.is/samfylking-bodar-laegri-leikskolagjold-i-kopavogi/', source: 'utvarpsaga.is' },
+          { title: 'Jafnaðarmaður vikunnar - Jónas Már Torfason', url: 'https://xs.is/frettir/2017/05/jafnadarmadur-vikunnar-jonas-mar-torfason', source: 'xs.is' },
+          { title: 'Ný könnun í Kópavogi: Miklar sviptingar og margir möguleikar í stöðunni', url: 'https://www.dv.is/frettir/2026/4/25/ny-konnun-kopavogi-miklar-sviptingar-og-margir-moguleikar-stodunni/', source: 'dv.is' },
         ],
       }],
       [2, 'Eydís Inga Valsdóttir', 'Alþjóðafræðingur', 'images/candidates/183b4abcd4dd4f19.png', {
@@ -3217,7 +3586,7 @@ const KOP = {
         interests: ['Jafnrétti og mannréttindi', 'Fjölbreytileiki í samfélaginu', 'Menntamál', 'Húsnæðismál'],
         social: null,
         news: [
-          { title: 'Þau eru á lista Samfylkingarinnar í Kópavogi', url: 'https://www.visir.is/g/20262854763d/thau-eru-a-lista-sam-fylkingarinnar-i-kopa-vogi', source: 'visir.is' },
+          { title: 'Þau eru á lista Samfylkingarinnar í Kópavogi', url: 'https://www.visir.is/g/20262854763d/thau-eru-a-lista-samfylkingarinnar-i-kopavogi', source: 'visir.is' },
         ],
       }],
       [3, 'Hákon Gunnarsson', 'Sérfræðingur í jarðskorpurannsóknum', 'images/candidates/fc532a0404a3cee4.png', {
@@ -3226,7 +3595,7 @@ const KOP = {
         interests: ['Umhverfismál og sjálfbær þróun', 'Vísindi og rannsóknir', 'Menntamál', 'Jafnrétti'],
         social: null,
         news: [
-          { title: 'Þau eru á lista Samfylkingarinnar í Kópavogi', url: 'https://www.visir.is/g/20262854763d/thau-eru-a-lista-sam-fylkingarinnar-i-kopa-vogi', source: 'visir.is' },
+          { title: 'Þau eru á lista Samfylkingarinnar í Kópavogi', url: 'https://www.visir.is/g/20262854763d/thau-eru-a-lista-samfylkingarinnar-i-kopavogi', source: 'visir.is' },
         ],
       }],
       [4, 'Sólveig Skaftadóttir', 'Fasteignasali', 'images/candidates/5eda2327db91be68.png', {
@@ -3235,7 +3604,7 @@ const KOP = {
         interests: ['Húsnæðismál og leigendavernd', 'Þjónusta við íbúa', 'Fjölbreytileiki', 'Menntamál'],
         social: null,
         news: [
-          { title: 'Þau eru á lista Samfylkingarinnar í Kópavogi', url: 'https://www.visir.is/g/20262854763d/thau-eru-a-lista-sam-fylkingarinnar-i-kopa-vogi', source: 'visir.is' },
+          { title: 'Þau eru á lista Samfylkingarinnar í Kópavogi', url: 'https://www.visir.is/g/20262854763d/thau-eru-a-lista-samfylkingarinnar-i-kopavogi', source: 'visir.is' },
         ],
       }],
       [5, 'Orri Thor Eggertsson', 'Nemi í stjórnmálafræði', 'images/candidates/c12d652bf698b7df.png', {
@@ -3244,7 +3613,7 @@ const KOP = {
         interests: ['Jafnrétti og réttlæti', 'Menntamál', 'Gagnsæi í stjórnsýslu', 'Húsnæðismál'],
         social: null,
         news: [
-          { title: 'Þau eru á lista Samfylkingarinnar í Kópavogi', url: 'https://www.visir.is/g/20262854763d/thau-eru-a-lista-sam-fylkingarinnar-i-kopa-vogi', source: 'visir.is' },
+          { title: 'Þau eru á lista Samfylkingarinnar í Kópavogi', url: 'https://www.visir.is/g/20262854763d/thau-eru-a-lista-samfylkingarinnar-i-kopavogi', source: 'visir.is' },
         ],
       }],
       [6, 'Hildur María Friðriksdóttir', 'Deildarstjóri félagsmiðstöðva', 'images/candidates/b0f27b67a4caa0b0.png'],
@@ -3285,6 +3654,9 @@ const KOP = {
         ],
         news: [
           { title: 'Ómar gekk úr skaftinu og Anna leiðir VG', url: 'https://www.mbl.is/frettir/innlent/2026/03/31/omar_gekk_ur_skaftinu_og_anna_leidir_vg/', source: 'mbl.is' },
+          { title: 'Anna Sigríður leiðir lista Vinstri grænna og óháðra', url: 'https://www.mbl.is/frettir/innlent/2026/04/09/anna_sigridur_leidir_lista_vinstri_graenna_og_ohadr/', source: 'mbl.is' },
+          { title: 'VG og óháð bjóða fram í Kópavogi', url: 'https://vg.is/greinar/vg-og-ohad-bjoda-fram-i-kopavogi/', source: 'vg.is' },
+          { title: 'Framboðslisti VG í Kópavogi samþykktur', url: 'https://www.kopavogsbladid.is/frambodslisti-vg-i-kopavogi-samthykktur/', source: 'kopavogsbladid.is' },
         ],
       }],
       [2, 'Bjarki Valberg', 'Skipulagsfræðingur', null, {
@@ -3362,6 +3734,7 @@ const HAF = {
         news: [
           { title: 'Ester Bíbí leiðir lista Vinstrisins í Hafnarfirði', url: 'https://www.fjardarfrettir.is/frettir/politik/ester-bibi-leidir-lista-vinstrisins-i-hafnarfirdi', source: 'fjardarfrettir.is' },
           { title: 'Vinstrið tilkynnir framboð í Hafnarfirði', url: 'https://www.ruv.is/frettir/innlent/2026-03-24-vinstrid-tilkynnir-frambod-i-hafnarfirdi-470747', source: 'ruv.is' },
+          { title: 'Vinstrið er komið til Hafnarfjarðar', url: 'https://www.midjan.is/vinstrid-er-komid-til-hafnarfjardar/', source: 'midjan.is' },
         ],
       }],
       [2, 'Svenný Kristins', 'Aðstoðarmaður iðjuþjálfa, lagahöfundur', null, {
@@ -3438,10 +3811,14 @@ const HAF = {
           { type: 'instagram', url: 'https://www.instagram.com/valdividis/', label: 'Instagram' },
         ],
         news: [
+          { title: 'Bæjarstjórinn vill halda áfram', url: 'https://www.mbl.is/frettir/innlent/2026/01/05/baejarstjorinn_vill_halda_afram/', source: 'mbl.is' },
           { title: 'Bæjarstjórinn leiðir lista Framsóknar í Hafnarfirði', url: 'https://www.mbl.is/frettir/innlent/2026/03/11/baejarstjorinn_leidir_lista_framsoknar_i_hafnarfird/', source: 'mbl.is' },
           { title: 'Bæjarstjórinn vill leiða Framsókn í Hafnarfirði', url: 'https://www.visir.is/g/20262824756d/baejar-stjorinn-vill-leida-fram-sokn-i-hafnar-firdi', source: 'visir.is' },
           { title: 'Bæjarstjórinn leiðir Framsókn í Hafnarfirði', url: 'https://www.ruv.is/frettir/innlent/2026-03-11-baejarstjorinn-leidir-framsokn-i-hafnarfirdi-469507', source: 'ruv.is' },
-          { title: 'Valdimar Víðisson is Hafnarfjörður\'s new mayor', url: 'https://en.hafnarfjordur.is/valdimar-vidisson-new-mayor/', source: 'hafnarfjordur.is' },
+          { title: 'Valdimar tekinn við af Rósu sem bæjarstjóri', url: 'https://www.visir.is/g/20252670327d/valdimar-tekinn-vid-af-rosu-sem-baejar-stjori', source: 'visir.is' },
+          { title: 'Vikuviðtalið: Valdimar Víðisson', url: 'https://bb.is/2026/01/vikuvidtalid-valdimar-vidisson/', source: 'bb.is' },
+          { title: 'Valdimar vill leiða lista Framóknar í Hafnarfirði', url: 'https://www.fjardarfrettir.is/frettir/valdimar-vill-leida-lista-framoknar-i-hafnarfirdi', source: 'fjardarfrettir.is' },
+          { title: 'Bæjarstjóri Hafnarfjarðar fékk krefjandi spurningu á leik FH og Hauka', url: 'https://www.dv.is/fokus/2026/02/26/baejarstjori-hafnarfjardar-fekk-krefjandi-spurningu-leik-fh-og-hauka/', source: 'dv.is' },
         ],
       }],
       [2, 'Kolbrún Magnúsdóttir', 'Mannauðsráðgjafi', null, {
@@ -3520,10 +3897,14 @@ const HAF = {
           { type: 'instagram', url: 'https://www.instagram.com/karohelga/', label: 'Instagram' },
         ],
         news: [
-          { title: 'Karólína Helga nýr oddviti Viðreisnar í Hafnarfirði', url: 'https://www.mbl.is/frettir/innlent/2026/01/17/karolina_helga_nyr_oddviti_vidreisnar_i_hafnarfirdi/', source: 'mbl.is' },
-          { title: 'Karólína leiðir Viðreisn í Hafnarfirði', url: 'https://www.ruv.is/frettir/innlent/2026-01-17-karolina-leidir-vidreisn-i-hafnarfirdi-464041', source: 'ruv.is' },
-          { title: 'Karólína leiðir lista í Hafnarfirði', url: 'https://vidreisn.is/2026/03/karolina-leidir-lista-i-hafnarfirdi/', source: 'vidreisn.is' },
+          { title: 'Jón og Karólína keppast um oddvitann', url: 'https://www.mbl.is/frettir/innlent/2026/01/02/jon_og_karolina_keppast_um_oddvitann/', source: 'mbl.is' },
           { title: 'Karólína Helga býður sig fram gegn sitjandi oddvita', url: 'https://www.visir.is/g/20262823674d/karo-lina-helga-bydur-sig-fram-gegn-sitjandi-odd-vita', source: 'visir.is' },
+          { title: 'Karólína Helga nýr oddviti Viðreisnar í Hafnarfirði', url: 'https://www.mbl.is/frettir/innlent/2026/01/17/karolina_helga_nyr_oddviti_vidreisnar_i_hafnarfirdi/', source: 'mbl.is' },
+          { title: 'Karolína leiðir Viðreisn í Hafnarfirði', url: 'https://www.ruv.is/frettir/innlent/2026-01-17-karolina-leidir-vidreisn-i-hafnarfirdi-464041', source: 'ruv.is' },
+          { title: 'Karólína Helga skákaði sitjandi oddvita í Hafnarfirði', url: 'https://www.visir.is/g/20262830451d/karo-lina-helga-skakadi-sitjandi-odd-vita-i-hafnar-firdi', source: 'visir.is' },
+          { title: 'Karólína bar sigurorð af sitjandi oddvita Viðreisnar', url: 'https://www.fjardarfrettir.is/frettir/politik/karolina-bar-sigurord-af-sitjandi-oddvita-vidreisnar', source: 'fjardarfrettir.is' },
+          { title: '„Tíminn og fjarlægðin voru ekki með okkur í liði"', url: 'https://www.mbl.is/frettir/innlent/2025/12/03/timinn_og_fjarlaegdin_voru_ekki_med_okkur_i_lidi/', source: 'mbl.is' },
+          { title: 'Karólína Helga Símonardóttir (V): Fjárlög 2026', url: 'https://www.althingi.is/altext/raeda/157/rad20251205T173224.html', source: 'althingi.is' },
         ],
       }],
       [2, 'Árni Stefán Guðjónsson', 'Áfangastjóri í Flensborg', 'images/candidates/e83498217a45467a.png', {
@@ -3542,6 +3923,7 @@ const HAF = {
         social: null,
         news: [
           { title: 'Karólína leiðir lista í Hafnarfirði', url: 'https://vidreisn.is/2026/03/karolina-leidir-lista-i-hafnarfirdi/', source: 'vidreisn.is' },
+          { title: 'Framboðslisti Viðreisnar kynntur', url: 'https://www.fjardarfrettir.is/frettir/politik/frambodslisti-vidreisnar-kynntur', source: 'fjardarfrettir.is' },
         ],
       }],
       [4, 'Óli Örn Eiríksson', 'Verkefnastjóri', 'images/candidates/efa2d641c298e954.png', {
@@ -3602,11 +3984,14 @@ const HAF = {
           { type: 'instagram', url: 'https://www.instagram.com/orribjornsson/', label: 'Instagram' },
         ],
         news: [
-          { title: 'Orri verður oddviti Sjálfstæðismanna í Hafnarfirði', url: 'https://www.mbl.is/frettir/innlent/2026/02/07/orri_verdur_oddviti_sjalfstaedismanna/', source: 'mbl.is' },
           { title: 'Orri vill 1. sæti í Hafnarfirði', url: 'https://www.mbl.is/frettir/innlent/2025/11/07/orri_vill_1_saeti_i_hafnarfirdi/', source: 'mbl.is' },
+          { title: 'Galdurinn við Hafnarfjörð', url: 'https://www.mbl.is/frettir/innlent/2026/02/05/galdurinn_vid_hafnarfjord/', source: 'mbl.is' },
+          { title: 'Orri verður oddviti Sjálfstæðismanna', url: 'https://www.mbl.is/frettir/innlent/2026/02/07/orri_verdur_oddviti_sjalfstaedismanna/', source: 'mbl.is' },
           { title: 'Orri oddviti Sjálfstæðismanna í Hafnarfirði', url: 'https://www.visir.is/g/20262840192d/orri-oddviti-sjalfstaedismanna-i-hafnarfirdi', source: 'visir.is' },
           { title: 'Leggja til aðra lausn en Borgarlínu', url: 'https://www.dv.is/frettir/2026/02/26/leggja-til-adra-lausn-en-borgarlinu-hneppi-ibua-thar-nanast-stofufangelsi-medan/', source: 'dv.is' },
-          { title: 'Framboðslisti Sjálfstæðisflokksins í Hafnarfirði', url: 'https://xd.is/2026/03/04/frambodslisti-sjalfstaedisflokksins-i-hafnarfirdi/', source: 'xd.is' },
+          { title: 'Sjálfstæðismenn í Hafnarfirði kynna lista', url: 'https://www.mbl.is/frettir/innlent/2026/03/04/sjalfstaedismenn_i_hafnarfirdi_kynna_lista/', source: 'mbl.is' },
+          { title: 'Skarphéðinn Orri leiðir lista Sjálfstæðisflokksins', url: 'https://www.fjardarfrettir.is/frettir/politik/skarphedinn-orri-leidir-lista-sjalfstaedisflokksins', source: 'fjardarfrettir.is' },
+          { title: 'Orri lætur af störfum hjá Algalíf', url: 'https://www.mbl.is/vidskipti/frettir/2025/11/18/orri_laetur_af_storfum_hja_algalif/', source: 'mbl.is' },
         ],
       }],
       [2, 'Kristín Thoroddsen', 'Bæjarfulltrúi, formaður fræðsluráðs', 'images/candidates/86bbcfb4e46d1468.jpg', {
@@ -3687,6 +4072,10 @@ const HAF = {
           { title: 'Einar Geir oddviti Miðflokks í Hafnarfirði', url: 'https://www.visir.is/g/20262850881d/einar-geir-odd-viti-midflokks-i-hafnar-firdi', source: 'visir.is' },
           { title: 'Miðflokkurinn í Hafnarfirði hafnar Borgarlínunni', url: 'https://utvarpsaga.is/midflokkurinn-i-hafnarfirdi-hafnar-borgarlinunni/', source: 'utvarpsaga.is' },
           { title: '2 milljarðar í félagsþjónustu vegna hælisleitenda í Hafnarfirði', url: 'https://utvarpsaga.is/2-milljardar-i-felagsthjonustu-vegna-haelisleitenda-i-hafnarfirdi/', source: 'utvarpsaga.is' },
+          { title: 'Tveir milljarðar í félagsþjónustu vegna hælisleitenda í Hafnarfirði', url: 'https://frettatiminn.is/11/03/2026/tveir-milljardar-i-felagsthjonustu-vegna-haelisleitenda-i-hafnarfirdi/', source: 'frettatiminn.is' },
+          { title: 'Hvernig varð staðan svona í Hafnarfirði?', url: 'https://www.visir.is/g/20252816547d/hvernig-vard-stadan-svona-i-hafnar-firdi-', source: 'visir.is' },
+          { title: 'Einar Geir leiðir lista Miðflokksins í Hafnarfirði', url: 'https://utvarpsaga.is/einar-geir-leidir-lista-midflokksins-i-hafnarfirdi/', source: 'utvarpsaga.is' },
+          { title: 'Hafnarfjörðarbær krafinn um háa fjárhæð vegna skemmda á húsnæði fyrir hælisleitendur', url: 'https://www.dv.is/frettir/2026/03/21/hafnarfjardarbaer-krafinn-um-haa-fjarhaed-vegna-skemmda-husnaedi-fyrir-haelisleitendur-engin-samthykkt-kjorinna-fulltrua-finnst/', source: 'dv.is' },
         ],
       }],
       [2, 'Signý Jóna Tryggvadóttir', 'Mannauðssérfræðingur', 'images/candidates/33f378784dc7f148.jpg', {
@@ -3760,10 +4149,14 @@ const HAF = {
         interests: ['Samgöngumál og almenningssamgöngur', 'Skólamál og velferð barna', 'Félagsmál og húsnæðismál', 'Heilbrigðisþjónusta', 'Evrópumál og alþjóðlegt samstarf'],
         social: [],
         news: [
-          { title: 'Guðmundur Árni sækist eftir fyrsta sæti í Hafnarfirði', url: 'https://www.ruv.is/frett/2022/01/13/gudmundur-arni-saekist-eftir-fyrsta-saeti-i-hafnarfirdi', source: 'ruv.is' },
           { title: 'Guðmundur Árni snýr aftur í stjórnmálin', url: 'https://www.dv.is/eyjan/2022/01/13/gudmundur-arni-snyr-aftur-stjornmalin/', source: 'dv.is' },
+          { title: 'Guðmundur Árni snýr aftur í pólitík eftir sextán ár í utanríkisþjónustunni', url: 'https://www.visir.is/g/20222207704d/gud-mundur-arni-snyr-aftur-i-politik-eftir-sex-tan-ar-i-utan-rikis-thjonustunni', source: 'visir.is' },
           { title: 'Guðmundur Árni sigraði í prófkjörinu', url: 'https://www.mbl.is/frettir/kosning/2022/02/12/gudmundur_arni_sigradi_i_profkjorinu/', source: 'mbl.is' },
           { title: 'Guðmundur Árni sjálfkjörinn varaformaður', url: 'https://www.visir.is/g/20222331458d/gudmundur-arni-sjalfkjorinn-varaformadur', source: 'visir.is' },
+          { title: 'Guðmundur Árni leiðir áfram listann', url: 'https://www.visir.is/g/20262849479d/gud-mundur-arni-leidir-a-fram-listann', source: 'visir.is' },
+          { title: 'Vill vinna Hafnarfjörð fyrir jafnaðarmenn 29 árum eftir að hann hætti sem bæjarstjóri', url: 'https://kjarninn.is/frettir/vill-vinna-hafnarfjord-fyrir-jafnadarmenn-29-arum-eftir-ad-hann-haetti-sem-baejarstjori/', source: 'kjarninn.is' },
+          { title: 'Meirihlutinn í Hafnarfirði fallinn og Samfylkingin tvöfaldar fjölda bæjarfulltrúa', url: 'https://kjarninn.is/frettir/meirihlutinn-i-hafnarfirdi-fallinn-og-samfylkingin-tvofaldar-fjolda-baejarfulltrua/', source: 'kjarninn.is' },
+          { title: 'Guðmundur Árni: „Þegjandi samkomulag milli okkar um að tala um drengina okkar og slysið"', url: 'https://www.mannlif.is/frettir/innlent/gudmundur-arni-thegjandi-samkomulag-milli-okkar-um-ad-tala-um-drengina-okkar-og-slysid/', source: 'mannlif.is' },
         ],
       }],
       [2, 'Hildur Rós Guðbjargardóttir', 'Bæjarfulltrúi', 'images/candidates/9fe7efcfacad532a.jpg', {
@@ -3841,9 +4234,18 @@ const SEL = {
         bio: 'Þór Sigurgeirsson er bæjarstjóri Seltjarnarnes og leiðir D-lista Sjálfstæðisflokksins á Seltjarnarnesi í sveitarstjórnarkosningum 2026. Hann leggur áherslu á faglega og góða stjórnun bæjarins, ábyrga fjármálastjórnun og gæðaþjónustu við íbúa í skóla-, velferðar- og heilbrigðismálum.',
         interests: ['Fagleg stjórnun bæjarins', 'Ábyrg fjármálastjórnun', 'Gæðaþjónusta', 'Uppbygging Seltjarnarness'],
         social: null,
-        news: [],
+        news: [
+          { title: 'Þór oddviti á Seltjarnarnesi', url: 'https://www.mbl.is/frettir/innlent/2026/02/07/thor_oddviti_a_seltjarnarnesi/', source: 'mbl.is' },
+          { title: 'Þór Sigurgeirsson endurkjörinn oddviti Sjálfstæðisflokksins á Seltjarnarnesi', url: 'https://www.ruv.is/frettir/innlent/2026-02-07-thor-sigurgeirsson-endurkjorinn-oddviti-sjalfstaedisflokksins-a-seltjarnarnesi-466441', source: 'ruv.is' },
+          { title: 'Svona er listi Sjálfstæðismanna á Seltjarnarnesi', url: 'https://www.mbl.is/frettir/innlent/2026/03/03/svona_er_listi_sjalfstaedismanna_a_seltjarnarnesi/', source: 'mbl.is' },
+          { title: 'Bæjarstjórinn einn á móti stækkun friðlýsingar Gróttu og Seltjarnar', url: 'https://www.visir.is/g/20262842656d/baejar-stjorinn-einn-a-moti-staekkun-frid-lysingar-grottu-og-seltjarnar', source: 'visir.is' },
+          { title: 'Seltjarnarnes og Garðabær lækka álagningu', url: 'https://www.mbl.is/frettir/innlent/2025/05/30/seltjarnarnes_og_gardabaer_laekka_alagningu/', source: 'mbl.is' },
+          { title: 'Áætlunin sýni viðsnúning', url: 'https://www.mbl.is/frettir/innlent/2025/12/13/aaetlunin_syni_vidsnuning/', source: 'mbl.is' },
+        ],
       }],
-      [2, 'Elísabet Ingunn Einarsdóttir', 'Framkvæmdastjóri', 'images/candidates/af3e445d0f5eb4a2.jpg', { age: null, bio: 'Elísabet Ingunn Einarsdóttir er framkvæmdastjóri og er í öðru sæti D-lista Sjálfstæðisflokksins á Seltjarnarnesi. Hún leggur áherslu á faglega stjórnun og gæðaþjónustu við íbúa bæjarins.', interests: ['Fagleg og skilvirkni stjórnun', 'Framkvæmdir og uppbygging', 'Gæðaþjónusta', 'Ábyrg fjármálastjórnun'], social: null, news: [] }],
+      [2, 'Elísabet Ingunn Einarsdóttir', 'Framkvæmdastjóri', 'images/candidates/af3e445d0f5eb4a2.jpg', { age: null, bio: 'Elísabet Ingunn Einarsdóttir er framkvæmdastjóri og er í öðru sæti D-lista Sjálfstæðisflokksins á Seltjarnarnesi. Hún leggur áherslu á faglega stjórnun og gæðaþjónustu við íbúa bæjarins.', interests: ['Fagleg og skilvirkni stjórnun', 'Framkvæmdir og uppbygging', 'Gæðaþjónusta', 'Ábyrg fjármálastjórnun'], social: null, news: [
+          { title: 'Svona er listi Sjálfstæðismanna á Seltjarnarnesi', url: 'https://www.mbl.is/frettir/innlent/2026/03/03/svona_er_listi_sjalfstaedismanna_a_seltjarnarnesi/', source: 'mbl.is' },
+        ] }],
       [3, 'Magnús Benediktsson', 'Hagfræðingur', 'images/candidates/0bec6ca1bec9ca82.jpg'],
       [4, 'Björn Jóhannesson', 'Hagfræðingur', 'images/candidates/8e44e1159e4f2bac.jpg'],
       [5, 'Lárus Gunnarsson', 'Forstöðumaður', 'images/candidates/ee3dd3ad8e10df4a.jpg'],
@@ -3871,7 +4273,10 @@ const SEL = {
         bio: 'Skafti Harðarson er framkvæmdastjóri og leiðir M-lista Miðflokksins á Seltjarnarnesi í sveitarstjórnarkosningum 2026. Hann leggur áherslu á grunnþjónustu fyrir börn og fjölskyldur, ábyrga og skynsamlega fjármálastjórnun og gæðaþjónustu við aldraða.',
         interests: ['Fjölskylduþjónusta', 'Ábyrg fjármálastjórnun', 'Þjónusta við aldraða', 'Samfélagsleg uppbygging'],
         social: null,
-        news: [],
+        news: [
+          { title: 'Skafti fyrsti oddviti Miðflokksins á Seltjarnarnesi', url: 'https://www.ruv.is/frettir/innlent/2026-04-09-skafti-fyrsti-oddviti-midflokksins-a-seltjarnarnesi-472317', source: 'ruv.is' },
+          { title: 'Skafti fer fyrir nýju framboði á Seltjarnarnesi', url: 'https://www.dv.is/eyjan/2018/05/09/skafti-fer-fyrir-nyju-frambodi-seltjarnarnesi/', source: 'dv.is' },
+        ],
       }],
       [2, 'Þóra Sif Friðriksdóttir', 'Viðskiptafræðingur', null, { age: null, bio: 'Þóra Sif Friðriksdóttir er viðskiptafræðingur og er í öðru sæti M-lista Miðflokksins á Seltjarnarnesi. Hún leggur áherslu á fjölskylduþjónustu, fjármálastjórnun og þjónustu við aldraða íbúa.', interests: ['Viðskipti og fjármál', 'Fjölskylduþjónusta', 'Þjónusta við aldraða', 'Samfélagsleg uppbygging'], social: null, news: [] }],
       [3, 'Guðrún Jónsdóttir', 'Grunnskólakennari'],
@@ -3902,9 +4307,16 @@ const SEL = {
         bio: 'Kristinn Ólafsson er framkvæmdastjóri og leiðir sameiginlegan lista Samfylkingar, Viðreisnar og óháðra á Seltjarnarnesi í sveitarstjórnarkosningum 2026. Hann leggur áherslu á jafnrétti og félagslegt réttlæti, framsækin og nýskapandi stjórnun og umhverfisvæna þróun bæjarins.',
         interests: ['Jafnrétti og félagsleg réttlæti', 'Nýsköpun í stjórnun', 'Umhverfismál', 'Samfélagsleg þróun'],
         social: null,
-        news: [],
+        news: [
+          { title: 'Kristinn leiðir sameiginlegt framboð á Nesinu', url: 'https://www.mbl.is/frettir/innlent/2026/03/08/kristinn_leidir_sameiginlegt_frambod_a_nesinu/', source: 'mbl.is' },
+          { title: 'Kristinn bæjarstjóraefni Samfylkingar, Viðreisnar og óháðra á Seltjarnarnesi', url: 'https://www.dv.is/eyjan/2026/03/08/kristinn-baejarstjoraefni-samfylkingar-vidreisnar-og-ohadra-seltjarnarnesi/', source: 'dv.is' },
+          { title: 'Óttast að Seltjarnarnes missi fjárhagslegt sjálfstæði', url: 'https://www.dv.is/frettir/2026/3/30/ottast-ad-seltjarnarnes-missi-fjarhagslegt-sjalfstaedi-taeplega-thrir-milljardar-hafa-tapast-aratug-og-skuldir-fjorfaldast/', source: 'dv.is' },
+          { title: 'Fjárhagslegt sjálfstæði Seltjarnarness í hættu', url: 'https://www.visir.is/g/20262862597d/fjar-hags-legt-sjalf-staedi-sel-tjarnar-ness-i-haettu', source: 'visir.is' },
+        ],
       }],
-      [2, 'Sigurþóra Bergsdóttir', 'Varaþingmaður', null, { age: null, bio: 'Sigurþóra Bergsdóttir er varaþingmaður á Alþingi og er í öðru sæti sameiginlegs lista Samfylkingar, Viðreisnar og óháðra á Seltjarnarnesi. Hún leggur áherslu á jafnrétti, félagslegt réttlæti og umhverfisvæna þróun bæjarins.', interests: ['Jafnrétti og félagsleg réttlæti', 'Umhverfismál og loftslagsaðgerðir', 'Nýsköpun í stjórnun', 'Lýðræðisleg þátttaka'], social: null, news: [] }],
+      [2, 'Sigurþóra Bergsdóttir', 'Varaþingmaður', null, { age: null, bio: 'Sigurþóra Bergsdóttir er varaþingmaður á Alþingi og er í öðru sæti sameiginlegs lista Samfylkingar, Viðreisnar og óháðra á Seltjarnarnesi. Hún leggur áherslu á jafnrétti, félagslegt réttlæti og umhverfisvæna þróun bæjarins.', interests: ['Jafnrétti og félagsleg réttlæti', 'Umhverfismál og loftslagsaðgerðir', 'Nýsköpun í stjórnun', 'Lýðræðisleg þátttaka'], social: null, news: [
+          { title: 'Kristinn leiðir sameiginlegt framboð á Nesinu', url: 'https://www.mbl.is/frettir/innlent/2026/03/08/kristinn_leidir_sameiginlegt_frambod_a_nesinu/', source: 'mbl.is' },
+        ] }],
       [3, 'Helgi Steinar Helgason', 'Arkitekt'],
       [4, 'Auður Halla Rögnvaldsdóttir', 'Háskólanemi'],
       [5, 'Egill Ö. Hermannsson', 'Sérfræðingur'],
@@ -3944,6 +4356,11 @@ const RNB = {
         ],
         news: [
           { title: 'Halldóra Fríða oddviti Framsóknarmanna í Reykjanesbæ', url: 'https://www.mbl.is/frettir/innlent/2026/02/08/halldora_frida_oddviti_framsoknarmanna_i_reykjanesb/', source: 'mbl.is' },
+          { title: 'Halldóra leiðir lista Framsóknar í Reykjanesbæ', url: 'https://framsokn.is/nyjast/frettir/halldora-frida-leidir-lista-framsoknar-i-reykjanesbae/', source: 'framsokn.is' },
+          { title: 'Halldóra Fríða oddviti Framsóknar í Reykjanesbæ', url: 'https://www.visir.is/g/20222233275d/halldora-frida-oddviti-framsoknar-i-reykjanesbae', source: 'visir.is' },
+          { title: 'Halldóra efst hjá Framsókn í Reykjanesbæ', url: 'https://www.ruv.is/frett/2022/03/11/halldora-efst-hja-framsokn-i-reykjanesbae', source: 'ruv.is' },
+          { title: 'Hælisleitendamálin settu þrýsting á Reykjanesbæ', url: 'https://www.visir.is/g/20262869144d/haelis-leit-enda-malin-settu-thrysting-a-reykja-nes-bae', source: 'visir.is' },
+          { title: 'Framboðslisti Framsóknar í Reykjanesbær birtur', url: 'https://www.vf.is/frettir/frambodslisti-framsoknar-i-reykjanesbaer-birtur', source: 'vf.is' },
         ],
       }],
       [2, 'Róbert Jóhann Guðmundsson', 'Bæjarfulltrúi og málarameistari', null, {
@@ -3953,6 +4370,7 @@ const RNB = {
         social: null,
         news: [
           { title: 'Halldóra Fríða oddviti Framsóknarmanna í Reykjanesbæ', url: 'https://www.mbl.is/frettir/innlent/2026/02/08/halldora_frida_oddviti_framsoknarmanna_i_reykjanesb/', source: 'mbl.is' },
+          { title: 'Framboðslisti Framsóknar í Reykjanesbær birtur', url: 'https://www.vf.is/frettir/frambodslisti-framsoknar-i-reykjanesbaer-birtur', source: 'vf.is' },
         ],
       }],
       [3, 'Díana Hilmarsdóttir', 'Bæjarfulltrúi og forstöðumaður Bjargarinnar', null, {
@@ -3962,6 +4380,7 @@ const RNB = {
         social: null,
         news: [
           { title: 'Halldóra Fríða oddviti Framsóknarmanna í Reykjanesbæ', url: 'https://www.mbl.is/frettir/innlent/2026/02/08/halldora_frida_oddviti_framsoknarmanna_i_reykjanesb/', source: 'mbl.is' },
+          { title: 'Framboðslisti Framsóknar í Reykjanesbær birtur', url: 'https://www.vf.is/frettir/frambodslisti-framsoknar-i-reykjanesbaer-birtur', source: 'vf.is' },
         ],
       }],
       [4, 'Birgir Már Bragasson', 'Framkvæmdastjóri', null, {
@@ -3971,6 +4390,7 @@ const RNB = {
         social: null,
         news: [
           { title: 'Halldóra Fríða oddviti Framsóknarmanna í Reykjanesbæ', url: 'https://www.mbl.is/frettir/innlent/2026/02/08/halldora_frida_oddviti_framsoknarmanna_i_reykjanesb/', source: 'mbl.is' },
+          { title: 'Framboðslisti Framsóknar í Reykjanesbær birtur', url: 'https://www.vf.is/frettir/frambodslisti-framsoknar-i-reykjanesbaer-birtur', source: 'vf.is' },
         ],
       }],
       [5, 'Halla Karen Guðjónsdóttir', 'Sérfræðingur', null, {
@@ -3980,6 +4400,7 @@ const RNB = {
         social: null,
         news: [
           { title: 'Halldóra Fríða oddviti Framsóknarmanna í Reykjanesbæ', url: 'https://www.mbl.is/frettir/innlent/2026/02/08/halldora_frida_oddviti_framsoknarmanna_i_reykjanesb/', source: 'mbl.is' },
+          { title: 'Framboðslisti Framsóknar í Reykjanesbær birtur', url: 'https://www.vf.is/frettir/frambodslisti-framsoknar-i-reykjanesbaer-birtur', source: 'vf.is' },
         ],
       }],
       [6, 'Sighvatur Jónsson', 'Tölvunarfræðingur og fjölmiðlamaður'],
@@ -4020,6 +4441,12 @@ const RNB = {
         social: null,
         news: [
           { title: 'Fyrsti listi Viðreisnar í Reykjanesbæ', url: 'https://www.ruv.is/frettir/innlent/2026-03-11-fyrsti-listi-vidreisnar-i-reykjanesbae-469529', source: 'ruv.is' },
+          { title: 'Arnar Páll leiðir lista Viðreisnar í Reykjanesbæ', url: 'https://www.vf.is/frettir/arnar-pall-leidir-lista-vidreisnar-i-reykjanesbae', source: 'vf.is' },
+          { title: 'Fyrsti listi Viðreisnar í Reykjanesbæ kynntur', url: 'https://www.visir.is/g/20262854297d/fyrsti-listi-vidreisnar-i-reykjanesbae-kynntur', source: 'visir.is' },
+          { title: 'Aðalfundur Viðreisnar á Suðurnesjum', url: 'https://www.vf.is/frettir/adalfundur-vidreisnar-a-sudurnesjum', source: 'vf.is' },
+          { title: 'Liberal Reform Party to field candidates in Reykjanesbær for the first time', url: 'https://icelandmonitor.mbl.is/news/news/2025/09/02/liberal_reform_party_to_field_candidates_in_reykjan/', source: 'icelandmonitor.mbl.is' },
+          { title: 'Viðreisn býður fram í Reykjanesbæ', url: 'https://www.vf.is/frettir/vidreisn-bydur-fram-i-reykjanesbae', source: 'vf.is' },
+          { title: 'Kosningapallborð fréttastofu: Baráttan um Reykjanesbæ', url: 'https://www.visir.is/g/20262868958d/kosningapallbord-frettastofu-barattan-um-reykjanesbae', source: 'visir.is' },
         ],
       }],
       [2, 'Davíð Skarphéðinsson', 'Byggingafræðingur', null, {
@@ -4029,6 +4456,7 @@ const RNB = {
         social: null,
         news: [
           { title: 'Fyrsti listi Viðreisnar í Reykjanesbæ', url: 'https://www.ruv.is/frettir/innlent/2026-03-11-fyrsti-listi-vidreisnar-i-reykjanesbae-469529', source: 'ruv.is' },
+          { title: 'Arnar Páll leiðir lista Viðreisnar í Reykjanesbæ', url: 'https://www.vf.is/frettir/arnar-pall-leidir-lista-vidreisnar-i-reykjanesbae', source: 'vf.is' },
         ],
       }],
       [3, 'Ásta Kristín Guðmundsdóttir', 'Kennari og verkefnastjóri', null, {
@@ -4038,6 +4466,7 @@ const RNB = {
         social: null,
         news: [
           { title: 'Fyrsti listi Viðreisnar í Reykjanesbæ', url: 'https://www.ruv.is/frettir/innlent/2026-03-11-fyrsti-listi-vidreisnar-i-reykjanesbae-469529', source: 'ruv.is' },
+          { title: 'Arnar Páll leiðir lista Viðreisnar í Reykjanesbæ', url: 'https://www.vf.is/frettir/arnar-pall-leidir-lista-vidreisnar-i-reykjanesbae', source: 'vf.is' },
         ],
       }],
       [4, 'Aðalheiður Júlírós Óskarsdóttir', 'Gæðastjóri', null, {
@@ -4047,6 +4476,7 @@ const RNB = {
         social: null,
         news: [
           { title: 'Fyrsti listi Viðreisnar í Reykjanesbæ', url: 'https://www.ruv.is/frettir/innlent/2026-03-11-fyrsti-listi-vidreisnar-i-reykjanesbae-469529', source: 'ruv.is' },
+          { title: 'Arnar Páll leiðir lista Viðreisnar í Reykjanesbæ', url: 'https://www.vf.is/frettir/arnar-pall-leidir-lista-vidreisnar-i-reykjanesbae', source: 'vf.is' },
         ],
       }],
       [5, 'Sveinn Enok Jóhannsson', 'Bóndi í Höfnum', null, {
@@ -4056,6 +4486,7 @@ const RNB = {
         social: null,
         news: [
           { title: 'Fyrsti listi Viðreisnar í Reykjanesbæ', url: 'https://www.ruv.is/frettir/innlent/2026-03-11-fyrsti-listi-vidreisnar-i-reykjanesbae-469529', source: 'ruv.is' },
+          { title: 'Arnar Páll leiðir lista Viðreisnar í Reykjanesbæ', url: 'https://www.vf.is/frettir/arnar-pall-leidir-lista-vidreisnar-i-reykjanesbae', source: 'vf.is' },
         ],
       }],
       [6, 'Sigrún G. Bates', 'Fótaaðgerðafræðingur'],
@@ -4099,7 +4530,14 @@ const RNB = {
         ],
         news: [
           { title: 'Vilhjálmur nýr oddviti í Reykjanesbæ', url: 'https://www.mbl.is/frettir/innlent/2026/01/31/vilhjalmur_nyr_oddviti_i_reykjanesbae/', source: 'mbl.is' },
+          { title: 'Vilhjálmur vill verða oddviti', url: 'https://www.mbl.is/frettir/innlent/2026/01/03/vilhjalmur_vill_verda_oddviti/', source: 'mbl.is' },
+          { title: '„Of spennandi áskorun til að sleppa því"', url: 'https://www.mbl.is/frettir/innlent/2026/01/03/of_spennandi_askorun_til_ad_sleppa_thvi/', source: 'mbl.is' },
           { title: 'Fjölmennasta prófkjör Sjálfstæðisflokksins í Reykjanesbæ', url: 'https://xd.is/2026/01/31/fjolmennasta-profkjor-sjalfstaedisflokksins-i-reykjanesbae/', source: 'xd.is' },
+          { title: 'Ungir Sjálfstæðismenn fengu sér áfengi í ferð með Vilhjálmi og fóru svo á kjörstað', url: 'https://www.visir.is/g/20262834062d/ungir-sjalf-staedis-menn-fengu-ser-a-fengi-i-ferd-med-vil-hjalmi-og-foru-svo-a-kjor-stad', source: 'visir.is' },
+          { title: 'Bæjarstjóraefni mótmælir gjaldtöku á Reykjanesbraut', url: 'https://vb.is/frettir/baejarstjoraefni-motmaelir-gjaldtoku-a-reykjanesbraut/', source: 'vb.is' },
+          { title: 'Segir það þvætting að til standi að rukka fyrir Reykjanesbraut og Suðurlandsveg', url: 'https://www.dv.is/frettir/2026/03/18/segir-thad-thvaetting-ad-til-standi-ad-rukka-fyrir-reykjanesbraut-og-sudurlandsveg/', source: 'dv.is' },
+          { title: 'Vilhjálmur Árnason býður sig fram til oddvita', url: 'https://www.vf.is/adsent/vilhjalmur-arnason-bydur-sig-fram-til-oddvita', source: 'vf.is' },
+          { title: 'Kosningapallborð fréttastofu: Baráttan um Reykjanesbæ', url: 'https://www.visir.is/g/20262868958d/kosningapallbord-frettastofu-barattan-um-reykjanesbae', source: 'visir.is' },
         ],
       }],
       [2, 'Margrét Þórarinsdóttir', 'Yfirflugfreyja og bæjarfulltrúi', null, {
@@ -4109,6 +4547,7 @@ const RNB = {
         social: null,
         news: [
           { title: 'Vilhjálmur nýr oddviti í Reykjanesbæ', url: 'https://www.mbl.is/frettir/innlent/2026/01/31/vilhjalmur_nyr_oddviti_i_reykjanesbae/', source: 'mbl.is' },
+          { title: 'Línur að skýrast í bæjarpólitíkinni', url: 'https://www.vf.is/frettir/linur-ad-skyrast-i-baejarpolitikinni', source: 'vf.is' },
         ],
       }],
       [3, 'Kristján Pétur Kristjánsson', 'Framkvæmdastjóri Konvin', null, {
@@ -4176,6 +4615,9 @@ const RNB = {
         social: null,
         news: [
           { title: 'Viðskiptafræðingur leiðir Miðflokkinn í Reykjanesbæ', url: 'https://www.ruv.is/frettir/innlent/2026-03-25-vidskiptafraedingur-leidir-midflokkinn-i-reykjanesbae-470853', source: 'ruv.is' },
+          { title: 'Gunnlaugur leiðir Miðflokkinn í Reykjanesbæ', url: 'https://www.vf.is/frettir/gunnlaugur-leidir-midflokkinn-i-reykjanesbae', source: 'vf.is' },
+          { title: 'Þau skipa lista Miðflokksins í Reykjanesbæ', url: 'https://www.visir.is/g/20262860793d/thau-skipa-lista-midflokksins-i-reykjanesbae', source: 'visir.is' },
+          { title: 'Kosningapallborð fréttastofu: Baráttan um Reykjanesbæ', url: 'https://www.visir.is/g/20262868958d/kosningapallbord-frettastofu-barattan-um-reykjanesbae', source: 'visir.is' },
         ],
       }],
       [2, 'Rúnar Fossádal', 'Rannsóknarlögreglumaður', 'images/candidates/cf6a323612bb5e6a.jpg', {
@@ -4185,6 +4627,7 @@ const RNB = {
         social: null,
         news: [
           { title: 'Viðskiptafræðingur leiðir Miðflokkinn í Reykjanesbæ', url: 'https://www.ruv.is/frettir/innlent/2026-03-25-vidskiptafraedingur-leidir-midflokkinn-i-reykjanesbae-470853', source: 'ruv.is' },
+          { title: 'Þau skipa lista Miðflokksins í Reykjanesbæ', url: 'https://www.visir.is/g/20262860793d/thau-skipa-lista-midflokksins-i-reykjanesbae', source: 'visir.is' },
         ],
       }],
       [3, 'Sigrún Þorsteinsdóttir', 'Þjónustufulltrúi og félagsliði', 'images/candidates/0757f792d7ad95b9.jpg', {
@@ -4194,6 +4637,7 @@ const RNB = {
         social: null,
         news: [
           { title: 'Viðskiptafræðingur leiðir Miðflokkinn í Reykjanesbæ', url: 'https://www.ruv.is/frettir/innlent/2026-03-25-vidskiptafraedingur-leidir-midflokkinn-i-reykjanesbae-470853', source: 'ruv.is' },
+          { title: 'Þau skipa lista Miðflokksins í Reykjanesbæ', url: 'https://www.visir.is/g/20262860793d/thau-skipa-lista-midflokksins-i-reykjanesbae', source: 'visir.is' },
         ],
       }],
       [4, 'Bjarni Gunnólfsson', 'Matreiðslumaður', 'images/candidates/f1a67711c909b106.jpg', {
@@ -4203,6 +4647,7 @@ const RNB = {
         social: null,
         news: [
           { title: 'Viðskiptafræðingur leiðir Miðflokkinn í Reykjanesbæ', url: 'https://www.ruv.is/frettir/innlent/2026-03-25-vidskiptafraedingur-leidir-midflokkinn-i-reykjanesbae-470853', source: 'ruv.is' },
+          { title: 'Þau skipa lista Miðflokksins í Reykjanesbæ', url: 'https://www.visir.is/g/20262860793d/thau-skipa-lista-midflokksins-i-reykjanesbae', source: 'visir.is' },
         ],
       }],
       [5, 'Matthildur Júlía Matthíasdóttir', 'Umönnunaraðili', 'images/candidates/747455ad1b54b5a7.jpg', {
@@ -4212,6 +4657,7 @@ const RNB = {
         social: null,
         news: [
           { title: 'Viðskiptafræðingur leiðir Miðflokkinn í Reykjanesbæ', url: 'https://www.ruv.is/frettir/innlent/2026-03-25-vidskiptafraedingur-leidir-midflokkinn-i-reykjanesbae-470853', source: 'ruv.is' },
+          { title: 'Þau skipa lista Miðflokksins í Reykjanesbæ', url: 'https://www.visir.is/g/20262860793d/thau-skipa-lista-midflokksins-i-reykjanesbae', source: 'visir.is' },
         ],
       }],
       [6, 'Brynjólfur Sveinn Ívarssson', 'Lögfræðingur'],
@@ -4249,6 +4695,11 @@ const RNB = {
         social: null,
         news: [
           { title: 'Guðný Birna áfram oddviti Samfylkingarinnar í Reykjanesbæ', url: 'https://www.vf.is/frettir/mikil-askorun-ad-taka-a-rekstri-og-byggja-upp-um-leid', source: 'vf.is' },
+          { title: 'Gagnrýnir „óásættanlega mismunun" í Reykjanesbæ', url: 'https://www.dv.is/frettir/2026/4/16/gagnrynir-oasaettanlega-mismunun-reykjanesbae/', source: 'dv.is' },
+          { title: 'Hælisleitendamálin settu þrýsting á Reykjanesbæ', url: 'https://www.visir.is/g/20262869144d/haelisleitendamalin-settu-thrysting-a-reykjanesbae', source: 'visir.is' },
+          { title: 'Kosningapallborð fréttastofu: Baráttan um Reykjanesbæ', url: 'https://www.visir.is/g/20262868958d/kosningapallbord-frettastofu-barattan-um-reykjanesbae', source: 'visir.is' },
+          { title: 'Línur að skýrast í bæjarpólitíkinni', url: 'https://www.vf.is/frettir/linur-ad-skyrast-i-baejarpolitikinni', source: 'vf.is' },
+          { title: 'Litla-Reykjavík eða Reykjanesbær?', url: 'https://www.vf.is/adsent/litla-reykjavik-eda-reykjanesbaer', source: 'vf.is' },
         ],
       }],
       [2, 'Hjörtur Magnús Guðbjartsson', 'Kerfisstjóri', 'images/candidates/65199a46c3c38a52.png', {
@@ -4547,7 +4998,10 @@ const SNB = {
         bio: 'Anton Kristinn Guðmundsson leiðir B-lista Framsóknarflokks og óháðra í sveitarstjórnarkosningum 2026 í Suðurnesjabæ. Hann leggur áherslu á uppbyggingu og þróun Suðurnesjabæjar, öflugt atvinnulíf á Suðurnesjum og gæðaþjónustu við börn og fjölskyldur.',
         interests: ['Uppbygging og þróun', 'Atvinnulíf á Suðurnesjum', 'Fjölskyldumál', 'Samfélagsleg þróun'],
         social: null,
-        news: [],
+        news: [
+          { title: 'Framsóknarflokkurinn tryggir heilbrigðisþjónustu í Suðurnesjabæ', url: 'https://www.visir.is/g/20242614877d/framsoknarflokkurinn-tryggir-heilbrigdisthjonustu-i-sudurnesjabae', source: 'visir.is' },
+          { title: 'Árangur á vakt Framsóknar í Suðurnesjabæ', url: 'https://www.visir.is/g/20262872778d/arangur-a-vakt-framsoknar-i-sudurnesjabae', source: 'visir.is' },
+        ],
       }],
       [2, 'Magnús Sigfús Magnússon', 'Frambjóðandi', null, { age: null, bio: 'Magnús Sigfús Magnússon er frambjóðandi og er í öðru sæti B-lista Framsóknar og óháðra í Suðurnesjabæ. Hann leggur áherslu á uppbyggingu og þróun sveitarfélagsins, öflugt atvinnulíf á Suðurnesjum og fjölskylduþjónustu.', interests: ['Uppbygging og þróun', 'Atvinnulíf á Suðurnesjum', 'Fjölskyldumál', 'Samfélagsleg þróun'], social: null, news: [] }],
       [3, 'Ólöf Ólafsdóttir', 'Frambjóðandi'],
@@ -4618,7 +5072,9 @@ const SNB = {
         bio: 'Daði Bergþórsson leiðir M-lista Miðflokksins í sveitarstjórnarkosningum 2026 í Suðurnesjabæ. Hann leggur áherslu á grunnþjónustu fyrir börn og fjölskyldur, ábyrga meðferð fjármuna og samstöðu og samvinnu í sveitarfélaginu.',
         interests: ['Fjölskylduþjónusta', 'Fjármálastjórnun', 'Samstaða og samvinna', 'Þróun Suðurnesjabæjar'],
         social: null,
-        news: [],
+        news: [
+          { title: 'Listi Miðflokksins ólögmætur: „Svæsin niðurstaða"', url: 'https://www.mbl.is/frettir/innlent/2026/04/13/listi_midflokksins_ologmaetur_svaesin_nidurstada/', source: 'mbl.is' },
+        ],
       }],
       [2, 'Sigrún Harpa Sigurjóns. Heide', 'Frambjóðandi', null, { age: null, bio: 'Sigrún Harpa Sigurjónsdóttir Heide er frambjóðandi og er í öðru sæti M-lista Miðflokksins í Suðurnesjabæ. Hún leggur áherslu á fjölskylduþjónustu, ábyrga fjármálastjórnun og samstöðu og samvinnu í sveitarfélaginu.', interests: ['Fjölskylduþjónusta', 'Fjármálastjórnun', 'Samstaða og samvinna', 'Þróun Suðurnesjabæjar'], social: null, news: [] }],
       [3, 'Erla Jóhannsdóttir', 'Frambjóðandi'],
@@ -4696,6 +5152,7 @@ const ARB = {
         social: null,
         news: [
           { title: 'Listi Framsóknar í Árborg samþykktur', url: 'https://www.sunnlenska.is/frettir/listi-framsoknar-i-arborg-samthykktur/', source: 'sunnlenska.is' },
+          { title: 'Horfum til framtíðar í Árborg', url: 'https://www.sunnlenska.is/adsent/horfum-til-framtidar-i-arborg/', source: 'sunnlenska.is' },
         ],
       }],
       [2, 'Ellý Tómasdóttir', 'Bæjarfulltrúi, verkefnastjóri og forvarnastjóri', 'images/candidates/d88db6c7a5c943f2.jpg', {
@@ -4772,8 +5229,9 @@ const ARB = {
           { type: 'twitter', url: 'https://x.com/heidrunkris', label: 'X/Twitter' },
         ],
         news: [
-          { title: 'Heiðrún leiðir lista Viðreisnar í Árborg', url: 'https://www.ruv.is/frettir/innlent/2026-03-22-listi-vidreisnar-i-arborg-stadfestur-470564', source: 'ruv.is' },
           { title: 'Heiðrún leiðir fyrsta lista Viðreisnar í Árborg', url: 'https://www.mbl.is/frettir/innlent/2026/03/22/heidrun_leidir_fyrsta_lista_vidreisnar_i_arborg/', source: 'mbl.is' },
+          { title: 'Listi Viðreisnar í Árborg staðfestur', url: 'https://www.ruv.is/frettir/innlent/2026-03-22-listi-vidreisnar-i-arborg-stadfestur-470564', source: 'ruv.is' },
+          { title: 'Gagnsæi í ákvarðanatöku', url: 'https://www.visir.is/g/20262867181d/gagnsaei-i-akvardanatoku', source: 'visir.is' },
         ],
       }],
       [2, 'Guðný Björk Pálmadóttir', 'Hönnuður og nýsköpunarverkfræðingur', 'images/candidates/c7594d1e4e19a43a.jpg', {
@@ -4853,8 +5311,10 @@ const ARB = {
           { type: 'web', url: 'https://www.bragibjarna.is/', label: 'Vefsíða' },
         ],
         news: [
-          { title: 'Bragi Bjarnason mun áfram leiða lista Sjálfstæðisflokksins í Árborg', url: 'https://www.dfs.is/frettir/frett/bragi-bjarnason-mun-afram-leida-lista-sjalfstaedisflokksins-i-arborg/', source: 'dfs.is' },
+          { title: 'Bragi sækist eftir oddvitasæti á ný', url: 'https://www.mbl.is/frettir/innlent/2026/01/15/bragi_saekist_eftir_oddvitasaeti_a_ny/', source: 'mbl.is' },
           { title: 'Listi sjálfstæðismanna í Árborg samþykktur', url: 'https://www.mbl.is/frettir/innlent/2026/02/23/listi_sjalfstaedismanna_i_arborg_samthykktur/', source: 'mbl.is' },
+          { title: 'Sveitarfélagið Árborg skráð sem greiðandi pólitískra auglýsinga bæjarstjórans – „Röng skráning" segir Bragi', url: 'https://www.dv.is/frettir/2026/04/07/sveitarfelagid-arborg-skrad-sem-greidandi-politiskra-auglysinga-baejarstjorans-rong-skraning-segir-bragi/', source: 'dv.is' },
+          { title: 'Nýr meirihluti myndaður: Bragi verður bæjarstjóri', url: 'https://www.mbl.is/frettir/innlent/2024/05/23/nyr_meirihluti_myndadur_bragi_verdur_baejarstjori/', source: 'mbl.is' },
         ],
       }],
       [2, 'Sveinn Ægir Birgisson', 'Formaður bæjarráðs', 'images/candidates/a68a207aa8255fdf.jpg', {
@@ -5008,7 +5468,12 @@ const VME = {
         bio: 'Eyþór Harðarson er útgerðarstjóri hjá Ísfélag hf. í Vestmannaeyjum og hefur gegnt þeirri stöðu frá 2003. Hann er menntaður rafmagnsverkfræðingur frá Þýskalandi og starfar jafnframt sem formaður Fiskmarkaðar Vestmannaeyja hf. frá 2009. Eyþór er formaður Sjálfstæðisfélags Vestmannaeyja frá 2022 og hlaut 62,6% atkvæða í forkosningu flokksins í mars 2026.',
         interests: ['Sjávarútvegur og útgerð', 'Hafnarframkvæmdir og innviðir', 'Atvinnulíf Vestmannaeyja', 'Samgöngur til meginlandsins'],
         social: null,
-        news: [{ title: 'Framboðslisti Sjálfstæðisflokksins í Vestmannaeyjum', url: 'https://xd.is/2026/03/31/frambodslisti-sjalfstaedisflokksins-i-vestmannaeyjum/', source: 'xd.is' }],
+        news: [
+          { title: 'Eyþór gefur aftur kost á sér í oddvitasætið', url: 'https://www.mbl.is/frettir/innlent/2026/02/21/eythor_gefur_aftur_kost_a_ser_i_oddvitasaetid/', source: 'mbl.is' },
+          { title: 'Framboðslisti Sjálfstæðisflokksins í Vestmannaeyjum', url: 'https://xd.is/2026/03/31/frambodslisti-sjalfstaedisflokksins-i-vestmannaeyjum/', source: 'xd.is' },
+          { title: 'Skjálfti vegna Írisar innan Sjálfstæðisflokksins í Eyjum', url: 'https://www.visir.is/g/20262869486d/skjalfti-vegna-irisar-innan-sjalfstaedisflokksins-i-eyjum', source: 'visir.is' },
+          { title: 'Vatnslögnin er stærsta hagsmunamál íbúa í Eyjum', url: 'https://eyjafrettir.is/vatnslognin-er-staersta-hagsmunamal-ibua-i-eyjum/', source: 'eyjafrettir.is' },
+        ],
       }],
       [2, 'Trausti Hjaltason', 'Áhættustjóri', null, { age: null, bio: 'Trausti Hjaltason er áhættustjóri og er í öðru sæti D-lista Sjálfstæðisflokksins í Vestmannaeyjum. Hann leggur áherslu á ábyrga fjármála- og áhættustjórnun sveitarfélagsins, styrkingu sjávarútvegsgeirans og gæðaþjónustu við íbúa eyjanna.', interests: ['Áhætta- og fjármálastjórnun', 'Sjávarútvegur', 'Atvinnulíf Vestmannaeyja', 'Samgöngur og innviðir'], social: null, news: [] }],
       [3, 'Aníta Jóhannsdóttir', 'Viðskiptafræðingur'],
@@ -5083,7 +5548,11 @@ const VME = {
         bio: 'Jón Þór Guðjónsson starfar í tölvudeild Vestmannaeyjabæjar og leiðir framboð Miðflokksins í Vestmannaeyjum 2026 — í fyrsta skipti sem flokkurinn kynni sér þátttöku í bæjarstjórn eyjanna. Hann hefur látið í sér heyra um samgöngumál eyjanna, sérstaklega um endurteknar truflanir á ferðum um Landeyjahöfn.',
         interests: ['Samgöngumál og Landeyjahöfn', 'Tækni og fjarskipti', 'Þjónusta við íbúa', 'Ábyrg fjármálastjórnun'],
         social: null,
-        news: [{ title: 'Staðfestur kerfisbrestur! Hver ber ábyrgð?', url: 'https://eyjafrettir.is/stadfestur-kerfisbrestur-hver-ber-abyrgd/', source: 'eyjafrettir.is' }],
+        news: [
+          { title: 'Spurt og svarað: Jón Þór frá Miðflokknum', url: 'https://eyjafrettir.is/spurt-og-svarad-jon-thor-fra-midflokknum/', source: 'eyjafrettir.is' },
+          { title: 'Staðfestur kerfisbrestur! Hver ber ábyrgð?', url: 'https://eyjafrettir.is/stadfestur-kerfisbrestur-hver-ber-abyrgd/', source: 'eyjafrettir.is' },
+          { title: 'Miðflokkurinn býður fram í Vestmannaeyjum', url: 'https://www.visir.is/g/20262838162d/midflokkurinn-bydur-fram-i-vestmannaeyjum', source: 'visir.is' },
+        ],
       }],
       [2, 'Sæunn Magnúsdóttir', 'Frambjóðandi', 'images/candidates/d37d117064880420.jpg', { age: null, bio: 'Sæunn Magnúsdóttir er frambjóðandi og er í öðru sæti M-lista Miðflokksins í Vestmannaeyjum. Hún leggur áherslu á þjónustu við aldraða og þá sem þurfa sérstaka aðstoð, húsnæðismál og stuðning við hefðbundið atvinnulíf eyjanna.', interests: ['Þjónusta við eldri borgara og fatlað fólk', 'Húsnæðismál', 'Hefðbundið atvinnulíf', 'Samfélagsleg velferð'], social: null, news: [] }],
       [3, 'Jóhann Ingó Óskarsson', '', 'images/candidates/37c60229e5203276.jpg'],
@@ -7038,8 +7507,11 @@ const FJD = {
         interests: ['Fjármálastjórnun sveitarfélaga', 'Uppbygging og atvinnulíf', 'Heilbrigðis- og félagsþjónusta', 'Húsnæðismál', 'Hagsæld og þjónusta íbúa'],
         social: null,
         news: [
-          { title: 'Ragnar sjálfkjörinn oddviti Sjálfstæðisflokksins í Fjarðabyggð', url: 'https://xd.is/2026/02/14/ragnar-sjalfkjorinn-oddviti-sjalfstaedisflokksins-i-fjardabyggd/', source: 'xd.is' },
           { title: 'Ragnar sjálfkjörinn oddviti Sjálfstæðismanna í Fjarðabyggð', url: 'https://www.ruv.is/frettir/innlent/2026-02-21-ragnar-sjalfkjorinn-oddviti-sjalfstaedismanna-i-fjardabyggd-467615', source: 'ruv.is' },
+          { title: 'Ragnar áfram oddviti', url: 'https://www.mbl.is/frettir/innlent/2026/02/14/ragnar_afram_oddviti/', source: 'mbl.is' },
+          { title: 'Fjárfestum í verðmætasköpun', url: 'https://www.visir.is/g/20262864094d/fjarfestum-i-verdmaetaskopun', source: 'visir.is' },
+          { title: 'Stjórnsýsla Fjarðabyggðar tekin út', url: 'https://www.mbl.is/frettir/innlent/2023/03/16/stjornsysla_fjardabyggdar_tekin_ut/', source: 'mbl.is' },
+          { title: 'Fjarðabyggð bregst við verðbólgu með lækkun gjaldskráa', url: 'https://www.mbl.is/frettir/innlent/2026/04/13/fjardabyggd_bregst_vid_verdbolgu_med_laekkun_gjalds/', source: 'mbl.is' },
         ],
       }],
       [2, 'Kristinn Þór Jónasson', 'Þjónststjóri', null, {
@@ -7179,6 +7651,7 @@ const FJD = {
         ],
         news: [
           { title: 'Jöfnuður, ábyrgð og uppbygging', url: 'https://www.visir.is/g/20262872627d/jofnudur-abyrgd-og-uppbygging', source: 'visir.is' },
+          { title: 'Viðsnúningur í rekstri, hver borgar?', url: 'https://www.visir.is/g/20262869705d/vidsnuningur-i-rekstri-hver-borgar-', source: 'visir.is' },
           { title: 'Fjarðalistinn býður ekki fram í Fjarðabyggð', url: 'https://www.ruv.is/frettir/innlent/2026-02-28-fjardalistinn-bydur-ekki-fram-i-fjardabyggd-468252', source: 'ruv.is' },
         ],
       }],
@@ -7189,6 +7662,7 @@ const FJD = {
         social: null,
         news: [
           { title: 'Jöfnuður, ábyrgð og uppbygging', url: 'https://www.visir.is/g/20262872627d/jofnudur-abyrgd-og-uppbygging', source: 'visir.is' },
+          { title: 'Viðsnúningur í rekstri, hver borgar?', url: 'https://www.visir.is/g/20262869705d/vidsnuningur-i-rekstri-hver-borgar-', source: 'visir.is' },
         ],
       }],
       [3, 'Valborg Ösp Á. Warén', 'Verkefnastjóri', null, {
@@ -7378,7 +7852,9 @@ const AKR = {
       { icon: '💡', title: 'Nýsköpun', text: 'Framsækin stjórnun og nýsköpun í þágu bæjarins.' },
     ],
     list: [
-      [1, 'Ragnar Baldvin Sæmundsson', 'Bæjarfulltrúi'],
+      [1, 'Ragnar Baldvin Sæmundsson', 'Bæjarfulltrúi', null, { news: [
+          { title: 'Oddvitaumræður á Akranesi', url: 'https://www.ruv.is/frettir/innlent/2026-04-22-oddvitaumraedur-a-akranesi-473426', source: 'ruv.is' },
+        ] }],
       [2, 'Liv Åse Skarstad', 'Bæjarfulltrúi'],
       [3, 'Sædís Alexía Sigurmundsdóttir', 'Framkvæmdastjóri og bæjarfulltrúi'],
       [4, 'Karl Jóhann Haagensen', 'Sérfræðingur'],
@@ -7413,7 +7889,7 @@ const AKR = {
         social: null,
         news: [
           { title: 'Viðreisn býður fram sinn fyrsta lista á Akranesi', url: 'https://www.visir.is/g/20262865133d/vid-reisn-bydur-fram-sinn-fyrsta-lista-a-akra-nesi', source: 'visir.is' },
-          { title: 'Oddvitaumræður á Akranesi 2026', url: 'https://www.ruv.is/frettir/innlent/2026-04-22-oddvitaumraedur-a-akranesi-473426', source: 'ruv.is' },
+          { title: 'Oddvitaumræður á Akranesi', url: 'https://www.ruv.is/frettir/innlent/2026-04-22-oddvitaumraedur-a-akranesi-473426', source: 'ruv.is' },
         ],
       }],
       [2, 'Helga Björg Þrastardóttir', 'Matreiðslumeistari', null, {
@@ -7460,6 +7936,7 @@ const AKR = {
         social: null,
         news: [
           { title: 'Líf leiðir áfram framboð Sjálfstæðisflokksins á Akranesi', url: 'https://xd.is/2026/02/27/lif-leidir-afram-frambod-sjalfstaedisflokksins-a-akranesi/', source: 'xd.is' },
+          { title: 'Oddvitaumræður á Akranesi', url: 'https://www.ruv.is/frettir/innlent/2026-04-22-oddvitaumraedur-a-akranesi-473426', source: 'ruv.is' },
         ],
       }],
       [2, 'Bjarnheiður Hallsdóttir', 'Framkvæmdastjóri', null, {
@@ -7528,6 +8005,7 @@ const AKR = {
         social: null,
         news: [
           { title: 'Miðflokkurinn býður í fyrsta sinn fram á Akranesi', url: 'https://skessuhorn.is/2026/04/14/midflokkurinn-bydur-i-fyrsta-sinn-fram-a-akranesi', source: 'skessuhorn.is' },
+          { title: 'Oddvitaumræður á Akranesi', url: 'https://www.ruv.is/frettir/innlent/2026-04-22-oddvitaumraedur-a-akranesi-473426', source: 'ruv.is' },
         ],
       }],
       [2, 'Guðríður Þorbjörnsdóttir', 'Sérfræðingur í stjórnsýslufræði', null, {
@@ -7600,6 +8078,9 @@ const AKR = {
         social: null,
         news: [
           { title: 'Sigurður Vopni leiðir Samfylkinguna á Akranesi', url: 'https://kratinn.is/2026/03/26/sigurdur-vopni-leidir-samfylkinguna-a-akranesi/', source: 'kratinn.is' },
+          { title: 'Hvers vegna flutti ég á Akranes?', url: 'https://www.visir.is/g/20262860588d/hvers-vegna-flutti-eg-a-akranes-', source: 'visir.is' },
+          { title: 'Börnin í fyrsta sæti', url: 'https://www.visir.is/g/20262872236d/bornin-i-fyrsta-saeti', source: 'visir.is' },
+          { title: 'Oddvitaumræður á Akranesi', url: 'https://www.ruv.is/frettir/innlent/2026-04-22-oddvitaumraedur-a-akranesi-473426', source: 'ruv.is' },
         ],
       }],
       [2, 'Jónína Margrét Sigmundsdóttir', 'Bæjarfulltrúi og starfsmaður í fíknimeðferð', 'https://images.prismic.io/samfylkingin/ad5NrJ1ZCF7ETLpc__Jónína Margrét.png?auto=format,compress', {
@@ -7608,7 +8089,7 @@ const AKR = {
         interests: ['Félagsleg þjónusta og velferð', 'Fíkniefnavörn og meðferð', 'Jafnrétti', 'Heilbrigðisþjónusta'],
         social: null,
         news: [
-          { title: 'Sigurður Vopni leiðir Samfylkinguna á Akranesi', url: 'https://kratinn.is/2026/03/26/sigurdur-vopni-leidir-samfylkinguna-a-akranesi/', source: 'kratinn.is' },
+          { title: 'Þau skipa lista Samfylkingarinnar á Akranesi', url: 'https://www.visir.is/g/20262861110d/thau-skipa-lista-sam-fylkingarinnar-a-akra-nesi', source: 'visir.is' },
         ],
       }],
       [3, 'Kristinn Hallur Sveinsson', 'Bæjarfulltrúi og sérfræðingur hjá Loftmyndum ehf.', 'images/candidates/2bcd263ef7b826da.png', {
@@ -7672,7 +8153,7 @@ const BBD = {
         interests: ['Mannréttindi og innflytjendastefna', 'Félagslegt réttlæti', 'Lýðræðisleg þátttaka', 'Umhverfismál og sjálfbærni'],
         social: [{ type: 'x', url: 'https://x.com/jovana_pav', label: 'X (Twitter)' }],
         news: [
-          { title: 'Borgarbyggðarlistinn — listi félagshyggjufólks — býður fram', url: 'https://skessuhorn.is/2026/04/09/borgarbyggdarlistinn-listi-felagshyggjufolks-bydur-fram', source: 'skessuhorn.is' },
+          { title: 'Borgarbyggðarlistinn, listi félagshyggjufólks, býður fram', url: 'https://skessuhorn.is/2026/04/09/borgarbyggdarlistinn-listi-felagshyggjufolks-bydur-fram', source: 'skessuhorn.is' },
           { title: 'Framboðslisti Borgarbyggðarlistans', url: 'https://kosningasaga.wordpress.com/2026/04/09/frambodslisti-borgarbyggdarlistans/', source: 'kosningasaga' },
         ],
       }],
@@ -7735,7 +8216,7 @@ const BBD = {
         social: [{ type: 'facebook', url: 'https://www.facebook.com/sgudmundsson1/', label: 'Facebook' }],
         news: [
           { title: 'Framboðslisti Sjálfstæðisflokksins í Borgarbyggð samþykktur', url: 'https://xd.is/2026/04/08/frambodslisti-sjalfstaedisflokksins-i-borgarbyggd-samthykktur/', source: 'xd.is' },
-          { title: 'Framboðslisti Sjálfstæðisflokksins í Borgarbyggð', url: 'https://kosningasaga.wordpress.com/2026/04/08/frambodslisti-sjalfstaedisflokksins-i-borgarbyggd-2/', source: 'kosningasaga' },
+          { title: 'Uxahryggir og Kaldidalur – lykill að öflugri Borgarbyggð og betri ferðaþjónustu á Íslandi', url: 'https://www.visir.is/g/20262868322d/uxahryggir-og-kaldidalur-lykill-ad-oflugri-borgarbyggd-og-betri-ferdathjonustu-a-islandi', source: 'visir.is' },
         ],
       }],
       [2, 'Ragnhildur Eva Jónsdóttir', 'Lögfræðingur og bæjarfulltrúi', null, { age: null, bio: 'Ragnhildur Eva Jónsdóttir er lögfræðingur og bæjarfulltrúi og er í 2. sæti Sjálfstæðisflokksins í Borgarbyggð. Reynsla hennar af lögfræði og sveitarstjórnarmálum endurspeglast í áherslu hennar á loglegar og skilvirkar ákvarðanir, hagvöxt og gæðaþjónustu við íbúa.', interests: ['Lögfræði og réttlæti', 'Sveitarstjórnarmál', 'Hagvöxtur og atvinnulíf', 'Gæðaþjónusta'], social: null, news: [{ title: 'Framboðslisti Sjálfstæðisflokksins í Borgarbyggð samþykktur', url: 'https://xd.is/2026/04/08/frambodslisti-sjalfstaedisflokksins-i-borgarbyggd-samthykktur/', source: 'xd.is' }] }],
@@ -7772,7 +8253,7 @@ const BBD = {
         social: [{ type: 'linkedin', url: 'https://is.linkedin.com/in/haukur-%C3%BE%C3%B3r-hauksson-5b639332', label: 'LinkedIn' }],
         news: [
           { title: 'Yfirgaf Sjálfstæðisflokkinn og leiðir Miðflokkinn í Borgarbyggð', url: 'https://www.visir.is/g/20262864285d/yfirgaf-sjalfstaedisflokkinn-og-leidir-midflokkinn-i-borgarbyggd', source: 'visir.is' },
-          { title: 'Haukur Þór leiðir Miðflokkinn í Borgarbyggð', url: 'https://kosningasaga.wordpress.com/2026/03/25/haukur-thor-leidir-midflokkinn-i-borgarbyggd/', source: 'kosningasaga' },
+          { title: 'Miðflokkurinn kynnti framboðslista sinn í Borgarbyggð', url: 'https://skessuhorn.is/2026/04/11/midflokkurinn-kynnti-frambodslista-sinn-i-borgarbyggd', source: 'skessuhorn.is' },
         ],
       }],
       [2, 'Þórður Brynjarsson', 'Verkamaður', 'images/candidates/d8b14c226a2012f1.jpg', { age: null, bio: 'Þórður Brynjarsson er verkamaður og er í 2. sæti Miðflokksins í Borgarbyggð. Hann kemur með grunnstoðir almennra launþega og leggur áherslu á stuðning við vinnufólk, dreifbýlið og ábyrga fjármálastjórnun sveitarfélagsins.', interests: ['Hagsmunir launþega', 'Dreifbýlismál og landbúnaður', 'Ábyrg fjármálastjórnun', 'Samfélagsleg þjónusta'], social: null, news: [{ title: 'Miðflokkurinn kynnti framboðslista sinn í Borgarbyggð', url: 'https://skessuhorn.is/2026/04/11/midflokkurinn-kynnti-frambodslista-sinn-i-borgarbyggd', source: 'skessuhorn.is' }] }],
@@ -7812,7 +8293,10 @@ const ISF = {
         bio: 'Kristján Þór Kristjánsson er hótelstjóri á Hótel Ísafirði og hefur verið virkur í sveitarstjórnarmálum Ísafjarðarbæjar sem bæjarfulltrúi Framsóknarflokksins í um átta ár. Hann ólst upp á Hnífsdal og flutti aftur til Ísafjarðar árið 2005 eftir háskólanám. Hann leiðir B-lista Framsóknar og óháðra í sveitarstjórnarkosningum 2026.',
         interests: ['Ferðaþjónusta á Vestfjörðum', 'Svæðisþróun Vestfjarða', 'Íbúaþjónusta og uppbygging innviða', 'Samfélagsleg þátttaka'],
         social: null,
-        news: [{ title: 'Listi Framsóknar í Ísafjarðarbæ samþykktur', url: 'https://framsokn.is/nyjast/frettir/listi-framsoknar-framsoknar-i-isafjardarbae-samthykktur/', source: 'framsokn.is' }],
+        news: [
+          { title: 'Listi Framsóknar í Ísafjarðarbæ samþykktur', url: 'https://framsokn.is/nyjast/frettir/listi-framsoknar-framsoknar-i-isafjardarbae-samthykktur/', source: 'framsokn.is' },
+          { title: '„Skellur fyrir allt samfélagið"', url: 'https://www.mbl.is/frettir/innlent/2025/03/04/skellur_fyrir_allt_samfelagid/', source: 'mbl.is' },
+        ],
       }],
       [2, 'Elísabet Samúelsdóttir', 'Fjármálastjóri', null, { age: null, bio: 'Elísabet Samúelsdóttir er fjármálastjóri og er í öðru sæti B-lista Framsóknar og óháðra í Ísafjarðarbæ. Hún leggur áherslu á öfluga þjónustu við íbúa, fjárhagslega vandvirkni og uppbyggingu og þróun Vestfjarða.', interests: ['Fjármálastjórnun', 'Þjónusta við íbúa', 'Uppbygging Vestfjarða', 'Velferðarmál'], social: null, news: [] }],
       [3, 'Hannibal Hafberg', 'Sjávarútvegsvísindamaður'],
@@ -7836,8 +8320,10 @@ const ISF = {
           { type: 'x', url: 'https://twitter.com/GylfiOlafsson', label: 'X (Twitter)' },
         ],
         news: [
-          { title: 'Gylfi Ólafsson leiðir Viðreisn í Ísafjarðarbæ', url: 'https://www.ruv.is/frettir/innlent/2022-03-29-gylfi-olafsson-leidir-i-listann-a-isafirdi', source: 'ruv.is' },
-          { title: 'Framboðslisti Viðreisnar í Ísafjarðarbæ', url: 'https://kosningasaga.wordpress.com/2026/03/02/frambodslisti-vidreisnar-i-isafjardarbae/', source: 'kosningasaga' },
+          { title: 'Gylfi gefur áfram kost á sér en óljóst um framtíð Í-listans', url: 'https://www.ruv.is/frettir/innlent/2026-01-28-gylfi-gefur-afram-kost-a-ser-en-oljost-um-framtid-i-listans-465369', source: 'ruv.is' },
+          { title: 'Ísafjarðarbær: Viðreisn býður fram undir eigin merkjum', url: 'https://bb.is/2026/02/isafjardarbaer-vidreisn-bydur-fram-undir-eigin-merkjum/', source: 'bb.is' },
+          { title: 'Viðreisn með opinn fund um lagareldi', url: 'https://bb.is/2026/02/vidreisn-med-opinn-fund-um-lagareldi/', source: 'bb.is' },
+          { title: 'Gylfi leiðir Í-listann á Ísafirði', url: 'https://www.ruv.is/frettir/innlent/2022-03-29-gylfi-olafsson-leidir-i-listann-a-isafirdi', source: 'ruv.is' },
         ],
       }],
       [2, 'Sif Huld Albertsdóttir', 'Aðstoðarframkvæmdastjóri hjá Sjótækni', 'images/candidates/5fa1ca1ac95adb01.jpg', { age: null, bio: 'Sif Huld Albertsdóttir er aðstoðarframkvæmdastjóri hjá Sjótækni og er í öðru sæti C-lista Viðreisnar í Ísafjarðarbæ. Hún leggur áherslu á nýsköpun, gagnsæi og eflingu atvinnulífs á Vestfjörðum.', interests: ['Atvinnulíf og stjórnun', 'Nýsköpun', 'Gagnsæi og gagnastýrð stefnumörkun', 'Þróun Vestfjarða'], social: null, news: [] }],
@@ -7872,7 +8358,11 @@ const ISF = {
         bio: 'Jónas Þór Birgisson er lyfjafræðingur og hefur starfað hjá Lyfju á Ísafirði frá árinu 2000, þar sem hann hefur leitt reksturinn og stýrt útibúum á Patreksfirði og í Þingeyri. Hann er fæddur á Akranesi árið 1972 og hefur búið á Vestfjörðum í meira en tvo og hálfa áratugi. Hann leiðir D-lista Sjálfstæðisflokksins í Ísafjarðarbæ og leggur áherslu á þjónustu við fólk.',
         interests: ['Heilbrigðismál og lyfjafræði', 'Þjónusta við íbúa sveitarfélagsins', 'Fjárhagsstjórnun og rekstrarhagkvæmni', 'Uppbygging smærri byggðarlaga'],
         social: null,
-        news: [{ title: 'Fyrir fólkið — grein Jónasar Þórs', url: 'https://www.visir.is/g/20262868198d/fyrir-folkid', source: 'visir.is' }],
+        news: [
+          { title: 'Ísafjarðarbær: Jónas Þór í efsta sæti', url: 'https://bb.is/2026/02/isafjardarbaer-jonas-thor-i-efsta-saeti/', source: 'bb.is' },
+          { title: 'Vikuviðtalið: Jónas Þór Birgisson', url: 'https://bb.is/2026/03/vikuvidtalid-jonas-thor-birgisson/', source: 'bb.is' },
+          { title: 'Fyrir fólkið', url: 'https://www.visir.is/g/20262868198d/fyrir-folkid', source: 'visir.is' },
+        ],
       }],
       [2, 'Þóra Marý Arnórsdóttir', 'Deildarstjóri', null, { age: null, bio: 'Þóra Marý Arnórsdóttir er deildarstjóri og er í öðru sæti D-lista Sjálfstæðisflokksins í Ísafjarðarbæ. Hún leggur áherslu á eflingu atvinnulífs, húsnæðismál og gæðaþjónustu við íbúa á Vestfjörðum.', interests: ['Stjórnun og skipulag', 'Atvinnulíf', 'Húsnæðismál', 'Þjónusta við íbúa'], social: null, news: [] }],
       [3, 'Martha Kristín Pálmadóttir', 'Námskeið- og fjarnámsstjóri'],
@@ -7906,7 +8396,10 @@ const ISF = {
         bio: 'Sævar Óli Hjörvarsson er smiður að mennt og starfi og leiðir framboð Miðflokksins í Ísafjarðarbæ í sveitarstjórnarkosningum 2026 — í fyrsta skipti sem flokkurinn kynni sér þátttöku í bæjarstjórn Ísafjarðarbæjar. Hann leggur áherslu á framkvæmdir á sviði íþróttamála, þjónustu við aldraða og uppbyggingu hjólreiða- og göngustíga í bænum.',
         interests: ['Íþróttamannvirki (sundlaug og íþróttahús)', 'Þjónusta við aldraða', 'Tómstundaframlög og æskulýðsmál', 'Göngustéttir og hjólreiðastígar'],
         social: null,
-        news: [{ title: 'Miðflokkurinn í Ísafjarðarbæ — áherslur', url: 'https://bb.is/2026/04/midflokkurinn-isafjardarbae-aherslur/', source: 'bb.is' }],
+        news: [
+          { title: 'Ísafjarðarbær: Sævar Óli efstur á lista Miðflokksins', url: 'https://bb.is/2026/04/isafjardarbaer-saevar-oli-efstur-a-lista-midflokksins/', source: 'bb.is' },
+          { title: 'Miðflokkurinn Ísafjarðarbæ: Áherslur', url: 'https://bb.is/2026/04/midflokkurinn-isafjardarbae-aherslur/', source: 'bb.is' },
+        ],
       }],
       [2, 'Jón Auðun Auðunarson', 'Framkvæmdarstjóri', null, { age: null, bio: 'Jón Auðun Auðunarson er framkvæmdarstjóri og er í öðru sæti M-lista Miðflokksins í Ísafjarðarbæ. Hann leggur áherslu á ábyrga fjármálastjórnun, öfluga þjónustu við íbúa og eflingu fjölbreytts atvinnulífs á Vestfjörðum.', interests: ['Framkvæmdastjórnun', 'Ábyrg fjármálastjórnun', 'Þjónusta við íbúa', 'Atvinnulíf á Vestfjörðum'], social: null, news: [] }],
       [3, 'Þorbjörn Halldór Jóhannesson', 'Bóndi'],
@@ -7933,8 +8426,10 @@ const ISF = {
         interests: ['Réttindi launafólks', 'Ungmennastarf og félagslíf', 'Jöfnuður og velferðarþjónusta', 'Menntamál'],
         social: null,
         news: [
-          { title: 'Framboðslisti Samfylkingarinnar í Ísafjarðarbæ', url: 'https://xs.is/frettir/2026/04/frambodslisti-samfylkingarinnar-i-isafjardarbae', source: 'xs.is' },
-          { title: 'Oddviti Samfylkingar í Ísafjarðarbæ tekinn af lista', url: 'https://kosningasaga.wordpress.com/2026/04/02/oddviti-samfylkingar-i-isafjardarbae-tekinn-af-lista/', source: 'kosningasaga' },
+          { title: 'Samfylkingin: oddvitinn í Ísafjarðarbæ af lista', url: 'https://bb.is/2026/04/samfylkingin-oddvitinn-i-isafjardarbae-af-lista/', source: 'bb.is' },
+          { title: 'Samfylkingin: nauðsynlegt að tryggja skýra stefnu og stöðugleika', url: 'https://bb.is/2026/04/samfylkingin-naudsynlegt-ad-tryggja-skyra-stefnu-og-stodugleika/', source: 'bb.is' },
+          { title: 'Oddvita sparkað af listanum og segir af sér formennsku', url: 'https://www.visir.is/g/20262864548d/odd-vita-sparkad-af-listanum-og-segir-af-ser-for-mennsku', source: 'visir.is' },
+          { title: 'Framboðslisti Samfylkingarinnar í Ísafjarðarbæ samþykktur', url: 'https://www.ruv.is/frettir/innlent/2026-03-03-frambodslisti-samfylkingarinnar-i-isafjardarbae-samthykktur-468502', source: 'ruv.is' },
         ],
       }],
       [2, 'Helgi Karl Guðmundsson', 'Rafverkfræðingur', 'images/candidates/bc1648e6c8a764ba.png', { age: null, bio: 'Helgi Karl Guðmundsson er rafverkfræðingur og er í öðru sæti S-lista Samfylkingarinnar í Ísafjarðarbæ. Hann leggur áherslu á öfluga velferðarþjónustu, jöfn tækifæri og gæðamenntun á Vestfjörðum.', interests: ['Rafverkfræði', 'Velferðarþjónusta', 'Jafnrétti', 'Menntun og skólamál'], social: null, news: [] }],
