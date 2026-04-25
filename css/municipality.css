@@ -1083,7 +1083,8 @@
 .share-btn--modal {
   position: absolute;
   top: var(--space-4);
-  right: calc(var(--space-4) + 36px); /* leave room for close btn */
+  right: calc(var(--space-4) + 36px + 8px); /* close btn width + gap */
+  height: 36px;                              /* match close btn height */
   background: rgba(255,255,255,0.10);
   border-color: rgba(255,255,255,0.25);
   color: #fff;
