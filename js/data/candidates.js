@@ -134,7 +134,7 @@ const RVK = {
       { icon: '❤️', title: 'Heilbrigðis- og öldrunarþjónusta', text: 'Heilbrigðisþjónusta og reisn á efri árum — grundvöllur blómlægs samfélags.' },
     ],
     list: [
-      [1, 'Einar Þorsteinsson', 'Borgarfulltrúi, fyrrverandi borgarstjóri (2024–2025), fyrrverandi RÚV blaðamaður', null, {
+      [1, 'Einar Þorsteinsson', 'Borgarfulltrúi, fyrrverandi borgarstjóri (2024–2025), fyrrverandi RÚV blaðamaður', 'images/candidates/df263684dd338290.jpg', {
         age: 47,
         bio: 'Einar Þorsteinsson er fæddur 24. desember 1978 og starfaði sem fréttamaður, fréttaþulur og dagskrástjóri Kastljóss hjá RÚV áður en hann hætti þar árið 2022 til að fara í stjórnmál. Hann gegndi embætti borgarstjóra Reykjavíkur frá janúar til febrúar 2025 og leiðir lista Framsóknarflokksins í Reykjavík.',
         interests: ['Skólamál og leikskólar', 'Samgöngumál', 'Þjónusta við aldraða', 'Hagkvæmni í borgarrekstri'],
@@ -148,7 +148,7 @@ const RVK = {
           { title: 'Listi Framsóknar í Reykjavík kynntur', url: 'https://utvarpsaga.is/listi-framsoknar-i-reykjavik-kynntur/', source: 'utvarpsaga.is' },
         ],
       }],
-      [2, 'Magnea Gná Jóhannsdóttir', 'Borgarfulltrúi', null, {
+      [2, 'Magnea Gná Jóhannsdóttir', 'Borgarfulltrúi', 'images/candidates/4e96814ed68909bb.jpg', {
         age: 29,
         bio: 'Magnea Gná Jóhannsdóttir er fædd 3. apríl 1997 og varð yngsti borgarfulltrúinn í sögu Reykjavíkur þegar hún var kjörin 2022, aðeins 25 ára. Hún lauk BA-gráðu í lögfræði frá Háskóla Íslands 2021 og er nú í meistaranámi. Hún var formaður Ungrar Framsóknar í Reykjavík.',
         interests: ['Lögfræði og mannréttindi', 'Ungmennastarf', 'Velferðarmál', 'Skólamál'],
@@ -161,7 +161,7 @@ const RVK = {
           { title: 'Magnea Gná gefur kost á sér', url: 'https://www.mbl.is/frettir/innlent/2026/01/22/magnea_gna_gefur_kost_a_ser/', source: 'mbl.is' },
         ],
       }],
-      [3, 'Þorvaldur Daníelsson', 'Varaborgafulltrúi, framkvæmdastjóri Hjólahrafts', null, {
+      [3, 'Þorvaldur Daníelsson', 'Varaborgafulltrúi, framkvæmdastjóri Hjólahrafts', 'images/candidates/5ecc70a4e48271b3.jpg', {
         age: 55,
         bio: 'Þorvaldur Daníelsson, þekktur sem Valdi, stofnaði Hjólakraft árið 2012 — heilsuverkefni sem hvetur börn og unglinga til hreyfingar í gegnum hjólreiðar. Hann hlaut viðurkenningu sem Reykvíkingur ársins 2020 fyrir þetta starf. Hann er varaborgafulltrúi Framsóknarflokksins.',
         interests: ['Heilsurækt og íþróttamál', 'Þjónusta við ungt fólk', 'Hjólreiðar og vistvænar samgöngur'],
@@ -207,7 +207,7 @@ const RVK = {
       [17, 'Ragnhildur Helga Ragnarsdóttir', 'Tæknistjóri'],
       [18, 'Hörður Ragnarsson', 'Hugbúnaðarsérfræðingur'],
       [19, 'Sæþór Már Hinriksson', 'Tónlistarmaður, háskólanemi'],
-      [20, 'Ásta Björg Björgvinsdóttir', 'Kennari, tónlistarmaður'],
+      [20, 'Ásta Björg Björgvinsdóttir', 'Kennari, tónlistarmaður', 'images/candidates/594cb365e4459fa3.jpg'],
       [21, 'Gísli J. Jónatansson', 'Fyrrverandi samvinnustjóri'],
       [22, 'Dröfn Skorradóttir', 'Móttökufulltrúi'],
       [23, 'Ágúst Guðjónsson', 'Lögfræðingur'],
@@ -362,7 +362,7 @@ const RVK = {
       { icon: '✅', title: 'Raunhæfni', text: '"Við erum tilbúin til verka" — raunhæfar lausnir á áskorunum Reykjavíkur.' },
     ],
     list: [
-      [1, 'Sanna Magdalena Mörtudóttir', 'Mannfræðingur, borgarfulltrúi (Vor til vinstri)', null, {
+      [1, 'Sanna Magdalena Mörtudóttir', 'Mannfræðingur, borgarfulltrúi (Vor til vinstri)', 'images/candidates/90bb06cfb36aae34.jpg', {
         age: 33,
         bio: 'Sanna Magdalena Mörtudóttir er fædd 3. maí 1992 og er mannfræðingur og leiðtogi Sósíalistaflokks Íslands frá október 2024. Hún var kjörin í borgarstjórn Reykjavíkur árið 2018 og varð yngsti borgarfulltrúi í sögu borgarinnar. Hún er af íslenskum og tansanískum uppruna og leiðir sameiginlegan lista VG og Vors til vinstri, nefndan Vinstrið.',
         interests: ['Jafnrétti og mannréttindi', 'Húsnæðismál og félagslegt réttlæti', 'Baráttan gegn fátækt', 'Málefni jaðarsettrar hópa'],
@@ -376,7 +376,7 @@ const RVK = {
           { title: 'Sanna Magdalena býður fram krafta sína fyrir næstu borgarstjórnarkosningar', url: 'https://kjarninn.is/frettir/sanna-magdalena-bidur-fram-krafta-sina-fyrir-naestu-borgarstjornarkosningar/', source: 'kjarninn.is' },
         ],
       }],
-      [2, 'Líf Magneudóttir', 'Grunnskólakennari, borgarfulltrúi (VG)', null, {
+      [2, 'Líf Magneudóttir', 'Grunnskólakennari, borgarfulltrúi (VG)', 'images/candidates/502644a62c46a8cd.jpg', {
         age: 51,
         bio: 'Líf Magneudóttir er fædd 13. ágúst 1974 í Kaupmannahöfn og flutti til Íslands 1975. Hún lauk kennaraprófi frá Kennaraháskóla Íslands árið 2004. Líf hefur setið í borgarstjórn Reykjavíkur frá 2016 og varð forseti borgarráðs 21. febrúar 2025.',
         interests: ['Menntamál og skóli', 'Umhverfismál', 'Félagslegt jafnrétti', 'Samgöngumál'],
@@ -389,7 +389,7 @@ const RVK = {
           { title: 'Líf verður oddviti VG', url: 'https://www.mbl.is/frettir/innlent/2026/02/22/lif_verdur_oddviti_vg/', source: 'mbl.is' },
         ],
       }],
-      [3, 'Stefán Pálsson', 'Sagnfræðingur, varaborgafulltrúi (VG)', null, {
+      [3, 'Stefán Pálsson', 'Sagnfræðingur, varaborgafulltrúi (VG)', 'images/candidates/6efb5b3e0d587cb7.jpg', {
         age: 51,
         bio: 'Stefán Pálsson er sagnfræðingur, fæddur 8. apríl 1975. Hann hefur starfað sem þýðandi, rithöfundur og þátttakandi í þjóðmálaumræðunni og er fyrrverandi formaður Samtaka hernaðarandstæðinga. Hann hefur gefið út fjölda bóka um íslenska knattspyrnu og sögu, og leiðir gangferðir um söguleg hverfi Reykjavíkur.',
         interests: ['Friðar- og öryggismál', 'Íslenska saga og menning', 'Knattspyrnusaga', 'Samgöngumál'],
@@ -400,7 +400,7 @@ const RVK = {
           { title: 'Stefán Pálsson sækist eftir 3. sæti', url: 'https://www.mbl.is/frettir/innlent/2026/01/25/stefan_palsson_saekist_eftir_3_saeti/', source: 'mbl.is' },
         ],
       }],
-      [4, 'Ásta Þ. Skjalddal Guðjónsdóttir', 'Löggiltur endurskoðandi, varaborgafulltrúi (Vor til vinstri)', null, {
+      [4, 'Ásta Þ. Skjalddal Guðjónsdóttir', 'Löggiltur endurskoðandi, varaborgafulltrúi (Vor til vinstri)', 'images/candidates/d03697c7cf0e2db5.jpg', {
         age: null,
         bio: 'Ásta Þórdís Skjalddal Guðjónsdóttir er löggiltur endurskoðandi og bókari. Hún hefur unnið að málefnum fátækt fólks í gegnum EAPN-Iceland (Evrópunet gegn fátækt á Íslandi) og sem samræningaraðili hjá Pepp. Hún var varaborgafulltrúi Sósíalistaflokksins í Reykjavík.',
         interests: ['Baráttan gegn fátækt', 'Félagslegt réttlæti', 'Réttindi jaðarsettrar hópa'],
