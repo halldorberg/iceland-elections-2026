@@ -8930,7 +8930,7 @@ export function getMunicipalityPartyData(municipalityId, partyCode) {
       tagline: real.tagline,
       agenda: real.agenda,
       platformUrl: real.platformUrl || null,
-      isPlaceholder: false,
+      isPlaceholder: !real.platformUrl,
       candidates: makeCandidatesFromList(municipalityId, partyCode, real.list),
     };
   }

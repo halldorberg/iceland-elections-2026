@@ -1,6 +1,6 @@
 import { MUNICIPALITIES } from './data/municipalities.js?v=13';
 import { PARTIES } from './data/parties.js?v=4';
-import { getMunicipalityPartyData } from './data/candidates.js?v=15';
+import { getMunicipalityPartyData } from './data/candidates.js?v=16';
 import { RESULTS_2022 } from './data/results2022.js?v=2';
 
 // ─── Local avatar generator (replaces ui-avatars.com hotlink) ─────────────
@@ -265,8 +265,8 @@ function buildSplashHTML(party, data) {
     ? `<div class="agenda-disclaimer">
         <span class="agenda-disclaimer-icon">⚠️</span>
         <div class="agenda-disclaimer-body">
-          <strong>Óstaðfest stefna</strong>
-          <span>Við höfum ekki fundið staðfesta stefnuskrá þessa framboðs. Upplýsingarnar hér eru almenn yfirlit á grunni landsstefnu flokksins, ekki staðbundin áhersluatriði.</span>
+          <strong>Stefnuskrá ekki til staðar</strong>
+          <span>Við höfum ekki fundið staðfesta stefnuskrá þessa framboðs og birtum því engar áherslugreinar.</span>
           <a href="mailto:halldor.berg@inno.link" class="agenda-disclaimer-cta">Ertu frambjóðandi? Hafðu samband! →</a>
         </div>
        </div>`
@@ -295,7 +295,7 @@ function buildSplashHTML(party, data) {
       ${resultsHTML}
       <div class="splash-tagline" style="color:${party.textColor}">${data.tagline}</div>
       ${disclaimerHTML}
-      <div class="agenda-grid">${cards}</div>
+      ${data.isPlaceholder ? '' : `<div class="agenda-grid">${cards}</div>`}
       ${sourceHTML}
     </div>`;
 }
