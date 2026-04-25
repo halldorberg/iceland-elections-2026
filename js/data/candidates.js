@@ -576,6 +576,7 @@ const RVK = {
   },
   M: {
     tagline: 'Grundvallarmál fyrst — þjónusta, sparnaður, skynsamleg þróun',
+    platformUrl: 'https://midflokkurinn.is/sveitarstjorn/reykjavik/',
     agenda: [
       { icon: '🚫', title: 'Gegn Borgarlínu', text: 'Andsnúinn núverandi Borgarlínuáformum sem "furðulegum hugmyndum"; krefst fullrar endurskoðunar á samgönguáætlun borgarinnar frá grunni.' },
       { icon: '🚗', title: 'Bílastæðamál', text: '"Bílastæði orðið lúxusvara" — krefst aðgengis að bílum; andvíg bílatorpum í miðborginni.' },
@@ -904,10 +905,12 @@ const RVK = {
   },
   G: {
     tagline: 'Góðan daginn — nýtt andlit í Reykjavík',
+    platformUrl: 'https://gdf.is/',
     agenda: [
-      { icon: '😊', title: 'Íbúar fyrst', text: 'Einfaldari þjónusta og betra samband milli borgarbúa og sveitarstjórnar — minna skrifræði, meiri niðurstöður.' },
-      { icon: '🏙️', title: 'Þéttbýli og samgöngur', text: 'Bætt þéttbýlisþróun, öflugur almenningssamgöngur og betri aðstæður fyrir gangandi og hjólandi.' },
-      { icon: '🌱', title: 'Umhverfið', text: 'Grænari borg, sjálfbær orkubygging og ábyrg meðferð á opinberu fé til framtíðar.' },
+      { icon: '🏛️', title: 'Skipulag og rekstur', text: 'Einfalda skipulag borgarinnar, hagræða í rekstri og draga úr skuldasöfnun.' },
+      { icon: '🔒', title: 'Rekstraröryggi', text: 'Sérstök áhersla á öryggi í rekstri og traustar stjórnsýsluaðferðir.' },
+      { icon: '👂', title: 'Íbúasamráð', text: 'Hlusta á borgarbúa — reglulegar viðhorfskannanir og betri samband við íbúa.' },
+      { icon: '🚇', title: 'Samgöngur', text: 'Andstaða við upphaflega Borgarlínuáætlun; stuðningur við Sundagang (göng í stað brúar).' },
     ],
     list: [
       [1, 'Ingimar Þór Friðriksson', 'Framkvæmdastjóri', null, {
@@ -982,10 +985,12 @@ const RVK = {
   },
   J: {
     tagline: 'Reykjavík í þágu allra — húsnæði, réttindi og jöfnuður',
+    platformUrl: 'https://utvarpsaga.is/sosialistar-kynna-frambod-og-aherslur-fyrir-borgarstjornarkosningar/',
     agenda: [
-      { icon: '🏠', title: 'Húsnæðismál', text: 'Borgin á að byggja hagkvæmar íbúðir þar til húsnæðisvandinn er leystur — ekki hætta fyrr en allir eiga þak yfir höfuðið.' },
-      { icon: '💪', title: 'Laun og réttindi', text: 'Reykjavík á að greiða starfsmönnum borgarinnar mannsæmandi laun og vera fyrirmynd í réttindamálum launafólks.' },
-      { icon: '⚖️', title: 'Lýðræði', text: 'Lægri laun kjörinna fulltrúa, meiri þátttaka íbúa í ákvörðunum og meiri jöfnuður í borgarrekstri.' },
+      { icon: '🏠', title: 'Húsnæðismál', text: 'Stofna byggingafélag á vegum borgarinnar sem byggi og reki óhagnaðardrifið húsnæði; lóðir borgarinnar fari í félagslega uppbyggingu.' },
+      { icon: '🚌', title: 'Samgöngur', text: 'Færa rekstur almenningssamgangna í hendur borgarinnar, lækka fargjöld og bæta tengingar; andstaða við einkarekstur í bílastæðamálum.' },
+      { icon: '📚', title: 'Menntun', text: 'Efla stoðþjónustu innan skóla, fjölga sérfræðingum; aukin áhersla á íslenskukennslu, tómstundastarf og skólamáltíðir.' },
+      { icon: '🛒', title: 'Matvælamál og velferð', text: 'Reykjavíkurborg setji á fót eigin matvöruverslanir gegn háu verði; hætta útvistun verkefna borgarinnar.' },
     ],
     list: [
       [1, 'Silja Sóley Birgisdóttir', 'Stuðningsfulltrúi', null, {
@@ -1082,10 +1087,12 @@ const RVK = {
   },
   R: {
     tagline: 'Okkar borg — Reykjavík í höndum þeirra sem búa hér',
+    platformUrl: 'https://www.nutiminn.is/forsida/nyr-flokkur-bydur-fram-i-reykjavik-okkar-borg-thvert-a-flokka-kynnir-frambod-og-stefnu/',
     agenda: [
-      { icon: '🏘️', title: 'Húsnæði', text: 'Fjölga hagkvæmum íbúðum og bæta aðstæður leigutaka í Reykjavík — borgin á að vera í fararbroddi í húsnæðismálum.' },
-      { icon: '👨‍👩‍👧', title: 'Fjölskyldur', text: 'Meiri fjárfesting í leikskólum, grunnskólum og æskulýðsmálum; góð og aðgengileg þjónusta fyrir fjölskyldur.' },
-      { icon: '🚌', title: 'Samgöngur', text: 'Efla almenningssamgöngur og gera borgina lífvænlegri fyrir gangandi og hjólandi.' },
+      { icon: '🚫', title: 'Gegn Borgarlínu', text: 'Hörð andstaða við Borgarlínu og vegatolla; andstaða við þéttlega uppbyggingu í Keldnalandi.' },
+      { icon: '🏘️', title: 'Húsnæðismál', text: 'Hraða uppbyggingu á Geldinganesi með fjölbreyttum húsnæðiskostum; fjölga hagkvæmum búsetukostum.' },
+      { icon: '💸', title: 'Ráðningarstöðvun', text: 'Ráðningarstopp hjá borginni þar sem það er mögulegt, með áherslu á aðhald og sparnað.' },
+      { icon: '🏛️', title: 'Pólitísk stefna', text: 'Þrýsta á breytingar á peningastefnu ríkisins; hafna samningum sem fela í sér pólitískar ívilnanir.' },
     ],
     list: [
       [1,  'Sigfús Aðalsteinsson',        'Leikskólakennari og fasteignasali', 'images/candidates/22cc074ac1c9c410.png', {
@@ -1477,10 +1484,12 @@ const AKU = {
   },
   C: {
     tagline: 'Fyrsta framboð Viðreisnar á Akureyri — gagnsæi, fagmennska og raunhæfar lausnir',
+    platformUrl: 'https://vidreisn.is/akureyri/stefnan',
     agenda: [
-      { icon: '💡', title: 'Nýsköpun', text: 'Akureyri sem höfuðstaður gæða, nýsköpunar og lýðheilsu.' },
-      { icon: '🤝', title: 'Samstarf', text: 'Boðun til samstarfs — íbúar, fyrirtæki og stofnanir.' },
-      { icon: '💰', title: 'Fjármál', text: 'Gagnsæ og ábyrg fjármálastjórnun.' },
+      { icon: '👶', title: 'Börn og ungmenni', text: 'Börn og ungmenni í forgrunni allrar stefnumótunar — "Börnin okkar"; forgangsraða fjármagni í forvarnir og snemmtækan stuðning.' },
+      { icon: '🏙️', title: 'Samfélag og fólk', text: 'Akureyri sem fyrirmyndarsvæði Norðurlands — ábyrgð, jöfnuður og lífsgæði sem grunnstoðir.' },
+      { icon: '💼', title: 'Atvinnulíf', text: 'Akureyri sem sterkt, framsækið og sjálfbært atvinnusvæði; leysa skort á hentugu skrifstofu- og athafnahúsnæði.' },
+      { icon: '🏗️', title: 'Skipulag', text: 'Þróa „Áttu" svæðið — frá Glerártorgi í norðri að Búðargili í suðri.' },
     ],
     list: [
       [1, 'Lovísa Oktovía Eyvindsdóttir', 'Stjórnmálafræðingur og varaþingmaður', 'images/candidates/b1e0b249a2a0c94f.jpg', {
@@ -1553,10 +1562,14 @@ const AKU = {
   },
   L: {
     tagline: 'Tala skýrt, vinna hratt og skila sýnilegum árangri',
+    platformUrl: 'https://www.l-listinn.is/is/stefnumal',
     agenda: [
-      { icon: '🏘️', title: 'Húsnæðismál', text: 'Fjölga hagkvæmum húsnæðiskostum fyrir íbúa.' },
-      { icon: '🌿', title: 'Umhverfismál', text: 'Grænni Akureyri og sjálfbær þróun.' },
-      { icon: '🏫', title: 'Menntun og velferð', text: 'Sterk skólaþjónusta og velferðarmál í forgangi.' },
+      { icon: '📚', title: 'Menntun', text: 'Taka inn leikskólabörn tvisvar á ári; meiri gæði í skólamáltíðir.' },
+      { icon: '👴', title: 'Aldraðir', text: 'Tryggja félag eldri borgara góða aðstöðu; auka framboð tómstunda fyrir eldri borgara.' },
+      { icon: '🚲', title: 'Umhverfi og samgöngur', text: 'Hjólavænni bær með hjólastæðahúsi í miðbænum; draga úr svifryki með aukinni þrif á götum.' },
+      { icon: '🏘️', title: 'Húsnæðismál', text: 'Auka framboð lóða svo a.m.k. 350 nýjar íbúðir geti byggst árlega.' },
+      { icon: '🎭', title: 'Menning', text: 'Tvöfaldur menningarsjóður á kjörtímabilinu.' },
+      { icon: '⚽', title: 'Íþróttir', text: 'Öll börn óháð fötlun eða efnahag geti tekið þátt í íþróttum.' },
     ],
     list: [
       [1, 'Óðinn Svan Óðinsson', 'Fjölmiðlamaður, fyrrverandi RÚV blaðamaður', 'images/candidates/058a2e222c83ad89.jpg', {
@@ -2085,10 +2098,14 @@ const GAR = {
   },
   C: {
     tagline: 'Guðlaugur leiðir Viðreisn í Garðabæ',
+    platformUrl: 'https://vidreisn.is/sveitarstjorn/gardabaer/',
     agenda: [
-      { icon: '💡', title: 'Nýsköpun', text: 'Nýsköpun og framfarir sem grundvöllur þróunar Garðabæjar.' },
-      { icon: '🌿', title: 'Umhverfismál', text: 'Umhverfisvæn stefna og sjálfbær þróun.' },
-      { icon: '🤝', title: 'Samstarf', text: 'Gagnsæi og samstarf í stjórnsýslu.' },
+      { icon: '🏘️', title: 'Félagslegt húsnæði', text: 'Auka félagslegt húsnæði í Garðabæ — 5% allra nýrra íbúða verði félagslegar.' },
+      { icon: '🎒', title: 'Leikskólagjöld', text: 'Lækka leikskólagjöld og stefna að gjaldfrjálsum leikskólum.' },
+      { icon: '📚', title: 'Skólar', text: 'Hefja strax framkvæmdir við lokaáfanga Sjálandsskóla.' },
+      { icon: '🚲', title: 'Samgöngur', text: 'Aðskilja hjóla- og gangstíga og gera hjólreiðar og göngur öruggar um allan bæinn.' },
+      { icon: '🚌', title: 'Borgarlína', text: 'Styðja Borgarlínuna og þróun nýrra hverfa með grænni byggð.' },
+      { icon: '🌿', title: 'Sjálfbærni', text: 'Nota heimsmarkmið Sameinuðu þjóðanna og sjálfbærni í allri starfsemi sveitarfélagsins.' },
     ],
     list: [
       [1, 'Guðlaugur Kristmundsson', 'Fyrrverandi varabæjarfulltrúi', 'images/candidates/860fe82ba65f7095.jpg', {
@@ -2232,10 +2249,13 @@ const GAR = {
   },
   M: {
     tagline: 'Lárus Þór leiðir Miðflokkinn í Garðabæ',
+    platformUrl: 'https://www.midflokkurinn.is/sveitarstjorn/gardabaer/',
     agenda: [
-      { icon: '👶', title: 'Börn og fjölskyldur', text: 'Börn og barnafólk í forgrunn — gæðaþjónusta fyrir fjölskyldur.' },
-      { icon: '🏗️', title: 'Skipulagsmál', text: 'Skynsamleg og sjálfbær þróun í skipulags- og samgöngumálum.' },
-      { icon: '💰', title: 'Fjármál', text: 'Verndun fjármála sveitarfélagsins og langtínahagsmunir íbúa.' },
+      { icon: '🚌', title: 'Borgarlína', text: 'Við segjum nei við Borgarlínu — leggjum áherslu á hraðvagnakerfi og greiðum fjölskyldubílnum leið.' },
+      { icon: '🏠', title: 'Þéttleiki', text: 'Við erum á móti frekari þéttingu byggðar — fleiri sérbýli og lágreist fjölbýlishús.' },
+      { icon: '📚', title: 'Menntamál', text: 'Skóli með aðgreiningu — hvetjandi umhverfi fyrir börn á öllum getustigum.' },
+      { icon: '💪', title: 'Lýðheilsa', text: 'Lýðheilsubærinn Garðabær — betri aðgengi að hreyfingu og heilbrigðum lífsstíl.' },
+      { icon: '🏟️', title: 'Afþreying', text: 'Gera Hofstaðavöll að miðpunkti afþreyingar og útivistar í Garðabæ.' },
     ],
     list: [
       [1, 'Lárus Þór Guðmundsson', 'Framkvæmdastjóri og varaþingmaður', 'images/candidates/f1cf006caa612437.jpg', {
@@ -2539,10 +2559,14 @@ const MOS = {
   },
   C: {
     tagline: 'Gylfi Þór leiðir Viðreisn í Mosfellsbæ',
+    platformUrl: 'https://vidreisn.is/sveitarstjorn/mosfellsbaer/',
     agenda: [
-      { icon: '💡', title: 'Nýsköpun', text: 'Nýsköpun og framsækin hugsunarhátt í þróun Mosfellsbæjar.' },
-      { icon: '🤝', title: 'Samstarf', text: 'Samstarf með öðrum sveitarfélögum og ríkisstofnunum.' },
-      { icon: '🌿', title: 'Umhverfismál', text: 'Umhverfisvæn og sjálfbær þróun.' },
+      { icon: '🏛️', title: 'Góð stjórnsýsla', text: 'Góð sveitarfélög verða til þegar fólk með reynslu af raunverulegum verkefnum tekur þátt.' },
+      { icon: '👶', title: 'Börn og ungmenni', text: 'Halda áfram að styðja \"Börnin okkar\" — verkefni til þarfa barna og ungmenna.' },
+      { icon: '🏗️', title: 'Uppbygging', text: 'Halda vel utan um uppbyggingarverkefni í Blikastaðalandi — tryggja sjálfbæra uppbyggingu.' },
+      { icon: '🤝', title: 'Samfélagsgildi', text: 'Viðhalda nálægðinni, örygginu, náttúrunni og samfélagsandanum í Mosfellsbæ.' },
+      { icon: '🌆', title: 'Fjölskyldubær og framtíðarbær', text: 'Mosfellsbær á að vera bæði fjölskyldubær og framtíðarbær.' },
+      { icon: '🛎️', title: 'Þjónusta', text: 'Öflug þjónusta við fólk á öllum aldri — heilbrigðis-, velferðar- og menntamál.' },
     ],
     list: [
       [1, 'Gylfi Þór Þorsteinsson', 'Sviðsstjóri hjá Rauða krossinum', 'images/candidates/bd93b10ecbd2b5f4.jpg', {
@@ -2612,10 +2636,14 @@ const MOS = {
   },
   M: {
     tagline: 'Sveinn Óskar oddviti Miðflokksins í Mosfellsbæ — Fyrir lifandi bæ',
+    platformUrl: 'https://www.midflokkurinn.is/sveitarstjorn/mosfellsbaer/',
     agenda: [
-      { icon: '👶', title: 'Börn og fjölskyldur', text: 'Þarfir barna, fjölskyldna og aldraðra í fyrirrúmi í skóla- og velferðarmálum.' },
-      { icon: '🏗️', title: 'Skipulag', text: 'Skynsamleg og sjálfbær þróun í skipulags- og samgöngumálum.' },
-      { icon: '💰', title: 'Fjármál', text: 'Verndun fjármála sveitarfélagsins og langtínahagsmunir íbúa.' },
+      { icon: '🤲', title: 'Velferðarmál', text: 'Fyrirbyggjandi stuðningur við börn með fjölþættan vanda; samhæfð þjónusta án flækjustigs.' },
+      { icon: '🏗️', title: 'Skipulag — Blikastaðaland', text: 'Þéttleiki í efri hluta Blikastaða endurmetinn; skólar og innviðir fylgi uppbyggingu — ekki eftir á.' },
+      { icon: '🚗', title: 'Samgöngur', text: 'Vesturlandsvegur — samstarf við Vegagerðina; Sundabraut flýtt sem lykilverk.' },
+      { icon: '📊', title: 'Stjórnsýsla', text: 'Engar óþarfar biðraðir — mælanleg markmið sett og birt opinberlega; gagnsæi og opinn aðgangur að gögnum.' },
+      { icon: '🎒', title: 'Leikskólamál', text: 'Fjölbreytt rekstrarform þ.m.t. sjálfstæðir aðilar og dagforeldrar; val foreldra í forgrunni.' },
+      { icon: '📚', title: 'Grunnskólamál', text: 'Nýr skóli samhliða Blikastaðauppbyggingu — loforð sem við stöndum við.' },
     ],
     list: [
       [1, 'Sveinn Óskar Sigurðsson', 'Viðskipta- og hagfræðingur', 'images/candidates/94991fdc8b49d4c6.jpg', {
@@ -2690,9 +2718,14 @@ const MOS = {
   },
   S: {
     tagline: 'Ólafur Ingi leiðir Samfylkinguna í Mosfellsbæ',
+    platformUrl: 'https://xs.is/mosfellsbaer/',
     agenda: [
-      { icon: '🤝', title: 'Jafnaðarmennska', text: 'Jöfn tækifæri og félagsleg réttlæti sem grundvöllur stefnu.' },
-      { icon: '🌍', title: 'Náttúra og umhverfi', text: 'Verndun Blikastaðalands og náttúrufars sveitarfélagsins.' },
+      { icon: '🤲', title: 'Velferð', text: 'Hækkun fjárhagsaðstoðar; félagslegar leiguíbúðir; gjaldfrjál félagsleg heimaþjónusta.' },
+      { icon: '🎒', title: 'Menntamál', text: 'Gjaldfrjáll leikskóli; leikskólapláss frá 12 mánaða aldri; Fab Lab fyrir nýsköpun.' },
+      { icon: '🌿', title: 'Skipulag og umhverfi', text: 'Ný miðbæjarskipulag; sjálfbærar hverfi með góðum samgöngutenglum; loftslagsmarkmið.' },
+      { icon: '🗳️', title: 'Lýðræði', text: 'Styrkja eldráð; aukið íbúasamráð; þróa ungmennaráð með aukna ráðgjafarstöðu.' },
+      { icon: '🎭', title: 'Menning', text: 'Breyta Hlégarði í menningarmiðstöð; finna nýjar aðstæður fyrir Tónlistarskólann.' },
+      { icon: '⚽', title: 'Íþrótta- og tómstundir', text: 'Aukinn tómstundastyrkur (75.000 kr.) fyrir börn frá 4 ára; stuðningur við eldri borgara.' },
       { icon: '🏫', title: 'Menntun', text: 'Gæðamenntun og sterk skólaþjónusta.' },
     ],
     list: [
@@ -2996,10 +3029,12 @@ const KOP = {
   },
   J: {
     tagline: 'Markús Candi leiðir Sósíalista í Kópavogi',
+    platformUrl: 'https://www.visir.is/g/20262859524d/sosialistar-skila-ekki-audu-i-husnaedismalum-kopavogs',
     agenda: [
-      { icon: '⚖️', title: 'Jafnrétti', text: 'Jöfn tækifæri og félagsleg réttlæti.' },
-      { icon: '🏠', title: 'Húsnæðismál', text: 'Hagkvæmt húsnæði og vernd leigjenda.' },
-      { icon: '🌿', title: 'Umhverfismál', text: 'Umhverfisvænar og sjálfbærar lausnir.' },
+      { icon: '🏠', title: 'Húsnæðisöryggi', text: '\"Húsnæðisöryggi á ekki að vera forréttindi fárra heldur grunnöryggi allra.\" Krefjast byggðar húsnæðis án hagnaðarmarkmiða.' },
+      { icon: '🏘️', title: 'Félagslegt húsnæði', text: 'Samstarf við verkefni eins og Bjarg til að reisa fleiri félagslegar leiguíbúðir í Kópavogi.' },
+      { icon: '🎒', title: 'Leikskólar', text: 'Vinna að lækkun leikskólakostnaðar — pólitísk ákvörðun sem sveitarfélagið getur og á að taka.' },
+      { icon: '👨‍👩‍👧', title: 'Velferð barna', text: 'Húsnæðisstöðugleiki skiptir máli fyrir fjármál fjölskyldna og velferð barna; tíðar flutningar rjúfa tengsl.' },
     ],
     list: [
       [1, 'Markús Candi', 'Leikjahönnuður, stuðningsmaður', null, {
@@ -3064,10 +3099,14 @@ const KOP = {
   },
   M: {
     tagline: 'Einar Jóhannes leiðir Miðflokkinn í Kópavogi',
+    platformUrl: 'https://www.midflokkurinn.is/sveitarstjorn/kopavogur/',
     agenda: [
-      { icon: '👶', title: 'Börn og fjölskyldur', text: 'Grunnþjónusta fyrir börn og fjölskyldur í forgangi.' },
-      { icon: '💰', title: 'Fjármál', text: 'Ábyrg meðferð fjármuna sveitarfélagsins.' },
-      { icon: '👵', title: 'Aldraðir', text: 'Gæðaþjónusta við aldraða og þá sem þurfa stuðning.' },
+      { icon: '🚌', title: 'Samgöngumál', text: 'Hafna Borgarlínunni; virkja endurskoðunarákvæði samgöngusáttmálans; ókeypis strætóprufur; 2 bílastæði á íbúð lágmark.' },
+      { icon: '📚', title: 'Menntamál', text: 'Námsárangur í fyrsta sæti; staðlað próf, tölulegar einkunnir, minni bekkjastærð og símabann í skólum.' },
+      { icon: '🎒', title: 'Leikskólamál', text: '\"Kópavogsmódelið\" þarf varanlega lausn; stækka einkarekin leikskólaúrræði; heimastyrkur 50% af kostnaði.' },
+      { icon: '💪', title: 'Íþrótta- og lýðheilsumál', text: 'Fjölíþróttakort; lengri opnunartímar sundlaugar; strætóstyrkar til æskulýðsíþrótta.' },
+      { icon: '🌿', title: 'Umhverfismál', text: 'Vernda Guðmundarlund; hafna hræðsluáróðri og ofstæki í umhverfismálum.' },
+      { icon: '🏛️', title: 'Stjórnsýsla', text: 'Hlutverk sveitarfélaga er að sinna grunnþjónustu; kostnaðarskoðun og skuldaminnkun.' },
     ],
     list: [
       [1, 'Einar Jóhannes Guðnason', 'Varaþingmaður, rekstrar- og sölustjóri', 'images/candidates/eabc8e04978e56ab.jpg', {
@@ -3213,10 +3252,12 @@ const KOP = {
   },
   V: {
     tagline: 'Anna Sigríður leiðir VG í Kópavogi',
+    platformUrl: 'https://vg.is/greinar/vg-og-ohad-bjoda-fram-i-kopavogi/',
     agenda: [
-      { icon: '🌿', title: 'Umhverfismál', text: 'Grænni og sjálfbærari Kópavogur með metnaðarfull loftslagsmál.' },
-      { icon: '⚖️', title: 'Jafnrétti', text: 'Jafnrétti og félagsleg réttlæti í öllum ákvörðunum.' },
-      { icon: '🏘️', title: 'Húsnæðismál', text: 'Fjölga hagkvæmum húsnæðiskostum.' },
+      { icon: '💪', title: 'Velferð og þjónusta', text: 'Öflugri velferð og sterkari nærþjónusta — grunnur góðs samfélags.' },
+      { icon: '🏠', title: 'Húsnæðisöryggi', text: 'Gera húsnæði aðgengilegt fyrir ungt fólk; endurskoða \"Kópavogsmódelið\" í þágu foreldra og barna.' },
+      { icon: '🌿', title: 'Umhverfi og náttúra', text: 'Vernda náttúru og gæði lífs; vernda útivistarsvæði og náttúru Kópavogs.' },
+      { icon: '🗳️', title: 'Íbúasamráð', text: '\"Kópavogur er samfélag, ekki hlutafélag\" — raunverulegt íbúasamráð í forgrunni.' },
     ],
     list: [
       [1, 'Anna Sigríður Hafliðadóttir', 'Sérfræðingur í miðlun', 'images/candidates/917769f7182ddb78.jpg', {
@@ -3284,11 +3325,14 @@ const KOP = {
 const HAF = {
   A: {
     tagline: 'Ester Bíbí leiðir Vinstrið í Hafnarfirði',
+    platformUrl: 'https://www.fjardarfrettir.is/frettir/politik/ester-bibi-leidir-lista-vinstrisins-i-hafnarfirdi',
     agenda: [
+      { icon: '🏘️', title: 'Húsnæðismál', text: 'Hagkvæmt og aðgengilegt húsnæði sem forgangsmál.' },
+      { icon: '📚', title: 'Menntamál', text: 'Sterk skólaþjónusta og stuðningur við börn og ungmenni.' },
+      { icon: '🚌', title: 'Samgöngur og skipulag', text: 'Betri almenningssamgöngur og skipulögð þróun bæjarins.' },
       { icon: '🌿', title: 'Umhverfismál', text: 'Grænni Hafnarfjörður og sjálfbær þróun.' },
-      { icon: '⚖️', title: 'Jafnrétti', text: 'Jafnrétti og félagsleg réttlæti sem grundvöllur.' },
-      { icon: '🏘️', title: 'Húsnæðismál', text: 'Hagkvæmt húsnæði og öruggar búsetuskilyrðar.' },
-      { icon: '👥', title: 'Samfélag', text: 'Lifandi samfélag þar sem allir tilheyra.' },
+      { icon: '⚖️', title: 'Réttlæti og lýðræði', text: 'Jafnrétti, félagslegt réttlæti og lýðræðisleg þátttaka.' },
+      { icon: '🤝', title: 'Öruggt samfélag', text: 'Öflugt velferðarkerfi og gæðaþjónusta við alla íbúa.' },
     ],
     list: [
       [1, 'Ester Bíbí Ásgeirsdóttir', 'Verkefnastjóri', null, {
@@ -3361,11 +3405,12 @@ const HAF = {
   },
   B: {
     tagline: 'Valdimar Víðisson leiðir Framsókn í Hafnarfirði',
+    platformUrl: 'https://www.framsokn.is/hafnarfjordur/',
     agenda: [
-      { icon: '🏘️', title: 'Uppbygging', text: 'Skynsamleg uppbygging og þróun Hafnarfjarðar.' },
-      { icon: '👶', title: 'Börn og menntun', text: 'Gæðamenntun og sterk þjónusta við börn og fjölskyldur.' },
-      { icon: '💰', title: 'Fjármál', text: 'Ábyrg fjármálastjórnun.' },
-      { icon: '🤝', title: 'Samfélag', text: 'Lifandi og fjölbreytt samfélag.' },
+      { icon: '💪', title: 'Lýðheilsa', text: 'Lýðheilsa og heilbrigð lífsstíll sem forgangsmál.' },
+      { icon: '🤲', title: 'Velferðarmál', text: 'Öflug velferðarþjónusta og stuðningur við alla íbúa.' },
+      { icon: '🏘️', title: 'Samfélagsþjónusta', text: 'Gæðaþjónusta við börn, fjölskyldur og aldraða í bænum.' },
+      { icon: '🌟', title: 'Framtíðarsýn', text: '\"Framtíðin ræðst á miðjunni\" — skynsamleg uppbygging Hafnarfjarðar.' },
     ],
     list: [
       [1, 'Valdimar Víðisson', 'Bæjarstjóri', 'images/candidates/16166eb536451e7a.jpg', {
@@ -3599,10 +3644,11 @@ const HAF = {
   },
   M: {
     tagline: 'Einar Geir leiðir Miðflokkinn í Hafnarfirði',
+    platformUrl: 'https://www.midflokkurinn.is/hafnarfjordur/',
     agenda: [
-      { icon: '👶', title: 'Börn og fjölskyldur', text: 'Börn og barnafólk í forgrunn.' },
-      { icon: '💰', title: 'Fjármál', text: 'Skynsamleg og ábyrg meðferð fjármála.' },
-      { icon: '👵', title: 'Aldraðir', text: 'Gæðaþjónusta við aldraða.' },
+      { icon: '💸', title: 'Kostnaður vegna hælisleitenda', text: 'Hafnarfjörður greiðir 2 milljarða á ári í félagsþjónustu vegna hælisleitenda — þessi byrði þarf að endurskoða.' },
+      { icon: '📊', title: 'Gagnsæi í fjármálum', text: 'Gagnsæ fjármálastjórnun og aðhald í rekstri sveitarfélagsins.' },
+      { icon: '⚖️', title: 'Jöfn byrði', text: 'Grunnþjónusta og jöfn byrði — sveitarfélagið á að sinna þörfum allra íbúa.' },
     ],
     list: [
       [1, 'Einar Geir Þorsteinsson', 'Lögmaður', 'images/candidates/c832f8aaf44b908b.jpg', {
@@ -3758,10 +3804,12 @@ const HAF = {
 const SEL = {
   D: {
     tagline: 'Þór Sigurgeirsson bæjarstjóri leiðir D-listann á Seltjarnarnesi',
+    platformUrl: 'https://xd.is/sveitastjornir/seltjarnarnes/',
     agenda: [
-      { icon: '🏛️', title: 'Stjórnsýsla', text: 'Fagleg og góð stjórnun Seltjarnarnesbæjar áfram.' },
-      { icon: '💰', title: 'Fjármál', text: 'Ábyrg fjármálastjórnun og langtímahagsmunar íbúa.' },
-      { icon: '🏘️', title: 'Þjónusta', text: 'Gæðaþjónusta við íbúa í skóla-, velferðar- og heilbrigðismálum.' },
+      { icon: '🏗️', title: 'Gróttubyggð', text: 'Byggja 140 nýjar íbúðir í Gróttu — stærsta uppbyggingarverkefni Seltjarnarness.' },
+      { icon: '🎒', title: 'Nýr leikskóli', text: 'Nýr leikskóli í Norðurhlíð til að mæta þörf bæjarbúa.' },
+      { icon: '💰', title: 'Lægri skattar', text: 'Lækka útsvar og létta af fjölskyldum og fyrirtækjum.' },
+      { icon: '🛍️', title: 'Eiðistorg', text: 'Þróa Eiðistorg sem lifandi miðpunkt þjónustu og samkomur í bænum.' },
     ],
     list: [
       [1, 'Þór Sigurgeirsson', 'Bæjarstjóri', 'images/candidates/f496c0c2427757a2.jpg', {
@@ -3929,10 +3977,14 @@ const RNB = {
   },
   C: {
     tagline: 'Arnar Páll leiðir Viðreisn í Reykjanesbæ',
+    platformUrl: 'https://vidreisn.is/reykjanesbaer/',
     agenda: [
-      { icon: '💡', title: 'Nýsköpun', text: 'Nýsköpun og framsækin hugsunarhátt í þróun Reykjanesbæjar.' },
-      { icon: '🤝', title: 'Samstarf', text: 'Samstarf og gagnsæi í stjórnun.' },
-      { icon: '💼', title: 'Atvinnulíf', text: 'Öflugt og fjölbreytt atvinnulíf.' },
+      { icon: '🔭', title: 'Framtíðarsýn', text: 'Skýr framtíðarsýn og framsækin hugsunarhátt í þróun Reykjanesbæjar.' },
+      { icon: '💼', title: 'Atvinnulíf', text: 'Öflugt og fjölbreytt atvinnulíf á Suðurnesjum — Bítlabærinn þar sem hugmyndir verða að veruleika.' },
+      { icon: '🏙️', title: 'Skipulag', text: 'Skipulag og uppbygging í þágu íbúanna — bærinn sem við viljum búa í.' },
+      { icon: '🌿', title: 'Sjálfbærni', text: 'Sjálfbær þróun og umhverfisleg ábyrgð í allri stefnumörkun.' },
+      { icon: '📚', title: 'Menntun', text: 'Gæðamenntun og sterk skólaþjónusta sem grundvöllur blómlegrar þjóðar.' },
+      { icon: '🎭', title: 'Menning', text: 'Menningarlíf og skapandi greinar sem hluti af sjálfsmynd bæjarins.' },
     ],
     list: [
       [1, 'Arnar Páll Guðmundsson', 'Viðskiptafræðingur og mannauðsráðgjafi', null, {
@@ -4001,10 +4053,12 @@ const RNB = {
   },
   D: {
     tagline: 'Vilhjálmur Árnason leiðir Sjálfstæðisflokkinn í Reykjanesbæ',
+    platformUrl: 'https://xdrnb.is/',
     agenda: [
-      { icon: '🏛️', title: 'Stjórnsýsla', text: 'Fagleg og skilvirk stjórnun.' },
-      { icon: '💰', title: 'Fjármál', text: 'Ábyrg fjármálastjórnun og hagkvæmni.' },
-      { icon: '💼', title: 'Atvinnulíf', text: 'Öflugt atvinnulíf og nýsköpun.' },
+      { icon: '💰', title: 'Lægri skattar', text: 'Lækka fasteignaskatta og útsvar — létta af fjölskyldum sem fluttu frá Grindavík.' },
+      { icon: '🏘️', title: 'Húsnæðismál', text: 'Fjölbreyttara og hagkvæmara húsnæðisframboð í Reykjanesbæ.' },
+      { icon: '📖', title: 'Bókasafn', text: 'Endurnýja og efla bókasafn sveitarfélagsins.' },
+      { icon: '🛠️', title: 'Grunnþjónusta', text: 'Fagleg og skilvirk grunnþjónusta — skólar, leikskólar og samgöngur.' },
     ],
     list: [
       [1, 'Vilhjálmur Árnason', 'Þingmaður og fyrrverandi lögreglumaður', 'images/candidates/9ba898e10d74344a.jpg', {
@@ -4079,10 +4133,14 @@ const RNB = {
   },
   M: {
     tagline: 'Gunnlaugur Kárason leiðir Miðflokkinn í Reykjanesbæ',
+    platformUrl: 'https://midflokkurinn.is/taekifaerid-er-nuna-oflugri-reykjanesbaer-med-midflokknum',
     agenda: [
-      { icon: '👶', title: 'Börn og fjölskyldur', text: 'Grunnþjónusta fyrir börn og fjölskyldur.' },
-      { icon: '💰', title: 'Fjármál', text: 'Ábyrg meðferð fjármuna.' },
-      { icon: '🤝', title: 'Samfélag', text: 'Samstöðu og samvinna íbúa.' },
+      { icon: '📊', title: 'Gagnsæi', text: 'Gagnsæ fjármálastjórnun og skýr skýrsluskil til íbúanna.' },
+      { icon: '💼', title: 'Atvinnulíf', text: 'Efla atvinnulíf á Suðurnesjum — nýta tækifæri sem skapast í kjölfar Grindavík.' },
+      { icon: '🎒', title: 'Leikskólaplássar', text: 'Útrýma biðlistum í leikskóla og tryggja plássar fyrir öll börn.' },
+      { icon: '📚', title: 'Skólamál', text: 'Gæðamenntun og betri stuðningur við börn í skólum.' },
+      { icon: '⚽', title: 'Íþróttir', text: 'Bæta íþróttaaðstöðu og styðja við æskulýðsstarfið.' },
+      { icon: '🌍', title: 'Innflytjendamál', text: 'Skipulögð aðlögun og inngildning innflytjenda í samfélagið.' },
     ],
     list: [
       [1, 'Gunnlaugur Kárason', 'Kennari og viðskiptafræðingur', 'images/candidates/29ad3bb6e2ef2aa0.jpg', {
@@ -4897,10 +4955,13 @@ const ARB = {
 const VME = {
   D: {
     tagline: 'Eyþór Harðarson leiðir Sjálfstæðisflokkinn í Vestmannaeyjum',
+    platformUrl: 'https://eyjafrettir.is/vatnslognin-er-staersta-hagsmunamal-ibua-i-eyjum/',
     agenda: [
-      { icon: '🐟', title: 'Sjávarútvegur', text: 'Styrkja sjávarútveg og fiskiðnað sem stoð í efnahagslífi Vestmannaeyja.' },
-      { icon: '🏥', title: 'Þjónusta', text: 'Tryggja góða heilbrigðisþjónustu og öfluga þjónustu við íbúa eyjanna.' },
-      { icon: '💼', title: 'Atvinna', text: 'Fjölbreytt atvinnulíf og efling ferðaþjónustu á eyjunum.' },
+      { icon: '💧', title: 'Vatnslögnin', text: 'Endurnýjun vatnslagnakerfi er stærsta hagsmunamál íbúa Vestmannaeyja — þetta þarf að klára.' },
+      { icon: '⚡', title: 'Orkuskipti', text: 'Orkuskipti og sjálfbær orkunotkun á eyjunum.' },
+      { icon: '🏗️', title: 'Uppbygging', text: 'Markviss uppbygging innviða og hafnarsvæðis.' },
+      { icon: '🏥', title: 'Grunnþjónustur', text: 'Tryggja heilbrigðisþjónustu og grunnþjónustu við íbúa eyjanna.' },
+      { icon: '🐟', title: 'Atvinnulíf', text: 'Sjávarútvegur og ferðaþjónusta sem stoðir í efnahagslífi eyjanna.' },
     ],
     list: [
       [1, 'Eyþór Harðarson', 'Útgerðarstjóri hjá Ísfélag hf.', 'images/candidates/8888435d3325a6a8.jpg', {
@@ -4931,10 +4992,14 @@ const VME = {
   },
   E: {
     tagline: 'Eyjalistinn — hlustum á eyjabúana',
+    platformUrl: 'https://eyjafrettir.is/spurt-og-svarad-arndis-maria-fra-eyjalistanum/',
     agenda: [
-      { icon: '🏝️', title: 'Eyjunum fyrst', text: 'Hagsmunabaráttan fyrir Vestmannaeyjar — hlusta á fólkið í eyjasamfélaginu.' },
-      { icon: '🏘️', title: 'Samfélag', text: 'Efla samfélagsþjónustu og tryggja lífsgæði allra íbúa eyjanna.' },
-      { icon: '🌊', title: 'Náttúra', text: 'Verndun náttúrufars Vestmannaeyja og sjálfbær nýting auðlinda.' },
+      { icon: '💧', title: 'Vatnsleiðslan', text: 'Klára lagningu nýrrar vatnsleiðslu — brýnasta verkefni íbúa eyjanna.' },
+      { icon: '⛴️', title: 'Samgöngur', text: 'Betri samgöngur til og frá eyjunum — Landeyjahöfn og flugsamgöngur.' },
+      { icon: '🎒', title: 'Leikskóli', text: 'Tryggja leikskólapláss og gæðaþjónustu við ung börn.' },
+      { icon: '📚', title: 'Grunnskólar', text: 'Sterkir grunnskólar þar sem börn fá bestu mögulegu menntun.' },
+      { icon: '🏊', title: 'Íþróttamannvirki', text: 'Uppbygging og endurbætur á íþróttamannvirkjum í eyjunum.' },
+      { icon: '🏙️', title: 'Miðbær', text: 'Þróa og lífga upp undir miðbæinn sem þriflegann samkomustad.' },
     ],
     list: [
       [1, 'Arndís María Kjartansdóttir', 'Kennari og löggildur fasteigna- og skipasali', 'images/candidates/049c9ad518fd44ab.jpg', {
@@ -4965,10 +5030,13 @@ const VME = {
   },
   M: {
     tagline: 'Miðflokkurinn í Vestmannaeyjum — gildi og þjónusta',
+    platformUrl: 'https://eyjafrettir.is/spurt-og-svarad-jon-thor-fra-midflokknum/',
     agenda: [
-      { icon: '🤲', title: 'Þjónusta', text: 'Öflug þjónusta við eldri borgara og þá sem þurfa sérstaka aðstoð.' },
-      { icon: '🏡', title: 'Heimili', text: 'Aðgengilegt húsnæði og öryggi á heimilum — grundvöllur blómlægrar samfélagsþróunar.' },
-      { icon: '🐟', title: 'Atvinna', text: 'Styðja við hefðbundið atvinnulíf eyjanna og tryggja framtíð samfélagsins.' },
+      { icon: '⛴️', title: 'Landeyjahöfn', text: 'Bæta samgöngur með meginlandinu — Landeyjahöfn þarf að virka betur.' },
+      { icon: '🏙️', title: 'Skipulagsmál', text: 'Skipulög uppbygging og þróun eyjabæjarins.' },
+      { icon: '🌿', title: 'Umhverfismál', text: 'Sjálfbær nýting auðlinda og umhverfisvernd á eyjunum.' },
+      { icon: '💰', title: 'Rekstur', text: 'Hagkvæmur rekstur sveitarfélagsins og ábyrg fjármálastjórnun.' },
+      { icon: '🌟', title: 'Framtíðarsýn', text: '\"Litla Mónakó\" — Vestmannaeyjar sem eftirsóknarverður áfangastaður.' },
     ],
     list: [
       [1, 'Jón Þór Guðjónsson', 'Starfsmaður tölvudeildar Vestmannaeyjabæjar', 'images/candidates/5f6e6531a9dd557a.jpg', {
