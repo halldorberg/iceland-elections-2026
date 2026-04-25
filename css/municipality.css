@@ -445,6 +445,59 @@
   line-height: 1.65;
 }
 
+/* ─── Agenda source + disclaimer ────────────────────── */
+
+.agenda-source {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: var(--space-3);
+  font-size: 0.72rem;
+  color: rgba(255,255,255,0.35);
+}
+.agenda-source a {
+  color: rgba(255,255,255,0.45);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  transition: color 0.15s;
+}
+.agenda-source a:hover { color: rgba(255,255,255,0.75); }
+
+.agenda-disclaimer {
+  display: flex;
+  gap: var(--space-3);
+  align-items: flex-start;
+  background: rgba(251,191,36,0.07);
+  border: 1px solid rgba(251,191,36,0.22);
+  border-radius: var(--radius-md);
+  padding: var(--space-4);
+  margin-bottom: var(--space-4);
+}
+.agenda-disclaimer-icon { font-size: 1.1rem; flex-shrink: 0; margin-top: 1px; }
+.agenda-disclaimer-body {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 0.78rem;
+  line-height: 1.5;
+  color: rgba(255,255,255,0.6);
+}
+.agenda-disclaimer-body strong {
+  color: rgba(251,191,36,0.9);
+  font-size: 0.8rem;
+}
+.agenda-disclaimer-cta {
+  display: inline-block;
+  margin-top: 6px;
+  color: rgba(251,191,36,0.8);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  font-weight: 600;
+  font-size: 0.78rem;
+  transition: color 0.15s;
+}
+.agenda-disclaimer-cta:hover { color: #fbbf24; }
+
 /* ─── 2022 Results Card ──────────────────────────────── */
 
 .results-2022 {

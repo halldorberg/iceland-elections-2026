@@ -252,6 +252,26 @@ function buildSplashHTML(party, data) {
 
   const resultsHTML = buildResultsHTML(data.partyCode, data.municipalityId);
 
+  const sourceHTML = data.platformUrl
+    ? `<div class="agenda-source">
+        <svg width="11" height="11" viewBox="0 0 12 12" fill="none">
+          <path d="M5 2H2a1 1 0 00-1 1v7a1 1 0 001 1h7a1 1 0 001-1V7M8 1h3m0 0v3m0-3L5 7" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <a href="${data.platformUrl}" target="_blank" rel="noopener noreferrer">Heimild: ${new URL(data.platformUrl).hostname.replace('www.','')}</a>
+       </div>`
+    : '';
+
+  const disclaimerHTML = data.isPlaceholder
+    ? `<div class="agenda-disclaimer">
+        <span class="agenda-disclaimer-icon">⚠️</span>
+        <div class="agenda-disclaimer-body">
+          <strong>Óstaðfest stefna</strong>
+          <span>Við höfum ekki fundið staðfesta stefnuskrá þessa framboðs. Upplýsingarnar hér eru almenn yfirlit á grunni landsstefnu flokksins, ekki staðbundin áhersluatriði.</span>
+          <a href="mailto:halldor.berg@inno.link" class="agenda-disclaimer-cta">Ertu frambjóðandi? Hafðu samband! →</a>
+        </div>
+       </div>`
+    : '';
+
   return `
     <div class="party-splash">
       <div class="splash-bg"></div>
@@ -274,7 +294,9 @@ function buildSplashHTML(party, data) {
       </div>
       ${resultsHTML}
       <div class="splash-tagline" style="color:${party.textColor}">${data.tagline}</div>
+      ${disclaimerHTML}
       <div class="agenda-grid">${cards}</div>
+      ${sourceHTML}
     </div>`;
 }
 

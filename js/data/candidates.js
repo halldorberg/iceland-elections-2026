@@ -8916,6 +8916,8 @@ export function getMunicipalityPartyData(municipalityId, partyCode) {
       partyCode,
       tagline: real.tagline,
       agenda: real.agenda,
+      platformUrl: real.platformUrl || null,
+      isPlaceholder: false,
       candidates: makeCandidatesFromList(municipalityId, partyCode, real.list),
     };
   }
@@ -8927,6 +8929,8 @@ export function getMunicipalityPartyData(municipalityId, partyCode) {
     partyCode,
     tagline: agenda.tagline,
     agenda: agenda.agenda,
+    platformUrl: null,
+    isPlaceholder: true,
     candidates: generateCandidates(municipalityId, partyCode, count),
   };
 }
