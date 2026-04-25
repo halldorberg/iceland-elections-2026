@@ -66,23 +66,24 @@ if (isUnbound) {
     partyDataMap[code] = getMunicipalityPartyData(muni.id, code);
   });
 
-  // Random opening party (skip random tooltip for single-list)
+  // Honour ?party= deep-link param; otherwise open a random party
+  const paramParty     = params.get('party');
+  const paramCandidate = params.get('candidate');
+  const isDeepLink     = paramParty && muni.partyIds.includes(paramParty);
+
   const randomIndex = muni.partyIds.length > 1
     ? Math.floor(Math.random() * muni.partyIds.length)
     : 0;
-  let activeParty = muni.partyIds[randomIndex];
+  let activeParty = isDeepLink ? paramParty : muni.partyIds[randomIndex];
 
-  if (muni.partyIds.length > 1) {
+  const tip = document.getElementById('random-tooltip');
+  if (isDeepLink || muni.partyIds.length <= 1) {
+    if (tip) tip.style.display = 'none';
+  } else {
     const randomParty = PARTIES[activeParty];
     document.getElementById('random-tooltip-text').textContent =
       `Opnaði ${randomParty.name} af handahófi`;
-    setTimeout(() => {
-      const tip = document.getElementById('random-tooltip');
-      if (tip) tip.style.display = 'none';
-    }, 5200);
-  } else {
-    const tip = document.getElementById('random-tooltip');
-    if (tip) tip.style.display = 'none';
+    setTimeout(() => { if (tip) tip.style.display = 'none'; }, 5200);
   }
 
 // ─── Render Ribbons ────────────────────────────────────────
@@ -156,6 +157,12 @@ function switchParty(code) {
       ? `linear-gradient(160deg, ${p.accentColor || p.color} 0%, ${p.color} 100%)`
       : p.color;
   });
+
+  // Reflect in URL (no new history entry — just update the address bar)
+  const u = new URL(window.location.href);
+  u.searchParams.set('party', code);
+  u.searchParams.delete('candidate');
+  history.replaceState(null, '', u);
 }
 
 // ─── Splash / Agenda ───────────────────────────────────────
@@ -241,6 +248,18 @@ function buildSplashHTML(party, data) {
         <span class="splash-party-badge" style="color:${party.textColor}">
           ${party.code} – ${party.name}
         </span>
+        <button class="share-btn share-btn--party"
+                data-share-party="${data.partyCode}"
+                aria-label="Deila hlekk á þennan flokk">
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+            <circle cx="11" cy="2.5" r="1.75" stroke="currentColor" stroke-width="1.4"/>
+            <circle cx="3" cy="7" r="1.75" stroke="currentColor" stroke-width="1.4"/>
+            <circle cx="11" cy="11.5" r="1.75" stroke="currentColor" stroke-width="1.4"/>
+            <line x1="4.6" y1="6.1" x2="9.4" y2="3.4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+            <line x1="4.6" y1="7.9" x2="9.4" y2="10.6" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+          </svg>
+          Deila
+        </button>
       </div>
       ${resultsHTML}
       <div class="splash-tagline" style="color:${party.textColor}">${data.tagline}</div>
@@ -284,6 +303,44 @@ function buildCandidatesHTML(data, party) {
       </div>
       <div class="candidates-grid">${cards}</div>
     </div>`;
+}
+
+// ─── Share / deep-link helpers ────────────────────────────
+
+function partyURL(partyCode) {
+  const u = new URL(window.location.href);
+  u.searchParams.set('party', partyCode);
+  u.searchParams.delete('candidate');
+  return u.toString();
+}
+
+function candidateURL(candidateId, partyCode) {
+  const u = new URL(window.location.href);
+  u.searchParams.set('party', partyCode);
+  u.searchParams.set('candidate', candidateId);
+  return u.toString();
+}
+
+let toastTimer = null;
+function showToast(msg) {
+  const el = document.getElementById('share-toast');
+  if (!el) return;
+  el.textContent = msg;
+  el.classList.add('is-visible');
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => el.classList.remove('is-visible'), 2400);
+}
+
+async function shareURL(url, title) {
+  if (navigator.share) {
+    try { await navigator.share({ title, url }); return; } catch {}
+  }
+  try {
+    await navigator.clipboard.writeText(url);
+    showToast('✓ Hlekkur afritaður!');
+  } catch {
+    prompt('Afritaðu hlekk:', url);
+  }
 }
 
 // ─── Modal ─────────────────────────────────────────────────
@@ -446,18 +503,68 @@ function openModal(id) {
 
   overlay.classList.add('is-open');
   document.body.style.overflow = 'hidden';
+
+  // Push URL so the back button closes the modal
+  const u = new URL(window.location.href);
+  u.searchParams.set('party', c.partyCode);
+  u.searchParams.set('candidate', id);
+  history.pushState({ candidate: id }, '', u);
+
+  // Wire share button for this candidate
+  const shareBtn = document.getElementById('modal-share');
+  if (shareBtn) {
+    shareBtn.onclick = () => shareURL(
+      candidateURL(id, c.partyCode),
+      `${c.name} – ${PARTIES[c.partyCode].name} – Kosningar 2026`
+    );
+  }
 }
 
-function closeModal() {
+function closeModal(updateHistory = true) {
   overlay.classList.remove('is-open');
   document.body.style.overflow = '';
+  if (updateHistory) {
+    const u = new URL(window.location.href);
+    u.searchParams.delete('candidate');
+    history.replaceState(null, '', u);
+  }
 }
 
-document.getElementById('modal-close').addEventListener('click', closeModal);
+document.getElementById('modal-close').addEventListener('click', () => closeModal());
 overlay.addEventListener('click', e => { if (e.target === overlay) closeModal(); });
 document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
+
+// Back button closes the modal without double-popping history
+window.addEventListener('popstate', e => {
+  if (overlay.classList.contains('is-open')) {
+    closeModal(false);
+  }
+});
+
+// ─── Party share button delegation ────────────────────────
+
+container.addEventListener('click', e => {
+  const btn = e.target.closest('.share-btn--party');
+  if (!btn) return;
+  e.stopPropagation();
+  const code = btn.dataset.shareParty;
+  const party = PARTIES[code];
+  shareURL(partyURL(code), `${party.name} – ${muni.name} – Kosningar 2026`);
+});
 
 // ─── Boot ──────────────────────────────────────────────────
 
   renderAccordion();
+
+  // Set initial URL to reflect the active party (no history entry)
+  const initURL = new URL(window.location.href);
+  initURL.searchParams.set('party', activeParty);
+  if (!paramCandidate) initURL.searchParams.delete('candidate');
+  history.replaceState(null, '', initURL);
+
+  // Open candidate from deep link (after DOM is ready)
+  if (paramCandidate && allCandidates[paramCandidate]) {
+    requestAnimationFrame(() => openModal(paramCandidate));
+  }
+
 } // end else (not isUnbound)

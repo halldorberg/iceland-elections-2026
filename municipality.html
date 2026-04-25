@@ -13,7 +13,7 @@
 
   <!-- App styles -->
   <link rel="stylesheet" href="css/variables.css?v=2" />
-  <link rel="stylesheet" href="css/municipality.css?v=7" />
+  <link rel="stylesheet" href="css/municipality.css?v=8" />
 </head>
 <body class="page-municipality">
 
@@ -48,6 +48,9 @@
     </div>
   </section>
 
+  <!-- Share toast -->
+  <div class="share-toast" id="share-toast" aria-live="polite"></div>
+
   <!-- Candidate Modal -->
   <div class="modal-overlay" id="modal-overlay" role="dialog" aria-modal="true">
     <div class="modal-card" id="modal-card">
@@ -55,6 +58,16 @@
         <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
           <path d="M3 3L13 13M13 3L3 13" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
         </svg>
+      </button>
+      <button class="share-btn share-btn--modal" id="modal-share" aria-label="Deila hlekk á þennan frambjóðanda">
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+          <circle cx="11" cy="2.5" r="1.75" stroke="currentColor" stroke-width="1.4"/>
+          <circle cx="3" cy="7" r="1.75" stroke="currentColor" stroke-width="1.4"/>
+          <circle cx="11" cy="11.5" r="1.75" stroke="currentColor" stroke-width="1.4"/>
+          <line x1="4.6" y1="6.1" x2="9.4" y2="3.4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+          <line x1="4.6" y1="7.9" x2="9.4" y2="10.6" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+        </svg>
+        Deila
       </button>
       <div class="modal-hero">
         <img class="modal-hero-photo" id="modal-photo" src="" alt="" />
@@ -91,7 +104,7 @@
   </div>
 
   <!-- App -->
-  <script type="module" src="js/municipality.js?v=18"></script>
+  <script type="module" src="js/municipality.js?v=19"></script>
   <script type="module" src="js/outreach.js?v=1"></script>
 </body>
 </html>
