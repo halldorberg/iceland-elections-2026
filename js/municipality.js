@@ -193,7 +193,7 @@ function buildResultsHTML(partyCode, muniId) {
     return `
       <div class="results-2022 results-2022--new">
         <div class="results-label">📊 Kosningaúrslit 2022</div>
-        <div class="results-new-text">✨ Nýtt framboð — keppti ekki árið 2022</div>
+        <div class="results-new-text">✨ Nýtt framboð — tók ekki þátt árið 2022</div>
       </div>`;
   }
 
