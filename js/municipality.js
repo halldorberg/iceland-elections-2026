@@ -328,19 +328,39 @@ function showToast(msg) {
   el.textContent = msg;
   el.classList.add('is-visible');
   clearTimeout(toastTimer);
-  toastTimer = setTimeout(() => el.classList.remove('is-visible'), 2400);
+  toastTimer = setTimeout(() => el.classList.remove('is-visible'), 3000);
 }
 
 async function shareURL(url, title) {
+  // 1 — Native share sheet (mobile / supported browsers)
   if (navigator.share) {
-    try { await navigator.share({ title, url }); return; } catch {}
+    try { await navigator.share({ title, url }); return; } catch (err) {
+      if (err.name === 'AbortError') return; // user dismissed — do nothing
+    }
   }
+
+  // 2 — Clipboard API (requires secure context; works on localhost & HTTPS)
   try {
     await navigator.clipboard.writeText(url);
     showToast('✓ Hlekkur afritaður!');
-  } catch {
-    prompt('Afritaðu hlekk:', url);
-  }
+    return;
+  } catch {}
+
+  // 3 — execCommand fallback (works in iframes, HTTP, legacy browsers)
+  try {
+    const ta = Object.assign(document.createElement('textarea'), {
+      value: url,
+      style: 'position:fixed;left:-9999px;top:-9999px;opacity:0;',
+    });
+    document.body.appendChild(ta);
+    ta.focus(); ta.select();
+    const ok = document.execCommand('copy');
+    document.body.removeChild(ta);
+    if (ok) { showToast('✓ Hlekkur afritaður!'); return; }
+  } catch {}
+
+  // 4 — Last resort: show URL in the toast so user can copy manually
+  showToast(url);
 }
 
 // ─── Modal ─────────────────────────────────────────────────
