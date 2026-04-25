@@ -2781,11 +2781,15 @@ const MOS = {
     ],
   },
   L: {
-    tagline: 'VG í Mosfellsbæ — samstaða og jafnrétti',
+    tagline: 'Vinir Mosfellsbæjar — skipulag á forsendum íbúa, alvöru samgöngur',
+    platformUrl: 'https://www.vinirmos.is/',
     agenda: [
-      { icon: '🌿', title: 'Umhverfismál', text: 'Verndun náttúrufars og umhverfisvænar ákvarðanir.' },
-      { icon: '⚖️', title: 'Jafnrétti', text: 'Félagsleg jafnrétti og jöfn tækifæri.' },
-      { icon: '🏘️', title: 'Húsnæðismál', text: 'Hagkvæmt húsnæði og fjölbreytt búsetuskilyrði.' },
+      { icon: '🏙️', title: 'Skipulagsmál á forsendum íbúa', text: 'Skipulagsmál á forsendum íbúa — þar á meðal gagnrýni á ofurþéttingu í Blikastaðalandi og kröfu um svör við ósvöruðum spurningum um innviði og umferð.' },
+      { icon: '🚌', title: 'Alvöru almenningssamgöngur', text: 'Hrað- og innanbæjarstrætó — raunverulegur almenningsfarþegasamgöngur, ekki bara á pappír.' },
+      { icon: '🎒', title: 'Ókeypis strætó fyrir grunnskólabörn', text: 'Gjaldfrjáls almenningssamgöngur fyrir öll grunnskólabörn í Mosfellsbæ.' },
+      { icon: '📚', title: 'Styrkari skólar', text: 'Aukið bolmagn fyrir skólastjórnendur, kennara og starfsfólk í leikskólum og grunnskólum — fagfólk í skólana og sterkara stuðningsnet svo hvert barn geti blómstrað á eigin forsendum.' },
+      { icon: '🌆', title: 'Þróun miðbæjarsvæða', text: 'Alvöruleg þróun miðbæjarsvæða: Álafosskvosin, Stekkjarflöt, Hlégarður, Varmársvæði og Ævintýragarðurinn — með sérstakri áherslu á menningu og list á Hlégarðssvæðinu.' },
+      { icon: '🗳️', title: 'Lýðræðisleg þátttaka og gagnsæi', text: 'Aukin þátttaka íbúa í gegnum virkt þátttökulýðræði, opna og gagnsæja stjórnsýslu og faglægt bæjarstjórnunarfyrirkomulag.' },
     ],
     list: [
       [1, 'Bjarki Bjarnason', 'Höfundur og fyrrverandi forseti bæjarstjórnar', null, {
@@ -5372,11 +5376,15 @@ const FJB = {
 // ─── Hveragerðisbær candidate lists ────────────────────────────────────────
 const HVG = {
   OKH: {
-    tagline: 'Okkar Hveragerði — íbúar í forgrunni',
+    tagline: 'Okkar Hveragerði — fjölskylduvænt samfélag, raunverulegur almenningssamgöngur',
+    platformUrl: 'https://okkarhveragerdi.is',
     agenda: [
-      { icon: '🌿', title: 'Þróun bæjarins', text: 'Íbúamiðuð þróun með áherslu á náttúru og heilsugæslu.' },
-      { icon: '🏘️', title: 'Þjónusta', text: 'Góð þjónusta við alla íbúa í hverju hverfi.' },
-      { icon: '💡', title: 'Nýsköpun', text: 'Styðja við jarðhitaþekkingu og menningarstarfsemi.' },
+      { icon: '👨‍👩‍👧‍👦', title: 'Fjölskylduvænt samfélag', text: 'Öllum börnum frá 12 mánaða aldri tryggð leikskólapláss. Leikskólagjöld lækkuð um 70%. Bíðlistar þurrkuð út með nýjum deildum í Óskalandi 2025. Sex klukkustundir á dag í leikskóla án gjalds.' },
+      { icon: '📚', title: 'Menntun sem grunnstoð', text: 'Menntun í miðju samfélagsþróunar. Áframhaldandi uppbygging skólaþjónustu og -mannvirkja í Hveragerði.' },
+      { icon: '🤝', title: 'Velferðarkerfi sem nær til allra', text: 'Samþætt heimaþjónustukerfi undir heitinu „Gott að eldast" í samstarfi sveitarfélags, heilbrigðisþjónustu og hjúkrunarheimila. Ungmennaráð stofnað sem ráðgefandi nefnd.' },
+      { icon: '🏗️', title: 'Húsnæðis- og byggðarmál', text: 'Sjálfbær uppbygging með velferð íbúa að leiðarljósi. Fjárhagslegur grundvöllur: 356 milljóna króna halli (2021) breyttur í 168 milljóna króna afgang (2024).' },
+      { icon: '🗳️', title: 'Gagnsæi og íbúalýðræði', text: 'Aukið gagnsæi í sveitarstjórnartökum. Íbúar fá aukinn aðgang að ákvarðanatöku. Þingeyingalýðræði í stað miðstýringar frá Reykjavík.' },
+      { icon: '💼', title: 'Nýir tekjustofnar og uppbygging', text: 'Stuðningur við fjölbreytt atvinnulíf og nýsköpun. Markaðssetning sveitarfélagsins til að laða að fyrirtæki og ferðamenn.' },
     ],
     list: [
       [1, 'Lárus Jónsson', 'Körfuboltaþjálfari og íþróttafræðingur', 'images/candidates/dd15933b3968186e.jpg', {
