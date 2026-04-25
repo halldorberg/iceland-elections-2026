@@ -125,6 +125,7 @@ const RVK = {
   },
   B: {
     tagline: 'Í átt að betri borg — breyting í forgangi',
+    platformUrl: 'https://framsoknrvk.is/aherslurnar-okkar/',
     agenda: [
       { icon: '🔄', title: 'Stefnubreyting', text: 'Listinn endurspeglar þá sem vilja breyta forgangsröðun í stjórnun Reykjavíkur; markmið er róttækar breytingar á stefnumörkun borgarinnar.' },
       { icon: '🏠', title: 'Húsnæðisöryggi', text: 'Tryggja húsnæðisöryggi allra íbúa og auka framboð á hagkvæmu húsnæði.' },
@@ -238,6 +239,7 @@ const RVK = {
   },
   S: {
     tagline: 'Borg fyrir fólk',
+    platformUrl: 'https://xs.is/borg-fyrir-folk',
     agenda: [
       { icon: '🏙️', title: 'Borg fyrir fólk', text: 'Stjórnsýsla miðuð að þörfum borgarbúa; fólkið í fyrirrúmi í öllum ákvörðunum Reykjavíkur.' },
       { icon: '🎭', title: 'Menningarlíf', text: 'Öflug áhersla á lifandi menningarlíf með auknu fjármagni til menningarmála.' },
@@ -690,6 +692,7 @@ const RVK = {
   },
   F: {
     tagline: 'Fólkið fyrst',
+    platformUrl: 'https://flokkurfolksins.is/reykjavik/aherslumal.html',
     agenda: [
       { icon: '👥', title: 'Fólkið fyrst', text: 'Samfélag þar sem allir geta lifað með reisn, öryggi og jöfn tækifæri; "lífsgæði eru ekki einkaréttur fárra".' },
       { icon: '🏘️', title: 'Hagkvæmt húsnæði', text: 'Þróun á hagkvæmu húsnæði og smáíbúðum í samstarfi við félagslegar stofnanir; andvígt ofþéttingu.' },
@@ -786,6 +789,7 @@ const RVK = {
   },
   C: {
     tagline: 'Reykjavík til þjónustu reiðubúin — Sterk saman',
+    platformUrl: 'https://www.vidreisnreykjavik.is/malefni',
     agenda: [
       { icon: '👤', title: 'Borgararar fyrst', text: 'Fjármunum á að forgangsraða til grunnþjónustu, ekki til sóunarmála eða tvítekinnar starfsemi; minnka kostnað og stjórnsýslu.' },
       { icon: '⚙️', title: 'Hagkvæmni', text: 'Einfalda rekstur; fækka nefndum, þverþingnefndum og deildum; lækka fasteignagjöld; ganga gegn samkeppni borgar við einkageirann.' },
@@ -1321,6 +1325,7 @@ const DEFAULT_AGENDAS = {
 const AKU = {
   D: {
     tagline: 'Berglind í broddi flokks — gæði lífs sem grunnur framfara',
+    platformUrl: 'https://www.islendingur.is/kosningaaherslur2026',
     agenda: [
       { icon: '🏗️', title: 'Þróun og uppbygging', text: 'Sterk atvinnulíf, áframhaldandi uppbygging og ábyrg fjármálastjórnun.' },
       { icon: '🏛️', title: 'Góð þjónusta', text: 'Góð þjónusta við íbúa sem kjarnaverkefni bæjaryfirvalda.' },
@@ -1697,6 +1702,7 @@ const AKU = {
   },
   S: {
     tagline: 'Sindri nýr oddviti — uppstilling með fjölbreytileika og reynslu',
+    platformUrl: 'https://xs.is/akureyri',
     agenda: [
       { icon: '🤝', title: 'Jafnaðarmennska', text: 'Jöfn tækifæri og félagsleg réttlæti sem grundvöllur stefnu.' },
       { icon: '🏫', title: 'Menntun', text: 'Gæðamenntun og sterk skólaþjónusta.' },
@@ -1849,6 +1855,7 @@ const AKU = {
   },
   AL: {
     tagline: 'Allt að gerast — tala skýrt, vinna hratt, skila árangri',
+    platformUrl: 'https://www.akureyrarlistinn.is/stefna',
     agenda: [
       { icon: '💼', title: 'Atvinnulíf', text: 'Atvinnulíf, þróun, menntun, samgöngur og kjaramál.' },
       { icon: '👴', title: 'Aldraðir', text: 'Mál aldraðra, menning, íþróttir og samfélagslíf.' },
@@ -2150,6 +2157,7 @@ const GAR = {
   },
   GB: {
     tagline: 'Garðabær er fyrir okkur öll — Þorbjörg leiðir listann áfram',
+    platformUrl: 'https://gardabaejarlistinn.is/malefnin/',
     agenda: [
       { icon: '🏘️', title: 'Samfélag', text: 'Garðabær sem lifandi og fjölbreytt samfélag þar sem allir fá að þrífast.' },
       { icon: '🌳', title: 'Umhverfi', text: 'Græn og umhverfisvæn þróun Garðabæjar.' },
@@ -2455,6 +2463,7 @@ const MOS = {
   },
   B: {
     tagline: 'Heilbrigt og fjölskylduvænt samfélag — Sævar leiðir B-listann',
+    platformUrl: 'https://framsoknmos.is/malefnin/',
     agenda: [
       { icon: '👨‍👩‍👧', title: 'Fjölskyldumál', text: 'Heilbrigt og fjölskylduvænt samfélag sem þjónar öllum aldurshópum.' },
       { icon: '🌳', title: 'Náttúra', text: 'Vernda náttúrufar Mosfellsbæjar og tryggja aðgang að útivistarsvæðum.' },
@@ -3431,6 +3440,7 @@ const HAF = {
   },
   C: {
     tagline: 'Karólína Helga leiðir Viðreisn í Hafnarfirði',
+    platformUrl: 'https://vidreisn.is/hafnarfjordur/stefnan',
     agenda: [
       { icon: '💡', title: 'Nýsköpun', text: 'Nýsköpun og framsækin hugsunarhátt í þróun Hafnarfjarðar.' },
       { icon: '🤝', title: 'Gagnsæi', text: 'Gagnsæ stjórnsýsla og samstarf við íbúa.' },
@@ -3509,6 +3519,7 @@ const HAF = {
   },
   D: {
     tagline: 'Orri Björnsson leiðir Sjálfstæðisflokkinn í Hafnarfirði',
+    platformUrl: 'https://xdhafnarfjordur.is/aherslur/',
     agenda: [
       { icon: '🏛️', title: 'Stjórnsýsla', text: 'Fagleg og skilvirk stjórnsýsla.' },
       { icon: '💰', title: 'Fjármál', text: 'Ábyrg fjármálastjórnun og hagræðing.' },
@@ -3807,6 +3818,7 @@ const SEL = {
   },
   SCS: {
     tagline: 'Kristinn Ólafsson leiðir Samfylkingu, Viðreisn og óháða á Seltjarnarnesi',
+    platformUrl: 'https://xseltjarnarnes.is/stefnan/',
     agenda: [
       { icon: '⚖️', title: 'Jafnrétti', text: 'Jafnrétti og félagsleg réttlæti.' },
       { icon: '💡', title: 'Nýsköpun', text: 'Framsynt og nýskapandi stjórnun.' },
@@ -4139,6 +4151,7 @@ const RNB = {
   },
   S: {
     tagline: 'Guðný Birna leiðir Samfylkinguna í Reykjanesbæ',
+    platformUrl: 'https://xs.is/reykjanesbaer',
     agenda: [
       { icon: '⚖️', title: 'Jafnrétti', text: 'Jöfn tækifæri og félagsleg réttlæti.' },
       { icon: '🏫', title: 'Menntun', text: 'Gæðamenntun og sterk skólaþjónusta.' },
