@@ -19,6 +19,17 @@ const muni = MUNICIPALITIES.find(m => m.id === muniId) || MUNICIPALITIES[0];
 document.title = `${muni.name} – Kosningar 2026`;
 document.getElementById('muni-name').textContent = muni.name;
 document.getElementById('muni-region').textContent = muni.region;
+
+// Municipality share button — clean URL with just ?id=
+const muniShareBtn = document.getElementById('muni-share');
+if (muniShareBtn) {
+  muniShareBtn.addEventListener('click', () => {
+    const u = new URL(window.location.href);
+    u.search = '';
+    u.searchParams.set('id', muniId);
+    shareURL(u.toString(), `${muni.name} – Kosningar 2026`);
+  });
+}
 document.getElementById('muni-pop').textContent =
   muni.population.toLocaleString('is-IS') + ' íbúar';
 
