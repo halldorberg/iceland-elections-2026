@@ -98,9 +98,9 @@ export const RESULTS_2022 = {
   seltjarnarnes: {
     totalSeats: 7,
     parties: {
-      D: { pct: 50.1, seats: 4 },
-      // S (Samfylkingin) had 40.81% 3 seats but not in 2026 partyIds
-      // M and SCS → "Nýtt framboð"
+      D:   { pct: 50.1,  seats: 4 },
+      SCS: { pct: 40.81, seats: 3, joint: 'Samfylkingin keppti ein 2022' },
+      // M → "Nýtt framboð"
     },
   },
 
