@@ -146,7 +146,12 @@
         localStorage.removeItem('disclaimer-min');
       }
 
-      if (localStorage.getItem('disclaimer-min') === '1') minimize();
+      if (localStorage.getItem('disclaimer-min') === '1') {
+        minimize();
+      } else {
+        // Auto-minimize after 5 seconds on first visit
+        setTimeout(minimize, 5000);
+      }
 
       minBtn.addEventListener('click', minimize);
       badge.addEventListener('click', expand);
