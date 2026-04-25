@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Dark rounded background -->
+  <rect width="32" height="32" rx="7" fill="#0f1923"/>
+
+  <!-- Ballot box body -->
+  <rect x="4" y="18" width="24" height="11" rx="2.5" fill="#1a56db"/>
+
+  <!-- Box lid / top strip -->
+  <rect x="4" y="15.5" width="24" height="4" rx="1.5" fill="#2563eb"/>
+
+  <!-- Slot in the lid -->
+  <rect x="12.5" y="16.5" width="7" height="2" rx="1" fill="#0f1923"/>
+
+  <!-- Ballot paper (slightly rotated, going into slot) -->
+  <g transform="rotate(-10 16 13)">
+    <rect x="12" y="5" width="8" height="13" rx="1.5" fill="#f0f6ff"/>
+    <!-- check mark on the ballot -->
+    <polyline points="14,12 15.8,14.2 18.8,9.5"
+              fill="none" stroke="#1a56db" stroke-width="1.8"
+              stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
