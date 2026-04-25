@@ -1,7 +1,14 @@
 import { MUNICIPALITIES } from './data/municipalities.js?v=13';
 import { PARTIES } from './data/parties.js?v=4';
-import { getMunicipalityPartyData } from './data/candidates.js?v=13';
+import { getMunicipalityPartyData } from './data/candidates.js?v=14';
 import { RESULTS_2022 } from './data/results2022.js?v=2';
+
+// ─── Local avatar generator (replaces ui-avatars.com hotlink) ─────────────
+function localAvatar(name) {
+  const initials = name.trim().split(/\s+/).slice(0, 2).map(w => w[0] || '').join('').toUpperCase();
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300"><rect width="300" height="300" fill="#1c2335"/><text x="150" y="155" text-anchor="middle" dominant-baseline="middle" fill="#8892a4" font-family="Arial,sans-serif" font-size="120" font-weight="bold">${initials}</text></svg>`;
+  return `data:image/svg+xml,${encodeURIComponent(svg)}`;
+}
 
 // ─── Init ──────────────────────────────────────────────────
 
@@ -245,7 +252,7 @@ function buildSplashHTML(party, data) {
 
 function buildCandidatesHTML(data, party) {
   const cards = data.candidates.map(c => {
-    const fallback = `https://ui-avatars.com/api/?name=${encodeURIComponent(c.name)}&size=300&background=1c2335&color=8892a4&bold=true`;
+    const fallback = localAvatar(c.name);
     return `
       <div class="candidate-card"
            data-candidate-id="${c.id}"
@@ -360,7 +367,7 @@ function openModal(id) {
   if (!c) return;
   const party = PARTIES[c.partyCode];
 
-  const fallback = `https://ui-avatars.com/api/?name=${encodeURIComponent(c.name)}&size=400&background=1c2335&color=8892a4&bold=true`;
+  const fallback = localAvatar(c.name);
   const photo = document.getElementById('modal-photo');
   // Reset position before loading new image
   photo.style.objectPosition = 'center 20%';

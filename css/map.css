@@ -166,6 +166,13 @@
   animation: fade-in-up 0.6s var(--ease-out-expo) both;
 }
 
+.hero-flag {
+  display: block;
+  flex-shrink: 0;
+  border-radius: 2px;
+  box-shadow: 0 0 0 1px rgba(0,0,0,0.25);
+}
+
 .hero-title {
   font-family: var(--font-display);
   font-size: clamp(2rem, 5vw, 3.5rem);
