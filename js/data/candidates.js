@@ -1412,10 +1412,13 @@ const AKU = {
   },
   B: {
     tagline: 'Sunna Hlín leiðir lista Framsóknar á Akureyri',
+    platformUrl: 'https://www.framsokn.is/sveitarfelog/akureyri/',
     agenda: [
-      { icon: '🌱', title: 'Sjálfbær þróun', text: 'Sjálfbær uppbygging og umhverfismeðvitund í allri stefnumörkun.' },
-      { icon: '🏥', title: 'Heilbrigðisþjónusta', text: 'Styðja við heilbrigðisþjónustu á Norðurlandi.' },
-      { icon: '🏫', title: 'Menntun', text: 'Gæðamenntun og sterk skólaþjónusta.' },
+      { icon: '🏠', title: 'Ódýrara húsnæði', text: 'Auka framboð á leiguhúsnæði og félagslegu húsnæði á Akureyri — tryggja að fjölskyldur geti búið á góðum kjörum.' },
+      { icon: '🏥', title: 'Heildstæðar heilbrigðislausnir', text: 'Beita sér fyrir öflugri heilbrigðisþjónustu á Norðurlandi — ekki aðeins sjúkrahúsþjónustu heldur geðheilbrigði og forvarnir.' },
+      { icon: '🧩', title: 'Grípur kerfið barnið', text: 'Þverstofnanaleg samvinna til að tryggja að börn í jaðarstöðu falli ekki í milli kerfa — skóli, félagsþjónusta og heilbrigðisþjónusta.' },
+      { icon: '📚', title: 'Menntamál og barnaþjónusta', text: 'Gæðamenntun og sterk þjónusta við börn og ungmenni á öllum skólastigum á Akureyri.' },
+      { icon: '🌿', title: 'Umhverfismál', text: 'Sjálfbær uppbygging og umhverfismeðvitund — stuðla að grænni og loftslagsvænni þróun bæjarins.' },
     ],
     list: [
       [1, 'Sunna Hlín Jóhannesdóttir', 'Bæjarfulltrúi og framhaldsskólakennari', null, {
@@ -2821,11 +2824,13 @@ const MOS = {
 const KOP = {
   B: {
     tagline: 'Orri Vignir leiðir Framsókn í Kópavogi',
+    platformUrl: 'https://www.framsokn.is/sveitarfelog/kopavogur/',
     agenda: [
-      { icon: '🏘️', title: 'Húsnæðismál', text: 'Auka framboð á hagkvæmu húsnæði og tryggja bætar búsetuskilyrði.' },
-      { icon: '👶', title: 'Leikskólar', text: 'Leysa biðlistamál leikskóla og efla menntun barna.' },
-      { icon: '🌿', title: 'Umhverfismál', text: 'Sjálfbær þróun og umhverfisvænar ákvarðanir.' },
-      { icon: '🤝', title: 'Þjónusta', text: 'Öflug þjónusta við alla íbúa Kópavogs.' },
+      { icon: '🎒', title: 'Leikskólapláss 12 mánaða', text: 'Tryggja öllum börnum leikskólapláss frá 12 mánaða aldri — brenna inn biðlistamálið sem plagað hefur fjölskyldur.' },
+      { icon: '📚', title: 'Sterkari stuðningur í grunnskólum', text: 'Fjölga sálfræðingum, námsráðgjöfum og stuðningsfulltrúum í skólum — þjónusta við börn sem þurfa þarf að vera til staðar.' },
+      { icon: '👴', title: 'Félagsleg heilsa eldri íbúa', text: 'Efla líkamlega og félagslega heilsu aldraðra í Kópavogi — fleiri tómstundaúrræði, heimaþjónusta og samfélagsleg tengsl.' },
+      { icon: '💰', title: 'Ábyrg fjármálastjórnun', text: 'Gæta vel að fjármálum bæjarins og tryggja að uppbyggingaráform séu fjármögnuð á sjálfbæran hátt.' },
+      { icon: '🏠', title: 'Heimilin í forgang', text: 'Beita sér fyrir lægri gjöldum og betri þjónustu — bæta kjör fjölskyldna í Kópavogi á kjörtímabilinu.' },
     ],
     list: [
       [1, 'Orri Vignir Hlöðversson', 'Framkvæmdastjóri, bæjarfulltrúi', 'images/candidates/5df676d6cc30a5cc.jpg', {
@@ -2887,10 +2892,14 @@ const KOP = {
   },
   C: {
     tagline: 'María Ellen leiðir Viðreisn í Kópavogi',
+    platformUrl: 'https://vidreisn.is/kopavogur/',
     agenda: [
-      { icon: '💡', title: 'Nýsköpun', text: 'Nýsköpun og fagleg stjórnun Kópavogs.' },
-      { icon: '🤝', title: 'Gagnsæi', text: 'Gagnsæ og hlutlæg stjórnsýsla.' },
-      { icon: '🌿', title: 'Umhverfismál', text: 'Umhverfisvæn og sjálfbær þróun.' },
+      { icon: '🏫', title: 'Innviðir grunnskólanna', text: 'Fjárfesta í viðhaldi og uppfærslu grunnskólabygginga í Kópavogi — veita börnum gæðaumhverfi til náms.' },
+      { icon: '🤲', title: 'Stuðningur við fjölbreytta nemendahópa', text: 'Efla þjónustu við nemendur með sérþarfir, þar á meðal sálfræðiþjónustu og sérkennslufræðinga.' },
+      { icon: '📅', title: 'Fleiri skóladagar', text: 'Vinna að lengingu skólaárs og betri námsframboð — auka tækifæri barna í Kópavogi til lærðu og þroskast.' },
+      { icon: '👥', title: 'Samfélag og velferð', text: 'Styrkja þjónustu við fjölskyldur í jaðarstöðu og tryggja að enginn falli í milli kerfa í bæjarfélaginu.' },
+      { icon: '📊', title: 'Fagleg og gagnsæ stjórnun', text: 'Gagnastýrð og gagnsæ ákvarðanataka í bæjarstjórn — ráðstöfun fjármuna á grundvelli niðurstaðna, ekki pólitísks þrýstings.' },
+      { icon: '🌈', title: 'Menningarleg fjölbreytni', text: 'Hlúa að fjölbreyttum menningarlífi og skapa umhverfi þar sem allir íbúar Kópavogs finna sér stað og samfélag.' },
     ],
     list: [
       [1, 'María Ellen Steingrímsdóttir', 'Lögfræðingur', 'images/candidates/81d2da3f51d5fb96.jpg', {
@@ -3180,10 +3189,13 @@ const KOP = {
   },
   S: {
     tagline: 'Jónas Már leiðir Samfylkinguna í Kópavogi',
+    platformUrl: 'https://xs.is/kopavogur',
     agenda: [
-      { icon: '⚖️', title: 'Jafnrétti', text: 'Jöfn tækifæri og félagsleg réttlæti sem grundvöllur stefnu.' },
-      { icon: '🏫', title: 'Menntun', text: 'Gæðamenntun og sterk skólaþjónusta.' },
-      { icon: '🌍', title: 'Fjölbreytileiki', text: 'Opinn og fjölbreyttur bær þar sem allir eru velkomnir.' },
+      { icon: '🤝', title: 'Tökum ábyrgð', text: 'Taka ábyrgð á þeim málum sem sveitarfélagið hefur getað leyst en hefur ekki; leikskólapláss, húsnæði og velferð.' },
+      { icon: '🌳', title: 'Kópavogsdalur sem opið hreyfitorg', text: 'Þróa Kópavogsdalinn sem opið hreyfitorg og útivistarsvæði fyrir alla íbúa — ekki aðeins þá sem hafa bíl.' },
+      { icon: '🏊', title: 'Meira sund', text: 'Fjárfesta í sundlaugum og vatnsíþróttaaðstöðu — íþróttabær á að bjóða upp á gæðaaðstöðu þar sem allir eru velkomnir.' },
+      { icon: '💻', title: 'Stafrænt skólaumhverfi barna', text: 'Beita sér fyrir öruggum og skynsamlegum notkun tækni í skólum — menntun sem undirbýr börn fyrir framtíðina.' },
+      { icon: '🏙️', title: 'Bætt lífsgæði í efri Kópavogi', text: 'Efla þjónustu og þróa hverfi á efri hluta bæjarins — tryggja að allir hlutar Kópavogs njóti jafnar framkvæmda.' },
     ],
     list: [
       [1, 'Jónas Már Torfason', 'Lögfræðingur', 'images/candidates/5321170da4104c73.png', {
@@ -3489,11 +3501,14 @@ const HAF = {
   },
   C: {
     tagline: 'Karólína Helga leiðir Viðreisn í Hafnarfirði',
-    platformUrl: 'https://vidreisn.is/hafnarfjordur/stefnan',
+    platformUrl: 'https://vidreisn.is/hafnarfjordur/stefnan/',
     agenda: [
-      { icon: '💡', title: 'Nýsköpun', text: 'Nýsköpun og framsækin hugsunarhátt í þróun Hafnarfjarðar.' },
-      { icon: '🤝', title: 'Gagnsæi', text: 'Gagnsæ stjórnsýsla og samstarf við íbúa.' },
-      { icon: '🌿', title: 'Umhverfismál', text: 'Umhverfisvæn og sjálfbær þróun.' },
+      { icon: '👧', title: 'Velferð barna og ungmenna', text: 'Tryggja öflugar velferðarþjónustu fyrir börn og ungmenni — sálfræðiþjónusta, námsráðgjöf og stuðningur í skólum.' },
+      { icon: '🏫', title: 'Menntun og skólastarfsmál', text: 'Betri starfsaðstaða kennara og skólaliða, minni skrifræðibyrði og meiri einstaklingsmiðun í námi.' },
+      { icon: '🚌', title: 'Samgöngur og öryggi', text: 'Betri almenningssamgöngur og öryggi gangandi og hjólandi — hafna ofþéttni sem veldur umferðarhnöttum.' },
+      { icon: '🏘️', title: 'Skipulag og húsnæði', text: 'Fjölbreyttara húsnæðisframboð og skipulag sem hlúir að fjölskyldum — ekki aðeins háæðishverfi heldur heimilishverfi.' },
+      { icon: '💡', title: 'Nýsköpun og atvinnulíf', text: 'Skapa aðstæður fyrir nýsköpun og frumkvöðlastarf — efla Hafnarfjörð sem atvinnudrif á höfuðborgarsvæðinu.' },
+      { icon: '📊', title: 'Fjármál og stjórnun', text: 'Gagnsæ og ábyrg fjármálastjórnun með raunverulega þátttöku íbúa í forgangsröðun verkefna.' },
     ],
     list: [
       [1, 'Karólína Helga Símonardóttir', 'Framkvæmdastjóri, varabæjarfulltrúi og varaþingmaður', 'images/candidates/d9b878554dc1e56c.png', {
@@ -3570,9 +3585,12 @@ const HAF = {
     tagline: 'Orri Björnsson leiðir Sjálfstæðisflokkinn í Hafnarfirði',
     platformUrl: 'https://xdhafnarfjordur.is/aherslur/',
     agenda: [
-      { icon: '🏛️', title: 'Stjórnsýsla', text: 'Fagleg og skilvirk stjórnsýsla.' },
-      { icon: '💰', title: 'Fjármál', text: 'Ábyrg fjármálastjórnun og hagræðing.' },
-      { icon: '🏘️', title: 'Uppbygging', text: 'Skynsamleg uppbygging Hafnarfjarðar.' },
+      { icon: '🚗', title: 'Samgönguframkvæmdir', text: 'Leggja til aðrar lausnir en Borgarlínu — fjárfesta í vegum og bílastæðum frekar en að þvinga íbúa í takmarkaðar samgöngulausnir.' },
+      { icon: '👨‍👩‍👧', title: 'Fjölskylda og leikskólar', text: 'Bæta þjónustu við börn og fjölskyldur — fleiri leikskólapláss, sterkari grunnskólar og meira svigrúm foreldra.' },
+      { icon: '🎭', title: 'Tómstundir og menning', text: 'Styðja við íþrótta- og tómstundastarf og menningarlíf sem eflir samfélagsanda og lífsgæði í bænum.' },
+      { icon: '💼', title: 'Atvinna og þróun', text: 'Skapa hagrænt umhverfi fyrir fyrirtæki og fjárfestingar í Hafnarfirði — laða að störf og minnka útsvarsálag.' },
+      { icon: '🏥', title: 'Heilsugæsla og öldrunarþjónusta', text: 'Tryggja öfluga heilsugæslu og gæðaþjónustu við aldraða — þeir sem byggðu bæinn eiga skilið virðingu og stuðning.' },
+      { icon: '🌿', title: 'Umhverfi og loftslagsmál', text: 'Umhverfisvæn uppbygging bæjarins — mæta loftslagsmarkmiðum án þess að skerða lífsgæði íbúa.' },
     ],
     list: [
       [1, 'Orri Björnsson', 'Bæjarfulltrúi, formaður bæjarráðs', 'images/candidates/18c008c3460138ab.jpg', {
@@ -3728,10 +3746,12 @@ const HAF = {
   },
   S: {
     tagline: 'Guðmundur Árni leiðir Samfylkinguna í Hafnarfirði',
+    platformUrl: 'https://xs.is/hafnarfjordur',
     agenda: [
-      { icon: '⚖️', title: 'Jafnrétti', text: 'Jöfn tækifæri og félagsleg réttlæti.' },
-      { icon: '🏫', title: 'Menntun', text: 'Gæðamenntun og sterk skólaþjónusta.' },
-      { icon: '🌍', title: 'Velferð', text: 'Öflug velferðarþjónusta fyrir alla.' },
+      { icon: '🚌', title: 'Samgöngumál', text: 'Beita sér fyrir bættum almenningssamgöngum og Borgarlínu sem tengir Hafnarfjörð við höfuðborgarsvæðið.' },
+      { icon: '📚', title: 'Velferð barna og stuðningur í skólum', text: 'Tryggja öfluga velferðarþjónustu í skólum — námsráðgjafa, sálfræðinga og þroskastuðning fyrir þá sem þurfa.' },
+      { icon: '🏠', title: 'Lífsgæðaíbúðir fyrir aldraða', text: 'Byggja fleiri lífsgæðaíbúðir og styðja við heilbrigðar og virkar lífsleið aldraðra íbúa Hafnarfjarðar.' },
+      { icon: '🧩', title: 'Þjónusta við einstaklinga á einhverfurófi', text: 'Efla stuðning við einstaklinga á einhverfurófi og tryggja réttindi þeirra og fjölskyldna þeirra í bænum.' },
     ],
     list: [
       [1, 'Guðmundur Árni Stefánsson', 'Bæjarfulltrúi, varaformaður Samfylkingar', 'images/candidates/5cb0c88a6ff1a330.jpg', {
@@ -3906,11 +3926,13 @@ const SEL = {
 const RNB = {
   B: {
     tagline: 'Halldóra Fríða leiðir Framsókn í Reykjanesbæ',
+    platformUrl: 'https://www.framsokn.is/sveitarfelog/reykjanesbaer/',
     agenda: [
-      { icon: '🏘️', title: 'Uppbygging', text: 'Uppbygging og þróun Reykjanesbæjar.' },
-      { icon: '👶', title: 'Börn', text: 'Gæðamenntun og sterk þjónusta við börn.' },
-      { icon: '💼', title: 'Atvinnulíf', text: 'Öflugt atvinnulíf á Suðurnesjum.' },
-      { icon: '🤝', title: 'Samfélag', text: 'Lifandi og fjölbreytt samfélag.' },
+      { icon: '🎒', title: '200+ fleiri leikskólapláss', text: 'Fjölga leikskólaplásum um meira en 200 á kjörtímabilinu — leysa biðlistamálið sem steingengur fjölskyldur í Reykjanesbæ.' },
+      { icon: '👴', title: 'Frístundastyrkur eldri borgara', text: 'Kynna frístundastyrkjakerfi fyrir aldraðra — stuðla að virkri þátttöku og heilbrigðri lífsleið.' },
+      { icon: '💰', title: 'Ábyrg fjármálastjórnun', text: 'Tryggja stöðug fjármál bæjarins og skapa svigrúm til uppbyggingar án skuldasöfnunar.' },
+      { icon: '✈️', title: 'Við erum víst landsbyggðin', text: 'Beita sér gegn miðstýringu og tryggja að Suðurnes fái réttlátar hlutdeildir í þjóðfélagsuppbyggingunni.' },
+      { icon: '🤲', title: 'Samráð við íbúa', text: 'Opnari og gagnsæari samráðsferli þar sem íbúar fá raunverulegt áhrif á þróun og framtíðarsýn bæjarins.' },
     ],
     list: [
       [1, 'Halldóra Fríða Þorvaldsdóttir', 'Bæjarfulltrúi og verkefnastjóri', 'images/candidates/4d582fe052086495.jpg', {
@@ -4582,10 +4604,13 @@ const SNB = {
   },
   M: {
     tagline: 'Daði Bergþórsson leiðir Miðflokkinn í Suðurnesjabæ',
+    platformUrl: 'https://midflokkurinn.is/klarum-sameininguna-laekkum-alogur',
     agenda: [
-      { icon: '👶', title: 'Börn og fjölskyldur', text: 'Grunnþjónusta fyrir börn og fjölskyldur.' },
-      { icon: '💰', title: 'Fjármál', text: 'Ábyrg meðferð fjármuna.' },
-      { icon: '🤝', title: 'Samfélag', text: 'Samstaða og samvinna í sveitarfélaginu.' },
+      { icon: '🏠', title: 'Lækkunar fasteignagjalda', text: 'Lækka fasteignagjöld í Suðurnesjabæ — minni byrðar á heimilin og kynna skynsamlegar leiðir til að draga úr álögum.' },
+      { icon: '🤝', title: 'Klárum sameininguna', text: 'Ljúka við sameiningu sveitarfélaganna á Suðurnesjum með skilvirkum og hagkvæmum hætti til hagsbóta allra íbúa.' },
+      { icon: '🏫', title: 'Leik- og grunnskólar', text: 'Sterk skólaþjónusta og gæðamenntun frá leikskólaaldri — tryggja nægilegt sæti og fagfólk í skólum.' },
+      { icon: '👴', title: 'Stuðningur við aldraða', text: 'Bætt þjónusta og stuðningur við eldri borgara — þeir sem byggðu landið eiga að njóta reisnar og virðingar.' },
+      { icon: '📊', title: 'Hagræðing í rekstri', text: 'Skilvirkur rekstur sveitarfélagsins með minni umsýslukostnaði og betri nýtingu opinberra fjármuna.' },
     ],
     list: [
       [1, 'Daði Bergþórsson', 'Frambjóðandi', null, {
@@ -4655,10 +4680,13 @@ const SNB = {
 const ARB = {
   B: {
     tagline: 'Framsókn í Árborg — þjónusta og sjálfbær þróun í Suðurlandi',
+    platformUrl: 'https://framsokn.is/blog/horfum-til-framtidar-i-arborg/',
     agenda: [
-      { icon: '🌾', title: 'Atvinnumál', text: 'Styðja við fjölbreytt atvinnulíf á Selfosssvæðinu og efla landbúnað og matvælaframleiðslu.' },
-      { icon: '👵', title: 'Velferð', text: 'Sterkari velferðarþjónusta og sérstök áhersla á þjónustu við aldraða og fatlað fólk.' },
-      { icon: '🌿', title: 'Umhverfismál', text: 'Sjálfbær þróun í Suðurlandi og verndun náttúrufars svæðisins.' },
+      { icon: '🏠', title: 'Fasteignagjöld', text: 'Lægri fasteignagjöld á heimilin og draga úr byrðum íbúa — beitt sér fyrir lækkun á kjörtímabilinu.' },
+      { icon: '📋', title: 'Langtímaáætlun', text: 'Setja fram heildstæða langtímaáætlun sem tryggir stöðuga þróun Árborgar í samráði við íbúa.' },
+      { icon: '🤲', title: 'Gæðaþjónusta', text: 'Halda uppi og bæta gæðaþjónustu í skólum, leikskólum og velferðarmálum — grunnstoðir öflugs bæjarfélags.' },
+      { icon: '💼', title: 'Atvinnuþróun', text: 'Styðja við fjölbreytt atvinnulíf á Selfosssvæðinu, efla landbúnað, ferðaþjónustu og nýsköpun.' },
+      { icon: '💰', title: 'Ábyrg fjármál', text: 'Ábyrg og fagleg fjármálastjórnun sem skapar svigrúm til uppbyggingar án þess að auka skuldir óhóflega.' },
     ],
     list: [
       [1, 'Matthías Bjarnason', 'Tæknimaður', null, {
@@ -4727,10 +4755,13 @@ const ARB = {
   },
   C: {
     tagline: 'Viðreisn í Árborg — nýsköpun og fagleg stjórnun',
+    platformUrl: 'https://vidreisn.is/sveitarstjorn/arborg/',
     agenda: [
-      { icon: '💡', title: 'Nýsköpun', text: 'Nýsköpun og framsækin stjórnun Árborgar til að efla atvinnulíf og þjónustu.' },
-      { icon: '🏗️', title: 'Húsnæðismál', text: 'Einfalda reglur og auka framboð á húsnæði á Selfosssvæðinu.' },
-      { icon: '📊', title: 'Gagnsæi', text: 'Gagnsæ og gagnastýrð stefnumörkun í þágu allra íbúa Árborgar.' },
+      { icon: '👨‍👩‍👧', title: 'Fjölskylduvænt samfélag', text: 'Fjölskylduvænt samfélag með öflugum skólakerfi, aðgengilegum leikskólum og stuðningi við börn og foreldra.' },
+      { icon: '🛡️', title: 'Örugg hverfi', text: 'Bæta umferðaröryggi, lýsingu og gangstéttakerfi þannig að hverfi séu örugg og þægileg.' },
+      { icon: '🤲', title: 'Þjónusta við fjölskyldur', text: 'Efla þjónustu við fjölskyldur í erfiðleikum og tryggja að enginn falli í milli kerfa.' },
+      { icon: '📊', title: 'Gagnsæi í ákvarðanatöku', text: 'Gagnsæ og fagleg stjórnsýsla þar sem íbúar fá raunverulega þátttöku í þeim ákvörðunum sem varða daglegt líf þeirra.' },
+      { icon: '⚽', title: 'Jöfn tækifæri í tómstundum', text: 'Tómstundastyrkir og jöfn tækifæri fyrir börn og ungmenni til þátttöku í íþróttum og listum án tillits til efnahags.' },
     ],
     list: [
       [1, 'Heiðrún Kristmundsdóttir', 'Verkefnastjóri', 'images/candidates/1ebb44a27011c79e.jpg', {
@@ -4802,10 +4833,14 @@ const ARB = {
   },
   D: {
     tagline: 'Bragi Bjarnason leiðir Sjálfstæðisflokkinn í Árborg',
+    platformUrl: 'https://www.bragibjarna.is/',
     agenda: [
-      { icon: '💼', title: 'Hagvöxtur', text: 'Frjálst atvinnulíf og skynsamleg fjármálastjórnun sem eflir velmegun í Árborg.' },
-      { icon: '🏠', title: 'Húsnæðismál', text: 'Auka framboð á íbúðum og einfalda skipulagsferli í Selfoss og nágrenni.' },
-      { icon: '🏥', title: 'Þjónusta', text: 'Sterk og aðgengileg þjónusta við alla íbúa sveitarfélagsins.' },
+      { icon: '👨‍👩‍👧', title: 'Fjölskylduvænt samfélag', text: 'Árborg sem fjölskylduvænt samfélag þar sem börn, foreldrar og eldri íbúar njóta öflugrar þjónustu og tækifæra.' },
+      { icon: '🏗️', title: 'Skipulagsmál', text: 'Skynsamleg uppbygging og skipulagsmál sem taka tillit til íbúa og framtíðarþróunar sveitarfélagsins.' },
+      { icon: '💡', title: 'Nýsköpun', text: 'Nýsköpun og frumkvöðlastarfsemi sem eflir fjölbreytt atvinnulíf á Selfosssvæðinu.' },
+      { icon: '💰', title: 'Ábyrg fjármál', text: 'Ábyrg fjármálastjórnun — skuldalækkun og betri fjárhagsstaða gerir meira svigrúm til þjónustu.' },
+      { icon: '🏃', title: 'Lýðheilsa', text: 'Sterk lýðheilsustefna með áherslu á íþrótta- og tómstundamál, heilsurækt og forvarnir.' },
+      { icon: '🌟', title: 'Gott að eldast', text: 'Tryggja eldri borgurum gæðaþjónustu, virðingu og gott líf — Árborg skal vera gott samfélag á öllum aldursstigum.' },
     ],
     list: [
       [1, 'Bragi Bjarnason', 'Bæjarstjóri', 'images/candidates/a7e07119a591912a.png', {
@@ -6628,10 +6663,14 @@ const HNT = {
 const SFJ = {
   B: {
     tagline: 'Framsóknarflokkurinn í Skagafirði — landbúnaður og velferð',
+    platformUrl: 'https://www.feykir.is/is/frettir/oflugur-rekstur-skagafjardar-einar-e-einarsson-hrund-petursdottir-og-hrefna-johannesdottir-skrifa',
     agenda: [
-      { icon: '🌾', title: 'Landbúnaður', text: 'Styðja við bændur og sjávarútveg í Skagafirði.' },
-      { icon: '🏥', title: 'Heilbrigðisþjónusta', text: 'Öflug heilbrigðisþjónusta á landsbyggðinni.' },
-      { icon: '🌿', title: 'Umhverfismál', text: 'Sjálfbær þróun og umhverfisvernd.' },
+      { icon: '💪', title: 'Sterk fjármál', text: 'Halda uppi öflugum rekstri sveitarfélagsins á grundvelli ábyrgar fjármálastjórnunar og þrautseigjrar hagstjórnar.' },
+      { icon: '💰', title: 'Lægri skattar og gjöld', text: 'Vinna að lækkun fasteignagjalda og annarra gjalda á heimilin — gefa fjölskyldum meira svigrúm.' },
+      { icon: '👨‍👩‍👧', title: 'Fjölskyldustuðningur', text: 'Efla þjónustu við börn og fjölskyldur í Skagafirði — leikskólar, skólar og frístundaþjónusta.' },
+      { icon: '🏗️', title: 'Innviðafjárfesting', text: 'Fjárfesta í innviðum sem þjóna íbúum til lengri tíma — vegir, vatn, fráveita og mannvirki.' },
+      { icon: '🚗', title: 'Samgöngur og fjarkvinna', text: 'Styðja samgönguuppbyggingu og fjarvinnutækifæri sem gera Skagafjörð enn eftirsóttar til búsetu.' },
+      { icon: '📚', title: 'Forgangsröðun í menntun', text: 'Menntun og æskulýðsþjónusta sem skapar tækifæri og heldur íbúum í sveitarfélaginu.' },
     ],
     list: [
       [1, 'Einar Eðvald Einarsson', 'Framkvæmdarstjóri og forseti sveitarstjórnar', null, {
@@ -6695,11 +6734,15 @@ const SFJ = {
     ],
   },
   SFL: {
-    tagline: 'Landnámslistinn — ný öfl í Skagafirði',
+    tagline: 'Byggðalistinn — ný öfl í Skagafirði',
+    platformUrl: 'https://www.feykir.is/is/adsendar-greinar/horfumst-i-augu-vid-stadreyndir-eythor-fannar-sveinsson-skrifar',
     agenda: [
-      { icon: '🌟', title: 'Nýjar hugmyndir', text: 'Nýtt framboð með áherslu á landnám og þróun.' },
-      { icon: '🤝', title: 'Samvinna', text: 'Samvinna íbúa um uppbyggingu.' },
-      { icon: '🌾', title: 'Landbúnaður', text: 'Sterk tenging við bændur og landsbyggðina.' },
+      { icon: '💰', title: 'Minni lántaka', text: 'Draga úr lántöku sveitarfélagsins og setja skýr mörk á skuldsetningu — hagkvæmni þarf að fara á undan stórum framkvæmdum.' },
+      { icon: '📋', title: 'Skynsamleg framkvæmdaforgangslisti', text: 'Setja fram skynsamlega og raunhæfa forgangsröðun framkvæmda sem byggist á þörfum íbúa, ekki pólitísku hagræði.' },
+      { icon: '🏡', title: 'Lóðarþróun án bíðtíma', text: 'Einfalda og flýta lóðaúthlutun — fjölskyldur eiga ekki að bíða í ár eftir að geta sett upp heimili.' },
+      { icon: '💼', title: 'Betri rekstrarskilyrði', text: 'Skapar betri rekstrarumhverfi fyrir fyrirtæki og sjálfstætt starfandi — efla fjölbreytt atvinnulíf í Skagafirði.' },
+      { icon: '🏫', title: 'Skóla- og tómstundamál', text: 'Tryggja gæðamenntun og öflugar tómstundaþjónustu sem heldur börnum og ungmennum í sveitarfélaginu.' },
+      { icon: '🚇', title: 'Öxnadalsheiðargöng', text: 'Beita sér fyrir framkvæmdum á Öxnadalsheiðargöng til að bæta samgöngur milli Skagafjarðar og höfuðborgarsvæðisins.' },
     ],
     list: [
       [1, 'Eyþór Fannar Sveinsson', 'Byggingaverkfræðingur', null, {
@@ -7227,10 +7270,14 @@ const HFJ = {
   },
   D: {
     tagline: 'Sjálfstæðisflokkurinn á Hornafirði',
+    platformUrl: 'https://xdhornafjordur.is/sterkur-hopur-og-skyr-framtidarsyn/',
     agenda: [
-      { icon: '💼', title: 'Hagvöxtur', text: 'Efla atvinnulíf og skapa tækifæri á Hornafirði.' },
-      { icon: '🏠', title: 'Uppbygging', text: 'Markvisst þróa innviði og húsnæðismál.' },
-      { icon: '🏥', title: 'Þjónusta', text: 'Tryggja gæðaþjónustu við alla íbúa.' },
+      { icon: '💼', title: 'Öflugt atvinnulíf', text: 'Efla fjölbreytt atvinnulíf á Hornafirði — styðja við sjávarútveg, ferðaþjónustu og nýsköpun.' },
+      { icon: '🤝', title: 'Samráð við íbúa', text: 'Hlusta á íbúa og tryggja að þeir séu raunverulega hluti af ákvarðanatöku sveitarfélagsins.' },
+      { icon: '⚓', title: 'Þróun hafnar', text: 'Þróa höfn Hornafjörðar sem atvinnudrif og efla útflutning og sjávarútvegstengda starfsemi.' },
+      { icon: '🏗️', title: 'Innviðir og þjónusta', text: 'Fjárfesta í innviðum — vegir, vatn, fráveita og þjónustuhús sem þjóna öllum íbúum.' },
+      { icon: '👵', title: 'Öll kynslóðir', text: 'Tryggja gæðaþjónustu við börn, fjölskyldur og aldraða — sveitarfélag þar sem gott er að vera á öllum aldursstigum.' },
+      { icon: '🏠', title: 'Húsnæði og atvinna', text: 'Auka framboð á húsnæði og skapa kjör sem laða fjölskyldur til búsetu á Hornafirði.' },
     ],
     list: [
       [1, 'Gauti Árnason', 'Verkstjóri og forseti bæjarstjórnar', 'images/candidates/a25cd8cbf37d3782.png', {
@@ -7536,10 +7583,14 @@ const AKR = {
   },
   S: {
     tagline: 'Samfylkingin á Akranesi',
+    platformUrl: 'https://xs.is/fjolskyldan-numer-eitt',
     agenda: [
-      { icon: '❤️', title: 'Velferð', text: 'Öflug velferðarþjónusta og heilbrigðisþjónusta fyrir alla íbúa Akraness.' },
-      { icon: '⚖️', title: 'Jafnrétti', text: 'Jöfn tækifæri og félagsleg réttlæti sem grundvöllur stefnu.' },
-      { icon: '🏫', title: 'Menntun', text: 'Gæðamenntun og sterk skólaþjónusta.' },
+      { icon: '👨‍👩‍👧', title: 'Fjölskyldan númer eitt', text: 'Fjölskyldan er í fyrirrúmi — bæta leikskólaþjónustu, efla grunnskólana og tryggja stuðning við foreldra.' },
+      { icon: '⚽', title: 'Íþróttabærinn Akranes', text: 'Hlúa að íþróttamenningu Akraness og tryggja börnum og ungmennum aðgengi að öflugu íþrótta- og tómstundastarfi.' },
+      { icon: '📚', title: 'Skólasamfélag í fremstu röð', text: 'Fjárfesta í skólum og skapa umhverfi þar sem kennarar, nemendur og foreldrar dafna saman.' },
+      { icon: '🏙️', title: 'Lifandi bær', text: 'Þróa Akranes sem lifandi og eftirsóknarvert bæjarfélagi með góðri þjónustu, menningarlífi og samfélagi.' },
+      { icon: '👴', title: 'Fólkið sem byggði landið', text: 'Tryggja öfluga velferðarþjónustu og gæðaþjónustu við aldraða — þeir eiga rétt á virðingu og stuðningi.' },
+      { icon: '🌱', title: 'Framtíð fyrir fólk og fyrirtæki', text: 'Skapar skilyrði þar sem bæði heimili og fyrirtæki á Akranesi geta dafnað á komandi árum.' },
     ],
     list: [
       [1, 'Sigurður Vopni Vatnsdal', 'Ráðgjafi hjá Sjóvá á Akranesi', 'images/candidates/8d95b085b0304ef5.png', {
@@ -8347,10 +8398,13 @@ const RKH = {
 const MUT = {
   B: {
     tagline: 'Jónína leiðir Framsókn í Múlaþingi',
+    platformUrl: 'https://austurfrett.is/umraedan/vidh-stoendum-voerdh-um-mulathing',
     agenda: [
-      { icon: '🌊', title: 'Sjávarútvegur', text: 'Sjávarútvegur og fiskvinnsla eru hornsteinar atvinnulífs á Austurlandi.' },
-      { icon: '🏘️', title: 'Svæðisþróun', text: 'Þróun Austurlands og styrking þjónustu í dreifðum byggðum.' },
-      { icon: '🌿', title: 'Landbúnaður', text: 'Stuðningur við bændur og sjálfbæran landbúnað á svæðinu.' },
+      { icon: '🚗', title: 'Vegaframkvæmdir', text: 'Beita sér fyrir framkvæmdum á Fjarðarheiðargöng og Axarvegi — verkefni sem bíða á samgönguáætlun.' },
+      { icon: '🏥', title: 'Heilbrigðiseftirlit', text: 'Mótmæla miðstýringu heilbrigðiseftirlits yfir til Reykjavíkur; halda úti vel starfandi héraðskerfi.' },
+      { icon: '🐟', title: 'Sjávarútvegur', text: 'Styðja nýjar úthlutanir í strandveiðar en mótmæla skerðingu á línutengdum heimildum og byggðakvóta.' },
+      { icon: '🌊', title: 'Ferðamennska og skattlagning', text: 'Mótmæla hækkun virðisaukaskatts á gufulaug og heitar lindir sem veikir vetrarferðamennsku á landsbyggðinni.' },
+      { icon: '⚖️', title: 'Jafnræði á landsbyggðinni', text: 'Tryggja jafna meðferð, búsetuþróun og langtímaþróunartækifæri fyrir dreifbýlið gagnvart miðstýringarþrýstingi.' },
     ],
     list: [
       [1, 'Jónína Brynjólfsdóttir', 'Safnstjóri og forseti sveitarstjórnar', 'images/candidates/6b3051254ef47536.jpg', {
@@ -8510,10 +8564,13 @@ const MUT = {
   },
   V: {
     tagline: 'VG og óháðir í Múlaþingi — grænt framboð',
+    platformUrl: 'https://austurfrett.is/umraedan/natturan-manngildidh-og-fjoelbreytt-atvinnutaekifaeri',
     agenda: [
-      { icon: '🌱', title: 'Umhverfismál', text: 'Sjálfbær þróun og umhverfisvernd sem hornsteinn stefnu Múlaþings.' },
-      { icon: '❤️', title: 'Velferð', text: 'Öflug velferðarþjónusta og jöfn tækifæri fyrir alla íbúa.' },
-      { icon: '🏫', title: 'Menntun', text: 'Gæðamenntun og öflug skólaþjónusta á Austurlandi.' },
+      { icon: '🌿', title: 'Náttúruvernd', text: 'Vernda náttúru Austurlands og setja skýrar reglur um umhverfislega sjálfbæra þróun.' },
+      { icon: '💼', title: 'Fjölbreytni í atvinnulífi', text: 'Styðja við fjölbreytt atvinnulíf — ekki aðeins stóriðju heldur einnig þekkingariðnað, ferðaþjónustu og skapandi greinar.' },
+      { icon: '🤲', title: 'Störf í þjóðfélagsgreinum', text: 'Efla störf í heilbrigðis-, mennta- og félagsmálum sem grundvöll öflugs samfélags á Austurlandi.' },
+      { icon: '♻️', title: 'Sjálfbær þróun', text: 'Stefna að kolefnishlutleysi í rekstri sveitarfélagsins og stuðla að lífgæðum komandi kynslóða.' },
+      { icon: '❤️', title: 'Heilbrigði og lífsgæði', text: 'Öflug heilbrigðis- og velferðarþjónusta með áherslu á jöfn tækifæri fyrir alla íbúa, óháð búsetu.' },
     ],
     list: [
       [1, 'Ásrún Mjöll Stefánsdóttir', 'Sveitarstjórnarfulltrúi og húsasmiður', null, {
@@ -8563,10 +8620,14 @@ const MUT = {
   },
   L: {
     tagline: 'Austurlistinn og Viðreisn — framtíðarsýn fyrir Austurland',
+    platformUrl: 'https://austurfrett.is/umraedan/erum-vidh-adh-missa-sjonar-a-thvi-sem-stendur-okkur-naest',
     agenda: [
-      { icon: '💡', title: 'Nýsköpun', text: 'Efla nýsköpun og tækniþróun á Austurlandi til hagsbóta fyrir alla.' },
-      { icon: '🔗', title: 'Tengsl', text: 'Styrkja tengsl við höfuðborgarsvæðið og efla atvinnulíf á svæðinu.' },
-      { icon: '📊', title: 'Gagnsæi', text: 'Gagnsæ og gagnastýrð stjórnun í þágu allra íbúa Múlaþings.' },
+      { icon: '👶', title: 'Þjónusta við börn og ungmenni', text: 'Gefa börnum og ungmennum forgang — bæta geðheilbrigðisþjónustu og tryggja jafnt aðgengi óháð búsetu.' },
+      { icon: '🏫', title: 'Menntun og skólasamstarf', text: 'Efla skólasamstarf þvert á sveitarfélög á Austurlandi og tryggja jafna gæðamenntun í öllum hverfum.' },
+      { icon: '🚗', title: 'Samgöngur', text: 'Flýta samgönguuppbyggingu á Austurlandi — Fjarðarheiðargöng, Axarvegur og betri tengingar dreifbýlisins.' },
+      { icon: '🤝', title: 'Þverstofnanaleg samvinna', text: 'Þverstofnanaleg nálgun þar sem heilbrigðis-, menntamálar og félagsþjónusta vinna saman að heildstæðum lausnum.' },
+      { icon: '💰', title: 'Ábyrg fjármálastjórnun', text: 'Gagnsæ og ábyrg fjármálastjórnun sem tryggir svigrúm til uppbyggingar án þess að skerða grunnþjónustu.' },
+      { icon: '⚖️', title: 'Landshlutaréttlæti', text: 'Beita sér gegn miðstýringu og þjónustuskerðingum sem ganga í berhögg við réttlæti gagnvart Austurlandi.' },
     ],
     list: [
       [1, 'Hólmfríður Rut Einarsdóttir', 'Samskiptasérfræðingur', null, {
