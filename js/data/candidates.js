@@ -5670,10 +5670,13 @@ const RTY = {
 const OLF = {
   D: {
     tagline: 'Sjálfstæðisflokkurinn í Ölfusi — þróun og gæði þjónustu',
+    platformUrl: 'https://xd.is/2026/03/04/d-listi-sjalfstaedisfelagsins-i-olfusi-samthykktur-einroma/',
     agenda: [
-      { icon: '🏗️', title: 'Þróun', text: 'Sterk uppbygging innviða og þjónustu.' },
-      { icon: '💼', title: 'Atvinnulíf', text: 'Stuðningur við atvinnulíf.' },
-      { icon: '🏛️', title: 'Stjórnun', text: 'Ábyrg og skilvirkni stjórnun.' },
+      { icon: '🏛️', title: 'Ábyrg fjármálastjórnun', text: 'Ábyrgur fjármálastjórnun sveitarfélagsins í takt við hraðvaxandi þróun Ölfuss.' },
+      { icon: '🏗️', title: 'Innviðauppbygging', text: 'Markvissar framkvæmdir til að fylgja eftir þörfum vaxandi íbúafjölda og þjónustukrafna.' },
+      { icon: '📋', title: 'Skýr forgangsröðun', text: 'Skýr forgangsröðun ákvarðana til hagsbóta íbúa, með gagnsæri stjórnun.' },
+      { icon: '🌱', title: 'Næsta vaxtarskeið', text: 'Leiða Ölfus inn í næsta vaxtarskeið með ábyrgð, festu og framsýni.' },
+      { icon: '🏡', title: 'Eftirsóknarvert sveitarfélag', text: 'Viðhalda Ölfusi sem góðum stað til að búa, vinna og ala upp fjölskyldu.' },
     ],
     list: [
       [1, 'Grétar Ingi Erlendsson', 'Verkefnastjóri', null, {
@@ -5700,10 +5703,14 @@ const OLF = {
   },
   S: {
     tagline: 'Samfylkingin í Ölfusi — jafnrétti og velferð',
+    platformUrl: 'https://xs.is/olfus',
     agenda: [
-      { icon: '❤️', title: 'Velferð', text: 'Öflug velferðarþjónusta og jafnrétti.' },
-      { icon: '🏘️', title: 'Húsnæðismál', text: 'Aukið framboð á hagkvæmu húsnæði.' },
-      { icon: '🌍', title: 'Loftslagsmál', text: 'Grænari sveitarfélag.' },
+      { icon: '🗳️', title: 'Fulltrúar allra íbúa', text: 'Tryggja að allir íbúar — bæði í þéttbýli og dreifbýli — fái raunverulegt fulltrúalæti í bæjarstjórn.' },
+      { icon: '🏊', title: 'Fjölþætt íþróttamannvirki', text: 'Reisa fjölþætt íþróttamannvirki sem hefur lengi verið rætt til gagns fyrir íbúa.' },
+      { icon: '⚓', title: 'Verndun hafnarsvæðisins', text: 'Vernda hafnarsvæðið í Þorlákshöfn gegn íbúðarbyggð — tryggja rekstur hafnarinnar og aðgengi að henni.' },
+      { icon: '📐', title: 'Skipulag með lífsgæðum', text: 'Skipulagslegar ákvarðanir taka mið af lífsgæðum íbúa, ekki aðeins vexti.' },
+      { icon: '💼', title: 'Fjölbreytt atvinnulíf', text: 'Byggja upp fjölbreytt og öflugt atvinnulíf sem þjónar öllum íbúum sveitarfélagsins.' },
+      { icon: '🤝', title: 'Samstarf við íbúa', text: 'Styrkja samráð við íbúa um málefni sveitarfélagsins og efla samvinnu við nágrannafélög.' },
     ],
     list: [
       [1, 'Gunnsteinn R. Ómarsson', 'Framkvæmdastjóri', 'images/candidates/6eb8373ee797d8c9.png', {
