@@ -2442,9 +2442,9 @@ const GAR = {
         news: [
           { title: 'Þorbjörg leiðir Garðabæjarlistann aftur', url: 'https://www.ruv.is/frettir/innlent/2026-01-23-thorbjorg-leidir-gardabaejarlistann-aftur-464839', source: 'ruv.is' },
           { title: 'Þorbjörg leiðir Garðabæjarlistann áfram í kosningunum 2026', url: 'https://postar.is/gardabaer/thorbjorg-leidir-gardabaejarlistann-afram-i-kosningunum-2026/', source: 'postar.is' },
-          { title: 'Þorbjörg nýr formaður Samtakanna '78', url: 'https://www.mbl.is/frettir/innlent/2019/03/03/thorbjorg_nyr_formadur_samtakanna_78/', source: 'mbl.is' },
-          { title: 'Þorbjörg er nýr formaður Samtakanna '78', url: 'https://www.ruv.is/frett/thorbjorg-er-nyr-formadur-samtakanna-78', source: 'ruv.is' },
-          { title: 'Þorbjörg hættir aftur hjá Samtökunum '78', url: 'https://www.visir.is/g/20252814991d/thor-bjorg-haettir-aftur-hja-sam-tokunum-78', source: 'visir.is' },
+          { title: 'Þorbjörg nýr formaður Samtakanna \'78', url: 'https://www.mbl.is/frettir/innlent/2019/03/03/thorbjorg_nyr_formadur_samtakanna_78/', source: 'mbl.is' },
+          { title: 'Þorbjörg er nýr formaður Samtakanna \'78', url: 'https://www.ruv.is/frett/thorbjorg-er-nyr-formadur-samtakanna-78', source: 'ruv.is' },
+          { title: 'Þorbjörg hættir aftur hjá Samtökunum \'78', url: 'https://www.visir.is/g/20252814991d/thor-bjorg-haettir-aftur-hja-sam-tokunum-78', source: 'visir.is' },
           { title: 'Oddvitinn heldur áfram og knattspyrnuhetja í öðru sæti', url: 'https://www.mbl.is/frettir/innlent/2026/01/23/oddvitinn_heldur_afram_og_knattspyrnuhetja_i_odru/', source: 'mbl.is' },
           { title: 'Kosningapallborð: Baráttan um Garðabæ', url: 'https://www.visir.is/k/f2d643a8-3763-49d6-9f4b-715d0f0a5e6d-1776786445778/kosningapallbord-barattan-um-gardabae', source: 'visir.is' },
         ],
