@@ -1,0 +1,27 @@
+{
+  "_instructions": "Add one entry per candidate with new articles found. Only include NEW articles (not already in news_urls from the manifest). Remove this _instructions key. Apply with: python scripts/apply_scan_results.py news scan_results/YOUR_FILE.json",
+  "scan_type": "news",
+  "scan_date": "YYYY-MM-DD",
+  "agent_note": "Describe search strategy used",
+  "results": [
+    {
+      "id": "RVK.D.1",
+      "muni_slug": "reykjavik",
+      "party_code": "D",
+      "ballot": 1,
+      "name": "Example Name",
+      "new_articles": [
+        {
+          "title": "Article headline",
+          "url": "https://...",
+          "source": "mbl.is"
+        },
+        {
+          "title": "Article headline",
+          "url": "https://...",
+          "source": "ruv.is"
+        }
+      ]
+    }
+  ]
+}

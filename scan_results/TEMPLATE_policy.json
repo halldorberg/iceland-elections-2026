@@ -1,0 +1,32 @@
+{
+  "_instructions": "Add one entry per party whose policy was found. Remove this _instructions key when done. Apply with: python scripts/apply_scan_results.py policy scan_results/YOUR_FILE.json",
+  "scan_type": "policy",
+  "scan_date": "YYYY-MM-DD",
+  "agent_note": "Describe search strategy used",
+  "results": [
+    {
+      "id": "SNB.M",
+      "muni_slug": "sudurnesjabaer",
+      "party_code": "M",
+      "platform_url": "https://example.com/stefna/",
+      "tagline": "Updated tagline for the party",
+      "agenda": [
+        {
+          "icon": "🏗️",
+          "title": "Topic",
+          "text": "Description of policy point."
+        },
+        {
+          "icon": "🏠",
+          "title": "Topic",
+          "text": "Description of policy point."
+        },
+        {
+          "icon": "📚",
+          "title": "Topic",
+          "text": "Description of policy point."
+        }
+      ]
+    }
+  ]
+}

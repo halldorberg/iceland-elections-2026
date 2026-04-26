@@ -1,0 +1,18 @@
+{
+  "_instructions": "Add one entry per found photo. Remove this _instructions key when done. The 'id' must match scan_manifest.json. Apply with: python scripts/apply_scan_results.py photos scan_results/YOUR_FILE.json",
+  "scan_type": "photos",
+  "scan_date": "YYYY-MM-DD",
+  "agent_note": "Describe search strategy used",
+  "results": [
+    {
+      "id": "RVK.D.3",
+      "muni_slug": "reykjavik",
+      "party_code": "D",
+      "ballot": 3,
+      "name": "Example Name",
+      "photo_url": "https://example.com/photo.jpg",
+      "photo_local": "images/candidates/HASH.png",
+      "source": "URL where photo was found"
+    }
+  ]
+}

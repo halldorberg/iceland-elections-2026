@@ -1,2 +1,8 @@
 download-images.ps1
 image-mapping.tsv
+
+# Scan system — generated files, not source
+scan_manifest.json
+scan_results/*.json
+!scan_results/TEMPLATE_*.json
+js/data/candidates.js.bak_*
