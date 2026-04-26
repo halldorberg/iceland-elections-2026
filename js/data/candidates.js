@@ -3320,7 +3320,7 @@ const KOP = {
       { icon: '🏘️', title: 'Uppbygging', text: 'Skynsamleg uppbygging og þróun bæjarins.' },
     ],
     list: [
-      [1, 'Ásdís Kristjánsdóttir', 'Bæjarstjóri', 'images/candidates/47c1841162736e00.jpg', {
+      [1, 'Ásdís Kristjánsdóttir', 'Bæjarstjóri', 'images/candidates/a16ee6fad8f3c0e9.jpg', {
         age: 47,
         bio: 'Ásdís Kristjánsdóttir er fædd 28. september 1978 og uppalin í Seljahverfi í Breiðholti. Hún er hagfræðingur með BS-gráðu í iðnaðarverkfræði og MS-gráðu í hagfræði frá Háskóla Íslands. Hún starfaði sem hagfræðingur hjá Arion banka og formaður hagfræðideildar þar til 2013, og síðan sem yfirmaður efnahagsmáladeildar Samtaka atvinnulífsins til 2022. Hún var fyrst konan í sögu Sjálfstæðisflokksins til að gegna embætti bæjarstjóra Kópavogs.',
         interests: ['Fjármálalegt jafnvægi bæjarins', 'Atvinnumál og nýsköpun', 'Þjónusta við íbúa', 'Skólastefna og leikskólamál'],
@@ -3335,7 +3335,7 @@ const KOP = {
           { title: 'Ásdís segir formannsframboð ekki á dagskrá', url: 'https://www.mbl.is/frettir/innlent/2025/01/13/asdis_segir_formannsframbod_ekki_a_dagskra/', source: 'mbl.is' },
         ],
       }],
-      [2, 'Hjördís Ýr Johnson', 'Bæjarfulltrúi, framleiðslustjóri StudioM', 'images/candidates/818f29b1ca6f227e.jpg', {
+      [2, 'Hjördís Ýr Johnson', 'Bæjarfulltrúi, framleiðslustjóri StudioM', 'images/candidates/e5f4f99dbef66960.jpg', {
         age: null,
         bio: 'Hjördís Ýr Johnson er framleiðslustjóri StudioM, framleiðsludeildar Árvakurs. Hún hefur setið í bæjarstjórn Kópavogs frá 2014 og verið í bæjarráði í alla þá tíð.',
         interests: ['Menntamál og skólar', 'Þjónusta við íbúa', 'Fjármál bæjarins'],
@@ -3346,7 +3346,7 @@ const KOP = {
           { title: 'Fullskipaður framboðslisti í Kópavogi', url: 'https://xd.is/2026/03/17/fullskipadur-frambodslisti-i-kopavogi/', source: 'xd.is' },
         ],
       }],
-      [3, 'Andri Steinn Hilmarsson', 'Aðstoðarmaður ráðherra, fyrrverandi blaðamaður', 'images/candidates/2c0539d25a36d678.jpg', {
+      [3, 'Andri Steinn Hilmarsson', 'Aðstoðarmaður ráðherra, fyrrverandi blaðamaður', 'images/candidates/cbedd24e0a95fcb8.jpg', {
         age: null,
         bio: 'Andri Steinn Hilmarsson er aðstoðarmaður ráðherra háskóla-, iðnaðar- og nýsköpunarmála og fyrrverandi blaðamaður hjá Morgunblaðinu. Hann hefur gegnt trúnaðarstörfum í Sjálfstæðisflokknum, þar á meðal sem varaformaður SUS og formaður Ty, samtaka ungra sjálfstæðismanna í Kópavogi.',
         interests: ['Nýsköpun og þekkingargreinar', 'Skóla- og menntamál', 'Þjónusta borgar'],
@@ -3357,7 +3357,7 @@ const KOP = {
           { title: 'Fullskipaður framboðslisti í Kópavogi', url: 'https://xd.is/2026/03/17/fullskipadur-frambodslisti-i-kopavogi/', source: 'xd.is' },
         ],
       }],
-      [4, 'Elísabet Berglind Sveinsdóttir', 'Bæjarfulltrúi', 'images/candidates/6bfa87aac5285b7e.jpg', {
+      [4, 'Elísabet Berglind Sveinsdóttir', 'Bæjarfulltrúi', 'images/candidates/b2dc8ec214c3aecd.jpg', {
         age: null,
         bio: 'Elísabet Berglind Sveinsdóttir er bæjarfulltrúi og er í 4. sæti Sjálfstæðisflokksins í Kópavogi. Hún hefur setið í bæjarstjórn og leggur áherslu á faglega og skilvirkla stjórnun bæjarins.',
         interests: ['Þjónusta við íbúa', 'Fjármálalegt jafnvægi', 'Skóla- og menntamál', 'Uppbygging bæjarins'],
