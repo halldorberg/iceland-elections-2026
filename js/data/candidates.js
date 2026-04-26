@@ -1134,8 +1134,8 @@ const RVK = {
       }],
       [5, 'Jón L. Árnason', 'Framkvæmdastjóri', null, {
         age: null,
-        bio: 'Jón L. Árnason er framkvæmdastjóri og er í 5. sæti Góðan daginn í Reykjavík. Hann leggur áherslu á hagkvæmni í rekstri borgarinnar og faglegar lausnir í skipulagi og þjónustu.',
-        interests: ['Hagkvæmni í borgarrekstri', 'Skipulagsmál', 'Umhverfismál', 'Samgöngumál'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Nýtt framboð í Reykjavík á elleftu stundu', url: 'https://www.visir.is/g/20262867276d/nytt-fram-bod-i-reykja-vik-a-elleftu-stundu', source: 'visir.is' },
@@ -1200,8 +1200,8 @@ const RVK = {
       }],
       [3, 'Hannes Pétursson', 'Verslunarmaður', null, {
         age: 33,
-        bio: 'Hannes Pétursson er verslunarmaður og er í 3. sæti á lista Sósíalistaflokks Íslands í Reykjavík.',
-        interests: ['Réttindi launafólks', 'Verðlagsmál', 'Þjónusta borgarinnar við almenning'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Þau skipa lista Sósíalistaflokksins í Reykjavík', url: 'https://www.visir.is/g/20262865767d/thau-skipa-lista-sosialistaflokksins-i-reykjavik', source: 'visir.is' },
@@ -1320,8 +1320,8 @@ const RVK = {
       }],
       [4,  'Ágústa Árnadóttir',           'Jógaþjálfari',                     'images/candidates/bcf4b8d3ec878ad7.png', {
         age: null,
-        bio: 'Ágústa Árnadóttir er jógaþjálfari og er í 4. sæti Okkar borgar í Reykjavík. Hún leggur áherslu á líðan og heilbrigði íbúa og styður öfluga þjónustu fyrir fjölskyldur og börn í borginni.',
-        interests: ['Heilbrigði og líðan', 'Fjölskyldumál', 'Húsnæðismál', 'Andstaða við Borgarlínu'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Okkar borg birtir framboðslista', url: 'https://www.ruv.is/frettir/innlent/2026-03-23-okkar-borg-birtir-frambodslista-470631', source: 'ruv.is' },
@@ -1329,8 +1329,8 @@ const RVK = {
       }],
       [5,  'Thelma Guðrún Jónsdóttir',   'Flugfreyja',                        'images/candidates/34f6d634adb7fc00.png', {
         age: null,
-        bio: 'Thelma Guðrún Jónsdóttir er flugfreyja og er í 5. sæti Okkar borgar í Reykjavík. Hún leggur áherslu á góða þjónustu við íbúa borgarinnar og styður fjölskylduvænar lausnir og betri samgöngur.',
-        interests: ['Samgöngumál', 'Þjónusta við íbúa', 'Fjölskyldumál', 'Húsnæðismál'],
+        bio: null,
+        interests: null,
         social: [
           { type: 'facebook', url: 'https://www.facebook.com/thelma.jonsdottir.35/', label: 'Facebook' },
           { type: 'instagram', url: 'https://www.instagram.com/thelmagj/', label: 'Instagram' },
@@ -1552,8 +1552,8 @@ const AKU = {
       }],
       [2, 'Heimir Örn Árnason', 'Bæjarfulltrúi', 'images/candidates/e6bf6ef84eb21e01.png', {
         age: null,
-        bio: 'Heimir Örn Árnason er bæjarfulltrúi og er í 2. sæti Sjálfstæðisflokksins á Akureyri. Hann hefur reynslu sem kjörinn fulltrúi og leggur áherslu á þróun og uppbyggingu bæjarins og öflug rekstrarskilyrði.',
-        interests: ['Atvinnuþróun og nýsköpun', 'Uppbygging og innviðir', 'Ábyrg fjármálastjórnun', 'Góð þjónusta við íbúa'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Stofna til kosningabandalags á Akureyri', url: 'https://www.mbl.is/frettir/innlent/2026/01/25/stofna_til_kosningabandalags_a_akureyri/', source: 'mbl.is' },
@@ -1563,8 +1563,8 @@ const AKU = {
       }],
       [3, 'Arna Rut Gunnarsdóttir', 'Framkvæmdastjóri', 'images/candidates/4cdad139cabe1f4d.png', {
         age: null,
-        bio: 'Arna Rut Gunnarsdóttir er framkvæmdastjóri og er í 3. sæti Sjálfstæðisflokksins á Akureyri. Hún leggur starfsreynslu á framkvæmdastjórnun og rekstur í þágu öflugrar og faglegrar þjónustu við íbúa bæjarins.',
-        interests: ['Rekstrarþróun og skilvirkni', 'Atvinnulíf á Norðurlandi', 'Góð þjónusta', 'Fjármálastjórnun'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Fullskipaður framboðslisti Sjálfstæðisflokksins á Akureyri', url: 'https://xd.is/2026/02/26/fullskipadur-frambodislisti-sjalfstaedisflokksins-a-akureyri/', source: 'xd.is' },
@@ -1572,8 +1572,8 @@ const AKU = {
       }],
       [4, 'Þórhallur Harðarson', 'Fjármála- og rekstrarstjóri', 'images/candidates/3ca095eaf41cfa8c.png', {
         age: null,
-        bio: 'Þórhallur Harðarson er fjármála- og rekstrarstjóri og er í 4. sæti Sjálfstæðisflokksins á Akureyri. Hann leggur faglega þekkingu á fjármál og rekstur í þágu ábyrgrar og skynsamlegrar fjármálastjórnunar bæjarins.',
-        interests: ['Fjármálastjórnun og hagkvæmni', 'Rekstrarumbætur', 'Atvinnuþróun', 'Uppbygging innviða'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Fullskipaður framboðslisti Sjálfstæðisflokksins á Akureyri', url: 'https://xd.is/2026/02/26/fullskipadur-frambodislisti-sjalfstaedisflokksins-a-akureyri/', source: 'xd.is' },
@@ -1581,8 +1581,8 @@ const AKU = {
       }],
       [5, 'Þorsteinn Kristjánsson', 'Frumkvöðull', 'images/candidates/1da70905f65bf61d.png', {
         age: null,
-        bio: 'Þorsteinn Kristjánsson er frumkvöðull og er í 5. sæti Sjálfstæðisflokksins á Akureyri. Hann kemur með reynslu í nýsköpun og atvinnulífi og vill styrkja forsendur frumkvæðis og fjölbreytts atvinnulífs á Norðurlandi.',
-        interests: ['Nýsköpun og frumkvæði', 'Atvinnuþróun', 'Lágir skattar', 'Uppbygging Akureyrar'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Fullskipaður framboðslisti Sjálfstæðisflokksins á Akureyri', url: 'https://xd.is/2026/02/26/fullskipadur-frambodislisti-sjalfstaedisflokksins-a-akureyri/', source: 'xd.is' },
@@ -1637,8 +1637,8 @@ const AKU = {
       }],
       [2, 'Gunnar Már Gunnarsson', 'Bæjarfulltrúi', null, {
         age: null,
-        bio: 'Gunnar Már Gunnarsson er bæjarfulltrúi og er í 2. sæti Framsóknarflokksins á Akureyri. Hann hefur reynslu sem kjörinn fulltrúi og leggur áherslu á sjálfbæra uppbyggingu og öfluga heilbrigðis- og menntaþjónustu.',
-        interests: ['Heilbrigðisþjónusta', 'Sjálfbær þróun', 'Menntamál', 'Uppbygging á Norðurlandi'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Sunna Hlín leiðir lista Framsóknar á Akureyri', url: 'https://www.kaffid.is/sunna-hlin-leidir-lista-framsoknar-a-akureyri/', source: 'kaffid.is' },
@@ -1647,8 +1647,8 @@ const AKU = {
       }],
       [3, 'Sverre Andreas Jakobsson', 'Svæðisstjóri hjá Arion banka', null, {
         age: null,
-        bio: 'Sverre Andreas Jakobsson er svæðisstjóri hjá Arion banka og er í 3. sæti Framsóknarflokksins á Akureyri. Hann leggur þekkingu á fjármál og rekstur í þágu sjálfbærrar uppbyggingar og atvinnuþróunar á Norðurlandi.',
-        interests: ['Fjármál og atvinnuþróun', 'Uppbygging á Norðurlandi', 'Heilbrigðisþjónusta', 'Sjálfbær þróun'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Sunna Hlín leiðir lista Framsóknar á Akureyri', url: 'https://www.kaffid.is/sunna-hlin-leidir-lista-framsoknar-a-akureyri/', source: 'kaffid.is' },
@@ -1657,8 +1657,8 @@ const AKU = {
       }],
       [4, 'Guðbjörg Anna Björnsdóttir', 'Skrifstofustjóri', null, {
         age: null,
-        bio: 'Guðbjörg Anna Björnsdóttir er skrifstofustjóri og er í 4. sæti Framsóknarflokksins á Akureyri. Hún leggur þekkingu á skipulagningu og stjórnsýslu í þágu öflugrar og skilvirkrar þjónustu við íbúa bæjarins.',
-        interests: ['Stjórnsýsla og skipulag', 'Menntamál', 'Velferðarþjónusta', 'Sjálfbær þróun'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Sunna Hlín leiðir lista Framsóknar á Akureyri', url: 'https://www.kaffid.is/sunna-hlin-leidir-lista-framsoknar-a-akureyri/', source: 'kaffid.is' },
@@ -1666,8 +1666,8 @@ const AKU = {
       }],
       [5, 'Steinar Óli Sigfússon', 'Nemi í tæknifræði', null, {
         age: null,
-        bio: 'Steinar Óli Sigfússon er nemi í tæknifræði og er í 5. sæti Framsóknarflokksins á Akureyri. Hann kemur með ungt sjónarhorn og tæknilega þekkingu og leggur áherslu á framtíðarsýn og nýsköpun í þróun bæjarins.',
-        interests: ['Tækni og nýsköpun', 'Menntamál', 'Ungmennamál', 'Sjálfbær þróun'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Sunna Hlín leiðir lista Framsóknar á Akureyri', url: 'https://www.kaffid.is/sunna-hlin-leidir-lista-framsoknar-a-akureyri/', source: 'kaffid.is' },
@@ -1721,8 +1721,8 @@ const AKU = {
       }],
       [2, 'Elías Gunnar Þorbjörnsson', 'Skólastjóri', 'images/candidates/2c8e38b4a138c22e.jpg', {
         age: null,
-        bio: 'Elías Gunnar Þorbjörnsson er skólastjóri og er í 2. sæti Viðreisnar á Akureyri. Hann leggur menntunarlega þekkingu og stjórnunarlega reynslu í þágu gæðamenntunnar og öflugrar skólaþjónustu í bæjarfélaginu.',
-        interests: ['Menntamál og skólaþjónusta', 'Lýðheilsa og forvarnir', 'Nýsköpun og þróun', 'Gagnsæi í stjórnsýslu'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Lovísa leiðir lista Viðreisnar', url: 'https://www.mbl.is/frettir/innlent/2026/02/23/lovisa_leidir_lista_vidreisnar/', source: 'mbl.is' },
@@ -1731,8 +1731,8 @@ const AKU = {
       }],
       [3, 'Þóroddur Ingvarsson', 'Svæfinga- og gjörgæslulæknir', 'images/candidates/1a778837f3afea2f.jpg', {
         age: null,
-        bio: 'Þóroddur Ingvarsson er svæfinga- og gjörgæslulæknir og er í 3. sæti Viðreisnar á Akureyri. Hann leggur læknisfræðilega sérþekkingu í þágu styrkrar heilbrigðisþjónustu og lýðheilsu á Norðurlandi.',
-        interests: ['Heilbrigðisþjónusta og lýðheilsa', 'Snemmtæk íhlutun', 'Fagmennska í þjónustu', 'Nýsköpun í heilbrigðismálum'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Lovísa leiðir lista Viðreisnar', url: 'https://www.mbl.is/frettir/innlent/2026/02/23/lovisa_leidir_lista_vidreisnar/', source: 'mbl.is' },
@@ -1740,8 +1740,8 @@ const AKU = {
       }],
       [4, 'Elísabet Ögn Jóhannsdóttir', 'Verkefnastjóri menningarmála', 'images/candidates/e75e10b5e5842049.jpg', {
         age: null,
-        bio: 'Elísabet Ögn Jóhannsdóttir er verkefnastjóri menningarmála og er í 4. sæti Viðreisnar á Akureyri. Hún leggur þekkingu á menningarmál og verkefnastjórnun í þágu liflegra og fjölbreytts menningarlífs á Akureyri.',
-        interests: ['Menningarmál og listir', 'Verkefnastjórnun', 'Samfélagsleg þátttaka', 'Nýsköpun'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Lovísa leiðir lista Viðreisnar', url: 'https://www.mbl.is/frettir/innlent/2026/02/23/lovisa_leidir_lista_vidreisnar/', source: 'mbl.is' },
@@ -1749,8 +1749,8 @@ const AKU = {
       }],
       [5, 'Íunn Eir Gunnarsdóttir', 'Tómstunda- og félagsmálafræðingur', 'images/candidates/06942c88251ebfa3.jpg', {
         age: null,
-        bio: 'Íunn Eir Gunnarsdóttir er tómstunda- og félagsmálafræðingur og er í 5. sæti Viðreisnar á Akureyri. Hún leggur fagþekkingu á tómstundar- og félagsmál í þágu öflugrar þjónustu við börn, unglinga og fjölskyldur.',
-        interests: ['Tómstundamál og æskulýðsþjónusta', 'Félagsmál og inngildning', 'Menntamál', 'Lýðheilsa'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Lovísa leiðir lista Viðreisnar', url: 'https://www.mbl.is/frettir/innlent/2026/02/23/lovisa_leidir_lista_vidreisnar/', source: 'mbl.is' },
@@ -1803,8 +1803,8 @@ const AKU = {
       }],
       [2, 'Brynja Hlíf Þorsteinsdóttir', 'Bæjarfulltrúi og lífeindafræðingur', 'images/candidates/29c915b00a084139.jpg', {
         age: null,
-        bio: 'Brynja Hlíf Þorsteinsdóttir er bæjarfulltrúi og lífeindafræðingur og er í 2. sæti L-listans á Akureyri. Hún kemur með reynslu sem kjörinn fulltrúi og heilbrigðisfræðilega þekkingu og leggur áherslu á heilbrigðisþjónustu og velferð íbúa.',
-        interests: ['Heilbrigðisþjónusta', 'Velferðarmál og skólamál', 'Húsnæðismál', 'Umhverfismál'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Listi L-listans ákveðinn', url: 'https://www.ruv.is/frettir/innlent/2026-03-13-listi-l-listans-akvedinn-469773', source: 'ruv.is' },
@@ -1813,8 +1813,8 @@ const AKU = {
       }],
       [3, 'Preben Jón Pétursson', 'Mjólkurtæknifræðingur', 'images/candidates/f362d598505c9b68.jpg', {
         age: null,
-        bio: 'Preben Jón Pétursson er mjólkurtæknifræðingur og er í 3. sæti L-listans á Akureyri. Hann kemur með tæknifræðilega bakgrunn og leggur áherslu á nýsköpun og þróun í þágu bæjarfélagsins.',
-        interests: ['Tækni og nýsköpun', 'Atvinnuþróun', 'Umhverfismál', 'Sjálfbær þróun'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Listi L-listans ákveðinn', url: 'https://www.ruv.is/frettir/innlent/2026-03-13-listi-l-listans-akvedinn-469773', source: 'ruv.is' },
@@ -1822,8 +1822,8 @@ const AKU = {
       }],
       [4, 'María Pálsdóttir', 'Leikkona og frumkvöðull', null, {
         age: null,
-        bio: 'María Pálsdóttir er leikkona og frumkvöðull og er í 4. sæti L-listans á Akureyri. Hún kemur með skapandi bakgrunn og frumkvæðisreynslu og leggur áherslu á menningarmál og fjölbreytt samfélag.',
-        interests: ['Menningarmál og listir', 'Frumkvæði og nýsköpun', 'Húsnæðismál', 'Samfélagsleg þjónusta'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Listi L-listans ákveðinn', url: 'https://www.ruv.is/frettir/innlent/2026-03-13-listi-l-listans-akvedinn-469773', source: 'ruv.is' },
@@ -1831,8 +1831,8 @@ const AKU = {
       }],
       [5, 'Andri Teitsson', 'Bæjarfulltrúi og verkfræðingur', null, {
         age: null,
-        bio: 'Andri Teitsson er bæjarfulltrúi og verkfræðingur og er í 5. sæti L-listans á Akureyri. Hann kemur með tæknilega og stjórnunarlega þekkingu og reynslu sem kjörinn fulltrúi og leggur áherslu á uppbyggingu og skilvirkni.',
-        interests: ['Verkfræðileg lausnir í uppbyggingu', 'Húsnæðismál', 'Umhverfismál', 'Fjármálastjórnun'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Listi L-listans ákveðinn', url: 'https://www.ruv.is/frettir/innlent/2026-03-13-listi-l-listans-akvedinn-469773', source: 'ruv.is' },
@@ -1882,8 +1882,8 @@ const AKU = {
       }],
       [2, 'Inga Dís Sigurðardóttir', 'Kennari og náms- og starfsráðgjafi', 'images/candidates/0c5926d9875e3788.png', {
         age: null,
-        bio: 'Inga Dís Sigurðardóttir er kennari og náms- og starfsráðgjafi og er í 2. sæti Miðflokksins á Akureyri. Hún leggur kennslureynslu og ráðgjafaþekkingu í þágu gæðamenntunnar og velferðar barna og fjölskyldna.',
-        interests: ['Menntamál og skólaþjónusta', 'Náms- og starfsráðgjöf', 'Velferð barna', 'Aldraðamál'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Hlynur leiðir lista Miðflokksins á Akureyri áfram', url: 'https://kaffid.is/hlynur-leidir-midflokkinn-a-akureyri-afram/', source: 'kaffid.is' },
@@ -1891,8 +1891,8 @@ const AKU = {
       }],
       [3, 'Egill Einarsson', 'Verslunarmaður', 'images/candidates/5fceb333424409f5.png', {
         age: null,
-        bio: 'Egill Einarsson er verslunarmaður og er í 3. sæti Miðflokksins á Akureyri. Hann kemur með reynslu úr viðskiptum og leggur áherslu á öflugt atvinnulíf, lægri skatta og skynsamlega fjármálastjórnun.',
-        interests: ['Atvinnulíf og verslun', 'Lægri skattar', 'Ábyrg fjármálastjórnun', 'Grunnþjónusta'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Hlynur leiðir lista Miðflokksins á Akureyri áfram', url: 'https://kaffid.is/hlynur-leidir-midflokkinn-a-akureyri-afram/', source: 'kaffid.is' },
@@ -1900,8 +1900,8 @@ const AKU = {
       }],
       [4, 'Katrín Vilhjálmsdóttir', 'Snyrtifræðingur og sjúkraliði', 'images/candidates/88cabfc00904c8b1.png', {
         age: null,
-        bio: 'Katrín Vilhjálmsdóttir er snyrtifræðingur og sjúkraliði og er í 4. sæti Miðflokksins á Akureyri. Hún leggur heilbrigðis- og þjónustufræðilega þekkingu í þágu velferðar og heilbrigðismála í sveitarfélaginu.',
-        interests: ['Heilbrigðisþjónusta', 'Velferðarmál', 'Fjölskyldumál', 'Þjónusta við aldraða'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Hlynur leiðir lista Miðflokksins á Akureyri áfram', url: 'https://kaffid.is/hlynur-leidir-midflokkinn-a-akureyri-afram/', source: 'kaffid.is' },
@@ -1909,8 +1909,8 @@ const AKU = {
       }],
       [5, 'Hannes Karlsson', 'Framkvæmdastjóri', 'images/candidates/9fe3442026b49390.png', {
         age: null,
-        bio: 'Hannes Karlsson er framkvæmdastjóri og er í 5. sæti Miðflokksins á Akureyri. Hann leggur rekstrarlega þekkingu í þágu skynsamlegrar og ábyrgrar fjármálastjórnunar og öflugrar þjónustu við íbúa.',
-        interests: ['Framkvæmdastjórnun', 'Ábyrg fjármálastjórnun', 'Atvinnuþróun', 'Grunnþjónusta'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Hlynur leiðir lista Miðflokksins á Akureyri áfram', url: 'https://kaffid.is/hlynur-leidir-midflokkinn-a-akureyri-afram/', source: 'kaffid.is' },
@@ -1962,8 +1962,8 @@ const AKU = {
       }],
       [2, 'Hanna Dóra Markúsdóttir', 'Grunnskólakennari', 'images/candidates/ecf356f7b68a1e49.png', {
         age: null,
-        bio: 'Hanna Dóra Markúsdóttir er grunnskólakennari og er í 2. sæti Samfylkingarinnar á Akureyri. Hún leggur kennslureynslu í þágu gæðamenntunnar og jafnra tækifæra fyrir öll börn í bæjarfélaginu.',
-        interests: ['Menntamál og skólaþjónusta', 'Jöfn tækifæri', 'Velferðarþjónusta', 'Ungmennamál'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Sindri nýr oddviti Samfylkingingarinnar á Akureyri', url: 'https://www.mbl.is/frettir/innlent/2026/03/14/sindri_nyr_oddviti_samfylkingingarinnar_a_akureyri/', source: 'mbl.is' },
@@ -1971,8 +1971,8 @@ const AKU = {
       }],
       [3, 'Sigrún Steinarsdóttir', 'Stofnandi Matargjafar Akureyri', 'images/candidates/e7454d9d0ffe9faa.png', {
         age: null,
-        bio: 'Sigrún Steinarsdóttir er stofnandi Matargjafar Akureyri og er í 3. sæti Samfylkingarinnar á Akureyri. Hún hefur sýnt frumkvæði í félagslegum verkefnum og leggur áherslu á félagslegt réttlæti og velferð þeirra sem minnst mega sín.',
-        interests: ['Félagslegt réttlæti', 'Velferðarþjónusta', 'Mataröryggi og félagsstarf', 'Jöfn tækifæri'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Sindri nýr oddviti Samfylkingingarinnar á Akureyri', url: 'https://www.mbl.is/frettir/innlent/2026/03/14/sindri_nyr_oddviti_samfylkingingarinnar_a_akureyri/', source: 'mbl.is' },
@@ -1983,8 +1983,8 @@ const AKU = {
       }],
       [4, 'Jóhannes Már Pétursson', 'Háskólanemi', 'images/candidates/7d3cddff4ec98cfa.png', {
         age: null,
-        bio: 'Jóhannes Már Pétursson er háskólanemi og er í 4. sæti Samfylkingarinnar á Akureyri. Hann kemur með ungt sjónarhorn og leggur áherslu á framtíðarsýn og jöfn tækifæri fyrir ungt fólk.',
-        interests: ['Ungmennamál og framtíðarsýn', 'Menntamál', 'Jöfn tækifæri', 'Félagslegt réttlæti'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Sindri nýr oddviti Samfylkingingarinnar á Akureyri', url: 'https://www.mbl.is/frettir/innlent/2026/03/14/sindri_nyr_oddviti_samfylkingingarinnar_a_akureyri/', source: 'mbl.is' },
@@ -1992,8 +1992,8 @@ const AKU = {
       }],
       [5, 'Zane Brikovska', 'Starfsmaður á meðferðarheimili', 'images/candidates/33ec5c84a50d15f7.png', {
         age: null,
-        bio: 'Zane Brikovska er starfsmaður á meðferðarheimili og er í 5. sæti Samfylkingarinnar á Akureyri. Hún leggur áherslu á velferð og stuðning við þá sem þurfa sérstakar þarfir og styður öfluga heilbrigðis- og félagsþjónustu.',
-        interests: ['Velferðarþjónusta og stuðningur', 'Inngildning og fjölbreytni', 'Heilbrigðismál', 'Félagslegt réttlæti'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Sindri nýr oddviti Samfylkingingarinnar á Akureyri', url: 'https://www.mbl.is/frettir/innlent/2026/03/14/sindri_nyr_oddviti_samfylkingingarinnar_a_akureyri/', source: 'mbl.is' },
@@ -2045,8 +2045,8 @@ const AKU = {
       }],
       [2, 'Stefán Oddur Hrafnsson', 'Meistaranemi í uppeldis- og menntunarfræði', null, {
         age: null,
-        bio: 'Stefán Oddur Hrafnsson er meistaranemi í uppeldis- og menntunarfræði og er í 2. sæti VG á Akureyri. Hann kemur með fræðilega þekkingu á uppeldi og menntun og leggur áherslu á jafnrétti barna og félagslegt réttlæti.',
-        interests: ['Menntamál og uppeldi', 'Jafnrétti og félagslegt réttlæti', 'Umhverfismál', 'Húsnæðismál'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Jana Salóme Ingibjargar Jósepsdóttir leiðir lista VG á Akureyri í komandi sveitarstjórnarkosningum', url: 'https://www.vikubladid.is/is/moya/news/jana-salome-ingibjargar-josepsdottir-leidir-lista-vg-a-akureyri-i-komandi-sveitarstjornarkosningum', source: 'vikubladid.is' },
@@ -2054,8 +2054,8 @@ const AKU = {
       }],
       [3, 'Ásrún Ýr Gestsdóttir', 'Frumkvöðull', null, {
         age: null,
-        bio: 'Ásrún Ýr Gestsdóttir er frumkvöðull og er í 3. sæti VG á Akureyri. Hún kemur með reynslu í nýsköpun og leggur áherslu á sjálfbæra þróun, jöfn tækifæri og grænari Akureyri.',
-        interests: ['Nýsköpun og sjálfbær þróun', 'Umhverfismál', 'Jafnrétti', 'Húsnæðismál'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Jana Salóme Ingibjargar Jósepsdóttir leiðir lista VG á Akureyri í komandi sveitarstjórnarkosningum', url: 'https://www.vikubladid.is/is/moya/news/jana-salome-ingibjargar-josepsdottir-leidir-lista-vg-a-akureyri-i-komandi-sveitarstjornarkosningum', source: 'vikubladid.is' },
@@ -2063,8 +2063,8 @@ const AKU = {
       }],
       [4, 'Sigtryggur Ellertsson', 'Kaupsýslumaður', null, {
         age: null,
-        bio: 'Sigtryggur Ellertsson er kaupsýslumaður og er í 4. sæti VG á Akureyri. Hann kemur með reynslu í viðskiptum og leggur áherslu á sjálfbærar lausnir í atvinnulífi og umhverfismálum.',
-        interests: ['Umhverfismál og loftslagsmál', 'Sjálfbær atvinnuþróun', 'Húsnæðismál', 'Jafnrétti'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Jana Salóme Ingibjargar Jósepsdóttir leiðir lista VG á Akureyri í komandi sveitarstjórnarkosningum', url: 'https://www.vikubladid.is/is/moya/news/jana-salome-ingibjargar-josepsdottir-leidir-lista-vg-a-akureyri-i-komandi-sveitarstjornarkosningum', source: 'vikubladid.is' },
@@ -2072,8 +2072,8 @@ const AKU = {
       }],
       [5, 'Herdís Júlía Júlíusdóttir', 'Iðnnemi', null, {
         age: null,
-        bio: 'Herdís Júlía Júlíusdóttir er iðnnemi og er í 5. sæti VG á Akureyri. Hún kemur með ungt sjónarhorn og iðnfræðilegan bakgrunn og leggur áherslu á jöfn tækifæri, umhverfismál og framtíð ungra í bæjarfélaginu.',
-        interests: ['Ungmennamál og framtíðarsýn', 'Umhverfismál', 'Jafnrétti', 'Húsnæðismál'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Jana Salóme Ingibjargar Jósepsdóttir leiðir lista VG á Akureyri í komandi sveitarstjórnarkosningum', url: 'https://www.vikubladid.is/is/moya/news/jana-salome-ingibjargar-josepsdottir-leidir-lista-vg-a-akureyri-i-komandi-sveitarstjornarkosningum', source: 'vikubladid.is' },
@@ -2124,8 +2124,8 @@ const AKU = {
       }],
       [2, 'Karen Sigurbjörnsdóttir', 'Mannauðsfulltrúi', 'images/candidates/387b2edd4a103cb5.jpg', {
         age: null,
-        bio: 'Karen Sigurbjörnsdóttir er mannauðsfulltrúi og er í 2. sæti Akureyrarlistans á Akureyri. Hún leggur mannauðsfræðilega þekkingu í þágu bættrar þjónustu og skilvirkni í rekstri sveitarfélagsins.',
-        interests: ['Mannauðsmál og þjálfun', 'Atvinnuþróun', 'Skilvirkni í stjórnun', 'Samfélagsleg þjónusta'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Þórhallur leiðir Akureyrarlistann', url: 'https://www.ruv.is/frettir/innlent/2026-03-27-thorhallur-leidir-akureyrarlistann-471175', source: 'ruv.is' },
@@ -2134,8 +2134,8 @@ const AKU = {
       }],
       [3, 'Helgi Steinar Halldórsson', 'Fasteignasali og lýsingahönnuður', 'images/candidates/1d6f10eaca9e7985.jpg', {
         age: null,
-        bio: 'Helgi Steinar Halldórsson er fasteignasali og lýsingahönnuður og er í 3. sæti Akureyrarlistans á Akureyri. Hann leggur þekkingu á fasteignamál og hönnun í þágu uppbyggingar og þróunar bæjarins.',
-        interests: ['Fasteignamál og húsnæði', 'Hönnun og umhverfi', 'Atvinnuþróun', 'Uppbygging Akureyrar'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Þórhallur leiðir Akureyrarlistann', url: 'https://www.ruv.is/frettir/innlent/2026-03-27-thorhallur-leidir-akureyrarlistann-471175', source: 'ruv.is' },
@@ -2144,8 +2144,8 @@ const AKU = {
       }],
       [4, 'Kristrún María Björnsdóttir', 'Doktorsnemi', null, {
         age: null,
-        bio: 'Kristrún María Björnsdóttir er doktorsnemi og er í 4. sæti Akureyrarlistans á Akureyri. Hún kemur með fræðilega þekkingu og akademískt sjónarhorn og leggur áherslu á þekkingarsamfélag og menntamál.',
-        interests: ['Menntamál og þekkingarþróun', 'Rannsóknir og nýsköpun', 'Atvinnuþróun', 'Ungmennamál'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Þórhallur leiðir Akureyrarlistann', url: 'https://www.ruv.is/frettir/innlent/2026-03-27-thorhallur-leidir-akureyrarlistann-471175', source: 'ruv.is' },
@@ -2153,8 +2153,8 @@ const AKU = {
       }],
       [5, 'Darri Rafn Hólmarsson', 'Tölvunarfræðingur og DJ', null, {
         age: null,
-        bio: 'Darri Rafn Hólmarsson er tölvunarfræðingur og DJ og er í 5. sæti Akureyrarlistans á Akureyri. Hann kemur með tæknilega þekkingu og skapandi bakgrunn og leggur áherslu á nýsköpun og fjölbreytt menningarlíf.',
-        interests: ['Tækni og nýsköpun', 'Menningarlíf og tónlist', 'Ungmennamál', 'Atvinnuþróun'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Þórhallur leiðir Akureyrarlistann', url: 'https://www.ruv.is/frettir/innlent/2026-03-27-thorhallur-leidir-akureyrarlistann-471175', source: 'ruv.is' },
@@ -2211,8 +2211,8 @@ const GAR = {
       }],
       [2, 'Björg Fenger', 'Formaður bæjarráðs og lögfræðingur', 'images/candidates/ec5805a90d116e9d.jpg', {
         age: null,
-        bio: 'Björg Fenger er formaður bæjarráðs og lögfræðingur og er í 2. sæti Sjálfstæðisflokksins í Garðabæ. Hún kemur með lögfræðilega þekkingu og reynslu sem kjörinn fulltrúi og leggur áherslu á faglega og skilvirkna stjórnsýslu.',
-        interests: ['Fagleg stjórnsýsla', 'Uppbygging Garðabæjar', 'Þjónusta við íbúa', 'Lögfræðileg hagsmunagæsla'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Almar leiðir lista Sjálfstæðisflokksins í Garðabæ', url: 'https://xd.is/2026/02/17/almar-leidir-lista-sjalfstaedisflokksins-i-gardabae/', source: 'xd.is' },
@@ -2220,8 +2220,8 @@ const GAR = {
       }],
       [3, 'Margrét Bjarnadóttir', 'Forseti bæjarráðs', 'images/candidates/99f0e2ba0db954e6.jpg', {
         age: null,
-        bio: 'Margrét Bjarnadóttir er forseti bæjarráðs og er í 3. sæti Sjálfstæðisflokksins í Garðabæ. Hún hefur reynslu sem kjörinn fulltrúi og leggur áherslu á skynsamlega uppbyggingu og góða þjónustu við íbúa.',
-        interests: ['Skipulagsmál og uppbygging', 'Þjónusta við íbúa', 'Fjármálastjórnun', 'Menntun og velferð'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Almar leiðir lista Sjálfstæðisflokksins í Garðabæ', url: 'https://xd.is/2026/02/17/almar-leidir-lista-sjalfstaedisflokksins-i-gardabae/', source: 'xd.is' },
@@ -2229,8 +2229,8 @@ const GAR = {
       }],
       [4, 'Hrannar Bragi Eyjólfsson', 'Bæjarfulltrúi og lögfræðingur', 'images/candidates/df267c4b1be249a8.jpg', {
         age: null,
-        bio: 'Hrannar Bragi Eyjólfsson er bæjarfulltrúi og lögfræðingur og er í 4. sæti Sjálfstæðisflokksins í Garðabæ. Hann kemur með lögfræðilega þekkingu og reynslu sem kjörinn fulltrúi og leggur áherslu á faglegar og vandvirknar ákvarðanir.',
-        interests: ['Lögfræðileg málefni bæjarins', 'Uppbygging og þróun', 'Þjónusta við íbúa', 'Fjármálastjórnun'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Almar leiðir lista Sjálfstæðisflokksins í Garðabæ', url: 'https://xd.is/2026/02/17/almar-leidir-lista-sjalfstaedisflokksins-i-gardabae/', source: 'xd.is' },
@@ -2238,8 +2238,8 @@ const GAR = {
       }],
       [5, 'Stella Stefánsdóttir', 'Varabæjarfulltrúi og framkvæmdastjóri', 'images/candidates/dc4537a02b49c2b9.jpg', {
         age: null,
-        bio: 'Stella Stefánsdóttir er varabæjarfulltrúi og framkvæmdastjóri og er í 5. sæti Sjálfstæðisflokksins í Garðabæ. Hún kemur með rekstrarþekkingu og reynslu sem kjörinn fulltrúi og leggur áherslu á öfluga þjónustu og skilvirkni í bæjarstjórnun.',
-        interests: ['Framkvæmdastjórnun', 'Þjónusta við íbúa', 'Atvinnuþróun', 'Uppbygging'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Almar leiðir lista Sjálfstæðisflokksins í Garðabæ', url: 'https://xd.is/2026/02/17/almar-leidir-lista-sjalfstaedisflokksins-i-gardabae/', source: 'xd.is' },
@@ -2293,8 +2293,8 @@ const GAR = {
       }],
       [2, 'Anna Margrét Steingrímsdóttir', 'Markaðs- og þjónustustjóri', null, {
         age: null,
-        bio: 'Anna Margrét Steingrímsdóttir er markaðs- og þjónststjóri og er í 2. sæti Framsóknarflokksins í Garðabæ. Hún leggur þekkingu á markaðsmál og þjónustu í þágu öflugrar og fjölskylduvænnar þróunar bæjarins.',
-        interests: ['Þjónusta við fjölskyldur', 'Menntun og skólamál', 'Umhverfismál', 'Atvinnuþróun'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Hlynur leiðir lista Framsóknar í Garðabæ', url: 'https://www.mbl.is/frettir/innlent/2026/03/14/hlynur_leidir_lista_framsoknar_i_gardabae/', source: 'mbl.is' },
@@ -2302,8 +2302,8 @@ const GAR = {
       }],
       [3, 'Einar Þór Einarsson', 'Framkvæmdastjóri', null, {
         age: null,
-        bio: 'Einar Þór Einarsson er framkvæmdastjóri og er í 3. sæti Framsóknarflokksins í Garðabæ. Hann leggur rekstrarlega þekkingu og stjórnunarlega reynslu í þágu sjálfbærrar þróunar og öflugrar þjónustu við íbúa.',
-        interests: ['Framkvæmdastjórnun', 'Sjálfbær þróun', 'Menntun og velferð', 'Fjölskyldumál'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Hlynur leiðir lista Framsóknar í Garðabæ', url: 'https://www.mbl.is/frettir/innlent/2026/03/14/hlynur_leidir_lista_framsoknar_i_gardabae/', source: 'mbl.is' },
@@ -2311,8 +2311,8 @@ const GAR = {
       }],
       [4, 'Einar Bárðarson', 'Framkvæmdastjóri', null, {
         age: null,
-        bio: 'Einar Bárðarson er framkvæmdastjóri og er í 4. sæti Framsóknarflokksins í Garðabæ. Hann leggur rekstrarlega reynslu í þágu skipulags og uppbyggingar og styður umhverfismeðvitaða og fjölskylduvæna þróun bæjarins.',
-        interests: ['Skipulag og uppbygging', 'Umhverfismál', 'Fjölskyldumál', 'Atvinnuþróun'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Hlynur leiðir lista Framsóknar í Garðabæ', url: 'https://www.mbl.is/frettir/innlent/2026/03/14/hlynur_leidir_lista_framsoknar_i_gardabae/', source: 'mbl.is' },
@@ -2320,8 +2320,8 @@ const GAR = {
       }],
       [5, 'Inga Amal Hasan', 'Lögfræðingur', null, {
         age: null,
-        bio: 'Inga Amal Hasan er lögfræðingur og er í 5. sæti Framsóknarflokksins í Garðabæ. Hún leggur lögfræðilega þekkingu í þágu jafnra tækifæra og inngildingar í fjölbreyttu og opnu bæjarfélagi.',
-        interests: ['Inngildning og fjölbreytni', 'Réttindi og jafnrétti', 'Menntamál', 'Umhverfismál'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Hlynur leiðir lista Framsóknar í Garðabæ', url: 'https://www.mbl.is/frettir/innlent/2026/03/14/hlynur_leidir_lista_framsoknar_i_gardabae/', source: 'mbl.is' },
@@ -2370,8 +2370,8 @@ const GAR = {
       }],
       [2, 'Harpa Þorsteinsdóttir', 'Frambjóðandi', 'images/candidates/0bf5abbdd33030ac.jpg', {
         age: null,
-        bio: 'Harpa Þorsteinsdóttir er frambjóðandi Viðreisnar og er í 2. sæti Viðreisnar í Garðabæ. Hún styður nýsköpun og gagnsæi í stjórnun og leggur áherslu á sjálfbæra og framsæka þróun bæjarfélagsins.',
-        interests: ['Nýsköpun og þróun', 'Umhverfismál', 'Gagnsæi í stjórnun', 'Menntamál'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Fyrrum framkvæmdastjóri Viðreisnar fær oddvitasætið í Garðabæ', url: 'https://www.ruv.is/frettir/innlent/2026-03-05-fyrrum-framkvaemdastjori-vidreisnar-faer-oddvitasaetid-i-gardabae-468884', source: 'ruv.is' },
@@ -2379,8 +2379,8 @@ const GAR = {
       }],
       [3, 'Jón Bjarni Steinsson', 'Frambjóðandi', 'images/candidates/e676da035b8ec33b.jpg', {
         age: null,
-        bio: 'Jón Bjarni Steinsson er frambjóðandi Viðreisnar og er í 3. sæti Viðreisnar í Garðabæ. Hann styður frjálslægar og framfarasinnaðar lausnir í stjórnun og leggur áherslu á nýsköpun og atvinnuþróun.',
-        interests: ['Atvinnuþróun og nýsköpun', 'Umhverfismál', 'Frjálslæg gildi', 'Gagnsæi'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Fyrrum framkvæmdastjóri Viðreisnar fær oddvitasætið í Garðabæ', url: 'https://www.ruv.is/frettir/innlent/2026-03-05-fyrrum-framkvaemdastjori-vidreisnar-faer-oddvitasaetid-i-gardabae-468884', source: 'ruv.is' },
@@ -2388,8 +2388,8 @@ const GAR = {
       }],
       [4, 'Sigríður Þóra Ásgeirsdóttir', 'Frambjóðandi', 'images/candidates/89346718ace91ca4.jpg', {
         age: null,
-        bio: 'Sigríður Þóra Ásgeirsdóttir er frambjóðandi Viðreisnar og er í 4. sæti Viðreisnar í Garðabæ. Hún leggur áherslu á sjálfbæra þróun og framsækin vinnubrögð í stjórnun sveitarfélagsins.',
-        interests: ['Sjálfbær þróun', 'Umhverfismál', 'Menntamál', 'Gagnsæi og samstarf'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Fyrrum framkvæmdastjóri Viðreisnar fær oddvitasætið í Garðabæ', url: 'https://www.ruv.is/frettir/innlent/2026-03-05-fyrrum-framkvaemdastjori-vidreisnar-faer-oddvitasaetid-i-gardabae-468884', source: 'ruv.is' },
@@ -2397,8 +2397,8 @@ const GAR = {
       }],
       [5, 'Hreiðar Þór Jónsson', 'Frambjóðandi', 'images/candidates/2fc91e9746ce790c.jpg', {
         age: null,
-        bio: 'Hreiðar Þór Jónsson er frambjóðandi Viðreisnar og er í 5. sæti Viðreisnar í Garðabæ. Hann styður frjálslæg og framfarasinnd gildi og leggur áherslu á fjölbreytni og nýsköpun í bæjarstjórnun.',
-        interests: ['Frjálslæg gildi', 'Nýsköpun og þróun', 'Atvinnuþróun', 'Umhverfismál'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Fyrrum framkvæmdastjóri Viðreisnar fær oddvitasætið í Garðabæ', url: 'https://www.ruv.is/frettir/innlent/2026-03-05-fyrrum-framkvaemdastjori-vidreisnar-faer-oddvitasaetid-i-gardabae-468884', source: 'ruv.is' },
@@ -2451,8 +2451,8 @@ const GAR = {
       }],
       [2, 'Guðjón Pétur Lýðsson', 'Atvinnurekandi', 'images/candidates/ae31b0a765bb7497.jpg', {
         age: null,
-        bio: 'Guðjón Pétur Lýðsson er atvinnurekandi og er í 2. sæti Garðabæjarlistans í Garðabæ. Hann kemur með reynslu úr atvinnulífi og leggur áherslu á lifandi samfélag, umhverfismeðvitund og fjölskylduvænt bæjarfélag.',
-        interests: ['Atvinnuþróun', 'Samfélag og umhverfi', 'Fjölskyldumál', 'Skipulagsmál'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Þorbjörg leiðir Garðabæjarlistann aftur', url: 'https://www.ruv.is/frettir/innlent/2026-01-23-thorbjorg-leidir-gardabaejarlistann-aftur-464839', source: 'ruv.is' },
@@ -2461,8 +2461,8 @@ const GAR = {
       }],
       [3, 'Joanna Marcinkowska', 'Verkefnastjóri inngildingar', 'images/candidates/14f769b51c2ed8ec.jpg', {
         age: null,
-        bio: 'Joanna Marcinkowska er verkefnastjóri inngildingar og er í 3. sæti Garðabæjarlistans í Garðabæ. Hún leggur sérfræðiþekkingu á inngildingarmál og fjölbreytni í þágu opins og velkomins bæjarfélags.',
-        interests: ['Inngildning og fjölbreytni', 'Réttindi og jafnrétti', 'Samfélag og velferð', 'Menntamál'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Þorbjörg leiðir Garðabæjarlistann aftur', url: 'https://www.ruv.is/frettir/innlent/2026-01-23-thorbjorg-leidir-gardabaejarlistann-aftur-464839', source: 'ruv.is' },
@@ -2471,8 +2471,8 @@ const GAR = {
       }],
       [4, 'Finnur Jónsson', 'Umsjónarkennari', null, {
         age: null,
-        bio: 'Finnur Jónsson er umsjónarkennari og er í 4. sæti Garðabæjarlistans í Garðabæ. Hann leggur kennslureynslu í þágu gæðamenntunnar og velferðar barna og ungmenna í bæjarfélaginu.',
-        interests: ['Menntamál og skólaþjónusta', 'Velferð barna', 'Fjölskyldumál', 'Umhverfismál'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Garðabæjarlistinn í Garðabæ liggur fyrir', url: 'https://www.ruv.is/frettir/innlent/2026-03-16-gardabaejarlistinn-i-gardabae-liggur-fyrir-469898', source: 'ruv.is' },
@@ -2480,8 +2480,8 @@ const GAR = {
       }],
       [5, 'Baldur Ó. Svavarsson', 'Arkitekt', null, {
         age: null,
-        bio: 'Baldur Ó. Svavarsson er arkitekt og er í 5. sæti Garðabæjarlistans í Garðabæ. Hann leggur hönnunarþekkingu í þágu umhverfisvænar og vandvirkrar uppbyggingar og þróunar bæjarins.',
-        interests: ['Skipulag og hönnun', 'Umhverfismál og sjálfbærni', 'Uppbygging', 'Samfélag'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Garðabæjarlistinn í Garðabæ liggur fyrir', url: 'https://www.ruv.is/frettir/innlent/2026-03-16-gardabaejarlistinn-i-gardabae-liggur-fyrir-469898', source: 'ruv.is' },
@@ -2535,8 +2535,8 @@ const GAR = {
       }],
       [2, 'Laufey Gunnþórsdóttir', 'Verkfræðingur', 'images/candidates/9bdebd56e38296db.jpg', {
         age: null,
-        bio: 'Laufey Gunnþórsdóttir er verkfræðingur og er í 2. sæti Miðflokksins í Garðabæ. Hún leggur tæknilega þekkingu í þágu skynsamlegrar skipulagsþróunar og vandvirkrar uppbyggingar bæjarins.',
-        interests: ['Skipulag og uppbygging', 'Verkfræðilegar lausnir', 'Fjölskyldumál', 'Fjármálastjórnun'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Oddvitinn heldur áfram og knattspyrnuhetja í öðru sæti', url: 'https://www.mbl.is/frettir/innlent/2026/03/15/oddvitinn_heldr_afram_og_knattspyrnuhetja_i_odru/', source: 'mbl.is' },
@@ -2544,8 +2544,8 @@ const GAR = {
       }],
       [3, 'Snorri Marteinsson', 'Fjármálastjóri', 'images/candidates/4501d487eaead1f7.jpg', {
         age: null,
-        bio: 'Snorri Marteinsson er fjármálastjóri og er í 3. sæti Miðflokksins í Garðabæ. Hann leggur fjármálalega sérþekkingu í þágu ábyrgrar og skynsamlegrar meðferðar á fjármálum sveitarfélagsins.',
-        interests: ['Fjármálastjórnun og hagkvæmni', 'Skipulag og þróun', 'Fjölskyldumál', 'Velferð og þjónusta'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Oddvitinn heldur áfram og knattspyrnuhetja í öðru sæti', url: 'https://www.mbl.is/frettir/innlent/2026/03/15/oddvitinn_heldr_afram_og_knattspyrnuhetja_i_odru/', source: 'mbl.is' },
@@ -2553,8 +2553,8 @@ const GAR = {
       }],
       [4, 'Bessí Þóra Jónsdóttir', 'Hagfræðingur', 'images/candidates/956a87eff3a29581.jpg', {
         age: null,
-        bio: 'Bessí Þóra Jónsdóttir er hagfræðingur og er í 4. sæti Miðflokksins í Garðabæ. Hún leggur hagfræðilega þekkingu í þágu langtímahagsmuna íbúa og ábyrgar fjármálalegar ákvarðanir.',
-        interests: ['Hagfræðileg greining', 'Fjármálastjórnun', 'Börn og fjölskyldur', 'Skipulag'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Oddvitinn heldur áfram og knattspyrnuhetja í öðru sæti', url: 'https://www.mbl.is/frettir/innlent/2026/03/15/oddvitinn_heldr_afram_og_knattspyrnuhetja_i_odru/', source: 'mbl.is' },
@@ -2562,8 +2562,8 @@ const GAR = {
       }],
       [5, 'Unnur Ýr Jónsdóttir', 'Flugfreyja', 'images/candidates/5eafb2512fcc1545.jpg', {
         age: null,
-        bio: 'Unnur Ýr Jónsdóttir er flugfreyja og er í 5. sæti Miðflokksins í Garðabæ. Hún kemur með þjónustulegar og samskiptalegar hæfni og leggur áherslu á fjölskyldumál og gæðaþjónustu.',
-        interests: ['Fjölskyldumál og velferð', 'Þjónusta við íbúa', 'Samgöngumál', 'Börn og uppeldi'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Oddvitinn heldur áfram og knattspyrnuhetja í öðru sæti', url: 'https://www.mbl.is/frettir/innlent/2026/03/15/oddvitinn_heldr_afram_og_knattspyrnuhetja_i_odru/', source: 'mbl.is' },
@@ -2618,8 +2618,8 @@ const GAR = {
       }],
       [2, 'Vilborg Anna Strange Garðarsdóttir', 'Fjármála- og rekstrarstjóri', null, {
         age: null,
-        bio: 'Vilborg Anna Strange Garðarsdóttir er fjármála- og rekstrarstjóri og er í 2. sæti Samfylkingarinnar í Garðabæ. Hún leggur fjármálalega og rekstrarlega þekkingu í þágu jafnra tækifæra og félagslegs réttlætis í bæjarfélaginu.',
-        interests: ['Fjármálastjórnun', 'Jöfn tækifæri', 'Menntun og velferð', 'Fjölbreytileiki'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Kjartan Atli leiðir Samfylkinguna í Garðabæ', url: 'https://www.ruv.is/frettir/innlent/2026-03-12-kjartan-atli-leidir-samfylkinguna-i-gardabae-469510', source: 'ruv.is' },
@@ -2627,8 +2627,8 @@ const GAR = {
       }],
       [3, 'Rakel Margrét Viggósdóttir', 'Kennari og deildarstjóri', null, {
         age: null,
-        bio: 'Rakel Margrét Viggósdóttir er kennari og deildarstjóri og er í 3. sæti Samfylkingarinnar í Garðabæ. Hún leggur kennslureynslu og stjórnunarlega þekkingu í þágu gæðamenntunnar og öflugra uppeldisþjónustu.',
-        interests: ['Menntamál og skólaþjónusta', 'Velferð barna', 'Jöfn tækifæri', 'Fjölbreytileiki'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Kjartan Atli leiðir Samfylkinguna í Garðabæ', url: 'https://www.ruv.is/frettir/innlent/2026-03-12-kjartan-atli-leidir-samfylkinguna-i-gardabae-469510', source: 'ruv.is' },
@@ -2636,8 +2636,8 @@ const GAR = {
       }],
       [4, 'Vilmar Pétursson', 'Sérfræðingur hjá Vinnumálastofnun', null, {
         age: null,
-        bio: 'Vilmar Pétursson er sérfræðingur hjá Vinnumálastofnun og er í 4. sæti Samfylkingarinnar í Garðabæ. Hann leggur sérfræðiþekkingu á atvinnumál og vinnu markaðinn í þágu jafnra tækifæra og öflugrar velferðarþjónustu.',
-        interests: ['Atvinnumál og vinnumarkaður', 'Velferðarþjónusta', 'Jöfn tækifæri', 'Inngildning'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Kjartan Atli leiðir Samfylkinguna í Garðabæ', url: 'https://www.ruv.is/frettir/innlent/2026-03-12-kjartan-atli-leidir-samfylkinguna-i-gardabae-469510', source: 'ruv.is' },
@@ -2645,8 +2645,8 @@ const GAR = {
       }],
       [5, 'Ögmundur Árni Sveinsson', 'Viðskiptafræðinemi og þjálfari', null, {
         age: null,
-        bio: 'Ögmundur Árni Sveinsson er viðskiptafræðinemi og þjálfari og er í 5. sæti Samfylkingarinnar í Garðabæ. Hann kemur með ungt sjónarhorn og reynslu í þjálfun og leggur áherslu á ungmennamál, íþróttir og jöfn tækifæri.',
-        interests: ['Ungmennamál og íþróttir', 'Jöfn tækifæri', 'Menntamál', 'Fjölbreytileiki'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Kjartan Atli leiðir Samfylkinguna í Garðabæ', url: 'https://www.ruv.is/frettir/innlent/2026-03-12-kjartan-atli-leidir-samfylkinguna-i-gardabae-469510', source: 'ruv.is' },
@@ -2706,8 +2706,8 @@ const MOS = {
       }],
       [2, 'Jana Katrín Knútsdóttir', 'Bæjarfulltrúi og hjúkrunarfræðingur', 'images/candidates/f1dab75b7cab1973.jpg', {
         age: null,
-        bio: 'Jana Katrín Knútsdóttir er bæjarfulltrúi og hjúkrunarfræðingur og er í 2. sæti Sjálfstæðisflokksins í Mosfellsbæ. Hún kemur með heilbrigðismenntun og reynslu sem kjörinn fulltrúi og leggur áherslu á gæðaþjónustu og velferð íbúa.',
-        interests: ['Heilbrigðisþjónusta og velferð', 'Gæðamenntun og skólamál', 'Uppbygging', 'Gagnsæi í stjórnun'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Framboðslisti Sjálfstæðisflokksins í Mosfellsbæ samþykktur', url: 'https://www.ruv.is/frettir/innlent/2026-02-27-frambodslisti-sjalfstaedisflokksins-i-mosfellsbae-samthykktur-468178', source: 'ruv.is' },
@@ -2717,8 +2717,8 @@ const MOS = {
       }],
       [3, 'Elísabet S. Ólafsdóttir', 'Sáttasemjari', 'images/candidates/645a890d497d0fb9.jpg', {
         age: null,
-        bio: 'Elísabet S. Ólafsdóttir er sáttasemjari og er í 3. sæti Sjálfstæðisflokksins í Mosfellsbæ. Hún leggur þekkingu á sáttmiðlun og samskipti í þágu vandvirkra og faglegar ákvarðana sem þjóna íbúum.',
-        interests: ['Samskipti og samráð við íbúa', 'Skipulag og uppbygging', 'Fjármálastjórnun', 'Þjónusta við íbúa'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Framboðslisti Sjálfstæðisflokksins í Mosfellsbæ samþykktur', url: 'https://www.ruv.is/frettir/innlent/2026-02-27-frambodslisti-sjalfstaedisflokksins-i-mosfellsbae-samthykktur-468178', source: 'ruv.is' },
@@ -2727,8 +2727,8 @@ const MOS = {
       }],
       [4, 'Hjörtur Örn Arnarson', 'Landfræðingur', 'images/candidates/a1e87163411e9ba8.jpg', {
         age: null,
-        bio: 'Hjörtur Örn Arnarson er landfræðingur og er í 4. sæti Sjálfstæðisflokksins í Mosfellsbæ. Hann leggur landfræðilega þekkingu í þágu skynsamlegrar skipulagsþróunar og sjálfbærrar nýtingar á náttúrufari sveitarfélagsins.',
-        interests: ['Skipulag og landfræðileg greining', 'Náttúruvernd', 'Uppbygging innviða', 'Fjármálastjórnun'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Framboðslisti Sjálfstæðisflokksins í Mosfellsbæ samþykktur', url: 'https://www.ruv.is/frettir/innlent/2026-02-27-frambodslisti-sjalfstaedisflokksins-i-mosfellsbae-samthykktur-468178', source: 'ruv.is' },
@@ -2737,8 +2737,8 @@ const MOS = {
       }],
       [5, 'Þórarinn Örn Andrésson', 'Framkvæmdastjóri', 'images/candidates/b296e69f3a096707.jpg', {
         age: null,
-        bio: 'Þórarinn Örn Andrésson er framkvæmdastjóri og er í 5. sæti Sjálfstæðisflokksins í Mosfellsbæ. Hann leggur rekstrarlega þekkingu og stjórnunarlega reynslu í þágu skynsamlegrar uppbyggingar og öflugrar þjónustu við íbúa.',
-        interests: ['Framkvæmdastjórnun', 'Atvinnuþróun', 'Uppbygging', 'Fjármálastjórnun'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Framboðslisti Sjálfstæðisflokksins í Mosfellsbæ samþykktur', url: 'https://www.ruv.is/frettir/innlent/2026-02-27-frambodslisti-sjalfstaedisflokksins-i-mosfellsbae-samthykktur-468178', source: 'ruv.is' },
@@ -2792,8 +2792,8 @@ const MOS = {
       }],
       [2, 'Halla Karen Kristjánsdóttir', 'Íþróttakennari og formaður bæjarráðs', 'images/candidates/ad90fff1ca94b3ce.jpg', {
         age: null,
-        bio: 'Halla Karen Kristjánsdóttir er íþróttakennari og formaður bæjarráðs og er í 2. sæti Framsóknarflokksins í Mosfellsbæ. Hún kemur með reynslu sem kjörinn fulltrúi og kennari og leggur áherslu á heilbrigt og fjölskylduvænt bæjarfélag.',
-        interests: ['Íþróttir og heilsa', 'Fjölskyldumál og velferð', 'Náttúruvernd', 'Menntamál'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: '„Heilbrigt og fjölskylduvænt samfélag" — Sævar leiðir B-listann', url: 'https://mosfellingur.is/heilbrigt-og-fjolskylduvaent-samfelag/', source: 'mosfellingur.is' },
@@ -2804,8 +2804,8 @@ const MOS = {
       }],
       [3, 'Leifur Ingi Eysteinsson', 'Tómstunda- og félagsmálasérfræðingur', 'images/candidates/1b19d0fe7bf67cd6.jpg', {
         age: null,
-        bio: 'Leifur Ingi Eysteinsson er tómstunda- og félagsmálasérfræðingur og er í 3. sæti Framsóknarflokksins í Mosfellsbæ. Hann leggur sérfræðiþekkingu á tómstundar- og félagsmál í þágu fjölskylduvæns og heilbrigðs samfélagsins.',
-        interests: ['Tómstundar- og félagsmál', 'Fjölskyldumál', 'Náttúruvernd', 'Samgöngumál'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: '„Heilbrigt og fjölskylduvænt samfélag" — Sævar leiðir B-listann', url: 'https://mosfellingur.is/heilbrigt-og-fjolskylduvaent-samfelag/', source: 'mosfellingur.is' },
@@ -2814,8 +2814,8 @@ const MOS = {
       }],
       [4, 'Elín Guðný Hlöðversdóttir', 'Rekstrarstjóri', null, {
         age: null,
-        bio: 'Elín Guðný Hlöðversdóttir er rekstrarstjóri og er í 4. sæti Framsóknarflokksins í Mosfellsbæ. Hún leggur rekstrarlega þekkingu í þágu fjölskylduvænnar og sjálfbærrar þróunar sveitarfélagsins.',
-        interests: ['Rekstrarumbætur', 'Fjölskyldumál', 'Samgöngumál', 'Náttúruvernd'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: '„Heilbrigt og fjölskylduvænt samfélag" — Sævar leiðir B-listann', url: 'https://mosfellingur.is/heilbrigt-og-fjolskylduvaent-samfelag/', source: 'mosfellingur.is' },
@@ -2824,8 +2824,8 @@ const MOS = {
       }],
       [5, 'Ýmir Örn Hafsteinsson', 'Álverksmaður', null, {
         age: null,
-        bio: 'Ýmir Örn Hafsteinsson er álverksmaður og er í 5. sæti Framsóknarflokksins í Mosfellsbæ. Hann kemur með iðnaðarmanns bakgrunn og leggur áherslu á atvinnulíf, samgöngumál og velferð fjölskyldna.',
-        interests: ['Atvinnulíf og iðnaður', 'Samgöngumál', 'Fjölskyldumál', 'Náttúruvernd'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: '„Heilbrigt og fjölskylduvænt samfélag" — Sævar leiðir B-listann', url: 'https://mosfellingur.is/heilbrigt-og-fjolskylduvaent-samfelag/', source: 'mosfellingur.is' },
@@ -2882,8 +2882,8 @@ const MOS = {
       }],
       [2, 'Valdimar Birgisson', 'Rekstrarráðgjafi og varaþingmaður Viðreisnar', 'images/candidates/a916c02b41a02c3e.png', {
         age: null,
-        bio: 'Valdimar Birgisson er rekstrarráðgjafi og varaþingmaður Viðreisnar og er í 2. sæti Viðreisnar í Mosfellsbæ. Hann leggur ráðgjafar- og þingmannareynslu í þágu nýsköpunar, samstarfs og umhverfisvænnar þróunar bæjarins.',
-        interests: ['Nýsköpun og atvinnuþróun', 'Samstarf sveitarfélaga', 'Umhverfismál', 'Gagnsæi í stjórnun'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Gylfi Þór leiðir Viðreisn í Mosfellsbæ', url: 'https://www.mbl.is/frettir/innlent/2026/02/28/gylfi_thor_leidir_vidreisn_i_mosfellsbae/', source: 'mbl.is' },
@@ -2894,8 +2894,8 @@ const MOS = {
       }],
       [3, 'Elín Anna Gísladóttir', 'Deildarstjóri', 'images/candidates/8be43939db925f2a.png', {
         age: null,
-        bio: 'Elín Anna Gísladóttir er deildarstjóri og er í 3. sæti Viðreisnar í Mosfellsbæ. Hún leggur stjórnunarlega þekkingu í þágu skilvirkrar og faglegrar þjónustu í samræmi við framsækin gildi Viðreisnar.',
-        interests: ['Skipulag og stjórnun', 'Umhverfismál', 'Menntamál', 'Samstarf og nýsköpun'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Gylfi Þór leiðir Viðreisn í Mosfellsbæ', url: 'https://www.mbl.is/frettir/innlent/2026/02/28/gylfi_thor_leidir_vidreisn_i_mosfellsbae/', source: 'mbl.is' },
@@ -2904,8 +2904,8 @@ const MOS = {
       }],
       [4, 'Berglind Robertson Grétarsdóttir', 'Leikskólastjóri', 'images/candidates/ed15c27c74d93b4c.png', {
         age: null,
-        bio: 'Berglind Robertson Grétarsdóttir er leikskólastjóri og er í 4. sæti Viðreisnar í Mosfellsbæ. Hún leggur menntunarlega og stjórnunarlega þekkingu í þágu öflugrar leikskólaþjónustu og velferðar barna.',
-        interests: ['Leikskólamál og menntun barna', 'Fjölskyldumál', 'Umhverfismál', 'Nýsköpun í þjónustu'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Gylfi Þór leiðir Viðreisn í Mosfellsbæ', url: 'https://www.mbl.is/frettir/innlent/2026/02/28/gylfi_thor_leidir_vidreisn_i_mosfellsbae/', source: 'mbl.is' },
@@ -2914,8 +2914,8 @@ const MOS = {
       }],
       [5, 'Haukur Skúlason', 'Frumkvöðull og meðstofnandi indó', 'images/candidates/14f1c3cec4936aaa.png', {
         age: null,
-        bio: 'Haukur Skúlason er frumkvöðull og meðstofnandi indó og er í 5. sæti Viðreisnar í Mosfellsbæ. Hann kemur með reynslu í nýsköpun og frumkvæði og leggur áherslu á sjálfbæra og framsæka þróun bæjarins.',
-        interests: ['Nýsköpun og frumkvæði', 'Umhverfismál og sjálfbærni', 'Atvinnuþróun', 'Samstarf'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Gylfi Þór leiðir Viðreisn í Mosfellsbæ', url: 'https://www.mbl.is/frettir/innlent/2026/02/28/gylfi_thor_leidir_vidreisn_i_mosfellsbae/', source: 'mbl.is' },
@@ -2977,8 +2977,8 @@ const MOS = {
       }],
       [2, 'Ingibjörg Einarsdóttir', 'Tannfræðitækni og dósent við HÍ', 'images/candidates/e803c1be8312f9b7.jpg', {
         age: null,
-        bio: 'Ingibjörg Einarsdóttir er tannfræðitækni og dósent við Háskóla Íslands og er í 2. sæti Miðflokksins í Mosfellsbæ. Hún leggur heilbrigðis- og fræðilega þekkingu í þágu velferðar og gæðaþjónustu við börn og fjölskyldur.',
-        interests: ['Heilbrigðisþjónusta og lýðheilsa', 'Börn og fjölskyldur', 'Menntamál', 'Velferð'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Kalla eftir breytingum í Mosfellsbæ', url: 'https://www.mbl.is/frettir/innlent/2026/04/05/kalla_eftir_breytingum_i_mosfellsbae/', source: 'mbl.is' },
@@ -2990,8 +2990,8 @@ const MOS = {
       }],
       [3, 'Hjalti Árnason', 'Frambjóðandi', 'images/candidates/1814046c4f798104.jpg', {
         age: null,
-        bio: 'Hjalti Árnason er frambjóðandi Miðflokksins og er í 3. sæti Miðflokksins í Mosfellsbæ. Hann styður skipulagsmál, velferð fjölskyldna og ábyrga fjármálastjórnun í bæjarfélaginu.',
-        interests: ['Skipulag og samgöngumál', 'Börn og fjölskyldur', 'Fjármálastjórnun', 'Velferðarþjónusta'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Sveinn Óskar oddviti Miðflokksins í Mosfellsbæ', url: 'https://www.ruv.is/frettir/innlent/2026-04-04-sveinn-oskar-oddviti-midflokksins-i-mosfellsbae-471687', source: 'ruv.is' },
@@ -3000,8 +3000,8 @@ const MOS = {
       }],
       [4, 'Sóley Sævarsdóttir Meyer', 'Frambjóðandi', 'images/candidates/b7988437783251c4.jpg', {
         age: null,
-        bio: 'Sóley Sævarsdóttir Meyer er frambjóðandi Miðflokksins og er í 4. sæti Miðflokksins í Mosfellsbæ. Hún leggur áherslu á velferð barna og fjölskyldna og ábyrga meðferð á fjármálum sveitarfélagsins.',
-        interests: ['Velferð barna og fjölskyldna', 'Menntamál', 'Fjármálastjórnun', 'Umhverfisvernd'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Sveinn Óskar oddviti Miðflokksins í Mosfellsbæ', url: 'https://www.ruv.is/frettir/innlent/2026-04-04-sveinn-oskar-oddviti-midflokksins-i-mosfellsbae-471687', source: 'ruv.is' },
@@ -3010,8 +3010,8 @@ const MOS = {
       }],
       [5, 'Kristján Davíð Sigurjónsson', 'Frambjóðandi', 'images/candidates/93568a1c153a1ae7.jpg', {
         age: null,
-        bio: 'Kristján Davíð Sigurjónsson er frambjóðandi Miðflokksins og er í 5. sæti Miðflokksins í Mosfellsbæ. Hann leggur áherslu á langtímahagsmuni íbúa, skipulagsmál og ábyrga fjármálastjórnun.',
-        interests: ['Skipulag og þróun', 'Fjármálastjórnun', 'Börn og fjölskyldur', 'Samgöngumál'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Sveinn Óskar oddviti Miðflokksins í Mosfellsbæ', url: 'https://www.ruv.is/frettir/innlent/2026-04-04-sveinn-oskar-oddviti-midflokksins-i-mosfellsbae-471687', source: 'ruv.is' },
@@ -3065,8 +3065,8 @@ const MOS = {
       }],
       [2, 'Guðný Maja Riba', 'Kennari og bæjarfulltrúi', 'images/candidates/632d4df9b0b5b0cf.jpg', {
         age: null,
-        bio: 'Guðný Maja Riba er kennari og bæjarfulltrúi og er í 2. sæti Samfylkingarinnar í Mosfellsbæ. Hún leggur áherslu á menntamál og jafna þjónustu við börnin og fjölskyldur samfélagsins.',
-        interests: ['Menntamál og skólastarf', 'Fjölskylduþjónusta', 'Jafnrétti og félagsleg réttlæti', 'Náttúruvernd'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Nýr oddviti leiðir Samfylkinguna í Mosfellsbæ', url: 'https://www.ruv.is/frettir/innlent/2026-03-09-nyr-oddviti-leidir-samfylkinguna-i-mosfellsbae-469367', source: 'ruv.is' },
@@ -3078,8 +3078,8 @@ const MOS = {
       }],
       [3, 'Ómar Ingþórsson', 'Landslagsarkitekt og náttúrufræðingur', null, {
         age: null,
-        bio: 'Ómar Ingþórsson er landslagsarkitekt og náttúrufræðingur og er í 3. sæti Samfylkingarinnar í Mosfellsbæ. Hann leggur faglega þekkingu á náttúruvernd og skipulagi af landsvæðum í þágu verndunar Blikastaðalands og sjálfbærrar þróunar.',
-        interests: ['Náttúruvernd og umhverfismál', 'Skipulagsmál og landslagsgerð', 'Sjálfbær þróun', 'Útivistarsvæði'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Nýr oddviti leiðir Samfylkinguna í Mosfellsbæ', url: 'https://www.ruv.is/frettir/innlent/2026-03-09-nyr-oddviti-leidir-samfylkinguna-i-mosfellsbae-469367', source: 'ruv.is' },
@@ -3088,8 +3088,8 @@ const MOS = {
       }],
       [4, 'Auður Einarsdóttir', 'Lagalanemi', 'images/candidates/8d655884977b9a9a.jpg', {
         age: null,
-        bio: 'Auður Einarsdóttir er lagalanemi og er í 4. sæti Samfylkingarinnar í Mosfellsbæ. Hún kemur með áhuga á réttlæti og jafnrétti og vill beita lögfræðilegri þekkingu sinni í þjónustu við íbúana.',
-        interests: ['Réttlæti og jafnrétti', 'Húsnæðismál', 'Menntamál', 'Velferðarþjónusta'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Nýr oddviti leiðir Samfylkinguna í Mosfellsbæ', url: 'https://www.ruv.is/frettir/innlent/2026-03-09-nyr-oddviti-leidir-samfylkinguna-i-mosfellsbae-469367', source: 'ruv.is' },
@@ -3098,8 +3098,8 @@ const MOS = {
       }],
       [5, 'Guðlaugur Bjarki Lúðvíksson', 'Verkfræðingur', null, {
         age: null,
-        bio: 'Guðlaugur Bjarki Lúðvíksson er verkfræðingur og er í 5. sæti Samfylkingarinnar í Mosfellsbæ. Hann leggur tæknilega þekkingu til uppbyggingar grænna samgangna og nýrra íbúðasvæða í bænum.',
-        interests: ['Samgöngumál og innviðir', 'Umhverfistækni', 'Húsnæðismál', 'Atvinnuþróun'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Nýr oddviti leiðir Samfylkinguna í Mosfellsbæ', url: 'https://www.ruv.is/frettir/innlent/2026-03-09-nyr-oddviti-leidir-samfylkinguna-i-mosfellsbae-469367', source: 'ruv.is' },
@@ -3205,22 +3205,22 @@ const KOP = {
       }],
       [3, 'Gunnar Sær Ragnarsson', 'Lögfræðingur', null, {
         age: null,
-        bio: 'Gunnar Sær Ragnarsson er lögfræðingur og er í 3. sæti Framsóknarflokksins í Kópavogi. Hann leggur lögfræðilega þekkingu til þjónustu við íbúa og ábyrgar ákvarðanatöku í bæjarstjórn.',
-        interests: ['Réttarfar og stjórnsýsla', 'Húsnæðismál', 'Þjónusta við íbúa', 'Umhverfismál'],
+        bio: null,
+        interests: null,
         social: null,
         news: [],
       }],
       [4, 'Svava Halldóra Friðgeirsdóttir', 'Skjalastjóri', null, {
         age: null,
-        bio: 'Svava Halldóra Friðgeirsdóttir er skjalastjóri og er í 4. sæti Framsóknarflokksins í Kópavogi. Hún kemur með þekkingu á skjalastjórnun og upplýsingagjöf í þágu opins og gagnsæs bæjarrekstur.',
-        interests: ['Gagnsæi og upplýsingagjöf', 'Skjalastjórnun í bæjarrekstur', 'Þjónusta við íbúa', 'Leikskólamál'],
+        bio: null,
+        interests: null,
         social: null,
         news: [],
       }],
       [5, 'Heiðdís Geirsdóttir', 'Félagsfræðingur', null, {
         age: null,
-        bio: 'Heiðdís Geirsdóttir er félagsfræðingur og er í 5. sæti Framsóknarflokksins í Kópavogi. Hún leggur áherslu á félagslega þjónustu, velferð barna og sjálfbæra þróun bæjarins.',
-        interests: ['Félagsleg velferð og þjónusta', 'Börn og fjölskyldur', 'Umhverfismál', 'Húsnæðismál'],
+        bio: null,
+        interests: null,
         social: null,
         news: [],
       }],
@@ -3271,8 +3271,8 @@ const KOP = {
       }],
       [2, 'Pétur Björgvin Sveinsson', 'Aðstoðarmaður þingflokks', 'images/candidates/aa2a111ba8b1e688.jpg', {
         age: null,
-        bio: 'Pétur Björgvin Sveinsson er aðstoðarmaður þingflokks og er í 2. sæti Viðreisnar í Kópavogi. Hann hefur reynslu af stjórnmálalegum störfum og leggur áherslu á nýsköpun og gagnsæi í bæjarstjórnun.',
-        interests: ['Nýsköpun og fagleg stjórnun', 'Gagnsæi í stjórnsýslu', 'Umhverfismál', 'Skóla- og menntamál'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Viðreisn opinberar listann í Kópavogi', url: 'https://www.visir.is/g/20262851919d/vidreisn-opinberar-listann-i-kopavogi', source: 'visir.is' },
@@ -3280,8 +3280,8 @@ const KOP = {
       }],
       [3, 'Arnar Grétarsson', 'Knattspyrnuþjálfari og viðskiptafræðingur', 'images/candidates/1ecbe36070b0b459.jpg', {
         age: null,
-        bio: 'Arnar Grétarsson er knattspyrnuþjálfari og viðskiptafræðingur og er í 3. sæti Viðreisnar í Kópavogi. Hann kemur með víðtæka þekkingu á leiðtogastarfi og rekstri og vill stuðla að sjálfbærri og vel stjórnuðri bæjarþróun.',
-        interests: ['Íþrótta- og æskulýðsmál', 'Rekstrarleg hagkvæmni', 'Nýsköpun', 'Umhverfismál'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Viðreisn opinberar listann í Kópavogi', url: 'https://www.visir.is/g/20262851919d/vidreisn-opinberar-listann-i-kopavogi', source: 'visir.is' },
@@ -3289,8 +3289,8 @@ const KOP = {
       }],
       [4, 'Sigrún Ólöf Ingólfsdóttir', 'Skólastjóri', 'images/candidates/163a47167e6a77d5.jpg', {
         age: null,
-        bio: 'Sigrún Ólöf Ingólfsdóttir er skólastjóri og er í 4. sæti Viðreisnar í Kópavogi. Hún leggur faglega reynslu sína af menntastjórnun til að efla grunnskólainnviði og þjónustu við börn og fjölskyldur í bænum.',
-        interests: ['Menntamál og skólainnviðir', 'Þjónusta við börn og fjölskyldur', 'Gagnsæi í stjórnsýslu', 'Samfélagsleg þjónusta'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Viðreisn opinberar listann í Kópavogi', url: 'https://www.visir.is/g/20262851919d/vidreisn-opinberar-listann-i-kopavogi', source: 'visir.is' },
@@ -3298,8 +3298,8 @@ const KOP = {
       }],
       [5, 'Elvar Bjarki Helgason', 'Sölu- og þjónustustjóri', 'images/candidates/216801f147efc23f.jpg', {
         age: null,
-        bio: 'Elvar Bjarki Helgason er sölu- og þjónustustjóri og er í 5. sæti Viðreisnar í Kópavogi. Hann kemur með reynslu af viðskiptum og þjónustu og leggur áherslu á öfluga þjónustu við íbúa og sjálfbæra þróun bæjarins.',
-        interests: ['Þjónusta við íbúa', 'Atvinnulíf og nýsköpun', 'Umhverfismál', 'Samgöngumál'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Viðreisn opinberar listann í Kópavogi', url: 'https://www.visir.is/g/20262851919d/vidreisn-opinberar-listann-i-kopavogi', source: 'visir.is' },
@@ -3371,8 +3371,8 @@ const KOP = {
       }],
       [4, 'Elísabet Berglind Sveinsdóttir', 'Bæjarfulltrúi', 'images/candidates/b2dc8ec214c3aecd.jpg', {
         age: null,
-        bio: 'Elísabet Berglind Sveinsdóttir er bæjarfulltrúi og er í 4. sæti Sjálfstæðisflokksins í Kópavogi. Hún hefur setið í bæjarstjórn og leggur áherslu á faglega og skilvirkla stjórnun bæjarins.',
-        interests: ['Þjónusta við íbúa', 'Fjármálalegt jafnvægi', 'Skóla- og menntamál', 'Uppbygging bæjarins'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Fullskipaður framboðslisti í Kópavogi', url: 'https://xd.is/2026/03/17/fullskipadur-frambodslisti-i-kopavogi/', source: 'xd.is' },
@@ -3380,8 +3380,8 @@ const KOP = {
       }],
       [5, 'Guðmundur Jóhann Jónsson', 'Fyrrverandi forstjóri', 'images/candidates/747f580c890511a5.jpg', {
         age: null,
-        bio: 'Guðmundur Jóhann Jónsson er fyrrverandi forstjóri og er í 5. sæti Sjálfstæðisflokksins í Kópavogi. Hann kemur með víðtæka reynslu af forstjórastarfi og leiðtogaskapi og leggur áherslu á hagkvæman og ábyrgjan bæjarrekstur.',
-        interests: ['Hagkvæmni í bæjarrekstri', 'Atvinnulíf og nýsköpun', 'Uppbygging og skipulag', 'Fjármálastjórnun'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Fullskipaður framboðslisti í Kópavogi', url: 'https://xd.is/2026/03/17/fullskipadur-frambodslisti-i-kopavogi/', source: 'xd.is' },
@@ -3433,8 +3433,8 @@ const KOP = {
       }],
       [2, 'Anna Ceridwen Auðnudóttir', 'Listfræðinemi', null, {
         age: null,
-        bio: 'Anna Ceridwen Auðnudóttir er listfræðinemi og er í 2. sæti Sósíalistaflokksins í Kópavogi. Hún leggur áherslu á jafnrétti, húsnæðismál og menningarlegt aðgengi fyrir alla íbúa bæjarins.',
-        interests: ['Jafnrétti og félagsleg réttlæti', 'Húsnæðismál', 'Menning og listir', 'Umhverfismál'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: '3 efstu sæti í Kópavogsbæ', url: 'https://www.sosialistaflokkurinn.is/frettir/3-efstu-saeti-i-kopavogsbae', source: 'sosialistaflokkurinn.is' },
@@ -3442,8 +3442,8 @@ const KOP = {
       }],
       [3, 'Marzuk Ingi Lamsiah Svanlaugar', 'Tölvunarfræðingur', null, {
         age: null,
-        bio: 'Marzuk Ingi Lamsiah Svanlaugar er tölvunarfræðingur og er í 3. sæti Sósíalistaflokksins í Kópavogi. Hann leggur tæknilega þekkingu sína til þjónustu íbúanna og styður réttindi launafólks og hagkvæmt húsnæði.',
-        interests: ['Réttindi launafólks', 'Húsnæðismál og leigendavernd', 'Tækni og þjónusta', 'Jafnrétti'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: '3 efstu sæti í Kópavogsbæ', url: 'https://www.sosialistaflokkurinn.is/frettir/3-efstu-saeti-i-kopavogsbae', source: 'sosialistaflokkurinn.is' },
@@ -3451,15 +3451,15 @@ const KOP = {
       }],
       [4, 'Sigurður Haraldsson', 'Forstöðumaður', null, {
         age: null,
-        bio: 'Sigurður Haraldsson er forstöðumaður og er í 4. sæti Sósíalistaflokksins í Kópavogi. Hann leggur áherslu á jafnrétti, umhverfismál og öfluga þjónustu við alla íbúa bæjarins.',
-        interests: ['Jafnrétti og félagsleg réttlæti', 'Umhverfismál', 'Húsnæðismál', 'Þjónusta við íbúa'],
+        bio: null,
+        interests: null,
         social: null,
         news: [],
       }],
       [5, 'Þórgunnur Guðgeirsdóttir', 'Verslunarstjóri', null, {
         age: null,
-        bio: 'Þórgunnur Guðgeirsdóttir er verslunarstjóri og er í 5. sæti Sósíalistaflokksins í Kópavogi. Hún kemur með reynslu af þjónustu og rekstri og vill stuðla að betri kjörum launafólks og hagkvæmara húsnæði.',
-        interests: ['Réttindi launafólks', 'Húsnæðismál', 'Þjónusta við íbúa', 'Umhverfismál'],
+        bio: null,
+        interests: null,
         social: null,
         news: [],
       }],
@@ -3509,8 +3509,8 @@ const KOP = {
       }],
       [2, 'Nína Berglind Sigurgeirsdóttir', 'Leikskólastjóri', 'images/candidates/ed3c63b8ab93d71d.jpg', {
         age: null,
-        bio: 'Nína Berglind Sigurgeirsdóttir er leikskólastjóri og er í 2. sæti Miðflokksins í Kópavogi. Hún kemur með faglega þekkingu á leikskólastarfi og börnum og vill forgangsraða þjónustu við börn og fjölskyldur.',
-        interests: ['Leikskólamál og biðlistar', 'Þjónusta við börn og fjölskyldur', 'Menntamál', 'Velferðarþjónusta'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Efstu fimm hjá Miðflokki', url: 'https://www.kopavogsbladid.is/efstu-fimm-hja-midflokki/', source: 'kopavogsbladid.is' },
@@ -3518,8 +3518,8 @@ const KOP = {
       }],
       [3, 'Beitir Ólafsson', 'Byggingarverktaki', 'images/candidates/d6fa41c48a615690.jpg', {
         age: null,
-        bio: 'Beitir Ólafsson er byggingarverktaki og er í 3. sæti Miðflokksins í Kópavogi. Hann leggur tæknilega þekkingu sína á byggingarmál og skipulag til að stuðla að skynsamlegri uppbyggingu og hagkvæmu húsnæði í bænum.',
-        interests: ['Uppbygging og húsnæðismál', 'Skipulagsmál', 'Fjármálalegt jafnvægi', 'Þjónusta við íbúa'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Efstu fimm hjá Miðflokki', url: 'https://www.kopavogsbladid.is/efstu-fimm-hja-midflokki/', source: 'kopavogsbladid.is' },
@@ -3527,8 +3527,8 @@ const KOP = {
       }],
       [4, 'Thelma Bergmann Árnadóttir', 'Sjálfstæður atvinnurekstur', 'images/candidates/e64c632aaade7575.jpg', {
         age: null,
-        bio: 'Thelma Bergmann Árnadóttir rekur eigið fyrirtæki og er í 4. sæti Miðflokksins í Kópavogi. Hún kemur með reynslu af sjálfstæðum rekstri og leggur áherslu á grunnþjónustu við börn, fjölskyldur og aldraða.',
-        interests: ['Börn og fjölskyldur', 'Aldraðir og velferð', 'Atvinnulíf og nýsköpun', 'Hagkvæmni í bæjarrekstri'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Efstu fimm hjá Miðflokki', url: 'https://www.kopavogsbladid.is/efstu-fimm-hja-midflokki/', source: 'kopavogsbladid.is' },
@@ -3536,8 +3536,8 @@ const KOP = {
       }],
       [5, 'Trausti Örn Þórðarson', 'Lögfræðingur', 'images/candidates/8a2060d8db866dad.jpg', {
         age: null,
-        bio: 'Trausti Örn Þórðarson er lögfræðingur og er í 5. sæti Miðflokksins í Kópavogi. Hann leggur lögfræðilega þekkingu til þjónustu við íbúa og ábyrgar ákvarðanatöku í málaflokki velferðar og réttlætis.',
-        interests: ['Réttlæti og réttarfar', 'Velferðarþjónusta', 'Fjármálalegt jafnvægi', 'Börn og fjölskyldur'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Efstu fimm hjá Miðflokki', url: 'https://www.kopavogsbladid.is/efstu-fimm-hja-midflokki/', source: 'kopavogsbladid.is' },
@@ -3592,8 +3592,8 @@ const KOP = {
       }],
       [2, 'Eydís Inga Valsdóttir', 'Alþjóðafræðingur', 'images/candidates/183b4abcd4dd4f19.png', {
         age: null,
-        bio: 'Eydís Inga Valsdóttir er alþjóðafræðingur og er í 2. sæti Samfylkingarinnar í Kópavogi. Hún kemur með þekkingu á mannréttindum og jafnrétti og leggur áherslu á fjölbreyttan og opinn bæjarsamfélag.',
-        interests: ['Jafnrétti og mannréttindi', 'Fjölbreytileiki í samfélaginu', 'Menntamál', 'Húsnæðismál'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Þau eru á lista Samfylkingarinnar í Kópavogi', url: 'https://www.visir.is/g/20262854763d/thau-eru-a-lista-samfylkingarinnar-i-kopavogi', source: 'visir.is' },
@@ -3601,8 +3601,8 @@ const KOP = {
       }],
       [3, 'Hákon Gunnarsson', 'Sérfræðingur í jarðskorpurannsóknum', 'images/candidates/fc532a0404a3cee4.png', {
         age: null,
-        bio: 'Hákon Gunnarsson er sérfræðingur í jarðskorpurannsóknum og er í 3. sæti Samfylkingarinnar í Kópavogi. Hann kemur með vísindalega þekkingu á umhverfismálum og leggur áherslu á sjálfbæra þróun og gæðamenntun.',
-        interests: ['Umhverfismál og sjálfbær þróun', 'Vísindi og rannsóknir', 'Menntamál', 'Jafnrétti'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Þau eru á lista Samfylkingarinnar í Kópavogi', url: 'https://www.visir.is/g/20262854763d/thau-eru-a-lista-samfylkingarinnar-i-kopavogi', source: 'visir.is' },
@@ -3610,8 +3610,8 @@ const KOP = {
       }],
       [4, 'Sólveig Skaftadóttir', 'Fasteignasali', 'images/candidates/5eda2327db91be68.png', {
         age: null,
-        bio: 'Sólveig Skaftadóttir er fasteignasali og er í 4. sæti Samfylkingarinnar í Kópavogi. Hún kemur með þekkingu á húsnæðismarkaðnum og leggur áherslu á hagkvæmar búsetulausnir og vernd leigenda.',
-        interests: ['Húsnæðismál og leigendavernd', 'Þjónusta við íbúa', 'Fjölbreytileiki', 'Menntamál'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Þau eru á lista Samfylkingarinnar í Kópavogi', url: 'https://www.visir.is/g/20262854763d/thau-eru-a-lista-samfylkingarinnar-i-kopavogi', source: 'visir.is' },
@@ -3619,8 +3619,8 @@ const KOP = {
       }],
       [5, 'Orri Thor Eggertsson', 'Nemi í stjórnmálafræði', 'images/candidates/c12d652bf698b7df.png', {
         age: null,
-        bio: 'Orri Thor Eggertsson er nemi í stjórnmálafræði og er í 5. sæti Samfylkingarinnar í Kópavogi. Hann leggur áherslu á jafnrétti, opnar og gagnsæjar ákvarðanir og betri þjónustu við unga fólkið í bænum.',
-        interests: ['Jafnrétti og réttlæti', 'Menntamál', 'Gagnsæi í stjórnsýslu', 'Húsnæðismál'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Þau eru á lista Samfylkingarinnar í Kópavogi', url: 'https://www.visir.is/g/20262854763d/thau-eru-a-lista-samfylkingarinnar-i-kopavogi', source: 'visir.is' },
@@ -3671,29 +3671,29 @@ const KOP = {
       }],
       [2, 'Bjarki Valberg', 'Skipulagsfræðingur', null, {
         age: null,
-        bio: 'Bjarki Valberg er skipulagsfræðingur og er í 2. sæti VG í Kópavogi. Hann leggur faglega þekkingu á skipulagi og umhverfismálum til að stuðla að grænni og sjálfbærari þróun Kópavogsbæjar.',
-        interests: ['Skipulagsmál og þróun', 'Umhverfismál og loftslagsaðgerðir', 'Húsnæðismál', 'Samgöngumál'],
+        bio: null,
+        interests: null,
         social: null,
         news: [],
       }],
       [3, 'Kjartan Sveinn Guðmundsson', 'Laganemi og barþjónn', null, {
         age: null,
-        bio: 'Kjartan Sveinn Guðmundsson er laganemi og barþjónn og er í 3. sæti VG í Kópavogi. Hann kemur með áhuga á jafnrétti og félagslegri réttlætingu og vill bæta kjör launafólks og húsnæðisaðstæður ungs fólks.',
-        interests: ['Jafnrétti og félagsleg réttlæti', 'Húsnæðismál', 'Réttindi launafólks', 'Umhverfismál'],
+        bio: null,
+        interests: null,
         social: null,
         news: [],
       }],
       [4, 'Víðís Einarsdóttir', 'Iðjuþjálfi', null, {
         age: null,
-        bio: 'Víðís Einarsdóttir er iðjuþjálfi og er í 4. sæti VG í Kópavogi. Hún leggur heilsugæðalega þekkingu sína til þjónustu við íbúa og leggur áherslu á velferð, jafnrétti og umhverfislegar lausnir.',
-        interests: ['Velferðarþjónusta og heilbrigðismál', 'Jafnrétti', 'Umhverfismál', 'Húsnæðismál'],
+        bio: null,
+        interests: null,
         social: null,
         news: [],
       }],
       [5, 'Rakel Ósk Sigurðardóttir', 'Félags- og gagnafræðingur', null, {
         age: null,
-        bio: 'Rakel Ósk Sigurðardóttir er félags- og gagnafræðingur og er í 5. sæti VG í Kópavogi. Hún kemur með þekkingu á gagnagreiningu og félagsfræði og leggur áherslu á gagnreyndar lausnir í húsnæðis- og umhverfismálum.',
-        interests: ['Umhverfismál og loftslagsaðgerðir', 'Jafnrétti og félagsleg réttlæti', 'Húsnæðismál', 'Gagnagrundvæð stefnumörkun'],
+        bio: null,
+        interests: null,
         social: null,
         news: [],
       }],
@@ -3749,8 +3749,8 @@ const HAF = {
       }],
       [2, 'Svenný Kristins', 'Aðstoðarmaður iðjuþjálfa, lagahöfundur', null, {
         age: null,
-        bio: 'Svenný Kristins er aðstoðarmaður iðjuþjálfa og lagahöfundur og er í 2. sæti Vinstrisins í Hafnarfirði. Hún kemur með þverfaglega þekkingu á velferð, heilbrigðismálum og jafnrétti og leggur áherslu á öflugt og lifandi samfélag.',
-        interests: ['Velferðarþjónusta og heilbrigðismál', 'Jafnrétti og mannréttindi', 'Húsnæðismál', 'Menning og samfélag'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Ester Bíbí leiðir lista Vinstrisins í Hafnarfirði', url: 'https://www.fjardarfrettir.is/frettir/politik/ester-bibi-leidir-lista-vinstrisins-i-hafnarfirdi', source: 'fjardarfrettir.is' },
@@ -3758,8 +3758,8 @@ const HAF = {
       }],
       [3, 'Davíð Arnar Stefánsson', 'Landfræðingur, fjallaleiðsögumaður', null, {
         age: null,
-        bio: 'Davíð Arnar Stefánsson er landfræðingur og fjallaleiðsögumaður og er í 3. sæti Vinstrisins í Hafnarfirði. Hann leggur þekkingu sína á náttúruvernd og umhverfismál til að stuðla að grænni og sjálfbærri þróun bæjarins.',
-        interests: ['Umhverfismál og náttúruvernd', 'Sjálfbær þróun', 'Útivistarsvæði og ferðaþjónusta', 'Samfélag og jafnrétti'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Ester Bíbí leiðir lista Vinstrisins í Hafnarfirði', url: 'https://www.fjardarfrettir.is/frettir/politik/ester-bibi-leidir-lista-vinstrisins-i-hafnarfirdi', source: 'fjardarfrettir.is' },
@@ -3767,8 +3767,8 @@ const HAF = {
       }],
       [4, 'Guðrún Lína Thoroddsen', 'Kvikmyndagerðarmaður', null, {
         age: null,
-        bio: 'Guðrún Lína Thoroddsen er kvikmyndagerðarmaður og er í 4. sæti Vinstrisins í Hafnarfirði. Hún kemur með skapandi sjónarmiðið og leggur áherslu á menningarlíf, jafnrétti og lifandi samfélag þar sem listir og mennta njóta stuðnings.',
-        interests: ['Menning og listir', 'Jafnrétti og mannréttindi', 'Húsnæðismál', 'Umhverfismál'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Ester Bíbí leiðir lista Vinstrisins í Hafnarfirði', url: 'https://www.fjardarfrettir.is/frettir/politik/ester-bibi-leidir-lista-vinstrisins-i-hafnarfirdi', source: 'fjardarfrettir.is' },
@@ -3776,8 +3776,8 @@ const HAF = {
       }],
       [5, 'Margrét Pétursdóttir', 'Leiðsögumaður', null, {
         age: null,
-        bio: 'Margrét Pétursdóttir er leiðsögumaður og er í 5. sæti Vinstrisins í Hafnarfirði. Hún kemur með reynslu af þjónustu og samskiptum og leggur áherslu á umhverfismál, jafnrétti og lifandi samfélag fyrir alla íbúa bæjarins.',
-        interests: ['Umhverfismál og sjálfbær þróun', 'Jafnrétti', 'Húsnæðismál', 'Ferðaþjónusta og samfélag'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Ester Bíbí leiðir lista Vinstrisins í Hafnarfirði', url: 'https://www.fjardarfrettir.is/frettir/politik/ester-bibi-leidir-lista-vinstrisins-i-hafnarfirdi', source: 'fjardarfrettir.is' },
@@ -3833,8 +3833,8 @@ const HAF = {
       }],
       [2, 'Kolbrún Magnúsdóttir', 'Mannauðsráðgjafi', null, {
         age: null,
-        bio: 'Kolbrún Magnúsdóttir er mannauðsráðgjafi og er í 2. sæti Framsóknarflokksins í Hafnarfirði. Hún kemur með þekkingu á mannauðsmálum og skipulagi og leggur áherslu á skynsamlega uppbyggingu og öflugar fjölskylduþjónustu í bænum.',
-        interests: ['Mannauðsmál og starfsmannaþjónusta', 'Uppbygging og húsnæðismál', 'Þjónusta við börn og fjölskyldur', 'Fjármálalegt jafnvægi'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Bæjarstjórinn leiðir lista Framsóknar í Hafnarfirði', url: 'https://www.mbl.is/frettir/innlent/2026/03/11/baejarstjorinn_leidir_lista_framsoknar_i_hafnarfird/', source: 'mbl.is' },
@@ -3842,8 +3842,8 @@ const HAF = {
       }],
       [3, 'Árni Rúnar Árnason', 'Tæknistjóri', null, {
         age: null,
-        bio: 'Árni Rúnar Árnason er tæknistjóri og er í 3. sæti Framsóknarflokksins í Hafnarfirði. Hann leggur tæknilega þekkingu og stjórnunarreynslu til framþróunar samgangna og innviðauppbyggingar í bænum.',
-        interests: ['Samgöngumál og innviðir', 'Tækni og þróun', 'Uppbygging og húsnæðismál', 'Fjármálalegt jafnvægi'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Bæjarstjórinn leiðir lista Framsóknar í Hafnarfirði', url: 'https://www.mbl.is/frettir/innlent/2026/03/11/baejarstjorinn_leidir_lista_framsoknar_i_hafnarfird/', source: 'mbl.is' },
@@ -3851,8 +3851,8 @@ const HAF = {
       }],
       [4, 'Jóhanna Erla Guðjónsdóttir', 'Félagsráðgjafi', null, {
         age: null,
-        bio: 'Jóhanna Erla Guðjónsdóttir er félagsráðgjafi og er í 4. sæti Framsóknarflokksins í Hafnarfirði. Hún kemur með þekkingu á félagslegri þjónustu og velferð og leggur áherslu á öflugar fjölskyldur og börn í bænum.',
-        interests: ['Félagsleg þjónusta og velferð', 'Börn og fjölskyldur', 'Húsnæðismál', 'Samfélag og íþróttamál'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Bæjarstjórinn leiðir lista Framsóknar í Hafnarfirði', url: 'https://www.mbl.is/frettir/innlent/2026/03/11/baejarstjorinn_leidir_lista_framsoknar_i_hafnarfird/', source: 'mbl.is' },
@@ -3860,8 +3860,8 @@ const HAF = {
       }],
       [5, 'Guðmundur Fylkisson', 'Lögreglumaður', null, {
         age: null,
-        bio: 'Guðmundur Fylkisson er lögreglumaður og er í 5. sæti Framsóknarflokksins í Hafnarfirði. Hann kemur með þekkingu á öryggi og reglu og leggur áherslu á öruggt og lifandi samfélag fyrir alla íbúa bæjarins.',
-        interests: ['Öryggi og samfélag', 'Uppbygging og þróun', 'Fjölskyldumál', 'Fjármálalegt jafnvægi'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Bæjarstjórinn leiðir lista Framsóknar í Hafnarfirði', url: 'https://www.mbl.is/frettir/innlent/2026/03/11/baejarstjorinn_leidir_lista_framsoknar_i_hafnarfird/', source: 'mbl.is' },
@@ -3919,8 +3919,8 @@ const HAF = {
       }],
       [2, 'Árni Stefán Guðjónsson', 'Áfangastjóri í Flensborg', 'images/candidates/e83498217a45467a.png', {
         age: null,
-        bio: 'Árni Stefán Guðjónsson er áfangastjóri í Flensborg og er í 2. sæti Viðreisnar í Hafnarfirði. Hann kemur með reynslu af nýsköpun og stjórnun og leggur áherslu á gagnsæjar og framsæknir ákvarðanatöku í bæjarstjórn.',
-        interests: ['Nýsköpun og framsækin stefna', 'Gagnsæi í stjórnsýslu', 'Atvinnulíf og þróun', 'Umhverfismál'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Karólína leiðir lista í Hafnarfirði', url: 'https://vidreisn.is/2026/03/karolina-leidir-lista-i-hafnarfirdi/', source: 'vidreisn.is' },
@@ -3928,8 +3928,8 @@ const HAF = {
       }],
       [3, 'Hjördís Hlíðberg', 'Verkefnastjóri', 'images/candidates/4f9ca6290c4946c0.png', {
         age: null,
-        bio: 'Hjördís Hlíðberg er verkefnastjóri og er í 3. sæti Viðreisnar í Hafnarfirði. Hún kemur með þekkingu á verkefnastjórnun og samstarfi og leggur áherslu á skilvirkni og fagleg vinnubrögð í bæjarstjórn.',
-        interests: ['Fagleg stjórnun og gagnsæi', 'Menntamál og skólaþjónusta', 'Umhverfismál', 'Þjónusta við íbúa'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Karólína leiðir lista í Hafnarfirði', url: 'https://vidreisn.is/2026/03/karolina-leidir-lista-i-hafnarfirdi/', source: 'vidreisn.is' },
@@ -3938,8 +3938,8 @@ const HAF = {
       }],
       [4, 'Óli Örn Eiríksson', 'Verkefnastjóri', 'images/candidates/efa2d641c298e954.png', {
         age: null,
-        bio: 'Óli Örn Eiríksson er verkefnastjóri og er í 4. sæti Viðreisnar í Hafnarfirði. Hann leggur reynslu af verkefnastjórnun til skipulagsmála og þróunar bæjarins og leggur áherslu á framsækar og sjálfbærar lausnir.',
-        interests: ['Skipulagsmál og þróun', 'Nýsköpun', 'Umhverfismál', 'Samgöngumál'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Karólína leiðir lista í Hafnarfirði', url: 'https://vidreisn.is/2026/03/karolina-leidir-lista-i-hafnarfirdi/', source: 'vidreisn.is' },
@@ -3947,8 +3947,8 @@ const HAF = {
       }],
       [5, 'Sigrún Jónsdóttir', 'Flugfreyja', 'images/candidates/5c887575c95fcef1.png', {
         age: null,
-        bio: 'Sigrún Jónsdóttir er flugfreyja og er í 5. sæti Viðreisnar í Hafnarfirði. Hún kemur með reynslu af þjónustu og alþjóðlegum samskiptum og leggur áherslu á framsæka og faglegri stjórnun bæjarins.',
-        interests: ['Þjónusta við íbúa', 'Gagnsæi í stjórnsýslu', 'Umhverfismál', 'Jafnrétti'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Karólína leiðir lista í Hafnarfirði', url: 'https://vidreisn.is/2026/03/karolina-leidir-lista-i-hafnarfirdi/', source: 'vidreisn.is' },
@@ -4006,8 +4006,8 @@ const HAF = {
       }],
       [2, 'Kristín Thoroddsen', 'Bæjarfulltrúi, formaður fræðsluráðs', 'images/candidates/86bbcfb4e46d1468.jpg', {
         age: null,
-        bio: 'Kristín Thoroddsen er bæjarfulltrúi og formaður fræðsluráðs og er í 2. sæti Sjálfstæðisflokksins í Hafnarfirði. Hún kemur með reynslu af menntamálum og bæjarstjórnarlegum störfum og leggur áherslu á gæðamenntun og fagleg vinnubrögð.',
-        interests: ['Menntamál og skólaþjónusta', 'Fagleg stjórnun bæjarins', 'Uppbygging og þróun', 'Fjármálalegt jafnvægi'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Framboðslisti Sjálfstæðisflokksins í Hafnarfirði', url: 'https://xd.is/2026/03/04/frambodslisti-sjalfstaedisflokksins-i-hafnarfirdi/', source: 'xd.is' },
@@ -4015,8 +4015,8 @@ const HAF = {
       }],
       [3, 'Viktor Pétur Finnsson', 'Nemi og varaþingmaður', 'images/candidates/36be130b2bb6bec3.jpg', {
         age: null,
-        bio: 'Viktor Pétur Finnsson er nemi og varaþingmaður og er í 3. sæti Sjálfstæðisflokksins í Hafnarfirði. Hann kemur með pólitíska reynslu og leggur áherslu á skynsamlega uppbyggingu og atvinnuþróun í bænum.',
-        interests: ['Atvinnulíf og nýsköpun', 'Uppbygging og skipulagsmál', 'Menntamál', 'Fjármálalegt jafnvægi'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Framboðslisti Sjálfstæðisflokksins í Hafnarfirði', url: 'https://xd.is/2026/03/04/frambodslisti-sjalfstaedisflokksins-i-hafnarfirdi/', source: 'xd.is' },
@@ -4024,8 +4024,8 @@ const HAF = {
       }],
       [4, 'Guðbjörg Oddný Jónasdóttir', 'Bæjarfulltrúi og samskiptastjóri', 'images/candidates/03ce189660900fbc.jpg', {
         age: null,
-        bio: 'Guðbjörg Oddný Jónasdóttir er bæjarfulltrúi og samskiptastjóri og er í 4. sæti Sjálfstæðisflokksins í Hafnarfirði. Hún kemur með reynslu af bæjarstjórnarmálum og samskiptum og leggur áherslu á gagnsæ og skilvirk samskipti við íbúa.',
-        interests: ['Samskipti og þjónusta við íbúa', 'Fagleg og skilvirk stjórnsýsla', 'Uppbygging bæjarins', 'Menntamál'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Framboðslisti Sjálfstæðisflokksins í Hafnarfirði', url: 'https://xd.is/2026/03/04/frambodslisti-sjalfstaedisflokksins-i-hafnarfirdi/', source: 'xd.is' },
@@ -4033,8 +4033,8 @@ const HAF = {
       }],
       [5, 'Kristinn Andersen', 'Verkfræðingur og forseti bæjarstjórnar', 'images/candidates/8d9c25de76033288.png', {
         age: null,
-        bio: 'Kristinn Andersen er verkfræðingur og forseti bæjarstjórnar og er í 5. sæti Sjálfstæðisflokksins í Hafnarfirði. Hann leggur tæknilega þekkingu og pólitíska reynslu til uppbyggingar og þróunar bæjarins.',
-        interests: ['Tækni og innviðauppbygging', 'Fagleg stjórnun', 'Fjármálalegt jafnvægi', 'Samgöngumál'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Framboðslisti Sjálfstæðisflokksins í Hafnarfirði', url: 'https://xd.is/2026/03/04/frambodslisti-sjalfstaedisflokksins-i-hafnarfirdi/', source: 'xd.is' },
@@ -4090,8 +4090,8 @@ const HAF = {
       }],
       [2, 'Signý Jóna Tryggvadóttir', 'Mannauðssérfræðingur', 'images/candidates/33f378784dc7f148.jpg', {
         age: null,
-        bio: 'Signý Jóna Tryggvadóttir er mannauðssérfræðingur og er í 2. sæti Miðflokksins í Hafnarfirði. Hún kemur með þekkingu á mannauðsmálum og starfsmannaþjónustu og leggur áherslu á grunnþjónustu við börn, fjölskyldur og aldraða.',
-        interests: ['Mannauðsmál og starfsmannaþjónusta', 'Þjónusta við börn og fjölskyldur', 'Aldraðir og velferð', 'Fjármálalegt jafnvægi'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Miðflokkurinn hefur kynnt framboðslista sinn', url: 'https://www.fjardarfrettir.is/frettir/politik/midflokkurinn-hefur-kynnt-frambodslista-sinn', source: 'fjardarfrettir.is' },
@@ -4099,8 +4099,8 @@ const HAF = {
       }],
       [3, 'Böðvar Ingi Guðbjartsson', 'Kennari og pípulagningameistari', 'images/candidates/9b78bd084ed91dd3.jpg', {
         age: null,
-        bio: 'Böðvar Ingi Guðbjartsson er kennari og pípulagningameistari og er í 3. sæti Miðflokksins í Hafnarfirði. Hann kemur með menntunarlega og iðnaðarlega reynslu og leggur áherslu á grunnþjónustu, menntamál og skynsamlega fjármálameðferð.',
-        interests: ['Menntamál og skólaþjónusta', 'Grunnþjónusta og innviðir', 'Börnin í forgangi', 'Fjármálalegt jafnvægi'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Miðflokkurinn hefur kynnt framboðslista sinn', url: 'https://www.fjardarfrettir.is/frettir/politik/midflokkurinn-hefur-kynnt-frambodslista-sinn', source: 'fjardarfrettir.is' },
@@ -4108,8 +4108,8 @@ const HAF = {
       }],
       [4, 'Eva Rún Helgadóttir', 'Viðskiptafræðingur', 'images/candidates/6bc2f744725607d4.jpg', {
         age: null,
-        bio: 'Eva Rún Helgadóttir er viðskiptafræðingur og er í 4. sæti Miðflokksins í Hafnarfirði. Hún kemur með þekkingu á rekstri og fjármálum og leggur áherslu á ábyrga meðferð fjármuna sveitarfélagsins og góða grunnþjónustu.',
-        interests: ['Fjármálalegt jafnvægi og ábyrg stjórnun', 'Þjónusta við börn og fjölskyldur', 'Aldraðir og velferð', 'Rekstrarleg hagkvæmni'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Miðflokkurinn hefur kynnt framboðslista sinn', url: 'https://www.fjardarfrettir.is/frettir/politik/midflokkurinn-hefur-kynnt-frambodslista-sinn', source: 'fjardarfrettir.is' },
@@ -4117,8 +4117,8 @@ const HAF = {
       }],
       [5, 'Arnhildur Ásdís Kolbeins', 'Fjármálastjóri', null, {
         age: null,
-        bio: 'Arnhildur Ásdís Kolbeins er fjármálastjóri og er í 5. sæti Miðflokksins í Hafnarfirði. Hún kemur með faglega reynslu af fjármálastjórnun og leggur áherslu á gagnsæi, ábyrgar fjármálaákvarðanir og grunnþjónustu íbúanna.',
-        interests: ['Fjármálalegt jafnvægi og gagnsæi', 'Þjónusta við aldraða og börn', 'Rekstrarleg hagkvæmni', 'Velferðarþjónusta'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Miðflokkurinn hefur kynnt framboðslista sinn', url: 'https://www.fjardarfrettir.is/frettir/politik/midflokkurinn-hefur-kynnt-frambodslista-sinn', source: 'fjardarfrettir.is' },
@@ -4171,8 +4171,8 @@ const HAF = {
       }],
       [2, 'Hildur Rós Guðbjargardóttir', 'Bæjarfulltrúi', 'images/candidates/9fe7efcfacad532a.jpg', {
         age: null,
-        bio: 'Hildur Rós Guðbjargardóttir er bæjarfulltrúi og er í 2. sæti Samfylkingarinnar í Hafnarfirði. Hún kemur með reynslu af bæjarstjórnarmálum og leggur áherslu á jafnrétti, gæðamenntun og öflugar velferðarþjónustu.',
-        interests: ['Jafnrétti og mannréttindi', 'Menntamál og skólaþjónusta', 'Velferðarþjónusta', 'Húsnæðismál'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Framboðslisti Samfylkingarinnar í Hafnarfirði', url: 'https://www.fjardarfrettir.is/frettir/frambodslisti-samfylkingarinnar-i-hafnarfirdi', source: 'fjardarfrettir.is' },
@@ -4180,8 +4180,8 @@ const HAF = {
       }],
       [3, 'Árni Rúnar Þorvaldsson', 'Bæjarfulltrúi, varaþingmaður Samfylkingar', 'images/candidates/78f394216cd9dc52.jpg', {
         age: null,
-        bio: 'Árni Rúnar Þorvaldsson er bæjarfulltrúi og varaþingmaður Samfylkingar og er í 3. sæti Samfylkingarinnar í Hafnarfirði. Hann kemur með pólitíska reynslu og leggur áherslu á jafnrétti, velferð og öflugar samgöngulausnir.',
-        interests: ['Jafnrétti og félagsleg réttlæti', 'Samgöngumál', 'Velferðarþjónusta', 'Menntamál'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Framboðslisti Samfylkingarinnar í Hafnarfirði', url: 'https://www.fjardarfrettir.is/frettir/frambodslisti-samfylkingarinnar-i-hafnarfirdi', source: 'fjardarfrettir.is' },
@@ -4189,8 +4189,8 @@ const HAF = {
       }],
       [4, 'Elín Anna Baldursdóttir', 'Sálfræðingur', 'images/candidates/07f61a5eda994352.jpg', {
         age: null,
-        bio: 'Elín Anna Baldursdóttir er sálfræðingur og er í 4. sæti Samfylkingarinnar í Hafnarfirði. Hún kemur með þekkingu á geðheilsu og velferð og leggur áherslu á öflugar félagslegar þjónustur og jafnrétti í bæjarsamfélaginu.',
-        interests: ['Geðheilsa og velferð', 'Jafnrétti', 'Þjónusta við börn og fjölskyldur', 'Menntamál'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Framboðslisti Samfylkingarinnar í Hafnarfirði', url: 'https://www.fjardarfrettir.is/frettir/frambodslisti-samfylkingarinnar-i-hafnarfirdi', source: 'fjardarfrettir.is' },
@@ -4198,8 +4198,8 @@ const HAF = {
       }],
       [5, 'Stefán Már Gunnlaugsson', 'Prestur, bæjarfulltrúi', 'images/candidates/ffce15145a6f7baf.jpg', {
         age: null,
-        bio: 'Stefán Már Gunnlaugsson er prestur og bæjarfulltrúi og er í 5. sæti Samfylkingarinnar í Hafnarfirði. Hann kemur með reynslu af samfélagslegum störfum og bæjarstjórnarmálum og leggur áherslu á velferð, samkennd og jafnrétti.',
-        interests: ['Velferðarþjónusta og samfélag', 'Jafnrétti', 'Menntamál', 'Húsnæðismál'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Framboðslisti Samfylkingarinnar í Hafnarfirði', url: 'https://www.fjardarfrettir.is/frettir/frambodslisti-samfylkingarinnar-i-hafnarfirdi', source: 'fjardarfrettir.is' },
@@ -4375,8 +4375,8 @@ const RNB = {
       }],
       [2, 'Róbert Jóhann Guðmundsson', 'Bæjarfulltrúi og málarameistari', null, {
         age: null,
-        bio: 'Róbert Jóhann Guðmundsson er bæjarfulltrúi og málarameistari og er í 2. sæti Framsóknarflokksins í Reykjanesbæ. Hann kemur með starfsreynslu sem iðnaðarmaður og kjörinn fulltrúi og leggur áherslu á uppbyggingu og öfluga grunnþjónustu fyrir íbúa.',
-        interests: ['Húsnæðismál og uppbygging', 'Grunnþjónusta og velferð', 'Atvinnulíf á Suðurnesjum', 'Samfélagsleg þjónusta'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Halldóra Fríða oddviti Framsóknarmanna í Reykjanesbæ', url: 'https://www.mbl.is/frettir/innlent/2026/02/08/halldora_frida_oddviti_framsoknarmanna_i_reykjanesb/', source: 'mbl.is' },
@@ -4385,8 +4385,8 @@ const RNB = {
       }],
       [3, 'Díana Hilmarsdóttir', 'Bæjarfulltrúi og forstöðumaður Bjargarinnar', null, {
         age: null,
-        bio: 'Díana Hilmarsdóttir er bæjarfulltrúi og forstöðumaður Bjargarinnar og er í 3. sæti Framsóknarflokksins í Reykjanesbæ. Hún hefur reynslu í félagslegri þjónustu og stuðningi við einstaklinga í erfiðleikum og vill efla velferðarþjónustu bæjarins.',
-        interests: ['Félagsþjónusta og stuðningur', 'Velferðarmál og barnavernd', 'Húsnæðismál', 'Heilbrigðisþjónusta'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Halldóra Fríða oddviti Framsóknarmanna í Reykjanesbæ', url: 'https://www.mbl.is/frettir/innlent/2026/02/08/halldora_frida_oddviti_framsoknarmanna_i_reykjanesb/', source: 'mbl.is' },
@@ -4395,8 +4395,8 @@ const RNB = {
       }],
       [4, 'Birgir Már Bragasson', 'Framkvæmdastjóri', null, {
         age: null,
-        bio: 'Birgir Már Bragasson er framkvæmdastjóri og er í 4. sæti Framsóknarflokksins í Reykjanesbæ. Hann leggur áherslu á öflugt atvinnulíf og skipulega uppbyggingu í sveitarfélaginu til framtíðar.',
-        interests: ['Atvinnuþróun og nýsköpun', 'Skipulagsmál', 'Fjármálastjórnun', 'Samgöngumál á Suðurnesjum'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Halldóra Fríða oddviti Framsóknarmanna í Reykjanesbæ', url: 'https://www.mbl.is/frettir/innlent/2026/02/08/halldora_frida_oddviti_framsoknarmanna_i_reykjanesb/', source: 'mbl.is' },
@@ -4405,8 +4405,8 @@ const RNB = {
       }],
       [5, 'Halla Karen Guðjónsdóttir', 'Sérfræðingur', null, {
         age: null,
-        bio: 'Halla Karen Guðjónsdóttir er sérfræðingur og er í 5. sæti Framsóknarflokksins í Reykjanesbæ. Hún leggur áherslu á gæðaþjónustu og faglegar lausnir í velferðar- og fjölskyldumálum.',
-        interests: ['Velferðarþjónusta', 'Menntun og þjálfun', 'Grunnþjónusta bæjarins', 'Fjölskyldumál'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Halldóra Fríða oddviti Framsóknarmanna í Reykjanesbæ', url: 'https://www.mbl.is/frettir/innlent/2026/02/08/halldora_frida_oddviti_framsoknarmanna_i_reykjanesb/', source: 'mbl.is' },
@@ -4461,8 +4461,8 @@ const RNB = {
       }],
       [2, 'Davíð Skarphéðinsson', 'Byggingafræðingur', null, {
         age: null,
-        bio: 'Davíð Skarphéðinsson er byggingafræðingur og er í 2. sæti Viðreisnar í Reykjanesbæ. Hann leggur faglega þekkingu á skipulag og byggingarmál og styður framsækin og gæðameðvituð vinnubrögð í þróun sveitarfélagsins.',
-        interests: ['Skipulagsmál og uppbygging', 'Umhverfismál', 'Nýsköpun og atvinnulíf', 'Gagnsæi í stjórnun'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Fyrsti listi Viðreisnar í Reykjanesbæ', url: 'https://www.ruv.is/frettir/innlent/2026-03-11-fyrsti-listi-vidreisnar-i-reykjanesbae-469529', source: 'ruv.is' },
@@ -4471,8 +4471,8 @@ const RNB = {
       }],
       [3, 'Ásta Kristín Guðmundsdóttir', 'Kennari og verkefnastjóri', null, {
         age: null,
-        bio: 'Ásta Kristín Guðmundsdóttir er kennari og verkefnastjóri og er í 3. sæti Viðreisnar í Reykjanesbæ. Hún hefur sérfræðiþekkingu í menntamálum og verkefnastjórnun og vill efla gæðamenntun og þjónustu í sveitarfélaginu.',
-        interests: ['Menntamál og skólauppbygging', 'Verkefnastjórnun', 'Börn og fjölskyldur', 'Frjálslæg gildi'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Fyrsti listi Viðreisnar í Reykjanesbæ', url: 'https://www.ruv.is/frettir/innlent/2026-03-11-fyrsti-listi-vidreisnar-i-reykjanesbae-469529', source: 'ruv.is' },
@@ -4481,8 +4481,8 @@ const RNB = {
       }],
       [4, 'Aðalheiður Júlírós Óskarsdóttir', 'Gæðastjóri', null, {
         age: null,
-        bio: 'Aðalheiður Júlírós Óskarsdóttir er gæðastjóri og er í 4. sæti Viðreisnar í Reykjanesbæ. Hún leggur áherslu á vandvirkni og faglegar gæðakröfur í rekstri og þjónustu sveitarfélagsins.',
-        interests: ['Gæðastjórnun í þjónustu', 'Gagnsæi og skilvirkni', 'Fjármálalegar umbætur', 'Samstarf og nýsköpun'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Fyrsti listi Viðreisnar í Reykjanesbæ', url: 'https://www.ruv.is/frettir/innlent/2026-03-11-fyrsti-listi-vidreisnar-i-reykjanesbae-469529', source: 'ruv.is' },
@@ -4491,8 +4491,8 @@ const RNB = {
       }],
       [5, 'Sveinn Enok Jóhannsson', 'Bóndi í Höfnum', null, {
         age: null,
-        bio: 'Sveinn Enok Jóhannsson er bóndi í Höfnum og er í 5. sæti Viðreisnar í Reykjanesbæ. Hann kemur með reynslu sem bóndi og leggur áherslu á hagsmuni dreifbýlisins og svæðisbundna þróun innan Reykjanesbæjar.',
-        interests: ['Landbúnaður og dreifbýli', 'Umhverfismál', 'Svæðisbundin þróun', 'Atvinnulíf á landsbyggðinni'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Fyrsti listi Viðreisnar í Reykjanesbæ', url: 'https://www.ruv.is/frettir/innlent/2026-03-11-fyrsti-listi-vidreisnar-i-reykjanesbae-469529', source: 'ruv.is' },
@@ -4552,8 +4552,8 @@ const RNB = {
       }],
       [2, 'Margrét Þórarinsdóttir', 'Yfirflugfreyja og bæjarfulltrúi', null, {
         age: null,
-        bio: 'Margrét Þórarinsdóttir er yfirflugfreyja og bæjarfulltrúi og er í 2. sæti Sjálfstæðisflokksins í Reykjanesbæ. Hún kemur með reynslu sem kjörinn fulltrúi og sérþekkingu í þjónustu og skipulagningu og leggur áherslu á öfluga þjónustu við íbúa.',
-        interests: ['Þjónusta og samskipti', 'Samgöngumál', 'Húsnæðismál', 'Atvinnulíf og nýsköpun'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Vilhjálmur nýr oddviti í Reykjanesbæ', url: 'https://www.mbl.is/frettir/innlent/2026/01/31/vilhjalmur_nyr_oddviti_i_reykjanesbae/', source: 'mbl.is' },
@@ -4562,8 +4562,8 @@ const RNB = {
       }],
       [3, 'Kristján Pétur Kristjánsson', 'Framkvæmdastjóri Konvin', null, {
         age: null,
-        bio: 'Kristján Pétur Kristjánsson er framkvæmdastjóri Konvin og er í 3. sæti Sjálfstæðisflokksins í Reykjanesbæ. Hann leggur starfsreynslu á atvinnuþróun og framkvæmdastjórnun og vill tryggja öflugt og fjölbreytt atvinnulíf í sveitarfélaginu.',
-        interests: ['Atvinnuþróun og nýsköpun', 'Fjármálastjórnun', 'Skipulagsmál', 'Lægri skattar'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Vilhjálmur nýr oddviti í Reykjanesbæ', url: 'https://www.mbl.is/frettir/innlent/2026/01/31/vilhjalmur_nyr_oddviti_i_reykjanesbae/', source: 'mbl.is' },
@@ -4571,8 +4571,8 @@ const RNB = {
       }],
       [4, 'Alexander Ragnarsson', 'Húsasmíðameistari og bæjarfulltrúi', null, {
         age: null,
-        bio: 'Alexander Ragnarsson er húsasmíðameistari og bæjarfulltrúi og er í 4. sæti Sjálfstæðisflokksins í Reykjanesbæ. Hann kemur með iðnmenntun og reynslu sem kjörinn fulltrúi og leggur áherslu á uppbyggingu og hagkvæmar framkvæmdir.',
-        interests: ['Húsnæðisuppbygging', 'Iðnaðarmál og iðnaðarmenntun', 'Grunnþjónusta', 'Fjármálalegar umbætur'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Vilhjálmur nýr oddviti í Reykjanesbæ', url: 'https://www.mbl.is/frettir/innlent/2026/01/31/vilhjalmur_nyr_oddviti_i_reykjanesbae/', source: 'mbl.is' },
@@ -4580,8 +4580,8 @@ const RNB = {
       }],
       [5, 'Guðbergur Reynisson', 'Framkvæmdastjóri og bæjarfulltrúi', 'images/candidates/fd60cc386bd065c4.png', {
         age: null,
-        bio: 'Guðbergur Reynisson er framkvæmdastjóri og bæjarfulltrúi og er í 5. sæti Sjálfstæðisflokksins í Reykjanesbæ. Hann hefur reynslu bæði sem kjörinn fulltrúi og atvinnurekandi og styður öflugt atvinnulíf og skilvirkni í bæjarstjórnun.',
-        interests: ['Atvinnuþróun', 'Hagkvæm stjórnun', 'Uppbygging og framkvæmdir', 'Lægri gjöld'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Vilhjálmur nýr oddviti í Reykjanesbæ', url: 'https://www.mbl.is/frettir/innlent/2026/01/31/vilhjalmur_nyr_oddviti_i_reykjanesbae/', source: 'mbl.is' },
@@ -4632,8 +4632,8 @@ const RNB = {
       }],
       [2, 'Rúnar Fossádal', 'Rannsóknarlögreglumaður', 'images/candidates/cf6a323612bb5e6a.jpg', {
         age: null,
-        bio: 'Rúnar Fossádal er rannsóknarlögreglumaður og er í 2. sæti Miðflokksins í Reykjanesbæ. Hann leggur áherslu á öryggi og réttarfarsmál og fagleg vinnubrögð í þjónustu bæjarins við íbúa.',
-        interests: ['Öryggi og löggæsla', 'Réttarfarsmál', 'Grunnþjónusta og velferð', 'Samfélagsleg þjónusta'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Viðskiptafræðingur leiðir Miðflokkinn í Reykjanesbæ', url: 'https://www.ruv.is/frettir/innlent/2026-03-25-vidskiptafraedingur-leidir-midflokkinn-i-reykjanesbae-470853', source: 'ruv.is' },
@@ -4642,8 +4642,8 @@ const RNB = {
       }],
       [3, 'Sigrún Þorsteinsdóttir', 'Þjónustufulltrúi og félagsliði', 'images/candidates/0757f792d7ad95b9.jpg', {
         age: null,
-        bio: 'Sigrún Þorsteinsdóttir er þjónustufulltrúi og félagsliði og er í 3. sæti Miðflokksins í Reykjanesbæ. Hún hefur brennandi áhuga á velferðarmálum og stuðningi við fjölskyldur og einstaklinga í samfélaginu.',
-        interests: ['Velferðarþjónusta og stuðningur', 'Félagslegt starf', 'Fjölskyldumál', 'Grunnþjónusta bæjarins'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Viðskiptafræðingur leiðir Miðflokkinn í Reykjanesbæ', url: 'https://www.ruv.is/frettir/innlent/2026-03-25-vidskiptafraedingur-leidir-midflokkinn-i-reykjanesbae-470853', source: 'ruv.is' },
@@ -4652,8 +4652,8 @@ const RNB = {
       }],
       [4, 'Bjarni Gunnólfsson', 'Matreiðslumaður', 'images/candidates/f1a67711c909b106.jpg', {
         age: null,
-        bio: 'Bjarni Gunnólfsson er matreiðslumaður og er í 4. sæti Miðflokksins í Reykjanesbæ. Hann kemur með iðnmenntun og leggur áherslu á verndun heimilisins og góða þjónustu fyrir fjölskyldur í bæjarfélaginu.',
-        interests: ['Fjölskyldumál og börn', 'Matvælamál og heilbrigði', 'Grunnþjónusta', 'Samfélagsleg þjónusta'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Viðskiptafræðingur leiðir Miðflokkinn í Reykjanesbæ', url: 'https://www.ruv.is/frettir/innlent/2026-03-25-vidskiptafraedingur-leidir-midflokkinn-i-reykjanesbae-470853', source: 'ruv.is' },
@@ -4662,8 +4662,8 @@ const RNB = {
       }],
       [5, 'Matthildur Júlía Matthíasdóttir', 'Umönnunaraðili', 'images/candidates/747455ad1b54b5a7.jpg', {
         age: null,
-        bio: 'Matthildur Júlía Matthíasdóttir er umönnunaraðili og er í 5. sæti Miðflokksins í Reykjanesbæ. Hún leggur áherslu á rétt aldraðra og þeirra sem þurfa umönnun og stuðning og vill styrkja þá þjónustu í bæjarfélaginu.',
-        interests: ['Öldruðumál og umönnun', 'Heilbrigðisþjónusta', 'Velferðarmál', 'Börn og fjölskyldur'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Viðskiptafræðingur leiðir Miðflokkinn í Reykjanesbæ', url: 'https://www.ruv.is/frettir/innlent/2026-03-25-vidskiptafraedingur-leidir-midflokkinn-i-reykjanesbae-470853', source: 'ruv.is' },
@@ -4714,8 +4714,8 @@ const RNB = {
       }],
       [2, 'Hjörtur Magnús Guðbjartsson', 'Kerfisstjóri', 'images/candidates/65199a46c3c38a52.png', {
         age: null,
-        bio: 'Hjörtur Magnús Guðbjartsson er kerfisstjóri og er í 2. sæti Samfylkingarinnar í Reykjanesbæ. Hann leggur tækniþekkingu sína í þágu nútæmrar og skilvirkrar þjónustu bæjarins og styður jöfn tækifæri og félagslegt réttlæti.',
-        interests: ['Tæknilegar lausnir í þjónustu', 'Gagnsæi og skilvirkni', 'Jafnréttismál', 'Menntun og þekking'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Guðný Birna áfram oddviti Samfylkingarinnar í Reykjanesbæ', url: 'https://www.vf.is/frettir/mikil-askorun-ad-taka-a-rekstri-og-byggja-upp-um-leid', source: 'vf.is' },
@@ -4723,8 +4723,8 @@ const RNB = {
       }],
       [3, 'Aðalheiður Hilmarsdóttir', 'Atvinnu- og virkniráðgjafi hjá Reykjavíkurborg', 'images/candidates/5d5c7c75ea2b355d.png', {
         age: null,
-        bio: 'Aðalheiður Hilmarsdóttir er atvinnu- og virkniráðgjafi hjá Reykjavíkurborg og er í 3. sæti Samfylkingarinnar í Reykjanesbæ. Hún hefur fagþekkingu á atvinnumálum, inngildingu og stuðningi við fólk í leit að atvinnu.',
-        interests: ['Atvinnumál og virkni', 'Inngildning og fjölbreytni', 'Velferðarþjónusta', 'Jöfn tækifæri'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Guðný Birna áfram oddviti Samfylkingarinnar í Reykjanesbæ', url: 'https://www.vf.is/frettir/mikil-askorun-ad-taka-a-rekstri-og-byggja-upp-um-leid', source: 'vf.is' },
@@ -4732,8 +4732,8 @@ const RNB = {
       }],
       [4, 'Bjarni Halldór Heiðuson Janusson', 'Stjórnmálafræðingur', 'images/candidates/11d9cd023287ba03.png', {
         age: null,
-        bio: 'Bjarni Halldór Heiðuson Janusson er stjórnmálafræðingur og er í 4. sæti Samfylkingarinnar í Reykjanesbæ. Hann leggur fræðilega þekkingu á stjórnmál og samfélagsmál í þágu betri ákvarðanatöku og lýðræðislegrar þátttöku.',
-        interests: ['Lýðræðið og þátttaka íbúa', 'Stjórnmálaleg hagsmunagæsla', 'Félagslegt réttlæti', 'Menntamál'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Guðný Birna áfram oddviti Samfylkingarinnar í Reykjanesbæ', url: 'https://www.vf.is/frettir/mikil-askorun-ad-taka-a-rekstri-og-byggja-upp-um-leid', source: 'vf.is' },
@@ -4741,8 +4741,8 @@ const RNB = {
       }],
       [5, 'Hámundur Örn Helgason', 'Framkvæmdastjóri UMFN', 'images/candidates/0408be597818e34e.png', {
         age: null,
-        bio: 'Hámundur Örn Helgason er framkvæmdastjóri UMFN og er í 5. sæti Samfylkingarinnar í Reykjanesbæ. Hann hefur reynslu í að stjórna æskulýðs- og íþróttasamtök og leggur áherslu á frístundastarfsemi og velferð ungmenna.',
-        interests: ['Æskulýðsmál og íþróttir', 'Frístundastarfsemi', 'Velferð ungmenna', 'Samfélagsleg þjónusta'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Guðný Birna áfram oddviti Samfylkingarinnar í Reykjanesbæ', url: 'https://www.vf.is/frettir/mikil-askorun-ad-taka-a-rekstri-og-byggja-upp-um-leid', source: 'vf.is' },
@@ -5167,8 +5167,8 @@ const ARB = {
       }],
       [2, 'Ellý Tómasdóttir', 'Bæjarfulltrúi, verkefnastjóri og forvarnastjóri', 'images/candidates/d88db6c7a5c943f2.jpg', {
         age: null,
-        bio: 'Ellý Tómasdóttir er bæjarfulltrúi, verkefnastjóri og forvarnastjóri og er í 2. sæti Framsóknarflokksins í Árborg. Hún kemur með reynslu af bæjarstjórnarmálum og forvörnum og leggur áherslu á velferð fjölskyldna og öfluga þjónustu við aldraða og fatlað fólk.',
-        interests: ['Velferðarþjónusta og forvarnir', 'Þjónusta við aldraða og fatlað fólk', 'Atvinnumál á Suðurlandi', 'Umhverfismál'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Listi Framsóknar í Árborg samþykktur', url: 'https://www.sunnlenska.is/frettir/listi-framsoknar-i-arborg-samthykktur/', source: 'sunnlenska.is' },
@@ -5176,8 +5176,8 @@ const ARB = {
       }],
       [3, 'Arnar Freyr Ólafsson', 'Bæjarfulltrúi, framkvæmdastjóri', 'images/candidates/7e2f89918151fa61.jpg', {
         age: null,
-        bio: 'Arnar Freyr Ólafsson er bæjarfulltrúi og framkvæmdastjóri og er í 3. sæti Framsóknarflokksins í Árborg. Hann kemur með reynslu af bæjarstjórnarmálum og rekstri og leggur áherslu á atvinnuþróun og sjálfbærar framkvæmdir í sveitarfélaginu.',
-        interests: ['Atvinnumál og landbúnaður', 'Uppbygging innviða', 'Fjármálalegt jafnvægi', 'Þjónusta við íbúa'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Listi Framsóknar í Árborg samþykktur', url: 'https://www.sunnlenska.is/frettir/listi-framsoknar-i-arborg-samthykktur/', source: 'sunnlenska.is' },
@@ -5185,8 +5185,8 @@ const ARB = {
       }],
       [4, 'Guðrún Rakel Svandísardóttir', 'Skólastjóri', 'images/candidates/9df2f9dcb9524710.jpg', {
         age: null,
-        bio: 'Guðrún Rakel Svandísardóttir er skólastjóri og er í 4. sæti Framsóknarflokksins í Árborg. Hún kemur með faglega þekkingu á menntastjórnun og leggur áherslu á gæðamenntun, fjölskylduþjónustu og sjálfbæra þróun í Suðurlandi.',
-        interests: ['Menntamál og skólauppbygging', 'Þjónusta við börn og fjölskyldur', 'Velferðarþjónusta', 'Umhverfismál'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Listi Framsóknar í Árborg samþykktur', url: 'https://www.sunnlenska.is/frettir/listi-framsoknar-i-arborg-samthykktur/', source: 'sunnlenska.is' },
@@ -5194,8 +5194,8 @@ const ARB = {
       }],
       [5, 'Magnús Benediktsson', 'Rekstrarstjóri', null, {
         age: null,
-        bio: 'Magnús Benediktsson er rekstrarstjóri og er í 5. sæti Framsóknarflokksins í Árborg. Hann kemur með reynslu af rekstri og fjármálum og leggur áherslu á öflugt atvinnulíf og skynsamlegt hagræðingar í bæjarrekstri.',
-        interests: ['Atvinnulíf og nýsköpun', 'Fjármálalegt jafnvægi', 'Uppbygging innviða', 'Þjónusta við íbúa'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Listi Framsóknar í Árborg samþykktur', url: 'https://www.sunnlenska.is/frettir/listi-framsoknar-i-arborg-samthykktur/', source: 'sunnlenska.is' },
@@ -5246,8 +5246,8 @@ const ARB = {
       }],
       [2, 'Guðný Björk Pálmadóttir', 'Hönnuður og nýsköpunarverkfræðingur', 'images/candidates/c7594d1e4e19a43a.jpg', {
         age: null,
-        bio: 'Guðný Björk Pálmadóttir er hönnuður og nýsköpunarverkfræðingur og er í 2. sæti Viðreisnar í Árborg. Hún kemur með þverfaglega þekkingu á hönnun og nýsköpun og leggur áherslu á framsæknara og gagnastýrt nálgun í þróun sveitarfélagsins.',
-        interests: ['Nýsköpun og tækni', 'Húsnæðismál og skipulag', 'Gagnsæi í stjórnsýslu', 'Atvinnulíf og þróun'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Heiðrún leiðir lista Viðreisnar í Árborg', url: 'https://www.ruv.is/frettir/innlent/2026-03-22-listi-vidreisnar-i-arborg-stadfestur-470564', source: 'ruv.is' },
@@ -5255,8 +5255,8 @@ const ARB = {
       }],
       [3, 'Þorsteinn Haukur Harðarson', 'Ráðgjafi', 'images/candidates/70f9f6c00bdac221.jpg', {
         age: null,
-        bio: 'Þorsteinn Haukur Harðarson er ráðgjafi og er í 3. sæti Viðreisnar í Árborg. Hann kemur með þekkingu á ráðgjöf og verkefnastjórnun og leggur áherslu á fagleg vinnubrögð og gagnsæja stjórnsýslu í þágu íbúanna.',
-        interests: ['Fagleg stjórnun og gagnsæi', 'Nýsköpun og þróun', 'Húsnæðismál', 'Þjónusta við íbúa'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Heiðrún leiðir lista Viðreisnar í Árborg', url: 'https://www.ruv.is/frettir/innlent/2026-03-22-listi-vidreisnar-i-arborg-stadfestur-470564', source: 'ruv.is' },
@@ -5264,8 +5264,8 @@ const ARB = {
       }],
       [4, 'Birgir Marteinsson', 'Lögfræðingur', 'images/candidates/229b38c31fba0e41.jpg', {
         age: null,
-        bio: 'Birgir Marteinsson er lögfræðingur og er í 4. sæti Viðreisnar í Árborg. Hann leggur lögfræðilega þekkingu til þjónustu við íbúa og ábyrgar ákvarðanatöku í málum húsnæðis og þróunar sveitarfélagsins.',
-        interests: ['Réttarfar og stjórnsýsla', 'Húsnæðismál', 'Gagnsæi í ákvarðanatöku', 'Nýsköpun'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Heiðrún leiðir lista Viðreisnar í Árborg', url: 'https://www.ruv.is/frettir/innlent/2026-03-22-listi-vidreisnar-i-arborg-stadfestur-470564', source: 'ruv.is' },
@@ -5273,8 +5273,8 @@ const ARB = {
       }],
       [5, 'Ingunn Guðmundsdóttir', 'Viðskiptafræðingur', 'images/candidates/bdb589b5361716be.jpg', {
         age: null,
-        bio: 'Ingunn Guðmundsdóttir er viðskiptafræðingur og er í 5. sæti Viðreisnar í Árborg. Hún kemur með þekkingu á viðskiptum og fjármálum og leggur áherslu á hagkvæmar og framsæknir lausnir í þróun sveitarfélagsins.',
-        interests: ['Atvinnulíf og nýsköpun', 'Fjármálalegt jafnvægi', 'Húsnæðismál', 'Gagnsæi í stjórnun'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Heiðrún leiðir lista Viðreisnar í Árborg', url: 'https://www.ruv.is/frettir/innlent/2026-03-22-listi-vidreisnar-i-arborg-stadfestur-470564', source: 'ruv.is' },
@@ -5329,8 +5329,8 @@ const ARB = {
       }],
       [2, 'Sveinn Ægir Birgisson', 'Formaður bæjarráðs', 'images/candidates/a68a207aa8255fdf.jpg', {
         age: null,
-        bio: 'Sveinn Ægir Birgisson er formaður bæjarráðs og er í 2. sæti Sjálfstæðisflokksins í Árborg. Hann kemur með reynslu af bæjarstjórnarmálum og leggur áherslu á hagvöxt, húsnæðismál og öflugar þjónustur við íbúa.',
-        interests: ['Hagvöxtur og atvinnulíf', 'Húsnæðismál', 'Fagleg stjórnun bæjarins', 'Þjónusta við íbúa'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Listi sjálfstæðismanna í Árborg samþykktur', url: 'https://www.mbl.is/frettir/innlent/2026/02/23/listi_sjalfstaedismanna_i_arborg_samthykktur/', source: 'mbl.is' },
@@ -5338,8 +5338,8 @@ const ARB = {
       }],
       [3, 'Linda Björk Hilmarsdóttir', 'Framkvæmdastjóri', 'images/candidates/bccdfe21911440e5.jpg', {
         age: null,
-        bio: 'Linda Björk Hilmarsdóttir er framkvæmdastjóri og er í 3. sæti Sjálfstæðisflokksins í Árborg. Hún kemur með reynslu af framkvæmdastjórnun og leggur áherslu á skilvirkni, fjölskylduvænan bæ og öflugt atvinnulíf.',
-        interests: ['Rekstrarleg hagkvæmni', 'Fjölskyldumál og börn', 'Atvinnulíf og nýsköpun', 'Húsnæðismál'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Listi sjálfstæðismanna í Árborg samþykktur', url: 'https://www.mbl.is/frettir/innlent/2026/02/23/listi_sjalfstaedismanna_i_arborg_samthykktur/', source: 'mbl.is' },
@@ -5347,8 +5347,8 @@ const ARB = {
       }],
       [4, 'Brynhildur Jónsdóttir', 'Þróunaraðstoðarmaður og bæjarfulltrúi', null, {
         age: null,
-        bio: 'Brynhildur Jónsdóttir er þróunaraðstoðarmaður og bæjarfulltrúi og er í 4. sæti Sjálfstæðisflokksins í Árborg. Hún kemur með reynslu af bæjarstjórnarmálum og þróunarstarfi og leggur áherslu á öflugar þjónustur og jöfn tækifæri.',
-        interests: ['Þróunarmál og velferð', 'Þjónusta við íbúa', 'Fjármálalegt jafnvægi', 'Húsnæðismál'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Listi sjálfstæðismanna í Árborg samþykktur', url: 'https://www.mbl.is/frettir/innlent/2026/02/23/listi_sjalfstaedismanna_i_arborg_samthykktur/', source: 'mbl.is' },
@@ -5356,8 +5356,8 @@ const ARB = {
       }],
       [5, 'Þórhildur Ingvadóttir', 'Lyfjafulltrúi og varabæjarfulltrúi', null, {
         age: null,
-        bio: 'Þórhildur Ingvadóttir er lyfjafulltrúi og varabæjarfulltrúi og er í 5. sæti Sjálfstæðisflokksins í Árborg. Hún kemur með heilsugæðalega þekkingu og reynslu af bæjarstjórnarmálum og leggur áherslu á heilbrigðisþjónustu og öfluga velferð í sveitarfélaginu.',
-        interests: ['Heilbrigðisþjónusta og lyfjamál', 'Velferðarþjónusta', 'Þjónusta við íbúa', 'Fjármálalegt jafnvægi'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Listi sjálfstæðismanna í Árborg samþykktur', url: 'https://www.mbl.is/frettir/innlent/2026/02/23/listi_sjalfstaedismanna_i_arborg_samthykktur/', source: 'mbl.is' },
@@ -5404,8 +5404,8 @@ const ARB = {
       }],
       [2, 'Margrét Björk Ólafsdóttir', 'Hjúkrunarstjóri', 'images/candidates/01c1c0d320f29d4d.jpg', {
         age: null,
-        bio: 'Margrét Björk Ólafsdóttir er hjúkrunarstjóri og er í 2. sæti Samfylkingarinnar í Árborg. Hún kemur með faglega þekkingu á heilbrigðisþjónustu og velferð og leggur áherslu á öflugar heilbrigðis- og velferðarþjónustur fyrir alla íbúa sveitarfélagsins.',
-        interests: ['Heilbrigðisþjónusta og velferð', 'Jafnrétti og félagsleg réttlæti', 'Menntamál', 'Þjónusta við aldraða'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Framboðslisti Samfylkingar og óháðra í Árborg samþykktur', url: 'https://www.dfs.is/frettir/frambodslisti-samfylkingar-og-ohadra-i-arborg-samthykktur/', source: 'dfs.is' },
@@ -5413,8 +5413,8 @@ const ARB = {
       }],
       [3, 'Brynjar Þór Elvarsson', 'Stjórnsýslufræðingur', null, {
         age: null,
-        bio: 'Brynjar Þór Elvarsson er stjórnsýslufræðingur og er í 3. sæti Samfylkingarinnar í Árborg. Hann kemur með þekkingu á stjórnsýslu og almannarrétti og leggur áherslu á öflugar velferðarþjónustur og jöfn tækifæri í sveitarfélaginu.',
-        interests: ['Stjórnsýsla og almannaréttur', 'Jafnrétti og velferð', 'Menntamál', 'Þjónusta við íbúa'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Framboðslisti Samfylkingar og óháðra í Árborg samþykktur', url: 'https://www.dfs.is/frettir/frambodslisti-samfylkingar-og-ohadra-i-arborg-samthykktur/', source: 'dfs.is' },
@@ -5422,8 +5422,8 @@ const ARB = {
       }],
       [4, 'Elísabet Björgvinsdóttir', 'Skemmtanastjóri og þjálfari', 'images/candidates/3cadcf71bc8960c2.jpg', {
         age: null,
-        bio: 'Elísabet Björgvinsdóttir er skemmtanastjóri og þjálfari og er í 4. sæti Samfylkingarinnar í Árborg. Hún kemur með reynslu af menningu og þjálfun og leggur áherslu á menningarlíf, æskulýðsmál og jöfn tækifæri í sveitarfélaginu.',
-        interests: ['Menning og tómstundamál', 'Æskulýðsmál og íþróttir', 'Jafnrétti', 'Velferðarþjónusta'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Framboðslisti Samfylkingar og óháðra í Árborg samþykktur', url: 'https://www.dfs.is/frettir/frambodslisti-samfylkingar-og-ohadra-i-arborg-samthykktur/', source: 'dfs.is' },
@@ -5431,8 +5431,8 @@ const ARB = {
       }],
       [5, 'Árni Magnússon', 'Verkefnastjóri', 'images/candidates/fc5af3aa72309908.jpg', {
         age: null,
-        bio: 'Árni Magnússon er verkefnastjóri og er í 5. sæti Samfylkingarinnar í Árborg. Hann kemur með þekkingu á verkefnastjórnun og leggur áherslu á öflugar velferðarþjónustur, jöfn tækifæri og skýra sýn í uppbyggingu sveitarfélagsins.',
-        interests: ['Velferðarþjónusta', 'Menntamál', 'Jafnrétti', 'Uppbygging og þróun Árborgar'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Framboðslisti Samfylkingar og óháðra í Árborg samþykktur', url: 'https://www.dfs.is/frettir/frambodslisti-samfylkingar-og-ohadra-i-arborg-samthykktur/', source: 'dfs.is' },
@@ -7458,8 +7458,8 @@ const FJD = {
       }],
       [2, 'Birgir Jónsson', 'Skólastjóri og bæjarfulltrúi', null, {
         age: null,
-        bio: 'Birgir Jónsson er skólastjóri og bæjarfulltrúi og er í 2. sæti Framsóknarflokksins í Fjarðabyggð. Hann kemur með reynslu af menntastjórnun og bæjarstjórnarmálum og leggur áherslu á gæðaþjónustu og uppbyggingu í sveitarfélaginu.',
-        interests: ['Menntamál og skólaþjónusta', 'Velferðarþjónusta', 'Uppbygging innviða', 'Atvinnumál á Austurlandi'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Framboðslisti Framsóknar í Fjarðabyggð 2026', url: 'https://kosningasaga.wordpress.com/2026/03/13/frambodslisti-framsoknar-i-fjardabyggd/', source: 'kosningasaga' },
@@ -7467,8 +7467,8 @@ const FJD = {
       }],
       [3, 'Helga Rakel Arnardóttir', 'Skrifstofustjóri og sjúkraflutningamaður', null, {
         age: null,
-        bio: 'Helga Rakel Arnardóttir er skrifstofustjóri og sjúkraflutningamaður og er í 3. sæti Framsóknarflokksins í Fjarðabyggð. Hún kemur með þverfaglega þekkingu á heilbrigðisþjónustu og stjórnun og leggur áherslu á öflugar heilbrigðisþjónustur og velferð íbúanna.',
-        interests: ['Heilbrigðisþjónusta og sjúkraflutningar', 'Velferð og þjónusta', 'Uppbygging innviða', 'Samfélag og fjölskyldur'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Framboðslisti Framsóknar í Fjarðabyggð 2026', url: 'https://kosningasaga.wordpress.com/2026/03/13/frambodslisti-framsoknar-i-fjardabyggd/', source: 'kosningasaga' },
@@ -7476,8 +7476,8 @@ const FJD = {
       }],
       [4, 'Sigurjón Andrés Jónasson', 'Starfsmaður við álver', null, {
         age: null,
-        bio: 'Sigurjón Andrés Jónasson er starfsmaður við álverið og er í 4. sæti Framsóknarflokksins í Fjarðabyggð. Hann kemur með reynslu af iðnaði og framleiðslu og leggur áherslu á öflugt atvinnulíf og uppbyggingu í sveitarfélaginu.',
-        interests: ['Iðnaður og atvinnulíf', 'Uppbygging og þróun', 'Velferðarþjónusta', 'Samgöngumál'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Framboðslisti Framsóknar í Fjarðabyggð 2026', url: 'https://kosningasaga.wordpress.com/2026/03/13/frambodslisti-framsoknar-i-fjardabyggd/', source: 'kosningasaga' },
@@ -7485,8 +7485,8 @@ const FJD = {
       }],
       [5, 'Bjarney Birta Bergsdóttir', 'Háskólanemi', null, {
         age: null,
-        bio: 'Bjarney Birta Bergsdóttir er háskólanemi og er í 5. sæti Framsóknarflokksins í Fjarðabyggð. Hún kemur með framúrskarandi áhuga á velferð ungra og leggur áherslu á þjónustu við börn, fjölskyldur og ungt fólk í sveitarfélaginu.',
-        interests: ['Menntamál og ungt fólk', 'Velferðarþjónusta', 'Íþrótta- og tómstundamál', 'Atvinnulíf á Austurlandi'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Framboðslisti Framsóknar í Fjarðabyggð 2026', url: 'https://kosningasaga.wordpress.com/2026/03/13/frambodslisti-framsoknar-i-fjardabyggd/', source: 'kosningasaga' },
@@ -7530,8 +7530,8 @@ const FJD = {
       }],
       [2, 'Kristinn Þór Jónasson', 'Þjónststjóri', null, {
         age: null,
-        bio: 'Kristinn Þór Jónasson er þjónustustjóri og er í 2. sæti Sjálfstæðisflokksins í Fjarðabyggð. Hann kemur með reynslu af þjónustu og stjórnun og leggur áherslu á hagvöxt, húsnæðismál og öflugar þjónustur við íbúa sveitarfélagsins.',
-        interests: ['Hagvöxtur og atvinnulíf', 'Þjónusta við íbúa', 'Húsnæðismál', 'Uppbygging og þróun'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Framboðslisti Sjálfstæðisflokksins í Fjarðabyggð 2026', url: 'https://xd.is/2026/02/23/frambodslisti-sjalfstaedisflokksins-i-fjardabyggd-samthykktur-2/', source: 'xd.is' },
@@ -7539,8 +7539,8 @@ const FJD = {
       }],
       [3, 'Þórdís Mjöll Benediktsdóttir', 'Leikskólastjóri', null, {
         age: null,
-        bio: 'Þórdís Mjöll Benediktsdóttir er leikskólastjóri og er í 3. sæti Sjálfstæðisflokksins í Fjarðabyggð. Hún kemur með faglega þekkingu á leikskólastarfi og börnum og leggur áherslu á þjónustu við börn og fjölskyldur í sveitarfélaginu.',
-        interests: ['Leikskólamál og menntun barna', 'Þjónusta við fjölskyldur', 'Húsnæðismál', 'Fjármálalegt jafnvægi'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Framboðslisti Sjálfstæðisflokksins í Fjarðabyggð 2026', url: 'https://xd.is/2026/02/23/frambodslisti-sjalfstaedisflokksins-i-fjardabyggd-samthykktur-2/', source: 'xd.is' },
@@ -7548,8 +7548,8 @@ const FJD = {
       }],
       [4, 'Húnbogi Sólon Gunnþórsson', 'Verkefnastjóri', null, {
         age: null,
-        bio: 'Húnbogi Sólon Gunnþórsson er verkefnastjóri og er í 4. sæti Sjálfstæðisflokksins í Fjarðabyggð. Hann kemur með þekkingu á verkefnastjórnun og leggur áherslu á skilvirkni, uppbyggingu og atvinnuþróun í sveitarfélaginu.',
-        interests: ['Verkefnastjórnun og uppbygging', 'Atvinnulíf og nýsköpun', 'Húsnæðismál', 'Fjármálalegt jafnvægi'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Framboðslisti Sjálfstæðisflokksins í Fjarðabyggð 2026', url: 'https://xd.is/2026/02/23/frambodslisti-sjalfstaedisflokksins-i-fjardabyggd-samthykktur-2/', source: 'xd.is' },
@@ -7557,8 +7557,8 @@ const FJD = {
       }],
       [5, 'Tanja Tómasdóttir', 'Gæðatryggingaraðstoðarmaður', null, {
         age: null,
-        bio: 'Tanja Tómasdóttir er gæðatryggingaraðstoðarmaður og er í 5. sæti Sjálfstæðisflokksins í Fjarðabyggð. Hún kemur með þekkingu á gæðamálum og leggur áherslu á faglegar og vandvirkar ákvarðanir í þágu þjónustu við íbúa sveitarfélagsins.',
-        interests: ['Gæðamál og fagleg vinnubrögð', 'Þjónusta við íbúa', 'Atvinnulíf', 'Uppbygging'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Framboðslisti Sjálfstæðisflokksins í Fjarðabyggð 2026', url: 'https://xd.is/2026/02/23/frambodslisti-sjalfstaedisflokksins-i-fjardabyggd-samthykktur-2/', source: 'xd.is' },
@@ -7599,8 +7599,8 @@ const FJD = {
       }],
       [2, 'Alma Sigurbjörnsdóttir', 'Sálfræðingur', null, {
         age: null,
-        bio: 'Alma Sigurbjörnsdóttir er sálfræðingur og er í 2. sæti Miðflokksins í Fjarðabyggð. Hún kemur með þekkingu á geðheilsu og velferð og leggur áherslu á samfélag, öflugar þjónustur og skynsamlega fjármálastjórnun í þágu allra íbúa.',
-        interests: ['Geðheilsa og velferð', 'Samfélag og þjónusta', 'Fjármálalegt jafnvægi', 'Atvinnumál'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Framboðslisti Miðflokksins í Fjarðabyggð kynntur', url: 'https://austurfrett.is/frettir/frambodhslisti-midhflokksins-i-fjardhabyggdh-kynntur', source: 'austurfrett.is' },
@@ -7608,8 +7608,8 @@ const FJD = {
       }],
       [3, 'Baldur Marteinn Einarsson', 'Flutningastjóri', null, {
         age: null,
-        bio: 'Baldur Marteinn Einarsson er flutningastjóri og er í 3. sæti Miðflokksins í Fjarðabyggð. Hann kemur með reynslu af flutningum og rekstri og leggur áherslu á öflugt atvinnulíf, uppbyggingu og skynsamlega nýtingu fjármuna sveitarfélagsins.',
-        interests: ['Samgöngumál og flutningar', 'Atvinnulíf og uppbygging', 'Fjármálalegt jafnvægi', 'Þjónusta við íbúa'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Framboðslisti Miðflokksins í Fjarðabyggð kynntur', url: 'https://austurfrett.is/frettir/frambodhslisti-midhflokksins-i-fjardhabyggdh-kynntur', source: 'austurfrett.is' },
@@ -7617,8 +7617,8 @@ const FJD = {
       }],
       [4, 'Hafþór Eiríksson', 'Rekstrarstjóri', null, {
         age: null,
-        bio: 'Hafþór Eiríksson er rekstrarstjóri og er í 4. sæti Miðflokksins í Fjarðabyggð. Hann kemur með reynslu af rekstri og leggur áherslu á fjölbreytt atvinnulíf, skynsamlega fjármálastjórnun og uppbyggingu í sveitarfélaginu.',
-        interests: ['Rekstrarleg hagkvæmni', 'Atvinnulíf og nýsköpun', 'Fjármálalegt jafnvægi', 'Uppbygging innviða'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Framboðslisti Miðflokksins í Fjarðabyggð kynntur', url: 'https://austurfrett.is/frettir/frambodhslisti-midhflokksins-i-fjardhabyggdh-kynntur', source: 'austurfrett.is' },
@@ -7626,8 +7626,8 @@ const FJD = {
       }],
       [5, 'Anna Guðný Gunnarsdóttir', 'Sjálfstæður bókari', null, {
         age: null,
-        bio: 'Anna Guðný Gunnarsdóttir er sjálfstæður bókari og er í 5. sæti Miðflokksins í Fjarðabyggð. Hún kemur með þekkingu á bókhaldslegum og fjármálalegum störfum og leggur áherslu á gagnsæja og skynsamlega fjármálastjórnun sveitarfélagsins.',
-        interests: ['Fjármálaleg gagnsæi', 'Rekstrarleg hagkvæmni', 'Þjónusta við íbúa', 'Samfélag og velferð'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Framboðslisti Miðflokksins í Fjarðabyggð kynntur', url: 'https://austurfrett.is/frettir/frambodhslisti-midhflokksins-i-fjardhabyggdh-kynntur', source: 'austurfrett.is' },
@@ -7671,8 +7671,8 @@ const FJD = {
       }],
       [2, 'Hjördís Helga Seljan', 'Kennslufræðilegur ráðgjafi', null, {
         age: null,
-        bio: 'Hjördís Helga Seljan er kennslufræðilegur ráðgjafi og er í 2. sæti Samfylkingarinnar í Fjarðabyggð. Hún kemur með faglega þekkingu á menntun og ráðgjöf og leggur áherslu á gæðamenntun, jöfn tækifæri og velferð íbúa sveitarfélagsins.',
-        interests: ['Menntamál og kennslufræði', 'Jafnrétti og jöfn tækifæri', 'Velferðarþjónusta', 'Samfélag og uppbygging'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Jöfnuður, ábyrgð og uppbygging', url: 'https://www.visir.is/g/20262872627d/jofnudur-abyrgd-og-uppbygging', source: 'visir.is' },
@@ -7681,8 +7681,8 @@ const FJD = {
       }],
       [3, 'Valborg Ösp Á. Warén', 'Verkefnastjóri', null, {
         age: null,
-        bio: 'Valborg Ösp Á. Warén er verkefnastjóri og er í 3. sæti Samfylkingarinnar í Fjarðabyggð. Hún kemur með þekkingu á verkefnastjórnun og leggur áherslu á jöfnuð, ábyrga stjórnun og uppbyggingu samfélagsins.',
-        interests: ['Verkefnastjórnun og þróun', 'Jöfn tækifæri', 'Velferðarþjónusta', 'Menntamál'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Jöfnuður, ábyrgð og uppbygging', url: 'https://www.visir.is/g/20262872627d/jofnudur-abyrgd-og-uppbygging', source: 'visir.is' },
@@ -7690,8 +7690,8 @@ const FJD = {
       }],
       [4, 'Adam Ingi Guðlaugsson', 'Verkfræðingur og rafvirki', null, {
         age: null,
-        bio: 'Adam Ingi Guðlaugsson er verkfræðingur og rafvirki og er í 4. sæti Samfylkingarinnar í Fjarðabyggð. Hann leggur tæknilega þekkingu til uppbyggingar innviða og leggur áherslu á jöfn tækifæri og öflugar þjónustur við íbúa.',
-        interests: ['Tækni og innviðauppbygging', 'Jöfn tækifæri', 'Atvinnulíf', 'Velferðarþjónusta'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Jöfnuður, ábyrgð og uppbygging', url: 'https://www.visir.is/g/20262872627d/jofnudur-abyrgd-og-uppbygging', source: 'visir.is' },
@@ -7699,8 +7699,8 @@ const FJD = {
       }],
       [5, 'Arndís Bára Pétursdóttir', 'Aðstoðarskólastjóri', null, {
         age: null,
-        bio: 'Arndís Bára Pétursdóttir er aðstoðarskólastjóri og er í 5. sæti Samfylkingarinnar í Fjarðabyggð. Hún kemur með faglega þekkingu á skólamálum og leggur áherslu á gæðamenntun og starka skólaþjónustu í sveitarfélaginu.',
-        interests: ['Menntamál og skólaþjónusta', 'Velferðarþjónusta', 'Jöfn tækifæri', 'Samfélag og uppbygging'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Jöfnuður, ábyrgð og uppbygging', url: 'https://www.visir.is/g/20262872627d/jofnudur-abyrgd-og-uppbygging', source: 'visir.is' },
@@ -7741,10 +7741,10 @@ const HFJ = {
         social: [{ type: 'linkedin', url: 'https://www.linkedin.com/in/hjalti-vignisson-439b14122/', label: 'LinkedIn' }],
         news: [{ title: 'Framboðslisti Framsóknar og stuðningsmanna í Sveitarfélaginu Hornafirði', url: 'https://kosningasaga.wordpress.com/2026/02/27/frambodslisti-framsoknar-og-studningsmanna-i-sveitarfelaginu-hornafirdi/', source: 'kosningasaga' }],
       }],
-      [2, 'Ingibjörg Sveinsdóttir', 'Atvinnurekandi og grunnskólakennari', null, { age: null, bio: 'Ingibjörg Sveinsdóttir er atvinnurekandi og grunnskólakennari og er í 2. sæti Framsóknarflokksins á Hornafirði. Hún kemur með þverfaglega þekkingu á menntun og rekstri og leggur áherslu á öflugar þjónustur og velferð íbúa sveitarfélagsins.', interests: ['Menntamál og skólaþjónusta', 'Atvinnulíf og nýsköpun', 'Velferðarþjónusta', 'Ferðaþjónusta'], social: null, news: [{ title: 'Framboðslisti Framsóknar og stuðningsmanna í Sveitarfélaginu Hornafirði', url: 'https://kosningasaga.wordpress.com/2026/02/27/frambodslisti-framsoknar-og-studningsmanna-i-sveitarfelaginu-hornafirdi/', source: 'kosningasaga' }] }],
-      [3, 'Björgvin Óskar Sigurjónsson', 'Byggingatæknifræðingur og bæjarfulltrúi', null, { age: null, bio: 'Björgvin Óskar Sigurjónsson er byggingatæknifræðingur og bæjarfulltrúi og er í 3. sæti Framsóknarflokksins á Hornafirði. Hann kemur með tæknilega þekkingu og reynslu af bæjarstjórnarmálum og leggur áherslu á uppbyggingu innviða og þjónustu við íbúa.', interests: ['Uppbygging og innviðir', 'Þjónusta við íbúa', 'Atvinnulíf', 'Velferðarþjónusta'], social: null, news: [{ title: 'Framboðslisti Framsóknar og stuðningsmanna í Sveitarfélaginu Hornafirði', url: 'https://kosningasaga.wordpress.com/2026/02/27/frambodslisti-framsoknar-og-studningsmanna-i-sveitarfelaginu-hornafirdi/', source: 'kosningasaga' }] }],
-      [4, 'Kolbrún Þorbjörg Björnsdóttir', 'Heilsuþjálfari og rekstrarstjóri', null, { age: null, bio: 'Kolbrún Þorbjörg Björnsdóttir er heilsuþjálfari og rekstrarstjóri og er í 4. sæti Framsóknarflokksins á Hornafirði. Hún kemur með þekkingu á heilbrigðismálum og rekstri og leggur áherslu á heilbrigði, velferð og öflugt samfélag á Hornafirði.', interests: ['Heilbrigði og velferð', 'Atvinnulíf og ferðaþjónusta', 'Íþrótta- og tómstundamál', 'Þjónusta við íbúa'], social: null, news: [{ title: 'Framboðslisti Framsóknar og stuðningsmanna í Sveitarfélaginu Hornafirði', url: 'https://kosningasaga.wordpress.com/2026/02/27/frambodslisti-framsoknar-og-studningsmanna-i-sveitarfelaginu-hornafirdi/', source: 'kosningasaga' }] }],
-      [5, 'Gunnar Ásgeirsson', 'Innkaupastjóri og varabæjarfulltrúi', null, { age: null, bio: 'Gunnar Ásgeirsson er innkaupastjóri og varabæjarfulltrúi og er í 5. sæti Framsóknarflokksins á Hornafirði. Hann kemur með reynslu af innkaupum og bæjarstjórnarmálum og leggur áherslu á skynsamlega fjármálastjórnun og öflugar þjónustur.', interests: ['Fjármálalegt jafnvægi', 'Þjónusta við íbúa', 'Uppbygging', 'Velferðarþjónusta'], social: null, news: [{ title: 'Framboðslisti Framsóknar og stuðningsmanna í Sveitarfélaginu Hornafirði', url: 'https://kosningasaga.wordpress.com/2026/02/27/frambodslisti-framsoknar-og-studningsmanna-i-sveitarfelaginu-hornafirdi/', source: 'kosningasaga' }] }],
+      [2, 'Ingibjörg Sveinsdóttir', 'Atvinnurekandi og grunnskólakennari', null, { age: null, bio: null, interests: null, social: null, news: [{ title: 'Framboðslisti Framsóknar og stuðningsmanna í Sveitarfélaginu Hornafirði', url: 'https://kosningasaga.wordpress.com/2026/02/27/frambodslisti-framsoknar-og-studningsmanna-i-sveitarfelaginu-hornafirdi/', source: 'kosningasaga' }] }],
+      [3, 'Björgvin Óskar Sigurjónsson', 'Byggingatæknifræðingur og bæjarfulltrúi', null, { age: null, bio: null, interests: null, social: null, news: [{ title: 'Framboðslisti Framsóknar og stuðningsmanna í Sveitarfélaginu Hornafirði', url: 'https://kosningasaga.wordpress.com/2026/02/27/frambodslisti-framsoknar-og-studningsmanna-i-sveitarfelaginu-hornafirdi/', source: 'kosningasaga' }] }],
+      [4, 'Kolbrún Þorbjörg Björnsdóttir', 'Heilsuþjálfari og rekstrarstjóri', null, { age: null, bio: null, interests: null, social: null, news: [{ title: 'Framboðslisti Framsóknar og stuðningsmanna í Sveitarfélaginu Hornafirði', url: 'https://kosningasaga.wordpress.com/2026/02/27/frambodslisti-framsoknar-og-studningsmanna-i-sveitarfelaginu-hornafirdi/', source: 'kosningasaga' }] }],
+      [5, 'Gunnar Ásgeirsson', 'Innkaupastjóri og varabæjarfulltrúi', null, { age: null, bio: null, interests: null, social: null, news: [{ title: 'Framboðslisti Framsóknar og stuðningsmanna í Sveitarfélaginu Hornafirði', url: 'https://kosningasaga.wordpress.com/2026/02/27/frambodslisti-framsoknar-og-studningsmanna-i-sveitarfelaginu-hornafirdi/', source: 'kosningasaga' }] }],
       [6, 'Finnur Smári Torfason', 'Verkfræðingur'],
       [7, 'Erla Rún Guðmundsdóttir', 'Bóndi'],
       [8, 'Þórdís Þórsdóttir', 'Skólastjóri'],
@@ -7775,10 +7775,10 @@ const HFJ = {
         social: null,
         news: [{ title: 'Gauti Árnason oddviti Sveitarfélagsins Hornafjörðar', url: 'https://xd.is/2026/03/14/gauti-arnason-oddviti-sveitarfelagsins-hornafjardar/', source: 'xd.is' }],
       }],
-      [2, 'Hjördís Edda Olgeirsdóttir', 'Bæjarfulltrúi', 'images/candidates/92aea38eb2a6fdfb.png', { age: null, bio: 'Hjördís Edda Olgeirsdóttir er bæjarfulltrúi og er í 2. sæti Sjálfstæðisflokksins á Hornafirði. Hún kemur með reynslu af bæjarstjórnarmálum og leggur áherslu á hagvöxt, uppbyggingu og gæðaþjónustu við alla íbúa sveitarfélagsins.', interests: ['Hagvöxtur og atvinnulíf', 'Uppbygging og þróun', 'Þjónusta við íbúa', 'Fjármálalegt jafnvægi'], social: null, news: [{ title: 'Gauti Árnason oddviti Sveitarfélagsins Hornafjörðar', url: 'https://xd.is/2026/03/14/gauti-arnason-oddviti-sveitarfelagsins-hornafjardar/', source: 'xd.is' }] }],
-      [3, 'Ásta Steinunn Eiríksdóttir', 'Hagfræðingur', 'images/candidates/ef7753ec80da8506.png', { age: null, bio: 'Ásta Steinunn Eiríksdóttir er hagfræðingur og er í 3. sæti Sjálfstæðisflokksins á Hornafirði. Hún leggur hagfræðilega þekkingu til ábyrgar fjármálastjórnunar og skynsamlegrar uppbyggingar í sveitarfélaginu.', interests: ['Hagfræði og fjármál', 'Uppbygging og þróun', 'Atvinnulíf', 'Þjónusta við íbúa'], social: null, news: [{ title: 'Gauti Árnason oddviti Sveitarfélagsins Hornafjörðar', url: 'https://xd.is/2026/03/14/gauti-arnason-oddviti-sveitarfelagsins-hornafjardar/', source: 'xd.is' }] }],
-      [4, 'Ágústa Arnardóttir', 'Athafnamaður', 'images/candidates/cf6c8e9bb180d07c.png', { age: null, bio: 'Ágústa Arnardóttir er athafnamaður og er í 4. sæti Sjálfstæðisflokksins á Hornafirði. Hún kemur með reynslu af rekstri og atvinnulífi og leggur áherslu á hagvöxt, nýsköpun og öflugt samfélag á Hornafirði.', interests: ['Atvinnulíf og nýsköpun', 'Hagvöxtur', 'Ferðaþjónusta', 'Þjónusta við íbúa'], social: null, news: [{ title: 'Gauti Árnason oddviti Sveitarfélagsins Hornafjörðar', url: 'https://xd.is/2026/03/14/gauti-arnason-oddviti-sveitarfelagsins-hornafjardar/', source: 'xd.is' }] }],
-      [5, 'Sindri Ragnarsson', 'Íþróttafræðingur', 'images/candidates/6191e846b2c80bf9.png', { age: null, bio: 'Sindri Ragnarsson er íþróttafræðingur og er í 5. sæti Sjálfstæðisflokksins á Hornafirði. Hann kemur með þekkingu á íþróttum og heilbrigðismálum og leggur áherslu á íþrótta- og tómstundamál, heilbrigðisþjónustu og lifandi samfélag.', interests: ['Íþrótta- og tómstundamál', 'Heilbrigðismál', 'Uppbygging', 'Atvinnulíf'], social: null, news: [{ title: 'Gauti Árnason oddviti Sveitarfélagsins Hornafjörðar', url: 'https://xd.is/2026/03/14/gauti-arnason-oddviti-sveitarfelagsins-hornafjardar/', source: 'xd.is' }] }],
+      [2, 'Hjördís Edda Olgeirsdóttir', 'Bæjarfulltrúi', 'images/candidates/92aea38eb2a6fdfb.png', { age: null, bio: null, interests: null, social: null, news: [{ title: 'Gauti Árnason oddviti Sveitarfélagsins Hornafjörðar', url: 'https://xd.is/2026/03/14/gauti-arnason-oddviti-sveitarfelagsins-hornafjardar/', source: 'xd.is' }] }],
+      [3, 'Ásta Steinunn Eiríksdóttir', 'Hagfræðingur', 'images/candidates/ef7753ec80da8506.png', { age: null, bio: null, interests: null, social: null, news: [{ title: 'Gauti Árnason oddviti Sveitarfélagsins Hornafjörðar', url: 'https://xd.is/2026/03/14/gauti-arnason-oddviti-sveitarfelagsins-hornafjardar/', source: 'xd.is' }] }],
+      [4, 'Ágústa Arnardóttir', 'Athafnamaður', 'images/candidates/cf6c8e9bb180d07c.png', { age: null, bio: null, interests: null, social: null, news: [{ title: 'Gauti Árnason oddviti Sveitarfélagsins Hornafjörðar', url: 'https://xd.is/2026/03/14/gauti-arnason-oddviti-sveitarfelagsins-hornafjardar/', source: 'xd.is' }] }],
+      [5, 'Sindri Ragnarsson', 'Íþróttafræðingur', 'images/candidates/6191e846b2c80bf9.png', { age: null, bio: null, interests: null, social: null, news: [{ title: 'Gauti Árnason oddviti Sveitarfélagsins Hornafjörðar', url: 'https://xd.is/2026/03/14/gauti-arnason-oddviti-sveitarfelagsins-hornafjardar/', source: 'xd.is' }] }],
       [6, 'Níels Brimar Jónsson', 'Málara meistari', 'images/candidates/936d456b4b171a65.png'],
       [7, 'Þröstur Jóhansson', 'Bæjarverkstjóri', 'images/candidates/89537f56e327615a.png'],
       [8, 'Steindór Sigurjónsson', 'Framkvæmdarstjóri', 'images/candidates/8740f54c69ba5b73.png'],
@@ -7805,10 +7805,10 @@ const HFJ = {
         social: null,
         news: [{ title: 'Framboðslisti Kex framboðs í Sveitarfélaginu Hornafirði', url: 'https://kosningasaga.wordpress.com/2026/02/28/frambodslisti-kex-frambods-i-sveitarfelaginu-hornafirdi/', source: 'kosningasaga' }],
       }],
-      [2, 'Guðrún Stefanía Vopnfjörð Ingólfsdóttir', 'Bæjarfulltrúi og sérfræðingur', 'images/candidates/ddd64c9d526c69e8.jpg', { age: null, bio: 'Guðrún Stefanía Vopnfjörð Ingólfsdóttir er bæjarfulltrúi og sérfræðingur og er í 2. sæti Kex framboðsins á Hornafirði. Hún kemur með reynslu af bæjarstjórnarmálum og leggur áherslu á þátttöku íbúa, skynsamlega uppbyggingu og öflugt samfélag.', interests: ['Þátttaka íbúa', 'Uppbygging og samfélag', 'Velferðarþjónusta', 'Menntamál'], social: null, news: [{ title: 'Framboðslisti Kex framboðs í Sveitarfélaginu Hornafirði', url: 'https://kosningasaga.wordpress.com/2026/02/28/frambodslisti-kex-frambods-i-sveitarfelaginu-hornafirdi/', source: 'kosningasaga' }] }],
-      [3, 'Elías Tjörvi Halldórsson', 'Kokkur og hjúkrunarfræðinemi', null, { age: null, bio: 'Elías Tjörvi Halldórsson er kokkur og hjúkrunarfræðinemi og er í 3. sæti Kex framboðsins á Hornafirði. Hann kemur með þverfaglega þekkingu á heilbrigðisþjónustu og matreiðslu og leggur áherslu á velferð og lifandi samfélag.', interests: ['Heilbrigðisþjónusta og velferð', 'Samfélag og þátttaka', 'Menntamál', 'Ferðaþjónusta'], social: null, news: [{ title: 'Framboðslisti Kex framboðs í Sveitarfélaginu Hornafirði', url: 'https://kosningasaga.wordpress.com/2026/02/28/frambodslisti-kex-frambods-i-sveitarfelaginu-hornafirdi/', source: 'kosningasaga' }] }],
-      [4, 'Wiktoria Anna Darnowska', 'Starfsmaður í félagsþjónustu', 'images/candidates/5bce272424882f30.jpg', { age: null, bio: 'Wiktoria Anna Darnowska er starfsmaður í félagsþjónustu og er í 4. sæti Kex framboðsins á Hornafirði. Hún kemur með þekkingu á félagsþjónustu og leggur áherslu á fjölbreytni, velferð og þátttöku allra í samfélaginu.', interests: ['Félagsþjónusta og velferð', 'Fjölbreytni og inngildning', 'Þátttaka íbúa', 'Samfélag'], social: null, news: [{ title: 'Framboðslisti Kex framboðs í Sveitarfélaginu Hornafirði', url: 'https://kosningasaga.wordpress.com/2026/02/28/frambodslisti-kex-frambods-i-sveitarfelaginu-hornafirdi/', source: 'kosningasaga' }] }],
-      [5, 'Sigrún Sigurgeirsdóttir', 'Sérfræðingur', 'images/candidates/b1b89a4580b90f9f.jpg', { age: null, bio: 'Sigrún Sigurgeirsdóttir er sérfræðingur og er í 5. sæti Kex framboðsins á Hornafirði. Hún kemur með faglega þekkingu og leggur áherslu á þátttöku íbúa, uppbyggingu samfélagsins og gæðaþjónustu við alla.', interests: ['Fagleg þjónusta og sérfræðiþekking', 'Þátttaka íbúa', 'Uppbygging samfélagsins', 'Velferðarþjónusta'], social: null, news: [{ title: 'Framboðslisti Kex framboðs í Sveitarfélaginu Hornafirði', url: 'https://kosningasaga.wordpress.com/2026/02/28/frambodslisti-kex-frambods-i-sveitarfelaginu-hornafirdi/', source: 'kosningasaga' }] }],
+      [2, 'Guðrún Stefanía Vopnfjörð Ingólfsdóttir', 'Bæjarfulltrúi og sérfræðingur', 'images/candidates/ddd64c9d526c69e8.jpg', { age: null, bio: null, interests: null, social: null, news: [{ title: 'Framboðslisti Kex framboðs í Sveitarfélaginu Hornafirði', url: 'https://kosningasaga.wordpress.com/2026/02/28/frambodslisti-kex-frambods-i-sveitarfelaginu-hornafirdi/', source: 'kosningasaga' }] }],
+      [3, 'Elías Tjörvi Halldórsson', 'Kokkur og hjúkrunarfræðinemi', null, { age: null, bio: null, interests: null, social: null, news: [{ title: 'Framboðslisti Kex framboðs í Sveitarfélaginu Hornafirði', url: 'https://kosningasaga.wordpress.com/2026/02/28/frambodslisti-kex-frambods-i-sveitarfelaginu-hornafirdi/', source: 'kosningasaga' }] }],
+      [4, 'Wiktoria Anna Darnowska', 'Starfsmaður í félagsþjónustu', 'images/candidates/5bce272424882f30.jpg', { age: null, bio: null, interests: null, social: null, news: [{ title: 'Framboðslisti Kex framboðs í Sveitarfélaginu Hornafirði', url: 'https://kosningasaga.wordpress.com/2026/02/28/frambodslisti-kex-frambods-i-sveitarfelaginu-hornafirdi/', source: 'kosningasaga' }] }],
+      [5, 'Sigrún Sigurgeirsdóttir', 'Sérfræðingur', 'images/candidates/b1b89a4580b90f9f.jpg', { age: null, bio: null, interests: null, social: null, news: [{ title: 'Framboðslisti Kex framboðs í Sveitarfélaginu Hornafirði', url: 'https://kosningasaga.wordpress.com/2026/02/28/frambodslisti-kex-frambods-i-sveitarfelaginu-hornafirdi/', source: 'kosningasaga' }] }],
       [6, 'Styrmir Einarsson', 'Leiðsögumaður', 'images/candidates/5722caec8ad9da89.jpg'],
       [7, 'Kristján Örn Ebenezersson', 'Framhaldsskólakennari', 'images/candidates/35a2320c1f28a8de.png'],
       [8, 'Róslín Alma Valdemarsdóttir', 'Verkefnastjóri', 'images/candidates/e593406563c32141.jpg'],
@@ -7838,10 +7838,10 @@ const HFJ = {
         ],
         news: [{ title: 'Framboðslisti Miðflokksins í Svf. Hornafirði', url: 'https://kosningasaga.wordpress.com/2026/04/03/frambodslisti-midflokksins-i-svf-hornafirdi/', source: 'kosningasaga' }],
       }],
-      [2, 'Stefán Freyr Jónsson', 'Bóndi og slökkviliðsmaður', null, { age: null, bio: 'Stefán Freyr Jónsson er bóndi og slökkviliðsmaður og er í 2. sæti Miðflokksins á Hornafirði. Hann kemur með þverfaglega reynslu af landbúnaði og björgunarþjónustu og leggur áherslu á öfluga neyðarþjónustu og stuðning við sveitaríbúa.', interests: ['Landbúnaður og sveitaríbúar', 'Neyðarþjónusta og slökkviliðsstarf', 'Samfélagsuppbygging', 'Ábyrg fjármálastjórnun'], social: null, news: [{ title: 'Framboðslisti Miðflokksins í Svf. Hornafirði', url: 'https://kosningasaga.wordpress.com/2026/04/03/frambodslisti-midflokksins-i-svf-hornafirdi/', source: 'kosningasaga' }] }],
-      [3, 'Herdís I Waage', 'Aðstoðarskólastjóri og kennari', null, { age: null, bio: 'Herdís I Waage er aðstoðarskólastjóri og kennari og er í 3. sæti Miðflokksins á Hornafirði. Hún leggur áherslu á gæðamenntun, stuðning við nemendur og fjölskyldur og öfluga skólaþjónustu í sveitarfélaginu.', interests: ['Menntamál og skólaþjónusta', 'Fjölskylduþjónusta', 'Velferð barna og ungmenna', 'Grunnþjónusta íbúa'], social: null, news: [{ title: 'Framboðslisti Miðflokksins í Svf. Hornafirði', url: 'https://kosningasaga.wordpress.com/2026/04/03/frambodslisti-midflokksins-i-svf-hornafirdi/', source: 'kosningasaga' }] }],
-      [4, 'Erlingur Ingi Brynjólfsson', 'Verksmiðjustjóri', null, { age: null, bio: 'Erlingur Ingi Brynjólfsson er verksmiðjustjóri og er í 4. sæti Miðflokksins á Hornafirði. Hann kemur með stjórnunarreynslu úr iðnaði og leggur áherslu á atvinnusköpun, rekstrarleg skilyrði og uppbyggingu atvinnulífs á svæðinu.', interests: ['Atvinnulíf og iðnaður', 'Rekstrarumhverfi fyrirtækja', 'Innviðauppbygging', 'Ábyrg fjármálastjórnun'], social: null, news: [{ title: 'Framboðslisti Miðflokksins í Svf. Hornafirði', url: 'https://kosningasaga.wordpress.com/2026/04/03/frambodslisti-midflokksins-i-svf-hornafirdi/', source: 'kosningasaga' }] }],
-      [5, 'Valur Pálsson', 'Rekstrarstjóri', null, { age: null, bio: 'Valur Pálsson er rekstrarstjóri og er í 5. sæti Miðflokksins á Hornafirði. Hann leggur rekstrarstjórnunarþekkingu sína til hagkvæmrar nýtingar á fjármunum sveitarfélagsins og öflugrar þjónustu við íbúana.', interests: ['Rekstrarleg hagkvæmni', 'Fjármálastjórnun sveitarfélaga', 'Atvinnulíf og þjónusta', 'Grunnþjónusta íbúa'], social: null, news: [{ title: 'Framboðslisti Miðflokksins í Svf. Hornafirði', url: 'https://kosningasaga.wordpress.com/2026/04/03/frambodslisti-midflokksins-i-svf-hornafirdi/', source: 'kosningasaga' }] }],
+      [2, 'Stefán Freyr Jónsson', 'Bóndi og slökkviliðsmaður', null, { age: null, bio: null, interests: null, social: null, news: [{ title: 'Framboðslisti Miðflokksins í Svf. Hornafirði', url: 'https://kosningasaga.wordpress.com/2026/04/03/frambodslisti-midflokksins-i-svf-hornafirdi/', source: 'kosningasaga' }] }],
+      [3, 'Herdís I Waage', 'Aðstoðarskólastjóri og kennari', null, { age: null, bio: null, interests: null, social: null, news: [{ title: 'Framboðslisti Miðflokksins í Svf. Hornafirði', url: 'https://kosningasaga.wordpress.com/2026/04/03/frambodslisti-midflokksins-i-svf-hornafirdi/', source: 'kosningasaga' }] }],
+      [4, 'Erlingur Ingi Brynjólfsson', 'Verksmiðjustjóri', null, { age: null, bio: null, interests: null, social: null, news: [{ title: 'Framboðslisti Miðflokksins í Svf. Hornafirði', url: 'https://kosningasaga.wordpress.com/2026/04/03/frambodslisti-midflokksins-i-svf-hornafirdi/', source: 'kosningasaga' }] }],
+      [5, 'Valur Pálsson', 'Rekstrarstjóri', null, { age: null, bio: null, interests: null, social: null, news: [{ title: 'Framboðslisti Miðflokksins í Svf. Hornafirði', url: 'https://kosningasaga.wordpress.com/2026/04/03/frambodslisti-midflokksins-i-svf-hornafirdi/', source: 'kosningasaga' }] }],
       [6, 'Hilmar Þór Sigurjónsson', 'Atvinnurekandi og hrossabóndi'],
       [7, 'Hjörvar Hauksson', 'Bílvirki'],
       [8, 'Amor Joy Pepito Mantilla', 'Atvinnurekandi og sjúkraflutningamaður'],
@@ -7908,8 +7908,8 @@ const AKR = {
       }],
       [2, 'Helga Björg Þrastardóttir', 'Matreiðslumeistari', null, {
         age: null,
-        bio: 'Helga Björg Þrastardóttir er matreiðslumeistari og er í 2. sæti Viðreisnar á Akranesi. Hún leggur fagþekkingu sína á matvæla- og þjónustugeirann til eflingar atvinnulífs og nýsköpunar í bæjarfélaginu.',
-        interests: ['Atvinnulíf og þjónustugeirinn', 'Nýsköpun', 'Húsnæðismál', 'Gagnsæi í stjórnsýslu'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Viðreisn býður fram sinn fyrsta lista á Akranesi', url: 'https://www.visir.is/g/20262865133d/vid-reisn-bydur-fram-sinn-fyrsta-lista-a-akra-nesi', source: 'visir.is' },
@@ -7917,8 +7917,8 @@ const AKR = {
       }],
       [3, 'Ingvar Örn Ákason', 'Verkefnastjóri', null, {
         age: null,
-        bio: 'Ingvar Örn Ákason er verkefnastjóri og er í 3. sæti Viðreisnar á Akranesi. Hann kemur með reynslu af verkefnastjórnun og leggur áherslu á framsækin vinnubrögð, gagnsæi og skipulega nýsköpun í stjórnun bæjarins.',
-        interests: ['Verkefnastjórnun og skipulag', 'Nýsköpun og framsækin stjórnun', 'Húsnæðismál', 'Gagnsæi í stjórnsýslu'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Viðreisn býður fram sinn fyrsta lista á Akranesi', url: 'https://www.visir.is/g/20262865133d/vid-reisn-bydur-fram-sinn-fyrsta-lista-a-akra-nesi', source: 'visir.is' },
@@ -7926,8 +7926,8 @@ const AKR = {
       }],
       [4, 'Guðný Sara Birgisdóttir', 'Fjáröflunarstjóri Krafts og listakona', null, {
         age: null,
-        bio: 'Guðný Sara Birgisdóttir er fjáröflunarstjóri Krafts og listakona og er í 4. sæti Viðreisnar á Akranesi. Hún sameinar listaleg og félagsleg gildi við faglega þekkingu á fjáröflun og leggur áherslu á samfélagsleg málefni og menningarlíf í bænum.',
-        interests: ['Menningarlíf og listir', 'Félagsleg málefni', 'Fjáröflun og þróun', 'Nýsköpun'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Viðreisn býður fram sinn fyrsta lista á Akranesi', url: 'https://www.visir.is/g/20262865133d/vid-reisn-bydur-fram-sinn-fyrsta-lista-a-akra-nesi', source: 'visir.is' },
@@ -7968,8 +7968,8 @@ const AKR = {
       }],
       [2, 'Bjarnheiður Hallsdóttir', 'Framkvæmdastjóri', null, {
         age: null,
-        bio: 'Bjarnheiður Hallsdóttir er framkvæmdastjóri og er í 2. sæti Sjálfstæðisflokksins á Akranesi. Hún kemur með stjórnunarreynslu og leggur áherslu á eflingu atvinnulífs, hagvöxt og gæðaþjónustu við íbúa bæjarins.',
-        interests: ['Atvinnulíf og hagvöxtur', 'Stjórnun og skipulag', 'Húsnæðismál', 'Gæðaþjónusta'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Líf leiðir áfram framboð Sjálfstæðisflokksins á Akranesi', url: 'https://xd.is/2026/02/27/lif-leidir-afram-frambod-sjalfstaedisflokksins-a-akranesi/', source: 'xd.is' },
@@ -7977,8 +7977,8 @@ const AKR = {
       }],
       [3, 'Guðmundur Ingþór Guðjónsson', 'Lögreglumaður og bæjarfulltrúi', null, {
         age: null,
-        bio: 'Guðmundur Ingþór Guðjónsson er lögreglumaður og bæjarfulltrúi og er í 3. sæti Sjálfstæðisflokksins á Akranesi. Hann kemur með reynslu af löggæslu og sveitarstjórnarmálum og leggur áherslu á öryggi, þjónustu og gæðalíf íbúa.',
-        interests: ['Löggæsla og öryggi', 'Sveitarstjórnarmál', 'Þjónusta við íbúa', 'Gæðalíf og velferð'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Líf leiðir áfram framboð Sjálfstæðisflokksins á Akranesi', url: 'https://xd.is/2026/02/27/lif-leidir-afram-frambod-sjalfstaedisflokksins-a-akranesi/', source: 'xd.is' },
@@ -7986,8 +7986,8 @@ const AKR = {
       }],
       [4, 'Viktor Elvar Viktorsson', 'Húsasmiður', null, {
         age: null,
-        bio: 'Viktor Elvar Viktorsson er húsasmiður og er í 4. sæti Sjálfstæðisflokksins á Akranesi. Hann leggur sérfræðiþekkingu sína á byggingarfræði til eflingar húsnæðisframboðs og uppbyggingar innviða í bænum.',
-        interests: ['Húsnæðismál og byggingarstarfsemi', 'Innviðauppbygging', 'Atvinnulíf og iðnaður', 'Hagvöxtur'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Líf leiðir áfram framboð Sjálfstæðisflokksins á Akranesi', url: 'https://xd.is/2026/02/27/lif-leidir-afram-frambod-sjalfstaedisflokksins-a-akranesi/', source: 'xd.is' },
@@ -7995,8 +7995,8 @@ const AKR = {
       }],
       [5, 'Ragnheiður Helgadóttir', 'Hjúkrunarfræðingur', null, {
         age: null,
-        bio: 'Ragnheiður Helgadóttir er hjúkrunarfræðingur og er í 5. sæti Sjálfstæðisflokksins á Akranesi. Hún leggur heilbrigðisþekkingu sína til öflugrar heilbrigðis- og velferðarþjónustu og stuðnings við íbúa bæjarins.',
-        interests: ['Heilbrigðisþjónusta og hjúkrun', 'Velferðarþjónusta', 'Gæðaþjónusta', 'Húsnæðismál'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Líf leiðir áfram framboð Sjálfstæðisflokksins á Akranesi', url: 'https://xd.is/2026/02/27/lif-leidir-afram-frambod-sjalfstaedisflokksins-a-akranesi/', source: 'xd.is' },
@@ -8037,8 +8037,8 @@ const AKR = {
       }],
       [2, 'Guðríður Þorbjörnsdóttir', 'Sérfræðingur í stjórnsýslufræði', null, {
         age: null,
-        bio: 'Guðríður Þorbjörnsdóttir er sérfræðingur í stjórnsýslufræði og er í 2. sæti Miðflokksins á Akranesi. Hún leggur sérfræðiþekkingu á stjórnsýslu til ábyrgar og skilvirkar stjórnunar sveitarfélagsins og gæðaþjónustu við íbúana.',
-        interests: ['Stjórnsýsla og gagnsæi', 'Ábyrg fjármálastjórnun', 'Gæðaþjónusta við íbúa', 'Samfélagsleg velferð'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Miðflokkurinn býður í fyrsta sinn fram á Akranesi', url: 'https://skessuhorn.is/2026/04/14/midflokkurinn-bydur-i-fyrsta-sinn-fram-a-akranesi', source: 'skessuhorn.is' },
@@ -8046,8 +8046,8 @@ const AKR = {
       }],
       [3, 'Ólafur Rúnar Sigurðsson', 'Sölumaður og innkaup', null, {
         age: null,
-        bio: 'Ólafur Rúnar Sigurðsson er sölumaður og vinnur við innkaup og er í 3. sæti Miðflokksins á Akranesi. Hann kemur með viðskiptareynslu og leggur áherslu á atvinnulíf, hagkvæmni og öfluga samfélagsþjónustu.',
-        interests: ['Atvinnulíf og viðskipti', 'Ábyrg fjármálastjórnun', 'Samfélagsleg þjónusta', 'Innviðauppbygging'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Miðflokkurinn býður í fyrsta sinn fram á Akranesi', url: 'https://skessuhorn.is/2026/04/14/midflokkurinn-bydur-i-fyrsta-sinn-fram-a-akranesi', source: 'skessuhorn.is' },
@@ -8055,8 +8055,8 @@ const AKR = {
       }],
       [4, 'Hörður Svavarsson', 'Rafvirkjameistari', null, {
         age: null,
-        bio: 'Hörður Svavarsson er rafvirkjameistari og er í 4. sæti Miðflokksins á Akranesi. Hann leggur iðnmenntun og tæknilega þekkingu sína til uppbyggingar og viðhalds innviða bæjarins og eflingar atvinnulífs á svæðinu.',
-        interests: ['Tæknimál og innviðir', 'Atvinnulíf og iðnaður', 'Ábyrg fjármálastjórnun', 'Samfélag og þjónusta'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Miðflokkurinn býður í fyrsta sinn fram á Akranesi', url: 'https://skessuhorn.is/2026/04/14/midflokkurinn-bydur-i-fyrsta-sinn-fram-a-akranesi', source: 'skessuhorn.is' },
@@ -8064,8 +8064,8 @@ const AKR = {
       }],
       [5, 'Aníta Hauksdóttir', 'Framleiðniáætlanagerð hjá Norðurál', null, {
         age: null,
-        bio: 'Aníta Hauksdóttir vinnur við framleiðniáætlanagerð hjá Norðurál og er í 5. sæti Miðflokksins á Akranesi. Hún kemur með fagþekkingu á framleiðslu og skipulagningu og leggur áherslu á skynsamlega fjárnýtingu og öfluga atvinnusköpun.',
-        interests: ['Framleiðni og skipulagning', 'Atvinnulíf og iðnaður', 'Ábyrg fjármálastjórnun', 'Samfélagsleg þjónusta'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Miðflokkurinn býður í fyrsta sinn fram á Akranesi', url: 'https://skessuhorn.is/2026/04/14/midflokkurinn-bydur-i-fyrsta-sinn-fram-a-akranesi', source: 'skessuhorn.is' },
@@ -8112,8 +8112,8 @@ const AKR = {
       }],
       [2, 'Jónína Margrét Sigmundsdóttir', 'Bæjarfulltrúi og starfsmaður í fíknimeðferð', 'https://images.prismic.io/samfylkingin/ad5NrJ1ZCF7ETLpc__Jónína Margrét.png?auto=format,compress', {
         age: null,
-        bio: 'Jónína Margrét Sigmundsdóttir er bæjarfulltrúi og starfsmaður í fíknimeðferð og er í 2. sæti Samfylkingarinnar á Akranesi. Reynsla hennar af félagslegri þjónustu og fíknimeðferð endurspeglast í áherslu hennar á velferðarþjónustu, stuðning við jaðarsettar fjölskyldur og jafnrétti.',
-        interests: ['Félagsleg þjónusta og velferð', 'Fíkniefnavörn og meðferð', 'Jafnrétti', 'Heilbrigðisþjónusta'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Þau skipa lista Samfylkingarinnar á Akranesi', url: 'https://www.visir.is/g/20262861110d/thau-skipa-lista-sam-fylkingarinnar-a-akra-nesi', source: 'visir.is' },
@@ -8121,8 +8121,8 @@ const AKR = {
       }],
       [3, 'Kristinn Hallur Sveinsson', 'Bæjarfulltrúi og sérfræðingur hjá Loftmyndum ehf.', 'images/candidates/2bcd263ef7b826da.png', {
         age: null,
-        bio: 'Kristinn Hallur Sveinsson er bæjarfulltrúi og sérfræðingur hjá Loftmyndum og er í 3. sæti Samfylkingarinnar á Akranesi. Hann kemur með tæknilega þekkingu og reynslu af sveitarstjórnarmálum og leggur áherslu á menntun, jafnrétti og öfluga þjónustu.',
-        interests: ['Tæknimál og nýsköpun', 'Menntamál', 'Jafnrétti', 'Sveitarstjórnarmál'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Sigurður Vopni leiðir Samfylkinguna á Akranesi', url: 'https://kratinn.is/2026/03/26/sigurdur-vopni-leidir-samfylkinguna-a-akranesi/', source: 'kratinn.is' },
@@ -8130,8 +8130,8 @@ const AKR = {
       }],
       [4, 'Anna Sólveig Smáradóttir', 'Sjúkraþjálfari og varabæjarfulltrúi', 'images/candidates/862a9ff8544b996b.png', {
         age: null,
-        bio: 'Anna Sólveig Smáradóttir er sjúkraþjálfari og varabæjarfulltrúi og er í 4. sæti Samfylkingarinnar á Akranesi. Heilbrigðisþekking hennar og þátttaka í sveitarstjórnarstarfi endurspeglast í áherslu hennar á heilbrigðisþjónustu, velferð og jöfn tækifæri.',
-        interests: ['Heilbrigðisþjónusta og sjúkraþjálfun', 'Velferðarþjónusta', 'Jöfn tækifæri', 'Menntamál'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Sigurður Vopni leiðir Samfylkinguna á Akranesi', url: 'https://kratinn.is/2026/03/26/sigurdur-vopni-leidir-samfylkinguna-a-akranesi/', source: 'kratinn.is' },
@@ -8139,8 +8139,8 @@ const AKR = {
       }],
       [5, 'Jón Hjörvar Valgarðsson', 'Forstöðumaður Arnardalur og háskólanemi', 'https://images.prismic.io/samfylkingin/ad_Dx51ZCF7ETOWN_Jón Hjörvar-2-.png?auto=format,compress', {
         age: null,
-        bio: 'Jón Hjörvar Valgarðsson er forstöðumaður Arnardalur og háskólanemi og er í 5. sæti Samfylkingarinnar á Akranesi. Hann kemur með reynslu af ungmennastarfi og félagslegri þjónustu og leggur áherslu á æskulýðsmál, menntun og velferð barna og unglinga.',
-        interests: ['Æskulýðsmál og ungmennaþjónusta', 'Menntamál', 'Velferð barna og fjölskyldna', 'Jafnrétti'],
+        bio: null,
+        interests: null,
         social: null,
         news: [
           { title: 'Sigurður Vopni leiðir Samfylkinguna á Akranesi', url: 'https://kratinn.is/2026/03/26/sigurdur-vopni-leidir-samfylkinguna-a-akranesi/', source: 'kratinn.is' },
@@ -8184,10 +8184,10 @@ const BBD = {
           { title: 'Framboðslisti Borgarbyggðarlistans', url: 'https://kosningasaga.wordpress.com/2026/04/09/frambodslisti-borgarbyggdarlistans/', source: 'kosningasaga' },
         ],
       }],
-      [2, 'Hermann B. Valsson', 'Sérfræðingur í lýðheilsu og grunnskólakennari', null, { age: null, bio: 'Hermann B. Valsson er sérfræðingur í lýðheilsu og grunnskólakennari og er í 2. sæti Borgarbyggðarlistans í Borgarbyggð. Hann sameinar þekkingu á lýðheilsu og menntun og leggur áherslu á heilsueflingu, gæðamenntun og sjálfbæra þróun sveitarfélagsins.', interests: ['Lýðheilsa og heilsueflíng', 'Menntamál og skólaþjónusta', 'Sjálfbær þróun', 'Félagsleg þjónusta'], social: null, news: [{ title: 'Framboðslisti Borgarbyggðarlistans', url: 'https://kosningasaga.wordpress.com/2026/04/09/frambodslisti-borgarbyggdarlistans/', source: 'kosningasaga' }] }],
-      [3, 'Guðrún Vala Elísdóttir', 'Framkvæmdastjóri', null, { age: null, bio: 'Guðrún Vala Elísdóttir er framkvæmdastjóri og er í 3. sæti Borgarbyggðarlistans í Borgarbyggð. Hún kemur með stjórnunarreynslu og leggur áherslu á öfluga samfélagsþjónustu, sjálfbæra uppbyggingu og þátttöku íbúa í stjórnun sveitarfélagsins.', interests: ['Stjórnun og skipulag', 'Samfélagsleg þjónusta', 'Sjálfbær uppbygging', 'Lýðræðisleg þátttaka'], social: null, news: [{ title: 'Framboðslisti Borgarbyggðarlistans', url: 'https://kosningasaga.wordpress.com/2026/04/09/frambodslisti-borgarbyggdarlistans/', source: 'kosningasaga' }] }],
-      [4, 'Bjarni Bequette', 'Framkvæmdastjóri', null, { age: null, bio: 'Bjarni Bequette er framkvæmdastjóri og er í 4. sæti Borgarbyggðarlistans í Borgarbyggð. Hann leggur rekstrarreynslu sína til skynsamlegrar stjórnunar sveitarfélagsins og uppbyggingar þjónustu og innviða í þágu allra íbúa.', interests: ['Rekstrarleg stjórnun', 'Innviðauppbygging', 'Umhverfismál og sjálfbærni', 'Samfélagsleg þjónusta'], social: null, news: [{ title: 'Framboðslisti Borgarbyggðarlistans', url: 'https://kosningasaga.wordpress.com/2026/04/09/frambodslisti-borgarbyggdarlistans/', source: 'kosningasaga' }] }],
-      [5, 'Friðrik Aspelund', 'Skógræktarsérfræðingur og leiðsögumaður', null, { age: null, bio: 'Friðrik Aspelund er skógræktarsérfræðingur og leiðsögumaður og er í 5. sæti Borgarbyggðarlistans í Borgarbyggð. Hann kemur með sérfræðiþekkingu á skógrækt og náttúruvernd og leggur áherslu á umhverfismál, sjálfbæra þróun og verndun náttúrufars Borgarbyggðar.', interests: ['Skógrækt og náttúruvernd', 'Umhverfismál og sjálfbærni', 'Ferðaþjónusta', 'Dreifbýlismál'], social: null, news: [{ title: 'Framboðslisti Borgarbyggðarlistans', url: 'https://kosningasaga.wordpress.com/2026/04/09/frambodslisti-borgarbyggdarlistans/', source: 'kosningasaga' }] }],
+      [2, 'Hermann B. Valsson', 'Sérfræðingur í lýðheilsu og grunnskólakennari', null, { age: null, bio: null, interests: null, social: null, news: [{ title: 'Framboðslisti Borgarbyggðarlistans', url: 'https://kosningasaga.wordpress.com/2026/04/09/frambodslisti-borgarbyggdarlistans/', source: 'kosningasaga' }] }],
+      [3, 'Guðrún Vala Elísdóttir', 'Framkvæmdastjóri', null, { age: null, bio: null, interests: null, social: null, news: [{ title: 'Framboðslisti Borgarbyggðarlistans', url: 'https://kosningasaga.wordpress.com/2026/04/09/frambodslisti-borgarbyggdarlistans/', source: 'kosningasaga' }] }],
+      [4, 'Bjarni Bequette', 'Framkvæmdastjóri', null, { age: null, bio: null, interests: null, social: null, news: [{ title: 'Framboðslisti Borgarbyggðarlistans', url: 'https://kosningasaga.wordpress.com/2026/04/09/frambodslisti-borgarbyggdarlistans/', source: 'kosningasaga' }] }],
+      [5, 'Friðrik Aspelund', 'Skógræktarsérfræðingur og leiðsögumaður', null, { age: null, bio: null, interests: null, social: null, news: [{ title: 'Framboðslisti Borgarbyggðarlistans', url: 'https://kosningasaga.wordpress.com/2026/04/09/frambodslisti-borgarbyggdarlistans/', source: 'kosningasaga' }] }],
       [6, 'Sólveig Hallsteinsdóttir', 'Verkefnastjóri'],
       [7, 'Lárus Elíasson', 'Skógarbóndi'],
       [8, 'Þorsteinn Eyþórsson', 'Ellilífeyrisþegi'],
@@ -8221,10 +8221,10 @@ const BBD = {
           { title: 'Framboðslisti Framsóknar í Borgarbyggð', url: 'https://kosningasaga.wordpress.com/2026/04/02/frambodslisti-framsoknar-i-borgarbyggd/', source: 'kosningasaga' },
         ],
       }],
-      [2, 'Sonja Lind Eyglóardóttir', 'Lögfræðingur', null, { age: null, bio: 'Sonja Lind Eyglóardóttir er lögfræðingur og er í 2. sæti Framsóknarflokksins í Borgarbyggð. Hún leggur lögfræðilega þekkingu sína til öflugrar og löglegrar stjórnsýslu sveitarfélagsins og réttlætis og þjónustu við íbúana.', interests: ['Lögfræði og réttlæti', 'Stjórnsýsla og gagnsæi', 'Velferðarþjónusta', 'Dreifbýlismál'], social: null, news: [{ title: 'Framboðslisti Framsóknar í Borgarbyggð', url: 'https://kosningasaga.wordpress.com/2026/04/02/frambodslisti-framsoknar-i-borgarbyggd/', source: 'kosningasaga' }] }],
-      [3, 'Jón Eiríkur Einarsson', 'Formaður Skorradalshrepps og bóndi', null, { age: null, bio: 'Jón Eiríkur Einarsson er formaður Skorradalshrepps og bóndi og er í 3. sæti Framsóknarflokksins í Borgarbyggð. Reynsla hans af sveitastjórnarmálum og landbúnaði endurspeglast í áherslu hans á stuðning við dreifbýlið, landbúnað og grunnþjónustu í sveitarfélaginu.', interests: ['Landbúnaður og dreifbýli', 'Sveitarstjórnarmál', 'Grunnþjónusta íbúa', 'Velferðarþjónusta'], social: null, news: [{ title: 'Framboðslisti Framsóknar í Borgarbyggð', url: 'https://kosningasaga.wordpress.com/2026/04/02/frambodslisti-framsoknar-i-borgarbyggd/', source: 'kosningasaga' }] }],
-      [4, 'Guðdís Jónsdóttir', 'Bóndi og ritari við Grunnskólann á Borgarnesi', null, { age: null, bio: 'Guðdís Jónsdóttir er bóndi og ritari við Grunnskólann á Borgarnesi og er í 4. sæti Framsóknarflokksins í Borgarbyggð. Hún kemur með þverfaglega reynslu af landbúnaði og skólastarfi og leggur áherslu á menntun, velferð og gott búsetuumhverfi í sveitarfélaginu.', interests: ['Menntamál og skólaþjónusta', 'Landbúnaður og dreifbýli', 'Velferðarþjónusta', 'Fjölskylduþjónusta'], social: null, news: [{ title: 'Framboðslisti Framsóknar í Borgarbyggð', url: 'https://kosningasaga.wordpress.com/2026/04/02/frambodslisti-framsoknar-i-borgarbyggd/', source: 'kosningasaga' }] }],
-      [5, 'Jón Theodór Jónsson', 'Framkvæmdastjóri og aðalþjálfari Skallagrímsfélags', null, { age: null, bio: 'Jón Theodór Jónsson er framkvæmdastjóri og aðalþjálfari Skallagrímsfélags og er í 5. sæti Framsóknarflokksins í Borgarbyggð. Hann kemur með reynslu af stjórnun og íþróttastarfi og leggur áherslu á íþróttamál, æskulýðsstarf og uppbyggingu heilbrigðs samfélagsins.', interests: ['Íþróttamál og heilsueflíng', 'Æskulýðsstarf', 'Samfélagsuppbygging', 'Velferðarþjónusta'], social: null, news: [{ title: 'Framboðslisti Framsóknar í Borgarbyggð', url: 'https://kosningasaga.wordpress.com/2026/04/02/frambodslisti-framsoknar-i-borgarbyggd/', source: 'kosningasaga' }] }],
+      [2, 'Sonja Lind Eyglóardóttir', 'Lögfræðingur', null, { age: null, bio: null, interests: null, social: null, news: [{ title: 'Framboðslisti Framsóknar í Borgarbyggð', url: 'https://kosningasaga.wordpress.com/2026/04/02/frambodslisti-framsoknar-i-borgarbyggd/', source: 'kosningasaga' }] }],
+      [3, 'Jón Eiríkur Einarsson', 'Formaður Skorradalshrepps og bóndi', null, { age: null, bio: null, interests: null, social: null, news: [{ title: 'Framboðslisti Framsóknar í Borgarbyggð', url: 'https://kosningasaga.wordpress.com/2026/04/02/frambodslisti-framsoknar-i-borgarbyggd/', source: 'kosningasaga' }] }],
+      [4, 'Guðdís Jónsdóttir', 'Bóndi og ritari við Grunnskólann á Borgarnesi', null, { age: null, bio: null, interests: null, social: null, news: [{ title: 'Framboðslisti Framsóknar í Borgarbyggð', url: 'https://kosningasaga.wordpress.com/2026/04/02/frambodslisti-framsoknar-i-borgarbyggd/', source: 'kosningasaga' }] }],
+      [5, 'Jón Theodór Jónsson', 'Framkvæmdastjóri og aðalþjálfari Skallagrímsfélags', null, { age: null, bio: null, interests: null, social: null, news: [{ title: 'Framboðslisti Framsóknar í Borgarbyggð', url: 'https://kosningasaga.wordpress.com/2026/04/02/frambodslisti-framsoknar-i-borgarbyggd/', source: 'kosningasaga' }] }],
       [6, 'Ásdís Helga Bjarnadóttir', 'Sérfræðingur í umhverfis-, landbúnaðar- og ferðamálum'],
       [7, 'Kristín Jónsdóttir', 'Frambjóðandi'],
       [8, 'Valdimar Reynisson', 'Frambjóðandi'],
@@ -8258,10 +8258,10 @@ const BBD = {
           { title: 'Uxahryggir og Kaldidalur – lykill að öflugri Borgarbyggð og betri ferðaþjónustu á Íslandi', url: 'https://www.visir.is/g/20262868322d/uxahryggir-og-kaldidalur-lykill-ad-oflugri-borgarbyggd-og-betri-ferdathjonustu-a-islandi', source: 'visir.is' },
         ],
       }],
-      [2, 'Ragnhildur Eva Jónsdóttir', 'Lögfræðingur og bæjarfulltrúi', null, { age: null, bio: 'Ragnhildur Eva Jónsdóttir er lögfræðingur og bæjarfulltrúi og er í 2. sæti Sjálfstæðisflokksins í Borgarbyggð. Reynsla hennar af lögfræði og sveitarstjórnarmálum endurspeglast í áherslu hennar á loglegar og skilvirkar ákvarðanir, hagvöxt og gæðaþjónustu við íbúa.', interests: ['Lögfræði og réttlæti', 'Sveitarstjórnarmál', 'Hagvöxtur og atvinnulíf', 'Gæðaþjónusta'], social: null, news: [{ title: 'Framboðslisti Sjálfstæðisflokksins í Borgarbyggð samþykktur', url: 'https://xd.is/2026/04/08/frambodslisti-sjalfstaedisflokksins-i-borgarbyggd-samthykktur/', source: 'xd.is' }] }],
-      [3, 'Kristján Ágúst Magnússon', 'Bóndi og varabæjarfulltrúi', null, { age: null, bio: 'Kristján Ágúst Magnússon er bóndi og varabæjarfulltrúi og er í 3. sæti Sjálfstæðisflokksins í Borgarbyggð. Hann kemur með þekkingu á landbúnaði og sveitarstjórnarmálum og leggur áherslu á stuðning við dreifbýlið, landbúnað og grunnþjónustu í sveitarfélaginu.', interests: ['Landbúnaður og dreifbýli', 'Sveitarstjórnarmál', 'Grunnþjónusta íbúa', 'Hagvöxtur'], social: null, news: [{ title: 'Framboðslisti Sjálfstæðisflokksins í Borgarbyggð samþykktur', url: 'https://xd.is/2026/04/08/frambodslisti-sjalfstaedisflokksins-i-borgarbyggd-samthykktur/', source: 'xd.is' }] }],
-      [4, 'Birgir Heiðar Andrésson', 'Framleiðslustjóri', null, { age: null, bio: 'Birgir Heiðar Andrésson er framleiðslustjóri og er í 4. sæti Sjálfstæðisflokksins í Borgarbyggð. Hann kemur með stjórnunarreynslu úr framleiðslu og leggur áherslu á eflingu atvinnulífs, hagvöxt og rekstrarumhverfi fyrirtækja í sveitarfélaginu.', interests: ['Framleiðsla og atvinnulíf', 'Hagvöxtur og rekstrarumhverfi', 'Innviðauppbygging', 'Húsnæðismál'], social: null, news: [{ title: 'Framboðslisti Sjálfstæðisflokksins í Borgarbyggð samþykktur', url: 'https://xd.is/2026/04/08/frambodslisti-sjalfstaedisflokksins-i-borgarbyggd-samthykktur/', source: 'xd.is' }] }],
-      [5, 'Svana Hrönn Jóhannsdóttir', 'Fjárhagsráðgjafi', null, { age: null, bio: 'Svana Hrönn Jóhannsdóttir er fjárhagsráðgjafi og er í 5. sæti Sjálfstæðisflokksins í Borgarbyggð. Hún leggur fagþekkingu sína á fjármálastjórnun til ábyrgar fjárnýtingar og hagkvæmra ákvarðana í þágu íbúa sveitarfélagsins.', interests: ['Fjármálastjórnun og ráðgjöf', 'Ábyrg hagstjórn', 'Atvinnulíf og hagvöxtur', 'Húsnæðismál'], social: null, news: [{ title: 'Framboðslisti Sjálfstæðisflokksins í Borgarbyggð samþykktur', url: 'https://xd.is/2026/04/08/frambodslisti-sjalfstaedisflokksins-i-borgarbyggd-samthykktur/', source: 'xd.is' }] }],
+      [2, 'Ragnhildur Eva Jónsdóttir', 'Lögfræðingur og bæjarfulltrúi', null, { age: null, bio: null, interests: null, social: null, news: [{ title: 'Framboðslisti Sjálfstæðisflokksins í Borgarbyggð samþykktur', url: 'https://xd.is/2026/04/08/frambodslisti-sjalfstaedisflokksins-i-borgarbyggd-samthykktur/', source: 'xd.is' }] }],
+      [3, 'Kristján Ágúst Magnússon', 'Bóndi og varabæjarfulltrúi', null, { age: null, bio: null, interests: null, social: null, news: [{ title: 'Framboðslisti Sjálfstæðisflokksins í Borgarbyggð samþykktur', url: 'https://xd.is/2026/04/08/frambodslisti-sjalfstaedisflokksins-i-borgarbyggd-samthykktur/', source: 'xd.is' }] }],
+      [4, 'Birgir Heiðar Andrésson', 'Framleiðslustjóri', null, { age: null, bio: null, interests: null, social: null, news: [{ title: 'Framboðslisti Sjálfstæðisflokksins í Borgarbyggð samþykktur', url: 'https://xd.is/2026/04/08/frambodslisti-sjalfstaedisflokksins-i-borgarbyggd-samthykktur/', source: 'xd.is' }] }],
+      [5, 'Svana Hrönn Jóhannsdóttir', 'Fjárhagsráðgjafi', null, { age: null, bio: null, interests: null, social: null, news: [{ title: 'Framboðslisti Sjálfstæðisflokksins í Borgarbyggð samþykktur', url: 'https://xd.is/2026/04/08/frambodslisti-sjalfstaedisflokksins-i-borgarbyggd-samthykktur/', source: 'xd.is' }] }],
       [6, 'Ólafur Tryggvason', 'Rekstrarstjóri'],
       [7, 'Sigríður Guðbjartsdóttir', 'Starfsmaður'],
       [8, 'Gísli Guðjónsson', 'Starfsmaður'],
@@ -8295,10 +8295,10 @@ const BBD = {
           { title: 'Miðflokkurinn kynnti framboðslista sinn í Borgarbyggð', url: 'https://skessuhorn.is/2026/04/11/midflokkurinn-kynnti-frambodslista-sinn-i-borgarbyggd', source: 'skessuhorn.is' },
         ],
       }],
-      [2, 'Þórður Brynjarsson', 'Verkamaður', 'images/candidates/d8b14c226a2012f1.jpg', { age: null, bio: 'Þórður Brynjarsson er verkamaður og er í 2. sæti Miðflokksins í Borgarbyggð. Hann kemur með grunnstoðir almennra launþega og leggur áherslu á stuðning við vinnufólk, dreifbýlið og ábyrga fjármálastjórnun sveitarfélagsins.', interests: ['Hagsmunir launþega', 'Dreifbýlismál og landbúnaður', 'Ábyrg fjármálastjórnun', 'Samfélagsleg þjónusta'], social: null, news: [{ title: 'Miðflokkurinn kynnti framboðslista sinn í Borgarbyggð', url: 'https://skessuhorn.is/2026/04/11/midflokkurinn-kynnti-frambodslista-sinn-i-borgarbyggd', source: 'skessuhorn.is' }] }],
-      [3, 'Tinna Rut Þórarinsdóttir', 'Hótelstjóri og hárgreiðslukona', 'images/candidates/7e1df7801826ab66.jpg', { age: null, bio: 'Tinna Rut Þórarinsdóttir er hótelstjóri og hárgreiðslukona og er í 3. sæti Miðflokksins í Borgarbyggð. Hún sameinar reynslu af þjónustu- og ferðageiranum og leggur áherslu á atvinnulíf, þjónustu við ferðamenn og dreifbýlismál.', interests: ['Ferðaþjónusta og atvinnulíf', 'Þjónustugeirinn', 'Dreifbýlismál', 'Samfélagsleg þjónusta'], social: null, news: [{ title: 'Miðflokkurinn kynnti framboðslista sinn í Borgarbyggð', url: 'https://skessuhorn.is/2026/04/11/midflokkurinn-kynnti-frambodslista-sinn-i-borgarbyggd', source: 'skessuhorn.is' }] }],
-      [4, 'Helena Rós Helgadóttir', 'Almennt starfsfólk hjá JGR skrifstofu', 'images/candidates/0557cac9e6baf503.jpg', { age: null, bio: 'Helena Rós Helgadóttir starfar við JGR skrifstofu og er í 4. sæti Miðflokksins í Borgarbyggð. Hún kemur með skrifstofureynslu og leggur áherslu á vandvirkni í stjórnsýslu, ábyrga fjármálastjórnun og öfluga grunnþjónustu við íbúa.', interests: ['Stjórnsýsla og skrifstofustarf', 'Ábyrg fjármálastjórnun', 'Grunnþjónusta íbúa', 'Dreifbýlismál'], social: null, news: [{ title: 'Miðflokkurinn kynnti framboðslista sinn í Borgarbyggð', url: 'https://skessuhorn.is/2026/04/11/midflokkurinn-kynnti-frambodslista-sinn-i-borgarbyggd', source: 'skessuhorn.is' }] }],
-      [5, 'Hafsteinn Ingi Gunnarsson', 'Byggingameistari', 'images/candidates/02b534cff3685d54.jpg', { age: null, bio: 'Hafsteinn Ingi Gunnarsson er byggingameistari og er í 5. sæti Miðflokksins í Borgarbyggð. Hann leggur fagþekkingu sína á byggingarfræði til uppbyggingar húsnæðis og innviða í sveitarfélaginu og eflingar atvinnulífs á svæðinu.', interests: ['Byggingarfræði og húsnæðismál', 'Innviðauppbygging', 'Atvinnulíf', 'Ábyrg fjármálastjórnun'], social: null, news: [{ title: 'Miðflokkurinn kynnti framboðslista sinn í Borgarbyggð', url: 'https://skessuhorn.is/2026/04/11/midflokkurinn-kynnti-frambodslista-sinn-i-borgarbyggd', source: 'skessuhorn.is' }] }],
+      [2, 'Þórður Brynjarsson', 'Verkamaður', 'images/candidates/d8b14c226a2012f1.jpg', { age: null, bio: null, interests: null, social: null, news: [{ title: 'Miðflokkurinn kynnti framboðslista sinn í Borgarbyggð', url: 'https://skessuhorn.is/2026/04/11/midflokkurinn-kynnti-frambodslista-sinn-i-borgarbyggd', source: 'skessuhorn.is' }] }],
+      [3, 'Tinna Rut Þórarinsdóttir', 'Hótelstjóri og hárgreiðslukona', 'images/candidates/7e1df7801826ab66.jpg', { age: null, bio: null, interests: null, social: null, news: [{ title: 'Miðflokkurinn kynnti framboðslista sinn í Borgarbyggð', url: 'https://skessuhorn.is/2026/04/11/midflokkurinn-kynnti-frambodslista-sinn-i-borgarbyggd', source: 'skessuhorn.is' }] }],
+      [4, 'Helena Rós Helgadóttir', 'Almennt starfsfólk hjá JGR skrifstofu', 'images/candidates/0557cac9e6baf503.jpg', { age: null, bio: null, interests: null, social: null, news: [{ title: 'Miðflokkurinn kynnti framboðslista sinn í Borgarbyggð', url: 'https://skessuhorn.is/2026/04/11/midflokkurinn-kynnti-frambodslista-sinn-i-borgarbyggd', source: 'skessuhorn.is' }] }],
+      [5, 'Hafsteinn Ingi Gunnarsson', 'Byggingameistari', 'images/candidates/02b534cff3685d54.jpg', { age: null, bio: null, interests: null, social: null, news: [{ title: 'Miðflokkurinn kynnti framboðslista sinn í Borgarbyggð', url: 'https://skessuhorn.is/2026/04/11/midflokkurinn-kynnti-frambodslista-sinn-i-borgarbyggd', source: 'skessuhorn.is' }] }],
       [6, 'Helgi Már Ólafsson', 'Bústjóri', 'images/candidates/691490c8629f02ea.jpg'],
       [7, 'Þuríður Inga G. Gísladóttir', 'Bóndi', 'images/candidates/cafa703ffebf8bda.jpg'],
       [8, 'Sigurjón Helgason', 'Bóndi', 'images/candidates/3f23264cf1cc3d87.jpg'],
@@ -8950,19 +8950,19 @@ const MUT = {
         ],
       }],
       [2, 'Eiður Ragnarsson', 'Ferðaþjónustubóndi', null, {
-        age: null, bio: 'Eiður Ragnarsson er ferðaþjónustubóndi og er í 2. sæti Framsóknarflokksins í Múlaþingi. Hann kemur með þverfaglega reynslu af landbúnaði og ferðaþjónustu á Austurlandi og leggur áherslu á sjálfbæra ferðaþjónustu, svæðisþróun og stuðning við dreifbýlið.', interests: ['Ferðaþjónusta og landbúnaður', 'Svæðisþróun Austurlands', 'Dreifbýlismál', 'Sjávarútvegur og atvinnulíf'], social: null,
+        age: null, bio: null, interests: null, social: null,
         news: [{ title: 'Jónína mun leiða lista Framsóknar í Múlaþingi', url: 'https://www.mbl.is/frettir/innlent/2025/12/18/jonina_mun_leida_lista_framsoknar_i_mulathingi/', source: 'mbl.is' }],
       }],
       [3, 'Þórey Birna Jónsdóttir', 'Sauðfjárbóndi', null, {
-        age: null, bio: 'Þórey Birna Jónsdóttir er sauðfjárbóndi og er í 3. sæti Framsóknarflokksins í Múlaþingi. Hún kemur með þekkingu á landbúnaði og dreifbýlisstarfi og leggur áherslu á stuðning við bændur, sjálfbæran landbúnað og velferð íbúa á Austurlandi.', interests: ['Landbúnaður og sauðfjárbúskapur', 'Dreifbýlismál', 'Velferðarþjónusta', 'Svæðisþróun Austurlands'], social: null,
+        age: null, bio: null, interests: null, social: null,
         news: [{ title: 'Jónína mun leiða lista Framsóknar í Múlaþingi', url: 'https://www.mbl.is/frettir/innlent/2025/12/18/jonina_mun_leida_lista_framsoknar_i_mulathingi/', source: 'mbl.is' }],
       }],
       [4, 'Björg Eyþórsdóttir', 'Hjúkrunarfræðingur', null, {
-        age: null, bio: 'Björg Eyþórsdóttir er hjúkrunarfræðingur og er í 4. sæti Framsóknarflokksins í Múlaþingi. Hún leggur heilbrigðisþekkingu sína til öflugrar heilbrigðis- og velferðarþjónustu á Austurlandi og stuðnings við íbúa svæðisins.', interests: ['Heilbrigðisþjónusta á landsbyggð', 'Velferðarþjónusta', 'Þjónusta við aldraða', 'Svæðisþróun Austurlands'], social: null,
+        age: null, bio: null, interests: null, social: null,
         news: [{ title: 'Jónína mun leiða lista Framsóknar í Múlaþingi', url: 'https://www.mbl.is/frettir/innlent/2025/12/18/jonina_mun_leida_lista_framsoknar_i_mulathingi/', source: 'mbl.is' }],
       }],
       [5, 'Guðmundur Bj. Hafþórsson', 'Eldvarnareftirlitsmaður', null, {
-        age: null, bio: 'Guðmundur Bj. Hafþórsson er eldvarnareftirlitsmaður og er í 5. sæti Framsóknarflokksins í Múlaþingi. Hann kemur með þekkingu á eldvörnum og öryggismálum og leggur áherslu á örugg samfélag, öfluga neyðarþjónustu og stuðning við dreifbýlisíbúa á Austurlandi.', interests: ['Eldvarnaeftirlit og öryggi', 'Neyðarþjónusta', 'Samfélagsöryggi', 'Dreifbýlismál'], social: null,
+        age: null, bio: null, interests: null, social: null,
         news: [{ title: 'Jónína mun leiða lista Framsóknar í Múlaþingi', url: 'https://www.mbl.is/frettir/innlent/2025/12/18/jonina_mun_leida_lista_framsoknar_i_mulathingi/', source: 'mbl.is' }],
       }],
       [6, 'Brynjar Pálmi Ásgeirsson', 'Menntaskólanemi'],
@@ -9007,19 +9007,19 @@ const MUT = {
         ],
       }],
       [2, 'Þórhildur Katrín Stefánsdóttir', 'Lögfræðingur, varaformaður Landssambands hestamannafélaga', null, {
-        age: null, bio: 'Þórhildur Katrín Stefánsdóttir er lögfræðingur og varaformaður Landssambands hestamannafélaga og er í 2. sæti Sjálfstæðisflokksins í Múlaþingi. Fagleg þekking hennar á lögfræði og áhugi á hestamennsku og íþróttastarfi endurspeglast í áherslu hennar á réttlæti, atvinnulíf og uppbyggingu á Austurlandi.', interests: ['Lögfræði og réttlæti', 'Hestamennska og íþróttamál', 'Atvinnulíf á Austurlandi', 'Húsnæðismál'], social: null,
+        age: null, bio: null, interests: null, social: null,
         news: [{ title: 'Berglind Harpa áfram oddviti í Múlaþingi', url: 'https://xd.is/2026/02/28/berglind-harpa-afram-oddviti-i-mulathingi-thorhildur-katrin-i-2-saeti/', source: 'xd.is' }],
       }],
       [3, 'Ívar Karl Hafliðason', 'Framkvæmdastjóri og stjórnarformaður HEF', null, {
-        age: null, bio: 'Ívar Karl Hafliðason er framkvæmdastjóri og stjórnarformaður HEF og er í 3. sæti Sjálfstæðisflokksins í Múlaþingi. Hann kemur með víðtæka stjórnunarreynslu og leggur áherslu á eflingu atvinnulífs, fjárfestingar og samgöngubætur á Austurlandi.', interests: ['Atvinnulíf og fjárfestingar', 'Samgöngumál á Austurlandi', 'Innviðauppbygging', 'Rekstrarumhverfi fyrirtækja'], social: null,
+        age: null, bio: null, interests: null, social: null,
         news: [{ title: 'Berglind Harpa áfram oddviti í Múlaþingi', url: 'https://xd.is/2026/02/28/berglind-harpa-afram-oddviti-i-mulathingi-thorhildur-katrin-i-2-saeti/', source: 'xd.is' }],
       }],
       [4, 'Einar Freyr Guðmundsson', 'Laganemi og varamaður í bæjarstjórn', null, {
-        age: null, bio: 'Einar Freyr Guðmundsson er laganemi og varamaður í bæjarstjórn og er í 4. sæti Sjálfstæðisflokksins í Múlaþingi. Hann kemur með þekkingu á lögfræði og reynslu af sveitarstjórnarmálum og leggur áherslu á húsnæðismál, samgöngubætur og eflingu atvinnulífs á Austurlandi.', interests: ['Lögfræði og réttlæti', 'Sveitarstjórnarmál', 'Húsnæðismál', 'Samgöngumál'], social: null,
+        age: null, bio: null, interests: null, social: null,
         news: [{ title: 'Berglind Harpa áfram oddviti í Múlaþingi', url: 'https://xd.is/2026/02/28/berglind-harpa-afram-oddviti-i-mulathingi-thorhildur-katrin-i-2-saeti/', source: 'xd.is' }],
       }],
       [5, 'Oddný Björk Daníelsdóttir', 'Rekstrarstjóri', null, {
-        age: null, bio: 'Oddný Björk Daníelsdóttir er rekstrarstjóri og er í 5. sæti Sjálfstæðisflokksins í Múlaþingi. Hún leggur stjórnunarreynslu sína til eflingar atvinnulífs, hagvaxtar og gæðaþjónustu við íbúa Múlaþings.', interests: ['Rekstrarleg stjórnun', 'Atvinnulíf og hagvöxtur', 'Húsnæðismál', 'Gæðaþjónusta við íbúa'], social: null,
+        age: null, bio: null, interests: null, social: null,
         news: [{ title: 'Berglind Harpa áfram oddviti í Múlaþingi', url: 'https://xd.is/2026/02/28/berglind-harpa-afram-oddviti-i-mulathingi-thorhildur-katrin-i-2-saeti/', source: 'xd.is' }],
       }],
       [6, 'Herdís Magna Gunnarsdóttir', 'Bóndi, varaformaður Bændasamtaka Íslands'],
@@ -9060,19 +9060,19 @@ const MUT = {
         ],
       }],
       [2, 'Hannes Karl Hilmarsson', 'Afgreiðslustjóri', null, {
-        age: null, bio: 'Hannes Karl Hilmarsson er afgreiðslustjóri og er í 2. sæti Miðflokksins í Múlaþingi. Hann kemur með þjónustu- og stjórnunarreynslu og leggur áherslu á ábyrga fjármálastjórnun, öfluga samfélagsþjónustu og stuðning við dreifbýlið á Austurlandi.', interests: ['Þjónusta og stjórnun', 'Ábyrg fjármálastjórnun', 'Dreifbýlismál', 'Samfélagsleg þjónusta'], social: null,
+        age: null, bio: null, interests: null, social: null,
         news: [{ title: 'Fyrrum sýslumaður leiðir Miðflokkinn í Múlaþingi', url: 'https://austurfrett.is/frettir/fyrrum-syslumadhur-leidhir-midhflokkinn-i-mulathingi', source: 'austurfrett.is' }],
       }],
       [3, 'Stefán Bragi Birgisson', 'Bóndi og götumálari', null, {
-        age: null, bio: 'Stefán Bragi Birgisson er bóndi og götumálari og er í 3. sæti Miðflokksins í Múlaþingi. Hann sameinar þekkingu á landbúnaði og verktakastarfi og leggur áherslu á stuðning við bændur, uppbyggingu innviða og dreifbýlismál á Austurlandi.', interests: ['Landbúnaður og dreifbýli', 'Innviðauppbygging', 'Ábyrg fjármálastjórnun', 'Samfélagsleg þjónusta'], social: null,
+        age: null, bio: null, interests: null, social: null,
         news: [{ title: 'Fyrrum sýslumaður leiðir Miðflokkinn í Múlaþingi', url: 'https://austurfrett.is/frettir/fyrrum-syslumadhur-leidhir-midhflokkinn-i-mulathingi', source: 'austurfrett.is' }],
       }],
       [4, 'Jóhann Halldór Harðarson', 'Ráðgjafi', null, {
-        age: null, bio: 'Jóhann Halldór Harðarson er ráðgjafi og er í 4. sæti Miðflokksins í Múlaþingi. Hann leggur faglega ráðgjafaþekkingu sína til skynsamlegrar og hagkvæmrar stjórnunar sveitarfélagsins og öflugrar þjónustu við íbúana á Austurlandi.', interests: ['Ráðgjöf og sérfræðiþjónusta', 'Ábyrg fjármálastjórnun', 'Atvinnulíf á Austurlandi', 'Dreifbýlismál'], social: null,
+        age: null, bio: null, interests: null, social: null,
         news: [{ title: 'Fyrrum sýslumaður leiðir Miðflokkinn í Múlaþingi', url: 'https://austurfrett.is/frettir/fyrrum-syslumadhur-leidhir-midhflokkinn-i-mulathingi', source: 'austurfrett.is' }],
       }],
       [5, 'Guðmunda Vala Jónasdóttir', 'Leikskólastjóri', null, {
-        age: null, bio: 'Guðmunda Vala Jónasdóttir er leikskólastjóri og er í 5. sæti Miðflokksins í Múlaþingi. Hún leggur reynslu af leikskólastjórnun og menntun til góðrar þjónustu við börn og fjölskyldur og öflugra grunnstoðar í menntakerfinu á Austurlandi.', interests: ['Leikskólamál og uppeldi', 'Menntamál og skólaþjónusta', 'Fjölskylduþjónusta', 'Velferð barna'], social: null,
+        age: null, bio: null, interests: null, social: null,
         news: [{ title: 'Fyrrum sýslumaður leiðir Miðflokkinn í Múlaþingi', url: 'https://austurfrett.is/frettir/fyrrum-syslumadhur-leidhir-midhflokkinn-i-mulathingi', source: 'austurfrett.is' }],
       }],
       [6, 'Viðar Gunnlaugur Hauksson', 'Framkvæmdastjóri'],
@@ -9116,19 +9116,19 @@ const MUT = {
         ],
       }],
       [2, 'Helgi Hlynur Ásgrímsson', 'Útvegsbóndi og sveitarstjórnarfulltrúi', null, {
-        age: null, bio: 'Helgi Hlynur Ásgrímsson er útvegsbóndi og sveitarstjórnarfulltrúi og er í 2. sæti VG og óháðra í Múlaþingi. Reynsla hans af sjávarútvegi og sveitarstjórnarmálum endurspeglast í áherslu hans á sjálfbæran útveg, umhverfismál og öfluga þjónustu við dreifbýlissamfélög á Austurlandi.', interests: ['Sjávarútvegur og sjálfbærni', 'Sveitarstjórnarmál', 'Umhverfismál', 'Dreifbýlismál'], social: null,
+        age: null, bio: null, interests: null, social: null,
         news: [{ title: 'Framboðslisti VG og óháðra í Múlaþingi', url: 'https://kosningasaga.wordpress.com/2026/03/27/frambodslisti-vg-og-ohadra-i-mulathingi/', source: 'kosningasaga' }],
       }],
       [3, 'Glúmur Björnsson', 'Jarðfræðingur', null, {
-        age: null, bio: 'Glúmur Björnsson er jarðfræðingur og er í 3. sæti VG og óháðra í Múlaþingi. Hann leggur vísindaþekkingu sína á jarðfræði og umhverfismál til sjálfbærrar þróunar, náttúruverndar og þjónustu við íbúa Múlaþings.', interests: ['Jarðfræði og náttúruvernd', 'Umhverfismál og sjálfbærni', 'Vísindi og rannsóknir', 'Dreifbýlismál'], social: null,
+        age: null, bio: null, interests: null, social: null,
         news: [{ title: 'Framboðslisti VG og óháðra í Múlaþingi', url: 'https://kosningasaga.wordpress.com/2026/03/27/frambodslisti-vg-og-ohadra-i-mulathingi/', source: 'kosningasaga' }],
       }],
       [4, 'Guðrún Ásta Tryggvadóttir', 'Kennari', null, {
-        age: null, bio: 'Guðrún Ásta Tryggvadóttir er kennari og er í 4. sæti VG og óháðra í Múlaþingi. Hún leggur menntaþekkingu sína til öflugrar skólaþjónustu, velferðar barna og jafnra tækifæra á Austurlandi og styður umhverfismál og sjálfbæra þróun.', interests: ['Menntamál og skólaþjónusta', 'Velferð barna og ungmenna', 'Umhverfismál', 'Jöfn tækifæri'], social: null,
+        age: null, bio: null, interests: null, social: null,
         news: [{ title: 'Framboðslisti VG og óháðra í Múlaþingi', url: 'https://kosningasaga.wordpress.com/2026/03/27/frambodslisti-vg-og-ohadra-i-mulathingi/', source: 'kosningasaga' }],
       }],
       [5, 'Sigríður Lára Sigurjónsdóttir', 'Framhaldsskólakennari', null, {
-        age: null, bio: 'Sigríður Lára Sigurjónsdóttir er framhaldsskólakennari og er í 5. sæti VG og óháðra í Múlaþingi. Hún leggur kennsluþekkingu sína til öflugra framhaldsskólaþjónustu, menntamála og sjálfbærrar þróunar á Austurlandi.', interests: ['Menntamál og framhaldsskólaþjónusta', 'Umhverfismál og sjálfbærni', 'Velferð barna og ungmenna', 'Jöfn tækifæri'], social: null,
+        age: null, bio: null, interests: null, social: null,
         news: [{ title: 'Framboðslisti VG og óháðra í Múlaþingi', url: 'https://kosningasaga.wordpress.com/2026/03/27/frambodslisti-vg-og-ohadra-i-mulathingi/', source: 'kosningasaga' }],
       }],
       [6, 'Jón Kristófer Arnarson', 'Garðyrkjustjóri'],
@@ -9173,19 +9173,19 @@ const MUT = {
         ],
       }],
       [2, 'Eyþór Stefánsson', 'Sveitarstjórnarfulltrúi', null, {
-        age: null, bio: 'Eyþór Stefánsson er sveitarstjórnarfulltrúi og er í 2. sæti Austurlistans og Viðreisnar í Múlaþingi. Reynsla hans af sveitarstjórnarmálum endurspeglast í áherslu hans á gagnsæi, nýsköpun og eflingu atvinnulífs og framþróunar á Austurlandi.', interests: ['Sveitarstjórnarmál', 'Gagnsæi og nýsköpun', 'Atvinnulíf á Austurlandi', 'Innviðauppbygging'], social: null,
+        age: null, bio: null, interests: null, social: null,
         news: [{ title: 'Framboðslisti Austurlistans og Viðreisnar', url: 'https://kosningasaga.wordpress.com/2026/04/07/frambodslisti-austurlistans-og-vidreisnar/', source: 'kosningasaga' }],
       }],
       [3, 'Urður Arna Ómarsdóttir', 'Aðstoðarleikskólastjóri', null, {
-        age: null, bio: 'Urður Arna Ómarsdóttir er aðstoðarleikskólastjóri og er í 3. sæti Austurlistans og Viðreisnar í Múlaþingi. Hún leggur fagþekkingu sína á leikskólastjórnun til öflugrar þjónustu við börn og fjölskyldur og menntunarlegar lausnir í þágu allra íbúa Múlaþings.', interests: ['Leikskólamál og uppeldi', 'Fjölskylduþjónusta', 'Menntamál', 'Velferð barna'], social: null,
+        age: null, bio: null, interests: null, social: null,
         news: [{ title: 'Framboðslisti Austurlistans og Viðreisnar', url: 'https://kosningasaga.wordpress.com/2026/04/07/frambodslisti-austurlistans-og-vidreisnar/', source: 'kosningasaga' }],
       }],
       [4, 'Jóhann Hjalti Þorsteinsson', 'Gjaldkeri og innheimtufulltrúi', null, {
-        age: null, bio: 'Jóhann Hjalti Þorsteinsson er gjaldkeri og innheimtufulltrúi og er í 4. sæti Austurlistans og Viðreisnar í Múlaþingi. Hann leggur fjármálaþekkingu sína til ábyrgar og gagnsærrar fjármálastjórnunar sveitarfélagsins og öflugrar þjónustu við íbúana.', interests: ['Fjármálastjórnun og gagnsæi', 'Ábyrg hagstjórn', 'Atvinnulíf á Austurlandi', 'Grunnþjónusta íbúa'], social: null,
+        age: null, bio: null, interests: null, social: null,
         news: [{ title: 'Framboðslisti Austurlistans og Viðreisnar', url: 'https://kosningasaga.wordpress.com/2026/04/07/frambodslisti-austurlistans-og-vidreisnar/', source: 'kosningasaga' }],
       }],
       [5, 'Hrafnhildur Margrét Vídalín Áslaugardóttir', 'Kennari', null, {
-        age: null, bio: 'Hrafnhildur Margrét Vídalín Áslaugardóttir er kennari og er í 5. sæti Austurlistans og Viðreisnar í Múlaþingi. Hún leggur menntaþekkingu sína til öflugrar skólaþjónustu og menntamála, og stuðlar að nýsköpun og framþróun í þágu barna og ungmenna á Austurlandi.', interests: ['Menntamál og skólaþjónusta', 'Velferð barna og ungmenna', 'Nýsköpun í menntun', 'Jöfn tækifæri'], social: null,
+        age: null, bio: null, interests: null, social: null,
         news: [{ title: 'Framboðslisti Austurlistans og Viðreisnar', url: 'https://kosningasaga.wordpress.com/2026/04/07/frambodslisti-austurlistans-og-vidreisnar/', source: 'kosningasaga' }],
       }],
       [6, 'Páll Baldursson', 'Verkefnastjóri'],
