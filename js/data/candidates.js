@@ -862,15 +862,13 @@ const RVK = {
     list: [
       [1,  'Guðmundur Ingi Þóroddsson',       'Formaður Afstöðu, baráttumaður fangaréttinda og velferðar', 'images/candidates/26c1461128fbf3dd.jpg', {
         age: 51,
-        bio: 'Guðmundur Ingi Þóroddsson er fæddur 1974 og er formaður Afstöðu, félags fanga og fyrrverandi fanga. Hann sat í fangelsi í samtals 16 ár og hefur síðan helgað sig réttindabaráttu fanga. Hann starfar hjá Velferðarsviði Reykjavíkurborgar. Hann yfirgaf Flokk fólksins í apríl 2026.',
+        bio: 'Guðmundur Ingi Þóroddsson er fæddur 1974 og er formaður Afstöðu, félags fanga og fyrrverandi fanga. Hann sat í fangelsi í samtals 16 ár og hefur síðan helgað sig réttindabaráttu fanga. Hann starfar hjá Velferðarsviði Reykjavíkurborgar og leiðir lista Flokks fólksins í Reykjavík.',
         interests: ['Fangaréttindi og enduruppbygging', 'Velferðarþjónusta og heimilislausir', 'Jafnræði í réttarkerfinu'],
         social: [],
         news: [
-          { title: 'Guðmundur Ingi segir sig úr Flokki fólksins – ber við trúnaðarbresti', url: 'https://www.ruv.is/frettir/innlent/2026-04-13-gudmundur-ingi-segir-sig-ur-flokki-folksins-ber-vid-trunadarbresti-472609', source: 'ruv.is' },
           { title: 'Guðmundur Ingi býður fram í Reykjavík', url: 'https://www.ruv.is/frettir/innlent/2026-03-30-gudmundur-ingi-bydur-fram-i-reykjavik-471356', source: 'ruv.is' },
           { title: 'Guðmundur Ingi hallar sér að Flokki fólksins', url: 'https://www.mbl.is/frettir/innlent/2026/03/28/gudmundur_ingi_hallar_ser_ad_flokki_folksins/', source: 'mbl.is' },
           { title: 'Guðmundur Ingi tekur slaginn með Flokki fólksins', url: 'https://www.dv.is/frettir/2026/3/31/gudmundur-ingi-tekur-slaginn-med-flokki-folksins/', source: 'dv.is' },
-          { title: 'Guðmundur Ingi segir skilið við Flokk fólksins', url: 'https://www.mbl.is/frettir/innlent/2026/04/13/gudmundur_ingi_segir_skilid_vid_flokk_folksins/', source: 'mbl.is' },
           { title: 'Guðmundur Ingi: „Þetta er uppskrift að meiriháttar vandræðum"', url: 'https://www.dv.is/frettir/2025/05/05/gudmundur-ingi-thetta-er-uppskrift-ad-meirihattar-vandraedum/', source: 'dv.is' },
           { title: 'Í fangelsi í sextán ár: Á endanum var það ástin sem bjargaði öllu', url: 'https://www.visir.is/g/20232475356d/i-fangelsi-i-sextan-ar-a-endanum-var-thad-astin-sem-bjargadi-ollu', source: 'visir.is' },
           { title: 'Guðmundur Ingi færir sig um set', url: 'https://www.mbl.is/frettir/innlent/2026/04/17/gudmundur_ingi_faerir_sig_um_set/', source: 'mbl.is' },
