@@ -19,6 +19,7 @@ const RVK = {
       [1, 'Hildur Björnsdóttir', 'Borgarfulltrúi, listforingi', 'images/candidates/67dfe0122a3c8032.jpg', {
         age: 39,
         bio: 'Hildur Björnsdóttir er fædd 11. júní 1986 í San Francisco en uppalin á Hafnarfirði. Hún er lögfræðingur með BA-próf í stjórnmálafræði og meistaragráðu í lögfræði frá Háskóla Íslands. Hún sat í borgarstjórn Reykjavíkur frá 2018 og hefur verið oddviti Sjálfstæðisflokksins í Reykjavík síðan 2022.',
+        heimild: [{ url: 'https://is.wikipedia.org/wiki/Hildur_Bj%C3%B6rnsd%C3%B3ttir', label: 'Wikipedia' }, { url: 'https://reykjavik.is/en/city-councilors/hildur-bjornsdottir', label: 'reykjavik.is' }, { url: 'https://www.hildurbjoss.is/um-hildi', label: 'hildurbjoss.is' }],
         interests: ['Frelsi einstaklingsins', 'Samgöngumál', 'Húsnæðismarkaður', 'Skólasveigjanleiki', 'Minnkun skrifræðis'],
         social: [
           { type: 'facebook', url: 'https://www.facebook.com/hildurreykjavik/', label: 'Facebook' },
@@ -41,6 +42,7 @@ const RVK = {
       [2, 'Bjarni Eggerts Guðjónsson', 'Samskiptastjóri, fyrrverandi leikmaður', 'images/candidates/331a822f4bc12144.jpg', {
         age: 47,
         bio: 'Bjarni Eggerts Guðjónsson er fæddur 26. febrúar 1979 og er fyrrverandi atvinnuknattleikmaður sem spilaði meðal annars hjá Newcastle United og Stoke City. Eftir leikmannaferilinn starfaði hann sem þjálfari og framkvæmdastjóri KR í þrjú ár, og lauk BS-gráðu í viðskiptafræði frá Háskólanum í Reykjavík. Hann starfaði hjá VÍS tryggingum áður en hann gaf kost á sér í borgarstjórnarkosningum 2026.',
+        heimild: [{ url: 'https://en.wikipedia.org/wiki/Bjarni_Gu%C3%B0j%C3%B3nsson', label: 'Wikipedia' }, { url: 'https://www.mbl.is/sport/efstadeild/2021/08/11/bjarni_nyr_framkvaemdastjori_kr/', label: 'mbl.is' }, { url: 'https://www.visir.is/g/20262848421d/bjarni-gud-jons-haettir-hja-vis', label: 'visir.is' }],
         interests: ['Skipulag og stjórnun', 'Íþrótta- og æskulýðsmál', 'Skilvirkni í þjónustu borgarinnar'],
         social: [
           { type: 'facebook', url: 'https://www.facebook.com/bjarni.gudjonsson/', label: 'Facebook' },
@@ -62,6 +64,7 @@ const RVK = {
       [3, 'Brynjar Þór Níelsson', 'Lögfræðingur, varaþingmaður', 'images/candidates/4f05faf71bb32aad.jpg', {
         age: 65,
         bio: 'Brynjar Þór Níelsson er fæddur 1. september 1960 og er lögfræðingur, útskrifaður frá Háskóla Íslands 1986. Hann rak eigið lögmannsskrifstofu og var formaður Lögmannafélags Íslands 2010–2012. Hann sat á Alþingi sem þingmaður Sjálfstæðisflokksins 2013–2021 og er varaþingmaður.',
+        heimild: [{ url: 'https://www.althingi.is/altext/cv/is/?nfaerslunr=1160', label: 'althingi.is' }, { url: 'https://is.wikipedia.org/wiki/Brynjar_%C3%9E%C3%B3r_N%C3%ADelsson', label: 'Wikipedia' }],
         interests: ['Lögmæti og réttarríkið', 'Skilvirkur rekstur borgarinnar', 'Skattar og fjármál sveitarfélagsins'],
         social: [
           { type: 'facebook', url: 'https://www.facebook.com/brynjar.nielsson/', label: 'Facebook' },
@@ -103,6 +106,7 @@ const RVK = {
       [5, 'Rúnar Freyr Gíslason', 'Leikari', 'images/candidates/da316a996a1aea4e.jpg', {
         age: 52,
         bio: 'Rúnar Freyr Gíslason er fæddur 29. apríl 1973 og er þekktur íslenskur leikari og raddarleikari. Hann útskrifaðist frá Íslenska leikhúsaskólanum 1999 og hefur leikið í fjölmörgum sýningum á Þjóðleikhúsinu. Hann er þekktur fyrir hlutverk í þáttunum Ófærð og Trapped og hefur stjórnað uppsetningum Söngvakeppninnar.',
+        heimild: [{ url: 'https://en.wikipedia.org/wiki/R%C3%BAnar_Freyr_G%C3%ADslason', label: 'Wikipedia' }, { url: 'https://www.imdb.com/name/nm1905413/', label: 'IMDb' }],
         interests: ['Menning og listir', 'Skilvirkari þjónusta borgarinnar', 'Fjölskyldumál'],
         social: [
           { type: 'facebook', url: 'https://www.facebook.com/runargislason/', label: 'Facebook' },
@@ -177,6 +181,7 @@ const RVK = {
       [1, 'Einar Þorsteinsson', 'Borgarfulltrúi, fyrrverandi borgarstjóri (2024–2025), fyrrverandi RÚV blaðamaður', 'images/candidates/df263684dd338290.jpg', {
         age: 47,
         bio: 'Einar Þorsteinsson er fæddur 24. desember 1978 og starfaði sem fréttamaður, fréttaþulur og dagskrástjóri Kastljóss hjá RÚV áður en hann hætti þar árið 2022 til að fara í stjórnmál. Hann gegndi embætti borgarstjóra Reykjavíkur frá janúar til febrúar 2025 og leiðir lista Framsóknarflokksins í Reykjavík.',
+        heimild: [{ url: 'https://is.wikipedia.org/wiki/Einar_%C3%9Eorsteinsson_(f._1978)', label: 'Wikipedia' }, { url: 'https://reykjavik.is/en/city-councilors/einar-thorsteinsson', label: 'reykjavik.is' }, { url: 'https://framsokn.is/nyjast/frettir/einar-thorsteinsson-nyr-borgarstjori-reykjavikur/', label: 'framsokn.is' }],
         interests: ['Skólamál og leikskólar', 'Samgöngumál', 'Þjónusta við aldraða', 'Hagkvæmni í borgarrekstri'],
         social: [
           { type: 'facebook', url: 'https://www.facebook.com/einarthorsteinsson/', label: 'Facebook' },
@@ -199,6 +204,7 @@ const RVK = {
       [2, 'Magnea Gná Jóhannsdóttir', 'Borgarfulltrúi', 'images/candidates/4e96814ed68909bb.jpg', {
         age: 29,
         bio: 'Magnea Gná Jóhannsdóttir er fædd 3. apríl 1997 og varð yngsti borgarfulltrúinn í sögu Reykjavíkur þegar hún var kjörin 2022, aðeins 25 ára. Hún lauk BA-gráðu í lögfræði frá Háskóla Íslands 2021 og er nú í meistaranámi. Hún var formaður Ungrar Framsóknar í Reykjavík.',
+        heimild: [{ url: 'https://is.wikipedia.org/wiki/Magnea_Gn%C3%A1_J%C3%B3hannsd%C3%B3ttir', label: 'Wikipedia' }, { url: 'https://reykjavik.is/en/city-councilors/magnea-gna-johannsdottir', label: 'reykjavik.is' }, { url: 'https://www.mbl.is/frettir/kosning/2022/05/15/yngsti_borgarfulltruinn_thetta_er_akall_um_breyting/', label: 'mbl.is' }],
         interests: ['Lögfræði og mannréttindi', 'Ungmennastarf', 'Velferðarmál', 'Skólamál'],
         social: [
           { type: 'facebook', url: 'https://www.facebook.com/magnea.johannsdottir', label: 'Facebook' },
@@ -220,6 +226,7 @@ const RVK = {
       [3, 'Þorvaldur Daníelsson', 'Varaborgafulltrúi, framkvæmdastjóri Hjólahrafts', 'images/candidates/5ecc70a4e48271b3.jpg', {
         age: 55,
         bio: 'Þorvaldur Daníelsson, þekktur sem Valdi, stofnaði Hjólakraft árið 2012 — heilsuverkefni sem hvetur börn og unglinga til hreyfingar í gegnum hjólreiðar. Hann hlaut viðurkenningu sem Reykvíkingur ársins 2020 fyrir þetta starf. Hann er varaborgafulltrúi Framsóknarflokksins.',
+        heimild: [{ url: 'https://reykjavik.is/en/city-councilors/thorvaldur-danielsson', label: 'reykjavik.is' }, { url: 'https://www.dv.is/frettir/2020/06/20/thorvaldur-danielsson-er-reykvikingur-arsins/', label: 'dv.is' }],
         interests: ['Heilsurækt og íþróttamál', 'Þjónusta við ungt fólk', 'Hjólreiðar og vistvænar samgöngur'],
         social: [
           { type: 'facebook', url: 'https://www.facebook.com/hjolakraftur', label: 'Facebook (Hjólakraftur)' },
@@ -237,6 +244,7 @@ const RVK = {
       [4, 'Halldór Bachmann', 'Samskiptastjóri', null, {
         age: null,
         bio: 'Halldór Bachmann er samskipta- og kynningarfræðingur með langa reynslu í íslenskum og alþjóðlegum fyrirtækjum. Hann hefur starfað hjá MasterCard og Icelandair og er þekktur sem upplesari á KR-körfuboltaleikjum. Hann starfar nú hjá Almenna lífeyrissjóðnum.',
+        heimild: [{ url: 'https://www.visir.is/g/20262849525d/thessi-skipa-lista-framsoknar-i-reykjavik', label: 'visir.is' }, { url: 'https://jons.is/halldor-bachmann-kynningarstjori-hja-almenna-lifeyrissjodnum/', label: 'jons.is' }],
         interests: ['Samskiptamál og kynning', 'Fjármál og lífeyrisvernd', 'Hagkvæmni í borgarrekstri'],
         social: [],
         news: [
@@ -321,6 +329,7 @@ const RVK = {
       [1,  'Pétur Hafliði Marteinsson',     'Rekstrarstjóri, fyrrverandi atvinnuknattleikmaður',    'images/candidates/0029111166d51ecf.png', {
         age: 52,
         bio: 'Pétur Hafliði Marteinsson er fæddur 14. júlí 1973 og ólst upp í Breiðholti í Reykjavík. Hann er fyrrverandi atvinnuknattleikmaður sem spilaði meðal annars hjá Hammarby IF og Stoke City, og hlaut 36 landsleiki með Íslandsliðinu. Eftir íþróttaferilinn lauk hann MBA-námi og starfar nú sem rekstrarstjóri.',
+        heimild: [{ url: 'https://en.wikipedia.org/wiki/P%C3%A9tur_Marteinsson', label: 'Wikipedia' }, { url: 'https://www.transfermarkt.co.uk/petur-haflidi-marteinsson/profil/spieler/9884', label: 'Transfermarkt' }],
         interests: ['Leikskólamál og fjölgun plássa', 'Minni skrifræði og auðveldari uppsetning fyrirtækja', 'Samfélagsleg jafnrétti', 'Samgöngur og húsnæðismál'],
         social: [
           { type: 'facebook', url: 'https://www.facebook.com/petur.marteinsson/', label: 'Facebook' },
@@ -342,6 +351,7 @@ const RVK = {
       [2,  'Heiða Björg Hilmisdóttir',      'Borgarstjóri Reykjavíkur (síðan feb. 2025), næringarfræðingur/MBA', 'images/candidates/0e1115282c1c46e2.png', {
         age: 55,
         bio: 'Heiða Björg Hilmisdóttir er fædd 21. febrúar 1971 á Akureyri og er næringarfræðingur. Hún starfaði sem yfirmaður fæðis- og næringarþjónustu á Landspítala áður en hún fór í stjórnmál. Hún hefur setið í borgarstjórn Reykjavíkur síðan 2015 og tók við borgarstjóraembættinu 21. febrúar 2025. Hún er með MBA frá Háskólanum í Reykjavík.',
+        heimild: [{ url: 'https://en.wikipedia.org/wiki/Hei%C3%B0a_Bj%C3%B6rg_Hilmisd%C3%B3ttir', label: 'Wikipedia' }, { url: 'https://reykjavik.is/en/mayor', label: 'reykjavik.is' }, { url: 'https://www.ruv.is/frettir/innlent/2025-02-21-nyr-meirihluti-i-borginni-heida-bjorg-er-borgarstjori-436892', label: 'ruv.is' }],
         interests: ['Leikskólaumbætur', 'Húsnæðismál', 'Heilsueflandi borgarumhverfi', 'Jafnréttismál'],
         social: [
           { type: 'facebook', url: 'https://www.facebook.com/heidabjorghilmis/', label: 'Facebook' },
@@ -364,6 +374,7 @@ const RVK = {
       [3,  'Steinunn Guðjónsdóttir',        'Ráðgjafi, fyrrverandi málsvari',                       'images/candidates/4555184c81034725.png', {
         age: null,
         bio: 'Steinunn Guðjónsdóttir er ráðgjafi í stefnumótun og samskiptum og fyrrverandi talskona Stígamóta. Hún gegndi einnig stöðu framkvæmdastjóra UN Women á Íslandi og skrifstofustjóra UN Women í Japan. Hún er með meistaragráðu í alþjóðasamskiptum frá Columbia-háskólanum í New York.',
+        heimild: [{ url: 'https://www.mbl.is/frettir/innlent/2026/01/03/steinunn_gefur_kost_a_ser_i_forvalinu/', label: 'mbl.is' }, { url: 'https://www.mbl.is/vidskipti/frettir/2023/04/04/steinunn_svanhildur_og_gudrun_til_aton_jl/', label: 'mbl.is' }],
         interests: ['Leikskólamál og aðgangur að plássum', 'Jafnrétti og ofbeldisforvarnir', 'Gagnsæi í stjórnun borgarinnar'],
         social: [
           { type: 'twitter', url: 'https://x.com/steinunngg', label: 'X/Twitter' },
@@ -381,6 +392,7 @@ const RVK = {
       [4,  'Skúli Helgason',                'Borgarfulltrúi',                                       'images/candidates/b27f3dea12777b10.png', {
         age: 61,
         bio: 'Skúli Helgason er fæddur 15. apríl 1965 og er stjórnmálafræðingur með MPA-gráðu frá Minnesota-háskólanum. Hann var framkvæmdastjóri Samfylkingarinnar 2006–2009 og þingmaður 2009–2013. Hann hefur setið í borgarstjórn Reykjavíkur síðan 2014 og er formaður menningar- og íþróttaráðs.',
+        heimild: [{ url: 'https://www.althingi.is/altext/cv/is/?nfaerslunr=720', label: 'althingi.is' }, { url: 'https://en.wikipedia.org/wiki/Sk%C3%BAli_Helgason', label: 'Wikipedia' }, { url: 'https://reykjavik.is/en/city-councilors/skuli-helgason', label: 'reykjavik.is' }],
         interests: ['Menning og íþróttir', 'Samgöngumál', 'Opinber stjórnsýsla'],
         social: [
           { type: 'facebook', url: 'https://www.facebook.com/skuli.helgason/', label: 'Facebook' },
@@ -399,6 +411,7 @@ const RVK = {
       [5,  'Stein Olav Romslo',             'Kennari',                                              'images/candidates/84bbce63d93637e4.png', {
         age: 32,
         bio: 'Stein Olav Romslo er stærðfræðikennari við Hagaskóla í Reykjavík, fæddur og uppalinn í Noregi. Hann er með meistaragráðu í stærðfræði frá NTNU í Þrándheimi og diplóma í íslensku frá Háskóla Íslands. Hann flutti til Íslands 2018 og sat sem formaður hverfisráðs Vesturbæjar.',
+        heimild: [{ url: 'https://www.mbl.is/frettir/innlent/2026/01/03/stein_olav_vill_fjorda_saetid/', label: 'mbl.is' }, { url: 'https://xs.is/stein-olav-flokksval-2022', label: 'Samfylkingin' }],
         interests: ['Skólamál og menntun', 'Leikskólamál', 'Fjölmenningarlegt samfélag', 'Umhverfismál'],
         social: [
           { type: 'twitter', url: 'https://x.com/steinoro', label: 'X/Twitter' },
@@ -471,6 +484,7 @@ const RVK = {
       [1, 'Sanna Magdalena Mörtudóttir', 'Mannfræðingur, borgarfulltrúi (Vor til vinstri)', 'images/candidates/90bb06cfb36aae34.jpg', {
         age: 33,
         bio: 'Sanna Magdalena Mörtudóttir er fædd 3. maí 1992 og er mannfræðingur og leiðtogi Sósíalistaflokks Íslands frá október 2024. Hún var kjörin í borgarstjórn Reykjavíkur árið 2018 og varð yngsti borgarfulltrúi í sögu borgarinnar. Hún er af íslenskum og tansanískum uppruna og leiðir sameiginlegan lista VG og Vors til vinstri, nefndan Vinstrið.',
+        heimild: [{ url: 'https://en.wikipedia.org/wiki/Sanna_Magdalena_M%C3%B6rtud%C3%B3ttir', label: 'Wikipedia' }, { url: 'https://www.mbl.is/frettir/innlent/2024/10/20/sanna_tekur_oddvitasaetid_i_reykjavik_sudur/', label: 'mbl.is' }],
         interests: ['Jafnrétti og mannréttindi', 'Húsnæðismál og félagslegt réttlæti', 'Baráttan gegn fátækt', 'Málefni jaðarsettrar hópa'],
         social: [
           { type: 'facebook', url: 'https://www.facebook.com/sanna92/', label: 'Facebook' },
@@ -491,6 +505,7 @@ const RVK = {
       [2, 'Líf Magneudóttir', 'Grunnskólakennari, borgarfulltrúi (VG)', 'images/candidates/502644a62c46a8cd.jpg', {
         age: 51,
         bio: 'Líf Magneudóttir er fædd 13. ágúst 1974 í Kaupmannahöfn og flutti til Íslands 1975. Hún lauk kennaraprófi frá Kennaraháskóla Íslands árið 2004. Líf hefur setið í borgarstjórn Reykjavíkur frá 2016 og varð forseti borgarráðs 21. febrúar 2025.',
+        heimild: [{ url: 'https://is.wikipedia.org/wiki/L%C3%ADf_Magneud%C3%B3ttir', label: 'Wikipedia' }, { url: 'https://reykjavik.is/en/city-councilors/lif-magneudottir', label: 'reykjavik.is' }],
         interests: ['Menntamál og skóli', 'Umhverfismál', 'Félagslegt jafnrétti', 'Samgöngumál'],
         social: [
           { type: 'facebook', url: 'https://www.facebook.com/lifmagneudottir/', label: 'Facebook' },
@@ -508,6 +523,7 @@ const RVK = {
       [3, 'Stefán Pálsson', 'Sagnfræðingur, varaborgafulltrúi (VG)', 'images/candidates/6efb5b3e0d587cb7.jpg', {
         age: 51,
         bio: 'Stefán Pálsson er sagnfræðingur, fæddur 8. apríl 1975. Hann hefur starfað sem þýðandi, rithöfundur og þátttakandi í þjóðmálaumræðunni og er fyrrverandi formaður Samtaka hernaðarandstæðinga. Hann hefur gefið út fjölda bóka um íslenska knattspyrnu og sögu, og leiðir gangferðir um söguleg hverfi Reykjavíkur.',
+        heimild: [{ url: 'https://is.wikipedia.org/wiki/Stef%C3%A1n_P%C3%A1lsson', label: 'Wikipedia' }, { url: 'https://reykjavik.is/en/city-councilors/stefan-palsson', label: 'reykjavik.is' }],
         interests: ['Friðar- og öryggismál', 'Íslenska saga og menning', 'Knattspyrnusaga', 'Samgöngumál'],
         social: [
           { type: 'facebook', url: 'https://www.facebook.com/stefan.palsson.16/', label: 'Facebook' },
@@ -522,6 +538,7 @@ const RVK = {
       [4, 'Ásta Þ. Skjalddal Guðjónsdóttir', 'Löggiltur endurskoðandi, varaborgafulltrúi (Vor til vinstri)', 'images/candidates/d03697c7cf0e2db5.jpg', {
         age: null,
         bio: 'Ásta Þórdís Skjalddal Guðjónsdóttir er löggiltur endurskoðandi og bókari. Hún hefur unnið að málefnum fátækt fólks í gegnum EAPN-Iceland (Evrópunet gegn fátækt á Íslandi) og sem samræningaraðili hjá Pepp. Hún var varaborgafulltrúi Sósíalistaflokksins í Reykjavík.',
+        heimild: [{ url: 'https://www.ruv.is/frettir/innlent/2026-03-21-vinstrid-kynnir-frambodslista-sinn-i-reykjavik-470529', label: 'ruv.is' }, { url: 'https://sosialistaflokkurinn.is/2022/04/08/frambodslisti-sosialistaflokks-islands-i-borgarstjornarkosningum/', label: 'sosialistaflokkurinn.is' }],
         interests: ['Baráttan gegn fátækt', 'Félagslegt réttlæti', 'Réttindi jaðarsettrar hópa'],
         social: [],
         news: [
@@ -533,6 +550,7 @@ const RVK = {
       [5, 'Arna Magnea Danks', 'Leikkona, stuntleikstjóri, kennari (Vor til vinstri)', null, {
         age: 55,
         bio: 'Arna Magnea Danks er leikkona og stuntleikstjóri, fædd 31. október 1970 af írskum og íslenskum uppruna. Hún lauk BA í leiklist frá University of East London og hefur starfað á sviði leiklistar í áratugi. Hún er þekkt sem fyrsta opinbera trans-leikkona Íslands og virk mannréttindabaráttumaður.',
+        heimild: [{ url: 'https://en.wikipedia.org/wiki/Arna_Magnea_Danks', label: 'Wikipedia' }, { url: 'https://www.imdb.com/name/nm2049261/', label: 'IMDb' }],
         interests: ['LGBTQ+ mannréttindi', 'Kvikmyndalist og leiklist', 'Jafnrétti í menningarstarfi'],
         social: [
           { type: 'facebook', url: 'https://www.facebook.com/ArnaMagneaDanks/', label: 'Facebook' },
@@ -604,6 +622,7 @@ const RVK = {
       [1, 'Kristinn Jón Ólafsson',              'Varaborgafulltrúi (Píratar), listforingi Reykjavíkur',                             'images/candidates/c67d5e1b0d8c5d64.jpg', {
         age: 45,
         bio: 'Kristinn Jón Ólafsson, þekktur sem Kiddi, er fæddur 1981 og hefur helgað sig nýsköpun og stafrænum lausnum í þjónustu borgarinnar. Hann lauk MBA-gráðu í nýsköpun og tækni árið 2021. Hann stýrði vinnu við fyrstu nýsköpunarstefnu og stafræna stefnu Reykjavíkur og er formaður stjórnar Markaðsstofu höfuðborgarsvæðisins.',
+        heimild: [{ url: 'https://reykjavik.is/en/city-councilors/kristinn-jon-olafsson', label: 'reykjavik.is' }, { url: 'https://www.linkedin.com/in/kristinnjo/', label: 'LinkedIn' }],
         interests: ['Nýsköpun og stafræn þjónusta', 'Umhverfismál og grænn samgöngukerfi', 'Barnvæn borg', 'Gagnsæi og lýðræðisleg þátttaka'],
         social: [
           { type: 'facebook', url: 'https://www.facebook.com/kristinn.jon.olafsson', label: 'Facebook' },
@@ -620,6 +639,7 @@ const RVK = {
       [2, 'Alexandra Briem',                   'Borgarfulltrúi, formaður framkvæmdastjórnar borgar, staðgengill borgarstjóra',    'images/candidates/2276904b2fa8cf74.jpg', {
         age: 43,
         bio: 'Alexandra Briem er borgarfulltrúi Pírata í Reykjavík, fædd 1983 og uppalin í Breiðholti. Hún hefur yfir átta ára reynslu í þjónustu borgarinnar og hefur gegnt hlutverkum sem formaður framkvæmdastjórnar borgar og staðgengill borgarstjóra. Hún situr í stjórn Strætó bs.',
+        heimild: [{ url: 'https://reykjavik.is/en/city-councilors/alexandra-briem', label: 'reykjavik.is' }, { url: 'https://piratar.is/alexandrabriem', label: 'piratar.is' }],
         interests: ['Stafræn þjónusta og tækni', 'Skipulags- og umhverfismál', 'Samgöngumál', 'Gagnsæi og lýðræðisleg þátttaka'],
         social: [
           { type: 'facebook', url: 'https://www.facebook.com/xandrabriem/', label: 'Facebook' },
@@ -636,6 +656,7 @@ const RVK = {
       [3, 'Oktavía Hrund Guðrúnar Jóns',       'Formaður Pírata á landsvísu, grínisti, eigandi fyrirtækis, menningastjórnunarnemi', 'images/candidates/0d65365b9b4c5bb3.jpg', {
         age: 47,
         bio: 'Oktavía Hrund Guðrúnar Jóns er fædd 7. mars 1979 og er fyrsti formaður Pírata, kjörin í nóvember 2025. Hún er fyrsti opinberi LGBTQ+ stjórnmálaforystumaður Íslands. Hún er stofnandi hugveitar future404 sem sérhæfir sig í friðhelgi einkalífs og netöryggi, og er stúdent í menningastjórnun við Háskólann á Bifröst.',
+        heimild: [{ url: 'https://mannlif.is/greinar/fyrsti-formadur-pirata-hefur-ahuga-a-framtidinni/', label: 'mannlif.is' }, { url: 'https://quad9.net/news/press/oktavia-hrund-gudrunar-jons-joins-quad9-as-a-senior-advisor/', label: 'quad9.net' }],
         interests: ['Netöryggi og friðhelgi einkalífs', 'LGBTQ+ mannréttindi', 'Gagnsæi og lýðræðisleg þátttaka'],
         social: [
           { type: 'twitter', url: 'https://twitter.com/oktavia', label: 'X/Twitter' },
@@ -668,6 +689,7 @@ const RVK = {
       [5, 'Olga Margrét Kristínardóttir Cilia', 'Sjálfstæður lögfræðingur',                                                        'images/candidates/901d76ce5b9b93fa.jpg', {
         age: 40,
         bio: 'Olga Margrét Kristínardóttir Cilia er löggiltur lögfræðingur, fædd 28. febrúar 1986. Hún hefur setið sem varaþingmaður á Alþingi fyrir Reykjavíkurkjördæmi suður með Pírötum 2018–2021 og var formaður Pírata í Reykjavík árið 2017. Hún telur mannréttindi vera kjarnann í öllum ákvarðanatökum.',
+        heimild: [{ url: 'https://www.althingi.is/altext/cv/?nfaerslunr=1341', label: 'althingi.is' }, { url: 'https://www.visir.is/g/20262844149d/for-madur-pirata-saekist-eftir-odru-til-fjorda-saeti', label: 'visir.is' }],
         interests: ['LGBTQ+ mannréttindi og trans-réttindi', 'Skaðaminnkun í fíknimálum', 'Gagnsæi og lýðræði'],
         social: [],
         news: [
@@ -733,6 +755,7 @@ const RVK = {
       [1, 'Ari Edwald',                      'Lögfræðingur, viðskiptahagfræðingur; fyrrverandi forstjóri 365 miðla', 'images/candidates/1f49f3ecb5b2ceef.jpg', {
         age: 62,
         bio: 'Ari Edwald er lögfræðingur og viðskiptahagfræðingur, fæddur 1964. Hann lauk lagaprófi og MBA-námi í Bandaríkjunum. Hann hefur gegnt fjölmörgum leiðtogahlutverkum, þar á meðal sem framkvæmdastjóri Samtaka atvinnulífsins og forstjóri 365 miðla. Hann leiðir lista Miðflokksins í Reykjavík.',
+        heimild: [{ url: 'https://www.nutiminn.is/forsida/ari-edwald-leidir-lista-midflokksins-i-reykjavik/', label: 'nutiminn.is' }, { url: 'https://vb.is/frettir/ari-edwald-tekur-vi-365-fjolmilum/', label: 'vb.is' }],
         interests: ['Bílastæðamál', 'Leikskólakerfi og grunnskólamál', 'Hagkvæmur rekstur borgarinnar', 'Andstaða við Borgarlínuáformin'],
         social: [
           { type: 'facebook', url: 'https://www.facebook.com/ari.edwald/', label: 'Facebook' },
@@ -753,6 +776,7 @@ const RVK = {
       [2, 'Kristín Kolbrún Kolbeinsdóttir',  'Kennari, foreldraráðgjafi; fyrrverandi formaður Hvatar',              'images/candidates/9d77a1dad14e5fef.jpg', {
         age: null,
         bio: 'Kristín Kolbrún Kolbeinsdóttir er kennari og uppeldisráðgjafi og er á 2. sæti M-listans (Miðflokksins) í borgarstjórnarkosningum í Reykjavík 2026.',
+        heimild: [{ url: 'https://www.mbl.is/frettir/innlent/2026/02/26/likir_borginni_vid_ofskreytt_jolatre/', label: 'mbl.is' }],
         interests: null,
         social: [],
         news: [
@@ -763,6 +787,7 @@ const RVK = {
       [3, 'Lárus Sigurðsson',                'Framkvæmdastjóri',                                                   'images/candidates/4131b782a3f18691.jpg', {
         age: null,
         bio: 'Lárus Blöndal Sigurðsson er framkvæmdastjóri með langa reynslu í íþróttasamtökum, m.a. sem framkvæmdastjóri Knattspyrnufélagsins Vals. Hann hefur gagnrýnt meðferð borgarinnar á íþróttafélögum og segir þau hafa ítrekað mætt dónaskap af hálfu borgaryfirvalda.',
+        heimild: [{ url: 'https://www.dv.is/433/2026/4/22/frambodandi-midflokksins-baunar-a-meirihlutann-i-borginni-vegna-framkomu-hans-vid-thennan-hop-hafa-itrekad-maett-donaskap-og-valdahroka/', label: 'dv.is' }],
         interests: ['Íþróttamál og stuðningur við íþróttafélög', 'Skilvirkni og rekstur borgarinnar'],
         social: [],
         news: [
@@ -773,6 +798,7 @@ const RVK = {
       [4, 'Hlédís Maren Guðmundsdóttir',     'Félagsfræðingur',                                                    'images/candidates/260150d9afd706cb.jpg', {
         age: 33,
         bio: 'Hlédís Maren Guðmundsdóttir er félagsfræðingur, fædd 1992 eða 1993. Hún sat í stjórn Ungrar vinstri-grænna 2013–2015 og lauk BS-gráðu í félagsfræði frá Háskóla Íslands. Hún starfaði sem blaðamaður og skrifaði greinar fyrir Heimildin 2020–2021, og síðar við Útlendingastofnun. Síðustu árin hefur hún skrifað gagnrýnar skoðanagreinar og færst til hægri í stjórnmálaskoðunum.',
+        heimild: [{ url: 'https://www.visir.is/g/20262839943d/hledis-maren-fram-fyrir-mid-flokkinn', label: 'visir.is' }],
         interests: ['Leggja niður mannréttindaskrifstofu borgarinnar', 'Andstaða við kynjatengda áhrifamat á þjónustu borgar', 'Húsnæðismál og leigumarkaður', 'Forgangsröðun á grunnþjónustu yfir hugmyndafræðiverkefni', 'Skólastefna og einkugæðamat'],
         social: [
           { type: 'facebook', url: 'https://www.facebook.com/hledismaren/', label: 'Facebook' },
@@ -792,6 +818,7 @@ const RVK = {
       [5, 'Helgi Áss Grétarsson',            'Varaborgafulltrúi, skákstórmeistari',                                    'images/candidates/f9030c22fcce7911.jpg', {
         age: 49,
         bio: 'Helgi Dagbjartur Áss Grétarsson er fæddur 18. febrúar 1977 og er lögfræðingur og skákstórmeistari. Hann varð heimsmeistari í unglingaskák árið 1994. Hann sat í borgarstjórn Reykjavíkur frá 2022, fyrst sem fulltrúi Sjálfstæðisflokksins, en gekk til liðs við Miðflokkinn í janúar 2026.',
+        heimild: [{ url: 'https://is.wikipedia.org/wiki/Helgi_%C3%81ss_Gr%C3%A9tarsson', label: 'Wikipedia' }, { url: 'https://reykjavik.is/en/city-councilors/helgi-ass-gretarsson', label: 'reykjavik.is' }],
         interests: ['Skipulagsmál og þéttleikastefna', 'Skilvirkni borgarinnar', 'Skák og íþróttir'],
         social: [
           { type: 'facebook', url: 'https://www.facebook.com/HelgiAssFrambod/', label: 'Facebook' },
@@ -863,6 +890,7 @@ const RVK = {
       [1,  'Guðmundur Ingi Þóroddsson',       'Formaður Afstöðu, baráttumaður fangaréttinda og velferðar', 'images/candidates/26c1461128fbf3dd.jpg', {
         age: 51,
         bio: 'Guðmundur Ingi Þóroddsson er fæddur 1974 og er formaður Afstöðu, félags fanga og fyrrverandi fanga. Hann sat í fangelsi í samtals 16 ár og hefur síðan helgað sig réttindabaráttu fanga. Hann starfar hjá Velferðarsviði Reykjavíkurborgar og leiðir lista Flokks fólksins í Reykjavík.',
+        heimild: [{ url: 'https://www.ruv.is/frettir/innlent/2026-03-30-gudmundur-ingi-bydur-fram-i-reykjavik-471356', label: 'ruv.is' }, { url: 'https://www.gudmunduringi.is/', label: 'gudmunduringi.is' }],
         interests: ['Fangaréttindi og enduruppbygging', 'Velferðarþjónusta og heimilislausir', 'Jafnræði í réttarkerfinu'],
         social: [],
         news: [
@@ -877,6 +905,7 @@ const RVK = {
       [2,  'Einar Sveinbjörn Guðmundsson',    'Kerfisverkfræðingur, varaborgafulltrúi',                   'images/candidates/1f82c3c4ed37b0a8.jpg', {
         age: null,
         bio: 'Einar Sveinbjörn Guðmundsson er kerfisverkfræðingur og hefur þjónað sem varaborgafulltrúi Flokks fólksins í borgarstjórn Reykjavíkur. Hann er einn reynslumesti frambjóðandi flokksins í borginni.',
+        heimild: [{ url: 'https://www.visir.is/g/20262869531d/toldu-frambodinu-ekki-til-fram-drattar-ad-maeta-i-thattinn', label: 'visir.is' }],
         interests: ['Stafræn þjónusta', 'Velferð og réttindi íbúa', 'Gagnsæi í stjórnun'],
         social: null,
         news: [
@@ -886,6 +915,7 @@ const RVK = {
       [3,  'Guðbjörg Ingunn Magnúsdóttir',    'Grunnskólakennari',                                        'images/candidates/ac24ae158afaf0ce.jpg', {
         age: null,
         bio: 'Guðbjörg Ingunn Magnúsdóttir útskrifaðist sem grunnskólakennari 2004 og hefur meistaragráðu í foreldrafræðslu frá Háskóla Íslands. Hún starfaði sem aðstoðarmaður mennta- og barnamálaráðherra frá upphafi árs 2025.',
+        heimild: [{ url: 'https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2025/02/06/Gudbjorg-Ingunn-Magnusdottir-adstodar-mennta-og-barnamalaradherra/', label: 'stjornarradid.is' }, { url: 'https://www.mbl.is/frettir/innlent/2025/02/06/gudbjorg_ingunn_adstodar_asthildi_lou/', label: 'mbl.is' }],
         interests: ['Mennta- og skólamál', 'Velferð barna og fjölskyldna', 'Foreldraráðgjöf'],
         social: null,
         news: [
@@ -902,6 +932,7 @@ const RVK = {
       [5,  'Rúnar Sigurjónsson',              'Vélavirki',                                                'images/candidates/fbb6efdcbbd1c9ab.jpg', {
         age: 53,
         bio: 'Rúnar Sigurjónsson er vélavirki og formaður Fornbílaklúbbs Íslands. Hann þjónaði sem varaþingmaður Reykjavíkurkjördæmis suður fyrir Flokk fólksins á Alþingi 2025–2026 og er gjaldkeri flokksins.',
+        heimild: [{ url: 'https://flokkurfolksins.is/listi-flokks-folksins-i-reykjavik-sudur/', label: 'flokkurfolksins.is' }],
         interests: ['Fornbílar og vélar', 'Réttindi almennings', 'Þjóðfélagsleg jafnrétti'],
         social: [
           { type: 'facebook', url: 'https://www.facebook.com/runar.sigurjonsson.stjornmal/', label: 'Facebook' },
@@ -966,6 +997,7 @@ const RVK = {
       [1,  'Björg Magnúsdóttir',             'Blaðamaður, höfundur, sjónvarpsþátttakandi; vann leiðtogakosninguna 31. jan. 2026', 'images/candidates/3da63444e2aaf7d7.jpg', {
         age: 41,
         bio: 'Björg Magnúsdóttir er fædd 9. apríl 1985 og er fjölmiðlakona, handritshöfundur og stjórnmálamaður. Hún starfaði sem fréttamaður og þáttastjórnandi hjá RÚV og hefur skrifað tvær skáldsagabækur. Hún vann leiðtogakosninguna hjá Viðreisn í Reykjavík í janúar 2026.',
+        heimild: [{ url: 'https://is.wikipedia.org/wiki/Bj%C3%B6rg_Magn%C3%BAsd%C3%B3ttir', label: 'Wikipedia' }, { url: 'https://www.ruv.is/frettir/innlent/2026-01-31-bjorg-magnusdottir-er-nyr-oddviti-vidreisnar-i-reykjavik-465781', label: 'ruv.is' }, { url: 'https://vidreisn.is/2026/01/bjorg-magnusdottir-oddviti-vidreisnar-i-reykjavik/', label: 'Viðreisn' }],
         interests: ['Fjölmiðlun og menning', 'Skólamál og leikskólar', 'Húsnæðismál', 'Hagræðing stjórnsýslu'],
         social: [
           { type: 'facebook', url: 'https://www.facebook.com/bjorg.magnusdottir.9/', label: 'Facebook' },
@@ -984,6 +1016,7 @@ const RVK = {
       [2,  'Róbert Ragnarsson',              'Stjórnsýsluráðgjafi',                                  'images/candidates/119735209c5503c6.jpg', {
         age: 50,
         bio: 'Róbert Ragnarsson er stjórnsýsluráðgjafi og fyrrverandi sveitarstjóri. Hann þjónaði sem bæjarstjóri Grindavíkur 2010–2016 og kenndi stjórnmálafræði sem stundakennari við Háskóla Íslands. Hann rekur nú ráðgjafafyrirtækið RR-ráðgjöf.',
+        heimild: [{ url: 'https://is.wikipedia.org/wiki/R%C3%B3bert_Ragnarsson', label: 'Wikipedia' }, { url: 'https://www.mbl.is/frettir/innlent/2025/12/10/robert_vill_leida_vidreisn_i_borginni/', label: 'mbl.is' }],
         interests: ['Hagræðing borgarstjórnar', 'Bein þjónusta við borgarbúa', 'Sveitarstjórnarmál og fjármál'],
         social: [
           { type: 'instagram', url: 'https://www.instagram.com/robert.ragnars/', label: 'Instagram' },
@@ -996,6 +1029,7 @@ const RVK = {
       [3,  'Þorvaldur Davíð Kristjánsson',   'Leikari',                                              'images/candidates/64d05d881db132de.jpg', {
         age: 42,
         bio: 'Þorvaldur Davíð Kristjánsson er fæddur 27. september 1983 og er íslenskur leikari. Hann útskrifaðist frá Juilliard School of Drama árið 2011 og hefur leikið í fjölmörgum kvikmyndum og leiksýningum á Íslandi og erlendis.',
+        heimild: [{ url: 'https://en.wikipedia.org/wiki/%C3%9Eorvaldur_Dav%C3%AD%C3%B0_Kristj%C3%A1nsson', label: 'Wikipedia' }, { url: 'https://www.imdb.com/name/nm4226773/', label: 'IMDb' }],
         interests: ['Listir og menning', 'Leiklist og kvikmyndagerð', 'Menntamál'],
         social: [
           { type: 'instagram', url: 'https://www.instagram.com/thorkristjansson/', label: 'Instagram' },
@@ -1010,6 +1044,7 @@ const RVK = {
       [4,  'Margrét Rós Sigurjónsdóttir',    'Umhverfisfræðingur, forstjóri Kolaportið',             'images/candidates/883b191be94067c6.jpg', {
         age: null,
         bio: 'Margrét Rós Sigurjónsdóttir er umhverfisfræðingur og forstjóri Kolaportssins. Hún starfaði áður sem verkefnastjóri sjálfbærni hjá HS Orku og hefur víðtæka sérþekkingu á umhverfis- og sjálfbærnimálum. Hún var áður á framboðslista Pírata í suðvesturkjördæmi.',
+        heimild: [{ url: 'https://www.linkedin.com/in/margr%C3%A9t-r%C3%B3s-sigurj%C3%B3nsd%C3%B3ttir-4a3a4394/', label: 'LinkedIn' }, { url: 'https://vidreisn.is/reykjavik/frambjodendur/', label: 'Viðreisn' }],
         interests: ['Umhverfismál og sjálfbærni', 'Orkumál', 'Loftslagsvernd'],
         social: [
           { type: 'instagram', url: 'https://www.instagram.com/margretros/', label: 'Instagram' },
@@ -1022,6 +1057,7 @@ const RVK = {
       [5,  'Eyþór Máni Steinarsson',         'Frumkvöðull, meðstofnandi Hopp',                      'images/candidates/c518892529d88df5.jpg', {
         age: 27,
         bio: 'Eyþór Máni Steinarsson er frumkvöðull og meðstofnandi Hopp, rafhlaupahjólaþjónustu sem starfar í 12 svæðum í þremur löndum. Hann lauk BS-gráðu í hagfræði frá Háskólanum í Reykjavík og var valinn á meðal 10 framúrskarandi ungra Íslendinga árið 2021 af JCI Íslandi.',
+        heimild: [{ url: 'https://framurskarandi.is/um-verdlaunin/topp10/topp10-2021/eythor-mani-steinarsson/', label: 'framurskarandi.is' }],
         interests: ['Frumkvöðlastarf og nýsköpun', 'Vistvænar samgöngur', 'Tækni og ungmennastarf'],
         social: [
           { type: 'instagram', url: 'https://www.instagram.com/eythormani/', label: 'Instagram' },
@@ -1089,6 +1125,7 @@ const RVK = {
       [1, 'Ingimar Þór Friðriksson', 'Framkvæmdastjóri', null, {
         age: null,
         bio: 'Ingimar Þór Friðriksson er frumkvöðull og tölvunarfræðingur. Hann lauk BS-gráðu í tölvunarfræði frá Háskóla Íslands árið 1989 og MBA-gráðu frá Háskólanum í Reykjavík árið 2002. Hann starfaði sem yfirmaður upplýsingatæknideildar Kópavogsbæjar frá 2011 til 2025 og leiðir nú framboðið Góðan daginn.',
+        heimild: [{ url: 'https://www.ruv.is/frettir/innlent/2026-04-10-godan-daginn-bydur-fram-i-reykjavik-472412', label: 'ruv.is' }],
         interests: ['Hagkvæmni í rekstri borgarinnar', 'Endurskoðun strætólína', 'Bílastæðamál'],
         social: [
           { type: 'facebook', url: 'https://www.facebook.com/ingimar.fridriksson/', label: 'Facebook' },
@@ -1103,6 +1140,7 @@ const RVK = {
       [2, 'Hjördís Dröfn Vilhjálmsdóttir', 'Leiðtoga- og teymisþjálfari', 'images/candidates/7bf5d3e940e2e319.png', {
         age: null,
         bio: 'Hjördís Dröfn Vilhjálmsdóttir er leiðtoga- og teymisþjálfari með alþjóðlega ACC-vottun frá ICF. Hún er með MSc í stjórnun og stefnumótun og BSc í hagfræði frá Háskóla Íslands. Hún sat í stjórn Regins hf. frá 2013 til 2022 og hefur áratugareynslu í breytinga- og krísustjórnun.',
+        heimild: [{ url: 'https://www.linkedin.com/in/hjordisdrofnvilhjalmsdottir/', label: 'LinkedIn' }, { url: 'https://www.icficeland.is/team-1/hj%C3%B6rd%C3%ADs-dr%C3%B6fn-vilhj%C3%A1lmsd%C3%B3ttir', label: 'icficeland.is' }, { url: 'https://view.news.eu.nasdaq.com/view?id=b0093efc2638d3bf981b4e030b11b06f5&lang=is', label: 'nasdaq.com' }],
         interests: ['Leiðtogaþróun og teymisuppbygging', 'Skilvirkni í stjórnun borgarinnar', 'Fyrirtækjalegt nálgun á borgarrekstri'],
         social: [
           { type: 'linkedin', url: 'https://www.linkedin.com/in/hjordisdrofnvilhjalmsdottir/', label: 'LinkedIn' },
@@ -1115,6 +1153,7 @@ const RVK = {
       [3, 'Torfi Markússon', 'Rekstrarfræðingur', null, {
         age: null,
         bio: 'Torfi Markússon er rekstrarfræðingur og mannauðsráðgjafi sem starfaði sem mannauðsstjóri hjá TM Software í 10 ár og ráðningarstjóri hjá Ráðgarði hf. í 9 ár. Hann var áður meðeigandi ráðgjafafyrirtækisins Intellecta ehf.',
+        heimild: [{ url: 'https://www.visir.is/g/20262867523d/godan-daginn-bydur-godan-dag', label: 'visir.is' }, { url: 'https://intellecta.is/en/um-intellecta/starfsfolk/torfi-markusson/', label: 'intellecta.is' }],
         interests: ['Rekstrarlegar umbætur', 'Mannauðsstjórnun', 'Hagkvæmni í þjónustu borgarinnar'],
         social: [],
         news: [
@@ -1125,6 +1164,7 @@ const RVK = {
       [4, 'Nathalia B. Tómasdóttir', 'Vörumerkjahönnuður', null, {
         age: null,
         bio: 'Nathalia Bardales Tómasdóttir er vörumerkjahönnuður og markaðsráðgjafi. Hún hefur starfað við markaðssetningu og vörumerkjauppbyggingu, meðal annars í Danmörku, og útskrifaðist frá Háskólanum á Bifröst.',
+        heimild: [{ url: 'https://www.ruv.is/frettir/innlent/2026-04-10-godan-daginn-bydur-fram-i-reykjavik-472412', label: 'ruv.is' }],
         interests: ['Vörumerkjabygging', 'Skapandi lausnir í markaðssetningu'],
         social: [],
         news: [
@@ -1135,6 +1175,7 @@ const RVK = {
       [5, 'Jón L. Árnason', 'Framkvæmdastjóri', null, {
         age: null,
         bio: 'Jón L. Árnason er framkvæmdastjóri lífeyrissjóðsins Lífsverks og er á 5. sæti G-listans (Góðan daginn) í borgarstjórnarkosningum í Reykjavík 2026; hann varð heimsmeistari í skák undir 17 ára aldri árið 1977.',
+        heimild: [{ url: 'https://is.wikipedia.org/wiki/J%C3%B3n_L._%C3%81rnason', label: 'Wikipedia' }, { url: 'https://www.visir.is/g/20262867276d/nytt-fram-bod-i-reykja-vik-a-elleftu-stundu', label: 'visir.is' }],
         interests: null,
         social: null,
         news: [
@@ -1175,6 +1216,7 @@ const RVK = {
       [1, 'Silja Sóley Birgisdóttir', 'Stuðningsfulltrúi', null, {
         age: 25,
         bio: 'Silja Sóley Birgisdóttir er fædd 13. maí 2000 og leiðir lista Sósíalistaflokks Íslands í Reykjavík. Hún var samþykkt á félagsfundi Jafnaðarmannafélags Reykjavíkur þann 7. febrúar 2026. Hún hefur komið fram í fjölmörgum viðtölum um húsnæðismál og skólamál.',
+        heimild: [{ url: 'https://is.wikipedia.org/wiki/Silja_S%C3%B3ley_Birgisd%C3%B3ttir', label: 'Wikipedia' }, { url: 'https://www.ruv.is/frettir/innlent/2026-02-10-silja-soley-leidir-lista-sosialista-i-borginni-466613', label: 'ruv.is' }],
         interests: ['Húsnæðismál og óhagnaðardrifin íbúðir', 'Grunnskólamál', 'Andstaða við einkavæðingu þjónustu'],
         social: [
           { type: 'facebook', url: 'https://www.facebook.com/siljasoley.birgisdottir/', label: 'Facebook' },
@@ -1192,6 +1234,7 @@ const RVK = {
       [2, 'Sigrún E. Unnsteinsdóttir', 'Kaupsýslumaður', null, {
         age: 69,
         bio: 'Sigrún E. Unnsteinsdóttir er kaupsýslumaður sem er í 2. sæti á lista Sósíalistaflokks Íslands í Reykjavík. Hún hefur tekið þátt í starfi flokksins og réttindabaráttu launafólks.',
+        heimild: [{ url: 'https://www.visir.is/g/20262865767d/thau-skipa-lista-sosialistaflokksins-i-reykjavik', label: 'visir.is' }],
         interests: ['Réttindi launafólks og fátækra', 'Þátttaka almennings í borgarstjórnarmálum'],
         social: null,
         news: [
@@ -1201,6 +1244,7 @@ const RVK = {
       [3, 'Hannes Pétursson', 'Verslunarmaður', null, {
         age: 33,
         bio: 'Hannes Pétursson er verslunarmaður og er á 3. sæti J-listans (Sósíalistaflokks Íslands) í borgarstjórnarkosningum í Reykjavík 2026.',
+        heimild: [{ url: 'https://www.visir.is/g/20262865767d/thau-skipa-lista-sosialistaflokksins-i-reykjavik', label: 'visir.is' }],
         interests: null,
         social: null,
         news: [
@@ -1210,6 +1254,7 @@ const RVK = {
       [4, 'Geirdís Hanna Kristjánsdóttir', 'Öryrki', null, {
         age: 51,
         bio: 'Geirdís Hanna Kristjánsdóttir er fædd og uppalin á Siglufirði. Hún hefur verið á örorkubótum frá 2008 en reynt að taka þátt á vinnumarkaðnum eftir megni. Hún situr í stjórn keilunardeildar ÍR og KLÍ.',
+        heimild: [{ url: 'https://www.visir.is/g/20262865767d/thau-skipa-lista-sosialistaflokksins-i-reykjavik', label: 'visir.is' }],
         interests: ['Réttindi fatlaðs fólks og öryrkja', 'Húsnæðismál', 'Félagsleg þjónusta borgarinnar'],
         social: null,
         news: [
@@ -1219,6 +1264,7 @@ const RVK = {
       [5, 'Jón Ferdínand Estherarson', 'Stjórnmálafræðingur', null, {
         age: 34,
         bio: 'Jón Ferdínand Estherarson er stjórnmálafræðingur og er virkt stjórnarmeðlimur Sósíalistaflokks Íslands, kjörinn á aðalfundi 2025.',
+        heimild: [{ url: 'https://www.visir.is/g/20262865767d/thau-skipa-lista-sosialistaflokksins-i-reykjavik', label: 'visir.is' }],
         interests: ['Stjórnmálafræði', 'Umbætur í borgarstjórnun', 'Réttlæti í félagslegu kerfi'],
         social: null,
         news: [
@@ -1281,6 +1327,7 @@ const RVK = {
       [1,  'Sigfús Aðalsteinsson',        'Leikskólakennari og fasteignasali', 'images/candidates/22cc074ac1c9c410.png', {
         age: 64,
         bio: 'Sigfús Aðalsteinsson er fæddur 1961 og starfaði sem forstöðumaður leikskóla og síðar sem fasteignasali. Hann stofnaði Facebook-hópinn „Ísland, þvert á flokka" vorið 2025 og leiðir nú framboðið Okkar borg.',
+        heimild: [{ url: 'https://www.mbl.is/frettir/innlent/2025/10/06/okkar_borg_thvert_a_flokka_bydur_fram/', label: 'mbl.is' }, { url: 'https://www.visir.is/g/20252785173d/okkar-borg-thvert-a-flokka-tekur-slaginn-i-borginni', label: 'visir.is' }],
         interests: ['Andstaða við Borgarlínu', 'Ókeypis strætó', 'Andstaða við þéttlega byggð'],
         social: [
           { type: 'facebook', url: 'https://www.facebook.com/sigfus.adalsteinsson/', label: 'Facebook' },
@@ -1298,6 +1345,7 @@ const RVK = {
       [2,  'Baldur Borgþórsson',          'Ráðgjafi',                         'images/candidates/2e7a4d9ac5ac3434.png', {
         age: null,
         bio: 'Baldur Borgþórsson er ráðgjafi og fyrrverandi borgarfulltrúi. Hann sat í borgarstjórn Reykjavíkur sem fulltrúi Framsóknarflokks 2018–2021 og starfar einnig sem einkaþjálfari. Hann hlaut landsmeistaratitil í líkamsrækt árið 2013.',
+        heimild: [{ url: 'https://frettatiminn.is/09/12/2021/baldur-borgthorsson-gengur-i-sjalfstaedisflokkinn/', label: 'frettatiminn.is' }],
         interests: ['Gagnsæi í rekstri borgarinnar', 'Endurskoðun skólastarfs', 'Andstaða við Borgarlínu'],
         social: [
           { type: 'facebook', url: 'https://www.facebook.com/people/Baldur-Borgþórsson/100001276888554', label: 'Facebook' },
@@ -1311,6 +1359,7 @@ const RVK = {
       [3,  'Hlynur Áskelson',             'Kennari',                          'images/candidates/9d9b546984a10294.png', {
         age: null,
         bio: 'Hlynur Áskelson er kennari við Fjölbrautaskólann í Ármúla í Reykjavík og er í þriðja sæti á lista Okkar borgar.',
+        heimild: [{ url: 'https://utvarpsaga.is/okkar-borg-kynnir-frambodslista-sinn-i-reykjavik/', label: 'utvarpsaga.is' }],
         interests: ['Menntamál', 'Breytingar á skólaáherslum borgarinnar'],
         social: null,
         news: [
@@ -2193,6 +2242,7 @@ const GAR = {
       [1, 'Almar Guðmundsson', 'Bæjarstjóri og hagfræðingur', 'images/candidates/d3087e70eebe11aa.jpg', {
         age: 54,
         bio: 'Almar Guðmundsson er bæjarstjóri Garðabæjar og tók við embættinu í júní 2022 eftir sveitarstjórnarkosningarnar. Hann er hagfræðingur með MBA-gráðu frá London Business School og hefur starfað í fjármálum og atvinnulífi, m.a. sem framkvæmdastjóri Samtaka iðnaðarins 2009–2017. Almar er fæddur 3. maí 1972, á rætur í Garðabæ og er giftur Guðrúnu Zoegu.',
+        heimild: [{ url: 'https://xd.is/2022/06/03/almar-gudmundsson-radinn-baejarstjori-gardabaejar/', label: 'Sjálfstæðisflokkurinn' }, { url: 'https://www.si.is/frettasafn/nr/9872', label: 'Samtök iðnaðarins' }, { url: 'https://www.mbl.is/frettir/kosning/2022/06/02/almar_nyr_baejarstjori_gardabaejar/', label: 'mbl.is' }],
         interests: ['Ábyrg fjármálastjórnun og skuldalækkun', 'Lægri fasteignaskattar', 'Uppbygging innviða og skólabygginga', 'Stuðningur við íþróttir og æsku', 'Velferðarþjónusta og stuðningur við fatlaða'],
         social: [
           { type: 'facebook', url: 'https://www.facebook.com/almar.gudmunds/', label: 'Facebook' },
@@ -2212,6 +2262,7 @@ const GAR = {
       [2, 'Björg Fenger', 'Formaður bæjarráðs og lögfræðingur', 'images/candidates/ec5805a90d116e9d.jpg', {
         age: null,
         bio: 'Björg Fenger er lögfræðingur frá Háskóla Íslands og formaður bæjarráðs Garðabæjar frá 2022. Hún hefur einnig starfað hjá Fjármálaeftirlitinu og velferðarráðuneytinu og er í 2. sæti á D-lista Sjálfstæðisflokksins í Garðabæ.',
+        heimild: [{ url: 'https://www.bjorgfenger.is/um-mig', label: 'bjorgfenger.is' }, { url: 'https://xd.is/2026/02/17/almar-leidir-lista-sjalfstaedisflokksins-i-gardabae/', label: 'Sjálfstæðisflokkurinn' }],
         interests: null,
         social: null,
         news: [
@@ -2221,6 +2272,7 @@ const GAR = {
       [3, 'Margrét Bjarnadóttir', 'Forseti bæjarráðs', 'images/candidates/99f0e2ba0db954e6.jpg', {
         age: null,
         bio: 'Margrét Bjarnadóttir er forseti bæjarstjórnar Garðabæjar frá 2024 og bæjarfulltrúi Sjálfstæðisflokksins frá 2022. Hún stundar lögfræðinám við HR og er dóttir Bjarna Benediktssonar forsætisráðherra; hún er í 3. sæti á D-lista Sjálfstæðisflokksins.',
+        heimild: [{ url: 'https://www.dv.is/frettir/2022/01/25/margret-bjarnadottir-hellir-ser-politikina-vill-fimmta-saetid-gardabaenum/', label: 'dv.is' }, { url: 'https://www.mbl.is/frettir/innlent/2022/01/25/margret_gefur_kost_a_ser_i_gardabae/', label: 'mbl.is' }, { url: 'https://xd.is/2026/02/17/almar-leidir-lista-sjalfstaedisflokksins-i-gardabae/', label: 'Sjálfstæðisflokkurinn' }],
         interests: null,
         social: null,
         news: [
@@ -2230,6 +2282,7 @@ const GAR = {
       [4, 'Hrannar Bragi Eyjólfsson', 'Bæjarfulltrúi og lögfræðingur', 'images/candidates/df267c4b1be249a8.jpg', {
         age: null,
         bio: 'Hrannar Bragi Eyjólfsson er lögmaður hjá Almenna lífeyrissjóðnum, bæjarfulltrúi Sjálfstæðisflokksins í Garðabæ frá 2022 og formaður íþrótta- og tómstundaráðs. Hann er í 4. sæti á D-lista Sjálfstæðisflokksins og leikur með Stjörnuna í handknattleik.',
+        heimild: [{ url: 'https://gardar.is/hrannar-bragi-eyjolfsson/', label: 'gardar.is' }, { url: 'https://xd.is/2026/02/17/almar-leidir-lista-sjalfstaedisflokksins-i-gardabae/', label: 'Sjálfstæðisflokkurinn' }],
         interests: null,
         social: null,
         news: [
@@ -2239,6 +2292,7 @@ const GAR = {
       [5, 'Stella Stefánsdóttir', 'Varabæjarfulltrúi og framkvæmdastjóri', 'images/candidates/dc4537a02b49c2b9.jpg', {
         age: null,
         bio: 'Stella Stefánsdóttir er framkvæmdastjóri og varabæjarfulltrúi Sjálfstæðisflokksins í Garðabæ. Hún er með meistaragráðu í nýsköpun og vörustjórnun og hefur starfað hjá Össuri, Deloitte og Robert Bosch í Þýskalandi.',
+        heimild: [{ url: 'https://stellaiframbodi.is/', label: 'stellaiframbodi.is' }, { url: 'https://gardar.is/10-saeti-stella-stefansdottir/', label: 'gardar.is' }],
         interests: null,
         social: null,
         news: [
@@ -2275,6 +2329,7 @@ const GAR = {
       [1, 'Hlynur Bæringsson', 'Varabæjarstjóri og rekstrarstjóri', null, {
         age: 43,
         bio: 'Hlynur Elías Bæringsson er varabæjarstjóri Garðabæjar og rekstrarstjóri körfuboltadeildar Stjörnu. Hann er þekktur sem einn fremsti körfuboltaleikmanna Íslands í sögunni og vann Íslandsmeistaratitilinn tvisvar, síðast með Stjörnu 2025 þegar hann hætti leikmannsferli. Hann er fæddur 6. júlí 1982 og leiðir B-lista Framsóknarflokksins í Garðabæ.',
+        heimild: [{ url: 'https://en.wikipedia.org/wiki/Hlynur_B%C3%A6ringsson', label: 'Wikipedia' }, { url: 'https://www.framsokn.is/blog/hlynur-baeringsson-leidir-framsokn-i-gardabae', label: 'Framsóknarflokkurinn' }, { url: 'https://www.mbl.is/sport/korfubolti/2025/05/21/hlynur_elias_baeringsson_thvilika_godsognin/', label: 'mbl.is' }],
         interests: ['Íþróttir og æskulýðsmál', 'Uppbygging hverfa og skipulagsmál', 'Velferð barna og jafnrétti tækifæra', 'Samfélagsleg þjónusta', 'Þróun bæjarins'],
         social: [
           { type: 'facebook', url: 'https://www.facebook.com/people/Hlynur-B%C3%A6ringsson/1159104407/', label: 'Facebook' },
@@ -2294,6 +2349,7 @@ const GAR = {
       [2, 'Anna Margrét Steingrímsdóttir', 'Markaðs- og þjónustustjóri', null, {
         age: null,
         bio: 'Anna Margrét Steingrímsdóttir er markaðs- og þjónustustjóri með meistaragráðu í þjónustufræðum og BSc í markaðssetningu og alþjóðaviðskiptum frá Háskóla Íslands. Hún er í 2. sæti á B-lista Framsóknar í Garðabæ í sveitarstjórnarkosningum 2026.',
+        heimild: [{ url: 'https://www.framsokn.is/blog/hlynur-baeringsson-leidir-framsokn-i-gardabae', label: 'Framsóknarflokkurinn' }, { url: 'https://www.mbl.is/frettir/innlent/2026/03/14/hlynur_leidir_lista_framsoknar_i_gardabae/', label: 'mbl.is' }],
         interests: null,
         social: null,
         news: [
@@ -2303,6 +2359,7 @@ const GAR = {
       [3, 'Einar Þór Einarsson', 'Framkvæmdastjóri', null, {
         age: null,
         bio: 'Einar Þór Einarsson er framkvæmdastjóri og er í 3. sæti á B-lista Framsóknar í Garðabæ í sveitarstjórnarkosningum 2026.',
+        heimild: [{ url: 'https://www.framsokn.is/blog/hlynur-baeringsson-leidir-framsokn-i-gardabae', label: 'Framsóknarflokkurinn' }, { url: 'https://www.mbl.is/frettir/innlent/2026/03/14/hlynur_leidir_lista_framsoknar_i_gardabae/', label: 'mbl.is' }],
         interests: null,
         social: null,
         news: [
@@ -2312,6 +2369,7 @@ const GAR = {
       [4, 'Einar Bárðarson', 'Framkvæmdastjóri', null, {
         age: null,
         bio: 'Einar Bárðarson er sjálfstætt starfandi ráðgjafi og framkvæmdastjóri og er í 4. sæti á B-lista Framsóknar í Garðabæ. Hann sat í öðru sæti á lista Framsóknar í Reykjavík í þingkosningum 2024.',
+        heimild: [{ url: 'https://is.wikipedia.org/wiki/Einar_B%C3%A1r%C3%B0arson', label: 'Wikipedia' }, { url: 'https://www.ruv.is/frettir/innlent/2024-10-26-einar-bardarson-i-odru-saeti-hja-framsokn-425766', label: 'ruv.is' }, { url: 'https://www.mbl.is/frettir/innlent/2024/10/26/lilja_leidir_og_einar_bardarson_i_odru_saeti/', label: 'mbl.is' }],
         interests: null,
         social: null,
         news: [
@@ -2321,6 +2379,7 @@ const GAR = {
       [5, 'Inga Amal Hasan', 'Lögfræðingur', null, {
         age: null,
         bio: 'Inga Amal Hasan er lögmaður og er í 5. sæti á B-lista Framsóknar í Garðabæ í sveitarstjórnarkosningum 2026.',
+        heimild: [{ url: 'https://www.framsokn.is/blog/hlynur-baeringsson-leidir-framsokn-i-gardabae', label: 'Framsóknarflokkurinn' }, { url: 'https://www.mbl.is/frettir/innlent/2026/03/14/hlynur_leidir_lista_framsoknar_i_gardabae/', label: 'mbl.is' }],
         interests: null,
         social: null,
         news: [
@@ -2361,6 +2420,7 @@ const GAR = {
       [1, 'Guðlaugur Kristmundsson', 'Fyrrverandi varabæjarfulltrúi', 'images/candidates/860fe82ba65f7095.jpg', {
         age: null,
         bio: 'Guðlaugur Kristmundsson er fyrrum framkvæmdastjóri þingflokks Viðreisnar (2020–2021) og hefur gegnt fjölbreyttum störfum, m.a. sem framkvæmdastjóri FlyOver Iceland frá 2023. Hann var varabæjarfulltrúi Viðreisnar í Garðabæ í síðustu kjörtímabilinu og leiðir nú C-lista Viðreisnar í sveitarstjórnarkosningum 2026.',
+        heimild: [{ url: 'https://www.gardabaer.is/stjornsysla/stjornsyslan/baejarstjorn/adalmenn/gudlaugur-kristmundsson-c', label: 'gardabaer.is' }, { url: 'https://www.ruv.is/frettir/innlent/2026-03-05-fyrrum-framkvaemdastjori-vidreisnar-faer-oddvitasaetid-i-gardabae-468884', label: 'ruv.is' }],
         interests: ['Gagnsæi og skilvirkni í stjórnsýslu', 'Nýsköpun og atvinnuþróun', 'Umhverfismál og sjálfbær þróun', 'Menntun og skólamál', 'Samgöngumál'],
         social: null,
         news: [
@@ -2371,6 +2431,7 @@ const GAR = {
       [2, 'Harpa Þorsteinsdóttir', 'Frambjóðandi', 'images/candidates/0bf5abbdd33030ac.jpg', {
         age: null,
         bio: 'Harpa Þorsteinsdóttir er lýðheilsufræðingur og hefur þjónað sem varabæjarfulltrúi Viðreisnar í Garðabæ. Hún er í 2. sæti á C-lista Viðreisnar og hefur tekið þátt í bæjarstjórnarfundum um velferðarmál og heilsueflingu.',
+        heimild: [{ url: 'https://www.visir.is/g/20262851833d/thessi-leida-vid-reisn-i-garda-bae', label: 'visir.is' }, { url: 'https://www.ruv.is/frettir/innlent/2026-03-05-fyrrum-framkvaemdastjori-vidreisnar-faer-oddvitasaetid-i-gardabae-468884', label: 'ruv.is' }],
         interests: null,
         social: null,
         news: [
@@ -2380,6 +2441,7 @@ const GAR = {
       [3, 'Jón Bjarni Steinsson', 'Frambjóðandi', 'images/candidates/e676da035b8ec33b.jpg', {
         age: null,
         bio: 'Jón Bjarni Steinsson er lögmaður og viðburðarhaldsmaður, m.a. eigandi á veitingastöðunum Dillon og Pablo Discobar í Reykjavík. Hann er í 3. sæti á C-lista Viðreisnar í Garðabæ og hefur skrifað um þróun bæjarins árið 2026.',
+        heimild: [{ url: 'https://www.dv.is/fokus/folk/vidtal/2021/06/05/helgarvidtal-dv-jon-bjarni-segir-thad-vera-saerandi-ad-sitja-uppi-sem-vondi-kallinn-eins-og-ad-halda-grillveislu-i-frystihusi/', label: 'dv.is' }, { url: 'https://www.visir.is/g/20262851833d/thessi-leida-vid-reisn-i-garda-bae', label: 'visir.is' }],
         interests: null,
         social: null,
         news: [
@@ -2389,6 +2451,7 @@ const GAR = {
       [4, 'Sigríður Þóra Ásgeirsdóttir', 'Frambjóðandi', 'images/candidates/89346718ace91ca4.jpg', {
         age: null,
         bio: 'Sigríður Þóra Ásgeirsdóttir er kvikmyndagerðarmaður og frumkvöðull, stofnandi Úlfatíma. Hún vann sem framleiðslustjóri á Áramótaskaupinu hjá RÚV og er í 4. sæti á C-lista Viðreisnar í Garðabæ.',
+        heimild: [{ url: 'https://klapptre.is/tag/sigridur-thora-asgeirsdottir/', label: 'klapptre.is' }, { url: 'https://www.visir.is/g/20262851833d/thessi-leida-vid-reisn-i-garda-bae', label: 'visir.is' }],
         interests: null,
         social: null,
         news: [
@@ -2398,6 +2461,7 @@ const GAR = {
       [5, 'Hreiðar Þór Jónsson', 'Frambjóðandi', 'images/candidates/2fc91e9746ce790c.jpg', {
         age: null,
         bio: 'Hreiðar Þór Jónsson er framkvæmdastjóri og ráðgjafi, fyrrverandi forstjóri stafræna útgáfufyrirtækisins Datera. Hann er í 5. sæti á C-lista Viðreisnar í Garðabæ og hefur bakgrunn í sölu og markaðssetningu hjá Ölgerðinni og alþjóðlegum fyrirtækjum.',
+        heimild: [{ url: 'https://www.visir.is/g/20242623461d/hjalti-mar-tekur-vid-af-hreidari-thor-hja-datera', label: 'visir.is' }, { url: 'https://vb.is/folk/hreidar-thor-framkvaemdastjori-datera/', label: 'vb.is' }, { url: 'https://www.visir.is/g/20262851833d/thessi-leida-vid-reisn-i-garda-bae', label: 'visir.is' }],
         interests: null,
         social: null,
         news: [
@@ -2435,6 +2499,7 @@ const GAR = {
       [1, 'Þorbjörg Þorvaldsdóttir', 'Bæjarfulltrúi', 'images/candidates/b67d6618e68fe290.jpg', {
         age: null,
         bio: 'Þorbjörg Þorvaldsdóttir er málvísindamaður með MA-gráðu frá Leiden-háskóla og fyrrverandi formaður Samtakanna \'78 (2019–2022). Hún er bæjarfulltrúi Garðabæjarlistans og leiðir listann í sveitarstjórnarkosningum 2026 í annað sinn.',
+        heimild: [{ url: 'https://samtokin78.is/um-samtokin-78/starfsfolk-og-stjorn/thorbjorg-thorvaldsdottir/', label: 'Samtökin 78' }, { url: 'https://www.mbl.is/frettir/innlent/2019/03/03/thorbjorg_nyr_formadur_samtakanna_78/', label: 'mbl.is' }, { url: 'https://gardabaejarlistinn.is/listinn/', label: 'Garðabæjarlistinn' }],
         interests: ['Jafnrétti og réttindi minnihlutahópa', 'Menntun og skólamál', 'Umhverfis- og loftslagsmál', 'Samfélagsleg þjónusta', 'Gagnsæi í stjórnsýslu'],
         social: [
           { type: 'facebook', url: 'https://www.facebook.com/thorbjorgthorvaldsd/', label: 'Facebook' },
@@ -2452,6 +2517,7 @@ const GAR = {
       [2, 'Guðjón Pétur Lýðsson', 'Atvinnurekandi', 'images/candidates/ae31b0a765bb7497.jpg', {
         age: null,
         bio: 'Guðjón Pétur Lýðsson er athafnamaður og fyrrverandi fagfótboltamaður sem lék m.a. hjá Helsingborg í Svíþjóð og vann rómverska deildarmeistara. Hann hefur byggt upp fasteignaveldi og er í 2. sæti á GB-lista Garðabæjarlistans í sveitarstjórnarkosningum 2026.',
+        heimild: [{ url: 'https://en.wikipedia.org/wiki/Gu%C3%B0j%C3%B3n_P%C3%A9tur_L%C3%BD%C3%B0sson', label: 'Wikipedia' }, { url: 'https://gamla.mannlif.is/frettir/fotboltamadur-byggir-upp-fasteignaveldi-athafnamadurinn-gudjon-petur-skorar-innan-og-utan-vallar/', label: 'mannlif.is' }],
         interests: null,
         social: null,
         news: [
@@ -2462,6 +2528,7 @@ const GAR = {
       [3, 'Joanna Marcinkowska', 'Verkefnastjóri inngildingar', 'images/candidates/14f769b51c2ed8ec.jpg', {
         age: null,
         bio: 'Joanna Marcinkowska er verkefnisstjóri sem hefur starfað við samþætting og fjölmenningarmál á Íslandi. Hún er í 3. sæti á GB-lista Garðabæjarlistans í sveitarstjórnarkosningum 2026.',
+        heimild: [{ url: 'https://hi.is/starfsfolk/joannam', label: 'Háskóli Íslands' }, { url: 'https://gardabaejarlistinn.is/listinn/', label: 'Garðabæjarlistinn' }],
         interests: null,
         social: null,
         news: [
@@ -2472,6 +2539,7 @@ const GAR = {
       [4, 'Finnur Jónsson', 'Umsjónarkennari', null, {
         age: null,
         bio: 'Finnur Jónsson er frítímaráðgjafi og kennari og er í 4. sæti á GB-lista Garðabæjarlistans í sveitarstjórnarkosningum 2026.',
+        heimild: [{ url: 'https://gardabaejarlistinn.is/listinn/', label: 'Garðabæjarlistinn' }],
         interests: null,
         social: null,
         news: [
@@ -2481,6 +2549,7 @@ const GAR = {
       [5, 'Baldur Ó. Svavarsson', 'Arkitekt', null, {
         age: null,
         bio: 'Baldur Ó. Svavarsson er arkitekt (FAÍ og FSSA) og meðeigandi Úti og inni arkitektar, ráðgjafafyrirtækis sem stofnað var 1989. Hann er í 5. sæti á GB-lista Garðabæjarlistans.',
+        heimild: [{ url: 'https://ui.is/aboutus', label: 'Úti og Inni Arkitektar' }, { url: 'https://en.ja.is/utioginni/Wr775/', label: 'ja.is' }, { url: 'https://gardabaejarlistinn.is/listinn/', label: 'Garðabæjarlistinn' }],
         interests: null,
         social: null,
         news: [
@@ -2519,7 +2588,8 @@ const GAR = {
     list: [
       [1, 'Lárus Guðmundsson', 'Framkvæmdastjóri og varaþingmaður', 'images/candidates/f1cf006caa612437.jpg', {
         age: 64,
-        bio: 'Lárus Þór Guðmundsson er fæddur 12. desember 1961 og fyrrum atvinnuknattspyrnumaður sem lék í Þýskalandi, m.a. með Eintracht Frankfurt á níunda áratugnum. Eftir leikmannsferli sinn sneri hann aftur til Íslands og stofnaði KFG (Knattspyrnu­félag Garðabæjar) árið 2008. Hann starfar sem framkvæmdastjóri og er varaþingmaður Miðflokksins. Lárus leiðir M-lista Miðflokksins í Garðabæ í sveitarstjórnarkosningum 2026.',
+        bio: 'Lárus Þór Guðmundsson er fæddur 12. desember 1961 og fyrrum atvinnuknattspyrnumaður sem lék í Þýskalandi, m.a. með Bayer Uerdingen og 1. FC Kaiserslautern á níunda áratugnum. Eftir leikmannsferli sinn sneri hann aftur til Íslands og stofnaði KFG (Knattspyrnu­félag Garðabæjar) árið 2008. Hann starfar sem framkvæmdastjóri og er varaþingmaður Miðflokksins. Lárus leiðir M-lista Miðflokksins í Garðabæ í sveitarstjórnarkosningum 2026.',
+        heimild: [{ url: 'https://en.wikipedia.org/wiki/L%C3%A1rus_Gu%C3%B0mundsson', label: 'Wikipedia' }, { url: 'https://www.visir.is/g/20262854836d/midflokkur-kynnir-sex-efstu-i-garda-bae', label: 'visir.is' }],
         interests: ['Íþróttir og æskulýðsmál', 'Fjölskyldumál og velferð', 'Atvinnuþróun í sveitarfélaginu', 'Samgöngumál', 'Heilbrigðismál'],
         social: [
           { type: 'facebook', url: 'https://www.facebook.com/lalli.lagari.3/', label: 'Facebook' },
@@ -2536,6 +2606,7 @@ const GAR = {
       [2, 'Laufey Gunnþórsdóttir', 'Verkfræðingur', 'images/candidates/9bdebd56e38296db.jpg', {
         age: null,
         bio: 'Laufey Gunnþórsdóttir er verkfræðingur og er í 2. sæti á M-lista Miðflokksins í Garðabæ í sveitarstjórnarkosningum 2026.',
+        heimild: [{ url: 'https://www.mannverk.is/staff/laufey-gunnthorsdottir/', label: 'Mannverk' }, { url: 'https://www.visir.is/g/20262854836d/midflokkur-kynnir-sex-efstu-i-garda-bae', label: 'visir.is' }],
         interests: null,
         social: null,
         news: [
@@ -2545,6 +2616,7 @@ const GAR = {
       [3, 'Snorri Marteinsson', 'Fjármálastjóri', 'images/candidates/4501d487eaead1f7.jpg', {
         age: null,
         bio: 'Snorri Marteinsson er fjármálastjóri og starfar sem yfirmaður hjá Wells Fargo Securities. Hann er í 3. sæti á M-lista Miðflokksins í Garðabæ og var einnig í 3. sæti á lista flokksins 2022.',
+        heimild: [{ url: 'https://www.linkedin.com/in/snorrimar/', label: 'LinkedIn' }, { url: 'https://www.visir.is/g/20262854836d/midflokkur-kynnir-sex-efstu-i-garda-bae', label: 'visir.is' }],
         interests: null,
         social: null,
         news: [
@@ -2554,6 +2626,7 @@ const GAR = {
       [4, 'Bessí Þóra Jónsdóttir', 'Hagfræðingur', 'images/candidates/956a87eff3a29581.jpg', {
         age: null,
         bio: 'Bessí Þóra Jónsdóttir er hagfræðingur og er í 4. sæti á M-lista Miðflokksins í Garðabæ í sveitarstjórnarkosningum 2026.',
+        heimild: [{ url: 'https://www.visir.is/g/20262854836d/midflokkur-kynnir-sex-efstu-i-garda-bae', label: 'visir.is' }, { url: 'https://www.mbl.is/frettir/innlent/2026/03/15/oddvitinn_heldr_afram_og_knattspyrnuhetja_i_odru/', label: 'mbl.is' }],
         interests: null,
         social: null,
         news: [
@@ -2563,6 +2636,7 @@ const GAR = {
       [5, 'Unnur Ýr Jónsdóttir', 'Flugfreyja', 'images/candidates/5eafb2512fcc1545.jpg', {
         age: null,
         bio: 'Unnur Ýr Jónsdóttir er flugfreyja og er í 5. sæti á M-lista Miðflokksins í Garðabæ í sveitarstjórnarkosningum 2026.',
+        heimild: [{ url: 'https://www.visir.is/g/20262854836d/midflokkur-kynnir-sex-efstu-i-garda-bae', label: 'visir.is' }, { url: 'https://www.mbl.is/frettir/innlent/2026/03/15/oddvitinn_heldr_afram_og_knattspyrnuhetja_i_odru/', label: 'mbl.is' }],
         interests: null,
         social: null,
         news: [
@@ -2599,6 +2673,7 @@ const GAR = {
       [1, 'Kjartan Atli Kjartansson', 'Stjórnmálafræðingur, fjölmiðlamaður og rithöfundur', null, {
         age: 41,
         bio: 'Kjartan Atli Kjartansson er fæddur 23. maí 1984 og er þekktur sem körfuboltaþulur og þáttastjórnandi á Stöð 2, rithöfundur og stjórnmálafræðingur. Hann hefur skrifað bækur um körfubolta og íslenskt samfélag og leiðir S-lista Samfylkingarinnar í Garðabæ í sveitarstjórnarkosningum 2026.',
+        heimild: [{ url: 'https://en.wikipedia.org/wiki/Kjartan_Atli_Kjartansson', label: 'Wikipedia' }, { url: 'https://www.visir.is/g/20262856786d/kjartan-atli-leidir-sam-fylkinguna-i-garda-bae', label: 'visir.is' }],
         interests: ['Jafnrétti og félagsleg réttlæti', 'Menntun og þekkingarsamfélag', 'Fjölbreytileiki og inngildning', 'Íþróttir og æskulýðsmál', 'Umhverfismál'],
         social: [
           { type: 'facebook', url: 'https://www.facebook.com/kjartan.a.kjartansson/', label: 'Facebook' },
@@ -2619,6 +2694,7 @@ const GAR = {
       [2, 'Vilborg Anna Strange Garðarsdóttir', 'Fjármála- og rekstrarstjóri', null, {
         age: null,
         bio: 'Vilborg Anna Strange Garðarsdóttir er söfnunarráðgjafi UN Women Ísland, með BS-gráðu í viðskiptafræði frá HR og meistaragráðu í alþjóðaviðskiptum frá Bifröst. Hún er í 2. sæti á S-lista Samfylkingarinnar í Garðabæ og hefur skrifað um samkeppnishæfni Garðabæjar.',
+        heimild: [{ url: 'https://unwomen.is/nyjar-starfskonur-i-hop-un-women-a-islandi/', label: 'UN Women Ísland' }, { url: 'https://www.youtube.com/watch?v=ePI2Mdp6ZvM', label: 'Bifröst' }, { url: 'https://www.visir.is/g/20262856786d/kjartan-atli-leidir-sam-fylkinguna-i-garda-bae', label: 'visir.is' }],
         interests: null,
         social: null,
         news: [
@@ -2628,6 +2704,7 @@ const GAR = {
       [3, 'Rakel Margrét Viggósdóttir', 'Kennari og deildarstjóri', null, {
         age: null,
         bio: 'Rakel Margrét Viggósdóttir er í 3. sæti á S-lista Samfylkingarinnar í Garðabæ í sveitarstjórnarkosningum 2026.',
+        heimild: [{ url: 'https://www.visir.is/g/20262856786d/kjartan-atli-leidir-sam-fylkinguna-i-garda-bae', label: 'visir.is' }, { url: 'https://www.ruv.is/frettir/innlent/2026-03-12-kjartan-atli-leidir-samfylkinguna-i-gardabae-469510', label: 'ruv.is' }],
         interests: null,
         social: null,
         news: [
@@ -2637,6 +2714,7 @@ const GAR = {
       [4, 'Vilmar Pétursson', 'Sérfræðingur hjá Vinnumálastofnun', null, {
         age: null,
         bio: 'Vilmar Pétursson er á 4. sæti á S-lista Samfylkingarinnar í Garðabæ í sveitarstjórnarkosningum 2026.',
+        heimild: [{ url: 'https://www.visir.is/g/20262856786d/kjartan-atli-leidir-sam-fylkinguna-i-garda-bae', label: 'visir.is' }, { url: 'https://www.ruv.is/frettir/innlent/2026-03-12-kjartan-atli-leidir-samfylkinguna-i-gardabae-469510', label: 'ruv.is' }],
         interests: null,
         social: null,
         news: [
@@ -2646,6 +2724,7 @@ const GAR = {
       [5, 'Ögmundur Árni Sveinsson', 'Viðskiptafræðinemi og þjálfari', null, {
         age: null,
         bio: 'Ögmundur Árni Sveinsson er á 5. sæti á S-lista Samfylkingarinnar í Garðabæ í sveitarstjórnarkosningum 2026.',
+        heimild: [{ url: 'https://www.visir.is/g/20262856786d/kjartan-atli-leidir-sam-fylkinguna-i-garda-bae', label: 'visir.is' }, { url: 'https://www.ruv.is/frettir/innlent/2026-03-12-kjartan-atli-leidir-samfylkinguna-i-gardabae-469510', label: 'ruv.is' }],
         interests: null,
         social: null,
         news: [
@@ -3180,6 +3259,7 @@ const KOP = {
       [1, 'Orri Vignir Hlöðversson', 'Framkvæmdastjóri, bæjarfulltrúi', 'images/candidates/5df676d6cc30a5cc.jpg', {
         age: null,
         bio: 'Orri Vignir Hlöðversson lauk BA-gráðu í alþjóðamálum og hagfræði frá University of California árið 1993. Hann starfaði í Brussel hjá Framkvæmdastjórn ESB og Bandaríkjasendiráðinu. Hann var bæjarstjóri Hveragerðis 2002–2006 og hefur búið í Kópavogi í 15 ár. Hann er framkvæmdastjóri og hluthafi í Frumherja hf.',
+        heimild: [{ url: 'https://www.mbl.is/frettir/kosning/2022/01/21/orri_vill_leida_framsokn_i_kopavogi/', label: 'mbl.is' }, { url: 'https://www.kopavogur.is/en/moya/extras/baejarfulltruar/orri-vignir-hlodversson', label: 'kopavogur.is' }, { url: 'https://www.mbl.is/frettir/innlent/2026/02/07/orri_afram_oddviti_framsoknar/', label: 'mbl.is' }],
         interests: ['Atvinnumál og nýsköpun', 'Menntamál og leikskólar', 'Samgöngumál', 'Hagkvæmur rekstur bæjarins'],
         social: [],
         news: [
@@ -3195,6 +3275,7 @@ const KOP = {
       [2, 'Björg Baldursdóttir', 'Skólastjóri Kársnesskóla, bæjarfulltrúi', 'images/candidates/71f0f3fc01da2cbe.jpg', {
         age: null,
         bio: 'Björg Baldursdóttir er skólastjóri Kársnesskóla í Kópavogi og bæjarfulltrúi Framsóknarflokksins. Hún situr í bæjarráði Kópavogs.',
+        heimild: [{ url: 'https://karsnesskoli.is/skolinn/skipurit/', label: 'karsnesskoli.is' }, { url: 'https://www.kopavogur.is/is/frettir-tilkynningar/skolar-a-karsnesi-fa-nofnin-karsnesskoli-og-barnaskoli-karsness', label: 'kopavogur.is' }],
         interests: ['Skólamál og menntun barna', 'Leikskólamál', 'Þjónusta við fjölskyldur'],
         social: null,
         news: [
@@ -3213,6 +3294,7 @@ const KOP = {
       [4, 'Svava Halldóra Friðgeirsdóttir', 'Skjalastjóri', null, {
         age: null,
         bio: 'Svava Halldóra Friðgeirsdóttir er skjalastjóri hjá Arion banka og hefur gegnt þeirri stöðu frá 2004. Hún starfaði áður sem upplýsingatæknisráðgjafi hjá ANZA hf. frá 2000 til 2004 og er formaður Freyju, kvenfélagssamtaka tengdum Framsóknarflokki í Kópavogi.',
+        heimild: [{ url: 'https://www.fka.is/felagatal/svava-halldora-fridgeirsdottir', label: 'fka.is' }],
         interests: null,
         social: null,
         news: [],
@@ -3220,6 +3302,7 @@ const KOP = {
       [5, 'Heiðdís Geirsdóttir', 'Félagsfræðingur', null, {
         age: null,
         bio: 'Heiðdís Geirsdóttir er félagsfræðingur og formaður Jafnréttis- og mannréttindaráðs Kópavogs. Hún er einnig varamaður í Notendaráði í málefnum fatlaðs fólks í Kópavogi.',
+        heimild: [{ url: 'https://www.kopavogur.is/is/stjornsysla/fundargerdir/jafnrettis-og-mannrettindarad/3773', label: 'kopavogur.is' }, { url: 'https://www.kopavogur.is/is/stjornsysla/rad-og-nefndir/notendarad-i-malefnum-fatlads-folks', label: 'kopavogur.is' }],
         interests: null,
         social: null,
         news: [],
@@ -3258,6 +3341,7 @@ const KOP = {
       [1, 'María Ellen Steingrímsdóttir', 'Lögfræðingur', 'images/candidates/81d2da3f51d5fb96.jpg', {
         age: null,
         bio: 'María Ellen Steingrímsdóttir er lögfræðingur og nýkjörinn oddviti Viðreisnar í Kópavogi. Hún var í 5. sæti á lista flokksins 2022 og sat í menntaráði og jafnréttis- og mannréttindaráði Kópavogs á þessu kjörtímabili. Hún vann prófkjörið með rafrænum atkvæðum í janúar 2026.',
+        heimild: [{ url: 'https://www.mbl.is/frettir/innlent/2026/01/18/maria_vill_oddvitasaetid/', label: 'mbl.is' }, { url: 'https://vidreisn.is/2026/02/maria-ellen-nyr-oddviti-vidreisnar-i-kopavogi/', label: 'Viðreisn' }, { url: 'https://www.visir.is/g/20262840103d/maria-ellen-kjorin-odd-viti-vid-reisnar-i-kopa-vogi', label: 'visir.is' }],
         interests: ['Innviðir og viðhald grunnskóla', 'Skólamál', 'Jafnrétti og mannréttindi'],
         social: [],
         news: [
@@ -3272,6 +3356,7 @@ const KOP = {
       [2, 'Pétur Björgvin Sveinsson', 'Aðstoðarmaður þingflokks', 'images/candidates/aa2a111ba8b1e688.jpg', {
         age: null,
         bio: 'Pétur Björgvin Sveinsson er aðstoðarmaður þingflokks Viðreisnar á Alþingi og varaþingmaður flokksins. Hann hefur tekið þátt í þingstarfi og flutt ræður á Alþingi um fjölda mála.',
+        heimild: [{ url: 'https://www.althingi.is/altext/raeda/157/rad20251125T212040.html', label: 'althingi.is' }, { url: 'https://www.visir.is/g/20262851919d/vidreisn-opinberar-listann-i-kopavogi', label: 'visir.is' }],
         interests: null,
         social: null,
         news: [
@@ -3281,6 +3366,7 @@ const KOP = {
       [3, 'Arnar Grétarsson', 'Knattspyrnuþjálfari og viðskiptafræðingur', 'images/candidates/1ecbe36070b0b459.jpg', {
         age: null,
         bio: 'Arnar Grétarsson er knattspyrnuþjálfari og fyrrverandi landsliðsmaður í knattspyrnu. Hann lék hjá Breiðabliki, AEK Athens og Lokeren, meðal annars, og hefur síðar þjálfað Breiðablik og KA Akureyri.',
+        heimild: [{ url: 'https://en.wikipedia.org/wiki/Arnar_Gr%C3%A9tarsson', label: 'Wikipedia' }, { url: 'https://www.visir.is/g/20262851919d/vidreisn-opinberar-listann-i-kopavogi', label: 'visir.is' }],
         interests: null,
         social: null,
         news: [
@@ -3290,6 +3376,7 @@ const KOP = {
       [4, 'Sigrún Ólöf Ingólfsdóttir', 'Skólastjóri', 'images/candidates/163a47167e6a77d5.jpg', {
         age: null,
         bio: 'Sigrún Ólöf Ingólfsdóttir er skólastjóri Hörðuvallaskóla í Kópavogi. Hún hefur vakið athygli með áréttingu á þörfum kennara og vandkvæðum við stjórnun skóla, meðal annars gagnvart vaxandi ofbeldi nemenda.',
+        heimild: [{ url: 'https://www.horduvallaskoli.is/is/skolinn/starfsfolk', label: 'horduvallaskoli.is' }, { url: 'https://www.dv.is/frettir/2025/01/21/skolastjori-horduvallaskola-segir-ad-kennarar-verdi-ad-fa-valdid-til-baka-ljott-ordbragd-og-vaxandi-ofbeldi-nemenda/', label: 'dv.is' }, { url: 'https://www.visir.is/g/20262851919d/vidreisn-opinberar-listann-i-kopavogi', label: 'visir.is' }],
         interests: null,
         social: null,
         news: [
@@ -3299,6 +3386,7 @@ const KOP = {
       [5, 'Elvar Bjarki Helgason', 'Sölu- og þjónustustjóri', 'images/candidates/216801f147efc23f.jpg', {
         age: null,
         bio: 'Elvar Bjarki Helgason er sölu- og þjónustustjóri og formaður Viðreisnar í Kópavogi. Hann var á meðal þeirra sem samþykktu framboðslista Viðreisnar í Kópavogi á fundi í mars 2026.',
+        heimild: [{ url: 'https://www.visir.is/g/20262851919d/vidreisn-opinberar-listann-i-kopavogi', label: 'visir.is' }],
         interests: null,
         social: null,
         news: [
@@ -3335,6 +3423,7 @@ const KOP = {
       [1, 'Ásdís Kristjánsdóttir', 'Bæjarstjóri', 'images/candidates/a16ee6fad8f3c0e9.jpg', {
         age: 47,
         bio: 'Ásdís Kristjánsdóttir er fædd 28. september 1978 og uppalin í Seljahverfi í Breiðholti. Hún er hagfræðingur með BS-gráðu í iðnaðarverkfræði og MS-gráðu í hagfræði frá Háskóla Íslands. Hún starfaði sem hagfræðingur hjá Arion banka og formaður hagfræðideildar þar til 2013, og síðan sem yfirmaður efnahagsmáladeildar Samtaka atvinnulífsins til 2022. Hún var fyrst konan í sögu Sjálfstæðisflokksins til að gegna embætti bæjarstjóra Kópavogs.',
+        heimild: [{ url: 'https://is.wikipedia.org/wiki/%C3%81sd%C3%ADs_Kristj%C3%A1nsd%C3%B3ttir', label: 'Wikipedia' }, { url: 'https://www.kopavogur.is/is/stjornsysla/baejarstjorn/baejarstjori', label: 'kopavogur.is' }, { url: 'https://xd.is/2022/05/31/asdis-kristjansdottir-baejarstjori-kopavogs/', label: 'Sjálfstæðisflokkurinn' }],
         interests: ['Fjármálalegt jafnvægi bæjarins', 'Atvinnumál og nýsköpun', 'Þjónusta við íbúa', 'Skólastefna og leikskólamál'],
         social: [],
         news: [
@@ -3350,6 +3439,7 @@ const KOP = {
       [2, 'Hjördís Ýr Johnson', 'Bæjarfulltrúi, framleiðslustjóri StudioM', 'images/candidates/e5f4f99dbef66960.jpg', {
         age: null,
         bio: 'Hjördís Ýr Johnson er framleiðslustjóri StudioM, framleiðsludeildar Árvakurs. Hún hefur setið í bæjarstjórn Kópavogs frá 2014 og verið í bæjarráði í alla þá tíð.',
+        heimild: [{ url: 'https://www.kopavogur.is/is/stjornsysla/baejarstjorn/baejarfulltruar/hjordis-yr-johnson', label: 'kopavogur.is' }, { url: 'https://kgp.is/kopavogur/hjordis-yr-johnson-gefur-kost-a-ser-i-2-saetid-i-profkjori-sjalfstaedisflokksins-i-kopavogi/', label: 'kgp.is' }],
         interests: ['Menntamál og skólar', 'Þjónusta við íbúa', 'Fjármál bæjarins'],
         social: [],
         news: [
@@ -3361,6 +3451,7 @@ const KOP = {
       [3, 'Andri Steinn Hilmarsson', 'Aðstoðarmaður ráðherra, fyrrverandi blaðamaður', 'images/candidates/cbedd24e0a95fcb8.jpg', {
         age: null,
         bio: 'Andri Steinn Hilmarsson er aðstoðarmaður ráðherra háskóla-, iðnaðar- og nýsköpunarmála og fyrrverandi blaðamaður hjá Morgunblaðinu. Hann hefur gegnt trúnaðarstörfum í Sjálfstæðisflokknum, þar á meðal sem varaformaður SUS og formaður Ty, samtaka ungra sjálfstæðismanna í Kópavogi.',
+        heimild: [{ url: 'https://xd.is/andri-steinn-hilmarsson-2/', label: 'Sjálfstæðisflokkurinn' }, { url: 'https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2024/06/05/Andri-Steinn-Hilmarsson-adstodar-Aslaugu-Ornu-timabundid/', label: 'stjornarradid.is' }, { url: 'https://www.mbl.is/frettir/burdargrein/2022/02/10/andri_steinn_saekist_eftir_2_3_saeti_i_kopavogi/', label: 'mbl.is' }],
         interests: ['Nýsköpun og þekkingargreinar', 'Skóla- og menntamál', 'Þjónusta borgar'],
         social: [],
         news: [
@@ -3372,6 +3463,7 @@ const KOP = {
       [4, 'Elísabet Berglind Sveinsdóttir', 'Bæjarfulltrúi', 'images/candidates/b2dc8ec214c3aecd.jpg', {
         age: null,
         bio: 'Elísabet Berglind Sveinsdóttir er markaðsstjóri og hefur búið í Kópavogi í þrjá áratugi. Hún er bæjarfulltrúi Sjálfstæðisflokksins í Kópavogi og formaður Forsætisnefndar bæjarins; árið 2008 stofnaði hún góðgerðasamtökin Á allra vörum ásamt vinum sínum.',
+        heimild: [{ url: 'https://www.kopavogur.is/is/stjornsysla/baejarstjorn/baejarfulltruar/elisabet-berglind-sveinsdottir', label: 'kopavogur.is' }, { url: 'https://www.visir.is/g/20222227686d/elisa-bet-vill-3.-saetid-hja-sjalf-staedis-monnum-i-kopa-vogi', label: 'visir.is' }, { url: 'https://xd.is/2026/03/17/fullskipadur-frambodslisti-i-kopavogi/', label: 'Sjálfstæðisflokkurinn' }],
         interests: null,
         social: null,
         news: [
@@ -3419,6 +3511,7 @@ const KOP = {
       [1, 'Markús Candi', 'Leikjahönnuður, stuðningsmaður', null, {
         age: 26,
         bio: 'Markús Candi er 26 ára leikjahönnuður og stuðningsmaður sem kennir við Suðurhlíðarskóla og Tækniskólann. Hann leiðir lista Sósíalistaflokksins í Kópavogi.',
+        heimild: [{ url: 'https://sudurhlidarskoli.is/staff/markus-candi/', label: 'sudurhlidarskoli.is' }, { url: 'https://tskoli.is/stafraen-honnun/markus/', label: 'tskoli.is' }, { url: 'https://www.linkedin.com/in/mark%C3%BAs-candi-7262481b6/', label: 'LinkedIn' }],
         interests: ['Húsnæðisöryggi og félagslegt leiguhúsnæði', 'Hagkvæmari leikskólaþjónusta', 'Réttindi launafólks'],
         social: [
           { type: 'linkedin', url: 'https://www.linkedin.com/in/mark%C3%BAs-candi-7262481b6/', label: 'LinkedIn' },
@@ -3434,6 +3527,7 @@ const KOP = {
       [2, 'Anna Ceridwen Auðnudóttir', 'Listfræðinemi', null, {
         age: null,
         bio: 'Anna Ceridwen Auðnudóttir er stuðningsfulltrúi og listfræðinemi, 26 ára að aldri. Hún er í öðru sæti á framboðslista Sósíalistaflokks Íslands í Kópavogi við sveitarstjórnarkosningarnar 2026.',
+        heimild: [{ url: 'https://www.sosialistaflokkurinn.is/frettir/3-efstu-saeti-i-kopavogsbae', label: 'Sósíalistaflokkurinn' }],
         interests: null,
         social: null,
         news: [
@@ -3443,6 +3537,7 @@ const KOP = {
       [3, 'Marzuk Ingi Lamsiah Svanlaugar', 'Tölvunarfræðingur', null, {
         age: null,
         bio: 'Marzuk Ingi Lamsiah Svanlaugar er tölvunarfræðingur og forritari, 29 ára að aldri. Hann starfaði sem aðstoðarkennari í vefforritun við Háskóla Íslands og var á framboðslista Sósíalistaflokks Íslands í Suðvesturkjördæmi við alþingiskosningar 2024.',
+        heimild: [{ url: 'https://www.sosialistaflokkurinn.is/frettir/3-efstu-saeti-i-kopavogsbae', label: 'Sósíalistaflokkurinn' }, { url: 'https://heimildin.is/kosningar/althingiskosningar-2024/frambjodandi/J/marzuk-ingi-lamsiah-svanlaugar/?samanburdur=e495b50a7cf62d997cc94e14661c6cbb6f3bfdb0', label: 'Heimildin' }],
         interests: null,
         social: null,
         news: [
@@ -3494,6 +3589,7 @@ const KOP = {
       [1, 'Einar Jóhannes Guðnason', 'Varaþingmaður, rekstrar- og sölustjóri', 'images/candidates/eabc8e04978e56ab.jpg', {
         age: 32,
         bio: 'Einar Jóhannes Guðnason er 32 ára rekstrar- og sölustjóri og varaþingmaður Miðflokksins. Hann hefur 8 ára reynslu sem rekstrar- og sölustjóri, m.a. hjá eloomi, Maze og 50skills. Hann sat sem stjórnarmeðlimur Freyfaxa, ungræðihreyfingar Miðflokksins á suðvesturkjördæmi. Hann er giftur Guðfinnu Eiríksdóttur og á son.',
+        heimild: [{ url: 'https://www.althingi.is/altext/cv/is/Einar_J%C3%B3hannes_Gu%C3%B0nason/1552/?nfaerslunr=1552', label: 'althingi.is' }, { url: 'https://www.mbl.is/frettir/innlent/2025/10/14/einar_saekist_eftir_oddivitasaeti_i_kopavogi/', label: 'mbl.is' }, { url: 'https://www.visir.is/g/20252789340d/vill-leida-mid-flokkinn-i-kopa-vogi', label: 'visir.is' }],
         interests: ['Andstaða við ofþéttni', 'Endurskoðun Borgarlínuáforma', 'Leikskóla- og grunnskólamál', 'Hagkvæmni í bæjarrekstri'],
         social: [],
         news: [
@@ -3510,6 +3606,7 @@ const KOP = {
       [2, 'Nína Berglind Sigurgeirsdóttir', 'Leikskólastjóri', 'images/candidates/ed3c63b8ab93d71d.jpg', {
         age: null,
         bio: 'Nína Berglind Sigurgeirsdóttir er leikskólastjóri og hlaupaþjálfari. Hún er í öðru sæti á framboðslista Miðflokksins í Kópavogi og hefur skrifað um menntamál, meðal annars greinar um námsárangur og stefnumál í skólakerfi.',
+        heimild: [{ url: 'https://www.kopavogsbladid.is/efstu-fimm-hja-midflokki/', label: 'kopavogsbladid.is' }, { url: 'https://www.visir.is/g/20262870118d/namsarangur-i-frjalsu-falli-hversu-lengi-aetlum-vid-ad-horfa-a-', label: 'visir.is' }],
         interests: null,
         social: null,
         news: [
@@ -3519,6 +3616,7 @@ const KOP = {
       [3, 'Beitir Ólafsson', 'Byggingarverktaki', 'images/candidates/d6fa41c48a615690.jpg', {
         age: null,
         bio: 'Beitir Ólafsson er byggingarverktaki og fyrrverandi atvinnuknattspyrnumaður. Hann lék með KR, HK og Keflavík á æskuárum og er 39 ára. Hann er í þriðja sæti á framboðslista Miðflokksins í Kópavogi.',
+        heimild: [{ url: 'https://www.kopavogsbladid.is/efstu-fimm-hja-midflokki/', label: 'kopavogsbladid.is' }, { url: 'https://www.transfermarkt.us/beitir-olafsson/profil/spieler/313352', label: 'Transfermarkt' }],
         interests: null,
         social: null,
         news: [
@@ -3528,6 +3626,7 @@ const KOP = {
       [4, 'Thelma Bergmann Árnadóttir', 'Sjálfstæður atvinnurekstur', 'images/candidates/e64c632aaade7575.jpg', {
         age: null,
         bio: 'Thelma Bergmann Árnadóttir rekur eigin fyrirtæki og hefur setið í Íþróttaráði Kópavogs. Hún er í fjórða sæti á framboðslista Miðflokksins í Kópavogi 2026.',
+        heimild: [{ url: 'https://www.kopavogsbladid.is/efstu-fimm-hja-midflokki/', label: 'kopavogsbladid.is' }, { url: 'https://www.kopavogur.is/is/stjornsysla/fundargerdir/ithrottarad/3891', label: 'kopavogur.is' }],
         interests: null,
         social: null,
         news: [
@@ -3537,6 +3636,7 @@ const KOP = {
       [5, 'Trausti Örn Þórðarson', 'Lögfræðingur', 'images/candidates/8a2060d8db866dad.jpg', {
         age: null,
         bio: 'Trausti Örn Þórðarson er lögfræðingur og er í fimmta sæti á framboðslista Miðflokksins í Kópavogi við sveitarstjórnarkosningarnar 2026.',
+        heimild: [{ url: 'https://www.kopavogsbladid.is/efstu-fimm-hja-midflokki/', label: 'kopavogsbladid.is' }, { url: 'https://utvarpsaga.is/midflokkurinn-kynnir-frambodslista-i-kopavogi/', label: 'utvarpsaga.is' }],
         interests: null,
         social: null,
         news: [
@@ -3576,6 +3676,7 @@ const KOP = {
       [1, 'Jónas Már Torfason', 'Lögfræðingur', 'images/candidates/5321170da4104c73.png', {
         age: null,
         bio: 'Jónas Már Torfason er lögfræðingur hjá Rétti - Aðalsteinsson & Partners og formaður Félags frjálslyndra jafnaðarmanna. Hann starfaði áður hjá danska lögfræðistofunni Plesner í Kaupmannahöfn, hjá LOGOS lögmönnum og sem blaðamaður hjá Fréttablaðinu. Hann var framkvæmdastjóri Stúdentaráðs Háskóla Íslands. Hann ólst upp í Kópavogi og er nýlega snúinn þangað aftur.',
+        heimild: [{ url: 'https://www.mbl.is/frettir/innlent/2026/02/07/jonas_mar_oddviti_samfylkingarinnar_i_kopavogi/', label: 'mbl.is' }, { url: 'https://www.lexology.com/firms/360/j_nas_m_r_torfason', label: 'Lexology' }],
         interests: ['Húsnæðismál og leigendavernd', 'Skólamál og leikskólar', 'Samgöngumál', 'Jafnrétti og félagsleg réttlæti'],
         social: [
           { type: 'twitter', url: 'https://twitter.com/jtorfason', label: 'X/Twitter' },
@@ -3593,6 +3694,7 @@ const KOP = {
       [2, 'Eydís Inga Valsdóttir', 'Alþjóðafræðingur', 'images/candidates/183b4abcd4dd4f19.png', {
         age: null,
         bio: 'Eydís Inga Valsdóttir er sérfræðingur og liðsstjóri á menningar- og menntasviði Rannís. Hún er með meistaragráður í norrænum fræðum frá Uppsalaháskóla og í stafrænum upplýsingastjórnun frá Högskolan í Borås í Svíþjóð, og starfaði áður sem fulltrúi Íslands við sendiráðið í Stokkhólmi.',
+        heimild: [{ url: 'https://en.rannis.is/activities/staff/education-and-culture/nr/2696', label: 'rannis.is' }, { url: 'https://eydisinga.is', label: 'eydisinga.is' }, { url: 'https://www.visir.is/g/20262854763d/thau-eru-a-lista-samfylkingarinnar-i-kopavogi', label: 'visir.is' }],
         interests: null,
         social: null,
         news: [
@@ -3602,6 +3704,7 @@ const KOP = {
       [3, 'Hákon Gunnarsson', 'Sérfræðingur í jarðskorpurannsóknum', 'images/candidates/fc532a0404a3cee4.png', {
         age: null,
         bio: 'Hákon Gunnarsson er sérfræðingur í jarðskorpurannsóknum og umhverfisráðgjafi hjá Resource International í Kópavogi. Hann stofnaði Íslenska jarðhitasamtökin árið 2009 og stjórnaði þeim í sjö ár. Hákon er varabæjarfulltrúi Samfylkingarinnar í Kópavogi og formaður skipulags- og umhverfisnefndar bæjarins.',
+        heimild: [{ url: 'https://www.kopavogsbladid.is/hakon-bydur-sig-fram-til-1-2-saetis-i-forvali-samfylkingarinnar/', label: 'kopavogsbladid.is' }, { url: 'https://www.dv.is/eyjan/2026/01/11/hakon-vill-3-saeti-samfylkingar-kopavogi/', label: 'dv.is' }, { url: 'https://www.visir.is/g/20262854763d/thau-eru-a-lista-samfylkingarinnar-i-kopavogi', label: 'visir.is' }],
         interests: null,
         social: null,
         news: [
@@ -3611,6 +3714,7 @@ const KOP = {
       [4, 'Sólveig Skaftadóttir', 'Fasteignasali', 'images/candidates/5eda2327db91be68.png', {
         age: null,
         bio: 'Sólveig Skaftadóttir er fasteignasali og hefur yfir tíu ára reynslu sem verkefnastjóri í stjórnsýslu Reykjavíkurborgar. Hún er í fjórða sæti á framboðslista Samfylkingarinnar í Kópavogi 2026.',
+        heimild: [{ url: 'https://www.visir.is/g/20262854763d/thau-eru-a-lista-samfylkingarinnar-i-kopavogi', label: 'visir.is' }, { url: 'https://www.ruv.is/frettir/innlent/2026-01-19-solveig-bydur-sig-fram-i-annad-til-thridja-saeti-464173', label: 'ruv.is' }],
         interests: null,
         social: null,
         news: [
@@ -3620,6 +3724,7 @@ const KOP = {
       [5, 'Orri Thor Eggertsson', 'Nemi í stjórnmálafræði', 'images/candidates/c12d652bf698b7df.png', {
         age: null,
         bio: 'Orri Thor Eggertsson er nemi í rekstrarverkfræði og formaður Taekwondosambands Kópavogs. Hann er í fimmta sæti á framboðslista Samfylkingarinnar í Kópavogi 2026.',
+        heimild: [{ url: 'https://www.visir.is/g/20262854763d/thau-eru-a-lista-samfylkingarinnar-i-kopavogi', label: 'visir.is' }],
         interests: null,
         social: null,
         news: [
@@ -3658,6 +3763,7 @@ const KOP = {
       [1, 'Anna Sigríður Hafliðadóttir', 'Sérfræðingur í miðlun', 'images/candidates/917769f7182ddb78.jpg', {
         age: null,
         bio: 'Anna Sigríður Hafliðadóttir er sérfræðingur í miðlun og leiðir sameiginlegan lista Vinstri-grænna og óháðra í Kópavogi. Hún tók við leiðsögu listans þegar Ómar Stefánsson dró framboð sitt til baka.',
+        heimild: [{ url: 'https://www.mbl.is/frettir/innlent/2026/04/09/anna_sigridur_leidir_lista_vinstri_graenna_og_ohadr/', label: 'mbl.is' }, { url: 'https://www.mbl.is/frettir/innlent/2026/03/31/omar_gekk_ur_skaftinu_og_anna_leidir_vg/', label: 'mbl.is' }, { url: 'https://www.linkedin.com/in/annska/', label: 'LinkedIn' }],
         interests: ['Umhverfismál og loftslagsaðgerðir', 'Jafnrétti og félagsleg réttlæti', 'Húsnæðismál'],
         social: [
           { type: 'linkedin', url: 'https://www.linkedin.com/in/annska/', label: 'LinkedIn' },
@@ -3672,6 +3778,7 @@ const KOP = {
       [2, 'Bjarki Valberg', 'Skipulagsfræðingur', null, {
         age: null,
         bio: 'Bjarki Valberg er skipulagsfræðingur og starfsmaður umhverfissviðs Kópavogsbæjar. Hann er í öðru sæti á framboðslista Vinstri grænna og óháðra í Kópavogi 2026.',
+        heimild: [{ url: 'https://www.mbl.is/frettir/innlent/2026/04/09/anna_sigridur_leidir_lista_vinstri_graenna_og_ohadr/', label: 'mbl.is' }],
         interests: null,
         social: null,
         news: [],
@@ -3679,6 +3786,7 @@ const KOP = {
       [3, 'Kjartan Sveinn Guðmundsson', 'Laganemi og barþjónn', null, {
         age: null,
         bio: 'Kjartan Sveinn Guðmundsson er laganemi og barþjónn. Hann hefur skrifað greinar í Heimildin um ýmis málefni, meðal annars skólakerfið og skipulagsmál, og er þekktur sem greinarhöfundur hjá Nemendum fyrir Palestínu við Háskóla Íslands.',
+        heimild: [{ url: 'https://heimildin.is/heimildin/folk/kjartan-sveinn-gudmundsson/', label: 'Heimildin' }],
         interests: null,
         social: null,
         news: [],
@@ -3686,6 +3794,7 @@ const KOP = {
       [4, 'Víðís Einarsdóttir', 'Iðjuþjálfi', null, {
         age: null,
         bio: 'Víðís Einarsdóttir er iðjuþjálfi og er í fjórða sæti á framboðslista Vinstri grænna og óháðra í Kópavogi 2026.',
+        heimild: [{ url: 'https://www.mbl.is/frettir/innlent/2026/04/09/anna_sigridur_leidir_lista_vinstri_graenna_og_ohadr/', label: 'mbl.is' }],
         interests: null,
         social: null,
         news: [],

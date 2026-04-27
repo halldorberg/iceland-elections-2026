@@ -902,6 +902,27 @@
   font-size: 0.9rem;
   line-height: 1.75;
   color: var(--color-text-muted);
+  margin-bottom: 0;
+}
+
+.modal-heimild {
+  font-size: 0.72rem;
+  color: var(--color-text-muted);
+  opacity: 0.6;
+  margin-top: var(--space-2);
+}
+
+.heimild-link {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: rgba(255,255,255,0.25);
+  text-underline-offset: 2px;
+  transition: opacity var(--transition-base);
+}
+
+.heimild-link:hover {
+  opacity: 1;
+  color: var(--color-text);
 }
 
 .modal-interests {

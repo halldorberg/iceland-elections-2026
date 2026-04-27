@@ -502,11 +502,21 @@ function openModal(id) {
   // Bio section
   const bioSection = document.getElementById('modal-bio-section');
   const bioEl = document.getElementById('modal-bio');
+  const heimildEl = document.getElementById('modal-heimild');
   if (c.bio) {
     bioSection.style.display = '';
     bioEl.textContent = c.bio;
+    if (c.heimild && c.heimild.length) {
+      heimildEl.style.display = '';
+      heimildEl.innerHTML = 'Heimild: ' + c.heimild.map(h =>
+        `<a class="heimild-link" href="${h.url}" target="_blank" rel="noopener">${h.label}</a>`
+      ).join(', ');
+    } else {
+      heimildEl.style.display = 'none';
+    }
   } else {
     bioSection.style.display = 'none';
+    heimildEl.style.display = 'none';
   }
 
   // Interests section
