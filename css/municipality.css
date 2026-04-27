@@ -1166,6 +1166,21 @@
 
   .muni-nav { padding: var(--space-3) var(--space-4); }
 
+  /* Compact back button — icon only on small screens */
+  .back-btn {
+    padding: var(--space-2) var(--space-2);
+    gap: 0;
+    font-size: 0;      /* hide text */
+    width: 36px;
+    height: 36px;
+    justify-content: center;
+  }
+  .back-btn svg {
+    flex-shrink: 0;
+    width: 18px;
+    height: 18px;
+  }
+
   .modal-card { max-height: 85vh; }
   .modal-hero { height: 200px; }
 }
