@@ -3467,7 +3467,7 @@ const KOP = {
       }],
       [6, 'Bryndís Rut Logadóttir', 'Hjúkrunarfræðingur', 'images/candidates/12645f73d32ada83.jpg'],
       [7, 'Ísak Leon Júlíusson', 'Laganemi'],
-      [8, 'Irpa Fónn Hlynsdóttir', 'Framkvæmdastjóri'],
+      [8, 'Irpa Fönn Hlynsdóttir', 'Framkvæmdastjóri'],
       [9, 'Ásgeir Þór Jónsson', 'Kokkur'],
       [10, 'Sigurlín Margrét Sigurðardóttir', 'Frumkvöðull og leiðsögumaður'],
       [11, 'Andrés Pétursson', 'Stjórnandi'],
