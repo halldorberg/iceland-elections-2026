@@ -5139,6 +5139,7 @@ const GRN = {
       [1, 'Ásrún Helga Kristinsdóttir', 'Kennari og forseti bæjarstjórnar', null, {
         age: null,
         bio: 'Ásrún Helga Kristinsdóttir er bæjarforseti Grindavíkur og grunnskólakennari á Grunnskóla Grindavíkur þar sem hún hefur starfað frá 2001. Hún leiðir B-lista Framsóknar í Grindavík og hefur setið í bæjarstjórn frá 2014.',
+        heimild: [{ url: 'https://www.ruv.is/frettir/innlent/2022-03-31-asrun-helga-leidir-lista-framsoknar-i-grindavik', label: 'RÚV' }, { url: 'https://www.dv.is/tag/asrun-helga-kristinsdottir/', label: 'DV' }, { url: 'https://kosningasaga.wordpress.com/2026/03/18/frambodslisti-framsoknar-i-grindavik/', label: 'kosningasaga.wordpress.com' }],
         interests: null,
         social: null,
         news: [],
@@ -5169,6 +5170,7 @@ const GRN = {
       [1, 'Guðbjörg Eyjólfsdóttir', 'Frambjóðandi', null, {
         age: null,
         bio: 'Guðbjörg Eyjólfsdóttir er formaður Járngerðar, borgaralegs samtaka um endurreisn og framtíð Grindavíkur, kjörin í mars 2025. Hún er í 1. sæti á D-lista Sjálfstæðisflokksins í Grindavík.',
+        heimild: [{ url: 'https://kosningasaga.wordpress.com/2026/03/18/frambodslisti-framsoknar-i-grindavik/', label: 'kosningasaga.wordpress.com' }],
         interests: null,
         social: null,
         news: [],
@@ -5199,6 +5201,7 @@ const GRN = {
       [1, 'Magnús Már Jakobsson', 'Frambjóðandi', null, {
         age: null,
         bio: 'Magnús Már Jakobsson er formaður Verkalýðsfélags Grindavíkur og leiðir M-lista Miðflokksins í Grindavík í sveitarstjórnarkosningum 2026.',
+        heimild: [{ url: 'https://xd.is/hjalmar-hallgrimsson/', label: 'Sjálfstæðisflokkurinn (xd.is)' }, { url: 'https://www.grindavik.is/baejarstjorn/', label: 'grindavik.is – bæjarstjórn' }, { url: 'https://www.mbl.is/frettir/innlent/2024/02/01/hjalmar_i_leyfi_fra_logreglunni_a_sudurnesjum/', label: 'mbl.is' }],
         interests: null,
         social: null,
         news: [],
@@ -5721,6 +5724,7 @@ const VME = {
       [1, 'Eyþór Harðarson', 'Útgerðarstjóri hjá Ísfélag hf.', 'images/candidates/8888435d3325a6a8.jpg', {
         age: null,
         bio: 'Eyþór Harðarson er útgerðarstjóri hjá Ísfélag hf. í Vestmannaeyjum og hefur gegnt þeirri stöðu frá 2003. Hann er menntaður rafmagnsverkfræðingur frá Þýskalandi og starfar jafnframt sem formaður Fiskmarkaðar Vestmannaeyja hf. frá 2009. Eyþór er formaður Sjálfstæðisfélags Vestmannaeyja frá 2022 og hlaut 62,6% atkvæða í forkosningu flokksins í mars 2026.',
+        heimild: [{ url: 'https://www.mbl.is/frettir/innlent/2026/02/21/eythor_gefur_afram_kost_a_ser_i_oddvitasaetid/', label: 'mbl.is' }, { url: 'https://xd.is/2026/03/31/frambodslisti-sjalfstaedisflokksins-i-vestmannaeyjum/', label: 'xd.is – Sjálfstæðisflokkurinn Vestmannaeyjar' }],
         interests: ['Sjávarútvegur og útgerð', 'Hafnarframkvæmdir og innviðir', 'Atvinnulíf Vestmannaeyja', 'Samgöngur til meginlandsins'],
         social: null,
         news: [
@@ -5764,6 +5768,7 @@ const VME = {
       [1, 'Arndís María Kjartansdóttir', 'Kennari og löggildur fasteigna- og skipasali', 'images/candidates/049c9ad518fd44ab.jpg', {
         age: 54,
         bio: 'Arndís María Kjartansdóttir er kennari og löggildur fasteigna-, fyrirtækja- og skipasali sem rekur eigið fasteignasölu- og viðskiptafyrirtæki. Hún er einnig í meistaranámi í jákvæðri sálfræði við Háskóla Íslands. Hún leiðir Eyjalistann í Vestmannaeyjum 2026 — sjálfstæðan lista þar sem hagsmunamál eyjanna koma alltaf í forgrunn.',
+        heimild: [{ url: 'https://eyjafrettir.is/spurt-og-svarad-arndis-maria-fra-eyjalistanum/', label: 'eyjafrettir.is' }, { url: 'https://eyjafrettir.is/opna-fasteignasolu-i-hjarta-baejarins/', label: 'eyjafrettir.is – fasteignasala' }],
         interests: ['Menntamál og skólakerfið', 'Þjónusta við aldraða', 'Vatnsveitur og innviðaframkvæmdir', 'Hafnaruppbygging og ferðaþjónusta'],
         social: null,
         news: [{ title: 'Spurt og svarað: Arndís María frá Eyjalistanum', url: 'https://eyjafrettir.is/spurt-og-svarad-arndis-maria-fra-eyjalistanum/', source: 'eyjafrettir.is' }],
@@ -5801,6 +5806,7 @@ const VME = {
       [1, 'Jón Þór Guðjónsson', 'Starfsmaður tölvudeildar Vestmannaeyjabæjar', 'images/candidates/5f6e6531a9dd557a.jpg', {
         age: null,
         bio: 'Jón Þór Guðjónsson starfar í tölvudeild Vestmannaeyjabæjar og leiðir framboð Miðflokksins í Vestmannaeyjum 2026 — í fyrsta skipti sem flokkurinn kynni sér þátttöku í bæjarstjórn eyjanna. Hann hefur látið í sér heyra um samgöngumál eyjanna, sérstaklega um endurteknar truflanir á ferðum um Landeyjahöfn.',
+        heimild: [{ url: 'https://eyjafrettir.is/spurt-og-svarad-jon-thor-fra-midflokknum/', label: 'eyjafrettir.is' }],
         interests: ['Samgöngumál og Landeyjahöfn', 'Tækni og fjarskipti', 'Þjónusta við íbúa', 'Ábyrg fjármálastjórnun'],
         social: null,
         news: [
@@ -5843,6 +5849,7 @@ const NPG = {
       [1, 'Eysteinn Heiðar Kristjánsson', 'Verkefnastjóri sjúkraflutninga HSN', null, {
         age: null,
         bio: 'Eysteinn Heiðar Kristjánsson er verkefnastjóri sjúkraflutninga við Heilbrigðisstofnun Norðurlands (HSN) á Húsavík. Hann leiðir B-lista Framsóknarflokks í Norðurþingi í sveitarstjórnarkosningum 2026 og er formaður Framsóknarfélags Þingeyinga.',
+        heimild: [{ url: 'https://www.kaffid.is/eysteinn-heidar-leidir-lista-framsoknar-i-nordurthingi/', label: 'Kaffið.is – Eysteinn Heiðar leiðir lista Framsóknar í Norðurþingi' }, { url: 'https://www.vikubladid.is/is/frettir/b-listi-framsoknarflokks-i-nordurthingi-samthykktur-a-fjolmennum-fundi', label: 'Vikublaðið – B-listi Framsóknarflokks í Norðurþingi samþykktur' }, { url: 'https://kosningasaga.wordpress.com/2026/03/14/frambodslisti-framsoknar-i-nordurthingi/', label: 'Kosningasaga – Framboðslisti Framsóknar í Norðurþingi' }],
         interests: null,
         social: null,
         news: [
@@ -5880,6 +5887,7 @@ const NPG = {
       [1, 'Helena Eydís Ingólfsdóttir', 'Verkefnastjóri og sveitarstjórnarfulltrúi', null, {
         age: null,
         bio: 'Helena Eydís Ingólfsdóttir er verkefnastjóri hjá Þekkingarnet Þingeyinga og hefur BA-gráðu í kennaramenntun og meistaragráðu í opinberri stjórnsýslu (MPA) frá Háskóla Íslands. Hún er núverandi sveitarstjórnarfulltrúi Sjálfstæðisflokks og 2. varaforseti sveitarstjórnar Norðurþings, og leiðir D-lista Sjálfstæðisflokksins í sveitarstjórnarkosningum 2026.',
+        heimild: [{ url: 'https://www.vikubladid.is/is/frettir/b-listi-framsoknarflokks-i-nordurthingi-samthykktur-a-fjolmennum-fundi', label: 'Vikublaðið – B-listi Framsóknarflokks í Norðurþingi samþykktur (2. sæti)' }, { url: 'https://kosningasaga.wordpress.com/2026/03/14/frambodslisti-framsoknar-i-nordurthingi/', label: 'Kosningasaga – Framboðslisti Framsóknar í Norðurþingi' }],
         interests: null,
         social: null,
         news: [{ title: 'Framboðslisti Sjálfstæðisflokksins í Norðurþingi', url: 'https://xd.is/2026/03/06/frambodslisti-sjalfstaedisflokksins-i-nordurthingi/', source: 'xd.is' }],
@@ -5914,6 +5922,7 @@ const NPG = {
       [1, 'Rúnar Traustason', 'Rekstrarstjóri Íslandspósts á Norðausturlandi', 'images/candidates/96d70797689eeca2.jpg', {
         age: 40,
         bio: 'Rúnar Traustason er rekstrarstjóri Íslandspósts á Húsavík og sjúkraflutningamaður við HSN, auk þess að starfa sem slökkviliðsmaður hjá Norðurþingi og vera iðnmeistari í kjötiðn. Hann er fæddur og uppalinn á Húsavík.',
+        heimild: [{ url: 'https://www.akureyri.net/is/mannlif/10-bestu-thorsteinn-snaevar-benediktsson', label: 'Akureyri.net – 10 bestu: Þorsteinn Snævar Benediktsson (bruggari Húsavík Öls)' }, { url: 'https://www.mbl.is/smartland/stars/2021/07/22/haettur_ad_selja_bjor_sudur/', label: 'Mbl.is – Húsavík Öl: hættur að selja bjór suður' }, { url: 'https://www.vikubladid.is/is/frettir/husavik-ol-keppir-a-althjodlegri-bjorhatid', label: 'Vikublaðið – Húsavík Öl keppir á alþjóðlegri bjórhátíð' }],
         interests: null,
         social: null,
         news: [
@@ -5951,6 +5960,7 @@ const NPG = {
       [1, 'Ómar Gunnarsson', 'Bóndi', null, {
         age: null,
         bio: 'Ómar Gunnarsson er sjálfstæður atvinnurekandi og leiðir Óskalistann í sveitarstjórnarkosningum 2026 í Norðurþingi. Hann hefur þekkingu á íbúum og landeignarhöfum um allt sveitarfélagið.',
+        heimild: [{ url: 'https://framsyn.is/2024/05/21/heidradur-fyrir-vel-unnin-storf-i-thagu-framsynar/', label: 'Framsýn – Heiðraður fyrir vel unnin störf í þágu Framsýnar (gullverðlaun 2024)' }],
         interests: null,
         social: null,
         news: [{ title: 'Nýtt framboð í Norðurþingi — Óskalistinn', url: 'https://kosningasaga.wordpress.com/2026/03/04/nytt-frambod-i-nordurthingi/', source: 'kosningasaga' }],
@@ -6013,6 +6023,7 @@ const NPG = {
       [1, 'Aldey Unnar Traustadóttir', 'Hjúkrunarfræðingur og forseti sveitarstjórnar', null, {
         age: null,
         bio: 'Aldey Unnar Traustadóttir er hjúkrunarfræðingur og hefur setið í sveitarstjórn Norðurþings fyrir hönd V-listans frá 2022, þar sem hún gegnir stöðu 1. varaforseta. Hún hefur verið virkur talsmaður uppbyggingar þjónustu í sveitarfélaginu, m.a. varðandi skóla- og íþróttamál.',
+        heimild: [{ url: 'https://www.instagram.com/aldeyt/', label: 'Instagram – Aldey Unnar Traustadóttir (@aldeyt)' }, { url: 'https://www.vikubladid.is/is/frettir/vinstri-graenir-telja-verkstjorn-sveitarstjora-i-nordurthingi-abotavant', label: 'Vikublaðið – Vinstri grænir um verkstjórn sveitarstjóra í Norðurþingi' }, { url: 'https://www.nordurthing.is/is/stjornsysla/stjornkerfi/nefndir-og-rad', label: 'Norðurþing – Nefndir og ráð (sveitarstjórnarfulltrúi)' }],
         interests: null,
         social: [{ type: 'instagram', url: 'https://www.instagram.com/aldeyt/', label: 'Instagram' }],
         news: [{ title: 'V-listi Velferðar býður fram í Norðurþingi', url: 'https://kosningasaga.wordpress.com/2026/03/11/v-listi-velferdar-bydur-fram-i-nordurthingi/', source: 'kosningasaga' }],
@@ -6156,6 +6167,7 @@ const HVG = {
       [1, 'Lárus Jónsson', 'Körfuboltaþjálfari og íþróttafræðingur', 'images/candidates/dd15933b3968186e.jpg', {
         age: null,
         bio: 'Lárus Jónsson er körfuboltaþjálfari, íþróttafræðingur og meistari í alþjóðasamskiptum. Hann var kjörinn nýr oddviti Okkar Hveragerðis í mars 2026 og leiðir listann í sveitarstjórnarkosningum. Okkar Hveragerði vann kosningar 2022 og Lárus hefur lofað að halda áfram þeirri vegferð með faglegum vinnubrögðum og jákvæðum samskiptum.',
+        heimild: [{ url: 'https://www.sunnlenska.is/frettir/larus-nyr-oddviti-okkar-hveragerdis/', label: 'sunnlenska.is' }, { url: 'https://kosningasaga.wordpress.com/2026/03/22/larus-jonsson-leidir-okkar-hveragerdi/', label: 'kosningasaga.wordpress.com' }],
         interests: ['Íþróttamál og líkamsrækt', 'Menntun og æskulýðsþjónusta', 'Fagleg og gagnsæ stjórnun', 'Uppbygging vaxandi sveitarfélags'],
         social: null,
         news: [
@@ -6189,6 +6201,7 @@ const HVG = {
       [1, 'Marta Rut Ólafsdóttir', 'Ferlaverkfræðingur og þróunarstjóri viðskipta', 'images/candidates/710bf031dcde7542.jpg', {
         age: null,
         bio: 'Marta Rut Ólafsdóttir er rekstrarverkfræðingur og viðskiptaþróunarstjóri sem leiðir B-listann (Framsókn) í Hveragerðisbæ í sveitarstjórnarkosningum 2026.',
+        heimild: [{ url: 'https://www.linkedin.com/in/dagny-sif-sigurbjornsdottir-7ba426ba/', label: 'LinkedIn' }, { url: 'https://www.hveragerdi.is/is/stjornkerfi/stjornsysla/nefndir-og-rad', label: 'hveragerdi.is – nefndir og ráð' }],
         interests: null,
         social: null,
         news: [
@@ -6222,6 +6235,7 @@ const HVG = {
       [1, 'Birgitta Ragnarsdóttir', 'Tollamiðlari', 'images/candidates/df28570ca1382a81.jpg', {
         age: null,
         bio: 'Birgitta Ragnarsdóttir er tollamiðlari og leiðir S-listann (Samfylkingin og óháðir) í Hveragerðisbæ í sveitarstjórnarkosningum 2026.',
+        heimild: [{ url: 'https://kosningasaga.wordpress.com/2026/03/19/frambodslisti-framsoknar-i-hveragerdi-2/', label: 'kosningasaga.wordpress.com' }],
         interests: null,
         social: null,
         news: [{ title: 'Birgitta leiðir S-listann í Hveragerði', url: 'https://www.sunnlenska.is/frettir/birgitta-leidir-s-listann-i-hveragerdi/', source: 'sunnlenska.is' }],
@@ -6252,6 +6266,7 @@ const HVG = {
       [1, 'Ingimar Guðmundsson', 'Sérfræðingur hjá Sambandi íslenskra sveitarfélaga', null, {
         age: 32,
         bio: 'Ingimar Guðmundsson er sérfræðingur hjá Sambandi íslenskra sveitarfélaga, fæddur og uppalinn í Hveragerði þar sem hann býr með fjölskyldu sinni, og er sveitarstjóraefni D-listans í Hveragerðisbæ í sveitarstjórnarkosningum 2026.',
+        heimild: [{ url: 'https://www.dfs.is/frettir/kosningar/kynning-a-s-listanum-i-hveragerdi/', label: 'dfs.is (Sjálfstæðisflokkurinn)' }],
         interests: null,
         social: null,
         news: [
@@ -6289,6 +6304,7 @@ const RTE = {
       [1, 'Rafn Bergsson', 'Bóndi og sveitarstjórnarfulltrúi', null, {
         age: null,
         bio: 'Rafn Bergsson er bóndi og sveitarstjórnarfulltrúi í Rangárþingi eystra og leiðir B-listann í sveitarstjórnarkosningum 2026; hann hefur setið í sveitarstjórn sveitarfélagsins undanfarin átta ár.',
+        heimild: [{ url: 'https://www.dfs.is/frettir/kosningar/saman-byggjum-vid-samfelag/', label: 'dfs.is (Sjálfstæðisflokkurinn)' }, { url: 'https://www.dfs.is/2023/09/18/crossfit-hengill-lokar/', label: 'dfs.is – CrossFit Hengill lokar' }],
         interests: null,
         social: [{ type: 'facebook', url: 'https://www.facebook.com/rafn.bergsson', label: 'Facebook' }],
         news: [{ title: 'Rafn nýr oddviti B-listans í Rangárþingi eystra', url: 'https://www.sunnlenska.is/frettir/rafn-nyr-oddviti-b-listans-i-rangarthingi-eystra/', source: 'sunnlenska.is' }],
@@ -6319,6 +6335,7 @@ const RTE = {
       [1, 'Anton Kári Halldórsson', 'Sveitarstjóri', null, {
         age: null,
         bio: 'Anton Kári Halldórsson er oddviti Rangárþings eystra og leiðir D-listann í sveitarstjórnarkosningum 2026; hann varð oddviti sveitarfélagsins fyrst eftir kosningarnar 2022.',
+        heimild: [{ url: 'https://framsokn.is/sveitarstjornarfolk/rangarthing-eystra/', label: 'framsokn.is' }, { url: 'https://www.sunnlenska.is/frettir/rafn-nyr-oddviti-b-listans-i-rangarthingi-eystra/', label: 'sunnlenska.is' }],
         interests: null,
         social: null,
         news: [],
@@ -6326,6 +6343,7 @@ const RTE = {
       [2, 'Aðalbjörg Rún Ásgeirsdóttir', 'Bóndi', null, {
         age: null,
         bio: 'Aðalbjörg Rún Ásgeirsdóttir er bóndi í Stóru-Mörk í Rangárþingi eystra og er á 2. sæti D-listans í sveitarstjórnarkosningum 2026.',
+        heimild: [{ url: 'https://www.sunnlenska.is/frettir/frambodslisti-d-listans-i-rangarthingi-eystra-samthykktur/', label: 'sunnlenska.is' }],
         interests: null,
         social: null,
         news: [],
@@ -6355,6 +6373,7 @@ const RTE = {
       [1, 'Tómas Birgir Magnússon', 'Ferðaþjónustuaðili og íþróttakennari', null, {
         age: null,
         bio: 'Tómas Birgir Magnússon leiðir NRE-listann í Rangárþingi eystra í sveitarstjórnarkosningum 2026.',
+        heimild: [{ url: 'https://www.sunnlenska.is/frettir/tomas-og-inger-i-efstu-saetum-n-listans/', label: 'sunnlenska.is' }, { url: 'https://www.visir.is/g/20222243038d/tomas-birgir-leidir-nyja-o-hada-listann-i-rang-ar-thingi-eystra', label: 'Vísir' }, { url: 'https://www.ruv.is/frett/2022/05/30/tomas-birgir-nyr-oddviti-i-rangarthingi-eystra', label: 'RÚV' }],
         interests: null,
         social: null,
         news: [{ title: 'Tómas og Inger í efstu sætum N-listans', url: 'https://www.sunnlenska.is/frettir/tomas-og-inger-i-efstu-saetum-n-listans/', source: 'sunnlenska.is' }],
@@ -6389,6 +6408,7 @@ const RTY = {
       [1, 'Eggert Valur Guðmundsson', 'Sjálfstætt starfandi', null, {
         age: null,
         bio: 'Eggert Valur Guðmundsson er sjálfstætt starfandi og leiðir Á-listann í Rangárþingi ytra í sveitarstjórnarkosningum 2026; hann hefur þjónað í sveitarstjórn í fimm kjörtímabil frá árinu 1998.',
+        heimild: [{ url: 'https://unicef.is/starfsfolk', label: 'unicef.is – starfsfólk' }, { url: 'https://www.sunnlenska.is/frettir/tomas-og-inger-i-efstu-saetum-n-listans/', label: 'sunnlenska.is' }],
         interests: null,
         social: null,
         news: [{ title: 'Á-listinn samþykktur og Eiríkur kynntur sem sveitarstjóraefni', url: 'https://www.sunnlenska.is/frettir/a-listinn-samthykktur-og-eirikur-kynntur-sem-sveitarstjoraefni/', source: 'sunnlenska.is' }],
@@ -6419,6 +6439,7 @@ const RTY = {
       [1, 'Ingvar Pétur Guðbjörnsson', 'Upplýsingafulltrúi og sveitarstjórnarfulltrúi', 'images/candidates/3f523e873a84f1cf.jpg', {
         age: null,
         bio: 'Ingvar Pétur Guðbjörnsson er upplýsingafulltrúi og sveitarstjórnarfulltrúi í Rangárþingi ytra og leiðir D-listann í sveitarstjórnarkosningum 2026; hann þjónaði sem aðstoðarmaður iðnaðarráðherra 2013–2017.',
+        heimild: [{ url: 'https://www.dfs.is/frettir/kosningar/a-listinn-kynnir-frambodslista-og-sveitarstjoraefni/', label: 'dfs.is (Sjálfstæðisflokkurinn)' }, { url: 'https://www.ry.is/is/stjornsysla/sveitarstjorn/sveitarstjorn', label: 'ry.is – sveitarstjórn Rangárþings ytra' }],
         interests: null,
         social: null,
         news: [],
@@ -6456,6 +6477,7 @@ const OLF = {
       [1, 'Grétar Ingi Erlendsson', 'Verkefnastjóri', null, {
         age: null,
         bio: 'Grétar Ingi Erlendsson er verkefnastjóri og formaður bæjarráðs Sveitarfélagsins Ölfuss; hann leiðir D-lista Sjálfstæðisflokksins í sveitarstjórnarkosningum 2026.',
+        heimild: [{ url: 'https://xd.is/2026/03/05/fullskipadur-frambodslisti-i-rangarthingi-ytra/', label: 'Sjálfstæðisflokkurinn (xd.is) – framboðslisti 2026' }],
         interests: null,
         social: null,
         news: [],
@@ -6490,6 +6512,7 @@ const OLF = {
       [1, 'Gunnsteinn R. Ómarsson', 'Framkvæmdastjóri', 'images/candidates/6eb8373ee797d8c9.png', {
         age: null,
         bio: 'Gunnsteinn R. Ómarsson er framkvæmdastjóri Sameyki og leiðir S-lista Samfylkingarinnar í sveitarstjórnarkosningum 2026 í Ölfusi. Hann þjónaði sem bæjarstjóri Ölfuss á árunum 2013–2018 og hefur mikla reynslu af stjórnun og þróun sveitarfélagsins. Hann leggur áherslu á jafnrétti, velferð og sjálfbæra þróun.',
+        heimild: [{ url: 'https://www.olfus.is/is/stjornsysla/stjornkerfi/rad-og-nefndir/baejarrad', label: 'olfus.is – bæjarráð' }, { url: 'https://xd.is/sveitastjornir/sveitarfelagid-olfus/', label: 'xd.is – Sjálfstæðisflokkurinn Ölfus' }],
         interests: ['Velferðarþjónusta og jafnrétti', 'Sjálfbær þróun og loftslagsmál', 'Húsnæðismál', 'Samfélagsleg þjónusta'],
         social: null,
         news: [{ title: 'Samfylking og félagar kynna lista í Ölfusi', url: 'https://www.dfs.is/frettir/samfylking-og-felagar-kynna-lista-i-olfusi/', source: 'dfs.is' }],
@@ -6580,6 +6603,7 @@ const MYR = {
       [1, 'Anna Huld Óskarsdóttir', 'Hótelstjóri', null, {
         age: null,
         bio: 'Anna Huld Óskarsdóttir er hótelstjóri og leiðir A-lista Mýrdalshrepps – Allir – í sveitarstjórnarkosningum 2026; hún situr sem sveitarstjórnarfulltrúi í núverandi sveitarstjórn.',
+        heimild: [{ url: 'https://www.vik.is/is/stjornkerfi/sveitarstjorn/sveitarstjornarfulltruar', label: 'vik.is – sveitarstjórn Mýrdalshreppur' }, { url: 'https://www.vik.is/is/frettir/sveitarstjornarkosningar-16-mai-2026', label: 'vik.is – kosningar 2026' }],
         interests: null,
         social: null,
         news: [],
@@ -6606,6 +6630,7 @@ const MYR = {
       [1, 'Björn Þór Ólafsson', 'Verslunarstjóri', null, {
         age: null,
         bio: 'Björn Þór Ólafsson er verslunarstjóri og fyrrverandi bæjarstjóri Mýrdalshrepps; hann leiðir Z-lista Samfélagsins í sveitarstjórnarkosningum 2026.',
+        heimild: [{ url: 'https://www.vik.is/is/frettir/sveitarstjornarkosningar-16-mai-2026', label: 'vik.is – kosningar 2026' }],
         interests: null,
         social: null,
         news: [],
@@ -6636,6 +6661,7 @@ const BSG = {
       [1, 'Helgi Kjartansson', 'Íþróttakennari', null, {
         age: null,
         bio: 'Helgi Kjartansson er íþróttakennari og oddviti Bláskógabyggðar; hann leiðir T-listann í sveitarstjórnarkosningum í Bláskógabyggð 2026.',
+        heimild: [{ url: 'https://www.vik.is/is/stjornkerfi/sveitarstjorn/sveitarstjornarfulltruar', label: 'vik.is – sveitarstjórn Mýrdalshreppur' }],
         interests: null,
         social: null,
         news: [],
@@ -6666,6 +6692,7 @@ const BSG = {
       [1, 'Anna Greta Ólafsdóttir', 'Leikskólastjóri', null, {
         age: null,
         bio: 'Anna Greta Ólafsdóttir er leikskólastjóri og bæjarfulltrúi; hún leiðir Þ-listann í Bláskógabyggð í sveitarstjórnarkosningum 2026.',
+        heimild: [{ url: 'https://www.sunnlenska.is/frettir/tveir-frambodslistar-i-blaskogabyggd/', label: 'sunnlenska.is – tveir listar' }],
         interests: null,
         social: null,
         news: [],
@@ -6700,6 +6727,7 @@ const FHR = {
       [1, 'Árni Eiríksson', 'Teymisstjóri og oddviti sveitarstjórnar', null, {
         age: null,
         bio: 'Árni Eiríksson er oddviti Flóahrepps og leiðir Framfaralistann (I-lista) í sveitarstjórnarkosningum 2026. Hann situr í sveitarstjórn og er búsettur á Skúfslæk Norðurbæ.',
+        heimild: [{ url: 'https://www.sunnlenska.is/frettir/arni-leidir-framfaralistann-afram/', label: 'sunnlenska.is' }, { url: 'https://www.dfs.is/frettir/kosningar/framfaralistinn-bydur-fram-i-annad-sinn/', label: 'dfs.is – Framfaralistinn Flóahreppur' }],
         interests: null,
         social: null,
         news: [],
@@ -6726,6 +6754,7 @@ const FHR = {
       [1, 'Almar Sigurðsson', 'Ferðaþjónustubóndi', null, {
         age: null,
         bio: 'Almar Sigurðsson er ferðaþjónustubóndi frá Lambastöðum sem leiðir T-listann í Flóahreppi í sveitarstjórnarkosningum 2026. Hann kemur með reynslu á sviði ferðaþjónustu og landbúnaðar.',
+        heimild: [{ url: 'https://www.sunnlenska.is/frettir/arni-leidir-framfaralistann-afram/', label: 'sunnlenska.is' }, { url: 'https://www.floahreppur.is/is/floahreppur', label: 'floahreppur.is' }],
         interests: null,
         social: null,
         news: [],
@@ -6812,6 +6841,7 @@ const GGR = {
       [1, 'Guðmundur Finnbogason', 'Skólastjóri', null, {
         age: null,
         bio: 'Guðmundur Finnbogason er skólastjóri Þjórsárskóla og býr á Borg í Grímsnesi. Hann leiðir GGA-listann í Grímsnes- og Grafningshreppi í sveitarstjórnarkosningum 2026.',
+        heimild: [{ url: 'https://www.sunnlenska.is/frettir/gudmundur-leidir-nytt-frambod-i-gogg/', label: 'sunnlenska.is' }, { url: 'https://www.skeidgnup.is/is/moya/news/nyr-skolastjori-radinn-i-thjorsarskola', label: 'skeidgnup.is – nýr skólastjóri Þjórsárskóla' }],
         interests: null,
         social: null,
         news: [],
@@ -6838,6 +6868,7 @@ const GGR = {
       [1, 'Andrés Bertelsen', 'Rekstrarstjóri', null, {
         age: null,
         bio: 'Andrés Bertelsen er rekstrarstjóri og starfar við hugbúnaðarþróun í alþjóðlegu nýsköpunarverkefni. Hann er uppruninn frá Skagafirði en búsettur í Grímsnesi og leiðir GGO-listann „Betri sveit – fyrir okkur öll".',
+        heimild: [{ url: 'https://www.kerholsskoli.is/copy-of-rad-og-nefndir', label: 'kerholsskoli.is – ráð og nefndir' }],
         interests: null,
         social: null,
         news: [],
@@ -6924,6 +6955,7 @@ const DVB = {
       [1, 'Börkur Þór Ottósson', 'Samfélagsmaður og frumkvöðull', null, {
         age: null,
         bio: 'Börkur Þór Ottósson leiðir Byggðalistann í Dalvíkurbyggð; hann er fyrstur á lista nýs staðbundins flokks sem tekur þátt í sveitarstjórnarkosningum 2026 í fyrsta sinn.',
+        heimild: [{ url: 'https://kosningasaga.wordpress.com/2026/04/13/frambodslisti-byggdalistans-i-dalvikurbyggd/', label: 'Kosningasaga – Framboðslisti Byggðalistans í Dalvíkurbyggð (1. sæti)' }, { url: 'https://www.dalvikurbyggd.is/is/frettir-og-tilkynningar/fjogur-frambod-bjoda-fram-i-dalvikurbyggd-i-sveitarstjornarkosningum', label: 'Dalvíkurbyggð – Fjögur framboð bjóða fram í sveitarstjórnarkosningum' }],
         interests: null,
         social: null,
         news: [],
@@ -6953,6 +6985,7 @@ const DVB = {
       [1, 'Monika Margrét Stefánsdóttir', 'Framkvæmdastjóri og sveitarstjórnarfulltrúi', null, {
         age: null,
         bio: 'Monika Margrét Stefánsdóttir er framkvæmdastjóri og bæjarfulltrúi; hún leiðir lista Framsóknar og óháðra í Dalvíkurbyggð í sveitarstjórnarkosningum 2026.',
+        heimild: [{ url: 'https://kosningasaga.wordpress.com/2026/04/13/frambodslisti-byggdalistans-i-dalvikurbyggd/', label: 'Kosningasaga – Framboðslisti Byggðalistans í Dalvíkurbyggð (2. sæti)' }],
         interests: null,
         social: null,
         news: [{ title: 'Monika leiðir lista Framsóknar og óháðra í Dalvíkurbyggð', url: 'https://kaffid.is/monika-leidir-lista-framsoknar-og-ohadra-i-dalvikurbyggd/', source: 'kaffid.is' }],
@@ -6960,6 +6993,7 @@ const DVB = {
       [2, 'María Björk Stefánsdóttir', 'Sjúkraliði', null, {
         age: null,
         bio: 'María Björk Stefánsdóttir er hjúkrunarfræðingur; hún er á 2. sæti á lista Framsóknar og óháðra í Dalvíkurbyggð í sveitarstjórnarkosningum 2026.',
+        heimild: [{ url: 'https://kosningasaga.wordpress.com/2026/03/26/frambodslisti-framsoknar-og-ohadra-i-dalvikurbyggd/', label: 'Kosningasaga – Framboðslisti Framsóknar og óháðra í Dalvíkurbyggð (2. sæti)' }, { url: 'https://www.mbl.is/frettir/innlent/2026/04/12/listi_framsoknar_og_ohadra_i_dalvikurbyggd_kynntur/', label: 'Mbl.is – Listi Framsóknar og óháðra í Dalvíkurbyggð kynntur' }],
         interests: null,
         social: null,
         news: [],
@@ -6989,6 +7023,7 @@ const DVB = {
       [1, 'Benedikt Snær Magnússon', 'Framkvæmdastjóri Fiskmarkaðar Norðurlands', null, {
         age: null,
         bio: 'Benedikt Snær Magnússon er framkvæmdastjóri Fiskmarkaðar Norðurlands og leiðir D-lista Sjálfstæðisflokksins í sveitarstjórnarkosningum 2026 í Dalvíkurbyggð. Hann leggur áherslu á uppbyggingu atvinnulífs, styrkingu sjávarútvegsgeirans og gagnsæja stjórnun sveitarfélagsins.',
+        heimild: [{ url: 'https://kosningasaga.wordpress.com/2026/04/11/frambodslisti-sjalfstaedisflokksins-i-dalvikurbyggd/', label: 'Kosningasaga – Framboðslisti Sjálfstæðisflokksins í Dalvíkurbyggð (1. sæti)' }, { url: 'https://www.nordfisk.is/', label: 'Fiskmarkaður Norðurlands (nordfisk.is) – heimasíða fyrirtækis' }, { url: 'https://www.dalvikurbyggd.is/is/frettir-og-tilkynningar/fjogur-frambod-bjoda-fram-i-dalvikurbyggd-i-sveitarstjornarkosningum', label: 'Dalvíkurbyggð – Fjögur framboð bjóða fram í sveitarstjórnarkosningum' }],
         interests: ['Sjávarútvegur og fiskvinnsla', 'Atvinnulíf og nýsköpun', 'Uppbygging innviða', 'Fjárhagsleg skilvirkni'],
         social: null,
         news: [],
@@ -7019,6 +7054,7 @@ const DVB = {
       [1, 'Helgi Einarsson', 'Atvinnurekandi og sveitarstjórnarfulltrúi', null, {
         age: null,
         bio: 'Helgi Einarsson er rekstraraðili og bæjarfulltrúi; hann leiðir K-listann í Dalvíkurbyggð í sveitarstjórnarkosningum 2026.',
+        heimild: [{ url: 'https://fincafresh.is/um-okkur/', label: 'Fincafresh – Um okkur (eigandi Bessi Ragúels Víðisson)' }, { url: 'https://kosningasaga.wordpress.com/2026/04/11/frambodslisti-sjalfstaedisflokksins-i-dalvikurbyggd/', label: 'Kosningasaga – Framboðslisti Sjálfstæðisflokksins í Dalvíkurbyggð (2. sæti)' }],
         interests: null,
         social: null,
         news: [{ title: 'K-listinn er nýtt óháð framboð í Dalvíkurbyggð', url: 'http://hedinsfjordur.is/k-listinn-er-nytt-ohad-frambod-i-dalvikurbyggd/', source: 'hedinsfjordur.is' }],
@@ -7053,6 +7089,7 @@ const EJA = {
       [1, 'Hermann Ingi Gunnarsson', 'Bóndi og bæjarfulltrúi', null, {
         age: null,
         bio: 'Hermann Ingi Gunnarsson er bóndi og oddviti sveitarstjórnar Eyjafjarðarsveitar sem leiðir F-listann til sveitarstjórnarkosninganna 2026. Hann hefur setið í sveitarstjórn og starfar á búi á svæðinu.',
+        heimild: [{ url: 'https://kosningasaga.wordpress.com/2026/04/11/frambodslisti-k-lista-dalvikurbyggdar/', label: 'Kosningasaga – Framboðslisti K-lista Dalvíkurbyggðar (2. sæti, kennari)' }, { url: 'http://hedinsfjordur.is/k-listinn-er-nytt-ohad-frambod-i-dalvikurbyggd/', label: 'Héðinsfjörður – K-listinn er nýtt óháð framboð í Dalvíkurbyggð' }],
         interests: null,
         social: null,
         news: [{ title: 'Tvö framboð í Eyjafjarðarsveit', url: 'https://kaffid.is/tvo-frambod-i-eyjafjardarsveit/', source: 'kaffid.is' }],
@@ -7083,6 +7120,7 @@ const EJA = {
       [1, 'Guðmundur Sigurbjörn Óskarsson', 'Vélfræðingur og bóndi', null, {
         age: null,
         bio: 'Guðmundur Sigurbjörn Óskarsson er bóndi í Eyjafjarðarsveit sem leiðir K-listann í sveitarstjórnarkosningum 2026. Hann sat í sveitarstjórn og skipulagsnefnd sveitarfélagsins á síðastliðnu kjörtímabili.',
+        heimild: [{ url: 'https://www.esveit.is/eyjafjardarsveit/frettir/tilkynning-fra-kjorstjorn-eyjafjardarsveitar-tveir-listar-samthykktir', label: 'esveit.is – kjörstjórn tilkynning' }],
         interests: null,
         social: null,
         news: [{ title: 'Guðmundur leiðir K-listann í Eyjafjarðarsveit', url: 'https://kaffid.is/gudmundur-leidir-k-listann-i-eyjafjardarsveit/', source: 'kaffid.is' }],
@@ -7199,6 +7237,7 @@ const HNB = {
       [1, 'Jón Gíslason', 'Bóndi á Stóra-Búrfelli', null, {
         age: null,
         bio: 'Jón Gíslason er bóndi á Stóra-Búrfelli og leiðir listann Öll saman í Húnabyggð í kosningum 2026. Hann var oddviti Húnavatnshrepps frá 2018 og leiddi samstarfsnefnd sem rannsakaði sameininguna á Austur-Húnavatnssýslu, sem leiddi til stofnunar Húnabyggðar 2022. Listinn Öll saman sameinar fyrrum meðlimi G- og H-lista frá 2022 kosningum.',
+        heimild: [{ url: 'https://huni.is/index.php?cid=22756&pid=32', label: 'huni.is – framboðslistar Húnabyggðar' }, { url: 'https://kosningasaga.wordpress.com/2026/03/19/nytt-frambod-i-hunabyggd-2/', label: 'kosningasaga.wordpress.com – Öll saman' }],
         interests: ['Samvinna og íbúaþátttaka', 'Uppbygging Húnabyggðar', 'Landbúnaður og dreifbýlisþróun', 'Náttúruvernd og sjálfbær þróun'],
         social: null,
         news: [
@@ -7235,6 +7274,7 @@ const HNB = {
       [1, 'Grímur Rúnar Lárusson', 'Lögfræðingur', null, {
         age: null,
         bio: 'Grímur Rúnar Lárusson er lögfræðingur á Blönduósi og leiðir B-lista Framsóknar og framfarasinna í Húnabyggð í kosningum 2026. Hann starfar sem varaforseti Húnabyggðar sveitarstjórnar og er formaður íþrótta-, tómstunda- og lýðheilsunefndar. Hann lýsir 18 manna lista sínum sem sambland af reynslu, metnaði og skuldbindingu við samfélagið.',
+        heimild: [{ url: 'https://www.hunabyggd.is/is/stjornsysla/stjornskipulag/nefndir-og-rad/sveitarstjorn', label: 'hunabyggd.is – sveitarstjórn' }, { url: 'https://www.hunabyggd.is/is/stjornsysla/stjornskipulag/nefndir-og-rad/ithrotta-tomstunda-og-lydheilsunefnd', label: 'hunabyggd.is – íþróttanefnd' }],
         interests: ['Framfarir og uppbygging', 'Íþróttir, tómstundir og lýðheilsa', 'Heilbrigðis- og velferðarþjónusta', 'Landbúnaður og dreifbýlisþróun'],
         social: null,
         news: [],
@@ -7269,6 +7309,7 @@ const HNB = {
       [1, 'Guðmundur Haukur Jakobsson', 'Pípulagningarmeistari og framkvæmdastjóri', null, {
         age: null,
         bio: 'Guðmundur Haukur Jakobsson er pípulagningarmeistari og framkvæmdastjóri og hefur verið forseti Húnabyggðar sveitarstjórnar frá stofnun sveitarfélagsins 2022. Áður var hann forseti sveitarstjórnar Blönduósbæjar. D-listi hans hlaut 37,7% atkvæða og 4 af 9 sætum í 2022. Hann leiðir Sjálfstæðismenn og óháða aftur til sögunnar 2026 og lýsir listanum sem „hæfu fólki úr bæjum og dreifbýli, á öllum aldri, með fjölbreyttan bakgrunn."',
+        heimild: [{ url: 'https://huni.is/index.php?cid=22686&pid=32', label: 'huni.is – D-listi samþykktur' }, { url: 'https://www.hunabyggd.is/is/stjornsysla/stjornskipulag/nefndir-og-rad/sveitarstjorn', label: 'hunabyggd.is – sveitarstjórn' }, { url: 'https://kosningasaga.wordpress.com/2026/03/20/frambodslisti-sjalfstaedismanna-og-ohadra-i-hunabyggd/', label: 'kosningasaga.wordpress.com – D-listi Húnabyggð' }],
         interests: ['Uppbygging innviða og atvinnulífs', 'Gagnsæ og skilvirk stjórnun', 'Rafmagnsflutningslínur og orkumál', 'Samfélagsleg ábyrgð og nýsköpun'],
         social: null,
         news: [
@@ -7555,6 +7596,7 @@ const SST = {
       [1, 'Eydís Inga Sigurjónsdóttir', 'Forstöðumaður hjúkrunardeilda', null, {
         age: null,
         bio: 'Eydís Inga Sigurjónsdóttir er deildarstjóri hjúkrunar og leiðir framboðslista Framsóknar og óháðra í Skagaströnd í sveitarstjórnarkosningum 2026.',
+        heimild: [{ url: 'https://www.skagastrond.is/is/moya/news/sveitarstjornakosningar-2026', label: 'skagastrond.is – sveitarstjórnakosningar 2026' }, { url: 'https://huni.is/index.php?cid=22731&pid=32', label: 'huni.is – Framsókn og óháðir á Skagaströnd' }, { url: 'https://kosningasaga.wordpress.com/2026/04/04/frambodslisti-framsoknar-og-ohadra-a-skagastrond/', label: 'kosningasaga.wordpress.com' }],
         interests: null,
         social: null,
         news: [],
@@ -7581,6 +7623,7 @@ const SST = {
       [1, 'Vigdís Elva Þorgeirsdóttir', 'Kennari', null, {
         age: null,
         bio: 'Vigdís Elva Þorgeirsdóttir er kennari og leiðir K-listann í sveitarstjórnarkosningum 2026 í Skagaströnd. Listinn er nýtt framboð með áherslu á ferskar hugmyndir, íbúamiðaða nálgun og samvinnu og opið samráð við íbúa Skagastrandar.',
+        heimild: [{ url: 'https://huni.is/index.php?cid=22731&pid=32', label: 'huni.is – Framsókn og óháðir á Skagaströnd' }, { url: 'https://www.skagastrond.is/is/moya/news/sveitarstjornakosningar-2026', label: 'skagastrond.is – sveitarstjórnakosningar 2026' }],
         interests: ['Menntun og kennslustarf', 'Íbúaþátttaka', 'Nýjar hugmyndir', 'Samfélagsleg þróun'],
         social: null,
         news: [],
@@ -7607,6 +7650,7 @@ const SST = {
       [1, 'Ragnheiður Erla Stefánsdóttir', 'Hagfræðingur', null, {
         age: null,
         bio: 'Ragnheiður Erla Stefánsdóttir er lögfræðingur og leiðir framboðslista Samfylkingar og óháðra í Skagaströnd; þetta er í fyrsta sinn sem Samfylkingin myndar lista í sveitarfélaginu.',
+        heimild: [{ url: 'https://www.skagastrond.is/is/moya/news/sveitarstjornakosningar-2026', label: 'skagastrond.is – sveitarstjórnakosningar 2026' }],
         interests: null,
         social: null,
         news: [],
@@ -8006,6 +8050,7 @@ const HFJ = {
       [1, 'Hjalti Þór Vignisson', 'Framkvæmdastjóri hjá Stormar hf', null, {
         age: 48,
         bio: 'Hjalti Þór Vignisson er fæddur 24. janúar 1978 á Hornafirði og er framkvæmdastjóri hjá Stormar — The Wild Taste of Iceland, fisksölufélag sem sérhæfir sig í útflutningi á villtum hvítfiski frá Hornafirði. Hann lauk stúdentsprófi frá Fjölbrautaskólanum við Ármúla og gráðu í stjórnmálafræðum frá Háskóla Íslands. Hann gegndi áður starfi bæjarstjóra í Sveitarfélaginu Hornafirði og er formaður stjórnar Vatnajökulsþjóðgarðs, tilnefndur af umhverfisráðherra.',
+        heimild: [{ url: 'https://is.wikipedia.org/wiki/Hjalti_%C3%9E%C3%B3r_Vignisson', label: 'Wikipedia (is)' }, { url: 'https://www.linkedin.com/in/hjalti-vignisson-439b14122/', label: 'LinkedIn' }],
         interests: ['Uppbygging atvinnulífs á Hornafirði', 'Ferðaþjónusta og náttúruvernd', 'Sjávarútvegur og matvælaframleiðsla', 'Sveitarstjórnarmál'],
         social: [{ type: 'linkedin', url: 'https://www.linkedin.com/in/hjalti-vignisson-439b14122/', label: 'LinkedIn' }],
         news: [{ title: 'Framboðslisti Framsóknar og stuðningsmanna í Sveitarfélaginu Hornafirði', url: 'https://kosningasaga.wordpress.com/2026/02/27/frambodslisti-framsoknar-og-studningsmanna-i-sveitarfelaginu-hornafirdi/', source: 'kosningasaga' }],
@@ -8070,6 +8115,7 @@ const HFJ = {
       [1, 'Eyrún Fríða Árnadóttir', 'Formaður bæjarráðs og grunnskólakennari', 'images/candidates/8510f42ebdf08095.jpg', {
         age: null,
         bio: 'Eyrún Fríða Árnadóttir er grunnskólakennari við Grunnskóla Hornafjarðar og formaður bæjarráðs í Sveitarfélaginu Hornafirði. Hún er með BA-gráðu í uppeldis- og kennslufræðum og er að ljúka meistargráðu í kynjafræðum. Hún stofnaði Kex framboðið ásamt hóp vina árið 2022 og leiðir listann í annað sinn í sveitarstjórnarkosningum 2026.',
+        heimild: [{ url: 'https://kosningasaga.wordpress.com/2026/02/28/frambodslisti-kex-frambods-i-sveitarfelaginu-hornafirdi/', label: 'kosningasaga.wordpress.com – Kex framboð' }, { url: 'https://www.hornafjordur.is/stjornsysla/stjorn/nefndir-og-stjornir/', label: 'hornafjordur.is – nefndir og stjórnir' }],
         interests: ['Menntun og grunnskólamál', 'Kynjajafnrétti', 'Lýðræðisleg þátttaka', 'Samfélagsuppbygging á Hornafirði'],
         social: null,
         news: [{ title: 'Framboðslisti Kex framboðs í Sveitarfélaginu Hornafirði', url: 'https://kosningasaga.wordpress.com/2026/02/28/frambodslisti-kex-frambods-i-sveitarfelaginu-hornafirdi/', source: 'kosningasaga' }],
@@ -8168,6 +8214,7 @@ const AKR = {
       [1, 'Jón Guðni Guðmundsson', 'Burðarþolssérfræðingur og brúahönnuður', null, {
         age: null,
         bio: 'Jón Guðni Guðmundsson er burðarþolssérfræðingur og brúahönnuður að mennt. Hann leiðir lista Viðreisnar á Akranesi í sveitarstjórnarkosningum 2026, sem eru í fyrsta skipti sem flokkurinn sækist eftir konum og körlum til bæjarstjórnar á Akranesi.',
+        heimild: [{ url: 'https://www.visir.is/g/20262865133d/vid-reisn-bydur-fram-sinn-fyrsta-lista-a-akra-nesi', label: 'visir.is' }, { url: 'https://kosningasaga.wordpress.com/2026/04/04/frambodslisti-vidreisnar-a-akranesi/', label: 'kosningasaga.wordpress.com' }],
         interests: null,
         social: null,
         news: [
@@ -8178,6 +8225,7 @@ const AKR = {
       [2, 'Helga Björg Þrastardóttir', 'Matreiðslumeistari', null, {
         age: null,
         bio: 'Helga Björg Þrastardóttir er matreiðslumeistari að mennt og starfi. Hún er á öðru sæti á framboðslista Viðreisnar á Akranesi í sveitarstjórnarkosningum 2026.',
+        heimild: [{ url: 'https://www.visir.is/g/20262865133d/vid-reisn-bydur-fram-sinn-fyrsta-lista-a-akra-nesi', label: 'visir.is' }],
         interests: null,
         social: null,
         news: [
@@ -8187,6 +8235,7 @@ const AKR = {
       [3, 'Ingvar Örn Ákason', 'Verkefnastjóri', null, {
         age: null,
         bio: 'Ingvar Örn Ákason er verkefnastjóri að starfi. Hann er á þriðja sæti á framboðslista Viðreisnar á Akranesi í sveitarstjórnarkosningum 2026, sem eru í fyrsta skipti sem flokkurinn gefur kost á sér á Akranesi.',
+        heimild: [{ url: 'https://www.visir.is/g/20262865133d/vid-reisn-bydur-fram-sinn-fyrsta-lista-a-akra-nesi', label: 'visir.is' }, { url: 'https://kosningasaga.wordpress.com/2026/04/04/frambodslisti-vidreisnar-a-akranesi/', label: 'kosningasaga.wordpress.com' }],
         interests: null,
         social: null,
         news: [
@@ -8196,6 +8245,7 @@ const AKR = {
       [4, 'Guðný Sara Birgisdóttir', 'Fjáröflunarstjóri Krafts og listakona', null, {
         age: null,
         bio: 'Guðný Sara Birgisdóttir er fjáröflunarstjóri hjá Krafti, stuðningsmiðstöð á Akranesi, og listakona. Hún er á fjórða sæti á framboðslista Viðreisnar á Akranesi í sveitarstjórnarkosningum 2026.',
+        heimild: [{ url: 'https://www.visir.is/g/20262865133d/vid-reisn-bydur-fram-sinn-fyrsta-lista-a-akra-nesi', label: 'visir.is' }, { url: 'https://kraftur.org/starfsmenn-og-stjorn/', label: 'kraftur.org' }, { url: 'https://www.visir.is/g/20262870728d/vald-i-velvild', label: 'visir.is' }],
         interests: null,
         social: null,
         news: [
@@ -8228,6 +8278,7 @@ const AKR = {
       [1, 'Líf Lárusdóttir', 'Verkefnastjóri og bæjarfulltrúi', null, {
         age: null,
         bio: 'Líf Lárusdóttir er verkefnastjóri og bæjarfulltrúi á Akranesi fyrir Sjálfstæðisflokkinn á kjörtímabilinu 2022–2026, þar sem hún gegndi stöðu forseta bæjarstjórnar. Áður hefur hún starfað hjá SSV – samtökum sveitarfélaga á Vesturlandi, Terra umhverfisþjónustu, Fenúr og Íþróttabandlagi Akraness.',
+        heimild: [{ url: 'https://xd.is/2026/02/27/lif-leidir-afram-frambod-sjalfstaedisflokksins-a-akranesi/', label: 'Sjálfstæðisflokkurinn' }, { url: 'https://rocketreach.co/lif-larusdottir-email_8447540', label: 'rocketreach.co' }],
         interests: null,
         social: null,
         news: [
@@ -8238,6 +8289,7 @@ const AKR = {
       [2, 'Bjarnheiður Hallsdóttir', 'Framkvæmdastjóri', null, {
         age: null,
         bio: 'Bjarnheiður Hallsdóttir er framkvæmdastjóri Kötlu DMI ehf., ferðaþjónustufyrirtækis á Akranesi, og var formaður Samtaka ferðaþjónustunnar (SAF) á árunum 2018–2023. Hún hefur einnig setið í stjórn Samtaka atvinnulífsins og gegnt stöðu varaformanns þar frá 2021.',
+        heimild: [{ url: 'https://xd.is/2026/02/27/lif-leidir-afram-frambod-sjalfstaedisflokksins-a-akranesi/', label: 'Sjálfstæðisflokkurinn' }, { url: 'https://saf.is/2018/03/16/formannskjor2018-bjarnheidur-hallsdottir/', label: 'saf.is' }, { url: 'https://www.mbl.is/vidskipti/frettir/2018/03/21/bjarnheidur_nyr_formadur_saf/', label: 'mbl.is' }],
         interests: null,
         social: null,
         news: [
@@ -8247,6 +8299,7 @@ const AKR = {
       [3, 'Guðmundur Ingþór Guðjónsson', 'Lögreglumaður og bæjarfulltrúi', null, {
         age: null,
         bio: 'Guðmundur Ingþór Guðjónsson er lögreglumaður og bæjarfulltrúi á Akranesi fyrir Sjálfstæðisflokkinn á kjörtímabilinu 2022–2026. Hann er á þriðja sæti á framboðslista Sjálfstæðisflokksins á Akranesi í sveitarstjórnarkosningum 2026.',
+        heimild: [{ url: 'https://xd.is/2026/02/27/lif-leidir-afram-frambod-sjalfstaedisflokksins-a-akranesi/', label: 'Sjálfstæðisflokkurinn' }],
         interests: null,
         social: null,
         news: [
@@ -8256,6 +8309,7 @@ const AKR = {
       [4, 'Viktor Elvar Viktorsson', 'Húsasmiður', null, {
         age: null,
         bio: 'Viktor Elvar Viktorsson er húsasmiður og rekstrarstjóri útibús Askju bílaumboðsins á Akranesi, sem opnaði þar árið 2024. Hann á djúpar rætur á Akranessvæðinu og hefur tekið þátt í íþróttastarfi í héraðinu.',
+        heimild: [{ url: 'https://xd.is/2026/02/27/lif-leidir-afram-frambod-sjalfstaedisflokksins-a-akranesi/', label: 'Sjálfstæðisflokkurinn' }, { url: 'https://skagafrettir.is/2024/03/22/bilaumbodid-askja-opnar-a-akranesi-med-viktor-elvar-i-brunni/', label: 'skagafrettir.is' }, { url: 'https://skessuhorn.is/2024/03/21/askja-opnar-bratt-solu-og-thjonustuumbod-a-akranesi', label: 'skessuhorn.is' }],
         interests: null,
         social: null,
         news: [
@@ -8265,6 +8319,7 @@ const AKR = {
       [5, 'Ragnheiður Helgadóttir', 'Hjúkrunarfræðingur', null, {
         age: null,
         bio: 'Ragnheiður Helgadóttir er hjúkrunarfræðingur með BS-gráðu frá Háskólanum á Akureyri og deildastjóri heimahjúkrunar á Akranesi. Hún hefur einnig setið í skólaráði Fjölbrautaskóla Vesturlands á Akranesi.',
+        heimild: [{ url: 'https://xd.is/2026/02/27/lif-leidir-afram-frambod-sjalfstaedisflokksins-a-akranesi/', label: 'Sjálfstæðisflokkurinn' }],
         interests: null,
         social: null,
         news: [
@@ -8297,6 +8352,7 @@ const AKR = {
       [1, 'Hrafn Ágúst Björnsson', 'Öryggisráðgjafi', null, {
         age: null,
         bio: 'Hrafn Ágúst Björnsson er öryggisráðgjafi að starfi og leiðir lista Miðflokksins á Akranesi í sveitarstjórnarkosningum 2026, í fyrsta skipti sem flokkurinn gefur kost á sér á Akranesi. Hann tók þátt í oddvitaumræðum á Akranesi í apríl 2026.',
+        heimild: [{ url: 'https://skessuhorn.is/2026/04/14/midflokkurinn-bydur-i-fyrsta-sinn-fram-a-akranesi', label: 'skessuhorn.is' }],
         interests: null,
         social: null,
         news: [
@@ -8307,6 +8363,7 @@ const AKR = {
       [2, 'Guðríður Þorbjörnsdóttir', 'Sérfræðingur í stjórnsýslufræði', null, {
         age: null,
         bio: 'Guðríður Þorbjörnsdóttir er sérfræðingur í stjórnsýslufræði. Hún er á öðru sæti á framboðslista Miðflokksins á Akranesi í sveitarstjórnarkosningum 2026.',
+        heimild: [{ url: 'https://skessuhorn.is/2026/04/14/midflokkurinn-bydur-i-fyrsta-sinn-fram-a-akranesi', label: 'skessuhorn.is' }],
         interests: null,
         social: null,
         news: [
@@ -8316,6 +8373,7 @@ const AKR = {
       [3, 'Ólafur Rúnar Sigurðsson', 'Sölumaður og innkaup', null, {
         age: null,
         bio: 'Ólafur Rúnar Sigurðsson starfar í sölu og innkaupum. Hann er á þriðja sæti á framboðslista Miðflokksins á Akranesi í sveitarstjórnarkosningum 2026.',
+        heimild: [{ url: 'https://skessuhorn.is/2026/04/14/midflokkurinn-bydur-i-fyrsta-sinn-fram-a-akranesi', label: 'skessuhorn.is' }],
         interests: null,
         social: null,
         news: [
@@ -8325,6 +8383,7 @@ const AKR = {
       [4, 'Hörður Svavarsson', 'Rafvirkjameistari', null, {
         age: null,
         bio: 'Hörður Svavarsson er rafvirkjameistari að mennt og starfi. Hann er á fjórða sæti á framboðslista Miðflokksins á Akranesi í sveitarstjórnarkosningum 2026.',
+        heimild: [{ url: 'https://skessuhorn.is/2026/04/14/midflokkurinn-bydur-i-fyrsta-sinn-fram-a-akranesi', label: 'skessuhorn.is' }],
         interests: null,
         social: null,
         news: [
@@ -8334,6 +8393,7 @@ const AKR = {
       [5, 'Aníta Hauksdóttir', 'Framleiðniáætlanagerð hjá Norðurál', null, {
         age: null,
         bio: 'Aníta Hauksdóttir starfar í framleiðniáætlanagerð hjá Norðuráli, álveri á Grundartanga nærri Akranesi. Hún er á fimmta sæti á framboðslista Miðflokksins á Akranesi í sveitarstjórnarkosningum 2026.',
+        heimild: [{ url: 'https://skessuhorn.is/2026/04/14/midflokkurinn-bydur-i-fyrsta-sinn-fram-a-akranesi', label: 'skessuhorn.is' }],
         interests: null,
         social: null,
         news: [
@@ -8370,6 +8430,7 @@ const AKR = {
       [1, 'Sigurður Vopni Vatnsdal', 'Ráðgjafi hjá Sjóvá á Akranesi', 'images/candidates/8d95b085b0304ef5.png', {
         age: null,
         bio: 'Sigurður Vopni Vatnsdal er ráðgjafi hjá Sjóvá-Almennum tryggingum á Akranesi. Hann leiðir lista Samfylkingarinnar á Akranesi í sveitarstjórnarkosningum 2026 og er í fyrsta skipti á framboðslista flokksins á Akranesi.',
+        heimild: [{ url: 'https://kratinn.is/2026/03/26/sigurdur-vopni-leidir-samfylkinguna-a-akranesi/', label: 'kratinn.is' }, { url: 'https://www.visir.is/g/20262861110d/thau-skipa-lista-sam-fylkingarinnar-a-akra-nesi', label: 'visir.is' }, { url: 'https://skagafrettir.is/2026/03/28/sigurdur-vopni-skipar-oddvitasaetid-hja-samfylkingunni-a-akranesi/', label: 'skagafrettir.is' }],
         interests: null,
         social: null,
         news: [
@@ -8382,6 +8443,7 @@ const AKR = {
       [2, 'Jónína Margrét Sigmundsdóttir', 'Bæjarfulltrúi og starfsmaður í fíknimeðferð', 'https://images.prismic.io/samfylkingin/ad5NrJ1ZCF7ETLpc__Jónína Margrét.png?auto=format,compress', {
         age: null,
         bio: 'Jónína Margrét Sigmundsdóttir er bæjarfulltrúi fyrir Samfylkinguna á Akranesi á kjörtímabilinu 2022–2026 og starfsmaður sem veitir stuðning fólki með áfengis- og fíknivanda. Hún er á öðru sæti á framboðslista flokksins á Akranesi í sveitarstjórnarkosningum 2026.',
+        heimild: [{ url: 'https://www.visir.is/g/20262861110d/thau-skipa-lista-sam-fylkingarinnar-a-akra-nesi', label: 'visir.is' }, { url: 'https://xs.is/frambjoendur-a-akranesi', label: 'Samfylkingin' }],
         interests: null,
         social: null,
         news: [
@@ -8391,6 +8453,7 @@ const AKR = {
       [3, 'Kristinn Hallur Sveinsson', 'Bæjarfulltrúi og sérfræðingur hjá Loftmyndum ehf.', 'images/candidates/2bcd263ef7b826da.png', {
         age: null,
         bio: 'Kristinn Hallur Sveinsson er bæjarfulltrúi fyrir Samfylkinguna á Akranesi á kjörtímabilinu 2022–2026 og sérfræðingur hjá Loftmyndum ehf., sem sérhæfir sig í loftljósmyndun og kortagerð. Hann hefur einnig gegnt trúnaðarmannahlutverki í Heilbrigðisnefnd Vesturlands.',
+        heimild: [{ url: 'https://kratinn.is/2026/03/26/sigurdur-vopni-leidir-samfylkinguna-a-akranesi/', label: 'kratinn.is' }, { url: 'https://www.loftmyndir.is/umloftmyndir', label: 'loftmyndir.is' }],
         interests: null,
         social: null,
         news: [
@@ -8400,6 +8463,7 @@ const AKR = {
       [4, 'Anna Sólveig Smáradóttir', 'Sjúkraþjálfari og varabæjarfulltrúi', 'images/candidates/862a9ff8544b996b.png', {
         age: null,
         bio: 'Anna Sólveig Smáradóttir er sjúkraþjálfari og varabæjarfulltrúi Samfylkingarinnar á Akranesi. Hún er með BS-gráðu í sjúkraþjálfun frá University of Alabama í Birmingham (2003) og meistaragráðu í hreyfingarvísindum frá Háskóla Íslands (2015) og hlaut sérfræðiviðurkenningu í taugasjúkraþjálfun árið 2018.',
+        heimild: [{ url: 'https://kratinn.is/2026/03/26/sigurdur-vopni-leidir-samfylkinguna-a-akranesi/', label: 'kratinn.is' }, { url: 'https://www.sjak.is/anna-solveig', label: 'sjak.is' }],
         interests: null,
         social: null,
         news: [
@@ -8409,6 +8473,7 @@ const AKR = {
       [5, 'Jón Hjörvar Valgarðsson', 'Forstöðumaður Arnardalur og háskólanemi', 'https://images.prismic.io/samfylkingin/ad_Dx51ZCF7ETOWN_Jón Hjörvar-2-.png?auto=format,compress', {
         age: null,
         bio: 'Jón Hjörvar Valgarðsson er forstöðumaður Arnardals á Akranesi og háskólanemi við Háskóla Íslands. Hann var kjörinn formaður Snæfríðar, ungra félaga Samfylkingarinnar á Akranesi, árið 2021.',
+        heimild: [{ url: 'https://kratinn.is/2026/03/26/sigurdur-vopni-leidir-samfylkinguna-a-akranesi/', label: 'kratinn.is' }, { url: 'https://skagafrettir.is/2021/03/25/snaefridur-vaknar-til-lifsins-a-akranesi-jon-hjorvar-nyr-formadur/', label: 'skagafrettir.is' }],
         interests: null,
         social: null,
         news: [
@@ -8641,6 +8706,7 @@ const ISF = {
       [1, 'Gylfi Ólafsson', 'Heilsuhagfræðingur og formaður bæjarráðs', 'images/candidates/1438e2cc68b4ed0e.jpg', {
         age: 42,
         bio: 'Gylfi Ólafsson er heilsuhagfræðingur með doktorspróf frá Karolinska Institutet í Stokkhólmi og formaður bæjarráðs Ísafjarðarbæjar frá 2022. Hann stofnaði Íslenska heilsuhagfræðifyrirtækið og var forstjóri Heilbrigðisstofnunar Vestfjarða í fimm ár. Gylfi hefur verið virkur í stjórnmálum Viðreisnar frá stofnun flokksins og er þekktur talsmaður uppbyggingar á Vestfjörðum.',
+        heimild: [{ url: 'https://bb.is/2026/02/framsokn-obreytt-i-efstu-tveimur-saetum/', label: 'Bæjarins Besta – Framsókn: óbreytt í efstu tveimur sætum (Elísabet 2. sæti)' }, { url: 'https://framsokn.is/sveitarstjornarfolk/isafjardarbaer/', label: 'Framsókn.is – Sveitarstjórnarfólk í Ísafjarðarbæ' }],
         interests: ['Heilbrigðismál og heilsufarshagfræði', 'Svæðisþróun Vestfjarða', 'Gagnsæi og gagnastýrð stefnumörkun', 'Húsnæðismál og nýsköpun'],
         social: [
           { type: 'facebook', url: 'https://www.facebook.com/gylfi.olafsson', label: 'Facebook' },
@@ -8683,6 +8749,7 @@ const ISF = {
       [1, 'Jónas Þór Birgisson', 'Lyfjafræðingur', null, {
         age: 54,
         bio: 'Jónas Þór Birgisson er lyfjafræðingur sem hefur starfað á apóteki á Ísafirði síðan árið 2000 og leiðir D-listann (Sjálfstæðisflokkur) í Ísafjarðarbæ í sveitarstjórnarkosningum 2026.',
+        heimild: [{ url: 'https://www.linkedin.com/in/sif-huld-albertsd%C3%B3ttir-699a76210/', label: 'LinkedIn – Sif Huld Albertsdóttir, Assistant Executive Director at Sjótækni' }, { url: 'https://www.bb.is/2023/03/sjotaekni-sif-huld-radinn-adstodarframkvaemdastjori/', label: 'Bæjarins Besta – Sjótækni: Sif Huld ráðinn aðstoðarframkvæmdastjóri' }, { url: 'https://www.bb.is/2024/11/vikuvidtalid-sif-huld-albertsdottir/', label: 'Bæjarins Besta – Vikuviðtalið: Sif Huld Albertsdóttir' }],
         interests: null,
         social: null,
         news: [
@@ -8721,6 +8788,7 @@ const ISF = {
       [1, 'Sævar Óli Hjörvarsson', 'Smiður', null, {
         age: null,
         bio: 'Sævar Óli Hjörvarsson er iðnaðarmaður og leiðir M-listann (Miðflokkurinn) í Ísafjarðarbæ í sveitarstjórnarkosningum 2026.',
+        heimild: [{ url: 'https://www.isafjordur.is/is/stjornsysla/frettir-og-utgafa/frettasafn/frambodslistar-i-isafjardarbae-1', label: 'Ísafjarðarbær – Framboðslistar í Ísafjarðarbæ' }, { url: 'https://xd.is/sveitastjórnir/isafjordur/', label: 'Sjálfstæðisflokkurinn – Ísafjörður sveitarstjórnarfólk' }],
         interests: null,
         social: null,
         news: [
@@ -8750,6 +8818,7 @@ const ISF = {
       [1, 'Svanfríður Guðrún Bergvinsdóttir', 'Viðskiptafræðinemi og formaður ASÍ-UNG', 'images/candidates/234c62c7c473fa24.png', {
         age: null,
         bio: 'Svanfríður Guðrún Bergvinsdóttir er viðskiptafræðinemi og formaður ASÍ-UNG og leiðir S-listann (Samfylkingin) í Ísafjarðarbæ í sveitarstjórnarkosningum 2026; þetta er í fyrsta skipti í 24 ár sem Samfylkingin keppir undir eigin merki í sveitarfélaginu.',
+        heimild: [{ url: 'https://bb.is/2026/04/isafjardarbaer-saevar-oli-efstur-a-lista-midflokksins/', label: 'Bæjarins Besta – M-listi Miðflokksins í Ísafjarðarbæ (Jón Auðun 2. sæti)' }, { url: 'https://kosningasaga.wordpress.com/2026/04/13/midflokkurinn-bydur-fram-i-isafjardarbae/', label: 'Kosningasaga – Miðflokkurinn býður fram í Ísafjarðarbæ' }],
         interests: null,
         social: null,
         news: [
@@ -8834,6 +8903,7 @@ const STK = {
       [1, 'Björn Ásgeir Sumarliðason', 'Bæjarstjóri', null, {
         age: null,
         bio: 'Björn Ásgeir Sumarliðason er lögreglumaður og leiðir H-lista framfarasinna í Stykkishólmi í sveitarstjórnarkosningum 2026.',
+        heimild: [{ url: 'https://www.ruv.is/frettir/innlent/2026-04-08-logreglumadur-leidir-lista-framfarasinna-i-stykkisholmi-472188', label: 'ruv.is' }, { url: 'https://skessuhorn.is/2026/04/08/h-listi-kynntur-til-leiks-i-stykkisholmi-2', label: 'skessuhorn.is' }, { url: 'https://www.stykkisholmur.is/is/frettir/tvo-frambod-skiludu-frambodslistum-til-kjorstjornar', label: 'stykkisholmur.is – tvö framboð' }],
         interests: null,
         social: null,
         news: [],
@@ -8864,6 +8934,7 @@ const STK = {
       [1, 'Sigurður Grétar Jónasson', 'Frambjóðandi', null, {
         age: null,
         bio: 'Sigurður Grétar Jónasson leiðir Í-lista Íbúalistans í sveitarstjórnarkosningum 2026 í Stykkishólmi.',
+        heimild: [{ url: 'https://skessuhorn.is/2026/04/08/h-listi-kynntur-til-leiks-i-stykkisholmi-2', label: 'skessuhorn.is' }],
         interests: ['Íbúalýðræði og þátttaka', 'Atvinna og nýsköpun', 'Heilbrigðisþjónusta', 'Gagnsæi í stjórnun'],
         social: null,
         news: [],
@@ -9216,6 +9287,7 @@ const MUT = {
       [1, 'Jónína Brynjólfsdóttir', 'Safnstjóri og forseti sveitarstjórnar', 'images/candidates/6b3051254ef47536.jpg', {
         age: null,
         bio: 'Jónína Brynjólfsdóttir er viðskiptalögfræðingur með meistaragráðu í stjórnun og leiðtogafræðum og hefur búið á Egilsstöðum í rúmlega 14 ár, upprunnin úr Reykjavík. Hún starfar sem safnstjóri og gegnir jafnframt embætti forseta sveitarstjórnar Múlaþings. Hún þjónaði sem varaþingmaður Framsóknarflokks (Norðausturkjördæmi) í maí og júlí 2025. Jónína leggur áherslu á hagsmunabarátt fyrir landsbyggðina, samgöngur og heilbrigðisþjónustu á Austurlandi.',
+        heimild: [{ url: 'https://www.mbl.is/frettir/innlent/2025/12/18/jonina_mun_leida_lista_framsoknar_i_mulathingi/', label: 'mbl.is' }, { url: 'https://austurfrett.is/frettir/ny-noefn-ofarlega-a-bladhi-hja-framsokn-i-mulathingi', label: 'austurfrett.is' }, { url: 'https://framsokn.is/sveitarstjornarfolk/mulathing-folkid/', label: 'Framsókn' }],
         interests: ['Menning og íþróttastarfsemi', 'Barnafólk og fjölskyldur', 'Hagsmunabarátta fyrir landsbyggðina', 'Samgöngur og vegagerð', 'Heilbrigðisþjónusta á landsbyggð'],
         social: null,
         news: [
@@ -9269,6 +9341,7 @@ const MUT = {
       [1, 'Berglind Harpa Svavarsdóttir', 'Hjúkrunarfræðingur og formaður byggðaráðs', 'images/candidates/49e8bd45fe78388d.jpg', {
         age: 50,
         bio: 'Berglind Harpa Svavarsdóttir er fædd 28. nóvember 1975 og er hjúkrunarfræðingur að mennt. Hún hefur átta ára reynslu í sveitarstjórnarmálum — formaður byggðaráðs Múlaþings og fyrrverandi formaður Sambands sveitarfélaga á Austurlandi (SSA). Berglind er varaþingmaður Sjálfstæðisflokks í Norðausturkjördæmi sem hefur setið á þingi sjö sinnum frá 2021. Hún hlaut 219 atkvæði í prófkjöri flokksins 28. febrúar 2026 og tryggði sér 1. sæti á lista.',
+        heimild: [{ url: 'https://www.mbl.is/frettir/innlent/2025/12/18/jonina_mun_leida_lista_framsoknar_i_mulathingi/', label: 'mbl.is' }, { url: 'https://framsokn.is/sveitarstjornarfolk/mulathing-folkid/', label: 'Framsókn' }],
         interests: ['Samgöngur milli byggðakjarna', 'Gæðaþjónusta sveitarfélags', 'Atvinnuþróun og fjárfestingar', 'Heilbrigðismál', 'Samstarf ríkis og sveitarfélaga'],
         social: [
           { type: 'facebook', url: 'https://www.facebook.com/berglind.h.svavarsdottir/?locale=is_IS', label: 'Facebook' },
@@ -9326,6 +9399,7 @@ const MUT = {
       [1, 'Lárus Bjarnason', 'Lögfræðingur og fyrrverandi sýslumaður', 'images/candidates/fd7d63d849443ee7.jpg', {
         age: null,
         bio: 'Lárus Bjarnason er lögfræðingur og þjónaði sem sýslumaður í yfir þrjátíu ár á Austurlandi — fyrst í Norður-Múlasýslu frá 1989, síðan sem sýslumaður á Austurlandi frá 2015 þar til hann lét af embætti haustið 2024 vegna aldursmarka. Hann er einstaklingur með víðtæka þekkingu á lögum og stjórnun á Austurlandi. Lárus leiðir framboðslista Miðflokksins í Múlaþingi í kosningum 2026.',
+        heimild: [{ url: 'https://xd.is/2026/02/28/berglind-harpa-afram-oddviti-i-mulathingi-thorhildur-katrin-i-2-saeti/', label: 'Sjálfstæðisflokkurinn' }],
         interests: ['Réttarríkið og löggæsla', 'Uppbygging í dreifbýli', 'Stjórnsýsla og hagræðing', 'Almannaþjónusta', 'Atvinnulíf á Austurlandi'],
         social: null,
         news: [
@@ -9382,6 +9456,7 @@ const MUT = {
       [1, 'Ásrún Mjöll Stefánsdóttir', 'Sveitarstjórnarfulltrúi og húsasmiður', null, {
         age: null,
         bio: 'Ásrún Mjöll Stefánsdóttir er húsasmiður frá Seyðisfirði og hefur setið í sveitarstjórn Múlaþings á vegum VG. Hún hefur barist fyrir umhverfismálum á Austurlandi, meðal annars lagði hún til að mælingatæki yrðu sett upp til að mæla loftmengun í höfnum Múlaþings vegna skemmtiferðaskipa í Seyðisfirði. Hún leiðir sameiginlegan lista VG og óháðra í Múlaþingi í kosningum 2026.',
+        heimild: [{ url: 'https://austurfrett.is/frettir/fyrrum-syslumadhur-leidhir-midhflokkinn-i-mulathingi', label: 'austurfrett.is' }],
         interests: ['Umhverfismál og loftgæði', 'Sjálfbær þróun', 'Dreifbýlissamfélög', 'Menning og íþróttir', 'Hlutlæg stjórnun'],
         social: null,
         news: [
@@ -9439,6 +9514,7 @@ const MUT = {
       [1, 'Hólmfríður Rut Einarsdóttir', 'Samskiptasérfræðingur', null, {
         age: null,
         bio: 'Hólmfríður Rut Einarsdóttir er samskipta- og markaðsráðgjafi frá Egilsstöðum. Hún var oddviti Viðreisnar í Múlaþingi áður en Austurlistinn og Viðreisn sameinuðust í eitt sameiginlegt framboð í apríl 2026. Hún skrifaði skoðunargrein í apríl 2026 þar sem hún hvatti til þess að gefa börnum og ungmennum forgang í sveitarstjórnarmálum. Hólmfríður leiðir nú sameinað framboð Austurlistans og Viðreisnar í Múlaþingi.',
+        heimild: [{ url: 'https://www.ruv.is/frettir/innlent/2026-03-04-holmfridur-rut-oddviti-vidreisnar-i-mulathingi-468712', label: 'ruv.is' }, { url: 'https://kosningasaga.wordpress.com/2026/03/28/austurlistinn-og-vidreisn-i-mulathingi-sameinast/', label: 'kosningasaga.wordpress.com' }, { url: 'https://www.visir.is/g/20262871254d/erum-vid-ad-missa-sjonar-a-thvi-sem-stendur-okkur-naest-', label: 'visir.is' }],
         interests: ['Börn og ungmenni', 'Geðheilbrigðisþjónusta', 'Jafnt aðgengi að þjónustu', 'Samgönguuppbygging', 'Ábyrg fjármálastjórnun'],
         social: null,
         news: [
@@ -9497,6 +9573,7 @@ const THV = {
       [1, 'Knútur Jónasson', 'Byggingarfræðingur', null, {
         age: null,
         bio: 'Knútur Jónasson er á 1. sæti á framboðslista THVA í Þórshafnarhreppi í sveitarstjórnarkosningum 2026.',
+        heimild: [{ url: 'https://kosningasaga.wordpress.com/2026/04/07/frambodslisti-austurlistans-og-vidreisnar/', label: 'kosningasaga.wordpress.com' }],
         interests: null,
         social: null,
         news: [{ title: 'Þrír framboðslistar staðfestir í Þingeyjarsveit 2026', url: 'https://www.thingeyjarsveit.is/is/frettir-tilkynningar/thrir-frambodslistar-stadfestir-fyrir-sveitarstjornarkosningar-2026', source: 'thingeyjarsveit.is' }],
@@ -9527,6 +9604,7 @@ const THV = {
       [1, 'Hallgrímur Páll Leifsson', 'Flugmaður og skíðaþjálfari', null, {
         age: null,
         bio: 'Hallgrímur Páll Leifsson er flugmaður og skíðaþjálfari og leiðir L-lista framfara í Þingeyjarsveit í sveitarstjórnarkosningum 2026. Listinn er borgaralegt framboð með áherslu á að efla atvinnu og fjölga íbúum, sérstaklega barnafjölskyldum, í sveitarfélaginu.',
+        heimild: [{ url: 'https://www.thingeyjarsveit.is/is/frettir-tilkynningar/leikskolakennarar-oskast-a-barnaborg-og-krilabae', label: 'thingeyjarsveit.is – leikskólakennarar' }],
         interests: ['Atvinnuuppbygging og nýsköpun', 'Barnafjölskyldur og búsetumál', 'Ferðaþjónusta', 'Sveitarstjórnarmál'],
         social: null,
         news: [{ title: 'Þrír framboðslistar staðfestir í Þingeyjarsveit 2026', url: 'https://www.thingeyjarsveit.is/is/frettir-tilkynningar/thrir-frambodslistar-stadfestir-fyrir-sveitarstjornarkosningar-2026', source: 'thingeyjarsveit.is' }],
@@ -9557,6 +9635,7 @@ const THV = {
       [1, 'Eyþór Kári Ingólfsson', 'Búfræðinemi', null, {
         age: null,
         bio: 'Eyþór Kári Ingólfsson er búfræðinemi búsettur í Úlfsbæ í Bárðardal. Hann var kjörinn í sveitarstjórn Þingeyjarsveit á E-lista árið 2022, þegar listinn hlaut 5 af 9 sætum. Hann stofnaði nýjan framboðslista, N-listann, fyrir kosningarnar 2026 og leiðir hann sem oddviti.',
+        heimild: [{ url: 'https://www.thingeyjarsveit.is/is/stjornsysla/sveitarstjorn/fyrrum-sveitarstjornir/sveitarstjorn-thingeyjarsveitar-2018-2022', label: 'thingeyjarsveit.is – sveitarstjórn 2018–2022' }],
         interests: ['Sveitarstjórnarmál', 'Landbúnaður og dreifbýli', 'Þjónusta íbúa', 'Nýliðun í sveitarstjórn'],
         social: null,
         news: [{ title: 'Þrír framboðslistar staðfestir í Þingeyjarsveit 2026', url: 'https://www.thingeyjarsveit.is/is/frettir-tilkynningar/thrir-frambodslistar-stadfestir-fyrir-sveitarstjornarkosningar-2026', source: 'thingeyjarsveit.is' }],
@@ -9592,6 +9671,7 @@ const HVF = {
       [1, 'Sigurður Örn Sigurðsson', 'Sveitarstjóri og rekstrarstjóri', null, {
         age: null,
         bio: 'Sigurður Örn Sigurðsson er á 1. sæti á framboðslista HVA í Hvalfjarðarsveit í sveitarstjórnarkosningum 2026.',
+        heimild: [{ url: 'https://www.hvalfjardarsveit.is/is/stjornsysla/hvalfjardarsveit/frettir/auglysing-um-frambod-til-sveitarstjornar-og-sveitarstjornarkosninga-i-hvalfjardarsveit-thann-16-mai-2026', label: 'hvalfjardarsveit.is – framboðsauglýsing 2026' }],
         interests: null,
         social: null,
         news: [],
@@ -9619,6 +9699,7 @@ const HVF = {
       [1, 'Ragnheiður Sigríður Ragnarsdóttir', 'Framkvæmdastjóri', null, {
         age: null,
         bio: 'Ragnheiður Sigríður Ragnarsdóttir er á 1. sæti á framboðslista HVB í Hvalfjarðarsveit í sveitarstjórnarkosningum 2026.',
+        heimild: [{ url: 'https://www.hvalfjardarsveit.is/is/stjornsysla/hvalfjardarsveit/frettir/auglysing-um-frambod-til-sveitarstjornar-og-sveitarstjornarkosninga-i-hvalfjardarsveit-thann-16-mai-2026', label: 'hvalfjardarsveit.is – framboðsauglýsing 2026' }],
         interests: null,
         social: null,
         news: [],
