@@ -1048,14 +1048,66 @@
 /* ─── Mobile: Horizontal ribbons ──────────────────────── */
 
 @media (max-width: 768px) {
-  .accordion-container {
-    flex-direction: column;
-    height: auto;
+
+  /*
+   * The accordion section becomes a fixed viewport that fills the
+   * screen below the nav.  The container scrolls *inside* it, so
+   * navigating between parties and reading a party's content are
+   * two independent, non-conflicting scroll zones.
+   */
+  .accordion-section {
+    position: fixed;
+    top: 72px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding-top: 0;
+    min-height: unset;
+    overflow: hidden;
   }
 
-  /* On mobile use max-height transitions (flex-grow needs fixed container height) */
+  /* Top fade — appears when the ribbon list is scrolled down */
+  .accordion-section::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 64px;
+    background: linear-gradient(to bottom, rgba(10,14,26,0.92) 0%, transparent 100%);
+    pointer-events: none;
+    z-index: 20;
+    opacity: 0;
+    transition: opacity 0.25s ease;
+  }
+  .accordion-section.is-scrolled-down::before { opacity: 1; }
+
+  /* Bottom fade — hints "more ribbons below"; hidden when at bottom */
+  .accordion-section::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    background: linear-gradient(to top, rgba(10,14,26,0.92) 0%, transparent 100%);
+    pointer-events: none;
+    z-index: 20;
+    opacity: 1;
+    transition: opacity 0.25s ease;
+  }
+  .accordion-section.is-at-bottom::after { opacity: 0; }
+
+  /* Outer scroll: navigating the ribbon list */
+  .accordion-container {
+    flex-direction: column;
+    height: 100%;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* On mobile use max-height transitions */
   .party-ribbon {
     flex: none;
+    flex-shrink: 0;
     min-width: unset;
     max-height: 56px;
     min-height: 56px;
@@ -1065,16 +1117,27 @@
       min-height var(--transition-accordion);
   }
 
+  /*
+   * Expanded ribbon is bounded to ~66 % of the viewport so that at
+   * least one or two collapsed ribbons remain visible above / below,
+   * making it obvious the list can be scrolled.
+   */
   .party-ribbon.is-expanded {
     flex: none;
+    flex-shrink: 0;
     min-width: unset;
-    max-height: 100vh;
-    min-height: 60vh;
+    max-height: 66vh;
+    min-height: 52vh;
   }
 
   .party-ribbon:not(.is-expanded):hover {
     max-height: 68px;
     min-height: 68px;
+  }
+
+  /* Inner scroll: reading within an expanded ribbon — don't bleed to outer */
+  .ribbon-content {
+    overscroll-behavior-y: contain;
   }
 
   .ribbon-label {

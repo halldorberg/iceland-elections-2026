@@ -158,6 +158,7 @@ container.addEventListener('click', e => {
 function switchParty(code) {
   activeParty = code;
 
+  let expandedEl = null;
   container.querySelectorAll('.party-ribbon').forEach(r => {
     const rCode = r.dataset.code;
     const p = PARTIES[rCode];
@@ -167,7 +168,18 @@ function switchParty(code) {
     r.style.background = isNowExpanded
       ? `linear-gradient(160deg, ${p.accentColor || p.color} 0%, ${p.color} 100%)`
       : p.color;
+
+    if (isNowExpanded) expandedEl = r;
   });
+
+  // On mobile the container is a fixed-height scroll zone — bring the
+  // newly expanded ribbon to the top so the user sees its content AND
+  // can still scroll down to reach the collapsed ribbons below it.
+  if (expandedEl && window.innerWidth <= 768) {
+    requestAnimationFrame(() => {
+      expandedEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+  }
 
   // Reflect in URL (no new history entry — just update the address bar)
   const u = new URL(window.location.href);
@@ -618,6 +630,22 @@ container.addEventListener('click', e => {
 // ─── Boot ──────────────────────────────────────────────────
 
   renderAccordion();
+
+  // ─── Mobile scroll-fade indicators ────────────────────────
+  // Show top fade when scrolled down; hide bottom fade when at end.
+  (function initScrollFades() {
+    if (window.innerWidth > 768) return;
+    const section = document.querySelector('.accordion-section');
+    if (!section) return;
+    function update() {
+      const atTop    = container.scrollTop < 8;
+      const atBottom = container.scrollHeight - container.scrollTop - container.clientHeight < 8;
+      section.classList.toggle('is-scrolled-down', !atTop);
+      section.classList.toggle('is-at-bottom',     atBottom);
+    }
+    container.addEventListener('scroll', update, { passive: true });
+    update();
+  })();
 
   // Set initial URL to reflect the active party (no history entry)
   const initURL = new URL(window.location.href);
