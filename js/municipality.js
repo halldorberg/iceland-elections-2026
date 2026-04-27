@@ -199,8 +199,19 @@ container.addEventListener('click', e => {
   switchParty(code);
 });
 
+function trackEvent(name, params) {
+  if (typeof gtag === 'function') gtag('event', name, params);
+}
+
 function switchParty(code) {
   activeParty = code;
+
+  trackEvent('party_open', {
+    municipality_id:   muni.id,
+    municipality_name: muni.name,
+    party_code:        code,
+    party_name:        PARTIES[code]?.name ?? code,
+  });
 
   let expandedEl = null;
   container.querySelectorAll('.party-ribbon').forEach(r => {
@@ -527,6 +538,15 @@ function openModal(id) {
   if (!c) return;
   const party = PARTIES[c.partyCode];
 
+  trackEvent('candidate_open', {
+    municipality_id:   muni.id,
+    municipality_name: muni.name,
+    party_code:        c.partyCode,
+    party_name:        party?.name ?? c.partyCode,
+    candidate_name:    c.name,
+    ballot_order:      c.ballotOrder,
+  });
+
   const fallback = localAvatar(c.name);
   const photo = document.getElementById('modal-photo');
   photo.style.objectPosition = 'center 20%';
@@ -672,6 +692,14 @@ container.addEventListener('click', e => {
 // ─── Boot ──────────────────────────────────────────────────
 
   renderAccordion();
+
+  // Track the initially displayed party
+  trackEvent('party_open', {
+    municipality_id:   muni.id,
+    municipality_name: muni.name,
+    party_code:        activeParty,
+    party_name:        PARTIES[activeParty]?.name ?? activeParty,
+  });
 
   // ─── Mobile scroll-fade indicators ────────────────────────
   (function initScrollFades() {
