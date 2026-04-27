@@ -1285,6 +1285,7 @@ const RVK = {
       [17, 'Uldarico Castillo de Luna', 'Hjúkrunarfræðingur'],
       [18, 'Berglind Rut Terrazas', 'Umönnunarmaður'],
       [19, 'Anna Jonna Ármannsdóttir', 'Rafvirkjameistari'],
+      [20, 'Katrín Baldursdóttir', 'Frambjóðandi'],
       [21, 'Helgi Páll Einarsson', 'Hönnuður'],
       [22, 'Bryndís Ýrr Baldursdóttir', 'Listamangur'],
       [23, 'Esther Jónsdóttir', 'Stuðningsmaður'],
@@ -4595,7 +4596,7 @@ const RNB = {
       [9, 'Þórarinn Darri Ólafsson', 'Háskólanemi og leiðbeinandi'],
       [10, 'Hekla Sif Ingvadóttir', 'Framhaldsskólanemi'],
       [11, 'Sigurður Guðjónsson', 'Framkvæmdastjóri og bílasali'],
-      [12, 'Ásta María Guðmundsdóttir', 'Forstöðumaður'],
+      [12, 'Àsta María Guðmundsdóttir', 'Forstöðumaður'],
       [13, 'Hrafnkell Freyr Ágústsson', 'Málari'],
       [14, 'Birna Ósk Óskarsdóttir', 'Aðstoðarskólastjóri Stapaskóla'],
       [15, 'Karítas Lára Rafnkelsdóttir', 'Sálfræðingur hjá HSS'],
@@ -5741,6 +5742,7 @@ const VME = {
       [14, 'Friðrik Björgvinsson', ''],
       [15, 'Hrefna Valdís Guðmundsdóttir', ''],
       [16, 'Stefán Jónasson', ''],
+      [17, 'Eyrún Haraldsdóttir', 'Frambjóðandi'],
     ],
   },
   M: {
@@ -5777,9 +5779,11 @@ const VME = {
       [10, 'Þórey Katla Brynjarsdóttir', '', 'images/candidates/8eed17ea7e5a31b7.jpg'],
       [11, 'Hafþór Elí Hafsteinsson', '', 'images/candidates/2fba58f8fc88bd18.jpg'],
       [12, 'Ailandas Baurinas', '', 'images/candidates/1d686d3afd9b3625.jpg'],
-      [14, 'Sigþór Yngvi Kristinsson', '', 'images/candidates/5ae4d599315f0916.jpg'],
+      [13, 'Elmar Hrafn Óskarsson', 'Frambjóðandi'],
+      [14, 'Sigdór Yngvi Kristinsson', '', 'images/candidates/5ae4d599315f0916.jpg'],
       [15, 'Adam Smári Sigfússon', ''],
       [16, 'Jón Helgi Gíslason', '', 'images/candidates/d7b5929a4ead96ed.jpg'],
+      [17, 'Erlendur Ágúst Stefánsson', 'Frambjóðandi'],
     ],
   },
 };
@@ -6082,7 +6086,7 @@ const FJB = {
       [4, 'Guðjón Marinó Ólafsson', 'Ráðgjafi', 'images/candidates/c59b377b931514d8.png'],
       [5, 'Kristín Margrét Halldórsdóttir', 'Gæðastjóri', 'images/candidates/8eae93ff24f4e476.png'],
       [6, 'Áslaug Barðadóttir', 'Verkefnastjóri', 'images/candidates/bfeec01f403ea8d4.png'],
-      [7, 'Habib Jaouad', 'Kokkur', 'images/candidates/4c75a17ae9e44786.png'],
+      [7, 'Hbib Jaouad', 'Kokkur', 'images/candidates/4c75a17ae9e44786.png'],
       [8, 'Valdís Jörgensdóttir', 'Bókari', 'images/candidates/7d121a2a9cbef439.png'],
       [9, 'Ásta Lovísa Pálsdóttir', 'Kennari', 'images/candidates/9510c061512e6d5c.png'],
       [10, 'Kristjana Rannveig Sveinsdóttir', 'Listakona', 'images/candidates/8ee3793c88c0207e.png'],
@@ -6161,6 +6165,7 @@ const HVG = {
       [9, 'Páll Sigurðsson', 'Skógfræðingur'],
       [10, 'Margrét S. Stefánsdóttir', 'Tónlistarkennari og deildarstjóri'],
       [11, 'Örlygur Atli Guðmundsson', 'Kennari og tónlistarmaður'],
+      [12, 'Herdís Þórðardóttir', 'Frambjóðandi'],
       [13, 'Halldór Bjarni Maríasson', 'Bóndi og bílstjóri'],
       [14, 'Jóhanna Ýr Jóhannsdóttir', 'Framkvæmdastjóri'],
     ],
@@ -7121,7 +7126,6 @@ const HGS = {
       [7, 'Vikar Mar Valsson', 'Ljósmyndari og sauðfjárbóndi'],
       [8, 'Hugrún Pála Birnisdóttir', 'Geislafræðingur'],
       [9, 'Sigurður Pálsson', 'Lífeyrisþegi'],
-      [10, 'Eduarda Louize', 'Listamaður'],
     ],
   },
 };
@@ -7900,7 +7904,7 @@ const FJD = {
           { title: 'Jöfnuður, ábyrgð og uppbygging', url: 'https://www.visir.is/g/20262872627d/jofnudur-abyrgd-og-uppbygging', source: 'visir.is' },
         ],
       }],
-      [5, 'Arndís Bára Pétursdóttir', 'Aðstoðarskólastjóri', null, {
+      [5, 'Arndís  Bára Pétursdóttir', 'Aðstoðarskólastjóri', null, {
         age: null,
         bio: 'Arndís Bára Pétursdóttir er á 5. sæti á S-lista Fjarðalistans í Fjarðabyggð í sveitarstjórnarkosningum 2026. Fjarðalistinn hefur boðið fram lista í sveitarstjórnarkosningum frá 1998.',
         heimild: [{ url: 'https://www.visir.is/g/20262872627d/jofnudur-abyrgd-og-uppbygging', label: 'visir.is' }],
@@ -7915,7 +7919,7 @@ const FJD = {
       [8, 'Esther Ösp Gunnarsdóttir', 'Hönnuður'],
       [9, 'A. Eva Sigurðardóttir', 'Þjálfari'],
       [10, 'Jaroslaw Zajaczkowski', 'Deildarstjóri'],
-      [11, 'Salóme Rut Harðardóttir', 'Íþróttaþjálfari'],
+      [11, 'Salóme  Rut Harðardóttir', 'Íþróttaþjálfari'],
       [12, 'Joanna Katarzyna Mrowiec', 'Kennari'],
       [13, 'Oddur Sigurðsson', 'Bóndi'],
       [14, 'Sveinn Fannar Sæmundsson', 'Sagnfræðingur'],
@@ -9580,6 +9584,34 @@ const HVF = {
       [9, 'Kristín Björk Kristjánsdóttir', 'Leikskólakennari'],
       [10, 'Haraldur Þór Haraldsson', 'Rafvirki'],
       [11, 'Guðný Lilja Guðnadóttir', 'Þjónustufulltrúi'],
+    ],
+  },
+};
+
+// ─── Snæfellsbær candidate lists ──────────────────────────────────────────────
+
+const SNF = {
+  D: {
+    tagline: 'D-listi Sjálfstæðisflokks — Snæfellsbær 2026',
+    agenda: [
+      { icon: '🏔️', title: 'Samfélag', text: 'Styrkja samfélag og þjónustu á Snæfellsnesi.' },
+      { icon: '💼', title: 'Atvinna', text: 'Efla atvinnulíf og nýsköpun á svæðinu.' },
+      { icon: '🌿', title: 'Umhverfismál', text: 'Sjálfbær þróun og vernd náttúru Snæfellsness.' },
+    ],
+    list: [
+      [1, 'Auður Kjartansdóttir', 'Frambjóðandi'],
+      [2, 'Eiríkur Böðvar Rúnarsson', 'Frambjóðandi'],
+      [3, 'Gunnar Ólafur Sigmarsson', 'Frambjóðandi'],
+      [4, 'Illugi Jens Jónasson', 'Frambjóðandi'],
+      [5, 'Jóhanna Jóhannesdóttir', 'Frambjóðandi'],
+      [6, 'Jón Bjarki Jónatansson', 'Frambjóðandi'],
+      [7, 'Júníana Björg Óttarsdóttir', 'Frambjóðandi'],
+      [8, 'Kristgeir Kristinsson', 'Frambjóðandi'],
+      [9, 'Marinó Sigurjónsson', 'Frambjóðandi'],
+      [10, 'Sara Egilsdóttir', 'Frambjóðandi'],
+      [11, 'Sigrún Erla Sveinsdóttir', 'Frambjóðandi'],
+      [12, 'Styrmir Páll Sigurðarson', 'Frambjóðandi'],
+      [13, 'Urszula Zyskowska', 'Frambjóðandi'],
     ],
   },
 };
