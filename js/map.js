@@ -1,5 +1,44 @@
 import { MUNICIPALITIES } from './data/municipalities.js?v=13';
 import { PARTIES } from './data/parties.js?v=4';
+import { getLang, t, renderLangSwitcher } from './i18n.js?v=2';
+
+// ─── i18n ──────────────────────────────────────────────────
+const lang = getLang();
+const ui   = t();
+
+// Inject language switcher
+renderLangSwitcher(document.getElementById('lang-switcher'));
+
+// Update static page text for current language
+(function applyStaticTranslations() {
+  const set = (id, text) => { const el = document.getElementById(id); if (el) el.textContent = text; };
+  const setHTML = (id, html) => { const el = document.getElementById(id); if (el) el.innerHTML = html; };
+
+  // Hero
+  setHTML('hero-title',    ui.heroTitle);
+  set('hero-subtitle',     ui.heroSubtitle);
+
+  // Stats
+  set('stat-label-municipalities', ui.statMunicipalities);
+  set('stat-label-parties',        ui.statParties);
+  set('stat-label-candidates',     ui.statCandidates);
+
+  // Map overlay
+  set('map-overlay-title', ui.mapOverlayTitle);
+  set('map-overlay-desc',  ui.mapOverlayDesc);
+
+  // Legend
+  set('legend-title', ui.legendTitle);
+
+  // Instructions
+  set('instr-hover', ui.instrHover);
+  set('instr-click', ui.instrClick);
+  set('instr-zoom',  ui.instrZoom);
+
+  // Disclaimer
+  set('disclaimer-title',     ui.disclaimerTitle);
+  set('disclaimer-body-text', ui.disclaimerText);
+})();
 
 // ─── Map init ──────────────────────────────────────────────
 
@@ -74,11 +113,11 @@ MUNICIPALITIES.forEach(muni => {
   let partiesBlock;
 
   if (isUnbound) {
-    electionBadge = `<span class="tooltip-election-badge tooltip-election-badge--unbound">Óbundnar kosningar</span>`;
-    partiesBlock = `<div class="tooltip-unbound-note">Allir kjörgengar einstaklingar geta boðið sig fram — engar formlegar listur.</div>`;
+    electionBadge = `<span class="tooltip-election-badge tooltip-election-badge--unbound">${ui.unboundBadge}</span>`;
+    partiesBlock = `<div class="tooltip-unbound-note">${ui.unboundNote}</div>`;
   } else {
     if (isSjalkjort) {
-      electionBadge = `<span class="tooltip-election-badge tooltip-election-badge--sjalkjort">Sjálfkjörið</span>`;
+      electionBadge = `<span class="tooltip-election-badge tooltip-election-badge--sjalkjort">${ui.unopposedBadge}</span>`;
     }
     partiesBlock = `<div class="tooltip-parties">${muni.partyIds.map(code => {
       const p = PARTIES[code];
@@ -91,15 +130,14 @@ MUNICIPALITIES.forEach(muni => {
 
   marker.bindTooltip(`
     <div class="tooltip-name">${muni.name}</div>
-    <div class="tooltip-region">${muni.region} &nbsp;·&nbsp; ${muni.population.toLocaleString('is-IS')} íbúar</div>
+    <div class="tooltip-region">${muni.region} &nbsp;·&nbsp; ${muni.population.toLocaleString('is-IS')} ${ui.population}</div>
     ${electionBadge}
     ${partiesBlock}
     <div class="tooltip-cta">
       <svg width="10" height="10" viewBox="0 0 10 10" fill="none">
         <path d="M2 5h6M5 2l3 3-3 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
       </svg>
-      Smelltu til að sjá nánar
-    </div>`, {
+      ${ui.mapTooltipCTA}</div>`, {
     className: 'map-tooltip',
     direction: 'right',
     offset: [12, 0],
@@ -107,7 +145,8 @@ MUNICIPALITIES.forEach(muni => {
   });
 
   marker.on('click', () => {
-    window.location.href = `municipality.html?id=${muni.id}`;
+    const params = lang !== 'is' ? `&lang=${lang}` : '';
+    window.location.href = `municipality.html?id=${muni.id}${params}`;
   });
 
   marker.addTo(map);

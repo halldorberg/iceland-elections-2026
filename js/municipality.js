@@ -2,8 +2,52 @@ import { MUNICIPALITIES } from './data/municipalities.js?v=13';
 import { PARTIES } from './data/parties.js?v=4';
 import { getMunicipalityPartyData } from './data/candidates.js?v=32';
 import { RESULTS_2022 } from './data/results2022.js?v=2';
+import { getLang, t, renderLangSwitcher } from './i18n.js?v=2';
 
-// ─── Local avatar generator (replaces ui-avatars.com hotlink) ─────────────
+// ─── i18n ──────────────────────────────────────────────────
+const lang = getLang();
+const ui   = t();
+
+let TR = {};
+if (lang === 'en') {
+  const mod = await import('./data/candidates.en.js?v=1');
+  TR = mod.TRANSLATIONS_EN;
+} else if (lang === 'pl') {
+  const mod = await import('./data/candidates.pl.js?v=1');
+  TR = mod.TRANSLATIONS_PL;
+}
+
+/** Look up a translated data string; falls back to Icelandic source value. */
+function trData(key, fallback) {
+  return (lang !== 'is' && TR[key]) ? TR[key] : (fallback ?? '');
+}
+
+/** Look up a translated occupation; falls back to the original Icelandic. */
+function trOcc(occ) {
+  if (lang === 'is' || !occ) return occ || '';
+  return TR._occupations?.[occ] || occ;
+}
+
+// ─── Lang switcher ─────────────────────────────────────────
+renderLangSwitcher(document.getElementById('lang-switcher'));
+
+// ─── Static HTML translations (one-time at init) ───────────
+(function applyStaticTranslations() {
+  const set = (id, text) => { const el = document.getElementById(id); if (el) el.textContent = text; };
+  set('back-btn-text',         ui.backToMap);
+  set('muni-share-text',       ui.share);
+  set('modal-share-text',      ui.share);
+  set('modal-label-bio',       ui.aboutCandidate);
+  set('modal-label-interests', ui.policyFocus);
+  set('modal-label-social',    ui.socialMedia);
+  set('modal-label-news',      ui.news);
+  set('disclaimer-title',      ui.disclaimerTitle);
+  set('disclaimer-body-text',  ui.disclaimerText);
+  const noInfoEl = document.getElementById('modal-no-info');
+  if (noInfoEl) noInfoEl.innerHTML = `<span class="no-info-icon">ℹ️</span> ${ui.noInfo}`;
+})();
+
+// ─── Local avatar generator ────────────────────────────────
 function localAvatar(name) {
   const initials = name.trim().split(/\s+/).slice(0, 2).map(w => w[0] || '').join('').toUpperCase();
   const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300"><rect width="300" height="300" fill="#1c2335"/><text x="150" y="155" text-anchor="middle" dominant-baseline="middle" fill="#8892a4" font-family="Arial,sans-serif" font-size="120" font-weight="bold">${initials}</text></svg>`;
@@ -31,7 +75,7 @@ if (muniShareBtn) {
   });
 }
 document.getElementById('muni-pop').textContent =
-  muni.population.toLocaleString('is-IS') + ' íbúar';
+  muni.population.toLocaleString('is-IS') + ' ' + ui.population;
 
 // ─── Election type ─────────────────────────────────────────
 const isUnbound   = muni.partyIds.length === 0;
@@ -49,9 +93,9 @@ if (isUnbound) {
     <div class="election-notice election-notice--unbound">
       <div class="en-icon">🗳️</div>
       <div class="en-body">
-        <span class="en-badge">Óbundnar kosningar</span>
-        <h2 class="en-title">Óbundnar kosningar í ${muni.name}</h2>
-        <p class="en-text">Í þessum kosningum eru engar formlegar framboðslistur. Allir kjörgengar einstaklingar í sveitarfélaginu teljast sjálfkrafa frambjóðendur nema þeir afþakki sérstaklega. Kjósendur gefa atkvæði með persónulegri atkvæðagreiðslu fremur en að kjósa eftir listum — það þýðir að hægt er að greiða atkvæði til hvaða kjörgengs einstaklings sem er í sveitarfélaginu.</p>
+        <span class="en-badge">${ui.unboundBadge}</span>
+        <h2 class="en-title">${ui.unboundTitle(muni.name)}</h2>
+        <p class="en-text">${ui.unboundDesc}</p>
       </div>
     </div>`;
 } else if (isSjalkjort) {
@@ -59,9 +103,9 @@ if (isUnbound) {
     <div class="election-notice election-notice--sjalkjort">
       <div class="en-icon">✅</div>
       <div class="en-body">
-        <span class="en-badge">Sjálfkjörið</span>
-        <h2 class="en-title">Sjálfkjörið í ${muni.name}</h2>
-        <p class="en-text">Aðeins einn framboðslisti bauð sig fram og var hann samþykktur án kosninga. Þegar fjöldi frambjóðenda á einum lista samsvarar fjölda sæta í sveitarstjórn — eða er færri — er engin ástæða til kosninga og meðlimir listans fara sjálfkrafa inn í sveitarstjórnina. Hægt er að skoða listann hér að neðan.</p>
+        <span class="en-badge">${ui.unopposedBadge}</span>
+        <h2 class="en-title">${ui.unopposedTitle(muni.name)}</h2>
+        <p class="en-text">${ui.unopposedDesc}</p>
       </div>
     </div>`;
 }
@@ -93,7 +137,7 @@ if (isUnbound) {
   } else {
     const randomParty = PARTIES[activeParty];
     document.getElementById('random-tooltip-text').textContent =
-      `Opnaði ${randomParty.name} af handahófi`;
+      ui.randomTooltipOpen(randomParty.name);
     setTimeout(() => { if (tip) tip.style.display = 'none'; }, 5200);
   }
 
@@ -130,7 +174,7 @@ function buildRibbonHTML(party, data) {
         <span class="ribbon-code">${party.code}</span>
         <span class="ribbon-party-name">${party.shortName}</span>
       </div>
-      <div class="ribbon-hover-text" style="color:${party.textColor}">Opna</div>
+      <div class="ribbon-hover-text" style="color:${party.textColor}">${ui.openParty}</div>
     </div>
 
     <div class="ribbon-content">
@@ -188,18 +232,18 @@ function switchParty(code) {
   history.replaceState(null, '', u);
 }
 
-// ─── Splash / Agenda ───────────────────────────────────────
+// ─── Results 2022 ──────────────────────────────────────────
 
-function buildResultsHTML(partyCode, muniId) {
-  const muniResults = RESULTS_2022[muniId];
+function buildResultsHTML(partyCode, municipalityId) {
+  const muniResults = RESULTS_2022[municipalityId];
   if (!muniResults) return '';
 
   // Municipality held unbound/uncontested election in 2022
   if (muniResults.sjalkjorinn) {
     return `
       <div class="results-2022 results-2022--uncontested">
-        <div class="results-label">📊 Kosningaúrslit 2022</div>
-        <div class="results-uncontested-text">🤝 Óbundnar kosningar — engir listar 2022</div>
+        <div class="results-label">${ui.results2022Label}</div>
+        <div class="results-uncontested-text">${ui.resultsUncontested2022}</div>
       </div>`;
   }
 
@@ -210,10 +254,10 @@ function buildResultsHTML(partyCode, muniId) {
   if (r?.joint) {
     return `
       <div class="results-2022 results-2022--joint">
-        <div class="results-label">📊 Kosningaúrslit 2022</div>
+        <div class="results-label">${ui.results2022Label}</div>
         <div class="results-joint-text">
-          Keppti sem hluti af <em>${r.joint}</em>
-          &nbsp;·&nbsp; ${r.pct}%&nbsp;&nbsp;${r.seats} sæti af ${total}
+          ${ui.resultsJoint(`<em>${r.joint}</em>`)}
+          &nbsp;·&nbsp; ${r.pct}%&nbsp;&nbsp;${r.seats} ${ui.ofSeats(total)}
         </div>
       </div>`;
   }
@@ -222,23 +266,23 @@ function buildResultsHTML(partyCode, muniId) {
   if (!r) {
     return `
       <div class="results-2022 results-2022--new">
-        <div class="results-label">📊 Kosningaúrslit 2022</div>
-        <div class="results-new-text">✨ Nýtt framboð — tók ekki þátt árið 2022</div>
+        <div class="results-label">${ui.results2022Label}</div>
+        <div class="results-new-text">${ui.resultsNew}</div>
       </div>`;
   }
 
   const barPct = Math.min(r.pct, 100);
   const seatsLabel = r.seats === 0
-    ? 'Engin sæti'
-    : `af ${total} sætum`;
+    ? ui.noSeats
+    : ui.ofSeats(total);
 
   return `
     <div class="results-2022">
-      <div class="results-label">📊 Kosningaúrslit 2022</div>
+      <div class="results-label">${ui.results2022Label}</div>
       <div class="results-row">
         <div class="results-pct">
           <span class="results-pct-num">${r.pct}<span class="results-pct-sign">%</span></span>
-          <span class="results-pct-desc">atkvæða</span>
+          <span class="results-pct-desc">${ui.votes}</span>
         </div>
         <div class="results-bar-wrap">
           <div class="results-bar-track">
@@ -254,13 +298,22 @@ function buildResultsHTML(partyCode, muniId) {
     </div>`;
 }
 
+// ─── Splash / Agenda ───────────────────────────────────────
+
 function buildSplashHTML(party, data) {
-  const cards = data.agenda.map(item => `
-    <div class="agenda-card">
-      <div class="agenda-icon">${item.icon}</div>
-      <div class="agenda-title">${item.title}</div>
-      <div class="agenda-text">${item.text}</div>
-    </div>`).join('');
+  const muniKey = data.municipalityId;
+  const partyKey = data.partyCode;
+
+  const cards = data.agenda.map((item, i) => {
+    const title = trData(`${muniKey}.${partyKey}.agenda.${i}.title`, item.title);
+    const text  = trData(`${muniKey}.${partyKey}.agenda.${i}.text`,  item.text);
+    return `
+      <div class="agenda-card">
+        <div class="agenda-icon">${item.icon}</div>
+        <div class="agenda-title">${title}</div>
+        <div class="agenda-text">${text}</div>
+      </div>`;
+  }).join('');
 
   const resultsHTML = buildResultsHTML(data.partyCode, data.municipalityId);
 
@@ -269,7 +322,7 @@ function buildSplashHTML(party, data) {
         <svg width="11" height="11" viewBox="0 0 12 12" fill="none">
           <path d="M5 2H2a1 1 0 00-1 1v7a1 1 0 001 1h7a1 1 0 001-1V7M8 1h3m0 0v3m0-3L5 7" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>
-        <a href="${data.platformUrl}" target="_blank" rel="noopener noreferrer">Heimild: ${new URL(data.platformUrl).hostname.replace('www.','')}</a>
+        <a href="${data.platformUrl}" target="_blank" rel="noopener noreferrer">${ui.platformSource(new URL(data.platformUrl).hostname.replace('www.',''))}</a>
        </div>`
     : '';
 
@@ -277,12 +330,14 @@ function buildSplashHTML(party, data) {
     ? `<div class="agenda-disclaimer">
         <span class="agenda-disclaimer-icon">⚠️</span>
         <div class="agenda-disclaimer-body">
-          <strong>Stefnuskrá ekki til staðar</strong>
-          <span>Við höfum ekki fundið staðfesta stefnuskrá þessa framboðs og birtum því engar áherslugreinar.</span>
-          <a href="mailto:halldor.berg@inno.link" class="agenda-disclaimer-cta">Ertu frambjóðandi? Hafðu samband! →</a>
+          <strong>${ui.noPlatformTitle}</strong>
+          <span>${ui.noPlatformDesc}</span>
+          <a href="mailto:halldor.berg@inno.link" class="agenda-disclaimer-cta">${ui.noPlatformCTA}</a>
         </div>
        </div>`
     : '';
+
+  const tagline = trData(`${muniKey}.${partyKey}.tagline`, data.tagline);
 
   return `
     <div class="party-splash">
@@ -293,7 +348,7 @@ function buildSplashHTML(party, data) {
         </span>
         <button class="share-btn share-btn--party"
                 data-share-party="${data.partyCode}"
-                aria-label="Deila hlekk á þennan flokk">
+                aria-label="${ui.share}">
           <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
             <circle cx="11" cy="2.5" r="1.75" stroke="currentColor" stroke-width="1.4"/>
             <circle cx="3" cy="7" r="1.75" stroke="currentColor" stroke-width="1.4"/>
@@ -301,11 +356,11 @@ function buildSplashHTML(party, data) {
             <line x1="4.6" y1="6.1" x2="9.4" y2="3.4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
             <line x1="4.6" y1="7.9" x2="9.4" y2="10.6" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
           </svg>
-          Deila
+          ${ui.share}
         </button>
       </div>
       ${resultsHTML}
-      <div class="splash-tagline" style="color:${party.textColor}">${data.tagline}</div>
+      <div class="splash-tagline" style="color:${party.textColor}">${tagline}</div>
       ${disclaimerHTML}
       ${data.isPlaceholder ? '' : `<div class="agenda-grid">${cards}</div>`}
       ${sourceHTML}
@@ -317,12 +372,13 @@ function buildSplashHTML(party, data) {
 function buildCandidatesHTML(data, party) {
   const cards = data.candidates.map(c => {
     const fallback = localAvatar(c.name);
+    const occupation = trOcc(c.occupation);
     return `
       <div class="candidate-card"
            data-candidate-id="${c.id}"
            data-party-code="${data.partyCode}"
            role="button" tabindex="0"
-           aria-label="Sjá nánar um ${c.name}">
+           aria-label="${ui.seeMore} ${c.name}">
         <div class="candidate-photo-wrap">
           <img src="${c.imageUrl}"
                alt="${c.name}"
@@ -332,10 +388,10 @@ function buildCandidatesHTML(data, party) {
         </div>
         <div class="candidate-info">
           <div class="candidate-name">${c.name}</div>
-          <div class="candidate-occupation">${c.occupation}</div>
+          <div class="candidate-occupation">${occupation}</div>
         </div>
         <div class="candidate-card-hover-overlay">
-          <span>Sjá nánar →</span>
+          <span>${ui.seeMore}</span>
         </div>
       </div>`;
   }).join('');
@@ -344,7 +400,7 @@ function buildCandidatesHTML(data, party) {
     <div class="candidates-section">
       <div class="candidates-section-title">
         <span style="color:${party.color}">${party.name}</span>
-        &nbsp;– Frambjóðendur
+        &nbsp;– ${ui.candidates}
       </div>
       <div class="candidates-grid">${cards}</div>
     </div>`;
@@ -387,7 +443,7 @@ async function shareURL(url, title) {
   // 2 — Clipboard API (requires secure context; works on localhost & HTTPS)
   try {
     await navigator.clipboard.writeText(url);
-    showToast('✓ Hlekkur afritaður!');
+    showToast(ui.shareToastCopied);
     return;
   } catch {}
 
@@ -401,7 +457,7 @@ async function shareURL(url, title) {
     ta.focus(); ta.select();
     const ok = document.execCommand('copy');
     document.body.removeChild(ta);
-    if (ok) { showToast('✓ Hlekkur afritaður!'); return; }
+    if (ok) { showToast(ui.shareToastCopied); return; }
   } catch {}
 
   // 4 — Last resort: show URL in the toast so user can copy manually
@@ -435,48 +491,30 @@ container.addEventListener('keydown', e => {
 });
 
 // ─── Smart face crop ───────────────────────────────────────
-// Uses the browser's FaceDetector API (Chrome/Edge) to position
-// eyes ~33% down in the hero frame. Falls back to object-position
-// center 20% on unsupported browsers (good default for headshots).
-
 const faceDetector = ('FaceDetector' in window) ? new FaceDetector({ fastMode: true }) : null;
 
 async function applySmartCrop(img) {
-  // Sensible default: show upper portion of image
   img.style.objectPosition = 'center 20%';
-
   if (!faceDetector) return;
-
-  // Wait for the image to finish loading
   if (!img.complete || !img.naturalWidth) {
     await new Promise(resolve => { img.addEventListener('load', resolve, { once: true }); });
   }
-
   try {
     const faces = await faceDetector.detect(img);
     if (!faces.length) return;
-
-    // Pick the largest face (most likely the subject)
     const face = faces.reduce((a, b) =>
       b.boundingBox.width * b.boundingBox.height > a.boundingBox.width * a.boundingBox.height ? b : a
     );
-
-    // Eyes sit roughly 35% down inside the face bounding box
     const eyeY = face.boundingBox.top + face.boundingBox.height * 0.35;
-
-    // Calculate object-position Y% that places the eye at ~33% of container height
     const containerH = img.parentElement.offsetHeight;
     const containerW = img.parentElement.offsetWidth;
     const scale = Math.max(containerW / img.naturalWidth, containerH / img.naturalHeight);
     const renderedH = img.naturalHeight * scale;
     const overflow = renderedH - containerH;
-
-    if (overflow <= 0) return; // image fits entirely — no crop needed
-
-    const targetY = containerH * 0.33;           // eyes a third down from top
+    if (overflow <= 0) return;
+    const targetY = containerH * 0.33;
     const eyeRendered = eyeY * scale;
     const P = Math.max(0, Math.min(100, (eyeRendered - targetY) / overflow * 100));
-
     img.style.transition = 'object-position 0.35s ease';
     img.style.objectPosition = `center ${P}%`;
   } catch {
@@ -491,7 +529,6 @@ function openModal(id) {
 
   const fallback = localAvatar(c.name);
   const photo = document.getElementById('modal-photo');
-  // Reset position before loading new image
   photo.style.objectPosition = 'center 20%';
   photo.style.transition = '';
   photo.src = c.imageUrl;
@@ -507,20 +544,21 @@ function openModal(id) {
 
   // Meta: show age only if real data is available
   const metaParts = [];
-  if (c.age) metaParts.push(`<span>${c.age} ára</span><span>·</span>`);
-  metaParts.push(`<span>${c.occupation}</span>`);
+  if (c.age) metaParts.push(`<span>${c.age} ${ui.ageLabel}</span><span>·</span>`);
+  metaParts.push(`<span>${trOcc(c.occupation)}</span>`);
   document.getElementById('modal-meta').innerHTML = metaParts.join('');
 
   // Bio section
-  const bioSection = document.getElementById('modal-bio-section');
-  const bioEl = document.getElementById('modal-bio');
-  const heimildEl = document.getElementById('modal-heimild');
-  if (c.bio) {
+  const bioSection  = document.getElementById('modal-bio-section');
+  const bioEl       = document.getElementById('modal-bio');
+  const heimildEl   = document.getElementById('modal-heimild');
+  const bio = trData(`${muni.id}.${c.partyCode}.list.${c.ballotOrder}.bio`, c.bio);
+  if (bio) {
     bioSection.style.display = '';
-    bioEl.textContent = c.bio;
+    bioEl.textContent = bio;
     if (c.heimild && c.heimild.length) {
       heimildEl.style.display = '';
-      heimildEl.innerHTML = 'Heimild: ' + c.heimild.map(h =>
+      heimildEl.innerHTML = ui.source + ': ' + c.heimild.map(h =>
         `<a class="heimild-link" href="${h.url}" target="_blank" rel="noopener">${h.label}</a>`
       ).join(', ');
     } else {
@@ -536,7 +574,11 @@ function openModal(id) {
   const interestsEl = document.getElementById('modal-interests');
   if (c.interests && c.interests.length) {
     interestsSection.style.display = '';
-    interestsEl.innerHTML = c.interests.map(i => `<span class="interest-chip">${i}</span>`).join('');
+    const chips = c.interests.map((interest, j) => {
+      const translated = trData(`${muni.id}.${c.partyCode}.list.${c.ballotOrder}.interests.${j}`, interest);
+      return `<span class="interest-chip">${translated}</span>`;
+    }).join('');
+    interestsEl.innerHTML = chips;
   } else {
     interestsSection.style.display = 'none';
   }
@@ -572,7 +614,7 @@ function openModal(id) {
 
   // "No info" notice — show if none of bio/interests/social/news
   const noInfo = document.getElementById('modal-no-info');
-  const hasAnyInfo = c.bio || (c.interests && c.interests.length) ||
+  const hasAnyInfo = bio || (c.interests && c.interests.length) ||
                      (c.social && c.social.length) || (c.news && c.news.length);
   noInfo.style.display = hasAnyInfo ? 'none' : '';
 
@@ -632,7 +674,6 @@ container.addEventListener('click', e => {
   renderAccordion();
 
   // ─── Mobile scroll-fade indicators ────────────────────────
-  // Show top fade when scrolled down; hide bottom fade when at end.
   (function initScrollFades() {
     if (window.innerWidth > 768) return;
     const section = document.querySelector('.accordion-section');

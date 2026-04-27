@@ -95,6 +95,55 @@ ul, ol { list-style: none; }
 ::-webkit-scrollbar-thumb { background: var(--color-surface-2); border-radius: 3px; }
 ::-webkit-scrollbar-thumb:hover { background: var(--color-border-strong); }
 
+/* ─── Language switcher ────────────────────────────────────────────────────── */
+
+.lang-switcher {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.lang-btn {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 8px;
+  border-radius: var(--radius-sm);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: var(--color-text-muted);
+  background: transparent;
+  border: 1px solid transparent;
+  transition:
+    color var(--transition-fast),
+    background var(--transition-fast),
+    border-color var(--transition-fast);
+  white-space: nowrap;
+}
+
+.lang-btn:hover {
+  color: var(--color-text);
+  background: var(--color-surface-2);
+  border-color: var(--color-border);
+}
+
+.lang-btn--active {
+  color: var(--color-text);
+  background: var(--color-surface-2);
+  border-color: var(--color-border-strong);
+}
+
+.lang-code {
+  font-size: 0.68rem;
+  opacity: 0.85;
+}
+
+@media (max-width: 520px) {
+  .lang-code { display: none; }
+  .lang-btn  { padding: 4px 5px; font-size: 1rem; }
+}
+
 /* ─── Outreach floating button ─────────────────────────────────────────────── */
 
 .outreach-btn {

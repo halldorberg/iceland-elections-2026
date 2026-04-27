@@ -25,7 +25,7 @@
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 
   <!-- App styles -->
-  <link rel="stylesheet" href="css/variables.css?v=2" />
+  <link rel="stylesheet" href="css/variables.css?v=3" />
   <link rel="stylesheet" href="css/map.css?v=9" />
 </head>
 <body class="page-map">
@@ -51,9 +51,10 @@
       </div>
     </div>
     <div class="header-right">
+      <div id="lang-switcher"></div>
       <a class="header-badge" href="https://island.is/v/sveitarstjornarkosningar-2026" target="_blank" rel="noopener">
         <span class="dot"></span>
-        <span>Kosningar 16. maí 2026</span>
+        <span id="election-date-label">Kosningar 16. maí 2026</span>
         <span class="pill-sep"></span>
         <span id="countdown-badge" aria-live="polite"></span>
       </a>
@@ -73,23 +74,23 @@
       </svg>
       Sveitarstjórnarkosningar 2026
     </div>
-    <h1 class="hero-title">Velkominn í <span>lýðræðisveisluna!</span></h1>
-    <p class="hero-subtitle">
+    <h1 class="hero-title" id="hero-title">Velkominn í <span>lýðræðisveisluna!</span></h1>
+    <p class="hero-subtitle" id="hero-subtitle">
       Smelltu á sveitarfélag á kortinu til að bera saman á einum stað alla flokka,
       frambjóðendur og stefnur þeirra.
     </p>
     <div class="stats-bar">
       <div class="stat-item">
         <div class="stat-value" id="stat-municipalities">61</div>
-        <div class="stat-label">Sveitarfélög</div>
+        <div class="stat-label" id="stat-label-municipalities">Sveitarfélög</div>
       </div>
       <div class="stat-item">
         <div class="stat-value" id="stat-parties">182</div>
-        <div class="stat-label">Framboðslistar</div>
+        <div class="stat-label" id="stat-label-parties">Framboðslistar</div>
       </div>
       <div class="stat-item">
         <div class="stat-value" id="stat-candidates">3.236</div>
-        <div class="stat-label">Frambjóðendur</div>
+        <div class="stat-label" id="stat-label-candidates">Frambjóðendur</div>
       </div>
     </div>
   </section>
@@ -118,12 +119,12 @@
       <div id="map"></div>
       <div class="map-overlay">
         <div class="map-overlay-card">
-          <strong>Veldu sveitarfélag</strong>
-          Sveipa yfir merkið til að sjá upplýsingar · Smelltu til að fara inn
+          <strong id="map-overlay-title">Veldu sveitarfélag</strong>
+          <span id="map-overlay-desc">Sveipa yfir merkið til að sjá upplýsingar · Smelltu til að fara inn</span>
         </div>
       </div>
       <div class="party-legend" id="party-legend">
-        <div class="legend-title">Flokkar</div>
+        <div class="legend-title" id="legend-title">Flokkar</div>
         <div class="legend-items" id="legend-items"></div>
       </div>
     </div>
@@ -132,15 +133,15 @@
   <div class="instructions">
     <div class="instruction-item">
       <div class="instruction-icon">👆</div>
-      Sveipa yfir merkið til að sjá upplýsingar
+      <span id="instr-hover">Sveipa yfir merkið til að sjá upplýsingar</span>
     </div>
     <div class="instruction-item">
       <div class="instruction-icon">🖱️</div>
-      Smelltu til að fara inn í sveitarfélagið
+      <span id="instr-click">Smelltu til að fara inn í sveitarfélagið</span>
     </div>
     <div class="instruction-item">
       <div class="instruction-icon">🔍</div>
-      Þys inn og út á kortinu
+      <span id="instr-zoom">Þys inn og út á kortinu</span>
     </div>
   </div>
 
@@ -149,14 +150,14 @@
     <div class="disclaimer-card" id="disclaimer-card">
       <div class="disclaimer-header">
         <span class="disclaimer-header-icon">ℹ️</span>
-        <span class="disclaimer-title">Fyrirvari</span>
+        <span class="disclaimer-title" id="disclaimer-title">Fyrirvari</span>
         <button class="disclaimer-minimize" id="disclaimer-minimize" aria-label="Minnka fyrirvara">
           <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
             <path d="M2 5L7 10L12 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
         </button>
       </div>
-      <p class="disclaimer-text">
+      <p class="disclaimer-text" id="disclaimer-body-text">
         Upplýsingar á þessari síðu eru fengnar úr opinberum heimildum á netinu og teknar saman með aðstoð gervigreindar. Við getum ekki ábyrgst fulla nákvæmni og mælum með að staðfesta mikilvægar upplýsingar beint hjá framboðunum.
       </p>
     </div>
@@ -166,7 +167,7 @@
   </div>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-  <script type="module" src="js/map.js?v=4"></script>
+  <script type="module" src="js/map.js?v=5"></script>
   <script type="module" src="js/outreach.js?v=1"></script>
   <script>
     (function () {
@@ -199,6 +200,27 @@
   </script>
   <script>
     (function () {
+      // ─── i18n-aware countdown ──────────────────────────────
+      // Reads lang from URL param or localStorage (same logic as getLang()).
+      const cdLang = (new URLSearchParams(window.location.search).get('lang')) ||
+                     localStorage.getItem('lang') || 'is';
+
+      const cdLabels = {
+        is: { days: 'dagar', hours: 'klst', mins: 'mín', secs: 'sek', day: '🗳️ Kosningadagur!' },
+        en: { days: 'days',  hours: 'hrs',  mins: 'min', secs: 'sec', day: '🗳️ Election day!' },
+        pl: { days: 'dni',   hours: 'godz', mins: 'min', secs: 'sek', day: '🗳️ Dzień wyborów!' },
+      };
+      const lbl = cdLabels[cdLang] || cdLabels.is;
+
+      // Update election date label
+      const dateLabels = {
+        is: 'Kosningar 16. maí 2026',
+        en: 'Elections 16 May 2026',
+        pl: 'Wybory 16 maja 2026',
+      };
+      const dateLabelEl = document.getElementById('election-date-label');
+      if (dateLabelEl) dateLabelEl.textContent = dateLabels[cdLang] || dateLabels.is;
+
       // Election day: 16 May 2026 09:00 Iceland time (UTC+0, no DST)
       const TARGET = new Date('2026-05-16T09:00:00Z');
       const el = document.getElementById('countdown-badge');
@@ -209,7 +231,7 @@
       function render() {
         const diff = TARGET - Date.now();
         if (diff <= 0) {
-          el.innerHTML = '<span style="color:var(--color-accent)">🗳️ Kosningadagur!</span>';
+          el.innerHTML = '<span style="color:var(--color-accent)">' + lbl.day + '</span>';
           return;
         }
         const d = Math.floor(diff / 86400000);
@@ -218,10 +240,10 @@
         const s = Math.floor((diff % 60000) / 1000);
 
         el.innerHTML =
-          unit(pad(d), 'dagar') + sep() +
-          unit(pad(h), 'klst') + sep() +
-          unit(pad(m), 'mín') + sep() +
-          unit(pad(s), 'sek');
+          unit(pad(d), lbl.days) + sep() +
+          unit(pad(h), lbl.hours) + sep() +
+          unit(pad(m), lbl.mins) + sep() +
+          unit(pad(s), lbl.secs);
       }
 
       function unit(v, l) {

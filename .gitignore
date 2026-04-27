@@ -6,3 +6,9 @@ scan_manifest.json
 scan_results/*.json
 !scan_results/TEMPLATE_*.json
 js/data/candidates.js.bak_*
+
+# i18n — intermediate translation files (overlay JS files ARE committed)
+translations/strings_is.json
+translations/strings_en.json
+translations/strings_pl.json
+translations/pending.json
