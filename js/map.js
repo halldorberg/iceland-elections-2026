@@ -13,15 +13,15 @@ const map = L.map('map', {
   maxZoom: 13,
 });
 
-// OpenStreetMap tiles — free, no authentication required.
-// CSS invert + hue-rotate in map.css gives a dark map appearance.
+// Stadia Maps — Alidade Smooth Dark (natively dark, no CSS filter needed)
+const STADIA_KEY = '7380e2ba-69c3-4dce-a6ba-354145bbfe61';
 const tileProviders = [
   {
-    url: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
+    url: `https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png?api_key=${STADIA_KEY}`,
     options: {
-      attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-      maxZoom: 19,
-      className: 'osm-tile-inverted',
+      attribution: '© <a href="https://stadiamaps.com/" target="_blank">Stadia Maps</a> © <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a> contributors',
+      maxZoom: 20,
+      minZoom: 0,
     },
   },
 ];
