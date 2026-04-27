@@ -3476,7 +3476,7 @@ const KOP = {
       [14, 'Þórunn Einarsdóttir', 'Framhaldsskólakennari'],
       [15, 'Þór Hinriksson', 'Rafvirki'],
       [16, 'Auður Gunnarsdóttir', 'Vörustjóri'],
-      [17, 'Bergþór Skálason', 'Tölvunarfræðingur'],
+      [17, 'Bergþór Skúlason', 'Tölvunarfræðingur'],
       [18, 'Inga Þórunn Halldórsdóttir', 'Fyrrverandi skólastjóri'],
       [19, 'Hafsteinn Hrannar Ásgrímssson', 'Verkefnastjóri í netöryggissviði'],
       [20, 'Ingibjörg Auður Guðmundsdóttir', 'Verkefnastjóri'],
