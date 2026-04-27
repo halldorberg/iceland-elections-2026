@@ -4656,7 +4656,7 @@ const RNB = {
       { icon: '🎭', title: 'Menning', text: 'Menningarlíf og skapandi greinar sem hluti af sjálfsmynd bæjarins.' },
     ],
     list: [
-      [1, 'Arnar Páll Guðmundsson', 'Viðskiptafræðingur og mannauðsráðgjafi', null, {
+      [1, 'Arnar Páll Guðmundsson', 'Viðskiptafræðingur og mannauðsráðgjafi', 'https://vidreisn.is/wp-content/uploads/2026/04/2.png', {
         age: null,
         bio: 'Arnar Páll Guðmundsson er viðskiptafræðingur og mannauðsráðgjafi. Hann var formaður Viðreisnar á Suðurnesjum og leiðir fyrsta lista Viðreisnar sem nokkru sinni hefur boðið sig fram í Reykjanesbæ í sveitarstjórnarkosningum 2026. Hann hefur skrifað greinar um efnahag og kosningamál á Vísir.',
         heimild: [{ url: 'https://www.ruv.is/frettir/innlent/2026-03-11-fyrsti-listi-vidreisnar-i-reykjanesbae-469529', label: 'ruv.is' }, { url: 'https://www.vf.is/frettir/adalfundur-vidreisnar-a-sudurnesjum', label: 'Víkurfréttir' }],
@@ -4672,7 +4672,7 @@ const RNB = {
           { title: 'Kosningapallborð fréttastofu: Baráttan um Reykjanesbæ', url: 'https://www.visir.is/g/20262868958d/kosningapallbord-frettastofu-barattan-um-reykjanesbae', source: 'visir.is' },
         ],
       }],
-      [2, 'Davíð Skarphéðinsson', 'Byggingafræðingur', null, {
+      [2, 'Davíð Skarphéðinsson', 'Byggingafræðingur', 'https://vidreisn.is/wp-content/uploads/2026/04/4.png', {
         age: null,
         bio: 'Davíð Skarphéðinsson er byggingafræðingur hjá Verkís ráðgjafarverkfræðistofu og starfar á Suðurnesjum. Hann er í öðru sæti á framboðslista Viðreisnar í Reykjanesbæ við sveitarstjórnarkosningarnar 2026.',
         heimild: [{ url: 'https://www.ruv.is/frettir/innlent/2026-03-11-fyrsti-listi-vidreisnar-i-reykjanesbae-469529', label: 'ruv.is' }, { url: 'https://www.linkedin.com/in/dav%C3%AD%C3%B0-skarph%C3%A9%C3%B0insson-a48139b5/', label: 'LinkedIn' }],
@@ -4683,7 +4683,7 @@ const RNB = {
           { title: 'Arnar Páll leiðir lista Viðreisnar í Reykjanesbæ', url: 'https://www.vf.is/frettir/arnar-pall-leidir-lista-vidreisnar-i-reykjanesbae', source: 'vf.is' },
         ],
       }],
-      [3, 'Ásta Kristín Guðmundsdóttir', 'Kennari og verkefnastjóri', null, {
+      [3, 'Ásta Kristín Guðmundsdóttir', 'Kennari og verkefnastjóri', 'https://vidreisn.is/wp-content/uploads/2026/04/6.png', {
         age: null,
         bio: 'Ásta Kristín Guðmundsdóttir er kennari og verkefnastjóri hjá Reykjanesbæ þar sem hún hefur sérhæft sig í samhæfingu og þjónustu við flóttafólk og umsækjendur um hæli. Hún er í þriðja sæti á framboðslista Viðreisnar í Reykjanesbæ 2026.',
         heimild: [{ url: 'https://www.ruv.is/frettir/innlent/2026-03-11-fyrsti-listi-vidreisnar-i-reykjanesbae-469529', label: 'ruv.is' }],
@@ -4694,7 +4694,7 @@ const RNB = {
           { title: 'Arnar Páll leiðir lista Viðreisnar í Reykjanesbæ', url: 'https://www.vf.is/frettir/arnar-pall-leidir-lista-vidreisnar-i-reykjanesbae', source: 'vf.is' },
         ],
       }],
-      [4, 'Aðalheiður Júlírós Óskarsdóttir', 'Gæðastjóri', null, {
+      [4, 'Aðalheiður Júlírós Óskarsdóttir', 'Gæðastjóri', 'https://vidreisn.is/wp-content/uploads/2026/04/8-1.png', {
         age: null,
         bio: 'Aðalheiður Júlírós Óskarsdóttir er gæðastjóri og var kjörin formaður Viðreisnarfélags á Suðurnesjum á stofnfundi félagsins. Hún er í fjórða sæti á framboðslista Viðreisnar í Reykjanesbæ 2026.',
         heimild: [{ url: 'https://www.ruv.is/frettir/innlent/2026-03-11-fyrsti-listi-vidreisnar-i-reykjanesbae-469529', label: 'ruv.is' }],
@@ -4705,7 +4705,7 @@ const RNB = {
           { title: 'Arnar Páll leiðir lista Viðreisnar í Reykjanesbæ', url: 'https://www.vf.is/frettir/arnar-pall-leidir-lista-vidreisnar-i-reykjanesbae', source: 'vf.is' },
         ],
       }],
-      [5, 'Sveinn Enok Jóhannsson', 'Bóndi í Höfnum', null, {
+      [5, 'Sveinn Enok Jóhannsson', 'Bóndi í Höfnum', 'https://vidreisn.is/wp-content/uploads/2026/04/10.png', {
         age: null,
         bio: 'Sveinn Enok Jóhannsson er bóndi í Höfnum á Reykjanesi. Hann er í fimmta sæti á framboðslista Viðreisnar í Reykjanesbæ 2026 og tók sæti í stjórn Viðreisnarfélagsins á Suðurnesjum.',
         heimild: [{ url: 'https://www.ruv.is/frettir/innlent/2026-03-11-fyrsti-listi-vidreisnar-i-reykjanesbae-469529', label: 'ruv.is' }],
@@ -4716,7 +4716,7 @@ const RNB = {
           { title: 'Arnar Páll leiðir lista Viðreisnar í Reykjanesbæ', url: 'https://www.vf.is/frettir/arnar-pall-leidir-lista-vidreisnar-i-reykjanesbae', source: 'vf.is' },
         ],
       }],
-      [6, 'Sigrún G. Bates', 'Fótaaðgerðafræðingur'],
+      [6, 'Sigrún G. Bates', 'Fótaaðgerðafræðingur', 'https://vidreisn.is/wp-content/uploads/2026/04/12.png'],
       [7, 'Rúnar Þór Guðmundsson', 'Byggingafræðingur'],
       [8, 'Jóhanna Björk Sigurbjörnsdóttir', 'Sérfræðingur í skaðaminnkun'],
       [9, 'Daníel Birgir Björgvinsson', 'Pípulagningameistari'],
@@ -4768,7 +4768,7 @@ const RNB = {
           { title: 'Kosningapallborð fréttastofu: Baráttan um Reykjanesbæ', url: 'https://www.visir.is/g/20262868958d/kosningapallbord-frettastofu-barattan-um-reykjanesbae', source: 'visir.is' },
         ],
       }],
-      [2, 'Margrét Þórarinsdóttir', 'Yfirflugfreyja og bæjarfulltrúi', null, {
+      [2, 'Margrét Þórarinsdóttir', 'Yfirflugfreyja og bæjarfulltrúi', 'https://sulukast.is/assets/frambjodandi-2-7JeWgUxm.jpg', {
         age: null,
         bio: 'Margrét Þórarinsdóttir er yfirflugfreyja og bæjarfulltrúi í bæjarstjórn Reykjanesbæjar. Hún leiddi lista Umbóts í sveitarstjórnarkosningum 2022 og sat áður í bæjarstjórn fyrir Miðflokkinn 2018–2022; í febrúar 2026 sameinaðist Umbót Sjálfstæðisflokknum og er hún í öðru sæti á lista flokksins.',
         heimild: [{ url: 'https://xd.is/2026/02/27/umbot-sameinast-sjalfstaedisflokknum-i-reykjanesbae/', label: 'Sjálfstæðisflokkurinn' }, { url: 'https://www.mbl.is/frettir/innlent/2026/02/27/umbot_til_lids_vid_sjalfstaedisflokkinn/', label: 'mbl.is' }],
@@ -4779,7 +4779,7 @@ const RNB = {
           { title: 'Línur að skýrast í bæjarpólitíkinni', url: 'https://www.vf.is/frettir/linur-ad-skyrast-i-baejarpolitikinni', source: 'vf.is' },
         ],
       }],
-      [3, 'Kristján Pétur Kristjánsson', 'Framkvæmdastjóri Konvin', null, {
+      [3, 'Kristján Pétur Kristjánsson', 'Framkvæmdastjóri Konvin', 'https://sulukast.is/assets/frambjodandi-3-C2lhoH8z.jpg', {
         age: null,
         bio: 'Kristján Pétur Kristjánsson er framkvæmdastjóri Konvin hótels við Keflavíkurflugvöll í Reykjanesbæ. Hann er í þriðja sæti á framboðslista Sjálfstæðisflokksins í Reykjanesbæ 2026.',
         heimild: [{ url: 'https://www.mbl.is/frettir/innlent/2026/01/31/vilhjalmur_nyr_oddviti_i_reykjanesbae/', label: 'mbl.is' }],
@@ -4789,7 +4789,7 @@ const RNB = {
           { title: 'Vilhjálmur nýr oddviti í Reykjanesbæ', url: 'https://www.mbl.is/frettir/innlent/2026/01/31/vilhjalmur_nyr_oddviti_i_reykjanesbae/', source: 'mbl.is' },
         ],
       }],
-      [4, 'Alexander Ragnarsson', 'Húsasmíðameistari og bæjarfulltrúi', null, {
+      [4, 'Alexander Ragnarsson', 'Húsasmíðameistari og bæjarfulltrúi', 'https://sulukast.is/assets/frambjodandi-4-uvutxyoo.jpg', {
         age: null,
         bio: 'Alexander Ragnarsson er húsasmíðameistari og umsjónarmaður fasteigna hjá Aðaltorgi í Reykjanesbæ. Hann er bæjarfulltrúi Sjálfstæðisflokksins og er í fjórða sæti á framboðslista flokksins 2026.',
         heimild: [{ url: 'https://www.reykjanesbaer.is/is/stjornsysla/baejarstjorn/baejarstjorn', label: 'reykjanesbaer.is' }, { url: 'https://www.mbl.is/frettir/innlent/2026/01/31/vilhjalmur_nyr_oddviti_i_reykjanesbae/', label: 'mbl.is' }],
@@ -4809,23 +4809,23 @@ const RNB = {
           { title: 'Vilhjálmur nýr oddviti í Reykjanesbæ', url: 'https://www.mbl.is/frettir/innlent/2026/01/31/vilhjalmur_nyr_oddviti_i_reykjanesbae/', source: 'mbl.is' },
         ],
       }],
-      [6, 'Guðlaug Sunna Gunnarsdóttir', 'Náms- og starfsráðgjafi í Fjölbrautaskóla Suðurnesja'],
-      [7, 'Ásdís Ólafsdóttir', 'Sjálfbærnistjóri Alvotech'],
-      [8, 'Logi Þór Ágústsson', 'Viðskiptafræðinemi og frístundaleiðbeinandi'],
-      [9, 'Ólöf Steinunn Lárusdóttir', 'Vörumerkjastjóri Blue'],
-      [10, 'Gunnar Felix Rúnarsson', 'Landamæravörður og fyrrverandi kaupmaður'],
-      [11, 'Hermann Borgar Jakobsson', 'Laganemi og þjónustufulltrúi hjá Geysi'],
-      [12, 'Helga Guðrún Sigurðardóttir', 'Húsasmiður'],
-      [13, 'Tryggvi Þór Bragason', 'Leiðsögumaður og húsasmíðameistari'],
-      [14, 'Alma Guðnadóttir', 'Gæða- og innleiðingarstjóri / QC engineer'],
-      [15, 'Guðmundur Steinarsson', 'Vaktstjóri og íþróttafræðingur'],
-      [16, 'Axel Ingi Auðunsson', 'Lögfræðinemi og einstaklingsráðgjafi hjá Íslandsbanka'],
-      [17, 'Berglind Ragnarsdóttir', 'Rekstrar- og nýsköpunarverkfræðingur'],
-      [18, 'Jón Már Sverrisson', 'Vélfræðingur og rafvirki hjá HS orku'],
-      [19, 'Ragnar Már Ragnarsson', 'Flugmaður Icelandair'],
-      [20, 'Harpa B. Sævarsdóttir', 'Eigandi Plús ehf.'],
-      [21, 'Hjörleifur Stefánsson', 'Framkvæmdastjóri Nesraf'],
-      [22, 'Margrét Sanders', 'Bæjarfulltrúi og fráfarandi oddviti'],
+      [6, 'Guðlaug Sunna Gunnarsdóttir', 'Náms- og starfsráðgjafi í Fjölbrautaskóla Suðurnesja', 'https://sulukast.is/assets/frambjodandi-6-DkiIoTs-.jpg'],
+      [7, 'Ásdís Ólafsdóttir', 'Sjálfbærnistjóri Alvotech', 'https://sulukast.is/assets/frambjodandi-7-B4MP9c8B.jpg'],
+      [8, 'Logi Þór Ágústsson', 'Viðskiptafræðinemi og frístundaleiðbeinandi', 'https://sulukast.is/assets/frambjodandi-8-DWK9iAIU.jpg'],
+      [9, 'Ólöf Steinunn Lárusdóttir', 'Vörumerkjastjóri Blue', 'https://sulukast.is/assets/frambjodandi-9-bH_iK-3K.jpg'],
+      [10, 'Gunnar Felix Rúnarsson', 'Landamæravörður og fyrrverandi kaupmaður', 'https://sulukast.is/assets/frambjodandi-10-D_wASnmT.jpg'],
+      [11, 'Hermann Borgar Jakobsson', 'Laganemi og þjónustufulltrúi hjá Geysi', 'https://sulukast.is/assets/frambjodandi-11-ONRW_o55.jpg'],
+      [12, 'Helga Guðrún Sigurðardóttir', 'Húsasmiður', 'https://sulukast.is/assets/frambjodandi-12-D1VWT9yb.jpg'],
+      [13, 'Tryggvi Þór Bragason', 'Leiðsögumaður og húsasmíðameistari', 'https://sulukast.is/assets/frambjodandi-13-Bm12of4_.jpg'],
+      [14, 'Alma Guðnadóttir', 'Gæða- og innleiðingarstjóri / QC engineer', 'https://sulukast.is/assets/frambjodandi-14-CqmhsrrC.jpg'],
+      [15, 'Guðmundur Steinarsson', 'Vaktstjóri og íþróttafræðingur', 'https://sulukast.is/assets/frambjodandi-15-CMTLo1vZ.jpg'],
+      [16, 'Axel Ingi Auðunsson', 'Lögfræðinemi og einstaklingsráðgjafi hjá Íslandsbanka', 'https://sulukast.is/assets/frambjodandi-16-BNK_33QH.jpg'],
+      [17, 'Berglind Ragnarsdóttir', 'Rekstrar- og nýsköpunarverkfræðingur', 'https://sulukast.is/assets/frambjodandi-17-BvMeX6KX.jpg'],
+      [18, 'Jón Már Sverrisson', 'Vélfræðingur og rafvirki hjá HS orku', 'https://sulukast.is/assets/frambjodandi-18-BMv6qMNS.jpg'],
+      [19, 'Ragnar Már Ragnarsson', 'Flugmaður Icelandair', 'https://sulukast.is/assets/frambjodandi-19-DYlZZT-w.jpg'],
+      [20, 'Harpa B. Sævarsdóttir', 'Eigandi Plús ehf.', 'https://sulukast.is/assets/frambjodandi-20-DACJLpp-.jpg'],
+      [21, 'Hjörleifur Stefánsson', 'Framkvæmdastjóri Nesraf', 'https://sulukast.is/assets/frambjodandi-21-yyLgIN-c.jpg'],
+      [22, 'Margrét Sanders', 'Bæjarfulltrúi og fráfarandi oddviti', 'https://sulukast.is/assets/frambjodandi-22-BXH2ZrGS.jpg'],
     ],
   },
   M: {
@@ -5275,7 +5275,7 @@ const SNB = {
       { icon: '💼', title: 'Atvinnulíf', text: 'Þróun atvinnulífs á Suðurnesjum.' },
     ],
     list: [
-      [1, 'Haukur Andreasson', 'Frambjóðandi', null, {
+      [1, 'Haukur Andreasson', 'Frambjóðandi', 'https://xd.is/wp-content/uploads/2023/07/Haukur-Andreasson.jpg', {
         age: null,
         bio: null,
         interests: null,
@@ -5298,7 +5298,7 @@ const SNB = {
       [15, 'Bogi Jónsson', 'Frambjóðandi'],
       [16, 'Jón Kristinn Snæhólm', 'Frambjóðandi'],
       [17, 'Gunnar Hámundarson Häsler', 'Frambjóðandi'],
-      [18, 'Einar Jón Pálsson', 'Frambjóðandi'],
+      [18, 'Einar Jón Pálsson', 'Frambjóðandi', 'https://xd.is/wp-content/uploads/2022/12/Einar-Jon-Palsson-scaled.jpg'],
     ],
   },
   M: {

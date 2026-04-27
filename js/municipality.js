@@ -1,6 +1,6 @@
 import { MUNICIPALITIES } from './data/municipalities.js?v=13';
 import { PARTIES } from './data/parties.js?v=4';
-import { getMunicipalityPartyData } from './data/candidates.js?v=27';
+import { getMunicipalityPartyData } from './data/candidates.js?v=30';
 import { RESULTS_2022 } from './data/results2022.js?v=2';
 
 // ─── Local avatar generator (replaces ui-avatars.com hotlink) ─────────────
