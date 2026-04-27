@@ -7677,6 +7677,7 @@ function makeCandidatesFromList(municipalityId, partyCode, list) {
     imageUrl: photoUrl || localAvatar(name),
     age:       realData?.age       ?? null,
     bio:       realData?.bio       ?? null,
+    heimild:   realData?.heimild   ?? null,
     interests: realData?.interests ?? null,
     social:    realData?.social    ?? null,
     news:      realData?.news      ?? null,
