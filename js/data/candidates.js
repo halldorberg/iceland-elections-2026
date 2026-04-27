@@ -1129,7 +1129,7 @@ const RVK = {
       { icon: '🚇', title: 'Samgöngur', text: 'Andstaða við upphaflega Borgarlínuáætlun; stuðningur við Sundagang (göng í stað brúar).' },
     ],
     list: [
-      [1, 'Ingimar Þór Friðriksson', 'Framkvæmdastjóri', null, {
+      [1, 'Ingimar Þór Friðriksson', 'Framkvæmdastjóri', 'https://gdf.is/wp-content/uploads/2026/04/Ingimar.png', {
         age: null,
         bio: 'Ingimar Þór Friðriksson er frumkvöðull og tölvunarfræðingur. Hann lauk BS-gráðu í tölvunarfræði frá Háskóla Íslands árið 1989 og MBA-gráðu frá Háskólanum í Reykjavík árið 2002. Hann starfaði sem yfirmaður upplýsingatæknideildar Kópavogsbæjar frá 2011 til 2025 og leiðir nú framboðið Góðan daginn.',
         heimild: [{ url: 'https://www.ruv.is/frettir/innlent/2026-04-10-godan-daginn-bydur-fram-i-reykjavik-472412', label: 'ruv.is' }],
@@ -1157,7 +1157,7 @@ const RVK = {
           { title: 'Góðan daginn býður góðan dag', url: 'https://www.visir.is/g/20262867523d/godan-daginn-bydur-godan-dag', source: 'visir.is' },
         ],
       }],
-      [3, 'Torfi Markússon', 'Rekstrarfræðingur', null, {
+      [3, 'Torfi Markússon', 'Rekstrarfræðingur', 'https://gdf.is/wp-content/uploads/2026/04/Torfi.png', {
         age: null,
         bio: 'Torfi Markússon er rekstrarfræðingur og mannauðsráðgjafi sem starfaði sem mannauðsstjóri hjá TM Software í 10 ár og ráðningarstjóri hjá Ráðgarði hf. í 9 ár. Hann var áður meðeigandi ráðgjafafyrirtækisins Intellecta ehf.',
         heimild: [{ url: 'https://www.visir.is/g/20262867523d/godan-daginn-bydur-godan-dag', label: 'visir.is' }, { url: 'https://intellecta.is/en/um-intellecta/starfsfolk/torfi-markusson/', label: 'intellecta.is' }],
@@ -1179,7 +1179,7 @@ const RVK = {
           { title: 'Nýtt framboð í Reykjavík á elleftu stundu', url: 'https://www.visir.is/g/20262867276d/nytt-fram-bod-i-reykja-vik-a-elleftu-stundu', source: 'visir.is' },
         ],
       }],
-      [5, 'Jón L. Árnason', 'Framkvæmdastjóri', null, {
+      [5, 'Jón L. Árnason', 'Framkvæmdastjóri', 'https://gdf.is/wp-content/uploads/2026/04/Jon-L.png', {
         age: null,
         bio: 'Jón L. Árnason er framkvæmdastjóri lífeyrissjóðsins Lífsverks og er á 5. sæti G-listans (Góðan daginn) í borgarstjórnarkosningum í Reykjavík 2026; hann varð heimsmeistari í skák undir 17 ára aldri árið 1977.',
         heimild: [{ url: 'https://is.wikipedia.org/wiki/J%C3%B3n_L._%C3%81rnason', label: 'Wikipedia' }, { url: 'https://www.visir.is/g/20262867276d/nytt-fram-bod-i-reykja-vik-a-elleftu-stundu', label: 'visir.is' }],
@@ -1190,7 +1190,7 @@ const RVK = {
           { title: 'Góðan daginn býður góðan dag', url: 'https://www.visir.is/g/20262867523d/godan-daginn-bydur-godan-dag', source: 'visir.is' },
         ],
       }],
-      [6, 'Björn Jóhann Þórsson', 'Verkfræðingur'],
+      [6, 'Björn Jóhann Þórsson', 'Verkfræðingur', 'https://gdf.is/wp-content/uploads/2026/04/Bjorn-1.png'],
       [7, 'Andri Ívarsson', 'Tónlistarmaður og uppistandari'],
       [8, 'Inga María Friðriksdóttir', 'Grunnskólakennari'],
       [9, 'Jónas Gunnarsson', 'Markaðssérfræðingur'],
