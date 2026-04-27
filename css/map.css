@@ -682,5 +682,5 @@
   .stat-value { font-size: 1.4rem; }
   .instructions { display: none; }
   .party-legend { display: none; }
-  .header-badge span { display: none; }
+  .header-badge { display: none; }
 }
