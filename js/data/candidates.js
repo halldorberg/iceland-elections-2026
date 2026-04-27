@@ -3485,11 +3485,16 @@ const KOP = {
     ],
   },
   D: {
-    tagline: 'Ásdís Kristjánsdóttir leiðir D-listann í Kópavogi',
+    tagline: 'Kópavogur í sókn!',
+    platformUrl: 'https://xdkop.is/',
     agenda: [
-      { icon: '🏛️', title: 'Stjórnsýsla', text: 'Fagleg og skilvirk stjórnun Kópavogsbæjar.' },
-      { icon: '💰', title: 'Fjármál', text: 'Ábyrg fjármálastjórnun og hagræðing.' },
-      { icon: '🏘️', title: 'Uppbygging', text: 'Skynsamleg uppbygging og þróun bæjarins.' },
+      { icon: '💰', title: 'Lægstu fasteignagjöld', text: 'Traustr rekstur og ábyrgur fjármálum skilar sér beint til bæjarbúa — við tryggjum lægstu fasteignagjöld á höfuðborgarsvæðinu og lækka gjöld á fyrirtæki.' },
+      { icon: '📚', title: 'Menntun og framtíð', text: 'Fartölvur á unglingastigi, fleiri samræmd stöðupróf og nýtt námsumsjónarkerfi — leggjum grunn að bjartri framtíð nemenda.' },
+      { icon: '🏙️', title: 'Lifandi miðbæjarkjarnar', text: 'Þróum lifandi miðbæjarkjarna í Hamraborginni og Smáranum ásamt fjölbreyttum menningar- og lýðheilsukjarna í Kórnum.' },
+      { icon: '🚲', title: 'Samgöngur og umferðaröryggi', text: 'Göngu- og hjólabrú yfir Reykjanesbraut, öryggi barna í skólahverfum og uppbygging samgöngumannvirkja sem þjóna öllum ferðamátum.' },
+      { icon: '🏊', title: 'Lýðheilsa og íþróttir', text: 'Lengri helgaropnun sundlauga, fleiri útiæfingasvæði í öllum hverfum og áframhaldandi hækkun frístundastyrkja.' },
+      { icon: '🌿', title: 'Náttúra og útivist', text: 'Gönguhringur í kringum Elliðavatn, fjölskyldugarður í Kópavogsdal og uppbygging baðaðstöðu við vatnið.' },
+      { icon: '🎉', title: 'Lifandi samfélag', text: 'Árleg Kópavogsbæjarhátíð frá 2026, sameiginlegt viðburðadagatal og Kópavogskort með afslátt á þjónustu og afþreyingu fyrir íbúa.' },
     ],
     list: [
       [1, 'Ásdís Kristjánsdóttir', 'Bæjarstjóri', 'images/candidates/a16ee6fad8f3c0e9.jpg', {
