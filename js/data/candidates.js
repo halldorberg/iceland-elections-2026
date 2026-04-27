@@ -4440,6 +4440,7 @@ const SEL = {
       [1, 'Þór Sigurgeirsson', 'Bæjarstjóri', 'images/candidates/f496c0c2427757a2.jpg', {
         age: null,
         bio: 'Þór Sigurgeirsson er bæjarstjóri Seltjarnarness og leiðir D-listann í sveitarstjórnarkosningum 2026; hann er menntaður í sölu og markaðsmálum og hefur þjónað sem bæjarstjóri frá 2022.',
+        heimild: [{ url: 'https://www.seltjarnarnes.is/is/ibuar/frettir/thor-sigurgeirsson-nyr-baejarstjori-a-seltjarnarnesi', label: 'seltjarnarnes.is' }, { url: 'https://www.seltjarnarnes.is/is/stjornsysla/baejarstjorn/baejarstjori', label: 'seltjarnarnes.is' }, { url: 'https://www.mbl.is/frettir/innlent/2026/02/07/thor_oddviti_a_seltjarnarnesi/', label: 'mbl.is' }],
         interests: null,
         social: null,
         news: [
@@ -4479,6 +4480,7 @@ const SEL = {
       [1, 'Skafti Harðarson', 'Framkvæmdastjóri', null, {
         age: null,
         bio: 'Skafti Harðarson er framkvæmdastjóri og leiðir M-listann (Miðflokksins) á Seltjarnarnesi í sveitarstjórnarkosningum 2026; hann er fyrsti oddviti Miðflokksins á Seltjarnarnesi.',
+        heimild: [{ url: 'https://xd.is/elisabet-ingunn-einarsdottir/', label: 'Sjálfstæðisflokkurinn' }, { url: 'https://xd.is/2026/03/02/frambodslisti-sjalfstaedisflokksins-a-seltjarnarnesi-2/', label: 'Sjálfstæðisflokkurinn' }],
         interests: null,
         social: null,
         news: [
@@ -4513,6 +4515,7 @@ const SEL = {
       [1, 'Kristinn Ólafsson', 'Framkvæmdastjóri', null, {
         age: null,
         bio: 'Kristinn Ólafsson er stjórnandi og ráðgjafi og leiðir SCS-listann (Samfylkingar, Viðreisnar og óháðra) á Seltjarnarnesi í sveitarstjórnarkosningum 2026.',
+        heimild: [{ url: 'https://www.mbl.is/frettir/innlent/2026/03/08/kristinn_leidir_sameiginlegt_frambod_a_nesinu/', label: 'mbl.is' }],
         interests: null,
         social: null,
         news: [
@@ -4558,6 +4561,7 @@ const RNB = {
       [1, 'Halldóra Fríða Þorvaldsdóttir', 'Bæjarfulltrúi og verkefnastjóri', 'images/candidates/4d582fe052086495.jpg', {
         age: 45,
         bio: 'Halldóra Fríða Þorvaldsdóttir er fædd 8. maí 1980 og starfar sem verkefnastjóri íslenskunáms sem annars máls hjá Reykjanesbæ. Hún er menntuð grunnskólakennari og hefur sérhæft sig í kennslu blindra og sjónskertra við University of Birmingham. Hún hefur yfir 20 ára reynslu í menntun og velferðarþjónustu og hefur verið bæjarfulltrúi Framsóknar í Reykjanesbæ og varaþingmaður 2022–2023. Hún leiðir B-lista Framsóknar í sveitarstjórnarkosningum 2026.',
+        heimild: [{ url: 'https://www.mbl.is/frettir/innlent/2026/02/08/halldora_frida_oddviti_framsoknarmanna_i_reykjanesb/', label: 'mbl.is' }, { url: 'https://www.framsoknrnb.is/halldora.html', label: 'Framsókn Reykjanesbær' }, { url: 'https://www.linkedin.com/in/halld%C3%B3ra-fr%C3%AD%C3%B0a-%C3%BEorvaldsd%C3%B3ttir-b19686a1/', label: 'LinkedIn' }],
         interests: ['Menntun og inngildning', 'Velferðarþjónusta og eldrið', 'Atvinnuþróun og lægri skattar', 'Húsnæðismál', 'Inngildning innflytjenda'],
         social: [
           { type: 'facebook', url: 'https://www.facebook.com/halldorafrida/', label: 'Facebook' },
@@ -4574,6 +4578,7 @@ const RNB = {
       [2, 'Róbert Jóhann Guðmundsson', 'Bæjarfulltrúi og málarameistari', null, {
         age: null,
         bio: 'Róbert Jóhann Guðmundsson er málarameistari og meðeigandi Málningarþjónustu JRJ ehf., sem hann stofnaði árið 2004. Hann er fæddur og uppalinn á Keflavík og hefur búið í Njarðvík síðan 2001. Hann þjónaði sem fulltrúi Framsóknar í umhverfis- og skipulagsráði Reykjanesbæjar í fjögur ár og situr í stjórn Húsasmíðameistara Suðurnesja.',
+        heimild: [{ url: 'https://www.framsoknrnb.is/robert.html', label: 'Framsókn Reykjanesbær' }, { url: 'https://www.vf.is/frettir/frambodslisti-framsoknar-i-reykjanesbaer-birtur', label: 'Víkurfréttir' }],
         interests: null,
         social: null,
         news: [
@@ -4584,6 +4589,7 @@ const RNB = {
       [3, 'Díana Hilmarsdóttir', 'Bæjarfulltrúi og forstöðumaður Bjargarinnar', null, {
         age: null,
         bio: 'Díana Hilmarsdóttir er forstöðukona Bjargarinnar, geðræktarmiðstöðvar Suðurnesja í Reykjanesbæ. Hún er með BA-gráðu í félagsráðgjöf frá Háskóla Íslands og situr sem bæjarfulltrúi Framsóknar í bæjarstjórn Reykjanesbæjar.',
+        heimild: [{ url: 'https://www.reykjanesbaer.is/is/stjornsysla/rnb/starfsfolk/diana-hilmarsdottir', label: 'reykjanesbaer.is' }, { url: 'https://bjorgin.is/', label: 'bjorgin.is' }, { url: 'https://www.vf.is/frettir/frambodslisti-framsoknar-i-reykjanesbaer-birtur', label: 'Víkurfréttir' }],
         interests: null,
         social: null,
         news: [
@@ -4594,6 +4600,7 @@ const RNB = {
       [4, 'Birgir Már Bragasson', 'Framkvæmdastjóri', null, {
         age: null,
         bio: 'Birgir Már Bragasson er framkvæmdastjóri Keflavíkur, íþrótta- og ungmennafélags (ÍUK). Hann er í fjórða sæti á framboðslista Framsóknar í Reykjanesbæ fyrir sveitarstjórnarkosningarnar 2026.',
+        heimild: [{ url: 'https://www.keflavik.is/almennt/frettir/adalstjorn-keflavikur-ithrotta--og-ungmennafelags-endurkjorin', label: 'keflavik.is' }, { url: 'https://www.vf.is/frettir/frambodslisti-framsoknar-i-reykjanesbaer-birtur', label: 'Víkurfréttir' }],
         interests: null,
         social: null,
         news: [
@@ -4645,6 +4652,7 @@ const RNB = {
       [1, 'Arnar Páll Guðmundsson', 'Viðskiptafræðingur og mannauðsráðgjafi', null, {
         age: null,
         bio: 'Arnar Páll Guðmundsson er viðskiptafræðingur og mannauðsráðgjafi. Hann var formaður Viðreisnar á Suðurnesjum og leiðir fyrsta lista Viðreisnar sem nokkru sinni hefur boðið sig fram í Reykjanesbæ í sveitarstjórnarkosningum 2026. Hann hefur skrifað greinar um efnahag og kosningamál á Vísir.',
+        heimild: [{ url: 'https://www.ruv.is/frettir/innlent/2026-03-11-fyrsti-listi-vidreisnar-i-reykjanesbae-469529', label: 'ruv.is' }, { url: 'https://www.vf.is/frettir/adalfundur-vidreisnar-a-sudurnesjum', label: 'Víkurfréttir' }],
         interests: ['Efnahagsleg fjölbreytni og atvinnuþróun', 'Stjórnarsýsluumbætur og gagnsæi', 'Mannauður og vinnumarkaður', 'Inngildning og velferð', 'Frjálslæg gildi'],
         social: null,
         news: [
@@ -4660,6 +4668,7 @@ const RNB = {
       [2, 'Davíð Skarphéðinsson', 'Byggingafræðingur', null, {
         age: null,
         bio: 'Davíð Skarphéðinsson er byggingafræðingur hjá Verkís ráðgjafarverkfræðistofu og starfar á Suðurnesjum. Hann er í öðru sæti á framboðslista Viðreisnar í Reykjanesbæ við sveitarstjórnarkosningarnar 2026.',
+        heimild: [{ url: 'https://www.ruv.is/frettir/innlent/2026-03-11-fyrsti-listi-vidreisnar-i-reykjanesbae-469529', label: 'ruv.is' }, { url: 'https://www.linkedin.com/in/dav%C3%AD%C3%B0-skarph%C3%A9%C3%B0insson-a48139b5/', label: 'LinkedIn' }],
         interests: null,
         social: null,
         news: [
@@ -4670,6 +4679,7 @@ const RNB = {
       [3, 'Ásta Kristín Guðmundsdóttir', 'Kennari og verkefnastjóri', null, {
         age: null,
         bio: 'Ásta Kristín Guðmundsdóttir er kennari og verkefnastjóri hjá Reykjanesbæ þar sem hún hefur sérhæft sig í samhæfingu og þjónustu við flóttafólk og umsækjendur um hæli. Hún er í þriðja sæti á framboðslista Viðreisnar í Reykjanesbæ 2026.',
+        heimild: [{ url: 'https://www.ruv.is/frettir/innlent/2026-03-11-fyrsti-listi-vidreisnar-i-reykjanesbae-469529', label: 'ruv.is' }],
         interests: null,
         social: null,
         news: [
@@ -4680,6 +4690,7 @@ const RNB = {
       [4, 'Aðalheiður Júlírós Óskarsdóttir', 'Gæðastjóri', null, {
         age: null,
         bio: 'Aðalheiður Júlírós Óskarsdóttir er gæðastjóri og var kjörin formaður Viðreisnarfélags á Suðurnesjum á stofnfundi félagsins. Hún er í fjórða sæti á framboðslista Viðreisnar í Reykjanesbæ 2026.',
+        heimild: [{ url: 'https://www.ruv.is/frettir/innlent/2026-03-11-fyrsti-listi-vidreisnar-i-reykjanesbae-469529', label: 'ruv.is' }],
         interests: null,
         social: null,
         news: [
@@ -4690,6 +4701,7 @@ const RNB = {
       [5, 'Sveinn Enok Jóhannsson', 'Bóndi í Höfnum', null, {
         age: null,
         bio: 'Sveinn Enok Jóhannsson er bóndi í Höfnum á Reykjanesi. Hann er í fimmta sæti á framboðslista Viðreisnar í Reykjanesbæ 2026 og tók sæti í stjórn Viðreisnarfélagsins á Suðurnesjum.',
+        heimild: [{ url: 'https://www.ruv.is/frettir/innlent/2026-03-11-fyrsti-listi-vidreisnar-i-reykjanesbae-469529', label: 'ruv.is' }],
         interests: null,
         social: null,
         news: [
@@ -4729,6 +4741,7 @@ const RNB = {
       [1, 'Vilhjálmur Árnason', 'Þingmaður og fyrrverandi lögreglumaður', 'images/candidates/9ba898e10d74344a.jpg', {
         age: 42,
         bio: 'Vilhjálmur Árnason er fæddur 29. október 1983 í Sauðárkróki. Hann er alþingismaður Suðurkjördæmis fyrir Sjálfstæðisflokkinn frá 2013 og var áður lögreglumaður á Suðurnesjum í rúman áratug. Hann er með BA- og meistarapróf í lögfræði frá Háskólanum í Reykjavík og var gjaldkeri Sjálfstæðisflokksins frá 2022. Hann flutti með fjölskyldu sína frá Grindavík til Reykjanesbæjar vegna eldgosa og vann prófkjör D-lista með 1.037 atkvæðum.',
+        heimild: [{ url: 'https://www.althingi.is/altext/cv/is/?nfaerslunr=1176', label: 'althingi.is' }, { url: 'https://is.wikipedia.org/wiki/Vilhj%C3%A1lmur_%C3%81rnason_(stj%C3%B3rnm%C3%A1lama%C3%B0ur)', label: 'Wikipedia' }, { url: 'https://www.mbl.is/frettir/innlent/2026/01/31/vilhjalmur_nyr_oddviti_i_reykjanesbae/', label: 'mbl.is' }],
         interests: ['Lægri gjöld og fasteignaskattar', 'Biðlistar leikskóla', 'Lægri þátttökugjöld í íþróttum', 'Fjölbreyttara húsnæðisframboð', 'Atvinnulíf og nýsköpun'],
         social: [
           { type: 'facebook', url: 'https://www.facebook.com/villiarna/', label: 'Facebook' },
@@ -4751,6 +4764,7 @@ const RNB = {
       [2, 'Margrét Þórarinsdóttir', 'Yfirflugfreyja og bæjarfulltrúi', null, {
         age: null,
         bio: 'Margrét Þórarinsdóttir er yfirflugfreyja og bæjarfulltrúi í bæjarstjórn Reykjanesbæjar. Hún leiddi lista Umbóts í sveitarstjórnarkosningum 2022 og sat áður í bæjarstjórn fyrir Miðflokkinn 2018–2022; í febrúar 2026 sameinaðist Umbót Sjálfstæðisflokknum og er hún í öðru sæti á lista flokksins.',
+        heimild: [{ url: 'https://xd.is/2026/02/27/umbot-sameinast-sjalfstaedisflokknum-i-reykjanesbae/', label: 'Sjálfstæðisflokkurinn' }, { url: 'https://www.mbl.is/frettir/innlent/2026/02/27/umbot_til_lids_vid_sjalfstaedisflokkinn/', label: 'mbl.is' }],
         interests: null,
         social: null,
         news: [
@@ -4761,6 +4775,7 @@ const RNB = {
       [3, 'Kristján Pétur Kristjánsson', 'Framkvæmdastjóri Konvin', null, {
         age: null,
         bio: 'Kristján Pétur Kristjánsson er framkvæmdastjóri Konvin hótels við Keflavíkurflugvöll í Reykjanesbæ. Hann er í þriðja sæti á framboðslista Sjálfstæðisflokksins í Reykjanesbæ 2026.',
+        heimild: [{ url: 'https://www.mbl.is/frettir/innlent/2026/01/31/vilhjalmur_nyr_oddviti_i_reykjanesbae/', label: 'mbl.is' }],
         interests: null,
         social: null,
         news: [
@@ -4770,6 +4785,7 @@ const RNB = {
       [4, 'Alexander Ragnarsson', 'Húsasmíðameistari og bæjarfulltrúi', null, {
         age: null,
         bio: 'Alexander Ragnarsson er húsasmíðameistari og umsjónarmaður fasteigna hjá Aðaltorgi í Reykjanesbæ. Hann er bæjarfulltrúi Sjálfstæðisflokksins og er í fjórða sæti á framboðslista flokksins 2026.',
+        heimild: [{ url: 'https://www.reykjanesbaer.is/is/stjornsysla/baejarstjorn/baejarstjorn', label: 'reykjanesbaer.is' }, { url: 'https://www.mbl.is/frettir/innlent/2026/01/31/vilhjalmur_nyr_oddviti_i_reykjanesbae/', label: 'mbl.is' }],
         interests: null,
         social: null,
         news: [
@@ -4779,6 +4795,7 @@ const RNB = {
       [5, 'Guðbergur Reynisson', 'Framkvæmdastjóri og bæjarfulltrúi', 'images/candidates/fd60cc386bd065c4.png', {
         age: null,
         bio: 'Guðbergur Reynisson er framkvæmdastjóri Cargoflutningar ehf., flutningafyrirtækis milli Reykjavíkur og Suðurnesja sem hann stofnaði árið 2009. Hann er bæjarfulltrúi Sjálfstæðisflokksins í Reykjanesbæ og hefur verið formaður flokksfélags Sjálfstæðisflokksins í Reykjanesbæ frá árinu 2016.',
+        heimild: [{ url: 'https://xd.is/folkid/midstjorn/gudbergur-reynisson/', label: 'Sjálfstæðisflokkurinn' }, { url: 'https://www.cargoflutningar.is/', label: 'cargoflutningar.is' }],
         interests: null,
         social: null,
         news: [
@@ -4819,6 +4836,7 @@ const RNB = {
       [1, 'Gunnlaugur Kárason', 'Kennari og viðskiptafræðingur', 'images/candidates/29ad3bb6e2ef2aa0.jpg', {
         age: 49,
         bio: 'Gunnlaugur Kárason er fæddur 13. júlí 1976 á Suðurnesjum. Hann er menntuður viðskiptafræðingur og kennari með fjölbreyttan starfsferil: hann hefur kennt og stjórnað grunnskóla, starfað í banka í 6 ár og síðan í orkugeiranum í 10 ár þar á meðal sem fjármálastjóri HS Veitna. Hann rekur nú eigið ráðgjafar- og fjármálafyrirtæki, Opulent. Hann hefur verið varabæjarfulltrúi í Reykjanesbæ og leiðir M-lista Miðflokksins 2026.',
+        heimild: [{ url: 'https://www.ruv.is/frettir/innlent/2026-03-25-vidskiptafraedingur-leidir-midflokkinn-i-reykjanesbae-470853', label: 'ruv.is' }, { url: 'https://www.vf.is/frettir/gunnlaugur-leidir-midflokkinn-i-reykjanesbae', label: 'Víkurfréttir' }, { url: 'https://www.linkedin.com/in/gunnlaugur-k%C3%A1rason-2a581617a/', label: 'LinkedIn' }],
         interests: ['Húsnæðismál', 'Góðar skólastofnanir', 'Æskulýðs- og íþróttamál', 'Ábyrg fjármálastjórnun', 'Samfélagsleg þjónusta'],
         social: null,
         news: [
@@ -4831,6 +4849,7 @@ const RNB = {
       [2, 'Rúnar Fossádal', 'Rannsóknarlögreglumaður', 'images/candidates/cf6a323612bb5e6a.jpg', {
         age: null,
         bio: 'Rúnar Fossádal Árnason er rannsóknarlögreglumaður við lögreglu á Suðurnesjum. Hann er í öðru sæti á framboðslista Miðflokksins í Reykjanesbæ við sveitarstjórnarkosningarnar 2026.',
+        heimild: [{ url: 'https://www.ruv.is/frettir/innlent/2026-03-25-vidskiptafraedingur-leidir-midflokkinn-i-reykjanesbae-470853', label: 'ruv.is' }, { url: 'https://www.vf.is/frettir/frambodslisti-midflokksins-i-reykjanesbae-stadfestur', label: 'Víkurfréttir' }],
         interests: null,
         social: null,
         news: [
@@ -4841,6 +4860,7 @@ const RNB = {
       [3, 'Sigrún Þorsteinsdóttir', 'Þjónustufulltrúi og félagsliði', 'images/candidates/0757f792d7ad95b9.jpg', {
         age: null,
         bio: 'Sigrún Þorsteinsdóttir er þjónustufulltrúi og félagsliði. Hún er í þriðja sæti á framboðslista Miðflokksins í Reykjanesbæ 2026.',
+        heimild: [{ url: 'https://www.ruv.is/frettir/innlent/2026-03-25-vidskiptafraedingur-leidir-midflokkinn-i-reykjanesbae-470853', label: 'ruv.is' }, { url: 'https://www.vf.is/frettir/frambodslisti-midflokksins-i-reykjanesbae-stadfestur', label: 'Víkurfréttir' }],
         interests: null,
         social: null,
         news: [
@@ -4851,6 +4871,7 @@ const RNB = {
       [4, 'Bjarni Gunnólfsson', 'Matreiðslumaður', 'images/candidates/f1a67711c909b106.jpg', {
         age: null,
         bio: 'Bjarni Gunnólfsson er matreiðslumaður að mennt. Hann er í fjórða sæti á framboðslista Miðflokksins í Reykjanesbæ 2026.',
+        heimild: [{ url: 'https://www.ruv.is/frettir/innlent/2026-03-25-vidskiptafraedingur-leidir-midflokkinn-i-reykjanesbae-470853', label: 'ruv.is' }, { url: 'https://www.vf.is/frettir/frambodslisti-midflokksins-i-reykjanesbae-stadfestur', label: 'Víkurfréttir' }],
         interests: null,
         social: null,
         news: [
@@ -4861,6 +4882,7 @@ const RNB = {
       [5, 'Matthildur Júlía Matthíasdóttir', 'Umönnunaraðili', 'images/candidates/747455ad1b54b5a7.jpg', {
         age: null,
         bio: 'Matthildur Júlía Matthíasdóttir er umönnunaraðili og er í fimmta sæti á framboðslista Miðflokksins í Reykjanesbæ 2026.',
+        heimild: [{ url: 'https://www.ruv.is/frettir/innlent/2026-03-25-vidskiptafraedingur-leidir-midflokkinn-i-reykjanesbae-470853', label: 'ruv.is' }, { url: 'https://www.vf.is/frettir/frambodslisti-midflokksins-i-reykjanesbae-stadfestur', label: 'Víkurfréttir' }],
         interests: null,
         social: null,
         news: [
@@ -4899,6 +4921,7 @@ const RNB = {
       [1, 'Guðný Birna Guðmundsdóttir', 'Forseti bæjarstjórnar og ritari Samfylkingarinnar', 'images/candidates/653a53315c3ee7e0.png', {
         age: 44,
         bio: 'Guðný Birna Guðmundsdóttir er fædd 14. febrúar 1982 og er hjúkrunarfræðingur að mennt með MPA og MBA frá Háskóla Íslands. Hún hefur setið í bæjarstjórn Reykjanesbæjar síðan 2014 og er forseti bæjarstjórnar. Hún er jafnframt ritari í stjórn Samfylkingarinnar og hefur verið varaþingmaður Suðurkjördæmis þrisvar sinnum. Undir hennar forystu hefur skuld sveitarfélagsins lægst umtalsvert og fasteignaskattar lækkað níu ár í röð.',
+        heimild: [{ url: 'https://www.althingi.is/altext/cv/is/?nfaerslunr=1483', label: 'althingi.is' }, { url: 'https://www.reykjanesbaer.is/is/stjornsysla/baejarstjorn/baejarstjorn', label: 'reykjanesbaer.is' }, { url: 'https://www.vf.is/frettir/mikil-askorun-ad-taka-a-rekstri-og-byggja-upp-um-leid', label: 'Víkurfréttir' }],
         interests: ['Fjármálastjórnun og skuldaminnkun', 'Skólauppbygging og menntamál', 'Húsnæðismál og vöxtur bæjarins', 'Velferðarþjónusta', 'Inngildning flóttafólks'],
         social: null,
         news: [
@@ -4913,6 +4936,7 @@ const RNB = {
       [2, 'Hjörtur Magnús Guðbjartsson', 'Kerfisstjóri', 'images/candidates/65199a46c3c38a52.png', {
         age: null,
         bio: 'Hjörtur Magnús Guðbjartsson er kerfisstjóri að starfi. Hann hefur verið bæjarfulltrúi Samfylkingarinnar í Reykjanesbæ og gegnir stöðu formanns í stjórn Reykjaneshafnar.',
+        heimild: [{ url: 'https://www.reykjanesbaer.is/is/stjornsysla/baejarstjorn/baejarstjorn', label: 'reykjanesbaer.is' }, { url: 'https://xs.is/sveitarstjornarfolk', label: 'Samfylkingin' }],
         interests: null,
         social: null,
         news: [
@@ -4922,6 +4946,7 @@ const RNB = {
       [3, 'Aðalheiður Hilmarsdóttir', 'Atvinnu- og virkniráðgjafi hjá Reykjavíkurborg', 'images/candidates/5d5c7c75ea2b355d.png', {
         age: null,
         bio: 'Aðalheiður Hilmarsdóttir er atvinnu- og virkniráðgjafi hjá Reykjavíkurborg. Hún hefur gegnt hlutverki varabæjarfulltrúa Samfylkingarinnar í Reykjanesbæ og hefur sérþekkingu á atvinnu- og velferðarmálum.',
+        heimild: [{ url: 'https://xs.is/sveitarstjornarfolk', label: 'Samfylkingin' }],
         interests: null,
         social: null,
         news: [
@@ -4931,6 +4956,7 @@ const RNB = {
       [4, 'Bjarni Halldór Heiðuson Janusson', 'Stjórnmálafræðingur', 'images/candidates/11d9cd023287ba03.png', {
         age: null,
         bio: 'Bjarni Halldór Heiðuson Janusson er stjórnmálafræðingur og var árið 2017 yngsti varaþingmaður í sögu Íslands þegar hann tók sæti á Alþingi fyrir hönd Viðreisnar, 21 árs og 142 daga gamall. Hann var meðal stofnenda Viðreisnar árið 2014 og fyrsti formaður ungliðahreyfingar flokksins; í janúar 2026 gekk hann til liðs við Samfylkinguna og er í fjórða sæti á lista hennar í Reykjanesbæ.',
+        heimild: [{ url: 'https://www.althingi.is/altext/cv/is/?nfaerslunr=1303', label: 'althingi.is' }, { url: 'https://www.mbl.is/frettir/innlent/2026/01/25/bjarni_fer_ur_vidreisn_i_samfylkinguna/', label: 'mbl.is' }, { url: 'https://www.visir.is/g/20262833841d/fyrr-verandi-yngsti-thing-madur-sogunnar-skiptir-um-flokk-og-fer-fram', label: 'visir.is' }],
         interests: null,
         social: null,
         news: [
@@ -4940,6 +4966,7 @@ const RNB = {
       [5, 'Hámundur Örn Helgason', 'Framkvæmdastjóri UMFN', 'images/candidates/0408be597818e34e.png', {
         age: null,
         bio: 'Hámundur Örn Helgason er framkvæmdastjóri Ungmennafélagsins Njarðvík (UMFN), íþróttafélags í Reykjanesbæ. Hann hefur einnig gegnt hlutverki íþrótta- og framkvæmdastjóra og komið fram á fundum bæjarstjórnar Reykjanesbæjar í tengslum við íþróttamál.',
+        heimild: [{ url: 'https://www.umfn.is/', label: 'umfn.is' }],
         interests: null,
         social: null,
         news: [
