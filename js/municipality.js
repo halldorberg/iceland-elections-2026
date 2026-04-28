@@ -160,7 +160,7 @@ function renderAccordion() {
     const bgStyle = isExpanded
       ? `linear-gradient(160deg, ${p.accentColor || p.color} 0%, ${p.color} 100%)`
       : p.color;
-    ribbon.style.cssText = `background:${bgStyle};`;
+    ribbon.style.cssText = `background:${bgStyle};--party-color:${p.color};`;
 
     ribbon.innerHTML = buildRibbonHTML(p, data);
     container.appendChild(ribbon);

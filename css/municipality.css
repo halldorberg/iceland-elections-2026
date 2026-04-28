@@ -359,6 +359,21 @@
   pointer-events: none;
   transition: opacity 0.3s ease 0s;
   scrollbar-width: thin;
+  scrollbar-color: color-mix(in srgb, var(--party-color) 60%, white) color-mix(in srgb, var(--party-color) 30%, black);
+}
+
+.ribbon-content::-webkit-scrollbar {
+  width: 6px;
+}
+.ribbon-content::-webkit-scrollbar-track {
+  background: color-mix(in srgb, var(--party-color) 30%, black);
+}
+.ribbon-content::-webkit-scrollbar-thumb {
+  background: color-mix(in srgb, var(--party-color) 60%, white);
+  border-radius: 3px;
+}
+.ribbon-content::-webkit-scrollbar-thumb:hover {
+  background: color-mix(in srgb, var(--party-color) 80%, white);
 }
 
 .party-ribbon.is-expanded .ribbon-content {
