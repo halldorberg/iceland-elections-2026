@@ -7021,10 +7021,11 @@ const HGS = {
       [7, 'Björgvin Helgason', 'Kartöflubóndi'],
       [8, 'Jóhanna Margrét Gunnarsdóttir', 'Handverksstjóri'],
       [9, 'Áslaug Ólöf Stefánsdóttir', 'Bóndi'],
+      [10, 'Guðmundur Sturluson', ''],
     ],
   },
   HGG: {
-    tagline: 'G listi — Grænsku',
+    tagline: 'G listi — Grósku',
     agenda: [
       { icon: '🌿', title: 'Umhverfismál', text: 'Umhverfisvernd og sjálfbær þróun.' },
       { icon: '🌱', title: 'Grænt framboð', text: 'Grænar lausnir og sjálfbær samfélög.' },
@@ -7038,8 +7039,9 @@ const HGS = {
       [5, 'Agnar Þór Magnússon', ''],
       [6, 'Jónas Davíð Jónasson', ''],
       [7, 'Eva Hilmarsdóttir', ''],
-      [8, 'Ásgeir Mór Andrésson', ''],
+      [8, 'Ásgeir Már Andrésson', ''],
       [9, 'Arnar Ingi Tryggvason', ''],
+      [10, 'María Albína Tryggvadóttir', ''],
     ],
   },
   HGH: {
@@ -7065,6 +7067,7 @@ const HGS = {
       [7, 'Vikar Mar Valsson', 'Ljósmyndari og sauðfjárbóndi'],
       [8, 'Hugrún Pála Birnisdóttir', 'Geislafræðingur'],
       [9, 'Sigurður Pálsson', 'Lífeyrisþegi'],
+      [10, 'Eduarda Louize', ''],
     ],
   },
 };
