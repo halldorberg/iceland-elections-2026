@@ -7,6 +7,7 @@
 const RVK = {
   D: {
     tagline: 'Breytinga er þörf í Reykjavík',
+    platformUrl: 'https://www.hildurbjoss.is/%C3%A1herslur',
     agenda: [
       { icon: '🚗', title: 'Frelsi og val í samgöngum', text: 'Greiðar samgöngur í Reykjavík með fjárfestingum í innviðum, almenningssamgöngum og hjólreiðastígum — frelsi til að velja ferðamáta.' },
       { icon: '🏘️', title: '15 mínútna hverfi', text: 'Öll hverfi hönnuð þannig að íbúar geti nálgast nauðsynlegar verslanir og þjónustu á 15–20 mínútna gangfæri.' },
