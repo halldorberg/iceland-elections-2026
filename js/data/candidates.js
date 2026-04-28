@@ -988,12 +988,17 @@ const RVK = {
     tagline: 'Reykjavík til þjónustu reiðubúin — Sterk saman',
     platformUrl: 'https://www.vidreisnreykjavik.is/malefni',
     agenda: [
-      { icon: '👤', title: 'Borgararar fyrst', text: 'Fjármunum á að forgangsraða til grunnþjónustu, ekki til sóunarmála eða tvítekinnar starfsemi; minnka kostnað og stjórnsýslu.' },
-      { icon: '⚙️', title: 'Hagkvæmni', text: 'Einfalda rekstur; fækka nefndum, þverþingnefndum og deildum; lækka fasteignagjöld; ganga gegn samkeppni borgar við einkageirann.' },
-      { icon: '🏗️', title: 'Íbúðabygging', text: 'Halda áfram metbyggingaráformum; skipuleggja lóðir fyrir 2.000 íbúðir á ári; hraðar og ódýrari byggingarnar.' },
-      { icon: '🌆', title: 'Ný hverfi', text: 'Þróa Skerjafirð, Ártúnshöfða, Keldar og Vatnsmýri (í stað flugvallar) sem blönduð hverfi.' },
-      { icon: '📚', title: 'Menntun', text: 'Raunverulegt val í öllum grunnskólum; gjaldfrjáls skólaganga óháð rekstrarmódeli; gjaldfrjálsir leikskólar fyrir 5 ára.' },
-      { icon: '💼', title: 'Eignastýring', text: 'Selja eignir á grundvelli faglegrar mats; auka hlutfall einkageira með samkeppnum útboðum.' },
+      { icon: '🔄', title: 'Snúum Reykjavík við', text: 'Nýta tækifærin til að taka til í borgarkerfinu — fækka stjórnendum og draga úr yfirbyggingu í stjórnsýslunni.' },
+      { icon: '👨‍👩‍👧', title: 'Börn og fjölskyldur', text: 'Einfalda daglegt líf barna og fjölskyldna; tryggja að lykilþjónusta sé aðgengileg í nærumhverfi fólks.' },
+      { icon: '🏛️', title: 'Byggingar og eignir', text: 'Bregðast við vanrækslu á viðhaldi eigna borgarinnar — stærsta fasteignafélag landsins.' },
+      { icon: '🏠', title: 'Húsnæði fyrir fólk', text: 'Fjölbreytt og falleg byggð; íbúðir af góðum gæðum á viðráðanlegu verði um alla borgina.' },
+      { icon: '🚌', title: 'Samgöngumál', text: 'Frelsi til að velja á milli góðra ferðamáta — fleiri valkostir en einkabílarnir.' },
+      { icon: '🎭', title: 'Menning', text: 'Styrkja menningu í nærumhverfi fólks um alla borgina — ekki bara í miðbænum.' },
+      { icon: '🏃', title: 'Íþróttir og lýðheilsa', text: 'Tryggja góðan aðgang að íþróttum og hreyfingu fyrir alla óháð aldri, efnahag eða búsetu.' },
+      { icon: '🌍', title: 'Fjölmenning', text: 'Styðja við fjölbreytt samfélag og auðvelda aðlögun að íslenskri menningu með opnum samræðum.' },
+      { icon: '🤝', title: 'Velferð', text: 'Velferð byggð á mannréttindum og virðingu; þjónusta nær íbúum og minni óþörf skriffinnska.' },
+      { icon: '💼', title: 'Atvinnulífið', text: 'Auðvelda stofnun fyrirtækja og laða að fjölbreytt atvinnulíf til að gera Reykjavík að betri stað.' },
+      { icon: '🌳', title: 'Græn og heilnæm borg', text: 'Auka gróður og ráðast í skógrækt — planta 50 þúsund trjáplöntum á kjörtímabilinu.' },
     ],
     list: [
       [1,  'Björg Magnúsdóttir',             'Blaðamaður, höfundur, sjónvarpsþátttakandi; vann leiðtogakosninguna 31. jan. 2026', 'images/candidates/3da63444e2aaf7d7.jpg', {
