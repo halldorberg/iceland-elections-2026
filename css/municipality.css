@@ -162,6 +162,13 @@
   }
 }
 
+/* When a notice is shown above the accordion, override the section's
+   min-height so it doesn't force the total layout taller than the viewport.
+   flex: 1 is sufficient to fill the remaining space. */
+#election-type-notice:not(:empty) ~ .accordion-section {
+  min-height: 0;
+}
+
 /* Random party tooltip */
 .random-tooltip {
   position: fixed;
