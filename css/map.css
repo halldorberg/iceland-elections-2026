@@ -755,6 +755,15 @@
   opacity: 1;
 }
 
+/* Map width cap on wider screens */
+@media (min-width: 768px) {
+  .map-section {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .site-header { padding: var(--space-3) var(--space-4); }
