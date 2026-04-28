@@ -9,13 +9,13 @@ const RVK = {
     tagline: 'Breytinga er þörf í Reykjavík',
     platformUrl: 'https://www.hildurbjoss.is/%C3%A1herslur',
     agenda: [
-      { icon: '🚗', title: 'Frelsi og val í samgöngum', text: 'Greiðar samgöngur í Reykjavík með fjárfestingum í innviðum, almenningssamgöngum og hjólreiðastígum — frelsi til að velja ferðamáta.' },
-      { icon: '🏘️', title: '15 mínútna hverfi', text: 'Öll hverfi hönnuð þannig að íbúar geti nálgast nauðsynlegar verslanir og þjónustu á 15–20 mínútna gangfæri.' },
-      { icon: '👶', title: 'Fjölbreytt úrræði eftir fæðingarorlof', text: 'Útvíkka leikskólapláss, vinnustaðadaggæslu og niðurgreiðslur til foreldra sem velja heimagæslu.' },
-      { icon: '📚', title: 'Grunnskóli í fremstu röð', text: 'Skýr frammistöðumarkmið og staðlað mat; setja grunnskóla Reykjavíkur í fremstu röð á Evrópu.' },
-      { icon: '🏠', title: 'Húsnæði í eigu heimila', text: 'Auka framboð á landi og stuðla að eignaríbúðum; ný hverfi í Geldinganesi, Keldnalandi og Úlfarsárdal.' },
-      { icon: '🌳', title: 'Græn svæði og umhverfi', text: 'Stækka Elliðaárdalinn sem „Central Park" Reykjavíkur; fleiri heitir stígar með hreinum orkugjöfum.' },
-      { icon: '🏛️', title: 'Skilvirkari borgarstjórn', text: 'Fækka borgarfulltrúum úr 23 í 15; lægri fasteignaskattar á atvinnuhúsnæði; selja fyrirtæki borgar í samkeppnisrekstri.' },
+      { icon: '🚗', title: 'Samgöngur og innviðir', text: 'Greiðar samgöngur með frelsi til að velja ferðamáta; Sundabraut í einkaframkvæmd; endurskoðun bílastæðastefnu; jarðgangakostur milli hverfa; heitir stígar með hreinum orkugjöfum.' },
+      { icon: '🏘️', title: 'Húsnæði og hverfi', text: 'Hverfi hönnuð þannig að þjónusta sé á gangfæri (15 mínútur); ný hverfi í Geldinganesi, Keldnalandi, Granda og Úlfarsárdal; áhersla á eignaríbúðir.' },
+      { icon: '👶', title: 'Menntun og fjölskyldur', text: 'Fjölbreytt úrræði eftir fæðingarorlof: vinnustaðadaggæsla, leikskólapláss og stuðningur við heimagæslu. Grunnskóli með skýr frammistöðumarkmið; jafnt framlag til sjálfstæðra skóla; móttökudeildir fyrir nemendur með erlendan bakgrunn.' },
+      { icon: '🌳', title: 'Umhverfi og lýðheilsa', text: 'Elliðaárdalur stækkaður sem „Central Park" Reykjavíkur; verndun og aukning grænna svæða; auknar hreyfitækifæri og heilsuefling eldri borgara.' },
+      { icon: '🤝', title: 'Velferð og þjónusta', text: 'Fjölbreytt þjónustulíkan í velferðarmálum; auka val borgara í þjónustu óháð því hvort hún er í einkarekstri eða opinberum.' },
+      { icon: '💼', title: 'Atvinnulíf og skattar', text: 'Lægri fasteignaskattar á atvinnuhúsnæði; einföldun reglna fyrir frumkvöðla; borg sem fagnar einkaframtaki og fjölbreyttu atvinnulífi.' },
+      { icon: '🏛️', title: 'Skilvirkni í borgarstjórn', text: 'Fækka borgarfulltrúum úr 23 í 15; selja fyrirtæki borgar sem starfa á samkeppnismarkaði; lýðheilsulegt og hagrænt stjórnarbúskapur.' },
     ],
     list: [
       [1, 'Hildur Björnsdóttir', 'Borgarfulltrúi, listforingi', 'images/candidates/67dfe0122a3c8032.jpg', {
