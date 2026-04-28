@@ -384,7 +384,7 @@
   width: 100%;
   left: 0;
   border-radius: 2px;
-  background: color-mix(in srgb, var(--party-color) 55%, white);
+  background: rgba(255, 255, 255, 0.3);
   pointer-events: auto;
   cursor: grab;
   min-height: 32px;
