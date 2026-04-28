@@ -164,6 +164,74 @@ function renderAccordion() {
 
     ribbon.innerHTML = buildRibbonHTML(p, data);
     container.appendChild(ribbon);
+    attachCustomScrollbar(ribbon);
+  });
+}
+
+function attachCustomScrollbar(ribbon) {
+  const content = ribbon.querySelector('.ribbon-content');
+  if (!content) return;
+
+  const bar = document.createElement('div');
+  bar.className = 'custom-scrollbar';
+  bar.innerHTML = '<div class="custom-scrollbar-thumb"></div>';
+  ribbon.appendChild(bar);
+
+  const thumb = bar.querySelector('.custom-scrollbar-thumb');
+  let hideTimer = null;
+
+  function updateThumb() {
+    const { scrollTop, scrollHeight, clientHeight } = content;
+    if (scrollHeight <= clientHeight + 1) { bar.style.opacity = '0'; return; }
+    const trackH = bar.clientHeight;
+    const ratio = clientHeight / scrollHeight;
+    const thumbH = Math.max(32, ratio * trackH);
+    const maxThumbTop = trackH - thumbH;
+    const maxScroll = scrollHeight - clientHeight;
+    thumb.style.height = thumbH + 'px';
+    thumb.style.top = ((scrollTop / maxScroll) * maxThumbTop) + 'px';
+  }
+
+  function show() {
+    const { scrollHeight, clientHeight } = content;
+    if (scrollHeight <= clientHeight + 1) return;
+    clearTimeout(hideTimer);
+    updateThumb();
+    bar.style.opacity = '1';
+  }
+
+  function scheduleHide() {
+    clearTimeout(hideTimer);
+    hideTimer = setTimeout(() => { bar.style.opacity = '0'; }, 800);
+  }
+
+  content.addEventListener('scroll', () => { updateThumb(); show(); scheduleHide(); });
+  content.addEventListener('mouseenter', show);
+  content.addEventListener('mouseleave', scheduleHide);
+
+  // Draggable thumb
+  let drag = null;
+  thumb.addEventListener('mousedown', e => {
+    e.preventDefault();
+    drag = { startY: e.clientY, startScroll: content.scrollTop };
+    document.body.style.userSelect = 'none';
+  });
+  window.addEventListener('mousemove', e => {
+    if (!drag) return;
+    const { scrollHeight, clientHeight } = content;
+    const trackH = bar.clientHeight;
+    const thumbH = thumb.offsetHeight;
+    const maxThumbTop = trackH - thumbH;
+    const maxScroll = scrollHeight - clientHeight;
+    const dy = e.clientY - drag.startY;
+    content.scrollTop = drag.startScroll + (dy / maxThumbTop) * maxScroll;
+    updateThumb();
+  });
+  window.addEventListener('mouseup', () => {
+    if (!drag) return;
+    drag = null;
+    document.body.style.userSelect = '';
+    scheduleHide();
   });
 }
 
