@@ -364,8 +364,12 @@
 
 .ribbon-content::-webkit-scrollbar {
   width: 6px;
+  background: transparent;
 }
 .ribbon-content::-webkit-scrollbar-track {
+  background: transparent;
+}
+.ribbon-content::-webkit-scrollbar-track-piece {
   background: transparent;
 }
 .ribbon-content::-webkit-scrollbar-thumb {
@@ -374,6 +378,9 @@
 }
 .ribbon-content::-webkit-scrollbar-thumb:hover {
   background: color-mix(in srgb, var(--party-color) 80%, white);
+}
+.ribbon-content::-webkit-scrollbar-corner {
+  background: transparent;
 }
 
 .party-ribbon.is-expanded .ribbon-content {
