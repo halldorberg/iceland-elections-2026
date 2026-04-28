@@ -5350,12 +5350,24 @@ const SNB = {
     list: [
       [1, 'Haukur Andreásson', 'Lögfræðingur og fasteignasali hjá Allt fasteignir', 'images/candidates/901714da6f144ecd.png', {
         age: null,
-        bio: null,
-        interests: null,
+        bio: 'Haukur Andreásson er lögfræðingur og löggiltur fasteignasali hjá Allt fasteignasölu á Suðurnesjum og býr í Sandgerði. Hann leiðir D-listann (D-listinn og óháðir), lista Sjálfstæðisflokksins og óháðra, í sveitarstjórnarkosningum í Suðurnesjabæ 2026.',
+        interests: ['Húsnæðismál og fasteignamarkaður', 'Atvinnuþróun og frumkvæði', 'Umhverfismál', 'Menning, íþróttir og æskulýðsmál'],
         social: null,
-        news: [],
+        news: [
+          { title: 'D-listinn í Suðurnesjabæ kynnir framboðslista sinn fyrir kosningar', url: 'https://www.vf.is/frettir/d-listinn-i-sudurnesjabae-kynnir-frambodslista-sinn-fyrir-kosningar', source: 'vf.is' },
+          { title: 'Hvar búa þau sem ætla að gæta hagsmuna íbúa í Suðurnesjabæ?', url: 'https://www.vf.is/frettir/hvar-bua-thau-sem-aetla-ad-gaeta-hagsmuna-ibua-i-sudurnesjabae', source: 'vf.is' },
+        ],
       }],
-      [2, 'Haraldur Helgason', 'Teymisstjóri veitingaþjónustu LSH', 'images/candidates/dd5846e881a610f9.png', { age: null, bio: null, interests: null, social: null, news: [] }],
+      [2, 'Haraldur Helgason', 'Teymisstjóri veitingaþjónustu LSH', 'images/candidates/dd5846e881a610f9.png', {
+        age: null,
+        bio: 'Haraldur Helgason er íbúi í Garði og starfar sem teymisstjóri veitingaþjónustu á Landspítala. Hann hefur lengi tekið þátt í sveitarstjórnarmálum á Suðurnesjum og gegndi embætti formanns heilbrigðisnefndar Suðurnesja sem fulltrúi Suðurnesjabæjar frá a.m.k. 2006 til 2021.',
+        interests: ['Heilbrigðismál og velferðarþjónusta', 'Sveitarstjórnarmál', 'Atvinnumál á Suðurnesjum', 'Nærsamfélag og íbúaþátttaka'],
+        social: { linkedin: 'https://is.linkedin.com/in/haraldur-helgason-91627413', facebook: 'https://www.facebook.com/haraldur.helgason.9' },
+        news: [
+          { title: 'D-listinn í Suðurnesjabæ kynnir framboðslista sinn fyrir kosningar', url: 'https://www.vf.is/frettir/d-listinn-i-sudurnesjabae-kynnir-frambodslista-sinn-fyrir-kosningar', source: 'vf.is' },
+          { title: 'Hvar búa þau sem ætla að gæta hagsmuna íbúa í Suðurnesjabæ?', url: 'https://www.vf.is/frettir/hvar-bua-thau-sem-aetla-ad-gaeta-hagsmuna-ibua-i-sudurnesjabae', source: 'vf.is' },
+        ],
+      }],
       [3, 'Oddný Kristrún Ásgeirsdóttir', 'Verkefnastjóri Ferðaþjónustu Reykjaness', 'images/candidates/0dc3040a41c15cc8.png'],
       [4, 'María Kjartansdóttir', 'MSc verkfræðingur og verkefnastjóri framkvæmda hjá Isavia', 'images/candidates/ac002258e528532d.png'],
       [5, 'Berglind Lára Haraldsdóttir', 'Deildarstjóri Leikskólans Grænaborg', 'images/candidates/0e7ea5904a1be852.png'],
