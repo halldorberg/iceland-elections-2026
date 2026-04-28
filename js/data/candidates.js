@@ -5425,12 +5425,22 @@ const SNB = {
     list: [
       [1, 'Svavar Grétarsson', 'Flotastjóri', 'images/candidates/ca49d6f98e94597e.png', {
         age: null,
-        bio: null,
+        bio: 'Svavar Grétarsson er flotastjóri hjá Enterprise Rent-A-Car á Íslandi og er búsettur í Sandgerði á Suðurnesjum. Hann leiðir lista Samfylkingar og óháðra í sveitarstjórnarkosningum í Suðurnesjabæ 2026.',
         interests: null,
-        social: null,
-        news: [],
+        social: { linkedin: 'https://www.linkedin.com/in/svavar-gr%C3%A9tarsson-129448175/' },
+        news: [
+          { title: 'Hvar búa þau sem ætla að gæta hagsmuna íbúa í Suðurnesjabæ?', url: 'https://www.vf.is/frettir/hvar-bua-thau-sem-aetla-ad-gaeta-hagsmuna-ibua-i-sudurnesjabae', source: 'vf.is' },
+        ],
       }],
-      [2, 'Bergný Jóna Sævarsdóttir', 'Verkefnastjóri og stjórnsýslufræðingur', 'images/candidates/68120ec4711e5798.png', { age: null, bio: null, interests: null, social: null, news: [] }],
+      [2, 'Bergný Jóna Sævarsdóttir', 'Verkefnastjóri og stjórnsýslufræðingur', 'images/candidates/68120ec4711e5798.png', {
+        age: 1975,
+        bio: 'Bergný Jóna Sævarsdóttir er fædd árið 1975 og er stjórnsýslufræðingur með MPA-gráðu í opinberri stjórnsýslu frá Háskóla Íslands (2013). Hún starfaði sem sviðsstjóri stjórnsýslusviðs og staðgengill bæjarstjóra hjá Suðurnesjabæ og var síðar ráðin sem sjálfbærnistjóri hjá Kadeco, þróunarfélagi Keflavíkurflugvallar.',
+        interests: ['Stjórnsýsla og verkefnastjórnun', 'Sjálfbær þróun', 'Velferðarmál'],
+        social: null,
+        news: [
+          { title: 'Bergný og Elín til Kadeco', url: 'https://www.mbl.is/vidskipti/frettir/2023/10/25/bergny_og_elin_til_kadeco/', source: 'mbl.is' },
+        ],
+      }],
       [3, 'Egill Rúnar Sigurðsson', 'Stjórnmálafræðingur, atvinnurekandi og ökukennari', 'images/candidates/d90bc8c06c87d1ab.png'],
       [4, 'Önundur S. Björnsson', 'Bæjarfulltrúi og fyrrum sóknarprestur', 'images/candidates/aa15a584ca6474e9.png'],
       [5, 'Thelma Dís Eggertsdóttir', 'Grunnskólakennari', 'images/candidates/4588d02de48d8f8a.png'],
