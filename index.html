@@ -175,9 +175,13 @@
   <script type="module" src="js/map.js?v=5"></script>
   <script type="module">
     import { MUNICIPALITIES } from './js/data/municipalities.js';
+    import { t } from './js/i18n.js';
 
     const input   = document.getElementById('muni-search-input');
     const results = document.getElementById('muni-search-results');
+
+    // Apply translated placeholder
+    if (input) input.placeholder = t().muniSearchPlaceholder;
     if (!input || !results) throw new Error('Search pill elements not found');
 
     // Build searchable list: id, name, normalised name (no diacritics)
