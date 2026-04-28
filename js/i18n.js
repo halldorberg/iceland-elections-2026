@@ -13,7 +13,7 @@ export const UI = {
     language:         'Tungumál',
 
     // Map page
-    heroTitle:        'Velkominn í <span>lýðræðisveisluna!</span>',
+    heroTitle:        'Velkomin í <span>lýðræðisveisluna!</span>',
     heroSubtitle:     'Smelltu á sveitarfélag á kortinu til að bera saman á einum stað alla flokka, frambjóðendur og stefnur þeirra.',
     statMunicipalities: 'Sveitarfélög',
     statParties:      'Framboðslistar',
