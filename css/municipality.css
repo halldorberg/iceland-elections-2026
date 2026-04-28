@@ -359,14 +359,14 @@
   pointer-events: none;
   transition: opacity 0.3s ease 0s;
   scrollbar-width: thin;
-  scrollbar-color: color-mix(in srgb, var(--party-color) 60%, white) color-mix(in srgb, var(--party-color) 30%, black);
+  scrollbar-color: color-mix(in srgb, var(--party-color) 60%, white) transparent;
 }
 
 .ribbon-content::-webkit-scrollbar {
   width: 6px;
 }
 .ribbon-content::-webkit-scrollbar-track {
-  background: color-mix(in srgb, var(--party-color) 30%, black);
+  background: transparent;
 }
 .ribbon-content::-webkit-scrollbar-thumb {
   background: color-mix(in srgb, var(--party-color) 60%, white);
