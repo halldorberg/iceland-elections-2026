@@ -1,8 +1,8 @@
-import { MUNICIPALITIES } from './data/municipalities.js?v=13';
+import { MUNICIPALITIES } from './data/municipalities.js?v=14';
 import { PARTIES } from './data/parties.js?v=4';
-import { getMunicipalityPartyData } from './data/candidates.js?v=32';
+import { getMunicipalityPartyData } from './data/candidates.js?v=40';
 import { RESULTS_2022 } from './data/results2022.js?v=2';
-import { getLang, t, renderLangSwitcher } from './i18n.js?v=2';
+import { getLang, t, renderLangSwitcher } from './i18n.js?v=3';
 
 // ─── i18n ──────────────────────────────────────────────────
 const lang = getLang();
@@ -10,10 +10,10 @@ const ui   = t();
 
 let TR = {};
 if (lang === 'en') {
-  const mod = await import('./data/candidates.en.js?v=1');
+  const mod = await import('./data/candidates.en.js?v=2');
   TR = mod.TRANSLATIONS_EN;
 } else if (lang === 'pl') {
-  const mod = await import('./data/candidates.pl.js?v=1');
+  const mod = await import('./data/candidates.pl.js?v=2');
   TR = mod.TRANSLATIONS_PL;
 }
 
