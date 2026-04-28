@@ -7023,6 +7023,25 @@ const HGS = {
       [9, 'Áslaug Ólöf Stefánsdóttir', 'Bóndi'],
     ],
   },
+  HGG: {
+    tagline: 'G listi — Grænsku',
+    agenda: [
+      { icon: '🌿', title: 'Umhverfismál', text: 'Umhverfisvernd og sjálfbær þróun.' },
+      { icon: '🌱', title: 'Grænt framboð', text: 'Grænar lausnir og sjálfbær samfélög.' },
+      { icon: '🤝', title: 'Samvinna', text: 'Samvinna og samfélagsleg þróun.' },
+    ],
+    list: [
+      [1, 'Sunna María Jónasdóttir', ''],
+      [2, 'Róbert Fanndal Jósavinsson', ''],
+      [3, 'Kolbrún Lind Malmquist', ''],
+      [4, 'Jóhanna María Oddsdóttir', ''],
+      [5, 'Agnar Þór Magnússon', ''],
+      [6, 'Jónas Davíð Jónasson', ''],
+      [7, 'Eva Hilmarsdóttir', ''],
+      [8, 'Ásgeir Mór Andrésson', ''],
+      [9, 'Arnar Ingi Tryggvason', ''],
+    ],
+  },
   HGH: {
     tagline: 'H-listi Hörgársveitar — samvinna og þróun',
     agenda: [
