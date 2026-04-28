@@ -5439,7 +5439,7 @@ const SNB = {
       [8, 'Jón Þór Jónsson Hansen', 'Frambjóðandi', 'images/candidates/4eced7cbf08b7fcd.png'],
       [9, 'Benóný Þórhallsson', 'Frambjóðandi', 'images/candidates/773af14fb5abd9d8.png'],
       [10, 'Przemyslaw Antoni Szymajda', 'Frambjóðandi', 'images/candidates/3957ff922a4d0d3f.png'],
-      [11, 'Magnús Orri Arnarson', 'Frambjóðandi'],
+      [11, 'Magnús Orri Arnarson', 'Frambjóðandi', 'images/candidates/2d62e1365a0aef5c.png'],
       [12, 'Hildur Guðný Björnsdóttir', 'Frambjóðandi'],
       [13, 'Guðmundur Fannar Sigurbjörnsson', 'Frambjóðandi', 'images/candidates/b3dcf281547c37da.png'],
       [14, 'Sigurbjörg Ragnarsdóttir', 'Frambjóðandi', 'images/candidates/939991dfb335aee8.png'],
