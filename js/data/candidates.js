@@ -5424,8 +5424,8 @@ const SNB = {
     ],
     list: [
       [1, 'Svavar Grétarsson', 'Flotastjóri', 'images/candidates/ca49d6f98e94597e.png', {
-        age: null,
-        bio: 'Svavar Grétarsson er flotastjóri hjá Enterprise Rent-A-Car á Íslandi og er búsettur í Sandgerði á Suðurnesjum. Hann leiðir lista Samfylkingar og óháðra í sveitarstjórnarkosningum í Suðurnesjabæ 2026.',
+        age: 1985,
+        bio: 'Svavar Grétarsson er fæddur árið 1985 og er flotastjóri hjá Enterprise Rent-A-Car á Íslandi. Hann er búsettur í Sandgerði á Suðurnesjum og leiðir lista Samfylkingar og óháðra í sveitarstjórnarkosningum í Suðurnesjabæ 2026.',
         interests: null,
         social: { linkedin: 'https://www.linkedin.com/in/svavar-gr%C3%A9tarsson-129448175/' },
         news: [
