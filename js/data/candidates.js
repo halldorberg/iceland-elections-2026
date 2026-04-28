@@ -9,13 +9,13 @@ const RVK = {
     tagline: 'Breytinga er þörf í Reykjavík',
     platformUrl: 'https://www.hildurbjoss.is/%C3%A1herslur',
     agenda: [
-      { icon: '🚗', title: 'Samgöngur og innviðir', text: 'Greiðar samgöngur með frelsi til að velja ferðamáta; Sundabraut í einkaframkvæmd; endurskoðun bílastæðastefnu; jarðgangakostur milli hverfa; heitir stígar með hreinum orkugjöfum.' },
-      { icon: '🏘️', title: 'Húsnæði og hverfi', text: 'Hverfi hönnuð þannig að þjónusta sé á gangfæri (15 mínútur); ný hverfi í Geldinganesi, Keldnalandi, Granda og Úlfarsárdal; áhersla á eignaríbúðir.' },
-      { icon: '👶', title: 'Menntun og fjölskyldur', text: 'Fjölbreytt úrræði eftir fæðingarorlof: vinnustaðadaggæsla, leikskólapláss og stuðningur við heimagæslu. Grunnskóli með skýr frammistöðumarkmið; jafnt framlag til sjálfstæðra skóla; móttökudeildir fyrir nemendur með erlendan bakgrunn.' },
-      { icon: '🌳', title: 'Umhverfi og lýðheilsa', text: 'Elliðaárdalur stækkaður sem „Central Park" Reykjavíkur; verndun og aukning grænna svæða; auknar hreyfitækifæri og heilsuefling eldri borgara.' },
-      { icon: '🤝', title: 'Velferð og þjónusta', text: 'Fjölbreytt þjónustulíkan í velferðarmálum; auka val borgara í þjónustu óháð því hvort hún er í einkarekstri eða opinberum.' },
-      { icon: '💼', title: 'Atvinnulíf og skattar', text: 'Lægri fasteignaskattar á atvinnuhúsnæði; einföldun reglna fyrir frumkvöðla; borg sem fagnar einkaframtaki og fjölbreyttu atvinnulífi.' },
-      { icon: '🏛️', title: 'Skilvirkni í borgarstjórn', text: 'Fækka borgarfulltrúum úr 23 í 15; selja fyrirtæki borgar sem starfa á samkeppnismarkaði; lýðheilsulegt og hagrænt stjórnarbúskapur.' },
+      { icon: '🚗', title: 'Samgöngur', text: 'Sundabraut reist í einkaframkvæmd; endurskoðun bílastæðakrafna í nýbyggingum; jarðgangar kannaðir milli hverfa; hiti lagður í göngustíga og hjólreiðastíga með hreinum orkugjöfum.' },
+      { icon: '🏘️', title: 'Húsnæði og ný hverfi', text: 'Ný hverfi í Geldinganesi, Keldnalandi, á Granda, í Úlfarsárdal og á Kjalarnesið; öll hverfi hönnuð þannig að dagleg þjónusta sé á 15 mínútna gangfæri; forgangsröðun á eignaríbúðum.' },
+      { icon: '👶', title: 'Leikskólar og börn', text: 'Borgarstuðningur við fyrirtæki sem bjóða upp á daggæslu á vinnustaðnum; fjölbreytt úrræði eftir fæðingarorlof: leikskólapláss, vinnustaðadaggæsla og niðurgreiðslur til foreldra sem eru heima.' },
+      { icon: '📚', title: 'Grunnskólar', text: 'Staðlað mat og skýr frammistöðumarkmið til að setja grunnskóla Reykjavíkur í fremstu röð á Evrópu; jafnt framlag á nemanda óháð því hvort skólinn er opinber eða einkarekin; móttökudeildir fyrir nemendur með erlendan bakgrunn.' },
+      { icon: '🌳', title: 'Umhverfi og aldraðir', text: 'Elliðaárdalur þróaður sem „Central Park" Reykjavíkur; auknar hreyfitækifæri og heilsueflingarþjónusta sérstaklega fyrir eldri borgara.' },
+      { icon: '💼', title: 'Atvinnulíf og skattar', text: 'Lækka fasteignaskatta á atvinnuhúsnæði til að bæta samkeppnisstöðu; einfalda regluverk fyrir fyrirtæki og frumkvöðla; stuðningur við fjölbreytt atvinnulíf.' },
+      { icon: '🏛️', title: 'Skipulag borgarstjórnar', text: 'Fækka borgarfulltrúum úr 23 í 15; selja Ljósleiðarann, malbikunarverksmiðjuna og bílastæðahús borgar; fjölbreytt þjónustulíkan í velferðarmálum.' },
     ],
     list: [
       [1, 'Hildur Björnsdóttir', 'Borgarfulltrúi, listforingi', 'images/candidates/67dfe0122a3c8032.jpg', {
