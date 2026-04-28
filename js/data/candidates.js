@@ -620,13 +620,16 @@ const RVK = {
   },
   P: {
     tagline: 'Bestum borgina fyrir þig',
+    platformUrl: 'https://piratar.is/stefna/reykjavik/',
     agenda: [
-      { icon: '🔍', title: 'Gagnsæi', text: 'Ósamningsskylt gagnsæi í öllum vinnu borgarstjórnar; borgarstjórn sem þjónustuveitandi íbúanna.' },
-      { icon: '🌈', title: 'Fjölbreytni og menning', text: 'Reykjavík sem menningarborg, fjölbreytni og lifandi list; LGBTQ+ inngildning: "Bestum borgina fyrir hinsegin fólk".' },
-      { icon: '🗳️', title: 'Lýðræðisumbætur', text: 'Uppfært lýðræði og bein þátttaka borgarbúa í ákvörðunum borgarinnar.' },
-      { icon: '🍼', title: 'Leikskólar og menntun', text: 'Takast á við fjármögnunarvandamál leikskóla og bæta menntakerfið.' },
-      { icon: '🏊', title: 'Lýðheilsa', text: 'Aðgangur að sundlaugum og heilsugæslu; enginn skilinn eftir.' },
-      { icon: '✊', title: 'Mannréttindi', text: 'Frjálslæg og græn mannréttindahreyfing; baráttan gegn útilokun og mismunun.' },
+      { icon: '🗳️', title: 'Beint lýðræði og einföldun kerfa', text: 'Einfalda kerfi borgarinnar og efla beint lýðræði þannig að röddin borgaríbúa hafi raunveruleg áhrif á sitt nánasta umhverfi. Tilgangur kerfa er alltaf að bæta líf fólks, ekki að flækja það.' },
+      { icon: '🏳️‍🌈', title: 'Mannréttindi og inngildandi samfélag', text: 'Fjármagna hinsegin félagsmiðstöðina (Flotann); tryggja kerfisbundna vinnu gegn hatursræðu; innleiða fjölmenningarstefnuna; tryggja að fólk sem skilur ekki íslensku geti nálgast upplýsingar og tekið þátt í ákvarðanatöku. Skoða sérstaklega stöðu hinsegin eldri borgara.' },
+      { icon: '👶', title: 'Umbylting barnaverndarinnar', text: 'Byrja frá grunni í barnavernd Reykjavíkurborgar — tryggja að ábyrgðakeðja, eftirlit og úttektir séu háttar á gagnsæjan og skilvirkan máta. Barn sem þurfi stuðning á alltaf að upplifa mannúðlega þjónustu þar sem þarfir þess eru hafðar að leiðarljósi.' },
+      { icon: '📚', title: 'Leikskólakennarar, sálfræðingar og listmenntun', text: 'Greiða leiðina fyrir leikskólaleiðbeinendur að fara í kennaranám samhliða vinnu með niðurgreiðslum. Fjölga sálfræðingum og talmeinafræðingum í skólum. Efla listir og iðngreinar í leik- og grunnskólum.' },
+      { icon: '🎭', title: 'Menning og listir: fullt fjármagn og beinn aðgangur', text: 'Fullffjármagna menningarstefnu Reykjavíkurborgar. Fella niður fasteignagjöld fyrir rými notuð undir menningarstarfsemi. Endurskipuleggja sjóðakerfi borgarinnar þannig að listafólk fái beinan aðgang að úthlutun í gegnsæu ferli. Gefa sviðs- og leiklistum og upprennandi tónlistarmönnum æfingarými.' },
+      { icon: '🚌', title: 'Samgöngur: tíðni og þéttleiki', text: 'Auka tíðni strætó í 7–10 mínútna bil. Markmiðið er að 70% íbúa búi innan 400 metra fjarlægðar frá stoppistöð með 10 mínútna tíðni á annatíma eigi síðar en 2040. Halda áfram stækkun hjólastígakerfis og tryggja fleiri öruggar ganguleiðir.' },
+      { icon: '🏘️', title: 'Borgarh́önnun og húsnæði', text: 'Útfæra nýsamþykkta borgarh́önnunarstefnu sem Píratar drófu fram. Mannlegt umhverfi, grænni svæði og gæðabyggð í þéttum hverfum þar sem verslun og þjónusta er í göngufjarlægð. Forgangsraða byggingu á viðráðanlegu húsnæði sem endist.' },
+      { icon: '💻', title: 'Stafræn þjónustuumbyltun og rekstur', text: 'Stafræn þjónustuumbyltun er þegar að skila 1,7 milljarða króna hagræði á ári — meira fjármagn til innviða og þjónustu. Snemmt́æk íhlutun í velferð og barnavernd til að koma í veg fyrir stærri vandamál. Samræma betur rekstur húsnæðis, bílaflota og innkaupa borgarinnar.' },
     ],
     list: [
       [1, 'Kristinn Jón Ólafsson',              'Varaborgafulltrúi (Píratar), listforingi Reykjavíkur',                             'images/candidates/c67d5e1b0d8c5d64.jpg', {
