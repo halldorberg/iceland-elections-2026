@@ -15,7 +15,7 @@ const RVK = {
       { icon: '📚', title: 'Staðlað mat í grunnskólum og jafnt framlag til einkarekinna', text: 'Skýr frammistöðumarkmið og staðlað mat til að setja grunnskóla Reykjavíkur í fremstu röð á Evrópu; jafnt framlag á nemanda óháð því hvort skólinn er opinber eða einkarekin; móttökudeildir með íslenskukennslu.' },
       { icon: '🌳', title: 'Elliðaárdalur sem Central Park Reykjavíkur', text: 'Stækka og þróa Elliðaárdalinn sem miðgarð borgarinnar; auknar hreyfitækifæri og heilsueflingarþjónusta sérstaklega fyrir eldri borgara.' },
       { icon: '📉', title: 'Lægri fasteignaskattar á atvinnuhúsnæði', text: 'Lækka skatta á atvinnuhúsnæði til að bæta samkeppnisstöðu fyrirtækja; einfalda og gera regluverk sveigjanlegra fyrir frumkvöðla.' },
-      { icon: '🏛️', title: 'Selja Ljósleiðarann og bílastæðahús borgar', text: 'Selja fyrirtæki borgar sem starfa á samkeppnismarkaði yfir í einkaeigu; fækka borgarfulltrúum; auka val borgara í velferðarþjónustu.' },
+      { icon: '🏛️', title: 'Selja fyrirtæki borgar í samkeppnisrekstri', text: 'Fyrirtæki í eigu borgar sem starfa á samkeppnismarkaði færð yfir í einkaeigu; fækka borgarfulltrúum; auka val borgara í velferðarþjónustu.' },
     ],
     list: [
       [1, 'Hildur Björnsdóttir', 'Borgarfulltrúi, listforingi', 'images/candidates/67dfe0122a3c8032.jpg', {
