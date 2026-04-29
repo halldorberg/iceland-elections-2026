@@ -13,7 +13,6 @@ Usage:
 import json
 import html as htmllib
 import sys
-import re
 from pathlib import Path
 from datetime import date
 
@@ -173,8 +172,25 @@ def photos_section(photos):
     return rows or '<p style="color:var(--muted)">No photos found.</p>'
 
 
+CLEAR_PAGE = """<!DOCTYPE html>
+<html lang="is">
+<head>
+<meta charset="UTF-8">
+<title>Scan Review</title>
+<style>body{background:#0d1117;color:#8b949e;font-family:sans-serif;display:flex;align-items:center;justify-content:center;min-height:100vh;margin:0;}div{text-align:center;}</style>
+</head>
+<body><div><p style="font-size:48px">✓</p><p>Review approved. No pending scan results.</p></div></body>
+</html>"""
+
+
 def main():
     args = sys.argv[1:]
+
+    if '--clear' in args:
+        OUT.write_text(CLEAR_PAGE, encoding='utf-8')
+        print(f"Cleared: {OUT}")
+        return
+
     scan_date = date.today().isoformat()
     for i, a in enumerate(args):
         if a == '--date' and i + 1 < len(args):
@@ -185,12 +201,7 @@ def main():
     policy_file  = SCAN_DIR / f"policy_{scan_date}.json"
     photos_file  = SCAN_DIR / f"photos_{scan_date}.json"
 
-    bios_data    = load_json(bios_file)
-    news_data    = load_json(news_file)
-    policy_data  = load_json(photos_file)  # reusing var names below
-    photos_data  = load_json(photos_file)
-
-    bios_list    = (bios_data or {}).get('results', [])
+    bios_list    = (load_json(bios_file) or {}).get('results', [])
     news_list    = (load_json(news_file) or {}).get('results', [])
     policy_list  = (load_json(policy_file) or {}).get('results', [])
     photos_list  = (load_json(photos_file) or {}).get('results', None) if photos_file.exists() else None

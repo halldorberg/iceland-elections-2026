@@ -201,11 +201,40 @@ DO NOT read candidates.js. The manifest has everything you need.
 
 ---
 
-## Applying results
+## Reviewing results (before applying)
 
 > ⚠️ **Do not apply, commit, or push anything until the user has reviewed and
-> approved the scan results.** After the scan is complete, summarise what was
-> found and wait for explicit approval before touching any source files.
+> approved the scan results.**
+
+After all scans are complete, generate the review page and push it:
+
+```bash
+python scripts/generate_review.py --date YYYY-MM-DD
+git add scan-review.html
+git commit -m "Update scan review page YYYY-MM-DD"
+git push
+```
+
+The page lives at **https://lydraedisveislan.is/scan-review.html** and is
+password-protected (pw: `happyhappy`). It shows:
+- All bios written, with source info
+- All news articles found, by candidate
+- All party platforms found, with sources
+- All photos found, with where they came from
+
+Wait for the user to review the page and give **explicit approval** before
+proceeding to apply results.
+
+After approval, **clear the review page** so it is blank for the next scan:
+```bash
+# Overwrite with an empty placeholder
+python scripts/generate_review.py --clear
+git add scan-review.html && git commit -m "Clear review page after approval" && git push
+```
+
+---
+
+## Applying results
 
 ```bash
 # Dry run first (no changes written)
