@@ -8261,12 +8261,15 @@ const HFJ = {
       [14, 'Skúli Ingólfsson', 'Frambjóðandi'],
     ],
   },
-  K: {
-    tagline: 'Kex framboð á Hornafirði',
+  HFJK: {
+    tagline: 'Kex Framboð – íbúamiðað framboð á Hornafirði',
+    platformUrl: 'https://www.xkex.is/stefnuskra',
     agenda: [
-      { icon: '🌊', title: 'Sérstök framboð', text: 'Öflugur óháður hópur sem leggur áherslu á þjónustu og samfélag.' },
-      { icon: '👥', title: 'Þátttaka', text: 'Aukin þátttaka íbúa í málefnum sveitarfélagsins.' },
-      { icon: '🏡', title: 'Uppbygging', text: 'Skynsamleg uppbygging og þróun Hornafjörðar.' },
+      { icon: '🎓', title: 'Menntun og íþróttir', text: 'Ljúka hönnun og hefja byggingu nýs íþróttahúss á Höfn, bæta skólaaðstöðu Grunnskóla Hornafjarðar og lækka leikskólagjöld niður í 25.000 kr.' },
+      { icon: '🏠', title: 'Velferð og húsnæði', text: 'Efla húsnæðisframboð í samstarfi við Bríet og félagslegar stofnanir, styrkja þjónustu við aldraða og meta þarfir fatlaðs fólks fyrir búsetuúrræði.' },
+      { icon: '🌋', title: 'Atvinnulíf og ferðaþjónusta', text: 'Móta heildstæða stefnu um framtíð ferðaþjónustunnar í tengslum við Vatnajökulsþjóðgarð, stækka atvinnusvæði á Fjárhúsavík og tryggja rekstrargrundvöll Atvinnu- og rannsóknarsjóðs.' },
+      { icon: '♻️', title: 'Umhverfi og skipulag', text: 'Fara í heildarendurskoðun á sorpmálaflokknum, koma á sanngjörnu gjaldakerfi og reisa hverfisgámar víða um sveitarfélagið.' },
+      { icon: '💰', title: 'Stjórnsýsla og fjármál', text: 'Lækka fasteignagjöld og atvinnuhúsnæðisgjald niður í 1,57%, bæta samskipti við íbúa og einfalda skipulagsferli.' },
     ],
     list: [
       [1, 'Eyrún Fríða Árnadóttir', 'Formaður bæjarráðs og grunnskólakennari', 'images/candidates/8510f42ebdf08095.jpg', {

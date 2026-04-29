@@ -109,7 +109,7 @@ export const MUNICIPALITIES = [
     region: 'Austurland',
     population: 2631,
     coords: { lat: 64.2542, lng: -15.2014 },
-    partyIds: ['B', 'D', 'K', 'M'],
+    partyIds: ['B', 'D', 'HFJK', 'M'],
   },
   {
     id: 'fjallabyggd',
