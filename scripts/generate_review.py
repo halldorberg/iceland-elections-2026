@@ -200,19 +200,22 @@ def main():
         return
 
     scan_date = date.today().isoformat()
+    skip = set()
     for i, a in enumerate(args):
         if a == '--date' and i + 1 < len(args):
             scan_date = args[i + 1]
+        if a == '--skip' and i + 1 < len(args):
+            skip.add(args[i + 1])
 
     bios_file    = SCAN_DIR / f"bios_{scan_date}.json"
     news_file    = SCAN_DIR / f"news_{scan_date}.json"
     policy_file  = SCAN_DIR / f"policy_{scan_date}.json"
     photos_file  = SCAN_DIR / f"photos_{scan_date}.json"
 
-    bios_list    = (load_json(bios_file) or {}).get('results', [])
-    news_list    = (load_json(news_file) or {}).get('results', [])
-    policy_list  = (load_json(policy_file) or {}).get('results', [])
-    photos_list  = (load_json(photos_file) or {}).get('results', None) if photos_file.exists() else None
+    bios_list    = (load_json(bios_file) or {}).get('results', [])   if 'bios'   not in skip else []
+    news_list    = (load_json(news_file) or {}).get('results', [])   if 'news'   not in skip else []
+    policy_list  = (load_json(policy_file) or {}).get('results', []) if 'policy' not in skip else []
+    photos_list  = ((load_json(photos_file) or {}).get('results', None) if photos_file.exists() else None) if 'photos' not in skip else None
 
     total_articles = sum(len(r.get('new_articles', [])) for r in news_list)
     news_cands = len([r for r in news_list if r.get('new_articles')])
