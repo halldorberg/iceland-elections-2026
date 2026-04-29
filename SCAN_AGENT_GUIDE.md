@@ -182,6 +182,9 @@ For each candidate:
      (name, occupation, municipality) rather than leaving it blank.
 3. Record age (as integer years, NOT birth year), interests (array), and social
    links (linkedin, facebook) if found.
+4. Record every URL you used as a source in the `sources` array (even if it
+   only confirmed a single detail). If a search returned nothing useful, still
+   note the search terms in agent_note.
 
 Rate-limit strategy:
 - Process candidates in batches of 10 at a time

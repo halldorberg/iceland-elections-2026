@@ -61,6 +61,12 @@ def bio_section(bios):
             for k, v in b['social'].items():
                 if v:
                     social += f'<a href="{e(v)}" target="_blank" class="social-link">{k}</a> '
+        sources_html = ''
+        for url in (b.get('sources') or []):
+            domain = url.split('/')[2] if url.startswith('http') else url
+            sources_html += f'<a href="{e(url)}" target="_blank" class="source-link">🔗 {e(domain)}</a> '
+        sources_row = f'<div class="sources-row">{sources_html}</div>' if sources_html else ''
+
         rows += f'''
     <div class="card">
       <div class="card-header">
@@ -74,6 +80,7 @@ def bio_section(bios):
       </div>
       <div class="bio-text">{e(b.get("bio",""))}</div>
       <div class="tags-row">{interests}{social}</div>
+      {sources_row}
     </div>'''
     return rows
 
@@ -255,6 +262,7 @@ def main():
   .tags-row { margin-top: 10px; display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }
   .bio-text { color: var(--text); line-height: 1.75; font-size: 13.5px; }
   .social-link { color: var(--accent); font-size: 11px; text-decoration: none; border: 1px solid rgba(88,166,255,.3); border-radius: 10px; padding: 2px 8px; }
+  .sources-row { margin-top: 10px; display: flex; gap: 6px; flex-wrap: wrap; padding-top: 10px; border-top: 1px solid var(--border); }
   .count-badge { background: rgba(210,153,34,.15); color: var(--yellow); border: 1px solid rgba(210,153,34,.25); border-radius: 12px; padding: 2px 10px; font-size: 11px; }
   .articles-list { display: flex; flex-direction: column; gap: 8px; }
   .article-item { display: flex; align-items: flex-start; gap: 10px; padding: 8px 12px; background: var(--surface2); border-radius: 6px; }

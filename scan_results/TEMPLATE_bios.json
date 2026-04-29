@@ -20,7 +20,11 @@
       "social": {
         "linkedin": "https://...",
         "facebook": "https://..."
-      }
+      },
+      "sources": [
+        "https://source-url-1.is/article",
+        "https://source-url-2.is/page"
+      ]
     }
   ]
 }
