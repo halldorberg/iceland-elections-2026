@@ -228,6 +228,77 @@ def apply_policy(src: str, results: list[dict], dry_run: bool) -> tuple[str, int
     return src, changed
 
 
+# ── Bios applier ─────────────────────────────────────────────────────────────
+
+def apply_bios(src: str, results: list[dict], dry_run: bool) -> tuple[str, int]:
+    """
+    For each result entry, update the candidate's extended data block with
+    bio, age, interests, and/or social fields (whichever are provided).
+    Only works for candidates that already have an extended {age:..., bio:...} block.
+    """
+    changed = 0
+    for entry in results:
+        name = entry["name"]
+        name_escaped = re.escape(escape_js(name))
+
+        # Find the candidate's extended block
+        block_re = re.compile(
+            r"(\[\d+\s*,\s*'" + name_escaped + r"'.*?\{)(.*?)(\}(?:\]|,\s*\]))",
+            re.DOTALL
+        )
+        m = block_re.search(src)
+        if not m:
+            print(f"  ⚠ Could not find extended block for: {name}")
+            continue
+
+        block = m.group(2)
+
+        # Apply bio
+        bio = entry.get("bio")
+        if bio:
+            bio_escaped = escape_js(bio)
+            if re.search(r"bio\s*:\s*null", block):
+                block = re.sub(r"bio\s*:\s*null", f"bio: '{bio_escaped}'", block, count=1)
+            elif re.search(r"bio\s*:\s*'", block):
+                block = re.sub(r"bio\s*:\s*'(?:[^'\\]|\\.)*'", f"bio: '{bio_escaped}'", block, count=1)
+
+        # Apply age
+        age = entry.get("age")
+        if age is not None:
+            if re.search(r"age\s*:\s*null", block):
+                block = re.sub(r"age\s*:\s*null", f"age: {int(age)}", block, count=1)
+
+        # Apply interests
+        interests = entry.get("interests")
+        if interests:
+            items = ", ".join(f"'{escape_js(i)}'" for i in interests)
+            arr = f"[{items}]"
+            if re.search(r"interests\s*:\s*null", block):
+                block = re.sub(r"interests\s*:\s*null", f"interests: {arr}", block, count=1)
+
+        # Apply social
+        social = entry.get("social")
+        if social:
+            pairs = ", ".join(f"{k}: '{escape_js(v)}'" for k, v in social.items() if v)
+            obj = f"{{ {pairs} }}"
+            if re.search(r"social\s*:\s*null", block):
+                block = re.sub(r"social\s*:\s*null", f"social: {obj}", block, count=1)
+
+        new_segment = m.group(1) + block + m.group(3)
+        if new_segment == m.group(0):
+            print(f"  ✓ {name}: nothing to update (fields already set or not provided)")
+            continue
+
+        if dry_run:
+            print(f"  [DRY RUN] {name}: would update bio/age/interests/social")
+        else:
+            src = src[:m.start()] + new_segment + src[m.end():]
+            print(f"  ✓ {name}: bio/age/interests/social updated")
+            changed += 1
+
+    return src, changed
+
+
 # ── Validation ────────────────────────────────────────────────────────────────
 
 def quick_validate(src: str) -> bool:
@@ -280,8 +351,8 @@ def main():
     scan_type   = args[0].lower()
     result_file = Path(args[1])
 
-    if scan_type not in ("news", "photos", "policy"):
-        print(f"ERROR: unknown scan type '{scan_type}'. Use: news, photos, policy")
+    if scan_type not in ("news", "photos", "policy", "bios"):
+        print(f"ERROR: unknown scan type '{scan_type}'. Use: news, photos, policy, bios")
         sys.exit(1)
 
     if not result_file.exists():
@@ -313,6 +384,8 @@ def main():
         new_src, changed = apply_photos(src, results, dry_run)
     elif scan_type == "policy":
         new_src, changed = apply_policy(src, results, dry_run)
+    elif scan_type == "bios":
+        new_src, changed = apply_bios(src, results, dry_run)
 
     if dry_run:
         print(f"\nDry run complete. Would have changed {changed} candidate(s)/party(ies).")

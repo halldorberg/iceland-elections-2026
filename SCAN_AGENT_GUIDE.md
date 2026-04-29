@@ -149,6 +149,58 @@ Each agent writes to its own file: `news_YYYY-MM-DD_A.json`, `_B.json`, etc.
 
 ---
 
+### 4. Bios — write candidate biographies
+
+**When:** Anytime. Only candidates in ballot positions 1–6 appear in `missing_bios`.
+Candidates where `has_extended` is `false` cannot be applied automatically — skip them.
+
+**Agent prompt template:**
+
+```
+You are a biography research agent. Your task is to write short Icelandic-language
+biographies for Icelandic municipal election candidates who currently have no bio.
+
+Read the file: scan_manifest.json
+Work through the entries in: manifest["missing_bios"]
+
+Skip any entry where has_extended is false — those cannot be applied automatically.
+
+For each candidate:
+1. Search broadly for the candidate's full name to find biographical details:
+   - Age or birth year
+   - Education and career background
+   - Community roles, union work, board memberships
+   - Political history (previous terms, other parties, other offices)
+   - Personal interests, hobbies, family if publicly known
+   - Any interviews or quotes
+   Try: "<name> site:mbl.is OR site:visir.is OR site:ruv.is OR site:vf.is"
+   Also try LinkedIn, party websites, municipal council pages.
+2. Write a bio of 3–5 sentences in Icelandic, in third person.
+   - Stick strictly to what sources confirm — do not invent details.
+   - If age/birth year is found, include it.
+   - If very little is found, write a minimal 1–2 sentence bio from what is known
+     (name, occupation, municipality) rather than leaving it blank.
+3. Record age (as integer years, NOT birth year), interests (array), and social
+   links (linkedin, facebook) if found.
+
+Rate-limit strategy:
+- Process candidates in batches of 10 at a time
+- Write partial results to the output file after every batch — do not wait until the end
+
+Resuming after a rate limit:
+- If the user asks you to continue scanning after a rate limit, read the partial
+  results file to find which candidates you already processed, then continue from
+  the first candidate not yet in that file, writing to the same file.
+
+Result format — write to: scan_results/bios_YYYY-MM-DD.json
+Use TEMPLATE: scan_results/TEMPLATE_bios.json
+
+IMPORTANT: Bios must be written in Icelandic.
+DO NOT read candidates.js. The manifest has everything you need.
+```
+
+---
+
 ## Applying results
 
 > ⚠️ **Do not apply, commit, or push anything until the user has reviewed and
@@ -160,11 +212,13 @@ Each agent writes to its own file: `news_YYYY-MM-DD_A.json`, `_B.json`, etc.
 python scripts/apply_scan_results.py news   scan_results/news_2026-05-01.json --dry-run
 python scripts/apply_scan_results.py photos scan_results/photos_2026-05-01.json --dry-run
 python scripts/apply_scan_results.py policy scan_results/policy_2026-05-01.json --dry-run
+python scripts/apply_scan_results.py bios   scan_results/bios_2026-05-01.json --dry-run
 
 # Apply for real
 python scripts/apply_scan_results.py news   scan_results/news_2026-05-01.json
 python scripts/apply_scan_results.py photos scan_results/photos_2026-05-01.json
 python scripts/apply_scan_results.py policy scan_results/policy_2026-05-01.json
+python scripts/apply_scan_results.py bios   scan_results/bios_2026-05-01.json
 ```
 
 After applying, bump the cache-bust version in `js/municipality.js` (line 3):

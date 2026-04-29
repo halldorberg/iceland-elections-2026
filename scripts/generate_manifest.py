@@ -266,6 +266,27 @@ def parse_candidates_js(path: Path):
             "tagline":          current_tagline,
         })
 
+    # ── Step 3a: detect which candidates already have a bio ──────────────────
+    # Look for bio: 'non-empty text' and find the name that precedes it
+    has_bio_names: set[str] = set()
+    for m in re.finditer(r"bio\s*:\s*'([^']{1,})'", src):
+        prefix = src[max(0, m.start() - 600):m.start()]
+        name_matches = re.findall(r"\[\d+\s*,\s*'((?:[^'\\]|\\.)*?)'", prefix)
+        if name_matches:
+            has_bio_names.add(name_matches[-1].replace("\\'", "'"))
+
+    # Detect candidates that have an extended data block {age:..., bio:...}
+    has_extended_names: set[str] = set()
+    for m in re.finditer(r"bio\s*:\s*(?:null|')", src):
+        prefix = src[max(0, m.start() - 600):m.start()]
+        name_matches = re.findall(r"\[\d+\s*,\s*'((?:[^'\\]|\\.)*?)'", prefix)
+        if name_matches:
+            has_extended_names.add(name_matches[-1].replace("\\'", "'"))
+
+    for c in candidates:
+        c['has_bio']      = c['name'] in has_bio_names
+        c['has_extended'] = c['name'] in has_extended_names
+
     # ── Step 3: extract news URLs per candidate via regex ─────────────────────
     # Build a lookup by name for the news extraction pass
     cand_index: dict[str, list] = {}
@@ -344,6 +365,23 @@ def build_manifest(parties, candidates):
         for p in parties if not p["has_platform_url"]
     ]
 
+    # Missing bios — top 6 per list, candidates with extended block but no bio
+    # (ballot > 6 are skipped — writing bios for every candidate is not realistic)
+    missing_bios = [
+        {
+            "id":           f"{c['muni_slug'][:3].upper()}.{c['party_code']}.{c['ballot']}",
+            "muni_slug":    c["muni_slug"],
+            "muni_label":   c["muni_label"],
+            "party_code":   c["party_code"],
+            "ballot":       c["ballot"],
+            "name":         c["name"],
+            "occupation":   c["occupation"],
+            "has_extended": c["has_extended"],
+        }
+        for c in candidates
+        if not c["has_bio"] and c["ballot"] <= 6
+    ]
+
     # All candidates for news refresh, sorted: fewest news first (highest priority)
     news_candidates = sorted(
         [
@@ -371,12 +409,14 @@ def build_manifest(parties, candidates):
             "total_parties":     len(parties),
             "missing_photos":    len(missing_photos),
             "missing_policy":    len(missing_policy),
+            "missing_bios":      len(missing_bios),
             "zero_news":         sum(1 for c in candidates if c["news_count"] == 0),
             "low_news_1_3":      sum(1 for c in candidates if 1 <= c["news_count"] <= 3),
             "good_news_4_plus":  sum(1 for c in candidates if c["news_count"] >= 4),
         },
         "missing_photos":   missing_photos,
         "missing_policy":   missing_policy,
+        "missing_bios":     missing_bios,
         "news_candidates":  news_candidates,
     }
 
@@ -455,6 +495,32 @@ NEWS_RESULT_TEMPLATE = {
 }
 
 
+BIO_RESULT_TEMPLATE = {
+    "_instructions": (
+        "Add one entry per candidate whose bio was written. Only include candidates "
+        "whose has_extended flag is true in the manifest (others can't be applied automatically). "
+        "Bio must be written in Icelandic. Remove this _instructions key when done. "
+        "Apply with: python scripts/apply_scan_results.py bios scan_results/YOUR_FILE.json"
+    ),
+    "scan_type":  "bios",
+    "scan_date":  "YYYY-MM-DD",
+    "agent_note": "Describe search strategy used",
+    "results": [
+        {
+            "id":          "RVK.D.1",
+            "muni_slug":   "reykjavik",
+            "party_code":  "D",
+            "ballot":      1,
+            "name":        "Example Name",
+            "age":         45,
+            "bio":         "Bio text written in Icelandic...",
+            "interests":   ["Interest 1", "Interest 2", "Interest 3"],
+            "social":      {"linkedin": "https://...", "facebook": "https://..."}
+        }
+    ]
+}
+
+
 # ── Main ──────────────────────────────────────────────────────────────────────
 
 def main():
@@ -484,6 +550,7 @@ def main():
     print(f"  Parties:         {s['total_parties']}")
     print(f"  Missing photos:  {s['missing_photos']}")
     print(f"  Missing policy:  {s['missing_policy']}")
+    print(f"  Missing bios:    {s['missing_bios']} (ballot 1–6)")
     print(f"  Zero news:       {s['zero_news']}")
     print(f"  Low news (1-3):  {s['low_news_1_3']}")
     print(f"  Good news (4+):  {s['good_news_4_plus']}")
@@ -493,6 +560,7 @@ def main():
         ("scan_results/TEMPLATE_photos.json",  PHOTO_RESULT_TEMPLATE),
         ("scan_results/TEMPLATE_policy.json",  POLICY_RESULT_TEMPLATE),
         ("scan_results/TEMPLATE_news.json",    NEWS_RESULT_TEMPLATE),
+        ("scan_results/TEMPLATE_bios.json",    BIO_RESULT_TEMPLATE),
     ]
     for fname, tmpl in templates:
         p = ROOT / fname

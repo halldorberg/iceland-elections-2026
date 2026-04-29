@@ -1,0 +1,26 @@
+{
+  "_instructions": "Add one entry per candidate whose bio was written. Only include candidates whose has_extended flag is true in the manifest (others can't be applied automatically). Bio must be written in Icelandic. Remove this _instructions key when done. Apply with: python scripts/apply_scan_results.py bios scan_results/YOUR_FILE.json",
+  "scan_type": "bios",
+  "scan_date": "YYYY-MM-DD",
+  "agent_note": "Describe search strategy used",
+  "results": [
+    {
+      "id": "RVK.D.1",
+      "muni_slug": "reykjavik",
+      "party_code": "D",
+      "ballot": 1,
+      "name": "Example Name",
+      "age": 45,
+      "bio": "Bio text written in Icelandic...",
+      "interests": [
+        "Interest 1",
+        "Interest 2",
+        "Interest 3"
+      ],
+      "social": {
+        "linkedin": "https://...",
+        "facebook": "https://..."
+      }
+    }
+  ]
+}
