@@ -1,6 +1,6 @@
 import { MUNICIPALITIES } from './data/municipalities.js?v=14';
 import { PARTIES } from './data/parties.js?v=4';
-import { getMunicipalityPartyData } from './data/candidates.js?v=41';
+import { getMunicipalityPartyData } from './data/candidates.js?v=42';
 import { RESULTS_2022 } from './data/results2022.js?v=2';
 import { getLang, t, renderLangSwitcher } from './i18n.js?v=3';
 
