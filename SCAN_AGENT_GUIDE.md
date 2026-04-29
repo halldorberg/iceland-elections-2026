@@ -172,6 +172,11 @@ After applying, bump the cache-bust version in `js/municipality.js` (line 3):
 import { ... } from './data/candidates.js?v=21';  // increment by 1
 ```
 
+Then run translations before committing:
+```bash
+python scripts/i18n_translate_pending.py
+```
+
 Then commit and push.
 
 ---
