@@ -5314,16 +5314,24 @@ const SNB = {
     ],
     list: [
       [1, 'Anton Kristinn Guðmundsson', 'Stjórnunarfræðingur og bæjarfulltrúi', 'images/candidates/cbb3090c42e062ac.jpg', {
-        age: null,
-        bio: null,
-        interests: null,
+        age: 32,
+        bio: 'Anton Kristinn Guðmundsson er fæddur 1. desember 1993 og er búsettur í Sandgerði. Hann lærði upphaflega matreiðslu og hlaut sveinsbréf sem matreiðslumeistari, en nam síðar stjórnsýslufræði. Hann hefur verið í bæjarstjórn Suðurnesjabæjar frá kosningum 2022 og gegndi þar embætti formanns bæjarráðs. Hann barðist sérstaklega fyrir því að heilsugæslustöð yrði reist í sveitarfélaginu — mál sem varð að veruleika á kjörtímabilinu. Anton leiðir B-listann (Framsókn og óháðir) í Suðurnesjabæ í kosningum 2026.',
+        interests: ['Heilbrigðisþjónusta', 'Efnahagsþróun á Suðurnesjum', 'Sveitarstjórnarmál', 'Skilvirkur rekstur sveitarfélaga'],
         social: null,
         news: [
           { title: 'Framsóknarflokkurinn tryggir heilbrigðisþjónustu í Suðurnesjabæ', url: 'https://www.visir.is/g/20242614877d/framsoknarflokkurinn-tryggir-heilbrigdisthjonustu-i-sudurnesjabae', source: 'visir.is' },
           { title: 'Árangur á vakt Framsóknar í Suðurnesjabæ', url: 'https://www.visir.is/g/20262872778d/arangur-a-vakt-framsoknar-i-sudurnesjabae', source: 'visir.is' },
         ],
       }],
-      [2, 'Magnús Sigfús Magnússon', 'Formaður verkalýðsfélags og bæjarfulltrúi', 'images/candidates/39a07c2ead23beec.jpg', { age: null, bio: null, interests: null, social: null, news: [] }],
+      [2, 'Magnús Sigfús Magnússon', 'Formaður verkalýðsfélags og bæjarfulltrúi', 'images/candidates/39a07c2ead23beec.jpg', {
+        age: null,
+        bio: 'Magnús Sigfús Magnússon er húsasmiðameistari að mennt og er búsettur í Sandgerði. Hann hefur verið formaður Verkalýðs- og sjómannafélag Sandgerðis frá árinu 2008 — nú þegar í yfir 17 ár. Magnús á langa reynslu í sveitarstjórnarmálum á Suðurnesjum, þar sem hann þjónaði í ríflega 12 ár í bæjarstjórnum Sveitarfélagsins Garðs, Sandgerðisbæjar og síðar Suðurnesjabæjar. Hann er í bæjarstjórn Suðurnesjabæjar og er annar á B-lista Framsóknar og óháðra í kosningum 2026.',
+        interests: ['Verkalýðsmál og réttindi launafólks', 'Sveitarstjórnarmál', 'Þróun Sandgerðis og nærsamfélagsins'],
+        social: null,
+        news: [
+          { title: 'Hvar búa þau sem ætla að gæta hagsmuna íbúa í Suðurnesjabæ?', url: 'https://www.vf.is/frettir/hvar-bua-thau-sem-aetla-ad-gaeta-hagsmuna-ibua-i-sudurnesjabae', source: 'vf.is' },
+        ],
+      }],
       [3, 'Ólöf Ólafsdóttir', 'Umsjónarmaður íþróttamannvirkja', 'images/candidates/5bfee0d76e82046f.jpg'],
       [4, 'Sindri Lars Ómarsson', 'Grunnskólakennari', 'images/candidates/7ee642a5465e40c4.jpg'],
       [5, 'Ewa Krysztopa', 'Starfsmaður sundlaugar', 'images/candidates/df3779c75480de90.jpg'],
