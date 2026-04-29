@@ -122,8 +122,8 @@ Result format — write to: scan_results/news_YYYY-MM-DD.json
 Use TEMPLATE: scan_results/TEMPLATE_news.json
 
 Rate-limit strategy:
-- Process in batches of 20 candidates at a time
-- If you hit a rate limit, stop and write partial results immediately
+- Process candidates in batches of 10 at a time
+- Write partial results to the output file after every batch — do not wait until the end
 - Each agent should receive a slice of the list (e.g. items 0-49, 50-99...)
   to allow parallel scanning without overlap
 
