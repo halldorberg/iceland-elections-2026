@@ -5,7 +5,7 @@
   display: flex;
   flex-direction: column;
   background:
-    radial-gradient(ellipse at 30% 20%, rgba(13,31,60,0.88) 0%, rgba(10,14,26,0.92) 60%),
+    radial-gradient(ellipse at 30% 20%, rgba(13,31,60,0.94) 0%, rgba(10,14,26,0.97) 60%),
     url('../images/bg-hero2.jpg') center/cover no-repeat fixed;
 }
 
