@@ -5304,7 +5304,7 @@ const GRN = {
 const SNB = {
   B: {
     tagline: 'Anton Kristinn Guðmundsson leiðir Framsókn og óháða í Suðurnesjabæ',
-    platformUrl: 'https://www.framsokn.is/sveitarfelog/sudurnesjabaer',
+    platformUrl: 'https://www.framsokn.is/blog/verdmaetaskopun-tryggir-lifsgaedin',
     agenda: [
       { icon: '💼', title: 'Atvinnuþróun', text: 'Öflugt atvinnulíf sem skapar störf og eykur tekjur sveitarfélagsins — undirstaða velferðar og lífsgæða.' },
       { icon: '✈️', title: 'Flugvöllur og höfn', text: 'Nýta einstæðar búsetuskilyrði — alþjóðaflugvöll og hafnarsvæði — til fjölbreyttrar efnahagsþróunar og nýsköpunar.' },
