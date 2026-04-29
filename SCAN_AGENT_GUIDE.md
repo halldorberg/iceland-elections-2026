@@ -127,6 +127,12 @@ Rate-limit strategy:
 - Each agent should receive a slice of the list (e.g. items 0-49, 50-99...)
   to allow parallel scanning without overlap
 
+Resuming after a rate limit:
+- If the user asks you to continue scanning after a rate limit, read the partial
+  results file you were already writing to find out which candidates you already
+  processed, then pick up from the first candidate not yet in that file and
+  continue writing to the same file.
+
 IMPORTANT: Do not include duplicates. Check existing news_urls carefully.
 DO NOT read candidates.js. The manifest has everything you need.
 ```
