@@ -271,6 +271,21 @@ function trackEvent(name, params) {
   if (typeof gtag === 'function') gtag('event', name, params);
 }
 
+// When there are few parties the default 66vh cap leaves dead space at the
+// bottom on mobile. Give the expanded panel the full remaining viewport height
+// so the screen is always filled. Falls back to CSS defaults for busy layouts.
+function applyMobileExpandedHeight(expandedEl) {
+  if (!expandedEl || window.innerWidth > 768) return;
+  const navH       = 72;                               // .accordion-section { top: 72px }
+  const collapsedH = (muni.partyIds.length - 1) * 56; // 56px per collapsed ribbon
+  const available  = window.innerHeight - navH - collapsedH;
+  const cssDefault = Math.round(0.66 * window.innerHeight);
+  if (available > cssDefault) {
+    expandedEl.style.maxHeight = available + 'px';
+    expandedEl.style.minHeight = available + 'px';
+  }
+}
+
 function switchParty(code) {
   activeParty = code;
 
@@ -292,13 +307,21 @@ function switchParty(code) {
       ? `linear-gradient(160deg, ${p.accentColor || p.color} 0%, ${p.color} 100%)`
       : p.color;
 
+    // Clear any previously-set inline height overrides on collapsed ribbons
+    if (!isNowExpanded) {
+      r.style.maxHeight = '';
+      r.style.minHeight = '';
+    }
+
     if (isNowExpanded) expandedEl = r;
   });
 
-  // On mobile the container is a fixed-height scroll zone — bring the
-  // newly expanded ribbon to the top so the user sees its content AND
-  // can still scroll down to reach the collapsed ribbons below it.
+  // On mobile the container is a fixed-height scroll zone.
   if (expandedEl && window.innerWidth <= 768) {
+    applyMobileExpandedHeight(expandedEl);
+
+    // Bring the newly expanded ribbon to the top so the user sees its
+    // content AND can still scroll down to reach the collapsed ribbons.
     requestAnimationFrame(() => {
       expandedEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
     });
@@ -760,6 +783,12 @@ container.addEventListener('click', e => {
 // ─── Boot ──────────────────────────────────────────────────
 
   renderAccordion();
+
+  // On mobile, fix the initial expanded panel height for sparse party lists
+  if (window.innerWidth <= 768) {
+    const initExpanded = container.querySelector('.party-ribbon.is-expanded');
+    applyMobileExpandedHeight(initExpanded);
+  }
 
   // Track the initially displayed party
   trackEvent('party_open', {
