@@ -109,7 +109,11 @@ SCOPE: Only process candidates where muni_slug is one of:
 
 For each candidate:
 1. Check their existing news_urls (skip articles already in this list)
-2. Search: "<name> <muni_label> kosningar 2026" and "<name> sveitarstjórn"
+2. Search broadly for the candidate's name — not just election coverage. Try:
+   - "<name>" alone
+   - "<name> <muni_label>"
+   - "<name> site:mbl.is OR site:visir.is OR site:ruv.is OR site:vf.is"
+   Include any article about them: career, community work, sport, culture, business, interviews, etc.
 3. Add only articles published AFTER 2025-01-01
 4. Add maximum 3 new articles per candidate per scan
 5. Include title, url, and source (domain name)
