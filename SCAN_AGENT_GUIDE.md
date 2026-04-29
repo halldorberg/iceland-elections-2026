@@ -151,6 +151,10 @@ Each agent writes to its own file: `news_YYYY-MM-DD_A.json`, `_B.json`, etc.
 
 ## Applying results
 
+> ⚠️ **Do not apply, commit, or push anything until the user has reviewed and
+> approved the scan results.** After the scan is complete, summarise what was
+> found and wait for explicit approval before touching any source files.
+
 ```bash
 # Dry run first (no changes written)
 python scripts/apply_scan_results.py news   scan_results/news_2026-05-01.json --dry-run
