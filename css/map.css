@@ -4,7 +4,9 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background: radial-gradient(ellipse at 30% 20%, #0d1f3c 0%, #0a0e1a 60%);
+  background:
+    radial-gradient(ellipse at 30% 20%, rgba(13,31,60,0.88) 0%, rgba(10,14,26,0.92) 60%),
+    url('../images/bg-hero.png') center/cover no-repeat fixed;
 }
 
 /* Header */
