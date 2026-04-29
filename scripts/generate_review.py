@@ -118,7 +118,10 @@ def news_section(news):
 
 def policy_section(policies):
     if not policies:
-        return '<p style="color:var(--muted)">No policy results file found.</p>'
+        return '''<div class="scan-note" style="background:rgba(248,81,73,.08);border-color:rgba(248,81,73,.25);color:#f85149">
+      ⚠️ Policy scan results have been removed pending a re-scan with stricter source verification.
+      Only platforms with clearly verifiable online sources will be included.
+    </div>'''
     rows = ''
     for p in policies:
         agenda_html = ''
@@ -154,14 +157,12 @@ def photos_section(photos):
   </div>'''
     rows = ''
     for p in photos:
-        photo_img = ''
-        if p.get('photo_local'):
-            photo_img = f'<img src="{e(p["photo_local"])}" alt="{e(p["name"])}" class="photo-thumb">'
-        elif p.get('photo_url'):
-            photo_img = f'<img src="{e(p["photo_url"])}" alt="{e(p["name"])}" class="photo-thumb">'
-        source_html = ''
-        if p.get('photo_source_url'):
-            source_html = f'<a href="{e(p["photo_source_url"])}" target="_blank" class="source-link">🔗 Source</a>'
+        # photo_local is a root-relative path; photo_url is the remote original
+        img_src = p.get('photo_local') or p.get('photo_url') or ''
+        photo_img = f'<img src="{e(img_src)}" alt="{e(p["name"])}" class="photo-thumb">' if img_src else ''
+        # source field holds the page the photo came from
+        source_url = p.get('source') or p.get('photo_source_url') or ''
+        source_html = f'<a href="{e(source_url)}" target="_blank" class="source-link">🔗 Source</a>' if source_url else ''
         rows += f'''
     <div class="card photo-card">
       {photo_img}
@@ -173,7 +174,7 @@ def photos_section(photos):
           <span class="badge tertiary">#{p.get("ballot","?")}</span>
           {source_html}
         </div>
-        {f'<div class="agenda-text" style="margin-top:6px">{e(p.get("photo_note",""))}</div>' if p.get("photo_note") else ""}
+        {f'<div class="agenda-text" style="margin-top:6px">{e(p.get("photo_local",""))}</div>' if p.get("photo_local") else ""}
       </div>
     </div>'''
     return rows or '<p style="color:var(--muted)">No photos found.</p>'
