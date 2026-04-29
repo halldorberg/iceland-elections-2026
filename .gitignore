@@ -1,5 +1,6 @@
 download-images.ps1
 image-mapping.tsv
+.env
 
 # Scan system — generated files, not source
 scan_manifest.json

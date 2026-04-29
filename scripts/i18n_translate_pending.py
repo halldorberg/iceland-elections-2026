@@ -17,6 +17,14 @@ import os, sys, json, time
 from pathlib import Path
 from openai import OpenAI
 
+# Load .env from project root if present
+_env = Path(__file__).parent.parent / '.env'
+if _env.exists():
+    for _line in _env.read_text(encoding='utf-8').splitlines():
+        if '=' in _line and not _line.startswith('#'):
+            _k, _v = _line.split('=', 1)
+            os.environ.setdefault(_k.strip(), _v.strip())
+
 MODEL      = 'gpt-5.4'
 BATCH_SIZE = 40
 
