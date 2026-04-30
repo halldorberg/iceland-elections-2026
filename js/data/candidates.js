@@ -755,14 +755,16 @@ const RVK = {
     ],
   },
   M: {
-    tagline: 'Lægri skattar, verndun grænna svæða og uppbygging samgöngumiðstöðvar á Akureyri',
-    platformUrl: 'https://midflokkurinn.is/akureyri',
+    tagline: 'Látum heilbrigða skynsemi taka yfir Ráðhús Reykjavíkur.',
+    platformUrl: 'https://midflokkurinn.is/reykjavik',
     agenda: [
-        { icon: '💰', title: 'Lægri skattar', text: 'Miðflokkurinn vill lækka útsvarsprósentuna og lækka álagningu fasteignagjalda til að létta byrðar á íbúum.' },
-        { icon: '🌿', title: 'Verndun grænna svæða', text: 'Flokkurinn vill vernda græn svæði bæjarins og kveður á um að ekki skuli gengið frekar á þau.' },
-        { icon: '🏫', title: 'Skólastarf í fyrirrúmi', text: 'Haldið verður ótrautt áfram uppbyggingu og endurbótum á leik- og grunnskólum á Akureyri.' },
-        { icon: '🚌', title: 'Framtíðar samgöngumiðstöð', text: 'Tími framtíðar samgöngumiðstöðvar á Akureyri er kominn — flokkurinn mun vinna að því verkefni.' },
-        { icon: '🏠', title: 'Húsnæði og aðstaða aldraðra', text: 'Miðflokkurinn mun fylgja eftir áformum um stækkun á félagsaðstöðu eldri borgara og tryggja fötluðum einstaklingum búsetu við hæfi.' },
+        { icon: '🏛️', title: 'Viðsnúningur í rekstri', text: 'Grunnþjónustu Reykjavíkurborgar hefur verið illa sinnt á meðan gæluverkefni hafa fengið athygli og næringu.' },
+        { icon: '🚗', title: 'Umferð án þvingungar', text: 'Ástand samgöngumála í Reykjavík er algerlega óviðunandi og hefur versnað til muna á undanförnum árum.' },
+        { icon: '🏗️', title: 'Skipulag með skynsemishyggju', text: 'Mannvænt borgarskipulag getur ekki falist í takmarkalausri þéttingu byggðar með minni íbúðum og þrengra umhverfi.' },
+        { icon: '👧', title: 'Barnvæn borg', text: 'Skorur á leikskólaplássum hefur sett fjölskyldur í Reykjavík í óviðunandi stöðu og þrengt að svigrúmi þeirra.' },
+        { icon: '📚', title: 'Skólar í fremstu röð', text: 'Íslenska skólakerfið hefur dregist aftur úr samanburðarlöndum í námsárangri af mörgum ástæðum.' },
+        { icon: '🤝', title: 'Góð borg óháð stöðu', text: 'Miðflokkurinn vill standa vörð um það sem er vel gert í velferðarþjónustu borgarinnar.' },
+        { icon: '🎭', title: 'Menningarborgin Reykjavík', text: 'Frjósamt menningarstarf er kjarninn í blómlegri borg.' },
     ],
     list: [
       [1, 'Ari Edwald',                      'Lögfræðingur, viðskiptahagfræðingur; fyrrverandi forstjóri 365 miðla', 'images/candidates/1f49f3ecb5b2ceef.jpg', {
@@ -998,14 +1000,20 @@ const RVK = {
     ],
   },
   C: {
-    tagline: 'Akranes á að vera eftirsóknarverðasti bærinn á höfuðborgarsvæðinu — með börn og fjölskyldur í forgrunni og ábyrgri fjármálastjórnun',
-    platformUrl: 'https://www.visir.is/g/20262875231d/akranes-a-ad-vera-eftirsoknarverdasti-baerinn-fersk-nalgun-med-vidreisn',
+    tagline: 'Góð þjónusta við Reykvíkinga er aðalverkefni borgarinnar.',
+    platformUrl: 'https://vidreisnreykjavik.is/malefni',
     agenda: [
-        { icon: '👨‍👩‍👧', title: 'Börn í forgrunni', text: 'Við ætlum að setja börnin í forgrunn allra ákvarðana og stækka ungbarnaleikskóla til að mæta eftirspurn.' },
-        { icon: '💸', title: 'Stöðvum auknar álögur', text: 'Við getum ekki haldið áfram að hækka álögur — fasteignaskattar og skuldir á íbúa hafa nær tvöfaldast og það verður stöðvað.' },
-        { icon: '🏗️', title: 'Skilvirkari stjórnsýsla', text: 'Við munum greina kerfisbundið ferla sveitarfélagsins, eyða flöskuhálsum og innleiða stafrænar lausnir til að stytta afgreiðslutíma leyfa.' },
-        { icon: '🏭', title: 'Fjölbreytt atvinnulíf', text: 'Við ætlum að byggja upp kraftmikið og öflugt atvinnulíf með samkeppnishæfum lóðaverðum og stuðningi við nýsköpun.' },
-        { icon: '🏘️', title: 'Velferðarþjónusta', text: 'Við ætlum að fara vel með fé íbúa og skila peningum íbúa út í þjónustuna — skóla, velferð og innviði — í stað stjórnsýslu.' },
+        { icon: '🔄', title: 'Snúum Reykjavík við', text: 'Viðreisn vill nýta tækifærin sem blasa við til þess að taka til í borgarkerfinu.' },
+        { icon: '👨‍👩‍👧', title: 'Börn og fjölskyldur', text: 'Viðreisn vill einfalda daglegt líf barna og fjölskyldna í Reykjavík.' },
+        { icon: '🏛️', title: 'Byggingar og eignir borgarinnar', text: 'Eignasjóður Reykjavíkurborgar er stærsta fasteignafélag landsins, en er ekki rekið í samræmi við það.' },
+        { icon: '🏠', title: 'Húsnæði fyrir fólk', text: 'Húsnæðisuppbygging og skipulagsmál eru eitt af lykilverkefnum borgarinnar.' },
+        { icon: '🚌', title: 'Samgöngumál', text: 'Góðar samgöngur eru lykilatriði fyrir Reykvíkinga.' },
+        { icon: '🎭', title: 'Menning', text: 'Menning er órjúfanlegur hluti af lífinu í borginni og lykill að lifandi og skemmtilegu samfélagi.' },
+        { icon: '🏊', title: 'Íþróttir og lýðheilsa', text: 'Íþróttir, útivist og hreyfing eru lykilþáttur í lýðheilsu.' },
+        { icon: '🌍', title: 'Fjölmenning', text: 'Viðreisn styður við fjölbreytt samfélag og vill auðvelda öllum að aðlagast íslenskri menningu.' },
+        { icon: '🤝', title: 'Velferð', text: 'Velferð borgarbúa byggir á mannréttindum, virðingu og sjálfsákvörðunarrétti hvers og eins.' },
+        { icon: '💼', title: 'Atvinnulífið', text: 'Blómlegt atvinnulíf gerir Reykjavík að betri stað til að búa á.' },
+        { icon: '🌿', title: 'Græn og heilnæm borg', text: 'Umhverfismál eru lykilmál í Reykjavík.' },
     ],
     list: [
       [1,  'Björg Magnúsdóttir',             'Blaðamaður, höfundur, sjónvarpsþátttakandi; vann leiðtogakosninguna 31. jan. 2026', 'images/candidates/3da63444e2aaf7d7.jpg', {
@@ -1220,13 +1228,15 @@ const RVK = {
     ],
   },
   J: {
-    tagline: 'Reykjavík í þágu allra — húsnæði, réttindi og jöfnuður',
-    platformUrl: 'https://utvarpsaga.is/sosialistar-kynna-frambod-og-aherslur-fyrir-borgarstjornarkosningar/',
+    tagline: 'Sameiginlegir innviðar þjóna almenningi — ekki sérhagsmunum.',
+    platformUrl: 'https://sosialistaflokkurinn.is/stefna',
     agenda: [
-      { icon: '🏠', title: 'Húsnæðismál', text: 'Stofna byggingafélag á vegum borgarinnar sem byggi og reki óhagnaðardrifið húsnæði; lóðir borgarinnar fari í félagslega uppbyggingu.' },
-      { icon: '🚌', title: 'Samgöngur', text: 'Færa rekstur almenningssamgangna í hendur borgarinnar, lækka fargjöld og bæta tengingar; andstaða við einkarekstur í bílastæðamálum.' },
-      { icon: '📚', title: 'Menntun', text: 'Efla stoðþjónustu innan skóla, fjölga sérfræðingum; aukin áhersla á íslenskukennslu, tómstundastarf og skólamáltíðir.' },
-      { icon: '🛒', title: 'Matvælamál og velferð', text: 'Reykjavíkurborg setji á fót eigin matvöruverslanir gegn háu verði; hætta útvistun verkefna borgarinnar.' },
+      { icon: '🤝', title: 'Velferð og öryggi', text: 'Heilbrigðiskerfið og hjúkrunarheimilin eru að sligast undan álagi. Sósíalistarnir vilja tryggja að eldri borgarar geti lifað með reisn og að innflytjendur fái markvissar móttökur og fræðslu.' },
+      { icon: '🏛️', title: 'Innvistum grunnþjónustu', text: 'Sameiginlegir innviðir eiga að þjóna almenningi, ekki markaðsvæðast. Reykjavíkurborg á að vera sterkur og sanngjarn vinnuveitandi sem stendur vörð um grunnþjónustu.' },
+      { icon: '📚', title: 'Skóla- og frístundamál', text: 'Skólakerfið er mikilvægasta jöfnunartæki samfélagsins. Tryggja þarf jöfn tækifæri allra barna til náms og skapa uppbyggilegt umhverfi þar sem þau dafna.' },
+      { icon: '🚌', title: 'Betri samgöngur í almannaeigu', text: 'Efla þarf Strætó með tíðari ferðum, betri tengingum við grunnþjónustu og lækkun fargjalda. Almenningssamgöngur eiga að vera í eigu og rekstri hins opinbera.' },
+      { icon: '🏠', title: 'Kerfisbreyting í húsnæðismálum', text: 'Byggingafyrirtæki og fjárfestar hafa skrúfað upp verðlag og lamað húsnæðismarkaðinn. Kominn er tími á nýtt kerfi með Byggingafélagi Reykjavíkur í óhagnaðardrifnum rekstri.' },
+      { icon: '🛒', title: 'Borgarbúðir', text: 'Matvöruverð hafa hækkað uppúr öllu valdi á meðan stórfyrirtæki skila methagnaði. Sósíalistarnir vilja að Reykjavík stofni eigin borgarbúðir til að brjóta einokun á matvörumarkaði.' },
     ],
     list: [
       [1, 'Silja Sóley Birgisdóttir', 'Stuðningsfulltrúi', 'images/candidates/67589f0cb35ea8ed.jpg', {
