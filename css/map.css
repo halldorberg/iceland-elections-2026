@@ -745,6 +745,7 @@
   box-shadow: 0 4px 16px rgba(0,0,0,0.4);
   color: rgba(255,255,255,0.6);
   transition: background 0.15s, color 0.15s;
+  pointer-events: auto;
 }
 .disclaimer-badge:hover {
   background: rgba(26, 86, 219, 0.7);
