@@ -1162,7 +1162,7 @@ const RVK = {
           { title: 'Töldu framboðinu ekki til fram­dráttar að mæta í þáttinn', url: 'https://www.visir.is/g/20262869531d/toldu-frambodinu-ekki-til-fram-drattar-ad-maeta-i-thattinn', source: 'visir.is' },
         ],
       }],
-      [2, 'Hjördís Dröfn Vilhjálmsdóttir', 'Leiðtoga- og teymisþjálfari', 'images/candidates/7bf5d3e940e2e319.png', {
+      [2, 'Hjördís Dröfn Vilhjálmsdóttir', 'Leiðtoga- og teymisþjálfari', 'https://gdf.is/wp-content/uploads/2026/04/Hjordis.png', {
         age: null,
         bio: 'Hjördís Dröfn Vilhjálmsdóttir er leiðtoga- og teymisþjálfari með alþjóðlega ACC-vottun frá ICF. Hún er með MSc í stjórnun og stefnumótun og BSc í hagfræði frá Háskóla Íslands. Hún sat í stjórn Regins hf. frá 2013 til 2022 og hefur áratugareynslu í breytinga- og krísustjórnun.',
         heimild: [{ url: 'https://www.linkedin.com/in/hjordisdrofnvilhjalmsdottir/', label: 'LinkedIn' }, { url: 'https://www.icficeland.is/team-1/hj%C3%B6rd%C3%ADs-dr%C3%B6fn-vilhj%C3%A1lmsd%C3%B3ttir', label: 'icficeland.is' }, { url: 'https://view.news.eu.nasdaq.com/view?id=b0093efc2638d3bf981b4e030b11b06f5&lang=is', label: 'nasdaq.com' }],
