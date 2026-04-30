@@ -5351,9 +5351,9 @@ const SNB = {
       { icon: '💼', title: 'Atvinnulíf', text: 'Þróun atvinnulífs á Suðurnesjum.' },
     ],
     list: [
-      [1, 'Haukur Andreásson', 'Lögfræðingur og fasteignasali hjá Allt fasteignir', 'images/candidates/077ff34fa2132ee5.jpg', {
+      [1, 'Haukur Andreasson', 'Lögfræðingur og fasteignasali hjá Allt fasteignir', 'images/candidates/077ff34fa2132ee5.jpg', {
         age: null,
-        bio: 'Haukur Andreásson er lögfræðingur og löggiltur fasteignasali hjá Allt fasteignasölu á Suðurnesjum og býr í Sandgerði. Hann leiðir D-listann (D-listinn og óháðir), lista Sjálfstæðisflokksins og óháðra, í sveitarstjórnarkosningum í Suðurnesjabæ 2026.',
+        bio: 'Haukur Andreasson er lögfræðingur og löggiltur fasteignasali hjá Allt fasteignasölu á Suðurnesjum og býr í Sandgerði. Hann leiðir D-listann (D-listinn og óháðir), lista Sjálfstæðisflokksins og óháðra, í sveitarstjórnarkosningum í Suðurnesjabæ 2026.',
         interests: ['Húsnæðismál og fasteignamarkaður', 'Atvinnuþróun og frumkvæði', 'Umhverfismál', 'Menning, íþróttir og æskulýðsmál'],
         social: null,
         news: [
