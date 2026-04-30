@@ -1137,12 +1137,14 @@ const RVK = {
   },
   G: {
     tagline: 'Góðan daginn — nýtt andlit í Reykjavík',
-    platformUrl: 'https://gdf.is/',
+    platformUrl: 'https://gdf.is/stefnumalin/',
     agenda: [
-      { icon: '🏛️', title: 'Skipulag og rekstur', text: 'Einfalda skipulag borgarinnar, hagræða í rekstri og draga úr skuldasöfnun.' },
-      { icon: '🔒', title: 'Rekstraröryggi', text: 'Sérstök áhersla á öryggi í rekstri og traustar stjórnsýsluaðferðir.' },
-      { icon: '👂', title: 'Íbúasamráð', text: 'Hlusta á borgarbúa — reglulegar viðhorfskannanir og betri samband við íbúa.' },
-      { icon: '🚇', title: 'Samgöngur', text: 'Andstaða við upphaflega Borgarlínuáætlun; stuðningur við Sundagang (göng í stað brúar).' },
+      { icon: '👂', title: 'Þjónusta og samráð við borgarbúa', text: 'Mikilvægasta hlutverk borgarinnar er að veita íbúum góða og áreiðanlega þjónustu. Góðan daginn vill innleiða reglulegar þjónustukannanir, setja mælanleg markmið og birta niðurstæður á opinn og gegnsæjan hátt — þannig viti borgarbúar hvernig þjónustan stendur.' },
+      { icon: '💰', title: 'Ábyrg fjármálastjórn', text: 'Einfalda þarf skipulag borgarinnar, hagræða í rekstri og draga úr skuldasöfnun. Skýr stefna, mælanleg markmið og hæft starfsfólk eru forsendur þess að reksturinn þjóni borgarbúum vel og sé sjálfbær til framtíðar.' },
+      { icon: '🚗', title: 'Umferð og bílastæðamál', text: 'Áður en teknar eru afgerandi ákvarðanir um samgöngukerfi þarf betri gögn um ferðavenjur á höfuðborgarsvæðinu. Góðan daginn leggur áherslu á að leysa umferðaröngþveiti, bjóða upp á raunhæfa samgönguvalkosti og einfalda gjaldskrá bílastæðakerfisins.' },
+      { icon: '🏘️', title: 'Skipulag og þétting hverfa', text: 'Tryggja þarf raunhæft hverfaskipulag með að lágmarki 1,5 bílastæði á hverja íbúð og leyfa bílakjallara þar sem við á. Þétting byggðar á ekki að fara fram án samþykkis íbúa; endurskoða þarf reglur um lýsingu og birtu í íbúðarbyggð aftur til eldri viðmiða.' },
+      { icon: '🧒', title: 'Leikskólar og grunnskólar', text: 'Góðan daginn vill lögbinda leikskólaþjónustu; þar til það verður að veruleika skuli foreldrar sem fá ekki pláss við 12 mánaða aldur fá niðurgreiðslur. Í grunnskólamálum þarf að endurmeta núverandi skólalíkan með áherslu á niðurstæður áður en frekari breytingar eru gerðar, og efla sérkennsluna.' },
+      { icon: '💼', title: 'Starfsumhverfi og atvinnulíf', text: 'Góð þjónusta borgarinnar byggir á starfsfólki sem nýtur trausts, stuðnings og góðra kjara. Samhliða þarf að vinna með atvinnulífinu að því að koma í veg fyrir flótta fyrirtækja frá Reykjavík, einfalda leyfisveitingar og auðvelda stofnun nýrra fyrirtækja.' },
     ],
     list: [
       [1, 'Ingimar Þór Friðriksson', 'Framkvæmdastjóri', 'https://gdf.is/wp-content/uploads/2026/04/Ingimar.png', {
