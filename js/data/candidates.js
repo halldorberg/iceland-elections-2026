@@ -3628,9 +3628,9 @@ const KOP = {
       { icon: '👨‍👩‍👧', title: 'Velferð barna', text: 'Húsnæðisstöðugleiki skiptir máli fyrir fjármál fjölskyldna og velferð barna; tíðar flutningar rjúfa tengsl.' },
     ],
     list: [
-      [1, 'Markús Candi', 'Leikjahönnuður, stuðningsmaður', null, {
-        age: 26,
-        bio: 'Markús Candi er 26 ára leikjahönnuður og stuðningsmaður sem kennir við Suðurhlíðarskóla og Tækniskólann. Hann leiðir lista Sósíalistaflokksins í Kópavogi.',
+      [1, 'Markús Candi', 'Stuðningsfulltrúi í grunnskóla og leikjahönnuður', 'https://storage.googleapis.com/xj-strapi-uploads/kop_01_markus_color_2a70edddf8/kop_01_markus_color_2a70edddf8.jpg', {
+        age: 27,
+        bio: 'Markús Candi er 27 ára leikjahönnuður og stuðningsfulltrúi í grunnskóla sem kennir við Suðurhlíðarskóla og Tækniskólann. Hann leiðir lista Sósíalistaflokksins í Kópavogi.',
         heimild: [{ url: 'https://sudurhlidarskoli.is/staff/markus-candi/', label: 'sudurhlidarskoli.is' }, { url: 'https://tskoli.is/stafraen-honnun/markus/', label: 'tskoli.is' }, { url: 'https://www.linkedin.com/in/mark%C3%BAs-candi-7262481b6/', label: 'LinkedIn' }],
         interests: ['Húsnæðisöryggi og félagslegt leiguhúsnæði', 'Hagkvæmari leikskólaþjónusta', 'Réttindi launafólks'],
         social: [
@@ -3644,9 +3644,9 @@ const KOP = {
           { title: 'Sósíalistaflokkurinn býður fram í Kópavogi', url: 'https://www.kopavogsbladid.is/sosialistaflokkurinn-bydur-fram-i-kopavogi/', source: 'kopavogsbladid.is' },
         ],
       }],
-      [2, 'Anna Ceridwen Auðnudóttir', 'Listfræðinemi', null, {
-        age: null,
-        bio: 'Anna Ceridwen Auðnudóttir er stuðningsfulltrúi og listfræðinemi, 26 ára að aldri. Hún er í öðru sæti á framboðslista Sósíalistaflokks Íslands í Kópavogi við sveitarstjórnarkosningarnar 2026.',
+      [2, 'Anna Ceridwen Auðnudóttir', 'Stuðningsfulltrúi í grunnskóla og listfræðinemi', 'https://storage.googleapis.com/xj-strapi-uploads/kop_02_anna_color_bc9d80092b/kop_02_anna_color_bc9d80092b.jpg', {
+        age: 26,
+        bio: 'Anna Ceridwen Auðnudóttir er stuðningsfulltrúi í grunnskóla og listfræðinemi, 26 ára að aldri. Hún er í öðru sæti á framboðslista Sósíalistaflokks Íslands í Kópavogi við sveitarstjórnarkosningarnar 2026.',
         heimild: [{ url: 'https://www.sosialistaflokkurinn.is/frettir/3-efstu-saeti-i-kopavogsbae', label: 'Sósíalistaflokkurinn' }],
         interests: null,
         social: null,
@@ -3654,8 +3654,8 @@ const KOP = {
           { title: '3 efstu sæti í Kópavogsbæ', url: 'https://www.sosialistaflokkurinn.is/frettir/3-efstu-saeti-i-kopavogsbae', source: 'sosialistaflokkurinn.is' },
         ],
       }],
-      [3, 'Marzuk Ingi Lamsiah Svanlaugar', 'Tölvunarfræðingur', null, {
-        age: null,
+      [3, 'Marzuk Ingi Lamsiah Svanlaugar', 'Tölvunarfræðingur', 'https://storage.googleapis.com/xj-strapi-uploads/kop_03_marzuk_color_1699b9f8eb/kop_03_marzuk_color_1699b9f8eb.jpg', {
+        age: 29,
         bio: 'Marzuk Ingi Lamsiah Svanlaugar er tölvunarfræðingur og forritari, 29 ára að aldri. Hann starfaði sem aðstoðarkennari í vefforritun við Háskóla Íslands og var á framboðslista Sósíalistaflokks Íslands í Suðvesturkjördæmi við alþingiskosningar 2024.',
         heimild: [{ url: 'https://www.sosialistaflokkurinn.is/frettir/3-efstu-saeti-i-kopavogsbae', label: 'Sósíalistaflokkurinn' }, { url: 'https://heimildin.is/kosningar/althingiskosningar-2024/frambjodandi/J/marzuk-ingi-lamsiah-svanlaugar/?samanburdur=e495b50a7cf62d997cc94e14661c6cbb6f3bfdb0', label: 'Heimildin' }],
         interests: null,
