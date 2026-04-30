@@ -640,7 +640,7 @@ function openModal(id) {
 
   const fallback = localAvatar(c.name);
   const photo = document.getElementById('modal-photo');
-  photo.style.objectPosition = 'center top';
+  photo.style.objectPosition = 'center 20%';
   photo.style.transition = '';
   photo.src = c.imageUrl;
   photo.alt = c.name;
