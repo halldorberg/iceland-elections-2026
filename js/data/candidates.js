@@ -1679,7 +1679,7 @@ const AKU = {
       [20, 'Þórarinn B. Jónsson', 'Fyrrverandi bæjarfulltrúi', 'images/candidates/0eaac9eebe19a85e.png'],
       [21, 'Njáll Trausti Friðbertsson', 'Þingmaður og fyrrverandi bæjarfulltrúi', 'images/candidates/38321cd651150a28.png'],
     
-      [22, 'Lára Halldóra Eiríksdóttir', 'Frambjóðandi', 'images/candidates/591e2f1d43c1f425.jpg'],
+      [22, 'Lára Halldóra Eiríksdóttir', 'Bæjarfulltrúi', 'images/candidates/591e2f1d43c1f425.jpg'],
     ],
   },
   B: {
@@ -2917,7 +2917,7 @@ const MOS = {
       [20, 'Nína Huld Leifsdóttir', 'Hársnyrtikona', 'images/candidates/636c616f56a8510d.jpg'],
       [21, 'Aron Valur Gunnlaugsson', 'Kaupsýslumaður', 'images/candidates/2689f152a4cb3008.jpg'],
     
-      [22, 'Salome Þorkelsdóttir', 'Frambjóðandi', 'images/candidates/f99a75f4858d47d2.jpg'],
+      [22, 'Salome Þorkelsdóttir', 'Heiðursborgari', 'images/candidates/f99a75f4858d47d2.jpg'],
     ],
   },
   B: {
@@ -4520,7 +4520,7 @@ const SEL = {
       [12, 'Kristín Fenger Vermundsdóttir', 'Bókasafnsfræðingur'],
       [13, 'Óli Björn Kárason', 'Fv. þingmaður'],
     
-      [14, 'Petrea Ingibjörg Jónsdóttir', 'Frambjóðandi', 'images/candidates/e4c1ef31d7690c48.jpg'],
+      [14, 'Petrea Ingibjörg Jónsdóttir', 'Fyrrverandi skrifstofustjóri', 'images/candidates/e4c1ef31d7690c48.jpg'],
     ],
   },
   M: {
@@ -4878,7 +4878,7 @@ const RNB = {
       [20, 'Harpa B. Sævarsdóttir', 'Eigandi Plús ehf.', 'https://sulukast.is/assets/frambjodandi-20-DACJLpp-.jpg'],
       [21, 'Hjörleifur Stefánsson', 'Framkvæmdastjóri Nesraf', 'https://sulukast.is/assets/frambjodandi-21-yyLgIN-c.jpg'],
     
-      [22, 'Margrét Sanders', 'Frambjóðandi', 'images/candidates/4906bf5c51f8b94d.jpg'],
+      [22, 'Margrét Sanders', 'Bæjarfulltrúi og fráfarandi oddviti', 'images/candidates/4906bf5c51f8b94d.jpg'],
     ],
   },
   M: {
@@ -5237,7 +5237,7 @@ const GRN = {
       { icon: '💰', title: 'Fjármál', text: 'Ábyrg fjármálastjórnun.' },
     ],
     list: [
-      [1, 'Guðbjörg Eyjólfsdóttir', 'Frambjóðandi', 'images/candidates/b7a4f0d89e7404de.jpg', {
+      [1, 'Guðbjörg Eyjólfsdóttir', 'Innheimtufulltrúi', 'images/candidates/b7a4f0d89e7404de.jpg', {
         age: null,
         bio: 'Guðbjörg Eyjólfsdóttir er formaður Járngerðar, borgaralegs samtaka um endurreisn og framtíð Grindavíkur, kjörin í mars 2025. Hún er í 1. sæti á D-lista Sjálfstæðisflokksins í Grindavík.',
         heimild: [{ url: 'https://kosningasaga.wordpress.com/2026/03/18/frambodslisti-framsoknar-i-grindavik/', label: 'kosningasaga.wordpress.com' }],
@@ -5246,19 +5246,19 @@ const GRN = {
         news: [],
       }],
       [2, 'Hjálmar Hallgrímsson', 'Lögreglumaður', 'images/candidates/2dd8bcd683b51edf.jpg', { age: null, bio: 'Hjálmar Hallgrímsson er lögreglumaður á Suðurnesjum og formaður bæjarráðs Grindavíkur, þar sem hann hefur verið bæjarfulltrúi Sjálfstæðisflokksins frá 2014. Hann leiðir D-lista og er oddviti flokksins í bænum.', interests: null, social: null, news: [] }],
-      [3, 'Ómar Davíð Ólafsson', 'Frambjóðandi', 'images/candidates/0b69eac7ddcb2aac.jpg'],
-      [4, 'Ólöf Rún Óladóttir', 'Frambjóðandi', 'images/candidates/3705c401bd555a97.jpg'],
-      [5, 'Eva Lind Matthíasdóttir', 'Frambjóðandi', 'images/candidates/28e94b4840820564.jpg'],
-      [6, 'Guðmundur Pálsson', 'Frambjóðandi', 'images/candidates/35e9b10eab1c02d7.jpg'],
-      [7, 'Jón Breki Einarsson', 'Frambjóðandi', 'images/candidates/01398c5a397cea94.jpg'],
-      [8, 'Dagmar Valsdóttir', 'Frambjóðandi', 'images/candidates/87953ca564f72270.jpg'],
-      [9, 'Friðrik Þór Sigurðsson', 'Frambjóðandi', 'images/candidates/01b42bf408061b81.jpg'],
-      [10, 'Margrét Kristín Pétursdóttir', 'Frambjóðandi'],
-      [11, 'Gréta Dögg Hjálmarsdóttir', 'Frambjóðandi', 'images/candidates/e6f2b86ec2b7bc09.jpg'],
-      [12, 'Natalía Freyja Gunnarsdóttir', 'Frambjóðandi', 'images/candidates/247ef297bb94ec7e.jpg'],
-      [13, 'Helgi Leó Leifsson', 'Frambjóðandi', 'images/candidates/30f073c8ed727974.jpg'],
+      [3, 'Ómar Davíð Ólafsson', 'Vélsmiður', 'images/candidates/0b69eac7ddcb2aac.jpg'],
+      [4, 'Ólöf Rún Óladóttir', 'Reikningaskil og bókhald', 'images/candidates/3705c401bd555a97.jpg'],
+      [5, 'Eva Lind Matthíasdóttir', 'Þjónustustjóri', 'images/candidates/28e94b4840820564.jpg'],
+      [6, 'Guðmundur Pálsson', 'Tannlæknir', 'images/candidates/35e9b10eab1c02d7.jpg'],
+      [7, 'Jón Breki Einarsson', 'Söluráðgjafi', 'images/candidates/01398c5a397cea94.jpg'],
+      [8, 'Dagmar Valsdóttir', 'Gistihúsaeigandi', 'images/candidates/87953ca564f72270.jpg'],
+      [9, 'Friðrik Þór Sigurðsson', 'Sundlaugarvörður', 'images/candidates/01b42bf408061b81.jpg'],
+      [10, 'Margrét Kristín Pétursdóttir', 'Forstöðumaður Gæðamála'],
+      [11, 'Gréta Dögg Hjálmarsdóttir', 'Kennari', 'images/candidates/e6f2b86ec2b7bc09.jpg'],
+      [12, 'Natalía Freyja Gunnarsdóttir', 'Þjónn og nemi', 'images/candidates/247ef297bb94ec7e.jpg'],
+      [13, 'Helgi Leó Leifsson', 'Starfsmaður í Fiskeldi', 'images/candidates/30f073c8ed727974.jpg'],
     
-      [14, 'Otti Rafn Sigmársson', 'Frambjóðandi', 'images/candidates/799cb2b7040bf7f5.jpg'],
+      [14, 'Otti Rafn Sigmársson', 'Framkvæmdarstjóri', 'images/candidates/799cb2b7040bf7f5.jpg'],
     ],
   },
   M: {
@@ -5733,7 +5733,7 @@ const ARB = {
       [20, 'Andri Hrafn Hallsson', 'Tannlæknir', 'images/candidates/c11e4ca44df35603.jpg'],
       [21, 'Júlía Katrín Sigmundsdóttir', 'Háskólanemi', 'images/candidates/71f4b2c7a56a2d32.jpg'],
     
-      [22, 'Ari Thorarensen', 'Frambjóðandi', 'images/candidates/e7ebec5da1eea97f.jpg'],
+      [22, 'Ari Thorarensen', 'Fangavörður', 'images/candidates/e7ebec5da1eea97f.jpg'],
     ],
   },
   S: {
@@ -5863,7 +5863,7 @@ const VME = {
       [16, 'Guðný Rún Gísladóttir', 'Framhaldsskólanemi'],
       [17, 'Jason Stefánsson', 'Endurskoðandi', 'images/candidates/3a90254b0a7546f8.jpg'],
     
-      [18, 'Elísabet Arnoddsdóttir', 'Frambjóðandi', 'images/candidates/08a8a4d0ab62fd39.jpg'],
+      [18, 'Elísabet Arnoddsdóttir', 'Hjúkrunarfræðingur', 'images/candidates/08a8a4d0ab62fd39.jpg'],
     ],
   },
   E: {
@@ -6026,7 +6026,7 @@ const NPG = {
       [16, 'Anna Rósa Magnúsdóttir', 'Viðskiptasérfræðingur'],
       [17, 'Oddur Vilhelm Jóhannsson', 'Skipstjóri'],
     
-      [18, 'Stella Borgþóra Þorláksdóttir', 'Frambjóðandi'],
+      [18, 'Stella Borgþóra Þorláksdóttir', 'Heiðurskona'],
     ],
   },
   NPM: {
@@ -6204,11 +6204,11 @@ const FJB = {
       [8, 'Egill Ólason', 'Sjómaður', 'images/candidates/7e95e9b89616a5d3.jpg'],
       [9, 'Sandra Finnsdóttir', 'Fyrirtækjaeigandi', 'images/candidates/130423f33d69063e.jpg'],
       [10, 'Ásgeir Frímannsson', 'Sjómaður', 'images/candidates/e41276a9b037bea7.jpg'],
-      [11, 'Halldór Ingvar Guðmundsson', 'Frambjóðandi', 'images/candidates/998b2c137f57d24e.jpg'],
-      [12, 'Björk Óladóttir', 'Frambjóðandi', 'images/candidates/8b10e0eed0a10939.jpg'],
-      [13, 'Þorsteinn Ásgeirsson', 'Frambjóðandi', 'images/candidates/06bbd0943e8db1cd.jpg'],
+      [11, 'Halldór Ingvar Guðmundsson', 'Grunnskólakennari', 'images/candidates/998b2c137f57d24e.jpg'],
+      [12, 'Björk Óladóttir', 'Leikskólakennari', 'images/candidates/8b10e0eed0a10939.jpg'],
+      [13, 'Þorsteinn Ásgeirsson', 'Eldri borgari', 'images/candidates/06bbd0943e8db1cd.jpg'],
     
-      [14, 'S. Guðrún Hauksdóttir', 'Frambjóðandi', 'images/candidates/f40930654282423d.jpg'],
+      [14, 'S. Guðrún Hauksdóttir', 'Verkakona', 'images/candidates/f40930654282423d.jpg'],
     ],
   },
   H: {
@@ -6596,7 +6596,7 @@ const RTY = {
       [12, 'Guðrún Karlsdóttir', 'Læknir', 'images/candidates/98c71d6b8e9d21d3.jpg'],
       [13, 'Sævar Jónsson', 'Húsasmíðameistari', 'images/candidates/93ab006bf3f7c479.jpg'],
     
-      [14, 'Eydís Þorbjörg Indriðadóttir', 'Frambjóðandi', 'images/candidates/3e26f3ac9c7b8d04.jpg'],
+      [14, 'Eydís Þorbjörg Indriðadóttir', 'Grunnskólakennari og sveitarstjórnarfulltrúi', 'images/candidates/3e26f3ac9c7b8d04.jpg'],
     ],
   },
 };
@@ -6635,7 +6635,7 @@ const OLF = {
       [12, 'Böðvar Guðbjörn Jónsson', 'Gagnasafnsþróunarstjóri', 'images/candidates/1d22a5f33603d6dc.jpg'],
       [13, 'Sævar Elí Kjartansson', 'Trésmiður og aðalþjálfari', 'images/candidates/5011fa53a1b0c6f0.jpg'],
     
-      [14, 'Ásta Júlía Jónsdóttir', 'Frambjóðandi', 'images/candidates/0c3f9a486181cb2a.jpg'],
+      [14, 'Ásta Júlía Jónsdóttir', 'Fv. Kennari', 'images/candidates/0c3f9a486181cb2a.jpg'],
     ],
   },
   S: {
@@ -6702,7 +6702,7 @@ const SKR = {
       [8, 'Anna Magdalena Buda', 'Aðstoðarhotelstjóri'],
       [9, 'Atli Sigurðarson', 'Bóndi'],
     
-      [10, 'Rannveig E. Bjarnadóttir', 'Frambjóðandi', 'images/candidates/5a06fdbfb6da7998.jpg'],
+      [10, 'Rannveig E. Bjarnadóttir', 'Eftirlaunaþegi og fyrirtækjaeigandi', 'images/candidates/5a06fdbfb6da7998.jpg'],
     ],
   },
   SKO: {
@@ -7162,7 +7162,7 @@ const DVB = {
         social: null,
         news: [],
       }],
-      [2, 'Bessi Ragúels Víðisson', 'Frambjóðandi', 'images/candidates/65cd1fc0f302c816.jpg', { age: null, bio: 'Bessi Ragúels Víðisson er eigandi Fincafresh; hann er á 2. sæti á framboðslista Sjálfstæðisflokksins í Dalvíkurbyggð í sveitarstjórnarkosningum 2026.', interests: null, social: null, news: [] }],
+      [2, 'Bessi Ragúels Víðisson', 'Eigandi Fincafresh', 'images/candidates/65cd1fc0f302c816.jpg', { age: null, bio: 'Bessi Ragúels Víðisson er eigandi Fincafresh; hann er á 2. sæti á framboðslista Sjálfstæðisflokksins í Dalvíkurbyggð í sveitarstjórnarkosningum 2026.', interests: null, social: null, news: [] }],
       [3, 'Auður Olga Arnarsdóttir', '', 'images/candidates/e4c399a311c9e55a.jpg'],
       [4, 'Sindri Ólafsson', '', 'images/candidates/afd601e73c38df20.jpg'],
       [5, 'Birta Dís Jónsdóttir', '', 'images/candidates/2adfa276d6538387.jpg'],
@@ -7175,7 +7175,7 @@ const DVB = {
       [12, 'Selma Rut Guðmundsdóttir', '', 'images/candidates/9250aa3e471b53bb.jpg'],
       [13, 'Jed Jovannie Cortes Nuez', '', 'images/candidates/4f982e1aff37b5f3.jpg'],
     
-      [14, 'Freyr Antonsson', 'Frambjóðandi', 'images/candidates/ca05958d3701bc22.jpg'],
+      [14, 'Freyr Antonsson', 'Fyrrum sveitarstjórnarfulltrúi og eigandi Arctic Sea Tours', 'images/candidates/ca05958d3701bc22.jpg'],
     ],
   },
 
@@ -7463,7 +7463,7 @@ const HNB = {
           { title: 'Sjálfstæðismenn og óháðir samþykkja framboðslista', url: 'https://huni.is/index.php?cid=22686&pid=32', source: 'huni.is' },
         ],
       }],
-      [2, 'Zophonías Ari Lárusson', 'Frambjóðandi', 'images/candidates/02e79effa3397748.jpg', { age: null, bio: null, interests: null, social: null, news: [] }],
+      [2, 'Zophonías Ari Lárusson', 'Framkvæmdastjóri og húsasmíðameistari', 'images/candidates/02e79effa3397748.jpg', { age: null, bio: null, interests: null, social: null, news: [] }],
       [3, 'Kolbrún Ágústa Guðnadóttir', '', 'images/candidates/32c42fb2e27c8836.jpg'],
       [4, 'Sævar Björgvinsson', '', 'images/candidates/a839f1fe8ddc6a6f.jpg'],
       [5, 'Ragnhildur Haraldsdóttir', '', 'images/candidates/1cc05916946a5818.jpg'],
@@ -7480,7 +7480,7 @@ const HNB = {
       [16, 'Jón Árni Magnússon', '', 'images/candidates/d867b1dbfdf8eb50.jpg'],
       [17, 'Linda Björk Ævarsdóttir', '', 'images/candidates/6e49abaa2ab724c2.jpg'],
     
-      [18, 'Magnús Rúnar Sigurðsson', 'Frambjóðandi', 'images/candidates/73e28e5b0de37d4e.jpg'],
+      [18, 'Magnús Rúnar Sigurðsson', 'Fyrrverandi bóndi', 'images/candidates/73e28e5b0de37d4e.jpg'],
     ],
   },
 
@@ -7656,7 +7656,7 @@ const SFJ = {
       [16, 'Merete Rabølle', 'Bóndi', 'images/candidates/fa0e7219f44c7067.jpg'],
       [17, 'Árni Egilsson', 'Skrifstofustjóri', 'images/candidates/e9abb1c50c33cd96.jpg'],
     
-      [18, 'Gísli Sigurðsson', 'Frambjóðandi', 'images/candidates/4da0d3e8b9a60438.jpg'],
+      [18, 'Gísli Sigurðsson', 'Framkvæmdastjóri', 'images/candidates/4da0d3e8b9a60438.jpg'],
     ],
   },
   SFL: {
@@ -8027,7 +8027,7 @@ const FJD = {
       [16, 'Íris Katla Guðmundsdóttir', 'Umhverfis- og auðlindavísindamaður', 'images/candidates/25d8b7202646f4b3.jpg'],
       [17, 'Sigurjón Rúnarsson', 'Sjúkraþjálfari', 'images/candidates/3082cddbd8883ba4.jpg'],
     
-      [18, 'Kristinn Aðalsteinsson', 'Frambjóðandi', 'images/candidates/668a4d349d25cb35.jpg'],
+      [18, 'Kristinn Aðalsteinsson', 'Fjárfestir', 'images/candidates/668a4d349d25cb35.jpg'],
     ],
   },
   M: {
@@ -8254,7 +8254,7 @@ const HFJ = {
       [12, 'Gísli Þórarinn Hallsson', 'Formaður ungra sjálfstæðismanna', 'images/candidates/6433d00d3d3c7762.jpg'],
       [13, 'Tinna Rut Sigurðardóttir', 'Atvinnubílstjóri', 'images/candidates/50868f745d485388.png'],
     
-      [14, 'Skúli Ingólfsson', 'Frambjóðandi', 'images/candidates/0f94ecc619df3a66.jpg'],
+      [14, 'Skúli Ingólfsson', 'Gæðastjóri', 'images/candidates/0f94ecc619df3a66.jpg'],
     ],
   },
   HFJK: {
@@ -8499,7 +8499,7 @@ const AKR = {
       [16, 'Ella María Gunnarsdóttir', 'Sérfræðingur', 'images/candidates/7270168e05ca49bf.jpg'],
       [17, 'Guðný Jóna Ólafsdóttir', 'Verkefnastjóri', 'images/candidates/d672d79535aff56b.jpg'],
     
-      [18, 'Ólafur Guðmundur Adolfsson', 'Frambjóðandi', 'images/candidates/a6509b39f21d49dc.jpg'],
+      [18, 'Ólafur Guðmundur Adolfsson', 'Alþingismaður', 'images/candidates/a6509b39f21d49dc.jpg'],
     ],
   },
   M: {
@@ -8736,7 +8736,7 @@ const BBD = {
       [16, 'Jónína Erna Arnarsdóttir', 'Starfsmaður', 'images/candidates/74b9ef5ce85870ff.jpg'],
       [17, 'Axel Freyr Eiríksson', 'Starfsmaður', 'images/candidates/1ef5decc959943c4.jpg'],
     
-      [18, 'Magnús Birgir Jónsson', 'Frambjóðandi', 'images/candidates/54dd15a5f2636312.jpg'],
+      [18, 'Magnús Birgir Jónsson', 'Fyrrverandi Rektor LBHÍ', 'images/candidates/54dd15a5f2636312.jpg'],
     ],
   },
   M: {
@@ -8928,7 +8928,7 @@ const ISF = {
       [16, 'Gísli Jón Hjaltason', 'Framkvæmdastjóri', 'images/candidates/eb88a51197905dfc.jpg'],
       [17, 'Kristín Karlsdóttir', 'Fyrrverandi móttökustjóri', 'images/candidates/2bc08977898d0363.jpg'],
     
-      [18, 'Jóhann Birkir Helgason', 'Frambjóðandi', 'images/candidates/119dfde7fd478e63.jpg'],
+      [18, 'Jóhann Birkir Helgason', 'Byggingartæknifræðingur', 'images/candidates/119dfde7fd478e63.jpg'],
     ],
   },
   M: {
@@ -9151,21 +9151,21 @@ const GFJ = {
       { icon: '🌿', title: 'Umhverfismál', text: 'Vernd náttúru og sjálfbær nýting auðlinda svæðisins.' },
     ],
     list: [
-      [1, 'Jósef Kjartansson', 'Frambjóðandi', 'images/candidates/440bcfb114a80149.jpg'],
-      [2, 'Sigurhanna Ágústa Einarsdóttir', 'Frambjóðandi', 'images/candidates/b1644385c3d1d650.jpg'],
-      [3, 'Bjarni Sigurbjörnsson', 'Frambjóðandi', 'images/candidates/663dbd1b68b90464.jpg'],
-      [4, 'Sigurður Gísli Guðjónsson', 'Frambjóðandi', 'images/candidates/17d608169b459e24.jpg'],
-      [5, 'Davíð Magnússon', 'Frambjóðandi', 'images/candidates/7b43ecb6ec8e9f77.jpg'],
-      [6, 'Sólveig Ásta Bergvinsdóttir', 'Frambjóðandi', 'images/candidates/9b8f4be427e3e4ce.jpg'],
-      [7, 'Lilja Björk Bjarnadóttir', 'Frambjóðandi', 'images/candidates/65b2d8f1a181c389.jpg'],
-      [8, 'Guðbrandur Gunnar Garðarsson', 'Frambjóðandi', 'images/candidates/ff998a2d1dba1d31.jpg'],
-      [9, 'Hallfríður Guðný Ragnarsdóttir', 'Frambjóðandi', 'images/candidates/99d258ad0dd97f6c.jpg'],
-      [10, 'Elín Sigurðardóttir', 'Frambjóðandi', 'images/candidates/a1ddfd60dc942d44.jpg'],
-      [11, 'Sunneva Gissurardóttir', 'Frambjóðandi', 'images/candidates/11dd758ebe717044.jpg'],
-      [12, 'Marta Magnúsdóttir', 'Frambjóðandi', 'images/candidates/2f04f1cd64d5eea0.jpg'],
-      [13, 'Arnar Kristjánsson', 'Frambjóðandi'],
+      [1, 'Jósef Kjartansson', 'Verktaki og forseti bæjarstjórnar', 'images/candidates/440bcfb114a80149.jpg'],
+      [2, 'Sigurhanna Ágústa Einarsdóttir', 'Framkvæmdastjóri, einka- og markþjálfi', 'images/candidates/b1644385c3d1d650.jpg'],
+      [3, 'Bjarni Sigurbjörnsson', 'Bóndi', 'images/candidates/663dbd1b68b90464.jpg'],
+      [4, 'Sigurður Gísli Guðjónsson', 'Skólastjóri', 'images/candidates/17d608169b459e24.jpg'],
+      [5, 'Davíð Magnússon', 'Framkvæmdastjóri', 'images/candidates/7b43ecb6ec8e9f77.jpg'],
+      [6, 'Sólveig Ásta Bergvinsdóttir', 'Bókari', 'images/candidates/9b8f4be427e3e4ce.jpg'],
+      [7, 'Lilja Björk Bjarnadóttir', 'Hjúkrunarfræðingur', 'images/candidates/65b2d8f1a181c389.jpg'],
+      [8, 'Guðbrandur Gunnar Garðarsson', 'Matreiðslumaður', 'images/candidates/ff998a2d1dba1d31.jpg'],
+      [9, 'Hallfríður Guðný Ragnarsdóttir', 'Kennari', 'images/candidates/99d258ad0dd97f6c.jpg'],
+      [10, 'Elín Sigurðardóttir', 'Athafnakona', 'images/candidates/a1ddfd60dc942d44.jpg'],
+      [11, 'Sunneva Gissurardóttir', 'Húsmóðir', 'images/candidates/11dd758ebe717044.jpg'],
+      [12, 'Marta Magnúsdóttir', 'Athafnakona', 'images/candidates/2f04f1cd64d5eea0.jpg'],
+      [13, 'Arnar Kristjánsson', 'Skipstjóri'],
     
-      [14, 'Ásgeir Valdimársson', 'Frambjóðandi', 'images/candidates/696547361fa42114.jpg'],
+      [14, 'Ásgeir Valdimársson', 'Pípulagningameistari', 'images/candidates/696547361fa42114.jpg'],
     ],
   },
 
@@ -9327,7 +9327,7 @@ const VBG = {
       [12, 'Ísak Óli Óskarsson', 'Frambjóðandi'],
       [13, 'Silja Björg Ísafoldardóttir', 'Frambjóðandi'],
     
-      [14, 'Ásgeir Sveinsson', 'Frambjóðandi', 'images/candidates/f535690fc5105988.jpg'],
+      [14, 'Ásgeir Sveinsson', 'Sveitarstjórnarmaður', 'images/candidates/f535690fc5105988.jpg'],
     ],
   },
 
@@ -9568,7 +9568,7 @@ const MUT = {
       [20, 'Sunna Dögg Markvad Guðjónsdóttir', 'Bókari', 'images/candidates/abdfcc2d4aff6e28.jpg'],
       [21, 'Jóhann Hjaltason', 'Bifvélavirki, formaður sjálfstæðisfélags Djúpavogs', 'images/candidates/9c57c1685f881452.jpg'],
     
-      [22, 'Ágústa Björnsdóttir', 'Frambjóðandi', 'images/candidates/4ad1ede9b68bc3e0.jpg'],
+      [22, 'Ágústa Björnsdóttir', 'Stjórnarmaður í HEF veitum', 'images/candidates/4ad1ede9b68bc3e0.jpg'],
     ],
   },
   M: {
@@ -9873,7 +9873,7 @@ const HVF = {
       [10, 'Anton Teitur Ottesen', 'Frambjóðandi'],
       [11, 'Róbert Eyvar Ólafsson', 'Frambjóðandi'],
       [12, 'Inga María Sigurðardóttir', 'Frambjóðandi'],
-      [13, 'Björgvin Helgason', 'Frambjóðandi', 'images/candidates/bdc515d0d5ae694d.jpg'],
+      [13, 'Björgvin Helgason', 'Kartöflubóndi', 'images/candidates/bdc515d0d5ae694d.jpg'],
     
       [14, 'Andrea Ýr Arnarsdóttir', 'Frambjóðandi'],
     ],
@@ -9917,20 +9917,20 @@ const SNF = {
       { icon: '🌿', title: 'Umhverfismál', text: 'Sjálfbær þróun og vernd náttúru Snæfellsness.' },
     ],
     list: [
-      [1, 'Auður Kjartansdóttir', 'Frambjóðandi'],
-      [2, 'Eiríkur Böðvar Rúnarsson', 'Frambjóðandi'],
-      [3, 'Jón Bjarki Jónatansson', 'Frambjóðandi'],
-      [4, 'Júníana Björg Óttarsdóttir', 'Frambjóðandi'],
-      [5, 'Jóhanna Jóhannesdóttir', 'Frambjóðandi'],
+      [1, 'Auður Kjartansdóttir', 'Fjármálastjóri'],
+      [2, 'Eiríkur Böðvar Rúnarsson', 'Véltæknifræðingur'],
+      [3, 'Jón Bjarki Jónatansson', 'Sjómaður'],
+      [4, 'Júníana Björg Óttarsdóttir', 'Atvinnurekandi'],
+      [5, 'Jóhanna Jóhannesdóttir', 'Aðstoðarmaður forstöðumanns'],
       [6, 'Urszula Zyskowska', 'Frambjóðandi'],
-      [7, 'Illugi Jens Jónásson', 'Frambjóðandi'],
-      [8, 'Sigrún Erla Sveinsdóttir', 'Frambjóðandi'],
-      [9, 'Kristgeir Kristinsson', 'Frambjóðandi'],
-      [10, 'Marinó Sigurjónsson', 'Frambjóðandi'],
-      [11, 'Sara Egilsdóttir', 'Frambjóðandi'],
+      [7, 'Illugi Jens Jónásson', 'Skipstjóri'],
+      [8, 'Sigrún Erla Sveinsdóttir', 'Forstöðumaður'],
+      [9, 'Kristgeir Kristinsson', 'Sjómaður'],
+      [10, 'Marinó Sigurjónsson', 'Verkstjóri'],
+      [11, 'Sara Egilsdóttir', 'Námsmaður'],
       [12, 'Styrmir Páll Sigurðarson', 'Frambjóðandi'],
-      [13, 'Gunnar Ólafur Sigmársson', 'Frambjóðandi'],
-      [14, 'Sigrún Hafdís Guðmundsdóttir', 'Frambjóðandi'],
+      [13, 'Gunnar Ólafur Sigmársson', 'Framleiðslustjóri'],
+      [14, 'Sigrún Hafdís Guðmundsdóttir', 'Húsvörður/skólaliði'],
     ],
   },
 };
