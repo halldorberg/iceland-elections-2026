@@ -596,7 +596,7 @@ container.addEventListener('keydown', e => {
 const faceDetector = ('FaceDetector' in window) ? new FaceDetector({ fastMode: true }) : null;
 
 async function applySmartCrop(img) {
-  img.style.objectPosition = 'center 20%';
+  img.style.objectPosition = 'center top';
   if (!faceDetector) return;
   if (!img.complete || !img.naturalWidth) {
     await new Promise(resolve => { img.addEventListener('load', resolve, { once: true }); });
@@ -640,7 +640,7 @@ function openModal(id) {
 
   const fallback = localAvatar(c.name);
   const photo = document.getElementById('modal-photo');
-  photo.style.objectPosition = 'center 20%';
+  photo.style.objectPosition = 'center top';
   photo.style.transition = '';
   photo.src = c.imageUrl;
   photo.alt = c.name;
