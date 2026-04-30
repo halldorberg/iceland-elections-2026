@@ -578,6 +578,9 @@ muni.partyIds.forEach(code => {
   });
 });
 
+let modalNavList = [];
+let modalNavIdx  = -1;
+
 // Delegate candidate card clicks
 container.addEventListener('click', e => {
   const card = e.target.closest('.candidate-card');
@@ -628,6 +631,26 @@ function openModal(id) {
   const c = allCandidates[id];
   if (!c) return;
   const party = PARTIES[c.partyCode];
+
+  document.getElementById('modal-card').scrollTop = 0;
+
+  // Navigation state for this party list
+  modalNavList = Object.values(allCandidates)
+    .filter(x => x.partyCode === c.partyCode)
+    .sort((a, b) => a.ballotOrder - b.ballotOrder);
+  modalNavIdx = modalNavList.findIndex(x => x.id === id);
+  const navEl   = document.getElementById('modal-nav');
+  const prevBtn = document.getElementById('modal-prev');
+  const nextBtn = document.getElementById('modal-next');
+  if (modalNavList.length > 1) {
+    navEl.style.display = '';
+    prevBtn.disabled = modalNavIdx === 0;
+    nextBtn.disabled = modalNavIdx === modalNavList.length - 1;
+    document.getElementById('modal-nav-pos').textContent =
+      `${modalNavIdx + 1} / ${modalNavList.length}`;
+  } else {
+    navEl.style.display = 'none';
+  }
 
   trackEvent('candidate_open', {
     municipality_id:   muni.id,
@@ -760,7 +783,21 @@ function closeModal(updateHistory = true) {
 
 document.getElementById('modal-close').addEventListener('click', () => closeModal());
 overlay.addEventListener('click', e => { if (e.target === overlay) closeModal(); });
-document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') { closeModal(); return; }
+  if (!overlay.classList.contains('is-open')) return;
+  if (e.key === 'ArrowLeft'  && modalNavIdx > 0)
+    openModal(modalNavList[modalNavIdx - 1].id);
+  if (e.key === 'ArrowRight' && modalNavIdx < modalNavList.length - 1)
+    openModal(modalNavList[modalNavIdx + 1].id);
+});
+
+document.getElementById('modal-prev').addEventListener('click', () => {
+  if (modalNavIdx > 0) openModal(modalNavList[modalNavIdx - 1].id);
+});
+document.getElementById('modal-next').addEventListener('click', () => {
+  if (modalNavIdx < modalNavList.length - 1) openModal(modalNavList[modalNavIdx + 1].id);
+});
 
 // Back button closes the modal without double-popping history
 window.addEventListener('popstate', e => {
