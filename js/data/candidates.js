@@ -9151,7 +9151,7 @@ const GFJ = {
       { icon: '🌿', title: 'Umhverfismál', text: 'Vernd náttúru og sjálfbær nýting auðlinda svæðisins.' },
     ],
     list: [
-      [1, 'Jósef Kjartansson', 'Frambjóðandi'],
+      [1, 'Jósef Kjartansson', 'Frambjóðandi', 'images/candidates/440bcfb114a80149.jpg'],
       [2, 'Sigurhanna Ágústa Einarsdóttir', 'Frambjóðandi', 'images/candidates/b1644385c3d1d650.jpg'],
       [3, 'Bjarni Sigurbjörnsson', 'Frambjóðandi', 'images/candidates/663dbd1b68b90464.jpg'],
       [4, 'Sigurður Gísli Guðjónsson', 'Frambjóðandi', 'images/candidates/17d608169b459e24.jpg'],
