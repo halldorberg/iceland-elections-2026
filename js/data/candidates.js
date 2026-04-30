@@ -1345,12 +1345,14 @@ const RVK = {
   },
   R: {
     tagline: 'Okkar borg — Reykjavík í höndum þeirra sem búa hér',
-    platformUrl: 'https://www.nutiminn.is/forsida/nyr-flokkur-bydur-fram-i-reykjavik-okkar-borg-thvert-a-flokka-kynnir-frambod-og-stefnu/',
+    platformUrl: 'https://www.okkarborg.is/stefna',
     agenda: [
-      { icon: '🚫', title: 'Gegn Borgarlínu', text: 'Hörð andstaða við Borgarlínu og vegatolla; andstaða við þéttlega uppbyggingu í Keldnalandi.' },
-      { icon: '🏘️', title: 'Húsnæðismál', text: 'Hraða uppbyggingu á Geldinganesi með fjölbreyttum húsnæðiskostum; fjölga hagkvæmum búsetukostum.' },
-      { icon: '💸', title: 'Ráðningarstöðvun', text: 'Ráðningarstopp hjá borginni þar sem það er mögulegt, með áherslu á aðhald og sparnað.' },
-      { icon: '🏛️', title: 'Pólitísk stefna', text: 'Þrýsta á breytingar á peningastefnu ríkisins; hafna samningum sem fela í sér pólitískar ívilnanir.' },
+      { icon: '💸', title: 'Hagræðing og ráðningarstopp', text: 'Ráðningarstopp hjá Reykjavíkurborg þar sem mögulegt er — ekki ráðið í nýjar stöður nema brýn nauðsyn krefji. Áhersla á skýr markmið í rekstri og aðhaldssemi í öllum deildum borgarinnar.' },
+      { icon: '🏘️', title: 'Skipulag og húsnæðismál', text: 'Tvö bílastæði með hverri íbúð, annað í bílakjallara. Skipulagi Keldnalands og M22 hafnað og íbúðarfjöldi lækkaður. Hröð uppbygging á Geldinganesi með fjölbreyttum húsnæðiskosti og betri búsetutækifærum fyrir fjölskyldufólk — lágreist byggð í forgangi.' },
+      { icon: '🚗', title: 'Samgöngumál', text: 'Borgarlínu og tilheyrandi vegatollum alfarið hafnað. Samgönguúrbætur fyrir alla ferðamáta og mislæg gatnamót þar sem hægt er. Sundabraut lögð í göng frá Lauganesi að Geldingarnesi. Borgin haldi áfram rekstri bílastæðahúsa með hófstilltu gjaldi.' },
+      { icon: '📈', title: 'Okurvextir', text: 'Þrýstingur á ríkisstjórn um breytingu á peningamálastefnu — Alþingi breyti lögum um Seðlabanka, lífeyrissjóði og bankakerfi. Sambærilegir vextir og eru í nágrannalöndum verði tryggðir; okurvextir kosta samfélagið hundruð milljarða árlega.' },
+      { icon: '📚', title: 'Menntamál', text: 'Samningum um kynjafræðslu í leik- og grunnskólum verður sagt upp. Fornám í íslensku fyrir börn sem ekki tala málið verði á ábyrgð ríkisins. Einkareknum leik- og grunnskólum verður greitt 100% líkt og borgarreknum skólum.' },
+      { icon: '🤝', title: 'Borgarbúar í forgangi', text: 'Hagur, lífsgæði og framtíð borgarbúa skulu ávallt vera í forgangi. Okkar borg leggur áherslu á að Reykjavík verði örugg, vel skipulögð, sjálfbær og hrein — og að borgarstjórn sinnir skyldum sínum gagnvart íbúunum.' },
     ],
     list: [
       [1,  'Sigfús Aðalsteinsson',        'Leikskólakennari og fasteignasali', 'images/candidates/22cc074ac1c9c410.png', {
