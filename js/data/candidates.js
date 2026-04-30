@@ -1186,7 +1186,7 @@ const RVK = {
           { title: 'Góðan daginn býður fram í Reykjavík', url: 'https://www.ruv.is/frettir/innlent/2026-04-10-godan-daginn-bydur-fram-i-reykjavik-472412', source: 'ruv.is' },
         ],
       }],
-      [4, 'Nathalia B. Tómasdóttir', 'Vörumerkjahönnuður', null, {
+      [4, 'Nathalia B. Tómasdóttir', 'Vörumerkjahönnuður', 'https://gdf.is/wp-content/uploads/2026/04/Natalia.png', {
         age: null,
         bio: 'Nathalia Bardales Tómasdóttir er vörumerkjahönnuður og markaðsráðgjafi. Hún hefur starfað við markaðssetningu og vörumerkjauppbyggingu, meðal annars í Danmörku, og útskrifaðist frá Háskólanum á Bifröst.',
         heimild: [{ url: 'https://www.ruv.is/frettir/innlent/2026-04-10-godan-daginn-bydur-fram-i-reykjavik-472412', label: 'ruv.is' }],
