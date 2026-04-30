@@ -5105,7 +5105,7 @@ const VOG = {
         social: null,
         news: [],
       }],
-      [2, 'Guðmann Rúnar Lúðvíksson', 'Sérfræðingur hjá landhelgisgæslunni, varabæjarfulltrúi', null, { age: null, bio: null, interests: null, social: null, news: [] }],
+      [2, 'Guðmann Rúnar Lúðvíksson', 'Sérfræðingur hjá landhelgisgæslunni, varabæjarfulltrúi', 'images/candidates/e2cddc89e5d8e495.jpg', { age: null, bio: null, interests: null, social: null, news: [] }],
       [3, 'Hulda Birna Helgadóttir Blöndal', 'Deildarstjóri hjá Klettabæ'],
       [4, 'Kristín Arna Hjaltadóttir', 'Leikskólakennari'],
       [5, 'Andri Rúnar Sigurðsson', 'Fiskeldisfræðingur, bæjarfulltrúi'],
@@ -5245,7 +5245,7 @@ const GRN = {
         social: null,
         news: [],
       }],
-      [2, 'Hjálmar Hallgrímsson', 'Lögreglumaður', null, { age: null, bio: 'Hjálmar Hallgrímsson er lögreglumaður á Suðurnesjum og formaður bæjarráðs Grindavíkur, þar sem hann hefur verið bæjarfulltrúi Sjálfstæðisflokksins frá 2014. Hann leiðir D-lista og er oddviti flokksins í bænum.', interests: null, social: null, news: [] }],
+      [2, 'Hjálmar Hallgrímsson', 'Lögreglumaður', 'images/candidates/2dd8bcd683b51edf.jpg', { age: null, bio: 'Hjálmar Hallgrímsson er lögreglumaður á Suðurnesjum og formaður bæjarráðs Grindavíkur, þar sem hann hefur verið bæjarfulltrúi Sjálfstæðisflokksins frá 2014. Hann leiðir D-lista og er oddviti flokksins í bænum.', interests: null, social: null, news: [] }],
       [3, 'Ómar Davíð Ólafsson', 'Frambjóðandi'],
       [4, 'Ólöf Rún Óladóttir', 'Frambjóðandi'],
       [5, 'Eva Lind Matthíasdóttir', 'Frambjóðandi'],
@@ -5532,7 +5532,7 @@ const ARB = {
           { title: 'Listi Framsóknar í Árborg samþykktur', url: 'https://www.sunnlenska.is/frettir/listi-framsoknar-i-arborg-samthykktur/', source: 'sunnlenska.is' },
         ],
       }],
-      [5, 'Magnús Benediktsson', 'Rekstrarstjóri', null, {
+      [5, 'Magnús Benediktsson', 'Rekstrarstjóri', 'images/candidates/a327444be24d840a.jpg', {
         age: null,
         bio: 'Magnús Benediktsson er rekstrarstjóri og er í 5. sæti á lista Framsóknar í Árborg í sveitarstjórnarkosningum 2026. Hann kemur með rekstrarreynslu til framboðslistans sem leitast við að styrkja þróun Árborgar.',
         heimild: [{ url: 'https://www.sunnlenska.is/frettir/frambodslisti-framsoknar-i-arborg-samthykktur/', label: 'sunnlenska.is' }],
@@ -5696,7 +5696,7 @@ const ARB = {
           { title: 'Listi sjálfstæðismanna í Árborg samþykktur', url: 'https://www.mbl.is/frettir/innlent/2026/02/23/listi_sjalfstaedismanna_i_arborg_samthykktur/', source: 'mbl.is' },
         ],
       }],
-      [4, 'Brynhildur Jónsdóttir', 'Þróunaraðstoðarmaður og bæjarfulltrúi', null, {
+      [4, 'Brynhildur Jónsdóttir', 'Þróunaraðstoðarmaður og bæjarfulltrúi', 'images/candidates/2e1938865a50bb9b.jpg', {
         age: null,
         bio: 'Brynhildur Jónsdóttir er forstöðuþroskaþjálfi hjá Álftarima og Vallholti 27, búsetuþjónustu fyrir börn, og sitjandi bæjarfulltrúi Sjálfstæðisflokksins í Árborg, nú í 4. sæti á framboðslistanum. Hún hefur áður verið formaður fulltrúaráðs Sjálfstæðisflokksfélaga í Árborg.',
         heimild: [{ url: 'https://www.arborg.is/stjornsysla/stjornkerfi/baejarrad/', label: 'arborg.is' }, { url: 'https://xd.is/2026/02/24/sjalfstaedisflokkurinn-i-arborg-samthykkir-efstu-sex-saetin-a-frambodslistanum/', label: 'Sjálfstæðisflokkurinn' }],
@@ -5706,7 +5706,7 @@ const ARB = {
           { title: 'Listi sjálfstæðismanna í Árborg samþykktur', url: 'https://www.mbl.is/frettir/innlent/2026/02/23/listi_sjalfstaedismanna_i_arborg_samthykktur/', source: 'mbl.is' },
         ],
       }],
-      [5, 'Þórhildur Ingvadóttir', 'Lyfjafulltrúi og varabæjarfulltrúi', null, {
+      [5, 'Þórhildur Ingvadóttir', 'Lyfjafulltrúi og varabæjarfulltrúi', 'images/candidates/320348bdd2125fa3.jpg', {
         age: null,
         bio: 'Þórhildur Ingvadóttir er umsjónarmaður Lyfju og varabæjarfulltrúi Sjálfstæðisflokksins í Árborg og er í 5. sæti á framboðslistanum í sveitarstjórnarkosningum 2026. Hún tók þátt í afhendingu umhverfisverðlauna Árborgar 2024.',
         heimild: [{ url: 'https://xd.is/2026/03/30/fullskipadur-listi-i-arborg/', label: 'Sjálfstæðisflokkurinn' }, { url: 'https://www.mbl.is/frettir/innlent/2026/02/23/listi_sjalfstaedismanna_i_arborg_samthykktur/', label: 'mbl.is' }],
@@ -5846,7 +5846,7 @@ const VME = {
           { title: 'Vatnslögnin er stærsta hagsmunamál íbúa í Eyjum', url: 'https://eyjafrettir.is/vatnslognin-er-staersta-hagsmunamal-ibua-i-eyjum/', source: 'eyjafrettir.is' },
         ],
       }],
-      [2, 'Trausti Hjaltason', 'Áhættustjóri', null, { age: null, bio: null, interests: null, social: null, news: [] }],
+      [2, 'Trausti Hjaltason', 'Áhættustjóri', 'images/candidates/4d3779c91a0584d6.jpg', { age: null, bio: null, interests: null, social: null, news: [] }],
       [3, 'Aníta Jóhannsdóttir', 'Viðskiptafræðingur'],
       [4, 'Óskar Jósúason', 'Upplýsingafulltrúi'],
       [5, 'Hildur Sólveig Sigurðardóttir', 'Sjúkraþjálfari'],
@@ -6009,7 +6009,7 @@ const NPG = {
         social: null,
         news: [{ title: 'Framboðslisti Sjálfstæðisflokksins í Norðurþingi', url: 'https://xd.is/2026/03/06/frambodslisti-sjalfstaedisflokksins-i-nordurthingi/', source: 'xd.is' }],
       }],
-      [2, 'Þorsteinn Snævar Benediktsson', 'Húsasmiðameistari', null, { age: null, bio: 'Þorsteinn Snævar Benediktsson er bruggmeistari og stofnandi Húsavík Öls, eins af skapandi handverksbrugghúsa á Íslandi. Hann er fæddur og uppalinn á Húsavík og á börn í skólum sveitarfélagsins.', interests: null, social: null, news: [] }],
+      [2, 'Þorsteinn Snævar Benediktsson', 'Húsasmiðameistari', 'images/candidates/d987b4132f1c8c1c.jpg', { age: null, bio: 'Þorsteinn Snævar Benediktsson er bruggmeistari og stofnandi Húsavík Öls, eins af skapandi handverksbrugghúsa á Íslandi. Hann er fæddur og uppalinn á Húsavík og á börn í skólum sveitarfélagsins.', interests: null, social: null, news: [] }],
       [3, 'Kristján Friðrik Sigurðsson', 'Fiskvísindamaður'],
       [4, 'Guðrún Þóra Hallgrímsdóttir', 'Þjónustustjóri'],
       [5, 'Guðni Már Kjartansson', 'Viðskiptafulltrúi'],
@@ -6195,7 +6195,7 @@ const FJB = {
           { title: 'Þrír framboðslistar í Fjallabyggð', url: 'https://kaffid.is/thrir-frambodslistar-i-fjallabyggd/', source: 'kaffid.is' },
         ],
       }],
-      [2, 'Kristín Ágústa Eiðsdóttir', 'Kennaranemi og leikskólastarfsmaður', null, { age: null, bio: 'Kristín Ágústa Eiðsdóttir er leikskólakennaranemi og starfsmaður leikskóla sem skipar 2. sæti á D-lista Sjálfstæðisflokksins í Fjallabyggð 2026. Hún kemur með menntun og reynslu í leikskólastarfi.', interests: null, social: null, news: [] }],
+      [2, 'Kristín Ágústa Eiðsdóttir', 'Kennaranemi og leikskólastarfsmaður', 'images/candidates/88d4cfb338c03984.jpg', { age: null, bio: 'Kristín Ágústa Eiðsdóttir er leikskólakennaranemi og starfsmaður leikskóla sem skipar 2. sæti á D-lista Sjálfstæðisflokksins í Fjallabyggð 2026. Hún kemur með menntun og reynslu í leikskólastarfi.', interests: null, social: null, news: [] }],
       [3, 'Guðrún Sif Guðbrandsdóttir', 'Fjármálastjóri'],
       [4, 'Viktor Freyr Elísson', 'Fjármálasérfræðingur'],
       [5, 'Stefán Júlíusson', 'Ráðgjafi hótelmála'],
@@ -6403,7 +6403,7 @@ const HVG = {
           { title: 'Framboðslisti Sjálfstæðisflokksins í Hveragerði', url: 'https://xd.is/2026/03/04/frambodslisti-sjalfstaedisflokksins-i-hveragerdi/', source: 'xd.is' },
         ],
       }],
-      [2, 'María Rún Þorsteinsdóttir', 'Ráðgjafi', null, { age: null, bio: 'María Rún Þorsteinsdóttir er ráðgjafi hjá Vinnumálastofnun og meðstofnandi CrossFit Hengil í Hveragerði og er á 2. sæti á D-lista Sjálfstæðisflokksins í sveitarstjórnarkosningum 2026.', interests: null, social: null, news: [] }],
+      [2, 'María Rún Þorsteinsdóttir', 'Ráðgjafi', 'images/candidates/74ea82e525c42984.jpg', { age: null, bio: 'María Rún Þorsteinsdóttir er ráðgjafi hjá Vinnumálastofnun og meðstofnandi CrossFit Hengil í Hveragerði og er á 2. sæti á D-lista Sjálfstæðisflokksins í sveitarstjórnarkosningum 2026.', interests: null, social: null, news: [] }],
       [3, 'Sigmar Karlsson', 'Deildarstjóri í grunnskóla'],
       [4, 'Hjalti Helgason', 'Viðhaldsstjóri mannvirkja'],
       [5, 'Karitas Róbertsdóttir', 'Líffræðingur'],
@@ -6472,7 +6472,7 @@ const RTE = {
         social: null,
         news: [],
       }],
-      [2, 'Aðalbjörg Rún Ásgeirsdóttir', 'Bóndi', null, {
+      [2, 'Aðalbjörg Rún Ásgeirsdóttir', 'Bóndi', 'images/candidates/2f0e8cdd89b683fd.jpg', {
         age: null,
         bio: 'Aðalbjörg Rún Ásgeirsdóttir er bóndi í Stóru-Mörk í Rangárþingi eystra og er á 2. sæti D-listans í sveitarstjórnarkosningum 2026.',
         heimild: [{ url: 'https://www.sunnlenska.is/frettir/frambodslisti-d-listans-i-rangarthingi-eystra-samthykktur/', label: 'sunnlenska.is' }],
@@ -6622,7 +6622,7 @@ const OLF = {
         social: null,
         news: [],
       }],
-      [2, 'Sigurbjörg Jenný Jónsdóttir', 'Viðskiptamaður', null, { age: null, bio: 'Sigurbjörg Jenný Jónsdóttir er viðskiptafræðingur og er á 2. sæti á D-lista Sjálfstæðisflokksins í Sveitarfélaginu Ölfusi í sveitarstjórnarkosningum 2026.', interests: null, social: null, news: [] }],
+      [2, 'Sigurbjörg Jenný Jónsdóttir', 'Viðskiptamaður', 'images/candidates/ad4c7e7164657440.jpg', { age: null, bio: 'Sigurbjörg Jenný Jónsdóttir er viðskiptafræðingur og er á 2. sæti á D-lista Sjálfstæðisflokksins í Sveitarfélaginu Ölfusi í sveitarstjórnarkosningum 2026.', interests: null, social: null, news: [] }],
       [3, 'Gestur Þór Kristjánsson', 'Byggingameistari'],
       [4, 'Erla Sif Markúsdóttir', 'Skólasviðsstjóri'],
       [5, 'Guðlaug Einarsdóttir', 'Skólasviðsstjóri'],
@@ -6686,14 +6686,14 @@ const SKR = {
       { icon: '🌿', title: 'Náttúra', text: 'Verndun náttúru og sjálfbær þróun.' },
     ],
     list: [
-      [1, 'Sveinn Hreiðar Jensson', 'Framkvæmdastjóri og sveitarstjórnarfulltrúi', null, {
+      [1, 'Sveinn Hreiðar Jensson', 'Framkvæmdastjóri og sveitarstjórnarfulltrúi', 'images/candidates/b26ba76719c233bc.jpg', {
         age: null,
         bio: null,
         interests: null,
         social: null,
         news: [],
       }],
-      [2, 'Sigurður Árnason', 'Stálsmiður og rekstraraðili', null, { age: null, bio: null, interests: null, social: null, news: [] }],
+      [2, 'Sigurður Árnason', 'Stálsmiður og rekstraraðili', 'images/candidates/0ece6eaccb279e5d.jpg', { age: null, bio: null, interests: null, social: null, news: [] }],
       [3, 'Auðbjörg Brynja Bjarnadóttir', 'Hjúkrunarfræðingur og ljósmóðir'],
       [4, 'Bergur Kristinn Guðnason', 'Húsasmíðameistari'],
       [5, 'Sólveig Ólafsdóttir', 'Kennari og sjúkraflutningamaður'],
@@ -6944,7 +6944,7 @@ const HMR = {
         social: null,
         news: [],
       }],
-      [2, 'Bjarney Vignisdóttir', 'Hjúkrunarfræðingur', null, { age: null, bio: null, interests: null, social: null, news: [] }],
+      [2, 'Bjarney Vignisdóttir', 'Hjúkrunarfræðingur', 'images/candidates/f356f1af7ed2fac4.jpg', { age: null, bio: null, interests: null, social: null, news: [] }],
       [3, 'Ragnar Lúðvík Jónsson', 'Viðskiptafræðingur og leiðsögumaður'],
       [4, 'Katrín Þorvaldsdóttir', 'Kennari'],
       [5, 'Bjarni Arnar Hjaltason', 'Starfsmaður UTU'],
@@ -7162,7 +7162,7 @@ const DVB = {
         social: null,
         news: [],
       }],
-      [2, 'Bessi Ragúels Víðisson', 'Frambjóðandi', null, { age: null, bio: 'Bessi Ragúels Víðisson er eigandi Fincafresh; hann er á 2. sæti á framboðslista Sjálfstæðisflokksins í Dalvíkurbyggð í sveitarstjórnarkosningum 2026.', interests: null, social: null, news: [] }],
+      [2, 'Bessi Ragúels Víðisson', 'Frambjóðandi', 'images/candidates/65cd1fc0f302c816.jpg', { age: null, bio: 'Bessi Ragúels Víðisson er eigandi Fincafresh; hann er á 2. sæti á framboðslista Sjálfstæðisflokksins í Dalvíkurbyggð í sveitarstjórnarkosningum 2026.', interests: null, social: null, news: [] }],
       [3, 'Auður Olga Arnarsdóttir', ''],
       [4, 'Sindri Ólafsson', ''],
       [5, 'Birta Dís Jónsdóttir', ''],
@@ -7308,7 +7308,7 @@ const HGS = {
         social: null,
         news: [],
       }],
-      [2, 'Katrín Olsen Björnsdóttir', 'Hjúkrunarfræðingur', null, { age: null, bio: null, interests: null, social: null, news: [] }],
+      [2, 'Katrín Olsen Björnsdóttir', 'Hjúkrunarfræðingur', 'images/candidates/c776b797cdcd3005.jpg', { age: null, bio: null, interests: null, social: null, news: [] }],
       [3, 'Jónas Þór Jónasson', 'Vélvirki og söngmaður'],
       [4, 'Aðalsteinn Heiðmann Hreinsson', 'Bóndi'],
       [5, 'Björg Ingadóttir', 'Lagastúdent'],
@@ -7463,7 +7463,7 @@ const HNB = {
           { title: 'Sjálfstæðismenn og óháðir samþykkja framboðslista', url: 'https://huni.is/index.php?cid=22686&pid=32', source: 'huni.is' },
         ],
       }],
-      [2, 'Zophonías Ari Lárusson', 'Frambjóðandi', null, { age: null, bio: null, interests: null, social: null, news: [] }],
+      [2, 'Zophonías Ari Lárusson', 'Frambjóðandi', 'images/candidates/02e79effa3397748.jpg', { age: null, bio: null, interests: null, social: null, news: [] }],
       [3, 'Kolbrún Ágústa Guðnadóttir', ''],
       [4, 'Sævar Björgvinsson', ''],
       [5, 'Ragnhildur Haraldsdóttir', ''],
@@ -7533,7 +7533,7 @@ const HNT = {
         social: null,
         news: [{ title: 'Auglýsing um úrskurð kjörstjórnar Húnaþings vestra', url: 'https://www.hunathing.is/is/mannlif/frettir-og-auglysingar/tilkynningar-og-frettir/auglysing-um-urskurd-kjorstjornar-hunathings-vestra', source: 'hunathing.is' }],
       }],
-      [2, 'Sigríður Ólafsdóttir', 'Bóndi, ráðgjafi og sveitarstjórnarfulltrúi', null, { age: null, bio: null, interests: null, social: null, news: [] }],
+      [2, 'Sigríður Ólafsdóttir', 'Bóndi, ráðgjafi og sveitarstjórnarfulltrúi', 'images/candidates/b660c5f3db1b7756.jpg', { age: null, bio: null, interests: null, social: null, news: [] }],
       [3, 'Magnús Magnússon', 'Fyrrverandi formaður ráðs, prestur og bóndi'],
       [4, 'Fríða Marý Halldórsdóttir', 'Hársnyrtir'],
       [5, 'Magnús Örn Valsson', 'Sauðfjárbóndi'],
@@ -7639,7 +7639,7 @@ const SFJ = {
         social: null,
         news: [{ title: 'Fullskipaður framboðslisti í Skagafirði', url: 'https://xd.is/2026/03/17/fullskipadur-frambodslisti-i-skagafirdi/', source: 'xd.is' }],
       }],
-      [2, 'Sólborg S. Borgarsdóttir', 'Vinnuverndarsérfræðingur', null, { age: null, bio: null, interests: null, social: null, news: [] }],
+      [2, 'Sólborg S. Borgarsdóttir', 'Vinnuverndarsérfræðingur', 'images/candidates/d74493157205c72f.jpg', { age: null, bio: null, interests: null, social: null, news: [] }],
       [3, 'Guðlaugur Skúlason', 'Verkefnastjóri'],
       [4, 'Rósanna Valdimársdóttir', 'Vélstjóri og reiðkennari'],
       [5, 'Jón Daníel Jónsson', 'Kokkur'],
@@ -7975,7 +7975,7 @@ const FJD = {
           { title: 'Fjarðabyggð bregst við verðbólgu með lækkun gjaldskráa', url: 'https://www.mbl.is/frettir/innlent/2026/04/13/fjardabyggd_bregst_vid_verdbolgu_med_laekkun_gjalds/', source: 'mbl.is' },
         ],
       }],
-      [2, 'Kristinn Þór Jónasson', 'Þjónststjóri', null, {
+      [2, 'Kristinn Þór Jónasson', 'Þjónststjóri', 'images/candidates/7266a4cb993ce8ab.jpg', {
         age: null,
         bio: 'Kristinn Þór Jónasson er þjónustomsstjóri og bæjarfulltrúi Sjálfstæðisflokksins í Fjarðabyggð sem skipar 2. sæti á D-listanum 2026. Hann hefur setið í bæjarstjórn Fjarðabyggðar á yfirstandandi kjörtímabili.',
         heimild: [{ url: 'https://xd.is/2026/02/23/frambodslisti-sjalfstaedisflokksins-i-fjardabyggd-samthykktur-2/', label: 'Sjálfstæðisflokkurinn' }, { url: 'https://www.fjardabyggd.is/stjornsysla/baejarstjorn/baejarstjorn', label: 'fjardarbyggd.is' }],
@@ -7985,7 +7985,7 @@ const FJD = {
           { title: 'Framboðslisti Sjálfstæðisflokksins í Fjarðabyggð 2026', url: 'https://xd.is/2026/02/23/frambodslisti-sjalfstaedisflokksins-i-fjardabyggd-samthykktur-2/', source: 'xd.is' },
         ],
       }],
-      [3, 'Þórdís Mjöll Benediktsdóttir', 'Leikskólastjóri', null, {
+      [3, 'Þórdís Mjöll Benediktsdóttir', 'Leikskólastjóri', 'images/candidates/c71e318b579202e3.jpg', {
         age: null,
         bio: 'Þórdís Mjöll Benediktsdóttir er leikskólastjóri Dalborgar á Eskifirði og bæjarfulltrúi Sjálfstæðisflokksins í Fjarðabyggð sem skipar 3. sæti á D-listanum 2026. Hún er móðir tveggja barna og hefur lagt sig fram um menntun og uppeldi.',
         heimild: [{ url: 'https://xd.is/2026/02/23/frambodslisti-sjalfstaedisflokksins-i-fjardabyggd-samthykktur-2/', label: 'Sjálfstæðisflokkurinn' }, { url: 'https://www.fjardabyggd.is/stjornsysla/baejarstjorn/baejarstjorn', label: 'fjardarbyggd.is' }],
@@ -7995,7 +7995,7 @@ const FJD = {
           { title: 'Framboðslisti Sjálfstæðisflokksins í Fjarðabyggð 2026', url: 'https://xd.is/2026/02/23/frambodslisti-sjalfstaedisflokksins-i-fjardabyggd-samthykktur-2/', source: 'xd.is' },
         ],
       }],
-      [4, 'Húnbogi Sólon Gunnþórsson', 'Verkefnastjóri', null, {
+      [4, 'Húnbogi Sólon Gunnþórsson', 'Verkefnastjóri', 'images/candidates/3b9dd88b8e9f5b48.jpg', {
         age: null,
         bio: 'Húnbogi Sólon Gunnþórsson er verkefnastjóri sem skipar 4. sæti á D-lista Sjálfstæðisflokksins í Fjarðabyggð 2026. Hann starfar hjá SVN og kemur með reynslu í verkefnastjórnun.',
         heimild: [{ url: 'https://xd.is/2026/02/23/frambodslisti-sjalfstaedisflokksins-i-fjardabyggd-samthykktur-2/', label: 'Sjálfstæðisflokkurinn' }],
@@ -8005,7 +8005,7 @@ const FJD = {
           { title: 'Framboðslisti Sjálfstæðisflokksins í Fjarðabyggð 2026', url: 'https://xd.is/2026/02/23/frambodslisti-sjalfstaedisflokksins-i-fjardabyggd-samthykktur-2/', source: 'xd.is' },
         ],
       }],
-      [5, 'Tanja Tómasdóttir', 'Gæðatryggingaraðstoðarmaður', null, {
+      [5, 'Tanja Tómasdóttir', 'Gæðatryggingaraðstoðarmaður', 'images/candidates/9f5b09d5ddd7cab6.jpg', {
         age: null,
         bio: 'Tanja Tómasdóttir er aðstoðarmaður gæðastjóra sem skipar 5. sæti á D-lista Sjálfstæðisflokksins í Fjarðabyggð 2026. Hún kemur með þekkingu á gæðastjórnun inn í sveitarstjórnina.',
         heimild: [{ url: 'https://xd.is/2026/02/23/frambodslisti-sjalfstaedisflokksins-i-fjardabyggd-samthykktur-2/', label: 'Sjálfstæðisflokkurinn' }],
@@ -8446,7 +8446,7 @@ const AKR = {
           { title: 'Oddvitaumræður á Akranesi', url: 'https://www.ruv.is/frettir/innlent/2026-04-22-oddvitaumraedur-a-akranesi-473426', source: 'ruv.is' },
         ],
       }],
-      [2, 'Bjarnheiður Hallsdóttir', 'Framkvæmdastjóri', null, {
+      [2, 'Bjarnheiður Hallsdóttir', 'Framkvæmdastjóri', 'images/candidates/c78a57bdad844246.jpg', {
         age: null,
         bio: 'Bjarnheiður Hallsdóttir er framkvæmdastjóri Kötlu DMI ehf., ferðaþjónustufyrirtækis á Akranesi, og var formaður Samtaka ferðaþjónustunnar (SAF) á árunum 2018–2023. Hún hefur einnig setið í stjórn Samtaka atvinnulífsins og gegnt stöðu varaformanns þar frá 2021.',
         heimild: [{ url: 'https://xd.is/2026/02/27/lif-leidir-afram-frambod-sjalfstaedisflokksins-a-akranesi/', label: 'Sjálfstæðisflokkurinn' }, { url: 'https://saf.is/2018/03/16/formannskjor2018-bjarnheidur-hallsdottir/', label: 'saf.is' }, { url: 'https://www.mbl.is/vidskipti/frettir/2018/03/21/bjarnheidur_nyr_formadur_saf/', label: 'mbl.is' }],
@@ -8456,7 +8456,7 @@ const AKR = {
           { title: 'Líf leiðir áfram framboð Sjálfstæðisflokksins á Akranesi', url: 'https://xd.is/2026/02/27/lif-leidir-afram-frambod-sjalfstaedisflokksins-a-akranesi/', source: 'xd.is' },
         ],
       }],
-      [3, 'Guðmundur Ingþór Guðjónsson', 'Lögreglumaður og bæjarfulltrúi', null, {
+      [3, 'Guðmundur Ingþór Guðjónsson', 'Lögreglumaður og bæjarfulltrúi', 'images/candidates/10373cf10b9ee281.jpg', {
         age: null,
         bio: 'Guðmundur Ingþór Guðjónsson er lögreglumaður og bæjarfulltrúi á Akranesi fyrir Sjálfstæðisflokkinn á kjörtímabilinu 2022–2026. Hann er á þriðja sæti á framboðslista Sjálfstæðisflokksins á Akranesi í sveitarstjórnarkosningum 2026.',
         heimild: [{ url: 'https://xd.is/2026/02/27/lif-leidir-afram-frambod-sjalfstaedisflokksins-a-akranesi/', label: 'Sjálfstæðisflokkurinn' }],
@@ -8466,7 +8466,7 @@ const AKR = {
           { title: 'Líf leiðir áfram framboð Sjálfstæðisflokksins á Akranesi', url: 'https://xd.is/2026/02/27/lif-leidir-afram-frambod-sjalfstaedisflokksins-a-akranesi/', source: 'xd.is' },
         ],
       }],
-      [4, 'Viktor Elvar Viktorsson', 'Húsasmiður', null, {
+      [4, 'Viktor Elvar Viktorsson', 'Húsasmiður', 'images/candidates/0bc0bdae00a253d9.jpg', {
         age: null,
         bio: 'Viktor Elvar Viktorsson er húsasmiður og rekstrarstjóri útibús Askju bílaumboðsins á Akranesi, sem opnaði þar árið 2024. Hann á djúpar rætur á Akranessvæðinu og hefur tekið þátt í íþróttastarfi í héraðinu.',
         heimild: [{ url: 'https://xd.is/2026/02/27/lif-leidir-afram-frambod-sjalfstaedisflokksins-a-akranesi/', label: 'Sjálfstæðisflokkurinn' }, { url: 'https://skagafrettir.is/2024/03/22/bilaumbodid-askja-opnar-a-akranesi-med-viktor-elvar-i-brunni/', label: 'skagafrettir.is' }, { url: 'https://skessuhorn.is/2024/03/21/askja-opnar-bratt-solu-og-thjonustuumbod-a-akranesi', label: 'skessuhorn.is' }],
@@ -8476,7 +8476,7 @@ const AKR = {
           { title: 'Líf leiðir áfram framboð Sjálfstæðisflokksins á Akranesi', url: 'https://xd.is/2026/02/27/lif-leidir-afram-frambod-sjalfstaedisflokksins-a-akranesi/', source: 'xd.is' },
         ],
       }],
-      [5, 'Ragnheiður Helgadóttir', 'Hjúkrunarfræðingur', null, {
+      [5, 'Ragnheiður Helgadóttir', 'Hjúkrunarfræðingur', 'images/candidates/7e124f32d451bdef.jpg', {
         age: null,
         bio: 'Ragnheiður Helgadóttir er hjúkrunarfræðingur með BS-gráðu frá Háskólanum á Akureyri og deildastjóri heimahjúkrunar á Akranesi. Hún hefur einnig setið í skólaráði Fjölbrautaskóla Vesturlands á Akranesi.',
         heimild: [{ url: 'https://xd.is/2026/02/27/lif-leidir-afram-frambod-sjalfstaedisflokksins-a-akranesi/', label: 'Sjálfstæðisflokkurinn' }],
@@ -8719,10 +8719,10 @@ const BBD = {
           { title: 'Uxahryggir og Kaldidalur – lykill að öflugri Borgarbyggð og betri ferðaþjónustu á Íslandi', url: 'https://www.visir.is/g/20262868322d/uxahryggir-og-kaldidalur-lykill-ad-oflugri-borgarbyggd-og-betri-ferdathjonustu-a-islandi', source: 'visir.is' },
         ],
       }],
-      [2, 'Ragnhildur Eva Jónsdóttir', 'Lögfræðingur og bæjarfulltrúi', null, { age: null, bio: 'Ragnhildur Eva Jónsdóttir er lögfræðingur og bæjarfulltrúi; hún er á 2. sæti á framboðslista Sjálfstæðisflokksins í Borgarbyggð í sveitarstjórnarkosningum 2026.', interests: null, social: null, news: [{ title: 'Framboðslisti Sjálfstæðisflokksins í Borgarbyggð samþykktur', url: 'https://xd.is/2026/04/08/frambodslisti-sjalfstaedisflokksins-i-borgarbyggd-samthykktur/', source: 'xd.is' }] }],
-      [3, 'Kristján Ágúst Magnússon', 'Bóndi og varabæjarfulltrúi', null, { age: null, bio: 'Kristján Ágúst Magnússon er bóndi og varabæjarfulltrúi; hann er á 3. sæti á framboðslista Sjálfstæðisflokksins í Borgarbyggð í sveitarstjórnarkosningum 2026.', interests: null, social: null, news: [{ title: 'Framboðslisti Sjálfstæðisflokksins í Borgarbyggð samþykktur', url: 'https://xd.is/2026/04/08/frambodslisti-sjalfstaedisflokksins-i-borgarbyggd-samthykktur/', source: 'xd.is' }] }],
-      [4, 'Birgir Heiðar Andrésson', 'Framleiðslustjóri', null, { age: null, bio: 'Birgir Heiðar Andrésson er framleiðslustjóri; hann er á 4. sæti á framboðslista Sjálfstæðisflokksins í Borgarbyggð í sveitarstjórnarkosningum 2026.', interests: null, social: null, news: [{ title: 'Framboðslisti Sjálfstæðisflokksins í Borgarbyggð samþykktur', url: 'https://xd.is/2026/04/08/frambodslisti-sjalfstaedisflokksins-i-borgarbyggd-samthykktur/', source: 'xd.is' }] }],
-      [5, 'Svana Hrönn Jóhannsdóttir', 'Fjárhagsráðgjafi', null, { age: null, bio: 'Svana Hrönn Jóhannsdóttir er fjármálaráðgjafi; hún er á 5. sæti á framboðslista Sjálfstæðisflokksins í Borgarbyggð í sveitarstjórnarkosningum 2026.', interests: null, social: null, news: [{ title: 'Framboðslisti Sjálfstæðisflokksins í Borgarbyggð samþykktur', url: 'https://xd.is/2026/04/08/frambodslisti-sjalfstaedisflokksins-i-borgarbyggd-samthykktur/', source: 'xd.is' }] }],
+      [2, 'Ragnhildur Eva Jónsdóttir', 'Lögfræðingur og bæjarfulltrúi', 'images/candidates/634d4f340cb5b529.jpg', { age: null, bio: 'Ragnhildur Eva Jónsdóttir er lögfræðingur og bæjarfulltrúi; hún er á 2. sæti á framboðslista Sjálfstæðisflokksins í Borgarbyggð í sveitarstjórnarkosningum 2026.', interests: null, social: null, news: [{ title: 'Framboðslisti Sjálfstæðisflokksins í Borgarbyggð samþykktur', url: 'https://xd.is/2026/04/08/frambodslisti-sjalfstaedisflokksins-i-borgarbyggd-samthykktur/', source: 'xd.is' }] }],
+      [3, 'Kristján Ágúst Magnússon', 'Bóndi og varabæjarfulltrúi', 'images/candidates/0d7de0800fe6cda8.jpg', { age: null, bio: 'Kristján Ágúst Magnússon er bóndi og varabæjarfulltrúi; hann er á 3. sæti á framboðslista Sjálfstæðisflokksins í Borgarbyggð í sveitarstjórnarkosningum 2026.', interests: null, social: null, news: [{ title: 'Framboðslisti Sjálfstæðisflokksins í Borgarbyggð samþykktur', url: 'https://xd.is/2026/04/08/frambodslisti-sjalfstaedisflokksins-i-borgarbyggd-samthykktur/', source: 'xd.is' }] }],
+      [4, 'Birgir Heiðar Andrésson', 'Framleiðslustjóri', 'images/candidates/429ca8032017b2cf.jpg', { age: null, bio: 'Birgir Heiðar Andrésson er framleiðslustjóri; hann er á 4. sæti á framboðslista Sjálfstæðisflokksins í Borgarbyggð í sveitarstjórnarkosningum 2026.', interests: null, social: null, news: [{ title: 'Framboðslisti Sjálfstæðisflokksins í Borgarbyggð samþykktur', url: 'https://xd.is/2026/04/08/frambodslisti-sjalfstaedisflokksins-i-borgarbyggd-samthykktur/', source: 'xd.is' }] }],
+      [5, 'Svana Hrönn Jóhannsdóttir', 'Fjárhagsráðgjafi', 'images/candidates/498661f1db33b5dd.jpg', { age: null, bio: 'Svana Hrönn Jóhannsdóttir er fjármálaráðgjafi; hún er á 5. sæti á framboðslista Sjálfstæðisflokksins í Borgarbyggð í sveitarstjórnarkosningum 2026.', interests: null, social: null, news: [{ title: 'Framboðslisti Sjálfstæðisflokksins í Borgarbyggð samþykktur', url: 'https://xd.is/2026/04/08/frambodslisti-sjalfstaedisflokksins-i-borgarbyggd-samthykktur/', source: 'xd.is' }] }],
       [6, 'Ólafur Tryggvason', 'Rekstrarstjóri'],
       [7, 'Sigríður Guðbjartsdóttir', 'Starfsmaður'],
       [8, 'Gísli Guðjónsson', 'Starfsmaður'],
@@ -8911,7 +8911,7 @@ const ISF = {
           { title: 'Fyrir fólkið', url: 'https://www.visir.is/g/20262868198d/fyrir-folkid', source: 'visir.is' },
         ],
       }],
-      [2, 'Þóra Marý Arnórsdóttir', 'Deildarstjóri', null, { age: null, bio: 'Þóra Marý Arnórsdóttir er deildarstjóri þjónustu við fatlaða hjá Ísafjarðarbæ og er á 2. sæti á D-lista Sjálfstæðisflokksins í Ísafjarðarbæ í sveitarstjórnarkosningum 2026.', interests: null, social: null, news: [] }],
+      [2, 'Þóra Marý Arnórsdóttir', 'Deildarstjóri', 'images/candidates/6a712ca6de16ad69.jpg', { age: null, bio: 'Þóra Marý Arnórsdóttir er deildarstjóri þjónustu við fatlaða hjá Ísafjarðarbæ og er á 2. sæti á D-lista Sjálfstæðisflokksins í Ísafjarðarbæ í sveitarstjórnarkosningum 2026.', interests: null, social: null, news: [] }],
       [3, 'Martha Kristín Pálmadóttir', 'Námskeið- og fjarnámsstjóri'],
       [4, 'Grétar Örn Eiríksson', 'Verkefnastjóri'],
       [5, 'Þorvaldur Óli Ragnarson', 'Sérfræðingur í endurskoðun'],
@@ -9535,19 +9535,19 @@ const MUT = {
           { title: 'Berglind Harpa býður sig fram til að leiða Sjálfstæðisflokkinn áfram', url: 'https://austurfrett.is/frettir/berglind-harpa-bydhur-sig-fram-til-adh-leidha-sjalfstaedhisflokkinn-afram', source: 'austurfrett.is' },
         ],
       }],
-      [2, 'Þórhildur Katrín Stefánsdóttir', 'Lögfræðingur, varaformaður Landssambands hestamannafélaga', null, {
+      [2, 'Þórhildur Katrín Stefánsdóttir', 'Lögfræðingur, varaformaður Landssambands hestamannafélaga', 'images/candidates/8df48a612a64519e.jpg', {
         age: null, bio: 'Þórhildur Katrín Stefánsdóttir er lögfræðingur og varaformaður Landssambands hrossabænda; hún er á 2. sæti á lista Sjálfstæðisflokksins í Múlaþingi í sveitarstjórnarkosningum 2026.', interests: null, social: null,
         news: [{ title: 'Berglind Harpa áfram oddviti í Múlaþingi', url: 'https://xd.is/2026/02/28/berglind-harpa-afram-oddviti-i-mulathingi-thorhildur-katrin-i-2-saeti/', source: 'xd.is' }],
       }],
-      [3, 'Ívar Karl Hafliðason', 'Framkvæmdastjóri og stjórnarformaður HEF', null, {
+      [3, 'Ívar Karl Hafliðason', 'Framkvæmdastjóri og stjórnarformaður HEF', 'images/candidates/599ec027262124c8.jpg', {
         age: null, bio: 'Ívar Karl Hafliðason er forstjóri og sveitarstjórnarfulltrúi; hann er á 3. sæti á lista Sjálfstæðisflokksins í Múlaþingi í sveitarstjórnarkosningum 2026.', interests: null, social: null,
         news: [{ title: 'Berglind Harpa áfram oddviti í Múlaþingi', url: 'https://xd.is/2026/02/28/berglind-harpa-afram-oddviti-i-mulathingi-thorhildur-katrin-i-2-saeti/', source: 'xd.is' }],
       }],
-      [4, 'Einar Freyr Guðmundsson', 'Laganemi og varamaður í bæjarstjórn', null, {
+      [4, 'Einar Freyr Guðmundsson', 'Laganemi og varamaður í bæjarstjórn', 'images/candidates/5ed4dfa141accf4c.jpg', {
         age: null, bio: 'Einar Freyr Guðmundsson er lögfræðinemi og sveitarstjórnarfulltrúi; hann er á 4. sæti á lista Sjálfstæðisflokksins í Múlaþingi í sveitarstjórnarkosningum 2026.', interests: null, social: null,
         news: [{ title: 'Berglind Harpa áfram oddviti í Múlaþingi', url: 'https://xd.is/2026/02/28/berglind-harpa-afram-oddviti-i-mulathingi-thorhildur-katrin-i-2-saeti/', source: 'xd.is' }],
       }],
-      [5, 'Oddný Björk Daníelsdóttir', 'Rekstrarstjóri', null, {
+      [5, 'Oddný Björk Daníelsdóttir', 'Rekstrarstjóri', 'images/candidates/1675a85cfa96f5bc.jpg', {
         age: null, bio: 'Oddný Björk Daníelsdóttir er rekstrarstjóri og fyrrverandi sveitarstjórnarfulltrúi frá Seyðisfirði; hún er á 5. sæti á lista Sjálfstæðisflokksins í Múlaþingi í sveitarstjórnarkosningum 2026.', interests: null, social: null,
         news: [{ title: 'Berglind Harpa áfram oddviti í Múlaþingi', url: 'https://xd.is/2026/02/28/berglind-harpa-afram-oddviti-i-mulathingi-thorhildur-katrin-i-2-saeti/', source: 'xd.is' }],
       }],

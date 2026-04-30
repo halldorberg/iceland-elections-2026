@@ -1,4 +1,4 @@
-import { MUNICIPALITIES } from './data/municipalities.js?v=14';
+import { MUNICIPALITIES } from './data/municipalities.js?v=15';
 import { PARTIES } from './data/parties.js?v=4';
 import { getMunicipalityPartyData } from './data/candidates.js?v=46';
 import { RESULTS_2022 } from './data/results2022.js?v=2';
