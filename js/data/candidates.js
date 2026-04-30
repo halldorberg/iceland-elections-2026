@@ -5219,7 +5219,7 @@ const GRN = {
       { icon: '💼', title: 'Atvinnulíf', text: 'Öflugt og sjálfbært atvinnulíf.' },
     ],
     list: [
-      [1, 'Ásrún Helga Kristinsdóttir', 'Kennari og forseti bæjarstjórnar', null, {
+      [1, 'Ásrún Helga Kristinsdóttir', 'Kennari og forseti bæjarstjórnar', 'https://framerusercontent.com/images/lXKHwr7FOXhSdiC0f6Jaq2FPwkg.jpg', {
         age: null,
         bio: 'Ásrún Helga Kristinsdóttir er bæjarforseti Grindavíkur og grunnskólakennari á Grunnskóla Grindavíkur þar sem hún hefur starfað frá 2001. Hún leiðir B-lista Framsóknar í Grindavík og hefur setið í bæjarstjórn frá 2014.',
         heimild: [{ url: 'https://www.ruv.is/frettir/innlent/2022-03-31-asrun-helga-leidir-lista-framsoknar-i-grindavik', label: 'RÚV' }, { url: 'https://www.dv.is/tag/asrun-helga-kristinsdottir/', label: 'DV' }, { url: 'https://kosningasaga.wordpress.com/2026/03/18/frambodslisti-framsoknar-i-grindavik/', label: 'kosningasaga.wordpress.com' }],
@@ -5227,7 +5227,7 @@ const GRN = {
         social: null,
         news: [],
       }],
-      [2, 'Þorleifur Ólafsson', 'Frambjóðandi', null, { age: null, bio: 'Þorleifur Ólafsson er þjálfari og kennari og er í 2. sæti á B-lista Framsóknar í Grindavík í sveitarstjórnarkosningum 2026.', interests: null, social: null, news: [] }],
+      [2, 'Þorleifur Ólafsson', 'Frambjóðandi', 'https://framerusercontent.com/images/PpuktDNaPSTEkYCcSXfaxrCF0.jpg', { age: null, bio: 'Þorleifur Ólafsson er þjálfari og kennari og er í 2. sæti á B-lista Framsóknar í Grindavík í sveitarstjórnarkosningum 2026.', interests: null, social: null, news: [] }],
       [3, 'Inga Fanney Rúnarsdóttir', 'Frambjóðandi'],
       [4, 'Elínborg Ingvarsdóttir', 'Frambjóðandi'],
       [5, 'Benedikt Óskar Steingrímsson', 'Frambjóðandi'],
@@ -6351,7 +6351,7 @@ const HVG = {
           { title: 'Framboðslisti Framsóknar í Hveragerði', url: 'https://kosningasaga.wordpress.com/2026/03/19/frambodslisti-framsoknar-i-hveragerdi-2/', source: 'kosningasaga' },
         ],
       }],
-      [2, 'Einar Alexander K. Haraldsson', 'Varðstjóri hjá lögreglunni', null, { age: null, bio: 'Einar Alexander K. Haraldsson er varðstjóri hjá Lögreglunni á Suðurlandi og er á 2. sæti á B-lista Framsóknar í Hveragerðisbæ í sveitarstjórnarkosningum 2026.', interests: null, social: null, news: [] }],
+      [2, 'Einar Alexander K. Haraldsson', 'Varðstjóri hjá lögreglunni', 'https://framerusercontent.com/images/1dPvTBx7z5lhv7qKoC9TrBpsTWc.jpg', { age: null, bio: 'Einar Alexander K. Haraldsson er varðstjóri hjá Lögreglunni á Suðurlandi og er á 2. sæti á B-lista Framsóknar í Hveragerðisbæ í sveitarstjórnarkosningum 2026.', interests: null, social: null, news: [] }],
       [3, 'Thelma Rún Runólfsdóttir', 'Sérfræðingur skólaþjónustu'],
       [4, 'Atli Örn Egilsson', 'Verkefnastjóri'],
       [5, 'Sæbjörg L. Másdóttir', 'Hjúkrunarfræðingur'],
@@ -7431,7 +7431,7 @@ const HNB = {
       { icon: '🌾', title: 'Landbúnaður', text: 'Styðja við bændur og dreifbýlisþróun.' },
     ],
     list: [
-      [1, 'Grímur Rúnar Lárusson', 'Lögfræðingur', null, {
+      [1, 'Grímur Rúnar Lárusson', 'Lögfræðingur', 'https://framerusercontent.com/images/C4NpZgs0NjHrEiJ65M5VsFOnoM.jpg', {
         age: null,
         bio: 'Grímur Rúnar Lárusson er lögfræðingur á Blönduósi og leiðir B-lista Framsóknar og framfarasinna í Húnabyggð í kosningum 2026. Hann starfar sem varaforseti Húnabyggðar sveitarstjórnar og er formaður íþrótta-, tómstunda- og lýðheilsunefndar. Hann lýsir 18 manna lista sínum sem sambland af reynslu, metnaði og skuldbindingu við samfélagið.',
         heimild: [{ url: 'https://www.hunabyggd.is/is/stjornsysla/stjornskipulag/nefndir-og-rad/sveitarstjorn', label: 'hunabyggd.is – sveitarstjórn' }, { url: 'https://www.hunabyggd.is/is/stjornsysla/stjornskipulag/nefndir-og-rad/ithrotta-tomstunda-og-lydheilsunefnd', label: 'hunabyggd.is – íþróttanefnd' }],
@@ -7439,7 +7439,7 @@ const HNB = {
         social: null,
         news: [],
       }],
-      [2, 'Jenný Lind Gunnarsdóttir', 'Frambjóðandi', null, { age: null, bio: null, interests: null, social: null, news: [] }],
+      [2, 'Jenný Lind Gunnarsdóttir', 'Frambjóðandi', 'https://framerusercontent.com/images/t6aiBmrecSSyXXP6jqIognOV42k.jpg', { age: null, bio: null, interests: null, social: null, news: [] }],
       [3, 'Helgi Páll Gíslason', ''],
       [4, 'Ágústa Rós Ingibjörnsdóttir', ''],
       [5, 'Ásdís Adda Ólafsdóttir', ''],
@@ -7618,7 +7618,7 @@ const SFJ = {
         social: null,
         news: [{ title: 'Framboðslisti Framsóknar í Skagafirði 2026', url: 'https://kosningasaga.wordpress.com/2026/03/05/frambodslisti-framsoknar-i-skagafirdi-2/', source: 'kosningasaga.wordpress.com' }],
       }],
-      [2, 'Hrund Pétursdóttir', 'Deildarstjóri', null, { age: null, bio: null, interests: null, social: null, news: [] }],
+      [2, 'Hrund Pétursdóttir', 'Deildarstjóri', 'https://framerusercontent.com/images/TJoWMDsr9eF9pEn39cIz4LGsvTg.jpg', { age: null, bio: null, interests: null, social: null, news: [] }],
       [3, 'Halldór Jón Sigurðsson', 'Íþróttakennari og þjálfari'],
       [4, 'Sylvía Sif Halldórsdóttir', 'Hjúkrunarfræðingur'],
       [5, 'Sigurlína Erla Magnúsdóttir', 'Skrifstofuaðstoðarmaður'],
@@ -8353,7 +8353,7 @@ const AKR = {
       { icon: '💡', title: 'Nýsköpun', text: 'Framsækin stjórnun og nýsköpun í þágu bæjarins.' },
     ],
     list: [
-      [1, 'Ragnar Baldvin Sæmundsson', 'Bæjarfulltrúi', null, { news: [
+      [1, 'Ragnar Baldvin Sæmundsson', 'Bæjarfulltrúi', 'https://framerusercontent.com/images/vYZKc98btr2LPZaXsM087lrJ0L8.jpg', { news: [
           { title: 'Oddvitaumræður á Akranesi', url: 'https://www.ruv.is/frettir/innlent/2026-04-22-oddvitaumraedur-a-akranesi-473426', source: 'ruv.is' },
         ] }],
       [2, 'Liv Aase Skarstad', 'Bæjarfulltrúi'],
@@ -8695,7 +8695,7 @@ const BBD = {
           { title: 'Framboðslisti Framsóknar í Borgarbyggð', url: 'https://kosningasaga.wordpress.com/2026/04/02/frambodslisti-framsoknar-i-borgarbyggd/', source: 'kosningasaga' },
         ],
       }],
-      [2, 'Sonja Lind Eyglóardóttir', 'Lögfræðingur', null, { age: null, bio: 'Sonja Lind Eyglóardóttir er lögfræðingur og fyrrverandi verkefnastjóri þingflokks Framsóknarflokksins; hún er formaður Framsóknarfélags Borgarfjarðar og Mýra og er á 2. sæti á framboðslista Framsóknarflokksins í Borgarbyggð í sveitarstjórnarkosningum 2026.', interests: null, social: null, news: [{ title: 'Framboðslisti Framsóknar í Borgarbyggð', url: 'https://kosningasaga.wordpress.com/2026/04/02/frambodslisti-framsoknar-i-borgarbyggd/', source: 'kosningasaga' }] }],
+      [2, 'Sonja Lind Eyglóardóttir', 'Lögfræðingur', 'https://framerusercontent.com/images/Xm82Ifl0Vh3BMdAn6t3LDu6PdKE.jpg', { age: null, bio: 'Sonja Lind Eyglóardóttir er lögfræðingur og fyrrverandi verkefnastjóri þingflokks Framsóknarflokksins; hún er formaður Framsóknarfélags Borgarfjarðar og Mýra og er á 2. sæti á framboðslista Framsóknarflokksins í Borgarbyggð í sveitarstjórnarkosningum 2026.', interests: null, social: null, news: [{ title: 'Framboðslisti Framsóknar í Borgarbyggð', url: 'https://kosningasaga.wordpress.com/2026/04/02/frambodslisti-framsoknar-i-borgarbyggd/', source: 'kosningasaga' }] }],
       [3, 'Jón E. Einarsson', 'Formaður Skorradalshrepps og bóndi', null, { age: null, bio: 'Jón Eiríkur Einarsson er bóndi og fyrrverandi oddviti Skorradalshrepps; hann er á 3. sæti á framboðslista Framsóknarflokksins í Borgarbyggð í sveitarstjórnarkosningum 2026.', interests: null, social: null, news: [{ title: 'Framboðslisti Framsóknar í Borgarbyggð', url: 'https://kosningasaga.wordpress.com/2026/04/02/frambodslisti-framsoknar-i-borgarbyggd/', source: 'kosningasaga' }] }],
       [4, 'Guðdís Jónsdóttir', 'Bóndi og ritari við Grunnskólann á Borgarnesi', null, { age: null, bio: 'Guðdís Jónsdóttir er bóndi og ritari grunnskóla á Borgarnesi; hún er á 4. sæti á framboðslista Framsóknarflokksins í Borgarbyggð í sveitarstjórnarkosningum 2026.', interests: null, social: null, news: [{ title: 'Framboðslisti Framsóknar í Borgarbyggð', url: 'https://kosningasaga.wordpress.com/2026/04/02/frambodslisti-framsoknar-i-borgarbyggd/', source: 'kosningasaga' }] }],
       [5, 'Jón Theódór Jónsson', 'Framkvæmdastjóri og aðalþjálfari Skallagrímsfélags', null, { age: null, bio: 'Jón Theodór Jónsson er á 5. sæti á framboðslista Framsóknarflokksins í Borgarbyggð í sveitarstjórnarkosningum 2026.', interests: null, social: null, news: [{ title: 'Framboðslisti Framsóknar í Borgarbyggð', url: 'https://kosningasaga.wordpress.com/2026/04/02/frambodslisti-framsoknar-i-borgarbyggd/', source: 'kosningasaga' }] }],
