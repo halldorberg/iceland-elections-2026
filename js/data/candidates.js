@@ -1239,9 +1239,9 @@ const RVK = {
       { icon: '🛒', title: 'Borgarbúðir', text: 'Matvöruverð hafa hækkað uppúr öllu valdi á meðan stórfyrirtæki skila methagnaði. Sósíalistarnir vilja að Reykjavík stofni eigin borgarbúðir til að brjóta einokun á matvörumarkaði.' },
     ],
     list: [
-      [1, 'Silja Sóley Birgisdóttir', 'Stuðningsfulltrúi', 'images/candidates/67589f0cb35ea8ed.jpg', {
+      [1, 'Silja Sóley Birgisdóttir', 'Stuðningsfulltrúi í grunnskóla', 'https://storage.googleapis.com/xj-strapi-uploads/rvk_01_silja_color_8b4e90aff0/rvk_01_silja_color_8b4e90aff0.jpg', {
         age: 25,
-        bio: 'Silja Sóley Birgisdóttir er fædd 13. maí 2000 og leiðir lista Sósíalistaflokks Íslands í Reykjavík. Hún var samþykkt á félagsfundi Jafnaðarmannafélags Reykjavíkur þann 7. febrúar 2026. Hún hefur komið fram í fjölmörgum viðtölum um húsnæðismál og skólamál.',
+        bio: 'Ég vil leggja mitt af mörkum til að skapa öflugt og réttlát samfélag fyrir öll. Skólamálin eru næst mínu hjarta. Ég hef unnið í skólakerfinu frá því ég var sjálf á menntaskólaárunum, fyrst sem aðstoðarkennari í framhaldsskóla, síðan vann ég í þrjú ár sem leiðbeinandi á leikskóla og síðasta vetur starfaði ég sem stuðningsfulltrúi í grunnskóla. Ég mun leggja mig fram að færa þjónustuna nær börnunum og skapa öflugt stuðningsnet sem grípur öll börn.',
         heimild: [{ url: 'https://is.wikipedia.org/wiki/Silja_S%C3%B3ley_Birgisd%C3%B3ttir', label: 'Wikipedia' }, { url: 'https://www.ruv.is/frettir/innlent/2026-02-10-silja-soley-leidir-lista-sosialista-i-borginni-466613', label: 'ruv.is' }],
         interests: ['Húsnæðismál og óhagnaðardrifin íbúðir', 'Grunnskólamál', 'Andstaða við einkavæðingu þjónustu'],
         social: [
@@ -1257,19 +1257,19 @@ const RVK = {
           { title: 'Þau skipa lista Sósíalistaflokksins í Reykjavík', url: 'https://www.visir.is/g/20262865767d/thau-skipa-lista-sosialistaflokksins-i-reykjavik', source: 'visir.is' },
         ],
       }],
-      [2, 'Sigrún E Unnsteinsdóttir', 'Kaupsýslumaður', null, {
+      [2, 'Sigrún E Unnsteinsdóttir', 'Athafnakona', 'https://storage.googleapis.com/xj-strapi-uploads/rvk_02_sigrun_color_24fdb2c04d/rvk_02_sigrun_color_24fdb2c04d.jpg', {
         age: 69,
-        bio: 'Sigrún E. Unnsteinsdóttir er kaupsýslumaður sem er í 2. sæti á lista Sósíalistaflokks Íslands í Reykjavík. Hún hefur tekið þátt í starfi flokksins og réttindabaráttu launafólks.',
+        bio: 'Ég er fædd á Njálsgötu 60. Hef öll mín fullorðinsár búið og starfað í Reykjavík. Meirihlutann af minni starfsævi hef ég verið í eigin rekstri. Ég á 4 börn og 8 barnabörn sem öll búa í Reykjavík. Er núna í stjórn FEB (félag eldri borgara í Reykjavík og nágrenni). Hef alltaf verið pólitísk en hef aldrei verið flokksbundin fyrr en ég gerðist stofnfélagi Sósíalistaflokksins. Ég brenn fyrir réttlæti og jöfnuði. Þessar kosningar snúast fyrst og fremst um húsnæðismál og húsnæðisöryggi allra aldurshópa.',
         heimild: [{ url: 'https://www.visir.is/g/20262865767d/thau-skipa-lista-sosialistaflokksins-i-reykjavik', label: 'visir.is' }],
-        interests: ['Réttindi launafólks og fátækra', 'Þátttaka almennings í borgarstjórnarmálum'],
-        social: null,
+        interests: ['Húsnæðismál og húsnæðisöryggi', 'Réttlæti og jöfnuður', 'Málefni eldri borgara'],
+        social: [{ type: 'facebook', url: 'https://www.facebook.com/', label: 'Facebook' }],
         news: [
           { title: 'Þau skipa lista Sósíalistaflokksins í Reykjavík', url: 'https://www.visir.is/g/20262865767d/thau-skipa-lista-sosialistaflokksins-i-reykjavik', source: 'visir.is' },
         ],
       }],
-      [3, 'Hannes Pétursson', 'Verslunarmaður', null, {
+      [3, 'Hannes Pétursson', 'Verslunarmaður', 'https://storage.googleapis.com/xj-strapi-uploads/rvk_03_hannes_color_95cbbfd257/rvk_03_hannes_color_95cbbfd257.jpg', {
         age: 33,
-        bio: 'Hannes Pétursson er verslunarmaður og er á 3. sæti J-listans (Sósíalistaflokks Íslands) í borgarstjórnarkosningum í Reykjavík 2026.',
+        bio: 'Sem Reykvíkingur alla mína tíð hef ég með hverju árinu misst meiri trú á borgarstjórnmálum. Þess vegna er ég stoltur af framboði Sósíalistaflokksins í Reykjavík sem samastendur af venjulegu fólki sem vill breyta þessu ástandi og standa við stóru orðin. Stefnumál okkar byggja ekki á tækifærismennsku eða atkvæðaveiðum heldur raunverulegum hugsjónum um að bæta líf launafólks. Almenningur á borgina — ekki fjárfestar!',
         heimild: [{ url: 'https://www.visir.is/g/20262865767d/thau-skipa-lista-sosialistaflokksins-i-reykjavik', label: 'visir.is' }],
         interests: null,
         social: null,
@@ -1277,21 +1277,21 @@ const RVK = {
           { title: 'Þau skipa lista Sósíalistaflokksins í Reykjavík', url: 'https://www.visir.is/g/20262865767d/thau-skipa-lista-sosialistaflokksins-i-reykjavik', source: 'visir.is' },
         ],
       }],
-      [4, 'Geirdís Hanna Kristjánsdóttir', 'Öryrki', null, {
+      [4, 'Geirdís Hanna Kristjánsdóttir', 'Öryrki', 'https://storage.googleapis.com/xj-strapi-uploads/rvk_04_geirdis_color_4e9a046f02/rvk_04_geirdis_color_4e9a046f02.jpg', {
         age: 51,
-        bio: 'Geirdís Hanna Kristjánsdóttir er fædd og uppalin á Siglufirði. Hún hefur verið á örorkubótum frá 2008 en reynt að taka þátt á vinnumarkaðnum eftir megni. Hún situr í stjórn keilunardeildar ÍR og KLÍ.',
+        bio: 'Ég vil berjast fyrir samfélagi sem við getum öll verið stolt af að tilheyra. Umferðaröryggi er á meðal þess sem ég brenn fyrir. Hvort sem um er að ræða akandi, gangandi eða hjólandi, þá þurfum við samgöngukerfi sem er í lagi og auðvelt er að ferðast um. Málefni fatlaðra eru mér mjög hugleikin, verandi öryrki sjálf. Mikilvægt er að hafa fatlaða eða málsvara þeirra með í ráðum þegar kemur að því að skipuleggja borgina okkar.',
         heimild: [{ url: 'https://www.visir.is/g/20262865767d/thau-skipa-lista-sosialistaflokksins-i-reykjavik', label: 'visir.is' }],
-        interests: ['Réttindi fatlaðs fólks og öryrkja', 'Húsnæðismál', 'Félagsleg þjónusta borgarinnar'],
+        interests: ['Réttindi fatlaðs fólks og öryrkja', 'Umferðaröryggi', 'Skipulagsmál borgarinnar'],
         social: null,
         news: [
           { title: 'Þau skipa lista Sósíalistaflokksins í Reykjavík', url: 'https://www.visir.is/g/20262865767d/thau-skipa-lista-sosialistaflokksins-i-reykjavik', source: 'visir.is' },
         ],
       }],
-      [5, 'Jón Ferdínand Estherarson', 'Stjórnmálafræðingur', null, {
+      [5, 'Jón Ferdínand Estherarson', 'Stjórnmálasagnfræðingur', 'https://storage.googleapis.com/xj-strapi-uploads/rvk_05_jon_f_color_caa9a7712b/rvk_05_jon_f_color_caa9a7712b.jpg', {
         age: 34,
-        bio: 'Jón Ferdínand Estherarson er stjórnmálafræðingur og er virkt stjórnarmeðlimur Sósíalistaflokks Íslands, kjörinn á aðalfundi 2025.',
+        bio: 'Ég brenn fyrir húsnæðismálum og því að bæta lífskjör í samfélaginu. Sjálfur hef ég lengi unnið í ýmsum láglaunastörfum og sit fastur á gróðavæddum leigumarkaði með ekkert fjárhagslegt bakland. Þess vegna hef ég beitt mér í stjórn Leigjendasamtakanna í nokkur ár þar sem ég er varaformaður í dag og er formaður Sósíalistafélags Reykjavíkur til að koma húsnæðismálum frá sjónarhóli leigjenda kirfilega á dagskrá.',
         heimild: [{ url: 'https://www.visir.is/g/20262865767d/thau-skipa-lista-sosialistaflokksins-i-reykjavik', label: 'visir.is' }],
-        interests: ['Stjórnmálafræði', 'Umbætur í borgarstjórnun', 'Réttlæti í félagslegu kerfi'],
+        interests: ['Húsnæðismál og leigjendasamtök', 'Varaformaður Leigjendasamtakanna', 'Formaður Sósíalistafélags Reykjavíkur'],
         social: null,
         news: [
           { title: 'Þau skipa lista Sósíalistaflokksins í Reykjavík', url: 'https://www.visir.is/g/20262865767d/thau-skipa-lista-sosialistaflokksins-i-reykjavik', source: 'visir.is' },
