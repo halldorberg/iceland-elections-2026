@@ -125,9 +125,20 @@ For each candidate:
    - "<name> <muni_label>"
    - "<name> site:mbl.is OR site:visir.is OR site:ruv.is OR site:vf.is"
    Try variations like "<name> ferill", "<name> viðtal" to find non-election angles.
-3. Add only articles published AFTER 2025-01-01
-4. Add maximum 3 new articles per candidate per scan
-5. Include title, url, and source (domain name)
+3. **Verify identity before adding any article.** Each article MUST mention the
+   candidate by full name in the title or body. If a search returns no articles
+   that name this specific candidate, write **zero** new articles for them —
+   do not substitute articles about a similarly-positioned public figure
+   (e.g. another local politician, another woman of the same age, another
+   person with the same first name). Common failure mode: a low-profile
+   candidate has no coverage, so the agent latches on to a prominent
+   adjacent figure and records their articles instead. Don't.
+4. **Never modify the `name` field.** Copy it verbatim from the manifest
+   entry. The `muni_slug`, `party_code`, `ballot`, and `name` fields together
+   identify which candidate the articles belong to — they must always agree.
+5. Add only articles published AFTER 2025-01-01
+6. Add maximum 3 new articles per candidate per scan
+7. Include title, url, and source (domain name)
 
 Result format — write to: scan_results/news_YYYY-MM-DD.json
 Use TEMPLATE: scan_results/TEMPLATE_news.json
