@@ -55,35 +55,156 @@ DO NOT read candidates.js. The manifest has everything you need.
 
 **When:** Anytime. Parties with `platformUrl` set are excluded from the list.
 
-**Agent prompt template:**
+> **Why this section is so prescriptive:** earlier policy scans drifted into
+> hallucination territory because agents were given soft rules ("find a
+> credible source"). They would land on a news article, paraphrase plausible
+> bullets that didn't actually appear in the source, then attribute them to a
+> party-owned URL the agent never fetched. The protocol below — three hard
+> rules at the agent level + a mechanical post-scan audit using a different
+> HTTP client than the agent's WebFetch — is what prevents that.
+
+#### Three hard rules every agent must follow
+
+1. **Pattern-probe FIRST.** Before any web search, WebFetch each predicted
+   party-domain URL directly. Search is the fallback, not the entry point.
+   - Sjálfstæðisflokkur (D): `xd.is/sveitastjornir/<muni>/`, `x<letter><muni-prefix>.is`
+   - Framsókn (B): `framsokn.is/sveitarfelog/<muni>`, `framsokn.is/<muni>`, `/stefna`
+   - Samfylking (S): `xs.is/<muni>`, `xs.is/<muni>-alla-aevi`
+   - Vinstri Græn (V) / Vinstrið (A): `vg.is/<muni>`, `vinstrigraen<muni>.is`
+   - Miðflokkur (M): `midflokkurinn.is/<muni>` ← key pattern
+   - Viðreisn (C): `vidreisn.is/<muni>/stefnan/`, `vidreisn.is/<muni>/`
+   - Píratar (P): `piratar.is/<muni>`
+   - Local lists: try `<listname>.is`, then search for `"<list name> stefna 2026"`
+
+   Note: many `xd.is/sveitastjornir/<muni>/` and `framsokn.is/sveitarfelog/<muni>`
+   pages are candidate rosters with no policy text. Reject them — don't paraphrase
+   from a navigation menu.
+
+2. **Recency.** The fetched page must show evidence of the 2026 election
+   cycle — a publication or "last updated" date ≥ 2025-01-01, OR explicit
+   text "2026" / "kosningar 2026" / "sveitarstjórnarkosningar 2026". An
+   undated 2022-era platform from the same party does not count, however
+   credible it looks.
+
+3. **Platform page beats op-ed on the same domain.** When `midflokkurinn.is/<muni>`
+   exists with policy content AND a candidate op-ed exists on the same domain,
+   the platform page wins. Do not stop at the first hit if a cleaner one is
+   reachable from the patterns above.
+
+#### Per-bullet provenance
+
+For every kept entry, every agenda bullet must carry:
+
+- `source_quote`: 30–250 chars of **verbatim Icelandic** copied from the
+  WebFetch output. Not paraphrase. Not "summarised from". Verbatim.
+- `text`: 1–2 sentence Icelandic restatement (this is what gets surfaced in
+  the candidate modal)
+- `title`, `icon`
+
+And the entry as a whole carries:
+
+- `verified_source_kind`: `"own-site"` or `"news-with-rationale"`
+- `recency_evidence`: short string showing the recency proof (e.g.
+  `"page footer dated 2026-04"`)
+- `audit_note`: which patterns were probed, why this URL won, how recency
+  was verified
+
+If you cannot produce ≥3 quotable bullets from a single fetched page, **skip
+the party**. Skipping is correct. Quality > coverage.
+
+#### Agent prompt template
 
 ```
-You are a policy research agent. Your task is to find official policy
-platforms for Icelandic municipal election parties that don't have one yet.
+You are running a STRICT policy scan for the Icelandic 2026 municipal elections.
 
 Read the file: scan_manifest.json
 Work through the entries in: manifest["missing_policy"]
 
-For each party:
-- Search for: "<party_label> <muni_label> stefna 2026" or similar
-- Look for the party's official page, their municipal branch website,
-  or a published election platform document
-- If you find a credible, sourced policy page:
-  - Extract 3-5 key policy points (in Icelandic)
-  - Record the platform URL
-  - Write a short updated tagline
+(Or, for parallelism, read scan_worklist_policy_YYYY-MM-DD_<X>.json — a slice
+file the orchestrator created.)
 
-Result format — write to: scan_results/policy_YYYY-MM-DD.json
-Use TEMPLATE: scan_results/TEMPLATE_policy.json
+THREE NON-NEGOTIABLE RULES — see SCAN_AGENT_GUIDE.md "Policy" section for
+the full pattern table:
+
+1. Pattern-probe before search. WebFetch the party's predicted own-domain
+   URLs directly before doing any web search.
+2. Recency. Source must show date ≥ 2025-01-01 OR explicit 2026 reference.
+3. Party platform page beats op-ed on the same party domain.
+
+WORKFLOW PER PARTY:
+1. Build 4–6 candidate URLs from the party-pattern table.
+2. For each URL: WebFetch with prompt
+     "List the policy points / stefnumál on this page verbatim, as quoted
+     Icelandic phrases. When was this page published or updated? Does it
+     reference 2026 or any other election year?"
+3. Score the result:
+   - STRONG  = ≥4 distinct policy quotes AND recency confirmed → KEEP
+   - REJECT  = old date, candidate roster only, or <3 quotes
+4. After patterns exhausted, fall back to web search — same recency rule.
+5. If no STRONG-tier source found → SKIP the party.
+
+For each KEPT entry, every agenda bullet has source_quote (verbatim Icelandic,
+30–250 chars), text, title, icon. Per entry: platform_url, verified_source_kind,
+recency_evidence, audit_note, tagline, agenda[].
 
 Rate-limit strategy:
-- Process parties in batches of 8-12
-- Stop and write partial results if you hit rate limits
-- Skip parties whose tagline already sounds specific and detailed —
-  those likely already have real data and just didn't publish a URL.
+- Process parties in batches of ~7
+- Write partial results to the output file after every batch
+- Resume by reading the output file to find which parties are already done
 
-DO NOT read candidates.js. The manifest has everything you need.
+Result format — write to: scan_results/policy_YYYY-MM-DD.json (or
+scan_results/policy_YYYY-MM-DD_<X>.json for parallel slices)
+Use TEMPLATE: scan_results/TEMPLATE_policy.json
+
+DO NOT git commit. DO NOT alter content you can't quote. DO NOT read candidates.js.
 ```
+
+#### MANDATORY post-scan audit (do not skip)
+
+After all agents finish, run the mechanical quote audit:
+
+```bash
+python scripts/verify_quotes.py
+```
+
+This script does, for every entry across all `policy_YYYY-MM-DD_*.json` files:
+
+1. Fetches `platform_url` with a real Chrome User-Agent + Accept-Language
+   header (this bypasses bot-blocks that defeat WebFetch on `bb.is`,
+   `mbl.is`, etc.) using `urllib`.
+2. Strips `<script>`/`<style>` blocks and tags, collapses whitespace.
+3. For each `source_quote`, applies three matching tests:
+   - exact substring
+   - normalized substring (lowercase, non-letters → spaces)
+   - word-overlap fallback: ≥75% of words ≥ 4 chars must appear in body
+4. Per entry: KEEP if ≥75% of bullets match; otherwise DROP.
+5. Annotates each surviving bullet with `quote_verified: true|false`.
+6. Writes `policy_YYYY-MM-DD_*_AUDITED.json` and **deletes the originals**
+   so the renderer only sees verified data.
+
+The renderer (`generate_review.py`) shows per-bullet provenance directly on
+the review page: green ✓ "verbatim from page" or red ⚠ "not found on linked
+page". This is the user's spot-check surface.
+
+**Why the audit is non-negotiable:** the agent and the auditor have to
+agree, and the auditor is a deterministic Python script — it cannot
+hallucinate. If a hallucinated quote sneaks past the agent (which it will,
+especially on bot-blocked domains where the agent falls back to search
+snippets), the audit catches it.
+
+#### Live review flow (parallel agents)
+
+Same pattern as the news scan:
+
+- Slice `missing_policy` into 4 files (e.g. `scan_worklist_policy_YYYY-MM-DD_A.json`
+  through `_D.json`). Put the no-agenda priority parties at the top of slice A.
+- Each agent writes to its own `policy_YYYY-MM-DD_<X>.json`. The renderer
+  globs `policy_YYYY-MM-DD*.json` and merges by `(muni_slug, party_code)`
+  (avoids the `FJA.D` id collision between Fjarðabyggð and Fjallabyggð).
+- After each batch write, the orchestrator (main thread) re-renders and
+  pushes `scan-review.html`. Agents do **not** commit/push themselves.
+- After all agents finish, run `verify_quotes.py`, re-render, push.
+- Wait for explicit user approval before `apply_scan_results.py`.
 
 ---
 
@@ -262,9 +383,17 @@ for the exact commands), so the user can monitor progress at
 - All party platforms found, with sources
 - All photos found, with where they came from
 
-When all scans are done, do one final `generate_review.py` + push to make
-sure the page reflects the final state, then wait for the user to give
-**explicit approval** before proceeding to apply results.
+When all scans are done:
+
+1. **For policy scans**, run `python scripts/verify_quotes.py` first — this
+   fetches each `platform_url` independently and drops any entry whose
+   `source_quote` text doesn't appear in the actual page body. Originals are
+   replaced with `*_AUDITED.json` files. See "Policy" section above for why
+   this audit is non-negotiable.
+2. Do one final `generate_review.py` + push to make sure the page reflects
+   the final state.
+3. Wait for the user to give **explicit approval** before proceeding to
+   apply results.
 
 After approval, **clear the review page** so it is blank for the next scan:
 ```bash
@@ -320,15 +449,21 @@ Then commit and push.
 ## File layout
 
 ```
-scan_manifest.json            ← generated before each session
+scan_manifest.json                       ← generated before each session
 scan_results/
-  TEMPLATE_news.json          ← copy & fill in
-  TEMPLATE_photos.json        ← copy & fill in
-  TEMPLATE_policy.json        ← copy & fill in
-  news_2026-05-01.json        ← result files (date-stamped)
+  TEMPLATE_news.json                     ← copy & fill in
+  TEMPLATE_photos.json                   ← copy & fill in
+  TEMPLATE_policy.json                   ← copy & fill in
+  news_2026-05-01.json                   ← result files (date-stamped)
+  news_2026-05-01_A.json                 ← parallel-agent slices
   photos_2026-04-28.json
-  policy_2026-04-28.json
+  policy_2026-04-28_A.json               ← parallel-agent slices
+  policy_2026-04-28_A_AUDITED.json       ← post-verify_quotes.py
+  applied/                               ← move applied scans here
+  quarantine/                            ← move untrustworthy scans here
 scripts/
-  generate_manifest.py        ← run first
-  apply_scan_results.py       ← run after results are ready
+  generate_manifest.py                   ← run first
+  generate_review.py                     ← live-render the review page
+  verify_quotes.py                       ← MANDATORY for policy scans, before review
+  apply_scan_results.py                  ← run after results are approved
 ```
