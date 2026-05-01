@@ -151,6 +151,23 @@ Rate-limit strategy:
 - Each agent should receive a slice of the list (e.g. items 0-49, 50-99...)
   to allow parallel scanning without overlap
 
+Live review page (run after every batch write):
+After saving a batch to scan_results/news_YYYY-MM-DD.json, immediately re-render
+and push the review page so the user can monitor progress in near real time:
+
+```bash
+python scripts/generate_review.py --date YYYY-MM-DD
+git add scan-review.html
+git commit -m "Scan review live update — news batch YYYY-MM-DD"
+git push origin master
+```
+
+This applies to every batch, not just the final one. The scan-review.html the
+user sees at https://lydraedisveislan.is/scan-review.html should grow alongside
+the agent's progress. Same pattern applies if multiple agents are running in
+parallel — each one re-renders after its own batch; the renderer reads whatever
+is currently on disk in news_YYYY-MM-DD*.json and produces a combined view.
+
 Resuming after a rate limit:
 - If the user asks you to continue scanning after a rate limit, read the partial
   results file you were already writing to find out which candidates you already
@@ -230,27 +247,24 @@ DO NOT read candidates.js. The manifest has everything you need.
 
 ## Reviewing results (before applying)
 
-> ⚠️ **Do not apply, commit, or push anything until the user has reviewed and
-> approved the scan results.**
+> ⚠️ **Do not apply scan results to `candidates.js` until the user has reviewed
+> and approved the page.** "Apply" means running `apply_scan_results.py`, not
+> the live review-page commits described below — those are *expected* during
+> a scan and don't touch candidate data.
 
-After all scans are complete, generate the review page and push it:
-
-```bash
-python scripts/generate_review.py --date YYYY-MM-DD
-git add scan-review.html
-git commit -m "Update scan review page YYYY-MM-DD"
-git push
-```
-
-The page lives at **https://lydraedisveislan.is/scan-review.html** and is
-password-protected (pw: `happyhappy`). It shows:
+The review page updates **live during the scan**. Each agent re-renders and
+pushes `scan-review.html` after every batch write (see the news section above
+for the exact commands), so the user can monitor progress at
+**https://lydraedisveislan.is/scan-review.html** (password-protected, pw:
+`happyhappy`) while the scan is still running. The page shows:
 - All bios written, with source info
 - All news articles found, by candidate
 - All party platforms found, with sources
 - All photos found, with where they came from
 
-Wait for the user to review the page and give **explicit approval** before
-proceeding to apply results.
+When all scans are done, do one final `generate_review.py` + push to make
+sure the page reflects the final state, then wait for the user to give
+**explicit approval** before proceeding to apply results.
 
 After approval, **clear the review page** so it is blank for the next scan:
 ```bash
