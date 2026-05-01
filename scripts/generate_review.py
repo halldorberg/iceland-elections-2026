@@ -126,12 +126,23 @@ def policy_section(policies):
     for p in policies:
         agenda_html = ''
         for item in p.get('agenda', []):
+            quote = item.get('source_quote', '')
+            quote_html = ''
+            if quote:
+                quote_html = (
+                    '<div style="margin-top:6px;padding:6px 10px;'
+                    'border-left:2px solid var(--accent);background:rgba(88,166,255,.06);'
+                    'font-size:11.5px;color:var(--muted);font-style:italic;line-height:1.5">'
+                    f'„{e(quote)}"'
+                    '</div>'
+                )
             agenda_html += f'''
         <div class="agenda-item">
           <span class="agenda-icon">{e(item.get("icon",""))}</span>
-          <div>
+          <div style="flex:1">
             <strong>{e(item.get("title",""))}</strong>
             <div class="agenda-text">{e(item.get("text",""))}</div>
+            {quote_html}
           </div>
         </div>'''
         # Audit row: status badge + per-entry rationale, if present.
