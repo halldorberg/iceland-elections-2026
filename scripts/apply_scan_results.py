@@ -296,14 +296,22 @@ def apply_bios(src: str, results: list[dict], dry_run: bool) -> tuple[str, int]:
         name = entry["name"]
         name_escaped = re.escape(escape_js(name))
 
-        # Find the candidate's extended block
+        # Find the candidate's extended block, scoped to the muni's const block
+        # so we don't update a same-name candidate from another muni.
+        muni_slug = entry.get("muni_slug")
+        search_start, search_end = 0, len(src)
+        if muni_slug:
+            ms, me = _muni_const_range(src, muni_slug)
+            if ms is not None:
+                search_start, search_end = ms, me
         block_re = re.compile(
             r"(\[\d+\s*,\s*'" + name_escaped + r"'.*?\{)(.*?)(\}(?:\]|,\s*\]))",
             re.DOTALL
         )
-        m = block_re.search(src)
+        m = block_re.search(src, search_start, search_end)
         if not m:
-            print(f"  ⚠ Could not find extended block for: {name}")
+            where = f" in {muni_slug}" if muni_slug else ""
+            print(f"  ⚠ Could not find extended block for: {name}{where}")
             continue
 
         block = m.group(2)
