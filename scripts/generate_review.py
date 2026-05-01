@@ -302,7 +302,17 @@ def main():
                 results_by_id[key] = dict(r)
         return list(results_by_id.values())
 
-    bios_list    = (load_json(bios_file) or {}).get('results', [])   if 'bios'   not in skip else []
+    # Bios merged across parallel-agent slices, keyed by candidate name
+    def merge_bios(scan_date):
+        results_by_key = {}
+        for path in sorted(SCAN_DIR.glob(f"bios_{scan_date}*.json")):
+            data = load_json(path) or {}
+            for r in data.get('results', []) or []:
+                key = r.get('name') or f"{r.get('muni_slug')}.{r.get('party_code')}.{r.get('ballot')}"
+                results_by_key[key] = dict(r)
+        return list(results_by_key.values())
+
+    bios_list    = merge_bios(scan_date) if 'bios' not in skip else []
     news_list    = merge_news(scan_date) if 'news' not in skip else []
     policy_list  = merge_simple(scan_date, 'policy') if 'policy' not in skip else []
     photos_list  = ((load_json(photos_file) or {}).get('results', None) if photos_file.exists() else None) if 'photos' not in skip else None
