@@ -356,6 +356,111 @@ def apply_bios(src: str, results: list[dict], dry_run: bool) -> tuple[str, int]:
 
 # ── Validation ────────────────────────────────────────────────────────────────
 
+def _party_block_range(src: str, muni_slug: str, party_code: str):
+    """Return (start, end) byte range of the muni.party block, or (None, None)."""
+    muni_start, muni_end = _muni_const_range(src, muni_slug)
+    if muni_start is None:
+        return None, None
+    party_open_re = re.compile(r"\n  " + re.escape(party_code) + r"\s*:\s*\{")
+    po = party_open_re.search(src, muni_start, muni_end)
+    if not po:
+        return None, None
+    # End: the line `  },` or `  }` that closes the party object at indent=2.
+    block_end = src.find("\n  },", po.start(), muni_end)
+    if block_end == -1:
+        block_end = src.find("\n  }", po.start(), muni_end)
+    if block_end == -1:
+        return None, None
+    return po.start(), block_end + 4  # include "\n  },"
+
+
+def verify_policy_apply(before: str, after: str, results: list) -> tuple[bool, list]:
+    """Two-layer round-trip check for policy applies.
+
+    Layer 1 — per-entry round-trip:
+      For each result entry, the (muni, party) block in `after` must contain
+      the expected tagline and platform_url.
+
+    Layer 2 — cross-block leakage:
+      Mask out the targeted (muni, party) blocks in both `before` and `after`,
+      compare what remains. Any difference outside the targets is leakage —
+      the symptom that bit us when the unscoped regex clobbered RVK.D with
+      Vogar/D content.
+
+    Returns (ok, errors).
+    """
+    errors: list[str] = []
+
+    # ── Layer 1 ──
+    for entry in results:
+        muni  = entry["muni_slug"]
+        party = entry["party_code"]
+        expected_tagline = entry.get("tagline", "")
+        expected_url     = entry.get("platform_url", "")
+
+        ps, pe = _party_block_range(after, muni, party)
+        if ps is None:
+            errors.append(f"  ✗ {muni}.{party}: party block not found post-apply")
+            continue
+        block = after[ps:pe]
+
+        if expected_tagline:
+            if escape_js(expected_tagline) not in block:
+                errors.append(
+                    f"  ✗ {muni}.{party}: expected tagline not found in block — "
+                    f"either the apply went to the wrong place, or the tagline regex missed."
+                )
+        if expected_url and expected_url not in block:
+            errors.append(
+                f"  ✗ {muni}.{party}: expected platform_url not found in block."
+            )
+
+    # ── Layer 2 ──
+    def collect_ranges(src):
+        ranges = []
+        for entry in results:
+            ps, pe = _party_block_range(src, entry["muni_slug"], entry["party_code"])
+            if ps is not None:
+                ranges.append((ps, pe))
+        return sorted(ranges)
+
+    def mask_canonical(src, ranges):
+        out, last = [], 0
+        for i, (s, e) in enumerate(ranges):
+            out.append(src[last:s])
+            out.append(f"<<TARGETED:{i}>>")
+            last = e
+        out.append(src[last:])
+        return "".join(out)
+
+    ranges_before = collect_ranges(before)
+    ranges_after  = collect_ranges(after)
+    if len(ranges_before) != len(ranges_after):
+        errors.append(
+            f"  ✗ Targeted-block count differs: {len(ranges_before)} before vs "
+            f"{len(ranges_after)} after — apply may have created or destroyed party blocks."
+        )
+
+    masked_before = mask_canonical(before, ranges_before)
+    masked_after  = mask_canonical(after,  ranges_after)
+
+    if masked_before != masked_after:
+        import difflib
+        diff = list(difflib.unified_diff(
+            masked_before.splitlines(),
+            masked_after.splitlines(),
+            lineterm="", n=1,
+        ))
+        errors.append("  ✗ Unexpected changes outside targeted (muni, party) blocks:")
+        # First ~20 lines of the unified diff is enough to localise leakage.
+        for line in diff[:20]:
+            errors.append(f"      {line}")
+        if len(diff) > 20:
+            errors.append(f"      ... ({len(diff) - 20} more diff lines)")
+
+    return (len(errors) == 0, errors)
+
+
 def quick_validate(src: str) -> bool:
     opens  = src.count("{")
     closes = src.count("}")
@@ -455,7 +560,23 @@ def main():
     if not quick_validate(new_src):
         print("VALIDATION FAILED — not writing file. Check the result JSON for bad characters.")
         sys.exit(1)
-    print("  Validation passed.")
+    print("  Syntactic validation passed.")
+
+    # Locality round-trip check (policy only for now — extend per scan_type as
+    # the same kind of cross-block leakage is identified for other appliers).
+    if scan_type == "policy":
+        ok, errors = verify_policy_apply(src, new_src, results)
+        if not ok:
+            print("\nLOCALITY CHECK FAILED — not writing file:")
+            for line in errors:
+                print(line)
+            print(
+                "\nThe in-memory diff shows changes outside the targeted (muni, party) "
+                "blocks. This usually means a regex matched the wrong block. Fix the "
+                "applier (or the result JSON) before re-running."
+            )
+            sys.exit(1)
+        print("  Locality check passed (no leakage outside targeted blocks).")
 
     # Backup
     if not no_backup:
