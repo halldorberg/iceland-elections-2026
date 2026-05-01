@@ -2416,13 +2416,11 @@ const GAR = {
     ],
   },
   B: {
-    tagline: 'Framsókn Garðabæ — lýðheilsa, ábyrgur rekstur og fjölskylduvænt skipulag',
-    platformUrl: 'https://www.facebook.com/framsokngardabaer',
+    tagline: 'Hlynur Bæringsson leiðir Framsókn í Garðabæ',
     agenda: [
-        { icon: '💚', title: 'Lýðheilsa fyrir alla', text: 'Lýðheilsa er ein af höfuðáherslum framboðsins fyrir Garðabæ.' },
-        { icon: '📊', title: 'Ábyrgur rekstur', text: 'Forgangsröðun og ábyrgur rekstur sveitarsjóðs er ein af þremur helstu áherslum listans.' },
-        { icon: '🏗️', title: 'Skipulag og samfélag', text: 'Skipulag og samfélag sem gott er að búa í er meðal aðaláhersluatriða framboðsins.' },
-        { icon: '👨‍👩‍👧', title: 'Sumarfrístund fyrir börn', text: 'Sumarfrístund út júní og aftur eftir verslunarmannahelgi til að létta undir með barnafjölskyldum.' },
+      { icon: '🌿', title: 'Umhverfismál', text: 'Umhverfismeðvitund og sjálfbær þróun í allri stefnumörkun.' },
+      { icon: '🏫', title: 'Menntun', text: 'Gæðamenntun og sterk skóla- og leikskólaþjónusta.' },
+      { icon: '👨‍👩‍👧', title: 'Fjölskyldur', text: 'Fjölskylduvænn bær þar sem börn og foreldrar þrífast.' },
     ],
     list: [
       [1, 'Hlynur Bæringsson', 'Varabæjarstjóri og rekstrarstjóri', 'https://framerusercontent.com/images/NgIqUftIgcLD32hXRHBKEdAa0.jpg', {
@@ -8875,13 +8873,11 @@ const BBD = {
     ],
   },
   D: {
-    tagline: 'Sjálfstæðisflokkurinn í Borgarbyggð — málefnaskrá fyrir 2026',
-    platformUrl: 'https://www.facebook.com/xdborgarbyggd',
+    tagline: 'Sjálfstæðisflokkurinn í Borgarbyggð og Skorradalshreppi',
     agenda: [
-        { icon: '🏛️', title: 'Ábyrg stjórnsýsla', text: 'Ábyrg stjórnsýsla er meðal helstu áhersluatriða listans fyrir kjörtímabilið.' },
-        { icon: '🎒', title: 'Skóla- og tómstundastarf', text: 'Öflugt skóla- og tómstundastarf á að styrkja samfélagið um allt sveitarfélagið.' },
-        { icon: '🏗️', title: 'Innviðir, velferð og atvinnulíf', text: 'Sterkir innviðir, velferð, uppbygging og fjölbreytt atvinnulíf um allt sveitarfélagið.' },
-        { icon: '🤝', title: 'Samráð og traust', text: 'Listinn vill byggja á samráði, trausti og raunhæfum lausnum fyrir íbúa í þéttbýli og dreifbýli.' },
+      { icon: '💼', title: 'Hagvöxtur', text: 'Efla atvinnulíf og skapa tækifæri í Borgarbyggð.' },
+      { icon: '🏠', title: 'Húsnæðismál', text: 'Auka framboð á húsnæði og bæta húsnæðisstuðning.' },
+      { icon: '🏥', title: 'Þjónusta', text: 'Tryggja gæðaþjónustu við alla íbúa.' },
     ],
     list: [
       [1, 'Sigurður Guðmundsson', 'Fjármálastjóri og bæjarfulltrúi', 'images/candidates/0ef79929b25618c7.png', {
@@ -9385,15 +9381,11 @@ const BLV = {
     ],
   },
   BBK: {
-    tagline: 'Betri Bolungarvík — fjölskylduvænt, framsækið og sjálfbært samfélag',
-    platformUrl: 'https://betribolungarvik.is/?p=stefnuskra',
+    tagline: 'Betri Bolungarvík — nýtt líf í gamla bæinn',
     agenda: [
-        { icon: '🤝', title: 'Samfélagið', text: 'Sterkt samfélag byggir á samstöðu, virkri þátttöku og gagnkvæmri virðingu — íbúar fái beint að taka þátt í ákvörðunum.' },
-        { icon: '👨‍👩‍👧', title: 'Hækkum frístundastyrk', text: 'Hækka frístundastyrk í 80.000 kr á hvert barn á ári og efla frístundarútuna.' },
-        { icon: '🏊', title: 'Gjaldfrjáls sundlaug fyrir börn', text: 'Veita öllum börnum að 18 ára aldri gjaldfrjálsan aðgang að sundlaug bæjarins.' },
-        { icon: '🛣️', title: 'Lagfærum götur og umhverfi', text: 'Laga áratuga gamlar holur á götum bæjarins og fjölga ruslatunnum á opnum svæðum.' },
-        { icon: '📊', title: 'Lægri álögur og gegnsæi', text: 'Lækka álögur á íbúa með bættum rekstri og birta mánaðarlegar rekstrarskýrslur.' },
-        { icon: '🐟', title: 'Atvinnulíf og höfn', text: 'Styðja við uppbyggingu laxeldis og bæta hafnaraðstöðuna í Bolungarvík.' },
+      { icon: '💡', title: 'Nýsköpun', text: 'Hvata nýsköpun og fjölbreytt atvinnulíf til að efla hagvöxt bæjarins.' },
+      { icon: '📊', title: 'Gagnsæi', text: 'Opnara stjórnarfar og meiri gagnsæi í fjármálum sveitarfélagsins.' },
+      { icon: '🏗️', title: 'Innviðir', text: 'Endurbæta innviði og þjónustu sem styður við daglegt líf íbúa.' },
     ],
     list: [
       [1, 'Kristján Jón Guðmundsson', 'Frambjóðandi'],
