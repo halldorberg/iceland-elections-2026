@@ -146,22 +146,24 @@ def policy_section(policies):
           </div>
         </div>'''
         # Audit row: status badge + per-entry rationale, if present.
+        # Use verified_source_kind as source of truth — agents sometimes set
+        # audit_status='OK' even for news-host URLs, but verified_source_kind
+        # ("own-site" vs "news-with-rationale") is unambiguous.
         status = p.get('audit_status', '')
         note = p.get('audit_note', '')
         old_url = p.get('audit_old_url', '')
         kind = p.get('verified_source_kind', '')
-        if status:
-            up = status.upper()
-            if up.startswith('OK'):
-                bg, fg, label = 'rgba(63,185,80,.12)', '#3fb950', '✓ OK — own site'
-            elif up.startswith('REPLACED'):
-                bg, fg, label = 'rgba(88,166,255,.12)', '#58a6ff', '↻ REPLACED with own-site URL'
-            elif up.startswith('KEPT'):
-                bg, fg, label = 'rgba(210,153,34,.15)', '#d29922', '⚠ KEPT (news source) — see rationale'
-            elif up.startswith('REMOVED'):
-                bg, fg, label = 'rgba(248,81,73,.12)', '#f85149', '✗ REMOVED'
+        if status or kind:
+            if kind == 'own-site':
+                bg, fg, label = 'rgba(63,185,80,.12)', '#3fb950', '✓ Own party site'
+            elif kind == 'news-with-rationale':
+                bg, fg, label = 'rgba(210,153,34,.15)', '#d29922', '⚠ News source — see rationale'
             else:
-                bg, fg, label = 'var(--surface2)', 'var(--muted)', e(status)
+                up = (status or '').upper()
+                if up.startswith('REMOVED'):
+                    bg, fg, label = 'rgba(248,81,73,.12)', '#f85149', '✗ REMOVED'
+                else:
+                    bg, fg, label = 'var(--surface2)', 'var(--muted)', e(status or 'unverified')
             old_url_html = ''
             if old_url:
                 old_url_html = (
