@@ -134,6 +134,41 @@ def policy_section(policies):
             <div class="agenda-text">{e(item.get("text",""))}</div>
           </div>
         </div>'''
+        # Audit row: status badge + per-entry rationale, if present.
+        status = p.get('audit_status', '')
+        note = p.get('audit_note', '')
+        old_url = p.get('audit_old_url', '')
+        kind = p.get('verified_source_kind', '')
+        if status:
+            up = status.upper()
+            if up.startswith('OK'):
+                bg, fg, label = 'rgba(63,185,80,.12)', '#3fb950', '✓ OK — own site'
+            elif up.startswith('REPLACED'):
+                bg, fg, label = 'rgba(88,166,255,.12)', '#58a6ff', '↻ REPLACED with own-site URL'
+            elif up.startswith('KEPT'):
+                bg, fg, label = 'rgba(210,153,34,.15)', '#d29922', '⚠ KEPT (news source) — see rationale'
+            elif up.startswith('REMOVED'):
+                bg, fg, label = 'rgba(248,81,73,.12)', '#f85149', '✗ REMOVED'
+            else:
+                bg, fg, label = 'var(--surface2)', 'var(--muted)', e(status)
+            old_url_html = ''
+            if old_url:
+                old_url_html = (
+                    '<div style="font-size:11px;color:var(--muted);margin-top:4px">'
+                    f'old: <a href="{e(old_url)}" target="_blank" style="color:var(--muted)">{e(old_url)}</a></div>'
+                )
+            note_html = ''
+            if note:
+                note_html = f'<div style="color:var(--text);margin-top:4px">{e(note)}</div>'
+            audit_html = (
+                '<div class="audit-row" style="margin-top:10px;padding:8px 12px;border-radius:6px;'
+                f'background:{bg};border:1px solid {bg};color:{fg};font-size:12.5px;line-height:1.5">'
+                f'<strong>{label}</strong>{note_html}{old_url_html}'
+                '</div>'
+            )
+        else:
+            audit_html = ''
+
         rows += f'''
     <div class="card">
       <div class="card-header">
@@ -145,6 +180,7 @@ def policy_section(policies):
         </div>
       </div>
       {f'<div class="agenda-grid">{agenda_html}</div>' if agenda_html else ""}
+      {audit_html}
     </div>'''
     return rows
 
