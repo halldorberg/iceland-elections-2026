@@ -2,6 +2,7 @@ import { MUNICIPALITIES } from './data/municipalities.js?v=15';
 import { PARTIES } from './data/parties.js?v=4';
 import { getMunicipalityPartyData } from './data/candidates.js?v=46';
 import { RESULTS_2022 } from './data/results2022.js?v=2';
+import { EYE_POSITIONS } from './data/eye_positions.js?v=1';
 import { getLang, t, renderLangSwitcher } from './i18n.js?v=3';
 
 // ─── i18n ──────────────────────────────────────────────────
@@ -596,34 +597,67 @@ container.addEventListener('keydown', e => {
 });
 
 // ─── Smart face crop ───────────────────────────────────────
+// Eye position is computed two ways:
+//   1. Pre-baked map EYE_POSITIONS (OpenCV face detection, build-time)
+//      — covers all locally-hosted candidate images.
+//   2. Browser FaceDetector API as runtime fallback for remote images
+//      (mostly only available on Android Chromium).
+// If neither is available, the CSS default `object-position: center 25%`
+// kicks in (sensible for typical headshots).
+
 const faceDetector = ('FaceDetector' in window) ? new FaceDetector({ fastMode: true }) : null;
 
+/** Look up pre-computed eye Y (fraction 0..1 of natural image height). */
+function lookupPrecomputedEyeY(imgSrc) {
+  const match = imgSrc.match(/images\/candidates\/[^?#]+/);
+  if (!match) return null;
+  const entry = EYE_POSITIONS[match[0]];
+  return entry ? entry.eyeY : null;
+}
+
+/** Position image so eyes land at ~1/3 from top of visible area. */
+function applyObjectPositionFromEyeY(img, eyeYNaturalFrac) {
+  const containerH = img.parentElement.offsetHeight;
+  const containerW = img.parentElement.offsetWidth;
+  if (!containerH || !containerW || !img.naturalHeight) return;
+  const scale = Math.max(containerW / img.naturalWidth, containerH / img.naturalHeight);
+  const renderedH = img.naturalHeight * scale;
+  const overflow = renderedH - containerH;
+  if (overflow <= 0) return; // image not vertically cropped — leave default
+  const targetY = containerH * 0.33; // eyes at 1/3 from container top
+  const eyeRendered = eyeYNaturalFrac * img.naturalHeight * scale;
+  const P = Math.max(0, Math.min(100, (eyeRendered - targetY) / overflow * 100));
+  img.style.transition = 'object-position 0.35s ease';
+  img.style.objectPosition = `center ${P}%`;
+}
+
 async function applySmartCrop(img) {
-  img.style.objectPosition = 'center top';
-  if (!faceDetector) return;
+  // Reset to CSS default while we figure out the right value
+  img.style.objectPosition = '';
+
   if (!img.complete || !img.naturalWidth) {
     await new Promise(resolve => { img.addEventListener('load', resolve, { once: true }); });
   }
+
+  // 1. Try pre-baked map (covers local /images/candidates/* photos)
+  const precomputed = lookupPrecomputedEyeY(img.src);
+  if (precomputed != null) {
+    applyObjectPositionFromEyeY(img, precomputed);
+    return;
+  }
+
+  // 2. Fall back to browser FaceDetector for remote images
+  if (!faceDetector) return;
   try {
     const faces = await faceDetector.detect(img);
     if (!faces.length) return;
     const face = faces.reduce((a, b) =>
       b.boundingBox.width * b.boundingBox.height > a.boundingBox.width * a.boundingBox.height ? b : a
     );
-    const eyeY = face.boundingBox.top + face.boundingBox.height * 0.35;
-    const containerH = img.parentElement.offsetHeight;
-    const containerW = img.parentElement.offsetWidth;
-    const scale = Math.max(containerW / img.naturalWidth, containerH / img.naturalHeight);
-    const renderedH = img.naturalHeight * scale;
-    const overflow = renderedH - containerH;
-    if (overflow <= 0) return;
-    const targetY = containerH * 0.33;
-    const eyeRendered = eyeY * scale;
-    const P = Math.max(0, Math.min(100, (eyeRendered - targetY) / overflow * 100));
-    img.style.transition = 'object-position 0.35s ease';
-    img.style.objectPosition = `center ${P}%`;
+    const eyeYPx = face.boundingBox.top + face.boundingBox.height * 0.38;
+    applyObjectPositionFromEyeY(img, eyeYPx / img.naturalHeight);
   } catch {
-    // FaceDetector rejected (CORS image, security, etc.) — keep default
+    // FaceDetector rejected (CORS image, security, etc.) — leave CSS default
   }
 }
 
@@ -663,7 +697,6 @@ function openModal(id) {
 
   const fallback = localAvatar(c.name);
   const photo = document.getElementById('modal-photo');
-  photo.style.objectPosition = 'center 20%';
   photo.style.transition = '';
   photo.src = c.imageUrl;
   photo.alt = c.name;
