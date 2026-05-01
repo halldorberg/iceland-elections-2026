@@ -607,46 +607,47 @@ container.addEventListener('keydown', e => {
 
 const faceDetector = ('FaceDetector' in window) ? new FaceDetector({ fastMode: true }) : null;
 
-/** Look up pre-computed eye Y (fraction 0..1 of natural image height). */
-function lookupPrecomputedEyeY(imgSrc) {
+/** Look up pre-computed entry { eyeY, w, h } for an image URL or null. */
+function lookupPrecomputedEntry(imgSrc) {
   const match = imgSrc.match(/images\/candidates\/[^?#]+/);
   if (!match) return null;
-  const entry = EYE_POSITIONS[match[0]];
-  return entry ? entry.eyeY : null;
+  return EYE_POSITIONS[match[0]] || null;
 }
 
-/** Position image so eyes land at ~1/3 from top of visible area. */
-function applyObjectPositionFromEyeY(img, eyeYNaturalFrac) {
+/** Position image so eyes land at ~1/3 from top of visible area, given explicit dimensions. */
+function applyObjectPosition(img, eyeYFrac, naturalW, naturalH) {
   const containerH = img.parentElement.offsetHeight;
   const containerW = img.parentElement.offsetWidth;
-  if (!containerH || !containerW || !img.naturalHeight) return;
-  const scale = Math.max(containerW / img.naturalWidth, containerH / img.naturalHeight);
-  const renderedH = img.naturalHeight * scale;
+  if (!containerH || !containerW || !naturalH) return;
+  const scale = Math.max(containerW / naturalW, containerH / naturalH);
+  const renderedH = naturalH * scale;
   const overflow = renderedH - containerH;
   if (overflow <= 0) return; // image not vertically cropped — leave default
   const targetY = containerH * 0.33; // eyes at 1/3 from container top
-  const eyeRendered = eyeYNaturalFrac * img.naturalHeight * scale;
+  const eyeRendered = eyeYFrac * naturalH * scale;
   const P = Math.max(0, Math.min(100, (eyeRendered - targetY) / overflow * 100));
-  img.style.transition = 'object-position 0.35s ease';
   img.style.objectPosition = `center ${P}%`;
 }
 
-async function applySmartCrop(img) {
-  // Reset to CSS default while we figure out the right value
-  img.style.objectPosition = '';
-
-  if (!img.complete || !img.naturalWidth) {
-    await new Promise(resolve => { img.addEventListener('load', resolve, { once: true }); });
-  }
-
-  // 1. Try pre-baked map (covers local /images/candidates/* photos)
-  const precomputed = lookupPrecomputedEyeY(img.src);
-  if (precomputed != null) {
-    applyObjectPositionFromEyeY(img, precomputed);
+/**
+ * Position the modal hero photo so the subject's eyes land at ~1/3 from the top.
+ * Pass `nextSrc` (the URL we're about to assign) to get a synchronous, flash-free
+ * position whenever the image is in the pre-baked map.
+ */
+async function applySmartCrop(img, nextSrc) {
+  // 1. Pre-baked map (sync, no wait) — covers local /images/candidates/*
+  const entry = lookupPrecomputedEntry(nextSrc || img.src);
+  if (entry) {
+    img.style.transition = ''; // position correct from frame 1, no animation needed
+    applyObjectPosition(img, entry.eyeY, entry.w, entry.h);
     return;
   }
 
-  // 2. Fall back to browser FaceDetector for remote images
+  // 2. Remote / unmapped — wait for load, then try browser FaceDetector
+  img.style.objectPosition = ''; // CSS default while we figure it out
+  if (!img.complete || !img.naturalWidth) {
+    await new Promise(resolve => { img.addEventListener('load', resolve, { once: true }); });
+  }
   if (!faceDetector) return;
   try {
     const faces = await faceDetector.detect(img);
@@ -655,7 +656,8 @@ async function applySmartCrop(img) {
       b.boundingBox.width * b.boundingBox.height > a.boundingBox.width * a.boundingBox.height ? b : a
     );
     const eyeYPx = face.boundingBox.top + face.boundingBox.height * 0.38;
-    applyObjectPositionFromEyeY(img, eyeYPx / img.naturalHeight);
+    img.style.transition = 'object-position 0.35s ease';
+    applyObjectPosition(img, eyeYPx / img.naturalHeight, img.naturalWidth, img.naturalHeight);
   } catch {
     // FaceDetector rejected (CORS image, security, etc.) — leave CSS default
   }
@@ -697,11 +699,12 @@ function openModal(id) {
 
   const fallback = localAvatar(c.name);
   const photo = document.getElementById('modal-photo');
-  photo.style.transition = '';
+  // Apply the precomputed eye-Y crop BEFORE setting src so the new image
+  // appears at the correct position immediately — no flash, no transition.
+  applySmartCrop(photo, c.imageUrl);
   photo.src = c.imageUrl;
   photo.alt = c.name;
   photo.onerror = () => { photo.onerror = null; photo.src = fallback; };
-  applySmartCrop(photo);
 
   document.getElementById('modal-name').textContent = c.name;
 
