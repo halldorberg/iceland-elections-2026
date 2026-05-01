@@ -127,13 +127,25 @@ def policy_section(policies):
         agenda_html = ''
         for item in p.get('agenda', []):
             quote = item.get('source_quote', '')
+            verified = item.get('quote_verified')
             quote_html = ''
             if quote:
+                # green border for verified, red for "couldn't find on page"
+                if verified is False:
+                    border, bg, mark = '#f85149', 'rgba(248,81,73,.06)', '⚠ not found on linked page'
+                elif verified is True:
+                    border, bg, mark = '#3fb950', 'rgba(63,185,80,.06)', '✓ verbatim from page'
+                else:
+                    border, bg, mark = 'var(--accent)', 'rgba(88,166,255,.06)', ''
+                mark_html = (
+                    f'<span style="float:right;font-size:10px;font-style:normal;color:{border}">{mark}</span>'
+                    if mark else ''
+                )
                 quote_html = (
                     '<div style="margin-top:6px;padding:6px 10px;'
-                    'border-left:2px solid var(--accent);background:rgba(88,166,255,.06);'
+                    f'border-left:2px solid {border};background:{bg};'
                     'font-size:11.5px;color:var(--muted);font-style:italic;line-height:1.5">'
-                    f'„{e(quote)}"'
+                    f'{mark_html}„{e(quote)}"'
                     '</div>'
                 )
             agenda_html += f'''
