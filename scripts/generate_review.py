@@ -235,7 +235,9 @@ def main():
         for path in sorted(SCAN_DIR.glob(f"{prefix}_{scan_date}*.json")):
             data = load_json(path) or {}
             for r in data.get('results', []) or []:
-                key = r.get('id') or f"{r.get('muni_slug')}.{r.get('party_code')}"
+                # id ("FJA.D") collides between fjardabyggd and fjallabyggd —
+                # use the canonical (muni_slug, party_code) key instead.
+                key = f"{r.get('muni_slug')}.{r.get('party_code')}"
                 results_by_id[key] = dict(r)
         return list(results_by_id.values())
 
