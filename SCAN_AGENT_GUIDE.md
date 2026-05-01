@@ -109,11 +109,22 @@ SCOPE: Only process candidates where muni_slug is one of:
 
 For each candidate:
 1. Check their existing news_urls (skip articles already in this list)
-2. Search broadly for the candidate's name — not just election coverage. Try:
+2. **The goal is to surface non-election headlines that give a fuller picture
+   of the candidate's public life** — career milestones, community/union work,
+   sport, culture, business, interviews, controversies, public statements,
+   board/charity roles, anything that shows who this person is *outside* the
+   2026 campaign.
+   **AVOID** pure 2026-election coverage — campaign launches, debate recaps,
+   list announcements, polling, party endorsements. Skip them even if they
+   mention the candidate by name.
+   Acceptable as exceptions: pieces where the candidate is interviewed about
+   a substantive personal/policy topic (housing, transit, etc.) where the
+   election is only the framing, not the subject.
+   Search queries:
    - "<name>" alone
    - "<name> <muni_label>"
    - "<name> site:mbl.is OR site:visir.is OR site:ruv.is OR site:vf.is"
-   Include any article about them: career, community work, sport, culture, business, interviews, etc.
+   Try variations like "<name> ferill", "<name> viðtal" to find non-election angles.
 3. Add only articles published AFTER 2025-01-01
 4. Add maximum 3 new articles per candidate per scan
 5. Include title, url, and source (domain name)
