@@ -229,9 +229,19 @@ def main():
                     results_by_id[key] = dict(r)
         return list(results_by_id.values())
 
+    # Combine all policy_{date}*.json files
+    def merge_simple(scan_date, prefix):
+        results_by_id = {}
+        for path in sorted(SCAN_DIR.glob(f"{prefix}_{scan_date}*.json")):
+            data = load_json(path) or {}
+            for r in data.get('results', []) or []:
+                key = r.get('id') or f"{r.get('muni_slug')}.{r.get('party_code')}"
+                results_by_id[key] = dict(r)
+        return list(results_by_id.values())
+
     bios_list    = (load_json(bios_file) or {}).get('results', [])   if 'bios'   not in skip else []
     news_list    = merge_news(scan_date) if 'news' not in skip else []
-    policy_list  = (load_json(policy_file) or {}).get('results', []) if 'policy' not in skip else []
+    policy_list  = merge_simple(scan_date, 'policy') if 'policy' not in skip else []
     photos_list  = ((load_json(photos_file) or {}).get('results', None) if photos_file.exists() else None) if 'photos' not in skip else None
 
     total_articles = sum(len(r.get('new_articles', [])) for r in news_list)
