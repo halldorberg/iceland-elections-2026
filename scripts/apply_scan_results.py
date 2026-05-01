@@ -63,12 +63,14 @@ def apply_news(src: str, results: list[dict], dry_run: bool) -> tuple[str, int]:
         if not new_articles:
             continue
 
-        # Find the candidate block by name — look for the name string near a news: [ array
-        # Pattern: find  '<<name>>'  followed (within ~2000 chars) by  news: [
+        # Find the candidate block by name — anchor on the candidate row start
+        # ([N, '<name>', '<occ>', ...) so we don't match other occurrences of the
+        # name (e.g. inside bios/heimild strings). The lazy match then walks to
+        # the candidate's own news: [ ... ] array.
         name_escaped = re.escape(escape_js(name))
         pattern = (
-            r"('(?:" + name_escaped + r")'[^}]*?news\s*:\s*\[)"
-            r"(.*?)"
+            r"(\[\d+\s*,\s*'(?:" + name_escaped + r")'\s*,[\s\S]*?news\s*:\s*\[)"
+            r"([\s\S]*?)"
             r"(\s*\],)"
         )
         m = re.search(pattern, src, re.DOTALL)
@@ -90,7 +92,13 @@ def apply_news(src: str, results: list[dict], dry_run: bool) -> tuple[str, int]:
             print(f"  ✓ {name}: no new articles (all already present)")
             continue
 
-        replacement = m.group(1) + m.group(2) + "\n" + "\n".join(new_lines) + m.group(3)
+        # Ensure the existing block ends with a comma so appending new items
+        # produces valid JS even when the last existing item lacked one.
+        existing = m.group(2)
+        existing_rstripped = existing.rstrip()
+        if existing_rstripped and not existing_rstripped.endswith(","):
+            existing = existing_rstripped + ","
+        replacement = m.group(1) + existing + "\n" + "\n".join(new_lines) + m.group(3)
         if dry_run:
             print(f"  [DRY RUN] {name}: would add {len(new_lines)} article(s)")
         else:

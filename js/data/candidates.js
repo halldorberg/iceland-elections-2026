@@ -274,6 +274,7 @@ const RVK = {
           { title: '4.927 stúdentar borga kaffið og kleinurnar', url: 'https://www.visir.is/g/20262845915d/4.927-studentar-borga-kaffid-og-kleinurnar', source: 'visir.is' },
           { title: 'Ósátt við hækkun skráningargjalds – HÍ ætti frekar að lækka reikninginn á Jómfrúnni', url: 'https://www.dv.is/frettir/2026/02/20/osatt-vid-haekkun-skraningargjalds-hi-aetti-frekar-ad-laekka-reikninginn-jomfrunni/', source: 'dv.is' },
           { title: 'Kvarta undan fjárskorti og hækka gjöld á nemendur', url: 'https://www.mbl.is/frettir/innlent/2026/02/16/kvarta_undan_fjarskorti_og_haekka_gjold_a_nemendur/', source: 'mbl.is' },
+          { title: '„Við erum afskaplega miklar félagsverur og athyglissjúk“', url: 'https://www.mbl.is/smartland/heimili/2025/10/02/vid_erum_afskaplega_miklar_felagsverur_og_athygliss/', source: 'mbl.is' },
         ],
       }],
       [6, 'Þórdís Jóna Jakobsdóttir', 'Vímuefnaráðgjafi', 'https://framsoknrvk.is/wp-content/uploads/2026/04/1-edited-1.jpg'],
@@ -510,6 +511,7 @@ const RVK = {
           { title: 'Sanna með nýtt framboð', url: 'https://heimildin.is/grein/25803/sanna-med-nytt-frambod/', source: 'heimildin.is' },
           { title: 'Borgarviti Maskínu: flestir segja Sönnu hafa staðið sig best á kjörtímabilinu', url: 'https://maskina.is/borgarviti-maskinu-flestir-segja-sonnu-hafa-stadid-sig-best-a-kjortimabilinu/', source: 'maskina.is' },
           { title: 'Vinstrið kynnir framboðslista sinn í Reykjavík', url: 'https://www.ruv.is/frettir/innlent/2026-03-21-vinstrid-kynnir-frambodslista-sinn-i-reykjavik-470529', source: 'ruv.is' },
+          { title: 'Sanna lenti í „hakkavél“ Stefáns siðfræðings: „Mér varð strax ljóst að þetta yrði frekar aggresíft“', url: 'https://www.mannlif.is/frettir/innlent/sanna-lenti-i-hakkavel-stefans-sidraedings-mer-vard-strax-ljost-ad-thetta-yrdi-frekar-aggresift/', source: 'mannlif.is' },
         ],
       }],
       [2, 'Líf Magneudóttir', 'Grunnskólakennari, borgarfulltrúi (VG)', 'images/candidates/502644a62c46a8cd.jpg', {
@@ -543,6 +545,7 @@ const RVK = {
           { title: 'Varaborgarfulltrúi varð fyrir opinberun í gær – „Það er enginn að hlusta"', url: 'https://www.dv.is/frettir/2026/04/15/varaborgarfulltrui-vard-fyrir-opinberun-gaer-thad-er-enginn-ad-hlusta/', source: 'dv.is' },
           { title: '„Óbærilega leiðinlegir" fundir', url: 'https://www.mbl.is/frettir/innlent/2025/02/12/obaerilega_leidinlegir_fundir/', source: 'mbl.is' },
           { title: '„Svo hef ég alltaf einhverjar teiknimyndasögur upp á að hlaupa"', url: 'https://www.dv.is/fokus/2025/12/20/svo-hef-eg-alltaf-einhverjar-teiknimyndasogur-upp-a-ad-hlaupa/', source: 'dv.is' },
+          { title: 'Fleiri myndasögur en konan kærir sig um', url: 'https://www.mbl.is/menning/baekur/2025/11/01/fleiri_myndasogur_en_konan_kaerir_sig_um/', source: 'mbl.is' },
         ],
       }],
       [4, 'Ásta Þ. Skjalddal Guðjónsdóttir', 'Löggiltur endurskoðandi, varaborgafulltrúi (Vor til vinstri)', 'images/candidates/d03697c7cf0e2db5.jpg', {
@@ -916,6 +919,7 @@ const RVK = {
           { title: 'Guðmundur Ingi: „Þetta er uppskrift að meiriháttar vandræðum"', url: 'https://www.dv.is/frettir/2025/05/05/gudmundur-ingi-thetta-er-uppskrift-ad-meirihattar-vandraedum/', source: 'dv.is' },
           { title: 'Í fangelsi í sextán ár: Á endanum var það ástin sem bjargaði öllu', url: 'https://www.visir.is/g/20232475356d/i-fangelsi-i-sextan-ar-a-endanum-var-thad-astin-sem-bjargadi-ollu', source: 'visir.is' },
           { title: 'Guðmundur Ingi færir sig um set', url: 'https://www.mbl.is/frettir/innlent/2026/04/17/gudmundur_ingi_faerir_sig_um_set/', source: 'mbl.is' },
+          { title: 'Langur tími í fangelsi skemmir fólk', url: 'https://www.mbl.is/frettir/innlent/2023/05/01/langur_timi_i_fangelsi_skemmir_folk/', source: 'mbl.is' },
         ],
       }],
       [2,  'Einar Sveinbjörn Guðmundsson',    'Kerfisverkfræðingur, varaborgafulltrúi',                   'images/candidates/1f82c3c4ed37b0a8.jpg', {
@@ -1061,6 +1065,7 @@ const RVK = {
           { title: 'Þorvaldur vann á skrifstofu og var kominn á góðan stað – En þá sagði líkaminn stopp', url: 'https://www.dv.is/fokus/2025/06/11/thorvaldur-vann-skrifstofu-og-var-kominn-godan-stad-en-tha-sagdi-likaminn-stopp/', source: 'dv.is' },
           { title: 'Þorvaldur Davíð valinn í Shooting Stars hópinn fyrir 2023', url: 'https://www.visir.is/g/20222352171d/thorvaldur-david-valinn-i-shooting-stars-hopinn-fyrir-2023', source: 'visir.is' },
           { title: 'Framboðslisti Viðreisnar í Reykjavík', url: 'https://www.dv.is/eyjan/2026/03/05/frambodslisti-vidreisnar-reykjavik/', source: 'dv.is' },
+          { title: 'Þorvaldur Davíð tók við viðurkenningu í Berlín', url: 'https://www.visir.is/g/20232380811d', source: 'visir.is' },
         ],
       }],
       [4,  'Margrét Rós Sigurjónsdóttir',    'Umhverfisfræðingur, forstjóri Kolaportið',             'images/candidates/883b191be94067c6.jpg', {
@@ -1074,6 +1079,7 @@ const RVK = {
         news: [
           { title: 'Þau skipa lista Viðreisnar í Reykjavík', url: 'https://www.visir.is/g/20262851854d/thau-skipa-lista-vid-reisnar-i-reykja-vik', source: 'visir.is' },
           { title: 'Framboðslisti Viðreisnar í Reykjavík', url: 'https://www.dv.is/eyjan/2026/03/05/frambodslisti-vidreisnar-reykjavik/', source: 'dv.is' },
+          { title: 'Byrjaði að þræða Kolaportið 13 ára', url: 'https://www.mbl.is/smartland/tiska/2022/10/15/byrjadi_ad_thraeda_kolaportid_13_ara/', source: 'mbl.is' },
         ],
       }],
       [5,  'Eyþór Máni Steinarsson',         'Frumkvöðull, meðstofnandi Hopp',                      'images/candidates/c518892529d88df5.jpg', {
@@ -1287,6 +1293,7 @@ const RVK = {
         social: null,
         news: [
           { title: 'Þau skipa lista Sósíalistaflokksins í Reykjavík', url: 'https://www.visir.is/g/20262865767d/thau-skipa-lista-sosialistaflokksins-i-reykjavik', source: 'visir.is' },
+          { title: 'Geirdís verið fátæk allt sitt líf og býr í húsbílnum: „Það er ansi kalt að fara á fætur“', url: 'https://www.mannlif.is/frettir/innlent/geirdis-verid-fataek-allt-sitt-lif-og-byr-i-husbilnum-thad-er-ansi-kalt-ad-fara-a-faetur/', source: 'mannlif.is' },
         ],
       }],
       [5, 'Jón Ferdínand Estherarson', 'Stjórnmálasagnfræðingur', 'https://storage.googleapis.com/xj-strapi-uploads/rvk_05_jon_f_color_caa9a7712b/rvk_05_jon_f_color_caa9a7712b.jpg', {
@@ -1631,6 +1638,7 @@ const AKU = {
           { title: 'Berglind Harpa í þriðja sætinu hjá Sjálfstæðisflokknum: Berglind Ósk hætt', url: 'https://austurfrett.is/frettir/berglind-harpa-i-thridhja-saetinu-hja-sjalfstaedhisflokknum-berglind-osk-haett', source: 'austurfrett.is' },
           { title: 'Hingað til náms - hingað til framtíðar', url: 'https://kaffid.is/hingad-til-nams-hingad-til-framtidar/', source: 'kaffid.is' },
           { title: 'Fullskipaður framboðslisti Sjálfstæðisflokksins á Akureyri', url: 'https://xd.is/2026/02/26/fullskipadur-frambodislisti-sjalfstaedisflokksins-a-akureyri/', source: 'xd.is' },
+          { title: 'Berglind sækist eftir 2. sæti', url: 'https://www.mbl.is/frettir/innlent/2021/02/23/berglind_saekist_eftir_2_saeti/', source: 'mbl.is' },
         ],
       }],
       [2, 'Heimir Örn Árnason', 'Bæjarfulltrúi', 'images/candidates/e6bf6ef84eb21e01.png', {
@@ -1900,6 +1908,7 @@ const AKU = {
           { title: 'Óðinn Svan hættir á RÚV og leiðir L-listann', url: 'https://www.visir.is/g/20262843231d/odinn-svan-leidir-l-listann', source: 'visir.is' },
           { title: 'Óðinn Svan verður í efsta sæti L-listans', url: 'https://www.akureyri.net/is/frettir/odinn-svan-verdur-i-efsta-saeti-l-listans', source: 'akureyri.net' },
           { title: 'Þau skipa L-listann á Akureyri', url: 'https://www.visir.is/g/20262866820d/thau-skipa-l-listann-a-akureyri', source: 'visir.is' },
+          { title: '10 bestu - Óðinn Svan Óðinsson', url: 'https://www.kaffid.is/10-bestu-odinn-svan-odinsson/', source: 'kaffid.is' },
         ],
       }],
       [2, 'Brynja Hlíf Þorsteinsdóttir', 'Bæjarfulltrúi og lífeindafræðingur', 'images/candidates/29c915b00a084139.jpg', {
@@ -2244,6 +2253,7 @@ const AKU = {
           { title: 'Þórhallur Jónsson fer í sérframboð', url: 'https://www.akureyri.net/is/moya/news/thorhallur-jonsson-fer-i-serframbod', source: 'akureyri.net' },
           { title: 'Ótækt að breyta aðferð við val á listann', url: 'https://www.akureyri.net/is/frettir/otaekt-ad-breyta-adferd-vid-val-a-listann', source: 'akureyri.net' },
           { title: 'Þórhallur, Karen og Helgi Steinar', url: 'https://www.akureyri.net/is/moya/news/thorhallur-karen-og-helgi-steinar', source: 'akureyri.net' },
+          { title: 'Þórhallur hjólar í tillögur ráðherra', url: 'https://www.mbl.is/frettir/innlent/2025/12/21/thorhallur_hjolar_i_tillogur_radherra/', source: 'mbl.is' },
         ],
       }],
       [2, 'Karen Sigurbjörnsdóttir', 'Mannauðsfulltrúi', 'images/candidates/387b2edd4a103cb5.jpg', {
@@ -2337,6 +2347,8 @@ const GAR = {
           { title: 'Við leggjum verk okkar óhrædd í dóm Garðbæinga', url: 'https://postar.is/gardabaer/vid-leggjum-verk-okkar-ohraedd-i-dom-gardbaeinga-segir-almar-gudmundsson-baejarstjori-gardabaejar-i-addraganda-kosning/', source: 'postar.is' },
           { title: 'Lægri skattar og skuldahlutfall lækkar verulega', url: 'https://www.globenewswire.com/news-release/2025/12/04/3200270/0/is/L%C3%A6gri-skattar-og-skuldahlutfall-l%C3%A6kkar-verulega.html', source: 'globenewswire.com' },
           { title: 'Kosningapallborð fréttatofu: Mun Sjálfstæðisflokkurinn halda velli í Garðabæ?', url: 'https://www.visir.is/g/20262872176d/kosningapallbord-frettastofu-mun-sjalfstaedisflokkurinn-halda-velli-i-gardabae-', source: 'visir.is' },
+          { title: 'Almar undrandi: „Staðsetningin er algjörlega klár"', url: 'https://www.mbl.is/frettir/innlent/2025/03/01/almar_undrandi_stadsetningin_er_algjorlega_klar/', source: 'mbl.is' },
+          { title: 'Leikskólapláss stórt jafnréttismál', url: 'https://www.mbl.is/frettir/innlent/2024/09/30/leikskolaplass_stort_jafnrettismal/', source: 'mbl.is' },
         ],
       }],
       [2, 'Björg Fenger', 'Formaður bæjarráðs og lögfræðingur', 'images/candidates/ec5805a90d116e9d.jpg', {
@@ -2347,6 +2359,7 @@ const GAR = {
         social: null,
         news: [
           { title: 'Almar leiðir lista Sjálfstæðisflokksins í Garðabæ', url: 'https://xd.is/2026/02/17/almar-leidir-lista-sjalfstaedisflokksins-i-gardabae/', source: 'xd.is' },
+          { title: 'Sjálfstæðismaður um Björgu Fenger og Garðabæ: „Þetta getur ekki haldið svona áfram"', url: 'https://gamla.mannlif.is/frettir/innlent/sjalfstaedismadur-um-bjorg-fenger-og-gardabaer-thetta-getur-ekki-haldid-svona-afram/', source: 'mannlif.is' },
         ],
       }],
       [3, 'Margrét Bjarnadóttir', 'Forseti bæjarráðs', 'images/candidates/99f0e2ba0db954e6.jpg', {
@@ -2604,6 +2617,7 @@ const GAR = {
         news: [
           { title: 'Þorbjörg leiðir Garðabæjarlistann aftur', url: 'https://www.ruv.is/frettir/innlent/2026-01-23-thorbjorg-leidir-gardabaejarlistann-aftur-464839', source: 'ruv.is' },
           { title: 'Oddvitinn heldur áfram og knattspyrnuhetja í öðru sæti', url: 'https://www.mbl.is/frettir/innlent/2026/01/23/oddvitinn_heldur_afram_og_knattspyrnuhetja_i_odru/', source: 'mbl.is' },
+          { title: 'Fótboltamaður byggir upp fasteignaveldi – Athafnamaðurinn Guðjón Pétur skorar innan vallar og utan', url: 'https://gamla.mannlif.is/frettir/fotboltamadur-byggir-upp-fasteignaveldi-athafnamadurinn-gudjon-petur-skorar-innan-og-utan-vallar/', source: 'mannlif.is' },
         ],
       }],
       [3, 'Joanna Marcinkowska', 'Verkefnastjóri inngildingar', 'images/candidates/14f769b51c2ed8ec.jpg', {
@@ -2782,6 +2796,7 @@ const GAR = {
         social: null,
         news: [
           { title: 'Kjartan Atli leiðir Samfylkinguna í Garðabæ', url: 'https://www.ruv.is/frettir/innlent/2026-03-12-kjartan-atli-leidir-samfylkinguna-i-gardabae-469510', source: 'ruv.is' },
+          { title: 'Sterkur og skapandi Garðabær', url: 'https://www.visir.is/g/20262871521d/sterkur-og-skapandi-gardabaer', source: 'visir.is' },
         ],
       }],
       [3, 'Rakel Margrét Viggósdóttir', 'Kennari og deildarstjóri', null, {
@@ -2867,6 +2882,8 @@ const MOS = {
           { title: '„Nú verður fjör" hjá Sjálfstæðismönnum sem kynna lista í Mosó', url: 'https://www.visir.is/g/20262849308d/-nu-verdur-fjor-hja-sjalf-staedis-monnum-sem-kynna-lista-i-moso', source: 'visir.is' },
           { title: '50 fyrirheit', url: 'https://mosfellingur.is/50-fyrirheit/', source: 'mosfellingur.is' },
           { title: 'Fyrsta pallborð fyrir kosningarnar í maí: Mosfellsbær á sviðið', url: 'https://www.visir.is/g/20262866350d/fyrsta-pallbord-fyrir-kosningarnar-i-mai-mosfellsbaer-a-svidid', source: 'visir.is' },
+          { title: 'Mosfellingur endurspeglar gott mannlíf', url: 'https://www.mbl.is/frettir/innlent/2020/12/12/mosfellingur_endurspeglar_gott_mannlif/', source: 'mbl.is' },
+          { title: 'Nýtt fólk - sama blaðið', url: 'https://mosfellingur.is/nytt-folk-sama-bladid/', source: 'mosfellingur.is' },
         ],
       }],
       [2, 'Jana Katrín Knútsdóttir', 'Bæjarfulltrúi og hjúkrunarfræðingur', 'images/candidates/f1dab75b7cab1973.jpg', {
@@ -2959,6 +2976,7 @@ const MOS = {
           { title: 'Veronika og Sævar unnu fyrstu greinina á Skíðalandsmótinu', url: 'https://www.mbl.is/sport/frettir/2014/04/03/veronika_og_saevar_unnu_fyrstu_greinina_a_skidaland/', source: 'mbl.is' },
           { title: 'Fyrsta pallborð fyrir kosningarnar í maí: Mosfellsbær á sviðið', url: 'https://www.visir.is/g/20262866350d/fyrsta-pallbord-fyrir-kosningarnar-i-mai-mosfellsbaer-a-svidid', source: 'visir.is' },
           { title: 'Blikastaðaland – bílastæði og ásýnd í sátt við umhverfið', url: 'https://mosfellingur.is/blikastadaland-bilastaedi-og-asynd-i-satt-vid-umhverfid/', source: 'mosfellingur.is' },
+          { title: 'Meiri Mosó á Blikastöðum', url: 'https://mosfellingur.is/meiri-moso-a-blikastodum/', source: 'mosfellingur.is' },
         ],
       }],
       [2, 'Halla Karen Kristjánsdóttir', 'Íþróttakennari og formaður bæjarráðs', 'https://framerusercontent.com/images/4wvNet00BSzqHvuaH0c1kdwtig.jpg', {
@@ -3569,6 +3587,7 @@ const KOP = {
           { title: 'Hjördís Ýr Johnson gefur kost á sér í 2. sætið í prófkjöri Sjálfstæðisflokksins í Kópavogi', url: 'https://kgp.is/kopavogur/hjordis-yr-johnson-gefur-kost-a-ser-i-2-saeti-i-profkjori-sjalfstaedisflokksins-i-kopavogi/', source: 'kgp.is' },
           { title: 'Hjördís Ýr Johnson gefur kost á sér í 2. sætið', url: 'https://www.visir.is/g/20222218097d/hjordis-yr-johnson-gefur-kost-a-ser-i-2.-saetid', source: 'visir.is' },
           { title: 'Fullskipaður framboðslisti í Kópavogi', url: 'https://xd.is/2026/03/17/fullskipadur-frambodslisti-i-kopavogi/', source: 'xd.is' },
+          { title: 'Hjördís og Árni skipulögðu leynibrúðkaup', url: 'https://www.mbl.is/smartland/stars/2022/03/06/hjordis_og_arni_skipulogdu_leynibrudkaup/', source: 'mbl.is' },
         ],
       }],
       [3, 'Andri Steinn Hilmarsson', 'Aðstoðarmaður ráðherra, fyrrverandi blaðamaður', 'images/candidates/cbedd24e0a95fcb8.jpg', {
@@ -3983,6 +4002,7 @@ const HAF = {
           { title: 'Ester Bíbí leiðir lista Vinstrisins í Hafnarfirði', url: 'https://www.fjardarfrettir.is/frettir/politik/ester-bibi-leidir-lista-vinstrisins-i-hafnarfirdi', source: 'fjardarfrettir.is' },
           { title: 'Vinstrið tilkynnir framboð í Hafnarfirði', url: 'https://www.ruv.is/frettir/innlent/2026-03-24-vinstrid-tilkynnir-frambod-i-hafnarfirdi-470747', source: 'ruv.is' },
           { title: 'Vinstrið er komið til Hafnarfjarðar', url: 'https://www.midjan.is/vinstrid-er-komid-til-hafnarfjardar/', source: 'midjan.is' },
+          { title: 'Ester Bíbí Ásgeirsdóttir, Gunnar Tómas Kristófersson — Head of legal deposit and cinematek, and researcher, National Film Archive of Iceland', url: 'https://cineuropa.org/en/interview/476456/', source: 'cineuropa.org' },
         ],
       }],
       [2, 'Svenný Kristins', 'Aðstoðarmaður iðjuþjálfa, lagahöfundur', null, {
@@ -4164,6 +4184,7 @@ const HAF = {
           { title: 'Karólína bar sigurorð af sitjandi oddvita Viðreisnar', url: 'https://www.fjardarfrettir.is/frettir/politik/karolina-bar-sigurord-af-sitjandi-oddvita-vidreisnar', source: 'fjardarfrettir.is' },
           { title: '„Tíminn og fjarlægðin voru ekki með okkur í liði"', url: 'https://www.mbl.is/frettir/innlent/2025/12/03/timinn_og_fjarlaegdin_voru_ekki_med_okkur_i_lidi/', source: 'mbl.is' },
           { title: 'Karólína Helga Símonardóttir (V): Fjárlög 2026', url: 'https://www.althingi.is/altext/raeda/157/rad20251205T173224.html', source: 'althingi.is' },
+          { title: '„Ég man að fyrsta árið sat í mér spurningin; Hvað svo?“', url: 'https://www.mbl.is/smartland/samskipti/2022/12/04/eg_man_ad_fyrsta_arid_sat_i_mer_spurningin_hvad_svo/', source: 'mbl.is' },
         ],
       }],
       [2, 'Árni Stefán Guðjónsson', 'Áfangastjóri í Flensborg', 'images/candidates/e83498217a45467a.png', {
@@ -4254,6 +4275,7 @@ const HAF = {
           { title: 'Sjálfstæðismenn í Hafnarfirði kynna lista', url: 'https://www.mbl.is/frettir/innlent/2026/03/04/sjalfstaedismenn_i_hafnarfirdi_kynna_lista/', source: 'mbl.is' },
           { title: 'Skarphéðinn Orri leiðir lista Sjálfstæðisflokksins', url: 'https://www.fjardarfrettir.is/frettir/politik/skarphedinn-orri-leidir-lista-sjalfstaedisflokksins', source: 'fjardarfrettir.is' },
           { title: 'Orri lætur af störfum hjá Algalíf', url: 'https://www.mbl.is/vidskipti/frettir/2025/11/18/orri_laetur_af_storfum_hja_algalif/', source: 'mbl.is' },
+          { title: 'Orri segir óeðlilegt að konur séu á launum í kvennaverkfalli — „Ég er auðvitað nítjándu aldar maður að mestu“', url: 'https://www.dv.is/frettir/2025/10/22/orri-segir-oedlilegt-ad-konur-seu-launum-kvennaverkfalli-eg-er-audvitad-nitjandu-aldar-madur-ad-mestu/', source: 'dv.is' },
         ],
       }],
       [2, 'Kristín Thoroddsen', 'Bæjarfulltrúi, formaður fræðsluráðs', 'images/candidates/86bbcfb4e46d1468.jpg', {
@@ -4437,6 +4459,9 @@ const HAF = {
         social: null,
         news: [
           { title: 'Framboðslisti Samfylkingarinnar í Hafnarfirði', url: 'https://www.fjardarfrettir.is/frettir/frambodslisti-samfylkingarinnar-i-hafnarfirdi', source: 'fjardarfrettir.is' },
+          { title: 'Hildur Rós Guðbjargardóttir nýr formaður Kvennahreyfingarinnar', url: 'https://frettatiminn.is/14/12/2022/hildur-ros-gudbjargardottir-nyr-formadur-kvennahreyfingarinnar/', source: 'frettatiminn.is' },
+          { title: 'Ung til athafna', url: 'https://www.visir.is/g/20262829735d/ung-til-at-hafna', source: 'visir.is' },
+          { title: 'Ný framkvæmdastjórn Samfylkingarinnar', url: 'https://www.mbl.is/frettir/innlent/2022/10/29/ny_framkvaemdastjorn_samfylkingarinnar/', source: 'mbl.is' },
         ],
       }],
       [3, 'Árni Rúnar Þorvaldsson', 'Bæjarfulltrúi, varaþingmaður Samfylkingar', 'images/candidates/78f394216cd9dc52.jpg', {
@@ -4517,6 +4542,7 @@ const SEL = {
           { title: 'Bæjarstjórinn einn á móti stækkun friðlýsingar Gróttu og Seltjarnar', url: 'https://www.visir.is/g/20262842656d/baejar-stjorinn-einn-a-moti-staekkun-frid-lysingar-grottu-og-seltjarnar', source: 'visir.is' },
           { title: 'Seltjarnarnes og Garðabær lækka álagningu', url: 'https://www.mbl.is/frettir/innlent/2025/05/30/seltjarnarnes_og_gardabaer_laekka_alagningu/', source: 'mbl.is' },
           { title: 'Áætlunin sýni viðsnúning', url: 'https://www.mbl.is/frettir/innlent/2025/12/13/aaetlunin_syni_vidsnuning/', source: 'mbl.is' },
+          { title: 'Maður fólksins!', url: 'https://lifdununa.is/grein/madur-folksins/', source: 'lifdununa.is' },
         ],
       }],
       [2, 'Elísabet Ingunn Einarsdóttir', 'Framkvæmdastjóri', 'images/candidates/af3e445d0f5eb4a2.jpg', { age: null, bio: 'Elísabet Ingunn Einarsdóttir er framkvæmdastjóri og er á 2. sæti D-listans á Seltjarnarnesi í sveitarstjórnarkosningum 2026.', interests: null, social: null, news: [
@@ -4644,6 +4670,8 @@ const RNB = {
           { title: 'Halldóra efst hjá Framsókn í Reykjanesbæ', url: 'https://www.ruv.is/frett/2022/03/11/halldora-efst-hja-framsokn-i-reykjanesbae', source: 'ruv.is' },
           { title: 'Hælisleitendamálin settu þrýsting á Reykjanesbæ', url: 'https://www.visir.is/g/20262869144d/haelis-leit-enda-malin-settu-thrysting-a-reykja-nes-bae', source: 'visir.is' },
           { title: 'Framboðslisti Framsóknar í Reykjanesbær birtur', url: 'https://www.vf.is/frettir/frambodslisti-framsoknar-i-reykjanesbaer-birtur', source: 'vf.is' },
+          { title: 'Fagnaðaróp þegar heita vatnið kom á', url: 'https://www.mbl.is/frettir/innlent/2024/02/12/fagnadarop_thegar_heita_vatnid_kom_a/', source: 'mbl.is' },
+          { title: 'Fylgst grannt með þróun mála í Reykjanesbæ', url: 'https://www.mbl.is/frettir/innlent/2025/07/16/fylgst_grannt_med_throun_mala_i_reykjanesbae/', source: 'mbl.is' },
         ],
       }],
       [2, 'Róbert Jóhann Guðmundsson', 'Bæjarfulltrúi og málarameistari', 'https://framerusercontent.com/images/Tc8qWaeEEj41HPIoKJpPzsi4tI4.jpg', {
@@ -4832,6 +4860,8 @@ const RNB = {
           { title: 'Segir það þvætting að til standi að rukka fyrir Reykjanesbraut og Suðurlandsveg', url: 'https://www.dv.is/frettir/2026/03/18/segir-thad-thvaetting-ad-til-standi-ad-rukka-fyrir-reykjanesbraut-og-sudurlandsveg/', source: 'dv.is' },
           { title: 'Vilhjálmur Árnason býður sig fram til oddvita', url: 'https://www.vf.is/adsent/vilhjalmur-arnason-bydur-sig-fram-til-oddvita', source: 'vf.is' },
           { title: 'Kosningapallborð fréttastofu: Baráttan um Reykjanesbæ', url: 'https://www.visir.is/g/20262868958d/kosningapallbord-frettastofu-barattan-um-reykjanesbae', source: 'visir.is' },
+          { title: 'Vilhjálmur segir ákvörðunina varhugaverða', url: 'https://www.mbl.is/frettir/innlent/2025/05/14/segir_akvordunina_varhugaverda/', source: 'mbl.is' },
+          { title: 'Tókust á um auknar valdheimildir lögreglu', url: 'https://www.mbl.is/frettir/innlent/2022/09/25/tokust_a_um_auknar_valdheimildir_logreglu/', source: 'mbl.is' },
         ],
       }],
       [2, 'Margrét Þórarinsdóttir', 'Yfirflugfreyja og bæjarfulltrúi', 'https://sulukast.is/assets/frambjodandi-2-7JeWgUxm.jpg', {
@@ -5117,7 +5147,10 @@ const VOG = {
         bio: null,
         interests: null,
         social: null,
-        news: [],
+        news: [
+          { title: 'Björg Ásta Þórðardóttir nýr framkvæmdastjóri í Valhöll', url: 'https://www.mbl.is/frettir/innlent/2025/04/04/bjorg_asta_thordardottir_nyr_framkvaemdastjori_i_va/', source: 'mbl.is' },
+          { title: 'Björg Ásta Þórðardóttir aðstoðar dómsmálaráðherra', url: 'https://www.vf.is/frettir/bjorg-asta-thordardottir-adstodar-domsmalaradherra', source: 'vf.is' },
+          { title: 'Tryggvi tekur við af Björgu í Valhöll', url: 'https://www.mbl.is/frettir/innlent/2025/11/25/tryggvi_tekur_vid_af_bjorgu_i_valholl/', source: 'mbl.is' },],
       }],
       [2, 'Guðmann Rúnar Lúðvíksson', 'Sérfræðingur hjá landhelgisgæslunni, varabæjarfulltrúi', 'images/candidates/e2cddc89e5d8e495.jpg', { age: null, bio: null, interests: null, social: null, news: [] }],
       [3, 'Hulda Birna Helgadóttir Blöndal', 'Deildarstjóri hjá Klettabæ'],
@@ -5225,7 +5258,10 @@ const GRN = {
         heimild: [{ url: 'https://www.ruv.is/frettir/innlent/2022-03-31-asrun-helga-leidir-lista-framsoknar-i-grindavik', label: 'RÚV' }, { url: 'https://www.dv.is/tag/asrun-helga-kristinsdottir/', label: 'DV' }, { url: 'https://kosningasaga.wordpress.com/2026/03/18/frambodslisti-framsoknar-i-grindavik/', label: 'kosningasaga.wordpress.com' }],
         interests: null,
         social: null,
-        news: [],
+        news: [
+          { title: '„Finn fyrir aukinni bjartsýni hjá fólki“', url: 'https://www.mbl.is/frettir/innlent/2025/10/09/finn_fyrir_aukinni_bjartsyni_hja_folki/', source: 'mbl.is' },
+          { title: 'Forseti bæjarstjórnar Grindavíkur segir bæinn í raun dauðan', url: 'https://www.dv.is/frettir/2024/05/08/forseti-baejarstjornar-grindavikur-segir-baeinn-raun-daudan/', source: 'dv.is' },
+          { title: 'Um 200 fjölskyldur þurfa á stuðningi að halda', url: 'https://www.mbl.is/frettir/innlent/2025/03/17/um_200_fjolskyldur_thurfa_a_studningi_ad_halda/', source: 'mbl.is' },],
       }],
       [2, 'Þorleifur Ólafsson', 'Frambjóðandi', 'https://framerusercontent.com/images/PpuktDNaPSTEkYCcSXfaxrCF0.jpg', { age: null, bio: 'Þorleifur Ólafsson er þjálfari og kennari og er í 2. sæti á B-lista Framsóknar í Grindavík í sveitarstjórnarkosningum 2026.', interests: null, social: null, news: [] }],
       [3, 'Inga Fanney Rúnarsdóttir', 'Frambjóðandi'],
@@ -5257,7 +5293,9 @@ const GRN = {
         heimild: [{ url: 'https://kosningasaga.wordpress.com/2026/03/18/frambodslisti-framsoknar-i-grindavik/', label: 'kosningasaga.wordpress.com' }],
         interests: null,
         social: null,
-        news: [],
+        news: [
+          { title: 'Járngerður mun sækja að Þórkötlu', url: 'https://www.mbl.is/frettir/innlent/2025/03/12/jarngerdur_mun_saekja_ad_thorkotlu/', source: 'mbl.is' },
+          { title: 'Vonar að skólastarf verði í bænum þrátt fyrir tilmælin', url: 'https://www.visir.is/g/20262867975d/vonar-ad-skola-starf-verdi-i-baenum-thratt-fyrir-til-maelin', source: 'visir.is' },],
       }],
       [2, 'Hjálmar Hallgrímsson', 'Lögreglumaður', 'images/candidates/2dd8bcd683b51edf.jpg', { age: null, bio: 'Hjálmar Hallgrímsson er lögreglumaður á Suðurnesjum og formaður bæjarráðs Grindavíkur, þar sem hann hefur verið bæjarfulltrúi Sjálfstæðisflokksins frá 2014. Hann leiðir D-lista og er oddviti flokksins í bænum.', interests: null, social: null, news: [] }],
       [3, 'Ómar Davíð Ólafsson', 'Vélsmiður', 'images/candidates/0b69eac7ddcb2aac.jpg'],
@@ -5688,6 +5726,7 @@ const ARB = {
           { title: 'Listi sjálfstæðismanna í Árborg samþykktur', url: 'https://www.mbl.is/frettir/innlent/2026/02/23/listi_sjalfstaedismanna_i_arborg_samthykktur/', source: 'mbl.is' },
           { title: 'Sveitarfélagið Árborg skráð sem greiðandi pólitískra auglýsinga bæjarstjórans – „Röng skráning" segir Bragi', url: 'https://www.dv.is/frettir/2026/04/07/sveitarfelagid-arborg-skrad-sem-greidandi-politiskra-auglysinga-baejarstjorans-rong-skraning-segir-bragi/', source: 'dv.is' },
           { title: 'Nýr meirihluti myndaður: Bragi verður bæjarstjóri', url: 'https://www.mbl.is/frettir/innlent/2024/05/23/nyr_meirihluti_myndadur_bragi_verdur_baejarstjori/', source: 'mbl.is' },
+          { title: 'Bragi mun bjóða sig fram til forystu aftur', url: 'https://www.mbl.is/frettir/innlent/2025/05/14/bragi_mun_bjoda_sig_fram_til_forystu_aftur/', source: 'mbl.is' },
         ],
       }],
       [2, 'Sveinn Ægir Birgisson', 'Formaður bæjarráðs', 'images/candidates/a68a207aa8255fdf.jpg', {
@@ -5858,6 +5897,7 @@ const VME = {
           { title: 'Framboðslisti Sjálfstæðisflokksins í Vestmannaeyjum', url: 'https://xd.is/2026/03/31/frambodslisti-sjalfstaedisflokksins-i-vestmannaeyjum/', source: 'xd.is' },
           { title: 'Skjálfti vegna Írisar innan Sjálfstæðisflokksins í Eyjum', url: 'https://www.visir.is/g/20262869486d/skjalfti-vegna-irisar-innan-sjalfstaedisflokksins-i-eyjum', source: 'visir.is' },
           { title: 'Vatnslögnin er stærsta hagsmunamál íbúa í Eyjum', url: 'https://eyjafrettir.is/vatnslognin-er-staersta-hagsmunamal-ibua-i-eyjum/', source: 'eyjafrettir.is' },
+          { title: 'Gera allt klárt fyrir loðnuvertíð í Eyjum', url: 'https://www.mbl.is/200milur/frettir/2026/01/29/gera_allt_klart_fyrir_lodnuvertid_i_eyjum/', source: 'mbl.is' },
         ],
       }],
       [2, 'Trausti Hjaltason', 'Áhættustjóri', 'images/candidates/4d3779c91a0584d6.jpg', { age: null, bio: null, interests: null, social: null, news: [] }],
@@ -5985,6 +6025,7 @@ const NPG = {
         news: [
           { title: 'B-listi Framsóknar í Norðurþingi samþykktur á fjölmennum fundi', url: 'https://www.vikubladid.is/is/frettir/b-listi-framsoknarflokks-i-nordurthingi-samthykktur-a-fjolmennum-fundi', source: 'vikubladid.is' },
           { title: 'Fjögur efstu hjá Framsókn í Norðurþingi', url: 'https://kosningasaga.wordpress.com/2026/02/28/fjogur-efstu-hja-framsokn-i-nordurthingi/', source: 'kosningasaga' },
+          { title: 'Vaðlaheiðargöng hafa skipt sköpum með sjúkraflutninga', url: 'https://www.vadlaheidi.is/is/frettir/vadlaheidargong-hafa-skipt-skopum-med-sjukraflutninga', source: 'vadlaheidi.is' },
         ],
       }],
       [2, 'Bylgja Steingrímsdóttir', 'Hjúkrunarfræðingur', null, { age: null, bio: 'Bylgja Steingrímsdóttir er sjúkraliði og starfsmaður í íbúakjarna á Húsavík. Hún er í öðru sæti á B-lista Framsóknarflokks í Norðurþingi og er varamaður í sveitarstjórn.', interests: null, social: null, news: [] }],
@@ -6060,6 +6101,7 @@ const NPG = {
         news: [
           { title: 'Rúnar Traustason leiðir lista Samfélagsins í Norðurþingi', url: 'https://www.vikubladid.is/is/moya/news/runar-traustason-leidir-lista-samfelagsins-i-nordurthingi-x-m', source: 'vikubladid.is' },
           { title: 'Framboðslisti M-lista Samfélagsins í Norðurþingi', url: 'https://kosningasaga.wordpress.com/2026/03/17/frambodslisti-m-lista-samfelagsins-i-nordurthingi/', source: 'kosningasaga' },
+          { title: 'Rúnar Traustason leiðir M-lista í Norðurþingi', url: 'https://kosningasaga.wordpress.com/2026/02/20/runar-traustason-leidir-m-lista-i-nordurthingi/', source: 'kosningasaga.wordpress.com' },
         ],
       }],
       [2, 'Ágúst Sigurður Óskarsson', 'Ráðgjafi', 'images/candidates/baaa04d6567d6397.jpg', { age: null, bio: 'Ágúst Sigurður Óskarsson er ráðgjafi og atvinnulífstengill hjá endurhæfingarsjóðnum Virk, auk þess að vera sjúkraflutningamaður við HSN. Hann var heiðraður af Framsýn árið 2024 fyrir langt og gott starf í þágu stéttarfélaga frá árinu 1988.', interests: null, social: null, news: [] }],
@@ -6161,7 +6203,9 @@ const NPG = {
         heimild: [{ url: 'https://www.instagram.com/aldeyt/', label: 'Instagram – Aldey Unnar Traustadóttir (@aldeyt)' }, { url: 'https://www.vikubladid.is/is/frettir/vinstri-graenir-telja-verkstjorn-sveitarstjora-i-nordurthingi-abotavant', label: 'Vikublaðið – Vinstri grænir um verkstjórn sveitarstjóra í Norðurþingi' }, { url: 'https://www.nordurthing.is/is/stjornsysla/stjornkerfi/nefndir-og-rad', label: 'Norðurþing – Nefndir og ráð (sveitarstjórnarfulltrúi)' }],
         interests: null,
         social: [{ type: 'instagram', url: 'https://www.instagram.com/aldeyt/', label: 'Instagram' }],
-        news: [{ title: 'V-listi Velferðar býður fram í Norðurþingi', url: 'https://kosningasaga.wordpress.com/2026/03/11/v-listi-velferdar-bydur-fram-i-nordurthingi/', source: 'kosningasaga' }],
+        news: [{ title: 'V-listi Velferðar býður fram í Norðurþingi', url: 'https://kosningasaga.wordpress.com/2026/03/11/v-listi-velferdar-bydur-fram-i-nordurthingi/', source: 'kosningasaga' },
+          { title: 'President of Town Council breaks ground for new Nursing Home in Húsavík', url: 'https://www.husavik.com/2021/11/president-of-town-council-breaks-ground-for-new-nursing-home/', source: 'husavik.com' },
+          { title: 'Óboðleg stjórnsýsla', url: 'https://www.mbl.is/frettir/innlent/2024/04/17/obodleg_stjornsysla/', source: 'mbl.is' },],
       }],
       [2, 'Salbjörg Matthíasdóttir', 'Flutningastjóri', null, { age: null, bio: 'Salbjörg Matthíasdóttir er flutningastjóri og bóndi á Kelduhverfi. Hún er formaður hverfisráðs Kelduhverfis og er í öðru sæti á V-lista velferðar í sveitarstjórnarkosningum 2026 í Norðurþingi.', interests: null, social: null, news: [] }],
       [3, 'Halldór Jón Gíslason', 'Skólastjóri'],
@@ -6207,6 +6251,9 @@ const FJB = {
         news: [
           { title: 'Tómas Atli leiðir lista Sjálfstæðisflokksins í Fjallabyggð', url: 'https://trolli.is/tomas-atli-leidir-lista-sjalfstaedisflokksins-i-fjallabyggd/', source: 'trolli.is' },
           { title: 'Þrír framboðslistar í Fjallabyggð', url: 'https://kaffid.is/thrir-frambodslistar-i-fjallabyggd/', source: 'kaffid.is' },
+          { title: 'Kynning á frambjóðendum í Fjallabyggð – Tómas Atli Einarsson, D-Lista', url: 'https://trolli.is/kynning-a-frambjodendum-i-fjallabyggd-tomas-atli-einarsson-d-lista/', source: 'trolli.is' },
+          { title: 'Tómas Atli Einarsson vill beina Samkaupum á aðra staðsetningu á Siglufirði', url: 'https://trolli.is/tomas-atli-einarsson-vill-beina-samkaupum-a-adra-stadsetningu-a-siglufirdi/', source: 'trolli.is' },
+          { title: 'Tommi fær jákvæðni í afmælisgjöf', url: 'https://trolli.is/tommi-faer-jakvaedni-i-afmaelisgjof/', source: 'trolli.is' },
         ],
       }],
       [2, 'Kristín Ágústa Eiðsdóttir', 'Kennaranemi og leikskólastarfsmaður', 'images/candidates/88d4cfb338c03984.jpg', { age: null, bio: 'Kristín Ágústa Eiðsdóttir er leikskólakennaranemi og starfsmaður leikskóla sem skipar 2. sæti á D-lista Sjálfstæðisflokksins í Fjallabyggð 2026. Hún kemur með menntun og reynslu í leikskólastarfi.', interests: null, social: null, news: [] }],
@@ -6271,7 +6318,10 @@ const FJB = {
         heimild: [{ url: 'https://kjarninn.is/frettir/frettamadur-a-stod-2-radinn-slokkvilidsstjori-i-fjallabyggd/', label: 'kjarninn.is' }, { url: 'https://hedinsfjordur.is/jolavidtalid-johann-k-johannsson/', label: 'hedinsfjordur.is' }, { url: 'https://kosningasaga.wordpress.com/2026/04/08/frambodslisti-jafnadarmanna-og-ohadra-i-fjallabyggd/', label: 'kosningasaga.wordpress.com' }],
         interests: ['Almannavernd og öryggi', 'Fjölskyldu- og velferðarmál', 'Samfélagsleg þjónusta', 'Uppbygging Siglufjörðar og Ólafsfjarðar'],
         social: null,
-        news: [{ title: 'Framboðslisti Jafnaðarmanna og óháðra í Fjallabyggð', url: 'https://kosningasaga.wordpress.com/2026/04/08/frambodslisti-jafnadarmanna-og-ohadra-i-fjallabyggd/', source: 'kosningasaga' }],
+        news: [{ title: 'Framboðslisti Jafnaðarmanna og óháðra í Fjallabyggð', url: 'https://kosningasaga.wordpress.com/2026/04/08/frambodslisti-jafnadarmanna-og-ohadra-i-fjallabyggd/', source: 'kosningasaga' },
+          { title: 'Fréttamaður á Stöð 2 ráðinn slökkviliðsstjóri í Fjallabyggð', url: 'https://kjarninn.heimildin.is/frettir/frettamadur-a-stod-2-radinn-slokkvilidsstjori-i-fjallabyggd/', source: 'heimildin.is' },
+          { title: 'Jóhann snýr aftur í fréttirnar og Hjördís verður samskiptastjóri', url: 'https://www.dv.is/frettir/2021/02/19/johann-snyr-aftur-frettirnar-og-hjordis-verdur-samskiptastjori/', source: 'dv.is' },
+          { title: '„Gæðastundirnar eru svo miklu fleiri“', url: 'https://www.visir.is/g/20212199770d', source: 'visir.is' },],
       }],
       [2, 'Pálmi Blængsson', 'Verkefnastjóri', 'images/candidates/49b669104e0b3194.png', { age: null, bio: 'Pálmi Blængsson er verkefnastjóri sem skipar 2. sæti á S-lista Jafnaðarmanna og óháðra í Fjallabyggð 2026. Hann kemur með skipulagsþekkingu og reynslu í verkefnastjórnun.', interests: null, social: null, news: [] }],
       [3, 'Sæunn Gísladóttir', 'Verkefnastjóri hjá RHA', 'images/candidates/d01c461ed6de35d3.png'],
@@ -6314,6 +6364,8 @@ const HVG = {
         news: [
           { title: 'Lárus nýr oddviti Okkar Hveragerðis', url: 'https://www.sunnlenska.is/frettir/larus-nyr-oddviti-okkar-hveragerdis/', source: 'sunnlenska.is' },
           { title: 'Okkar Hveragerði kynnti listann', url: 'https://kosningasaga.wordpress.com/2026/03/22/larus-jonsson-leidir-okkar-hveragerdi/', source: 'kosningasaga' },
+          { title: 'Lárus Jónsson tekur við Þórsurum', url: 'https://hafnarfrettir.is/2020/04/15/larus-jonsson-tekur-vid-thorsurum/', source: 'hafnarfrettir.is' },
+          { title: 'Þarf víst að fara að skila mér heim', url: 'https://www.mbl.is/sport/korfubolti/2025/09/04/tharf_vist_ad_fara_ad_skila_mer_heim/', source: 'mbl.is' },
         ],
       }],
       [2, 'Dagný Sif Sigurbjörnsdóttir', 'Lögmaður', 'images/candidates/1a2f3b319479b4fe.jpg', { age: null, bio: 'Dagný Sif Sigurbjörnsdóttir er lögfræðingur og tónlistarmaður; hún er bæjarfulltrúi og varaformaður bæjarstjórnar Hveragerðisbæjar og er á 2. sæti á OKH-lista í sveitarstjórnarkosningum 2026.', interests: null, social: null, news: [] }],
@@ -6452,7 +6504,8 @@ const RTE = {
         heimild: [{ url: 'https://www.dfs.is/frettir/kosningar/saman-byggjum-vid-samfelag/', label: 'dfs.is (Sjálfstæðisflokkurinn)' }, { url: 'https://www.dfs.is/2023/09/18/crossfit-hengill-lokar/', label: 'dfs.is – CrossFit Hengill lokar' }],
         interests: null,
         social: [{ type: 'facebook', url: 'https://www.facebook.com/rafn.bergsson', label: 'Facebook' }],
-        news: [{ title: 'Rafn nýr oddviti B-listans í Rangárþingi eystra', url: 'https://www.sunnlenska.is/frettir/rafn-nyr-oddviti-b-listans-i-rangarthingi-eystra/', source: 'sunnlenska.is' }],
+        news: [{ title: 'Rafn nýr oddviti B-listans í Rangárþingi eystra', url: 'https://www.sunnlenska.is/frettir/rafn-nyr-oddviti-b-listans-i-rangarthingi-eystra/', source: 'sunnlenska.is' },
+          { title: 'Flytja að Stóru-Hildisey 1', url: 'https://www.bbl.is/frettir/vidtal/flytja-ad-storu-hildisey-1', source: 'bbl.is' },],
       }],
       [2, 'Bjarki Oddsson', 'Rannsóknarlögreglumaður', 'https://framerusercontent.com/images/m2SitffXa7pYo2wgfqP7Mh8eg.png', { age: null, bio: 'Bjarki Oddsson er lögreglumaður og sveitarstjórnarfulltrúi í Rangárþingi eystra og er á 2. sæti B-listans í sveitarstjórnarkosningum 2026.', interests: null, social: null, news: [] }],
       [3, 'Gunnhildur Jónsdóttir', 'Bóndi og sjúkraliði'],
@@ -6484,7 +6537,10 @@ const RTE = {
         heimild: [{ url: 'https://framsokn.is/sveitarstjornarfolk/rangarthing-eystra/', label: 'framsokn.is' }, { url: 'https://www.sunnlenska.is/frettir/rafn-nyr-oddviti-b-listans-i-rangarthingi-eystra/', label: 'sunnlenska.is' }],
         interests: null,
         social: null,
-        news: [],
+        news: [
+          { title: 'Anton Kári Halldórsson nýr sveitarstjóri í Rangárþingi eystra', url: 'https://xd.is/2022/05/31/anton-kari-halldorsson-nyr-sveitarstjori-i-rangarthingi-eystra/', source: 'xd.is' },
+          { title: 'Rétta fram sáttarhönd við Seljalandsfoss', url: 'https://www.mbl.is/frettir/innlent/2026/01/22/retta_fram_sattarhond_vid_seljalandsfoss/', source: 'mbl.is' },
+          { title: 'Lausar lóðir í þjóðlendunum', url: 'https://www.mbl.is/frettir/innlent/2025/05/19/lausar_lodir_i_thjodlendunum/', source: 'mbl.is' },],
       }],
       [2, 'Aðalbjörg Rún Ásgeirsdóttir', 'Bóndi', 'images/candidates/2f0e8cdd89b683fd.jpg', {
         age: null,
@@ -6523,7 +6579,8 @@ const RTE = {
         heimild: [{ url: 'https://www.sunnlenska.is/frettir/tomas-og-inger-i-efstu-saetum-n-listans/', label: 'sunnlenska.is' }, { url: 'https://www.visir.is/g/20222243038d/tomas-birgir-leidir-nyja-o-hada-listann-i-rang-ar-thingi-eystra', label: 'Vísir' }, { url: 'https://www.ruv.is/frett/2022/05/30/tomas-birgir-nyr-oddviti-i-rangarthingi-eystra', label: 'RÚV' }],
         interests: null,
         social: null,
-        news: [{ title: 'Tómas og Inger í efstu sætum N-listans', url: 'https://www.sunnlenska.is/frettir/tomas-og-inger-i-efstu-saetum-n-listans/', source: 'sunnlenska.is' }],
+        news: [{ title: 'Tómas og Inger í efstu sætum N-listans', url: 'https://www.sunnlenska.is/frettir/tomas-og-inger-i-efstu-saetum-n-listans/', source: 'sunnlenska.is' },
+          { title: 'Tómas Birgir leiðir Nýja óháða listann í Rangárþingi eystra', url: 'https://www.visir.is/g/20222243038d/tomas-birgir-leidir-nyja-o-hada-listann-i-rang-ar-thingi-eystra', source: 'visir.is' },],
       }],
       [2, 'Inger Erla Thomsen', 'Sérfræðingur hjá UNICEF', 'images/candidates/62c7af53abe3d070.jpg', { age: null, bio: 'Inger Erla Thomsen er sérfræðingur hjá UNICEF á Íslandi og er á 2. sæti NRE-listans í Rangárþingi eystra í sveitarstjórnarkosningum 2026.', interests: null, social: null, news: [] }],
       [3, 'Anna Runólfsdóttir', 'Verkfræðingur'],
@@ -6563,7 +6620,8 @@ const RTY = {
         heimild: [{ url: 'https://unicef.is/starfsfolk', label: 'unicef.is – starfsfólk' }, { url: 'https://www.sunnlenska.is/frettir/tomas-og-inger-i-efstu-saetum-n-listans/', label: 'sunnlenska.is' }],
         interests: null,
         social: null,
-        news: [{ title: 'Á-listinn samþykktur og Eiríkur kynntur sem sveitarstjóraefni', url: 'https://www.sunnlenska.is/frettir/a-listinn-samthykktur-og-eirikur-kynntur-sem-sveitarstjoraefni/', source: 'sunnlenska.is' }],
+        news: [{ title: 'Á-listinn samþykktur og Eiríkur kynntur sem sveitarstjóraefni', url: 'https://www.sunnlenska.is/frettir/a-listinn-samthykktur-og-eirikur-kynntur-sem-sveitarstjoraefni/', source: 'sunnlenska.is' },
+          { title: 'Vilja að Landsvirkjun flytji höfuðstöðvarnar á Hellu', url: 'https://www.sunnlenska.is/frettir/vilja-ad-landsvirkjun-flytji-hofudstodvarnar-a-hellu/', source: 'sunnlenska.is' },],
       }],
       [2, 'Margrét Harpa Guðsteinsdóttir', 'Bóndi og sveitarstjórnarfulltrúi', 'images/candidates/6f0bdde8b40b302c.jpg', { age: null, bio: 'Margrét Harpa Guðsteinsdóttir er bóndi í Lambhaga og sveitarstjórnarfulltrúi í Rangárþingi ytra og er á 2. sæti Á-listans í sveitarstjórnarkosningum 2026.', interests: null, social: null, news: [] }],
       [3, 'Erla Sigurðardóttir', 'Sjúkraflutningamaður'],
@@ -6732,7 +6790,9 @@ const SKR = {
         bio: null,
         interests: null,
         social: null,
-        news: [],
+        news: [
+          { title: '„Var bara ekkert hlustað á okkur“', url: 'https://www.mbl.is/frettir/innlent/2024/07/30/var_bara_ekkert_hlustad_a_okkur/', source: 'mbl.is' },
+          { title: 'Kominn tími á nýja rýmingaráætlun', url: 'https://www.mbl.is/frettir/innlent/2024/09/09/kominn_timi_a_nyja_rymingaraaetlun/', source: 'mbl.is' },],
       }],
       [2, 'Auður Guðbjörnsdóttir', 'Bóndi og skólabílstjóri', null, { age: null, bio: null, interests: null, social: null, news: [] }],
       [3, 'Gunnar Pétur Sigmársson', 'Verkstjóri og sveitarstjórnarfulltrúi'],
@@ -6792,7 +6852,8 @@ const MYR = {
         heimild: [{ url: 'https://www.vik.is/is/frettir/sveitarstjornarkosningar-16-mai-2026', label: 'vik.is – kosningar 2026' }],
         interests: null,
         social: null,
-        news: [],
+        news: [
+          { title: 'Ómetanlegt starf í þágu samfélags - viðtal við Björn Þór Ólafsson', url: 'https://www.aldurerbaratala.is/vidtol/ometanlegt-starf-i-thagu-samfelags-bjorn-thor-olafsson/', source: 'aldurerbaratala.is' },],
       }],
       [2, 'Þórey Richardt Úlfarsdóttir', 'Sjálfstæður atvinnurekandi', null, { age: null, bio: 'Þórey Richardt Úlfarsdóttir er sjálfstætt starfandi og er á 2. sæti á Z-lista Samfélagsins í Mýrdalshreppi í sveitarstjórnarkosningum 2026.', interests: null, social: null, news: [] }],
       [3, 'Daníel Óliver Sveinsson', 'Framkvæmdastjóri'],
@@ -6826,7 +6887,10 @@ const BSG = {
         heimild: [{ url: 'https://www.vik.is/is/stjornkerfi/sveitarstjorn/sveitarstjornarfulltruar', label: 'vik.is – sveitarstjórn Mýrdalshreppur' }],
         interests: null,
         social: null,
-        news: [],
+        news: [
+          { title: 'Metnaður fyrir þjónustu', url: 'https://www.mbl.is/frettir/innlent/2025/08/03/metnadur_fyrir_thjonustu/', source: 'mbl.is' },
+          { title: 'Bláskógabyggð kaupir jörðina Laugarás', url: 'https://www.mbl.is/frettir/innlent/2026/03/22/blaskogabyggd_kaupir_laugarasjordina/', source: 'mbl.is' },
+          { title: 'Population Climb Continues in Bláskógabyggð, Says Mayor', url: 'https://www.icelandreview.com/news/population-climb-continues-in-blaskogabyggd-says-mayor/', source: 'icelandreview.com' },],
       }],
       [2, 'Stefanía Hákonardóttir', 'Verkfræðingur', null, { age: null, bio: 'Stefanía Hákonardóttir er verkfræðingur; hún er á 2. sæti á T-listanum í Bláskógabyggð í sveitarstjórnarkosningum 2026.', interests: null, social: null, news: [] }],
       [3, 'Áslaug Alda Þórarinsdóttir', 'Meistaranemi í félagsráðgjöf'],
@@ -6858,7 +6922,10 @@ const BSG = {
         heimild: [{ url: 'https://www.sunnlenska.is/frettir/tveir-frambodslistar-i-blaskogabyggd/', label: 'sunnlenska.is – tveir listar' }],
         interests: null,
         social: null,
-        news: [],
+        news: [
+          { title: 'Er nú skólastjóri í skólanum þar sem hún var í tossabekk', url: 'https://www.visir.is/g/20212100333d', source: 'visir.is' },
+          { title: 'Anna Greta ráðin skólastjóri í Varmárskóla', url: 'https://mosfellingur.is/anna-greta-radin-skola%C2%ADstjori-varmarskola/', source: 'mosfellingur.is' },
+          { title: 'Anna Gréta ráðin mannauðsstjóri', url: 'https://bb.is/2018/02/anna-greta-radin-mannaudsstjori/', source: 'bb.is' },],
       }],
       [2, 'Valdís María Smáradóttir', 'Ráðgjafi', null, { age: null, bio: 'Valdís María Smáradóttir er ráðgjafi; hún er á 2. sæti á Þ-listanum í Bláskógabyggð í sveitarstjórnarkosningum 2026.', interests: null, social: null, news: [] }],
       [3, 'Óli Björn Finnsson', 'Garðyrkjubóndi'],
@@ -6895,7 +6962,8 @@ const FHR = {
         heimild: [{ url: 'https://www.sunnlenska.is/frettir/arni-leidir-framfaralistann-afram/', label: 'sunnlenska.is' }, { url: 'https://www.dfs.is/frettir/kosningar/framfaralistinn-bydur-fram-i-annad-sinn/', label: 'dfs.is – Framfaralistinn Flóahreppur' }],
         interests: null,
         social: null,
-        news: [],
+        news: [
+          { title: 'Flóahreppur segir nei við Árborg', url: 'https://www.mbl.is/frettir/innlent/2025/09/17/floahreppur_segir_nei_vid_arborg/', source: 'mbl.is' },],
       }],
       [2, 'Hulda Kristjánsdóttir', 'Sveitarstjóri og sveitarstjórnarfulltrúi', null, { age: null, bio: 'Hulda Kristjánsdóttir er sveitarstjóri Flóahrepps og er í 2. sæti á I-listanum 2026. Hún starfar á Forsæti 2 og hefur umsjón með daglegum rekstri sveitarfélagsins.', interests: null, social: null, news: [] }],
       [3, 'Walter Fannar Kristjánsson', 'Laganemi og sveitarstjórnarfulltrúi'],
@@ -7016,7 +7084,9 @@ const GGR = {
         heimild: [{ url: 'https://www.sunnlenska.is/frettir/gudmundur-leidir-nytt-frambod-i-gogg/', label: 'sunnlenska.is' }, { url: 'https://www.skeidgnup.is/is/moya/news/nyr-skolastjori-radinn-i-thjorsarskola', label: 'skeidgnup.is – nýr skólastjóri Þjórsárskóla' }],
         interests: null,
         social: null,
-        news: [],
+        news: [
+          { title: 'Nýr skólastjóri ráðinn í Þjórsárskóla', url: 'https://www.skeidgnup.is/is/moya/news/nyr-skolastjori-radinn-i-thjorsarskola', source: 'skeidgnup.is' },
+          { title: 'Guðmundur leiðir nýtt framboð í GOGG', url: 'https://www.sunnlenska.is/frettir/gudmundur-leidir-nytt-frambod-i-gogg/', source: 'sunnlenska.is' },],
       }],
       [2, 'Rebekka Lind Guðmundsdóttir', 'Umsjónarkennari', null, { age: null, bio: 'Rebekka Lind Guðmundsdóttir er kennari á Kerhólsskóla og fulltrúi starfsmanna skólans. Hún er í 2. sæti á GGA-lista í Grímsnes- og Grafningshreppi.', interests: null, social: null, news: [] }],
       [3, 'Bergur Guðmundsson', 'Þjónustumaður DeLaval'],
@@ -7043,7 +7113,8 @@ const GGR = {
         heimild: [{ url: 'https://www.kerholsskoli.is/copy-of-rad-og-nefndir', label: 'kerholsskoli.is – ráð og nefndir' }],
         interests: null,
         social: null,
-        news: [],
+        news: [
+          { title: 'Framboðið snúist ekki um lögheimilisskráningar', url: 'https://www.dv.is/frettir/2026/4/29/frambodid-snuist-ekki-um-logheimilisskraningar-thad-thurfa-allir-ad-vera-med-rodd-til-ad-geta-baett-og-lagad-sveitarfelagid/', source: 'dv.is' },],
       }],
       [2, 'Ragna Ívarsdóttir', 'Athafnakona', null, { age: null, bio: 'Ragna Ívarsdóttir er kaupsýslumaður og er í 2. sæti á GGO-lista „Betri sveitar" í Grímsnes- og Grafningshreppi í sveitarstjórnarkosningum 2026.', interests: null, social: null, news: [] }],
       [3, 'Friðrik Guðmundsson', 'Aðstoðar vallarstjóri'],
@@ -7102,7 +7173,10 @@ const SGN = {
         bio: null,
         interests: null,
         social: null,
-        news: [],
+        news: [
+          { title: 'Haraldur Þór réttir Sylvíu Karen keflið', url: 'https://www.mbl.is/frettir/innlent/2024/05/23/haraldur_thor_rettir_sylviu_karen_keflid/', source: 'mbl.is' },
+          { title: 'Fjallaböðin í Þjórsárdal verða að veruleika', url: 'https://www.dfs.is/2022/11/04/fjallabodin-i-thjorsardal-verda-ad-veruleika/', source: 'dfs.is' },
+          { title: 'Óvæntar vinsældir í netheimum', url: 'https://www.mbl.is/frettir/innlent/2026/03/01/ovaentar_vinsaeldir_i_netheimum/', source: 'mbl.is' },],
       }],
       [2, 'Vilborg M. Ástráðsdóttir', 'Listakennari', null, { age: null, bio: null, interests: null, social: null, news: [] }],
       [3, 'Harpa Dís Harðardóttir', 'Skógræktarráðgjafi'],
@@ -7135,7 +7209,8 @@ const DVB = {
         heimild: [{ url: 'https://kosningasaga.wordpress.com/2026/04/13/frambodslisti-byggdalistans-i-dalvikurbyggd/', label: 'Kosningasaga – Framboðslisti Byggðalistans í Dalvíkurbyggð (2. sæti)' }],
         interests: null,
         social: null,
-        news: [{ title: 'Monika leiðir lista Framsóknar og óháðra í Dalvíkurbyggð', url: 'https://kaffid.is/monika-leidir-lista-framsoknar-og-ohadra-i-dalvikurbyggd/', source: 'kaffid.is' }],
+        news: [{ title: 'Monika leiðir lista Framsóknar og óháðra í Dalvíkurbyggð', url: 'https://kaffid.is/monika-leidir-lista-framsoknar-og-ohadra-i-dalvikurbyggd/', source: 'kaffid.is' },
+          { title: 'Listi Framsóknar og óháðra í Dalvíkurbyggð kynntur', url: 'https://www.mbl.is/frettir/innlent/2026/04/12/listi_framsoknar_og_ohadra_i_dalvikurbyggd_kynntur/', source: 'mbl.is' },],
       }],
       [2, 'María Björk Stefánsdóttir', 'Sjúkraliði', 'https://framerusercontent.com/images/BqnablEYs6vBqW8GEH2rQ0vxQE.jpg', {
         age: null,
@@ -7251,7 +7326,10 @@ const EJA = {
         heimild: [{ url: 'https://kosningasaga.wordpress.com/2026/04/11/frambodslisti-k-lista-dalvikurbyggdar/', label: 'Kosningasaga – Framboðslisti K-lista Dalvíkurbyggðar (2. sæti, kennari)' }, { url: 'http://hedinsfjordur.is/k-listinn-er-nytt-ohad-frambod-i-dalvikurbyggd/', label: 'Héðinsfjörður – K-listinn er nýtt óháð framboð í Dalvíkurbyggð' }],
         interests: null,
         social: null,
-        news: [{ title: 'Tvö framboð í Eyjafjarðarsveit', url: 'https://kaffid.is/tvo-frambod-i-eyjafjardarsveit/', source: 'kaffid.is' }],
+        news: [{ title: 'Tvö framboð í Eyjafjarðarsveit', url: 'https://kaffid.is/tvo-frambod-i-eyjafjardarsveit/', source: 'kaffid.is' },
+          { title: 'Bóndinn á Klauf með allt að 8 tonn af byggi á hektara', url: 'https://www.bbl.is/lif-og-starf/lif-og-starf/bondinn-a-klauf-med-allt-ad-8-tonn-af-byggi-a-hektara', source: 'bbl.is' },
+          { title: 'Komin mikil uppgjöf hjá bændum', url: 'https://www.mbl.is/frettir/innlent/2023/10/20/komin_mikil_uppgjof_hja_baendum/', source: 'mbl.is' },
+          { title: 'It\'s fun to be a farmer these days', url: 'https://www.ruv.is/frett/2021/08/27/its-fun-to-be-a-farmer-these-days', source: 'ruv.is' },],
       }],
       [2, 'Berglind Kristinsdóttir', 'Bóndi og umönnunarstarfsmaður', 'images/candidates/dad09974bb2c4556.jpg', { age: null, bio: 'Berglind Kristinsdóttir er bóndi og umönnunarfólk frá Hrafnagili sem skipar 2. sæti á F-listanum í Eyjafjarðarsveit 2026. Hún er hluti af fjölbreyttum lista sem leggur áherslu á landbúnað og sveitasamfélagið.', interests: null, social: null, news: [] }],
       [3, 'Gestur Júlíusson', 'Dýralæknir'],
@@ -7475,6 +7553,7 @@ const HNB = {
         social: null,
         news: [
           { title: 'Sjálfstæðismenn og óháðir samþykkja framboðslista', url: 'https://huni.is/index.php?cid=22686&pid=32', source: 'huni.is' },
+          { title: 'Auðveldar okkur vinnuna, segir Guðmundur Haukur um kaup ríkisins á stjórnsýsluhúsnæði Blönduósbæjar', url: 'https://www.feykir.is/is/frettir/audveldar-okkur-vinnuna-segir-gudmundur-haukur-um-kaup-rikisins-a-stjornsysluhusnaedi-blonduosbaejar-1', source: 'feykir.is' },
         ],
       }],
       [2, 'Zophonías Ari Lárusson', 'Framkvæmdastjóri og húsasmíðameistari', 'images/candidates/02e79effa3397748.jpg', { age: null, bio: null, interests: null, social: null, news: [] }],
@@ -7515,7 +7594,10 @@ const HNT = {
         bio: null,
         interests: null,
         social: null,
-        news: [{ title: 'Sigurður Líndal kveður Selasetur Íslands', url: 'https://trolli.is/sigurdur-lindal-kvedur-selasetur-islands/', source: 'trolli.is' }],
+        news: [{ title: 'Sigurður Líndal kveður Selasetur Íslands', url: 'https://trolli.is/sigurdur-lindal-kvedur-selasetur-islands/', source: 'trolli.is' },
+          { title: 'Sigurður Líndal ráðinn verkefnastjóri Vestfjarðastofu', url: 'https://www.feykir.is/is/frettir/sigurdur-lindal-radinn-verkefnastjori-vestfjardastofu', source: 'feykir.is' },
+          { title: 'Sigurður Líndal í stjórn Markaðsstofu Norðurlands', url: 'https://www.feykir.is/is/frettir/sigurdur-lindal-i-stjorn-markadsstofu-nordurlands', source: 'feykir.is' },
+          { title: 'Ragnhildur og Sigurður ráðin til Eims', url: 'https://www.ssnv.is/is/moya/news/ragnhildur-og-sigurdur-radin-til-eims', source: 'ssnv.is' },],
       }],
       [2, 'Nína Axelsdóttir', 'Tónlistarkennari og bóndi', null, { age: null, bio: null, interests: null, social: null, news: [] }],
       [3, 'Dagrún Kristinsdóttir', 'Bóndi og löggiltir bókari'],
@@ -7987,6 +8069,8 @@ const FJD = {
           { title: 'Fjárfestum í verðmætasköpun', url: 'https://www.visir.is/g/20262864094d/fjarfestum-i-verdmaetaskopun', source: 'visir.is' },
           { title: 'Stjórnsýsla Fjarðabyggðar tekin út', url: 'https://www.mbl.is/frettir/innlent/2023/03/16/stjornsysla_fjardabyggdar_tekin_ut/', source: 'mbl.is' },
           { title: 'Fjarðabyggð bregst við verðbólgu með lækkun gjaldskráa', url: 'https://www.mbl.is/frettir/innlent/2026/04/13/fjardabyggd_bregst_vid_verdbolgu_med_laekkun_gjalds/', source: 'mbl.is' },
+          { title: 'Tvöfalda framlögin eftir áföll síðustu ára', url: 'https://www.mbl.is/frettir/innlent/2025/09/03/tvofalda_framlogin_eftir_afoll_sidustu_ara/', source: 'mbl.is' },
+          { title: 'Ragnar Sigurðsson ráðinn framkvæmdastjóri hjúkrunarheimilanna í Fjarðabyggð', url: 'https://www.fjardabyggd.is/frettir/ragnar-sigurdsson-radinn-framkvaemdastjori-hjukrunarheimilanna-i-fjardabyggd', source: 'fjardabyggd.is' },
         ],
       }],
       [2, 'Kristinn Þór Jónasson', 'Þjónststjóri', 'images/candidates/7266a4cb993ce8ab.jpg', {
@@ -8140,6 +8224,9 @@ const FJD = {
           { title: 'Jöfnuður, ábyrgð og uppbygging', url: 'https://www.visir.is/g/20262872627d/jofnudur-abyrgd-og-uppbygging', source: 'visir.is' },
           { title: 'Viðsnúningur í rekstri, hver borgar?', url: 'https://www.visir.is/g/20262869705d/vidsnuningur-i-rekstri-hver-borgar-', source: 'visir.is' },
           { title: 'Fjarðalistinn býður ekki fram í Fjarðabyggð', url: 'https://www.ruv.is/frettir/innlent/2026-02-28-fjardalistinn-bydur-ekki-fram-i-fjardabyggd-468252', source: 'ruv.is' },
+          { title: 'Gerir ráð fyrir að fundað verði um vatnsmálið', url: 'https://www.mbl.is/frettir/innlent/2025/08/06/gerir_rad_fyrir_ad_fundad_verdi_um_vatnsmalid/', source: 'mbl.is' },
+          { title: 'Finna fyrir ónotum við tilhugsunina', url: 'https://www.mbl.is/frettir/innlent/2025/09/12/finna_fyrir_onotum_vid_tilhugsunina/', source: 'mbl.is' },
+          { title: 'Doktorsvörn í matvælafræði - Stefán Þór Eysteinsson', url: 'https://www.hi.is/vidburdir/doktorsvorn_i_matvaelafraedi_stefan_thor_eysteinsson', source: 'hi.is' },
         ],
       }],
       [2, 'Hjördís Helga Seljan', 'Kennslufræðilegur ráðgjafi', null, {
@@ -8218,7 +8305,8 @@ const HFJ = {
         heimild: [{ url: 'https://is.wikipedia.org/wiki/Hjalti_%C3%9E%C3%B3r_Vignisson', label: 'Wikipedia (is)' }, { url: 'https://www.linkedin.com/in/hjalti-vignisson-439b14122/', label: 'LinkedIn' }],
         interests: ['Uppbygging atvinnulífs á Hornafirði', 'Ferðaþjónusta og náttúruvernd', 'Sjávarútvegur og matvælaframleiðsla', 'Sveitarstjórnarmál'],
         social: [{ type: 'linkedin', url: 'https://www.linkedin.com/in/hjalti-vignisson-439b14122/', label: 'LinkedIn' }],
-        news: [{ title: 'Framboðslisti Framsóknar og stuðningsmanna í Sveitarfélaginu Hornafirði', url: 'https://kosningasaga.wordpress.com/2026/02/27/frambodslisti-framsoknar-og-studningsmanna-i-sveitarfelaginu-hornafirdi/', source: 'kosningasaga' }],
+        news: [{ title: 'Framboðslisti Framsóknar og stuðningsmanna í Sveitarfélaginu Hornafirði', url: 'https://kosningasaga.wordpress.com/2026/02/27/frambodslisti-framsoknar-og-studningsmanna-i-sveitarfelaginu-hornafirdi/', source: 'kosningasaga' },
+          { title: '„Fátt sem slær út góðan vel gerðan borgara“', url: 'https://www.mbl.is/smartland/frettir/2021/07/21/fatt_sem_slaer_ut_godan_vel_gerdan_borgara/', source: 'mbl.is' },],
       }],
       [2, 'Ingibjörg Sveinsdóttir', 'Atvinnurekandi og grunnskólakennari', 'https://framerusercontent.com/images/eLpBjQ6D50wt44gShC6LNqDWzg.jpg', { age: null, bio: null, interests: null, social: null, news: [{ title: 'Framboðslisti Framsóknar og stuðningsmanna í Sveitarfélaginu Hornafirði', url: 'https://kosningasaga.wordpress.com/2026/02/27/frambodslisti-framsoknar-og-studningsmanna-i-sveitarfelaginu-hornafirdi/', source: 'kosningasaga' }] }],
       [3, 'Björgvin Óskar Sigurjónsson', 'Byggingatæknifræðingur og bæjarfulltrúi', 'https://framerusercontent.com/images/K5vdMvydWR07XWgnk1H0eHWvIro.jpg', { age: null, bio: null, interests: null, social: null, news: [{ title: 'Framboðslisti Framsóknar og stuðningsmanna í Sveitarfélaginu Hornafirði', url: 'https://kosningasaga.wordpress.com/2026/02/27/frambodslisti-framsoknar-og-studningsmanna-i-sveitarfelaginu-hornafirdi/', source: 'kosningasaga' }] }],
@@ -8770,6 +8858,7 @@ const BBD = {
         news: [
           { title: 'Yfirgaf Sjálfstæðisflokkinn og leiðir Miðflokkinn í Borgarbyggð', url: 'https://www.visir.is/g/20262864285d/yfirgaf-sjalfstaedisflokkinn-og-leidir-midflokkinn-i-borgarbyggd', source: 'visir.is' },
           { title: 'Miðflokkurinn kynnti framboðslista sinn í Borgarbyggð', url: 'https://skessuhorn.is/2026/04/11/midflokkurinn-kynnti-frambodslista-sinn-i-borgarbyggd', source: 'skessuhorn.is' },
+          { title: 'Haukur Þór Hauksson – Félag atvinnurekenda', url: 'https://atvinnurekendur.is/formenn/haukur-thor/', source: 'atvinnurekendur.is' },
         ],
       }],
       [2, 'Þórður Brynjársson', 'Verkamaður', 'images/candidates/d8b14c226a2012f1.jpg', { age: null, bio: 'Þórður Brynjarsson er verkamaður; hann er á 2. sæti á framboðslista Miðflokksins í Borgarbyggð í sveitarstjórnarkosningum 2026.', interests: null, social: null, news: [{ title: 'Miðflokkurinn kynnti framboðslista sinn í Borgarbyggð', url: 'https://skessuhorn.is/2026/04/11/midflokkurinn-kynnti-frambodslista-sinn-i-borgarbyggd', source: 'skessuhorn.is' }] }],
@@ -8839,6 +8928,7 @@ const ISF = {
         news: [
           { title: 'Listi Framsóknar í Ísafjarðarbæ samþykktur', url: 'https://framsokn.is/nyjast/frettir/listi-framsoknar-framsoknar-i-isafjardarbae-samthykktur/', source: 'framsokn.is' },
           { title: '„Skellur fyrir allt samfélagið"', url: 'https://www.mbl.is/frettir/innlent/2025/03/04/skellur_fyrir_allt_samfelagid/', source: 'mbl.is' },
+          { title: 'Viðtalið: Kristján Þór Kristjánsson', url: 'https://www.bb.is/2024/05/vidtalid-kristjan-thor-kristjansson/', source: 'bb.is' },
         ],
       }],
       [2, 'Elísabet Samúelsdóttir', 'Fjármálastjóri', 'https://framerusercontent.com/images/hG1gK4yzikXx1eD525AXO5HuoM.jpg', { age: null, bio: 'Elísabet Samúelsdóttir er fjármálastjóri og er á 2. sæti á B-lista Framsóknar og óháðra í Ísafjarðarbæ í sveitarstjórnarkosningum 2026.', interests: null, social: null, news: [] }],
@@ -8883,6 +8973,8 @@ const ISF = {
           { title: 'Ísafjarðarbær: Viðreisn býður fram undir eigin merkjum', url: 'https://bb.is/2026/02/isafjardarbaer-vidreisn-bydur-fram-undir-eigin-merkjum/', source: 'bb.is' },
           { title: 'Viðreisn með opinn fund um lagareldi', url: 'https://bb.is/2026/02/vidreisn-med-opinn-fund-um-lagareldi/', source: 'bb.is' },
           { title: 'Gylfi leiðir Í-listann á Ísafirði', url: 'https://www.ruv.is/frettir/innlent/2022-03-29-gylfi-olafsson-leidir-i-listann-a-isafirdi', source: 'ruv.is' },
+          { title: 'Gylfi Ólafsson nýr forstjóri Heilbrigðisstofnunar Vestfjarða', url: 'https://www.visir.is/g/2018180629596', source: 'visir.is' },
+          { title: 'Gylfi ráðinn aðstoðarmaður Benedikts', url: 'https://skessuhorn.is/2016/11/02/gylfi-radinn-adstodarmadur-benedikts', source: 'skessuhorn.is' },
         ],
       }],
       [2, 'Sif Huld Albertsdóttir', 'Aðstoðarframkvæmdastjóri hjá Sjótækni', 'images/candidates/5fa1ca1ac95adb01.jpg', { age: null, bio: 'Sif Huld Albertsdóttir er aðstoðarframkvæmdastjóri hjá Sjótækni og er í öðru sæti C-lista Viðreisnar í Ísafjarðarbæ. Hún leggur áherslu á nýsköpun, gagnsæi og eflingu atvinnulífs á Vestfjörðum.', interests: ['Atvinnulíf og stjórnun', 'Nýsköpun', 'Gagnsæi og gagnastýrð stefnumörkun', 'Þróun Vestfjarða'], social: null, news: [] }],
@@ -9488,6 +9580,20 @@ const MUT = {
         news: [
           { title: 'Jónína mun leiða lista Framsóknar í Múlaþingi', url: 'https://www.mbl.is/frettir/innlent/2025/12/18/jonina_mun_leida_lista_framsoknar_i_mulathingi/', source: 'mbl.is' },
           { title: 'Við stöndum vörð um Múlaþing', url: 'https://austurfrett.is/umraedan/vidh-stoendum-voerdh-um-mulathing', source: 'austurfrett.is' },
+          { title: 'Segir skipun samgönguráðs lykta af kjördæmapoti', url: 'https://www.mbl.is/frettir/innlent/2025/08/30/segir_skipun_samgongurads_lykta_af_kjordaemapoti/', source: 'mbl.is' },
+          { title: 'Þungi á fundi þingmanna og sveitarstjórnarfólks', url: 'https://www.mbl.is/frettir/innlent/2025/12/09/thungi_a_fundi_thingmanna_og_sveitarstjornarfolks/', source: 'mbl.is' },
+          { title: '„Það er bara dýrara að halda árshátíð úti á landi"', url: 'https://www.mbl.is/frettir/innlent/2024/04/16/thad_er_bara_dyrara_ad_halda_arshatid_uti_a_landi/', source: 'mbl.is' },
+          { title: 'Vikuviðtalið: Þórkatla Soffía Ólafsdóttir', url: 'https://bb.is/2026/04/vikuvidtalid-thorkatla-soffia-olafsdottir/', source: 'bb.is' },
+          { title: 'Vikuviðtalið: Hlynur Ársælsson', url: 'https://bb.is/2026/04/vikuvidtalid-hlynur-arsaelsson/', source: 'bb.is' },
+          { title: 'Vikuviðtalið: Guðfinnur Ragnar Jóhannsson', url: 'https://bb.is/2026/04/vikuvidtalid-gudfinnur-ragnar-johannsson/', source: 'bb.is' },
+          { title: 'Höfnin er lífæð bæjarfélagsins', url: 'https://www.mbl.is/frettir/innlent/2026/04/27/hofnin_er_lifaed_baejarfelagsins/', source: 'mbl.is' },
+          { title: 'Vikuviðtalið: Kristján Jón Guðmundsson', url: 'https://bb.is/2026/04/vikuvidtalid-kristjan-jon-gudmundsson/', source: 'bb.is' },
+          { title: 'Strandabyggð: 240 m.kr. í viðgerðir á grunnskólanum á Hólmavík', url: 'https://www.bb.is/2024/05/strandabyggd-240-m-kr-i-vidgerdir-a-grunnskolanum-a-holmavik/', source: 'bb.is' },
+          { title: 'Strandabyggð: hótelbygging í undirbúningi', url: 'https://www.bb.is/2025/01/strandabyggd-hotelbygging-i-undirbuningi/', source: 'bb.is' },
+          { title: 'Strandabyggð: fyrrv. sveitarstjóri segir ummæli núverandi sveitarstjóra villandi, röng og særandi', url: 'https://www.bb.is/2024/10/strandabyggd-fyrrv-sveitarstjori-segir-ummaeli-nuverandi-sveitarstjora-villandi-rong-og-saerandi/', source: 'bb.is' },
+          { title: 'Árný Huld íbúi ársins', url: 'https://www.reykholar.is/is/frettir/arny-huld-ibui-arsins', source: 'reykholar.is' },
+          { title: 'Árný Huld ætlar að reka verslun og veitingasölu á Reykhólum', url: 'https://bb.is/2024/09/arny-huld-aetlar-ad-reka-verslun-og-veitingasolu-a-reykholum/', source: 'bb.is' },
+          { title: 'Verslunarrekstur aftur á Reykhólum', url: 'https://www.mbl.is/frettir/innlent/2024/11/25/verslunarrekstur_aftur_a_reykholum/', source: 'mbl.is' },
         ],
       }],
       [2, 'Eiður Ragnarsson', 'Ferðaþjónustubóndi', null, {
@@ -9547,6 +9653,7 @@ const MUT = {
         news: [
           { title: 'Berglind Harpa áfram oddviti í Múlaþingi', url: 'https://xd.is/2026/02/28/berglind-harpa-afram-oddviti-i-mulathingi-thorhildur-katrin-i-2-saeti/', source: 'xd.is' },
           { title: 'Berglind Harpa býður sig fram til að leiða Sjálfstæðisflokkinn áfram', url: 'https://austurfrett.is/frettir/berglind-harpa-bydhur-sig-fram-til-adh-leidha-sjalfstaedhisflokkinn-afram', source: 'austurfrett.is' },
+          { title: 'Heilsugæslur illa tækjum búnar', url: 'https://www.mbl.is/frettir/kosning/2022/03/11/heilsugaeslur_illa_taekjum_bunar/', source: 'mbl.is' },
         ],
       }],
       [2, 'Þórhildur Katrín Stefánsdóttir', 'Lögfræðingur, varaformaður Landssambands hestamannafélaga', 'images/candidates/8df48a612a64519e.jpg', {
@@ -9660,6 +9767,8 @@ const MUT = {
         news: [
           { title: 'Framboðslisti VG og óháðra í Múlaþingi', url: 'https://kosningasaga.wordpress.com/2026/03/27/frambodslisti-vg-og-ohadra-i-mulathingi/', source: 'kosningasaga' },
           { title: 'Ásrún Mjöll nýr oddviti VG í Múlaþingi', url: 'https://austurfrett.is/frettir/asrun-mjoell-nyr-oddviti-vg-i-mulathingi', source: 'austurfrett.is' },
+          { title: 'Innviðaráðuneytið staðfestir vanhæfi Ásrúnar Mjallar', url: 'https://www.austurfrett.is/frettir/innvidharadhuneytidh-stadhfestir-vanhaefi-asrunar-mjallar', source: 'austurfrett.is' },
+          { title: 'Blekkingarleikur á kostnað náttúrunnar', url: 'https://www.visir.is/g/20222253442d/blekkingar-leikur-a-kostnad-natturunnar', source: 'visir.is' },
         ],
       }],
       [2, 'Helgi Hlynur Ásgrímssson', 'Útvegsbóndi og sveitarstjórnarfulltrúi', null, {
@@ -9719,6 +9828,7 @@ const MUT = {
         news: [
           { title: 'Hólmfríður Rut oddviti Viðreisnar í Múlaþingi', url: 'https://www.ruv.is/frettir/innlent/2026-03-04-holmfridur-rut-oddviti-vidreisnar-i-mulathingi-468712', source: 'ruv.is' },
           { title: 'Austurlistinn og Viðreisn í Múlaþingi sameinast', url: 'https://kosningasaga.wordpress.com/2026/03/28/austurlistinn-og-vidreisn-i-mulathingi-sameinast/', source: 'kosningasaga' },
+          { title: 'Erum við að missa sjónar á því sem stendur okkur næst?', url: 'https://www.visir.is/g/20262871254d/erum-vid-ad-missa-sjonar-a-thvi-sem-stendur-okkur-naest-', source: 'visir.is' },
         ],
       }],
       [2, 'Eyþór Stefánsson', 'Sveitarstjórnarfulltrúi', null, {
@@ -9875,7 +9985,18 @@ const HVF = {
         { icon: '🏠', title: 'Húsnæðismál ungs fólks', text: 'Leiðrétta ósanngirni í húsnæðismálum ungs fólks svo fleiri geti sett upp heimili í sveitarfélaginu.' },
     ],
     list: [
-      [1, 'Haraldur Benediktsson', 'Frambjóðandi'],
+      [1, 'Haraldur Benediktsson', 'Frambjóðandi', null, {
+        age: null,
+        bio: null,
+        heimild: [],
+        interests: [],
+        social: [],
+        news: [
+          { title: '„Ég er háður góðu útsýni og víðáttu“', url: 'https://www.mbl.is/smartland/heimili/2021/04/17/eg_er_hadur_godu_utsyni_og_vidattu/', source: 'mbl.is' },
+          { title: 'Haraldur slær til og þiggur annað sætið', url: 'https://skessuhorn.is/2021/06/25/haraldur-slaer-til-og-thiggur-annad-saetid', source: 'skessuhorn.is' },
+          { title: 'Haraldur Benediktsson alþm hefur verið ráðinn bæjarstjóri Akraneskaupstaðar', url: 'https://bb.is/2023/03/haraldur-benediktsson-althm-hefur-verid-radinn-baejarstjori-akraneskaupstadar/', source: 'bb.is' },
+        ],
+      }],
       [2, 'Guðrún Sigríður Gísladóttir', 'Frambjóðandi'],
       [3, 'Guðbjartur Þór Stefánsson', 'Frambjóðandi'],
       [4, 'Einar Þórarinsson', 'Frambjóðandi'],
@@ -9931,7 +10052,16 @@ const SNF = {
       { icon: '🌿', title: 'Umhverfismál', text: 'Sjálfbær þróun og vernd náttúru Snæfellsness.' },
     ],
     list: [
-      [1, 'Auður Kjartansdóttir', 'Fjármálastjóri'],
+      [1, 'Auður Kjartansdóttir', 'Fjármálastjóri', null, {
+        age: null,
+        bio: null,
+        heimild: [],
+        interests: [],
+        social: [],
+        news: [
+          { title: 'Gefur kost á sér í 3. sæti', url: 'https://www.mbl.is/frettir/innlent/2024/10/17/gefur_kost_a_ser_i_3_saeti/', source: 'mbl.is' },
+        ],
+      }],
       [2, 'Eiríkur Böðvar Rúnarsson', 'Véltæknifræðingur'],
       [3, 'Jón Bjarki Jónatansson', 'Sjómaður'],
       [4, 'Júníana Björg Óttarsdóttir', 'Atvinnurekandi'],
@@ -10045,7 +10175,17 @@ const VPF = {
       { icon: '🏠', title: 'Þjónusta við íbúa', text: 'Tryggja góða grunnþjónustu og nægilegt húsnæði fyrir alla íbúa.' },
     ],
     list: [
-      [1, 'Íris Edda Jónsdóttir', 'Frambjóðandi'],
+      [1, 'Íris Edda Jónsdóttir', 'Frambjóðandi', null, {
+        age: null,
+        bio: null,
+        heimild: [],
+        interests: [],
+        social: [],
+        news: [
+          { title: 'Tilkynnti um framboð mánuði eftir ráðningu', url: 'https://www.mbl.is/frettir/innlent/2026/03/16/tilkynnti_um_frambod_manudi_eftir_radningu/', source: 'mbl.is' },
+          { title: 'Sjálfkjörið á Vopnafirði', url: 'https://austurfrett.is/frettir/sjalfkjoeridh-a-vopnafirdhi', source: 'austurfrett.is' },
+        ],
+      }],
       [2, 'Stefán Guðnason', 'Frambjóðandi'],
       [3, 'Magnús Þór Róbertsson', 'Frambjóðandi'],
       [4, 'Eyrún Guðbergsdóttir', 'Frambjóðandi'],
