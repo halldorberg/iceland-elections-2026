@@ -149,9 +149,37 @@ def apply_photos(src: str, results: list[dict], dry_run: bool) -> tuple[str, int
 
 # ── Policy applier ────────────────────────────────────────────────────────────
 
+def _muni_const_range(src: str, muni_slug: str):
+    """Return (start, end) byte positions of the `const <CONST_ID> = {...};`
+    block whose REAL_DATA mapping says it belongs to muni_slug. Returns
+    (None, None) if not found."""
+    real_data = re.search(r"const REAL_DATA\s*=\s*\{(.*?)\};", src, re.DOTALL)
+    if not real_data:
+        return None, None
+    slug_to_const = {}
+    for m in re.finditer(r"(\w+)\s*:\s*([A-Z_]+)\s*,", real_data.group(1)):
+        slug_to_const[m.group(1)] = m.group(2)
+    const_id = slug_to_const.get(muni_slug)
+    if not const_id:
+        return None, None
+    open_re = re.compile(r"^const " + re.escape(const_id) + r"\s*=\s*\{", re.MULTILINE)
+    om = open_re.search(src)
+    if not om:
+        return None, None
+    # The const block ends at the next `\n};` after a top-level closing brace.
+    # All munis use this exact form — `const X = { ... \n};` with no nested
+    # const declarations. Search for next `\n};` after open.
+    end_idx = src.find("\n};", om.end())
+    if end_idx == -1:
+        return None, None
+    return om.start(), end_idx + 3
+
+
 def apply_policy(src: str, results: list[dict], dry_run: bool) -> tuple[str, int]:
     """
     For each result entry, add/replace platformUrl and update agenda items.
+    Scoped to the municipality's const block — same party_code can appear in
+    many munis, so we never search globally.
     """
     changed = 0
     for entry in results:
@@ -165,26 +193,45 @@ def apply_policy(src: str, results: list[dict], dry_run: bool) -> tuple[str, int
             print(f"  ⚠ {muni_slug}.{party_code}: no platform_url, skipping")
             continue
 
-        # Find the party block: look for the party code inside its municipality const
-        # This is complex — we find the party's tagline and insert platformUrl after it
-        tagline_escaped = re.escape(escape_js(tagline)) if tagline else None
+        # Locate the muni's const block first so we never match a same-coded
+        # party in another municipality.
+        muni_start, muni_end = _muni_const_range(src, muni_slug)
+        if muni_start is None:
+            print(f"  ⚠ Could not find const block for muni: {muni_slug}")
+            continue
 
-        # Strategy: find  PARTYCODE: {  then the tagline:  line  then insert platformUrl:
-        party_block_re = re.compile(
-            r"(  " + re.escape(party_code) + r"\s*:\s*\{[^}]*?"
-            r"tagline\s*:\s*'(?:[^'\\]|\\.)*',?)",
-            re.DOTALL
+        # Within that const block, find the party's `<code>: {` opening.
+        # Party openings sit at column 2, e.g. "  M: {".
+        party_open_re = re.compile(
+            r"\n  " + re.escape(party_code) + r"\s*:\s*\{"
         )
-        m = party_block_re.search(src)
-        if not m:
+        po = party_open_re.search(src, muni_start, muni_end)
+        if not po:
             print(f"  ⚠ Could not find party block for {muni_slug}.{party_code}")
             continue
 
-        # Check if platformUrl already exists in this block
-        block_end = src.find("\n  }", m.start())
+        # Then find the tagline inside that party block.
+        tagline_re = re.compile(
+            r"tagline\s*:\s*'(?:[^'\\]|\\.)*',?"
+        )
+        tag_m = tagline_re.search(src, po.end(), muni_end)
+        if not tag_m:
+            print(f"  ⚠ {muni_slug}.{party_code}: party block has no tagline")
+            continue
+
+        # Build a synthetic match-equivalent: m.start() = po.start, span ends at tag_m.end()
+        class _M:
+            pass
+        m = _M()
+        m.start = lambda: po.start()  # type: ignore
+        m.end   = lambda: tag_m.end()  # type: ignore
+
+        # Block end is the next "\n  }" after the party opening, but constrained
+        # to the muni's const range.
+        block_end = src.find("\n  }", po.start(), muni_end)
         if block_end == -1:
-            block_end = m.start() + 2000  # safety
-        block = src[m.start():block_end]
+            block_end = po.start() + 2000  # safety
+        block = src[po.start():block_end]
 
         url_escaped = escape_js(platform_url)
         new_url_line = f"\n    platformUrl: '{url_escaped}',"
