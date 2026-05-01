@@ -113,36 +113,70 @@ def apply_news(src: str, results: list[dict], dry_run: bool) -> tuple[str, int]:
 
 def apply_photos(src: str, results: list[dict], dry_run: bool) -> tuple[str, int]:
     """
-    For each result entry, replace null (or absent) photo URL with the provided one.
-    Assumes photos have been downloaded to images/candidates/ already.
+    For each result entry, set/replace the photo URL on the candidate row.
+    Scoped to the muni's const block so a same-name candidate in another muni
+    isn't accidentally targeted.
+    Photos are assumed already downloaded to images/candidates/.
     """
     changed = 0
     for entry in results:
         name        = entry["name"]
         photo_local = entry.get("photo_local", "")
+        muni_slug   = entry.get("muni_slug")
         if not photo_local:
             print(f"  ⚠ {name}: no photo_local path in result entry, skipping")
             continue
 
+        # Scope to muni's const block.
+        search_start, search_end = 0, len(src)
+        if muni_slug:
+            ms, me = _muni_const_range(src, muni_slug)
+            if ms is not None:
+                search_start, search_end = ms, me
+
         name_escaped = re.escape(escape_js(name))
-        # Pattern A: [ballot, 'name', 'occ', null, {  →  [ballot, 'name', 'occ', 'images/...', {
+        # Pattern A: [N, 'name', 'occ', null, {     → [N, 'name', 'occ', 'images/...', {
         pattern_null = (
             r"(\[\d+\s*,\s*'" + name_escaped + r"'\s*,\s*'[^']*?'\s*,\s*)null(\s*,\s*\{)"
         )
-        # Pattern B: [ballot, 'name', 'occ']  →  [ballot, 'name', 'occ', 'images/...']  (no extended data)
-        # (less common, skip for now — these would need a full block addition)
+        # Pattern B: [N, 'name', 'occ', '<any url>', {  → replace existing photo
+        # Matches both local (images/...) and external (https://framerusercontent.com/...) URLs.
+        pattern_existing = (
+            r"(\[\d+\s*,\s*'" + name_escaped + r"'\s*,\s*'[^']*?'\s*,\s*)'(?:[^'\\]|\\.)*?'(\s*,\s*\{)"
+        )
+        # Pattern C: [N, 'name', 'occ'],  (plain row — no extended data; extend the row)
+        pattern_plain = (
+            r"(\[\d+\s*,\s*'" + name_escaped + r"'\s*,\s*'[^']*?')(\])"
+        )
 
-        m = re.search(pattern_null, src)
+        m = re.compile(pattern_null).search(src, search_start, search_end)
+        action = ""
         if m:
             replacement = m.group(1) + f"'{photo_local}'" + m.group(2)
-            if dry_run:
-                print(f"  [DRY RUN] {name}: would set photo → {photo_local}")
-            else:
-                src = src[:m.start()] + replacement + src[m.end():]
-                print(f"  ✓ {name}: photo set → {photo_local}")
-                changed += 1
+            action = "set (was null)"
         else:
-            print(f"  ⚠ Could not find null-photo pattern for: {name}")
+            m = re.compile(pattern_existing).search(src, search_start, search_end)
+            if m:
+                replacement = m.group(1) + f"'{photo_local}'" + m.group(2)
+                action = "replaced existing"
+            else:
+                m = re.compile(pattern_plain).search(src, search_start, search_end)
+                if m:
+                    # extend a plain row: add , 'images/...' before the closing ]
+                    replacement = m.group(1) + f", '{photo_local}'" + m.group(2)
+                    action = "extended plain row"
+
+        if not m:
+            where = f" in {muni_slug}" if muni_slug else ""
+            print(f"  ⚠ Could not find candidate row for: {name}{where}")
+            continue
+
+        if dry_run:
+            print(f"  [DRY RUN] {name}: would {action} → {photo_local}")
+        else:
+            src = src[:m.start()] + replacement + src[m.end():]
+            print(f"  ✓ {name}: {action} → {photo_local}")
+            changed += 1
 
     return src, changed
 
