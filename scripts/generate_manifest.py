@@ -144,6 +144,7 @@ def parse_candidates_js(path: Path):
     current_tagline  = ""
     brace_depth      = 0      # depth since party block opened
     list_brace_depth = 0      # depth when 'list: [' was encountered
+    list_indent      = -1     # column of the opening 'list: [' line; only ']' at this indent ends the list
 
     # Regex patterns
     re_const_start   = re.compile(r"^const ([A-Z][A-Z0-9_]+)\s*=\s*\{")
@@ -209,13 +210,15 @@ def parse_candidates_js(path: Path):
         if current_party and not in_list and re_list_start.search(line):
             in_list          = True
             list_brace_depth = 0
+            list_indent      = len(line) - len(line.lstrip(" "))
             continue
 
         # Inside list: parse candidate rows
         if in_list:
-            # End of list — watch for closing ] at the same indent level
-            # We detect end-of-list by seeing '],\n  },' pattern OR '    ],\n'
-            if stripped in ("],", "]") and line.startswith("    "):
+            # End of list — closing ']' must be at exactly the same indent as 'list: ['.
+            # Inner brackets (social: [], news: [], candidate-row [...]) are deeper.
+            this_indent = len(line) - len(line.lstrip(" "))
+            if stripped in ("],", "]") and this_indent == list_indent:
                 in_list = False
                 # Save party
                 if current_party:

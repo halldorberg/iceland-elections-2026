@@ -212,8 +212,25 @@ def main():
     policy_file  = SCAN_DIR / f"policy_{scan_date}.json"
     photos_file  = SCAN_DIR / f"photos_{scan_date}.json"
 
+    # Combine all news_{date}*.json files (parallel agents may write _A, _B, _C, etc.)
+    def merge_news(scan_date):
+        results_by_id = {}
+        for path in sorted(SCAN_DIR.glob(f"news_{scan_date}*.json")):
+            data = load_json(path) or {}
+            for r in data.get('results', []) or []:
+                key = r.get('id') or f"{r.get('muni_slug')}.{r.get('party_code')}.{r.get('ballot')}"
+                if key in results_by_id:
+                    seen_urls = {a.get('url') for a in results_by_id[key].get('new_articles', [])}
+                    for a in r.get('new_articles', []) or []:
+                        if a.get('url') not in seen_urls:
+                            results_by_id[key].setdefault('new_articles', []).append(a)
+                            seen_urls.add(a.get('url'))
+                else:
+                    results_by_id[key] = dict(r)
+        return list(results_by_id.values())
+
     bios_list    = (load_json(bios_file) or {}).get('results', [])   if 'bios'   not in skip else []
-    news_list    = (load_json(news_file) or {}).get('results', [])   if 'news'   not in skip else []
+    news_list    = merge_news(scan_date) if 'news' not in skip else []
     policy_list  = (load_json(policy_file) or {}).get('results', []) if 'policy' not in skip else []
     photos_list  = ((load_json(photos_file) or {}).get('results', None) if photos_file.exists() else None) if 'photos' not in skip else None
 
