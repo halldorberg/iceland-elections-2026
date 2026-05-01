@@ -136,7 +136,9 @@ For each candidate:
 4. **Never modify the `name` field.** Copy it verbatim from the manifest
    entry. The `muni_slug`, `party_code`, `ballot`, and `name` fields together
    identify which candidate the articles belong to — they must always agree.
-5. Add only articles published AFTER 2025-01-01
+5. Add articles published AFTER 2021-01-01 (~5 years back). The point is a
+   fuller picture of the candidate's public life, so older substantive coverage
+   is welcome — career milestones, past interviews, board appointments, etc.
 6. Add maximum 3 new articles per candidate per scan
 7. Include title, url, and source (domain name)
 
