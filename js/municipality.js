@@ -188,44 +188,11 @@ function updatePageMeta() {
   hl('hreflang-default', 'is');
 }
 
-// ─── Visible breadcrumbs (mirrors JSON-LD) ─────────────────
-function updateBreadcrumbs() {
-  const el = document.getElementById('breadcrumbs');
-  if (!el) return;
-  const r = parseRoute();
-  const langPrefix = r.langOverride ? `/${r.langOverride}` : '';
-  const parts = [
-    { name: ui.breadcrumbHome, href: `${langPrefix}/` },
-    { name: muni.name, href: `${langPrefix}/${muniId}/` },
-  ];
-  if (r.partyCode) {
-    const party = PARTIES[r.partyCode];
-    if (party) {
-      parts.push({ name: party.name, href: `${langPrefix}/${muniId}/${partySlug(r.partyCode)}/` });
-    }
-  }
-  if (_candidateMetaOverride && r.partyCode) {
-    parts.push({ name: _candidateMetaOverride.name, href: null });
-  }
-  el.innerHTML = parts.map((p, i) => {
-    const isLast = i === parts.length - 1;
-    const sep = i < parts.length - 1 ? '<span class="crumb-sep">›</span>' : '';
-    if (isLast || !p.href) {
-      return `<span class="crumb-current">${escapeHtml(p.name)}</span>${sep}`;
-    }
-    return `<a href="${p.href}">${escapeHtml(p.name)}</a>${sep}`;
-  }).join('');
-}
-function escapeHtml(s) {
-  return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[c]);
-}
-
 // Initial call (partyDataMap is populated below; run again after that's ready)
 updatePageMeta();
-updateBreadcrumbs();
 
-// Hook into history changes so candidate modal open/close updates title + breadcrumbs
-function _onUrlChange() { updatePageMeta(); updateBreadcrumbs(); }
+// Hook into history changes so candidate modal open/close updates title
+function _onUrlChange() { updatePageMeta(); }
 const _origReplace = window.history.replaceState.bind(window.history);
 window.history.replaceState = function (...args) {
   const r = _origReplace(...args);
