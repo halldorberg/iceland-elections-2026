@@ -16,7 +16,7 @@ export const UI = {
     heroTitle:        'Velkomin í <span>lýðræðisveisluna!</span>',
     heroSubtitle:     'Smelltu á sveitarfélag á kortinu til að bera saman á einum stað alla flokka, frambjóðendur og stefnur þeirra.',
     heroIntro:        'Finndu út allt um öll framboð fyrir sveitarstjórnarkosningarnar 16. maí 2026 á einum stað. Sjáðu frambjóðendur, stefnumál og fréttir í þínu sveitarfélagi.',
-    heroIntroEmphasis:'Berðu saman flokka, kynnstu fólkinu sem býður sig fram, og taktu upplýsta ákvörðun fyrir kjördag.',
+    heroIntroEmphasis:'Taktu upplýsta ákvörðun fyrir kjördag.',
     pageTitleHome:    'Lýðræðisveislan 2026 — Sveitarstjórnarkosningar á Íslandi',
     pageDescHome:     'Sjáðu öll framboð, frambjóðendur og stefnumál fyrir sveitarstjórnarkosningarnar 16. maí 2026 á Íslandi á einum stað. Berðu saman flokka og kjóstu upplýst.',
     statMunicipalities: 'Sveitarfélög',
