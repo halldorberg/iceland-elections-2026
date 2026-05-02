@@ -75,7 +75,9 @@
 
   <!-- App styles -->
   <link rel="stylesheet" href="/css/variables.css?v=3" />
-  <link rel="stylesheet" href="/css/municipality.css?v=26" />
+  <link rel="stylesheet" href="/css/municipality.css?v=27" />
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Heim","item":"https://lydraedisveislan.is/"},{"@type":"ListItem","position":2,"name":"Akranes","item":"https://lydraedisveislan.is/akranes/"},{"@type":"ListItem","position":3,"name":"Miðflokkurinn","item":"https://lydraedisveislan.is/akranes/midflokkurinn/"}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Miðflokkurinn — Akranes","url":"https://lydraedisveislan.is/akranes/midflokkurinn/","subOrganizationOf":{"@type":"Organization","name":"Miðflokkurinn"},"areaServed":{"@type":"Place","name":"Akranes"}}</script>
 </head>
 <body class="page-municipality">
 
@@ -112,6 +114,9 @@
     <span class="dice-icon">🎲</span>
     <span id="random-tooltip-text">Opnaði af handahófi</span>
   </div>
+
+  <!-- Breadcrumbs (Heim › Garðabær › Samfylkingin) — populated by municipality.js -->
+  <nav class="breadcrumbs" id="breadcrumbs" aria-label="Breadcrumb"></nav>
 
   <!-- Election type notice (sjálfkjörið / óbundnar kosningar) -->
   <div id="election-type-notice"></div>
@@ -212,7 +217,7 @@
   </div>
 
   <!-- App -->
-  <script type="module" src="/js/municipality.js?v=47"></script>
+  <script type="module" src="/js/municipality.js?v=49"></script>
   <script type="module" src="/js/outreach.js?v=1"></script>
   <script>
     (function () {

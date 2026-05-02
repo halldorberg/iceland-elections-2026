@@ -80,17 +80,28 @@ LOCALES = {
 
 
 def parse_munis():
-    """Return list of (muni_id, muni_name, party_codes_in_order) tuples."""
+    """Return list of dicts: {id, name, region, population, lat, lng, party_codes}."""
     src = MUNICIPALITIES_JS.read_text(encoding='utf-8')
     out = []
-    for m in re.finditer(
-        r"\{\s*id:\s*'(\w+)'.*?name:\s*'([^']+)'.*?partyIds:\s*\[([^\]]*)\]",
-        src, re.DOTALL
-    ):
-        muni_id = m.group(1)
-        muni_name = m.group(2)
-        party_codes = re.findall(r"'([^']+)'", m.group(3))
-        out.append((muni_id, muni_name, party_codes))
+    pat = re.compile(
+        r"\{\s*id:\s*'(\w+)'\s*,"
+        r"\s*name:\s*'([^']+)'\s*,"
+        r"\s*region:\s*'([^']+)'\s*,"
+        r"\s*population:\s*(\d+)\s*,"
+        r"\s*coords:\s*\{\s*lat:\s*([\d\.-]+)\s*,\s*lng:\s*([\d\.-]+)\s*\}\s*,"
+        r"\s*partyIds:\s*\[([^\]]*)\]",
+        re.DOTALL,
+    )
+    for m in pat.finditer(src):
+        out.append({
+            'id': m.group(1),
+            'name': m.group(2),
+            'region': m.group(3),
+            'population': int(m.group(4)),
+            'lat': float(m.group(5)),
+            'lng': float(m.group(6)),
+            'party_codes': re.findall(r"'([^']+)'", m.group(7)),
+        })
     return out
 
 
@@ -112,8 +123,131 @@ def party_display_name(code: str) -> str:
     return NATIONAL.get(code, code + '-listinn')
 
 
+import json as json_mod  # avoid shadowing if someone adds `json` lookups
+
+
+# ── JSON-LD generators ────────────────────────────────────────────────────────
+
+ELECTION_DATE = "2026-05-16"  # ISO date
+ELECTION_NAME_BY_LANG = {
+    'is': 'Sveitarstjórnarkosningar 2026',
+    'en': '2026 Icelandic Local Elections',
+    'pl': 'Wybory samorządowe na Islandii 2026',
+}
+
+
+def _ld(obj):
+    """Serialize JSON-LD compactly."""
+    return json_mod.dumps(obj, ensure_ascii=False, separators=(',', ':'))
+
+
+def jsonld_block(obj):
+    """Wrap an object (or list) in a JSON-LD <script>."""
+    return f'<script type="application/ld+json">{_ld(obj)}</script>'
+
+
+def jsonld_website(lang: str) -> str:
+    return jsonld_block({
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "url": BASE + ('/' if lang == 'is' else f'/{lang}/'),
+        "name": "Lýðræðisveislan",
+        "inLanguage": {'is': 'is-IS', 'en': 'en-US', 'pl': 'pl-PL'}[lang],
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": {
+                "@type": "EntryPoint",
+                "urlTemplate": f"{BASE}/?q={{search_term_string}}",
+            },
+            "query-input": "required name=search_term_string",
+        },
+    })
+
+
+def jsonld_breadcrumbs(items):
+    """items: list of {name, url}. Position 1 is root."""
+    return jsonld_block({
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": i + 1,
+                "name": it["name"],
+                "item": it["url"],
+            }
+            for i, it in enumerate(items)
+        ],
+    })
+
+
+def jsonld_muni(muni: dict, lang: str) -> str:
+    return jsonld_block({
+        "@context": "https://schema.org",
+        "@type": "Place",
+        "name": muni["name"],
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": muni["lat"],
+            "longitude": muni["lng"],
+        },
+        "containedInPlace": {
+            "@type": "Country",
+            "name": "Ísland" if lang == 'is' else 'Iceland' if lang == 'en' else 'Islandia',
+        },
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "name": {'is': 'Íbúafjöldi', 'en': 'Population', 'pl': 'Liczba mieszkańców'}[lang],
+            "value": muni["population"],
+        },
+    })
+
+
+def jsonld_party(party_name: str, muni_name: str, party_url: str, lang: str) -> str:
+    return jsonld_block({
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": f"{party_name} — {muni_name}",
+        "url": party_url,
+        "subOrganizationOf": {
+            "@type": "Organization",
+            "name": party_name,
+        },
+        "areaServed": {
+            "@type": "Place",
+            "name": muni_name,
+        },
+    })
+
+
+def jsonld_event(muni_name: str, lang: str) -> str:
+    return jsonld_block({
+        "@context": "https://schema.org",
+        "@type": "Event",
+        "name": ELECTION_NAME_BY_LANG[lang] + f" — {muni_name}",
+        "startDate": ELECTION_DATE,
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+        "location": {
+            "@type": "Place",
+            "name": muni_name,
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": muni_name,
+                "addressCountry": "IS",
+            },
+        },
+        "organizer": {
+            "@type": "GovernmentOrganization",
+            "name": "Landskjörstjórn",
+            "url": "https://island.is/v/sveitarstjornarkosningar-2026",
+        },
+    })
+
+
 def stub_html(template: str, *, locale: dict, title: str, desc: str, canonical: str,
-              hreflang_map: dict, og_image: str = None) -> str:
+              hreflang_map: dict, og_image: str = None,
+              jsonld_blocks: list = None) -> str:
     """Build an HTML stub by rewriting the head of municipality.html."""
     # Replace <html lang="...">
     html = re.sub(r'<html\s+lang="[^"]*"', f'<html lang="{locale["lang_html"]}"', template, count=1)
@@ -157,6 +291,11 @@ def stub_html(template: str, *, locale: dict, title: str, desc: str, canonical: 
     html = re.sub(r'href="(?!/|https?://|#|data:|mailto:)([^"]+)"', r'href="/\1"', html)
     html = re.sub(r'src="(?!/|https?://|data:)([^"]+)"', r'src="/\1"', html)
 
+    # Inject JSON-LD blocks before </head>
+    if jsonld_blocks:
+        ld = '\n  '.join(jsonld_blocks)
+        html = html.replace('</head>', f'  {ld}\n</head>', 1)
+
     return html
 
 
@@ -192,9 +331,10 @@ def main():
             'pl': f'{BASE}/pl/',
         }
         canonical = hreflang_map[lang]
-        # Reuse stub_html — but pass home_template instead of municipality template
+        ld_blocks = [jsonld_website(lang)]
         html = stub_html(home_template, locale=hloc, title=hloc['title'], desc=hloc['desc'],
-                         canonical=canonical, hreflang_map=hreflang_map)
+                         canonical=canonical, hreflang_map=hreflang_map,
+                         jsonld_blocks=ld_blocks)
         out_dir = ROOT / lang
         out_dir.mkdir(parents=True, exist_ok=True)
         out_path = out_dir / 'index.html'
@@ -205,7 +345,10 @@ def main():
         else:
             skipped += 1
 
-    for muni_id, muni_name, party_codes in munis:
+    for muni_dict in munis:
+        muni_id = muni_dict['id']
+        muni_name = muni_dict['name']
+        party_codes = muni_dict['party_codes']
         # ── Per-language muni page stubs ─────────────────────────
         for lang in ('is', 'en', 'pl'):
             loc = LOCALES[lang]
@@ -225,8 +368,18 @@ def main():
             out_dir.mkdir(parents=True, exist_ok=True)
             out_path = out_dir / 'index.html'
 
+            ld_blocks = [
+                jsonld_breadcrumbs([
+                    {"name": {'is': 'Heim', 'en': 'Home', 'pl': 'Strona główna'}[lang],
+                     "url": f'{BASE}/' + ('' if lang == 'is' else f'{lang}/')},
+                    {"name": muni_name, "url": canonical},
+                ]),
+                jsonld_muni(muni_dict, lang),
+                jsonld_event(muni_name, lang),
+            ]
             html = stub_html(template, locale=loc, title=title, desc=desc,
-                             canonical=canonical, hreflang_map=hreflang_map)
+                             canonical=canonical, hreflang_map=hreflang_map,
+                             jsonld_blocks=ld_blocks)
             existing = out_path.read_text(encoding='utf-8') if out_path.exists() else ''
             if existing != html:
                 out_path.write_text(html, encoding='utf-8')
@@ -255,8 +408,19 @@ def main():
                 out_dir.mkdir(parents=True, exist_ok=True)
                 out_path = out_dir / 'index.html'
 
+                muni_url = f'{BASE}/{muni_id}/' if lang == 'is' else f'{BASE}/{lang}/{muni_id}/'
+                ld_blocks = [
+                    jsonld_breadcrumbs([
+                        {"name": {'is': 'Heim', 'en': 'Home', 'pl': 'Strona główna'}[lang],
+                         "url": f'{BASE}/' + ('' if lang == 'is' else f'{lang}/')},
+                        {"name": muni_name, "url": muni_url},
+                        {"name": party_name, "url": canonical},
+                    ]),
+                    jsonld_party(party_name, muni_name, canonical, lang),
+                ]
                 html = stub_html(template, locale=loc, title=title, desc=desc,
-                                 canonical=canonical, hreflang_map=hreflang_map)
+                                 canonical=canonical, hreflang_map=hreflang_map,
+                                 jsonld_blocks=ld_blocks)
                 existing = out_path.read_text(encoding='utf-8') if out_path.exists() else ''
                 if existing != html:
                     out_path.write_text(html, encoding='utf-8')

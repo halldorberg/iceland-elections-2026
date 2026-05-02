@@ -1,3 +1,42 @@
+/* ─── Breadcrumbs ───────────────────────────────────────── */
+
+.breadcrumbs {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  /* muni-nav is position:fixed h≈64px — clear it */
+  margin-top: 72px;
+  padding: 0.5rem 1.25rem 0.25rem;
+  font-size: 0.82rem;
+  color: var(--color-text-muted, #6b7280);
+  background: transparent;
+  min-height: 0;
+}
+.breadcrumbs:empty { display: none; margin: 0; padding: 0; }
+/* When breadcrumbs render, accordion-section no longer needs its own
+   72px clearance — the breadcrumb's margin-top already cleared muni-nav. */
+.breadcrumbs:not(:empty) ~ .accordion-section {
+  padding-top: 0.5rem;
+}
+.breadcrumbs a {
+  color: var(--color-text-muted, #6b7280);
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+.breadcrumbs a:hover {
+  color: var(--color-text, #1f2937);
+  text-decoration: underline;
+}
+.breadcrumbs .crumb-sep {
+  opacity: 0.5;
+  user-select: none;
+}
+.breadcrumbs .crumb-current {
+  color: var(--color-text, #1f2937);
+  font-weight: 500;
+}
+
 /* ─── Municipality Page ─────────────────────────────────── */
 
 .page-municipality {

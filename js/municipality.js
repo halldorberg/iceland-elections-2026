@@ -188,23 +188,57 @@ function updatePageMeta() {
   hl('hreflang-default', 'is');
 }
 
+// ─── Visible breadcrumbs (mirrors JSON-LD) ─────────────────
+function updateBreadcrumbs() {
+  const el = document.getElementById('breadcrumbs');
+  if (!el) return;
+  const r = parseRoute();
+  const langPrefix = r.langOverride ? `/${r.langOverride}` : '';
+  const parts = [
+    { name: ui.breadcrumbHome, href: `${langPrefix}/` },
+    { name: muni.name, href: `${langPrefix}/${muniId}/` },
+  ];
+  if (r.partyCode) {
+    const party = PARTIES[r.partyCode];
+    if (party) {
+      parts.push({ name: party.name, href: `${langPrefix}/${muniId}/${partySlug(r.partyCode)}/` });
+    }
+  }
+  if (_candidateMetaOverride && r.partyCode) {
+    parts.push({ name: _candidateMetaOverride.name, href: null });
+  }
+  el.innerHTML = parts.map((p, i) => {
+    const isLast = i === parts.length - 1;
+    const sep = i < parts.length - 1 ? '<span class="crumb-sep">›</span>' : '';
+    if (isLast || !p.href) {
+      return `<span class="crumb-current">${escapeHtml(p.name)}</span>${sep}`;
+    }
+    return `<a href="${p.href}">${escapeHtml(p.name)}</a>${sep}`;
+  }).join('');
+}
+function escapeHtml(s) {
+  return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[c]);
+}
+
 // Initial call (partyDataMap is populated below; run again after that's ready)
 updatePageMeta();
+updateBreadcrumbs();
 
-// Hook into history changes so candidate modal open/close updates the title
+// Hook into history changes so candidate modal open/close updates title + breadcrumbs
+function _onUrlChange() { updatePageMeta(); updateBreadcrumbs(); }
 const _origReplace = window.history.replaceState.bind(window.history);
 window.history.replaceState = function (...args) {
   const r = _origReplace(...args);
-  setTimeout(updatePageMeta, 0);
+  setTimeout(_onUrlChange, 0);
   return r;
 };
 const _origPush = window.history.pushState.bind(window.history);
 window.history.pushState = function (...args) {
   const r = _origPush(...args);
-  setTimeout(updatePageMeta, 0);
+  setTimeout(_onUrlChange, 0);
   return r;
 };
-window.addEventListener('popstate', () => setTimeout(updatePageMeta, 0));
+window.addEventListener('popstate', () => setTimeout(_onUrlChange, 0));
 
 // Municipality share button — clean URL with just ?id=
 const muniShareBtn = document.getElementById('muni-share');
@@ -614,6 +648,11 @@ function buildCandidatesHTML(data, party) {
   const cards = data.candidates.map(c => {
     const fallback = localAvatar(c.name);
     const occupation = trOcc(c.occupation);
+    // SEO + a11y: descriptive alt ("<Name> — <Party> í <Muni>") + explicit
+    // dimensions to prevent layout shift (Cumulative Layout Shift, a Google
+    // Core Web Vitals ranking factor).
+    const partyName = PARTIES[data.partyCode]?.name || data.partyCode;
+    const altText = `${c.name} — ${partyName}, ${muni.name}`;
     return `
       <div class="candidate-card"
            data-candidate-id="${c.id}"
@@ -622,8 +661,9 @@ function buildCandidatesHTML(data, party) {
            aria-label="${ui.seeMore} ${c.name}">
         <div class="candidate-photo-wrap">
           <img src="${c.imageUrl}"
-               alt="${c.name}"
-               loading="lazy"
+               alt="${altText}"
+               width="240" height="240"
+               loading="lazy" decoding="async"
                onerror="this.onerror=null;this.src='${fallback}'" />
           <div class="candidate-ballot">${c.ballotOrder}</div>
         </div>
@@ -856,7 +896,7 @@ function openModal(id) {
   // appears at the correct position immediately — no flash, no transition.
   applySmartCrop(photo, c.imageUrl);
   photo.src = c.imageUrl;
-  photo.alt = c.name;
+  photo.alt = `${c.name} — ${party?.name || ''}, ${muni.name}`;
   photo.onerror = () => { photo.onerror = null; photo.src = fallback; };
 
   document.getElementById('modal-name').textContent = c.name;

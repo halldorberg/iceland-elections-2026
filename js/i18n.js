@@ -11,6 +11,7 @@ export const UI = {
     share:            'Deila',
     openParty:        'Opna',
     language:         'Tungumál',
+    breadcrumbHome:   'Heim',
 
     // Map page
     heroTitle:        'Velkomin í <span>lýðræðisveisluna!</span>',
@@ -88,6 +89,7 @@ export const UI = {
     share:            'Share',
     openParty:        'Open',
     language:         'Language',
+    breadcrumbHome:   'Home',
 
     heroTitle:        'Welcome to the <span>democracy feast!</span>',
     heroSubtitle:     'Click a municipality on the map to compare parties, candidates and their platforms all in one place.',
@@ -157,6 +159,7 @@ export const UI = {
     share:            'Udostępnij',
     openParty:        'Otwórz',
     language:         'Język',
+    breadcrumbHome:   'Strona główna',
 
     heroTitle:        'Witaj na <span>uczcie demokracji!</span>',
     heroSubtitle:     'Kliknij gminę na mapie, aby porównać partie, kandydatów i ich programy w jednym miejscu.',
@@ -222,16 +225,22 @@ export const UI = {
   },
 };
 
-/** Active language: URL path prefix (/en/, /pl/) → URL param → localStorage → 'is' */
+/** Active language detection.
+ *  Path-based URLs:  /<lang>/... → use that lang prefix; otherwise IS.
+ *                   localStorage is intentionally NOT consulted here, because
+ *                   the path is the source of truth — once we're on
+ *                   /gardabaer/, we want IS even if the user previously
+ *                   visited /en/akureyri/.
+ *  Legacy /*.html URLs: check ?lang= then localStorage as fallbacks. */
 export function getLang() {
-  // Phase 2: language is encoded in the URL path (/en/<muni>/, /pl/<muni>/)
   const seg = window.location.pathname.split('/').filter(Boolean)[0];
   if (seg && UI[seg]) return seg;
-  // Legacy fallback: ?lang=en
-  const p = new URLSearchParams(window.location.search).get('lang');
-  if (p && UI[p]) return p;
-  const s = localStorage.getItem('lang');
-  if (s && UI[s]) return s;
+  if (window.location.pathname.endsWith('.html')) {
+    const p = new URLSearchParams(window.location.search).get('lang');
+    if (p && UI[p]) return p;
+    const s = localStorage.getItem('lang');
+    if (s && UI[s]) return s;
+  }
   return 'is';
 }
 
