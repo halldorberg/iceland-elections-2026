@@ -405,17 +405,83 @@ Google's Rich Results Test.
 
 ---
 
-## 7. Open decisions (need a call from you)
+## 7. Decisions (locked in)
 
-- **Slug separator**: hyphen or underscore? (Recommend hyphen.)
-- **URL hierarchy**: flat (`/samfylkingin-i-gardabae`) or nested
-  (`/gardabaer/samfylkingin`)? (Recommend nested.)
-- **Pre-rendering build step**: agree to add a Python build script that
-  emits the ~880 HTML files? Without this, the URL-scheme change only
-  half-works.
-- **EN/PL muni/party copy**: write these yourself, or have an LLM draft
-  them and you proofread?
-- **Slug for places with diacritics**: strip aggressively (`Hörgársveit
-  → horgarsveit`) or keep one-letter approximations (`hoergaarsveit`)?
-  (Recommend strip aggressively — matches what users would actually
-  type into Google.)
+| Decision | Choice |
+|---|---|
+| Slug separator | Hyphen (`samfylkingin-i-gardabae`, not underscore) |
+| URL hierarchy | Nested (`/gardabaer/samfylkingin/<candidate>`) |
+| Pre-rendering | **Lighter hybrid**: thin HTML stub per route with title/meta/OG/hreflang/JSON-LD; same `<body>` as today (JS hydrates). ~3 KB per stub, ~3 s build time, automated in commit flow. |
+| Diacritic stripping | Aggressive (`Hörgársveit → horgarsveit`), matching existing `muni_slug` values. URL only — all displayed text keeps Icelandic spelling. |
+| Old URL handling | `municipality.html` keeps serving but its body becomes a JS redirect (`window.location.replace()`) to the new path. Equivalent to a 301 for Google. |
+| Hero copy | Three locale-specific drafts (below) — IS, EN, PL. |
+
+## 8. Hero copy (final)
+
+### Icelandic — `/`
+
+> **Lýðræðisveislan 2026**
+> Finndu út allt um öll framboð fyrir sveitarstjórnarkosningarnar 16. maí 2026 á einum stað. Sjáðu frambjóðendur, stefnumál og fréttir í þínu sveitarfélagi.
+>
+> *Berðu saman flokka, kynnstu fólkinu sem býður sig fram, og taktu upplýsta ákvörðun fyrir kjördag.*
+
+### English — `/en/`
+
+> **The Election Party 2026**
+> Moved to Iceland recently and trying to figure out the local elections? Here's every party running in your municipality on May 16, 2026 — candidates, platforms, and news, all in English.
+>
+> *If you've lived here for at least three years, you can vote, even without Icelandic citizenship. Find out who's worth your vote.*
+
+### Polish — `/pl/`
+
+> **Lýðræðisveislan 2026 — wybory samorządowe po polsku**
+> Mieszkasz w Islandii i chcesz zrozumieć wybory lokalne? Zobacz wszystkie partie kandydujące w Twojej gminie 16 maja 2026 — kandydatów, programy i aktualności, w języku polskim.
+>
+> *Jeśli mieszkasz w Islandii od co najmniej trzech lat, masz prawo głosu — nawet bez obywatelstwa. Sprawdź, kto reprezentuje Twoje sprawy: mieszkanie, przedszkola, szkoły, integrację.*
+
+(English literal of the Polish: "If you've lived in Iceland for at least three years, you have the right to vote — even without citizenship. Find out who represents your concerns: housing, kindergartens, schools, integration.")
+
+## 9. Old → new URL redirect mapping
+
+To preserve existing share links, bookmarks, and any pages already indexed by Google.
+
+| Old | New |
+|---|---|
+| `/municipality.html?id=gardabaer` | `/gardabaer/` |
+| `/municipality.html?id=gardabaer&party=S` | `/gardabaer/samfylkingin/` |
+| `/municipality.html?id=gardabaer&party=S&candidate=1` | `/gardabaer/samfylkingin/kjartan-atli-kjartansson/` |
+| `/?lang=en` | `/en/` |
+| `/municipality.html?id=gardabaer&lang=en` | `/en/gardabaer/` |
+
+Implementation: `municipality.html` keeps its server path; its body becomes:
+
+```html
+<script>
+(function() {
+  const PARTY_SLUGS = {
+    'D': 'sjalfstaedisflokkurinn', 'B': 'framsoknarflokkurinn',
+    'S': 'samfylkingin', 'V': 'vinstri-graen',
+    'A': 'vinstrid', 'P': 'piratar', 'M': 'midflokkurinn',
+    'F': 'flokkur-folksins', 'C': 'vidreisn', 'J': 'sosialistar',
+    // ...local lists fall back to lowercased code
+  };
+  const params = new URLSearchParams(location.search);
+  const muni = params.get('id');
+  const party = params.get('party');
+  const candidate = params.get('candidate');  // ballot number; resolved on landing
+  const lang = params.get('lang');
+  if (!muni) return;  // bare municipality.html — leave alone
+  const langPrefix = lang === 'en' ? '/en' : lang === 'pl' ? '/pl' : '';
+  let path = `${langPrefix}/${muni}/`;
+  if (party) {
+    path += (PARTY_SLUGS[party] || party.toLowerCase()) + '/';
+    if (candidate) path += `?candidate=${candidate}`;  // ballot resolved by landing JS
+  }
+  location.replace(path);
+})();
+</script>
+```
+
+The candidate ballot number is preserved as a query param on the new party
+page; the party-page JS resolves the ballot to a candidate name and opens
+the modal — same behavior as today's share URLs.
