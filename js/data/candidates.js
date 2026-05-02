@@ -8035,7 +8035,14 @@ function makeCandidatesFromList(municipalityId, partyCode, list) {
     ballotOrder,
     name,
     occupation,
-    imageUrl: photoUrl || localAvatar(name),
+    // Photo paths in the data are relative ("images/candidates/<hash>.jpg").
+    // On legacy URLs at /municipality.html that resolves to /images/... fine,
+    // but on Phase 2 path-based URLs like /<muni>/<party>/ a relative path
+    // resolves to /<muni>/<party>/images/... which 404s. Force root-absolute
+    // for any non-absolute, non-data path.
+    imageUrl: (photoUrl && /^(https?:|data:|\/)/.test(photoUrl))
+      ? photoUrl
+      : (photoUrl ? '/' + photoUrl : localAvatar(name)),
     age:       realData?.age       ?? null,
     bio:       realData?.bio       ?? null,
     heimild:   realData?.heimild   ?? null,
