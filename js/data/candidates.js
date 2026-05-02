@@ -560,7 +560,7 @@ const RVK = {
           { title: 'Þær skipa efstu sæti lista Vor til vinstri', url: 'https://www.visir.is/g/20262852645d/thaer-skipa-efstu-saeti-lista-vor-til-vinstri', source: 'visir.is' },
         ],
       }],
-      [5, 'Arna Magnea Danks', 'Leikkona, stuntleikstjóri, kennari (Vor til vinstri)', null, {
+      [5, 'Arna Magnea Danks', 'Leikkona, stuntleikstjóri, kennari (Vor til vinstri)', 'images/candidates/e21bd48c7fbec401.jpg', {
         age: 55,
         bio: 'Arna Magnea Danks er leikkona og stuntleikstjóri, fædd 31. október 1970 af írskum og íslenskum uppruna. Hún lauk BA í leiklist frá University of East London og hefur starfað á sviði leiklistar í áratugi. Hún er þekkt sem fyrsta opinbera trans-leikkona Íslands og virk mannréttindabaráttumaður.',
         heimild: [{ url: 'https://en.wikipedia.org/wiki/Arna_Magnea_Danks', label: 'Wikipedia' }, { url: 'https://www.imdb.com/name/nm2049261/', label: 'IMDb' }],
@@ -578,7 +578,7 @@ const RVK = {
           { title: 'Vinstrið kynnir framboðslistann sinn', url: 'https://www.mbl.is/frettir/innlent/2026/03/21/vinstrid_kynnir_frambodslistann_sinn/', source: 'mbl.is' },
         ],
       }],
-      [6, 'Finnur Ricart Andrason', 'Umhverfis- og loftslagssérfræðingur (VG)'],
+      [6, 'Finnur Ricart Andrason', 'Umhve, 'images/candidates/dc5b044a293eff37.jpg'rfis- og loftslagssérfræðingur (VG)'],
       [7, 'Laufey Líndal Ólafsdóttir', 'Tæknistjóri hjá Samstaðan, baráttumaður, amma'],
       [8, 'Riitta Anne Maarit Kaipainen', 'Rekstrarstjóri'],
       [9, 'Tinna Rut Jóhannsdóttir', 'Skrifstofumaður, verkefnastjóri'],
@@ -6681,17 +6681,17 @@ const RTY = {
           { title: 'Vilja að Landsvirkjun flytji höfuðstöðvarnar á Hellu', url: 'https://www.sunnlenska.is/frettir/vilja-ad-landsvirkjun-flytji-hofudstodvarnar-a-hellu/', source: 'sunnlenska.is' },],
       }],
       [2, 'Margrét Harpa Guðsteinsdóttir', 'Bóndi og sveitarstjórnarfulltrúi', 'images/candidates/6f0bdde8b40b302c.jpg', { age: null, bio: 'Margrét Harpa Guðsteinsdóttir er bóndi í Lambhaga og sveitarstjórnarfulltrúi í Rangárþingi ytra og er á 2. sæti Á-listans í sveitarstjórnarkosningum 2026.', interests: null, social: null, news: [] }],
-      [3, 'Erla Sigurðardóttir', 'Sjúkraflutningamaður'],
-      [4, 'Viðar M. Þorsteinsson', 'Tæknifulltrúi og sveitarstjórnarfulltrúi'],
-      [5, 'Eiríkur Vilhelm Sigurðsson', 'Verksmiðjustjóri'],
-      [6, 'Guðbjörg Snorradóttir', 'Bókari og þróunaraðstoðarmaður'],
-      [7, 'Þórunn Dís Þórunnardóttir', 'Útungunarstjóri og sveitarstjórnarfulltrúi'],
-      [8, 'Gunnar Aron Ólason', 'Upplýsingafulltrúi'],
-      [9, 'Anna Sóley Kjeld', 'Í fæðingarorlofi'],
+      [3, 'Erla Sigurðardóttir', 'Sjúkraflutningamaður', 'images/candidates/014f5a12e80ee6d9.jpg'],
+      [4, 'Viðar M. Þorsteinsson', 'Tæknifulltrúi og sveitarstjórnarfulltrúi', 'images/candidates/649622a35613610b.jpg'],
+      [5, 'Eiríkur Vilhelm Sigurðsson', 'Verksmiðjustjóri', 'images/candidates/eaca3e5fef1a2a09.jpg'],
+      [6, 'Guðbjörg Snorradóttir', 'Bókari og þróunaraðstoðarmaður', 'images/candidates/f239c0ddc4f41e46.jpg'],
+      [7, 'Þórunn Dís Þórunnardóttir', 'Útungunarstjóri og sveitarstjórnarfulltrúi', 'images/candidates/8fd0b9fd107f7148.jpg'],
+      [8, 'Gunnar Aron Ólason', 'Upplýsingafulltrúi', 'images/candidates/e256de1559dad7aa.jpg'],
+      [9, 'Anna Sóley Kjeld', 'Í fæðingarorlofi', 'images/candidates/004efb17253a88f9.jpg'],
       [10, 'Berglind Kristinsdóttir', 'Verslunareigandi'],
-      [11, 'Daníel Freyr Steinarsson', 'Verktaki og slökkviliðsmaður'],
-      [12, 'Auður Erla Logadóttir', 'Kennari og knattspyrnuþjálfari'],
-      [13, 'Gabríel Snær Ólafsson', 'Pípulagninganemi'],
+      [11, 'Daníel Freyr Steinarsson', 'Verktaki og slökkviliðsmaður', 'images/candidates/14c3429d8c779d36.jpg'],
+      [12, 'Auður Erla Logadóttir', 'Kennari og knattspyrnuþjálfari', 'images/candidates/5f707b6d2e1ee94c.jpg'],
+      [13, 'Gabríel Snær Ólafsson', 'Pípulagninganemi', 'images/candidates/b6f3b292571ceb82.jpg'],
     
       [14, 'Pálína Kristinsdóttir', 'Frambjóðandi'],
     ],
@@ -8325,7 +8325,7 @@ const FJD = {
           { title: 'Viðsnúningur í rekstri, hver borgar?', url: 'https://www.visir.is/g/20262869705d/vidsnuningur-i-rekstri-hver-borgar-', source: 'visir.is' },
         ],
       }],
-      [3, 'Valborg Ösp Á. Warén', 'Verkefnastjóri', null, {
+      [3, 'Valborg Ösp Á. Warén', 'Verkefnastjóri', 'images/candidates/94a580c2f7e45781.png', {
         age: null,
         bio: 'Valborg Ösp Á. Warén er verkefnastjóri sem skipar 3. sæti á S-lista Fjarðalistans í Fjarðabyggð 2026. Hún kemur með reynslu í verkefnastjórnun og skipulagi.',
         heimild: [{ url: 'https://www.visir.is/g/20262872627d/jofnudur-abyrgd-og-uppbygging', label: 'visir.is' }],
@@ -8335,7 +8335,7 @@ const FJD = {
           { title: 'Jöfnuður, ábyrgð og uppbygging', url: 'https://www.visir.is/g/20262872627d/jofnudur-abyrgd-og-uppbygging', source: 'visir.is' },
         ],
       }],
-      [4, 'Adam Ingi Guðlaugsson', 'Verkfræðingur og rafvirki', null, {
+      [4, 'Adam Ingi Guðlaugsson', 'Verkfræðingur og rafvirki', 'images/candidates/b7619519eaaea184.png', {
         age: null,
         bio: 'Adam Ingi Guðlaugsson er á 4. sæti á S-lista Fjarðalistans í Fjarðabyggð í sveitarstjórnarkosningum 2026. Listinn samanstendur af meðlimum Fjarðalistans og Samfylkingar sem hafa starfað saman í bæjarstjórn.',
         heimild: [{ url: 'https://www.visir.is/g/20262872627d/jofnudur-abyrgd-og-uppbygging', label: 'visir.is' }],
@@ -8345,28 +8345,28 @@ const FJD = {
           { title: 'Jöfnuður, ábyrgð og uppbygging', url: 'https://www.visir.is/g/20262872627d/jofnudur-abyrgd-og-uppbygging', source: 'visir.is' },
         ],
       }],
-      [5, 'Arndís Bára Pétursdóttir', 'Aðstoðarskólastjóri', null, {
+      [5, 'Arndís Bára Pétursdóttir', 'Aðstoðarskólastjóri', 'images/candidates/6f9a22a372efc1ba.png', {
         age: null,
         bio: 'Arndís Bára Pétursdóttir er á 5. sæti á S-lista Fjarðalistans í Fjarðabyggð í sveitarstjórnarkosningum 2026. Fjarðalistinn hefur boðið fram lista í sveitarstjórnarkosningum frá 1998.',
         heimild: [{ url: 'https://www.visir.is/g/20262872627d/jofnudur-abyrgd-og-uppbygging', label: 'visir.is' }],
         interests: null,
         social: null,
         news: [
-          { title: 'Jöfnuður, ábyrgð og uppbygging', url: 'https://www.visir.is/g/20262872627d/jofnudur-abyrgd-og-uppbygging', source: 'visir.is' },
+          { title: 'Jöfnuður, ábyrgð og uppbygging', url: 'https://www.visir.is/g/20262872627d/jofnudur-abyrgd-og-uppbygging', , 'images/candidates/1739e792eabc0246.png'source: 'visir.is' },
         ],
       }],
-      [6, 'Ásdís Helga Jóhannsdóttir', 'Sérfræðingur í bótamálum'],
-      [7, 'Birkir Snær Guðjónsson', 'Varaformaður'],
-      [8, 'Esther Ösp Gunnarsdóttir', 'Hönnuður'],
+      [6, , 'images/candidates/9249ecbdd51e9d1c.png''Ásdís Helga Jóhannsdóttir', 'Sérfræðingur í bótamá, 'images/candidates/e0775cc561c07bec.png'lum'],
+      [7, 'Birkir Snær Guðjónsson', 'Vara, 'images/candidates/67e4bdc518c5c5b2.png'formaður'],
+      [8, 'Esther Ösp Gunnarsdóttir', 'Hön, 'images/candidates/f7a333220923b24d.png'nuður'],
       [9, 'A. Eva Sigurðardóttir', 'Þjálfari'],
-      [10, 'Jaroslaw Zajaczkowski', 'Deildarstjóri'],
-      [11, 'Salóme Rut Harðardóttir', 'Íþróttaþjálfari'],
+ , 'images/candidates/54ceb344a8c3856e.png'     [10, 'Jaroslaw Zajaczkowski', 'Deildarstjóri'], 'images/candidates/47d98e0ae979b5d0.png',
+      [11, 'Salóme Rut Harðardóttir', ', 'images/candidates/331bc0a646f921dc.png'Íþróttaþjálfari'],
       [12, 'Joanna Katarzyna Mrowiec', 'Kennari'],
       [13, 'Oddur Sigurðsson', 'Bóndi'],
-      [14, 'Sveinn Fannar Sæmundsson', 'Sagnfræðingur'],
-      [15, 'Anna Sigrún Jóhönnudóttir', 'Kaupmaður og fatlaður'],
+      [14, ', 'images/candidates/2c1506e77c2fbb54.png'Sveinn Fannar Sæmundsson', 'Sagnfræðingur'],
+      [15, 'images/candidates/7070a411f994314e.png', 'Anna Sigrún Jóhönnudóttir', 'Kaupmaður og fatlaður'],
       [16, 'Kristrún Antonsdóttir', 'Stjórnarmaður'],
-      [17, 'Benedikt Sigurjónsson', 'Fyrrverandi sveitarstjóri'],
+      [17, 'Bene, 'images/candidates/e9288b053a74e928.png'dikt Sigurjónsson', 'Fyrrverandi sveitarstjóri'],
     
       [18, 'Björn Hafþór Guðmundsson', 'Frambjóðandi'],
     ],
@@ -9695,11 +9695,11 @@ const MUT = {
           { title: 'Verslunarrekstur aftur á Reykhólum', url: 'https://www.mbl.is/frettir/innlent/2024/11/25/verslunarrekstur_aftur_a_reykholum/', source: 'mbl.is' },
         ],
       }],
-      [2, 'Eiður Ragnarsson', 'Ferðaþjónustubóndi', null, {
+      [2, 'Eiður Ragnarsson', 'Ferðaþjónustubóndi', 'images/candidates/86ca02f544ccd76e.jpg', {
         age: null, bio: 'Eiður Ragnarsson er ferðaþjónustubóndi og er á 2. sæti á lista Framsóknar í Múlaþingi í sveitarstjórnarkosningum 2026; hann hefur verið virkur í eftirliti með ákvörðunum sveitarstjórnar.', interests: null, social: null,
         news: [{ title: 'Jónína mun leiða lista Framsóknar í Múlaþingi', url: 'https://www.mbl.is/frettir/innlent/2025/12/18/jonina_mun_leida_lista_framsoknar_i_mulathingi/', source: 'mbl.is' }],
       }],
-      [3, 'Þórey Birna Jónsdóttir', 'Sauðfjárbóndi', null, {
+      [3, 'Þórey Birna Jónsdóttir', 'Sauðfjárbóndi', 'images/candidates/7392a95c4c76e11c.jpg', {
         age: null, bio: 'Þórey Birna Jónsdóttir er sauðfjárbóndi og er á 3. sæti á lista Framsóknar í Múlaþingi í sveitarstjórnarkosningum 2026.', interests: null, social: null,
         news: [{ title: 'Jónína mun leiða lista Framsóknar í Múlaþingi', url: 'https://www.mbl.is/frettir/innlent/2025/12/18/jonina_mun_leida_lista_framsoknar_i_mulathingi/', source: 'mbl.is' }],
       }],
@@ -9707,9 +9707,9 @@ const MUT = {
         age: null, bio: 'Björg Eyþórsdóttir er hjúkrunarfræðingur og sveitarstjórnarfulltrúi; hún er á 4. sæti á lista Framsóknar í Múlaþingi í sveitarstjórnarkosningum 2026.', interests: null, social: null,
         news: [{ title: 'Jónína mun leiða lista Framsóknar í Múlaþingi', url: 'https://www.mbl.is/frettir/innlent/2025/12/18/jonina_mun_leida_lista_framsoknar_i_mulathingi/', source: 'mbl.is' }],
       }],
-      [5, 'Guðmundur Bj. Hafþórsson', 'Eldvarnareftirlitsmaður', null, {
+      [5, 'Guðmundur Bj. Hafþórsson', 'Eldvarnareftirlitsmaður', 'images/candidates/17a1b555fc7043fb.jpg', {
         age: null, bio: 'Guðmundur Bj. Hafþórsson er brunavarnareftirlit og er á 5. sæti á lista Framsóknar í Múlaþingi í sveitarstjórnarkosningum 2026.', interests: null, social: null,
-        news: [{ title: 'Jónína mun leiða lista Framsóknar í Múlaþingi', url: 'https://www.mbl.is/frettir/innlent/2025/12/18/jonina_mun_leida_lista_framsoknar_i_mulathingi/', source: 'mbl.is' }],
+        news: [{ title: 'Jónína mun leiða lista Framsóknar í Múlaþingi', url: 'https://www.mbl.is/frettir/innlent/2025/12/18/jonina_mun_leida_lista_framso, 'images/candidates/e8bd957fff2f362f.jpg'knar_i_mulathingi/', source: 'mbl.is' }],
       }],
       [6, 'Brynjar Pálmi Ásgeirssson', 'Menntaskólanemi'],
       [7, 'Eygló Björg Jóhannsdóttir', 'Viðskiptalögfræðingur'],
@@ -9816,11 +9816,11 @@ const MUT = {
           { title: 'Fyrrum sýslumaður leiðir Miðflokkinn í Múlaþingi', url: 'https://austurfrett.is/frettir/fyrrum-syslumadhur-leidhir-midhflokkinn-i-mulathingi', source: 'austurfrett.is' },
         ],
       }],
-      [2, 'Hannes Karl Hilmarsson', 'Afgreiðslustjóri', null, {
+      [2, 'Hannes Karl Hilmarsson', 'Afgreiðslustjóri', 'images/candidates/e3ebaec6797131ad.jpg', {
         age: null, bio: 'Hannes Karl Hilmarsson er afgreiðslustjóri og fyrrverandi sveitarstjórnarfulltrúi; hann er á 2. sæti á lista Miðflokksins í Múlaþingi í sveitarstjórnarkosningum 2026.', interests: null, social: null,
         news: [{ title: 'Fyrrum sýslumaður leiðir Miðflokkinn í Múlaþingi', url: 'https://austurfrett.is/frettir/fyrrum-syslumadhur-leidhir-midhflokkinn-i-mulathingi', source: 'austurfrett.is' }],
       }],
-      [3, 'Stefán Bragi Birgisson', 'Bóndi og götumálari', null, {
+      [3, 'Stefán Bragi Birgisson', 'Bóndi og götumálari', 'images/candidates/1d33df50c3714441.jpg', {
         age: null, bio: 'Stefán Bragi Birgisson er bóndi og er á 3. sæti á lista Miðflokksins í Múlaþingi í sveitarstjórnarkosningum 2026.', interests: null, social: null,
         news: [{ title: 'Fyrrum sýslumaður leiðir Miðflokkinn í Múlaþingi', url: 'https://austurfrett.is/frettir/fyrrum-syslumadhur-leidhir-midhflokkinn-i-mulathingi', source: 'austurfrett.is' }],
       }],
@@ -9828,24 +9828,24 @@ const MUT = {
         age: null, bio: 'Jóhann Halldór Harðarson er ráðgjafi og er á 4. sæti á lista Miðflokksins í Múlaþingi í sveitarstjórnarkosningum 2026.', interests: null, social: null,
         news: [{ title: 'Fyrrum sýslumaður leiðir Miðflokkinn í Múlaþingi', url: 'https://austurfrett.is/frettir/fyrrum-syslumadhur-leidhir-midhflokkinn-i-mulathingi', source: 'austurfrett.is' }],
       }],
-      [5, 'Guðmunda Vala Jónasdóttir', 'Leikskólastjóri', null, {
+      [5, 'Guðmunda Vala Jónasdóttir', 'Leikskólastjóri', 'images/candidates/10e571b94aeb98ce.jpg', {
         age: null, bio: 'Guðmunda Vala Jónasdóttir er leikskólastjóri og er á 5. sæti á lista Miðflokksins í Múlaþingi í sveitarstjórnarkosningum 2026.', interests: null, social: null,
-        news: [{ title: 'Fyrrum sýslumaður leiðir Miðflokkinn í Múlaþingi', url: 'https://austurfrett.is/frettir/fyrrum-syslumadhur-leidhir-midhflokkinn-i-mulathingi', source: 'austurfrett.is' }],
+        news: [{ title: 'Fyrrum sýslumaður leiðir Miðflokkinn í Múlaþingi', url: 'https://austurfrett.is/frettir/fyrrum-syslumadhur-leidhir-midhflokkinn-i-m, 'images/candidates/c3449f33b373ed15.jpg'ulathingi', source: 'austurfrett.is' }],
       }],
-      [6, 'Viðar Gunnlaugur Hauksson', 'Framkvæmdastjóri'],
+      [6, 'Viðar Gunnlaugur Hauksson', 'Fram, 'images/candidates/9d64fa8d9540d70e.jpg'kvæmdastjóri'],
       [7, 'Ingibjörg Lárusdóttir', 'Kennari'],
       [8, 'Gestur Bergmann Gestsson', 'Bóndi'],
       [9, 'Berglind Sveinsdóttir', 'Vaktstjóri'],
       [10, 'Erlingur Hjörvar Guðjónsson', 'Rafmagnsiðnfræðingur'],
-      [11, 'Regína Margrét Friðfinnsdóttir', 'Eldri borgari'],
+      [11, 'Re, 'images/candidates/d2b2e6b42a73f61d.jpg'gína Margrét Friðfinnsdóttir', 'Eldri borga, 'images/candidates/66463c67302d3d68.jpg'ri'],
       [12, 'Ingunn Anna Þráinsdóttir', 'Grafískur hönnuður'],
       [13, 'Óli Stefánsson', 'Ýtustjóri'],
       [14, 'Guðjón Sigmundsson', 'Vélvirkjameistari'],
-      [15, 'Benedikt V. Warén', 'Rafeindavirkjameistari'],
-      [16, 'Sigurður Alex Sigurgeirsson', 'Meistari'],
+   , 'images/candidates/076a75c6a473ef52.png'   [15, 'Benedikt V. Warén', 'Rafeindavirkjameistari'],
+      [16, 'Sigurður Alex Sigurgeirsson', 'Meistar, 'images/candidates/b9f7faa5dd004a88.jpg'i'],
       [17, 'Harpa Hlín Jónasdóttir', 'Skólaliði'],
       [18, 'Stefán Scheving Einarsson', 'Verkamaður'],
-      [19, 'Grétar Heimir Helgason', 'Rafvirkjameistari'],
+   , 'images/candidates/387aa4ade8a289cf.png'   [19, 'Grétar Heimir Helgason', 'Rafvirkjameistari, 'images/candidates/5bd91eed4142b0fc.jpg''],
       [20, 'Sigurður Ragnarsson', 'Framkvæmdastjóri'],
       [21, 'Björn Ármann Ólafsson', 'Skógarbóndi'],
     
@@ -9940,11 +9940,11 @@ const MUT = {
         age: null, bio: 'Eyþór Stefánsson er verkefnastjóri og sveitarstjórnarfulltrúi frá Borgarfirði og er á 2. sæti á lista Austurlistans og Viðreisnar í Múlaþingi í sveitarstjórnarkosningum 2026.', interests: null, social: null,
         news: [{ title: 'Framboðslisti Austurlistans og Viðreisnar', url: 'https://kosningasaga.wordpress.com/2026/04/07/frambodslisti-austurlistans-og-vidreisnar/', source: 'kosningasaga' }],
       }],
-      [3, 'Urður Arna Ómarsdóttir', 'Aðstoðarleikskólastjóri', null, {
+      [3, 'Urður Arna Ómarsdóttir', 'Aðstoðarleikskólastjóri', 'images/candidates/bc53696fc81ae7fe.jpg', {
         age: null, bio: 'Urður Arna Ómarsdóttir er aðstoðarleikskólastjóri á Seyðisfjarðarskóla og meðlimur í stjórn Viðreisnar í Múlaþingi; hún er á 3. sæti á lista Austurlistans og Viðreisnar í sveitarstjórnarkosningum 2026.', interests: null, social: null,
         news: [{ title: 'Framboðslisti Austurlistans og Viðreisnar', url: 'https://kosningasaga.wordpress.com/2026/04/07/frambodslisti-austurlistans-og-vidreisnar/', source: 'kosningasaga' }],
       }],
-      [4, 'Jóhann Hjalti Þorsteinsson', 'Gjaldkeri og innheimtufulltrúi', null, {
+      [4, 'Jóhann Hjalti Þorsteinsson', 'Gjaldkeri og innheimtufulltrúi', 'images/candidates/64894834a00d87de.jpg', {
         age: null, bio: 'Jóhann Hjalti Þorsteinsson er umsjónarmaður á heimavist Menntaskólans á Egilsstöðum og skjalaritari á skrifstofu Múlaþings; hann er á 4. sæti á lista Austurlistans og Viðreisnar í Múlaþingi í sveitarstjórnarkosningum 2026.', interests: null, social: null,
         news: [{ title: 'Framboðslisti Austurlistans og Viðreisnar', url: 'https://kosningasaga.wordpress.com/2026/04/07/frambodslisti-austurlistans-og-vidreisnar/', source: 'kosningasaga' }],
       }],
