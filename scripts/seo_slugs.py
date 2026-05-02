@@ -28,7 +28,7 @@ PARTY_CODE_TO_SLUG = {
     'SCS': 'seltjarnarneslistinn',
     'BBL': 'borgarbyggdarlisti',
     'G':   'godir-reykjavik',
-    'R':   'rodull',
+    'R':   'okkar-borg',
     # Per-muni local lists.
     'FYRS': 'fyrir-samfelagid',
     'VOE':  'e-listinn',

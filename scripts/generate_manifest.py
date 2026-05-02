@@ -87,7 +87,7 @@ PARTY_LABELS = {
     "B": "Framsóknarflokkurinn",
     "S": "Samfylkingin",
     "V": "Vinstri Græn",
-    "A": "Vinstrið – grænt og framsækt",
+    "A": "Vinstrið",
     "P": "Píratar",
     "M": "Miðflokkurinn",
     "F": "Flokkur fólksins",
@@ -104,7 +104,7 @@ PARTY_LABELS = {
     "SCS":"Seltjarnarneslistinn",
     "BBL":"Borgarbyggðarlisti",
     "G":  "Góðir Reykjavík",
-    "R":  "Röðull",
+    "R":  "Okkar borg",
 }
 
 # ── Parser ────────────────────────────────────────────────────────────────────
