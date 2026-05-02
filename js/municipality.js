@@ -4,6 +4,7 @@ import { getMunicipalityPartyData } from './data/candidates.js?v=54';
 import { RESULTS_2022 } from './data/results2022.js?v=2';
 import { EYE_POSITIONS } from './data/eye_positions.js?v=1';
 import { getLang, t, renderLangSwitcher } from './i18n.js?v=3';
+import { partySlug, partyCodeFromSlug, slugify } from './data/party_slugs.js?v=1';
 
 // ─── i18n ──────────────────────────────────────────────────
 const lang = getLang();
@@ -57,8 +58,42 @@ function localAvatar(name) {
 
 // ─── Init ──────────────────────────────────────────────────
 
-const params = new URLSearchParams(window.location.search);
-const muniId = params.get('id') || 'reykjavik';
+/**
+ * Parse the route from EITHER the path (Phase 2 scheme:
+ * /[lang/]<muni>/<party-slug>/<candidate-slug>) OR the legacy query string
+ * (?id=X&party=Y&candidate=N). Path takes precedence when present.
+ *
+ * Returns { muniId, partySlug, partyCode, candidateSlug, candidateBallot, lang }.
+ * Candidate fields are resolved at runtime when path-based; the legacy
+ * ?candidate=<id> form returns a candidateBallot of the actual ID.
+ */
+function parseRoute() {
+  const pathSegs = window.location.pathname
+    .split('/').filter(s => s && !s.endsWith('.html'));
+  // /en/gardabaer/samfylkingin/kjartan-atli-kjartansson/
+  // ↑      ↑             ↑           ↑
+  // lang   muni          party       candidate
+  let langSeg = null;
+  let segs = pathSegs.slice();
+  if (segs.length && (segs[0] === 'en' || segs[0] === 'pl')) {
+    langSeg = segs.shift();
+  }
+  const sp = new URLSearchParams(window.location.search);
+  const muniId = segs[0] || sp.get('id') || 'reykjavik';
+  const partySlugStr = segs[1] || null;
+  const candidateSlug = segs[2] || null;
+  const known = MUNICIPALITIES.find(m => m.id === muniId)?.partyIds || [];
+  const partyCode = partySlugStr
+    ? partyCodeFromSlug(partySlugStr, known)
+    : sp.get('party') || null;
+  // candidate from legacy ?candidate=ID; for path-based, resolved later.
+  const candidateBallot = sp.get('candidate') || null;
+  return { muniId, partySlug: partySlugStr, partyCode, candidateSlug, candidateBallot, langOverride: langSeg };
+}
+
+const route = parseRoute();
+const params = new URLSearchParams(window.location.search);  // kept for backward compat
+const muniId = route.muniId;
 const muni = MUNICIPALITIES.find(m => m.id === muniId) || MUNICIPALITIES[0];
 
 document.getElementById('muni-name').textContent = muni.name;
@@ -74,9 +109,12 @@ function setCandidateMeta(c) { _candidateMetaOverride = c; updatePageMeta(); }
 function clearCandidateMeta() { _candidateMetaOverride = null; }
 
 function updatePageMeta() {
-  const sp = new URLSearchParams(window.location.search);
-  const partyCode = sp.get('party');
-  const candidateBallot = sp.get('candidate');
+  // Re-parse route on every call so URL changes (modal open/close, party
+  // expand/collapse) update the head dynamically — works for both path-based
+  // (Phase 2) and legacy query-param URLs.
+  const r = parseRoute();
+  const partyCode = r.partyCode;
+  const candidateBallot = r.candidateBallot || (r.candidateSlug ? 'path' : null);
   const muniName = muni.name;
   const electionPhrase = {
     is: 'Kosningar 2026',
@@ -225,9 +263,9 @@ if (isUnbound) {
     partyDataMap[code] = getMunicipalityPartyData(muni.id, code);
   });
 
-  // Honour ?party= deep-link param; otherwise open a random party
-  const paramParty     = params.get('party');
-  const paramCandidate = params.get('candidate');
+  // Honour deep-link party — from path (/<muni>/<party-slug>/) or legacy ?party=
+  const paramParty     = route.partyCode || params.get('party');
+  const paramCandidate = params.get('candidate');  // legacy id-based; path-based handled below
   const isDeepLink     = paramParty && muni.partyIds.includes(paramParty);
 
   const randomIndex = muni.partyIds.length > 1

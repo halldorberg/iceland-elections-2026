@@ -222,8 +222,12 @@ export const UI = {
   },
 };
 
-/** Active language: URL param → localStorage → 'is' */
+/** Active language: URL path prefix (/en/, /pl/) → URL param → localStorage → 'is' */
 export function getLang() {
+  // Phase 2: language is encoded in the URL path (/en/<muni>/, /pl/<muni>/)
+  const seg = window.location.pathname.split('/').filter(Boolean)[0];
+  if (seg && UI[seg]) return seg;
+  // Legacy fallback: ?lang=en
   const p = new URLSearchParams(window.location.search).get('lang');
   if (p && UI[p]) return p;
   const s = localStorage.getItem('lang');
@@ -236,13 +240,21 @@ export function t() {
   return UI[getLang()] || UI.is;
 }
 
-/** Switch language — persists to localStorage and reloads */
+/** Switch language — rewrites URL to use the new path prefix (or strips it
+ *  for IS), persists choice to localStorage, then navigates. */
 export function setLang(lang) {
   if (!UI[lang]) return;
   localStorage.setItem('lang', lang);
   const url = new URL(window.location.href);
-  if (lang === 'is') url.searchParams.delete('lang');
-  else url.searchParams.set('lang', lang);
+  // Drop legacy ?lang= param if present
+  url.searchParams.delete('lang');
+  // Strip an existing leading /en/ or /pl/ from path
+  let path = url.pathname.replace(/^\/(en|pl)(\/|$)/, '/');
+  if (lang !== 'is') {
+    // Add /en/ or /pl/ prefix
+    path = `/${lang}` + (path === '/' ? '/' : path);
+  }
+  url.pathname = path;
   window.location.href = url.toString();
 }
 
