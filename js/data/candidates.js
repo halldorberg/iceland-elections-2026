@@ -2174,7 +2174,7 @@ const AKU = {
           { title: 'Framboðslisti VG samþykktur á Akureyri', url: 'https://www.kaffid.is/frambodslisti-vg-samthykktur-a-akureyri/', source: 'kaffid.is' },
         ],
       }],
-      [2, 'Stefán Oddur Hrafnsson', 'Meistaranemi í uppeldis- og menntunarfræði', null, {
+      [2, 'Stefán Oddur Hrafnsson', 'Meistaranemi í uppeldis- og menntunarfræði', 'images/candidates/96a9c99ac903f93a.jpg', {
         age: null,
         bio: 'Stefán Oddur Hrafnsson er í meistaranámi í kennslufræðum og er í 2. sæti á lista VG á Akureyri í sveitarstjórnarkosningum 2026. Hann hefur ritað um samfélagsmál og grunngildi vinstrimanna í sveitarstjórnarmálum.',
         heimild: [{ url: 'https://www.vikubladid.is/is/moya/news/jana-salome-ingibjargar-josepsdottir-leidir-lista-vg-a-akureyri-i-komandi-sveitarstjornarkosningum', label: 'vikubladid.is' }],
@@ -2184,7 +2184,7 @@ const AKU = {
           { title: 'Jana Salóme Ingibjargar Jósepsdóttir leiðir lista VG á Akureyri í komandi sveitarstjórnarkosningum', url: 'https://www.vikubladid.is/is/moya/news/jana-salome-ingibjargar-josepsdottir-leidir-lista-vg-a-akureyri-i-komandi-sveitarstjornarkosningum', source: 'vikubladid.is' },
         ],
       }],
-      [3, 'Ásrún Ýr Gestsdóttir', 'Frumkvöðull', null, {
+      [3, 'Ásrún Ýr Gestsdóttir', 'Frumkvöðull', 'images/candidates/3bb976d88936a8e1.jpg', {
         age: null,
         bio: 'Ásrún Ýr Gestsdóttir er frumkvöðull og upprunin frá Hrísey og er í 3. sæti á lista VG á Akureyri í sveitarstjórnarkosningum 2026. Hún hefur áður verið á framboðslista VG á Akureyri.',
         heimild: [{ url: 'https://www.vikubladid.is/is/moya/news/jana-salome-ingibjargar-josepsdottir-leidir-lista-vg-a-akureyri-i-komandi-sveitarstjornarkosningum', label: 'vikubladid.is' }, { url: 'https://www.akureyri.net/is/frettir/frambodslisti-vg-samthykktur-i-dag', label: 'akureyri.net' }],
@@ -2194,7 +2194,7 @@ const AKU = {
           { title: 'Jana Salóme Ingibjargar Jósepsdóttir leiðir lista VG á Akureyri í komandi sveitarstjórnarkosningum', url: 'https://www.vikubladid.is/is/moya/news/jana-salome-ingibjargar-josepsdottir-leidir-lista-vg-a-akureyri-i-komandi-sveitarstjornarkosningum', source: 'vikubladid.is' },
         ],
       }],
-      [4, 'Sigtryggur Ellertsson', 'Kaupsýslumaður', null, {
+      [4, 'Sigtryggur Ellertsson', 'Kaupsýslumaður', 'images/candidates/23b9eaa9f589e397.jpg', {
         age: null,
         bio: 'Sigtryggur Ellertsson er vistvænn verslunareigandi og er í 4. sæti á lista VG á Akureyri í sveitarstjórnarkosningum 2026. Hann hefur ritað um þróun miðbæjarins á Akureyri og leggur áherslu á umhverfismál í atvinnurekstri sínum.',
         heimild: [{ url: 'https://www.vikubladid.is/is/moya/news/jana-salome-ingibjargar-josepsdottir-leidir-lista-vg-a-akureyri-i-komandi-sveitarstjornarkosningum', label: 'vikubladid.is' }, { url: 'https://kaffid.is/vid-thurfum-lifandi-midbae/', label: 'kaffid.is' }],
@@ -2204,7 +2204,7 @@ const AKU = {
           { title: 'Jana Salóme Ingibjargar Jósepsdóttir leiðir lista VG á Akureyri í komandi sveitarstjórnarkosningum', url: 'https://www.vikubladid.is/is/moya/news/jana-salome-ingibjargar-josepsdottir-leidir-lista-vg-a-akureyri-i-komandi-sveitarstjornarkosningum', source: 'vikubladid.is' },
         ],
       }],
-      [5, 'Herdís Júlía Júlíusdóttir', 'Iðnnemi', null, {
+      [5, 'Herdís Júlía Júlíusdóttir', 'Iðnnemi', 'images/candidates/fd51a7941d07aa6e.jpg', {
         age: null,
         bio: 'Herdís Júlía Júlíusdóttir er iðjuþjálfi í námi og er í 5. sæti á lista VG á Akureyri í sveitarstjórnarkosningum 2026. Hún hefur verið á framboðslista VG á Akureyri í fyrri kosningum og er hluti af nýrri kynslóð vinstrimanna á Norðurlandi.',
         heimild: [{ url: 'https://www.vikubladid.is/is/moya/news/jana-salome-ingibjargar-josepsdottir-leidir-lista-vg-a-akureyri-i-komandi-sveitarstjornarkosningum', label: 'vikubladid.is' }],
@@ -3937,7 +3937,7 @@ const KOP = {
           { title: 'Framboðslisti VG í Kópavogi samþykktur', url: 'https://www.kopavogsbladid.is/frambodslisti-vg-i-kopavogi-samthykktur/', source: 'kopavogsbladid.is' },
         ],
       }],
-      [2, 'Bjarki Valberg', 'Skipulagsfræðingur', null, {
+      [2, 'Bjarki Valberg', 'Skipulagsfræðingur', 'images/candidates/89bfbd35f162c70b.jpg', {
         age: null,
         bio: 'Bjarki Valberg er skipulagsfræðingur og starfsmaður umhverfissviðs Kópavogsbæjar. Hann er í öðru sæti á framboðslista Vinstri grænna og óháðra í Kópavogi 2026.',
         heimild: [{ url: 'https://www.mbl.is/frettir/innlent/2026/04/09/anna_sigridur_leidir_lista_vinstri_graenna_og_ohadr/', label: 'mbl.is' }],
@@ -3945,7 +3945,7 @@ const KOP = {
         social: null,
         news: [],
       }],
-      [3, 'Kjartan Sveinn Guðmundsson', 'Laganemi og barþjónn', null, {
+      [3, 'Kjartan Sveinn Guðmundsson', 'Laganemi og barþjónn', 'images/candidates/3c6f51aef12b0d67.jpg', {
         age: null,
         bio: 'Kjartan Sveinn Guðmundsson er laganemi og barþjónn. Hann hefur skrifað greinar í Heimildin um ýmis málefni, meðal annars skólakerfið og skipulagsmál, og er þekktur sem greinarhöfundur hjá Nemendum fyrir Palestínu við Háskóla Íslands.',
         heimild: [{ url: 'https://heimildin.is/heimildin/folk/kjartan-sveinn-gudmundsson/', label: 'Heimildin' }],
@@ -3953,7 +3953,7 @@ const KOP = {
         social: null,
         news: [],
       }],
-      [4, 'Védís Einarsdóttir', 'Iðjuþjálfi', null, {
+      [4, 'Védís Einarsdóttir', 'Iðjuþjálfi', 'images/candidates/704a7c07b6b2ecf0.jpg', {
         age: null,
         bio: 'Víðís Einarsdóttir er iðjuþjálfi og er í fjórða sæti á framboðslista Vinstri grænna og óháðra í Kópavogi 2026.',
         heimild: [{ url: 'https://www.mbl.is/frettir/innlent/2026/04/09/anna_sigridur_leidir_lista_vinstri_graenna_og_ohadr/', label: 'mbl.is' }],
@@ -4031,7 +4031,7 @@ const HAF = {
           { title: 'Ester Bíbí leiðir lista Vinstrisins í Hafnarfirði', url: 'https://www.fjardarfrettir.is/frettir/politik/ester-bibi-leidir-lista-vinstrisins-i-hafnarfirdi', source: 'fjardarfrettir.is' },
         ],
       }],
-      [3, 'Davíð Arnar Stefánsson', 'Landfræðingur, fjallaleiðsögumaður', null, {
+      [3, 'Davíð Arnar Stefánsson', 'Landfræðingur, fjallaleiðsögumaður', 'images/candidates/19496dc52f84b77e.jpg', {
         age: null,
         bio: 'Davíð Arnar Stefánsson er landfræðingur og fjallaleiðsögumaður sem starfar hjá Landgræðslunni á sviði sjálfbærni og loftslags. Hann er einnig menntaður garðyrkjufræðingur og húsasmiður, er fæddur og uppalinn í Hafnarfirði og hefur um árabil tekið þátt í þjóðfélagsumræðu um þróun bæjarins.',
         heimild: [{ url: 'https://www.fjardarfrettir.is/frettir/david-arnar-stefansson-vill-leida-lista-vg-i-hafnarfirdi', label: 'Fjarðarfréttir' }, { url: 'https://www.fjardarfrettir.is/frettir/politik/ester-bibi-leidir-lista-vinstrisins-i-hafnarfirdi', label: 'Fjarðarfréttir' }],
@@ -4041,7 +4041,7 @@ const HAF = {
           { title: 'Ester Bíbí leiðir lista Vinstrisins í Hafnarfirði', url: 'https://www.fjardarfrettir.is/frettir/politik/ester-bibi-leidir-lista-vinstrisins-i-hafnarfirdi', source: 'fjardarfrettir.is' },
         ],
       }],
-      [4, 'Guðrún Lína Thoroddsen', 'Kvikmyndagerðarmaður', null, {
+      [4, 'Guðrún Lína Thoroddsen', 'Kvikmyndagerðarmaður', 'images/candidates/7223d5feb1b8e24b.jpg', {
         age: null,
         bio: 'Guðrún Lína Thoroddsen er kvikmyndagerðarmaður. Hún er á framboðslista Vinstrisins í Hafnarfirði fyrir sveitarstjórnarkosningarnar 2026.',
         heimild: [{ url: 'https://www.fjardarfrettir.is/frettir/politik/ester-bibi-leidir-lista-vinstrisins-i-hafnarfirdi', label: 'Fjarðarfréttir' }],
@@ -4051,7 +4051,7 @@ const HAF = {
           { title: 'Ester Bíbí leiðir lista Vinstrisins í Hafnarfirði', url: 'https://www.fjardarfrettir.is/frettir/politik/ester-bibi-leidir-lista-vinstrisins-i-hafnarfirdi', source: 'fjardarfrettir.is' },
         ],
       }],
-      [5, 'Margrét Pétursdóttir', 'Leiðsögumaður', null, {
+      [5, 'Margrét Pétursdóttir', 'Leiðsögumaður', 'images/candidates/31f80989976efab2.jpg', {
         age: null,
         bio: 'Margrét Pétursdóttir er leiðsögumaður. Hún er á framboðslista Vinstrisins í Hafnarfirði fyrir sveitarstjórnarkosningarnar 2026.',
         heimild: [{ url: 'https://www.fjardarfrettir.is/frettir/politik/ester-bibi-leidir-lista-vinstrisins-i-hafnarfirdi', label: 'Fjarðarfréttir' }],
@@ -4061,7 +4061,7 @@ const HAF = {
           { title: 'Ester Bíbí leiðir lista Vinstrisins í Hafnarfirði', url: 'https://www.fjardarfrettir.is/frettir/politik/ester-bibi-leidir-lista-vinstrisins-i-hafnarfirdi', source: 'fjardarfrettir.is' },
         ],
       }],
-      [6, 'Anna Sigríður Sigurðardóttir', 'Framhaldsskólakennari'],
+      [6, 'Anna Sigríður Sigurðardóttir', 'Framhaldsskólakennari', 'images/candidates/0ba0016b79c0c9e5.jpg'],
       [7, 'Fjölnir Sæmundsson', 'Formaður Landssamb. Lögreglumanna'],
       [8, 'Elísabet Kristjánsdóttir', 'Mannfræðingur og skáld'],
       [9, 'Elsa Sigríður Þorvaldsdóttir', 'Iðjuþjálfi, meistaragráða í heilbrigðisvísindum'],
@@ -8977,11 +8977,11 @@ const BBD = {
     tagline: 'Borgarbyggðarlistinn — A-listi',
     agenda: [],
     list: [
-      [1, 'Jovana Pavlović', 'Frambjóðandi'],
-      [2, 'Hermann B. Valsson', 'Frambjóðandi'],
-      [3, 'Guðrún Vala Elísdóttir', 'Frambjóðandi'],
-      [4, 'Bjarni Bequette', 'Frambjóðandi'],
-      [5, 'Friðrik Aspelund', 'Frambjóðandi'],
+      [1, 'Jovana Pavlović', 'Frambjóðandi', 'images/candidates/75627107873c7dd4.jpg'],
+      [2, 'Hermann B. Valsson', 'Frambjóðandi', 'images/candidates/915a523717840bd2.jpg'],
+      [3, 'Guðrún Vala Elísdóttir', 'Frambjóðandi', 'images/candidates/ae2a9d8390629cb0.jpg'],
+      [4, 'Bjarni Bequette', 'Frambjóðandi', 'images/candidates/2176fe83f49439c0.jpg'],
+      [5, 'Friðrik Aspelund', 'Frambjóðandi', 'images/candidates/1f770b9552431d17.jpg'],
       [6, 'Sólveig Hallsteinsdóttir', 'Frambjóðandi'],
       [7, 'Lárus Elíasson', 'Frambjóðandi'],
       [8, 'Þorsteinn Eyþórsson', 'Frambjóðandi'],
@@ -9863,7 +9863,7 @@ const MUT = {
       { icon: '❤️', title: 'Heilbrigði og lífsgæði', text: 'Öflug heilbrigðis- og velferðarþjónusta með áherslu á jöfn tækifæri fyrir alla íbúa, óháð búsetu.' },
     ],
     list: [
-      [1, 'Ásrún Mjöll Stefánsdóttir', 'Sveitarstjórnarfulltrúi og húsasmiður', null, {
+      [1, 'Ásrún Mjöll Stefánsdóttir', 'Sveitarstjórnarfulltrúi og húsasmiður', 'images/candidates/788eda811e248051.jpg', {
         age: null,
         bio: 'Ásrún Mjöll Stefánsdóttir er húsasmiður frá Seyðisfirði og hefur setið í sveitarstjórn Múlaþings á vegum VG. Hún hefur barist fyrir umhverfismálum á Austurlandi, meðal annars lagði hún til að mælingatæki yrðu sett upp til að mæla loftmengun í höfnum Múlaþings vegna skemmtiferðaskipa í Seyðisfirði. Hún leiðir sameiginlegan lista VG og óháðra í Múlaþingi í kosningum 2026.',
         heimild: [{ url: 'https://austurfrett.is/frettir/fyrrum-syslumadhur-leidhir-midhflokkinn-i-mulathingi', label: 'austurfrett.is' }],
@@ -9880,11 +9880,11 @@ const MUT = {
         age: null, bio: 'Helgi Hlynur Ásgrímsson er fiskeldisbóndi og sveitarstjórnarfulltrúi Múlaþings; hann er á 2. sæti á lista VG og óháðra í Múlaþingi í sveitarstjórnarkosningum 2026.', interests: null, social: null,
         news: [{ title: 'Framboðslisti VG og óháðra í Múlaþingi', url: 'https://kosningasaga.wordpress.com/2026/03/27/frambodslisti-vg-og-ohadra-i-mulathingi/', source: 'kosningasaga' }],
       }],
-      [3, 'Glúmur Björnsson', 'Jarðfræðingur', null, {
+      [3, 'Glúmur Björnsson', 'Jarðfræðingur', 'images/candidates/ad3865e4b6f29ef5.jpg', {
         age: null, bio: 'Glúmur Björnsson er á 3. sæti á framboðslista VG og óháðra í Múlaþingi í sveitarstjórnarkosningum 2026.', interests: null, social: null,
         news: [{ title: 'Framboðslisti VG og óháðra í Múlaþingi', url: 'https://kosningasaga.wordpress.com/2026/03/27/frambodslisti-vg-og-ohadra-i-mulathingi/', source: 'kosningasaga' }],
       }],
-      [4, 'Guðrún Ásta Tryggvadóttir', 'Kennari', null, {
+      [4, 'Guðrún Ásta Tryggvadóttir', 'Kennari', 'images/candidates/9b9f31e50ba856bd.jpg', {
         age: null, bio: 'Guðrún Ásta Tryggvadóttir er kennari frá Seyðisfirði og er á 4. sæti á lista VG og óháðra í Múlaþingi í sveitarstjórnarkosningum 2026.', interests: null, social: null,
         news: [{ title: 'Framboðslisti VG og óháðra í Múlaþingi', url: 'https://kosningasaga.wordpress.com/2026/03/27/frambodslisti-vg-og-ohadra-i-mulathingi/', source: 'kosningasaga' }],
       }],
