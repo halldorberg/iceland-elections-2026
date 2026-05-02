@@ -66,6 +66,13 @@ document.getElementById('muni-region').textContent = muni.region;
 document.documentElement.lang = lang;
 
 // ─── SEO: dynamic title / meta description / canonical / og per route ────
+// Optional explicit candidate override — set by openModal so we can label
+// the page with the candidate's actual name without depending on a
+// module-level lookup (which has TDZ issues at initial-call time).
+let _candidateMetaOverride = null;
+function setCandidateMeta(c) { _candidateMetaOverride = c; updatePageMeta(); }
+function clearCandidateMeta() { _candidateMetaOverride = null; }
+
 function updatePageMeta() {
   const sp = new URLSearchParams(window.location.search);
   const partyCode = sp.get('party');
@@ -97,12 +104,12 @@ function updatePageMeta() {
   }[lang] || ((n, p, m) => `${n} — ${p} — ${m}`);
 
   let title, desc;
-  // candidate-level title is set separately (see updateCandidateMeta) when the
-  // modal opens, since the candidate name isn't available until after the data
-  // load. For URL-based initial render we only do muni + party level here.
-  void candidateBallot;
-  void candidateLead;
-  if (partyCode) {
+  if (candidateBallot && _candidateMetaOverride && partyCode) {
+    const party = PARTIES[partyCode] || { name: partyCode };
+    const cName = _candidateMetaOverride.name;
+    title = `${cName} — ${party.name} — ${muniName}`;
+    desc = candidateLead(cName, party.name, muniName);
+  } else if (partyCode) {
     const party = PARTIES[partyCode] || { name: partyCode };
     title = `${party.name} — ${muniName} — ${electionPhrase}`;
     desc = partyLead(party.name, muniName);
@@ -110,6 +117,8 @@ function updatePageMeta() {
     title = `${muniName} — ${electionPhrase}`;
     desc = compareLead(muniName);
   }
+  // Suppress unused-var warnings if no path uses this branch's lead
+  void candidateBallot;
 
   // Trim title to ~60 chars (Google's typical truncation point)
   if (title.length > 60) title = title.slice(0, 57) + '…';
@@ -889,6 +898,8 @@ function openModal(id) {
   const u = new URL(window.location.href);
   u.searchParams.set('party', c.partyCode);
   u.searchParams.set('candidate', id);
+  // Tell updatePageMeta about this candidate before pushState fires the hook
+  setCandidateMeta(c);
   history.pushState({ candidate: id }, '', u);
 
   // Wire share button for this candidate
@@ -904,6 +915,7 @@ function openModal(id) {
 function closeModal(updateHistory = true) {
   overlay.classList.remove('is-open');
   document.body.style.overflow = '';
+  clearCandidateMeta();
   if (updateHistory) {
     const u = new URL(window.location.href);
     u.searchParams.delete('candidate');
