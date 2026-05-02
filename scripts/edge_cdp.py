@@ -51,8 +51,8 @@ def send(ws, method, params=None):
             return msg
 
 
-def attach(tab):
-    ws = websocket.create_connection(tab["webSocketDebuggerUrl"], timeout=30)
+def attach(tab, timeout=30):
+    ws = websocket.create_connection(tab["webSocketDebuggerUrl"], timeout=timeout)
     return ws
 
 
@@ -131,7 +131,8 @@ def cmd_eval(tab_id, expr):
     if not t:
         print(f"no tab matching {tab_id}"); sys.exit(1)
     ws = attach(t)
-    val = evaluate(ws, expr)
+    # Always await promises — safe, returns plain values unchanged
+    val = evaluate(ws, expr, await_promise=True)
     ws.close()
     print(json.dumps(val, ensure_ascii=False, indent=2) if not isinstance(val, str) else val)
 
