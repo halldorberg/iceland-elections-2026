@@ -319,79 +319,157 @@ def apply_policy(src: str, results: list[dict], dry_run: bool) -> tuple[str, int
 
 # ── Bios applier ─────────────────────────────────────────────────────────────
 
+def _build_extended_block(bio: str | None, age, interests, social, sources) -> str:
+    """Build a fresh extended-data block for a plain row.
+    Format: { age: ..., bio: '...', interests: [...] | null, social: {...} | null,
+              heimild: [...] | null, news: [] }"""
+    parts = []
+    parts.append(f"age: {int(age)}" if age is not None else "age: null")
+    if bio:
+        parts.append(f"bio: '{escape_js(bio)}'")
+    else:
+        parts.append("bio: null")
+    if interests:
+        items = ", ".join(f"'{escape_js(i)}'" for i in interests)
+        parts.append(f"interests: [{items}]")
+    else:
+        parts.append("interests: null")
+    if social:
+        pairs = ", ".join(f"{k}: '{escape_js(v)}'" for k, v in social.items() if v)
+        parts.append(f"social: {{ {pairs} }}")
+    else:
+        parts.append("social: null")
+    if sources:
+        items = ", ".join(
+            "{ url: '" + escape_js(s.get("url", "")) + "', label: '" + escape_js(s.get("label", "")) + "' }"
+            for s in sources if s.get("url")
+        )
+        if items:
+            parts.append(f"heimild: [{items}]")
+        else:
+            parts.append("heimild: null")
+    else:
+        parts.append("heimild: null")
+    parts.append("news: []")
+    return "{ " + ", ".join(parts) + " }"
+
+
 def apply_bios(src: str, results: list[dict], dry_run: bool) -> tuple[str, int]:
     """
-    For each result entry, update the candidate's extended data block with
-    bio, age, interests, and/or social fields (whichever are provided).
-    Only works for candidates that already have an extended {age:..., bio:...} block.
+    For each result entry:
+      - If the candidate already has an extended {age:..., bio:...} block, update the
+        provided fields (bio/age/interests/social/heimild) in place.
+      - Otherwise, if the row is `[ballot, 'name', 'occ', 'images/...']` (plain),
+        extend it by appending a fresh extended block.
+      - Plain rows without a photo column are skipped (we never add bios to candidates
+        who don't yet have a photo).
     """
     changed = 0
     for entry in results:
         name = entry["name"]
         name_escaped = re.escape(escape_js(name))
 
-        # Find the candidate's extended block, scoped to the muni's const block
-        # so we don't update a same-name candidate from another muni.
         muni_slug = entry.get("muni_slug")
         search_start, search_end = 0, len(src)
         if muni_slug:
             ms, me = _muni_const_range(src, muni_slug)
             if ms is not None:
                 search_start, search_end = ms, me
+
+        # Path 1: candidate has an extended block — update in place.
         block_re = re.compile(
             r"(\[\d+\s*,\s*'" + name_escaped + r"'.*?\{)(.*?)(\}(?:\]|,\s*\]))",
             re.DOTALL
         )
         m = block_re.search(src, search_start, search_end)
-        if not m:
-            where = f" in {muni_slug}" if muni_slug else ""
-            print(f"  ⚠ Could not find extended block for: {name}{where}")
+        if m:
+            block = m.group(2)
+
+            bio = entry.get("bio")
+            if bio:
+                bio_escaped = escape_js(bio)
+                if re.search(r"bio\s*:\s*null", block):
+                    block = re.sub(r"bio\s*:\s*null", f"bio: '{bio_escaped}'", block, count=1)
+                elif re.search(r"bio\s*:\s*'", block):
+                    block = re.sub(r"bio\s*:\s*'(?:[^'\\]|\\.)*'", f"bio: '{bio_escaped}'", block, count=1)
+
+            age = entry.get("age")
+            if age is not None:
+                if re.search(r"age\s*:\s*null", block):
+                    block = re.sub(r"age\s*:\s*null", f"age: {int(age)}", block, count=1)
+
+            interests = entry.get("interests")
+            if interests:
+                items = ", ".join(f"'{escape_js(i)}'" for i in interests)
+                arr = f"[{items}]"
+                if re.search(r"interests\s*:\s*null", block):
+                    block = re.sub(r"interests\s*:\s*null", f"interests: {arr}", block, count=1)
+
+            social = entry.get("social")
+            if social:
+                pairs = ", ".join(f"{k}: '{escape_js(v)}'" for k, v in social.items() if v)
+                obj = f"{{ {pairs} }}"
+                if re.search(r"social\s*:\s*null", block):
+                    block = re.sub(r"social\s*:\s*null", f"social: {obj}", block, count=1)
+
+            sources = entry.get("sources") or entry.get("heimild")
+            if sources:
+                items = ", ".join(
+                    "{ url: '" + escape_js(s.get("url", "")) + "', label: '" + escape_js(s.get("label", "")) + "' }"
+                    for s in sources if s.get("url")
+                )
+                arr = f"[{items}]"
+                if re.search(r"heimild\s*:\s*null", block):
+                    block = re.sub(r"heimild\s*:\s*null", f"heimild: {arr}", block, count=1)
+                elif "heimild" not in block and items:
+                    # Inject heimild after bio
+                    block = re.sub(r"(bio\s*:\s*'(?:[^'\\]|\\.)*',)", r"\1 heimild: " + arr + ",", block, count=1)
+
+            new_segment = m.group(1) + block + m.group(3)
+            if new_segment == m.group(0):
+                print(f"  ✓ {name}: nothing to update (fields already set or not provided)")
+                continue
+            if dry_run:
+                print(f"  [DRY RUN] {name}: would update existing extended block")
+            else:
+                src = src[:m.start()] + new_segment + src[m.end():]
+                print(f"  ✓ {name}: extended block updated")
+                changed += 1
             continue
 
-        block = m.group(2)
-
-        # Apply bio
-        bio = entry.get("bio")
-        if bio:
-            bio_escaped = escape_js(bio)
-            if re.search(r"bio\s*:\s*null", block):
-                block = re.sub(r"bio\s*:\s*null", f"bio: '{bio_escaped}'", block, count=1)
-            elif re.search(r"bio\s*:\s*'", block):
-                block = re.sub(r"bio\s*:\s*'(?:[^'\\]|\\.)*'", f"bio: '{bio_escaped}'", block, count=1)
-
-        # Apply age
-        age = entry.get("age")
-        if age is not None:
-            if re.search(r"age\s*:\s*null", block):
-                block = re.sub(r"age\s*:\s*null", f"age: {int(age)}", block, count=1)
-
-        # Apply interests
-        interests = entry.get("interests")
-        if interests:
-            items = ", ".join(f"'{escape_js(i)}'" for i in interests)
-            arr = f"[{items}]"
-            if re.search(r"interests\s*:\s*null", block):
-                block = re.sub(r"interests\s*:\s*null", f"interests: {arr}", block, count=1)
-
-        # Apply social
-        social = entry.get("social")
-        if social:
-            pairs = ", ".join(f"{k}: '{escape_js(v)}'" for k, v in social.items() if v)
-            obj = f"{{ {pairs} }}"
-            if re.search(r"social\s*:\s*null", block):
-                block = re.sub(r"social\s*:\s*null", f"social: {obj}", block, count=1)
-
-        new_segment = m.group(1) + block + m.group(3)
-        if new_segment == m.group(0):
-            print(f"  ✓ {name}: nothing to update (fields already set or not provided)")
+        # Path 2: plain row with photo — extend it.
+        # `[N, 'name', 'occ', 'images/...']` (with or without trailing comma)
+        plain_with_photo_re = re.compile(
+            r"(\[\d+\s*,\s*'" + name_escaped + r"'\s*,\s*'[^']*?'\s*,\s*'images/[^']+')\s*\]",
+        )
+        m = plain_with_photo_re.search(src, search_start, search_end)
+        if m:
+            new_block = _build_extended_block(
+                entry.get("bio"),
+                entry.get("age"),
+                entry.get("interests"),
+                entry.get("social"),
+                entry.get("sources") or entry.get("heimild"),
+            )
+            replacement = m.group(1) + ", " + new_block + "]"
+            if dry_run:
+                print(f"  [DRY RUN] {name}: would add new extended block (plain row + photo)")
+            else:
+                src = src[:m.start()] + replacement + src[m.end():]
+                print(f"  ✓ {name}: extended block added (plain row + photo)")
+                changed += 1
             continue
 
-        if dry_run:
-            print(f"  [DRY RUN] {name}: would update bio/age/interests/social")
-        else:
-            src = src[:m.start()] + new_segment + src[m.end():]
-            print(f"  ✓ {name}: bio/age/interests/social updated")
-            changed += 1
+        # Path 3: plain row without photo — skip.
+        plain_no_photo_re = re.compile(
+            r"\[\d+\s*,\s*'" + name_escaped + r"'\s*,\s*'[^']*?'\s*\]",
+        )
+        if plain_no_photo_re.search(src, search_start, search_end):
+            print(f"  ⚠ {name}: row has no photo column — skipping (add photo first)")
+            continue
+
+        where = f" in {muni_slug}" if muni_slug else ""
+        print(f"  ⚠ Could not find candidate row for: {name}{where}")
 
     return src, changed
 

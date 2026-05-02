@@ -62,9 +62,19 @@ def bio_section(bios):
                 if v:
                     social += f'<a href="{e(v)}" target="_blank" class="social-link">{k}</a> '
         sources_html = ''
-        for url in (b.get('sources') or []):
-            domain = url.split('/')[2] if url.startswith('http') else url
-            sources_html += f'<a href="{e(url)}" target="_blank" class="source-link">🔗 {e(domain)}</a> '
+        for src in (b.get('sources') or b.get('heimild') or []):
+            # Sources may be plain URL strings OR {url, label} dicts.
+            if isinstance(src, dict):
+                url   = src.get('url', '')
+                label = src.get('label') or (url.split('/')[2] if url.startswith('http') else url)
+            else:
+                url   = src
+                label = url.split('/')[2] if url.startswith('http') else url
+            if url:
+                sources_html += f'<a href="{e(url)}" target="_blank" class="source-link">🔗 {e(label)}</a> '
+        skipped_reason = b.get('skipped_reason')
+        if skipped_reason and not b.get('bio'):
+            sources_html = f'<span style="color:var(--yellow);font-size:11px">⏭ skipped: {e(skipped_reason)}</span>'
         sources_row = f'<div class="sources-row">{sources_html}</div>' if sources_html else ''
 
         rows += f'''
