@@ -49,6 +49,10 @@ LOCALES = {
             f'{p} — {m} — stefnumál og frambjóðendur fyrir sveitarstjórnarkosningar 2026. '
             f'Berðu listann saman við önnur framboð.'
         ),
+        'candidate_lead': lambda n, occ, p, m: (
+            f'{n} — {p} — {m}. {occ}. Frambjóðandi í sveitarstjórnarkosningum 2026. '
+            f'Sjá æviágrip, áherslur og fréttir.'
+        ),
     },
     'en': {
         'lang_html': 'en',
@@ -61,6 +65,10 @@ LOCALES = {
         'party_lead': lambda p, m: (
             f'{p} — {m} — platform and candidates for the 2026 local elections. '
             f'Compare with other parties on the ballot.'
+        ),
+        'candidate_lead': lambda n, occ, p, m: (
+            f'{n} — {p} — {m}. {occ}. Candidate in the 2026 local elections. '
+            f'See bio, focus areas and news.'
         ),
     },
     'pl': {
@@ -75,8 +83,145 @@ LOCALES = {
             f'{p} — {m} — program i kandydaci w wyborach samorządowych 2026. '
             f'Porównaj z innymi listami.'
         ),
+        'candidate_lead': lambda n, occ, p, m: (
+            f'{n} — {p} — {m}. {occ}. Kandydat w wyborach samorządowych 2026. '
+            f'Zobacz biografię, priorytety i aktualności.'
+        ),
     },
 }
+
+
+def parse_candidates_top_n(n: int = 6) -> dict:
+    """Walk candidates.js and return:
+        { (muni_slug, party_code) : [ {ballot, name, occupation, photo, bio_first_sentence}, ... ] }
+    Limited to ballot positions 1..n. Photo paths are normalised to root-absolute.
+    """
+    src = CANDIDATES_JS.read_text(encoding='utf-8')
+    real_data = re.search(r'const REAL_DATA\s*=\s*\{([^}]+)\}', src, re.DOTALL).group(1)
+    var_to_slug = {const_id: slug for slug, const_id
+                   in re.findall(r'(\w+)\s*:\s*([A-Z_]+)\s*,', real_data)}
+    out = {}
+    for cb in re.finditer(r'\bconst\s+([A-Z][A-Z0-9_]+)\s*=\s*\{', src):
+        var_name = cb.group(1)
+        if var_name == 'REAL_DATA':
+            continue
+        muni_slug = var_to_slug.get(var_name)
+        if not muni_slug:
+            continue
+        # Walk to end of var block
+        start, depth = cb.end() - 1, 0
+        pos = start
+        while pos < len(src):
+            if src[pos] == '{':
+                depth += 1
+            elif src[pos] == '}':
+                depth -= 1
+                if depth == 0:
+                    break
+            pos += 1
+        block = src[start:pos + 1]
+        # Walk parties
+        for pm in re.finditer(r'\b([A-Z][A-Z0-9]{0,3})\s*:\s*\{', block):
+            pc = pm.group(1)
+            p_start, d2 = pm.end() - 1, 0
+            pp = p_start
+            while pp < len(block):
+                if block[pp] == '{':
+                    d2 += 1
+                elif block[pp] == '}':
+                    d2 -= 1
+                    if d2 == 0:
+                        break
+                pp += 1
+            pb = block[p_start:pp + 1]
+            lm = re.search(r'\blist\s*:\s*\[', pb)
+            if not lm:
+                continue
+            ls, d3 = lm.end() - 1, 0
+            lp = ls
+            while lp < len(pb):
+                if pb[lp] == '[':
+                    d3 += 1
+                elif pb[lp] == ']':
+                    d3 -= 1
+                    if d3 == 0:
+                        break
+                lp += 1
+            list_block = pb[ls:lp + 1]
+            # Walk each candidate row by bracket-balancing — extended blocks
+            # contain nested {} and [] which a flat regex can't span.
+            rows = []
+            i = 0
+            while i < len(list_block):
+                # Find next "[<digit>" at row depth — capture the [ as group 1 so
+                # row_start points at it.
+                m = re.search(r"\n\s+(\[)(\d+)\s*,\s*'", list_block[i:])
+                if not m:
+                    break
+                row_start = i + m.start(1)  # position of '['
+                ballot = int(m.group(2))
+                # Walk brackets to find matching ']'
+                d, k = 0, row_start
+                while k < len(list_block):
+                    ch = list_block[k]
+                    if ch == "'":
+                        # Skip string literal (handle escaped ')
+                        k += 1
+                        while k < len(list_block):
+                            if list_block[k] == "\\":
+                                k += 2
+                                continue
+                            if list_block[k] == "'":
+                                break
+                            k += 1
+                    elif ch == '[':
+                        d += 1
+                    elif ch == ']':
+                        d -= 1
+                        if d == 0:
+                            break
+                    k += 1
+                row_text = list_block[row_start:k + 1]
+                i = k + 1  # advance past this row
+                if ballot > n:
+                    continue
+                # Within row_text, parse name + occupation + photo + bio
+                fm = re.match(
+                    r"\[\s*\d+\s*,\s*"
+                    r"'((?:[^'\\]|\\.)*?)'\s*,\s*"
+                    r"'((?:[^'\\]|\\.)*?)'"
+                    r"(?:\s*,\s*(null|'(?:[^'\\]|\\.)*?'))?",
+                    row_text, re.DOTALL,
+                )
+                if not fm:
+                    continue
+                name = fm.group(1).replace("\\'", "'")
+                occupation = fm.group(2).replace("\\'", "'")
+                photo_raw = fm.group(3)
+                photo = None
+                if photo_raw and photo_raw != 'null':
+                    photo = photo_raw.strip("'").replace("\\'", "'")
+                # Bio anywhere in the row's extended block — truncated to 160
+                # chars at word boundary. Avoid first-sentence splitting because
+                # Icelandic dates like "23. maí 1984" trip a naive regex.
+                bio = None
+                bm = re.search(r"bio\s*:\s*'((?:[^'\\]|\\.)*)'", row_text, re.DOTALL)
+                if bm:
+                    bio_full = bm.group(1).replace("\\'", "'")
+                    if len(bio_full) <= 160:
+                        bio = bio_full
+                    else:
+                        cut = bio_full[:157]
+                        # Trim back to last word boundary
+                        sp = cut.rfind(' ')
+                        bio = (cut[:sp] if sp > 100 else cut) + '…'
+                rows.append({
+                    'ballot': ballot, 'name': name, 'occupation': occupation,
+                    'photo': photo, 'bio': bio,
+                })
+            if rows:
+                out[(muni_slug, pc)] = sorted(rows, key=lambda r: r['ballot'])
+    return out
 
 
 def parse_munis():
@@ -218,6 +363,30 @@ def jsonld_party(party_name: str, muni_name: str, party_url: str, lang: str) -> 
             "name": muni_name,
         },
     })
+
+
+def jsonld_person(name: str, occupation: str, party_name: str, party_url: str,
+                  muni_name: str, photo_url: str = None, bio: str = None) -> str:
+    obj = {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": name,
+        "jobTitle": occupation,
+        "affiliation": {
+            "@type": "Organization",
+            "name": f"{party_name} — {muni_name}",
+            "url": party_url,
+        },
+        "homeLocation": {
+            "@type": "Place",
+            "name": muni_name,
+        },
+    }
+    if photo_url:
+        obj["image"] = photo_url
+    if bio:
+        obj["description"] = bio
+    return jsonld_block(obj)
 
 
 def jsonld_event(muni_name: str, lang: str) -> str:
@@ -427,6 +596,80 @@ def main():
                     written += 1
                 else:
                     skipped += 1
+
+    # ── Per-candidate stubs (top-6 ballot positions per party) ──────────
+    # These give Google a 200 status + route-specific Person JSON-LD + portrait
+    # og:image instead of the 404.html SPA fallback. Adds ~1k × 3 = ~3k stubs.
+    candidates_by_party = parse_candidates_top_n(n=6)
+    for muni_dict in munis:
+        muni_id = muni_dict['id']
+        muni_name = muni_dict['name']
+        for code in muni_dict['party_codes']:
+            party_slug_str = party_slug(code)
+            party_name = party_display_name(code)
+            rows = candidates_by_party.get((muni_id, code), [])
+            for cand in rows:
+                cname = cand['name']
+                cslug = slugify(cname)
+                if not cslug:
+                    continue
+                photo_abs = None
+                if cand['photo']:
+                    p = cand['photo']
+                    if not (p.startswith('http') or p.startswith('/')):
+                        p = '/' + p
+                    photo_abs = (BASE + p) if not p.startswith('http') else p
+                for lang in ('is', 'en', 'pl'):
+                    loc = LOCALES[lang]
+                    title = f'{cname} — {party_name} — {muni_name}'
+                    if len(title) > 60:
+                        title = title[:57] + '…'
+                    desc = loc['candidate_lead'](cname, cand['occupation'], party_name, muni_name)
+                    if cand.get('bio'):
+                        desc = cand['bio']  # use real bio first sentence as description if present
+                    if len(desc) > 160:
+                        desc = desc[:157] + '…'
+                    hreflang_map = {
+                        'is': f'{BASE}/{muni_id}/{party_slug_str}/{cslug}/',
+                        'en': f'{BASE}/en/{muni_id}/{party_slug_str}/{cslug}/',
+                        'pl': f'{BASE}/pl/{muni_id}/{party_slug_str}/{cslug}/',
+                    }
+                    canonical = hreflang_map[lang]
+                    party_url = f'{BASE}/{muni_id}/{party_slug_str}/' if lang == 'is' \
+                        else f'{BASE}/{lang}/{muni_id}/{party_slug_str}/'
+                    muni_url = f'{BASE}/{muni_id}/' if lang == 'is' \
+                        else f'{BASE}/{lang}/{muni_id}/'
+                    home_url = f'{BASE}/' if lang == 'is' else f'{BASE}/{lang}/'
+                    ld_blocks = [
+                        jsonld_breadcrumbs([
+                            {"name": {'is': 'Heim', 'en': 'Home', 'pl': 'Strona główna'}[lang],
+                             "url": home_url},
+                            {"name": muni_name, "url": muni_url},
+                            {"name": party_name, "url": party_url},
+                            {"name": cname, "url": canonical},
+                        ]),
+                        jsonld_person(
+                            name=cname,
+                            occupation=cand['occupation'],
+                            party_name=party_name,
+                            party_url=party_url,
+                            muni_name=muni_name,
+                            photo_url=photo_abs,
+                            bio=cand.get('bio'),
+                        ),
+                    ]
+                    out_dir = ROOT / (lang if lang != 'is' else '') / muni_id / party_slug_str / cslug
+                    out_dir.mkdir(parents=True, exist_ok=True)
+                    out_path = out_dir / 'index.html'
+                    html = stub_html(template, locale=loc, title=title, desc=desc,
+                                     canonical=canonical, hreflang_map=hreflang_map,
+                                     og_image=photo_abs, jsonld_blocks=ld_blocks)
+                    existing = out_path.read_text(encoding='utf-8') if out_path.exists() else ''
+                    if existing != html:
+                        out_path.write_text(html, encoding='utf-8')
+                        written += 1
+                    else:
+                        skipped += 1
 
     print(f'Wrote {written} stubs ({skipped} unchanged) across {len(munis)} munis.')
 

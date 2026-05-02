@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Legacy-URL redirect: send /municipality.html?id=X[&party=Y[&candidate=N]]
+       to /<muni>/<party-slug>/[<candidate-slug>/]. Runs before any other JS so
+       users don't see the legacy page render. Equivalent to a 301 for Google
+       (history.replace + canonical on the new page). -->
+  <script>
+    (function() {
+      if (!location.pathname.endsWith('/municipality.html')) return;
+      var sp = new URLSearchParams(location.search);
+      var muni = sp.get('id');
+      if (!muni) return;
+      var party = sp.get('party');
+      var candidateId = sp.get('candidate');  // legacy id like "gardabaer-S-1"
+      var lang = sp.get('lang');
+      var langPrefix = (lang === 'en' || lang === 'pl') ? '/' + lang : '';
+      var PARTY_SLUGS = {
+        D:'sjalfstaedisflokkurinn', B:'framsoknarflokkurinn', S:'samfylkingin',
+        V:'vinstri-graen', A:'vinstrid', P:'piratar', M:'midflokkurinn',
+        F:'flokkur-folksins', C:'vidreisn', J:'sosialistar',
+        GB:'gardabaejarlistinn', AL:'akureyrarlistinn', L:'l-listinn',
+        K:'kex-frambod', E:'eyjalisti', H:'h-listinn', VM:'vinir-mosfellsbaejar',
+        OKH:'okkar-hveragerdi', SCS:'seltjarnarneslistinn', BBL:'borgarbyggdarlisti',
+        G:'godir-reykjavik', R:'rodull'
+      };
+      var path = langPrefix + '/' + muni + '/';
+      if (party) {
+        path += (PARTY_SLUGS[party] || party.toLowerCase()) + '/';
+        // Candidate ballot: pass through as ?candidate=<id>; the new party
+        // page resolves and opens the modal. (We don't have name → slug
+        // here without loading data.) Will land at /<muni>/<party>/?candidate=N.
+        if (candidateId) path += '?candidate=' + encodeURIComponent(candidateId);
+      }
+      location.replace(path);
+    })();
+  </script>
+  <title>Böðvar Ingi Guðbjartsson — Miðflokkurinn — Hafnarfjörður</title>
+  <link rel="canonical" id="canonical-link" href="https://lydraedisveislan.is/en/hafnarfjordur/midflokkurinn/bodvar-ingi-gudbjartsson/" />
+  <link rel="alternate" hreflang="is" id="hreflang-is" href="https://lydraedisveislan.is/hafnarfjordur/midflokkurinn/bodvar-ingi-gudbjartsson/" />
+  <link rel="alternate" hreflang="en" id="hreflang-en" href="https://lydraedisveislan.is/en/hafnarfjordur/midflokkurinn/bodvar-ingi-gudbjartsson/" />
+  <link rel="alternate" hreflang="pl" id="hreflang-pl" href="https://lydraedisveislan.is/pl/hafnarfjordur/midflokkurinn/bodvar-ingi-gudbjartsson/" />
+  <link rel="alternate" hreflang="x-default" id="hreflang-default" href="https://lydraedisveislan.is/hafnarfjordur/midflokkurinn/bodvar-ingi-gudbjartsson/" />
+  <meta name="description" content="Böðvar Ingi Guðbjartsson er kennari og pípulagningameistari og formaður Félags pípulagningameistara. Hann er í þriðja sæti á framboðslista Miðflokksins í…" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+
+  <!-- Open Graph / Social preview -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Böðvar Ingi Guðbjartsson — Miðflokkurinn — Hafnarfjörður" />
+  <meta property="og:description" content="Böðvar Ingi Guðbjartsson er kennari og pípulagningameistari og formaður Félags pípulagningameistara. Hann er í þriðja sæti á framboðslista Miðflokksins í…" />
+  <meta property="og:image" content="https://lydraedisveislan.is/images/candidates/9b78bd084ed91dd3.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:locale:alternate" content="en_US" />
+  <meta property="og:locale:alternate" content="pl_PL" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="https://lydraedisveislan.is/images/og-preview.png" />
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-KVRHXCHYLV"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-KVRHXCHYLV');
+  </script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- App styles -->
+  <link rel="stylesheet" href="/css/variables.css?v=3" />
+  <link rel="stylesheet" href="/css/municipality.css?v=28" />
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://lydraedisveislan.is/en/"},{"@type":"ListItem","position":2,"name":"Hafnarfjörður","item":"https://lydraedisveislan.is/en/hafnarfjordur/"},{"@type":"ListItem","position":3,"name":"Miðflokkurinn","item":"https://lydraedisveislan.is/en/hafnarfjordur/midflokkurinn/"},{"@type":"ListItem","position":4,"name":"Böðvar Ingi Guðbjartsson","item":"https://lydraedisveislan.is/en/hafnarfjordur/midflokkurinn/bodvar-ingi-gudbjartsson/"}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Böðvar Ingi Guðbjartsson","jobTitle":"Kennari og pípulagningameistari","affiliation":{"@type":"Organization","name":"Miðflokkurinn — Hafnarfjörður","url":"https://lydraedisveislan.is/en/hafnarfjordur/midflokkurinn/"},"homeLocation":{"@type":"Place","name":"Hafnarfjörður"},"image":"https://lydraedisveislan.is/images/candidates/9b78bd084ed91dd3.jpg","description":"Böðvar Ingi Guðbjartsson er kennari og pípulagningameistari og formaður Félags pípulagningameistara. Hann er í þriðja sæti á framboðslista Miðflokksins í…"}</script>
+</head>
+<body class="page-municipality">
+
+  <!-- Top nav -->
+  <nav class="muni-nav">
+    <a href="/index.html" class="back-btn" id="back-btn">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+        <path d="M10 3L5 8L10 13" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      <span id="back-btn-text">Til baka á kort</span>
+    </a>
+    <div class="muni-header-info">
+      <div class="muni-name" id="muni-name">–</div>
+      <div class="muni-region" id="muni-region">–</div>
+    </div>
+    <div class="muni-nav-right">
+      <div id="lang-switcher"></div>
+      <div class="muni-pop" id="muni-pop"></div>
+      <button class="share-btn share-btn--muni" id="muni-share" aria-label="Deila hlekk á þetta sveitarfélag">
+        <svg width="13" height="13" viewBox="0 0 14 14" fill="none">
+          <circle cx="11" cy="2.5" r="1.75" stroke="currentColor" stroke-width="1.4"/>
+          <circle cx="3" cy="7" r="1.75" stroke="currentColor" stroke-width="1.4"/>
+          <circle cx="11" cy="11.5" r="1.75" stroke="currentColor" stroke-width="1.4"/>
+          <line x1="4.6" y1="6.1" x2="9.4" y2="3.4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+          <line x1="4.6" y1="7.9" x2="9.4" y2="10.6" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+        </svg>
+        <span id="muni-share-text">Deila</span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Random party tooltip (fades in then out) -->
+  <div class="random-tooltip" id="random-tooltip">
+    <span class="dice-icon">🎲</span>
+    <span id="random-tooltip-text">Opnaði af handahófi</span>
+  </div>
+
+  <!-- Election type notice (sjálfkjörið / óbundnar kosningar) -->
+  <div id="election-type-notice"></div>
+
+  <!-- Accordion -->
+  <section class="accordion-section">
+    <div class="accordion-container" id="accordion-container">
+      <!-- Ribbons injected by JS -->
+    </div>
+  </section>
+
+  <!-- Disclaimer -->
+  <div class="disclaimer-wrap" id="disclaimer-wrap">
+    <div class="disclaimer-card" id="disclaimer-card">
+      <div class="disclaimer-header">
+        <span class="disclaimer-header-icon">ℹ️</span>
+        <span class="disclaimer-title" id="disclaimer-title">Fyrirvari</span>
+        <button class="disclaimer-minimize" id="disclaimer-minimize" aria-label="Minnka fyrirvara">
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+            <path d="M2 5L7 10L12 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+      </div>
+      <p class="disclaimer-text" id="disclaimer-body-text">
+        Upplýsingar á þessari síðu eru fengnar úr opinberum heimildum á netinu og teknar saman með aðstoð gervigreindar. Við getum ekki ábyrgst fulla nákvæmni og mælum með að staðfesta mikilvægar upplýsingar beint hjá framboðunum.
+      </p>
+    </div>
+    <button class="disclaimer-badge" id="disclaimer-badge" aria-label="Sýna fyrirvara" title="Fyrirvari um gögn">ℹ</button>
+  </div>
+
+  <!-- Share toast -->
+  <div class="share-toast" id="share-toast" aria-live="polite"></div>
+
+  <!-- Candidate Modal -->
+  <div class="modal-overlay" id="modal-overlay" role="dialog" aria-modal="true">
+    <div class="modal-card" id="modal-card">
+      <button class="modal-close" id="modal-close" aria-label="Loka">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+          <path d="M3 3L13 13M13 3L3 13" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+      </button>
+      <button class="share-btn share-btn--modal" id="modal-share" aria-label="Deila hlekk á þennan frambjóðanda">
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+          <circle cx="11" cy="2.5" r="1.75" stroke="currentColor" stroke-width="1.4"/>
+          <circle cx="3" cy="7" r="1.75" stroke="currentColor" stroke-width="1.4"/>
+          <circle cx="11" cy="11.5" r="1.75" stroke="currentColor" stroke-width="1.4"/>
+          <line x1="4.6" y1="6.1" x2="9.4" y2="3.4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+          <line x1="4.6" y1="7.9" x2="9.4" y2="10.6" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+        </svg>
+        <span id="modal-share-text">Deila</span>
+      </button>
+      <div class="modal-hero">
+        <img class="modal-hero-photo" id="modal-photo" src="" alt="" />
+        <div class="modal-hero-gradient"></div>
+        <div class="modal-hero-info">
+          <div class="modal-ballot-badge" id="modal-badge"></div>
+          <div class="modal-candidate-name" id="modal-name"></div>
+          <div class="modal-candidate-meta" id="modal-meta"></div>
+        </div>
+      </div>
+      <div class="modal-body">
+        <div class="modal-section" id="modal-bio-section">
+          <div class="modal-section-label" id="modal-label-bio">Um frambjóðandann</div>
+          <p class="modal-bio" id="modal-bio"></p>
+          <p class="modal-heimild" id="modal-heimild" style="display:none"></p>
+        </div>
+        <div class="modal-section" id="modal-interests-section">
+          <div class="modal-section-label" id="modal-label-interests">Áætluð áherslumál</div>
+          <div class="modal-interests" id="modal-interests"></div>
+        </div>
+        <div class="modal-section" id="modal-social-section">
+          <div class="modal-section-label" id="modal-label-social">Samfélagsmiðlar</div>
+          <div class="modal-social" id="modal-social"></div>
+        </div>
+        <div class="modal-section" id="modal-news-section">
+          <div class="modal-section-label" id="modal-label-news">Fréttir</div>
+          <div class="modal-news" id="modal-news"></div>
+        </div>
+        <div class="modal-no-info" id="modal-no-info">
+          <span class="no-info-icon">ℹ️</span>
+          Nánari upplýsingar um þennan frambjóðanda eru ekki tiltækar ennþá.
+        </div>
+      </div>
+      <div class="modal-nav" id="modal-nav">
+        <button class="modal-nav-btn" id="modal-prev" aria-label="Fyrri frambjóðandi">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+            <path d="M10 3L5 8L10 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+        <span class="modal-nav-pos" id="modal-nav-pos"></span>
+        <button class="modal-nav-btn" id="modal-next" aria-label="Næsti frambjóðandi">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+            <path d="M6 3L11 8L6 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- App -->
+  <script type="module" src="/js/municipality.js?v=50"></script>
+  <script type="module" src="/js/outreach.js?v=1"></script>
+  <script>
+    (function () {
+      const card  = document.getElementById('disclaimer-card');
+      const badge = document.getElementById('disclaimer-badge');
+      const minBtn = document.getElementById('disclaimer-minimize');
+      if (!card || !badge || !minBtn) return;
+      function minimize() {
+        card.classList.add('is-hidden');
+        badge.classList.add('is-visible');
+        localStorage.setItem('disclaimer-min', '1');
+      }
+      function expand() {
+        card.classList.remove('is-hidden');
+        badge.classList.remove('is-visible');
+        localStorage.removeItem('disclaimer-min');
+      }
+      if (localStorage.getItem('disclaimer-min') === '1') {
+        minimize();
+      } else {
+        setTimeout(minimize, 5000);
+      }
+      minBtn.addEventListener('click', minimize);
+      badge.addEventListener('click', expand);
+    })();
+  </script>
+</body>
+</html>
