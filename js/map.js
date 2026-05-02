@@ -159,8 +159,8 @@ MUNICIPALITIES.forEach(muni => {
   });
 
   marker.on('click', () => {
-    const params = lang !== 'is' ? `&lang=${lang}` : '';
-    window.location.href = `municipality.html?id=${muni.id}${params}`;
+    const langPrefix = lang !== 'is' ? `/${lang}` : '';
+    window.location.href = `${langPrefix}/${muni.id}/`;
   });
 
   marker.addTo(map);

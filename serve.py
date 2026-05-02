@@ -25,6 +25,25 @@ class Handler(http.server.SimpleHTTPRequestHandler):
         self.send_header('Cache-Control', 'no-store, no-cache, must-revalidate')
         super().end_headers()
 
+    def send_error(self, code, message=None, explain=None):
+        # Mirror GitHub Pages behaviour: for missing HTML routes (no extension
+        # in the last path segment), serve 404.html so the SPA can hydrate.
+        # Real asset 404s (e.g. /css/foo.css that doesn't exist) still return
+        # plain 404 so devs notice.
+        if code == 404 and '.' not in self.path.rsplit('/', 1)[-1]:
+            try:
+                with open('404.html', 'rb') as f:
+                    body = f.read()
+                self.send_response(404)
+                self.send_header('Content-Type', 'text/html; charset=utf-8')
+                self.send_header('Content-Length', str(len(body)))
+                self.end_headers()
+                self.wfile.write(body)
+                return
+            except FileNotFoundError:
+                pass
+        super().send_error(code, message, explain)
+
     def log_message(self, format, *args):
         pass  # silence request logging
 

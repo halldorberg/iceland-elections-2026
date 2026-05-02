@@ -3,53 +3,26 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- Legacy-URL redirect: send /municipality.html?id=X[&party=Y[&candidate=N]]
-       to /<muni>/<party-slug>/[<candidate-slug>/]. Runs before any other JS so
-       users don't see the legacy page render. Equivalent to a 301 for Google
-       (history.replace + canonical on the new page). -->
-  <script>
-    (function() {
-      if (!location.pathname.endsWith('/municipality.html')) return;
-      var sp = new URLSearchParams(location.search);
-      var muni = sp.get('id');
-      if (!muni) return;
-      var party = sp.get('party');
-      var candidateId = sp.get('candidate');  // legacy id like "gardabaer-S-1"
-      var lang = sp.get('lang');
-      var langPrefix = (lang === 'en' || lang === 'pl') ? '/' + lang : '';
-      var PARTY_SLUGS = {
-        D:'sjalfstaedisflokkurinn', B:'framsoknarflokkurinn', S:'samfylkingin',
-        V:'vinstri-graen', A:'vinstrid', P:'piratar', M:'midflokkurinn',
-        F:'flokkur-folksins', C:'vidreisn', J:'sosialistar',
-        GB:'gardabaejarlistinn', AL:'akureyrarlistinn', L:'l-listinn',
-        K:'kex-frambod', E:'eyjalisti', H:'h-listinn', VM:'vinir-mosfellsbaejar',
-        OKH:'okkar-hveragerdi', SCS:'seltjarnarneslistinn', BBL:'borgarbyggdarlisti',
-        G:'godir-reykjavik', R:'rodull'
-      };
-      var path = langPrefix + '/' + muni + '/';
-      if (party) {
-        path += (PARTY_SLUGS[party] || party.toLowerCase()) + '/';
-        // Candidate ballot: pass through as ?candidate=<id>; the new party
-        // page resolves and opens the modal. (We don't have name → slug
-        // here without loading data.) Will land at /<muni>/<party>/?candidate=N.
-        if (candidateId) path += '?candidate=' + encodeURIComponent(candidateId);
-      }
-      location.replace(path);
-    })();
-  </script>
-  <title>Garðabær — Kosningar 2026</title>
-  <link rel="canonical" id="canonical-link" href="https://lydraedisveislan.is/gardabaer/" />
-  <link rel="alternate" hreflang="is" id="hreflang-is" href="https://lydraedisveislan.is/gardabaer/" />
-  <link rel="alternate" hreflang="en" id="hreflang-en" href="https://lydraedisveislan.is/en/gardabaer/" />
-  <link rel="alternate" hreflang="pl" id="hreflang-pl" href="https://lydraedisveislan.is/pl/gardabaer/" />
-  <link rel="alternate" hreflang="x-default" id="hreflang-default" href="https://lydraedisveislan.is/gardabaer/" />
-  <meta name="description" content="Garðabær — sjá öll framboð, frambjóðendur og stefnumál fyrir sveitarstjórnarkosningarnar 16. maí 2026. Berðu saman flokka og kjóstu upplýst." />
+  <title>Lýðræðisveislan 2026</title>
+  <meta name="description" content="Lýðræðisveislan 2026 — sveitarstjórnarkosningar á Íslandi." />
+  <!-- Tell crawlers: this is a SPA fallback. The path is the source of truth;
+       the JS hydrates the right content. Used for candidate-level URLs and
+       any path not pre-rendered by scripts/build_static_pages.py. -->
   <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+
+  <!-- Canonical (overridden client-side by municipality.js once route is known) -->
+  <link rel="canonical" id="canonical-link" href="https://lydraedisveislan.is/" />
+
+  <!-- hreflang language alternates (URLs updated client-side) -->
+  <link rel="alternate" hreflang="is" id="hreflang-is" href="https://lydraedisveislan.is/" />
+  <link rel="alternate" hreflang="en" id="hreflang-en" href="https://lydraedisveislan.is/?lang=en" />
+  <link rel="alternate" hreflang="pl" id="hreflang-pl" href="https://lydraedisveislan.is/?lang=pl" />
+  <link rel="alternate" hreflang="x-default" id="hreflang-default" href="https://lydraedisveislan.is/" />
 
   <!-- Open Graph / Social preview -->
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Garðabær — Kosningar 2026" />
-  <meta property="og:description" content="Garðabær — sjá öll framboð, frambjóðendur og stefnumál fyrir sveitarstjórnarkosningarnar 16. maí 2026. Berðu saman flokka og kjóstu upplýst." />
+  <meta property="og:title" content="Sveitarstjórnarkosningar 2026 – Ísland" />
+  <meta property="og:description" content="Flokkar og frambjóðendur í sveitarstjórnarkosningum 2026." />
   <meta property="og:image" content="https://lydraedisveislan.is/images/og-preview.png" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
@@ -212,7 +185,7 @@
   </div>
 
   <!-- App -->
-  <script type="module" src="/js/municipality.js?v=47"></script>
+  <script type="module" src="/js/municipality.js?v=46"></script>
   <script type="module" src="/js/outreach.js?v=1"></script>
   <script>
     (function () {

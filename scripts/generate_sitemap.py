@@ -1,16 +1,21 @@
 #!/usr/bin/env python3
 """
 Generate sitemap.xml covering:
-  - Homepage
-  - All 61 municipality pages
-  - All party list pages  (?id=X&party=Y)
-  - All candidate profile pages (?id=X&party=Y&candidate=N)
+  - Homepage (/)
+  - All 61 municipality pages          /<muni>/
+  - All party-in-muni pages            /<muni>/<party-slug>/
+  - All candidate profile pages        /<muni>/<party-slug>/<candidate-slug>/
+
+Each URL gets hreflang IS/EN/PL/x-default annotations. Phase 2 path-based
+URL scheme (no more ?id=&party=&candidate=).
 """
-import re, json
+import re, json, sys
 from pathlib import Path
 
 BASE = 'https://lydraedisveislan.is'
 ROOT = Path(__file__).parent.parent
+sys.path.insert(0, str(ROOT))
+from scripts.seo_slugs import party_slug, slugify  # noqa: E402
 
 # ── Load municipalities ───────────────────────────────────────────────────────
 muni_src = (ROOT / 'js/data/municipalities.js').read_text(encoding='utf-8')
@@ -72,8 +77,12 @@ for cb in re.finditer(r'\bconst\s+([A-Z]{2,4})\s*=\s*\{', cand_src):
                     d3 -= 1
                     if d3 == 0: break
                 lp += 1
-            ballot_nos = re.findall(r'\[\s*(\d+)\s*,', pb[ls:lp+1])
-            party_data[pc] = [int(n) for n in ballot_nos]
+            # Extract (ballot, name) so we can slugify candidate names for URLs.
+            rows = re.findall(
+                r"\[\s*(\d+)\s*,\s*'((?:[^'\\\\]|\\\\.)*)'",
+                pb[ls:lp+1],
+            )
+            party_data[pc] = [(int(n), name.replace("\\\\'", "'")) for n, name in rows]
     if party_data:
         var_data[var_name] = party_data
 
@@ -87,11 +96,17 @@ def muni_priority(pop):
 
 # ── Build XML ────────────────────────────────────────────────────────────────
 def hreflang_block(base_url):
-    """Build an hreflang block for a URL. base_url is the IS-default URL.
-    Generates EN and PL variants by appending lang param."""
-    sep = '&amp;' if '?' in base_url else '?'
-    en_url = f'{base_url}{sep}lang=en'
-    pl_url = f'{base_url}{sep}lang=pl'
+    """Build an hreflang block. base_url is the IS-default URL (path-based).
+    EN and PL variants are derived by inserting /en/ or /pl/ after BASE."""
+    # base_url looks like https://lydraedisveislan.is/<path>
+    # Insert /en/ or /pl/ after the host.
+    if base_url == BASE + '/':
+        en_url = f'{BASE}/en/'
+        pl_url = f'{BASE}/pl/'
+    else:
+        path = base_url[len(BASE):]  # starts with /
+        en_url = f'{BASE}/en{path}'
+        pl_url = f'{BASE}/pl{path}'
     return [
         f'    <xhtml:link rel="alternate" hreflang="is" href="{base_url}" />',
         f'    <xhtml:link rel="alternate" hreflang="en" href="{en_url}" />',
@@ -127,8 +142,8 @@ for muni in munis:
 
     lines.append(f'  <!-- ── {muni["name"]} ──────────────────────────────────── -->')
 
-    # Municipality page
-    muni_url = f'{BASE}/municipality.html?id={mid}'
+    # Municipality page  →  /<muni>/
+    muni_url = f'{BASE}/{mid}/'
     lines += [
         '  <url>',
         f'    <loc>{muni_url}</loc>',
@@ -139,10 +154,11 @@ for muni in munis:
     ]
     n_munis += 1
 
-    # Party list pages
+    # Party list pages  →  /<muni>/<party-slug>/
     for pid in pids:
-        ballot_nos = parties.get(pid, [])
-        party_url = f'{BASE}/municipality.html?id={mid}&amp;party={pid}'
+        rows = parties.get(pid, [])  # list of (ballot, name) tuples
+        pslug = party_slug(pid)
+        party_url = f'{BASE}/{mid}/{pslug}/'
         lines += [
             '  <url>',
             f'    <loc>{party_url}</loc>',
@@ -153,9 +169,14 @@ for muni in munis:
         ]
         n_lists += 1
 
-        # Candidate profile pages
-        for bn in ballot_nos:
-            cand_url = f'{BASE}/municipality.html?id={mid}&amp;party={pid}&amp;candidate={bn}'
+        # Candidate profile pages  →  /<muni>/<party-slug>/<candidate-slug>/
+        # Limit to top-6 ballot positions — bottom-of-list candidates have no
+        # bio and won't rank anyway.
+        for bn, name in rows:
+            if bn > 6:
+                continue
+            cslug = slugify(name)
+            cand_url = f'{BASE}/{mid}/{pslug}/{cslug}/'
             lines += [
                 '  <url>',
                 f'    <loc>{cand_url}</loc>',

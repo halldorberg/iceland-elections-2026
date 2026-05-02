@@ -470,10 +470,7 @@ function switchParty(code) {
   }
 
   // Reflect in URL (no new history entry — just update the address bar)
-  const u = new URL(window.location.href);
-  u.searchParams.set('party', code);
-  u.searchParams.delete('candidate');
-  history.replaceState(null, '', u);
+  history.replaceState(null, '', buildRouteURL(code));
 }
 
 // ─── Results 2022 ──────────────────────────────────────────
@@ -652,18 +649,33 @@ function buildCandidatesHTML(data, party) {
 
 // ─── Share / deep-link helpers ────────────────────────────
 
+/**
+ * Build a path-based URL for the given route.
+ *   buildRouteURL('S')                       → /<lang>/<muni>/samfylkingin/
+ *   buildRouteURL('S', 'Kjartan Atli ...')   → /<lang>/<muni>/samfylkingin/kjartan-atli-.../
+ * Lang prefix is read from current URL.
+ */
+function buildRouteURL(partyCode, candidateName) {
+  const r = parseRoute();
+  const langPrefix = r.langOverride ? `/${r.langOverride}` : '';
+  let path = `${langPrefix}/${muniId}/`;
+  if (partyCode) {
+    path += partySlug(partyCode) + '/';
+    if (candidateName) {
+      path += slugify(candidateName) + '/';
+    }
+  }
+  return window.location.origin + path;
+}
+
 function partyURL(partyCode) {
-  const u = new URL(window.location.href);
-  u.searchParams.set('party', partyCode);
-  u.searchParams.delete('candidate');
-  return u.toString();
+  return buildRouteURL(partyCode);
 }
 
 function candidateURL(candidateId, partyCode) {
-  const u = new URL(window.location.href);
-  u.searchParams.set('party', partyCode);
-  u.searchParams.set('candidate', candidateId);
-  return u.toString();
+  // Look up candidate name from allCandidates (populated after data load)
+  const c = allCandidates[candidateId];
+  return buildRouteURL(partyCode, c?.name);
 }
 
 let toastTimer = null;
@@ -933,12 +945,8 @@ function openModal(id) {
   document.body.style.overflow = 'hidden';
 
   // Push URL so the back button closes the modal
-  const u = new URL(window.location.href);
-  u.searchParams.set('party', c.partyCode);
-  u.searchParams.set('candidate', id);
-  // Tell updatePageMeta about this candidate before pushState fires the hook
-  setCandidateMeta(c);
-  history.pushState({ candidate: id }, '', u);
+  setCandidateMeta(c);  // tell updatePageMeta before pushState fires the hook
+  history.pushState({ candidate: id }, '', buildRouteURL(c.partyCode, c.name));
 
   // Wire share button for this candidate
   const shareBtn = document.getElementById('modal-share');
@@ -955,9 +963,9 @@ function closeModal(updateHistory = true) {
   document.body.style.overflow = '';
   clearCandidateMeta();
   if (updateHistory) {
-    const u = new URL(window.location.href);
-    u.searchParams.delete('candidate');
-    history.replaceState(null, '', u);
+    // Revert URL to party-level (drop candidate slug); preserves muni + party
+    const r = parseRoute();
+    history.replaceState(null, '', buildRouteURL(r.partyCode));
   }
 }
 
@@ -1030,15 +1038,25 @@ container.addEventListener('click', e => {
     update();
   })();
 
-  // Set initial URL to reflect the active party (no history entry)
-  const initURL = new URL(window.location.href);
-  initURL.searchParams.set('party', activeParty);
-  if (!paramCandidate) initURL.searchParams.delete('candidate');
-  history.replaceState(null, '', initURL);
+  // Set initial URL to reflect the active party (no history entry).
+  // Skip if the active party WASN'T deep-linked — leave the URL clean at the
+  // muni level so /gardabaer/ doesn't auto-rewrite to /gardabaer/<random>/.
+  if (isDeepLink) {
+    history.replaceState(null, '', buildRouteURL(activeParty));
+  }
 
-  // Open candidate from deep link (after DOM is ready)
-  if (paramCandidate && allCandidates[paramCandidate]) {
-    requestAnimationFrame(() => openModal(paramCandidate));
+  // Open candidate from deep link (after DOM is ready). Either:
+  //   - legacy ?candidate=<id>          → direct id lookup
+  //   - new path /<muni>/<party>/<slug>/ → resolve slug → id by name match
+  let toOpen = paramCandidate;
+  if (!toOpen && route.candidateSlug) {
+    const matched = Object.values(allCandidates).find(c =>
+      slugify(c.name) === route.candidateSlug
+    );
+    if (matched) toOpen = matched.id;
+  }
+  if (toOpen && allCandidates[toOpen]) {
+    requestAnimationFrame(() => openModal(toOpen));
   }
 
 } // end else (not isUnbound)

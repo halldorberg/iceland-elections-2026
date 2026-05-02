@@ -122,22 +122,22 @@
   </section>
 
   <nav class="muni-shortcuts" aria-label="Stærstu sveitarfélög">
-    <a href="municipality.html?id=reykjavik">Reykjavík</a>
-    <a href="municipality.html?id=kopavogur">Kópavogur</a>
-    <a href="municipality.html?id=hafnarfjordur">Hafnarfjörður</a>
-    <a href="municipality.html?id=gardabaer">Garðabær</a>
-    <a href="municipality.html?id=mosfellsbaer">Mosfellsbær</a>
-    <a href="municipality.html?id=reykjanesbaer">Reykjanesbær</a>
-    <a href="municipality.html?id=akureyri">Akureyri</a>
-    <a href="municipality.html?id=seltjarnarnes">Seltjarnarnes</a>
-    <a href="municipality.html?id=arborg">Árborg</a>
-    <a href="municipality.html?id=vestmannaeyjar">Vestmannaeyjar</a>
-    <a href="municipality.html?id=fjardabyggd">Fjarðabyggð</a>
-    <a href="municipality.html?id=akranes">Akranes</a>
-    <a href="municipality.html?id=borgarbyggd">Borgarbyggð</a>
-    <a href="municipality.html?id=isafjordur">Ísafjarðarbær</a>
-    <a href="municipality.html?id=nordurping">Norðurþing</a>
-    <a href="municipality.html?id=sudurnesjabaer">Suðurnesjabær</a>
+    <a href="/reykjavik">Reykjavík</a>
+    <a href="/kopavogur">Kópavogur</a>
+    <a href="/hafnarfjordur">Hafnarfjörður</a>
+    <a href="/gardabaer">Garðabær</a>
+    <a href="/mosfellsbaer">Mosfellsbær</a>
+    <a href="/reykjanesbaer">Reykjanesbær</a>
+    <a href="/akureyri">Akureyri</a>
+    <a href="/seltjarnarnes">Seltjarnarnes</a>
+    <a href="/arborg">Árborg</a>
+    <a href="/vestmannaeyjar">Vestmannaeyjar</a>
+    <a href="/fjardabyggd">Fjarðabyggð</a>
+    <a href="/akranes">Akranes</a>
+    <a href="/borgarbyggd">Borgarbyggð</a>
+    <a href="/isafjordur">Ísafjarðarbær</a>
+    <a href="/nordurping">Norðurþing</a>
+    <a href="/sudurnesjabaer">Suðurnesjabær</a>
     <div class="muni-search-pill" id="muni-search-pill">
       <svg class="search-pill-icon" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
       <input type="text" id="muni-search-input" placeholder="Leita að sveitarfélagi…" autocomplete="off" spellcheck="false" />
@@ -198,7 +198,7 @@
   </div>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-  <script type="module" src="js/map.js?v=6"></script>
+  <script type="module" src="js/map.js?v=7"></script>
   <script type="module">
     import { MUNICIPALITIES } from './js/data/municipalities.js';
     import { t } from './js/i18n.js';
@@ -231,7 +231,7 @@
         const li = document.createElement('li');
         li.setAttribute('role', 'option');
         const a = document.createElement('a');
-        a.href = `municipality.html?id=${m.id}`;
+        a.href = `/${m.id}`;
         a.textContent = m.name;
         li.appendChild(a);
         results.appendChild(li);

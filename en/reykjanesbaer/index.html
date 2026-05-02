@@ -3,6 +3,40 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Legacy-URL redirect: send /municipality.html?id=X[&party=Y[&candidate=N]]
+       to /<muni>/<party-slug>/[<candidate-slug>/]. Runs before any other JS so
+       users don't see the legacy page render. Equivalent to a 301 for Google
+       (history.replace + canonical on the new page). -->
+  <script>
+    (function() {
+      if (!location.pathname.endsWith('/municipality.html')) return;
+      var sp = new URLSearchParams(location.search);
+      var muni = sp.get('id');
+      if (!muni) return;
+      var party = sp.get('party');
+      var candidateId = sp.get('candidate');  // legacy id like "gardabaer-S-1"
+      var lang = sp.get('lang');
+      var langPrefix = (lang === 'en' || lang === 'pl') ? '/' + lang : '';
+      var PARTY_SLUGS = {
+        D:'sjalfstaedisflokkurinn', B:'framsoknarflokkurinn', S:'samfylkingin',
+        V:'vinstri-graen', A:'vinstrid', P:'piratar', M:'midflokkurinn',
+        F:'flokkur-folksins', C:'vidreisn', J:'sosialistar',
+        GB:'gardabaejarlistinn', AL:'akureyrarlistinn', L:'l-listinn',
+        K:'kex-frambod', E:'eyjalisti', H:'h-listinn', VM:'vinir-mosfellsbaejar',
+        OKH:'okkar-hveragerdi', SCS:'seltjarnarneslistinn', BBL:'borgarbyggdarlisti',
+        G:'godir-reykjavik', R:'rodull'
+      };
+      var path = langPrefix + '/' + muni + '/';
+      if (party) {
+        path += (PARTY_SLUGS[party] || party.toLowerCase()) + '/';
+        // Candidate ballot: pass through as ?candidate=<id>; the new party
+        // page resolves and opens the modal. (We don't have name → slug
+        // here without loading data.) Will land at /<muni>/<party>/?candidate=N.
+        if (candidateId) path += '?candidate=' + encodeURIComponent(candidateId);
+      }
+      location.replace(path);
+    })();
+  </script>
   <title>Reykjanesbær — 2026 Local Elections</title>
   <link rel="canonical" id="canonical-link" href="https://lydraedisveislan.is/en/reykjanesbaer/" />
   <link rel="alternate" hreflang="is" id="hreflang-is" href="https://lydraedisveislan.is/reykjanesbaer/" />
@@ -178,7 +212,7 @@
   </div>
 
   <!-- App -->
-  <script type="module" src="/js/municipality.js?v=46"></script>
+  <script type="module" src="/js/municipality.js?v=47"></script>
   <script type="module" src="/js/outreach.js?v=1"></script>
   <script>
     (function () {
