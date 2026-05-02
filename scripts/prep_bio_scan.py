@@ -105,11 +105,38 @@ def main():
                     "current_bio": bio,
                 })
 
-    # Sort by (population desc, party_size desc, ballot asc)
+    # Tiered priority: top-3 of every muni come first (sorted by muni population),
+    # then top-5, then top-10, then top-15, then the rest. Within each tier, sort
+    # by muni population (desc) → party size (desc) → ballot (asc).
+    def ballot_tier(b: int) -> int:
+        if b <= 3:  return 0  # leadership tier
+        if b <= 5:  return 1
+        if b <= 10: return 2
+        if b <= 15: return 3
+        return 4
+
     def sort_key(c):
         pop = MUNI_POP.get(c["muni_slug"], 0)
         psize = party_sizes.get((c["muni_slug"], c["party_code"]), 0)
-        return (-pop, -psize, c["ballot"], c["muni_slug"], c["party_code"])
+        return (ballot_tier(c["ballot"]), -pop, -psize, c["ballot"], c["muni_slug"], c["party_code"])
+
+    # Skip candidates already processed in any scan_results/bios_2026-*.json
+    import glob
+    already_processed: set[str] = set()
+    for fn in glob.glob(str(ROOT / "scan_results" / "bios_2026-*.json")):
+        if "to_research" in fn:
+            continue
+        try:
+            data = json.loads(Path(fn).read_text(encoding="utf-8"))
+        except Exception:
+            continue
+        for r in data.get("results", []) or []:
+            if r.get("id"):
+                already_processed.add(r["id"])
+    if already_processed:
+        before = len(candidates)
+        candidates = [c for c in candidates if c["id"] not in already_processed]
+        print(f"[INFO] Excluded {before - len(candidates)} already-processed candidates")
 
     candidates.sort(key=sort_key)
 
