@@ -4111,7 +4111,7 @@ const HAF = {
           { title: 'Bæjarstjóri Hafnarfjarðar fékk krefjandi spurningu á leik FH og Hauka', url: 'https://www.dv.is/fokus/2026/02/26/baejarstjori-hafnarfjardar-fekk-krefjandi-spurningu-leik-fh-og-hauka/', source: 'dv.is' },
         ],
       }],
-      [2, 'Kolbrún Magnúsdóttir', 'Mannauðsráðgjafi', null, {
+      [2, 'Kolbrún Magnúsdóttir', 'Mannauðsráðgjafi', 'images/candidates/31084ab6c2e53184.avif', {
         age: null,
         bio: 'Kolbrún Magnúsdóttir er sjálfstætt starfandi mannauðsráðgjafi. Hún hefur starfað sem varabæjarfulltrúi Samfylkingarinnar í Hafnarfirði og setið í fræðsluráði bæjarins áður en hún gekk til liðs við Framsóknarflokkinn árið 2026.',
         heimild: [{ url: 'https://www.fjardarfrettir.is/frettir/politik/framsokn-hefur-tilkynnt-frambodslista-sinn', label: 'Fjarðarfréttir' }, { url: 'https://www.visir.is/g/20262841275d/haettir-i-sam-fylkingunni-og-gengur-til-lids-vid-nyjan-flokk-fyrir-kosningar', label: 'visir.is' }],
@@ -5172,7 +5172,7 @@ const VOG = {
           { title: 'Tryggvi tekur við af Björgu í Valhöll', url: 'https://www.mbl.is/frettir/innlent/2025/11/25/tryggvi_tekur_vid_af_bjorgu_i_valholl/', source: 'mbl.is' },],
       }],
       [2, 'Guðmann Rúnar Lúðvíksson', 'Sérfræðingur hjá landhelgisgæslunni, varabæjarfulltrúi', 'images/candidates/e2cddc89e5d8e495.jpg', { age: null, bio: 'Guðmann Rúnar Lúðvíksson er sérfræðingur hjá Landhelgisgæslu Íslands og varabæjarfulltrúi í Sveitarfélaginu Vogum. Hann skipar 2. sæti á D-lista Sjálfstæðismanna og óháðra í Vogum fyrir sveitarstjórnarkosningarnar 2026.', interests: ['Sveitarstjórnarmál', 'Öryggismál', 'Sjávarútvegur', 'Almannavarnir'], social: null, news: [] }],
-      [3, 'Hulda Birna Helgadóttir Blöndal', 'Deildarstjóri hjá Klettabæ'],
+      [3, 'Hulda Birna Helgadóttir Blöndal', 'Deildarstjóri hjá Klettabæ', 'images/candidates/034fb5f272a45b03.jpg'],
       [4, 'Kristín Arna Hjaltadóttir', 'Leikskólakennari', 'images/candidates/5bff745d49c4ac93.jpg'],
       [5, 'Andri Rúnar Sigurðsson', 'Fiskeldisfræðingur, bæjarfulltrúi', 'images/candidates/d29184f53ef5de14.jpg'],
       [6, 'Magnús G. Jónsson Núpan', 'Flugþjónn og nemi'],
@@ -5197,7 +5197,7 @@ const VOG = {
         { icon: '📈', title: 'Efling tekjustofna og hagræðing', text: 'Áframhaldandi áhersla á að efla tekjustofna sveitarfélagsins og hagræða í rekstri til að halda sjálfbærni í fjármálum.' },
     ],
     list: [
-      [1, 'Birgir Örn Ólafsson', 'Deildarstjóri, forseti bæjarstjórnar', null, {
+      [1, 'Birgir Örn Ólafsson', 'Deildarstjóri, forseti bæjarstjórnar', 'images/candidates/e8bab110da9413f5.jpg', {
         age: null,
         bio: 'Birgir Örn Ólafsson er deildarstjóri og forseti bæjarstjórnar Sveitarfélagsins Voga. Hann leiðir E-lista (Framboðsfélag E-listans) í sveitarstjórnarkosningunum 2026 og hefur áralanga reynslu af sveitarstjórnarmálum, hefur setið sem aðalmaður í bæjarstjórn frá 2015 og áður gegnt embætti forseta bæjarstjórnar. Hann er kynntur sem reyndur sveitarstjórnarmaður sem leiðir lista með blöndu af reyndu fólki og nýjum röddum úr samfélaginu.',
         interests: ['sveitarstjórnarmál', 'byggðaþróun', 'samfélagsmál'],
@@ -6823,7 +6823,7 @@ const SKR = {
         news: [],
       }],
       [2, 'Sigurður Árnason', 'Stálsmiður og rekstraraðili', 'images/candidates/0ece6eaccb279e5d.jpg', { age: null, bio: 'Sigurður Árnason er stálsmiður og rekstraraðili í Skaftárhreppi og skipar 2. sæti á D-lista Sjálfstæðisflokksins og óháðra fyrir sveitarstjórnarkosningarnar 16. maí 2026.', interests: ['iðnaður', 'atvinnulíf', 'sveitarstjórnarmál', 'Skaftárhreppur'], social: {  }, news: [] }],
-      [3, 'Auðbjörg Brynja Bjarnadóttir', 'Hjúkrunarfræðingur og ljósmóðir'],
+      [3, 'Auðbjörg Brynja Bjarnadóttir', 'Hjúkrunarfræðingur og ljósmóðir', 'images/candidates/f3fee0151861a072.jpg'],
       [4, 'Bergur Kristinn Guðnason', 'Húsasmíðameistari'],
       [5, 'Sólveig Ólafsdóttir', 'Kennari og sjúkraflutningamaður', 'images/candidates/d294e8b80fdeb75f.jpg'],
       [6, 'Björn Hafsteinsson', 'Ferðaþjónustubóndi og skólabílstjóri', 'images/candidates/24663d824f56ce0c.jpg'],
@@ -9152,7 +9152,7 @@ const ISF = {
         ],
       }],
       [2, 'Jón Auðun Auðunarson', 'Framkvæmdarstjóri', null, { age: null, bio: 'Jón Auðun Auðunarson er verkefnastjóri og er á 2. sæti á M-lista Miðflokksins í Ísafjarðarbæ í sveitarstjórnarkosningum 2026.', interests: null, social: null, news: [] }],
-      [3, 'Þorbjörn Halldór Jóhannesson', 'Bóndi'],
+      [3, 'Þorbjörn Halldór Jóhannesson', 'Bóndi', 'images/candidates/ec3af4ec0076c7d6.jpg'],
       [4, 'Karlotta Dúfa Markan', 'Verkefnastjóri'],
       [5, 'Hákon Sturla Unnsteinsson', 'Bóndi'],
       [6, 'Sigríður Laufey Sigurðardóttir', 'Bókari'],
@@ -9329,7 +9329,7 @@ const GFJ = {
     list: [
       [1, 'Fannar Þór Þorfinnsson', 'Frambjóðandi'],
       [2, 'Signý Gunnarsdóttir', 'Frambjóðandi'],
-      [3, 'Aðalsteinn Jósepsson', 'Frambjóðandi'],
+      [3, 'Aðalsteinn Jósepsson', 'Frambjóðandi', 'images/candidates/320b5b583ab7e3f1.jpg'],
       [4, 'Þuríður Gía Jóhannesdóttir', 'Frambjóðandi'],
       [5, 'Eiríkur Þór Halldórsson', 'Frambjóðandi'],
       [6, 'Halldóra Dögg Hjörleifsdóttir', 'Frambjóðandi'],
@@ -9386,7 +9386,7 @@ const BLV = {
     list: [
       [1, 'Guðfinnur Ragnar Jóhannsson', 'Frambjóðandi'],
       [2, 'Magnús Ingi Jónsson', 'Frambjóðandi'],
-      [3, 'Rebekka Líf Karlsdóttir', 'Frambjóðandi'],
+      [3, 'Rebekka Líf Karlsdóttir', 'Frambjóðandi', 'images/candidates/97468c06b427ba0a.jpg'],
       [4, 'Karen Arna Hannesdóttir', 'Frambjóðandi'],
       [5, 'Hjörtur Trautason', 'Frambjóðandi'],
       [6, 'Katrín Ugla Kristjánsdóttir', 'Frambjóðandi'],
@@ -9592,7 +9592,7 @@ const STD = {
       { icon: '📡', title: 'Samgöngur', text: 'Bæta samgöngur og samskiptamál til að tengja íbúa betur.' },
     ],
     list: [
-      [1, 'Þorgeir Pálsson', 'Frambjóðandi'],
+      [1, 'Þorgeir Pálsson', 'Frambjóðandi', 'images/candidates/3bd6c57c31acc7a6.jpg'],
       [2, 'Grettir Örn Ásmundsson', 'Frambjóðandi'],
       [3, 'Marta Sigvaldadóttir', 'Frambjóðandi'],
       [4, 'Aleksandra Pilugina', 'Frambjóðandi'],
@@ -10090,7 +10090,7 @@ const HVF = {
         { icon: '🏠', title: 'Húsnæðismál ungs fólks', text: 'Leiðrétta ósanngirni í húsnæðismálum ungs fólks svo fleiri geti sett upp heimili í sveitarfélaginu.' },
     ],
     list: [
-      [1, 'Haraldur Benediktsson', 'Frambjóðandi', null, {
+      [1, 'Haraldur Benediktsson', 'Frambjóðandi', 'images/candidates/f45a567193a4cb9b.jpg', {
         age: 60,
         bio: 'Haraldur Benediktsson er bóndi á Vestra-Reyni undir Akrafjalli og fyrrverandi alþingismaður og bæjarstjóri Akraneskaupstaðar. Hann er fæddur 23. janúar 1966 og hefur búið á Vestra-Reyni frá 1995. Haraldur sat á Alþingi fyrir Sjálfstæðisflokkinn í Norðvesturkjördæmi 2013–2023 og átti meðal annars sæti í efnahags- og viðskiptanefnd, fjárlaganefnd og stjórnskipunar- og eftirlitsnefnd. Hann tók við starfi bæjarstjóra Akraneskaupstaðar í apríl 2023 en sagði því starfi lausu vorið 2026 til að leiða A-lista Samhentrar sveitar í Hvalfjarðarsveit. Áður gegndi hann formennsku í Búnaðarsamtökum Vesturlands 2002–2005 og var formaður Bændasamtaka Íslands. Haraldur er kvæntur Lilju Guðrúnu Eyþórsdóttur og þau eiga þrjú börn.',
         heimild: [],
