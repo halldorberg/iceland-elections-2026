@@ -86,15 +86,31 @@ def muni_priority(pop):
     return '0.6'
 
 # ── Build XML ────────────────────────────────────────────────────────────────
+def hreflang_block(base_url):
+    """Build an hreflang block for a URL. base_url is the IS-default URL.
+    Generates EN and PL variants by appending lang param."""
+    sep = '&amp;' if '?' in base_url else '?'
+    en_url = f'{base_url}{sep}lang=en'
+    pl_url = f'{base_url}{sep}lang=pl'
+    return [
+        f'    <xhtml:link rel="alternate" hreflang="is" href="{base_url}" />',
+        f'    <xhtml:link rel="alternate" hreflang="en" href="{en_url}" />',
+        f'    <xhtml:link rel="alternate" hreflang="pl" href="{pl_url}" />',
+        f'    <xhtml:link rel="alternate" hreflang="x-default" href="{base_url}" />',
+    ]
+
+
 lines = [
     '<?xml version="1.0" encoding="UTF-8"?>',
-    '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
+    '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"',
+    '        xmlns:xhtml="http://www.w3.org/1999/xhtml">',
     '',
     '  <!-- ── Homepage ─────────────────────────────────────────────── -->',
     '  <url>',
     f'    <loc>{BASE}/</loc>',
     '    <changefreq>weekly</changefreq>',
     '    <priority>1.0</priority>',
+    *hreflang_block(f'{BASE}/'),
     '  </url>',
     '',
 ]
@@ -112,11 +128,13 @@ for muni in munis:
     lines.append(f'  <!-- ── {muni["name"]} ──────────────────────────────────── -->')
 
     # Municipality page
+    muni_url = f'{BASE}/municipality.html?id={mid}'
     lines += [
         '  <url>',
-        f'    <loc>{BASE}/municipality.html?id={mid}</loc>',
+        f'    <loc>{muni_url}</loc>',
         '    <changefreq>weekly</changefreq>',
         f'    <priority>{mp}</priority>',
+        *hreflang_block(muni_url),
         '  </url>',
     ]
     n_munis += 1
@@ -124,22 +142,26 @@ for muni in munis:
     # Party list pages
     for pid in pids:
         ballot_nos = parties.get(pid, [])
+        party_url = f'{BASE}/municipality.html?id={mid}&amp;party={pid}'
         lines += [
             '  <url>',
-            f'    <loc>{BASE}/municipality.html?id={mid}&amp;party={pid}</loc>',
+            f'    <loc>{party_url}</loc>',
             '    <changefreq>weekly</changefreq>',
             '    <priority>0.6</priority>',
+            *hreflang_block(party_url),
             '  </url>',
         ]
         n_lists += 1
 
         # Candidate profile pages
         for bn in ballot_nos:
+            cand_url = f'{BASE}/municipality.html?id={mid}&amp;party={pid}&amp;candidate={bn}'
             lines += [
                 '  <url>',
-                f'    <loc>{BASE}/municipality.html?id={mid}&amp;party={pid}&amp;candidate={bn}</loc>',
+                f'    <loc>{cand_url}</loc>',
                 '    <changefreq>weekly</changefreq>',
                 '    <priority>0.5</priority>',
+                *hreflang_block(cand_url),
                 '  </url>',
             ]
             n_candidates += 1

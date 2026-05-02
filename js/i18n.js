@@ -15,6 +15,10 @@ export const UI = {
     // Map page
     heroTitle:        'Velkomin í <span>lýðræðisveisluna!</span>',
     heroSubtitle:     'Smelltu á sveitarfélag á kortinu til að bera saman á einum stað alla flokka, frambjóðendur og stefnur þeirra.',
+    heroIntro:        'Finndu út allt um öll framboð fyrir sveitarstjórnarkosningarnar 16. maí 2026 á einum stað. Sjáðu frambjóðendur, stefnumál og fréttir í þínu sveitarfélagi.',
+    heroIntroEmphasis:'Berðu saman flokka, kynnstu fólkinu sem býður sig fram, og taktu upplýsta ákvörðun fyrir kjördag.',
+    pageTitleHome:    'Lýðræðisveislan 2026 — Sveitarstjórnarkosningar á Íslandi',
+    pageDescHome:     'Sjáðu öll framboð, frambjóðendur og stefnumál fyrir sveitarstjórnarkosningarnar 16. maí 2026 á Íslandi á einum stað. Berðu saman flokka og kjóstu upplýst.',
     statMunicipalities: 'Sveitarfélög',
     statParties:      'Framboðslistar',
     statCandidates:   'Frambjóðendur',
@@ -87,6 +91,10 @@ export const UI = {
 
     heroTitle:        'Welcome to the <span>democracy feast!</span>',
     heroSubtitle:     'Click a municipality on the map to compare parties, candidates and their platforms all in one place.',
+    heroIntro:        "Moved to Iceland recently and trying to figure out the local elections? Here's every party running in your municipality on May 16, 2026 — candidates, platforms, and news, all in English.",
+    heroIntroEmphasis:"If you've lived here for at least three years, you can vote, even without Icelandic citizenship. Find out who's worth your vote.",
+    pageTitleHome:    "Lýðræðisveislan 2026 — Iceland's Local Elections",
+    pageDescHome:     "Find every party, candidate and platform for Iceland's 2026 local elections on May 16. Compare them all in one place — in English, Icelandic or Polish.",
     statMunicipalities: 'Municipalities',
     statParties:      'Party lists',
     statCandidates:   'Candidates',
@@ -152,6 +160,10 @@ export const UI = {
 
     heroTitle:        'Witaj na <span>uczcie demokracji!</span>',
     heroSubtitle:     'Kliknij gminę na mapie, aby porównać partie, kandydatów i ich programy w jednym miejscu.',
+    heroIntro:        'Mieszkasz w Islandii i chcesz zrozumieć wybory lokalne? Zobacz wszystkie partie kandydujące w Twojej gminie 16 maja 2026 — kandydatów, programy i aktualności, w języku polskim.',
+    heroIntroEmphasis:'Jeśli mieszkasz w Islandii od co najmniej trzech lat, masz prawo głosu — nawet bez obywatelstwa. Sprawdź, kto reprezentuje Twoje sprawy: mieszkanie, przedszkola, szkoły, integrację.',
+    pageTitleHome:    'Lýðræðisveislan 2026 — Wybory samorządowe w Islandii',
+    pageDescHome:     'Wszystkie partie, kandydaci i programy w wyborach samorządowych 16 maja 2026 w Islandii. W jednym miejscu — po polsku, islandzku lub angielsku.',
     statMunicipalities: 'Gminy',
     statParties:      'Listy partyjne',
     statCandidates:   'Kandydaci',

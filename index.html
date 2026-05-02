@@ -7,6 +7,15 @@
   <meta name="description" content="Yfirlit yfir flokka og frambjóðendur í sveitarstjórnarkosningum 2026 á Íslandi." />
   <link rel="icon" href="favicon.svg" type="image/svg+xml" />
 
+  <!-- Canonical -->
+  <link rel="canonical" href="https://lydraedisveislan.is/" />
+
+  <!-- hreflang language alternates -->
+  <link rel="alternate" hreflang="is" href="https://lydraedisveislan.is/" />
+  <link rel="alternate" hreflang="en" href="https://lydraedisveislan.is/?lang=en" />
+  <link rel="alternate" hreflang="pl" href="https://lydraedisveislan.is/?lang=pl" />
+  <link rel="alternate" hreflang="x-default" href="https://lydraedisveislan.is/" />
+
   <!-- Open Graph / Social preview -->
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://lydraedisveislan.is/" />
@@ -15,6 +24,9 @@
   <meta property="og:image" content="https://lydraedisveislan.is/images/og-preview.png" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
+  <meta property="og:locale" content="is_IS" />
+  <meta property="og:locale:alternate" content="en_US" />
+  <meta property="og:locale:alternate" content="pl_PL" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:image" content="https://lydraedisveislan.is/images/og-preview.png" />
 
@@ -37,7 +49,7 @@
 
   <!-- App styles -->
   <link rel="stylesheet" href="css/variables.css?v=3" />
-  <link rel="stylesheet" href="css/map.css?v=15" />
+  <link rel="stylesheet" href="css/map.css?v=16" />
 </head>
 <body class="page-map">
 
@@ -86,9 +98,12 @@
       Sveitarstjórnarkosningar 2026
     </div>
     <h1 class="hero-title" id="hero-title">Velkomin í <span>lýðræðisveisluna!</span></h1>
-    <p class="hero-subtitle" id="hero-subtitle">
-      Smelltu á sveitarfélag á kortinu til að bera saman á einum stað alla flokka,
-      frambjóðendur og stefnur þeirra.
+    <p class="hero-intro" id="hero-intro">
+      Finndu út allt um öll framboð fyrir sveitarstjórnarkosningarnar 16. maí 2026 á einum stað.
+      Sjáðu frambjóðendur, stefnumál og fréttir í þínu sveitarfélagi.
+    </p>
+    <p class="hero-intro-emphasis" id="hero-intro-emphasis">
+      Berðu saman flokka, kynnstu fólkinu sem býður sig fram, og taktu upplýsta ákvörðun fyrir kjördag.
     </p>
     <div class="stats-bar">
       <div class="stat-item">
@@ -183,7 +198,7 @@
   </div>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-  <script type="module" src="js/map.js?v=5"></script>
+  <script type="module" src="js/map.js?v=6"></script>
   <script type="module">
     import { MUNICIPALITIES } from './js/data/municipalities.js';
     import { t } from './js/i18n.js';

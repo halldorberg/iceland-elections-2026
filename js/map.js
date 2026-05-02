@@ -15,8 +15,22 @@ renderLangSwitcher(document.getElementById('lang-switcher'));
   const setHTML = (id, html) => { const el = document.getElementById(id); if (el) el.innerHTML = html; };
 
   // Hero
-  setHTML('hero-title',    ui.heroTitle);
-  set('hero-subtitle',     ui.heroSubtitle);
+  setHTML('hero-title',     ui.heroTitle);
+  set('hero-intro',          ui.heroIntro);
+  set('hero-intro-emphasis', ui.heroIntroEmphasis);
+
+  // Dynamic <title> and <meta name="description"> per language (SEO)
+  if (ui.pageTitleHome) document.title = ui.pageTitleHome;
+  const metaDesc = document.querySelector('meta[name="description"]');
+  if (metaDesc && ui.pageDescHome) metaDesc.setAttribute('content', ui.pageDescHome);
+  const ogTitle = document.querySelector('meta[property="og:title"]');
+  if (ogTitle && ui.pageTitleHome) ogTitle.setAttribute('content', ui.pageTitleHome);
+  const ogDesc = document.querySelector('meta[property="og:description"]');
+  if (ogDesc && ui.pageDescHome) ogDesc.setAttribute('content', ui.pageDescHome);
+  const ogLocale = document.querySelector('meta[property="og:locale"]');
+  if (ogLocale) ogLocale.setAttribute('content', { is: 'is_IS', en: 'en_US', pl: 'pl_PL' }[lang] || 'is_IS');
+  // Set <html lang="..."> so browser/Google know the page language
+  document.documentElement.lang = lang;
 
   // Stats
   set('stat-label-municipalities', ui.statMunicipalities);

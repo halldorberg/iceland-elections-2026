@@ -61,9 +61,103 @@ const params = new URLSearchParams(window.location.search);
 const muniId = params.get('id') || 'reykjavik';
 const muni = MUNICIPALITIES.find(m => m.id === muniId) || MUNICIPALITIES[0];
 
-document.title = `${muni.name} – Kosningar 2026`;
 document.getElementById('muni-name').textContent = muni.name;
 document.getElementById('muni-region').textContent = muni.region;
+document.documentElement.lang = lang;
+
+// ─── SEO: dynamic title / meta description / canonical / og per route ────
+function updatePageMeta() {
+  const sp = new URLSearchParams(window.location.search);
+  const partyCode = sp.get('party');
+  const candidateBallot = sp.get('candidate');
+  const muniName = muni.name;
+  const electionPhrase = {
+    is: 'Kosningar 2026',
+    en: '2026 Local Elections',
+    pl: 'Wybory samorządowe 2026',
+  }[lang] || 'Kosningar 2026';
+  // Templates use dashes rather than prepositions because Icelandic muni names
+  // are stored in nominative case ("Garðabær"); "í Garðabæ" would require dative
+  // and we don't have that field. Dashes sidestep the case issue entirely and
+  // also put the most important keyword (muni / party name) first in the SERP.
+  const compareLead = {
+    is: (m) => `${m} — sjá öll framboð, frambjóðendur og stefnumál fyrir sveitarstjórnarkosningarnar 16. maí 2026. Berðu saman flokka og kjóstu upplýst.`,
+    en: (m) => `${m} — see every party, candidate and platform for the May 16, 2026 local elections. Compare them in one place.`,
+    pl: (m) => `${m} — zobacz wszystkie partie, kandydatów i programy przed wyborami samorządowymi 16 maja 2026. Porównaj je w jednym miejscu.`,
+  }[lang] || ((m) => `${m} — Kosningar 2026`);
+  const partyLead = {
+    is: (p, m) => `${p} — ${m} — stefnumál og frambjóðendur fyrir sveitarstjórnarkosningar 2026. Berðu listann saman við önnur framboð.`,
+    en: (p, m) => `${p} — ${m} — platform and candidates for the 2026 local elections. Compare with other parties on the ballot.`,
+    pl: (p, m) => `${p} — ${m} — program i kandydaci w wyborach samorządowych 2026. Porównaj z innymi listami.`,
+  }[lang] || ((p, m) => `${p} — ${m} — Kosningar 2026`);
+  const candidateLead = {
+    is: (n, p, m) => `${n} — ${p} — ${m}. Frambjóðandi í sveitarstjórnarkosningum 2026. Sjá æviágrip, áherslur og fréttir.`,
+    en: (n, p, m) => `${n} — ${p} — ${m}. Candidate in the 2026 local elections. See bio, focus areas and news.`,
+    pl: (n, p, m) => `${n} — ${p} — ${m}. Kandydat w wyborach samorządowych 2026. Zobacz biografię, priorytety i aktualności.`,
+  }[lang] || ((n, p, m) => `${n} — ${p} — ${m}`);
+
+  let title, desc;
+  // candidate-level title is set separately (see updateCandidateMeta) when the
+  // modal opens, since the candidate name isn't available until after the data
+  // load. For URL-based initial render we only do muni + party level here.
+  void candidateBallot;
+  void candidateLead;
+  if (partyCode) {
+    const party = PARTIES[partyCode] || { name: partyCode };
+    title = `${party.name} — ${muniName} — ${electionPhrase}`;
+    desc = partyLead(party.name, muniName);
+  } else {
+    title = `${muniName} — ${electionPhrase}`;
+    desc = compareLead(muniName);
+  }
+
+  // Trim title to ~60 chars (Google's typical truncation point)
+  if (title.length > 60) title = title.slice(0, 57) + '…';
+
+  document.title = title;
+  const setMeta = (sel, val) => { const el = document.querySelector(sel); if (el) el.setAttribute('content', val); };
+  setMeta('meta[name="description"]', desc);
+  setMeta('meta[property="og:title"]', title);
+  setMeta('meta[property="og:description"]', desc);
+  setMeta('meta[property="og:locale"]', { is: 'is_IS', en: 'en_US', pl: 'pl_PL' }[lang] || 'is_IS');
+
+  // Canonical = current absolute URL
+  const canonical = window.location.origin + window.location.pathname + window.location.search;
+  const canonicalLink = document.getElementById('canonical-link');
+  if (canonicalLink) canonicalLink.setAttribute('href', canonical);
+  setMeta('meta[property="og:url"]', canonical);
+
+  // hreflang variants — same path, swap lang param
+  const buildHref = (l) => {
+    const u = new URL(window.location.href);
+    if (l === 'is') u.searchParams.delete('lang');
+    else u.searchParams.set('lang', l);
+    return u.toString();
+  };
+  const hl = (id, l) => { const el = document.getElementById(id); if (el) el.setAttribute('href', buildHref(l)); };
+  hl('hreflang-is', 'is');
+  hl('hreflang-en', 'en');
+  hl('hreflang-pl', 'pl');
+  hl('hreflang-default', 'is');
+}
+
+// Initial call (partyDataMap is populated below; run again after that's ready)
+updatePageMeta();
+
+// Hook into history changes so candidate modal open/close updates the title
+const _origReplace = window.history.replaceState.bind(window.history);
+window.history.replaceState = function (...args) {
+  const r = _origReplace(...args);
+  setTimeout(updatePageMeta, 0);
+  return r;
+};
+const _origPush = window.history.pushState.bind(window.history);
+window.history.pushState = function (...args) {
+  const r = _origPush(...args);
+  setTimeout(updatePageMeta, 0);
+  return r;
+};
+window.addEventListener('popstate', () => setTimeout(updatePageMeta, 0));
 
 // Municipality share button — clean URL with just ?id=
 const muniShareBtn = document.getElementById('muni-share');

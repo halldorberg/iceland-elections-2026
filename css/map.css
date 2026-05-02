@@ -202,6 +202,26 @@
   animation: fade-in-up 0.6s var(--ease-out-expo) 0.2s both;
 }
 
+/* SEO intro paragraph (replaces .hero-subtitle on the front page) */
+.hero-intro {
+  font-size: 1.05rem;
+  color: var(--color-text-muted);
+  max-width: 640px;
+  margin: 0 auto var(--space-3);
+  line-height: 1.7;
+  animation: fade-in-up 0.6s var(--ease-out-expo) 0.2s both;
+}
+.hero-intro-emphasis {
+  font-size: 0.95rem;
+  font-style: italic;
+  color: var(--color-text-muted);
+  max-width: 640px;
+  margin: 0 auto var(--space-8);
+  line-height: 1.6;
+  opacity: 0.85;
+  animation: fade-in-up 0.6s var(--ease-out-expo) 0.3s both;
+}
+
 /* Stats bar */
 .stats-bar {
   display: flex;

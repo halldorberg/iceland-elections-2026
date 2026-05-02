@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Don't crawl helper / scan-result paths
+Disallow: /scan-review.html
+Disallow: /scan_results/
+Disallow: /scripts/
+Disallow: /translations/
+Disallow: /tmp_*
+
+Sitemap: https://lydraedisveislan.is/sitemap.xml

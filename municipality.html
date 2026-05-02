@@ -7,6 +7,15 @@
   <meta name="description" content="Flokkar og frambjóðendur í sveitarstjórnarkosningum 2026." />
   <link rel="icon" href="favicon.svg" type="image/svg+xml" />
 
+  <!-- Canonical (overridden client-side by municipality.js once route is known) -->
+  <link rel="canonical" id="canonical-link" href="https://lydraedisveislan.is/" />
+
+  <!-- hreflang language alternates (URLs updated client-side) -->
+  <link rel="alternate" hreflang="is" id="hreflang-is" href="https://lydraedisveislan.is/" />
+  <link rel="alternate" hreflang="en" id="hreflang-en" href="https://lydraedisveislan.is/?lang=en" />
+  <link rel="alternate" hreflang="pl" id="hreflang-pl" href="https://lydraedisveislan.is/?lang=pl" />
+  <link rel="alternate" hreflang="x-default" id="hreflang-default" href="https://lydraedisveislan.is/" />
+
   <!-- Open Graph / Social preview -->
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Sveitarstjórnarkosningar 2026 – Ísland" />
@@ -14,6 +23,9 @@
   <meta property="og:image" content="https://lydraedisveislan.is/images/og-preview.png" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
+  <meta property="og:locale" content="is_IS" />
+  <meta property="og:locale:alternate" content="en_US" />
+  <meta property="og:locale:alternate" content="pl_PL" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:image" content="https://lydraedisveislan.is/images/og-preview.png" />
 
@@ -170,7 +182,7 @@
   </div>
 
   <!-- App -->
-  <script type="module" src="js/municipality.js?v=44"></script>
+  <script type="module" src="js/municipality.js?v=45"></script>
   <script type="module" src="js/outreach.js?v=1"></script>
   <script>
     (function () {
