@@ -95,8 +95,12 @@ def _audit_html(audit: dict | None) -> str:
             ) + '</ul></div>'
         res_html = ''
         if rescue.get('resolutions'):
+            def _res_li(r):
+                if isinstance(r, dict):
+                    return f'<li class="rescue-{r.get("kind","other")}">{e(r.get("text",""))}</li>'
+                return f'<li>{e(str(r))}</li>'
             res_html = '<div class="rescue-meta"><strong>Per-claim resolution:</strong><ul>' + ''.join(
-                f'<li class="rescue-{r["kind"]}">{e(r["text"])}</li>' for r in rescue['resolutions']
+                _res_li(r) for r in rescue['resolutions']
             ) + '</ul></div>'
         applied_class = ' applied' if audit.get('applied') else ''
         applied_label = ' <span class="applied-tag">✅ APPLIED</span>' if audit.get('applied') else ''
