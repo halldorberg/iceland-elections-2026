@@ -61,8 +61,17 @@ def _audit_html(audit: dict | None) -> str:
     )
     rows = ''
     for st in audit['statements']:
-        status_cls = st['status']  # 'verified' | 'flagged' | 'unreachable'
-        symbol = {'verified': '✅', 'flagged': '🚩FLAG-UNSOURCED', 'unreachable': '⚠️ SOURCE-UNREACHABLE'}[status_cls]
+        status_cls = st['status']  # 'verified' | 'rescued' | 'flagged' | 'unreachable'
+        symbols = {
+            'verified':    '✅',
+            'rescued':     '✅ RESCUED',
+            'flagged':     '🚩FLAG-UNSOURCED',
+            'unreachable': '⚠️ SOURCE-UNREACHABLE',
+        }
+        symbol = symbols.get(status_cls, '· ' + status_cls)
+        # 'rescued' renders like 'verified' (green) but with the RESCUED label
+        if status_cls == 'rescued':
+            status_cls = 'verified'
         quotes_html = ''
         for q in st.get('quotes', []) or []:
             quotes_html += f'<div class="audit-quote">› {e(q)}</div>'

@@ -68,7 +68,7 @@ def main():
                 "statements": r.get("statements", []),
                 "summary": r.get("summary"),
                 "stats": {
-                    "verified":    sum(1 for s in r.get("statements", []) if s.get("status") == "verified"),
+                    "verified":    sum(1 for s in r.get("statements", []) if s.get("status") in ("verified", "rescued")),
                     "flagged":     sum(1 for s in r.get("statements", []) if s.get("status") == "flagged"),
                     "unreachable": sum(1 for s in r.get("statements", []) if s.get("status") == "unreachable"),
                 },
