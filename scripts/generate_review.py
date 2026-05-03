@@ -125,13 +125,8 @@ def bio_section(bios, audit_data=None):
         return '<p style="color:var(--muted)">No bio results file found.</p>'
     audit_data = audit_data or {}
     rows = ''
-    hidden_applied = 0
     for b in bios:
         cid = b.get('id', '')
-        audit_entry_check = audit_data.get(cid)
-        if audit_entry_check and audit_entry_check.get('applied'):
-            hidden_applied += 1
-            continue
         age_tag = f'<span class="tag">Aldur {b["age"]}</span>' if b.get('age') else ''
         interests = ' '.join(f'<span class="tag">{e(i)}</span>' for i in (b.get('interests') or []))
         social = ''
@@ -155,7 +150,7 @@ def bio_section(bios, audit_data=None):
             sources_html = f'<span style="color:var(--yellow);font-size:11px">⏭ skipped: {e(skipped_reason)}</span>'
         sources_row = f'<div class="sources-row">{sources_html}</div>' if sources_html else ''
 
-        audit_entry = audit_entry_check
+        audit_entry = audit_data.get(cid)
         if audit_entry is not None:
             audit_entry = dict(audit_entry, _cid=cid)
         audit_panel = _audit_html(audit_entry)
@@ -203,15 +198,6 @@ def bio_section(bios, audit_data=None):
       {audit_panel}
       {approve_row}
     </div>'''
-    if hidden_applied:
-        banner = (
-            f'<div class="scan-note" style="background:rgba(63,185,80,.10);'
-            f'border-color:rgba(63,185,80,.35);color:var(--green);margin-bottom:16px">'
-            f'✅ {hidden_applied} approved bio{"s" if hidden_applied != 1 else ""} '
-            f'hidden — already applied to candidates.js.'
-            f'</div>'
-        )
-        rows = banner + rows
     return rows
 
 
@@ -477,6 +463,13 @@ def main():
 
     # Optional per-bio source audit data, keyed by candidate id
     audit_data = load_json(SCAN_DIR / "audit_results.json") or {}
+
+    # Drop bios that are already approved + applied — they're done with
+    # the review cycle and shouldn't appear here at all.
+    bios_list = [
+        b for b in bios_list
+        if not (audit_data.get(b.get('id', '')) or {}).get('applied')
+    ]
 
     total_articles = sum(len(r.get('new_articles', [])) for r in news_list)
     news_cands = len([r for r in news_list if r.get('new_articles')])
@@ -786,7 +779,6 @@ window.addEventListener('load', () => {
   </div>
 
   <h2 id="bios">\U0001f4dd Biographies <span class="section-count">{len(bios_list)}</span></h2>
-  {('<div class="scan-note">🔍 Source-audit pilot live for ' + str(len(audit_data)) + ' bios. Look for the green/red/yellow audit panels under each bio (Ctrl-F <strong>FLAG-UNSOURCED</strong> to jump between flagged claims). Seven bios also have a <strong>📝 PROPOSED REWRITE</strong> block — strict source-grounded replacement after the rescue pass. Audited candidates: ' + ', '.join(sorted(audit_data.keys())) + '.</div>') if audit_data else ''}
   {bio_section(bios_list, audit_data)}
 
   <h2 id="news">\U0001f4f0 News Articles <span class="section-count">{total_articles} articles &middot; {news_cands} candidates</span></h2>
