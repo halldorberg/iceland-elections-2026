@@ -75,10 +75,31 @@ def _audit_html(audit: dict | None) -> str:
             f'<div class="audit-claim">{st["n"]}. {symbol} <em>"{e(st["claim"])}"</em></div>'
             f'{quotes_html}{notes_html}{rewrite_html}</div>'
         )
+    rescue_html = ''
+    rescue = audit.get('rescue')
+    if rescue and rescue.get('rewrite'):
+        new_src_html = ''
+        if rescue.get('new_sources'):
+            new_src_html = '<div class="rescue-meta"><strong>New sources used in rescue:</strong><ul>' + ''.join(
+                f'<li>{e(s)}</li>' for s in rescue['new_sources']
+            ) + '</ul></div>'
+        res_html = ''
+        if rescue.get('resolutions'):
+            res_html = '<div class="rescue-meta"><strong>Per-claim resolution:</strong><ul>' + ''.join(
+                f'<li class="rescue-{r["kind"]}">{e(r["text"])}</li>' for r in rescue['resolutions']
+            ) + '</ul></div>'
+        rescue_html = (
+            '<div class="rescue-block">'
+            '<div class="rescue-label">📝 PROPOSED REWRITE'
+            f' <span class="rescue-wc">({rescue.get("rewrite_words", "?")} orð)</span></div>'
+            f'<div class="rescue-text">{e(rescue["rewrite"])}</div>'
+            f'{new_src_html}{res_html}'
+            '</div>'
+        )
     return (
         '<details class="audit-panel" open><summary>'
         '<strong>🔍 Source audit</strong> ' + badges + '</summary>'
-        + rows + '</details>'
+        + rows + rescue_html + '</details>'
     )
 
 
@@ -463,6 +484,16 @@ def main():
   .audit-notes { color: var(--muted); font-size: 11.5px; margin-top: 4px; }
   .audit-rewrite { margin-top: 6px; padding: 5px 8px; background: rgba(88,166,255,.07); border-left: 2px solid var(--accent); font-size: 11.5px; color: var(--text); }
   .audit-rewrite strong { color: var(--accent); }
+  .rescue-block { margin-top: 14px; padding: 14px 16px; background: rgba(88,166,255,.08); border: 1px solid rgba(88,166,255,.22); border-radius: 8px; }
+  .rescue-label { font-size: 11px; font-weight: 700; color: var(--accent); letter-spacing: .07em; margin-bottom: 8px; }
+  .rescue-wc { color: var(--muted); font-weight: 400; letter-spacing: 0; }
+  .rescue-text { color: var(--text); font-size: 13.5px; line-height: 1.7; padding: 8px 12px; background: var(--bg); border-radius: 6px; border-left: 3px solid var(--accent); }
+  .rescue-meta { margin-top: 10px; font-size: 11.5px; color: var(--muted); }
+  .rescue-meta ul { margin: 4px 0 0 16px; padding: 0; }
+  .rescue-meta li { margin: 2px 0; }
+  .rescue-meta li.rescue-rescued { color: var(--green); }
+  .rescue-meta li.rescue-dropped { color: var(--red); }
+  .rescue-meta li.rescue-contradicted { color: var(--yellow); }
   .count-badge { background: rgba(210,153,34,.15); color: var(--yellow); border: 1px solid rgba(210,153,34,.25); border-radius: 12px; padding: 2px 10px; font-size: 11px; }
   .articles-list { display: flex; flex-direction: column; gap: 8px; }
   .article-item { display: flex; align-items: flex-start; gap: 10px; padding: 8px 12px; background: var(--surface2); border-radius: 6px; }
@@ -546,7 +577,7 @@ document.getElementById('pw-input').addEventListener('keydown', function(e) {
   </div>
 
   <h2 id="bios">\U0001f4dd Biographies <span class="section-count">{len(bios_list)}</span></h2>
-  {('<div class="scan-note">🔍 Source-audit pilot live for ' + str(len(audit_data)) + ' bios. Look for the green/red/yellow audit panels under each bio. Use Ctrl-F for <strong>FLAG-UNSOURCED</strong> to jump between flagged claims. Audited candidates: ' + ', '.join(sorted(audit_data.keys())) + '.</div>') if audit_data else ''}
+  {('<div class="scan-note">🔍 Source-audit pilot live for ' + str(len(audit_data)) + ' bios. Look for the green/red/yellow audit panels under each bio (Ctrl-F <strong>FLAG-UNSOURCED</strong> to jump between flagged claims). Seven bios also have a <strong>📝 PROPOSED REWRITE</strong> block — strict source-grounded replacement after the rescue pass. Audited candidates: ' + ', '.join(sorted(audit_data.keys())) + '.</div>') if audit_data else ''}
   {bio_section(bios_list, audit_data)}
 
   <h2 id="news">\U0001f4f0 News Articles <span class="section-count">{total_articles} articles &middot; {news_cands} candidates</span></h2>
