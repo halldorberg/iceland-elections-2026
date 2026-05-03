@@ -77,6 +77,7 @@ def _audit_html(audit: dict | None) -> str:
         )
     rescue_html = ''
     rescue = audit.get('rescue')
+    cid = audit.get('_cid', '')  # injected by caller
     if rescue and rescue.get('rewrite'):
         new_src_html = ''
         if rescue.get('new_sources'):
@@ -88,12 +89,22 @@ def _audit_html(audit: dict | None) -> str:
             res_html = '<div class="rescue-meta"><strong>Per-claim resolution:</strong><ul>' + ''.join(
                 f'<li class="rescue-{r["kind"]}">{e(r["text"])}</li>' for r in rescue['resolutions']
             ) + '</ul></div>'
+        applied_class = ' applied' if audit.get('applied') else ''
+        applied_label = ' <span class="applied-tag">✅ APPLIED</span>' if audit.get('applied') else ''
+        approve_box = (
+            f'<label class="approve-label" data-cid="{e(cid)}">'
+            f'<input type="checkbox" class="approve-cb" data-cid="{e(cid)}"'
+            + (' disabled' if audit.get('applied') else '')
+            + '> Approve this rewrite</label>'
+        )
         rescue_html = (
-            '<div class="rescue-block">'
-            '<div class="rescue-label">📝 PROPOSED REWRITE'
-            f' <span class="rescue-wc">({rescue.get("rewrite_words", "?")} orð)</span></div>'
+            f'<div class="rescue-block{applied_class}" data-cid="{e(cid)}">'
+            f'<div class="rescue-label">📝 PROPOSED REWRITE'
+            f' <span class="rescue-wc">({rescue.get("rewrite_words", "?")} orð)</span>'
+            f'{applied_label}</div>'
             f'<div class="rescue-text">{e(rescue["rewrite"])}</div>'
             f'{new_src_html}{res_html}'
+            f'{approve_box}'
             '</div>'
         )
     return (
@@ -132,7 +143,11 @@ def bio_section(bios, audit_data=None):
             sources_html = f'<span style="color:var(--yellow);font-size:11px">⏭ skipped: {e(skipped_reason)}</span>'
         sources_row = f'<div class="sources-row">{sources_html}</div>' if sources_html else ''
 
-        audit_panel = _audit_html(audit_data.get(b.get('id', '')))
+        cid = b.get('id', '')
+        audit_entry = audit_data.get(cid)
+        if audit_entry is not None:
+            audit_entry = dict(audit_entry, _cid=cid)
+        audit_panel = _audit_html(audit_entry)
 
         rows += f'''
     <div class="card">
@@ -494,6 +509,26 @@ def main():
   .rescue-meta li.rescue-rescued { color: var(--green); }
   .rescue-meta li.rescue-dropped { color: var(--red); }
   .rescue-meta li.rescue-contradicted { color: var(--yellow); }
+  .approve-label { display: inline-flex; align-items: center; gap: 8px; margin-top: 12px; padding: 6px 12px; background: var(--surface2); border: 1px solid var(--border); border-radius: 6px; font-size: 12px; cursor: pointer; user-select: none; }
+  .approve-label:hover { border-color: var(--green); }
+  .approve-cb { width: 16px; height: 16px; cursor: pointer; accent-color: var(--green); }
+  .rescue-block.is-approved { border-color: var(--green); background: rgba(63,185,80,.07); }
+  .rescue-block.is-approved .approve-label { background: rgba(63,185,80,.15); border-color: var(--green); color: var(--green); font-weight: 600; }
+  .rescue-block.applied { opacity: 0.65; }
+  .applied-tag { background: rgba(63,185,80,.18); color: var(--green); border: 1px solid var(--green); border-radius: 10px; padding: 2px 8px; font-size: 10px; font-weight: 700; letter-spacing: .05em; margin-left: 8px; }
+  /* Floating approval counter */
+  #approve-counter { position: fixed; top: 20px; right: 20px; z-index: 100; background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 10px 16px; font-size: 13px; color: var(--text); cursor: pointer; box-shadow: 0 4px 12px rgba(0,0,0,.4); transition: transform .15s; }
+  #approve-counter:hover { transform: translateY(-1px); border-color: var(--green); }
+  #approve-counter strong { color: var(--green); font-size: 16px; margin-right: 4px; }
+  #approve-panel { position: fixed; top: 70px; right: 20px; z-index: 100; background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 16px; width: 380px; max-height: 70vh; overflow-y: auto; display: none; box-shadow: 0 8px 24px rgba(0,0,0,.5); }
+  #approve-panel.open { display: block; }
+  #approve-panel h3 { font-size: 13px; font-weight: 700; margin-bottom: 10px; color: var(--text); }
+  #approve-panel button { display: block; width: 100%; padding: 8px 12px; margin-bottom: 8px; background: var(--surface2); color: var(--text); border: 1px solid var(--border); border-radius: 6px; font-size: 12px; cursor: pointer; text-align: left; }
+  #approve-panel button:hover { border-color: var(--accent); }
+  #approve-panel button.danger:hover { border-color: var(--red); color: var(--red); }
+  #approve-panel .id-list { background: var(--bg); border: 1px solid var(--border); border-radius: 6px; padding: 8px; font-family: monospace; font-size: 11px; word-break: break-all; max-height: 180px; overflow-y: auto; color: var(--muted); margin-top: 8px; }
+  #approve-toast { position: fixed; top: 80px; right: 20px; z-index: 200; background: var(--green); color: #000; padding: 10px 16px; border-radius: 6px; font-size: 13px; font-weight: 600; opacity: 0; transition: opacity .25s; pointer-events: none; }
+  #approve-toast.show { opacity: 1; }
   .count-badge { background: rgba(210,153,34,.15); color: var(--yellow); border: 1px solid rgba(210,153,34,.25); border-radius: 12px; padding: 2px 10px; font-size: 11px; }
   .articles-list { display: flex; flex-direction: column; gap: 8px; }
   .article-item { display: flex; align-items: flex-start; gap: 10px; padding: 8px 12px; background: var(--surface2); border-radius: 6px; }
@@ -529,6 +564,89 @@ function unlock() {
 document.getElementById('pw-input').addEventListener('keydown', function(e) {
   if (e.key === 'Enter') unlock();
 });
+
+// Approval UI
+const APPROVE_KEY_PREFIX = 'approve:';
+function listApproved() {
+  const out = [];
+  for (let i = 0; i < localStorage.length; i++) {
+    const k = localStorage.key(i);
+    if (k && k.startsWith(APPROVE_KEY_PREFIX) && localStorage.getItem(k) === '1') {
+      out.push(k.slice(APPROVE_KEY_PREFIX.length));
+    }
+  }
+  out.sort();
+  return out;
+}
+function showToast(msg) {
+  const t = document.getElementById('approve-toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  setTimeout(() => t.classList.remove('show'), 2000);
+}
+function refreshCounter() {
+  const ids = listApproved();
+  const c = document.getElementById('approve-counter');
+  if (c) c.innerHTML = '<strong>' + ids.length + '</strong> approved';
+  const list = document.getElementById('approve-id-list');
+  if (list) list.textContent = ids.length ? ids.join(', ') : '(none yet)';
+}
+function applyStateToCheckboxes() {
+  document.querySelectorAll('.approve-cb').forEach(cb => {
+    const cid = cb.dataset.cid;
+    if (localStorage.getItem(APPROVE_KEY_PREFIX + cid) === '1') {
+      cb.checked = true;
+      const blk = document.querySelector('.rescue-block[data-cid="' + cid + '"]');
+      if (blk) blk.classList.add('is-approved');
+    }
+  });
+}
+function onApproveChange(ev) {
+  if (!ev.target.classList.contains('approve-cb')) return;
+  const cid = ev.target.dataset.cid;
+  const blk = document.querySelector('.rescue-block[data-cid="' + cid + '"]');
+  if (ev.target.checked) {
+    localStorage.setItem(APPROVE_KEY_PREFIX + cid, '1');
+    if (blk) blk.classList.add('is-approved');
+  } else {
+    localStorage.removeItem(APPROVE_KEY_PREFIX + cid);
+    if (blk) blk.classList.remove('is-approved');
+  }
+  refreshCounter();
+}
+function copyApproved() {
+  const ids = listApproved();
+  if (!ids.length) { showToast('Nothing approved yet'); return; }
+  const txt = ids.join(', ');
+  navigator.clipboard.writeText(txt).then(() => showToast('Copied ' + ids.length + ' IDs to clipboard'));
+}
+function downloadApproved() {
+  const ids = listApproved();
+  const blob = new Blob([JSON.stringify({approved: ids, ts: new Date().toISOString()}, null, 2)], {type: 'application/json'});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url; a.download = 'approvals.json'; a.click();
+  URL.revokeObjectURL(url);
+  showToast('Downloaded approvals.json');
+}
+function clearApprovals() {
+  const ids = listApproved();
+  if (!ids.length) { showToast('Nothing to clear'); return; }
+  if (!confirm('Clear all ' + ids.length + ' approvals? This only affects the UI; applied rewrites stay applied.')) return;
+  ids.forEach(id => localStorage.removeItem(APPROVE_KEY_PREFIX + id));
+  document.querySelectorAll('.approve-cb').forEach(cb => { cb.checked = false; });
+  document.querySelectorAll('.rescue-block.is-approved').forEach(b => b.classList.remove('is-approved'));
+  refreshCounter();
+  showToast('Cleared');
+}
+function togglePanel() {
+  document.getElementById('approve-panel').classList.toggle('open');
+}
+document.addEventListener('change', onApproveChange);
+window.addEventListener('load', () => {
+  applyStateToCheckboxes();
+  refreshCounter();
+});
 """
 
     photos_html = photos_section(photos_list)
@@ -554,6 +672,17 @@ document.getElementById('pw-input').addEventListener('keydown', function(e) {
     <div class="lock-error" id="pw-error">Incorrect password</div>
   </div>
 </div>
+
+<div id="approve-counter" onclick="togglePanel()"><strong>0</strong> approved</div>
+<div id="approve-panel">
+  <h3>Approval actions</h3>
+  <button onclick="copyApproved()">📋 Copy IDs to clipboard</button>
+  <button onclick="downloadApproved()">📥 Download approvals.json</button>
+  <button class="danger" onclick="clearApprovals()">🗑 Clear all approvals</button>
+  <div style="font-size:11px;color:var(--muted);margin-top:8px">Approved candidate IDs (also stored in your browser):</div>
+  <div id="approve-id-list" class="id-list">(none yet)</div>
+</div>
+<div id="approve-toast"></div>
 
 <div id="main">
   <div class="page-header">
