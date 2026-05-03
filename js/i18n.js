@@ -60,7 +60,7 @@ export const UI = {
 
     // Recent poll
     pollLabel:         (pollster, pollsterGen) => `📈 Skoðanakönnun ${pollsterGen || pollster}`,
-    pollSource:        (pollster, period, n) => `Heimild: ${pollster}, ${period} (n=${n})`,
+    pollSource:        (pollster, period, n) => `Heimild: ${pollster}, ${period}${n ? ` (n=${n})` : ''}`,
     pollSeatsHint:     'Sæti reiknuð skv. d\'Hondt-reglu',
 
     // Party splash
@@ -131,7 +131,7 @@ export const UI = {
 
     results2022Label:  '📊 2022 Election results',
     pollLabel:         (pollster /* , pollsterGen */) => `📈 ${pollster} opinion poll`,
-    pollSource:        (pollster, period, n) => `Source: ${pollster}, ${period} (n=${n})`,
+    pollSource:        (pollster, period, n) => `Source: ${pollster}, ${period}${n ? ` (n=${n})` : ''}`,
     pollSeatsHint:     "Seats calculated using D'Hondt method",
     votes:             'votes',
     noSeats:           'No seats',
@@ -204,7 +204,7 @@ export const UI = {
 
     results2022Label:  '📊 Wyniki wyborów 2022',
     pollLabel:         (pollster /* , pollsterGen */) => `📈 Sondaż ${pollster}`,
-    pollSource:        (pollster, period, n) => `Źródło: ${pollster}, ${period} (n=${n})`,
+    pollSource:        (pollster, period, n) => `Źródło: ${pollster}, ${period}${n ? ` (n=${n})` : ''}`,
     pollSeatsHint:     'Mandaty obliczone metodą d\'Hondta',
     votes:             'głosów',
     noSeats:           'Brak mandatów',

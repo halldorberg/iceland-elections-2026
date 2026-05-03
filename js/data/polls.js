@@ -48,4 +48,31 @@ export const POLLS = {
     },
   },
 
+  // Kópavogur · 11 seats
+  // Source: Maskína fyrir DV, apríl 2026 (article 25. apríl 2026; chart label
+  // says only "Könnun apríl 2026" and the article does not state sample size).
+  // https://www.visir.is/g/20262874098d/samfylking-og-midflokkur-a-flugi-i-kopavogi
+  // Seat distribution per article: D 4 · S 3 · C 2 · B 1 · M 1 (D'Hondt-verified).
+  kopavogur: {
+    totalSeats: 11,
+    source: {
+      pollster:    'Maskína',
+      pollsterGen: 'Maskínu',
+      period:      'apríl 2026',
+      period_en:   'April 2026',
+      period_pl:   'kwiecień 2026',
+      sample:      null,
+      url:         'https://www.visir.is/g/20262874098d/samfylking-og-midflokkur-a-flugi-i-kopavogi',
+    },
+    parties: {
+      D: { pct: 31.7, seats: 4 },
+      S: { pct: 24.5, seats: 3 },
+      C: { pct: 14.9, seats: 2 },
+      M: { pct: 11.0, seats: 1 },
+      B: { pct:  8.7, seats: 1 },
+      V: { pct:  5.0, seats: 0 },
+      J: { pct:  4.1, seats: 0 },
+    },
+  },
+
 };
