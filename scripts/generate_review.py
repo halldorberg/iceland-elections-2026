@@ -270,13 +270,29 @@ def main():
         print(f"Cleared: {OUT}")
         return
 
+    # Default scan_date: today, but fall back to the most recent date for which any
+    # scan_results/{type}_YYYY-MM-DD*.json file exists (so an overnight scan
+    # doesn't disappear the moment the calendar rolls over).
     scan_date = date.today().isoformat()
+    explicit_date = False
     skip = set()
     for i, a in enumerate(args):
         if a == '--date' and i + 1 < len(args):
             scan_date = args[i + 1]
+            explicit_date = True
         if a == '--skip' and i + 1 < len(args):
             skip.add(args[i + 1])
+
+    if not explicit_date:
+        import re as _re
+        date_set = set()
+        for p in SCAN_DIR.glob('*_2*.json'):
+            m = _re.search(r'_(\d{4}-\d{2}-\d{2})', p.name)
+            if m:
+                date_set.add(m.group(1))
+        if date_set and scan_date not in date_set:
+            scan_date = max(date_set)
+            print(f"  (no scan files for today; falling back to most recent: {scan_date})")
 
     bios_file    = SCAN_DIR / f"bios_{scan_date}.json"
     news_file    = SCAN_DIR / f"news_{scan_date}.json"
