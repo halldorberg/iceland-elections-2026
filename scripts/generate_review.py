@@ -91,12 +91,6 @@ def _audit_html(audit: dict | None) -> str:
             ) + '</ul></div>'
         applied_class = ' applied' if audit.get('applied') else ''
         applied_label = ' <span class="applied-tag">✅ APPLIED</span>' if audit.get('applied') else ''
-        approve_box = (
-            f'<label class="approve-label" data-cid="{e(cid)}">'
-            f'<input type="checkbox" class="approve-cb" data-cid="{e(cid)}"'
-            + (' disabled' if audit.get('applied') else '')
-            + '> Approve this rewrite</label>'
-        )
         rescue_html = (
             f'<div class="rescue-block{applied_class}" data-cid="{e(cid)}">'
             f'<div class="rescue-label">📝 PROPOSED REWRITE'
@@ -104,7 +98,6 @@ def _audit_html(audit: dict | None) -> str:
             f'{applied_label}</div>'
             f'<div class="rescue-text">{e(rescue["rewrite"])}</div>'
             f'{new_src_html}{res_html}'
-            f'{approve_box}'
             '</div>'
         )
     return (
@@ -149,8 +142,34 @@ def bio_section(bios, audit_data=None):
             audit_entry = dict(audit_entry, _cid=cid)
         audit_panel = _audit_html(audit_entry)
 
+        # Per-bio approve row — checkbox label & semantics depend on whether a
+        # rewrite exists for this candidate.
+        has_bio = bool(b.get('bio'))
+        has_rewrite = bool(audit_entry and audit_entry.get('rescue', {}).get('rewrite'))
+        is_applied = bool(audit_entry and audit_entry.get('applied'))
+        if has_rewrite:
+            approve_label = 'Approve rewrite (replaces current bio + heimild)'
+            approve_kind = 'rewrite'
+        elif has_bio:
+            approve_label = 'Approve bio as-is (no changes needed)'
+            approve_kind = 'as-is'
+        else:
+            approve_label = 'Approve skip (leave bio empty)'
+            approve_kind = 'skip'
+        applied_attr = ' disabled' if is_applied else ''
+        applied_extra = ' <span class="applied-tag">✅ APPLIED</span>' if is_applied else ''
+        approve_row = (
+            f'<div class="approve-row" data-cid="{e(cid)}" data-kind="{approve_kind}">'
+            f'<label class="approve-label">'
+            f'<input type="checkbox" class="approve-cb" data-cid="{e(cid)}" data-kind="{approve_kind}"{applied_attr}>'
+            f' {e(approve_label)}'
+            f'</label>'
+            f'{applied_extra}'
+            f'</div>'
+        )
+
         rows += f'''
-    <div class="card">
+    <div class="card" data-cid="{e(cid)}">
       <div class="card-header">
         <div class="card-title">{e(b["name"])}</div>
         <div class="card-meta">
@@ -164,6 +183,7 @@ def bio_section(bios, audit_data=None):
       <div class="tags-row">{interests}{social}</div>
       {sources_row}
       {audit_panel}
+      {approve_row}
     </div>'''
     return rows
 
@@ -509,11 +529,15 @@ def main():
   .rescue-meta li.rescue-rescued { color: var(--green); }
   .rescue-meta li.rescue-dropped { color: var(--red); }
   .rescue-meta li.rescue-contradicted { color: var(--yellow); }
-  .approve-label { display: inline-flex; align-items: center; gap: 8px; margin-top: 12px; padding: 6px 12px; background: var(--surface2); border: 1px solid var(--border); border-radius: 6px; font-size: 12px; cursor: pointer; user-select: none; }
+  .approve-row { margin-top: 14px; padding-top: 12px; border-top: 1px dashed var(--border); display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+  .approve-label { display: inline-flex; align-items: center; gap: 8px; padding: 6px 12px; background: var(--surface2); border: 1px solid var(--border); border-radius: 6px; font-size: 12px; cursor: pointer; user-select: none; }
   .approve-label:hover { border-color: var(--green); }
   .approve-cb { width: 16px; height: 16px; cursor: pointer; accent-color: var(--green); }
+  .approve-row[data-kind="rewrite"] .approve-label { background: rgba(88,166,255,.12); border-color: rgba(88,166,255,.35); color: var(--accent); }
+  .approve-row[data-kind="skip"] .approve-label { background: rgba(210,153,34,.10); border-color: rgba(210,153,34,.30); color: var(--yellow); }
+  .card.is-approved { border-color: var(--green); box-shadow: 0 0 0 1px var(--green) inset; }
+  .card.is-approved .approve-label { background: rgba(63,185,80,.18); border-color: var(--green); color: var(--green); font-weight: 600; }
   .rescue-block.is-approved { border-color: var(--green); background: rgba(63,185,80,.07); }
-  .rescue-block.is-approved .approve-label { background: rgba(63,185,80,.15); border-color: var(--green); color: var(--green); font-weight: 600; }
   .rescue-block.applied { opacity: 0.65; }
   .applied-tag { background: rgba(63,185,80,.18); color: var(--green); border: 1px solid var(--green); border-radius: 10px; padding: 2px 8px; font-size: 10px; font-weight: 700; letter-spacing: .05em; margin-left: 8px; }
   /* Floating approval counter */
@@ -590,27 +614,46 @@ function refreshCounter() {
   if (c) c.innerHTML = '<strong>' + ids.length + '</strong> approved';
   const list = document.getElementById('approve-id-list');
   if (list) list.textContent = ids.length ? ids.join(', ') : '(none yet)';
+  // Breakdown by kind
+  let rw = 0, asis = 0, skip = 0;
+  ids.forEach(id => {
+    const k = localStorage.getItem(APPROVE_KEY_PREFIX + id + ':kind') || 'as-is';
+    if (k === 'rewrite') rw++;
+    else if (k === 'skip') skip++;
+    else asis++;
+  });
+  const bd = document.getElementById('approve-breakdown');
+  if (bd) bd.innerHTML = '<span style="color:var(--accent)">' + rw + ' rewrite</span> · '
+    + '<span style="color:var(--green)">' + asis + ' as-is</span> · '
+    + '<span style="color:var(--yellow)">' + skip + ' skip</span>';
+}
+function _markApproved(cid, on) {
+  const card = document.querySelector('.card[data-cid="' + cid + '"]');
+  if (card) card.classList.toggle('is-approved', on);
+  const blk = document.querySelector('.rescue-block[data-cid="' + cid + '"]');
+  if (blk) blk.classList.toggle('is-approved', on);
 }
 function applyStateToCheckboxes() {
   document.querySelectorAll('.approve-cb').forEach(cb => {
     const cid = cb.dataset.cid;
     if (localStorage.getItem(APPROVE_KEY_PREFIX + cid) === '1') {
       cb.checked = true;
-      const blk = document.querySelector('.rescue-block[data-cid="' + cid + '"]');
-      if (blk) blk.classList.add('is-approved');
+      _markApproved(cid, true);
     }
   });
 }
 function onApproveChange(ev) {
   if (!ev.target.classList.contains('approve-cb')) return;
   const cid = ev.target.dataset.cid;
-  const blk = document.querySelector('.rescue-block[data-cid="' + cid + '"]');
   if (ev.target.checked) {
+    const kind = ev.target.dataset.kind || 'as-is';
     localStorage.setItem(APPROVE_KEY_PREFIX + cid, '1');
-    if (blk) blk.classList.add('is-approved');
+    localStorage.setItem(APPROVE_KEY_PREFIX + cid + ':kind', kind);
+    _markApproved(cid, true);
   } else {
     localStorage.removeItem(APPROVE_KEY_PREFIX + cid);
-    if (blk) blk.classList.remove('is-approved');
+    localStorage.removeItem(APPROVE_KEY_PREFIX + cid + ':kind');
+    _markApproved(cid, false);
   }
   refreshCounter();
 }
@@ -622,7 +665,10 @@ function copyApproved() {
 }
 function downloadApproved() {
   const ids = listApproved();
-  const blob = new Blob([JSON.stringify({approved: ids, ts: new Date().toISOString()}, null, 2)], {type: 'application/json'});
+  const detailed = ids.map(id => ({
+    id, kind: localStorage.getItem(APPROVE_KEY_PREFIX + id + ':kind') || 'as-is'
+  }));
+  const blob = new Blob([JSON.stringify({approved: detailed, ts: new Date().toISOString()}, null, 2)], {type: 'application/json'});
   const url = URL.createObjectURL(blob);
   const a = document.createElement('a');
   a.href = url; a.download = 'approvals.json'; a.click();
@@ -676,6 +722,7 @@ window.addEventListener('load', () => {
 <div id="approve-counter" onclick="togglePanel()"><strong>0</strong> approved</div>
 <div id="approve-panel">
   <h3>Approval actions</h3>
+  <div id="approve-breakdown" style="font-size:11px;margin-bottom:10px"></div>
   <button onclick="copyApproved()">📋 Copy IDs to clipboard</button>
   <button onclick="downloadApproved()">📥 Download approvals.json</button>
   <button class="danger" onclick="clearApprovals()">🗑 Clear all approvals</button>
