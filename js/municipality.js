@@ -661,13 +661,13 @@ function buildSplashHTML(party, data) {
 // ─── Candidate Gallery ─────────────────────────────────────
 
 function buildCandidatesHTML(data, party) {
-  const cards = data.candidates.map(c => {
+  const partyName = PARTIES[data.partyCode]?.name || data.partyCode;
+  const renderCard = c => {
     const fallback = localAvatar(c.name);
     const occupation = trOcc(c.occupation);
     // SEO + a11y: descriptive alt ("<Name> — <Party> í <Muni>") + explicit
     // dimensions to prevent layout shift (Cumulative Layout Shift, a Google
     // Core Web Vitals ranking factor).
-    const partyName = PARTIES[data.partyCode]?.name || data.partyCode;
     const altText = `${c.name} — ${partyName}, ${muni.name}`;
     return `
       <div class="candidate-card"
@@ -691,7 +691,26 @@ function buildCandidatesHTML(data, party) {
           <span>${ui.seeMore}</span>
         </div>
       </div>`;
-  }).join('');
+  };
+
+  // Split list at the projected seat count from the latest poll. Candidates
+  // up to and including ballot-position N go inside a fieldset-style frame
+  // bordered in the party colour with a small italic label sitting on the
+  // top edge of the frame; the rest render in a normal grid below.
+  const pollSeats = POLLS[data.municipalityId]?.parties?.[data.partyCode]?.seats || 0;
+  const elected   = pollSeats > 0 ? data.candidates.filter(c => c.ballotOrder <= pollSeats) : [];
+  const rest      = pollSeats > 0 ? data.candidates.filter(c => c.ballotOrder >  pollSeats) : data.candidates;
+
+  const electedHTML = elected.length
+    ? `<div class="candidates-elected" style="--party-color:${party.color};--party-text:${party.textColor || party.color}">
+         <div class="candidates-elected-label">${ui.electedFrameLabel}</div>
+         <div class="candidates-grid candidates-grid--elected">${elected.map(renderCard).join('')}</div>
+       </div>`
+    : '';
+
+  const restHTML = rest.length
+    ? `<div class="candidates-grid">${rest.map(renderCard).join('')}</div>`
+    : '';
 
   return `
     <div class="candidates-section">
@@ -699,7 +718,8 @@ function buildCandidatesHTML(data, party) {
         <span style="color:${party.color}">${party.name}</span>
         &nbsp;– ${ui.candidates}
       </div>
-      <div class="candidates-grid">${cards}</div>
+      ${electedHTML}
+      ${restHTML}
     </div>`;
 }
 

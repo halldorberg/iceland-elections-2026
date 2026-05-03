@@ -757,6 +757,42 @@
   gap: var(--space-4);
 }
 
+/* Frame around the candidates that the latest poll projects would win
+   a seat. Border + label inherit the party colour via the inline
+   --party-color custom property set by the renderer; the colour is mixed
+   with white so dark party palettes (#003F87 etc.) stay legible against
+   the near-black .candidates-section background. */
+.candidates-elected {
+  --frame-color: color-mix(in srgb, var(--party-color, #888) 65%, white 35%);
+  position: relative;
+  padding: calc(var(--space-5) + 4px) var(--space-5) var(--space-5);
+  margin-bottom: var(--space-5);
+  border: 2px solid var(--frame-color);
+  border-radius: var(--radius-md);
+  background: color-mix(in srgb, var(--party-color, transparent) 8%, transparent);
+}
+
+.candidates-elected-label {
+  position: absolute;
+  top: -10px;
+  left: 16px;
+  padding: 0 8px;
+  background: var(--color-bg);
+  color: var(--frame-color);
+  font-size: 0.72rem;
+  font-style: italic;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  max-width: calc(100% - 32px);
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.candidates-grid--elected {
+  /* keep the inner grid identical to the outer one for visual continuity */
+}
+
 /* Candidate card */
 .candidate-card {
   background: var(--color-surface);

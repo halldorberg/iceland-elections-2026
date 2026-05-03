@@ -62,6 +62,7 @@ export const UI = {
     pollLabel:         (pollster, pollsterGen) => `📈 Skoðanakönnun ${pollsterGen || pollster}`,
     pollSource:        (pollster, period, n) => `Heimild: ${pollster}, ${period}${n ? ` (n=${n})` : ''}`,
     pollSeatsHint:     'Sæti reiknuð skv. d\'Hondt-reglu',
+    electedFrameLabel: 'Kæmist inn samkvæmt nýjustu skoðanakönnun',
 
     // Party splash
     noPlatformTitle:  'Stefnuskrá ekki til staðar',
@@ -133,6 +134,7 @@ export const UI = {
     pollLabel:         (pollster /* , pollsterGen */) => `📈 ${pollster} opinion poll`,
     pollSource:        (pollster, period, n) => `Source: ${pollster}, ${period}${n ? ` (n=${n})` : ''}`,
     pollSeatsHint:     "Seats calculated using D'Hondt method",
+    electedFrameLabel: 'Would be elected per the latest poll',
     votes:             'votes',
     noSeats:           'No seats',
     ofSeats:           (n) => `of ${n} seats`,
@@ -206,6 +208,7 @@ export const UI = {
     pollLabel:         (pollster /* , pollsterGen */) => `📈 Sondaż ${pollster}`,
     pollSource:        (pollster, period, n) => `Źródło: ${pollster}, ${period}${n ? ` (n=${n})` : ''}`,
     pollSeatsHint:     'Mandaty obliczone metodą d\'Hondta',
+    electedFrameLabel: 'Otrzymałby mandat według najnowszego sondażu',
     votes:             'głosów',
     noSeats:           'Brak mandatów',
     ofSeats:           (n) => `z ${n} mandatów`,
