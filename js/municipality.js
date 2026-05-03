@@ -2,6 +2,7 @@ import { MUNICIPALITIES } from './data/municipalities.js?v=15';
 import { PARTIES } from './data/parties.js?v=4';
 import { getMunicipalityPartyData } from './data/candidates.js?v=64';
 import { RESULTS_2022 } from './data/results2022.js?v=2';
+import { POLLS }        from './data/polls.js?v=1';
 import { EYE_POSITIONS } from './data/eye_positions.js?v=1';
 import { getLang, t, renderLangSwitcher } from './i18n.js?v=4';
 import { partySlug, partyCodeFromSlug, slugify } from './data/party_slugs.js?v=2';
@@ -541,6 +542,51 @@ function buildResultsHTML(partyCode, municipalityId) {
     </div>`;
 }
 
+// ─── Recent poll (same shape as Results 2022) ──────────────
+
+function buildPollHTML(partyCode, municipalityId) {
+  const muniPoll = POLLS[municipalityId];
+  if (!muniPoll) return '';
+
+  const r = muniPoll.parties?.[partyCode];
+  if (!r) return '';
+
+  const total = muniPoll.totalSeats;
+  const src   = muniPoll.source || {};
+  const barPct = Math.min(r.pct, 100);
+  const seatsLabel = r.seats === 0 ? ui.noSeats : ui.ofSeats(total);
+
+  const url    = src['url_'    + lang] || src.url    || '';
+  const period = src['period_' + lang] || src.period || '';
+  const sourceLink = url
+    ? `<a href="${url}" target="_blank" rel="noopener noreferrer">${ui.pollSource(src.pollster, period, src.sample)}</a>`
+    : ui.pollSource(src.pollster, period, src.sample);
+
+  return `
+    <div class="results-2022 results-poll">
+      <div class="results-label">${ui.pollLabel(src.pollster, src.pollsterGen)}</div>
+      <div class="results-row">
+        <div class="results-pct">
+          <span class="results-pct-num">${r.pct}<span class="results-pct-sign">%</span></span>
+          <span class="results-pct-desc">${ui.votes}</span>
+        </div>
+        <div class="results-bar-wrap">
+          <div class="results-bar-track">
+            <div class="results-bar-fill" style="width:${barPct}%"></div>
+          </div>
+        </div>
+        <div class="results-seats">
+          <span class="results-seats-num">${r.seats === 0 ? '–' : r.seats}</span>
+          <span class="results-seats-desc">${seatsLabel}</span>
+        </div>
+      </div>
+      <div class="results-poll-source">
+        ${sourceLink}
+        <span class="results-poll-hint">· ${ui.pollSeatsHint}</span>
+      </div>
+    </div>`;
+}
+
 // ─── Splash / Agenda ───────────────────────────────────────
 
 function buildSplashHTML(party, data) {
@@ -559,6 +605,7 @@ function buildSplashHTML(party, data) {
   }).join('');
 
   const resultsHTML = buildResultsHTML(data.partyCode, data.municipalityId);
+  const pollHTML    = buildPollHTML(data.partyCode, data.municipalityId);
 
   const sourceHTML = data.platformUrl
     ? `<div class="agenda-source">
@@ -603,6 +650,7 @@ function buildSplashHTML(party, data) {
         </button>
       </div>
       ${resultsHTML}
+      ${pollHTML}
       <div class="splash-tagline" style="color:${party.textColor}">${tagline}</div>
       ${disclaimerHTML}
       ${data.isPlaceholder ? '' : `<div class="agenda-grid">${cards}</div>`}

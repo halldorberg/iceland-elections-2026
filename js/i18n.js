@@ -58,6 +58,11 @@ export const UI = {
     resultsUncontested2022: '🤝 Óbundnar kosningar — engir listar 2022',
     resultsJoint:      (name) => `Keppti sem hluti af ${name}`,
 
+    // Recent poll
+    pollLabel:         (pollster, pollsterGen) => `📈 Skoðanakönnun ${pollsterGen || pollster}`,
+    pollSource:        (pollster, period, n) => `Heimild: ${pollster}, ${period} (n=${n})`,
+    pollSeatsHint:     'Sæti reiknuð skv. d\'Hondt-reglu',
+
     // Party splash
     noPlatformTitle:  'Stefnuskrá ekki til staðar',
     noPlatformDesc:   'Við höfum ekki fundið staðfesta stefnuskrá þessa framboðs og birtum því engar áherslugreinar.',
@@ -125,6 +130,9 @@ export const UI = {
     unopposedDesc:    'Only one party list registered and was accepted without an election. When the number of candidates on a list equals or is fewer than the number of seats on the council, there is no need for an election and all candidates automatically take their seats. You can view the list below.',
 
     results2022Label:  '📊 2022 Election results',
+    pollLabel:         (pollster /* , pollsterGen */) => `📈 ${pollster} opinion poll`,
+    pollSource:        (pollster, period, n) => `Source: ${pollster}, ${period} (n=${n})`,
+    pollSeatsHint:     "Seats calculated using D'Hondt method",
     votes:             'votes',
     noSeats:           'No seats',
     ofSeats:           (n) => `of ${n} seats`,
@@ -195,6 +203,9 @@ export const UI = {
     unopposedDesc:    'Tylko jedna lista partyjna zarejestrowała się i została przyjęta bez wyborów. Gdy liczba kandydatów na liście jest równa lub mniejsza od liczby mandatów w radzie gminy, wybory nie są konieczne. Listę można zobaczyć poniżej.',
 
     results2022Label:  '📊 Wyniki wyborów 2022',
+    pollLabel:         (pollster /* , pollsterGen */) => `📈 Sondaż ${pollster}`,
+    pollSource:        (pollster, period, n) => `Źródło: ${pollster}, ${period} (n=${n})`,
+    pollSeatsHint:     'Mandaty obliczone metodą d\'Hondta',
     votes:             'głosów',
     noSeats:           'Brak mandatów',
     ofSeats:           (n) => `z ${n} mandatów`,

@@ -678,6 +678,51 @@
 
 }
 
+/* Recent poll variant — same layout as Results 2022,
+   set apart with a faint divider above and a source line below. */
+.results-poll {
+  margin-top: calc(var(--space-3) * -0.5);
+  padding-top: var(--space-3);
+  border-top: 1px dashed rgba(255,255,255,0.12);
+}
+
+.results-poll .results-bar-fill {
+  background: rgba(255,255,255,0.55);
+  background-image: repeating-linear-gradient(
+    -45deg,
+    rgba(255,255,255,0.0) 0,
+    rgba(255,255,255,0.0) 4px,
+    rgba(255,255,255,0.18) 4px,
+    rgba(255,255,255,0.18) 6px
+  );
+}
+
+.results-poll-source {
+  font-size: 0.65rem;
+  line-height: 1.5;
+  color: rgba(255,255,255,0.5);
+  margin-top: 2px;
+}
+
+.results-poll-source a {
+  color: rgba(255,255,255,0.78);
+  text-decoration: underline;
+  text-decoration-color: rgba(255,255,255,0.25);
+  text-underline-offset: 2px;
+  transition: color .15s, text-decoration-color .15s;
+}
+
+.results-poll-source a:hover {
+  color: #fff;
+  text-decoration-color: rgba(255,255,255,0.7);
+}
+
+.results-poll-hint {
+  color: rgba(255,255,255,0.4);
+  margin-left: 4px;
+  white-space: nowrap;
+}
+
 /* ─── Candidate Gallery ──────────────────────────────── */
 
 .candidates-section {
