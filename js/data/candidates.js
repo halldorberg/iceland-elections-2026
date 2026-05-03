@@ -8288,7 +8288,7 @@ const FJD = {
     ],
   },
   S: {
-    tagline: 'Samfylkingin í Fjarðabyggð — jöfnuður, ábyrgð og uppbygging',
+    tagline: 'Samfylking og annað félagshyggjufólk — jöfnuður, ábyrgð og uppbygging',
     platformUrl: 'https://www.visir.is/g/20262872627d/jofnudur-abyrgd-og-uppbygging',
     agenda: [
         { icon: '⚖️', title: 'Jöfnuður, ábyrgð og uppbygging', text: 'Samfylkingin í Fjarðabyggð byggir á þremur kjarnagildum: jöfnuði, ábyrgð og uppbyggingu sem skili sér í betra samfélagi.' },

@@ -398,7 +398,7 @@ export const PARTIES = {
   SGE: { code: 'E', name: 'Uppbyggingarlistinn', shortName: 'Uppbyggingarlistinn', englishName: 'The Development List (Skeiða- og Gnúpverjahreppur)', color: '#1B5E20', lightColor: '#e8f5e9', textColor: '#ffffff', accentColor: '#2E7D32' },
   SGL: { code: 'L', name: 'Samvinnulistinn', shortName: 'Samvinnulistinn', englishName: 'The Cooperation List (Skeiða- og Gnúpverjahreppur)', color: '#0D47A1', lightColor: '#e3f2fd', textColor: '#ffffff', accentColor: '#1565C0' },
   // ── Hornafjörður local list ───────────────────────────────────────────────────
-  HFJK: { code: 'K', name: 'Kex Framboð', shortName: 'Kex Framboð', englishName: 'Kex Framboð (Hornafjörður)', color: '#BF360C', lightColor: '#fbe9e7', textColor: '#ffffff', accentColor: '#d84315' },
+  HFJK: { code: 'K', name: 'Kex listinn', shortName: 'Kex listinn', englishName: 'Kex listinn (Hornafjörður)', color: '#BF360C', lightColor: '#fbe9e7', textColor: '#ffffff', accentColor: '#d84315' },
   // ── North Iceland local lists ─────────────────────────────────────────────────
   DVA: { code: 'A', name: 'Byggðalistinn', shortName: 'Byggðalistinn', englishName: 'The Settlement List (Dalvík)', color: '#6A1B9A', lightColor: '#f3e5f5', textColor: '#ffffff', accentColor: '#7B1FA2' },
   DVK: { code: 'K', name: 'K-listi Dalvíkurbyggðar', shortName: 'K-listinn (Dalvík)', englishName: 'K-List (Dalvíkurbyggð)', color: '#E65100', lightColor: '#fbe9e7', textColor: '#ffffff', accentColor: '#F4511E' },
