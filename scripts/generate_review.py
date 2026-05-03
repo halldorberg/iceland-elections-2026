@@ -125,7 +125,13 @@ def bio_section(bios, audit_data=None):
         return '<p style="color:var(--muted)">No bio results file found.</p>'
     audit_data = audit_data or {}
     rows = ''
+    hidden_applied = 0
     for b in bios:
+        cid = b.get('id', '')
+        audit_entry_check = audit_data.get(cid)
+        if audit_entry_check and audit_entry_check.get('applied'):
+            hidden_applied += 1
+            continue
         age_tag = f'<span class="tag">Aldur {b["age"]}</span>' if b.get('age') else ''
         interests = ' '.join(f'<span class="tag">{e(i)}</span>' for i in (b.get('interests') or []))
         social = ''
@@ -149,8 +155,7 @@ def bio_section(bios, audit_data=None):
             sources_html = f'<span style="color:var(--yellow);font-size:11px">⏭ skipped: {e(skipped_reason)}</span>'
         sources_row = f'<div class="sources-row">{sources_html}</div>' if sources_html else ''
 
-        cid = b.get('id', '')
-        audit_entry = audit_data.get(cid)
+        audit_entry = audit_entry_check
         if audit_entry is not None:
             audit_entry = dict(audit_entry, _cid=cid)
         audit_panel = _audit_html(audit_entry)
@@ -198,6 +203,15 @@ def bio_section(bios, audit_data=None):
       {audit_panel}
       {approve_row}
     </div>'''
+    if hidden_applied:
+        banner = (
+            f'<div class="scan-note" style="background:rgba(63,185,80,.10);'
+            f'border-color:rgba(63,185,80,.35);color:var(--green);margin-bottom:16px">'
+            f'✅ {hidden_applied} approved bio{"s" if hidden_applied != 1 else ""} '
+            f'hidden — already applied to candidates.js.'
+            f'</div>'
+        )
+        rows = banner + rows
     return rows
 
 
