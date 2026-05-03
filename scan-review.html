@@ -89,10 +89,16 @@
   .rescue-block.applied { opacity: 0.65; }
   .applied-tag { background: rgba(63,185,80,.18); color: var(--green); border: 1px solid var(--green); border-radius: 10px; padding: 2px 8px; font-size: 10px; font-weight: 700; letter-spacing: .05em; margin-left: 8px; }
   /* Floating approval counter */
-  #approve-counter { position: fixed; top: 20px; right: 20px; z-index: 100; background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 10px 16px; font-size: 13px; color: var(--text); cursor: pointer; box-shadow: 0 4px 12px rgba(0,0,0,.4); transition: transform .15s; }
+  #approve-counter { position: fixed; top: 20px; right: 20px; z-index: 9999; background: var(--surface); border: 1px solid var(--green); border-radius: 10px; padding: 10px 16px; font-size: 13px; color: var(--text); cursor: pointer; box-shadow: 0 4px 12px rgba(0,0,0,.4); transition: transform .15s; }
   #approve-counter:hover { transform: translateY(-1px); border-color: var(--green); }
   #approve-counter strong { color: var(--green); font-size: 16px; margin-right: 4px; }
-  #approve-panel { position: fixed; top: 70px; right: 20px; z-index: 100; background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 16px; width: 380px; max-height: 70vh; overflow-y: auto; display: none; box-shadow: 0 8px 24px rgba(0,0,0,.5); }
+  #approve-panel { position: fixed; top: 70px; right: 20px; z-index: 9999; background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 16px; width: 380px; max-height: 70vh; overflow-y: auto; display: none; box-shadow: 0 8px 24px rgba(0,0,0,.5); }
+  /* Mobile: move counter to bottom-right (above virtual keyboard, easier thumb reach, away from browser chrome) */
+  @media (max-width: 768px) {
+    #approve-counter { top: auto; bottom: 16px; right: 12px; padding: 12px 18px; font-size: 14px; border-radius: 24px; box-shadow: 0 6px 16px rgba(0,0,0,.6); }
+    #approve-counter strong { font-size: 18px; }
+    #approve-panel { top: auto; bottom: 76px; right: 12px; left: 12px; width: auto; max-height: 60vh; }
+  }
   #approve-panel.open { display: block; }
   #approve-panel h3 { font-size: 13px; font-weight: 700; margin-bottom: 10px; color: var(--text); }
   #approve-panel button { display: block; width: 100%; padding: 8px 12px; margin-bottom: 8px; background: var(--surface2); color: var(--text); border: 1px solid var(--border); border-radius: 6px; font-size: 12px; cursor: pointer; text-align: left; }
