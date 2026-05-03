@@ -1,6 +1,6 @@
 import { MUNICIPALITIES } from './data/municipalities.js?v=13';
 import { PARTIES } from './data/parties.js?v=4';
-import { getLang, t, renderLangSwitcher } from './i18n.js?v=2';
+import { getLang, t, renderLangSwitcher } from './i18n.js?v=3';
 
 // ─── i18n ──────────────────────────────────────────────────
 const lang = getLang();
@@ -50,8 +50,8 @@ renderLangSwitcher(document.getElementById('lang-switcher'));
   set('instr-zoom',  ui.instrZoom);
 
   // Disclaimer
-  set('disclaimer-title',     ui.disclaimerTitle);
-  set('disclaimer-body-text', ui.disclaimerText);
+  set('disclaimer-title',         ui.disclaimerTitle);
+  setHTML('disclaimer-body-text', ui.disclaimerText);
 })();
 
 // ─── Map init ──────────────────────────────────────────────

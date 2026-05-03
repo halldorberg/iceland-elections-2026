@@ -749,6 +749,18 @@
   margin: 0;
 }
 
+.disclaimer-link {
+  color: rgba(255,255,255,0.92);
+  text-decoration: underline;
+  text-decoration-color: rgba(255,255,255,0.35);
+  text-underline-offset: 2px;
+  transition: color .15s, text-decoration-color .15s;
+}
+.disclaimer-link:hover {
+  color: #fff;
+  text-decoration-color: rgba(255,255,255,0.7);
+}
+
 .disclaimer-badge {
   display: none;
   width: 34px;

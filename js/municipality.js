@@ -3,7 +3,7 @@ import { PARTIES } from './data/parties.js?v=4';
 import { getMunicipalityPartyData } from './data/candidates.js?v=64';
 import { RESULTS_2022 } from './data/results2022.js?v=2';
 import { EYE_POSITIONS } from './data/eye_positions.js?v=1';
-import { getLang, t, renderLangSwitcher } from './i18n.js?v=3';
+import { getLang, t, renderLangSwitcher } from './i18n.js?v=4';
 import { partySlug, partyCodeFromSlug, slugify } from './data/party_slugs.js?v=2';
 
 // ─── i18n ──────────────────────────────────────────────────
@@ -36,15 +36,16 @@ renderLangSwitcher(document.getElementById('lang-switcher'));
 // ─── Static HTML translations (one-time at init) ───────────
 (function applyStaticTranslations() {
   const set = (id, text) => { const el = document.getElementById(id); if (el) el.textContent = text; };
-  set('back-btn-text',         ui.backToMap);
-  set('muni-share-text',       ui.share);
-  set('modal-share-text',      ui.share);
-  set('modal-label-bio',       ui.aboutCandidate);
-  set('modal-label-interests', ui.policyFocus);
-  set('modal-label-social',    ui.socialMedia);
-  set('modal-label-news',      ui.news);
-  set('disclaimer-title',      ui.disclaimerTitle);
-  set('disclaimer-body-text',  ui.disclaimerText);
+  const setHTML = (id, html) => { const el = document.getElementById(id); if (el) el.innerHTML = html; };
+  set('back-btn-text',            ui.backToMap);
+  set('muni-share-text',          ui.share);
+  set('modal-share-text',         ui.share);
+  set('modal-label-bio',          ui.aboutCandidate);
+  set('modal-label-interests',    ui.policyFocus);
+  set('modal-label-social',       ui.socialMedia);
+  set('modal-label-news',         ui.news);
+  set('disclaimer-title',         ui.disclaimerTitle);
+  setHTML('disclaimer-body-text', ui.disclaimerText);
   const noInfoEl = document.getElementById('modal-no-info');
   if (noInfoEl) noInfoEl.innerHTML = `<span class="no-info-icon">ℹ️</span> ${ui.noInfo}`;
 })();

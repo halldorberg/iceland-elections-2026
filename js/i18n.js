@@ -76,8 +76,8 @@ export const UI = {
     noInfo:           'Nánari upplýsingar um þennan frambjóðanda eru ekki tiltækar ennþá.',
 
     // Disclaimer
-    disclaimerTitle:  'Fyrirvari',
-    disclaimerText:   'Upplýsingar á þessari síðu eru fengnar úr opinberum heimildum á netinu og teknar saman með aðstoð gervigreindar. Við getum ekki ábyrgst fulla nákvæmni og mælum með að staðfesta mikilvægar upplýsingar beint hjá framboðunum.',
+    disclaimerTitle:  'Upplýsingar og fyrirvari',
+    disclaimerText:   'Umsjónarmaður síðunnar er <a href="mailto:halldor.berg@inno.link" class="disclaimer-link">Halldór Berg Harðarson</a>.<br><br>Efnið er tekið saman með aðstoð gervigreindar úr opinberum heimildum á netinu. Við leggjum metnað okkar í að sannreyna hvert einasta atriði — hver staðhæfing er borin saman við frumheimildir og yfirfarin handvirkt af fólki — en mistök geta engu að síður leynst.<br><br>Bestu upplýsingarnar koma frá samfélaginu sjálfu, og allar ábendingar eru ekki bara vel þegnar heldur gegna lykilhlutverki við að halda upplýsingum réttum og lifandi. Ábendingar eru settar í beinan forgang.',
 
     // Share / toast
     shareToastCopied: '✓ Hlekkur afritaður!',
@@ -147,8 +147,8 @@ export const UI = {
     source:           'Source',
     noInfo:           'No further information about this candidate is available yet.',
 
-    disclaimerTitle:  'Disclaimer',
-    disclaimerText:   'Information on this site is sourced from publicly available online sources and compiled with the help of AI. We cannot guarantee full accuracy and recommend verifying important information directly with the parties.',
+    disclaimerTitle:  'About this site & disclaimer',
+    disclaimerText:   'The site is curated by <a href="mailto:halldor.berg@inno.link" class="disclaimer-link">Halldór Berg Harðarson</a>.<br><br>Content is compiled with the help of AI from publicly available online sources. We go to great lengths to verify every single item — each statement is cross-checked against primary sources and reviewed manually by a human — but mistakes can still slip through.<br><br>The best information comes from the community itself, and every tip is not just welcome but plays a key role in keeping the information accurate and alive. Tips are given top priority.',
 
     shareToastCopied: '✓ Link copied!',
     shareToastFailed: 'Could not copy link',
@@ -217,8 +217,8 @@ export const UI = {
     source:           'Źródło',
     noInfo:           'Brak dodatkowych informacji o tym kandydacie.',
 
-    disclaimerTitle:  'Zastrzeżenie',
-    disclaimerText:   'Informacje na tej stronie pochodzą z publicznie dostępnych źródeł internetowych i zostały zebrane przy pomocy sztucznej inteligencji. Nie możemy zagwarantować pełnej dokładności i zalecamy weryfikację ważnych informacji bezpośrednio u partii.',
+    disclaimerTitle:  'O stronie i zastrzeżenie',
+    disclaimerText:   'Stroną opiekuje się <a href="mailto:halldor.berg@inno.link" class="disclaimer-link">Halldór Berg Harðarson</a>.<br><br>Treść jest zestawiana z pomocą sztucznej inteligencji ze źródeł publicznie dostępnych w internecie. Dokładamy wszelkich starań, aby zweryfikować każdy szczegół — każde stwierdzenie jest porównywane ze źródłami pierwotnymi i sprawdzane ręcznie przez człowieka — ale błędy nadal mogą się pojawić.<br><br>Najlepsze informacje pochodzą od samej społeczności, a każda uwaga nie tylko jest mile widziana, lecz odgrywa kluczową rolę w utrzymywaniu informacji aktualnymi i prawdziwymi. Uwagi są traktowane priorytetowo.',
 
     shareToastCopied: '✓ Link skopiowany!',
     shareToastFailed: 'Nie udało się skopiować linku',
