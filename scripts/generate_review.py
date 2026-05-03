@@ -49,9 +49,43 @@ def load_json(path):
     return json.loads(path.read_text(encoding='utf-8'))
 
 
-def bio_section(bios):
+def _audit_html(audit: dict | None) -> str:
+    """Render per-bio audit panel from parsed audit JSON entry."""
+    if not audit or not audit.get('statements'):
+        return ''
+    s = audit.get('stats') or {}
+    badges = (
+        f'<span class="audit-badge ok">{s.get("verified",0)} ✅</span>'
+        f'<span class="audit-badge flag">{s.get("flagged",0)} 🚩</span>'
+        f'<span class="audit-badge unr">{s.get("unreachable",0)} ⚠️</span>'
+    )
+    rows = ''
+    for st in audit['statements']:
+        status_cls = st['status']  # 'verified' | 'flagged' | 'unreachable'
+        symbol = {'verified': '✅', 'flagged': '🚩FLAG-UNSOURCED', 'unreachable': '⚠️ SOURCE-UNREACHABLE'}[status_cls]
+        quotes_html = ''
+        for q in st.get('quotes', []) or []:
+            quotes_html += f'<div class="audit-quote">› {e(q)}</div>'
+        notes_html = f'<div class="audit-notes">{e(st["notes"])}</div>' if st.get('notes') else ''
+        rewrite_html = ''
+        if st.get('rewrite'):
+            rewrite_html = f'<div class="audit-rewrite"><strong>Rewrite:</strong> {e(st["rewrite"])}</div>'
+        rows += (
+            f'<div class="audit-stmt {status_cls}">'
+            f'<div class="audit-claim">{st["n"]}. {symbol} <em>"{e(st["claim"])}"</em></div>'
+            f'{quotes_html}{notes_html}{rewrite_html}</div>'
+        )
+    return (
+        '<details class="audit-panel" open><summary>'
+        '<strong>🔍 Source audit</strong> ' + badges + '</summary>'
+        + rows + '</details>'
+    )
+
+
+def bio_section(bios, audit_data=None):
     if not bios:
         return '<p style="color:var(--muted)">No bio results file found.</p>'
+    audit_data = audit_data or {}
     rows = ''
     for b in bios:
         age_tag = f'<span class="tag">Aldur {b["age"]}</span>' if b.get('age') else ''
@@ -77,6 +111,8 @@ def bio_section(bios):
             sources_html = f'<span style="color:var(--yellow);font-size:11px">⏭ skipped: {e(skipped_reason)}</span>'
         sources_row = f'<div class="sources-row">{sources_html}</div>' if sources_html else ''
 
+        audit_panel = _audit_html(audit_data.get(b.get('id', '')))
+
         rows += f'''
     <div class="card">
       <div class="card-header">
@@ -91,6 +127,7 @@ def bio_section(bios):
       <div class="bio-text">{e(b.get("bio",""))}</div>
       <div class="tags-row">{interests}{social}</div>
       {sources_row}
+      {audit_panel}
     </div>'''
     return rows
 
@@ -355,6 +392,9 @@ def main():
     policy_list  = merge_simple(scan_date, 'policy') if 'policy' not in skip else []
     photos_list  = merge_photos(scan_date) if 'photos' not in skip else None
 
+    # Optional per-bio source audit data, keyed by candidate id
+    audit_data = load_json(SCAN_DIR / "audit_results.json") or {}
+
     total_articles = sum(len(r.get('new_articles', [])) for r in news_list)
     news_cands = len([r for r in news_list if r.get('new_articles')])
     photo_count = len(photos_list) if photos_list is not None else 0
@@ -405,6 +445,24 @@ def main():
   .bio-text { color: var(--text); line-height: 1.75; font-size: 13.5px; }
   .social-link { color: var(--accent); font-size: 11px; text-decoration: none; border: 1px solid rgba(88,166,255,.3); border-radius: 10px; padding: 2px 8px; }
   .sources-row { margin-top: 10px; display: flex; gap: 6px; flex-wrap: wrap; padding-top: 10px; border-top: 1px solid var(--border); }
+  .audit-panel { margin-top: 14px; padding: 10px 14px; background: rgba(0,0,0,.18); border: 1px solid var(--border); border-radius: 8px; }
+  .audit-panel summary { cursor: pointer; padding: 4px 0; font-size: 12px; color: var(--muted); display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+  .audit-panel summary strong { color: var(--text); font-size: 13px; }
+  .audit-panel[open] summary { margin-bottom: 8px; padding-bottom: 8px; border-bottom: 1px solid var(--border); }
+  .audit-badge { font-size: 11px; padding: 2px 9px; border-radius: 10px; }
+  .audit-badge.ok { background: rgba(63,185,80,.13); color: var(--green); }
+  .audit-badge.flag { background: rgba(248,81,73,.13); color: var(--red); }
+  .audit-badge.unr { background: rgba(210,153,34,.13); color: var(--yellow); }
+  .audit-stmt { padding: 8px 10px; margin-bottom: 6px; border-radius: 6px; font-size: 12.5px; line-height: 1.55; border-left: 3px solid var(--border); }
+  .audit-stmt.verified    { border-left-color: var(--green);  background: rgba(63,185,80,.04); }
+  .audit-stmt.flagged     { border-left-color: var(--red);    background: rgba(248,81,73,.05); }
+  .audit-stmt.unreachable { border-left-color: var(--yellow); background: rgba(210,153,34,.05); }
+  .audit-claim { color: var(--text); margin-bottom: 4px; }
+  .audit-claim em { color: var(--muted); font-style: italic; }
+  .audit-quote { color: var(--muted); font-size: 11.5px; padding: 2px 0 2px 16px; border-left: 2px solid var(--border); margin-left: 2px; font-style: italic; }
+  .audit-notes { color: var(--muted); font-size: 11.5px; margin-top: 4px; }
+  .audit-rewrite { margin-top: 6px; padding: 5px 8px; background: rgba(88,166,255,.07); border-left: 2px solid var(--accent); font-size: 11.5px; color: var(--text); }
+  .audit-rewrite strong { color: var(--accent); }
   .count-badge { background: rgba(210,153,34,.15); color: var(--yellow); border: 1px solid rgba(210,153,34,.25); border-radius: 12px; padding: 2px 10px; font-size: 11px; }
   .articles-list { display: flex; flex-direction: column; gap: 8px; }
   .article-item { display: flex; align-items: flex-start; gap: 10px; padding: 8px 12px; background: var(--surface2); border-radius: 6px; }
@@ -488,7 +546,8 @@ document.getElementById('pw-input').addEventListener('keydown', function(e) {
   </div>
 
   <h2 id="bios">\U0001f4dd Biographies <span class="section-count">{len(bios_list)}</span></h2>
-  {bio_section(bios_list)}
+  {('<div class="scan-note">🔍 Source-audit pilot live for ' + str(len(audit_data)) + ' bios. Look for the green/red/yellow audit panels under each bio. Use Ctrl-F for <strong>FLAG-UNSOURCED</strong> to jump between flagged claims. Audited candidates: ' + ', '.join(sorted(audit_data.keys())) + '.</div>') if audit_data else ''}
+  {bio_section(bios_list, audit_data)}
 
   <h2 id="news">\U0001f4f0 News Articles <span class="section-count">{total_articles} articles &middot; {news_cands} candidates</span></h2>
   {news_section(news_list)}
