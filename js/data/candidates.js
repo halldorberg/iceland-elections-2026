@@ -4362,7 +4362,7 @@ const HAF = {
       { icon: '⚖️', title: 'Jöfn byrði', text: 'Grunnþjónusta og jöfn byrði — sveitarfélagið á að sinna þörfum allra íbúa.' },
     ],
     list: [
-      [1, 'Einar Geir Þorsteinsson', 'Lögmaður', 'images/candidates/65eab1bb1648ca7a.jpg', {
+      [1, 'Einar Geir Þorsteinsson', 'Lögmaður', 'images/candidates/c832f8aaf44b908b.jpg', {
         age: 35,
         bio: 'Einar Geir Þorsteinsson er 35 ára lögmaður sem starfar hjá lögfræðistofunni Forum og hefur áður starfað sem lögfræðiráðgjafi fyrir Reykjavíkurborg. Hann búir í Norðurbæ í Hafnarfirði með eiginkonu sinni og þremur börnum og sat í stjórn Miðflokksfélagsins í Suðvesturkjördæmi. Hann leiðir lista Miðflokksins í Hafnarfirði í sveitarstjórnarkosningum 2026.',
         heimild: [{ url: 'https://www.visir.is/g/20262850881d/einar-geir-odd-viti-midflokks-i-hafnar-firdi', label: 'visir.is' }, { url: 'https://www.fjardarfrettir.is/frettir/politik/midflokkurinn-hefur-kynnt-frambodslista-sinn', label: 'Fjarðarfréttir' }],
