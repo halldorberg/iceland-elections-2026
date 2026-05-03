@@ -33,7 +33,7 @@ export const PARTY_CODE_TO_SLUG = {
   OKH: 'okkar-hveragerdi',
   SCS: 'seltjarnarneslistinn',
   BBL: 'borgarbyggdarlisti',
-  G:   'godir-reykjavik',
+  G:   'godan-daginn',
   R:   'okkar-borg',
   // Per-muni local lists. Real declared names get a name slug; bare
   // letter-listi entries get '<letter>-listinn'.

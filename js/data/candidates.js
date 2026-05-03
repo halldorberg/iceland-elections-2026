@@ -3852,7 +3852,7 @@ const KOP = {
           { title: 'Ný könnun í Kópavogi: Miklar sviptingar og margir möguleikar í stöðunni', url: 'https://www.dv.is/frettir/2026/4/25/ny-konnun-kopavogi-miklar-sviptingar-og-margir-moguleikar-stodunni/', source: 'dv.is' },
         ],
       }],
-      [2, 'Eydís Inga Valsdóttir', 'Alþjóðafræðingur', 'images/candidates/183b4abcd4dd4f19.png', {
+      [2, 'Eydís Inga Valsdóttir', 'Sérfræðingur hjá Rannís', 'images/candidates/183b4abcd4dd4f19.png', {
         age: null,
         bio: 'Eydís Inga Valsdóttir er sérfræðingur og liðsstjóri á menningar- og menntasviði Rannís. Hún er með meistaragráður í norrænum fræðum frá Uppsalaháskóla og í stafrænum upplýsingastjórnun frá Högskolan í Borås í Svíþjóð, og starfaði áður sem fulltrúi Íslands við sendiráðið í Stokkhólmi.',
         heimild: [{ url: 'https://en.rannis.is/activities/staff/education-and-culture/nr/2696', label: 'rannis.is' }, { url: 'https://eydisinga.is', label: 'eydisinga.is' }, { url: 'https://www.visir.is/g/20262854763d/thau-eru-a-lista-samfylkingarinnar-i-kopavogi', label: 'visir.is' }],
@@ -3862,7 +3862,7 @@ const KOP = {
           { title: 'Þau eru á lista Samfylkingarinnar í Kópavogi', url: 'https://www.visir.is/g/20262854763d/thau-eru-a-lista-samfylkingarinnar-i-kopavogi', source: 'visir.is' },
         ],
       }],
-      [3, 'Hákon Gunnarsson', 'Sérfræðingur í jarðskorpurannsóknum', 'images/candidates/fc532a0404a3cee4.png', {
+      [3, 'Hákon Gunnarsson', 'Sérfræðingur í stefnumótun', 'images/candidates/fc532a0404a3cee4.png', {
         age: null,
         bio: 'Hákon Gunnarsson er sérfræðingur í jarðskorpurannsóknum og umhverfisráðgjafi hjá Resource International í Kópavogi. Hann stofnaði Íslenska jarðhitasamtökin árið 2009 og stjórnaði þeim í sjö ár. Hákon er varabæjarfulltrúi Samfylkingarinnar í Kópavogi og formaður skipulags- og umhverfisnefndar bæjarins.',
         heimild: [{ url: 'https://www.kopavogsbladid.is/hakon-bydur-sig-fram-til-1-2-saetis-i-forvali-samfylkingarinnar/', label: 'kopavogsbladid.is' }, { url: 'https://www.dv.is/eyjan/2026/01/11/hakon-vill-3-saeti-samfylkingar-kopavogi/', label: 'dv.is' }, { url: 'https://www.visir.is/g/20262854763d/thau-eru-a-lista-samfylkingarinnar-i-kopavogi', label: 'visir.is' }],
@@ -3872,7 +3872,7 @@ const KOP = {
           { title: 'Þau eru á lista Samfylkingarinnar í Kópavogi', url: 'https://www.visir.is/g/20262854763d/thau-eru-a-lista-samfylkingarinnar-i-kopavogi', source: 'visir.is' },
         ],
       }],
-      [4, 'Sólveig Skaftadóttir', 'Fasteignasali', 'images/candidates/5eda2327db91be68.png', {
+      [4, 'Sólveig Skaftadóttir', 'Verkefnastjóri stjórnsýslu hjá Reykjavíkurborg', 'images/candidates/5eda2327db91be68.png', {
         age: null,
         bio: 'Sólveig Skaftadóttir er fasteignasali og hefur yfir tíu ára reynslu sem verkefnastjóri í stjórnsýslu Reykjavíkurborgar. Hún er í fjórða sæti á framboðslista Samfylkingarinnar í Kópavogi 2026.',
         heimild: [{ url: 'https://www.visir.is/g/20262854763d/thau-eru-a-lista-samfylkingarinnar-i-kopavogi', label: 'visir.is' }, { url: 'https://www.ruv.is/frettir/innlent/2026-01-19-solveig-bydur-sig-fram-i-annad-til-thridja-saeti-464173', label: 'ruv.is' }],
@@ -3882,7 +3882,7 @@ const KOP = {
           { title: 'Þau eru á lista Samfylkingarinnar í Kópavogi', url: 'https://www.visir.is/g/20262854763d/thau-eru-a-lista-samfylkingarinnar-i-kopavogi', source: 'visir.is' },
         ],
       }],
-      [5, 'Orri Thor Eggertsson', 'Nemi í stjórnmálafræði', 'images/candidates/c12d652bf698b7df.png', {
+      [5, 'Orri Thor Eggertsson', 'Nemi í rekstrarverkfræði', 'images/candidates/c12d652bf698b7df.png', {
         age: null,
         bio: 'Orri Thor Eggertsson er nemi í rekstrarverkfræði og formaður Taekwondosambands Kópavogs. Hann er í fimmta sæti á framboðslista Samfylkingarinnar í Kópavogi 2026.',
         heimild: [{ url: 'https://www.visir.is/g/20262854763d/thau-eru-a-lista-samfylkingarinnar-i-kopavogi', label: 'visir.is' }],
@@ -3892,24 +3892,24 @@ const KOP = {
           { title: 'Þau eru á lista Samfylkingarinnar í Kópavogi', url: 'https://www.visir.is/g/20262854763d/thau-eru-a-lista-samfylkingarinnar-i-kopavogi', source: 'visir.is' },
         ],
       }],
-      [6, 'Hildur María Friðriksdóttir', 'Deildarstjóri félagsmiðstöðva', 'images/candidates/b0f27b67a4caa0b0.png'],
-      [7, 'Örn Arnarson', 'Formaður Rithöfundasambands Íslands', 'images/candidates/26fd5d48b75c409e.png'],
-      [8, 'Mirabela Blaga', 'Doktor í sálfræði, Opni háskólinn HR', 'images/candidates/48c8522ecf237109.png'],
-      [9, 'Björn Þór Rögnvaldsson', 'Framkvæmdastjóri', 'images/candidates/137a4310f3855766.png'],
-      [10, 'Sólveig Jóhannesdóttir Larsen', 'Vörustjóri', 'images/candidates/945f4338591ec18d.png'],
-      [11, 'Sigurður Kári Harðarson', 'Fyrrum ráðherra og bæjarfulltrúi', 'images/candidates/36e90c3fe8520ec6.png'],
-      [12, 'Friðmey Jónsdóttir', 'Frambjóðandi', 'images/candidates/cd9d775e83cc13fd.png'],
-      [13, 'Kristján Bjarnar Ólafsson', 'Frambjóðandi', 'images/candidates/80f399b64b9cf039.png'],
-      [14, 'Margrét Tryggvadóttir', 'Frambjóðandi', 'images/candidates/3ef7732aba4e3c6a.png'],
-      [15, 'Jón Júlíusson', 'Frambjóðandi', 'images/candidates/ce8f8db1176af25d.png'],
-      [16, 'Ingunn S. Unnsteinsdóttir Kristensen', 'Frambjóðandi', 'images/candidates/25a29a0d63d0f8f3.png'],
-      [17, 'Ingi Hafliði Guðjónsson', 'Frambjóðandi', 'images/candidates/5eb53c0851918fac.png'],
-      [18, 'Heiða Björk Þórbergsdóttir', 'Frambjóðandi', 'images/candidates/14df81bb45b7fb3b.png'],
-      [19, 'Erlendur Geirdal', 'Frambjóðandi', 'images/candidates/16d4c619b2cfc1f4.png'],
-      [20, 'Sigurlaug Kristín Sævarsdóttir', 'Frambjóðandi', 'images/candidates/e94aac2d88669859.png'],
-      [21, 'Bergljót Kristinsdóttir', 'Frambjóðandi', 'images/candidates/18f02cc647183c2b.png'],
+      [6, 'Hildur María Friðriksdóttir', 'Sérfræðingur hjá Veðurstofu Íslands', 'images/candidates/b0f27b67a4caa0b0.png'],
+      [7, 'Örn Arnarson', 'Kennari og formaður Samleiks', 'images/candidates/26fd5d48b75c409e.png'],
+      [8, 'Mirabela Blaga', 'Fasteignasali', 'images/candidates/48c8522ecf237109.png'],
+      [9, 'Björn Þór Rögnvaldsson', 'Lögfræðingur', 'images/candidates/137a4310f3855766.png'],
+      [10, 'Sólveig Jóhannesdóttir Larsen', 'Nemi í stjórnmálafræði', 'images/candidates/945f4338591ec18d.png'],
+      [11, 'Sigurður Kári Harðarson', 'Nemi við lýðháskóla', 'images/candidates/36e90c3fe8520ec6.png'],
+      [12, 'Friðmey Jónsdóttir', 'Deildarstjóri félagsmiðstöðva, fyrrv. framkvæmdastjóri Samfés', 'images/candidates/cd9d775e83cc13fd.png'],
+      [13, 'Kristján Bjarnar Ólafsson', 'Hagfræðingur hjá FSRE', 'images/candidates/80f399b64b9cf039.png'],
+      [14, 'Margrét Tryggvadóttir', 'Formaður Rithöfundasambands Íslands', 'images/candidates/3ef7732aba4e3c6a.png'],
+      [15, 'Jón Júlíusson', 'Formaður GKG, fv. bæjarfulltrúi', 'images/candidates/ce8f8db1176af25d.png'],
+      [16, 'Ingunn S. Unnsteinsdóttir Kristensen', 'Dr. í sálfræði, Opni háskólinn HR', 'images/candidates/25a29a0d63d0f8f3.png'],
+      [17, 'Ingi Hafliði Guðjónsson', 'Matvinnslumaður og viðskiptafræðingur', 'images/candidates/5eb53c0851918fac.png'],
+      [18, 'Heiða Björk Þórbergsdóttir', 'Framkvæmdastjóri', 'images/candidates/14df81bb45b7fb3b.png'],
+      [19, 'Erlendur Geirdal', 'Tæknifræðingur', 'images/candidates/16d4c619b2cfc1f4.png'],
+      [20, 'Sigurlaug Kristín Sævarsdóttir', 'Vörustjóri', 'images/candidates/e94aac2d88669859.png'],
+      [21, 'Bergljót Kristinsdóttir', 'Bæjarfulltrúi', 'images/candidates/18f02cc647183c2b.png'],
     
-      [22, 'Rannveig Guðmundsdóttir', 'Frambjóðandi'],
+      [22, 'Rannveig Guðmundsdóttir', 'Fyrrum ráðherra og bæjarfulltrúi'],
     ],
   },
   V: {

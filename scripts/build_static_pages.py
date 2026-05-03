@@ -262,7 +262,7 @@ def party_display_name(code: str) -> str:
         'L': 'L-listinn', 'K': 'Kex framboð', 'E': 'Eyjalisti',
         'H': 'H-listinn', 'VM': 'Vinir Mosfellsbæjar',
         'OKH': 'Okkar Hveragerði', 'SCS': 'Seltjarnarneslistinn',
-        'BBL': 'Borgarbyggðarlisti', 'G': 'Góðir Reykjavík',
+        'BBL': 'Borgarbyggðarlisti', 'G': 'Góðan daginn',
         'R': 'Okkar borg',
     }
     return NATIONAL.get(code, code + '-listinn')

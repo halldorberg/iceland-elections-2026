@@ -103,7 +103,7 @@ PARTY_LABELS = {
     "OKH":"Okkar Hveragerði",
     "SCS":"Seltjarnarneslistinn",
     "BBL":"Borgarbyggðarlisti",
-    "G":  "Góðir Reykjavík",
+    "G":  "Góðan daginn",
     "R":  "Okkar borg",
 }
 
