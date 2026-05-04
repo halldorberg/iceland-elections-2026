@@ -84,7 +84,7 @@ export const MUNICIPALITIES = [
     name: 'Fjarðabyggð',
     region: 'Austurland',
     population: 5228,
-    coords: { lat: 65.2667, lng: -14.4000 },
+    coords: { lat: 64.9833, lng: -14.0417 },  // between Reyðarfjörður and Fáskrúðsfjörður
     partyIds: ['B', 'D', 'M', 'S'],
   },
   {
@@ -225,7 +225,7 @@ export const MUNICIPALITIES = [
   { id: 'rangarthingeystra', name: 'Rangárþing eystra', region: 'Suðurland', population: 2142, coords: { lat: 63.850, lng: -19.983 }, partyIds: ['B', 'D', 'NRE'] },
   { id: 'rangarthingytra', name: 'Rangárþing ytra', region: 'Suðurland', population: 1966, coords: { lat: 63.833, lng: -20.400 }, partyIds: ['RYA', 'D'] },
   { id: 'olfus', name: 'Sveitarfélagið Ölfus', region: 'Suðurland', population: 2907, coords: { lat: 63.983, lng: -21.467 }, partyIds: ['D', 'S'] },
-  { id: 'skaftarhreppur', name: 'Skaftárhreppur', region: 'Suðurland', population: 651, coords: { lat: 63.783, lng: -18.633 }, partyIds: ['D', 'SKO'] },
+  { id: 'skaftarhreppur', name: 'Skaftárhreppur', region: 'Suðurland', population: 651, coords: { lat: 63.7900, lng: -18.0600 }, partyIds: ['D', 'SKO'] },  // Kirkjubæjarklaustur
   { id: 'myrdalshr', name: 'Mýrdalshreppur', region: 'Suðurland', population: 1004, coords: { lat: 63.450, lng: -19.000 }, partyIds: ['MYA', 'MYZ'] },
   { id: 'blaskogabyggd', name: 'Bláskógabyggð', region: 'Suðurland', population: 1453, coords: { lat: 64.233, lng: -20.617 }, partyIds: ['BST', 'BSP'] },
   { id: 'floahreppur', name: 'Flóahreppur', region: 'Suðurland', population: 741, coords: { lat: 63.920, lng: -20.850 }, partyIds: ['FLI', 'FLT'] },
@@ -242,7 +242,7 @@ export const MUNICIPALITIES = [
   { id: 'skagafjordur', name: 'Sveitarfélagið Skagafjörður', region: 'Norðurland vestra', population: 4361, coords: { lat: 65.550, lng: -19.633 }, partyIds: ['B', 'D', 'SFL', 'M'] },
   { id: 'skagastrond', name: 'Sveitarfélagið Skagaströnd', region: 'Norðurland vestra', population: 450, coords: { lat: 65.517, lng: -20.317 }, partyIds: ['B', 'S', 'K'] },
   // ── Austurland addition ──────────────────────────────────────────────────────
-  { id: 'mulathing', name: 'Múlaþing', region: 'Austurland', population: 5235, coords: { lat: 65.100, lng: -14.200 }, partyIds: ['B', 'D', 'L', 'M', 'V'] },
+  { id: 'mulathing', name: 'Múlaþing', region: 'Austurland', population: 5235, coords: { lat: 65.2670, lng: -14.3947 }, partyIds: ['B', 'D', 'L', 'M', 'V'] },  // Egilsstaðir
   // ── Norðurland eystra additions ──────────────────────────────────────────────
   { id: 'thingeyjarsveit', name: 'Þingeyjarsveit', region: 'Norðurland eystra', population: 1471, coords: { lat: 65.569, lng: -17.333 }, partyIds: ['THVA', 'THVL', 'THVN'] },
   { id: 'svalbardsstrond', name: 'Svalbarðsstrandarhreppur', region: 'Norðurland eystra', population: 517, coords: { lat: 65.812, lng: -18.073 }, partyIds: ['SVSS', 'SVSH', 'SVSO'] },
@@ -265,7 +265,7 @@ export const MUNICIPALITIES = [
   // ── Suðurland addition ───────────────────────────────────────────────────────
   { id: 'asahr', name: 'Ásahreppur', region: 'Suðurland', population: 305, coords: { lat: 63.900, lng: -20.350 }, partyIds: [] },
   // ── Austurland additions ─────────────────────────────────────────────────────
-  { id: 'fljotsdalshr', name: 'Fljótsdalshreppur', region: 'Austurland', population: 115, coords: { lat: 65.400, lng: -14.683 }, partyIds: [] },
+  { id: 'fljotsdalshr', name: 'Fljótsdalshreppur', region: 'Austurland', population: 115, coords: { lat: 65.0400, lng: -14.9700 }, partyIds: [] },  // S end of Lagarfljót (Skriðuklaustur area)
   // ── Norðurland eystra addition ───────────────────────────────────────────────
-  { id: 'langanesbyggd', name: 'Langanesbyggð', region: 'Norðurland eystra', population: 543, coords: { lat: 66.283, lng: -14.533 }, partyIds: [] },
+  { id: 'langanesbyggd', name: 'Langanesbyggð', region: 'Norðurland eystra', population: 543, coords: { lat: 66.3200, lng: -14.8500 }, partyIds: [] },  // middle of Langanes peninsula
 ];
