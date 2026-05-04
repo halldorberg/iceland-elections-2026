@@ -71,7 +71,7 @@ def main():
     sys.stdout.reconfigure(encoding="utf-8")
     audited = []
     summary = []
-    for p in sorted(SCAN_DIR.glob("policy_2026-05-01_*.json")):
+    for p in sorted(SCAN_DIR.glob("policy_2026-*_*.json")):
         if "AUDITED" in p.name:
             continue
         d = json.loads(p.read_text(encoding="utf-8"))
