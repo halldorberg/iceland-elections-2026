@@ -48,6 +48,33 @@ export const POLLS = {
     },
   },
 
+  // Hafnarfjörður · 11 seats
+  // Source: Maskína fyrir fréttastofu Vísis, 22.–27. apríl 2026
+  // (article kynnt í Pallborðinu á Vísi; sample size not stated).
+  // https://www.visir.is/g/20262876013d/vidreisn-upp-fyrir-sjalfstaedisflokk-og-framsokn-baetir-vid-sig
+  // D'Hondt vs 11 seats: S 3 · C 3 · D 2 · B 2 · M 1 · A 0
+  // Meirihluti D + B (2 + 2 = 4) er kolfallinn.
+  hafnarfjordur: {
+    totalSeats: 11,
+    source: {
+      pollster:    'Maskína',
+      pollsterGen: 'Maskínu',
+      period:      '22.–27. apríl 2026',
+      period_en:   'April 22–27, 2026',
+      period_pl:   '22–27 kwietnia 2026',
+      sample:      null,
+      url:         'https://www.visir.is/g/20262876013d/vidreisn-upp-fyrir-sjalfstaedisflokk-og-framsokn-baetir-vid-sig',
+    },
+    parties: {
+      S: { pct: 24.2, seats: 3 },
+      C: { pct: 22.4, seats: 3 },
+      D: { pct: 22.1, seats: 2 },
+      B: { pct: 14.9, seats: 2 },
+      M: { pct:  9.7, seats: 1 },
+      A: { pct:  6.8, seats: 0 },
+    },
+  },
+
   // Akureyri · 11 seats
   // Source: Maskína fyrir DV, 17.–24. apríl 2026, n=629
   // https://www.dv.is/frettir/2026/4/26/ny-konnun-akureyri-samfylkingin-storsiglingu-en-oljost-hverjir-geta-myndad-meirihluta/
