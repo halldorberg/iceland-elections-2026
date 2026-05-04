@@ -2,7 +2,7 @@
   "scan_type": "policy",
   "scan_date": "2026-05-04",
   "slice": "A",
-  "agent_note": "Strict policy scan for slice A (21 entries). For each: WebFetched predicted party-domain URLs first per the pattern table, then fell back to web search + same-domain news. Recency bar = 2025-01-01 or explicit 2026 reference. Per-bullet source_quote = verbatim Icelandic from a fetched page. Skipping liberally where no own-domain platform exists (most national parties' municipal sub-pages on framsokn.is, xd.is, midflokkurinn.is, xs.is currently render only navigation menus / candidate rosters with zero local policy text). Every kept entry has 3+ verbatim quotes from a single fetched page that is dated >= 2025 or explicitly references 2026.",
+  "agent_note": "Strict policy scan for slice A (21 entries). For each: WebFetched predicted party-domain URLs first per the pattern table, then fell back to web search + same-domain news. Recency bar = 2025-01-01 or explicit 2026 reference. Per-bullet source_quote = verbatim Icelandic from a fetched page. Skipping liberally where no own-domain platform exists (most national parties' municipal sub-pages on framsokn.is, xd.is, midflokkurinn.is, xs.is currently render only navigation menus / candidate rosters with zero local policy text). Every kept entry has 3+ verbatim quotes from a single fetched page that is dated >= 2025 or explicitly references 2026. Of 21 worklist entries, 2 kept, 19 skipped. The pattern (first-time municipal Miðflokkur runs, small rural Sjálfstæðis/Framsókn lists, and brand-new local lists) means most platforms are still being drafted in early May 2026; only one strong local-list news source (Þ-listinn Bláskógabyggð via dfs.is) and one named candidate op-ed (N-listi Rangárþing eystra via visir.is) cleared the bar.",
   "results": [
     {
       "id": "BLA.BSP",
@@ -10,8 +10,8 @@
       "party_code": "BSP",
       "platform_url": "https://www.dfs.is/frettir/kosningar/hvert-stefnir-blaskogabyggd/",
       "verified_source_kind": "news-with-rationale",
-      "recency_evidence": "Article dated 21. apríl 2026; written by Þ-listinn candidate; second corroborating dfs.is piece dated 14. apríl 2026 from another Þ-listinn candidate (4. sæti)",
-      "audit_note": "Probed framsokn-style patterns first (no Þ-listinn own domain found, BSP is a local Bláskógabyggð list). Pattern probes for blaskogabyggd own-domain returned nothing; fell back to dfs.is local-news (the Suðurland Decisions newspaper). Two 2026 articles from named Þ-listinn candidates establish the platform: dfs.is/.../hvert-stefnir-blaskogabyggd (2026-04-21) and dfs.is/.../soknarfaeri-i-blaskogabyggd (2026-04-14). Quotes drawn from the 21. apríl piece. sunnlenska.is page exists but is dated 2022.",
+      "recency_evidence": "Article dated 21. apríl 2026; written by named Þ-listinn candidate; second corroborating dfs.is piece dated 14. apríl 2026 from another Þ-listinn candidate (4. sæti)",
+      "audit_note": "Probed local-list patterns first (no Þ-listinn own domain exists; BSP is a local Bláskógabyggð list). sunnlenska.is article on Þ-listinn dated 2022 — rejected on recency. dfs.is (Suðurland Decisions) hosted two 2026 candidate-authored pieces; quotes drawn from the 21. apríl piece, which is the more substantive of the two and explicitly carries the candidate's policy framing.",
       "tagline": "Þ-listinn — virkt íbúasamráð, skýr langtímastefna og framþróun fyrir Bláskógabyggð",
       "agenda": [
         {
@@ -45,6 +45,48 @@
           "text": "Þ-listinn telur að Bláskógabyggð eigi mikið inni hvað varðar framsýni og áframhaldandi uppbyggingu."
         }
       ]
+    },
+    {
+      "id": "RAN.NRE",
+      "muni_slug": "rangarthingeystra",
+      "party_code": "NRE",
+      "platform_url": "https://www.visir.is/g/20262874711d/rangarthing-eystra-i-atvinnusoknarsvaedi-hofudborgarsvaedisins",
+      "verified_source_kind": "news-with-rationale",
+      "recency_evidence": "Vísir op-ed dated 27. apríl 2026; byline 'Höfundur er stjórnmálafræðingur og frambjóðandi N-listans í Rangárþingi eystra'",
+      "audit_note": "No N-listinn own domain found; Facebook page nyi.ohadi.listinn returned only header. Á-listinn (alisti.is) is a different list in Rangárþing YTRA, not eystra. Vísir op-ed by named N-listi candidate (Rangárþing eystra) gives a coherent platform statement with multiple verbatim sentences focused on remote-work infrastructure, jobs and education — clearly attributed.",
+      "tagline": "N-listinn — fjarvinnuaðstaða, fjölbreytt atvinnu- og námstækifæri og óstaðbundin störf í Rangárþingi eystra",
+      "agenda": [
+        {
+          "icon": "💼",
+          "title": "Fleiri atvinnu- og námstækifæri",
+          "source_quote": "Við þurfum að vinna markvisst að því að auka hér tækifæri fólks til atvinnu og náms.",
+          "text": "N-listinn vill markvisst auka tækifæri íbúa til atvinnu og náms í sveitarfélaginu."
+        },
+        {
+          "icon": "🏗️",
+          "title": "Aðstaða til fjarvinnu",
+          "source_quote": "Grunnurinn að því er að byggja hér upp aðstöðu til fjarvinnu en það er nauðsynleg framtíðarsýn.",
+          "text": "Uppbygging fjarvinnuaðstöðu er sett fram sem nauðsynleg framtíðarsýn fyrir sveitarfélagið."
+        },
+        {
+          "icon": "🏢",
+          "title": "Fjarvinnu- og námssetur",
+          "source_quote": "Rangárþing eystra gæti stuðlað að opnun slíks vinnustaðaklasa eða fjarvinnu- og námsseturs.",
+          "text": "Sveitarfélagið á að beita sér fyrir opnun fjarvinnu- og námsseturs eða vinnustaðaklasa."
+        },
+        {
+          "icon": "🌐",
+          "title": "Óstaðbundin störf",
+          "source_quote": "Fólk vill í auknum mæli vinna óstaðbundið en það eykur ekki aðeins vellíðan heldur er það líka umhverfisvænt.",
+          "text": "Áhersla er lögð á óstaðbundin störf, sem auka vellíðan starfsfólks og eru umhverfisvæn."
+        },
+        {
+          "icon": "🚀",
+          "title": "Glæsileg fjarvinnuaðstaða",
+          "source_quote": "Glæsileg fjarvinnuaðstaða væri meðal annars feiknastórt skref í rétta átt.",
+          "text": "Listinn bendir á að glæsileg fjarvinnuaðstaða væri stórt skref í rétta átt fyrir sveitarfélagið."
+        }
+      ]
     }
   ],
   "skipped": [
@@ -57,7 +99,15 @@
     {"id": "HOR.D", "reason": "Three news pieces (kaffid.is 2026-03-28, vikubladid.is 2026-03-28, utvarpsaga.is 2026-03-28) all carry only the same single sentence 'Með framboðinu er stefnt að því að auka gagnsæi, efla lýðræðislega þátttöku og bjóða fram öflugan og fjölbreyttan hóp...' — that is 1 quotable item, not 3+. No own-domain page exists."},
     {"id": "HRU.D", "reason": "xd.is/sveitastjornir/hrunamannahreppur is a contact/roster page with no policy text and no recency date (most-recent reference is the 2022 election). No 2026 platform recoverable."},
     {"id": "HUN.HBA", "reason": "huni.is roster announcement (2026-04-18) and kosningasaga.wordpress.com (2026-03-19) both carry candidate names only with no policy quotes. No own-domain page found for the 'Öll saman' A-listi."},
-    {"id": "HVA.HVB", "reason": "Skessuhorn article on Íbúahreyfingin Hvalfjarðarsveit (2026-04-01) is paywalled; kosningasaga and Facebook returned headers only. The party emphasises 'listening rather than preaching' so no published policy bullets exist yet."},
-    {"id": "ISA.S", "reason": "xs.is/frettir/2026/04/frambodslisti-samfylkingarinnar-i-isafjardarbae (2026-04-02) is roster-only; bb.is articles on the Samfylkingin platform launch (2026-05) are bot-blocked (HTTP 403); no own-domain Ísafjarðarbær Samfylkingin platform page."}
+    {"id": "HVA.HVB", "reason": "Skessuhorn article on Íbúahreyfingin Hvalfjarðarsveit (2026-04-01) is paywalled; kosningasaga and Facebook returned headers only. The party explicitly emphasises 'listening rather than preaching' so no published policy bullets exist yet."},
+    {"id": "ISA.S", "reason": "xs.is/frettir/2026/04/frambodslisti-samfylkingarinnar-i-isafjardarbae (2026-04-02) is roster-only; bb.is articles on the Samfylkingin platform launch (2026-05) are bot-blocked (HTTP 403); no own-domain Ísafjarðarbær Samfylkingin platform page."},
+    {"id": "MYR.MYZ", "reason": "Z-listi Samfélagsins is a brand-new Mýrdalshreppur list (2026-04-13 roster announcement). kosningasaga.wordpress.com pages return navigation only; no list-owned platform page or substantive news article found with verbatim policy quotes."},
+    {"id": "SEL.M", "reason": "midflokkurinn.is/seltjarnarnes returns only national stefnumál nav menu (no Seltjarnarnes-specific text). midflokkurinn.is/seltjarnarnes/sveitarstjornarmal exists but lists only the national party's Sveitarstjórnarmál policies (Sundabraut, samgöngusáttmáli, etc.) — these are NATIONAL framing, not Skafti's local Seltjarnarnes positions, and the page carries no recency date. seltjarnarneskirkja.is mentions a 2026-04-22 forum but no quotable policy."},
+    {"id": "SKA.K", "reason": "K-listi 'Fyrir Skagaströnd' is a new local list with no own domain (xkex.is is a different Norðurþing list, not Skagaströnd). skagastrond.is candidate roster (2026-04-15) carries no policy quotes."},
+    {"id": "SNA.D", "reason": "xd.is/2026/03/27/fullskipadur-frambodslisti-sjalfstaedisflokksins-i-snaefellsbae is a roster announcement only. No 2026 D-listi Snæfellsbær stefnuskrá published online."},
+    {"id": "SUD.FJL", "reason": "sudavik.is/is/frettir/tvo-frambod-i-sudavikurhreppi (2026-04-13) is a roster page only. Súðavík Fjarðarlistinn FJL has no own domain (fjardalistinn.is is for Fjarðabyggð, not Súðavík; it also has only 2022 content). No quotable 2026 platform."},
+    {"id": "SVA.SVSS", "reason": "Three new local lists in Svalbarðsstrandarhreppur (Samstaða S, Strönd til framtíðar H, Ströndungur Ö) per kaffid.is 2026-04-19 — but neither kaffid.is nor svalbardsstrond.is roster pages carry any platform text. No list-owned site found."},
+    {"id": "TJO.TJN", "reason": "Worklist label 'Þórshafnarhreppur' with slug 'tjornes' is ambiguous — Þórshafnarhreppur is in Langanesbyggð (not in the Norðurþing/Tjörnes area). No 2026 Tjörneslistinn / TJN list found in Norðurþing or Þingeyjarsveit roster searches; no fetchable platform."},
+    {"id": "VOP.VOP", "reason": "Sterk stoð is the only Vopnafjörður list (austurfrett.is 2026-03-27). Article carries only 2 verbatim platform sentences ('vinna að öflugu, jákvæðu og uppbyggilegu samfélagi á Vopnafirði' and 'stuðla að góðri og gagnsærri stjórnsýslu') — below the 3-bullet minimum."}
   ]
 }
