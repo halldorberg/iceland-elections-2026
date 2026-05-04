@@ -2150,11 +2150,9 @@ const AKU = {
   },
   V: {
     tagline: 'Jana Salóme leiðir lista VG á Akureyri',
-    agenda: [
-      { icon: '🌿', title: 'Umhverfismál', text: 'Grænni og sjálfbærari Akureyri með metnaðarfull loftslagsmál.' },
-      { icon: '⚖️', title: 'Jafnrétti', text: 'Jafnrétti og félagsleg réttlæti í öllum ákvörðunum sveitarfélagsins.' },
-      { icon: '🏘️', title: 'Húsnæðismál', text: 'Fjölga hagkvæmum húsnæðiskostum.' },
-    ],
+    agenda: [],
+    // [stripped 2026-05-04] no source verifiable; no FB page found in 2026-05-04 sweep
+   
     list: [
       [1, 'Jana Salóme Ingibjargar Jósepsdóttir', 'Bæjarfulltrúi', 'images/candidates/a7d7a5adab9e71c7.png', {
         age: 35,
@@ -2327,11 +2325,9 @@ const AKU = {
 const GAR = {
   D: {
     tagline: 'Almar leiðir lista Sjálfstæðisflokksins — Garðabær á gott framhald',
-    agenda: [
-      { icon: '🏛️', title: 'Stjórnsýsla', text: 'Áframhaldandi góð og fagleg stjórnsýsla sveitarfélagsins.' },
-      { icon: '🏗️', title: 'Uppbygging', text: 'Skynsamleg og skipulögð uppbygging Garðabæjar.' },
-      { icon: '📚', title: 'Þjónusta', text: 'Gæðaþjónusta við íbúa í skóla-, velferðar- og heilbrigðismálum.' },
-    ],
+    agenda: [],
+    // [stripped 2026-05-04] no source verifiable; no FB page found in 2026-05-04 sweep
+   
     list: [
       [1, 'Almar Guðmundsson', 'Bæjarstjóri og hagfræðingur', 'images/candidates/d3087e70eebe11aa.jpg', {
         age: 54,
@@ -2873,11 +2869,9 @@ const GAR = {
 const MOS = {
   D: {
     tagline: 'Hilmar leiðir D-lista í Mosfellsbæ — Nú verður fjör',
-    agenda: [
-      { icon: '📰', title: 'Upplýsingar', text: 'Opið, gagnsætt sveitarfélag og góð samskipti við íbúa.' },
-      { icon: '🏗️', title: 'Uppbygging', text: 'Skynsamleg uppbygging og skipulag til framtíðar.' },
-      { icon: '💰', title: 'Fjármál', text: 'Ábyrg fjármálastjórnun og skynsamleg nýting fjármuna.' },
-    ],
+    agenda: [],
+    // [stripped 2026-05-04] no source verifiable; no FB page found in 2026-05-04 sweep
+   
     list: [
       [1, 'Hilmar Gunnarsson', 'Ritstjóri', 'images/candidates/712f7205532529a9.jpg', {
         age: null,
@@ -4581,11 +4575,9 @@ const SEL = {
   },
   M: {
     tagline: 'Skafti Harðarson leiðir Miðflokkinn á Seltjarnarnesi',
-    agenda: [
-      { icon: '👶', title: 'Börn og fjölskyldur', text: 'Grunnþjónusta fyrir börn og fjölskyldur.' },
-      { icon: '💰', title: 'Fjármál', text: 'Ábyrg og skynsamleg fjármálastjórnun.' },
-      { icon: '👵', title: 'Aldraðir', text: 'Gæðaþjónusta við aldraða.' },
-    ],
+    agenda: [],
+    // [stripped 2026-05-04] no source verifiable; FB: https://www.facebook.com/MidflokkurinnSeltjarnarnesi
+   
     list: [
       [1, 'Skafti Harðarson', 'Framkvæmdastjóri', 'images/candidates/3195f414d90ac022.jpg', {
         age: null,
@@ -5121,11 +5113,9 @@ const RNB = {
 const VOG = {
   FYRS: {
     tagline: 'Gunnar J. Helgason leiðir listann Fyrir samfélagið í Vogum',
-    agenda: [
-      { icon: '🤝', title: 'Samfélag', text: 'Samfélagið í fyrirrúmi — öll þjónusta til íbúa.' },
-      { icon: '👶', title: 'Börn', text: 'Gæðaþjónusta við börn og fjölskyldur.' },
-      { icon: '🌿', title: 'Umhverfismál', text: 'Umhverfisvænar og sjálfbærar lausnir.' },
-    ],
+    agenda: [],
+    // [stripped 2026-05-04] no source verifiable; no FB page found in 2026-05-04 sweep
+   
     list: [
       [1, 'Gunnar J. Helgason', 'Pípari', null, {
         age: null,
@@ -5270,11 +5260,9 @@ const VOG = {
 const GRN = {
   B: {
     tagline: 'Ásrún Helga Kristinsdóttir leiðir Framsókn í Grindavík',
-    agenda: [
-      { icon: '🏘️', title: 'Endurbygging', text: 'Endurbygging og uppbygging Grindavíkur eftir eldgosin.' },
-      { icon: '👶', title: 'Börn', text: 'Gæðaþjónusta við börn og fjölskyldur.' },
-      { icon: '💼', title: 'Atvinnulíf', text: 'Öflugt og sjálfbært atvinnulíf.' },
-    ],
+    agenda: [],
+    // [stripped 2026-05-04] no source verifiable; FB: https://www.facebook.com/profile.php?id=61587731223589
+   
     list: [
       [1, 'Ásrún Helga Kristinsdóttir', 'Kennari og forseti bæjarstjórnar', 'images/candidates/36943f07fcbe04d6.webp', {
         age: null,
@@ -5305,11 +5293,9 @@ const GRN = {
   },
   D: {
     tagline: 'Guðbjörg Eyjólfsdóttir leiðir Sjálfstæðisflokkinn í Grindavík',
-    agenda: [
-      { icon: '🏛️', title: 'Stjórnsýsla', text: 'Fagleg og gagnsæ stjórnun Grindavíkur.' },
-      { icon: '🏘️', title: 'Uppbygging', text: 'Uppbygging og endurreisn bæjarins.' },
-      { icon: '💰', title: 'Fjármál', text: 'Ábyrg fjármálastjórnun.' },
-    ],
+    agenda: [],
+    // [stripped 2026-05-04] no source verifiable; no FB page found in 2026-05-04 sweep
+   
     list: [
       [1, 'Guðbjörg Eyjólfsdóttir', 'Innheimtufulltrúi', 'images/candidates/b7a4f0d89e7404de.jpg', {
         age: null,
@@ -5339,11 +5325,9 @@ const GRN = {
   },
   M: {
     tagline: 'Magnús Már Jakobsson leiðir Miðflokkinn í Grindavík',
-    agenda: [
-      { icon: '👶', title: 'Börn og fjölskyldur', text: 'Grunnþjónusta fyrir börn og fjölskyldur.' },
-      { icon: '💰', title: 'Fjármál', text: 'Ábyrg meðferð fjármuna.' },
-      { icon: '🏘️', title: 'Uppbygging', text: 'Uppbygging og þróun sveitarfélagsins.' },
-    ],
+    agenda: [],
+    // [stripped 2026-05-04] no source verifiable; FB: https://www.facebook.com/midflokkurinngrindavik
+   
     list: [
       [1, 'Magnús Már Jakobsson', 'Frambjóðandi', null, {
         age: null,
@@ -6206,11 +6190,9 @@ const NPG = {
   },
   S: {
     tagline: 'Samfylkingin í Norðurþingi',
-    agenda: [
-      { icon: '❤️', title: 'Velferð', text: 'Öflug velferðarþjónusta og heilbrigðisþjónusta fyrir alla íbúa Norðurþings.' },
-      { icon: '🏘️', title: 'Þjónusta', text: 'Sterk og aðgengileg þjónusta við alla íbúa sveitarfélagsins.' },
-      { icon: '🌾', title: 'Atvinnumál', text: 'Fjölbreytt atvinnulíf og efling atvinnustarfsemi á svæðinu.' },
-    ],
+    agenda: [],
+    // [stripped 2026-05-04] no source verifiable; FB: https://www.facebook.com/profile.php?id=100067576252354
+   
     list: [
       [1, 'Kjartan Páll Þórarinsson', 'Frambjóðandi'],
       [2, 'Rebekka Ásgeirsdóttir', 'Frambjóðandi'],
@@ -6282,11 +6264,9 @@ const NPG = {
 const FJB = {
   D: {
     tagline: 'Tómas Atli leiðir Sjálfstæðisflokkinn í Fjallabyggð',
-    agenda: [
-      { icon: '💼', title: 'Hagvöxtur', text: 'Frjálst atvinnulíf og skynsamleg fjármálastjórnun sem eflir velmegun í Fjallabyggð.' },
-      { icon: '🐟', title: 'Sjávarútvegur', text: 'Styrkja sjávarútveg og tengd atvinnugreinar sem stoð í efnahagslífi sveitarfélagsins.' },
-      { icon: '🏥', title: 'Þjónusta', text: 'Sterk og aðgengileg þjónusta við alla íbúa Siglufjörðar og Ólafsfjarðar.' },
-    ],
+    agenda: [],
+    // [stripped 2026-05-04] no source verifiable; FB: https://www.facebook.com/xd.fjallabyggd
+   
     list: [
       [1, 'Tómas Atli Einarsson', 'Framkvæmdastjóri og eigandi Skiltagerðar Norðurlands', 'images/candidates/ab4708d8789800b1.jpg', {
         age: 50,
@@ -6320,11 +6300,9 @@ const FJB = {
   },
   H: {
     tagline: 'H-listinn Fyrir Heildina — Helgi Jóhannsson leiðir',
-    agenda: [
-      { icon: '🏘️', title: 'Heildræn nálgun', text: 'Sameina íbúa Siglufjörðar og Ólafsfjarðar í sameiginlegri framtíðarsýn.' },
-      { icon: '🌊', title: 'Sjávar- og ferðaþjónusta', text: 'Þróa sjávarútveg og ferðaþjónustu sem stoðir í efnahagslífi sveitarfélagsins.' },
-      { icon: '🎓', title: 'Menntun og menning', text: 'Efla menntun, menningu og íþróttir í Fjallabyggð.' },
-    ],
+    agenda: [],
+    // [stripped 2026-05-04] no source verifiable; FB: https://www.facebook.com/profile.php?id=100067726875693
+   
     list: [
       [1, 'Helgi Jóhannsson', 'Fjármálaráðgjafi hjá Arion banka', 'images/candidates/cc7bba6d90a47e28.jpg', {
         age: null,
@@ -6352,11 +6330,9 @@ const FJB = {
   },
   S: {
     tagline: 'Jóhann K. leiðir Samfylkinguna í Fjallabyggð',
-    agenda: [
-      { icon: '❤️', title: 'Velferð', text: 'Öflug velferðarþjónusta og heilbrigðisþjónusta fyrir alla íbúa Fjallabyggðar.' },
-      { icon: '⚖️', title: 'Jafnrétti', text: 'Jöfn tækifæri og félagsleg réttlæti sem grundvöllur stefnu.' },
-      { icon: '🏫', title: 'Menntun', text: 'Gæðamenntun og sterk skólaþjónusta í Siglufirti og Ólafsfirði.' },
-    ],
+    agenda: [],
+    // [stripped 2026-05-04] no source verifiable; no FB page found in 2026-05-04 sweep
+   
     list: [
       [1, 'Jóhann K. Jóhannsson', 'Slökkviliðsstjóri Fjallabyggðar', 'images/candidates/c834f8d02774013d.png', {
         age: null,
@@ -6549,11 +6525,9 @@ const HVG = {
 const RTE = {
   B: {
     tagline: 'Framsókn í Rangárþingi eystra — landbúnaður og velferð',
-    agenda: [
-      { icon: '🌾', title: 'Landbúnaður', text: 'Styðja við bændur og dreifbýlisþróun.' },
-      { icon: '🏘️', title: 'Þjónusta', text: 'Góð þjónusta við alla bæjarbúa.' },
-      { icon: '🌿', title: 'Umhverfismál', text: 'Sjálfbær þróun í sveit og bæ.' },
-    ],
+    agenda: [],
+    // [stripped 2026-05-04] no source verifiable; no FB page found in 2026-05-04 sweep
+   
     list: [
       [1, 'Rafn Bergsson', 'Bóndi og sveitarstjórnarfulltrúi', null, {
         age: null,
@@ -6582,11 +6556,9 @@ const RTE = {
   },
   D: {
     tagline: 'Sjálfstæðisflokkurinn í Rangárþingi eystra — þróun og stöðugleiki',
-    agenda: [
-      { icon: '🏗️', title: 'Uppbygging', text: 'Sterk innviðaþróun og atvinnustyrkur.' },
-      { icon: '💼', title: 'Atvinnulíf', text: 'Stuðningur við bændur og atvinnurekendur.' },
-      { icon: '🏛️', title: 'Stjórnsýsla', text: 'Skilvirkni og gagnsæi.' },
-    ],
+    agenda: [],
+    // [stripped 2026-05-04] no source verifiable; no FB page found in 2026-05-04 sweep
+   
     list: [
       [1, 'Anton Kári Halldórsson', 'Sveitarstjóri', 'images/candidates/bc7310a0d5132b74.jpg', {
         age: null,
@@ -6698,11 +6670,9 @@ const RTY = {
   },
   D: {
     tagline: 'Sjálfstæðisflokkurinn í Rangárþingi ytra — stöðugleiki og framfarir',
-    agenda: [
-      { icon: '🏗️', title: 'Þróun', text: 'Uppbygging og framþróun sveitarfélagsins.' },
-      { icon: '💼', title: 'Atvinnulíf', text: 'Styðja við bændur og atvinnurekendur á svæðinu.' },
-      { icon: '🏛️', title: 'Stjórnun', text: 'Ábyrg og gagnsæ stjórnun.' },
-    ],
+    agenda: [],
+    // [stripped 2026-05-04] no source verifiable; no FB page found in 2026-05-04 sweep
+   
     list: [
       [1, 'Ingvar Pétur Guðbjörnsson', 'Upplýsingafulltrúi og sveitarstjórnarfulltrúi', 'images/candidates/3f523e873a84f1cf.jpg', {
         age: null,
@@ -6809,11 +6779,9 @@ const OLF = {
 const SKR = {
   D: {
     tagline: 'Sjálfstæðismenn og óháðir í Skaftárhreppi — byggðaþróun og velferð',
-    agenda: [
-      { icon: '🌋', title: 'Landbúnaður', text: 'Styðja við bændur á Skaftársvæðinu.' },
-      { icon: '🏘️', title: 'Þjónusta', text: 'Góð þjónusta við fámennt samfélag.' },
-      { icon: '🌿', title: 'Náttúra', text: 'Verndun náttúru og sjálfbær þróun.' },
-    ],
+    agenda: [],
+    // [stripped 2026-05-04] no source verifiable; FB: https://www.facebook.com/xdskaftarhreppur
+   
     list: [
       [1, 'Sveinn Hreiðar Jensson', 'Framkvæmdastjóri og sveitarstjórnarfulltrúi', 'images/candidates/b26ba76719c233bc.jpg', {
         age: null,
@@ -6836,11 +6804,9 @@ const SKR = {
   },
   SKO: {
     tagline: 'Öflugt samfélag — samvinna íbúa í Skaftárhreppi',
-    agenda: [
-      { icon: '🤝', title: 'Samvinna', text: 'Samvinna íbúa í uppbyggingu sveitarfélagsins.' },
-      { icon: '🏘️', title: 'Samfélag', text: 'Lifandi og öflugt samfélag á landsbyggðinni.' },
-      { icon: '💡', title: 'Nýsköpun', text: 'Stuðningur við ferðaþjónustu og nýsköpun.' },
-    ],
+    agenda: [],
+    // [stripped 2026-05-04] no source verifiable; no FB page found in 2026-05-04 sweep
+   
     list: [
       [1, 'Jóhannes Gissurarson', 'Bóndi', null, {
         age: null,
@@ -6869,11 +6835,9 @@ const SKR = {
 const MYR = {
   MYA: {
     tagline: 'Listi allra — sameiginleg framtíð í Mýrdal',
-    agenda: [
-      { icon: '🌋', title: 'Náttúra', text: 'Náttúruvernd og sjálfbær ferðaþjónusta.' },
-      { icon: '🤝', title: 'Samfélag', text: 'Fjölmennt samfélag þar sem allir eru velkomnir.' },
-      { icon: '🏘️', title: 'Þjónusta', text: 'Góð þjónusta við íbúa og gesti.' },
-    ],
+    agenda: [],
+    // [stripped 2026-05-04] no source verifiable; no FB page found in 2026-05-04 sweep
+   
     list: [
       [1, 'Anna Huld Óskarsdóttir', 'Hótelstjóri', null, {
         age: null,
@@ -6897,11 +6861,9 @@ const MYR = {
   },
   MYZ: {
     tagline: 'Listi Samfélagsins — öflugt Mýrdalshreppur',
-    agenda: [
-      { icon: '💡', title: 'Þróun', text: 'Framþróun og nýsköpun í sveitarfélaginu.' },
-      { icon: '🌿', title: 'Umhverfi', text: 'Umhverfisvernd og loftslagsaðgerðir.' },
-      { icon: '🏘️', title: 'Samfélag', text: 'Samfélagsleg þróun og velferð íbúa.' },
-    ],
+    agenda: [],
+    // [stripped 2026-05-04] no source verifiable; no FB page found in 2026-05-04 sweep
+   
     list: [
       [1, 'Björn Þór Ólafsson', 'Verslunarstjóri', null, {
         age: null,
@@ -6932,11 +6894,9 @@ const MYR = {
 const BSG = {
   BST: {
     tagline: 'T-listinn — framþróun í Bláskógabyggð',
-    agenda: [
-      { icon: '🌿', title: 'Náttúra', text: 'Verndun náttúru og ferðaþjónusta í Þingvallahreppi.' },
-      { icon: '🏘️', title: 'Búseta', text: 'Góð þjónusta við íbúa og stuðningur við íbúðarbyggð.' },
-      { icon: '💡', title: 'Framþróun', text: 'Nýsköpun og framþróun sveitarfélagsins.' },
-    ],
+    agenda: [],
+    // [stripped 2026-05-04] no source verifiable; no FB page found in 2026-05-04 sweep
+   
     list: [
       [1, 'Helgi Kjartansson', 'Íþróttakennari', 'images/candidates/176318d942c7d51f.jpg', {
         age: null,
@@ -7039,11 +6999,9 @@ const FHR = {
   },
   FLT: {
     tagline: 'T-listinn Flóa — samvinna og framfarir',
-    agenda: [
-      { icon: '🤝', title: 'Samvinna', text: 'Samvinna íbúa um uppbyggingu sveitarfélagsins.' },
-      { icon: '🌿', title: 'Náttúra', text: 'Umhverfisvernd og sjálfbær þróun.' },
-      { icon: '🏘️', title: 'Þjónusta', text: 'Betri þjónusta við íbúa.' },
-    ],
+    agenda: [],
+    // [stripped 2026-05-04] no source verifiable; no FB page found in 2026-05-04 sweep
+   
     list: [
       [1, 'Almar Sigurðsson', 'Ferðaþjónustubóndi', null, {
         age: null,
@@ -7073,11 +7031,9 @@ const FHR = {
 const HMR = {
   D: {
     tagline: 'Sjálfstæðismenn og óháðir í Hrunamannahreppi',
-    agenda: [
-      { icon: '🌾', title: 'Landbúnaður', text: 'Styðja við bændur og jarðrækt.' },
-      { icon: '🏘️', title: 'Þjónusta', text: 'Góð þjónusta við íbúa.' },
-      { icon: '💡', title: 'Þróun', text: 'Þróun og uppbygging sveitarfélagsins.' },
-    ],
+    agenda: [],
+    // [stripped 2026-05-04] no source verifiable; no FB page found in 2026-05-04 sweep
+   
     list: [
       [1, 'Jón Bjarnason', 'Bóndi og oddviti', 'images/candidates/e7b682c3b78e1595.jpg', {
         age: null,
@@ -7100,11 +7056,9 @@ const HMR = {
   },
   HRL: {
     tagline: 'L-listinn — íbúar í forgrunni í Hrunamannahreppi',
-    agenda: [
-      { icon: '🌿', title: 'Sjálfbærni', text: 'Sjálfbær þróun og náttúruvernd.' },
-      { icon: '🤝', title: 'Samfélag', text: 'Samfélagsleg þróun og stuðningur við íbúa.' },
-      { icon: '💡', title: 'Nýsköpun', text: 'Nýsköpun og framþróun.' },
-    ],
+    agenda: [],
+    // [stripped 2026-05-04] no source verifiable; FB: https://www.facebook.com/ListiHruni
+   
     list: [
       [1, 'Daði Geir Samúelsson', 'Rekstrarstjóri Sólskins grænmetis', null, {
         age: null,
@@ -7201,11 +7155,9 @@ const GGR = {
 const SGN = {
   SGE: {
     tagline: 'Uppbyggingarlistinn — framtíð Skeiða- og Gnúpverjahrepps',
-    agenda: [
-      { icon: '🌾', title: 'Landbúnaður', text: 'Styðja við bændur og dreifbýlisþróun.' },
-      { icon: '🏘️', title: 'Uppbygging', text: 'Uppbygging innviða og þjónustu.' },
-      { icon: '🌿', title: 'Umhverfi', text: 'Umhverfisvernd og sjálfbær þróun.' },
-    ],
+    agenda: [],
+    // [stripped 2026-05-04] no source verifiable; no FB page found in 2026-05-04 sweep
+   
     list: [
       [1, 'Gunnar Örn Marteinsson', 'Ferðaþjónustubóndi', null, {
         age: null,
@@ -7228,11 +7180,9 @@ const SGN = {
   },
   SGL: {
     tagline: 'Samvinnulistinn — samvinna og þróun',
-    agenda: [
-      { icon: '🤝', title: 'Samvinna', text: 'Samvinna og samstarf íbúa.' },
-      { icon: '💡', title: 'Þróun', text: 'Þróun atvinnulífs og innviða.' },
-      { icon: '🌱', title: 'Sjálfbærni', text: 'Sjálfbær þróun og umhverfisvernd.' },
-    ],
+    agenda: [],
+    // [stripped 2026-05-04] no source verifiable; no FB page found in 2026-05-04 sweep
+   
     list: [
       [1, 'Haraldur Þór Jónsson', 'Bóndi og sveitarstjórnarfulltrúi', null, {
         age: null,
@@ -7263,11 +7213,9 @@ const SGN = {
 const DVB = {
   B: {
     tagline: 'Framsóknarflokkurinn í Dalvíkurbyggð',
-    agenda: [
-      { icon: '🌱', title: 'Samfélag', text: 'Lifandi samfélag og öflugt atvinnulíf.' },
-      { icon: '🏥', title: 'Velferð', text: 'Öflug heilbrigðis- og velferðarþjónusta.' },
-      { icon: '🎓', title: 'Menntun', text: 'Gæðamenntun í öllum skólastigum.' },
-    ],
+    agenda: [],
+    // [stripped 2026-05-04] no source verifiable; FB: https://www.facebook.com/profile.php?id=100068098147909
+   
     list: [
       [1, 'Monika Margrét Stefánsdóttir', 'Framkvæmdastjóri og sveitarstjórnarfulltrúi', 'images/candidates/34e9e832a23e0613.jpg', {
         age: null,
@@ -7303,11 +7251,9 @@ const DVB = {
   },
   D: {
     tagline: 'Sjálfstæðisflokkurinn í Dalvíkurbyggð',
-    agenda: [
-      { icon: '🏗️', title: 'Uppbygging', text: 'Sterk þróun og uppbygging innviða.' },
-      { icon: '💼', title: 'Atvinnulíf', text: 'Styðja við sjávarútveg og atvinnulíf.' },
-      { icon: '🏛️', title: 'Stjórnun', text: 'Gagnsæ og skilvirkni stjórnun.' },
-    ],
+    agenda: [],
+    // [stripped 2026-05-04] no source verifiable; FB: https://www.facebook.com/Dlistinn
+   
     list: [
       [1, 'Benedikt Snær Magnússon', 'Framkvæmdastjóri Fiskmarkaðar Norðurlands', 'images/candidates/898c08d13365b980.jpg', {
         age: null,
@@ -7337,6 +7283,8 @@ const DVB = {
   A: {
     tagline: 'Byggðalistinn — A-listi Dalvíkurbyggðar',
     agenda: [],
+    // [stripped 2026-05-04] no source verifiable; no FB page found in 2026-05-04 sweep
+   
     list: [
       [1, 'Börkur Þór Ottósson', 'Frambjóðandi'],
       [2, 'Erla Björk Jónsdóttir', 'Frambjóðandi'],
@@ -7357,6 +7305,8 @@ const DVB = {
   K: {
     tagline: 'K-listi — Dalvíkurbyggð',
     agenda: [],
+    // [stripped 2026-05-04] no source verifiable; FB: https://www.facebook.com/profile.php?id=100080140426933
+   
     list: [
       [1, 'Helgi Einarsson', 'Frambjóðandi'],
       [2, 'Katrín Sif Ingvarsdóttir', 'Frambjóðandi'],
@@ -7380,11 +7330,9 @@ const DVB = {
 const EJA = {
   EJF: {
     tagline: 'F-listinn — öflugt landbúnaðarsamfélag í Eyjafirði',
-    agenda: [
-      { icon: '🌾', title: 'Landbúnaður', text: 'Styðja við bændur og landbúnað í Eyjafirði.' },
-      { icon: '🏘️', title: 'Dreifbýli', text: 'Lifandi dreifbýlissamfélag og góð þjónusta.' },
-      { icon: '🌿', title: 'Náttúra', text: 'Umhverfisvernd og sjálfbær þróun.' },
-    ],
+    agenda: [],
+    // [stripped 2026-05-04] no source verifiable; FB: https://www.facebook.com/f.listinn.esveit
+   
     list: [
       [1, 'Hermann Ingi Gunnarsson', 'Bóndi og bæjarfulltrúi', null, {
         age: null,
@@ -7415,11 +7363,9 @@ const EJA = {
   },
   EJK: {
     tagline: 'K-listinn — öflug Eyjafjarðarsveit',
-    agenda: [
-      { icon: '🌱', title: 'Þróun', text: 'Þróun og uppbygging sveitarfélagsins.' },
-      { icon: '🤝', title: 'Samvinna', text: 'Samvinna og samráð við íbúa.' },
-      { icon: '💡', title: 'Nýsköpun', text: 'Nýsköpun og framtíðarmiðuð stefna.' },
-    ],
+    agenda: [],
+    // [stripped 2026-05-04] no source verifiable; FB: https://www.facebook.com/k.listinn.esveit
+   
     list: [
       [1, 'Guðmundur Sigurbjörn Óskarsson', 'Vélfræðingur og bóndi', null, {
         age: null,
@@ -7453,11 +7399,9 @@ const EJA = {
 const HGS = {
   D: {
     tagline: 'Sjálfstæðisflokkur og óháðir í Hörgársveit',
-    agenda: [
-      { icon: '🌾', title: 'Landbúnaður', text: 'Styðja við bændur og dreifbýlisþróun.' },
-      { icon: '🏘️', title: 'Þjónusta', text: 'Góð þjónusta við íbúa.' },
-      { icon: '🏗️', title: 'Uppbygging', text: 'Uppbygging innviða og þjónustu.' },
-    ],
+    agenda: [],
+    // [stripped 2026-05-04] no source verifiable; no FB page found in 2026-05-04 sweep
+   
     list: [
       [1, 'Árni Rúnar Örvarsson', 'Framkvæmdastjóri', 'images/candidates/13879b0bd0336d5f.jpg', {
         age: 32,
@@ -7502,11 +7446,9 @@ const HGS = {
   },
   HGH: {
     tagline: 'H-listi Hörgársveitar — samvinna og þróun',
-    agenda: [
-      { icon: '🏛️', title: 'Stjórnun', text: 'Fagleg og gagnsæ stjórnun sveitarfélagsins.' },
-      { icon: '🌱', title: 'Sjálfbærni', text: 'Sjálfbær þróun og umhverfisvernd.' },
-      { icon: '🏘️', title: 'Samfélag', text: 'Öflugt og lifandi samfélag.' },
-    ],
+    agenda: [],
+    // [stripped 2026-05-04] no source verifiable; FB: https://www.facebook.com/horgarsveitarlisti
+   
     list: [
       [1, 'Bjarki Brynjólfsson', 'Lögfræðingur', null, {
         age: 36,
@@ -7534,11 +7476,9 @@ const HGS = {
 const HNB = {
   HBA: {
     tagline: 'Öll saman — sameiginleg framtíð Húnabyggðar',
-    agenda: [
-      { icon: '🤝', title: 'Samvinna', text: 'Samvinna allra íbúa um uppbyggingu sveitarfélagsins.' },
-      { icon: '🏘️', title: 'Þjónusta', text: 'Öflug þjónusta við íbúa.' },
-      { icon: '🌿', title: 'Náttúra', text: 'Náttúruvernd og sjálfbær þróun.' },
-    ],
+    agenda: [],
+    // [stripped 2026-05-04] no source verifiable; no FB page found in 2026-05-04 sweep
+   
     list: [
       [1, 'Jón Gíslason', 'Bóndi á Stóra-Búrfelli', null, {
         age: null,
@@ -7572,11 +7512,9 @@ const HNB = {
   },
   B: {
     tagline: 'Framsókn og framfarasinnar í Húnabyggð',
-    agenda: [
-      { icon: '🌱', title: 'Framfarir', text: 'Framfarir og uppbygging á Vesturlandi.' },
-      { icon: '🏥', title: 'Heilbrigðisþjónusta', text: 'Öflug heilbrigðis- og velferðarþjónusta.' },
-      { icon: '🌾', title: 'Landbúnaður', text: 'Styðja við bændur og dreifbýlisþróun.' },
-    ],
+    agenda: [],
+    // [stripped 2026-05-04] no source verifiable; no FB page found in 2026-05-04 sweep
+   
     list: [
       [1, 'Grímur Rúnar Lárusson', 'Lögfræðingur', 'images/candidates/fbfe9b2f7f2aecf6.webp', {
         age: null,
@@ -7608,11 +7546,9 @@ const HNB = {
   },
   D: {
     tagline: 'Sjálfstæðismenn og óháðir í Húnabyggð',
-    agenda: [
-      { icon: '🏗️', title: 'Uppbygging', text: 'Sterk uppbygging innviða og atvinnulífs.' },
-      { icon: '💼', title: 'Atvinnulíf', text: 'Styðja við atvinnulíf og nýsköpun.' },
-      { icon: '🏛️', title: 'Stjórnun', text: 'Gagnsæ og skilvirkni stjórnun.' },
-    ],
+    agenda: [],
+    // [stripped 2026-05-04] no source verifiable; no FB page found in 2026-05-04 sweep
+   
     list: [
       [1, 'Guðmundur Haukur Jakobsson', 'Pípulagningarmeistari og framkvæmdastjóri', 'images/candidates/d63873ce6d07b1ea.jpg', {
         age: null,
@@ -7652,11 +7588,9 @@ const HNB = {
 const HNT = {
   B: {
     tagline: 'Framsókn og Framfarabandalag í Húnaþingi vestra',
-    agenda: [
-      { icon: '🌾', title: 'Landbúnaður', text: 'Styðja við bændur og landbúnað á Dalnum.' },
-      { icon: '🏘️', title: 'Þjónusta', text: 'Öflug þjónusta við íbúa.' },
-      { icon: '🌱', title: 'Sjálfbærni', text: 'Sjálfbær þróun og umhverfisvernd.' },
-    ],
+    agenda: [],
+    // [stripped 2026-05-04] no source verifiable; no FB page found in 2026-05-04 sweep
+   
     list: [
       [1, 'Sigurður Líndal Þórison', 'Verkefnastjóri', null, {
         age: null,
@@ -7685,11 +7619,9 @@ const HNT = {
   },
   D: {
     tagline: 'Sjálfstæðisflokkur og óháðir í Húnaþingi vestra',
-    agenda: [
-      { icon: '🏗️', title: 'Þróun', text: 'Uppbygging og framþróun sveitarfélagsins.' },
-      { icon: '💼', title: 'Atvinnulíf', text: 'Stuðningur við atvinnulíf og bændur.' },
-      { icon: '🏛️', title: 'Stjórnun', text: 'Skilvirkni og gagnsæi í stjórnun.' },
-    ],
+    agenda: [],
+    // [stripped 2026-05-04] no source verifiable; no FB page found in 2026-05-04 sweep
+   
     list: [
       [1, 'Örn Arnarson', 'Framkvæmdastjóri', 'images/candidates/81a0df37e60b8d0c.jpg', {
         age: null,
@@ -7716,11 +7648,9 @@ const HNT = {
   },
   NHV: {
     tagline: 'Ný öfl — nýjar hugmyndir í Húnaþingi vestra',
-    agenda: [
-      { icon: '🌟', title: 'Nýjar hugmyndir', text: 'Ný sjónarmiðl og íbúamiðuð nálgun.' },
-      { icon: '🤝', title: 'Samvinna', text: 'Samvinna og opið samráð við íbúa.' },
-      { icon: '💡', title: 'Þróun', text: 'Framtíðarmiðuð þróun sveitarfélagsins.' },
-    ],
+    agenda: [],
+    // [stripped 2026-05-04] no source verifiable; no FB page found in 2026-05-04 sweep
+   
     list: [
       [1, 'Viktor Ingi Jónsson', 'Bæjarfulltrúi og kennari', 'images/candidates/131fecfd2fbc069f.jpg', {
         age: null,
@@ -7912,11 +7842,9 @@ const SFJ = {
 const SST = {
   B: {
     tagline: 'Framsókn og óháðir í Skagaströnd',
-    agenda: [
-      { icon: '🌊', title: 'Sjávarútvegur', text: 'Styðja við sjávarútveg og fiskvinnslu.' },
-      { icon: '🏘️', title: 'Samfélag', text: 'Lifandi og öflugt samfélag í Skagaströnd.' },
-      { icon: '💡', title: 'Nýsköpun', text: 'Nýsköpun og ferðaþjónusta.' },
-    ],
+    agenda: [],
+    // [stripped 2026-05-04] no source verifiable; FB: https://www.facebook.com/profile.php?id=61576821106144
+   
     list: [
       [1, 'Eydís Inga Sigurjónsdóttir', 'Forstöðumaður hjúkrunardeilda', null, {
         age: null,
@@ -7940,11 +7868,9 @@ const SST = {
   },
   S: {
     tagline: 'Samfylking og óháðir í Skagaströnd',
-    agenda: [
-      { icon: '❤️', title: 'Velferð', text: 'Öflug velferðarþjónusta og jafnrétti.' },
-      { icon: '🏘️', title: 'Samfélag', text: 'Lifandi samfélag og góð þjónusta.' },
-      { icon: '🌿', title: 'Umhverfi', text: 'Umhverfisvernd og sjálfbær þróun.' },
-    ],
+    agenda: [],
+    // [stripped 2026-05-04] no source verifiable; no FB page found in 2026-05-04 sweep
+   
     list: [
       [1, 'Ragnheiður Erla Stefánsdóttir', 'Hagfræðingur', null, {
         age: null,
@@ -7970,6 +7896,8 @@ const SST = {
   K: {
     tagline: 'Fyrir Skagaströnd — K-listi',
     agenda: [],
+    // [stripped 2026-05-04] no source verifiable; FB: https://www.facebook.com/profile.php?id=61576485865769
+   
     list: [
       [1, 'Vigdís Elva Þorgeirsdóttir', 'Frambjóðandi'],
       [2, 'Ragnar Rögnvaldsson', 'Frambjóðandi'],
@@ -8057,11 +7985,9 @@ function makeCandidatesFromList(municipalityId, partyCode, list) {
 const FJD = {
   B: {
     tagline: 'Framsóknarflokkur í Fjarðabyggð',
-    agenda: [
-      { icon: '🌊', title: 'Atvinnumál', text: 'Styðja við fjölbreytt atvinnulíf í Fjarðabyggð með áherslu á iðnað, sjávarútveg og ferðaþjónustu.' },
-      { icon: '👨‍👩‍👧', title: 'Velferð', text: 'Sterk velferðarþjónusta og stuðningur við fjölskyldur og eldra fólk.' },
-      { icon: '🌿', title: 'Þjónusta', text: 'Góð þjónusta við íbúa og uppbygging innviða í sveitarfélaginu.' },
-    ],
+    agenda: [],
+    // [stripped 2026-05-04] no source verifiable; FB: https://www.facebook.com/fjardaxb
+   
     list: [
       [1, 'Þuríður Lillý Sigurðardóttir', 'Bóndi og bæjarfulltrúi', 'images/candidates/7e453df76aada2a8.jpg', {
         age: null,
@@ -8213,11 +8139,9 @@ const FJD = {
   },
   M: {
     tagline: 'Miðflokkurinn í Fjarðabyggð',
-    agenda: [
-      { icon: '🤝', title: 'Samfélag', text: 'Styrkja samfélag og tryggja gæðaþjónustu fyrir alla íbúa.' },
-      { icon: '💰', title: 'Fjármál', text: 'Ábyrg fjármálastjórnun og skynsamleg nýting fjármuna sveitarfélagsins.' },
-      { icon: '🌊', title: 'Atvinna', text: 'Efla fjölbreytt atvinnulíf og stuðla að uppbyggingu.' },
-    ],
+    agenda: [],
+    // [stripped 2026-05-04] no source verifiable; FB: https://www.facebook.com/midfjardabyggd
+   
     list: [
       [1, 'Hrafn Bjarnason', 'Gæða- og verkefnastjóri hjá Egersund Island', null, {
         age: null,
@@ -8378,11 +8302,9 @@ const FJD = {
 const HFJ = {
   B: {
     tagline: 'Framsóknarflokkur á Hornafirði',
-    agenda: [
-      { icon: '🌊', title: 'Þjónusta', text: 'Öflug þjónusta við íbúa Hornafjörðar og uppbygging innviða.' },
-      { icon: '🏔️', title: 'Ferðaþjónusta', text: 'Efla ferðaþjónustu og nýta náttúrugæði svæðisins.' },
-      { icon: '👨‍👩‍👧', title: 'Velferð', text: 'Sterk velferðarþjónusta fyrir alla íbúa.' },
-    ],
+    agenda: [],
+    // [stripped 2026-05-04] no source verifiable; no FB page found in 2026-05-04 sweep
+   
     list: [
       [1, 'Hjalti Þór Vignisson', 'Framkvæmdastjóri hjá Stormar hf', 'images/candidates/9b5359f2c229c411.webp', {
         age: 48,
@@ -8481,11 +8403,9 @@ const HFJ = {
   },
   M: {
     tagline: 'Miðflokkurinn á Hornafirði',
-    agenda: [
-      { icon: '🤝', title: 'Samfélag', text: 'Styrkja samfélag og tryggja gæðaþjónustu fyrir alla íbúa.' },
-      { icon: '💰', title: 'Fjármál', text: 'Ábyrg fjármálastjórnun og skynsamleg nýting fjármuna.' },
-      { icon: '🌊', title: 'Atvinna', text: 'Efla fjölbreytt atvinnulíf á Hornafirði.' },
-    ],
+    agenda: [],
+    // [stripped 2026-05-04] no source verifiable; no FB page found in 2026-05-04 sweep
+   
     list: [
       [1, 'Reynir Ásgeirsson', 'Framkvæmdastjóri', null, {
         age: null,
@@ -8520,11 +8440,9 @@ const HFJ = {
 const AKR = {
   B: {
     tagline: 'Frjálsir með Framsókn á Akranesi',
-    agenda: [
-      { icon: '🌊', title: 'Þjónusta', text: 'Öflug þjónusta við íbúa Akraness og uppbygging innviða.' },
-      { icon: '👨‍👩‍👧', title: 'Velferð', text: 'Sterk velferðarþjónusta og stuðningur við fjölskyldur.' },
-      { icon: '💡', title: 'Nýsköpun', text: 'Framsækin stjórnun og nýsköpun í þágu bæjarins.' },
-    ],
+    agenda: [],
+    // [stripped 2026-05-04] no source verifiable; FB: https://www.facebook.com/framsoknakranes
+   
     list: [
       [1, 'Ragnar Baldvin Sæmundsson', 'Bæjarfulltrúi', 'images/candidates/94d71f5b69ba6425.jpg', { news: [
           { title: 'Oddvitaumræður á Akranesi', url: 'https://www.ruv.is/frettir/innlent/2026-04-22-oddvitaumraedur-a-akranesi-473426', source: 'ruv.is' },
@@ -8620,11 +8538,9 @@ const AKR = {
   },
   D: {
     tagline: 'Líf — Sjálfstæðisflokkurinn á Akranesi',
-    agenda: [
-      { icon: '💼', title: 'Hagvöxtur', text: 'Efla atvinnulíf og skapa tækifæri á Akranesi.' },
-      { icon: '🏠', title: 'Húsnæðismál', text: 'Auka framboð á húsnæði og bæta húsnæðisstuðning.' },
-      { icon: '🏥', title: 'Þjónusta', text: 'Tryggja gæðaþjónustu við alla íbúa bæjarins.' },
-    ],
+    agenda: [],
+    // [stripped 2026-05-04] no source verifiable; FB: https://www.facebook.com/xdakranes
+   
     list: [
       [1, 'Líf Lárusdóttir', 'Verkefnastjóri og bæjarfulltrúi', 'images/candidates/65144168c3e42809.jpg', {
         age: null,
@@ -8695,11 +8611,9 @@ const AKR = {
   },
   M: {
     tagline: 'Miðflokkurinn á Akranesi',
-    agenda: [
-      { icon: '🤝', title: 'Samfélag', text: 'Styrkja samfélag og tryggja gæðaþjónustu fyrir alla íbúa.' },
-      { icon: '💰', title: 'Fjármál', text: 'Ábyrg fjármálastjórnun og skynsamleg nýting fjármuna.' },
-      { icon: '🌊', title: 'Atvinna', text: 'Efla fjölbreytt atvinnulíf á Akranesi.' },
-    ],
+    agenda: [],
+    // [stripped 2026-05-04] no source verifiable; FB: https://www.facebook.com/profile.php?id=61583869156249
+   
     list: [
       [1, 'Hrafn Ágúst Björnsson', 'Öryggisráðgjafi', null, {
         age: null,
@@ -8855,11 +8769,9 @@ const AKR = {
 const BBD = {
   B: {
     tagline: 'Framsóknarflokkurinn í Borgarbyggð',
-    agenda: [
-      { icon: '🌊', title: 'Þjónusta', text: 'Öflug þjónusta við íbúa Borgarbyggðar og uppbygging innviða.' },
-      { icon: '👨‍👩‍👧', title: 'Velferð', text: 'Sterk velferðarþjónusta og stuðningur við fjölskyldur.' },
-      { icon: '🌿', title: 'Búseta', text: 'Gott búsetuumhverfi og þjónusta í dreifbýlinu.' },
-    ],
+    agenda: [],
+    // [stripped 2026-05-04] no source verifiable; FB: https://www.facebook.com/framsoknborgarbyggd
+   
     list: [
       [1, 'Davíð Sigurðsson', 'Formaður byggðarráðs og bóndi', 'images/candidates/0fc7015d7467e806.webp', {
         age: null,
@@ -8934,11 +8846,9 @@ const BBD = {
   },
   M: {
     tagline: 'Miðflokkurinn í Borgarbyggð',
-    agenda: [
-      { icon: '🤝', title: 'Samfélag', text: 'Styrkja samfélag og tryggja gæðaþjónustu fyrir alla íbúa.' },
-      { icon: '💰', title: 'Fjármál', text: 'Ábyrg fjármálastjórnun og skynsamleg nýting fjármuna.' },
-      { icon: '🌿', title: 'Dreifbýli', text: 'Styrkja dreifbýlið og efla landbúnað og búsetu.' },
-    ],
+    agenda: [],
+    // [stripped 2026-05-04] no source verifiable; FB: https://www.facebook.com/profile.php?id=61584376858076
+   
     list: [
       [1, 'Haukur Þór Hauksson', 'Viðskiptahagfræðingur', 'images/candidates/4be86fdaa51c0ed6.jpg', {
         age: null,
@@ -8976,6 +8886,8 @@ const BBD = {
   A: {
     tagline: 'Borgarbyggðarlistinn — A-listi',
     agenda: [],
+    // [stripped 2026-05-04] no source verifiable; FB: https://www.facebook.com/profile.php?id=61573246230759
+   
     list: [
       [1, 'Jovana Pavlović', 'Frambjóðandi', 'images/candidates/75627107873c7dd4.jpg'],
       [2, 'Hermann B. Valsson', 'Frambjóðandi', 'images/candidates/915a523717840bd2.jpg'],
@@ -9004,11 +8916,9 @@ const BBD = {
 const ISF = {
   B: {
     tagline: 'Framsóknarflokkur og óháðir í Ísafjarðarbæ',
-    agenda: [
-      { icon: '🌊', title: 'Þjónusta', text: 'Öflug þjónusta við íbúa Ísafjarðarbæjar og uppbygging innviða.' },
-      { icon: '👨‍👩‍👧', title: 'Velferð', text: 'Sterk velferðarþjónusta og stuðningur við fjölskyldur.' },
-      { icon: '🏔️', title: 'Uppbygging', text: 'Uppbygging og þróun Vestfjarða.' },
-    ],
+    agenda: [],
+    // [stripped 2026-05-04] no source verifiable; FB: https://www.facebook.com/framsoknisafjardarbaer
+   
     list: [
       [1, 'Kristján Þór Kristjánsson', 'Hótelstjóri', 'images/candidates/ddd047e4a53f496c.webp', {
         age: 48,
@@ -9094,11 +9004,9 @@ const ISF = {
   },
   D: {
     tagline: 'Sjálfstæðisflokkurinn í Ísafjarðarbæ',
-    agenda: [
-      { icon: '💼', title: 'Hagvöxtur', text: 'Efla atvinnulíf og skapa tækifæri á Vestfjörðum.' },
-      { icon: '🏠', title: 'Húsnæðismál', text: 'Auka framboð á húsnæði og bæta húsnæðisstuðning.' },
-      { icon: '🏥', title: 'Þjónusta', text: 'Tryggja gæðaþjónustu við alla íbúa.' },
-    ],
+    agenda: [],
+    // [stripped 2026-05-04] no source verifiable; FB: https://www.facebook.com/xdisafjardar
+   
     list: [
       [1, 'Jónas Þór Birgisson', 'Lyfjafræðingur', 'images/candidates/c70f5e54006c8107.jpg', {
         age: 54,
@@ -9134,11 +9042,9 @@ const ISF = {
   },
   M: {
     tagline: 'Miðflokkurinn í Ísafjarðarbæ',
-    agenda: [
-      { icon: '🤝', title: 'Samfélag', text: 'Styrkja samfélag og tryggja gæðaþjónustu fyrir alla íbúa.' },
-      { icon: '💰', title: 'Fjármál', text: 'Ábyrg fjármálastjórnun og skynsamleg nýting fjármuna.' },
-      { icon: '🌊', title: 'Atvinna', text: 'Efla fjölbreytt atvinnulíf á Vestfjörðum.' },
-    ],
+    agenda: [],
+    // [stripped 2026-05-04] no source verifiable; no FB page found in 2026-05-04 sweep
+   
     list: [
       [1, 'Sævar Óli Hjörvarsson', 'Smiður', 'images/candidates/592f3a47e798c187.jpg', {
         age: null,
@@ -9165,11 +9071,9 @@ const ISF = {
   },
   S: {
     tagline: 'Samfylkingin í Ísafjarðarbæ',
-    agenda: [
-      { icon: '❤️', title: 'Velferð', text: 'Öflug velferðarþjónusta og heilbrigðisþjónusta fyrir alla íbúa Ísafjarðarbæjar.' },
-      { icon: '⚖️', title: 'Jafnrétti', text: 'Jöfn tækifæri og félagsleg réttlæti sem grundvöllur stefnu.' },
-      { icon: '🏫', title: 'Menntun', text: 'Gæðamenntun og sterk skólaþjónusta á Vestfjörðum.' },
-    ],
+    agenda: [],
+    // [stripped 2026-05-04] no source verifiable; FB: https://www.facebook.com/xsisafjardarbaer
+   
     list: [
       [1, 'Svanfríður Guðrún Bergvinsdóttir', 'Viðskiptafræðinemi og formaður ASÍ-UNG', 'images/candidates/234c62c7c473fa24.png', {
         age: null,
@@ -9251,11 +9155,9 @@ function generateCandidates(municipalityId, partyCode, count = 8) {
 const STK = {
   FLS: {
     tagline: 'Framfaralisti Stykkishólms — byggjum upp bæinn saman',
-    agenda: [
-      { icon: '🏘️', title: 'Búsetuskilyrði', text: 'Bætt húsnæðisframboð og fjölbreyttara íbúðarbyggð til að efla búsetu.' },
-      { icon: '🎓', title: 'Menntun og þjónusta', text: 'Öflug skólaþjónusta og velferðarkerfi sem þjónar öllum aldurshópum.' },
-      { icon: '🌿', title: 'Umhverfi og ferðaþjónusta', text: 'Sjálfbær þróun og vernd náttúru Snæfellsness til framtíðar.' },
-    ],
+    agenda: [],
+    // [stripped 2026-05-04] no source verifiable; no FB page found in 2026-05-04 sweep
+   
     list: [
       [1, 'Björn Ásgeir Sumarliðason', 'Bæjarstjóri', null, {
         age: null,
@@ -9283,11 +9185,9 @@ const STK = {
   },
   IBU: {
     tagline: 'Íbúalistinn — rödd íbúanna',
-    agenda: [
-      { icon: '🤝', title: 'Íbúalýðræði', text: 'Auka þátttöku íbúa í ákvörðunartöku og gera stjórnun gagnsærari.' },
-      { icon: '💼', title: 'Atvinna og nýsköpun', text: 'Stuðningur við nýsköpun og fjölbreytt atvinnulíf í bænum.' },
-      { icon: '🏥', title: 'Heilbrigðisþjónusta', text: 'Tryggja aðgang að heilbrigðisþjónustu fyrir alla íbúa Stykkishólms.' },
-    ],
+    agenda: [],
+    // [stripped 2026-05-04] no source verifiable; FB: https://www.facebook.com/IbualistinnStykkisholmiogHelgafellssveit
+   
     list: [
       [1, 'Sigurður Grétar Jónasson', 'Frambjóðandi', null, {
         age: null,
@@ -9321,11 +9221,9 @@ const STK = {
 const GFJ = {
   GFB: {
     tagline: 'Framsókn og Samfylking — áfram Grundarfjörður',
-    agenda: [
-      { icon: '🌊', title: 'Sjávarútvegur', text: 'Styrkja sjávarútveg og tryggja stöðugar tekjur og atvinnu í bænum.' },
-      { icon: '🏫', title: 'Skólamál', text: 'Öflug skólaþjónusta og menntun sem undirbýr kynslóðirnar.' },
-      { icon: '🏔️', title: 'Ferðaþjónusta', text: 'Þróa ferðaþjónustu í náttúrugæðum Snæfellsness á sjálfbæran hátt.' },
-    ],
+    agenda: [],
+    // [stripped 2026-05-04] no source verifiable; no FB page found in 2026-05-04 sweep
+   
     list: [
       [1, 'Fannar Þór Þorfinnsson', 'Frambjóðandi'],
       [2, 'Signý Gunnarsdóttir', 'Frambjóðandi'],
@@ -9346,11 +9244,9 @@ const GFJ = {
   },
   GFD: {
     tagline: 'Sjálfstæðisflokkur og óháðir — traust og framþróun',
-    agenda: [
-      { icon: '💼', title: 'Atvinnulíf', text: 'Efla atvinnulíf og laða að fjárfestingar til Grundarfjarðar.' },
-      { icon: '🏠', title: 'Húsnæðismál', text: 'Auka framboð á húsnæði og bæta búsetuskilyrði fyrir fjölskyldur.' },
-      { icon: '🌿', title: 'Umhverfismál', text: 'Vernd náttúru og sjálfbær nýting auðlinda svæðisins.' },
-    ],
+    agenda: [],
+    // [stripped 2026-05-04] no source verifiable; no FB page found in 2026-05-04 sweep
+   
     list: [
       [1, 'Jósef Kjartansson', 'Verktaki og forseti bæjarstjórnar', 'images/candidates/440bcfb114a80149.jpg'],
       [2, 'Sigurhanna Ágústa Einarsdóttir', 'Framkvæmdastjóri, einka- og markþjálfi', 'images/candidates/b1644385c3d1d650.jpg'],
@@ -9378,11 +9274,9 @@ const GFJ = {
 const BLV = {
   MMM: {
     tagline: 'Máttur meyja og manna — saman erum við sterk',
-    agenda: [
-      { icon: '👨‍👩‍👧', title: 'Fjölskylduþjónusta', text: 'Öflugt velferðarkerfi og stuðningur við fjölskyldur á öllum stigum lífsins.' },
-      { icon: '🏘️', title: 'Byggð og búseta', text: 'Bæta búsetuskilyrði og kynna Bolungarvík sem góðan stað til að búa.' },
-      { icon: '🌊', title: 'Sjávarútvegur', text: 'Sjávarútvegur er hornsteinn atvinnulífs — tryggja framtíð hans.' },
-    ],
+    agenda: [],
+    // [stripped 2026-05-04] no source verifiable; no FB page found in 2026-05-04 sweep
+   
     list: [
       [1, 'Guðfinnur Ragnar Jóhannsson', 'Frambjóðandi'],
       [2, 'Magnús Ingi Jónsson', 'Frambjóðandi'],
@@ -9439,11 +9333,9 @@ const BLV = {
 const SDV = {
   FJL: {
     tagline: 'Fjarðarlistinn — hlutum okkur af framtíð Súðavíkur',
-    agenda: [
-      { icon: '🌊', title: 'Sjávarútvegur', text: 'Tryggja framtíð sjávarútvegar sem grundvallar atvinnulífsins.' },
-      { icon: '👨‍👩‍👧', title: 'Velferð', text: 'Öflug velferðarþjónusta sem þjónar öllum íbúum hreppsins.' },
-      { icon: '🌿', title: 'Náttúruvernd', text: 'Sjálfbær þróun og vernd náttúrugæða Vestfjarða.' },
-    ],
+    agenda: [],
+    // [stripped 2026-05-04] no source verifiable; no FB page found in 2026-05-04 sweep
+   
     list: [
       [1, 'Kristján Rúnar Kristjánsson', 'Frambjóðandi'],
       [2, 'Ingibjörg Ásdís Björnsdóttir', 'Frambjóðandi'],
@@ -9459,11 +9351,9 @@ const SDV = {
   },
   FTL: {
     tagline: 'Framtíðarlistinn — í átt að betri framtíð',
-    agenda: [
-      { icon: '🏘️', title: 'Búseta', text: 'Bæta búsetuskilyrði og laða að fjölskyldur til Súðavíkur.' },
-      { icon: '💼', title: 'Atvinna', text: 'Efla fjölbreytt atvinnulíf og styðja við nýsköpun.' },
-      { icon: '🏫', title: 'Þjónusta', text: 'Tryggja góða þjónustu við börn og eldri íbúa.' },
-    ],
+    agenda: [],
+    // [stripped 2026-05-04] no source verifiable; no FB page found in 2026-05-04 sweep
+   
     list: [
       [1, 'Kjartan Geir Karlsson', 'Frambjóðandi'],
       [2, 'Birta Lind Garðarsdóttir', 'Frambjóðandi'],
@@ -9487,11 +9377,9 @@ const SDV = {
 const VBG = {
   NYS: {
     tagline: 'Nýrra sýnar — framtíðarsýn fyrir Vesturbyggð',
-    agenda: [
-      { icon: '💡', title: 'Nýsköpun', text: 'Efla nýsköpun og fjölbreytt atvinnulíf á Vestfjörðum.' },
-      { icon: '🏘️', title: 'Búseta', text: 'Bæta búsetuskilyrði og innviði til að laða at íbúa.' },
-      { icon: '🌊', title: 'Sjávarútvegur', text: 'Tryggja sjálfbæran sjávarútveg sem burðarás efnahagslífsins.' },
-    ],
+    agenda: [],
+    // [stripped 2026-05-04] no source verifiable; no FB page found in 2026-05-04 sweep
+   
     list: [
       [1, 'Þórkatla Soffía Ólafsdóttir', 'Frambjóðandi'],
       [2, 'Rebekka Hilmarsdóttir', 'Frambjóðandi'],
@@ -9512,11 +9400,9 @@ const VBG = {
   },
   STV: {
     tagline: 'Sterkari Vesturbyggð — saman getum við meira',
-    agenda: [
-      { icon: '🤝', title: 'Samstarf', text: 'Samvinna íbúa og sveitarfélags til að ná sameiginlegum markmiðum.' },
-      { icon: '🏥', title: 'Heilbrigðisþjónusta', text: 'Tryggja heilbrigðisþjónustu sem nær til allra hluta sveitarfélagsins.' },
-      { icon: '🌿', title: 'Umhverfismál', text: 'Sjálfbær nýting náttúruauðlinda Vestfjarða til framtíðar.' },
-    ],
+    agenda: [],
+    // [stripped 2026-05-04] no source verifiable; FB: https://www.facebook.com/profile.php?id=61570681349673
+   
     list: [
       [1, 'Hlynur Ársælsson', 'Frambjóðandi'],
       [2, 'Friðbjörg Matthíasdóttir', 'Frambjóðandi'],
@@ -9707,11 +9593,9 @@ const STD = {
   },
   SBD: {
     tagline: 'Strandabandalagið — sameinuð um framtíðina',
-    agenda: [
-      { icon: '🤝', title: 'Bandalag', text: 'Sameinuð framboð sem sameinar fjölbreytt sjónarmiði íbúa.' },
-      { icon: '🌊', title: 'Sjávarmál', text: 'Vinna að málefnum sjávarins og fiskeldis á sjálfbæran hátt.' },
-      { icon: '📡', title: 'Samgöngur', text: 'Bæta samgöngur og samskiptamál til að tengja íbúa betur.' },
-    ],
+    agenda: [],
+    // [stripped 2026-05-04] no source verifiable; no FB page found in 2026-05-04 sweep
+   
     list: [
       [1, 'Þorgeir Pálsson', 'Frambjóðandi', 'images/candidates/3bd6c57c31acc7a6.jpg'],
       [2, 'Grettir Örn Ásmundsson', 'Frambjóðandi'],
@@ -9734,11 +9618,9 @@ const STD = {
 const RKH = {
   ROA: {
     tagline: 'Raddir okkar allra — við tökum höndum saman',
-    agenda: [
-      { icon: '🤝', title: 'Samvinna', text: 'Samvinna allra íbúa í þágu heilla hreppsins og uppbyggingar.' },
-      { icon: '🌊', title: 'Sjávarútvegur', text: 'Tryggja framtíð sjávarútvegar og fiskvinnslunnar í Reykhólahreppi.' },
-      { icon: '🌿', title: 'Landbúnaður', text: 'Styðja við bændur og sjálfbæran landbúnað á svæðinu.' },
-    ],
+    agenda: [],
+    // [stripped 2026-05-04] no source verifiable; FB: https://www.facebook.com/profile.php?id=61570766163562
+   
     list: [
       [1, 'Árný Huld Haraldsdóttir', 'Frambjóðandi'],
       [2, 'Embla Dögg Bachmann Jóhannsdóttir', 'Frambjóðandi'],
@@ -9755,11 +9637,9 @@ const RKH = {
   },
   S: {
     tagline: 'Samfylkingin í Reykhólahreppi',
-    agenda: [
-      { icon: '❤️', title: 'Velferð', text: 'Öflug velferðarþjónusta og stuðningur við þá sem þurfa á hjálp að halda.' },
-      { icon: '🏫', title: 'Menntun', text: 'Gæðamenntun og skólaþjónusta sem þjónar öllum börnum hreppsins.' },
-      { icon: '⚖️', title: 'Jafnrétti', text: 'Jöfn tækifæri og félagsleg réttlæti sem grundvöllur stefnu.' },
-    ],
+    agenda: [],
+    // [stripped 2026-05-04] no source verifiable; no FB page found in 2026-05-04 sweep
+   
     list: [
       [1, 'Hrefna Jónsdóttir', 'Frambjóðandi'],
       [2, 'Þorleifur Jóhann Guðjónsson', 'Frambjóðandi'],
@@ -10100,11 +9980,9 @@ const MUT = {
 const THV = {
   THVA: {
     tagline: 'A-listi í Þingeyjarsveit — áfram sveitin',
-    agenda: [
-      { icon: '🌾', title: 'Landbúnaður', text: 'Styrkja landbúnað og bændabyggð sem hornstein sveitarfélagsins.' },
-      { icon: '🏘️', title: 'Búseta', text: 'Bæta búsetuskilyrði og laða at fjölskyldur til Þingeyjarsveit.' },
-      { icon: '🌿', title: 'Náttúruvernd', text: 'Vernd og sjálfbær nýting náttúrugæða Norðurlands.' },
-    ],
+    agenda: [],
+    // [stripped 2026-05-04] no source verifiable; no FB page found in 2026-05-04 sweep
+   
     list: [
       [1, 'Knútur Emil Jónasson', 'Byggingarfræðingur', null, {
         age: null,
@@ -10132,11 +10010,9 @@ const THV = {
   },
   THVL: {
     tagline: 'L-listi í Þingeyjarsveit — lausnir fyrir íbúana',
-    agenda: [
-      { icon: '💼', title: 'Atvinna', text: 'Efla fjölbreytt atvinnulíf og nýsköpun í Þingeyjarsveit.' },
-      { icon: '🏥', title: 'Heilbrigðisþjónusta', text: 'Tryggja heilbrigðisþjónustu sem nær til allra hluta sveitarfélagsins.' },
-      { icon: '📡', title: 'Samgöngur', text: 'Bæta samgöngur og fjarskiptainnviði til að styðja íbúa.' },
-    ],
+    agenda: [],
+    // [stripped 2026-05-04] no source verifiable; no FB page found in 2026-05-04 sweep
+   
     list: [
       [1, 'Hallgrímur Páll Leifsson', 'Flugmaður og skíðaþjálfari', null, {
         age: null,
@@ -10164,11 +10040,9 @@ const THV = {
   },
   THVN: {
     tagline: 'N-listi í Þingeyjarsveit — nýtt líf í sveitina',
-    agenda: [
-      { icon: '🌱', title: 'Umhverfismál', text: 'Sjálfbær þróun og umhverfisvernd sem lykillinn að framtíðinni.' },
-      { icon: '👨‍👩‍👧', title: 'Velferð', text: 'Öflug velferðarþjónusta og stuðningur við fjölskyldur.' },
-      { icon: '🏫', title: 'Menntun', text: 'Gæðamenntun og sterk skólaþjónusta í Þingeyjarsveit.' },
-    ],
+    agenda: [],
+    // [stripped 2026-05-04] no source verifiable; no FB page found in 2026-05-04 sweep
+   
     list: [
       [1, 'Eyþór Kári Ingólfsson', 'Búfræðinemi', null, {
         age: null,
@@ -10241,11 +10115,9 @@ const HVF = {
   },
   HVB: {
     tagline: 'Íbúahreyfingin Hvalfjörður — rödd þeirra sem búa hér',
-    agenda: [
-      { icon: '🗣️', title: 'Íbúalýðræði', text: 'Auka þátttöku íbúa í ákvörðunartöku og gera stjórnun gagnsærari.' },
-      { icon: '💼', title: 'Atvinna', text: 'Stuðningur við fjölbreytt atvinnulíf og nýsköpun í Hvalfjarðarsveit.' },
-      { icon: '🏥', title: 'Heilbrigðisþjónusta', text: 'Tryggja heilbrigðisþjónustu sem þjónar öllum íbúum svæðisins.' },
-    ],
+    agenda: [],
+    // [stripped 2026-05-04] no source verifiable; FB: https://www.facebook.com/profile.php?id=61577458847705
+   
     list: [
       [1, 'Þóra Margrét Júlíusdóttir', 'Frambjóðandi'],
       [2, 'Baldur Þór Ketilsson', 'Frambjóðandi'],
@@ -10272,11 +10144,9 @@ const HVF = {
 const SNF = {
   D: {
     tagline: 'D-listi Sjálfstæðisflokks — Snæfellsbær 2026',
-    agenda: [
-      { icon: '🏔️', title: 'Samfélag', text: 'Styrkja samfélag og þjónustu á Snæfellsnesi.' },
-      { icon: '💼', title: 'Atvinna', text: 'Efla atvinnulíf og nýsköpun á svæðinu.' },
-      { icon: '🌿', title: 'Umhverfismál', text: 'Sjálfbær þróun og vernd náttúru Snæfellsness.' },
-    ],
+    agenda: [],
+    // [stripped 2026-05-04] no source verifiable; no FB page found in 2026-05-04 sweep
+   
     list: [
       [1, 'Auður Kjartansdóttir', 'Fjármálastjóri', null, {
         age: null,
@@ -10310,11 +10180,9 @@ const SNF = {
 const SVS = {
   SVSS: {
     tagline: 'S-listi í Svalbarðsstrandarhreppi — samstaða og framþróun',
-    agenda: [
-      { icon: '🌊', title: 'Sjávarútvegur', text: 'Sjávarútvegur er lífæð Svalbarðsstrandar — vernda og þróa hann.' },
-      { icon: '🏘️', title: 'Byggð', text: 'Vinna gegn fólksfækkun og styrkja búsetu í hreppi.' },
-      { icon: '🌿', title: 'Umhverfismál', text: 'Sjálfbær nýting náttúruauðlinda og vernd umhverfisins.' },
-    ],
+    agenda: [],
+    // [stripped 2026-05-04] no source verifiable; no FB page found in 2026-05-04 sweep
+   
     list: [
       [1, 'Sigríður Ingi Stefánsdóttir', 'Frambjóðandi'],
       [2, 'Hafrún Helga Arnardóttir', 'Frambjóðandi'],
@@ -10333,6 +10201,8 @@ const SVS = {
   SVSH: {
     tagline: 'Strönd til framtíðar — H-listi Svalbarðsstrandar',
     agenda: [],
+    // [stripped 2026-05-04] no source verifiable; no FB page found in 2026-05-04 sweep
+   
     list: [
       [1, 'Ólafur Rúnar Ólafsson', 'Frambjóðandi'],
       [2, 'Gréta María Halldórsdóttir', 'Frambjóðandi'],
@@ -10350,6 +10220,8 @@ const SVS = {
   SVSO: {
     tagline: 'Ströndungur — Ö-listi í Svalbarðsstrandarhreppi',
     agenda: [],
+    // [stripped 2026-05-04] no source verifiable; no FB page found in 2026-05-04 sweep
+   
     list: [
       [1, 'Bjarni Þór Guðmundsson', 'Frambjóðandi'],
       [2, 'Árný Þóra Ágústsdóttir', 'Frambjóðandi'],
@@ -10370,11 +10242,9 @@ const SVS = {
 const KJO = {
   KJA: {
     tagline: 'Íbúar í Kjós — A-listi Kjósarhrepps 2026',
-    agenda: [
-      { icon: '🌿', title: 'Náttúruvernd', text: 'Vernd Kjósar og sjálfbær þróun í einu fallegasta svæði landsins.' },
-      { icon: '🏘️', title: 'Búseta', text: 'Bæta búsetuskilyrði og innviði til að efla búsetu í hreppi.' },
-      { icon: '🤝', title: 'Samfélag', text: 'Styrkja samfélagsleg tengsl og þátttöku íbúa í stjórnun.' },
-    ],
+    agenda: [],
+    // [stripped 2026-05-04] no source verifiable; no FB page found in 2026-05-04 sweep
+   
     list: [
       [1, 'Jóhanna Hreinsdóttir', 'Frambjóðandi'],
       [2, 'Sigurþór I. Sigurðsson', 'Frambjóðandi'],
@@ -10395,11 +10265,9 @@ const KJO = {
 const VPF = {
   VOP: {
     tagline: 'Vopnafjörður — eitt framboð, sameinaður hreppur',
-    agenda: [
-      { icon: '🐟', title: 'Sjávarútvegur', text: 'Sjávarútvegur og fiskvinnslufyrirtæki eru grundvöllur byggðar í hreppnum.' },
-      { icon: '🏔️', title: 'Náttúra og ferðaþjónusta', text: 'Efla ferðaþjónustu og vernda einstæða náttúru Vopnafjarðar.' },
-      { icon: '🏠', title: 'Þjónusta við íbúa', text: 'Tryggja góða grunnþjónustu og nægilegt húsnæði fyrir alla íbúa.' },
-    ],
+    agenda: [],
+    // [stripped 2026-05-04] no source verifiable; no FB page found in 2026-05-04 sweep
+   
     list: [
       [1, 'Íris Edda Jónsdóttir', 'Frambjóðandi', null, {
         age: null,
@@ -10433,11 +10301,9 @@ const VPF = {
 const TJR = {
   TJN: {
     tagline: 'Tjörnes — Eitt framboð',
-    agenda: [
-      { icon: '🐳', title: 'Náttúruvernd', text: 'Vernda einstæðar jarðmyndanir og dýralíf á Tjörnesi.' },
-      { icon: '🏠', title: 'Þjónusta', text: 'Tryggja grunnþjónustu og góðar samgöngur til höfuðstöðvar.' },
-      { icon: '🌾', title: 'Landbúnaður', text: 'Styðja við landbúnað og hefðbundna búsetu á Tjörnesi.' },
-    ],
+    agenda: [],
+    // [stripped 2026-05-04] no source verifiable; no FB page found in 2026-05-04 sweep
+   
     list: [
       [1, 'Aðalsteinn Jóhannes Halldórsson', 'Frambjóðandi'],
       [2, 'Jón Gunnarsson', 'Frambjóðandi'],
