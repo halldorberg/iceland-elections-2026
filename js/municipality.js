@@ -662,6 +662,10 @@ function buildSplashHTML(party, data) {
 
 function buildCandidatesHTML(data, party) {
   const partyName = PARTIES[data.partyCode]?.name || data.partyCode;
+  // Per-poll seat projection — candidates with ballotOrder <= pollSeats get
+  // their own party-coloured frame.
+  const pollSeats = POLLS[data.municipalityId]?.parties?.[data.partyCode]?.seats || 0;
+
   const renderCard = c => {
     const fallback = localAvatar(c.name);
     const occupation = trOcc(c.occupation);
@@ -669,8 +673,10 @@ function buildCandidatesHTML(data, party) {
     // dimensions to prevent layout shift (Cumulative Layout Shift, a Google
     // Core Web Vitals ranking factor).
     const altText = `${c.name} — ${partyName}, ${muni.name}`;
+    const elected = pollSeats > 0 && c.ballotOrder <= pollSeats;
+    const cardClass = elected ? 'candidate-card is-elected-poll' : 'candidate-card';
     return `
-      <div class="candidate-card"
+      <div class="${cardClass}"
            data-candidate-id="${c.id}"
            data-party-code="${data.partyCode}"
            role="button" tabindex="0"
@@ -693,33 +699,21 @@ function buildCandidatesHTML(data, party) {
       </div>`;
   };
 
-  // Split list at the projected seat count from the latest poll. Candidates
-  // up to and including ballot-position N go inside a fieldset-style frame
-  // bordered in the party colour with a small italic label sitting on the
-  // top edge of the frame; the rest render in a normal grid below.
-  const pollSeats = POLLS[data.municipalityId]?.parties?.[data.partyCode]?.seats || 0;
-  const elected   = pollSeats > 0 ? data.candidates.filter(c => c.ballotOrder <= pollSeats) : [];
-  const rest      = pollSeats > 0 ? data.candidates.filter(c => c.ballotOrder >  pollSeats) : data.candidates;
-
-  const electedHTML = elected.length
-    ? `<div class="candidates-elected" style="--party-color:${party.color};--party-text:${party.textColor || party.color}">
-         <div class="candidates-elected-label">${ui.electedFrameLabel}</div>
-         <div class="candidates-grid candidates-grid--elected">${elected.map(renderCard).join('')}</div>
+  const legend = pollSeats > 0
+    ? `<div class="candidates-elected-legend" style="--party-color:${party.color}">
+         <span class="candidates-elected-legend-swatch"></span>
+         <span class="candidates-elected-legend-text">${ui.electedFrameLabel}</span>
        </div>`
     : '';
 
-  const restHTML = rest.length
-    ? `<div class="candidates-grid">${rest.map(renderCard).join('')}</div>`
-    : '';
-
   return `
-    <div class="candidates-section">
+    <div class="candidates-section" style="--party-color:${party.color}">
       <div class="candidates-section-title">
         <span style="color:${party.color}">${party.name}</span>
         &nbsp;– ${ui.candidates}
       </div>
-      ${electedHTML}
-      ${restHTML}
+      ${legend}
+      <div class="candidates-grid">${data.candidates.map(renderCard).join('')}</div>
     </div>`;
 }
 
