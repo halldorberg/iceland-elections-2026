@@ -261,8 +261,9 @@ export const RESULTS_2022 = {
     totalSeats: 5,
     parties: {
       SBD: { pct: 60.2, seats: 3 },  // Strandabandalagið
-      VGV: { pct: 39.8, seats: 2 },  // Almennir borgarar
-      // B → "Nýtt framboð"
+      // VGV (Vegvísir, X-G) — new 2026 list, NOT a continuation of the
+      // 2022 A-list "Almennir borgarar" → "Nýtt framboð"
+      // B (Framsókn) — also new 2026 → "Nýtt framboð"
     },
   },
 

@@ -9566,10 +9566,22 @@ const STD = {
   VGV: {
     tagline: 'Vegvísir — leiðum Strandabyggð í rétta átt',
     agenda: [
-      { icon: '🔦', title: 'Leiðsögn', text: 'Skýr stefna og vandvirkni í stjórnun sveitarfélagsins.' },
-      { icon: '💼', title: 'Atvinnuþróun', text: 'Efla fjölbreytt atvinnulíf og laða að nýja íbúa.' },
-      { icon: '👨‍👩‍👧', title: 'Velferð', text: 'Öflug velferðarþjónusta og stuðningur við íbúa í hverju ári.' },
+      { icon: '🏫', title: 'Skólar',                       text: 'Við leggjum áherslu á að styðja við skóla og efla fjölbreytni þjónustu innan þeirra, með velferð og þroska nemenda að leiðarljósi.' },
+      { icon: '🎨', title: 'Frístundastarf',               text: 'Við viljum efla frístundastarf í samstarfi við skóla, íþróttafélög og aðra aðila og vinna þannig markvisst að samfellu í degi yngri kynslóðarinnar og barnvænu samfélagi.' },
+      { icon: '🎭', title: 'Tómstundir og menning',        text: 'Við viljum móta skýra framtíðarsýn í tómstunda- og menningarmálum ásamt því að styrkja það starf sem þegar hefur verið unnið.' },
+      { icon: '🏃', title: 'Heilsueflandi samfélag',       text: 'Við viljum stuðla að heilsueflandi samfélagi með því að byggja upp sveitarfélag sem styður við útivist og íþróttir.' },
+      { icon: '♿', title: 'Velferð og aldraðir',          text: 'Við ætlum að vinna að því að sveitarfélagið uppfylli lögbundnar skyldur sínar varðandi réttindi fatlaðs fólks og þjónustu við aldraða auk þess að bæta aðgengi þessara hópa að fjölbreyttum úrræðum.' },
+      { icon: '🏘️', title: 'Húsnæðismál',                  text: 'Við viljum halda áfram uppbyggingu í húsnæðismálum og vinna að þarfagreiningu þannig að komið sé til móts við þarfir ólíkra aldurshópa og fjölskyldugerða.' },
+      { icon: '📍', title: 'Markaðssetning Strandabyggðar', text: 'Við vinnum að því að markaðssetja Strandabyggð sem eftirsóknarverðan stað til að búa á og efla upplýsingagjöf til bæði íbúa og ferðamanna um þá þjónustu og viðburði sem eru á svæðinu.' },
+      { icon: '🤝', title: 'Samvinna við atvinnugreinar',  text: 'Við viljum aukna samvinnu við lykilatvinnugreinar þannig að sérþekking þeirra nýtist í ákvörðunartöku í málum þeim tengdum.' },
+      { icon: '💼', title: 'Fjölbreytt atvinnulíf',        text: 'Við ætlum að hlúa að fjölbreyttu atvinnulífi í sveitarfélaginu ásamt því að styðja við nýsköpun og störf án staðsetningar.' },
+      { icon: '♨️', title: 'Heitt vatn og hitaveita',      text: 'Við viljum tryggja að heitavatnsleit haldi áfram og leita leiða til að íbúar og fyrirtæki Strandabyggðar hafi kost á aðgengi að hitaveitu.' },
+      { icon: '🎻', title: 'Menning og listir',            text: 'Við ætlum að vinna að því að styrkja menningu og listir, auka tengingu við skólastarf og bæta nýtingu menningarhúsa bæjarins.' },
+      { icon: '📚', title: 'Bókasafn',                     text: 'Við viljum vinna að bættu aðgengi íbúa að bókasafni og efla það sem vettvang fyrir fjölbreytta félags- og menningarstarfsemi.' },
+      { icon: '🧳', title: 'Ferðaþjónusta',                text: 'Við viljum markaðssetja ferðaþjónustu í Strandabyggð í góðu samstarfi við hagsmunaaðila á svæðinu.' },
+      { icon: '⚖️', title: 'Fagleg stjórnun',              text: 'Við ætlum að vinna faglega að stjórnun sveitarfélagsins með gagnsæi og áherslu á ábyrga og sjálfbæra fjármálastjórn.' },
     ],
+    platformUrl: 'https://www.facebook.com/profile.php?id=61577654363537',
     list: [
       [1, 'Hrafnhildur Þorsteinsdóttir', 'Frambjóðandi'],
       [2, 'Jón Örn Haraldsson', 'Frambjóðandi'],
@@ -10393,7 +10405,10 @@ export function getMunicipalityPartyData(municipalityId, partyCode) {
       tagline: real.tagline,
       agenda: real.agenda,
       platformUrl: real.platformUrl || null,
-      isPlaceholder: !real.platformUrl,
+      // Placeholder = no real agenda. A real party can have a verified agenda
+      // without a public platform URL (e.g. provided directly by the party);
+      // in that case we still render the agenda but skip the 'Heimild' link.
+      isPlaceholder: !real.agenda || real.agenda.length === 0,
       candidates: makeCandidatesFromList(municipalityId, partyCode, real.list),
     };
   }
