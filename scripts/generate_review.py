@@ -435,9 +435,13 @@ def main():
         return list(results_by_id.values())
 
     # Bios merged across parallel-agent slices, keyed by candidate name
-    def merge_bios(scan_date):
+    def merge_bios(_scan_date_unused):
+        # Bios accumulate across many scan dates and only leave the review
+        # page once they're approved + applied (handled by the audit filter
+        # below). Always glob ALL bios_*.json so a new scan on a different
+        # date doesn't make 700 still-pending bios disappear.
         results_by_key = {}
-        for path in sorted(SCAN_DIR.glob(f"bios_{scan_date}*.json")):
+        for path in sorted(SCAN_DIR.glob("bios_*.json")):
             data = load_json(path) or {}
             for r in data.get('results', []) or []:
                 key = r.get('name') or f"{r.get('muni_slug')}.{r.get('party_code')}.{r.get('ballot')}"
