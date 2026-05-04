@@ -435,13 +435,23 @@ def main():
         return list(results_by_id.values())
 
     # Bios merged across parallel-agent slices, keyed by candidate name
+    def latest_date_for(prefix):
+        """Most recent YYYY-MM-DD that has at least one `<prefix>_*.json` file."""
+        import re as _re
+        dates = set()
+        for p in SCAN_DIR.glob(f"{prefix}_*.json"):
+            m = _re.search(r"_(\d{4}-\d{2}-\d{2})", p.name)
+            if m:
+                dates.add(m.group(1))
+        return max(dates) if dates else None
+
     def merge_bios(_scan_date_unused):
-        # Bios accumulate across many scan dates and only leave the review
-        # page once they're approved + applied (handled by the audit filter
-        # below). Always glob ALL bios_*.json so a new scan on a different
-        # date doesn't make 700 still-pending bios disappear.
+        # Bios live under their own latest scan date — independent of other
+        # scan types. (Otherwise a same-day policy or photo scan would shift
+        # scan_date forward and the bio files would be hidden.)
+        bios_date = latest_date_for("bios") or scan_date
         results_by_key = {}
-        for path in sorted(SCAN_DIR.glob("bios_*.json")):
+        for path in sorted(SCAN_DIR.glob(f"bios_{bios_date}*.json")):
             data = load_json(path) or {}
             for r in data.get('results', []) or []:
                 key = r.get('name') or f"{r.get('muni_slug')}.{r.get('party_code')}.{r.get('ballot')}"
