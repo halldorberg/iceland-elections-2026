@@ -9543,6 +9543,8 @@ const VBG = {
 
 const STD = {
   B: {
+    partyName:      'Framsókn og óháðir',
+    partyShortName: 'Framsókn og óháðir',
     tagline: 'Ábyrgð – Traust – Framtíð',
     agenda: [
       { icon: '💰', title: 'Ábyrg fjármálastjórn',                  text: 'Við viljum tryggja vandaðan rekstur, gagnsæi og skýra sýn í fjármálum. Áhersla er lögð á jafnvægi í rekstri og ábyrga nýtingu fjármuna íbúa til að standa undir góðri þjónustu til framtíðar.' },
@@ -10509,6 +10511,12 @@ export function getMunicipalityPartyData(municipalityId, partyCode) {
     return {
       municipalityId,
       partyCode,
+      // Optional per-muni override for the party display name. Lets a local
+      // list use a different label than the global PARTIES[code].name —
+      // e.g. X-B in Strandabyggð is called "Framsókn og óháðir" rather
+      // than "Framsóknarflokkurinn".
+      partyName: real.partyName || null,
+      partyShortName: real.partyShortName || real.partyName || null,
       tagline: real.tagline,
       agenda: real.agenda,
       platformUrl: real.platformUrl || null,

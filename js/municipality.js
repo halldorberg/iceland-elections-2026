@@ -294,7 +294,7 @@ function renderAccordion() {
   container.innerHTML = '';
 
   muni.partyIds.forEach(code => {
-    const p = PARTIES[code];
+    const p = withMuniNameOverride(PARTIES[code], partyDataMap[code]);
     const data = partyDataMap[code];
     const isExpanded = code === activeParty;
 
@@ -378,6 +378,14 @@ function attachCustomScrollbar(ribbon) {
     document.body.style.userSelect = '';
     scheduleHide();
   });
+}
+
+// Per-muni party-name override: if the muni's data block sets `partyName`
+// (e.g. X-B in Strandabyggð is "Framsókn og óháðir" not "Framsóknarflokkurinn"),
+// shallow-copy the global PARTIES entry and replace name + shortName.
+function withMuniNameOverride(party, data) {
+  if (!party || !data || !data.partyName) return party;
+  return { ...party, name: data.partyName, shortName: data.partyShortName || data.partyName };
 }
 
 function buildRibbonHTML(party, data) {
