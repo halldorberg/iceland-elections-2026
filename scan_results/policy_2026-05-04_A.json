@@ -1,0 +1,56 @@
+{
+  "scan_type": "policy",
+  "scan_date": "2026-05-04",
+  "slice": "A",
+  "agent_note": "Strict policy scan for slice A (21 entries). For each: WebFetched predicted party-domain URLs first per the pattern table, then fell back to web search + same-domain news. Recency bar = 2025-01-01 or explicit 2026 reference. Per-bullet source_quote = verbatim Icelandic from a fetched page. Skipping liberally where no own-domain platform exists (most national parties' municipal sub-pages on framsokn.is, xd.is, midflokkurinn.is, xs.is currently render only navigation menus / candidate rosters with zero local policy text). Every kept entry has 3+ verbatim quotes from a single fetched page that is dated >= 2025 or explicitly references 2026.",
+  "results": [
+    {
+      "id": "BLA.BSP",
+      "muni_slug": "blaskogabyggd",
+      "party_code": "BSP",
+      "platform_url": "https://www.dfs.is/frettir/kosningar/hvert-stefnir-blaskogabyggd/",
+      "verified_source_kind": "news-with-rationale",
+      "recency_evidence": "Article dated 21. apríl 2026; written by Þ-listinn candidate; second corroborating dfs.is piece dated 14. apríl 2026 from another Þ-listinn candidate (4. sæti)",
+      "audit_note": "Probed framsokn-style patterns first (no Þ-listinn own domain found, BSP is a local Bláskógabyggð list). Pattern probes for blaskogabyggd own-domain returned nothing; fell back to dfs.is local-news (the Suðurland Decisions newspaper). Two 2026 articles from named Þ-listinn candidates establish the platform: dfs.is/.../hvert-stefnir-blaskogabyggd (2026-04-21) and dfs.is/.../soknarfaeri-i-blaskogabyggd (2026-04-14). Quotes drawn from the 21. apríl piece. sunnlenska.is page exists but is dated 2022.",
+      "tagline": "Þ-listinn — virkt íbúasamráð, skýr langtímastefna og framþróun fyrir Bláskógabyggð",
+      "agenda": [
+        {
+          "icon": "🗳️",
+          "title": "Virkt íbúasamráð",
+          "source_quote": "Íbúar búa yfir mikilvægri þekkingu á sínu nærumhverfi og ættu að hafa raunverulega aðkomu.",
+          "text": "Þ-listinn vill virkt íbúasamráð þar sem íbúar fá raunverulega aðkomu að ákvörðunum, byggt á þekkingu þeirra á nærumhverfinu."
+        },
+        {
+          "icon": "🧭",
+          "title": "Skýr langtímastefna",
+          "source_quote": "Þörf á skýrri langtímastefnu um þróun sveitarfélagsins, hvort sem litið er til skipulagsmála.",
+          "text": "Listinn leggur áherslu á skýra langtímastefnu um þróun sveitarfélagsins, ekki síst í skipulagsmálum."
+        },
+        {
+          "icon": "📈",
+          "title": "Á undan áætlun",
+          "source_quote": "Við ættum markvisst að vinna að því að vera á undan áætlun með því að greina þarfir.",
+          "text": "Markvisst skal unnið að því að vera á undan áætlun með reglulegri þarfagreiningu."
+        },
+        {
+          "icon": "💡",
+          "title": "Vettvangur fyrir hugmyndir íbúa",
+          "source_quote": "Sveitarfélagið ætti að vera vettvangur þar sem hugmyndir íbúa fá að koma fram.",
+          "text": "Sveitarfélagið á að vera opinn vettvangur þar sem hugmyndir íbúa fá farveg."
+        },
+        {
+          "icon": "🌱",
+          "title": "Framsýni og uppbygging",
+          "source_quote": "Bláskógabyggð á mikið inni þegar kemur að framsýni, og áframhaldandi uppbyggingu.",
+          "text": "Þ-listinn telur að Bláskógabyggð eigi mikið inni hvað varðar framsýni og áframhaldandi uppbyggingu."
+        }
+      ]
+    }
+  ],
+  "skipped": [
+    {"id": "AKR.B", "reason": "framsokn.is/sveitarfelog/akranes returns navigation only (no policy text); /grundvallarstefnuskra and /kosningaaherslur sub-paths return 404; akranes.framsokn.is and framsoknogfrjalsir.is do not resolve. Search snippet describes 'Frjálsir með Framsókn' positions but no fetchable platform page with verbatim quotes."},
+    {"id": "BOR.B", "reason": "framsokn.is/sveitarfelog/borgarbyggd returns generic nav menu only; framsoknarfelagborgarbyggdar.is does not resolve. No own-domain platform page recoverable."},
+    {"id": "DAL.D", "reason": "xd.is/sveitastjornir/dalvik renders campaign page with no policy text. xddalvik.is does not resolve. No 2026 stefnuskrá published online."},
+    {"id": "FJA.D", "reason": "xd.is/sveitastjornir/fjallabyggd has no policy text (national-stefna nav only); /kosningaaherslur sub-path 404; xdfjallabyggd.is does not resolve. No fetchable D-listi Fjallabyggð platform."}
+  ]
+}
