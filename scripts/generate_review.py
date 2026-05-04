@@ -617,6 +617,22 @@ document.getElementById('pw-input').addEventListener('keydown', function(e) {
 
 // Approval UI
 const APPROVE_KEY_PREFIX = 'approve:';
+// IDs whose audit entry already has applied=true. Browsers that approved
+// these before they were applied still carry stale localStorage flags;
+// clear them once on load so the counter reflects only pending work.
+const APPLIED_IDS = new Set(__APPLIED_IDS_JSON__);
+function clearAppliedFromStorage() {
+  const stale = [];
+  for (let i = 0; i < localStorage.length; i++) {
+    const k = localStorage.key(i);
+    if (!k || !k.startsWith(APPROVE_KEY_PREFIX)) continue;
+    // 'approve:<cid>' or 'approve:<cid>:kind'
+    const tail = k.slice(APPROVE_KEY_PREFIX.length);
+    const cid = tail.endsWith(':kind') ? tail.slice(0, -':kind'.length) : tail;
+    if (APPLIED_IDS.has(cid)) stale.push(k);
+  }
+  stale.forEach(k => localStorage.removeItem(k));
+}
 function listApproved() {
   const out = [];
   for (let i = 0; i < localStorage.length; i++) {
@@ -716,6 +732,7 @@ function togglePanel() {
 }
 document.addEventListener('change', onApproveChange);
 window.addEventListener('load', () => {
+  clearAppliedFromStorage();
   applyStateToCheckboxes();
   refreshCounter();
 });
@@ -723,6 +740,11 @@ window.addEventListener('load', () => {
 
     photos_html = photos_section(photos_list)
     photo_count_html = photo_status
+
+    # Substitute the applied-IDs placeholder so the page can purge stale
+    # localStorage approval flags for bios that have already been applied.
+    applied_ids = sorted(cid for cid, e in audit_data.items() if e.get('applied'))
+    js = js.replace('__APPLIED_IDS_JSON__', json.dumps(applied_ids))
 
     page = f"""<!DOCTYPE html>
 <html lang="is">

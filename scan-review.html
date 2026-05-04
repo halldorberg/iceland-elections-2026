@@ -11619,6 +11619,22 @@ document.getElementById('pw-input').addEventListener('keydown', function(e) {
 
 // Approval UI
 const APPROVE_KEY_PREFIX = 'approve:';
+// IDs whose audit entry already has applied=true. Browsers that approved
+// these before they were applied still carry stale localStorage flags;
+// clear them once on load so the counter reflects only pending work.
+const APPLIED_IDS = new Set(["AKU.D.16", "AKU.D.17", "AKU.D.18", "AKU.D.19", "AKU.D.20", "AKU.D.21", "AKU.D.22", "AKU.S.16", "AKU.S.17", "AKU.S.18", "AKU.S.19", "AKU.S.20", "AKU.S.21", "AKU.S.22", "DVB.D.6", "DVB.D.8", "GAR.D.16", "GAR.D.17", "GAR.D.18", "GAR.D.19", "GAR.D.20", "GAR.D.21", "GAR.D.22", "GAR.S.16", "GAR.S.17", "GAR.S.18", "GAR.S.19", "GAR.S.20", "GAR.S.22", "GRN.D.6", "GRN.D.7", "GRN.D.8", "GRN.D.9", "HAF.D.19", "HAF.D.20", "HAF.D.22", "HAF.S.19", "HAF.S.20", "HAF.S.21", "HFJ.D.10", "HFJ.D.6", "HFJ.D.8", "HFJ.D.9", "HFJ.HFJK.10", "HFJ.HFJK.6", "HFJ.HFJK.7", "HFJ.HFJK.8", "HVG.D.10", "HVG.D.7", "HVG.D.8", "HVG.D.9", "HVG.OKH.10", "HVG.OKH.6", "HVG.OKH.7", "HVG.OKH.8", "HVG.OKH.9", "HVG.S.10", "HVG.S.6", "HVG.S.7", "HVG.S.8", "HVG.S.9", "MOS.D.16", "MOS.D.17", "NPG.D.6", "NPG.NPM.10", "NPG.NPM.6", "NPG.NPM.7", "NPG.NPM.8", "NPG.NPM.9", "OLF.D.10", "OLF.D.6", "OLF.D.7", "OLF.D.8", "OLF.D.9", "OLF.S.10", "OLF.S.6", "OLF.S.7", "OLF.S.8", "OLF.S.9", "RNB.D.16", "RNB.D.17", "RNB.D.18", "RNB.D.19", "RNB.D.20", "RNB.D.21", "RNB.D.22", "RNB.S.16", "RNB.S.17", "RNB.S.18", "RNB.S.19", "RNB.S.20", "RNB.S.21", "RVK.A.6", "RVK.B.10", "RVK.B.11", "RVK.B.12", "RVK.B.13", "RVK.B.14", "RVK.B.15", "RVK.B.16", "RVK.B.17", "RVK.B.18", "RVK.B.19", "RVK.B.5", "RVK.B.6", "RVK.B.7", "RVK.B.8", "RVK.B.9", "RVK.C.10", "RVK.C.12", "RVK.C.13", "RVK.C.15", "RVK.C.17", "RVK.C.19", "RVK.C.6", "RVK.C.7", "RVK.C.8", "RVK.C.9", "RVK.D.10", "RVK.D.11", "RVK.D.12", "RVK.D.13", "RVK.D.14", "RVK.D.15", "RVK.D.6", "RVK.D.7", "RVK.D.8", "RVK.D.9", "RVK.F.10", "RVK.F.6", "RVK.F.7", "RVK.F.8", "RVK.F.9", "RVK.M.2", "RVK.M.6", "RVK.P.6", "RVK.P.7", "RVK.P.8", "RVK.P.9", "RVK.S.10", "RVK.S.11", "RVK.S.12", "RVK.S.13", "RVK.S.14", "RVK.S.15", "RVK.S.16", "RVK.S.17", "RVK.S.18", "RVK.S.6", "RVK.S.7", "RVK.S.8", "RVK.S.9"]);
+function clearAppliedFromStorage() {
+  const stale = [];
+  for (let i = 0; i < localStorage.length; i++) {
+    const k = localStorage.key(i);
+    if (!k || !k.startsWith(APPROVE_KEY_PREFIX)) continue;
+    // 'approve:<cid>' or 'approve:<cid>:kind'
+    const tail = k.slice(APPROVE_KEY_PREFIX.length);
+    const cid = tail.endsWith(':kind') ? tail.slice(0, -':kind'.length) : tail;
+    if (APPLIED_IDS.has(cid)) stale.push(k);
+  }
+  stale.forEach(k => localStorage.removeItem(k));
+}
 function listApproved() {
   const out = [];
   for (let i = 0; i < localStorage.length; i++) {
@@ -11718,6 +11734,7 @@ function togglePanel() {
 }
 document.addEventListener('change', onApproveChange);
 window.addEventListener('load', () => {
+  clearAppliedFromStorage();
   applyStateToCheckboxes();
   refreshCounter();
 });
