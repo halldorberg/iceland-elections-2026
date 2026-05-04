@@ -9543,12 +9543,22 @@ const VBG = {
 
 const STD = {
   B: {
-    tagline: 'Framsóknarmenn og óháðir í Strandabyggð',
+    tagline: 'Ábyrgð – Traust – Framtíð',
     agenda: [
-      { icon: '🌊', title: 'Sjávarútvegur', text: 'Sjávarútvegur er lífæð Strandabyggðar — vernda hann og þróa.' },
-      { icon: '🏘️', title: 'Byggð', text: 'Vinna gegn fólksfækkun og styrkja búsetu í dreifbýlinu.' },
-      { icon: '🌿', title: 'Landbúnaður', text: 'Styðja við bændur og sjálfbæran landbúnað á svæðinu.' },
+      { icon: '💰', title: 'Ábyrg fjármálastjórn',                  text: 'Við viljum tryggja vandaðan rekstur, gagnsæi og skýra sýn í fjármálum. Áhersla er lögð á jafnvægi í rekstri og ábyrga nýtingu fjármuna íbúa til að standa undir góðri þjónustu til framtíðar.' },
+      { icon: '🤝', title: 'Samvinna og heilindi í fyrirrúmi',      text: 'Við viljum vandaða og heiðarlega stjórnsýslu þar sem hagsmunir samfélagsins eru í fyrsta sæti. Áhersla er lögð á traust, fagmennsku og samstöðu. Við viljum auka samstarf við nágrannasveitarfélög og opna á viðræður um sameiningar á svæðinu.' },
+      { icon: '🏫', title: 'Metnaður í menntamálum',                text: 'Við viljum stuðla að stöðugleika og góðum starfsskilyrðum í leik- og grunnskólum. Áhersla er lögð á gæði menntunar, vellíðan nemenda og gott samstarf við heimilin. Við leggjum áherslu á jákvætt og styðjandi námsumhverfi þar sem hver nemandi fær að njóta sín og þroskast á eigin forsendum, ásamt því að hlúa vel að starfsfólki og tryggja samfellu í starfi.' },
+      { icon: '⚽', title: 'Tómstunda- og íþróttastarf',            text: 'Við viljum efla fjölbreytt tómstunda- og íþróttastarf sem höfðar til allra. Áhersla er lögð á aðgengi að hreyfingu, félagsstarfi og heilsueflandi verkefnum í nærumhverfi íbúa. Markmiðið er samfélag þar sem allir finna sér viðeigandi afþreyingu og taka þátt.' },
+      { icon: '❤️', title: 'Félags- og heilbrigðismál',             text: 'Við viljum tryggja góða og aðgengilega þjónustu fyrir alla íbúa þar sem þeir finna sig velkomna, óháð aldri eða aðstæðum. Áhersla á fjölbreytt félagsstarf og samvinnu við félagasamtök, þjónustu sem styður sjálfstæða búsetu (t.d. heimahjúkrun) og að efla heilsugæslu og heilbrigðisþjónustu í Strandabyggð. Laus rými á hjúkrunarheimili skulu nýtt. Þar að auki viljum við endurvekja öldungaráðið, sem hefur ekki starfað síðastliðin 4 ár, og tryggjum því skýrt hlutverk og raunveruleg áhrif í ákvarðanatöku.' },
+      { icon: '💼', title: 'Atvinnulíf og innflytjendastefna',      text: 'Við viljum standa vörð um undirstöður atvinnulífsins, sérstaklega sjávarútveg og landbúnað, og styðja nýsköpun og ferðaþjónustu. Við tökum vel í hugmyndir um hótel en krefjumst vandaðs undirbúnings og faglegs framkvæmdar svo sómi sé að verkefnum til langs tíma. Við bjóðum erlenda nýbúa velkomna, styðjum þá sem vilja vinna og setjast að hér því fjölbreytileiki eflir samfélagið. Við viljum efla reglulegt samtal við atvinnulíf og íbúa og vinna markvisst að fjölgun starfa og íbúa.' },
+      { icon: '🏘️', title: 'Húsnæðismál í forgang',                text: 'Við viljum stuðla að uppbyggingu fjölbreytts húsnæðis sem hentar ólíkum þörfum, með áherslu á aðgengi, öryggi og möguleika fólks til að búa áfram í heimabyggð. Við viljum auka framboð lóða fyrir íbúðar- og atvinnuhúsnæði.' },
+      { icon: '📣', title: 'Markaðssetning og uppbygging',          text: 'Við viljum ráða markaðsfulltrúa til að kynna sveitarfélagið, laða að ný fyrirtæki og íbúa og miðla jákvæðum fréttum af svæðinu.' },
+      { icon: '🎭', title: 'Lifandi menning og snyrtilegt umhverfi', text: 'Við viljum styðja við menningu og listir, bæta nýtingu menningarhúsa og efla samfélagslíf. Umhverfið á að vera snyrtilegt, aðgengilegt og hvetjandi.' },
+      { icon: '🏃', title: 'Heilsueflandi samfélag',                text: 'Við viljum bæta gönguleiðir, lýsingu og aðgengi að útivistarsvæðum þannig að allir geti verið virkir í daglegu lífi. Áhersla er lögð á forvarnir og heilsueflingu.' },
+      { icon: '🔍', title: 'Gagnsæi og opin stjórnsýsla',           text: 'Við viljum bæta upplýsingagjöf, efla samráð og tryggja raunveruleg áhrif íbúa með reglulegum íbúafundum, könnunum og hugmyndabanka á heimasíðu sveitarfélagsins.' },
+      { icon: '🚐', title: 'Samgöngur og innviðir',                 text: 'Við viljum bæta samgöngur og aðgengi á svæðinu. Við þrýstum á að hringvegur um Vestfirði verði skilgreindur sem þjóðvegur 2 með auknu þjónustustigi og að innstrandavegur milli Hólmavíkur og Staðarskála verði hluti af þeirri leið. Einnig viljum við sjá viðhald og malbikun flugvallarins áður en hann verður ónýtur til að tryggja móttöku sjúkraflugs og að áfram verði leitað að heitu vatni á Gálmaströnd.' },
     ],
+    platformUrl: 'https://www.facebook.com/profile.php?id=61585879199774',
     list: [
       [1, 'Sigurbjörn Rafn Úlfarsson', 'Frambjóðandi'],
       [2, 'Kristín Anna Oddsdóttir', 'Frambjóðandi'],
