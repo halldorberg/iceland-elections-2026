@@ -333,9 +333,9 @@ const RVK = {
       { icon: '🚌', title: 'Strætó fyrir börn', text: 'Ókeypis strætófarið fyrir börn yngri en 16 ára.' },
     ],
     list: [
-      [1,  'Pétur Hafliði Marteinsson',     'Rekstrarstjóri, fyrrverandi atvinnuknattleikmaður',    'images/candidates/0029111166d51ecf.png', {
+      [1,  'Pétur Hafliði Marteinsson',     'Rekstrarstjóri, fyrrverandi atvinnufótboltamaður',    'images/candidates/0029111166d51ecf.png', {
         age: 52,
-        bio: 'Pétur Hafliði Marteinsson er fæddur 14. júlí 1973 og ólst upp í Breiðholti í Reykjavík. Hann er fyrrverandi atvinnuknattleikmaður sem spilaði meðal annars hjá Hammarby IF og Stoke City, og hlaut 36 landsleiki með Íslandsliðinu. Eftir íþróttaferilinn lauk hann MBA-námi og starfar nú sem rekstrarstjóri.',
+        bio: 'Pétur Hafliði Marteinsson er fæddur 14. júlí 1973 og ólst upp í Breiðholti í Reykjavík. Hann er fyrrverandi atvinnufótboltamaður sem spilaði meðal annars hjá Hammarby IF og Stoke City, og spilaði 36 leiki með landsliðinu. Eftir íþróttaferilinn lauk hann MBA-námi og starfar nú sem rekstrarstjóri.',
         heimild: [{ url: 'https://en.wikipedia.org/wiki/P%C3%A9tur_Marteinsson', label: 'Wikipedia' }, { url: 'https://www.transfermarkt.co.uk/petur-haflidi-marteinsson/profil/spieler/9884', label: 'Transfermarkt' }],
         interests: ['Leikskólamál og fjölgun plássa', 'Minni skrifræði og auðveldari uppsetning fyrirtækja', 'Samfélagsleg jafnrétti', 'Samgöngur og húsnæðismál'],
         social: [
