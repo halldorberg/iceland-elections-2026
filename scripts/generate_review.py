@@ -560,15 +560,23 @@ def main():
   .rescue-block.is-approved { border-color: var(--green); background: rgba(63,185,80,.07); }
   .rescue-block.applied { opacity: 0.65; }
   .applied-tag { background: rgba(63,185,80,.18); color: var(--green); border: 1px solid var(--green); border-radius: 10px; padding: 2px 8px; font-size: 10px; font-weight: 700; letter-spacing: .05em; margin-left: 8px; }
-  /* Floating approval counter */
-  #approve-counter { position: fixed; top: 20px; right: 20px; z-index: 9999; background: var(--surface); border: 1px solid var(--green); border-radius: 10px; padding: 10px 16px; font-size: 13px; color: var(--text); cursor: pointer; box-shadow: 0 4px 12px rgba(0,0,0,.4); transition: transform .15s; }
+  /* Floating approval toolbar (counter + quick actions) */
+  #approve-toolbar { position: fixed !important; top: 20px; right: 20px; z-index: 9999; display: flex; gap: 8px; align-items: center; pointer-events: auto; }
+  #approve-counter { background: var(--surface); border: 1px solid var(--green); border-radius: 10px; padding: 10px 16px; font-size: 13px; color: var(--text); cursor: pointer; box-shadow: 0 4px 12px rgba(0,0,0,.4); transition: transform .15s; }
   #approve-counter:hover { transform: translateY(-1px); border-color: var(--green); }
   #approve-counter strong { color: var(--green); font-size: 16px; margin-right: 4px; }
-  #approve-panel { position: fixed; top: 70px; right: 20px; z-index: 9999; background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 16px; width: 380px; max-height: 70vh; overflow-y: auto; display: none; box-shadow: 0 8px 24px rgba(0,0,0,.5); }
-  /* Mobile: move counter to bottom-right (above virtual keyboard, easier thumb reach, away from browser chrome) */
+  .approve-icon-btn { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; width: 40px; height: 40px; display: inline-flex; align-items: center; justify-content: center; cursor: pointer; color: var(--text); font-size: 16px; box-shadow: 0 4px 12px rgba(0,0,0,.4); transition: transform .15s, border-color .15s; padding: 0; }
+  .approve-icon-btn:hover { transform: translateY(-1px); border-color: var(--accent); }
+  .approve-icon-btn.is-on { border-color: var(--green); color: var(--green); background: rgba(63,185,80,.10); }
+  .approve-icon-btn .label { display: none; }
+  body.hide-approved .card.is-approved { display: none; }
+  #approve-panel { position: fixed; top: 72px; right: 20px; z-index: 9999; background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 16px; width: 380px; max-height: 70vh; overflow-y: auto; display: none; box-shadow: 0 8px 24px rgba(0,0,0,.5); }
+  /* Mobile: move toolbar to bottom-right (above virtual keyboard, easier thumb reach, away from browser chrome) */
   @media (max-width: 768px) {
-    #approve-counter { top: auto; bottom: 16px; right: 12px; padding: 12px 18px; font-size: 14px; border-radius: 24px; box-shadow: 0 6px 16px rgba(0,0,0,.6); }
+    #approve-toolbar { top: auto; bottom: 16px; right: 12px; }
+    #approve-counter { padding: 12px 18px; font-size: 14px; border-radius: 24px; box-shadow: 0 6px 16px rgba(0,0,0,.6); }
     #approve-counter strong { font-size: 18px; }
+    .approve-icon-btn { width: 44px; height: 44px; border-radius: 22px; box-shadow: 0 6px 16px rgba(0,0,0,.6); }
     #approve-panel { top: auto; bottom: 76px; right: 12px; left: 12px; width: auto; max-height: 60vh; }
   }
   #approve-panel.open { display: block; }
@@ -730,10 +738,38 @@ function clearApprovals() {
 function togglePanel() {
   document.getElementById('approve-panel').classList.toggle('open');
 }
+
+// Hide-approved toggle — persisted in localStorage so the page state
+// survives reloads.
+const HIDE_APPROVED_KEY = 'scan-review:hide-approved';
+function applyHideApproved(on) {
+  document.body.classList.toggle('hide-approved', on);
+  const btn = document.getElementById('hide-approved-btn');
+  if (btn) btn.classList.toggle('is-on', on);
+}
+function toggleHideApproved() {
+  const on = !document.body.classList.contains('hide-approved');
+  localStorage.setItem(HIDE_APPROVED_KEY, on ? '1' : '0');
+  applyHideApproved(on);
+  showToast(on ? 'Hiding approved' : 'Showing all');
+}
+
+// Jump to the next pending bio (first card without is-approved/is-applied
+// that is below the current scroll position; wraps to the top if none below).
+function jumpToFirstUnapproved() {
+  const cards = Array.from(document.querySelectorAll('.card[data-cid]'));
+  const pending = cards.filter(c => !c.classList.contains('is-approved') && !c.classList.contains('is-applied'));
+  if (!pending.length) { showToast('No pending bios'); return; }
+  const y = window.scrollY + 80;
+  const next = pending.find(c => c.getBoundingClientRect().top + window.scrollY > y) || pending[0];
+  next.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
 document.addEventListener('change', onApproveChange);
 window.addEventListener('load', () => {
   clearAppliedFromStorage();
   applyStateToCheckboxes();
+  applyHideApproved(localStorage.getItem(HIDE_APPROVED_KEY) === '1');
   refreshCounter();
 });
 """
@@ -767,7 +803,17 @@ window.addEventListener('load', () => {
   </div>
 </div>
 
-<div id="approve-counter" onclick="togglePanel()"><strong>0</strong> approved</div>
+<div id="approve-toolbar">
+  <button class="approve-icon-btn" id="hide-approved-btn"
+          onclick="toggleHideApproved()"
+          title="Hide approved bios"
+          aria-label="Hide approved bios">\U0001f441️</button>
+  <button class="approve-icon-btn" id="jump-unapproved-btn"
+          onclick="jumpToFirstUnapproved()"
+          title="Jump to first unapproved bio"
+          aria-label="Jump to first unapproved bio">↑</button>
+  <div id="approve-counter" onclick="togglePanel()"><strong>0</strong> approved</div>
+</div>
 <div id="approve-panel">
   <h3>Approval actions</h3>
   <div id="approve-breakdown" style="font-size:11px;margin-bottom:10px"></div>
