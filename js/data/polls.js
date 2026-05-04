@@ -48,6 +48,35 @@ export const POLLS = {
     },
   },
 
+  // Akureyri · 11 seats
+  // Source: Maskína fyrir DV, 17.–24. apríl 2026, n=629
+  // https://www.dv.is/frettir/2026/4/26/ny-konnun-akureyri-samfylkingin-storsiglingu-en-oljost-hverjir-geta-myndad-meirihluta/
+  // (Vísir summary: https://www.visir.is/g/20262874388d/samfylkingin-staerst-a-akureyri)
+  // Seat distribution per article: S 3 · D 2 · L 2 · B 1 · C 1 · M 1 · V 1 (D'Hondt-verified).
+  // Akureyrarlistinn (AL) measures at 6 % and would not get a seat.
+  akureyri: {
+    totalSeats: 11,
+    source: {
+      pollster:    'Maskína',
+      pollsterGen: 'Maskínu',
+      period:      '17.–24. apríl 2026',
+      period_en:   'April 17–24, 2026',
+      period_pl:   '17–24 kwietnia 2026',
+      sample:      629,
+      url:         'https://www.dv.is/frettir/2026/4/26/ny-konnun-akureyri-samfylkingin-storsiglingu-en-oljost-hverjir-geta-myndad-meirihluta/',
+    },
+    parties: {
+      S:  { pct: 18.4, seats: 3 },
+      L:  { pct: 17.2, seats: 2 },
+      D:  { pct: 16.7, seats: 2 },
+      B:  { pct: 11.5, seats: 1 },
+      V:  { pct: 11.5, seats: 1 },
+      M:  { pct: 10.6, seats: 1 },
+      C:  { pct:  8.1, seats: 1 },
+      AL: { pct:  6.0, seats: 0 },
+    },
+  },
+
   // Kópavogur · 11 seats
   // Source: Maskína fyrir DV, apríl 2026 (article 25. apríl 2026; chart label
   // says only "Könnun apríl 2026" and the article does not state sample size).
