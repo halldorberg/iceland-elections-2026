@@ -66,6 +66,90 @@
   letter-spacing: 0.08em;
 }
 
+/* Per-muni floating notice (Múlaþing heimastjórn explainer etc.).
+   Fixed in the lower-right so it never blocks the ribbon header or
+   any candidate card; small enough to be ignored if not relevant. */
+.muni-notice {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 850;  /* below the share-toast (200) and modal-overlay, above ribbons */
+  width: 320px;
+  max-width: calc(100vw - 32px);
+  background: rgba(15, 25, 45, 0.96);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 12px;
+  padding: 12px 14px 12px 12px;
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
+  color: rgba(255, 255, 255, 0.92);
+  pointer-events: auto;
+  font-size: 0.78rem;
+  line-height: 1.5;
+}
+.muni-notice[hidden] { display: none; }
+
+.muni-notice-icon {
+  font-size: 1.1rem;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+.muni-notice-body {
+  flex: 1;
+  min-width: 0;
+}
+.muni-notice-title {
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: #fff;
+  margin-bottom: 4px;
+  letter-spacing: 0.01em;
+}
+.muni-notice-text {
+  color: rgba(255, 255, 255, 0.78);
+}
+.muni-notice-text a {
+  color: #7cc4ff;
+  text-decoration: underline;
+  text-decoration-color: rgba(124, 196, 255, 0.5);
+}
+.muni-notice-text a:hover {
+  color: #b8def9;
+}
+.muni-notice-close {
+  position: absolute;
+  top: 6px;
+  right: 8px;
+  background: transparent;
+  border: 0;
+  color: rgba(255, 255, 255, 0.55);
+  font-size: 18px;
+  line-height: 1;
+  cursor: pointer;
+  padding: 4px 6px;
+  border-radius: 4px;
+}
+.muni-notice-close:hover {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+/* On mobile pin to bottom-left/right with safer margins; the disclaimer
+   already lives bottom-left so we anchor this one bottom-right. */
+@media (max-width: 768px) {
+  .muni-notice {
+    bottom: 12px;
+    right: 12px;
+    left: 12px;
+    width: auto;
+    max-width: none;
+  }
+}
+
 .muni-nav-right {
   display: flex;
   flex-direction: row;

@@ -75,7 +75,7 @@
 
   <!-- App styles -->
   <link rel="stylesheet" href="/css/variables.css?v=3" />
-  <link rel="stylesheet" href="/css/municipality.css?v=29" />
+  <link rel="stylesheet" href="/css/municipality.css?v=30" />
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Strona główna","item":"https://lydraedisveislan.is/pl/"},{"@type":"ListItem","position":2,"name":"Akureyri","item":"https://lydraedisveislan.is/pl/akureyri/"},{"@type":"ListItem","position":3,"name":"Framsóknarflokkurinn","item":"https://lydraedisveislan.is/pl/akureyri/framsoknarflokkurinn/"},{"@type":"ListItem","position":4,"name":"Sunna Hlín Jóhannesdóttir","item":"https://lydraedisveislan.is/pl/akureyri/framsoknarflokkurinn/sunna-hlin-johannesdottir/"}]}</script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Sunna Hlín Jóhannesdóttir","jobTitle":"Bæjarfulltrúi og framhaldsskólakennari","affiliation":{"@type":"Organization","name":"Framsóknarflokkurinn — Akureyri","url":"https://lydraedisveislan.is/pl/akureyri/framsoknarflokkurinn/"},"homeLocation":{"@type":"Place","name":"Akureyri"},"image":"https://lydraedisveislan.is/images/candidates/9f43aec9ba252313.jpg","description":"Sunna Hlín Jóhannesdóttir er framhaldsskólakennari og bæjarfulltrúi á Akureyri. Hún hefur kennt í viðskipta- og hagfræðibraut Verkmenntaskóla Akureyrar í 14…"}</script>
 </head>
@@ -108,6 +108,18 @@
       </button>
     </div>
   </nav>
+
+  <!-- Per-muni floating notice (currently only Múlaþing). Shown by JS
+       when muniId matches; hidden + position:fixed so it never blocks
+       the underlying content. -->
+  <aside id="muni-notice" class="muni-notice" hidden>
+    <button class="muni-notice-close" id="muni-notice-close" aria-label="Loka">×</button>
+    <div class="muni-notice-icon">ℹ️</div>
+    <div class="muni-notice-body">
+      <div class="muni-notice-title" id="muni-notice-title"></div>
+      <div class="muni-notice-text" id="muni-notice-text"></div>
+    </div>
+  </aside>
 
   <!-- Random party tooltip (fades in then out) -->
   <div class="random-tooltip" id="random-tooltip">
@@ -214,7 +226,7 @@
   </div>
 
   <!-- App -->
-  <script type="module" src="/js/municipality.js?v=51"></script>
+  <script type="module" src="/js/municipality.js?v=52"></script>
   <script type="module" src="/js/outreach.js?v=1"></script>
   <script>
     (function () {

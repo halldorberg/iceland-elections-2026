@@ -75,7 +75,7 @@
 
   <!-- App styles -->
   <link rel="stylesheet" href="/css/variables.css?v=3" />
-  <link rel="stylesheet" href="/css/municipality.css?v=29" />
+  <link rel="stylesheet" href="/css/municipality.css?v=30" />
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://lydraedisveislan.is/en/"},{"@type":"ListItem","position":2,"name":"Sveitarfélagið Hornafjörður","item":"https://lydraedisveislan.is/en/hornafjordur/"},{"@type":"ListItem","position":3,"name":"Framsóknarflokkurinn","item":"https://lydraedisveislan.is/en/hornafjordur/framsoknarflokkurinn/"},{"@type":"ListItem","position":4,"name":"Hjalti Þór Vignisson","item":"https://lydraedisveislan.is/en/hornafjordur/framsoknarflokkurinn/hjalti-thor-vignisson/"}]}</script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Hjalti Þór Vignisson","jobTitle":"Framkvæmdastjóri hjá Stormar hf","affiliation":{"@type":"Organization","name":"Framsóknarflokkurinn — Sveitarfélagið Hornafjörður","url":"https://lydraedisveislan.is/en/hornafjordur/framsoknarflokkurinn/"},"homeLocation":{"@type":"Place","name":"Sveitarfélagið Hornafjörður"},"image":"https://lydraedisveislan.is/images/candidates/9b5359f2c229c411.webp","description":"Hjalti Þór Vignisson er fæddur 24. janúar 1978 á Hornafirði og er framkvæmdastjóri hjá Stormar — The Wild Taste of Iceland, fisksölufélag sem sérhæfir sig í…"}</script>
 </head>
@@ -108,6 +108,18 @@
       </button>
     </div>
   </nav>
+
+  <!-- Per-muni floating notice (currently only Múlaþing). Shown by JS
+       when muniId matches; hidden + position:fixed so it never blocks
+       the underlying content. -->
+  <aside id="muni-notice" class="muni-notice" hidden>
+    <button class="muni-notice-close" id="muni-notice-close" aria-label="Loka">×</button>
+    <div class="muni-notice-icon">ℹ️</div>
+    <div class="muni-notice-body">
+      <div class="muni-notice-title" id="muni-notice-title"></div>
+      <div class="muni-notice-text" id="muni-notice-text"></div>
+    </div>
+  </aside>
 
   <!-- Random party tooltip (fades in then out) -->
   <div class="random-tooltip" id="random-tooltip">
@@ -214,7 +226,7 @@
   </div>
 
   <!-- App -->
-  <script type="module" src="/js/municipality.js?v=51"></script>
+  <script type="module" src="/js/municipality.js?v=52"></script>
   <script type="module" src="/js/outreach.js?v=1"></script>
   <script>
     (function () {

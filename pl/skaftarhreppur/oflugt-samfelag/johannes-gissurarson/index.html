@@ -75,7 +75,7 @@
 
   <!-- App styles -->
   <link rel="stylesheet" href="/css/variables.css?v=3" />
-  <link rel="stylesheet" href="/css/municipality.css?v=29" />
+  <link rel="stylesheet" href="/css/municipality.css?v=30" />
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Strona główna","item":"https://lydraedisveislan.is/pl/"},{"@type":"ListItem","position":2,"name":"Skaftárhreppur","item":"https://lydraedisveislan.is/pl/skaftarhreppur/"},{"@type":"ListItem","position":3,"name":"SKO-listinn","item":"https://lydraedisveislan.is/pl/skaftarhreppur/oflugt-samfelag/"},{"@type":"ListItem","position":4,"name":"Jóhannes Gissurarson","item":"https://lydraedisveislan.is/pl/skaftarhreppur/oflugt-samfelag/johannes-gissurarson/"}]}</script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Jóhannes Gissurarson","jobTitle":"Bóndi","affiliation":{"@type":"Organization","name":"SKO-listinn — Skaftárhreppur","url":"https://lydraedisveislan.is/pl/skaftarhreppur/oflugt-samfelag/"},"homeLocation":{"@type":"Place","name":"Skaftárhreppur"},"description":"Jóhannes Gissurarson er bóndi á Herjólfsstöðum í Álftaveri og oddviti Skaftárhrepps. Hann hefur verið áberandi í umræðum um almannavarnir, rýmingaráætlanir…"}</script>
 </head>
@@ -108,6 +108,18 @@
       </button>
     </div>
   </nav>
+
+  <!-- Per-muni floating notice (currently only Múlaþing). Shown by JS
+       when muniId matches; hidden + position:fixed so it never blocks
+       the underlying content. -->
+  <aside id="muni-notice" class="muni-notice" hidden>
+    <button class="muni-notice-close" id="muni-notice-close" aria-label="Loka">×</button>
+    <div class="muni-notice-icon">ℹ️</div>
+    <div class="muni-notice-body">
+      <div class="muni-notice-title" id="muni-notice-title"></div>
+      <div class="muni-notice-text" id="muni-notice-text"></div>
+    </div>
+  </aside>
 
   <!-- Random party tooltip (fades in then out) -->
   <div class="random-tooltip" id="random-tooltip">
@@ -214,7 +226,7 @@
   </div>
 
   <!-- App -->
-  <script type="module" src="/js/municipality.js?v=51"></script>
+  <script type="module" src="/js/municipality.js?v=52"></script>
   <script type="module" src="/js/outreach.js?v=1"></script>
   <script>
     (function () {

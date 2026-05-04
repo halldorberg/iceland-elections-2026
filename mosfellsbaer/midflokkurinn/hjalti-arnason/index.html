@@ -75,7 +75,7 @@
 
   <!-- App styles -->
   <link rel="stylesheet" href="/css/variables.css?v=3" />
-  <link rel="stylesheet" href="/css/municipality.css?v=29" />
+  <link rel="stylesheet" href="/css/municipality.css?v=30" />
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Heim","item":"https://lydraedisveislan.is/"},{"@type":"ListItem","position":2,"name":"Mosfellsbær","item":"https://lydraedisveislan.is/mosfellsbaer/"},{"@type":"ListItem","position":3,"name":"Miðflokkurinn","item":"https://lydraedisveislan.is/mosfellsbaer/midflokkurinn/"},{"@type":"ListItem","position":4,"name":"Hjalti Árnason","item":"https://lydraedisveislan.is/mosfellsbaer/midflokkurinn/hjalti-arnason/"}]}</script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Hjalti Árnason","jobTitle":"Frambjóðandi","affiliation":{"@type":"Organization","name":"Miðflokkurinn — Mosfellsbær","url":"https://lydraedisveislan.is/mosfellsbaer/midflokkurinn/"},"homeLocation":{"@type":"Place","name":"Mosfellsbær"},"image":"https://lydraedisveislan.is/images/candidates/1814046c4f798104.jpg","description":"Hjalti Árnason, þekktur sem Hjalti Úrsus, er fyrrverandi aflraunamaður og líkamsræktarfrömuður. Hann rak Eldingamar, líkamsrækt- og aflraunamiðstöð við…"}</script>
 </head>
@@ -108,6 +108,18 @@
       </button>
     </div>
   </nav>
+
+  <!-- Per-muni floating notice (currently only Múlaþing). Shown by JS
+       when muniId matches; hidden + position:fixed so it never blocks
+       the underlying content. -->
+  <aside id="muni-notice" class="muni-notice" hidden>
+    <button class="muni-notice-close" id="muni-notice-close" aria-label="Loka">×</button>
+    <div class="muni-notice-icon">ℹ️</div>
+    <div class="muni-notice-body">
+      <div class="muni-notice-title" id="muni-notice-title"></div>
+      <div class="muni-notice-text" id="muni-notice-text"></div>
+    </div>
+  </aside>
 
   <!-- Random party tooltip (fades in then out) -->
   <div class="random-tooltip" id="random-tooltip">
@@ -214,7 +226,7 @@
   </div>
 
   <!-- App -->
-  <script type="module" src="/js/municipality.js?v=51"></script>
+  <script type="module" src="/js/municipality.js?v=52"></script>
   <script type="module" src="/js/outreach.js?v=1"></script>
   <script>
     (function () {

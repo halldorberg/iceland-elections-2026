@@ -75,7 +75,7 @@
 
   <!-- App styles -->
   <link rel="stylesheet" href="/css/variables.css?v=3" />
-  <link rel="stylesheet" href="/css/municipality.css?v=29" />
+  <link rel="stylesheet" href="/css/municipality.css?v=30" />
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Heim","item":"https://lydraedisveislan.is/"},{"@type":"ListItem","position":2,"name":"Reykjanesbær","item":"https://lydraedisveislan.is/reykjanesbaer/"},{"@type":"ListItem","position":3,"name":"Framsóknarflokkurinn","item":"https://lydraedisveislan.is/reykjanesbaer/framsoknarflokkurinn/"},{"@type":"ListItem","position":4,"name":"Díana Hilmarsdóttir","item":"https://lydraedisveislan.is/reykjanesbaer/framsoknarflokkurinn/diana-hilmarsdottir/"}]}</script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Díana Hilmarsdóttir","jobTitle":"Bæjarfulltrúi og forstöðumaður Bjargarinnar","affiliation":{"@type":"Organization","name":"Framsóknarflokkurinn — Reykjanesbær","url":"https://lydraedisveislan.is/reykjanesbaer/framsoknarflokkurinn/"},"homeLocation":{"@type":"Place","name":"Reykjanesbær"},"image":"https://lydraedisveislan.is/images/candidates/833529aeb7a4b36f.jpg","description":"Díana Hilmarsdóttir er forstöðukona Bjargarinnar, geðræktarmiðstöðvar Suðurnesja í Reykjanesbæ. Hún er með BA-gráðu í félagsráðgjöf frá Háskóla Íslands og…"}</script>
 </head>
@@ -108,6 +108,18 @@
       </button>
     </div>
   </nav>
+
+  <!-- Per-muni floating notice (currently only Múlaþing). Shown by JS
+       when muniId matches; hidden + position:fixed so it never blocks
+       the underlying content. -->
+  <aside id="muni-notice" class="muni-notice" hidden>
+    <button class="muni-notice-close" id="muni-notice-close" aria-label="Loka">×</button>
+    <div class="muni-notice-icon">ℹ️</div>
+    <div class="muni-notice-body">
+      <div class="muni-notice-title" id="muni-notice-title"></div>
+      <div class="muni-notice-text" id="muni-notice-text"></div>
+    </div>
+  </aside>
 
   <!-- Random party tooltip (fades in then out) -->
   <div class="random-tooltip" id="random-tooltip">
@@ -214,7 +226,7 @@
   </div>
 
   <!-- App -->
-  <script type="module" src="/js/municipality.js?v=51"></script>
+  <script type="module" src="/js/municipality.js?v=52"></script>
   <script type="module" src="/js/outreach.js?v=1"></script>
   <script>
     (function () {

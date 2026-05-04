@@ -75,7 +75,7 @@
 
   <!-- App styles -->
   <link rel="stylesheet" href="/css/variables.css?v=3" />
-  <link rel="stylesheet" href="/css/municipality.css?v=29" />
+  <link rel="stylesheet" href="/css/municipality.css?v=30" />
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Heim","item":"https://lydraedisveislan.is/"},{"@type":"ListItem","position":2,"name":"Reykjavík","item":"https://lydraedisveislan.is/reykjavik/"}]}</script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"Place","name":"Reykjavík","geo":{"@type":"GeoCoordinates","latitude":64.1265,"longitude":-21.8174},"containedInPlace":{"@type":"Country","name":"Ísland"},"additionalProperty":{"@type":"PropertyValue","name":"Íbúafjöldi","value":139804}}</script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"Event","name":"Sveitarstjórnarkosningar 2026 — Reykjavík","startDate":"2026-05-16","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode","location":{"@type":"Place","name":"Reykjavík","address":{"@type":"PostalAddress","addressLocality":"Reykjavík","addressCountry":"IS"}},"organizer":{"@type":"GovernmentOrganization","name":"Landskjörstjórn","url":"https://island.is/v/sveitarstjornarkosningar-2026"}}</script>
@@ -109,6 +109,18 @@
       </button>
     </div>
   </nav>
+
+  <!-- Per-muni floating notice (currently only Múlaþing). Shown by JS
+       when muniId matches; hidden + position:fixed so it never blocks
+       the underlying content. -->
+  <aside id="muni-notice" class="muni-notice" hidden>
+    <button class="muni-notice-close" id="muni-notice-close" aria-label="Loka">×</button>
+    <div class="muni-notice-icon">ℹ️</div>
+    <div class="muni-notice-body">
+      <div class="muni-notice-title" id="muni-notice-title"></div>
+      <div class="muni-notice-text" id="muni-notice-text"></div>
+    </div>
+  </aside>
 
   <!-- Random party tooltip (fades in then out) -->
   <div class="random-tooltip" id="random-tooltip">
@@ -215,7 +227,7 @@
   </div>
 
   <!-- App -->
-  <script type="module" src="/js/municipality.js?v=51"></script>
+  <script type="module" src="/js/municipality.js?v=52"></script>
   <script type="module" src="/js/outreach.js?v=1"></script>
   <script>
     (function () {

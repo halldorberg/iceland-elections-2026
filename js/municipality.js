@@ -4,7 +4,7 @@ import { getMunicipalityPartyData } from './data/candidates.js?v=64';
 import { RESULTS_2022 } from './data/results2022.js?v=2';
 import { POLLS }        from './data/polls.js?v=1';
 import { EYE_POSITIONS } from './data/eye_positions.js?v=1';
-import { getLang, t, renderLangSwitcher } from './i18n.js?v=4';
+import { getLang, t, renderLangSwitcher } from './i18n.js?v=5';
 import { partySlug, partyCodeFromSlug, slugify } from './data/party_slugs.js?v=2';
 
 // ─── i18n ──────────────────────────────────────────────────
@@ -49,6 +49,35 @@ renderLangSwitcher(document.getElementById('lang-switcher'));
   setHTML('disclaimer-body-text', ui.disclaimerText);
   const noInfoEl = document.getElementById('modal-no-info');
   if (noInfoEl) noInfoEl.innerHTML = `<span class="no-info-icon">ℹ️</span> ${ui.noInfo}`;
+})();
+
+// ─── Per-muni floating notice ──────────────────────────────
+// Shown only when the page is for a muni that has a notice defined.
+// Dismissal is persisted per-muni in localStorage so the notice stays
+// gone after the user has read + closed it.
+(function applyMuniNotice() {
+  const route = (typeof window !== 'undefined' && window.location.pathname.match(/^\/(?:en|pl)\/([^/]+)/)) || null;
+  // The muniId variable is set later in the file — re-derive from URL here so
+  // the notice can show before the rest of the page renders.
+  const segs = window.location.pathname.replace(/^\/(?:en|pl)\//, '/').replace(/^\/+/, '').split('/');
+  const id = segs[0] || (new URLSearchParams(window.location.search).get('id')) || '';
+
+  const NOTICES = {
+    mulathing: { titleKey: 'mulathingNoticeTitle', textKey: 'mulathingNoticeText' },
+  };
+  const notice = NOTICES[id];
+  if (!notice) return;
+  if (localStorage.getItem('muni-notice-dismissed:' + id) === '1') return;
+
+  const el = document.getElementById('muni-notice');
+  if (!el) return;
+  document.getElementById('muni-notice-title').textContent = ui[notice.titleKey] || '';
+  document.getElementById('muni-notice-text').innerHTML  = ui[notice.textKey] || '';
+  el.hidden = false;
+  document.getElementById('muni-notice-close').addEventListener('click', () => {
+    localStorage.setItem('muni-notice-dismissed:' + id, '1');
+    el.hidden = true;
+  });
 })();
 
 // ─── Local avatar generator ────────────────────────────────

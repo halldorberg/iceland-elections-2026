@@ -75,7 +75,7 @@
 
   <!-- App styles -->
   <link rel="stylesheet" href="/css/variables.css?v=3" />
-  <link rel="stylesheet" href="/css/municipality.css?v=29" />
+  <link rel="stylesheet" href="/css/municipality.css?v=30" />
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Strona główna","item":"https://lydraedisveislan.is/pl/"},{"@type":"ListItem","position":2,"name":"Hrunamannahreppur","item":"https://lydraedisveislan.is/pl/hrunamannahreppur/"},{"@type":"ListItem","position":3,"name":"Sjálfstæðisflokkurinn","item":"https://lydraedisveislan.is/pl/hrunamannahreppur/sjalfstaedisflokkurinn/"},{"@type":"ListItem","position":4,"name":"Bjarney Vignisdóttir","item":"https://lydraedisveislan.is/pl/hrunamannahreppur/sjalfstaedisflokkurinn/bjarney-vignisdottir/"}]}</script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Bjarney Vignisdóttir","jobTitle":"Hjúkrunarfræðingur","affiliation":{"@type":"Organization","name":"Sjálfstæðisflokkurinn — Hrunamannahreppur","url":"https://lydraedisveislan.is/pl/hrunamannahreppur/sjalfstaedisflokkurinn/"},"homeLocation":{"@type":"Place","name":"Hrunamannahreppur"},"image":"https://lydraedisveislan.is/images/candidates/f356f1af7ed2fac4.jpg","description":"Bjarney Vignisdóttir er hjúkrunarfræðingur að Auðsholti 6 í Hrunamannahreppi og situr sem sveitarstjórnarfulltrúi á lista Sjálfstæðisflokksins. Hún á sæti í…"}</script>
 </head>
@@ -108,6 +108,18 @@
       </button>
     </div>
   </nav>
+
+  <!-- Per-muni floating notice (currently only Múlaþing). Shown by JS
+       when muniId matches; hidden + position:fixed so it never blocks
+       the underlying content. -->
+  <aside id="muni-notice" class="muni-notice" hidden>
+    <button class="muni-notice-close" id="muni-notice-close" aria-label="Loka">×</button>
+    <div class="muni-notice-icon">ℹ️</div>
+    <div class="muni-notice-body">
+      <div class="muni-notice-title" id="muni-notice-title"></div>
+      <div class="muni-notice-text" id="muni-notice-text"></div>
+    </div>
+  </aside>
 
   <!-- Random party tooltip (fades in then out) -->
   <div class="random-tooltip" id="random-tooltip">
@@ -214,7 +226,7 @@
   </div>
 
   <!-- App -->
-  <script type="module" src="/js/municipality.js?v=51"></script>
+  <script type="module" src="/js/municipality.js?v=52"></script>
   <script type="module" src="/js/outreach.js?v=1"></script>
   <script>
     (function () {

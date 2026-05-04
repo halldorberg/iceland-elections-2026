@@ -75,7 +75,7 @@
 
   <!-- App styles -->
   <link rel="stylesheet" href="/css/variables.css?v=3" />
-  <link rel="stylesheet" href="/css/municipality.css?v=29" />
+  <link rel="stylesheet" href="/css/municipality.css?v=30" />
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://lydraedisveislan.is/en/"},{"@type":"ListItem","position":2,"name":"Múlaþing","item":"https://lydraedisveislan.is/en/mulathing/"},{"@type":"ListItem","position":3,"name":"Vinstri Græn","item":"https://lydraedisveislan.is/en/mulathing/vinstri-graen/"},{"@type":"ListItem","position":4,"name":"Jón Kristófer Arnarson","item":"https://lydraedisveislan.is/en/mulathing/vinstri-graen/jon-kristofer-arnarson/"}]}</script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Jón Kristófer Arnarson","jobTitle":"Garðyrkjustjóri","affiliation":{"@type":"Organization","name":"Vinstri Græn — Múlaþing","url":"https://lydraedisveislan.is/en/mulathing/vinstri-graen/"},"homeLocation":{"@type":"Place","name":"Múlaþing"}}</script>
 </head>
@@ -108,6 +108,18 @@
       </button>
     </div>
   </nav>
+
+  <!-- Per-muni floating notice (currently only Múlaþing). Shown by JS
+       when muniId matches; hidden + position:fixed so it never blocks
+       the underlying content. -->
+  <aside id="muni-notice" class="muni-notice" hidden>
+    <button class="muni-notice-close" id="muni-notice-close" aria-label="Loka">×</button>
+    <div class="muni-notice-icon">ℹ️</div>
+    <div class="muni-notice-body">
+      <div class="muni-notice-title" id="muni-notice-title"></div>
+      <div class="muni-notice-text" id="muni-notice-text"></div>
+    </div>
+  </aside>
 
   <!-- Random party tooltip (fades in then out) -->
   <div class="random-tooltip" id="random-tooltip">
@@ -214,7 +226,7 @@
   </div>
 
   <!-- App -->
-  <script type="module" src="/js/municipality.js?v=51"></script>
+  <script type="module" src="/js/municipality.js?v=52"></script>
   <script type="module" src="/js/outreach.js?v=1"></script>
   <script>
     (function () {

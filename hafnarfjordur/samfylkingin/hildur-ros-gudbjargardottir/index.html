@@ -75,7 +75,7 @@
 
   <!-- App styles -->
   <link rel="stylesheet" href="/css/variables.css?v=3" />
-  <link rel="stylesheet" href="/css/municipality.css?v=29" />
+  <link rel="stylesheet" href="/css/municipality.css?v=30" />
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Heim","item":"https://lydraedisveislan.is/"},{"@type":"ListItem","position":2,"name":"Hafnarfjörður","item":"https://lydraedisveislan.is/hafnarfjordur/"},{"@type":"ListItem","position":3,"name":"Samfylkingin","item":"https://lydraedisveislan.is/hafnarfjordur/samfylkingin/"},{"@type":"ListItem","position":4,"name":"Hildur Rós Guðbjargardóttir","item":"https://lydraedisveislan.is/hafnarfjordur/samfylkingin/hildur-ros-gudbjargardottir/"}]}</script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Hildur Rós Guðbjargardóttir","jobTitle":"Bæjarfulltrúi","affiliation":{"@type":"Organization","name":"Samfylkingin — Hafnarfjörður","url":"https://lydraedisveislan.is/hafnarfjordur/samfylkingin/"},"homeLocation":{"@type":"Place","name":"Hafnarfjörður"},"image":"https://lydraedisveislan.is/images/candidates/9fe7efcfacad532a.jpg","description":"Hildur Rós Guðbjargardóttir er bæjarfulltrúi Samfylkingarinnar í Hafnarfirði og starfar á hjúkrunarheimili samhliða námi til að verða grunnskólakennari. Hún…"}</script>
 </head>
@@ -108,6 +108,18 @@
       </button>
     </div>
   </nav>
+
+  <!-- Per-muni floating notice (currently only Múlaþing). Shown by JS
+       when muniId matches; hidden + position:fixed so it never blocks
+       the underlying content. -->
+  <aside id="muni-notice" class="muni-notice" hidden>
+    <button class="muni-notice-close" id="muni-notice-close" aria-label="Loka">×</button>
+    <div class="muni-notice-icon">ℹ️</div>
+    <div class="muni-notice-body">
+      <div class="muni-notice-title" id="muni-notice-title"></div>
+      <div class="muni-notice-text" id="muni-notice-text"></div>
+    </div>
+  </aside>
 
   <!-- Random party tooltip (fades in then out) -->
   <div class="random-tooltip" id="random-tooltip">
@@ -214,7 +226,7 @@
   </div>
 
   <!-- App -->
-  <script type="module" src="/js/municipality.js?v=51"></script>
+  <script type="module" src="/js/municipality.js?v=52"></script>
   <script type="module" src="/js/outreach.js?v=1"></script>
   <script>
     (function () {

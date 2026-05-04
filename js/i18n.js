@@ -81,6 +81,10 @@ export const UI = {
     source:           'Heimild',
     noInfo:           'Nánari upplýsingar um þennan frambjóðanda eru ekki tiltækar ennþá.',
 
+    // Per-muni notices
+    mulathingNoticeTitle: 'Sérstaða Múlaþings: kosið til heimastjórna',
+    mulathingNoticeText:  'Samhliða sveitarstjórnarkosningunum 16. maí er einnig kosið til fjögurra heimastjórna — fastanefnda fyrir <em>Borgarfjörð</em>, <em>Djúpavog</em>, <em>Fljótsdalshérað</em> og <em>Seyðisfjörð</em> sem starfa í umboði sveitarstjórnar. Allir á kjörskrá á viðkomandi svæði eru sjálfkrafa kjörgengir og engir formlegir framboðslistar — kjósendur skrifa fullt nafn og heimilisfang á kjörseðilinn og þeir tveir sem fá flest atkvæði verða aðalmenn í þriggja manna heimastjórn (sveitarstjórn skipar þann þriðja).',
+
     // Disclaimer
     disclaimerTitle:  'Upplýsingar og fyrirvari',
     disclaimerText:   'Umsjónarmaður síðunnar er <a href="mailto:halldor.berg@inno.link" class="disclaimer-link">Halldór Berg Harðarson</a>.<br><br>Efnið er tekið saman með aðstoð gervigreindar úr opinberum heimildum á netinu. Við leggjum metnað okkar í að sannreyna hvert einasta atriði — hver staðhæfing er borin saman við frumheimildir og yfirfarin handvirkt af fólki — en mistök geta engu að síður leynst.<br><br>Bestu upplýsingarnar koma frá samfélaginu sjálfu, og allar ábendingar eru ekki bara vel þegnar heldur gegna lykilhlutverki við að halda upplýsingum réttum og lifandi. Ábendingar eru settar í beinan forgang.',
@@ -157,6 +161,9 @@ export const UI = {
     source:           'Source',
     noInfo:           'No further information about this candidate is available yet.',
 
+    mulathingNoticeTitle: "Múlaþing extra vote: heimastjórn district committees",
+    mulathingNoticeText:  'Alongside the May 16 municipal election, voters in each of the four historical sub-areas — <em>Borgarfjörður</em>, <em>Djúpavogur</em>, <em>Fljótsdalshérað</em> and <em>Seyðisfjörður</em> — also elect members to a three-seat <em>heimastjórn</em>, a local committee that handles planning, environment, culture, agriculture and other neighbourhood matters on behalf of the city council. Anyone on the local voter roll is automatically a candidate; voters write a name + address on the ballot and the two top vote-getters are elected (the city council appoints the third member).',
+
     disclaimerTitle:  'About this site & disclaimer',
     disclaimerText:   'The site is curated by <a href="mailto:halldor.berg@inno.link" class="disclaimer-link">Halldór Berg Harðarson</a>.<br><br>Content is compiled with the help of AI from publicly available online sources. We go to great lengths to verify every single item — each statement is cross-checked against primary sources and reviewed manually by a human — but mistakes can still slip through.<br><br>The best information comes from the community itself, and every tip is not just welcome but plays a key role in keeping the information accurate and alive. Tips are given top priority.',
 
@@ -230,6 +237,9 @@ export const UI = {
     news:             'Aktualności',
     source:           'Źródło',
     noInfo:           'Brak dodatkowych informacji o tym kandydacie.',
+
+    mulathingNoticeTitle: 'Múlaþing — dodatkowe wybory do heimastjórn',
+    mulathingNoticeText:  'Równolegle z wyborami samorządowymi 16 maja mieszkańcy każdego z czterech historycznych obszarów — <em>Borgarfjörður</em>, <em>Djúpavogur</em>, <em>Fljótsdalshérað</em> i <em>Seyðisfjörður</em> — wybierają również członków trzyosobowej <em>heimastjórn</em>, lokalnej komisji zajmującej się planowaniem, środowiskiem, kulturą, rolnictwem i innymi sprawami sąsiedztwa w imieniu rady miejskiej. Każda osoba z miejscowej listy wyborców jest automatycznie kandydatem; wyborcy wpisują imię i adres na karcie wyborczej, a dwie osoby z największą liczbą głosów zostają wybrane (trzeciego członka mianuje rada miejska).',
 
     disclaimerTitle:  'O stronie i zastrzeżenie',
     disclaimerText:   'Stroną opiekuje się <a href="mailto:halldor.berg@inno.link" class="disclaimer-link">Halldór Berg Harðarson</a>.<br><br>Treść jest zestawiana z pomocą sztucznej inteligencji ze źródeł publicznie dostępnych w internecie. Dokładamy wszelkich starań, aby zweryfikować każdy szczegół — każde stwierdzenie jest porównywane ze źródłami pierwotnymi i sprawdzane ręcznie przez człowieka — ale błędy nadal mogą się pojawić.<br><br>Najlepsze informacje pochodzą od samej społeczności, a każda uwaga nie tylko jest mile widziana, lecz odgrywa kluczową rolę w utrzymywaniu informacji aktualnymi i prawdziwymi. Uwagi są traktowane priorytetowo.',

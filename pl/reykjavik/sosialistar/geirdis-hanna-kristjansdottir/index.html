@@ -75,7 +75,7 @@
 
   <!-- App styles -->
   <link rel="stylesheet" href="/css/variables.css?v=3" />
-  <link rel="stylesheet" href="/css/municipality.css?v=29" />
+  <link rel="stylesheet" href="/css/municipality.css?v=30" />
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Strona główna","item":"https://lydraedisveislan.is/pl/"},{"@type":"ListItem","position":2,"name":"Reykjavík","item":"https://lydraedisveislan.is/pl/reykjavik/"},{"@type":"ListItem","position":3,"name":"Sósíalistar","item":"https://lydraedisveislan.is/pl/reykjavik/sosialistar/"},{"@type":"ListItem","position":4,"name":"Geirdís Hanna Kristjánsdóttir","item":"https://lydraedisveislan.is/pl/reykjavik/sosialistar/geirdis-hanna-kristjansdottir/"}]}</script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Geirdís Hanna Kristjánsdóttir","jobTitle":"Öryrki","affiliation":{"@type":"Organization","name":"Sósíalistar — Reykjavík","url":"https://lydraedisveislan.is/pl/reykjavik/sosialistar/"},"homeLocation":{"@type":"Place","name":"Reykjavík"},"image":"https://lydraedisveislan.is/images/candidates/045032493934ce45.jpg","description":"Geirdís Hanna Kristjánsdóttir er 51 árs öryrki og er á 4. sæti J-lista Sósíalistaflokksins í Reykjavík. Sem öryrki sjálf leggur hún áherslu á réttindi…"}</script>
 </head>
@@ -108,6 +108,18 @@
       </button>
     </div>
   </nav>
+
+  <!-- Per-muni floating notice (currently only Múlaþing). Shown by JS
+       when muniId matches; hidden + position:fixed so it never blocks
+       the underlying content. -->
+  <aside id="muni-notice" class="muni-notice" hidden>
+    <button class="muni-notice-close" id="muni-notice-close" aria-label="Loka">×</button>
+    <div class="muni-notice-icon">ℹ️</div>
+    <div class="muni-notice-body">
+      <div class="muni-notice-title" id="muni-notice-title"></div>
+      <div class="muni-notice-text" id="muni-notice-text"></div>
+    </div>
+  </aside>
 
   <!-- Random party tooltip (fades in then out) -->
   <div class="random-tooltip" id="random-tooltip">
@@ -214,7 +226,7 @@
   </div>
 
   <!-- App -->
-  <script type="module" src="/js/municipality.js?v=51"></script>
+  <script type="module" src="/js/municipality.js?v=52"></script>
   <script type="module" src="/js/outreach.js?v=1"></script>
   <script>
     (function () {

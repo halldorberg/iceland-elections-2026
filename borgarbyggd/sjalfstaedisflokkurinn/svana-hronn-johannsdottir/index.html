@@ -75,7 +75,7 @@
 
   <!-- App styles -->
   <link rel="stylesheet" href="/css/variables.css?v=3" />
-  <link rel="stylesheet" href="/css/municipality.css?v=29" />
+  <link rel="stylesheet" href="/css/municipality.css?v=30" />
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Heim","item":"https://lydraedisveislan.is/"},{"@type":"ListItem","position":2,"name":"Sameinað sveitarfélag Borgarbyggðar og Skorradalshrepps","item":"https://lydraedisveislan.is/borgarbyggd/"},{"@type":"ListItem","position":3,"name":"Sjálfstæðisflokkurinn","item":"https://lydraedisveislan.is/borgarbyggd/sjalfstaedisflokkurinn/"},{"@type":"ListItem","position":4,"name":"Svana Hrönn Jóhannsdóttir","item":"https://lydraedisveislan.is/borgarbyggd/sjalfstaedisflokkurinn/svana-hronn-johannsdottir/"}]}</script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Svana Hrönn Jóhannsdóttir","jobTitle":"Fjárhagsráðgjafi","affiliation":{"@type":"Organization","name":"Sjálfstæðisflokkurinn — Sameinað sveitarfélag Borgarbyggðar og Skorradalshrepps","url":"https://lydraedisveislan.is/borgarbyggd/sjalfstaedisflokkurinn/"},"homeLocation":{"@type":"Place","name":"Sameinað sveitarfélag Borgarbyggðar og Skorradalshrepps"},"image":"https://lydraedisveislan.is/images/candidates/498661f1db33b5dd.jpg","description":"Svana Hrönn Jóhannsdóttir er fjármálaráðgjafi; hún er á 5. sæti á framboðslista Sjálfstæðisflokksins í Borgarbyggð í sveitarstjórnarkosningum 2026."}</script>
 </head>
@@ -108,6 +108,18 @@
       </button>
     </div>
   </nav>
+
+  <!-- Per-muni floating notice (currently only Múlaþing). Shown by JS
+       when muniId matches; hidden + position:fixed so it never blocks
+       the underlying content. -->
+  <aside id="muni-notice" class="muni-notice" hidden>
+    <button class="muni-notice-close" id="muni-notice-close" aria-label="Loka">×</button>
+    <div class="muni-notice-icon">ℹ️</div>
+    <div class="muni-notice-body">
+      <div class="muni-notice-title" id="muni-notice-title"></div>
+      <div class="muni-notice-text" id="muni-notice-text"></div>
+    </div>
+  </aside>
 
   <!-- Random party tooltip (fades in then out) -->
   <div class="random-tooltip" id="random-tooltip">
@@ -214,7 +226,7 @@
   </div>
 
   <!-- App -->
-  <script type="module" src="/js/municipality.js?v=51"></script>
+  <script type="module" src="/js/municipality.js?v=52"></script>
   <script type="module" src="/js/outreach.js?v=1"></script>
   <script>
     (function () {

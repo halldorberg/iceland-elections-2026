@@ -75,7 +75,7 @@
 
   <!-- App styles -->
   <link rel="stylesheet" href="/css/variables.css?v=3" />
-  <link rel="stylesheet" href="/css/municipality.css?v=29" />
+  <link rel="stylesheet" href="/css/municipality.css?v=30" />
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Strona główna","item":"https://lydraedisveislan.is/pl/"},{"@type":"ListItem","position":2,"name":"Ísafjarðarbær","item":"https://lydraedisveislan.is/pl/isafjordur/"}]}</script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"Place","name":"Ísafjarðarbær","geo":{"@type":"GeoCoordinates","latitude":66.0746,"longitude":-23.1336},"containedInPlace":{"@type":"Country","name":"Islandia"},"additionalProperty":{"@type":"PropertyValue","name":"Liczba mieszkańców","value":3987}}</script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"Event","name":"Wybory samorządowe na Islandii 2026 — Ísafjarðarbær","startDate":"2026-05-16","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode","location":{"@type":"Place","name":"Ísafjarðarbær","address":{"@type":"PostalAddress","addressLocality":"Ísafjarðarbær","addressCountry":"IS"}},"organizer":{"@type":"GovernmentOrganization","name":"Landskjörstjórn","url":"https://island.is/v/sveitarstjornarkosningar-2026"}}</script>
@@ -109,6 +109,18 @@
       </button>
     </div>
   </nav>
+
+  <!-- Per-muni floating notice (currently only Múlaþing). Shown by JS
+       when muniId matches; hidden + position:fixed so it never blocks
+       the underlying content. -->
+  <aside id="muni-notice" class="muni-notice" hidden>
+    <button class="muni-notice-close" id="muni-notice-close" aria-label="Loka">×</button>
+    <div class="muni-notice-icon">ℹ️</div>
+    <div class="muni-notice-body">
+      <div class="muni-notice-title" id="muni-notice-title"></div>
+      <div class="muni-notice-text" id="muni-notice-text"></div>
+    </div>
+  </aside>
 
   <!-- Random party tooltip (fades in then out) -->
   <div class="random-tooltip" id="random-tooltip">
@@ -215,7 +227,7 @@
   </div>
 
   <!-- App -->
-  <script type="module" src="/js/municipality.js?v=51"></script>
+  <script type="module" src="/js/municipality.js?v=52"></script>
   <script type="module" src="/js/outreach.js?v=1"></script>
   <script>
     (function () {
