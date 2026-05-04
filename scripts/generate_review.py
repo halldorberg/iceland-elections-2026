@@ -446,14 +446,20 @@ def main():
         return max(dates) if dates else None
 
     def merge_bios(_scan_date_unused):
-        # Bios live under their own latest scan date — independent of other
-        # scan types. (Otherwise a same-day policy or photo scan would shift
-        # scan_date forward and the bio files would be hidden.)
-        bios_date = latest_date_for("bios") or scan_date
+        # Bios accumulate across many scan dates and re-audit passes.
+        # Glob every bios_*.json and keep any candidate that has audit
+        # data — that's what makes a bio "ready for review". Un-audited
+        # bios (e.g. older 2026-04-29 batches that never went through
+        # the pipeline) are hidden so the page doesn't conflate them
+        # with audited entries that have full statement panels.
+        audit_index = load_json(SCAN_DIR / "audit_results.json") or {}
         results_by_key = {}
-        for path in sorted(SCAN_DIR.glob(f"bios_{bios_date}*.json")):
+        for path in sorted(SCAN_DIR.glob("bios_*.json")):
             data = load_json(path) or {}
             for r in data.get('results', []) or []:
+                cid = r.get('id', '')
+                if cid not in audit_index:
+                    continue
                 key = r.get('name') or f"{r.get('muni_slug')}.{r.get('party_code')}.{r.get('ballot')}"
                 results_by_key[key] = dict(r)
         return list(results_by_key.values())
