@@ -446,23 +446,21 @@ def main():
         return max(dates) if dates else None
 
     def merge_bios(_scan_date_unused):
-        # Bios accumulate across many scan dates and re-audit passes.
-        # Glob every bios_*.json and keep any candidate that has audit
-        # data — that's what makes a bio "ready for review". Un-audited
-        # bios (e.g. older 2026-04-29 batches that never went through
-        # the pipeline) are hidden so the page doesn't conflate them
-        # with audited entries that have full statement panels.
-        audit_index = load_json(SCAN_DIR / "audit_results.json") or {}
-        results_by_key = {}
+        # Bios accumulate across scan dates + re-audit passes. Glob every
+        # bios_*.json and dedup by candidate **id** (e.g. RVK.D.5) — name
+        # is not unique (lots of "Jón Jónsson"-class collisions across
+        # munis), and a name-key dedup was silently dropping ~40 bios.
+        # Files are sorted so a later (re-audited) write of the same id
+        # overwrites the older entry, which is what we want.
+        results_by_id = {}
         for path in sorted(SCAN_DIR.glob("bios_*.json")):
             data = load_json(path) or {}
             for r in data.get('results', []) or []:
-                cid = r.get('id', '')
-                if cid not in audit_index:
+                cid = r.get('id')
+                if not cid:
                     continue
-                key = r.get('name') or f"{r.get('muni_slug')}.{r.get('party_code')}.{r.get('ballot')}"
-                results_by_key[key] = dict(r)
-        return list(results_by_key.values())
+                results_by_id[cid] = dict(r)
+        return list(results_by_id.values())
 
     # Photos merged across parallel-agent slices, keyed by candidate name + muni
     def merge_photos(scan_date):
