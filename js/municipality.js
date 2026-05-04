@@ -52,11 +52,11 @@ renderLangSwitcher(document.getElementById('lang-switcher'));
 })();
 
 // ─── Per-muni floating notice ──────────────────────────────
-// Shown only when the page is for a muni that has a notice defined.
-// Dismissal is persisted per-muni in localStorage so the notice stays
-// gone after the user has read + closed it.
+// Shown when the page is for a muni that has a notice defined.
+// Dismissal is session-only (sessionStorage) — clicking × hides it for
+// this browser session, but it reappears the next time the user opens
+// the site so important info doesn't get permanently buried.
 (function applyMuniNotice() {
-  const route = (typeof window !== 'undefined' && window.location.pathname.match(/^\/(?:en|pl)\/([^/]+)/)) || null;
   // The muniId variable is set later in the file — re-derive from URL here so
   // the notice can show before the rest of the page renders.
   const segs = window.location.pathname.replace(/^\/(?:en|pl)\//, '/').replace(/^\/+/, '').split('/');
@@ -67,7 +67,11 @@ renderLangSwitcher(document.getElementById('lang-switcher'));
   };
   const notice = NOTICES[id];
   if (!notice) return;
-  if (localStorage.getItem('muni-notice-dismissed:' + id) === '1') return;
+  const sessionKey = 'muni-notice-dismissed:' + id;
+  if (sessionStorage.getItem(sessionKey) === '1') return;
+  // One-time clean-up of the old localStorage flag from the permanent-dismiss
+  // version of this code so users who dismissed earlier see the notice again.
+  try { localStorage.removeItem(sessionKey); } catch (e) {}
 
   const el = document.getElementById('muni-notice');
   if (!el) return;
@@ -75,7 +79,7 @@ renderLangSwitcher(document.getElementById('lang-switcher'));
   document.getElementById('muni-notice-text').innerHTML  = ui[notice.textKey] || '';
   el.hidden = false;
   document.getElementById('muni-notice-close').addEventListener('click', () => {
-    localStorage.setItem('muni-notice-dismissed:' + id, '1');
+    sessionStorage.setItem(sessionKey, '1');
     el.hidden = true;
   });
 })();
