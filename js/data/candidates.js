@@ -9003,10 +9003,17 @@ const ISF = {
     ],
   },
   D: {
-    tagline: 'Sjálfstæðisflokkurinn í Ísafjarðarbæ',
-    agenda: [],
-    // [stripped 2026-05-04] no source verifiable; FB: https://www.facebook.com/xdisafjardar
-   
+    tagline: 'Fyrir fólkið, fyrir fjölskylduna, fyrir framtíðina',
+    agenda: [
+      { icon: '🏫', title: 'Skólar og leikskólar', text: 'Stækka báða leikskóla á Ísafirði og bæta lóðir, innleiða heimgreiðslur til foreldra barna frá 12 mánaða aldri og stækka Grunnskólann á Ísafirði með nýbyggingum og endurbótum. Útfæra leiðir í samvinnu við nemendur og stjórnendur um að gera grunnskólana símalausa.' },
+      { icon: '⚽', title: 'Frístundir og íþróttir',  text: 'Rýmka opnunartíma félagsmiðstöðva, hækka frístundastyrki og ljúka uppbyggingu á Torfnessvæði (knatthús, sundlaug, stækkun íþróttahúss) — auk þess að tryggja að áætlun um uppbyggingu skíðasvæðisins í Tungudal tefjist ekki.' },
+      { icon: '🎭', title: 'Menning',                text: 'Hækka menningarstyrki, efla menningarhúsin og leggja meira í hátíðarhöld svo sem 17. júní, jólaljósatendrun og fjölskylduhátíðir.' },
+      { icon: '❤️', title: 'Velferð og eldra fólk',  text: 'Móta heildstæða stefnu í málefnum eldra fólks, efla úrræði til virkni og félagslegra tengsla, fjölga atvinnutækifærum fyrir fatlað fólk og tryggja aukið framboð íbúða fyrir eldra fólk.' },
+      { icon: '💼', title: 'Atvinnumál og ferðaþjónusta', text: 'Bæta aðstöðu fyrir ferðamenn — móttökustöð skemmtiferðaskipa og salernisaðstaða í öllum byggðakjörnum — lækka álögur á fyrirtæki og einfalda úrvinnslu umsókna um atvinnulóðir.' },
+      { icon: '💰', title: 'Rekstur og stjórnsýsla', text: 'Sýna ráðdeild í rekstri og lækka fasteignaskatta. Bæta stafræna þjónustu, halda reglulega samráðsfundi með íbúum allra byggðakjarna og mæla reglulega ánægju íbúa.' },
+      { icon: '🏘️', title: 'Umhverfi og skipulag',  text: 'Tryggja nægt og fjölbreytt lóðaframboð í öllum byggðakjörnum, tengja Holtahverfi betur við Tungu- og Seljalandshverfi (t.d. með undirgöngum), laga gangstéttir, malbika götur og halda áfram með endurbætur á fráveitukerfi.' },
+    ],
+    platformUrl: 'https://xd.is/wp-content/uploads/2026/05/xd-stefnuskra-isafjardarbaer.pdf',
     list: [
       [1, 'Jónas Þór Birgisson', 'Lyfjafræðingur', 'images/candidates/c70f5e54006c8107.jpg', {
         age: 54,
@@ -9041,10 +9048,16 @@ const ISF = {
     ],
   },
   M: {
-    tagline: 'Miðflokkurinn í Ísafjarðarbæ',
-    agenda: [],
-    // [stripped 2026-05-04] no source verifiable; no FB page found in 2026-05-04 sweep
-   
+    tagline: 'Áherslur Miðflokksins í Ísafjarðarbæ — látum verkin tala',
+    agenda: [
+      { icon: '🏗️', title: 'Stærri framkvæmdir',    text: 'Koma framkvæmdum af stað á næsta kjörtímabili — sundlaug og/eða knattspyrnuhús eru meðal stærri verkefna sem framboðið vill ráðast í.' },
+      { icon: '🚶', title: 'Smærri framkvæmdir í nærumhverfi', text: 'Göngu- og hjólastígar, gangstéttir, leikvellir og græn svæði í nærumhverfi íbúa — meira af athöfnum, minna af orðum.' },
+      { icon: '🤝', title: 'Þjónustumiðuð stjórnsýsla', text: 'Stjórnsýsla bæjarins á að vera þjónustuaðili sem leiðbeinir öllum sem leita til bæjarins um skjótustu og bestu úrlausn erinda — bæði fyrir fólk og fyrirtæki.' },
+      { icon: '🏫', title: 'Skólar og leikskólar',  text: 'Halda áfram með Leikskólann Tanga á Ísafirði og auka útinám í öllum leikskólum bæjarins. Halda leikskólagjöldum í lágmarki, efla samstarf heimila og skóla og auka fagþjónustu við nemendur. Huga að viðhaldi eldri skólabygginga.' },
+      { icon: '🎨', title: 'Frístundastyrkur og þjónusta við eldri borgara', text: 'Hækka frístundastyrk Ísafjarðarbæjar og leggja sérstaka áherslu á þjónustu við eldri borgara bæjarins.' },
+      { icon: '🌈', title: 'Höfnun fordóma',        text: 'Höfnum öllum fordómum — vegna kyns, trúarbragða, þjóðernis, kynhneigðar, stjórnmálaskoðana eða hvers annars. Umbyrðarlyndi, samhjálp og samstaða eru áfram drifkraftur Ísafjarðarbæjar.' },
+    ],
+    platformUrl: 'https://bb.is/2026/04/midflokkurinn-isafjardarbae-aherslur/',
     list: [
       [1, 'Sævar Óli Hjörvarsson', 'Smiður', 'images/candidates/592f3a47e798c187.jpg', {
         age: null,
