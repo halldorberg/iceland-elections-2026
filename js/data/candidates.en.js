@@ -612,7 +612,7 @@ export const TRANSLATIONS_EN = {
   "arborg.D.list.22.occupation": "Candidate",
   "arborg.D.list.3.bio": "Linda Björk Hilmarsdóttir is a managing director and is in 3rd place on the Independence Party’s list in Árborg for the 2026 municipal elections. She has presented her candidacy with an emphasis on residents’ needs and a strong determination to develop the municipality.",
   "arborg.D.list.3.occupation": "Managing Director",
-  "arborg.D.list.4.bio": "Brynhildur Jónsdóttir is a lead developmental therapist at Álftarimi and Vallholt 27, a residential service for children, and a sitting town councillor for the Independence Party in Árborg, now in 4th place on the candidate list. She has previously served as chair of the representative council of the Independence Party associations in Árborg.",
+  "arborg.D.list.4.bio": "Brynhildur Jónsdóttir is the head developmental therapist at Álftarimi, a residential service for children, and a sitting municipal councillor for the Independence Party in Árborg, now in 4th place on the candidate list. She has previously been chair of the representatives’ council of the Independence Party associations in Árborg.",
   "arborg.D.list.4.occupation": "Development assistant and town councillor",
   "arborg.D.list.5.bio": "Þórhildur Ingvadóttir is manager of Lyfja and a deputy town councillor for the Independence Party in Árborg, and is in 5th place on the candidate list for the 2026 municipal elections. She took part in the presentation of Árborg’s 2024 environmental awards.",
   "arborg.D.list.5.occupation": "Pharmaceutical representative and deputy town councillor",

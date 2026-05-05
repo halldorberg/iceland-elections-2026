@@ -612,7 +612,7 @@ export const TRANSLATIONS_PL = {
   "arborg.D.list.22.occupation": "Kandydat",
   "arborg.D.list.3.bio": "Linda Björk Hilmarsdóttir jest dyrektorką zarządzającą i zajmuje 3. miejsce na liście Sjálfstæðisflokksins w Árborg w wyborach samorządowych 2026. Przedstawiła swoją kandydaturę, kładąc nacisk na potrzeby mieszkańców oraz niezłomną wolę rozwoju gminy.",
   "arborg.D.list.3.occupation": "Dyrektor zarządzający",
-  "arborg.D.list.4.bio": "Brynhildur Jónsdóttir jest kierowniczką zespołu terapeutów rozwojowych w Álftarimi i Vallholti 27, placówce mieszkaniowo-opiekuńczej dla dzieci, oraz urzędującą radną miejską Sjálfstæðisflokksins w Árborg, obecnie zajmującą 4. miejsce na liście wyborczej. Wcześniej była przewodniczącą rady przedstawicielskiej stowarzyszeń Sjálfstæðisflokksins w Árborg.",
+  "arborg.D.list.4.bio": "Brynhildur Jónsdóttir jest kierowniczką pedagogów specjalnych w Álftarimi, ośrodku usług mieszkaniowych dla dzieci, oraz obecną radną miejską z ramienia Sjálfstæðisflokksins w Árborg, obecnie na 4. miejscu listy wyborczej. Wcześniej była przewodniczącą rady przedstawicieli stowarzyszeń Sjálfstæðisflokksins w Árborg.",
   "arborg.D.list.4.occupation": "Asystentka ds. rozwoju i radna miejska",
   "arborg.D.list.5.bio": "Þórhildur Ingvadóttir jest kierowniczką w Lyfja i zastępczynią radnej miejskiej Sjálfstæðisflokksins w Árborg oraz zajmuje 5. miejsce na liście wyborczej w wyborach samorządowych 2026. Brała udział w wręczeniu nagród środowiskowych Árborg w 2024 roku.",
   "arborg.D.list.5.occupation": "Przedstawicielka farmaceutyczna i zastępczyni radnej miejskiej",
