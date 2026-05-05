@@ -9431,10 +9431,20 @@ const VBG = {
     ],
   },
   STV: {
-    tagline: 'Sterkari Vesturbyggð — saman getum við meira',
-    agenda: [],
-    // [stripped 2026-05-04] no source verifiable; FB: https://www.facebook.com/profile.php?id=61570681349673
-   
+    tagline: 'Komdu með í Sterkari Vesturbyggð!',
+    agenda: [
+      { icon: '💼', title: 'Atvinnumál',                       text: 'Áhersla á fiskeldi, fullvinnslu sjávarafurða, ferðaþjónustu og nýsköpun. Kynna Vesturbyggð sem áhugaverðan fjárfestingarkost. Markmið að á næstu 4 árum verði til þekkingarsetur fiskeldis á Íslandi í Vesturbyggð, og bætt umgjörð fyrir þróun klasa í kringum sjávarútveg, fiskeldi og ferðaþjónustu á Vestfjörðum.' },
+      { icon: '⚡', title: 'Orkumál',                          text: 'Skortur á afhendingaröryggi raforku hamlar uppbyggingu á svæðinu. Vatnsdalsvirkjun er lykilverkefni sem þarf að ráðast í til að tryggja orkuöryggi til lengri tíma — uppbyggingu með hliðsjón af náttúru og samfélagi.' },
+      { icon: '🚧', title: 'Samgöngumál',                      text: 'Eitt atvinnusvæði — göng undir Mikladal og Hálfdán. Bíldudalsvegur framar á samgönguáætlun. Brýn þörf á bættu umferðaröryggi á Kleifaheiði og Raknadalshlíð fyrir skólabörn, íbúa og flutninga, m.a. með úrbótum á vegi og ofanflóðavörnum.' },
+      { icon: '🚨', title: 'Öryggismál og almannavarnir',      text: 'Skýrar verklagsreglur fyrir viðbrögð þegar byggðakjarnar einangrast. Heilbrigðisstarfsfólk og/eða vettvangsliðar staðsettir í byggð til að tryggja grunnþjónustu og öryggi í ófærð. Bætt fjarskiptaöryggi með varaafli við hvern sendi; farsímasamband á Vestfjarðavegi þarf að bæta.' },
+      { icon: '🏘️', title: 'Húsnæðis- og skipulagsmál',        text: 'Rýmkun á lánveitingum til íbúðarkaupa á landsbyggð. Samstarf við verktaka um uppbyggingu leiguhúsnæðis um allt sveitarfélagið. Íbúðalóðir til úthlutunar á aðlaðandi svæðum og tilbúnar atvinnulóðir með aðgerðaáætlun í samræmi við uppbyggingu atvinnutækifæra.' },
+      { icon: '📚', title: 'Menntamál',                        text: 'Setja farsæld barna í forgang með snemmtækum stuðningi og styttum biðlistum á greiningum. Efla samstarf skóla, heimila og frístundastarfs. Efla fjarnámsdeild á framhaldsskólastigi með auknu framboði námsleiða — þar á meðal iðnnámi — svo nemendur geti stundað bóklegt nám í heimabyggð og fengið starfsnám í atvinnulífinu.' },
+      { icon: '❤️', title: 'Félags- og velferðarmál',          text: 'Þjónusta við aldraða mætir þörfum þeirra um alla Vesturbyggð. Standa vörð um heilbrigðisþjónustu á svæðinu. Tryggja öflugan stuðning við íbúa af erlendum uppruna og auðvelda þeim að kynnast íslensku samfélagi, menningu og tungumáli.' },
+      { icon: '⚽', title: 'Íþróttir og æskulýðsstarf',         text: 'Frístundastyrkur fyrir öll börn að 18 ára aldri. Stuðningur við tónlistarskóla Vesturbyggðar og íþróttafélög svæðisins. Skýr 4 ára framkvæmdaáætlun fyrir aðstöðuuppbyggingu. Ungmennaráð með raunveruleg áhrif á sitt umhverfi; aukin virkni eldri borgara í íþróttum og hreyfingu.' },
+      { icon: '⚓', title: 'Hafnir, veitur og hitaveita',       text: 'Aukið fjármagn í hafnarmannvirki til að styðja við nýja atvinnustarfsemi; áætlanagerð uppfærð í samræmi við vaxtarþörf. Tryggja nýtingu á heitu vatni til húshitunar þar sem það er fyrir hendi og stuðla að frekari leit að heitu vatni.' },
+      { icon: '💰', title: 'Fjármál og stjórnsýsla',           text: 'Heilbrigð markmið um sjálfbæran rekstur til framtíðar. Lækkun fasteignaskatta og betri nýting fjármagns í kerfinu þannig að samfélagið njóti góðs af. Bætt upplýsingagjöf og sýnileiki stjórnsýslunnar.' },
+    ],
+    platformUrl: 'https://heyzine.com/flip-book/783d8a035b.html',
     list: [
       [1, 'Hlynur Ársælsson', 'Frambjóðandi'],
       [2, 'Friðbjörg Matthíasdóttir', 'Frambjóðandi'],
