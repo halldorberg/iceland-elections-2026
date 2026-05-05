@@ -8474,10 +8474,16 @@ const HFJ = {
 
 const AKR = {
   B: {
-    tagline: 'Frjálsir með Framsókn á Akranesi',
-    agenda: [],
-    // [stripped 2026-05-04] no source verifiable; FB: https://www.facebook.com/framsoknakranes
-   
+    tagline: 'Þetta snýst um Akranes',
+    agenda: [
+      { icon: '💼', title: 'Atvinnulíf og verðmætasköpun',         text: 'Sækjum störf heim. Gerum lóðir klárar fyrir hátækni í Grjótkelduflóa og markaðssetjum Grænan iðngarð í Flóahverfi. Klárum samtalið um sameiningu heilsugæslu, ríkisstofnana og bæjarskrifstofu undir eitt þak (ráðhús á Sementsreit) og björgunarmiðstöð fyrir slökkvilið, lögreglu og sjúkraflutninga. Vinnum að farsælu samstarfi við Brim um Breið og næsta áfanga Akraneshafnar í samvinnu við Faxaflóahafnir. Ætlum Akranesi á hótelkortið — eitt hótel er bara byrjun. Verum tilbúin að grípa þau tækifæri sem myndast með tilkomu Sundabrautar.' },
+      { icon: '🏛️', title: 'Sjálfbær rekstur, stafræn þróun og opið samtal', text: 'Tryggjum sjálfbæran rekstur með eflingu tekjustofna og markvissri atvinnuuppbyggingu. Verum samkeppnishæf í álagningu fasteignagjalda. Samræmum innkaup, nýtum stafrænar lausnir og opnum bókhald sveitarfélagsins. Stofnum innviðasjóð sem nýtir arðgreiðslur Faxaflóahafna og Orkuveitunnar í innviði — ekki í daglegan rekstur.' },
+      { icon: '👨‍👩‍👧', title: 'Fjölskyldumál og skólar',                text: 'Tryggjum leikskólapláss frá 12 mánaða aldri með viðbyggingu og nýjum leikskóla á neðri Skaga. Brúum bilið með heimgreiðslum frá fæðingarorlofi til leikskólapláss. Hækkum frístundastyrkinn í 85.000 kr. á kjörtímabilinu og endurskoðum aldursviðmið. Hefjum samtalið um nýjan grunnskóla, stöndum vörð um skólalóðir og endurskipulagjum vinnuskóla fyrir 8.–10. bekk. Eflum unglingaráðgjöf og félagsmiðstöðvastarf.' },
+      { icon: '❤️', title: 'Farsælt samfélag og velferð',           text: 'Stofnum skammtímadvöl á Akranesi fyrir börn og ungmenni með stuðningsþarfir, í samvinnu við sveitarfélög á Vesturlandi. Vinnum heildarstefnu í málefnum fatlaðs fólks á Vesturlandi og byggjum nýjan búsetukjarna. Tryggjum öruggt starfsumhverfi fyrir Fjöliðjuna. Eflum heilsugæslu með flutningi í nýtt ráðhús á Sementsreit og tryggjum 60 aukin hjúkrunar- og hvíldarrými með stækkun Höfða. Bætum úrræði fyrir fólk með heilabilun og nútímavæðum heimastuðning með velferðartækni.' },
+      { icon: '🏊', title: 'Íþróttir og lýðheilsa',                  text: 'Ljúkum skipulagi og hefjum framkvæmdir á 50 metra innisundlaug og endurbættri afþreyingarlaug með nýjum rennibrautum. Byggjum nýjan gervigrasvöll austan megin Akraneshallar. Vinnum að framtíðarskipulagi aðalvallar knattspyrnunnar og að stækkun Garðavallar í 27 holur. Mótum íþrótta- og lýðheilsustefnu Akraness, eflum heilsueflandi samfélag með merktum göngu- og hlaupaleiðum og styðjum skipulagt félagsstarf á borð við Skátahreyfinguna og Björgunarfélagið.' },
+      { icon: '🏘️', title: 'Skipulags- og umhverfissátt',           text: 'Rjúfum kyrrstöðuna í skipulagsmálum: klárum Ægisbraut, Skógarhverfi, Grjótkelduflóa, Smiðjuvelli og Breið; hefjum skipulag í Akrakotslandi og frá Kalmansvík að Innsta-vogi. Stuðlum að framgangi Vesturlandsvegar, nýrra Hvalfjarðarganga og Sundabrautar. Hækkum sjóvarnargarða í samvinnu við Vegagerðina. Birtum tímasetta 10 ára áætlun í viðhaldi gatna. Mótum heildstætt stígakerfi, klárum hönnun strandstígs og hefjum Garðalund til vegs og virðingar. Eflum tjaldsvæðið og uppbyggingu smáhýsa.' },
+    ],
+    platformUrl: 'https://www.framsokn.is/blog/stefnuskra-framsoknar-og-frjalsra-a-akranesi',
     list: [
       [1, 'Ragnar Baldvin Sæmundsson', 'Bæjarfulltrúi', 'images/candidates/94d71f5b69ba6425.jpg', { news: [
           { title: 'Oddvitaumræður á Akranesi', url: 'https://www.ruv.is/frettir/innlent/2026-04-22-oddvitaumraedur-a-akranesi-473426', source: 'ruv.is' },
