@@ -9086,10 +9086,20 @@ const ISF = {
     ],
   },
   S: {
-    tagline: 'Samfylkingin í Ísafjarðarbæ',
-    agenda: [],
-    // [stripped 2026-05-04] no source verifiable; FB: https://www.facebook.com/xsisafjardarbaer
-   
+    tagline: 'Horft til framtíðar — kosningastefna Samfylkingarinnar í Ísafjarðarbæ',
+    agenda: [
+      { icon: '💰', title: 'Ábyrg fjármálastjórn',           text: 'Áframhaldandi niðurgreiðsla skulda og jafnvægi í rekstri — sem skapar svigrúm til að fjárfesta í þeim verkefnum sem skipta íbúa máli, með framtíðina að leiðarljósi.' },
+      { icon: '🤝', title: 'Stjórnsýsla og íbúalýðræði',     text: 'Endurskoða verkferla bæjarins, skýrari ferla og betri samhæfing milli deilda. Verkstjóri í hverjum byggðakjarna utan Ísafjarðar og virkari farveg fyrir aðkomu íbúa að ákvörðunum sem varða þeirra nærumhverfi.' },
+      { icon: '⚓', title: 'Hafnir og hafnsækin starfsemi',   text: 'Viðhald og uppbygging hafna í öllum byggðakjörnum. Höfnin á Ísafirði er eitt mikilvægasta svæðið fyrir sjávarútveg, fiskeldi og ferðaþjónustu — við viljum styðja áfram við fjölbreytt og verðmæt störf.' },
+      { icon: '💼', title: 'Atvinnulíf og innviðir',         text: 'Einn fastur tengipunktur fyrir fyrirtæki hjá sveitarfélaginu. Virkt samtal við atvinnulífið og barátta í fararbroddi fyrir tvítengingu Landsnets og öruggum flugsamgöngum til og frá Ísafjarðarbæ.' },
+      { icon: '🏫', title: 'Skólar og leikskólar',           text: 'Uppbygging nýs leikskóla á Ísafirði. Þak á greiðslur fyrir leikskólavist og endurskoðun gjaldskrár. Skýr framtíðarsýn í húsnæðismálum grunnskólans á Ísafirði — m.a. uppbygging fyrir unglingastig og félagsmiðstöð.' },
+      { icon: '⚽', title: 'Frístundir og ungmennahús',      text: 'Jöfn aðgengi að íþrótta- og tómstundastarfi óháð efnahag eða búsetu. Hækka frístundastyrki, koma á fót ungmennahúsi með starfsmanni bæjarins, lengja opnunartíma sundlauga og endurvekja ungmennaráð Ísafjarðarbæjar.' },
+      { icon: '❤️', title: 'Eldri borgarar og velferð',     text: 'Öldrunarráð og öldrunarfulltrúi haldi áfram, breyta 4. hæð Hlífar í íbúðir. Samfelld þjónusta sem byggir á stuðningi í heimahúsum. Efld þjónusta við fatlað fólk í takt við samning Sameinuðu þjóðanna.' },
+      { icon: '🏘️', title: 'Húsnæðismál',                   text: 'Sveitarfélagið verði virkur þátttakandi í uppbyggingu íbúðarhúsnæðis í samstarfi við óhagnaðardrifin leigufélög — með sérstakri áherslu á húsnæði fyrir ungt fólk og eldri íbúa.' },
+      { icon: '🎭', title: 'Menning og listir',              text: 'Hækka menningarstyrki og koma á þríhliða samningi um rekstur Edinborgarhússins. Festa í sessi rútuferðir milli byggðakjarna á stærri menningarviðburði (eins og Aldrei fór ég suður) svo allir íbúar geti notið menningar.' },
+      { icon: '🌿', title: 'Umhverfis- og loftslagsmál',     text: 'Aðgerðabundin umhverfis- og loftslagsstefna sem endurskoðuð er á tveggja ára fresti. Hreint og aðgengilegt nærumhverfi með reglulegu viðhaldi gangstétta og göngustíga og góðu aðgengi að sorplausnum.' },
+    ],
+    platformUrl: 'https://www.facebook.com/xsisafjardarbaer',
     list: [
       [1, 'Svanfríður Guðrún Bergvinsdóttir', 'Viðskiptafræðinemi og formaður ASÍ-UNG', 'images/candidates/234c62c7c473fa24.png', {
         age: null,
