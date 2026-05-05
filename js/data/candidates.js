@@ -8572,10 +8572,19 @@ const AKR = {
     ],
   },
   D: {
-    tagline: 'Líf — Sjálfstæðisflokkurinn á Akranesi',
-    agenda: [],
-    // [stripped 2026-05-04] no source verifiable; FB: https://www.facebook.com/xdakranes
-   
+    tagline: 'Skemmtilegra Akranes — væri það ekki næs?',
+    agenda: [
+      { icon: '💰', title: 'Förum vel með peningana',               text: 'Lækkum fasteignagjöld á einstaklinga og fyrirtæki. Leggjum okkar af mörkum í baráttu við verðbólgu og takmörkum gjaldskrárhækkanir. Seljum eignir sem þjóna ekki hlutverki í rekstri og skoðum nýjar leiðir í uppbyggingu innviða í samstarfi við einkaaðila. Höfum allar áætlanir sýnilegar, tryggjum gagnsæi og fáum óháða úttekt á rekstri sveitarfélagsins.' },
+      { icon: '🛳️', title: 'Komum Akranesi á kortið',               text: 'Mörkum stefnu og tímasetta aðgerðaáætlun í ferðaþjónustu og markaðssetjum Akranes sem áfangastað fyrir skemmtiferðaskip. Róum að því öllum árum að hótel rísi á Akranesi. Kveikjum áhuga fyrirtækja á að koma á Akranes, eflum skilvirkni í samskiptum við atvinnulífið og tryggjum orkuinnviði.' },
+      { icon: '📚', title: 'Verum í fremstu röð í skólastarfi',     text: 'Klárum skólalóðirnar svo þær nýtist skólum og samfélaginu. Bætum umhverfi fyrir börn með fjölþættan vanda og aukum samstarf á milli grunnskólanna. Bjóðum val um heimgreiðslur fyrir foreldra barna án leikskólapláss, fjölgum leikskólarýmum og aukum aðgengi að foreldraráðgjöf. Styðjum við öflugt tónlistarstarf.' },
+      { icon: '🎭', title: 'Glæðum bæinn lífi',                     text: 'Eflum Vökudaga sem menningarhátíð Skagamanna. Gerum langtímasamninga við árlega menningarviðburði og hækkum styrki til menningarverkefna. Eflum Bókasafnið og listavinnuskólann og aðstoðum listamenn sem vilja standa fyrir viðburðum á Akranesi.' },
+      { icon: '⚽', title: 'Koma svo Skagamenn!',                   text: 'Klárum hönnun við 27 holu golfvöll á Akranesi og hönnun nýrrar sundlaugar í virku samtali við notendur. Uppfærum knattspyrnuaðstöðuna á Jaðarsbökkum. Styðjum við skipulagt starf í Þorpinu og Arnardal. Hækkum tómstundastyrk svo hann nýtist fjölskyldum sem best.' },
+      { icon: '🏘️', title: 'Hugum að umhverfi og skipulagi',         text: 'Bjóðum hagkvæmari sérbýlislóðir og aukið framboð. Setjum meira fjármagn í gatnaviðgerðir. Þrýstum á ríkisvaldið um Sundabraut og tvöföldun Hvalfjarðarganga. Setjum af stað „Sansaðu" samfélagsverkefni til að bæta nærumhverfi og vinnum áfram að viðhaldi fasteigna með áætlunum sýnilegum íbúum.' },
+      { icon: '🧓', title: 'Gerum vel við eldri Skagamenn',         text: 'Tryggjum samfellu í þjónustu fyrir eldri Skagamenn. Höldum áfram með Sprækir Skagamenn og heilsueflandi verkefni. Eflum forvarnir sem bæta lífsgæði, bjóðum fjölbreyttari búsetuúrræði og fjölgum verkefnum sem rjúfa félagslega einangrun.' },
+      { icon: '🌸', title: 'Gerum Akranes skemmtilegra',            text: 'Malbikum Skagahringinn — hjóla- og göngustíg í kringum Akranes. Klárum Bláa þráðinn og merkjum hlaupaleiðir. Setjum upp Helgan stein og glerskála í miðbæinn. Bjóðum upp á pop-up viðburði og Instagram-myndaramma, skilgreinum Bjarnalaug sem menningarverðmæti, skreytum bæinn með blómum og bætum hundasvæðið.' },
+      { icon: '🏥', title: 'Tryggjum góða þjónustu',                text: 'Tryggjum samfellu í þjónustu og innleiðum þjónustustefnu í stjórnsýsluna. Nýtum stafrænar lausnir og velferðartækni til að bæta þjónustu og öryggi. Fjölgum fagmenntuðu starfsfólki í búsetukjörnum, aukum fjölbreytni í búsetukostum og eflum stuðning við virkni og atvinnuþátttöku.' },
+    ],
+    platformUrl: 'https://xd-akranes.netlify.app/',
     list: [
       [1, 'Líf Lárusdóttir', 'Verkefnastjóri og bæjarfulltrúi', 'images/candidates/65144168c3e42809.jpg', {
         age: null,
