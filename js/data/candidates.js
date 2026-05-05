@@ -2888,10 +2888,17 @@ const GAR = {
 
 const MOS = {
   D: {
-    tagline: 'Hilmar leiðir D-lista í Mosfellsbæ — Nú verður fjör',
-    agenda: [],
-    // [stripped 2026-05-04] no source verifiable; no FB page found in 2026-05-04 sweep
-   
+    tagline: '50 fyrirheit fyrir heimabæinn',
+    agenda: [
+      { icon: '💼', title: 'Öflugt atvinnulíf',                    text: 'Styðjum við og löðum að aukna atvinnustarfsemi í Mosó. Aukið samtal við atvinnurekendur með reglulegum samráðsfundum. Lækkum fasteignaskatt á atvinnuhúsnæði.' },
+      { icon: '👨‍👩‍👧', title: 'Fjölskylduvænt samfélag',              text: 'Lækkum fasteignaskatt á íbúðarhúsnæði. Bætum aðgengi barna að sérfræðiþjónustu innan skólanna og styðjum við starfsemi námsvera í grunnskólum. Styrkjum vinnuskólann og hvetjum til aukinnar nýtingar frístundastyrks 16 og 17 ára. Sköpum skilyrði fyrir fjölbreytt rekstrarform leik- og grunnskóla og aukum aðgengi afburðanemenda að námsefni við hæfi.' },
+      { icon: '❤️', title: 'Heilbrigði og lífsgæði',                text: 'Tryggjum loftgæðamælingar í Mosfellsbæ. Áframhald á verkefninu „Gott að eldast“ með framúrskarandi þjónustu í heimahúsum. Tryggjum fötluðu fólki einstaklingsmiðuð úrræði og störf í bænum og bætum aðgengi að íþróttamannvirkjum. Lengjum opnunartíma sundlauga um helgar og bætum öryggi á gönguleiðum á fellunum. Tryggjum að gildandi samningur um uppbyggingu Skálafells verði uppfylltur.' },
+      { icon: '🎭', title: 'Skapandi menningarlíf',                 text: 'Byggjum upp miðbæ Mosfellsbæjar með áherslu á menningu og mannlíf. Styðjum við uppbyggingu menningar, verslunar og þjónustu í Álafosskvos. Endurbætum og tökum efri hæð Hlégarðs í notkun. Opnum tjaldsvæði í bænum, setjum upp merki Mosfellsbæjar á lykilstöðum og höldum sögu bæjarins á lofti.' },
+      { icon: '🏛️', title: 'Rekstur, gagnsæi og stjórnsýsla',       text: 'Ábyrgjumst traustan rekstur og gagnsæi í fjármálum. Styttum og einföldum boðleiðir í stjórnkerfinu og tryggjum áframhaldandi fjárfestingu í stafrænum lausnum. Endurvekjum atvinnu- og umhverfisnefnd. Bætum eftirlit með framkvæmdum og samþættum innkaup með hagræðingu að leiðarljósi. Gerum fyrirheitalistann opinn og aðgengilegan íbúum til að fylgjast með framgangi.' },
+      { icon: '🚧', title: 'Greiðari samgöngur',                    text: 'Þrýstum á yfirvöld að hefja framkvæmdir við Sundabraut sem fyrst. Tryggjum að hágæða almenningssamgöngur nái til Mosfellsbæjar á umsömdum tíma og bjóðum grunnskólabörnum frítt í strætó innan bæjarfélagsins. Aukum samráð við íbúa um umferðaröryggi og tryggjum að framtíðarskipulag Vesturlandsvegar verði áfram í stokk í gegnum miðbæinn.' },
+      { icon: '🏘️', title: 'Skipulag og þróun bæjarins',            text: 'Verndum græn svæði í framtíðarskipulagi bæjarins og tryggjum fjölbreytt húsnæði í nýjum hverfum. Tryggjum að samningi um lokun urðunarstaðarins í Álfsnesi sé fylgt eftir. Leysum umferðarmál á íþróttasvæðinu að Varmá og hefjum viðræður við landeigendur um veg austur úr Helgafellshverfi. Klárum deiliskipulag Ævintýragarðsins og hönnun á stúku á Varmárvelli með tímasettri uppbyggingaráætlun.' },
+    ],
+    platformUrl: 'https://www.50fyrirheit.is/',
     list: [
       [1, 'Hilmar Gunnarsson', 'Ritstjóri', 'images/candidates/712f7205532529a9.jpg', {
         age: null,
