@@ -7987,10 +7987,20 @@ function makeCandidatesFromList(municipalityId, partyCode, list) {
 
 const FJD = {
   B: {
-    tagline: 'Framsóknarflokkur í Fjarðabyggð',
-    agenda: [],
-    // [stripped 2026-05-04] no source verifiable; FB: https://www.facebook.com/fjardaxb
-   
+    tagline: 'Þetta snýst um málefnin — Framsókn í Fjarðabyggð',
+    agenda: [
+      { icon: '❤️', title: 'Félagsþjónusta og eldra fólk',  text: 'Áframhaldandi þrýstingur á fjölgun hjúkrunarrýma í Fjarðabyggð, hraðari framkvæmd verkefnisins „Gott að eldast", fjölbreytt þjónusta sem tryggir að fólk geti verið heima sem lengst og uppbygging íbúðarhúsnæðis fyrir eldra fólk.' },
+      { icon: '🏫', title: 'Fræðslumál og börn',            text: 'Áframhaldandi sveigjanleg vistun og lægra gjald á styttri vistunartíma í leikskólum til að tryggja örugga leikskólavist frá 12 mánaða aldri. Efling samstarfs grunn- og framhaldsskóla í iðn- og tæknigreinum og aukin sérfræðiþjónusta við leik- og grunnskóla, sérstaklega fyrir fötluð börn.' },
+      { icon: '⚽', title: 'Íþróttir og tómstundir',         text: 'Ferðasjóður fyrir ferðakostnað barna og ungmenna í íþróttum, áframhaldandi uppbygging Skíðamiðstöðvarinnar í Oddsskarði, göngu-, hjóla- og reiðstígar í sveitarfélaginu og ungmennahús fyrir 16–25 ára aldur.' },
+      { icon: '🚧', title: 'Samgöngur',                     text: 'Tafarlausar framkvæmdir við Suðurfjarðarveg og úrbætur í skriðunum milli Stöðvarfjarðar og Breiðdalsvíkur. Stuðningur við jarðgöng til Mjóafjarðar og frekari rannsóknir á jarðgangakostum, ásamt áframhaldandi þróun almenningssamgöngukerfis Fjarðabyggðar.' },
+      { icon: '🏘️', title: 'Húsnæði og uppbygging',         text: 'Áframhaldandi uppbygging leiguíbúða með Bríet og Brák, einföldun ferla við lóðaúthlutun og leyfisveitingar, áfram afsláttur af gatnagerðargjöldum og sérstök áhersla á að fjölga byggingarlóðum á Norðfirði þar sem þeim fer fækkandi.' },
+      { icon: '💼', title: 'Atvinnumál og hafnir',          text: 'Greiða götu fyrir aukinni og fjölbreyttri atvinnuuppbyggingu, áframhaldandi fjárfesting í hafnarmannvirkjum (hafnsækin starfsemi er fjöregg Fjarðabyggðar), efla ferðaþjónustu, samvinnuhús og nýsköpunarmiðstöðvar — og að Orkugarður Austurlands verði að veruleika.' },
+      { icon: '💰', title: 'Fjármál og stjórnsýsla',        text: 'Ábyrg og traust fjármálastjórn með það fyrir augum að lækka skuldir sveitarfélagsins með hag íbúa í huga. Skoða áfram möguleika á opnu bókhaldi og einfalda ferla innan stjórnsýslunnar, m.a. með nýtingu gervigreindar og annarrar tækni.' },
+      { icon: '🌾', title: 'Landbúnaður',                   text: 'Standa vörð um gott landbúnaðarland skv. aðalskipulagi sveitarfélagsins, vinna með bændum í málefnum sem varða báða aðila og styðja nýliðun og nýsköpun í landbúnaði eins og sveitarfélaginu er kostur.' },
+      { icon: '🤝', title: 'Íbúalýðræði og fjölmenning',    text: 'Íbúalýðræðisvettvangur þar sem hægt er að kjósa milli verkefna sem framkvæmd verða í hverjum byggðakjarna. Leikvellir og fjölskyldusvæði í öllum byggðakjörnum. Efling fjölmenningarráðs og áframhaldandi samstarf við Samtökin 78 og Píeta samtökin.' },
+      { icon: '🎭', title: 'Menning',                       text: 'Áframhaldandi efling Menningarstofu Fjarðabyggðar í samstarfi við grasrót, uppbygging Stríðsárasafnsins og sameiginlegrar safnageymslu á Eskifirði, og áframhaldandi stuðningur við bæjarhátíðir í Fjarðabyggð.' },
+    ],
+    platformUrl: 'https://www.facebook.com/fjardaxb',
     list: [
       [1, 'Þuríður Lillý Sigurðardóttir', 'Bóndi og bæjarfulltrúi', 'images/candidates/7e453df76aada2a8.jpg', {
         age: null,
