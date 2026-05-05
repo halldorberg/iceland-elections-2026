@@ -689,7 +689,7 @@ const RVK = {
       [4, 'Unnar Þór Sæmundsson',               'Stjórnandi fyrirtækis, lagastúdent',                                               'images/candidates/d419baff45cabae6.jpg', {
         age: 34,
         bio: null,
-        interests: ['Barnavernd og málefni barna', 'Meðferðarmál', 'Bein lýðræðið', 'Réttindi jaðarsettrar hópa'],
+        interests: null,
         social: [
           { type: 'instagram', url: 'https://www.instagram.com/unnarthor42/', label: 'Instagram' },
         ],
@@ -945,7 +945,7 @@ const RVK = {
       [4,  'Sigurveig Jóhannsdóttir',         'Æskulýðsráðgjafi fyrir flókin tilfelli',                   'images/candidates/dd42c3513a1e7dbb.jpg', {
         age: null,
         bio: null,
-        interests: ['Æskulýðsþjónusta', 'Stuðningur við ungt fólk í erfiðleikum'],
+        interests: null,
         social: null,
         news: [],
       }],
@@ -1411,7 +1411,7 @@ const RVK = {
       [4,  'Ágústa Árnadóttir',           'Jógaþjálfari',                     'images/candidates/bcf4b8d3ec878ad7.png', {
         age: null,
         bio: null,
-        interests: ['lýðræði', 'jóga', 'borgaraleg þátttaka', 'mannréttindi', 'samfélagsumræða'],
+        interests: null,
         social: null,
         news: [
           { title: 'Okkar borg birtir framboðslista', url: 'https://www.ruv.is/frettir/innlent/2026-03-23-okkar-borg-birtir-frambodslista-470631', source: 'ruv.is' },
@@ -3434,7 +3434,7 @@ const KOP = {
       [3, 'Gunnar Sær Ragnarsson', 'Lögfræðingur', 'images/candidates/0275dbd31b5f0b81.jpg', {
         age: null,
         bio: null,
-        interests: ['lögfræði', 'stjórnmál', 'sveitarstjórnarmál', 'Kópavogur'],
+        interests: null,
         social: {  },
         news: [],
       }],
@@ -3628,7 +3628,7 @@ const KOP = {
       [5, 'Guðmundur Jóhann Jónsson', 'Fyrrverandi forstjóri', 'images/candidates/747f580c890511a5.jpg', {
         age: null,
         bio: null,
-        interests: ['fjármál', 'tryggingar', 'stjórnun', 'atvinnulíf', 'kirkjustarf'],
+        interests: null,
         social: { linkedin: 'https://is.linkedin.com/in/gu%C3%B0mundur-j%C3%B3hann-j%C3%B3nsson-8853287' },
         news: [
           { title: 'Fullskipaður framboðslisti í Kópavogi', url: 'https://xd.is/2026/03/17/fullskipadur-frambodslisti-i-kopavogi/', source: 'xd.is' },
@@ -3703,14 +3703,14 @@ const KOP = {
       [4, 'Sigurður Haraldsson', 'Forstöðumaður', null, {
         age: null,
         bio: null,
-        interests: ['húsnæðismál', 'félagslegt réttlæti', 'verkalýðsmál', 'velferðarmál'],
+        interests: null,
         social: { linkedin: 'https://www.linkedin.com/in/sigur%C3%B0ur-haraldsson-76727544/' },
         news: [],
       }],
       [5, 'Þórgunnur Guðgeirsdóttir', 'Verslunarstjóri', null, {
         age: null,
         bio: null,
-        interests: ['húsnæðismál', 'verkalýðsmál', 'verslun', 'félagslegt réttlæti'],
+        interests: null,
         social: null,
         news: [],
       }],
@@ -3961,7 +3961,7 @@ const KOP = {
       [5, 'Rakel Ósk Sigurðardóttir', 'Félags- og gagnafræðingur', null, {
         age: null,
         bio: null,
-        interests: ['félagsmál', 'gagnagreining', 'ljósmyndun', 'umhverfismál', 'jafnréttismál'],
+        interests: null,
         social: { linkedin: 'https://www.linkedin.com/in/rakelosk/' },
         news: [],
       }],
@@ -4121,7 +4121,7 @@ const HAF = {
       [3, 'Árni Rúnar Árnason', 'Tæknistjóri', 'images/candidates/6770799927cbd6da.jpg', {
         age: null,
         bio: null,
-        interests: ['tæknimál', 'atvinnulíf', 'sveitarstjórnarmál', 'Hafnarfjörður'],
+        interests: null,
         social: {  },
         news: [
           { title: 'Bæjarstjórinn leiðir lista Framsóknar í Hafnarfirði', url: 'https://www.mbl.is/frettir/innlent/2026/03/11/baejarstjorinn_leidir_lista_framsoknar_i_hafnarfird/', source: 'mbl.is' },
@@ -4213,7 +4213,7 @@ const HAF = {
       [3, 'Hjördís Hlíðberg', 'Verkefnastjóri', 'images/candidates/4f9ca6290c4946c0.png', {
         age: null,
         bio: null,
-        interests: ['atvinnulíf', 'verkefnastjórnun', 'sveitarstjórnarmál', 'Hafnarfjörður'],
+        interests: null,
         social: { facebook: 'https://www.facebook.com/hjordis.hlidberg/' },
         news: [
           { title: 'Karólína leiðir lista í Hafnarfirði', url: 'https://vidreisn.is/2026/03/karolina-leidir-lista-i-hafnarfirdi/', source: 'vidreisn.is' },
@@ -4223,7 +4223,7 @@ const HAF = {
       [4, 'Óli Örn Eiríksson', 'Verkefnastjóri', 'images/candidates/efa2d641c298e954.png', {
         age: null,
         bio: null,
-        interests: ['skipulagsmál', 'samgöngur', 'miðbær Hafnarfjarðar', 'hjólreiðar', 'bæjarmál'],
+        interests: null,
         social: null,
         news: [
           { title: 'Karólína leiðir lista í Hafnarfirði', url: 'https://vidreisn.is/2026/03/karolina-leidir-lista-i-hafnarfirdi/', source: 'vidreisn.is' },
@@ -4232,7 +4232,7 @@ const HAF = {
       [5, 'Sigrún Jónsdóttir', 'Flugfreyja', 'images/candidates/5c887575c95fcef1.png', {
         age: null,
         bio: null,
-        interests: ['verkalýðsmál', 'kjarasamningar', 'samgöngur', 'ferðaþjónusta', 'fjölskyldumál'],
+        interests: null,
         social: null,
         news: [
           { title: 'Karólína leiðir lista í Hafnarfirði', url: 'https://vidreisn.is/2026/03/karolina-leidir-lista-i-hafnarfirdi/', source: 'vidreisn.is' },
@@ -4403,7 +4403,7 @@ const HAF = {
       [4, 'Eva Rún Helgadóttir', 'Viðskiptafræðingur', 'images/candidates/6bc2f744725607d4.jpg', {
         age: null,
         bio: null,
-        interests: ['fjármál', 'málefni flóttafólks', 'gagnsæi í stjórnsýslu', 'bæjarmál'],
+        interests: null,
         social: null,
         news: [
           { title: 'Miðflokkurinn hefur kynnt framboðslista sinn', url: 'https://www.fjardarfrettir.is/frettir/politik/midflokkurinn-hefur-kynnt-frambodslista-sinn', source: 'fjardarfrettir.is' },
@@ -4412,7 +4412,7 @@ const HAF = {
       [5, 'Arnhildur Ásdís Kolbeins', 'Fjármálastjóri', null, {
         age: null,
         bio: null,
-        interests: ['fjármál', 'húsnæðismál', 'skipulagsmál', 'byggðaþróun'],
+        interests: null,
         social: null,
         news: [
           { title: 'Miðflokkurinn hefur kynnt framboðslista sinn', url: 'https://www.fjardarfrettir.is/frettir/politik/midflokkurinn-hefur-kynnt-frambodslista-sinn', source: 'fjardarfrettir.is' },
@@ -4721,7 +4721,7 @@ const RNB = {
       [5, 'Halla Karen Guðjónsdóttir', 'Sérfræðingur', 'images/candidates/8342d878e63ddad2.webp', {
         age: null,
         bio: null,
-        interests: ['bæjarmál', 'atvinnumál', 'byggðaþróun'],
+        interests: null,
         social: null,
         news: [
           { title: 'Halldóra Fríða oddviti Framsóknarmanna í Reykjanesbæ', url: 'https://www.mbl.is/frettir/innlent/2026/02/08/halldora_frida_oddviti_framsoknarmanna_i_reykjanesb/', source: 'mbl.is' },
@@ -5123,11 +5123,11 @@ const VOG = {
       [1, 'Gunnar J. Helgason', 'Pípari', null, {
         age: null,
         bio: null,
-        interests: ['íþróttastarf', 'félagsstarf', 'ungmennafélag', 'sveitarstjórnarmál'],
+        interests: null,
         social: null,
         news: [],
       }],
-      [2, 'Áslaug Fjóla Magnúsdóttir', 'Starfsmaður Útfaraþjónustu Suðurnesja', null, { age: null, bio: null, interests: ['Sveitarstjórnarmál', 'Samfélagsmál', 'Þjónusta'], social: null, news: [] }],
+      [2, 'Áslaug Fjóla Magnúsdóttir', 'Starfsmaður Útfaraþjónustu Suðurnesja', null, { age: null, bio: null, interests: null, social: null, news: [] }],
       [3, 'Hilmar Ólafsson', 'Sérfræðingur í fjármálum'],
       [4, 'Guðrún Ósk Barðadóttir', 'Sjálfboðaliði'],
       [5, 'Ásgeir Ragnar Ásgeirsson', 'Ellilífeyrisþegi'],
@@ -5157,14 +5157,14 @@ const VOG = {
       [1, 'Björg Ásta Þórðardóttir', 'Lögfræðingur', 'images/candidates/e276cebce309fa0a.jpg', {
         age: null,
         bio: null,
-        interests: ['lögfræði', 'knattspyrna', 'sveitarstjórnarmál', 'atvinnulíf'],
+        interests: null,
         social: null,
         news: [
           { title: 'Björg Ásta Þórðardóttir nýr framkvæmdastjóri í Valhöll', url: 'https://www.mbl.is/frettir/innlent/2025/04/04/bjorg_asta_thordardottir_nyr_framkvaemdastjori_i_va/', source: 'mbl.is' },
           { title: 'Björg Ásta Þórðardóttir aðstoðar dómsmálaráðherra', url: 'https://www.vf.is/frettir/bjorg-asta-thordardottir-adstodar-domsmalaradherra', source: 'vf.is' },
           { title: 'Tryggvi tekur við af Björgu í Valhöll', url: 'https://www.mbl.is/frettir/innlent/2025/11/25/tryggvi_tekur_vid_af_bjorgu_i_valholl/', source: 'mbl.is' },],
       }],
-      [2, 'Guðmann Rúnar Lúðvíksson', 'Sérfræðingur hjá landhelgisgæslunni, varabæjarfulltrúi', 'images/candidates/e2cddc89e5d8e495.jpg', { age: null, bio: null, interests: ['Sveitarstjórnarmál', 'Öryggismál', 'Sjávarútvegur', 'Almannavarnir'], social: null, news: [] }],
+      [2, 'Guðmann Rúnar Lúðvíksson', 'Sérfræðingur hjá landhelgisgæslunni, varabæjarfulltrúi', 'images/candidates/e2cddc89e5d8e495.jpg', { age: null, bio: null, interests: null, social: null, news: [] }],
       [3, 'Hulda Birna Helgadóttir Blöndal', 'Deildarstjóri hjá Klettabæ', 'images/candidates/034fb5f272a45b03.jpg'],
       [4, 'Kristín Arna Hjaltadóttir', 'Leikskólakennari', 'images/candidates/5bff745d49c4ac93.jpg'],
       [5, 'Andri Rúnar Sigurðsson', 'Fiskeldisfræðingur, bæjarfulltrúi', 'images/candidates/d29184f53ef5de14.jpg'],
@@ -5193,11 +5193,11 @@ const VOG = {
       [1, 'Birgir Örn Ólafsson', 'Deildarstjóri, forseti bæjarstjórnar', 'images/candidates/e8bab110da9413f5.jpg', {
         age: null,
         bio: null,
-        interests: ['sveitarstjórnarmál', 'byggðaþróun', 'samfélagsmál'],
+        interests: null,
         social: null,
         news: [],
       }],
-      [2, 'Eva Björk Jónsdóttir', 'Deildarstjóri, bæjarfulltrúi', null, { age: null, bio: null, interests: ['Sveitarstjórnarmál', 'Atvinnumál', 'Skólamál', 'Samfélagsmál'], social: null, news: [] }],
+      [2, 'Eva Björk Jónsdóttir', 'Deildarstjóri, bæjarfulltrúi', null, { age: null, bio: null, interests: null, social: null, news: [] }],
       [3, 'Friðrik Valdimár Árnason', 'Teymisstjóri hleðslulausna, bæjarfulltrúi'],
       [4, 'Ingþór Guðmundsson', 'Rekstrarstjóri, varabæjarfulltrúi'],
       [5, 'Inga Rut Hlöðversdóttir', 'Kirkjuvörður, framkvæmdastjóri'],
@@ -5227,14 +5227,14 @@ const VOG = {
       [1, 'Kristinn Björgvinsson', 'Verkefnastjóri', 'images/candidates/2f23677c2b138528.jpg', {
         age: null,
         bio: null,
-        interests: ['sveitarstjórnarmál', 'samfélagsmál', 'byggðaþróun'],
+        interests: null,
         social: null,
         news: [],
       }],
       [2, 'Eðvarð Atli Bjarnason', 'Sölustjóri', null, {
         age: null,
         bio: null,
-        interests: ['sveitarstjórnarmál', 'iðnaður', 'atvinnuuppbygging', 'Suðurnes'],
+        interests: null,
         social: { facebook: 'https://www.facebook.com/edvardatli' },
         news: [],
       }],
@@ -5372,7 +5372,7 @@ const SNB = {
       [1, 'Anton Kristinn Guðmundsson', 'Stjórnunarfræðingur og bæjarfulltrúi', 'images/candidates/fcebbe2716fd3305.jpg', {
         age: 32,
         bio: null,
-        interests: ['Heilbrigðisþjónusta', 'Efnahagsþróun á Suðurnesjum', 'Sveitarstjórnarmál', 'Skilvirkur rekstur sveitarfélaga'],
+        interests: null,
         social: null,
         news: [
           { title: 'Framsóknarflokkurinn tryggir heilbrigðisþjónustu í Suðurnesjabæ', url: 'https://www.visir.is/g/20242614877d/framsoknarflokkurinn-tryggir-heilbrigdisthjonustu-i-sudurnesjabae', source: 'visir.is' },
@@ -5382,7 +5382,7 @@ const SNB = {
       [2, 'Magnús Sigfús Magnússon', 'Formaður verkalýðsfélags og bæjarfulltrúi', 'images/candidates/dadcb08084393b52.jpg', {
         age: null,
         bio: null,
-        interests: ['Verkalýðsmál og réttindi launafólks', 'Sveitarstjórnarmál', 'Þróun Sandgerðis og nærsamfélagsins'],
+        interests: null,
         social: null,
         news: [
           { title: 'Hvar búa þau sem ætla að gæta hagsmuna íbúa í Suðurnesjabæ?', url: 'https://www.vf.is/frettir/hvar-bua-thau-sem-aetla-ad-gaeta-hagsmuna-ibua-i-sudurnesjabae', source: 'vf.is' },
@@ -5420,7 +5420,7 @@ const SNB = {
       [1, 'Haukur Andreasson', 'Lögfræðingur og fasteignasali hjá Allt fasteignir', 'images/candidates/077ff34fa2132ee5.jpg', {
         age: null,
         bio: null,
-        interests: ['Húsnæðismál og fasteignamarkaður', 'Atvinnuþróun og frumkvæði', 'Umhverfismál', 'Menning, íþróttir og æskulýðsmál'],
+        interests: null,
         social: null,
         news: [
           { title: 'D-listinn í Suðurnesjabæ kynnir framboðslista sinn fyrir kosningar', url: 'https://www.vf.is/frettir/d-listinn-i-sudurnesjabae-kynnir-frambodslista-sinn-fyrir-kosningar', source: 'vf.is' },
@@ -5430,7 +5430,7 @@ const SNB = {
       [2, 'Haraldur Helgason', 'Teymisstjóri veitingaþjónustu LSH', 'images/candidates/78e148f39212ef7d.jpg', {
         age: null,
         bio: null,
-        interests: ['Heilbrigðismál og velferðarþjónusta', 'Sveitarstjórnarmál', 'Atvinnumál á Suðurnesjum', 'Nærsamfélag og íbúaþátttaka'],
+        interests: null,
         social: { linkedin: 'https://is.linkedin.com/in/haraldur-helgason-91627413', facebook: 'https://www.facebook.com/haraldur.helgason.9' },
         news: [
           { title: 'D-listinn í Suðurnesjabæ kynnir framboðslista sinn fyrir kosningar', url: 'https://www.vf.is/frettir/d-listinn-i-sudurnesjabae-kynnir-frambodslista-sinn-fyrir-kosningar', source: 'vf.is' },
@@ -5470,13 +5470,13 @@ const SNB = {
       [1, 'Daði Bergþórsson', 'Frambjóðandi', 'images/candidates/437a01b57b4b0151.png', {
         age: null,
         bio: null,
-        interests: ['sveitarstjórnarmál', 'byggðaþróun', 'samfélagsmál'],
+        interests: null,
         social: null,
         news: [
           { title: 'Listi Miðflokksins ólögmætur: „Svæsin niðurstaða"', url: 'https://www.mbl.is/frettir/innlent/2026/04/13/listi_midflokksins_ologmaetur_svaesin_nidurstada/', source: 'mbl.is' },
         ],
       }],
-      [2, 'Sigrún Harpa Sigurjónd. Heide', 'Frambjóðandi', null, { age: null, bio: null, interests: ['Sveitarstjórnarmál', 'Stjórnmál', 'Samfélagsmál'], social: null, news: [] }],
+      [2, 'Sigrún Harpa Sigurjónd. Heide', 'Frambjóðandi', null, { age: null, bio: null, interests: null, social: null, news: [] }],
       [3, 'Erla Jóhannsdóttir', 'Frambjóðandi'],
       [4, 'Sigríður Rós Jónatansdóttir', 'Frambjóðandi', 'images/candidates/f4888589cf9b4735.jpg'],
       [5, 'Ólafur Fannar Þórhallsson', 'Frambjóðandi', 'images/candidates/9fe784a479c783be.jpg'],
@@ -5519,7 +5519,7 @@ const SNB = {
       [2, 'Bergný Jóna Sævarsdóttir', 'Verkefnastjóri og stjórnsýslufræðingur', 'images/candidates/68120ec4711e5798.png', {
         age: 51,
         bio: null,
-        interests: ['Stjórnsýsla og verkefnastjórnun', 'Sjálfbær þróun', 'Velferðarmál'],
+        interests: null,
         social: null,
         news: [
           { title: 'Bergný og Elín til Kadeco', url: 'https://www.mbl.is/vidskipti/frettir/2023/10/25/bergny_og_elin_til_kadeco/', source: 'mbl.is' },
@@ -5921,7 +5921,7 @@ const VME = {
           { title: 'Gera allt klárt fyrir loðnuvertíð í Eyjum', url: 'https://www.mbl.is/200milur/frettir/2026/01/29/gera_allt_klart_fyrir_lodnuvertid_i_eyjum/', source: 'mbl.is' },
         ],
       }],
-      [2, 'Trausti Hjaltason', 'Áhættustjóri', 'images/candidates/4d3779c91a0584d6.jpg', { age: 43, bio: null, interests: ['Sveitarstjórnarmál', 'Áhættustjórnun', 'Skólamál', 'Atvinnumál'], social: null, news: [] }],
+      [2, 'Trausti Hjaltason', 'Áhættustjóri', 'images/candidates/4d3779c91a0584d6.jpg', { age: 43, bio: null, interests: null, social: null, news: [] }],
       [3, 'Aníta Jóhannsdóttir', 'Viðskiptafræðingur', 'images/candidates/cee815c1b0891812.jpg'],
       [4, 'Óskar Jósúason', 'Upplýsingafulltrúi', 'images/candidates/90e233d0667a845e.jpg'],
       [5, 'Hildur Sólveig Sigurðardóttir', 'Sjúkraþjálfari', 'images/candidates/a635ad38fa819725.jpg'],
@@ -5961,7 +5961,7 @@ const VME = {
         social: null,
         news: [{ title: 'Spurt og svarað: Arndís María frá Eyjalistanum', url: 'https://eyjafrettir.is/spurt-og-svarad-arndis-maria-fra-eyjalistanum/', source: 'eyjafrettir.is' }],
       }],
-      [2, 'Anton Örn Björnsson', 'Kennari', 'images/candidates/e835a7823e7df449.png', { age: 34, bio: null, interests: ['Skólamál', 'Æskulýðsmál', 'Forvarnir', 'Samfélagsmál'], social: null, news: [] }],
+      [2, 'Anton Örn Björnsson', 'Kennari', 'images/candidates/e835a7823e7df449.png', { age: 34, bio: null, interests: null, social: null, news: [] }],
       [3, 'Erlingur Guðbjörnsson', 'Rekstrarstjóri Íslandspósts', 'images/candidates/8713beb90aee6b7b.jpg'],
       [4, 'Hildur Rún Róbertsdóttir', '', 'images/candidates/0bb9334784509570.jpg'],
       [5, 'Jessý Friðbjarnardóttir', ''],
@@ -6004,7 +6004,7 @@ const VME = {
           { title: 'Miðflokkurinn býður fram í Vestmannaeyjum', url: 'https://www.visir.is/g/20262838162d/midflokkurinn-bydur-fram-i-vestmannaeyjum', source: 'visir.is' },
         ],
       }],
-      [2, 'Sæunn Magnúsdóttir', 'Frambjóðandi', 'images/candidates/d37d117064880420.jpg', { age: 38, bio: null, interests: ['Lögfræði', 'Samgöngumál', 'Atvinnumál', 'Íþróttastarf'], social: null, news: [] }],
+      [2, 'Sæunn Magnúsdóttir', 'Frambjóðandi', 'images/candidates/d37d117064880420.jpg', { age: 38, bio: null, interests: null, social: null, news: [] }],
       [3, 'Jóhann Ingi Óskarsson', '', 'images/candidates/37c60229e5203276.jpg'],
       [4, 'Sonja Andrésdóttir', 'Tómstunda- og virknistjóri', 'images/candidates/8bca1666d744bba9.jpg'],
       [5, 'Guðni Hjörleifsson', '', 'images/candidates/8985b8d7d2e3be01.jpg'],
@@ -6599,11 +6599,9 @@ const RTE = {
   },
   NRE: {
     tagline: 'Nýtt sjálfstætt framboð — ný sjónarmiðl í Rangárþingi eystra',
-    agenda: [
-      { icon: '🌟', title: 'Nýjar hugmyndir', text: 'Sjálfstætt framboð með íbúamiðaða nálgun.' },
-      { icon: '🤝', title: 'Samstarf', text: 'Breitt samstarf yfir pólitískar skiptingar.' },
-      { icon: '💡', title: 'Þróun', text: 'Framtíðarskipulag og þróun sveitarfélagsins.' },
-    ],
+    agenda: [],
+    // [stripped 2026-05-05] no source verifiable; research pending
+
     list: [
       [1, 'Tómas Birgir Magnússon', 'Ferðaþjónustuaðili og íþróttakennari', null, {
         age: null,
@@ -6789,11 +6787,11 @@ const SKR = {
       [1, 'Sveinn Hreiðar Jensson', 'Framkvæmdastjóri og sveitarstjórnarfulltrúi', 'images/candidates/b26ba76719c233bc.jpg', {
         age: null,
         bio: null,
-        interests: ['Ferðaþjónusta', 'Hótelrekstur', 'Sveitarstjórnarmál', 'Atvinnuuppbygging'],
+        interests: null,
         social: null,
         news: [],
       }],
-      [2, 'Sigurður Árnason', 'Stálsmiður og rekstraraðili', 'images/candidates/0ece6eaccb279e5d.jpg', { age: null, bio: null, interests: ['iðnaður', 'atvinnulíf', 'sveitarstjórnarmál', 'Skaftárhreppur'], social: {  }, news: [] }],
+      [2, 'Sigurður Árnason', 'Stálsmiður og rekstraraðili', 'images/candidates/0ece6eaccb279e5d.jpg', { age: null, bio: null, interests: null, social: {  }, news: [] }],
       [3, 'Auðbjörg Brynja Bjarnadóttir', 'Hjúkrunarfræðingur og ljósmóðir', 'images/candidates/f3fee0151861a072.jpg'],
       [4, 'Bergur Kristinn Guðnason', 'Húsasmíðameistari'],
       [5, 'Sólveig Ólafsdóttir', 'Kennari og sjúkraflutningamaður', 'images/candidates/d294e8b80fdeb75f.jpg'],
@@ -6814,13 +6812,13 @@ const SKR = {
       [1, 'Jóhannes Gissurarson', 'Bóndi', null, {
         age: null,
         bio: null,
-        interests: ['Landbúnaður', 'Almannavarnir', 'Sveitarstjórnarmál', 'Náttúruvá'],
+        interests: null,
         social: null,
         news: [
           { title: '„Var bara ekkert hlustað á okkur“', url: 'https://www.mbl.is/frettir/innlent/2024/07/30/var_bara_ekkert_hlustad_a_okkur/', source: 'mbl.is' },
           { title: 'Kominn tími á nýja rýmingaráætlun', url: 'https://www.mbl.is/frettir/innlent/2024/09/09/kominn_timi_a_nyja_rymingaraaetlun/', source: 'mbl.is' },],
       }],
-      [2, 'Auður Guðbjörnsdóttir', 'Bóndi og skólabílstjóri', null, { age: null, bio: null, interests: ['landbúnaður', 'byggðamál', 'sveitarstjórnarmál', 'hross', 'Skaftárhreppur'], social: {  }, news: [] }],
+      [2, 'Auður Guðbjörnsdóttir', 'Bóndi og skólabílstjóri', null, { age: null, bio: null, interests: null, social: {  }, news: [] }],
       [3, 'Gunnar Pétur Sigmársson', 'Verkstjóri og sveitarstjórnarfulltrúi'],
       [4, 'Einar Kristján Jónsson', 'Sveitarstjóri Skaftárhrepps'],
       [5, 'Guðmundur Vignir Steinsson', 'Framkvæmdastjóri'],
@@ -6930,11 +6928,9 @@ const BSG = {
   },
   BSP: {
     tagline: 'Þ-listinn — öflug Bláskógabyggð',
-    agenda: [
-      { icon: '🏛️', title: 'Stjórnun', text: 'Skilvirkni og gagnsæi í stjórnun.' },
-      { icon: '🌱', title: 'Sjálfbærni', text: 'Sjálfbær þróun og umhverfisvernd.' },
-      { icon: '🤝', title: 'Samfélag', text: 'Opið og fjölmennt samfélag.' },
-    ],
+    agenda: [],
+    // [stripped 2026-05-05] no source verifiable; research pending
+
     list: [
       [1, 'Anna Greta Ólafsdóttir', 'Leikskólastjóri', 'images/candidates/18d76e3d7586176b.jpg', {
         age: null,
@@ -7041,11 +7037,11 @@ const HMR = {
       [1, 'Jón Bjarnason', 'Bóndi og oddviti', 'images/candidates/e7b682c3b78e1595.jpg', {
         age: null,
         bio: null,
-        interests: ['sauðfjárrækt', 'ferðaþjónusta', 'sveitarstjórnarmál', 'byggðamál'],
+        interests: null,
         social: null,
         news: [],
       }],
-      [2, 'Bjarney Vignisdóttir', 'Hjúkrunarfræðingur', 'images/candidates/f356f1af7ed2fac4.jpg', { age: null, bio: null, interests: ['heilbrigðismál', 'hjúkrun', 'sveitarstjórnarmál', 'Hrunamannahreppur'], social: {  }, news: [] }],
+      [2, 'Bjarney Vignisdóttir', 'Hjúkrunarfræðingur', 'images/candidates/f356f1af7ed2fac4.jpg', { age: null, bio: null, interests: null, social: {  }, news: [] }],
       [3, 'Ragnar Lúðvík Jónsson', 'Viðskiptafræðingur og leiðsögumaður', 'images/candidates/bf02fbc5fd4f47a2.jpg'],
       [4, 'Katrín Þorvaldsdóttir', 'Kennari', 'images/candidates/e30d79bece809b9b.jpg'],
       [5, 'Bjarni Arnar Hjaltason', 'Starfsmaður UTU', 'images/candidates/ac91ce142ea83c4e.jpg'],
@@ -7066,11 +7062,11 @@ const HMR = {
       [1, 'Daði Geir Samúelsson', 'Rekstrarstjóri Sólskins grænmetis', null, {
         age: null,
         bio: null,
-        interests: ['landbúnaður', 'garðyrkja', 'sveitarstjórnarmál', 'atvinnumál'],
+        interests: null,
         social: { linkedin: 'https://www.linkedin.com/in/dadigeir/' },
         news: [],
       }],
-      [2, 'Rakel Ósk Kristófersdóttir', 'Verslunarstjóri', null, { age: null, bio: null, interests: ['verslun', 'heilbrigðisvísindi', 'sveitarstjórnarmál', 'Hrunamannahreppur'], social: {  }, news: [] }],
+      [2, 'Rakel Ósk Kristófersdóttir', 'Verslunarstjóri', null, { age: null, bio: null, interests: null, social: {  }, news: [] }],
       [3, 'Hjalti Sigurðsson', 'Aðstoðarstjóri'],
       [4, 'Margrét Sævarsdóttir', 'Kennari'],
       [5, 'Þórmundur Smári Hilmarsson', 'Rafvirki'],
@@ -7165,11 +7161,11 @@ const SGN = {
       [1, 'Gunnar Örn Marteinsson', 'Ferðaþjónustubóndi', null, {
         age: null,
         bio: null,
-        interests: ['Ferðaþjónusta', 'Hestamennska', 'Sveitarstjórnarmál', 'Landbúnaður'],
+        interests: null,
         social: null,
         news: [],
       }],
-      [2, 'Ingibjörg Sæunn Jónsdóttir', 'Líffræðingur', null, { age: null, bio: null, interests: ['líffræði', 'umhverfismál', 'sveitarstjórnarmál', 'Skeiða- og Gnúpverjahreppur'], social: {  }, news: [] }],
+      [2, 'Ingibjörg Sæunn Jónsdóttir', 'Líffræðingur', null, { age: null, bio: null, interests: null, social: {  }, news: [] }],
       [3, 'Sigurður Kristmundsson', 'Bóndi'],
       [4, 'Sigríður Björk Marinósdóttir', 'Aðstoðarleikskólastjóri og bóndi'],
       [5, 'Gylfi Sigríðarson', 'Bóndi'],
@@ -7190,14 +7186,14 @@ const SGN = {
       [1, 'Haraldur Þór Jónsson', 'Bóndi og sveitarstjórnarfulltrúi', null, {
         age: null,
         bio: null,
-        interests: ['Sveitarstjórnarmál', 'Landbúnaður', 'Orkumál', 'Ferðaþjónusta'],
+        interests: null,
         social: null,
         news: [
           { title: 'Haraldur Þór réttir Sylvíu Karen keflið', url: 'https://www.mbl.is/frettir/innlent/2024/05/23/haraldur_thor_rettir_sylviu_karen_keflid/', source: 'mbl.is' },
           { title: 'Fjallaböðin í Þjórsárdal verða að veruleika', url: 'https://www.dfs.is/2022/11/04/fjallabodin-i-thjorsardal-verda-ad-veruleika/', source: 'dfs.is' },
           { title: 'Óvæntar vinsældir í netheimum', url: 'https://www.mbl.is/frettir/innlent/2026/03/01/ovaentar_vinsaeldir_i_netheimum/', source: 'mbl.is' },],
       }],
-      [2, 'Vilborg M. Ástráðsdóttir', 'Listakennari', null, { age: null, bio: null, interests: ['myndlist', 'menntun', 'menning', 'sveitarstjórnarmál'], social: {  }, news: [] }],
+      [2, 'Vilborg M. Ástráðsdóttir', 'Listakennari', null, { age: null, bio: null, interests: null, social: {  }, news: [] }],
       [3, 'Harpa Dís Harðardóttir', 'Skógræktarráðgjafi'],
       [4, 'Björgvin Þór Harðarson', 'Bóndi'],
       [5, 'Birna Þorsteinsdóttir', 'Fyrrverandi bóndi'],
@@ -7409,11 +7405,11 @@ const HGS = {
       [1, 'Árni Rúnar Örvarsson', 'Framkvæmdastjóri', 'images/candidates/13879b0bd0336d5f.jpg', {
         age: 32,
         bio: null,
-        interests: ['sveitarstjórnarmál', 'atvinnumál', 'byggðaþróun'],
+        interests: null,
         social: null,
         news: [],
       }],
-      [2, 'Katrín Olsen Björnsdóttir', 'Hjúkrunarfræðingur', 'images/candidates/c776b797cdcd3005.jpg', { age: null, bio: null, interests: ['heilbrigðismál', 'hjúkrun', 'sveitarstjórnarmál', 'Hörgársveit'], social: {  }, news: [] }],
+      [2, 'Katrín Olsen Björnsdóttir', 'Hjúkrunarfræðingur', 'images/candidates/c776b797cdcd3005.jpg', { age: null, bio: null, interests: null, social: {  }, news: [] }],
       [3, 'Jónas Þór Jónasson', 'Vélvirki og söngmaður', 'images/candidates/47fab25d34244a27.jpg'],
       [4, 'Aðalsteinn Heiðmann Hreinsson', 'Bóndi', 'images/candidates/2f88108f2f08a28a.jpg'],
       [5, 'Björg Ingadóttir', 'Lagastúdent', 'images/candidates/c8bef3f43bfd0637.jpg'],
@@ -7456,11 +7452,11 @@ const HGS = {
       [1, 'Bjarki Brynjólfsson', 'Lögfræðingur', null, {
         age: 36,
         bio: null,
-        interests: ['lögfræði', 'sveitarstjórnarmál', 'byggðamál'],
+        interests: null,
         social: null,
         news: [],
       }],
-      [2, 'Ásta Hafberg', 'Sölu- og markaðsstjóri', null, { age: null, bio: null, interests: ['markaðsmál', 'atvinnulíf', 'sveitarstjórnarmál', 'Hörgársveit'], social: {  }, news: [] }],
+      [2, 'Ásta Hafberg', 'Sölu- og markaðsstjóri', null, { age: null, bio: null, interests: null, social: {  }, news: [] }],
       [3, 'Hugrún Lísa Heimisdóttir', 'Eftirlitsmaður'],
       [4, 'Jón Þór Benediktsson', 'Framkvæmdastjóri'],
       [5, 'Sveinn Brimar Jónsson', 'Háskólanemi'],
@@ -7493,7 +7489,7 @@ const HNB = {
           { title: 'Tíminn breytir draumum og ævintýrum í veruleika', url: 'https://www.feykir.is/is/frettir/timinn-breytir-draumum-og-aevintyrum-i-veruleika-askorandapenni-jon-gislason-stora-burfelli', source: 'feykir.is' },
         ],
       }],
-      [2, 'Sara Björk Þorsteinsdóttir', 'Frambjóðandi', null, { age: null, bio: null, interests: ['sveitarstjórnarmál', 'Húnabyggð'], social: {  }, news: [] }],
+      [2, 'Sara Björk Þorsteinsdóttir', 'Frambjóðandi', null, { age: null, bio: null, interests: null, social: {  }, news: [] }],
       [3, 'Emil Jóhann Þorsteinsson', ''],
       [4, 'Sverrir Þór Sverrisson', ''],
       [5, 'Karen Helga R. Steinsdóttir', ''],
@@ -7527,7 +7523,7 @@ const HNB = {
         social: null,
         news: [],
       }],
-      [2, 'Jenný Lind Gunnarsdóttir', 'Frambjóðandi', 'images/candidates/66d56eaaf18f6f90.webp', { age: null, bio: null, interests: ['menntun', 'sérkennsla', 'farsæld barna', 'lýðheilsa', 'sveitarstjórnarmál'], social: {  }, news: [] }],
+      [2, 'Jenný Lind Gunnarsdóttir', 'Frambjóðandi', 'images/candidates/66d56eaaf18f6f90.webp', { age: null, bio: null, interests: null, social: {  }, news: [] }],
       [3, 'Helgi Páll Gíslason', '', 'images/candidates/5b5b78c5a9646e6b.webp'],
       [4, 'Ágústa Rós Ingibjörnsdóttir', '', 'images/candidates/71bbe2bcb1ac4544.webp'],
       [5, 'Ásdís Adda Ólafsdóttir', '', 'images/candidates/dfd6b70e00a3f6ed.webp'],
@@ -7564,7 +7560,7 @@ const HNB = {
           { title: 'Auðveldar okkur vinnuna, segir Guðmundur Haukur um kaup ríkisins á stjórnsýsluhúsnæði Blönduósbæjar', url: 'https://www.feykir.is/is/frettir/audveldar-okkur-vinnuna-segir-gudmundur-haukur-um-kaup-rikisins-a-stjornsysluhusnaedi-blonduosbaejar-1', source: 'feykir.is' },
         ],
       }],
-      [2, 'Zophonías Ari Lárusson', 'Framkvæmdastjóri og húsasmíðameistari', 'images/candidates/02e79effa3397748.jpg', { age: 51, bio: null, interests: ['atvinnulíf', 'byggingarmál', 'sveitarstjórnarmál', 'Blönduós'], social: {  }, news: [] }],
+      [2, 'Zophonías Ari Lárusson', 'Framkvæmdastjóri og húsasmíðameistari', 'images/candidates/02e79effa3397748.jpg', { age: 51, bio: null, interests: null, social: {  }, news: [] }],
       [3, 'Kolbrún Ágústa Guðnadóttir', '', 'images/candidates/32c42fb2e27c8836.jpg'],
       [4, 'Sævar Björgvinsson', '', 'images/candidates/a839f1fe8ddc6a6f.jpg'],
       [5, 'Ragnhildur Haraldsdóttir', '', 'images/candidates/1cc05916946a5818.jpg'],
@@ -7598,14 +7594,14 @@ const HNT = {
       [1, 'Sigurður Líndal Þórison', 'Verkefnastjóri', null, {
         age: null,
         bio: null,
-        interests: ['menningarmál', 'byggðaþróun', 'atvinnumál', 'ferðaþjónusta', 'leiklist'],
+        interests: null,
         social: null,
         news: [{ title: 'Sigurður Líndal kveður Selasetur Íslands', url: 'https://trolli.is/sigurdur-lindal-kvedur-selasetur-islands/', source: 'trolli.is' },
           { title: 'Sigurður Líndal ráðinn verkefnastjóri Vestfjarðastofu', url: 'https://www.feykir.is/is/frettir/sigurdur-lindal-radinn-verkefnastjori-vestfjardastofu', source: 'feykir.is' },
           { title: 'Sigurður Líndal í stjórn Markaðsstofu Norðurlands', url: 'https://www.feykir.is/is/frettir/sigurdur-lindal-i-stjorn-markadsstofu-nordurlands', source: 'feykir.is' },
           { title: 'Ragnhildur og Sigurður ráðin til Eims', url: 'https://www.ssnv.is/is/moya/news/ragnhildur-og-sigurdur-radin-til-eims', source: 'ssnv.is' },],
       }],
-      [2, 'Nína Axelsdóttir', 'Tónlistarkennari og bóndi', null, { age: null, bio: null, interests: ['tónlist', 'menntun', 'landbúnaður', 'sveitarstjórnarmál'], social: {  }, news: [] }],
+      [2, 'Nína Axelsdóttir', 'Tónlistarkennari og bóndi', null, { age: null, bio: null, interests: null, social: {  }, news: [] }],
       [3, 'Dagrún Kristinsdóttir', 'Bóndi og löggiltir bókari'],
       [4, 'Ingveldur Linda Gestsdóttir', 'Bóndi'],
       [5, 'Matthías Rúnarsson', 'Bókari'],
@@ -7629,11 +7625,11 @@ const HNT = {
       [1, 'Örn Arnarson', 'Framkvæmdastjóri', 'images/candidates/81a0df37e60b8d0c.jpg', {
         age: null,
         bio: null,
-        interests: ['sveitarstjórnarmál', 'atvinnumál', 'byggðamál'],
+        interests: null,
         social: null,
         news: [{ title: 'Auglýsing um úrskurð kjörstjórnar Húnaþings vestra', url: 'https://www.hunathing.is/is/mannlif/frettir-og-auglysingar/tilkynningar-og-frettir/auglysing-um-urskurd-kjorstjornar-hunathings-vestra', source: 'hunathing.is' }],
       }],
-      [2, 'Sigríður Ólafsdóttir', 'Bóndi, ráðgjafi og sveitarstjórnarfulltrúi', 'images/candidates/b660c5f3db1b7756.jpg', { age: 43, bio: null, interests: ['landbúnaður', 'sauðfjárrækt', 'umhverfismál', 'byggðamál', 'sveitarstjórnarmál'], social: {  }, news: [] }],
+      [2, 'Sigríður Ólafsdóttir', 'Bóndi, ráðgjafi og sveitarstjórnarfulltrúi', 'images/candidates/b660c5f3db1b7756.jpg', { age: 43, bio: null, interests: null, social: {  }, news: [] }],
       [3, 'Magnús Magnússon', 'Fyrrverandi formaður ráðs, prestur og bóndi', 'images/candidates/6558fc9b317f4457.jpg'],
       [4, 'Fríða Marý Halldórsdóttir', 'Hársnyrtir', 'images/candidates/0b23117567d331cf.jpg'],
       [5, 'Magnús Örn Valsson', 'Sauðfjárbóndi', 'images/candidates/3c6e0e96d853a874.jpg'],
@@ -7658,11 +7654,11 @@ const HNT = {
       [1, 'Viktor Ingi Jónsson', 'Bæjarfulltrúi og kennari', 'images/candidates/131fecfd2fbc069f.jpg', {
         age: null,
         bio: null,
-        interests: ['menntamál', 'knattspyrna', 'ungmennastarf', 'sveitarstjórnarmál'],
+        interests: null,
         social: null,
         news: [],
       }],
-      [2, 'Magnús Vignir Eðvaldsson', 'Bæjarfulltrúi og kennari', null, { age: null, bio: null, interests: ['menntun', 'sveitarstjórnarmál', 'byggðamál', 'Húnaþing vestra'], social: {  }, news: [] }],
+      [2, 'Magnús Vignir Eðvaldsson', 'Bæjarfulltrúi og kennari', null, { age: null, bio: null, interests: null, social: {  }, news: [] }],
       [3, 'Eygló Hrund Guðmundsdóttir', 'Skólabílstjóri og nemi'],
       [4, 'Guðrún Gróa Þorsteinsdóttir', 'Lögreglumaður'],
       [5, 'Sigurbjörg Jóhannesdóttir', 'Sérfræðingur'],
@@ -7698,11 +7694,11 @@ const SFJ = {
       [1, 'Einar Eðvald Einarsson', 'Framkvæmdarstjóri og forseti sveitarstjórnar', 'images/candidates/20dde4e47dfbcd01.webp', {
         age: 55,
         bio: null,
-        interests: ['sveitarstjórnarmál', 'landbúnaður', 'byggðaþróun', 'samvinnufélög'],
+        interests: null,
         social: null,
         news: [{ title: 'Framboðslisti Framsóknar í Skagafirði 2026', url: 'https://kosningasaga.wordpress.com/2026/03/05/frambodslisti-framsoknar-i-skagafirdi-2/', source: 'kosningasaga.wordpress.com' }],
       }],
-      [2, 'Hrund Pétursdóttir', 'Deildarstjóri', 'images/candidates/1f623a06c1ebc447.webp', { age: null, bio: null, interests: ['Sveitarstjórnarmál', 'Atvinnumál', 'Fjármál', 'Byggðamál'], social: null, news: [] }],
+      [2, 'Hrund Pétursdóttir', 'Deildarstjóri', 'images/candidates/1f623a06c1ebc447.webp', { age: null, bio: null, interests: null, social: null, news: [] }],
       [3, 'Halldór Jón Sigurðsson', 'Íþróttakennari og þjálfari'],
       [4, 'Sylvía Sif Halldórsdóttir', 'Hjúkrunarfræðingur'],
       [5, 'Sigurlína Erla Magnúsdóttir', 'Skrifstofuaðstoðarmaður'],
@@ -7737,11 +7733,11 @@ const SFJ = {
       [1, 'Magnús Barðdal', 'Lögfræðingur', 'images/candidates/3dec07cbfc4f46a8.jpg', {
         age: 40,
         bio: null,
-        interests: ['sveitarstjórnarmál', 'atvinnuþróun', 'fjárfestingar', 'lögfræði'],
+        interests: null,
         social: null,
         news: [{ title: 'Fullskipaður framboðslisti í Skagafirði', url: 'https://xd.is/2026/03/17/fullskipadur-frambodslisti-i-skagafirdi/', source: 'xd.is' }],
       }],
-      [2, 'Sólborg S. Borgarsdóttir', 'Vinnuverndarsérfræðingur', 'images/candidates/d74493157205c72f.jpg', { age: 50, bio: null, interests: ['Sveitarstjórnarmál', 'Vinnuvernd', 'Hafnarmál', 'Mannvirkjamál'], social: null, news: [] }],
+      [2, 'Sólborg S. Borgarsdóttir', 'Vinnuverndarsérfræðingur', 'images/candidates/d74493157205c72f.jpg', { age: 50, bio: null, interests: null, social: null, news: [] }],
       [3, 'Guðlaugur Skúlason', 'Verkefnastjóri', 'images/candidates/98adeea1551b4ca2.jpg'],
       [4, 'Rósanna Valdimársdóttir', 'Vélstjóri og reiðkennari', 'images/candidates/57ccb1453a2cdbae.jpg'],
       [5, 'Jón Daníel Jónsson', 'Kokkur', 'images/candidates/7a8d7f909560abb1.jpg'],
@@ -7776,11 +7772,11 @@ const SFJ = {
       [1, 'Eyþór Fannar Sveinsson', 'Byggingaverkfræðingur', 'images/candidates/ab9aa294c00caf0f.jpg', {
         age: 38,
         bio: null,
-        interests: ['sveitarstjórnarmál', 'byggingaverkfræði', 'fjármál sveitarfélaga', 'byggðamál'],
+        interests: null,
         social: null,
         news: [{ title: 'Horfumst í augu við staðreyndir — Eyþór Fannar skrifar', url: 'https://www.feykir.is/is/frettir/horfumst-i-augu-vid-stadreyndir-eythor-fannar-sveinsson-skrifar', source: 'feykir.is' }],
       }],
-      [2, 'Jóhanna Ey Harðardóttir', 'Fatahönnuður', 'images/candidates/223ba50a8e950a1c.jpg', { age: 38, bio: null, interests: ['Fatahönnun', 'Handverk', 'Menning', 'Sveitarstjórnarmál'], social: null, news: [] }],
+      [2, 'Jóhanna Ey Harðardóttir', 'Fatahönnuður', 'images/candidates/223ba50a8e950a1c.jpg', { age: 38, bio: null, interests: null, social: null, news: [] }],
       [3, 'Sveinn Úlfarsson', 'Bóndi'],
       [4, 'Elínborg Erla Ásgeirsdóttir', 'Garðyrkjufræðingur'],
       [5, 'Ingvar Daði Jóhannsson', 'Trésmiðameistari'],
@@ -7814,11 +7810,11 @@ const SFJ = {
       [1, 'Högni Elfar Gylfason', 'Bóndi og vélfræðingur', 'images/candidates/785e11bd5fc0c5e2.jpg', {
         age: null,
         bio: null,
-        interests: ['sauðfjárrækt', 'byggðamál', 'sveitarstjórnarmál', 'landsmál'],
+        interests: null,
         social: [{ type: 'facebook', url: 'https://www.facebook.com/hognielfar.gylfason', label: 'Facebook' }],
         news: [{ title: 'Tímar og tækifæri í Skagafirði — Högni Elfar skrifar', url: 'https://www.feykir.is/is/frettir/timar-og-taekifaeri-i-skagafirdi-hogni-elfar-gylfason-skrifar', source: 'feykir.is' }],
       }],
-      [2, 'Jódís Helga Káradóttir', 'Dómsritari og lagastúdent', 'images/candidates/8c3a8d83787264d3.jpg', { age: null, bio: null, interests: ['Lögfræði', 'Dómsmál', 'Sveitarstjórnarmál', 'Stjórnmál'], social: null, news: [] }],
+      [2, 'Jódís Helga Káradóttir', 'Dómsritari og lagastúdent', 'images/candidates/8c3a8d83787264d3.jpg', { age: null, bio: null, interests: null, social: null, news: [] }],
       [3, 'Elfa Björk Víðisdóttir', 'Meistari í fjármálum', 'images/candidates/0c9dd3b3ee2787bd.jpg'],
       [4, 'Sædís Bylgja Jónsdóttir', 'Fiskverkafræðingur', 'images/candidates/23cb4a82167a2372.jpg'],
       [5, 'Hreiðar Örn Steinþórsson', 'Slökkvilið og sjúkraflutningur', 'images/candidates/9e8e7fd8746ad25a.jpg'],
@@ -8328,10 +8324,10 @@ const HFJ = {
         news: [{ title: 'Framboðslisti Framsóknar og stuðningsmanna í Sveitarfélaginu Hornafirði', url: 'https://kosningasaga.wordpress.com/2026/02/27/frambodslisti-framsoknar-og-studningsmanna-i-sveitarfelaginu-hornafirdi/', source: 'kosningasaga' },
           { title: '„Fátt sem slær út góðan vel gerðan borgara“', url: 'https://www.mbl.is/smartland/frettir/2021/07/21/fatt_sem_slaer_ut_godan_vel_gerdan_borgara/', source: 'mbl.is' },],
       }],
-      [2, 'Ingibjörg Sveinsdóttir', 'Atvinnurekandi og grunnskólakennari', 'images/candidates/3c7428cc32f5d631.webp', { age: null, bio: null, interests: ['Skólamál', 'Atvinnumál', 'Sveitarstjórnarmál', 'Byggðamál'], social: null, news: [{ title: 'Framboðslisti Framsóknar og stuðningsmanna í Sveitarfélaginu Hornafirði', url: 'https://kosningasaga.wordpress.com/2026/02/27/frambodslisti-framsoknar-og-studningsmanna-i-sveitarfelaginu-hornafirdi/', source: 'kosningasaga' }] }],
-      [3, 'Björgvin Óskar Sigurjónsson', 'Byggingatæknifræðingur og bæjarfulltrúi', 'images/candidates/46c984fe35251e8d.png', { age: null, bio: null, interests: ['byggingarmál', 'skipulagsmál', 'sveitarstjórnarmál', 'Hornafjörður'], social: {  }, news: [{ title: 'Framboðslisti Framsóknar og stuðningsmanna í Sveitarfélaginu Hornafirði', url: 'https://kosningasaga.wordpress.com/2026/02/27/frambodslisti-framsoknar-og-studningsmanna-i-sveitarfelaginu-hornafirdi/', source: 'kosningasaga' }] }],
-      [4, 'Kolbrún Þorbjörg Björnsdóttir', 'Heilsuþjálfari og rekstrarstjóri', 'images/candidates/d382a8fdb7a924ff.webp', { age: null, bio: null, interests: ['heilsurækt', 'lýðheilsa', 'eldri borgarar', 'íþróttir', 'rekstur'], social: null, news: [{ title: 'Framboðslisti Framsóknar og stuðningsmanna í Sveitarfélaginu Hornafirði', url: 'https://kosningasaga.wordpress.com/2026/02/27/frambodslisti-framsoknar-og-studningsmanna-i-sveitarfelaginu-hornafirdi/', source: 'kosningasaga' }] }],
-      [5, 'Gunnar Ásgeirsson', 'Innkaupastjóri og varabæjarfulltrúi', 'images/candidates/cef683b73a4a71b4.webp', { age: null, bio: null, interests: ['sjávarútvegur', 'atvinnumál', 'byggðaþróun', 'sveitarstjórnarmál'], social: null, news: [{ title: 'Framboðslisti Framsóknar og stuðningsmanna í Sveitarfélaginu Hornafirði', url: 'https://kosningasaga.wordpress.com/2026/02/27/frambodslisti-framsoknar-og-studningsmanna-i-sveitarfelaginu-hornafirdi/', source: 'kosningasaga' }] }],
+      [2, 'Ingibjörg Sveinsdóttir', 'Atvinnurekandi og grunnskólakennari', 'images/candidates/3c7428cc32f5d631.webp', { age: null, bio: null, interests: null, social: null, news: [{ title: 'Framboðslisti Framsóknar og stuðningsmanna í Sveitarfélaginu Hornafirði', url: 'https://kosningasaga.wordpress.com/2026/02/27/frambodslisti-framsoknar-og-studningsmanna-i-sveitarfelaginu-hornafirdi/', source: 'kosningasaga' }] }],
+      [3, 'Björgvin Óskar Sigurjónsson', 'Byggingatæknifræðingur og bæjarfulltrúi', 'images/candidates/46c984fe35251e8d.png', { age: null, bio: null, interests: null, social: {  }, news: [{ title: 'Framboðslisti Framsóknar og stuðningsmanna í Sveitarfélaginu Hornafirði', url: 'https://kosningasaga.wordpress.com/2026/02/27/frambodslisti-framsoknar-og-studningsmanna-i-sveitarfelaginu-hornafirdi/', source: 'kosningasaga' }] }],
+      [4, 'Kolbrún Þorbjörg Björnsdóttir', 'Heilsuþjálfari og rekstrarstjóri', 'images/candidates/d382a8fdb7a924ff.webp', { age: null, bio: null, interests: null, social: null, news: [{ title: 'Framboðslisti Framsóknar og stuðningsmanna í Sveitarfélaginu Hornafirði', url: 'https://kosningasaga.wordpress.com/2026/02/27/frambodslisti-framsoknar-og-studningsmanna-i-sveitarfelaginu-hornafirdi/', source: 'kosningasaga' }] }],
+      [5, 'Gunnar Ásgeirsson', 'Innkaupastjóri og varabæjarfulltrúi', 'images/candidates/cef683b73a4a71b4.webp', { age: null, bio: null, interests: null, social: null, news: [{ title: 'Framboðslisti Framsóknar og stuðningsmanna í Sveitarfélaginu Hornafirði', url: 'https://kosningasaga.wordpress.com/2026/02/27/frambodslisti-framsoknar-og-studningsmanna-i-sveitarfelaginu-hornafirdi/', source: 'kosningasaga' }] }],
       [6, 'Finnur Smári Torfason', 'Verkfræðingur'],
       [7, 'Erla Rún Guðmundsdóttir', 'Bóndi'],
       [8, 'Þórdís Þórsdóttir', 'Skólastjóri'],
@@ -8359,14 +8355,14 @@ const HFJ = {
       [1, 'Gauti Árnason', 'Verkstjóri og forseti bæjarstjórnar', 'images/candidates/a25cd8cbf37d3782.png', {
         age: null,
         bio: null,
-        interests: ['sveitarstjórnarmál', 'samgöngur', 'atvinnumál', 'byggðaþróun'],
+        interests: null,
         social: null,
         news: [{ title: 'Gauti Árnason oddviti Sveitarfélagsins Hornafjörðar', url: 'https://xd.is/2026/03/14/gauti-arnason-oddviti-sveitarfelagsins-hornafjardar/', source: 'xd.is' }],
       }],
-      [2, 'Hjördís Edda Olgeirsdóttir', 'Bæjarfulltrúi', 'images/candidates/92aea38eb2a6fdfb.png', { age: 44, bio: null, interests: ['Sveitarstjórnarmál', 'Umhverfis- og skipulagsmál', 'Atvinnumál', 'Menning'], social: null, news: [{ title: 'Gauti Árnason oddviti Sveitarfélagsins Hornafjörðar', url: 'https://xd.is/2026/03/14/gauti-arnason-oddviti-sveitarfelagsins-hornafjardar/', source: 'xd.is' }] }],
-      [3, 'Ásta Steinunn Eiríksdóttir', 'Hagfræðingur', 'images/candidates/ef7753ec80da8506.png', { age: null, bio: null, interests: ['efnahagsmál', 'atvinnulíf', 'sveitarstjórnarmál', 'Hornafjörður'], social: {  }, news: [{ title: 'Gauti Árnason oddviti Sveitarfélagsins Hornafjörðar', url: 'https://xd.is/2026/03/14/gauti-arnason-oddviti-sveitarfelagsins-hornafjardar/', source: 'xd.is' }] }],
-      [4, 'Ágústa Arnardóttir', 'Athafnamaður', 'images/candidates/cf6c8e9bb180d07c.png', { age: null, bio: null, interests: ['atvinnumál', 'hönnun', 'frumkvöðlastarf', 'mannauðsmál', 'byggðaþróun'], social: null, news: [{ title: 'Gauti Árnason oddviti Sveitarfélagsins Hornafjörðar', url: 'https://xd.is/2026/03/14/gauti-arnason-oddviti-sveitarfelagsins-hornafjardar/', source: 'xd.is' }] }],
-      [5, 'Sindri Ragnarsson', 'Íþróttafræðingur', 'images/candidates/6191e846b2c80bf9.png', { age: null, bio: null, interests: ['íþróttir', 'ferðaþjónusta', 'Vatnajökull', 'golf', 'atvinnumál'], social: null, news: [{ title: 'Gauti Árnason oddviti Sveitarfélagsins Hornafjörðar', url: 'https://xd.is/2026/03/14/gauti-arnason-oddviti-sveitarfelagsins-hornafjardar/', source: 'xd.is' }] }],
+      [2, 'Hjördís Edda Olgeirsdóttir', 'Bæjarfulltrúi', 'images/candidates/92aea38eb2a6fdfb.png', { age: 44, bio: null, interests: null, social: null, news: [{ title: 'Gauti Árnason oddviti Sveitarfélagsins Hornafjörðar', url: 'https://xd.is/2026/03/14/gauti-arnason-oddviti-sveitarfelagsins-hornafjardar/', source: 'xd.is' }] }],
+      [3, 'Ásta Steinunn Eiríksdóttir', 'Hagfræðingur', 'images/candidates/ef7753ec80da8506.png', { age: null, bio: null, interests: null, social: {  }, news: [{ title: 'Gauti Árnason oddviti Sveitarfélagsins Hornafjörðar', url: 'https://xd.is/2026/03/14/gauti-arnason-oddviti-sveitarfelagsins-hornafjardar/', source: 'xd.is' }] }],
+      [4, 'Ágústa Arnardóttir', 'Athafnamaður', 'images/candidates/cf6c8e9bb180d07c.png', { age: null, bio: null, interests: null, social: null, news: [{ title: 'Gauti Árnason oddviti Sveitarfélagsins Hornafjörðar', url: 'https://xd.is/2026/03/14/gauti-arnason-oddviti-sveitarfelagsins-hornafjardar/', source: 'xd.is' }] }],
+      [5, 'Sindri Ragnarsson', 'Íþróttafræðingur', 'images/candidates/6191e846b2c80bf9.png', { age: null, bio: null, interests: null, social: null, news: [{ title: 'Gauti Árnason oddviti Sveitarfélagsins Hornafjörðar', url: 'https://xd.is/2026/03/14/gauti-arnason-oddviti-sveitarfelagsins-hornafjardar/', source: 'xd.is' }] }],
       [6, 'Níels Brimar Jónsson', 'Málara meistari', 'images/candidates/936d456b4b171a65.png', { age: null, bio: 'Níels Brimar Jónsson er málarameistari og skipar 6. sæti á fullskipuðum framboðslista Sjálfstæðisflokksins í Sveitarfélaginu Hornafirði fyrir sveitarstjórnarkosningarnar 2026. Á yfirstandandi kjörtímabili situr hann sem varamaður í atvinnu- og menningarmálanefnd og í umhverfis- og skipulagsnefnd Sveitarfélagsins Hornafjarðar fyrir Sjálfstæðisflokkinn.', interests: null, social: null, heimild: [{ url: 'https://xd.is/2026/03/27/fullskipadur-frambodslisti-sjalfstaedisflokksins-a-hornafirdi/', label: 'xd.is — Fullskipaður framboðslisti Sjálfstæðisflokksins á Hornafirði' }, { url: 'https://www.hornafjordur.is/stjornsysla/stjorn/nefndir-og-stjornir/', label: 'Hornafjordur.is — Nefndir, ráð og stjórnir' }], news: [] }],
       [7, 'Þröstur Jóhannsson', 'Bæjarverkstjóri', 'images/candidates/89537f56e327615a.png'],
       [8, 'Steindór Sigurjónsson', 'Framkvæmdarstjóri', 'images/candidates/8740f54c69ba5b73.png', { age: null, bio: 'Steindór Sigurjónsson er fertugur og fæddur og uppalinn á Höfn í Hornafirði. Hann lauk grunnskóla heima og var tvö ár í Framhaldsskólanum í Austur-Skaftafellssýslu áður en hann fluttist til Reykjavíkur, þar sem hann vann við ýmis störf, meðal annars smíðar, leiðsögn og barþjónustu. Eftir heimkomu hefur hann í átta ár rekið hótelið Hrafnavelli í Lóni ásamt foreldrum sínum og séð um uppbyggingu, kynningu og bókhald. Hann er virkur í knattspyrnudeild Sindra og hefur á yfirstandandi kjörtímabili setið í atvinnu- og menningarmálanefnd og fræðslu- og frístundanefnd Sveitarfélagsins Hornafjarðar, auk þess að vera varamaður í bæjarstjórn á síðasta árinu fyrir Sjálfstæðisflokkinn. Hann skipar 8. sæti á fullskipuðum framboðslista Sjálfstæðisflokksins fyrir sveitarstjórnarkosningarnar 16. maí 2026.', interests: null, social: null, heimild: [{ url: 'https://xd.is/steindor-sigurjonsson/', label: 'xd.is – Steindór Sigurjónsson' }, { url: 'https://xd.is/2026/03/27/fullskipadur-frambodslisti-sjalfstaedisflokksins-a-hornafirdi/', label: 'xd.is – Fullskipaður framboðslisti á Hornafirði' }, { url: 'https://www.hornafjordur.is/stjornsysla/stjorn/nefndir-og-stjornir/', label: 'Hornafjörður – Nefndir, ráð og stjórnir' }], news: [] }],
@@ -8398,10 +8394,10 @@ const HFJ = {
         social: null,
         news: [{ title: 'Framboðslisti Kex framboðs í Sveitarfélaginu Hornafirði', url: 'https://kosningasaga.wordpress.com/2026/02/28/frambodslisti-kex-frambods-i-sveitarfelaginu-hornafirdi/', source: 'kosningasaga' }],
       }],
-      [2, 'Guðrún Stefanía Vopnfjörð Ingólfsdóttir', 'Bæjarfulltrúi og sérfræðingur', 'images/candidates/ddd64c9d526c69e8.jpg', { age: 32, bio: null, interests: ['Sveitarstjórnarmál', 'Náttúruvernd', 'Menning', 'Ferðaþjónusta'], social: null, news: [{ title: 'Framboðslisti Kex framboðs í Sveitarfélaginu Hornafirði', url: 'https://kosningasaga.wordpress.com/2026/02/28/frambodslisti-kex-frambods-i-sveitarfelaginu-hornafirdi/', source: 'kosningasaga' }] }],
-      [3, 'Elías Tjörvi Halldórsson', 'Kokkur og hjúkrunarfræðinemi', null, { age: 36, bio: null, interests: ['matreiðsla', 'veitingarekstur', 'heilbrigðismál', 'atvinnumál', 'samfélagsmál'], social: null, news: [{ title: 'Framboðslisti Kex framboðs í Sveitarfélaginu Hornafirði', url: 'https://kosningasaga.wordpress.com/2026/02/28/frambodslisti-kex-frambods-i-sveitarfelaginu-hornafirdi/', source: 'kosningasaga' }] }],
-      [4, 'Wiktoria Anna Darnowska', 'Starfsmaður í félagsþjónustu', 'images/candidates/5bce272424882f30.jpg', { age: null, bio: null, interests: ['félagsþjónusta', 'velferðarmál', 'fjölmenning', 'samfélagsmál'], social: null, news: [{ title: 'Framboðslisti Kex framboðs í Sveitarfélaginu Hornafirði', url: 'https://kosningasaga.wordpress.com/2026/02/28/frambodslisti-kex-frambods-i-sveitarfelaginu-hornafirdi/', source: 'kosningasaga' }] }],
-      [5, 'Sigrún Sigurgeirsdóttir', 'Sérfræðingur', 'images/candidates/b1b89a4580b90f9f.jpg', { age: null, bio: null, interests: ['bæjarmál', 'atvinnumál', 'byggðaþróun', 'samfélagsmál'], social: null, news: [{ title: 'Framboðslisti Kex framboðs í Sveitarfélaginu Hornafirði', url: 'https://kosningasaga.wordpress.com/2026/02/28/frambodslisti-kex-frambods-i-sveitarfelaginu-hornafirdi/', source: 'kosningasaga' }] }],
+      [2, 'Guðrún Stefanía Vopnfjörð Ingólfsdóttir', 'Bæjarfulltrúi og sérfræðingur', 'images/candidates/ddd64c9d526c69e8.jpg', { age: 32, bio: null, interests: null, social: null, news: [{ title: 'Framboðslisti Kex framboðs í Sveitarfélaginu Hornafirði', url: 'https://kosningasaga.wordpress.com/2026/02/28/frambodslisti-kex-frambods-i-sveitarfelaginu-hornafirdi/', source: 'kosningasaga' }] }],
+      [3, 'Elías Tjörvi Halldórsson', 'Kokkur og hjúkrunarfræðinemi', null, { age: 36, bio: null, interests: null, social: null, news: [{ title: 'Framboðslisti Kex framboðs í Sveitarfélaginu Hornafirði', url: 'https://kosningasaga.wordpress.com/2026/02/28/frambodslisti-kex-frambods-i-sveitarfelaginu-hornafirdi/', source: 'kosningasaga' }] }],
+      [4, 'Wiktoria Anna Darnowska', 'Starfsmaður í félagsþjónustu', 'images/candidates/5bce272424882f30.jpg', { age: null, bio: null, interests: null, social: null, news: [{ title: 'Framboðslisti Kex framboðs í Sveitarfélaginu Hornafirði', url: 'https://kosningasaga.wordpress.com/2026/02/28/frambodslisti-kex-frambods-i-sveitarfelaginu-hornafirdi/', source: 'kosningasaga' }] }],
+      [5, 'Sigrún Sigurgeirsdóttir', 'Sérfræðingur', 'images/candidates/b1b89a4580b90f9f.jpg', { age: null, bio: null, interests: null, social: null, news: [{ title: 'Framboðslisti Kex framboðs í Sveitarfélaginu Hornafirði', url: 'https://kosningasaga.wordpress.com/2026/02/28/frambodslisti-kex-frambods-i-sveitarfelaginu-hornafirdi/', source: 'kosningasaga' }] }],
       [6, 'Styrmir Einarsson', 'Leiðsögumaður', 'images/candidates/5722caec8ad9da89.jpg'],
       [7, 'Kristján Örn Ebenezersson', 'Framhaldsskólakennari', 'images/candidates/35a2320c1f28a8de.png', { age: null, bio: 'Kristján Örn Ebenezersson er framhaldsskólakennari og skipar 7. sæti á lista Kex framboðs í Sveitarfélaginu Hornafirði fyrir sveitarstjórnarkosningarnar 2026. Á yfirstandandi kjörtímabili situr hann í fræðslu- og frístundanefnd Sveitarfélagsins Hornafjarðar fyrir Kex framboð.', interests: null, social: null, heimild: [{ url: 'https://www.hornafjordur.is/stjornsysla/stjorn/nefndir-og-stjornir/', label: 'Hornafjordur.is — Nefndir, ráð og stjórnir' }, { url: 'https://www.xkex.is/frambodslisti', label: 'Kex Framboð — Framboðslisti Kex 2026' }], news: [] }],
       [8, 'Róslín Alma Valdemarsdóttir', 'Verkefnastjóri', 'images/candidates/e593406563c32141.jpg'],
@@ -8423,17 +8419,17 @@ const HFJ = {
       [1, 'Reynir Ásgeirsson', 'Framkvæmdastjóri', null, {
         age: null,
         bio: null,
-        interests: ['sveitarstjórnarmál', 'atvinnumál'],
+        interests: null,
         social: [
           { type: 'facebook', url: 'https://www.facebook.com/reynir.asgeirsson.5/', label: 'Facebook' },
           { type: 'x', url: 'https://x.com/reynirasg', label: 'X (Twitter)' },
         ],
         news: [{ title: 'Framboðslisti Miðflokksins í Svf. Hornafirði', url: 'https://kosningasaga.wordpress.com/2026/04/03/frambodslisti-midflokksins-i-svf-hornafirdi/', source: 'kosningasaga' }],
       }],
-      [2, 'Stefán Freyr Jónsson', 'Bóndi og slökkviliðsmaður', null, { age: null, bio: null, interests: ['Landbúnaður', 'Slökkvistörf', 'Sveitarstjórnarmál', 'Almannavarnir'], social: null, news: [{ title: 'Framboðslisti Miðflokksins í Svf. Hornafirði', url: 'https://kosningasaga.wordpress.com/2026/04/03/frambodslisti-midflokksins-i-svf-hornafirdi/', source: 'kosningasaga' }] }],
-      [3, 'Herdís Ingólfsdóttir Waage', 'Aðstoðarskólastjóri og kennari', null, { age: null, bio: null, interests: ['menntamál', 'skólastarf', 'byggðaþróun', 'samfélagsmál'], social: null, news: [{ title: 'Framboðslisti Miðflokksins í Svf. Hornafirði', url: 'https://kosningasaga.wordpress.com/2026/04/03/frambodslisti-midflokksins-i-svf-hornafirdi/', source: 'kosningasaga' }] }],
-      [4, 'Erlingur Ingi Brynjólfsson', 'Verksmiðjustjóri', null, { age: null, bio: null, interests: ['sjávarútvegur', 'atvinnumál', 'orkumál', 'byggðaþróun'], social: null, news: [{ title: 'Framboðslisti Miðflokksins í Svf. Hornafirði', url: 'https://kosningasaga.wordpress.com/2026/04/03/frambodslisti-midflokksins-i-svf-hornafirdi/', source: 'kosningasaga' }] }],
-      [5, 'Valur Pálsson', 'Rekstrarstjóri', null, { age: null, bio: null, interests: ['atvinnumál', 'rekstur', 'sveitarstjórnarmál', 'byggðaþróun'], social: null, news: [{ title: 'Framboðslisti Miðflokksins í Svf. Hornafirði', url: 'https://kosningasaga.wordpress.com/2026/04/03/frambodslisti-midflokksins-i-svf-hornafirdi/', source: 'kosningasaga' }] }],
+      [2, 'Stefán Freyr Jónsson', 'Bóndi og slökkviliðsmaður', null, { age: null, bio: null, interests: null, social: null, news: [{ title: 'Framboðslisti Miðflokksins í Svf. Hornafirði', url: 'https://kosningasaga.wordpress.com/2026/04/03/frambodslisti-midflokksins-i-svf-hornafirdi/', source: 'kosningasaga' }] }],
+      [3, 'Herdís Ingólfsdóttir Waage', 'Aðstoðarskólastjóri og kennari', null, { age: null, bio: null, interests: null, social: null, news: [{ title: 'Framboðslisti Miðflokksins í Svf. Hornafirði', url: 'https://kosningasaga.wordpress.com/2026/04/03/frambodslisti-midflokksins-i-svf-hornafirdi/', source: 'kosningasaga' }] }],
+      [4, 'Erlingur Ingi Brynjólfsson', 'Verksmiðjustjóri', null, { age: null, bio: null, interests: null, social: null, news: [{ title: 'Framboðslisti Miðflokksins í Svf. Hornafirði', url: 'https://kosningasaga.wordpress.com/2026/04/03/frambodslisti-midflokksins-i-svf-hornafirdi/', source: 'kosningasaga' }] }],
+      [5, 'Valur Pálsson', 'Rekstrarstjóri', null, { age: null, bio: null, interests: null, social: null, news: [{ title: 'Framboðslisti Miðflokksins í Svf. Hornafirði', url: 'https://kosningasaga.wordpress.com/2026/04/03/frambodslisti-midflokksins-i-svf-hornafirdi/', source: 'kosningasaga' }] }],
       [6, 'Hilmar Þór Sigurjónsson', 'Atvinnurekandi og hrossabóndi'],
       [7, 'Hjörvar Ingi Hauksson', 'Bílvirki'],
       [8, 'Amor Joy Pepito Mantilla', 'Atvinnurekandi og sjúkraflutningamaður'],
@@ -8995,7 +8991,7 @@ const ISF = {
           { title: 'Gylfi ráðinn aðstoðarmaður Benedikts', url: 'https://skessuhorn.is/2016/11/02/gylfi-radinn-adstodarmadur-benedikts', source: 'skessuhorn.is' },
         ],
       }],
-      [2, 'Sif Huld Albertsdóttir', 'Aðstoðarframkvæmdastjóri hjá Sjótækni', 'images/candidates/5fa1ca1ac95adb01.jpg', { age: null, bio: null, interests: ['Atvinnulíf og stjórnun', 'Nýsköpun', 'Gagnsæi og gagnastýrð stefnumörkun', 'Þróun Vestfjarða'], social: null, news: [] }],
+      [2, 'Sif Huld Albertsdóttir', 'Aðstoðarframkvæmdastjóri hjá Sjótækni', 'images/candidates/5fa1ca1ac95adb01.jpg', { age: null, bio: null, interests: null, social: null, news: [] }],
       [3, 'Magnús Einar Magnússon', 'Skrifstofustjóri og stálbúnaðarmeistari og bæjarfulltrúi', 'images/candidates/45346bfe5d7fb8f9.jpg'],
       [4, 'Arnheiður Steinþórsdóttir', 'Sagnfræðingur og bókasafnsfræðingur', 'images/candidates/ea812f2a65872900.jpg'],
       [5, 'Valur Richter', 'Varabæjarfulltrúi, pípalagningamaður, trésmiður og meindýraeyðir', 'images/candidates/425d8c5f63bc11c2.jpg'],
@@ -10359,11 +10355,9 @@ const TJR = {
 const ARN = {
   ARNA: {
     tagline: 'Á-listi — Framtíð Árneshrepps',
-    agenda: [
-      { icon: '🌊', title: 'Byggðamál', text: 'Styðja við fasta búsetu og kynna svæðið fyrir nýjum íbúum.' },
-      { icon: '🐑', title: 'Landbúnaður', text: 'Landbúnaður er hornsteinn búsetunnar í Árneshreppi.' },
-      { icon: '🛤️', title: 'Samgöngur', text: 'Bætt vegasamgöngur og tengsl við nágrannasveitarfélög.' },
-    ],
+    agenda: [],
+    // [stripped 2026-05-05] no source verifiable; research pending
+
     list: [
       [1, 'Sigrún Sverrisdóttir', 'Frambjóðandi'],
       [2, 'Þorgerður Lilja Björnsdóttir', 'Frambjóðandi'],
@@ -10380,11 +10374,9 @@ const ARN = {
   },
   ARNS: {
     tagline: 'S-listi — Sólstöður í Árneshreppi',
-    agenda: [
-      { icon: '👥', title: 'Samfélag', text: 'Öflugt samfélag og góð þjónusta fyrir alla íbúa hreppsins.' },
-      { icon: '🏥', title: 'Velferð', text: 'Tryggja heilbrigðisþjónustu og velferðarmál í strjálbýli.' },
-      { icon: '🌿', title: 'Umhverfi', text: 'Vernd náttúru og sjálfbær þróun í Árneshreppi.' },
-    ],
+    agenda: [],
+    // [stripped 2026-05-05] no source verifiable; research pending
+
     list: [
       [1, 'Arinbjörn Bernharðsson', 'Frambjóðandi'],
       [2, 'Kristjana María S. Ásbjörnsd.', 'Frambjóðandi'],
