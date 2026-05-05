@@ -2327,10 +2327,18 @@ const AKU = {
 
 const GAR = {
   D: {
-    tagline: 'Almar leiðir lista Sjálfstæðisflokksins — Garðabær á gott framhald',
-    agenda: [],
-    // [stripped 2026-05-04] no source verifiable; no FB page found in 2026-05-04 sweep
-   
+    tagline: 'Garðabær í blóma — fyrirheit til framtíðar',
+    agenda: [
+      { icon: '💰', title: 'Fjármál og lág álögur',                  text: 'Höldum álögum lágum þannig að Garðabær verði áfram meðal þeirra sveitarfélaga sem leggja lægst opinber gjöld á íbúa sína. Lækkum áfram fasteignaskatta til móts við hækkun fasteignamats. Stöndum vörð um ábyrgan grunnrekstur sem stendur undir framúrskarandi þjónustu og eflum lýðræðisverkefni á borð við Betri Garðabæ.' },
+      { icon: '💼', title: 'Atvinnulíf og einföldun',               text: 'Tryggjum að Garðabær sé eftirsóknarverð staðsetning fyrir fyrirtæki. Lækkum fasteignaskatt á atvinnuhúsnæði og greiðum götu fyrirtækja með einföldun ferla í stjórnsýslu. Vinnum að opnun á einstaklingsmiðuðu vinnu- og virkniúrræði fyrir fatlað fólk í bænum.' },
+      { icon: '📚', title: 'Skólabærinn Garðabær',                  text: 'Tryggjum áfram leikskólavist við 12 mánaða aldur. Byggjum leik- og grunnskóla í Hnoðraholti og skoðum samstarf við sjálfstætt starfandi aðila um fleiri skóla. Opnum Þorláksskóla — nýjan sjálfstætt starfandi skóla fyrir börn með einhverfu — og opnum viðbyggingu við tónlistarskólann. Þróum áfram starfsumhverfi leikskóla og leik- og grunnskóla á Vífilsstöðum í samvinnu við Hjallastefnuna.' },
+      { icon: '⚽', title: 'Íþrótta- og lýðheilsubærinn',            text: 'Höldum áfram uppbyggingu Miðgarðs og íþróttamannvirkja í Vetrarmýri og klárum skipulag skóla- og íþróttasvæðis á Álftanesi. Opnum félagsmiðstöð fyrir fötluð ungmenni við Lambamýri. Lengjum opnunartíma sundlauga um helgar, þróum hvatapeningakerfið áfram og fjölgum tækifærum barna með sérþarfir í íþrótta- og tómstundastarfi.' },
+      { icon: '🏛️', title: 'Vífilsstaðir til vegs og virðingar',     text: 'Vinnum með ríkinu að sölu og uppbyggingu Fjóssins og nærliggjandi bygginga. Úthlutum lóðum á Fjósreit og skipuleggjum svæðið í heild með áherslu á byggingar í anda eldri bygginga á staðnum.' },
+      { icon: '🏘️', title: 'Húsnæði, lágreist byggð og bílastæði',   text: 'Úthlutum um 80 sérbýlislóðum efst í Hnoðraholti, þ.á.m. einnar hæðar raðhúsum fyrir þá sem vilja minnka við sig, og ríflega 200 til viðbótar í suðurhlíð. Ljúkum skipulagi norðurness Álftaness með um 100 lágreistum einbýlis-, par- og raðhúsum. Bætum umferðarflæði í Kauptúni með nýrri vegtengingu við Reykjanesbraut. Tryggjum næg bílastæði við alla uppbyggingu og að almenningssamgöngur þrengi ekki að annarri umferð.' },
+      { icon: '🎭', title: 'Umhverfi, menning og mannlíf',          text: 'Byggjum upp samfélags- og viðburðahús sem suðupott menningar. Eflum Bókasafn Garðabæjar og styðjum Jazzþorpið og ungt listafólk. Setjum af stað átak í viðhaldi gatna og göngustíga í eldri hverfum með gagnsæjum áætlunum. Verum áfram í fararbroddi í flokkun og endurvinnslu og útfærum greiðar göngu- og hjólastígatengingar milli bæjarkjarna.' },
+      { icon: '🧓', title: 'Lífsgæði á efri árum',                  text: 'Tökum í notkun nýtt hjúkrunarheimili í Vetrarmýri árið 2029 og byggjum upp lífsgæðakjarna með íbúðum fyrir eldra fólk í nálægð við þjónustu. Fjölgum dagdvalarrýmum á Ísafold og víðar, og byggjum sérhæfðar íbúðir með velferðartækni m.a. í Arnarlandi. Opnum nýja heilsugæslu í Garðabæ í samvinnu við stjórnvöld og eflum heimaþjónustu með aukinni samþættingu félagsþjónustu og heimahjúkrunar.' },
+    ],
+    platformUrl: 'https://gardar.is/stefnuskra-sjalfstaedisflokksins-i-gardabae-2026/',
     list: [
       [1, 'Almar Guðmundsson', 'Bæjarstjóri og hagfræðingur', 'images/candidates/d3087e70eebe11aa.jpg', {
         age: 54,
