@@ -12,6 +12,7 @@ Usage:
 
 import json
 import html as htmllib
+import re
 import sys
 from pathlib import Path
 from datetime import date
@@ -124,7 +125,36 @@ def bio_section(bios, audit_data=None):
     if not bios:
         return '<p style="color:var(--muted)">No bio results file found.</p>'
     audit_data = audit_data or {}
+
+    # Build a name index over audit entries, so a bio with a stale
+    # ID (old muni-code convention) can still find its audit by name.
+    # We index every prefix that ends in a patronymic-style word, so
+    # "Magnús Barðdal Reynisson" also indexes "Magnús Barðdal" (handles
+    # bios that omit a middle / extra patronymic).
+    audit_by_name = {}
+    PATRONYMIC_RE = re.compile(r"(son|dóttir|syni|sonar|sen|dóttur)$", re.IGNORECASE)
+    for acid, ae in audit_data.items():
+        bio_text = ae.get('bio') or ''
+        if not isinstance(bio_text, str) or ' er ' not in bio_text:
+            continue
+        head = bio_text.split(' er ', 1)[0].strip()
+        if not head or len(head) > 80:
+            continue
+        audit_by_name.setdefault(head, acid)
+        # Also index every name-prefix that ends in a patronymic, so
+        # "Magnús Barðdal Reynisson" → also "Magnús Barðdal" (when the
+        # second-to-last word looks like a patronymic). Don't index plain
+        # "Magnús" alone — first names are too ambiguous.
+        words = head.split()
+        for end in range(len(words) - 1, 1, -1):
+            prefix = ' '.join(words[:end])
+            last_in_prefix = words[end - 1]
+            if PATRONYMIC_RE.search(last_in_prefix) or last_in_prefix.endswith(('a', 'i', 'l', 'n', 'r')):
+                # plausible Icelandic surname/patronymic ending
+                audit_by_name.setdefault(prefix, acid)
+
     rows = ''
+    unaudited_count = 0
     for b in bios:
         cid = b.get('id', '')
         age_tag = f'<span class="tag">Aldur {b["age"]}</span>' if b.get('age') else ''
@@ -150,16 +180,27 @@ def bio_section(bios, audit_data=None):
             sources_html = f'<span style="color:var(--yellow);font-size:11px">⏭ skipped: {e(skipped_reason)}</span>'
         sources_row = f'<div class="sources-row">{sources_html}</div>' if sources_html else ''
 
+        # Look up audit by ID first; then by exact candidate name (handles
+        # bios whose ID uses a stale muni-code convention).
         audit_entry = audit_data.get(cid)
+        audit_via_name = False
+        if audit_entry is None:
+            name = b.get('name', '')
+            if name and name in audit_by_name:
+                resolved_cid = audit_by_name[name]
+                audit_entry = audit_data.get(resolved_cid)
+                audit_via_name = True
         if audit_entry is not None:
             audit_entry = dict(audit_entry, _cid=cid)
         audit_panel = _audit_html(audit_entry)
 
-        # Per-bio approve row — checkbox label & semantics depend on whether a
-        # rewrite exists for this candidate.
+        # Per-bio approve row — checkbox label & semantics depend on whether
+        # a rewrite exists for this candidate AND whether it was audited.
         has_bio = bool(b.get('bio'))
+        has_audit_with_stmts = bool(audit_entry and audit_entry.get('statements'))
         has_rewrite = bool(audit_entry and audit_entry.get('rescue', {}).get('rewrite'))
         is_applied = bool(audit_entry and audit_entry.get('applied'))
+
         if has_rewrite:
             approve_label = 'Approve rewrite (replaces current bio + heimild)'
             approve_kind = 'rewrite'
@@ -169,20 +210,40 @@ def bio_section(bios, audit_data=None):
         else:
             approve_label = 'Approve skip (leave bio empty)'
             approve_kind = 'skip'
-        applied_attr = ' disabled' if is_applied else ''
-        applied_extra = ' <span class="applied-tag">✅ APPLIED</span>' if is_applied else ''
-        approve_row = (
-            f'<div class="approve-row" data-cid="{e(cid)}" data-kind="{approve_kind}">'
-            f'<label class="approve-label">'
-            f'<input type="checkbox" class="approve-cb" data-cid="{e(cid)}" data-kind="{approve_kind}"{applied_attr}>'
-            f' {e(approve_label)}'
-            f'</label>'
-            f'{applied_extra}'
-            f'</div>'
-        )
 
+        # Block approval entirely if the bio has no audit (= no fact-checked
+        # statements). Show a clear notice instead of a checkbox.
+        unaudited = has_bio and not has_audit_with_stmts
+        if unaudited:
+            unaudited_count += 1
+            approve_row = (
+                f'<div class="approve-row unaudited" data-cid="{e(cid)}">'
+                f'<span class="unaudited-tag">⚠️ NOT YET AUDITED — cannot approve until '
+                f'fact-checked statements are available</span>'
+                f'</div>'
+            )
+        else:
+            applied_attr = ' disabled' if is_applied else ''
+            applied_extra = ' <span class="applied-tag">✅ APPLIED</span>' if is_applied else ''
+            audit_note = ''
+            if audit_via_name:
+                audit_note = (
+                    ' <span class="audit-via-name" title="audit found by name match — '
+                    f'bio listed under stale ID {e(cid)}">↪ name-matched</span>'
+                )
+            approve_row = (
+                f'<div class="approve-row" data-cid="{e(cid)}" data-kind="{approve_kind}">'
+                f'<label class="approve-label">'
+                f'<input type="checkbox" class="approve-cb" data-cid="{e(cid)}" data-kind="{approve_kind}"{applied_attr}>'
+                f' {e(approve_label)}'
+                f'</label>'
+                f'{applied_extra}{audit_note}'
+                f'</div>'
+            )
+
+        card_class = 'card unaudited' if unaudited else 'card'
         rows += f'''
-    <div class="card" data-cid="{e(cid)}">
+    <div class="{card_class}" data-cid="{e(cid)}">
       <div class="card-header">
         <div class="card-title">{e(b["name"])}</div>
         <div class="card-meta">
@@ -198,6 +259,18 @@ def bio_section(bios, audit_data=None):
       {audit_panel}
       {approve_row}
     </div>'''
+    if unaudited_count > 0:
+        n = unaudited_count
+        verb = "has" if n == 1 else "have"
+        banner = (
+            '<div class="scan-note" style="background:rgba(210,153,34,.10);border-color:rgba(210,153,34,.30);color:var(--yellow);margin-bottom:14px">'
+            f'⚠️ <strong>{n} bio{"" if n == 1 else "s"} {verb} no fact-checked statements yet</strong> '
+            f'and cannot be approved. Each one is flagged inline below with an orange left-border. '
+            'Statements are required before any bio can be approved (even when no rewrite is needed). '
+            'Run an audit pass (or wait for the queued audit agents) before approving these.'
+            '</div>'
+        )
+        rows = banner + rows
     return rows
 
 
@@ -578,6 +651,10 @@ def main():
   .rescue-block.is-approved { border-color: var(--green); background: rgba(63,185,80,.07); }
   .rescue-block.applied { opacity: 0.65; }
   .applied-tag { background: rgba(63,185,80,.18); color: var(--green); border: 1px solid var(--green); border-radius: 10px; padding: 2px 8px; font-size: 10px; font-weight: 700; letter-spacing: .05em; margin-left: 8px; }
+  .approve-row.unaudited { border-top-color: var(--yellow); }
+  .unaudited-tag { background: rgba(210,153,34,.12); color: var(--yellow); border: 1px solid rgba(210,153,34,.5); border-radius: 8px; padding: 6px 12px; font-size: 11.5px; font-weight: 600; letter-spacing: .02em; }
+  .card.unaudited { border-left: 3px solid var(--yellow); }
+  .audit-via-name { font-size: 10.5px; color: var(--muted); border: 1px dashed var(--border); border-radius: 8px; padding: 2px 8px; }
   /* Floating approval toolbar (counter + quick actions) */
   #approve-toolbar { position: fixed !important; top: 20px; right: 20px; z-index: 9999; display: flex; gap: 8px; align-items: center; pointer-events: auto; }
   #approve-counter { background: var(--surface); border: 1px solid var(--green); border-radius: 10px; padding: 10px 16px; font-size: 13px; color: var(--text); cursor: pointer; box-shadow: 0 4px 12px rgba(0,0,0,.4); transition: transform .15s; }
