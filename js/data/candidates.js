@@ -8660,10 +8660,17 @@ const AKR = {
     ],
   },
   M: {
-    tagline: 'Miðflokkurinn á Akranesi',
-    agenda: [],
-    // [stripped 2026-05-04] no source verifiable; FB: https://www.facebook.com/profile.php?id=61583869156249
-   
+    tagline: 'Málefnaskrá Miðflokksins á Akranesi',
+    agenda: [
+      { icon: '🏛️', title: 'Ábyrg fjármál, fagleg stjórnun og íbúalýðræði', text: 'Opið og aðgengilegt bókhald, skýr forgangsröðun á þjónustu og hagræðing í nýtingu fjármuna. Skýr ábyrgð og hlutverk, samráð og gagnsæi í ákvarðanatöku, og bætt verklag sem styrkir tengsl kjörinna fulltrúa, stjórnenda og íbúa. Aukið íbúalýðræði, reglulegt samráð við íbúa og gagnsæ upplýsingagjöf.' },
+      { icon: '🏥', title: 'Heilbrigðismál',                       text: 'Styðja við starfsemi Heilsugæslunnar á Akranesi. Þjónustan endurspegli betur þarfir íbúa og fjölda. Náið samstarf við ríkisvaldið um fjárveitingar til heilsugæslunnar.' },
+      { icon: '❤️', title: 'Velferð og þjónusta',                  text: 'Hækka frístundastyrk og tryggja að grunnþjónusta nái til allra. Samþætt þjónusta og betra aðgengi. Miðflokkurinn vill tryggja aðgang að talmeinafræðingum innan leik- og grunnskóla til að styðja við málþroska barna.' },
+      { icon: '⚽', title: 'Íþróttir',                              text: 'Æfingavöllur fyrir knattspyrnu. Betrumbæta aðstöðu minni aðildarfélaga og standa fyrir ábyrgri uppbyggingu og stuðningi við aðildarfélög. Félagsaðstaða í Akraborg.' },
+      { icon: '🎭', title: 'Menning og samfélag',                  text: 'Tryggja opnunartíma ungmennahúsa. Menningarhús í fjölmennasta sveitarfélagi Vesturlands. Fegrun bæjarins.' },
+      { icon: '🚧', title: 'Innviðir og grunnþjónusta',            text: 'Tekið verði tafarlaust á óboðlegu gatnakerfi og viðhald stóraukið. Tryggja nægt heitt og kalt vatn. Umbætur í sorphirðumálum og forgangsröðun og sjálfbær samvinna við veitufyrirtæki.' },
+      { icon: '💼', title: 'Atvinnuuppbygging og framtíðarsýn',    text: 'Miðflokkurinn vill styðja við uppbyggingu tækni- og heilsuklasa á Akranesi og auka verðmætasköpun í heimabyggð. Efla nýsköpun, samstarf og sjálfbæra atvinnuuppbyggingu og auðvelda uppbyggingu nýrra atvinnutækifæra. Efla ferðaþjónustu á Akranesi í samvinnu með íbúum.' },
+    ],
+    platformUrl: 'https://www.facebook.com/permalink.php?story_fbid=pfbid0m5iVpPRWFJPqC5msPDKB7ULzqi62K3RgxrmbFLtShjymxmK8MkRhijYCGdYADgefl&id=61583869156249',
     list: [
       [1, 'Hrafn Ágúst Björnsson', 'Öryggisráðgjafi', null, {
         age: null,
