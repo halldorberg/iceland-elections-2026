@@ -5497,14 +5497,16 @@ const SNB = {
     ],
   },
   S: {
-    tagline: 'Samfylkingin í Suðurnesjabæ — jöfnuður, framfarir og farsæld',
-    platformUrl: 'https://www.vf.is/adsent/jofnudur-framfarir-og-farsaeld',
+    tagline: 'Tökum ábyrgar og hugrakkar ákvarðanir',
+    platformUrl: 'https://www.facebook.com/xsudurnes/',
     agenda: [
-        { icon: '⚖️', title: 'Jöfnuður í samfélaginu', text: 'Listinn leggur áherslu á að öllum sé gert jafn hátt undir höfði til mennta, þjónustu og búsetu.' },
-        { icon: '👶', title: 'Þjónusta við börn og fjölskyldur', text: 'Sífellt er leitað leiða til að bæta hag og þjónustu við börn og fjölskyldur þeirra.' },
-        { icon: '💰', title: 'Lækka álögur á íbúa', text: 'Samfylkingin vill leita leiða til að lækka álögur á íbúa Suðurnesjabæjar.' },
-        { icon: '👵', title: 'Þarfir eldri borgara', text: 'Stofna formlegt félag eldri borgara sem ásamt öldungaráði veitir bæjaryfirvöldum aðhald og ráðgjöf.' },
-        { icon: '💼', title: 'Atvinnuuppbygging', text: 'Stuðla á að atvinnuuppbyggingu og þar með auknum atvinnutækifærum fyrir íbúa Suðurnesjabæjar.' },
+      { icon: '🏛️', title: 'Ábyrg, gagnsæ og skilvirk stjórnsýsla',  text: 'Setja skýra langtímastefnu, vinna fjárhagsáætlun í raunverulegu samráði við íbúa, lækka heildargjöld og auka gagnsæi með opnu bókhaldi. Halda reglulega íbúafundi, ráða nýjan bæjarstjóra, einfalda og efla nefndakerfið og setja kraft í stafræna vegferð sveitarfélagsins.' },
+      { icon: '❤️', title: 'Samfélag fyrir alla — velferð og leikskólagjöld', text: 'Tryggja að engin fjölskylda greiði meira en 50.000 krónur á mánuði fyrir fulla leikskólavistun og 100% systkinaafslátt. Bæta þjónustu fyrir fatlað fólk og þá sem þurfa sértæka aðstoð, tryggja ungu fötluðu fólki úrræði í heimabyggð og styðja nýja íbúa með bættu upplýsingaflæði.' },
+      { icon: '🧓', title: 'Eldri borgarar og félagsstarf',         text: 'Efla þjónustu við eldri borgara og tryggja þeim búsetu í heimabyggð. Efla félagsstarf í Miðhúsum og Auðarstofu og skoða möguleika á frístundastyrkjum fyrir eldri borgara. Vinna eftir stefnu eldri borgara og aðgerðaáætlun sem henni fylgir.' },
+      { icon: '🏘️', title: 'Skipulag og umhverfi',                  text: 'Endurskoða Aðalskipulag Suðurnesjabæjar eftir átta ára reynslutíma, ásamt deiliskipulagi á báðum hafnarsvæðum. Setja í forgang samtal við Vegagerðina um breikkun Garðskagavegar milli Garðs og Sandgerðis. Fegra sveitarfélagið með grænum svæðum, bekkjum, ruslatunnum og gróðursetningu; auka umferðaröryggi við skóla og þrýsta á aukið fjármagn í sjóvarnir.' },
+      { icon: '🌅', title: 'Líflegt samfélag og menning',           text: 'Gera Garðskaga að lykiláfangastað fyrir innlenda og erlenda ferðamenn. Glæða gömlu höfnina í Garði lífi sem öruggt útivistarsvæði, efla Menningarsjóð Suðurnesjabæjar og skapa svigrúm fyrir fjölbreyttari menningarviðburði. Markaðssetja Suðurnesjabæ sem áfangastað í samstarfi við ferðaþjónustuaðila.' },
+      { icon: '💼', title: 'Öflugt atvinnulíf og K64',              text: 'Móta atvinnustefnu fyrir Suðurnesjabæ með áherslu á nýsköpun og lítil og meðalstór fyrirtæki. Hámarka tækifærin sem búa í K64-þróunaráætluninni og hafa áhrif á þá þróun. Setja skýra þjónustu- og framkvæmdastefnu fyrir Sandgerðishöfn og gera hana samkeppnishæfari.' },
+      { icon: '⚽', title: 'Heilsueflandi samfélag og gervigrasvöllur', text: 'Láta gervigrasvöll verða að veruleika og hefja vinnu að uppbyggingu íþróttamannvirkja framtíðarinnar. Rýmka opnunartíma sundlauga, endurskoða frístundastyrkjakerfið með jöfnuð að leiðarljósi og skapa skýra og sanngjarna samninga við íþróttafélög í Suðurnesjabæ.' },
     ],
     list: [
       [1, 'Svavar Grétarsson', 'Flotastjóri', 'images/candidates/ca49d6f98e94597e.png', {
