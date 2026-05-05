@@ -209,10 +209,16 @@ def extract(content):
             # Does the object start on this same line?
             rest = line[m.end():]
             if '{' in rest:
-                in_cand_obj  = True
-                in_interests = False
-                interest_idx = 0
-                obj_depth    = rest.count('{') - rest.count('}')
+                inline_depth = rest.count('{') - rest.count('}')
+                if inline_depth > 0:
+                    # Multi-line object — track until closing } on a later line
+                    in_cand_obj  = True
+                    in_interests = False
+                    interest_idx = 0
+                    obj_depth    = inline_depth
+                # else: object opens AND closes on the same line (e.g.
+                # `{ age: null, …, news: [] }],`) — nothing more to parse
+                # for this candidate, leave in_cand_obj False.
             continue
 
     return strings, all_occupations

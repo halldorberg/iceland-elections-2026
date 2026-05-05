@@ -2152,10 +2152,19 @@ const AKU = {
     ],
   },
   V: {
-    tagline: 'Jana Salóme leiðir lista VG á Akureyri',
-    agenda: [],
-    // [stripped 2026-05-04] no source verifiable; no FB page found in 2026-05-04 sweep
-   
+    tagline: 'Vinstri græn á Akureyri — fyrir fólk og náttúru',
+    agenda: [
+      { icon: '🏠', title: 'Húsnæði fyrir fólk en ekki fjárfesta',  text: 'Húsnæðisstefna sem þjónar þörfum íbúa, ekki gróðasjónarmiðum fjárfesta.' },
+      { icon: '🤝', title: 'Inngildandi samfélag og sterkt velferðarkerfi', text: 'Samfélag þar sem aðgengi er fyrir öll. Sterkt velferðarkerfi er undirstaða góðra samfélaga. Tryggjum fólki með fötlun eða skerðingar viðeigandi þjónustu — m.a. um búsetu, atvinnu, fjölbreytt nám og aðstoð á borð við NPA.' },
+      { icon: '👶', title: 'Barnafjölskyldur og menntun',           text: 'Bætum hag barnafjölskyldna með hærri frístundastyrk eftir fjölda barna og gjaldfrjálsum máltíðum í leikskólum. Komum á sumarfrístund fyrir börn í fyrstu bekkjum grunnskóla. Tryggjum innleiðingu farsældar barna með fjármunum og viðeigandi úrræðum.' },
+      { icon: '🌳', title: 'Náttúruvernd í heimabyggð',             text: 'Náttúruvernd hefst í heimabyggð — verndum vistkerfi og líffræðilega fjölbreytni. Plöntum nytjarunnum í bæjarlandinu, kortleggjum græn svæði í Þorpinu og leyfum náttúrunni að blómstra.' },
+      { icon: '🐟', title: 'Verndum Eyjafjörð fyrir sjókvíaeldi',   text: 'Standa vörð um Eyjafjörð gegn sjókvíaeldi.' },
+      { icon: '🚌', title: 'Almenningssamgöngur og samgöngubætur',  text: 'Bætum almenningssamgöngur svo þær verði raunverulegur valkostur fyrir fólk.' },
+      { icon: '🎭', title: 'Grasrót menningar og lista',            text: 'Nærum grasrót menningar og lista með rými til sköpunar og auknum styrkjum.' },
+      { icon: '🏊', title: 'Yfirbyggð 50 metra sundlaug og skátastarf', text: 'Byggjum yfirbyggða 50 metra sundlaug og stóreflum skátastarf.' },
+      { icon: '🧓', title: 'Lífsgæði eldra fólks',                  text: 'Lífsgæði eldra fólks þarf að tryggja með góðri þjónustu svo þau geti lifað í öryggi og af reisn.' },
+    ],
+    platformUrl: 'https://www.facebook.com/vgakureyri/posts/pfbid0r6ykKffLNG6r36rVMq8frdaSPacnqxvN1HaJC5tLCSwu4g8sh997m1nztbMp1PMol',
     list: [
       [1, 'Jana Salóme Ingibjargar Jósepsdóttir', 'Bæjarfulltrúi', 'images/candidates/a7d7a5adab9e71c7.png', {
         age: 35,
