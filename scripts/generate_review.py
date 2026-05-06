@@ -634,7 +634,12 @@ def main():
   .rescue-label { font-size: 11px; font-weight: 700; color: var(--accent); letter-spacing: .07em; margin-bottom: 8px; }
   .rescue-wc { color: var(--muted); font-weight: 400; letter-spacing: 0; }
   .rescue-text { color: var(--text); font-size: 13.5px; line-height: 1.7; padding: 8px 12px; background: var(--bg); border-radius: 6px; border-left: 3px solid var(--accent); }
-  .rescue-meta { margin-top: 10px; font-size: 11.5px; color: var(--muted); }
+  .rescue-meta { margin-top: 10px; font-size: 11.5px; color: var(--muted); overflow-wrap: anywhere; word-break: break-word; }
+  .audit-quote, .audit-notes, .audit-rewrite, .audit-claim em { overflow-wrap: anywhere; word-break: break-word; }
+  .rescue-text, .source-link, .bio-text, .approve-row { overflow-wrap: anywhere; word-break: break-word; }
+  .audit-panel, .rescue-block { overflow-wrap: anywhere; }
+  body { overflow-x: hidden; }
+  html { overflow-x: hidden; }
   .rescue-meta ul { margin: 4px 0 0 16px; padding: 0; }
   .rescue-meta li { margin: 2px 0; }
   .rescue-meta li.rescue-rescued { color: var(--green); }
