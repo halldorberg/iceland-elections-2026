@@ -390,8 +390,8 @@ export const RESULTS_2022 = {
   horgarsv: {
     totalSeats: 5,
     parties: {
-      HGH: { pct: 57.0, seats: 3 },  // Gróska
-      HGG: { pct: 35.8, seats: 2 },  // H-listi Hörgársveitar
+      HGG: { pct: 57.0, seats: 3 },  // Gróska (áður J-listinn) — vann meirihluta
+      HGH: { pct: 35.8, seats: 2 },  // H-listi Hörgársveitar
       // D → "Nýtt framboð"
     },
   },

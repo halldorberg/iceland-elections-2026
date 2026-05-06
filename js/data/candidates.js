@@ -7435,10 +7435,19 @@ const EJA = {
 // ─── Hörgársveit candidate lists ───────────────────────────────────────────
 const HGS = {
   D: {
-    tagline: 'Sjálfstæðisflokkur og óháðir í Hörgársveit',
-    agenda: [],
-    // [stripped 2026-05-04] no source verifiable; no FB page found in 2026-05-04 sweep
-   
+    tagline: 'Sjálfstæðisflokkur og óháðir í Hörgársveit — Stefnuskrá 2026-2030',
+    agenda: [
+      { icon: '💼', title: 'Markmið í atvinnulífi',                 text: 'Skapa skilyrði fyrir störf óháð staðsetningu. Stóraukin ferðaþjónusta og hvatar til frekari uppbyggingar hennar. Aukin markaðssetning á Hörgársveit í samstarfi við Markaðsstofu Norðurlands og SSNE. Stuðla að bættu aðgengi að stuðningsneti nýsköpunar. Beita okkur fyrir uppbyggilegu samtali um nýtingu gamla B. Jensen-hússins. Innleiða gagnsæjar málsmeðferðir framkvæmdaleyfa og hámarkslengd afgreiðslutíma. Staða afgreiðslu mála sýnileg í rauntíma og rekjanleg skref fyrir skref.' },
+      { icon: '🚜', title: 'Markmið í landbúnaði',                  text: 'Aukinn þrýstingur á Vegagerðina vegna þarfa á stórbættu viðhaldi á malarvegum og heimreiðum. Aukinn stuðningur við nýsköpun í landbúnaði og stuðla að aukinni bændagistingu og hvata til hennar. Stuðla að áframhaldandi LED-væðingu ljósastaura. Pæklaður sandur aðgengilegur fyrir íbúa í dreifbýli til að sanda heimreiðar. Tryggja landbúnaðinum rödd með innleiðingu landbúnaðarráðs.' },
+      { icon: '🏘️', title: 'Markmið í skipulagsmálum',              text: 'Móta skýrari ramma utan um framkvæmdir í sveitarfélaginu og eftirlit með þeim svo allir séu á jafningjagrundvelli. Vinna að því að tengja Hörgársveit við strætisvagnakerfi Akureyrarbæjar. Uppsetning grenndargáma í þéttbýliskjörnum. Vinna að því að klára gangbrautir, skilti og kantsteina í Lónsbakkahverfi ásamt almenningsruslatunnum og endurskoðun bílastæðamála. Stuðla að stækkun þéttbýliskjarna án mikillar þéttingar svo fólk njóti áfram þeirra forréttinda að búa í sveit. Aukið samráð til að efla 4G/5G- og símasamband.' },
+      { icon: '💡', title: 'Markmið í nýsköpun',                    text: 'Vinna að auknum stuðningi við staðbundna framleiðslu í Hörgársveit. Móta gagnsæja hvataumgjörð fyrir uppbyggingu atvinnulífs með jafnræði og skýrum skilyrðum. Vinna að auknu samstarfi við Háskólann á Akureyri og Drift EA. Uppsetning á Visit Hörgársveit.is — markaðssetning á ferðaþjónustu, hannyrðafólki og annarri afþreyingu. Halda nýsköpunarkeppnir, gera ferðaleiðir og bæir aðgengilegar á Google Maps, og stóraukinn sýnileiki á samfélagsmiðlum.' },
+      { icon: '❤️', title: 'Markmið í lýðheilsumálum',              text: 'Finna pláss fyrir líkamsræktarsal á Þelamörk svo íbúar geti sótt sína hreyfingu innan Hörgársveitar. Vinna að uppsetningu ærslabelgjar og betri leikvallar í Lónsbakkahverfi. Aukin hvatning og fjármagn til Smárans með ráðningu íþrótta-, tómstunda- og æskulýðsmálafulltrúa. Fjölga útivistarsvæðum, tryggja íbúum val um íþróttir og hreyfingu, og stuðla að bættu aðgengi fyrir fatlaða á Þelamörk.' },
+      { icon: '🤝', title: 'Markmið í æskulýðsmálum',               text: 'Vinna að nánara samstarfi við ungmennaráð. Jafnt aðgengi óháð efnahag. Skipulagt tómstunda- og æskulýðsstarf til 18 ára. Stuðla að auknu framboði afþreyingar og aðstöðu. Aukið framlag til félagsmiðstöðvar og æskulýðsmála með farsæld barna að leiðarljósi. Tryggja áframhaldandi aðgengi að félagsmiðstöð fyrir 16–18 ára.' },
+      { icon: '📚', title: 'Markmið í menntamálum',                 text: 'Tryggja öllum börnum leikskólapláss innan ásættanlegs biðtíma. Aukinn stuðningur við foreldra sem vilja vera lengur heima með börnin eftir fæðingarorlof. Að Álfasteinn og Þelamerkurskóli verði áfram leiðandi í metnaðarfullu skólastarfi. Vinna að stóraukinni velferð starfsfólks Hörgársveitar. Afsláttur af leikskólagjöldum fyrir þá sem búa 15 km eða lengra frá leikskóla. Vinna markvisst að farsæld barna og tryggja börnum áframhaldandi gæðamenntun.' },
+      { icon: '🧓', title: 'Markmið í velferðarmálum',              text: 'Stóraukið upplýsingaflæði á heimasíðu sveitarfélagsins um félagsmál. Gerð lögbundinnar þjónustustefnu samhliða fjárhagsáætlun. Aukið samráð við notendur velferðarþjónustu. Velferðarþjónusta sé aðgengileg, skýr og án óþarfa flækjustigs. Innleiðing lögbundins öldungaráðs. Gera fólki kleift að búa heima eins lengi og kostur er. Stuðla að stofnun verkefnisins „Virk efri ár fyrir íbúa Hörgársveitar, 60 ára og eldri."' },
+      { icon: '🎭', title: 'Markmið í menningarmálum',              text: 'Kanna grundvöll fyrir uppsetningu gagnvirks menningarseturs. Stuðla að auknu aðgengi að stuðningsneti og styrkjum fyrir menningarmál. Aukinn fjárhagsstuðningur við viðburði. Styðja frumkvæði íbúa og listafólks og gera það einfaldara að koma hugmyndum í framkvæmd. Stuðla að reglulegum og lifandi viðburðum sem skapa stemningu og samveru. Vinna að því að kynna merkilega staði í Hörgársveit og merkja þá inn á gagnvirkt kort.' },
+    ],
+    platformUrl: 'https://online.fliphtml5.com/eqgxv/omlr/',
     list: [
       [1, 'Árni Rúnar Örvarsson', 'Framkvæmdastjóri', 'images/candidates/13879b0bd0336d5f.jpg', {
         age: 32,
@@ -7448,14 +7457,14 @@ const HGS = {
         news: [],
       }],
       [2, 'Katrín Olsen Björnsdóttir', 'Hjúkrunarfræðingur', 'images/candidates/c776b797cdcd3005.jpg', { age: null, bio: null, interests: null, social: {  }, news: [] }],
-      [3, 'Jónas Þór Jónasson', 'Vélvirki og söngmaður', 'images/candidates/47fab25d34244a27.jpg'],
+      [3, 'Jónas Þór Jónasson', 'Vélvirki og söngvari', 'images/candidates/47fab25d34244a27.jpg'],
       [4, 'Aðalsteinn Heiðmann Hreinsson', 'Bóndi', 'images/candidates/2f88108f2f08a28a.jpg'],
-      [5, 'Björg Ingadóttir', 'Lagastúdent', 'images/candidates/c8bef3f43bfd0637.jpg'],
-      [6, 'Sylvía Sól Guðmundsdóttir', 'Hjúkrunarfulltrúi', 'images/candidates/b397e380defd1b75.jpg'],
+      [5, 'Björg Ingadóttir', 'Nemi til lögg. fasteignasala', 'images/candidates/c8bef3f43bfd0637.jpg'],
+      [6, 'Sylvía Sól Guðmundsdóttir', 'Sjúkraliði', 'images/candidates/b397e380defd1b75.jpg'],
       [7, 'Björgvin Helgason', 'Kartöflubóndi', 'images/candidates/bdc515d0d5ae694d.jpg'],
-      [8, 'Jóhanna Margrét Gunnarsdóttir', 'Handverksstjóri', 'images/candidates/d81afd577dba1218.jpg'],
+      [8, 'Jóhanna Margrét Gunnarsdóttir', 'Iðjuþjálfi', 'images/candidates/d81afd577dba1218.jpg'],
       [9, 'Áslaug Ólöf Stefánsdóttir', 'Bóndi', 'images/candidates/191ff2b8e715c59a.jpg'],
-      [10, 'Guðmundur Sturluson', '', 'images/candidates/dfc550bba213f51b.jpg'],
+      [10, 'Guðmundur Sturluson', 'Bóndi', 'images/candidates/dfc550bba213f51b.jpg'],
     ],
   },
   HGG: {
