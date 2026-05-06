@@ -651,7 +651,11 @@
   flex-direction: column;
   align-items: flex-start;
   flex-shrink: 0;
-  min-width: 62px;
+  /* Locked width so every bar starts at the same X regardless of whether
+     the percentage is "5.3%" or "37.3%". Sized to fit "37.3% atkvæða"
+     (the IS description "atkvæða" is the widest of the three i18n strings)
+     plus a small buffer for any future 100.0% reading. */
+  width: 82px;
 }
 
 .results-pct-num {
