@@ -8354,10 +8354,16 @@ const FJD = {
 
 const HFJ = {
   B: {
-    tagline: 'Framsóknarflokkur á Hornafirði',
-    agenda: [],
-    // [stripped 2026-05-04] no source verifiable; no FB page found in 2026-05-04 sweep
-   
+    tagline: 'Framsókn og stuðningsmenn — Stefnumál 2026-2030',
+    agenda: [
+      { icon: '💼', title: 'Atvinnulíf — fleiri tækifæri',          text: 'Styrkja Atvinnu- og rannsóknarsjóð. Draga betur fram hvað fjölbreytt atvinnulíf skiptir miklu máli og styðja nýsköpunar- og rannsóknarstarf. Tryggja framgang lausna á Grynnslunum. Þróa höfnina fyrir fjölbreytta starfsemi og viðhalda aðstöðu fyrir hafnsækna starfsemi. Skapa frekari möguleika fyrir störf án staðsetningar — þ.m.t. í dreifbýli. Efla Fab Lab og skapandi greinar, vetraferðamennsku, þrýsta á styttingu Hringvegar í Öræfum og Lóni og fækkun einbreiðra brúa.' },
+      { icon: '🏔️', title: 'Vatnajökulsþjóðgarður — tækifæri og hagsmunir heimamanna', text: 'Tryggja hagsmuni heimafólks í atvinnustarfsemi innan þjóðgarðsins. Tryggja jafnvægi milli náttúruverndar, útivistar og byggðaþróunar. Nýta þjóðgarðinn sem vettvang nýsköpunar, byggja upp innviði innan hans, og færa störf í stjórnsýslu þjóðgarðsins heim í sveitarfélagið.' },
+      { icon: '🎭', title: 'Menningarmál — lifandi samfélag',         text: 'Vernda og byggja upp hluta Miklagarðs fyrir listir og menningu. Að Gamlabúð verði áfram safn og upplýsingamiðstöð. Hlúa að kjarnastarfsemi Menningarmiðstöðvar — bóka-, skjala-, lista- og byggðasafns.' },
+      { icon: '❤️', title: 'Velferðarmál — öryggi fyrir alla',        text: 'Efla heilbrigðis- og öldrunarþjónustu. Tryggja að velferðarþjónusta nái líka til dreifbýlis. Auka aðgengi að sérfræðiþjónustu fyrir alla aldurshópa og styðja við heilsueflingu eldri íbúa. Hlúa að og styrkja öfluga og fjölbreytta starfsemi Miðgarðs. Tryggja framgang björgunarmiðstöðvar í Öræfum.' },
+      { icon: '🏘️', title: 'Umhverfi og skipulag — snyrtilegt og sjálfbært samfélag', text: 'Bæta ásýnd sveitarfélagsins og viðhald á eigum þess. Átak í viðhaldi gatna og gangstétta. Fjölga og bæta göngustíga, setja lýsingu á strandstíginn. Endurskoða sorpmál — einfaldara og sanngjarnara kerfi. Tryggja næga lóðir fyrir íbúðir og atvinnuhúsnæði og einfalda stjórnsýsluferla. Styðja við uppbyggingu eignar- og leiguhúsnæðis fyrir alla hópa. Fylgja eftir skipulagi á Leiðarhöfða og taka mið af sjálfbærni- og umhverfissjónarmiðum í öllum framkvæmdum.' },
+      { icon: '🌍', title: 'Fjölmenning — samfélag fyrir alla',       text: 'Efla fjölmenningarráð og tengja það betur við stjórnsýslu og aðra nefndir bæjarins. Hvetja fólk af ólíkum uppruna til þátttöku í samfélagsmálum. Nýta félagsheimili sem vettvang fyrir íslenskunám.' },
+    ],
+    platformUrl: 'https://leidarhofdi.is/stefnumal-2026-2030/',
     list: [
       [1, 'Hjalti Þór Vignisson', 'Framkvæmdastjóri hjá Stormar hf', 'images/candidates/9b5359f2c229c411.webp', {
         age: 48,
@@ -8376,12 +8382,12 @@ const HFJ = {
       [7, 'Erla Rún Guðmundsdóttir', 'Bóndi'],
       [8, 'Þórdís Þórsdóttir', 'Skólastjóri'],
       [9, 'Lena Hrönn Marteinsdóttir', 'Skólafélagsráðgjafi'],
-      [10, 'Sigursteinn Ingvar Trautason', 'Nemi'],
+      [10, 'Sigursteinn Ingvar Traustason', 'Nemi'],
       [11, 'Lars Jóhann Andrésson Imsland', 'Atvinnurekandi og starfsmaður HSU'],
       [12, 'Haukur Ingi Einarsson', 'Atvinnurekandi og hagfræðingur'],
       [13, 'Reynir Arnarson', 'Vélstjóri'],
     
-      [14, 'Ásgerður Kristín Gylfadóttir', 'Frambjóðandi'],
+      [14, 'Ásgerður Kristín Gylfadóttir', 'Hjúkrunarfræðingur og bæjarfulltrúi'],
     ],
   },
   D: {
