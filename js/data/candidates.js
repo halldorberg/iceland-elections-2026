@@ -8916,10 +8916,19 @@ const BBD = {
     ],
   },
   M: {
-    tagline: 'Miðflokkurinn í Borgarbyggð',
-    agenda: [],
-    // [stripped 2026-05-04] no source verifiable; FB: https://www.facebook.com/profile.php?id=61584376858076
-   
+    tagline: 'Málefnaskrá Miðflokksins í Borgarbyggð — Tækifærið er núna!',
+    agenda: [
+      { icon: '💰', title: 'Ábyrg fjármálastjórn og lægri fasteignaskattar', text: 'Skýr forgangsröðun í rekstri sveitarfélagsins — lögbundin þjónusta og hagsmunir íbúa í fyrsta sæti. Lækka vaxtaberandi skuldir, yfirfara samninga, kostnað og rekstur sveitarfélagsins og einfalda stjórnkerfið. Aukin gagnsæi gagnvart íbúum. Lækka álagningarprósentu fasteignaskatts í áföngum til að hlífa íbúum við vaxandi byrðum eftir miklar hækkanir á fasteignamati síðustu árin.' },
+      { icon: '🚫', title: 'Engar vindmyllur á hálsum Borgarfjarðar', text: 'Borgarbyggð er eitt sögufrægasta og fegursta hérað landsins. Stórkarlaleg orkumannvirki á hálsum Borgarfjarðar myndu hafa gríðarleg áhrif á ásýnd, náttúru, landslag og fuglalíf, auk hljóðmengunar og skuggaflökts á viðkvæmum svæðum. Miðflokkurinn hafnar öllum hugmyndum um vindmyllur á hálsum Borgarfjarðar.' },
+      { icon: '⚡', title: 'Holtavörðuheiðarlína fari um heiðar — ekki um byggðir', text: 'Mæla með heiðarleið A3, sem liggur yfir heiðar og hálendi frekar en í gegnum byggðir og uppsveitir Borgarfjarðar. Hafna því að 900 MW lína fari í gegnum uppsveitir með neikvæðum áhrifum á landbúnað, eignaverð, ásýnd lands og framtíðarmöguleika svæðisins.' },
+      { icon: '🏘️', title: 'Uppbygging byggðakjarna, húsnæði og skipulag', text: 'Borgarbyggð er meðal víðfeðmustu sveitarfélaga með sex þéttbýliskjarna. Vinna að framtíðarskipulagi sem styður við íbúafjölgun á svæðinu. Taka upp tímabundinn afslátt af íbúðar- og atvinnuhúsalóðum til að hvetja til uppbyggingar og koma lóðum á markað. Einfalda skipulagsferla og gera húsbyggjendum auðveldara að reisa fjölbreytt húsnæði. Vinna að framtíðarskipulagi í Brákarey í sátt við samfélagið.' },
+      { icon: '💼', title: 'Atvinnulíf, nýsköpun og landbúnaður', text: 'Stuðla að hraðari uppbyggingu atvinnulífs með markvissri greiningu á styrkleikum, veikleikum og tækifærum. Markvissar kynningar á svæðinu og möguleikum þess til að laða að fyrirtæki og nýsköpunarstarfsemi. Standa vörð um og styrkja innlenda matvælaframleiðslu og oghefðbundinn landbúnað — Miðflokkurinn hafnar því að góðar landbúnaðarjarðir leggist í eyði í nafni kolefnisjöfnunar með sífellt fleiri jörðum í höndum stórfyrirtækja og erlendra auðmanna.' },
+      { icon: '📚', title: 'Leikskólar, grunnskólar og íþróttamannvirki', text: 'Klárum endurbætur og stækkun leikskólanna Uglukletts og Klettaborgar og tryggjum áfram að öll börn komist á leikskóla við 12 mánaða aldur. Bætt aðgengi og gæði í leikskólum miðað við þarfir fjölskyldna. Efla grunnskólana í dreifbýli með markvissri uppbyggingu á nærumhverfi þeirra. Lengja opnunartíma íþróttamannvirkja og sundlauga, og skoða stækkun íþróttahússins í Borgarnesi.' },
+      { icon: '🚧', title: 'Samgöngumál og fjarskipti', text: 'Ástand vega og tengivega í héraðinu er mikið áhyggjuefni — Snæfellsnesvegur, Borgarfjarðarbraut og Þjóðvegur 1. Tengivegir eru víða án slitlags. Þrýsta á ríkisvaldið um úrbætur á vegakerfinu, m.a. Uxahryggjaleið og veginum milli Borgarness og Holtavörðuheiðar. Stórefla farsímasamband í dölum og á heiðum Borgarbyggðar — gott símasamband er mikilvægt öryggisatriði.' },
+      { icon: '❤️', title: 'Heilbrigðismál og málefni aldraðra', text: 'Styðja við starfsemi Heilsugæslunnar í Borgarnesi þannig að þjónustan endurspegli betur fjölda og þarfir íbúa héraðsins, í nánu samstarfi við ríkisvaldið um fjárveitingar. Efla félagsþjónustu við aldraða og fylgjast með að ákvæði Sambands íslenskra sveitarfélaga um þjónustu við aldraða séu í fullu gildi — þannig að aldraðir geti búið við eðlilegt heimilislíf eins lengi og unnt er, með stoðþjónustu þegar þörf krefur.' },
+      { icon: '♻️', title: 'Sorphirða og þjónusta við íbúa', text: 'Endurskoða breytingar undanfarinna ára á sorphirðukerfi Borgarbyggðar sem hafa leitt til aukins flækjustigs og hækkandi kostnaðar fyrir íbúa, með það að markmiði að einfalda kerfið og lækka kostnað íbúa.' },
+    ],
+    platformUrl: 'https://www.facebook.com/reel/1691397398969653/',
     list: [
       [1, 'Haukur Þór Hauksson', 'Viðskiptahagfræðingur', 'images/candidates/4be86fdaa51c0ed6.jpg', {
         age: null,
