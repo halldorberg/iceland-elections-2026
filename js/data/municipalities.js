@@ -235,7 +235,7 @@ export const MUNICIPALITIES = [
   // ── Norðurland eystra ────────────────────────────────────────────────────────
   { id: 'dalvikurbyggd', name: 'Dalvíkurbyggð', region: 'Norðurland eystra', population: 1925, coords: { lat: 65.973, lng: -18.527 }, partyIds: ['B', 'D', 'A', 'K'] },
   { id: 'eyjafjardarsveit', name: 'Eyjafjarðarsveit', region: 'Norðurland eystra', population: 1206, coords: { lat: 65.530, lng: -18.080 }, partyIds: ['EJF', 'EJK'] },
-  { id: 'horgarsv', name: 'Hörgársveit', region: 'Norðurland eystra', population: 937, coords: { lat: 65.860, lng: -18.330 }, partyIds: ['D', 'HGG', 'HGH'] },
+  { id: 'horgarsv', name: 'Hörgársveit', region: 'Norðurland eystra', population: 937, coords: { lat: 65.6379, lng: -18.5026 }, partyIds: ['D', 'HGG', 'HGH'] },
   // ── Norðurland vestra ────────────────────────────────────────────────────────
   { id: 'hunabyggd', name: 'Húnabyggð', region: 'Norðurland vestra', population: 1352, coords: { lat: 65.517, lng: -20.283 }, partyIds: ['HBA', 'B', 'D'] },
   { id: 'hunathing', name: 'Húnaþing vestra', region: 'Norðurland vestra', population: 1190, coords: { lat: 65.400, lng: -21.033 }, partyIds: ['B', 'D', 'NHV'] },
