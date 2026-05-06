@@ -26,11 +26,9 @@ export const POLLS = {
     {
       // Maskína via Vísir, 29. apríl – 6. maí 2026 (n ekki tilgreint).
       // https://www.visir.is/g/20262879317d/sjalfstaedisflokkur-eykur-forskotid-a-samfylkingu-i-reykjavik
-      // Seat distribution per article: D 8 · S 5 · A 3 · C 3 · M 1 · B 1 · J 1 · P 1.
-      // Article quotes explicit pct for D/S/A/M (and a related Vísir piece for B);
-      // C/J/P percentages are inferred from D'Hondt back-solve against the article's
-      // seat counts and chart visible on the Sýn news segment (12.0 / 5.2 / 5.2 produce
-      // exactly the 8/5/3/3/1/1/1/1 allocation).
+      // Numbers read from the embedded Infogram chart in the article
+      // (https://e.infogram.com/319e63a6-75e6-4ec2-b0c7-328c07d78317).
+      // Sum of all 11 lists = 99.9 (rounding).
       totalSeats: 23,
       source: {
         pollster:    'Maskína',
@@ -42,14 +40,17 @@ export const POLLS = {
         url:         'https://www.visir.is/g/20262879317d/sjalfstaedisflokkur-eykur-forskotid-a-samfylkingu-i-reykjavik',
       },
       parties: {
-        D: { pct: 27.9, seats: 8 },  // explicit
-        S: { pct: 18.0, seats: 5 },  // explicit
-        A: { pct: 13.2, seats: 3 },  // explicit (Vinstrið)
-        C: { pct: 12.0, seats: 3 },  // inferred (article: "smá aukning hjá Viðreisn"; D'Hondt-confirms)
-        M: { pct:  6.7, seats: 1 },  // explicit
-        B: { pct:  5.7, seats: 1 },  // explicit (related Vísir article)
-        J: { pct:  5.2, seats: 1 },  // inferred (D'Hondt-confirms)
-        P: { pct:  5.2, seats: 1 },  // inferred (D'Hondt-confirms)
+        D: { pct: 27.9, seats: 8 },
+        S: { pct: 18.0, seats: 5 },
+        A: { pct: 13.2, seats: 3 },
+        C: { pct: 12.6, seats: 3 },
+        M: { pct:  6.7, seats: 1 },
+        B: { pct:  5.7, seats: 1 },
+        J: { pct:  5.1, seats: 1 },
+        P: { pct:  4.9, seats: 1 },
+        F: { pct:  2.8, seats: 0 },
+        R: { pct:  1.6, seats: 0 },
+        G: { pct:  1.4, seats: 0 },
       },
     },
     {
