@@ -1,10 +1,14 @@
 // ─── Recent Polls ────────────────────────────────────────────────────────────
-// Per-municipality polling data, rendered alongside the 2022 election results.
-// Each muni entry: { source: {...}, totalSeats, parties: { LETTER: {pct, seats} } }
+// Per-municipality polling data. Each muni maps to an *array* of polls, sorted
+// **newest first**. The UI renders the first poll by default and lets the user
+// scroll horizontally back to older ones.
+//
+// Each poll entry: { source: {...}, totalSeats, parties: { LETTER: {pct, seats} } }
 //   source.pollster — e.g. 'Maskína'
+//   source.pollsterGen — Icelandic genitive ("Maskínu") for the label line
 //   source.period   — human-readable date range (kept in IS by default; the
 //                     UI label is i18n-aware around it)
-//   source.sample   — n
+//   source.sample   — n (or null)
 //   source.url      — link back to the article reporting the poll
 //   source.url_en   — optional EN translation of the article
 //   source.url_pl   — optional PL translation of the article
@@ -16,119 +20,151 @@
 
 export const POLLS = {
 
-  // Reykjavík · 23 seats
-  // Source: Maskína via Vísir, 17.–24. apríl 2026, n=973
-  // https://www.visir.is/g/20262873819d/bilid-a-milli-turnanna-breikkar
-  // Seat projection: D'Hondt against 23 seats (two exact ties at this snapshot:
-  // J vs P at 5,200, and C-3rd vs B-1st at 3,900 — would be drawn by lot
-  // if the actual election landed on these numbers).
-  reykjavik: {
-    totalSeats: 23,
-    source: {
-      pollster:    'Maskína',   // nominative (used in source line)
-      pollsterGen: 'Maskínu',   // Icelandic genitive (used in 'Skoðanakönnun X' label)
-      period:      '17.–24. apríl 2026',
-      period_en:   'April 17–24, 2026',
-      period_pl:   '17–24 kwietnia 2026',
-      sample:      973,
-      url:         'https://www.visir.is/g/20262873819d/bilid-a-milli-turnanna-breikkar',
+  // ── Reykjavík · 23 seats ────────────────────────────────────────────────────
+  reykjavik: [
+    {
+      // Maskína via Vísir, 17.–24. apríl 2026, n=973
+      // https://www.visir.is/g/20262873819d/bilid-a-milli-turnanna-breikkar
+      // Seat projection: D'Hondt against 23 seats (two exact ties at this snapshot:
+      // J vs P at 5,200, and C-3rd vs B-1st at 3,900 — would be drawn by lot
+      // if the actual election landed on these numbers).
+      totalSeats: 23,
+      source: {
+        pollster:    'Maskína',
+        pollsterGen: 'Maskínu',
+        period:      '17.–24. apríl 2026',
+        period_en:   'April 17–24, 2026',
+        period_pl:   '17–24 kwietnia 2026',
+        sample:      973,
+        url:         'https://www.visir.is/g/20262873819d/bilid-a-milli-turnanna-breikkar',
+      },
+      parties: {
+        D: { pct: 25.4, seats: 7 },
+        S: { pct: 21.0, seats: 5 },
+        C: { pct: 11.7, seats: 3 },
+        A: { pct: 10.6, seats: 3 },
+        M: { pct: 10.0, seats: 2 },
+        J: { pct:  5.2, seats: 1 },
+        P: { pct:  5.2, seats: 1 },
+        B: { pct:  3.9, seats: 1 },
+        F: { pct:  2.8, seats: 0 },
+        R: { pct:  2.6, seats: 0 },
+        G: { pct:  1.6, seats: 0 },
+      },
     },
-    parties: {
-      D: { pct: 25.4, seats: 7 },
-      S: { pct: 21.0, seats: 5 },
-      C: { pct: 11.7, seats: 3 },
-      A: { pct: 10.6, seats: 3 },
-      M: { pct: 10.0, seats: 2 },
-      J: { pct:  5.2, seats: 1 },
-      P: { pct:  5.2, seats: 1 },
-      B: { pct:  3.9, seats: 1 },
-      F: { pct:  2.8, seats: 0 },
-      R: { pct:  2.6, seats: 0 },
-      G: { pct:  1.6, seats: 0 },
-    },
-  },
+  ],
 
-  // Hafnarfjörður · 11 seats
-  // Source: Maskína fyrir fréttastofu Vísis, 22.–27. apríl 2026
-  // (article kynnt í Pallborðinu á Vísi; sample size not stated).
-  // https://www.visir.is/g/20262876013d/vidreisn-upp-fyrir-sjalfstaedisflokk-og-framsokn-baetir-vid-sig
-  // D'Hondt vs 11 seats: S 3 · C 3 · D 2 · B 2 · M 1 · A 0
-  // Meirihluti D + B (2 + 2 = 4) er kolfallinn.
-  hafnarfjordur: {
-    totalSeats: 11,
-    source: {
-      pollster:    'Maskína',
-      pollsterGen: 'Maskínu',
-      period:      '22.–27. apríl 2026',
-      period_en:   'April 22–27, 2026',
-      period_pl:   '22–27 kwietnia 2026',
-      sample:      null,
-      url:         'https://www.visir.is/g/20262876013d/vidreisn-upp-fyrir-sjalfstaedisflokk-og-framsokn-baetir-vid-sig',
+  // ── Hafnarfjörður · 11 seats ────────────────────────────────────────────────
+  hafnarfjordur: [
+    {
+      // Maskína fyrir fréttastofu Vísis, 22.–27. apríl 2026 (n ekki tilgreint).
+      // https://www.visir.is/g/20262876013d/vidreisn-upp-fyrir-sjalfstaedisflokk-og-framsokn-baetir-vid-sig
+      // D'Hondt vs 11 seats: S 3 · C 3 · D 2 · B 2 · M 1 · A 0
+      // Meirihluti D + B (2 + 2 = 4) er kolfallinn.
+      totalSeats: 11,
+      source: {
+        pollster:    'Maskína',
+        pollsterGen: 'Maskínu',
+        period:      '22.–27. apríl 2026',
+        period_en:   'April 22–27, 2026',
+        period_pl:   '22–27 kwietnia 2026',
+        sample:      null,
+        url:         'https://www.visir.is/g/20262876013d/vidreisn-upp-fyrir-sjalfstaedisflokk-og-framsokn-baetir-vid-sig',
+      },
+      parties: {
+        S: { pct: 24.2, seats: 3 },
+        C: { pct: 22.4, seats: 3 },
+        D: { pct: 22.1, seats: 2 },
+        B: { pct: 14.9, seats: 2 },
+        M: { pct:  9.7, seats: 1 },
+        A: { pct:  6.8, seats: 0 },
+      },
     },
-    parties: {
-      S: { pct: 24.2, seats: 3 },
-      C: { pct: 22.4, seats: 3 },
-      D: { pct: 22.1, seats: 2 },
-      B: { pct: 14.9, seats: 2 },
-      M: { pct:  9.7, seats: 1 },
-      A: { pct:  6.8, seats: 0 },
-    },
-  },
+  ],
 
-  // Akureyri · 11 seats
-  // Source: Maskína fyrir DV, 17.–24. apríl 2026, n=629
-  // https://www.dv.is/frettir/2026/4/26/ny-konnun-akureyri-samfylkingin-storsiglingu-en-oljost-hverjir-geta-myndad-meirihluta/
-  // (Vísir summary: https://www.visir.is/g/20262874388d/samfylkingin-staerst-a-akureyri)
-  // Seat distribution per article: S 3 · D 2 · L 2 · B 1 · C 1 · M 1 · V 1 (D'Hondt-verified).
-  // Akureyrarlistinn (AL) measures at 6 % and would not get a seat.
-  akureyri: {
-    totalSeats: 11,
-    source: {
-      pollster:    'Maskína',
-      pollsterGen: 'Maskínu',
-      period:      '17.–24. apríl 2026',
-      period_en:   'April 17–24, 2026',
-      period_pl:   '17–24 kwietnia 2026',
-      sample:      629,
-      url:         'https://www.dv.is/frettir/2026/4/26/ny-konnun-akureyri-samfylkingin-storsiglingu-en-oljost-hverjir-geta-myndad-meirihluta/',
+  // ── Akureyri · 11 seats ─────────────────────────────────────────────────────
+  akureyri: [
+    {
+      // Maskína fyrir DV, 17.–24. apríl 2026, n=629
+      // https://www.dv.is/frettir/2026/4/26/ny-konnun-akureyri-samfylkingin-storsiglingu-en-oljost-hverjir-geta-myndad-meirihluta/
+      // (Vísir summary: https://www.visir.is/g/20262874388d/samfylkingin-staerst-a-akureyri)
+      // Seat distribution per article: S 3 · D 2 · L 2 · B 1 · C 1 · M 1 · V 1.
+      // Akureyrarlistinn (AL) measures at 6 % and would not get a seat.
+      totalSeats: 11,
+      source: {
+        pollster:    'Maskína',
+        pollsterGen: 'Maskínu',
+        period:      '17.–24. apríl 2026',
+        period_en:   'April 17–24, 2026',
+        period_pl:   '17–24 kwietnia 2026',
+        sample:      629,
+        url:         'https://www.dv.is/frettir/2026/4/26/ny-konnun-akureyri-samfylkingin-storsiglingu-en-oljost-hverjir-geta-myndad-meirihluta/',
+      },
+      parties: {
+        S:  { pct: 18.4, seats: 3 },
+        L:  { pct: 17.2, seats: 2 },
+        D:  { pct: 16.7, seats: 2 },
+        B:  { pct: 11.5, seats: 1 },
+        V:  { pct: 11.5, seats: 1 },
+        M:  { pct: 10.6, seats: 1 },
+        C:  { pct:  8.1, seats: 1 },
+        AL: { pct:  6.0, seats: 0 },
+      },
     },
-    parties: {
-      S:  { pct: 18.4, seats: 3 },
-      L:  { pct: 17.2, seats: 2 },
-      D:  { pct: 16.7, seats: 2 },
-      B:  { pct: 11.5, seats: 1 },
-      V:  { pct: 11.5, seats: 1 },
-      M:  { pct: 10.6, seats: 1 },
-      C:  { pct:  8.1, seats: 1 },
-      AL: { pct:  6.0, seats: 0 },
-    },
-  },
+  ],
 
-  // Kópavogur · 11 seats
-  // Source: Maskína fyrir DV, apríl 2026 (article 25. apríl 2026; chart label
-  // says only "Könnun apríl 2026" and the article does not state sample size).
-  // https://www.visir.is/g/20262874098d/samfylking-og-midflokkur-a-flugi-i-kopavogi
-  // Seat distribution per article: D 4 · S 3 · C 2 · B 1 · M 1 (D'Hondt-verified).
-  kopavogur: {
-    totalSeats: 11,
-    source: {
-      pollster:    'Maskína',
-      pollsterGen: 'Maskínu',
-      period:      'apríl 2026',
-      period_en:   'April 2026',
-      period_pl:   'kwiecień 2026',
-      sample:      null,
-      url:         'https://www.visir.is/g/20262874098d/samfylking-og-midflokkur-a-flugi-i-kopavogi',
+  // ── Kópavogur · 11 seats ────────────────────────────────────────────────────
+  // Newest first.
+  kopavogur: [
+    {
+      // Maskína fyrir Vísi, 29. apríl – 4. maí 2026 (n ekki tilgreint).
+      // https://www.visir.is/g/20262878554d/ny-konnun-i-kopavogi-meirihlutinn-heldur-en-samfylking-a-siglingu
+      // Seat distribution per article: D 5 · S 3 · C 1 · M 1 · B 1 (D+B meirihluti heldur með 6 sætum)
+      totalSeats: 11,
+      source: {
+        pollster:    'Maskína',
+        pollsterGen: 'Maskínu',
+        period:      '29. apríl – 4. maí 2026',
+        period_en:   'April 29 – May 4, 2026',
+        period_pl:   '29 kwietnia – 4 maja 2026',
+        sample:      null,
+        url:         'https://www.visir.is/g/20262878554d/ny-konnun-i-kopavogi-meirihlutinn-heldur-en-samfylking-a-siglingu',
+      },
+      parties: {
+        D: { pct: 37.3, seats: 5 },
+        S: { pct: 23.2, seats: 3 },
+        C: { pct: 11.7, seats: 1 },
+        M: { pct: 11.2, seats: 1 },
+        B: { pct:  8.0, seats: 1 },
+        V: { pct:  5.3, seats: 0 },
+        J: { pct:  3.3, seats: 0 },
+      },
     },
-    parties: {
-      D: { pct: 31.7, seats: 4 },
-      S: { pct: 24.5, seats: 3 },
-      C: { pct: 14.9, seats: 2 },
-      M: { pct: 11.0, seats: 1 },
-      B: { pct:  8.7, seats: 1 },
-      V: { pct:  5.0, seats: 0 },
-      J: { pct:  4.1, seats: 0 },
+    {
+      // Eldri könnun: Maskína fyrir DV, apríl 2026 (article 25. apríl 2026;
+      // chart label "Könnun apríl 2026"; n ekki tilgreint).
+      // https://www.visir.is/g/20262874098d/samfylking-og-midflokkur-a-flugi-i-kopavogi
+      // Seat distribution per article: D 4 · S 3 · C 2 · B 1 · M 1
+      totalSeats: 11,
+      source: {
+        pollster:    'Maskína',
+        pollsterGen: 'Maskínu',
+        period:      'apríl 2026',
+        period_en:   'April 2026',
+        period_pl:   'kwiecień 2026',
+        sample:      null,
+        url:         'https://www.visir.is/g/20262874098d/samfylking-og-midflokkur-a-flugi-i-kopavogi',
+      },
+      parties: {
+        D: { pct: 31.7, seats: 4 },
+        S: { pct: 24.5, seats: 3 },
+        C: { pct: 14.9, seats: 2 },
+        M: { pct: 11.0, seats: 1 },
+        B: { pct:  8.7, seats: 1 },
+        V: { pct:  5.0, seats: 0 },
+        J: { pct:  4.1, seats: 0 },
+      },
     },
-  },
+  ],
 
 };

@@ -2,7 +2,7 @@ import { MUNICIPALITIES } from './data/municipalities.js?v=15';
 import { PARTIES } from './data/parties.js?v=4';
 import { getMunicipalityPartyData } from './data/candidates.js?v=64';
 import { RESULTS_2022 } from './data/results2022.js?v=2';
-import { POLLS }        from './data/polls.js?v=1';
+import { POLLS }        from './data/polls.js?v=2';
 import { EYE_POSITIONS } from './data/eye_positions.js?v=1';
 import { getLang, t, renderLangSwitcher } from './i18n.js?v=5';
 import { partySlug, partyCodeFromSlug, slugify } from './data/party_slugs.js?v=2';
@@ -343,6 +343,7 @@ function renderAccordion() {
     ribbon.innerHTML = buildRibbonHTML(p, data);
     container.appendChild(ribbon);
     attachCustomScrollbar(ribbon);
+    activatePollCarousels(ribbon);
   });
 }
 
@@ -586,46 +587,101 @@ function buildResultsHTML(partyCode, municipalityId) {
 // ─── Recent poll (same shape as Results 2022) ──────────────
 
 function buildPollHTML(partyCode, municipalityId) {
-  const muniPoll = POLLS[municipalityId];
-  if (!muniPoll) return '';
+  const muniEntry = POLLS[municipalityId];
+  if (!muniEntry) return '';
 
-  const r = muniPoll.parties?.[partyCode];
-  if (!r) return '';
+  // Backwards-compat: accept either an array of polls (newest first) or a
+  // single poll object.
+  const polls = Array.isArray(muniEntry) ? muniEntry : [muniEntry];
+  // Filter to polls that include this party.
+  const slides = polls
+    .map(p => ({ poll: p, r: p.parties?.[partyCode] }))
+    .filter(s => s.r);
+  if (!slides.length) return '';
 
-  const total = muniPoll.totalSeats;
-  const src   = muniPoll.source || {};
-  const barPct = Math.min(r.pct, 100);
-  const seatsLabel = r.seats === 0 ? ui.noSeats : ui.ofSeats(total);
-
-  const url    = src['url_'    + lang] || src.url    || '';
-  const period = src['period_' + lang] || src.period || '';
-  const sourceLink = url
-    ? `<a href="${url}" target="_blank" rel="noopener noreferrer">${ui.pollSource(src.pollster, period, src.sample)}</a>`
-    : ui.pollSource(src.pollster, period, src.sample);
-
-  return `
-    <div class="results-2022 results-poll">
-      <div class="results-label">${ui.pollLabel(src.pollster, src.pollsterGen)}</div>
-      <div class="results-row">
-        <div class="results-pct">
-          <span class="results-pct-num">${r.pct}<span class="results-pct-sign">%</span></span>
-          <span class="results-pct-desc">${ui.votes}</span>
-        </div>
-        <div class="results-bar-wrap">
-          <div class="results-bar-track">
-            <div class="results-bar-fill" style="width:${barPct}%"></div>
+  const renderSlide = ({ poll, r }, idx) => {
+    const total = poll.totalSeats;
+    const src   = poll.source || {};
+    const barPct = Math.min(r.pct, 100);
+    const seatsLabel = r.seats === 0 ? ui.noSeats : ui.ofSeats(total);
+    const url    = src['url_'    + lang] || src.url    || '';
+    const period = src['period_' + lang] || src.period || '';
+    const sourceLink = url
+      ? `<a href="${url}" target="_blank" rel="noopener noreferrer">${ui.pollSource(src.pollster, period, src.sample)}</a>`
+      : ui.pollSource(src.pollster, period, src.sample);
+    const olderTag = idx > 0
+      ? `<span class="results-poll-older-tag">${ui.olderPollTag}</span>`
+      : '';
+    return `
+      <div class="results-poll-slide" data-slide="${idx}">
+        <div class="results-2022 results-poll">
+          <div class="results-label">
+            ${ui.pollLabel(src.pollster, src.pollsterGen)}
+            ${olderTag}
+          </div>
+          <div class="results-row">
+            <div class="results-pct">
+              <span class="results-pct-num">${r.pct}<span class="results-pct-sign">%</span></span>
+              <span class="results-pct-desc">${ui.votes}</span>
+            </div>
+            <div class="results-bar-wrap">
+              <div class="results-bar-track">
+                <div class="results-bar-fill" style="width:${barPct}%"></div>
+              </div>
+            </div>
+            <div class="results-seats">
+              <span class="results-seats-num">${r.seats === 0 ? '–' : r.seats}</span>
+              <span class="results-seats-desc">${seatsLabel}</span>
+            </div>
+          </div>
+          <div class="results-poll-source">
+            ${sourceLink}
+            <span class="results-poll-hint">· ${ui.pollSeatsHint}</span>
           </div>
         </div>
-        <div class="results-seats">
-          <span class="results-seats-num">${r.seats === 0 ? '–' : r.seats}</span>
-          <span class="results-seats-desc">${seatsLabel}</span>
-        </div>
-      </div>
-      <div class="results-poll-source">
-        ${sourceLink}
-        <span class="results-poll-hint">· ${ui.pollSeatsHint}</span>
-      </div>
+      </div>`;
+  };
+
+  if (slides.length === 1) {
+    return renderSlide(slides[0], 0);
+  }
+
+  // Carousel: newest visible by default, older slides accessible via arrows.
+  const slidesHTML = slides.map(renderSlide).join('');
+  return `
+    <div class="results-poll-carousel" data-current="0" data-count="${slides.length}">
+      <div class="results-poll-track">${slidesHTML}</div>
+      <button type="button" class="results-poll-nav results-poll-nav-prev"
+              data-dir="1" aria-label="${ui.olderPollNav}">‹</button>
+      <button type="button" class="results-poll-nav results-poll-nav-next"
+              data-dir="-1" aria-label="${ui.newerPollNav}" disabled>›</button>
+      <div class="results-poll-pager"><span class="results-poll-pager-current">1</span> / ${slides.length}</div>
     </div>`;
+}
+
+// Hook up carousel navigation after the splash is inserted into the DOM.
+function activatePollCarousels(root) {
+  root.querySelectorAll('.results-poll-carousel').forEach(carousel => {
+    const track   = carousel.querySelector('.results-poll-track');
+    const slides  = carousel.querySelectorAll('.results-poll-slide');
+    const prevBtn = carousel.querySelector('.results-poll-nav-prev');
+    const nextBtn = carousel.querySelector('.results-poll-nav-next');
+    const pager   = carousel.querySelector('.results-poll-pager-current');
+    const count   = slides.length;
+    let current   = 0;
+    const setCurrent = i => {
+      current = Math.max(0, Math.min(count - 1, i));
+      track.style.transform = `translateX(-${current * 100}%)`;
+      carousel.dataset.current = current;
+      if (pager) pager.textContent = current + 1;
+      if (prevBtn) prevBtn.disabled = current >= count - 1;
+      if (nextBtn) nextBtn.disabled = current <= 0;
+    };
+    carousel.querySelectorAll('.results-poll-nav').forEach(btn => {
+      btn.addEventListener('click', () => setCurrent(current + Number(btn.dataset.dir)));
+    });
+    setCurrent(0);
+  });
 }
 
 // ─── Splash / Agenda ───────────────────────────────────────
@@ -705,7 +761,11 @@ function buildCandidatesHTML(data, party) {
   const partyName = PARTIES[data.partyCode]?.name || data.partyCode;
   // Per-poll seat projection — candidates with ballotOrder <= pollSeats get
   // their own party-coloured frame.
-  const pollSeats = POLLS[data.municipalityId]?.parties?.[data.partyCode]?.seats || 0;
+  // Per-card elected frame uses the newest poll (index 0 in the per-muni
+  // array). Backwards-compat: if POLLS[muni] is still a single object, use it.
+  const _pollEntry = POLLS[data.municipalityId];
+  const _newestPoll = Array.isArray(_pollEntry) ? _pollEntry[0] : _pollEntry;
+  const pollSeats = _newestPoll?.parties?.[data.partyCode]?.seats || 0;
 
   const renderCard = c => {
     const fallback = localAvatar(c.name);
