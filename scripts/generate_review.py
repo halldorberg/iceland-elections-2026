@@ -656,7 +656,7 @@ def main():
   .card.unaudited { border-left: 3px solid var(--yellow); }
   .audit-via-name { font-size: 10.5px; color: var(--muted); border: 1px dashed var(--border); border-radius: 8px; padding: 2px 8px; }
   /* Floating approval toolbar (counter + quick actions) */
-  #approve-toolbar { position: fixed !important; top: 20px; right: 20px; z-index: 9999; display: flex; gap: 8px; align-items: center; pointer-events: auto; }
+  #approve-toolbar { position: fixed !important; top: 20px; right: 20px; z-index: 9999; display: flex; gap: 8px; align-items: center; pointer-events: auto; transform: translateZ(0); will-change: transform; }
   #approve-counter { background: var(--surface); border: 1px solid var(--green); border-radius: 10px; padding: 10px 16px; font-size: 13px; color: var(--text); cursor: pointer; box-shadow: 0 4px 12px rgba(0,0,0,.4); transition: transform .15s; }
   #approve-counter:hover { transform: translateY(-1px); border-color: var(--green); }
   #approve-counter strong { color: var(--green); font-size: 16px; margin-right: 4px; }
@@ -666,13 +666,17 @@ def main():
   .approve-icon-btn .label { display: none; }
   body.hide-approved .card.is-approved { display: none; }
   #approve-panel { position: fixed; top: 72px; right: 20px; z-index: 9999; background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 16px; width: 380px; max-height: 70vh; overflow-y: auto; display: none; box-shadow: 0 8px 24px rgba(0,0,0,.5); }
-  /* Mobile: move toolbar to bottom-right (above virtual keyboard, easier thumb reach, away from browser chrome) */
+  /* Mobile: keep toolbar on TOP. iOS Safari's bottom URL bar overlays
+     `bottom: …` positioning (it's on top of the layout viewport), so a
+     bottom-anchored toolbar is invisible behind the URL chrome. Top
+     also clears the notch via env(safe-area-inset-top). */
   @media (max-width: 768px) {
-    #approve-toolbar { top: auto; bottom: 16px; right: 12px; }
-    #approve-counter { padding: 12px 18px; font-size: 14px; border-radius: 24px; box-shadow: 0 6px 16px rgba(0,0,0,.6); }
-    #approve-counter strong { font-size: 18px; }
-    .approve-icon-btn { width: 44px; height: 44px; border-radius: 22px; box-shadow: 0 6px 16px rgba(0,0,0,.6); }
-    #approve-panel { top: auto; bottom: 76px; right: 12px; left: 12px; width: auto; max-height: 60vh; }
+    #approve-toolbar { top: max(env(safe-area-inset-top, 0px), 8px); right: 12px; bottom: auto; }
+    #approve-counter { padding: 8px 12px; font-size: 12px; border-radius: 18px; box-shadow: 0 6px 16px rgba(0,0,0,.6); }
+    #approve-counter strong { font-size: 14px; }
+    .approve-icon-btn { width: 36px; height: 36px; border-radius: 18px; box-shadow: 0 6px 16px rgba(0,0,0,.6); font-size: 14px; }
+    #approve-panel { top: calc(max(env(safe-area-inset-top, 0px), 8px) + 52px); right: 12px; left: 12px; width: auto; max-height: 60vh; bottom: auto; }
+    #approve-toast { top: calc(max(env(safe-area-inset-top, 0px), 8px) + 60px); right: 12px; }
   }
   #approve-panel.open { display: block; }
   #approve-panel h3 { font-size: 13px; font-weight: 700; margin-bottom: 10px; color: var(--text); }
@@ -881,7 +885,7 @@ window.addEventListener('load', () => {
 <html lang="is">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Scan Review — {scan_date}</title>
 <style>{css}</style>
 </head>
