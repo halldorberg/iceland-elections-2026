@@ -2,7 +2,7 @@ import { MUNICIPALITIES } from './data/municipalities.js?v=15';
 import { PARTIES } from './data/parties.js?v=4';
 import { getMunicipalityPartyData } from './data/candidates.js?v=64';
 import { RESULTS_2022 } from './data/results2022.js?v=2';
-import { POLLS }        from './data/polls.js?v=2';
+import { POLLS }        from './data/polls.js?v=3';
 import { EYE_POSITIONS } from './data/eye_positions.js?v=1';
 import { getLang, t, renderLangSwitcher } from './i18n.js?v=5';
 import { partySlug, partyCodeFromSlug, slugify } from './data/party_slugs.js?v=2';
@@ -661,9 +661,11 @@ function buildPollHTML(partyCode, municipalityId) {
     .join('');
   return `
     <div class="results-poll-carousel" data-current="${newestIdx}" data-count="${count}">
-      <div class="results-poll-track">${slidesHTML}</div>
       <button type="button" class="results-poll-nav results-poll-nav-prev"
               data-dir="-1" aria-label="${ui.olderPollNav}">‹</button>
+      <div class="results-poll-viewport">
+        <div class="results-poll-track">${slidesHTML}</div>
+      </div>
       <button type="button" class="results-poll-nav results-poll-nav-next"
               data-dir="1" aria-label="${ui.newerPollNav}" disabled>›</button>
       <div class="results-poll-pager"><span class="results-poll-pager-current">${count}</span> / ${count}</div>

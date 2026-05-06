@@ -21,7 +21,37 @@
 export const POLLS = {
 
   // ── Reykjavík · 23 seats ────────────────────────────────────────────────────
+  // Newest first.
   reykjavik: [
+    {
+      // Maskína via Vísir, 29. apríl – 6. maí 2026 (n ekki tilgreint).
+      // https://www.visir.is/g/20262879317d/sjalfstaedisflokkur-eykur-forskotid-a-samfylkingu-i-reykjavik
+      // Seat distribution per article: D 8 · S 5 · A 3 · C 3 · M 1 · B 1 · J 1 · P 1.
+      // Article quotes explicit pct for D/S/A/M (and a related Vísir piece for B);
+      // C/J/P percentages are inferred from D'Hondt back-solve against the article's
+      // seat counts and chart visible on the Sýn news segment (12.0 / 5.2 / 5.2 produce
+      // exactly the 8/5/3/3/1/1/1/1 allocation).
+      totalSeats: 23,
+      source: {
+        pollster:    'Maskína',
+        pollsterGen: 'Maskínu',
+        period:      '29. apríl – 6. maí 2026',
+        period_en:   'April 29 – May 6, 2026',
+        period_pl:   '29 kwietnia – 6 maja 2026',
+        sample:      null,
+        url:         'https://www.visir.is/g/20262879317d/sjalfstaedisflokkur-eykur-forskotid-a-samfylkingu-i-reykjavik',
+      },
+      parties: {
+        D: { pct: 27.9, seats: 8 },  // explicit
+        S: { pct: 18.0, seats: 5 },  // explicit
+        A: { pct: 13.2, seats: 3 },  // explicit (Vinstrið)
+        C: { pct: 12.0, seats: 3 },  // inferred (article: "smá aukning hjá Viðreisn"; D'Hondt-confirms)
+        M: { pct:  6.7, seats: 1 },  // explicit
+        B: { pct:  5.7, seats: 1 },  // explicit (related Vísir article)
+        J: { pct:  5.2, seats: 1 },  // inferred (D'Hondt-confirms)
+        P: { pct:  5.2, seats: 1 },  // inferred (D'Hondt-confirms)
+      },
+    },
     {
       // Maskína via Vísir, 17.–24. apríl 2026, n=973
       // https://www.visir.is/g/20262873819d/bilid-a-milli-turnanna-breikkar
