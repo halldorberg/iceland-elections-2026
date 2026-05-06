@@ -646,20 +646,32 @@ function buildPollHTML(partyCode, municipalityId) {
     return renderSlide(slides[0], 0);
   }
 
-  // Carousel: newest visible by default, older slides accessible via arrows.
-  const slidesHTML = slides.map(renderSlide).join('');
+  // Carousel: newest visible by default, older slides live "in the past" to
+  // the LEFT. Click ‹ to scroll backwards in time (older slides come in from
+  // the left); click › to scroll forwards (newer slides come from the right).
+  // To make that physical metaphor work we render slides in chronological
+  // order (oldest → newest, left → right) and start the track shifted all
+  // the way to the right so the rightmost slide (newest) is in view.
+  const count = slides.length;
+  const newestIdx = count - 1;  // displayed index of the newest slide
+  const slidesHTML = slides
+    .map((s, originalIdx) => ({ ...s, originalIdx }))
+    .reverse()  // oldest first in DOM, newest last
+    .map((s, displayIdx) => renderSlide(s, s.originalIdx, displayIdx))
+    .join('');
   return `
-    <div class="results-poll-carousel" data-current="0" data-count="${slides.length}">
+    <div class="results-poll-carousel" data-current="${newestIdx}" data-count="${count}">
       <div class="results-poll-track">${slidesHTML}</div>
       <button type="button" class="results-poll-nav results-poll-nav-prev"
-              data-dir="1" aria-label="${ui.olderPollNav}">‹</button>
+              data-dir="-1" aria-label="${ui.olderPollNav}">‹</button>
       <button type="button" class="results-poll-nav results-poll-nav-next"
-              data-dir="-1" aria-label="${ui.newerPollNav}" disabled>›</button>
-      <div class="results-poll-pager"><span class="results-poll-pager-current">1</span> / ${slides.length}</div>
+              data-dir="1" aria-label="${ui.newerPollNav}" disabled>›</button>
+      <div class="results-poll-pager"><span class="results-poll-pager-current">${count}</span> / ${count}</div>
     </div>`;
 }
 
 // Hook up carousel navigation after the splash is inserted into the DOM.
+// `current` is the *display index* (0 = leftmost = oldest, count-1 = newest).
 function activatePollCarousels(root) {
   root.querySelectorAll('.results-poll-carousel').forEach(carousel => {
     const track   = carousel.querySelector('.results-poll-track');
@@ -668,19 +680,19 @@ function activatePollCarousels(root) {
     const nextBtn = carousel.querySelector('.results-poll-nav-next');
     const pager   = carousel.querySelector('.results-poll-pager-current');
     const count   = slides.length;
-    let current   = 0;
+    let current   = count - 1;   // start at newest (rightmost)
     const setCurrent = i => {
       current = Math.max(0, Math.min(count - 1, i));
       track.style.transform = `translateX(-${current * 100}%)`;
       carousel.dataset.current = current;
       if (pager) pager.textContent = current + 1;
-      if (prevBtn) prevBtn.disabled = current >= count - 1;
-      if (nextBtn) nextBtn.disabled = current <= 0;
+      if (prevBtn) prevBtn.disabled = current <= 0;          // can't go older
+      if (nextBtn) nextBtn.disabled = current >= count - 1;  // can't go newer
     };
     carousel.querySelectorAll('.results-poll-nav').forEach(btn => {
       btn.addEventListener('click', () => setCurrent(current + Number(btn.dataset.dir)));
     });
-    setCurrent(0);
+    setCurrent(count - 1);
   });
 }
 
