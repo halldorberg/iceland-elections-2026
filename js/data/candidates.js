@@ -6226,10 +6226,14 @@ const NPG = {
     ],
   },
   S: {
-    tagline: 'Samfylkingin í Norðurþingi',
-    agenda: [],
-    // [stripped 2026-05-04] no source verifiable; FB: https://www.facebook.com/profile.php?id=100067576252354
-   
+    tagline: 'Í forystu fyrir fólk og fjölskyldur',
+    agenda: [
+      { icon: '👨‍👩‍👧', title: 'Fjölskyldan númer eitt — tökum ábyrgð hvert á öðru', text: 'Engin fjölskylda greiði meira en 50 þúsund krónur á mánuði í leikskóla og frístund. Hækka frístundastyrki í áföngum upp í 50.000 kr. fyrir lok kjörtímabils. Jafnvægi milli álags á fjölskyldur og starfsfólk í skólakerfinu, og laga hljóðvist í húsnæði sveitarfélagsins. Efla samstarf við Öldungaráð, Notendaráð fatlaðra og Ungmennaráð, og nota samning Sameinuðu þjóðanna um réttindi fatlaðs fólks sem leiðarljós. Taka vel á móti öllum nýjum íbúum.' },
+      { icon: '🌅', title: 'Lifandi samfélag',                      text: 'Efla Kópasker og Raufarhöfn sem áfangastaði með tjaldsvæðum og leikvöllum. Styrkja hverfisráð með beinum framkvæmdafé. Barnvænar og skemmtilegar gönguleiðir milli skóla og frístundasvæða. Efla heilsársferðamennsku í samvinnu við hagsmunaaðila. Móta framtíðarhlutverk fyrir Hvamm með nýju hjúkrunarheimili. Styðja íbúa gegnum félagsstarf til að fyrirbyggja einangrun og styðja menningar-, íþrótta- og tómstundastarf.' },
+      { icon: '🏛️', title: 'Rekstur og þjónusta',                   text: 'Stuðla að uppbyggingu á Bakka og taka vel á móti nýjum atvinnutækifærum. Tryggja sjúkraflug og opna möguleika á áætlunarflugum. Grunnþjónusta með þarfir og réttindi íbúa að leiðarljósi. Nýta kjörtímabilið í áætlanagerð með íbúum og standa vörð um mál sem gera samfélag gott.' },
+      { icon: '🏗️', title: 'Framkvæmdir með fjölskylduna í forgrunni', text: 'Setja byggingu leikvalla í forgang með skólalóðir Borgarhólsskóla. Forgangsraða framkvæmdafé fyrir fjölskyldur. Bæta og byggja upp göngustíga og útivistarleiðir. Gera viðhaldsáætlanir á fasteignum með íþróttamannvirki í forgangi. Byggja húsnæði fyrir heilsutengda starfsemi með langtímaleigusamningum.' },
+    ],
+    platformUrl: 'https://xs.is/i-forystu-fyrir-folk-og-fjolskyldur',
     list: [
       [1, 'Kjartan Páll Þórarinsson', 'Frambjóðandi'],
       [2, 'Rebekka Ásgeirsdóttir', 'Frambjóðandi'],
