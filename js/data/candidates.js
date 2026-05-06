@@ -4601,10 +4601,18 @@ const SEL = {
     ],
   },
   M: {
-    tagline: 'Skafti Harðarson leiðir Miðflokkinn á Seltjarnarnesi',
-    agenda: [],
-    // [stripped 2026-05-04] no source verifiable; FB: https://www.facebook.com/MidflokkurinnSeltjarnarnesi
-   
+    tagline: 'Miðflokkurinn og óháðir á Seltjarnarnesi',
+    agenda: [
+      { icon: '📊', title: 'Opið bókhald og gagnsæi með skattfé',  text: 'Opnum bókhaldið og tryggjum gagnsæi með skattfé íbúa.' },
+      { icon: '💰', title: 'Lægri gjöld á íbúa',                   text: 'Lækkum fasteigna-, fráveitu- og vatnsgjöld.' },
+      { icon: '👶', title: 'Heimgreiðslur frá fæðingarorlofi',     text: 'Tryggjum heimgreiðslur frá fæðingarorlofi þar til barn kemst á leikskóla.' },
+      { icon: '🚌', title: 'Höfnum Borgarlínu',                    text: 'Höfnum Borgarlínu og endurskoðum Samgöngusáttmálann.' },
+      { icon: '🚨', title: 'Öryggi í forgang',                     text: 'Setjum öryggi í forgang: umferð, neyðarþjónustu og sjóvarnir.' },
+      { icon: '🌷', title: 'Viðhald, umhirða og fegrun bæjarins',   text: 'Eflum viðhald, umhirðu og fegrun bæjarins.' },
+      { icon: '🛳️', title: 'Sjálfstæð ferðamálastefna',             text: 'Mótum sjálfstæða ferðamálastefnu fyrir Seltjarnarnes.' },
+      { icon: '🌿', title: 'Vörn um náttúru og fuglalíf',           text: 'Stöndum vörð um náttúru, fuglalíf og vestursvæðin.' },
+    ],
+    platformUrl: 'https://xmseltjarnarnes.is/stefnuskra/',
     list: [
       [1, 'Skafti Harðarson', 'Framkvæmdastjóri', 'images/candidates/3195f414d90ac022.jpg', {
         age: null,
@@ -8173,10 +8181,16 @@ const FJD = {
     ],
   },
   M: {
-    tagline: 'Miðflokkurinn í Fjarðabyggð',
-    agenda: [],
-    // [stripped 2026-05-04] no source verifiable; FB: https://www.facebook.com/midfjardabyggd
-   
+    tagline: 'Löðum fólk og fyrirtæki til Fjarðabyggðar',
+    agenda: [
+      { icon: '🏘️', title: 'Lóðir og húsnæði',                     text: 'Tryggja nægt framboð lóða og húsnæðis svo ungt fólk sjái að hér sé raunhæft að byggja upp framtíð, eignast heimili og taka þátt í lifandi samfélagi.' },
+      { icon: '📚', title: 'Góðir leik- og grunnskólar og frístundastarf', text: 'Tryggja góða leik- og grunnskóla, örugga þjónustu, fjölbreytt frístundastarf og samfélag þar sem fjölskyldur finna að þær skipta máli.' },
+      { icon: '🏛️', title: 'Skilvirk og lausnamiðuð stjórnsýsla',  text: 'Sveitarfélagið á ekki að vera hindrun heldur samstarfsaðili sem greiðir fyrir uppbyggingu, einfaldar ferla og tekur vel á móti þeim sem vilja fjárfesta og setjast hér að. Ákvarðanir séu skýrar og málsmeðferð taki ekki óþarflega langan tíma.' },
+      { icon: '💰', title: 'Hófleg gjöld og samtal við atvinnulífið', text: 'Með hóflegum gjöldum, góðu samtali við atvinnulífið og skýrri framtíðarsýn getum við gert Fjarðabyggð að eftirsóknarverðum stað fyrir nýja starfsemi.' },
+      { icon: '💼', title: 'Atvinnutækifæri og verðmætasköpun',    text: 'Fjölmörg tækifæri liggja í atvinnu, hafnsækinni starfsemi, nýsköpun og ferðaþjónustu. Verja verðmætasköpun og styðja við áframhaldandi uppbyggingu.' },
+      { icon: '📣', title: 'Segjum frá kostum Fjarðabyggðar',       text: 'Vera duglegri að segja frá kostum Fjarðabyggðar — sterkar rætur, mikil náttúrugæði, öflugt atvinnulíf og samfélög þar sem fólk þekkir hvert annað. Tækifærin þurfa að vera sýnileg.' },
+    ],
+    platformUrl: 'https://austurfrett.is/umraedan/loedhum-folk-og-fyrirtaeki-til-fjardhabyggdhar',
     list: [
       [1, 'Hrafn Bjarnason', 'Gæða- og verkefnastjóri hjá Egersund Island', null, {
         age: null,
