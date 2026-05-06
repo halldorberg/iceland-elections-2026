@@ -245,7 +245,7 @@ export const MUNICIPALITIES = [
   { id: 'mulathing', name: 'Múlaþing', region: 'Austurland', population: 5235, coords: { lat: 65.2670, lng: -14.3947 }, partyIds: ['B', 'D', 'L', 'M', 'V'] },  // Egilsstaðir
   // ── Norðurland eystra additions ──────────────────────────────────────────────
   { id: 'thingeyjarsveit', name: 'Þingeyjarsveit', region: 'Norðurland eystra', population: 1471, coords: { lat: 65.569, lng: -17.333 }, partyIds: ['THVA', 'THVL', 'THVN'] },
-  { id: 'svalbardsstrond', name: 'Svalbarðsstrandarhreppur', region: 'Norðurland eystra', population: 517, coords: { lat: 65.812, lng: -18.073 }, partyIds: ['SVSS', 'SVSH', 'SVSO'] },
+  { id: 'svalbardsstrond', name: 'Svalbarðsstrandarhreppur', region: 'Norðurland eystra', population: 517, coords: { lat: 65.7625, lng: -18.0653 }, partyIds: ['SVSS', 'SVSH', 'SVSO'] },
   // ── Vesturland additions ─────────────────────────────────────────────────────
   { id: 'hvalfjardarsveit', name: 'Hvalfjarðarsveit', region: 'Vesturland', population: 805, coords: { lat: 64.375, lng: -21.528 }, partyIds: ['HVA', 'HVB'] },
   { id: 'snaefellsbaer', name: 'Snæfellsbær', region: 'Vesturland', population: 1669, coords: { lat: 64.893, lng: -23.621 }, partyIds: ['D'] },
@@ -255,7 +255,7 @@ export const MUNICIPALITIES = [
   { id: 'vopnafjordur', name: 'Vopnafjarðarhreppur', region: 'Austurland', population: 633, coords: { lat: 65.759, lng: -14.808 }, partyIds: ['VOP'] },
   // ── Norðurland eystra additions ──────────────────────────────────────────────
   { id: 'tjornes', name: 'Tjörneshreppur', region: 'Norðurland eystra', population: 54, coords: { lat: 65.860, lng: -17.450 }, partyIds: ['TJN'] },
-  { id: 'grytubakkar', name: 'Grýtubakkahreppur', region: 'Norðurland eystra', population: 373, coords: { lat: 65.878, lng: -18.156 }, partyIds: [] },
+  { id: 'grytubakkar', name: 'Grýtubakkahreppur', region: 'Norðurland eystra', population: 373, coords: { lat: 66.0028, lng: -18.1473 }, partyIds: [] },
   // ── Vestfirðir additions ─────────────────────────────────────────────────────
   { id: 'arneshr', name: 'Árneshreppur', region: 'Vestfirðir', population: 60, coords: { lat: 65.857, lng: -21.583 }, partyIds: ['ARNA', 'ARNS'] },
   { id: 'kaldrananes', name: 'Kaldrananeshreppur', region: 'Vestfirðir', population: 117, coords: { lat: 65.660, lng: -21.900 }, partyIds: [] },
