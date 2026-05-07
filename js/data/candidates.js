@@ -6965,12 +6965,55 @@ const BSG = {
     ],
   },
   BSP: {
-    tagline: 'Þ-listinn — öflug Bláskógabyggð',
-    agenda: [],
-    // [stripped 2026-05-05] no source verifiable; research pending
+    tagline: 'Framsýni — Þor, þekking, þjónusta',
+    platformUrl: 'https://heyzine.com/flip-book/79e539d075.html',
+    agenda: [
+      {
+        icon: '🎓',
+        title: 'Skóla- og velferðarmál',
+        text: 'Skólar sveitarfélagsins verði í fremstu röð, með skýra framtíðarsýn um stækkun grunnskólanna og skoðun á byggingu nýs grunnskóla á Laugarvatni. Leitað verður foreldravænni lausna á mönnunarvanda leikskóla og öryggiskröfur skólabíla hertar. Heildarendurskoðun á skóla- og velferðarþjónustu, þjónustuíbúðir fyrir eldri borgara og þrýstingur á að fá sjúkrabíl í ofanverðar uppsveitir.',
+        source_quote: 'Áhersla verði lögð á að skólar sveitarfélagsins séu í fremstu röð',
+      },
+      {
+        icon: '🌳',
+        title: 'Skemmtilegri Bláskógabyggð',
+        text: 'Fjölbreytt leik- og útivistarsvæði í öllum þéttbýliskjörnum, betri og öruggari svæði fyrir vetrarafþreyingu í Reykholti, leiktæki í sundlaugina á Laugarvatni og frístundaakstur í skýran farveg. Hafið verði samtal um uppsveitakort í sund og líkamsrækt og íbúafjárlagaþátttaka undir verkefninu „Betri Bláskógabyggð".',
+        source_quote: 'Fjölbreytt leik- og útivistarsvæði í öllum þéttbýliskjörnum',
+      },
+      {
+        icon: '🌿',
+        title: 'Umhverfi og náttúra',
+        text: 'Komið í veg fyrir ný áform um stórbyggingar við vatnsbakkann á Laugarvatni. Grenndargámar í alla þéttbýlisstaði, lengri opnunartími gámasvæða og stafrænar lausnir. Tímabundin ráðning umhverfisstjóra til umsjónar með fegrun umhverfis. Seyra verði ekki losuð á hálendinu við fjarsvæði vatnsverndarsvæða og virkt eftirlit með framkvæmdum sem geta haft áhrif á vatnsból sveitarfélagsins.',
+        source_quote: 'Koma í veg fyrir ný áform um stórbyggingar við vatnsbakkann á Laugarvatni',
+      },
+      {
+        icon: '🗳️',
+        title: 'Íbúalýðræði og stjórnsýsla',
+        text: 'Sveitarstjórnarfundir í streymi, ársfjórðungslegar fjármálaskýrslur á einföldu máli og reglulegar þjónustu- og íbúakannanir. Virkar nefndir með frumkvæðis- og umsagnarrétt, stuðningur við stofnun svæðisráðs í öllum þéttbýlisstöðum og opnir íbúafundir í streymi um stærri málefni. Staða sveitarstjóra auglýst opinberlega.',
+        source_quote: 'Sveitarstjórnarfundir í streymi',
+      },
+      {
+        icon: '💼',
+        title: 'Atvinnumál og byggðaþróun',
+        text: 'Stórsókn í að efla fjölbreytileika í atvinnulífi. Skipun starfshóps um nýtingu heita vatnsins frá nýjum borholum og endurskoðun atvinnumálastefnu uppsveitanna með nýjum tækifærum í huga. Tryggt gott framboð atvinnu- og íbúðalóða, hugað að hringtengingarlíkani fyrir matvælaflutning og gamla leikskólahúsið í Reykholti verði ekki selt.',
+        source_quote: 'Stórsókn í að efla fjölbreytileika í atvinnulífi',
+      },
+      {
+        icon: '🚧',
+        title: 'Skipulagsmál',
+        text: 'Unnin umferðaröryggisáætlun og göngustígar með lýsingu sett í forgang þar sem á hefur skort. Fjárfest í göngu- og hjólreiðastíg milli Laugaráss og Reykholts, búningsaðstaða sundlaugar á Laugarvatni bætt, aðalskipulag endurskoðað og kannaðir möguleikar á samfélagsmiðstöð.',
+        source_quote: 'Unnin verði umferðaröryggisáætlun',
+      },
+      {
+        icon: '🎭',
+        title: 'Menning og æskulýðsmál',
+        text: 'Ungmennaráð og nefnd eldri borgara fái eigin fjárlagaramma og frumkvæðisrétt. Stofnað fjölmenningarráð og barnaráð. Stuðningur við menningarhátíðir og viðburði í sveitarfélaginu, mótun framtíðarsýnar í samfélagslegum málum og áframhaldandi samstarf um uppbyggingu á aðstöðu fyrir hestaíþróttir á svæðinu.',
+        source_quote: 'Ungmennaráð með eigin fjárlagaramma',
+      },
+    ],
 
     list: [
-      [1, 'Anna Greta Ólafsdóttir', 'Leikskólastjóri', 'images/candidates/18d76e3d7586176b.jpg', {
+      [1, 'Anna Greta Ólafsdóttir', 'Leikskólastjóri', 'images/candidates/84f3269c3d7b3362.jpg', {
         age: null,
         bio: 'Anna Greta Ólafsdóttir er leikskólastjóri og sveitarstjórnarfulltrúi í Bláskógabyggð og býr við Bæjarholt í Reykholti. Hún var skólastjóri grunnskóla um fimm ára skeið, fyrst við Reykhólaskóla og síðar við Flóaskóla, og er menntaður íþróttafræðingur með meistarapróf í menningarstjórnun frá Háskólanum á Bifröst. Anna Greta er aðalmaður í sveitarstjórn Bláskógabyggðar á yfirstandandi kjörtímabili og leiðir Þ-listann í sveitarstjórnarkosningunum 2026, en framboðið vill forgangsraða í þágu þjónustu við íbúa, ekki síst barna, fjölskyldna og þeirra sem reiða sig á fjölbreytta þjónustu sveitarfélagsins.',
         heimild: [{ url: 'https://www.sunnlenska.is/frettir/tveir-frambodslistar-i-blaskogabyggd/', label: 'Sunnlenska — Tveir framboðslistar 2026' }, { url: 'https://www.sunnlenska.is/frettir/th-listinn-bydur-fram-i-blaskogabyggd/', label: 'Sunnlenska — Þ-listinn 2022' }, { url: 'https://www.youtube.com/watch?v=Qfk-OWAFbYU', label: 'YouTube — Bifröst útskrifun (menningarstjórnun)' }, { url: 'https://www.blaskogabyggd.is/is/stjornsysla/sveitarstjorn-1/fundargerdir/sveitarstjorn-blaskogabyggdar/8413', label: 'Bláskógabyggð — fundargerð sveitarstjórnar' }, { url: 'https://bb.is/2018/02/anna-greta-radin-mannaudsstjori/', label: 'Bæjarins Besta — Anna Gréta ráðin mannauðsstjóri' }],
@@ -6981,20 +7024,19 @@ const BSG = {
           { title: 'Anna Greta ráðin skólastjóri í Varmárskóla', url: 'https://mosfellingur.is/anna-greta-radin-skola%C2%ADstjori-varmarskola/', source: 'mosfellingur.is' },
           { title: 'Anna Gréta ráðin mannauðsstjóri', url: 'https://bb.is/2018/02/anna-greta-radin-mannaudsstjori/', source: 'bb.is' },],
       }],
-      [2, 'Valdís María Smáradóttir', 'Ráðgjafi', null, { age: null, bio: null, interests: null, social: null, news: [] }],
-      [3, 'Óli Björn Finnsson', 'Garðyrkjubóndi'],
-      [4, 'Hildur Hálfdanardóttir', 'Skólafulltrúi'],
-      [5, 'Stephanie Elizabeth May Langridge', 'Kennari og leiðsögumaður'],
-      [6, 'Jón Forni Snæbjörnsson', 'Verkefnis- og viðburðastjóri'],
-      [7, 'Steindóra K. Þorleifsdóttir', 'Framhaldsskólakennari'],
-      [8, 'Kristrún Sigurfinnsdóttir', 'Lýsingarhönnuður og bóndi'],
-      [9, 'Anthony Karl Flores', 'Smiður'],
-      [10, 'Sigurður Pétursson', 'Kennari'],
-      [11, 'Kamil Jan Lewandowski', 'Kennari'],
-      [12, 'Smári Stefánsson', 'Skólastjóri'],
-      [13, 'Ragnheiður Bjarnadóttir', 'Fjármálastjóri og gjaldkeri'],
-    
-      [14, 'Gylfi Þorkelsson', 'Frambjóðandi'],
+      [2, 'Valdís María Smáradóttir', 'Sérfræðingur á ráðgjafasviði Vinnumálastofnunar', 'images/candidates/250eb8943bb7108a.jpg', { age: null, bio: 'Valdís María Smáradóttir er sérfræðingur á ráðgjafasviði Vinnumálastofnunar með MLM-gráðu í forystu og stjórnun með áherslu á mannauðsstjórnun og BSc í sálfræði. Hún skipar 2. sæti á Þ-listanum í Bláskógabyggð fyrir sveitarstjórnarkosningarnar 16. maí 2026.', heimild: [{ url: 'https://www.facebook.com/thlistinn/photos', label: 'Þ-listinn (Facebook)' }], interests: null, social: null, news: [] }],
+      [3, 'Óli Björn Finnsson', 'Garðyrkjubóndi og kvikmyndagerðarmaður', 'images/candidates/ae75765900586307.jpg'],
+      [4, 'Hildur Hálfdanardóttir', 'Skólafulltrúi', 'images/candidates/21894c25cd6f5fb8.jpg'],
+      [5, 'Stephanie Elizabeth May Langridge', 'Kennari, leiðsögumaður, sveitarstjórnarfulltrúi', 'images/candidates/3edadd4d73958b1d.jpg'],
+      [6, 'Jón Forni Snæbjörnsson', 'Verkefnis- og viðburðastjóri', 'images/candidates/5690d25ab197b670.jpg'],
+      [7, 'Steindóra K. Þorleifsdóttir', 'Dönskukennari við Framhaldsskólann í Mosfellsbæ', 'images/candidates/24e08235112ab5ec.jpg'],
+      [8, 'Kristrún Sigurfinnsdóttir', 'Lýsingarhönnuður og bóndi', 'images/candidates/97dfb1f89fa43e3e.jpg'],
+      [9, 'Anthony Karl Flores', 'Smiður', 'images/candidates/62454f5c190ef436.jpg'],
+      [10, 'Sigurður Pétursson', 'Kennari', 'images/candidates/558e782f7e869741.jpg'],
+      [11, 'Kamil Jan Lewandowski', 'Kennari og ökukennari', 'images/candidates/a953f67d064b83df.jpg'],
+      [12, 'Smári Stefánsson', 'Skólastjóri', 'images/candidates/bed7e9cb52dbcbb6.jpg'],
+      [13, 'Ragnheiður Bjarnadóttir', 'Fjármálastjóri og gjaldkeri Menntaskólans að Laugarvatni', 'images/candidates/a2eb7de9420a9754.jpg'],
+      [14, 'Gylfi Þorkelsson', 'Íslenskukennari og kennslustjóri FSu í fangelsum', 'images/candidates/76e7882965e9304c.jpg'],
     ],
   },
 
