@@ -342,6 +342,15 @@ For each candidate:
    - If age/birth year is found, include it.
    - If very little is found, write a minimal 1–2 sentence bio from what is known
      (name, occupation, municipality) rather than leaving it blank.
+   - **LinkedIn is a valid source.** Treat the candidate's own LinkedIn page (and
+     LinkedIn search snippets that name them) as a first-hand self-published source —
+     people put their job title, employer, education, and work history on LinkedIn
+     themselves, so it counts as the subject's own statement about themselves.
+     Use it for: current job title, current employer, education (degrees + schools
+     + years), past employers, and any company they own/founded.
+     Do **not** silently drop a fact just because the only confirming source is
+     LinkedIn. Only drop it if it is contradicted by another source, or if the
+     LinkedIn snippet is too vague to support the specific claim.
 3. Record age (as integer years, NOT birth year), interests (array), and social
    links (linkedin, facebook) if found.
 4. Record every URL you used as a source in the `sources` array (even if it
