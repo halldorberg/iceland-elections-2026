@@ -888,21 +888,21 @@
 }
 
 @media (max-width: 600px) {
-  /* Mobile gutters are too tight (~20px) for a side-positioned arrow without
-     overlapping the bar. Move the nav into a top strip above the bar instead,
-     flanking the pager. */
-  .results-poll-carousel { padding-top: 22px; }
+  /* Mobile gutter is ~20px — keep the arrow side-positioned (vertically
+     centered like desktop) but shrink it so the visible glyph fits fully
+     in the gutter. The hit-area is expanded with a ::before pseudo so the
+     touch target remains finger-sized even though the glyph is small. */
   .results-poll-nav {
-    top: 0;
-    transform: none;
-    font-size: 20px;
-    padding: 0 6px;
-    line-height: 22px;
+    font-size: 16px;
+    padding: 0;
   }
-  .results-poll-nav-prev { left: 0; }
-  .results-poll-nav-next { right: 0; }
-  .results-poll-nav:hover:not(:disabled) { transform: none; }
-  .results-poll-pager { top: 4px; right: 36px; }
+  .results-poll-nav-prev { left: -14px; }
+  .results-poll-nav-next { right: -14px; }
+  .results-poll-nav::before {
+    content: '';
+    position: absolute;
+    inset: -12px -8px;
+  }
   .results-poll-mobile-hint { display: block; }
 }
 
