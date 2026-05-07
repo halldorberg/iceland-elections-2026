@@ -28,21 +28,36 @@ def escape_js(s: str) -> str:
 
 def _find_const_block(src: str, const_name: str) -> tuple[int, int] | None:
     """Return (start, end) of the body of `const X = { ... };` matching const_name.
-    start = position right after the opening `{`, end = position of the closing `}`."""
+    start = position right after the opening `{`, end = position of the closing `}`.
+
+    The walker recognises JS strings ('...', "...", `...`), line comments (// to
+    end of line), and block comments (/* ... */) so it doesn't get confused by
+    apostrophes in comments or braces inside strings.
+    """
     m = re.search(r"^const " + re.escape(const_name) + r"\s*=\s*\{", src, re.MULTILINE)
     if not m:
         return None
     open_pos = m.end() - 1
-    # walk to find matching close, respecting strings + brackets
     depth = 0
     i = open_pos
-    while i < len(src):
+    n = len(src)
+    while i < n:
         c = src[i]
-        if c in ("'", '"'):
-            # skip string
+        # Line comment
+        if c == "/" and i + 1 < n and src[i + 1] == "/":
+            nl = src.find("\n", i + 2)
+            i = nl if nl != -1 else n
+            continue
+        # Block comment
+        if c == "/" and i + 1 < n and src[i + 1] == "*":
+            end = src.find("*/", i + 2)
+            i = (end + 2) if end != -1 else n
+            continue
+        # String literal (single, double, or backtick)
+        if c in ("'", '"', "`"):
             quote = c
             i += 1
-            while i < len(src):
+            while i < n:
                 ch = src[i]
                 if ch == "\\":
                     i += 2
