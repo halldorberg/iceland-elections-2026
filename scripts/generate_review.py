@@ -732,7 +732,12 @@ def main():
   }
   #sync-status[data-state="ok"]      { color: var(--green);  border-color: var(--green); }
   #sync-status[data-state="pending"] { color: var(--accent); border-color: var(--accent); }
-  #sync-status[data-state="offline"] { color: var(--muted); }
+  #sync-status[data-state="offline"] {
+    color: #cbd5e1;
+    background: rgba(63,185,80,.12);
+    border-color: rgba(63,185,80,.35);
+  }
+  #sync-status[data-state="offline"] strong { color: var(--green); font-weight: 700; }
   #sync-status[data-state="error"]   { color: var(--red);    border-color: var(--red); }
   #sync-status.pulse {
     background: rgba(63,185,80,.18);
@@ -906,6 +911,7 @@ document.addEventListener('input', _onCommentInput, true);
 // where the endpoint doesn't exist.
 let _syncTimer = null;
 let _lastSyncOk = null;  // null = unknown, true = ok, false = failed
+let _saveCount = 0;
 function _setSyncStatus(state, msg) {
   const el = document.getElementById('sync-status');
   if (!el) return;
@@ -913,7 +919,15 @@ function _setSyncStatus(state, msg) {
   el.title = msg || '';
   if (state === 'ok')      el.textContent = '☁ Saved';
   else if (state === 'pending') el.textContent = '⟳ Saving…';
-  else if (state === 'offline') el.textContent = '✎ Local only';
+  else if (state === 'offline') {
+    // On production we can't talk to a backend — show a running tally of
+    // local saves so the user can see something is happening every time
+    // they tick a checkbox or type in a comment box.
+    const n = listApproved().length + listCommented().length;
+    el.innerHTML = '💾 <strong>' + n + '</strong> in this browser';
+    el.title = msg || ('No backend reachable — ' + n + ' approval/comment item' + (n === 1 ? '' : 's')
+                       + ' saved in this browser. Click "📤 Copy everything for chat" to send to Claude.');
+  }
   else if (state === 'error')   el.textContent = '⚠ Save failed';
   else                          el.textContent = '';
 }
@@ -929,16 +943,18 @@ let _pulseTimer = null;
 function _pulseSavedLocally() {
   // Brief visual confirmation that a change was just persisted to localStorage.
   // Used in offline mode so the user gets feedback even when no server sync
-  // is happening.
+  // is happening — pill flashes green with "✓ saved" and the running counter
+  // ticks up.
   const el = document.getElementById('sync-status');
   if (!el) return;
+  _saveCount++;
   el.classList.add('pulse');
-  el.textContent = '✓ Saved locally';
+  el.innerHTML = '✓ saved';
   if (_pulseTimer) clearTimeout(_pulseTimer);
   _pulseTimer = setTimeout(() => {
     el.classList.remove('pulse');
     _setSyncStatus(_offlineConfirmed ? 'offline' : (_lastSyncOk ? 'ok' : 'idle'));
-  }, 900);
+  }, 1100);
 }
 async function _doSync() {
   // On production (GitHub Pages) the endpoint will never exist — once we've
@@ -969,6 +985,8 @@ async function _doSync() {
       _setSyncStatus('offline', 'Inbox endpoint unavailable — approvals + comments still saved in this browser. Use the Copy buttons to share.');
       _lastSyncOk = false;
       _offlineConfirmed = true;  // skip future POSTs on this page
+      const hint = document.getElementById('offline-hint');
+      if (hint) hint.style.display = 'block';
     } else {
       _setSyncStatus('error', String(err));
       // Keep _lastSyncOk = true so a later success can clear the warning,
@@ -1132,11 +1150,18 @@ window.addEventListener('load', () => {
           title="Jump to first unapproved bio"
           aria-label="Jump to first unapproved bio">↑</button>
   <div id="approve-counter" onclick="togglePanel()"><strong>0</strong> approved</div>
-  <div id="sync-status" data-state="idle" title="Saves your approvals + comments to scan_results/approval_inbox.json on the local dev server"></div>
+  <div id="sync-status" data-state="idle" onclick="togglePanel()" style="cursor:pointer" title="Click to open approval panel"></div>
 </div>
 <div id="approve-panel">
   <h3>Approval actions</h3>
   <div id="approve-breakdown" style="font-size:11px;margin-bottom:10px"></div>
+  <div id="offline-hint" style="display:none;font-size:11px;background:rgba(63,185,80,.10);border:1px solid rgba(63,185,80,.30);color:#cbd5e1;border-radius:6px;padding:8px 10px;margin-bottom:10px;line-height:1.5">
+    <strong style="color:var(--green)">💾 Saved in this browser only.</strong>
+    No backend on the live site — your approvals and comments are persisted in
+    <code>localStorage</code> and will survive a reload, but won't reach Claude
+    until you click <strong>📤 Copy everything for chat</strong> below and paste
+    into the chat.
+  </div>
   <button onclick="copyForChat()">📤 Copy everything for chat (approvals + comments)</button>
   <button onclick="copyApproved()">📋 Copy IDs only</button>
   <button onclick="copyCommented()">📝 Copy comments only</button>
