@@ -4,7 +4,7 @@ export const MUNICIPALITIES = [
     name: 'Reykjavík',
     region: 'Höfuðborgarsvæðið',
     population: 139804,
-    coords: { lat: 64.1265, lng: -21.8174 },
+    coords: { lat: 64.1467, lng: -21.94 },
     partyIds: ['D', 'B', 'S', 'A', 'P', 'M', 'F', 'C', 'J', 'G', 'R'],
   },
   {
@@ -12,7 +12,7 @@ export const MUNICIPALITIES = [
     name: 'Kópavogur',
     region: 'Höfuðborgarsvæðið',
     population: 40286,
-    coords: { lat: 64.1098, lng: -21.9139 },
+    coords: { lat: 64.1114, lng: -21.9047 },
     partyIds: ['B', 'C', 'D', 'J', 'M', 'S', 'V'],
   },
   {
@@ -20,7 +20,7 @@ export const MUNICIPALITIES = [
     name: 'Hafnarfjörður',
     region: 'Höfuðborgarsvæðið',
     population: 32398,
-    coords: { lat: 64.0669, lng: -21.9509 },
+    coords: { lat: 64.0686, lng: -21.9569 },
     partyIds: ['A', 'B', 'C', 'D', 'M', 'S'],
   },
   {
@@ -28,7 +28,7 @@ export const MUNICIPALITIES = [
     name: 'Garðabær',
     region: 'Höfuðborgarsvæðið',
     population: 20724,
-    coords: { lat: 64.0870, lng: -21.9420 },
+    coords: { lat: 64.0883, lng: -21.9197 },
     partyIds: ['D', 'B', 'C', 'GB', 'M', 'S'],
   },
   {
@@ -36,7 +36,7 @@ export const MUNICIPALITIES = [
     name: 'Mosfellsbær',
     region: 'Höfuðborgarsvæðið',
     population: 13772,
-    coords: { lat: 64.1574, lng: -21.6833 },
+    coords: { lat: 64.17, lng: -21.72 },
     partyIds: ['D', 'B', 'C', 'L', 'M', 'S'],
   },
   {
@@ -44,7 +44,7 @@ export const MUNICIPALITIES = [
     name: 'Akureyri',
     region: 'Norðurland eystra',
     population: 20284,
-    coords: { lat: 65.6835, lng: -18.0878 },
+    coords: { lat: 65.6825, lng: -18.0911 },
     partyIds: ['D', 'B', 'C', 'L', 'M', 'S', 'V', 'AL'],
   },
   {
@@ -52,7 +52,7 @@ export const MUNICIPALITIES = [
     name: 'Árborg',
     region: 'Suðurland',
     population: 12671,
-    coords: { lat: 63.9333, lng: -21.0000 },
+    coords: { lat: 63.9322, lng: -21.0002 },
     partyIds: ['B', 'C', 'D', 'S'],
   },
   {
@@ -60,7 +60,7 @@ export const MUNICIPALITIES = [
     name: 'Akranes',
     region: 'Vesturland',
     population: 8440,
-    coords: { lat: 64.3167, lng: -22.0833 },
+    coords: { lat: 64.317, lng: -22.0833 },
     partyIds: ['B', 'C', 'D', 'M', 'S'],
   },
   {
@@ -68,7 +68,7 @@ export const MUNICIPALITIES = [
     name: 'Ísafjarðarbær',
     region: 'Vestfirðir',
     population: 3987,
-    coords: { lat: 66.0746, lng: -23.1336 },
+    coords: { lat: 66.0738, lng: -23.1417 },
     partyIds: ['B', 'C', 'D', 'M', 'S'],
   },
   {
@@ -76,7 +76,7 @@ export const MUNICIPALITIES = [
     name: 'Norðurþing',
     region: 'Norðurland eystra',
     population: 3017,
-    coords: { lat: 66.0444, lng: -17.3389 },
+    coords: { lat: 66.0439, lng: -17.3417 },
     partyIds: ['B', 'D', 'NPM', 'NBO', 'S', 'NPV'],
   },
   {
@@ -84,7 +84,7 @@ export const MUNICIPALITIES = [
     name: 'Fjarðabyggð',
     region: 'Austurland',
     population: 5228,
-    coords: { lat: 64.9833, lng: -14.0417 },  // between Reyðarfjörður and Fáskrúðsfjörður
+    coords: { lat: 65.0325, lng: -14.22 },  // between Reyðarfjörður and Fáskrúðsfjörður
     partyIds: ['B', 'D', 'M', 'S'],
   },
   {
@@ -92,7 +92,7 @@ export const MUNICIPALITIES = [
     name: 'Vestmannaeyjar',
     region: 'Suðurland',
     population: 4518,
-    coords: { lat: 63.4396, lng: -20.2766 },
+    coords: { lat: 63.4333, lng: -20.2833 },
     partyIds: ['D', 'E', 'M'],
   },
   {
@@ -100,7 +100,7 @@ export const MUNICIPALITIES = [
     name: 'Sameinað sveitarfélag Borgarbyggðar og Skorradalshrepps',
     region: 'Vesturland',
     population: 4154,
-    coords: { lat: 64.5357, lng: -21.9194 },
+    coords: { lat: 64.5431, lng: -21.9125 },
     partyIds: ['B', 'D', 'M', 'A'],
   },
   {
@@ -108,7 +108,7 @@ export const MUNICIPALITIES = [
     name: 'Sveitarfélagið Hornafjörður',
     region: 'Austurland',
     population: 2631,
-    coords: { lat: 64.2542, lng: -15.2014 },
+    coords: { lat: 64.25, lng: -15.217 },
     partyIds: ['B', 'D', 'HFJK', 'M'],
   },
   {
@@ -116,7 +116,7 @@ export const MUNICIPALITIES = [
     name: 'Fjallabyggð',
     region: 'Norðurland vestra',
     population: 1969,
-    coords: { lat: 66.1517, lng: -18.9068 },
+    coords: { lat: 66.0715, lng: -18.6538 },
     partyIds: ['D', 'H', 'S'],
   },
   // ── Capital Region additions ─────────────────────────────────────────────────
@@ -125,7 +125,7 @@ export const MUNICIPALITIES = [
     name: 'Seltjarnarnesbær',
     region: 'Höfuðborgarsvæðið',
     population: 4609,
-    coords: { lat: 64.1500, lng: -22.0200 },
+    coords: { lat: 64.1528, lng: -21.9897 },
     partyIds: ['D', 'M', 'SCS'],
   },
   // ── Suðurnes ─────────────────────────────────────────────────────────────────
@@ -134,7 +134,7 @@ export const MUNICIPALITIES = [
     name: 'Reykjanesbær',
     region: 'Suðurnes',
     population: 22697,
-    coords: { lat: 64.003, lng: -22.567 },
+    coords: { lat: 64.0011, lng: -22.5533 },
     partyIds: ['B', 'C', 'D', 'M', 'S'],
   },
   {
@@ -142,7 +142,7 @@ export const MUNICIPALITIES = [
     name: 'Sveitarfélagið Vogar',
     region: 'Suðurnes',
     population: 1896,
-    coords: { lat: 63.995, lng: -22.376 },
+    coords: { lat: 63.9817, lng: -22.3847 },
     partyIds: ['FYRS', 'D', 'VOE', 'VOL'],
   },
   {
@@ -150,7 +150,7 @@ export const MUNICIPALITIES = [
     name: 'Grindavíkurbær',
     region: 'Suðurnes',
     population: 819,
-    coords: { lat: 63.844, lng: -22.434 },
+    coords: { lat: 63.833, lng: -22.433 },
     partyIds: ['B', 'D', 'M'],
   },
   {
@@ -158,7 +158,7 @@ export const MUNICIPALITIES = [
     name: 'Suðurnesjabær',
     region: 'Suðurnes',
     population: 4232,
-    coords: { lat: 64.023, lng: -22.700 },
+    coords: { lat: 64.0372, lng: -22.7021 },
     partyIds: ['B', 'D', 'M', 'S'],
   },
   // ── Vesturland ───────────────────────────────────────────────────────────────
@@ -167,7 +167,7 @@ export const MUNICIPALITIES = [
     name: 'Sveitarfélagið Stykkishólmur',
     region: 'Vesturland',
     population: 1300,
-    coords: { lat: 65.075, lng: -22.730 },
+    coords: { lat: 65.0536, lng: -22.7717 },
     partyIds: ['FLS', 'IBU'],
   },
   {
@@ -175,7 +175,7 @@ export const MUNICIPALITIES = [
     name: 'Grundarfjarðarbær',
     region: 'Vesturland',
     population: 857,
-    coords: { lat: 64.923, lng: -23.243 },
+    coords: { lat: 64.933, lng: -23.267 },
     partyIds: ['GFB', 'GFD'],
   },
   // ── Vestfirðir ───────────────────────────────────────────────────────────────
@@ -184,7 +184,7 @@ export const MUNICIPALITIES = [
     name: 'Bolungarvíkurkaupstaður',
     region: 'Vestfirðir',
     population: 1003,
-    coords: { lat: 66.152, lng: -23.269 },
+    coords: { lat: 66.1575, lng: -23.2508 },
     partyIds: ['MMM', 'BBK'],
   },
   {
@@ -192,7 +192,7 @@ export const MUNICIPALITIES = [
     name: 'Súðavíkurhreppur',
     region: 'Vestfirðir',
     population: 219,
-    coords: { lat: 66.026, lng: -23.543 },
+    coords: { lat: 66.0278, lng: -22.9917 },
     partyIds: ['FJL', 'FTL'],
   },
   {
@@ -200,7 +200,7 @@ export const MUNICIPALITIES = [
     name: 'Vesturbyggð',
     region: 'Vestfirðir',
     population: 1290,
-    coords: { lat: 65.596, lng: -23.974 },
+    coords: { lat: 65.5978, lng: -23.996 },
     partyIds: ['NYS', 'STV'],
   },
   {
@@ -208,7 +208,7 @@ export const MUNICIPALITIES = [
     name: 'Strandabyggð',
     region: 'Vestfirðir',
     population: 422,
-    coords: { lat: 65.704, lng: -21.694 },
+    coords: { lat: 65.7064, lng: -21.6703 },
     partyIds: ['B', 'VGV', 'SBD'],
   },
   {
@@ -216,56 +216,56 @@ export const MUNICIPALITIES = [
     name: 'Reykhólahreppur',
     region: 'Vestfirðir',
     population: 243,
-    coords: { lat: 65.453, lng: -22.202 },
+    coords: { lat: 65.4461, lng: -22.2081 },
     partyIds: ['ROA', 'S'],
   },
 
   // ── Suðurland additions ──────────────────────────────────────────────────────
-  { id: 'hveragerdi', name: 'Hveragerðisbær', region: 'Suðurland', population: 3344, coords: { lat: 64.003, lng: -21.183 }, partyIds: ['OKH', 'B', 'S', 'D'] },
-  { id: 'rangarthingeystra', name: 'Rangárþing eystra', region: 'Suðurland', population: 2142, coords: { lat: 63.850, lng: -19.983 }, partyIds: ['B', 'D', 'NRE'] },
-  { id: 'rangarthingytra', name: 'Rangárþing ytra', region: 'Suðurland', population: 1966, coords: { lat: 63.833, lng: -20.400 }, partyIds: ['RYA', 'D'] },
-  { id: 'olfus', name: 'Sveitarfélagið Ölfus', region: 'Suðurland', population: 2907, coords: { lat: 63.983, lng: -21.467 }, partyIds: ['D', 'S'] },
-  { id: 'skaftarhreppur', name: 'Skaftárhreppur', region: 'Suðurland', population: 651, coords: { lat: 63.7900, lng: -18.0600 }, partyIds: ['D', 'SKO'] },  // Kirkjubæjarklaustur
-  { id: 'myrdalshr', name: 'Mýrdalshreppur', region: 'Suðurland', population: 1004, coords: { lat: 63.450, lng: -19.000 }, partyIds: ['MYA', 'MYZ'] },
-  { id: 'blaskogabyggd', name: 'Bláskógabyggð', region: 'Suðurland', population: 1453, coords: { lat: 64.233, lng: -20.617 }, partyIds: ['BST', 'BSP'] },
+  { id: 'hveragerdi', name: 'Hveragerðisbær', region: 'Suðurland', population: 3344, coords: { lat: 63.9992, lng: -21.2065 }, partyIds: ['OKH', 'B', 'S', 'D'] },
+  { id: 'rangarthingeystra', name: 'Rangárþing eystra', region: 'Suðurland', population: 2142, coords: { lat: 63.7497, lng: -20.2339 }, partyIds: ['B', 'D', 'NRE'] },
+  { id: 'rangarthingytra', name: 'Rangárþing ytra', region: 'Suðurland', population: 1966, coords: { lat: 63.8348, lng: -20.4008 }, partyIds: ['RYA', 'D'] },
+  { id: 'olfus', name: 'Sveitarfélagið Ölfus', region: 'Suðurland', population: 2907, coords: { lat: 63.85, lng: -21.367 }, partyIds: ['D', 'S'] },
+  { id: 'skaftarhreppur', name: 'Skaftárhreppur', region: 'Suðurland', population: 651, coords: { lat: 63.767, lng: -18.067 }, partyIds: ['D', 'SKO'] },  // Kirkjubæjarklaustur
+  { id: 'myrdalshr', name: 'Mýrdalshreppur', region: 'Suðurland', population: 1004, coords: { lat: 63.4194, lng: -19.0097 }, partyIds: ['MYA', 'MYZ'] },
+  { id: 'blaskogabyggd', name: 'Bláskógabyggð', region: 'Suðurland', population: 1453, coords: { lat: 64.2667, lng: -20.2333 }, partyIds: ['BST', 'BSP'] },
   { id: 'floahreppur', name: 'Flóahreppur', region: 'Suðurland', population: 741, coords: { lat: 63.920, lng: -20.850 }, partyIds: ['FLI', 'FLT'] },
-  { id: 'hrunamannahreppur', name: 'Hrunamannahreppur', region: 'Suðurland', population: 912, coords: { lat: 64.100, lng: -20.583 }, partyIds: ['D', 'HRL'] },
-  { id: 'grimsnesgrafningur', name: 'Grímsnes- og Grafningshreppur', region: 'Suðurland', population: 658, coords: { lat: 64.017, lng: -20.833 }, partyIds: ['GGA', 'GGO'] },
-  { id: 'skeidagnup', name: 'Skeiða- og Gnúpverjahreppur', region: 'Suðurland', population: 667, coords: { lat: 63.900, lng: -20.467 }, partyIds: ['SGE', 'SGL'] },
+  { id: 'hrunamannahreppur', name: 'Hrunamannahreppur', region: 'Suðurland', population: 912, coords: { lat: 64.1331, lng: -20.3331 }, partyIds: ['D', 'HRL'] },
+  { id: 'grimsnesgrafningur', name: 'Grímsnes- og Grafningshreppur', region: 'Suðurland', population: 658, coords: { lat: 64.0758, lng: -20.7643 }, partyIds: ['GGA', 'GGO'] },
+  { id: 'skeidagnup', name: 'Skeiða- og Gnúpverjahreppur', region: 'Suðurland', population: 667, coords: { lat: 64.033, lng: -20.25 }, partyIds: ['SGE', 'SGL'] },
   // ── Norðurland eystra ────────────────────────────────────────────────────────
-  { id: 'dalvikurbyggd', name: 'Dalvíkurbyggð', region: 'Norðurland eystra', population: 1925, coords: { lat: 65.973, lng: -18.527 }, partyIds: ['B', 'D', 'A', 'K'] },
-  { id: 'eyjafjardarsveit', name: 'Eyjafjarðarsveit', region: 'Norðurland eystra', population: 1206, coords: { lat: 65.530, lng: -18.080 }, partyIds: ['EJF', 'EJK'] },
+  { id: 'dalvikurbyggd', name: 'Dalvíkurbyggð', region: 'Norðurland eystra', population: 1925, coords: { lat: 65.9725, lng: -18.5335 }, partyIds: ['B', 'D', 'A', 'K'] },
+  { id: 'eyjafjardarsveit', name: 'Eyjafjarðarsveit', region: 'Norðurland eystra', population: 1206, coords: { lat: 65.583, lng: -18.067 }, partyIds: ['EJF', 'EJK'] },
   { id: 'horgarsv', name: 'Hörgársveit', region: 'Norðurland eystra', population: 937, coords: { lat: 65.6379, lng: -18.5026 }, partyIds: ['D', 'HGG', 'HGH'] },
   // ── Norðurland vestra ────────────────────────────────────────────────────────
-  { id: 'hunabyggd', name: 'Húnabyggð', region: 'Norðurland vestra', population: 1352, coords: { lat: 65.517, lng: -20.283 }, partyIds: ['HBA', 'B', 'D'] },
-  { id: 'hunathing', name: 'Húnaþing vestra', region: 'Norðurland vestra', population: 1190, coords: { lat: 65.400, lng: -21.033 }, partyIds: ['B', 'D', 'NHV'] },
-  { id: 'skagafjordur', name: 'Sveitarfélagið Skagafjörður', region: 'Norðurland vestra', population: 4361, coords: { lat: 65.550, lng: -19.633 }, partyIds: ['B', 'D', 'SFL', 'M'] },
-  { id: 'skagastrond', name: 'Sveitarfélagið Skagaströnd', region: 'Norðurland vestra', population: 450, coords: { lat: 65.517, lng: -20.317 }, partyIds: ['B', 'S', 'K'] },
+  { id: 'hunabyggd', name: 'Húnabyggð', region: 'Norðurland vestra', population: 1352, coords: { lat: 65.667, lng: -20.3 }, partyIds: ['HBA', 'B', 'D'] },
+  { id: 'hunathing', name: 'Húnaþing vestra', region: 'Norðurland vestra', population: 1190, coords: { lat: 65.3972, lng: -20.9438 }, partyIds: ['B', 'D', 'NHV'] },
+  { id: 'skagafjordur', name: 'Sveitarfélagið Skagafjörður', region: 'Norðurland vestra', population: 4361, coords: { lat: 65.7461, lng: -19.6394 }, partyIds: ['B', 'D', 'SFL', 'M'] },
+  { id: 'skagastrond', name: 'Sveitarfélagið Skagaströnd', region: 'Norðurland vestra', population: 450, coords: { lat: 65.833, lng: -20.317 }, partyIds: ['B', 'S', 'K'] },
   // ── Austurland addition ──────────────────────────────────────────────────────
-  { id: 'mulathing', name: 'Múlaþing', region: 'Austurland', population: 5235, coords: { lat: 65.2670, lng: -14.3947 }, partyIds: ['B', 'D', 'L', 'M', 'V'] },  // Egilsstaðir
+  { id: 'mulathing', name: 'Múlaþing', region: 'Austurland', population: 5235, coords: { lat: 65.267, lng: -14.4 }, partyIds: ['B', 'D', 'L', 'M', 'V'] },  // Egilsstaðir
   // ── Norðurland eystra additions ──────────────────────────────────────────────
-  { id: 'thingeyjarsveit', name: 'Þingeyjarsveit', region: 'Norðurland eystra', population: 1471, coords: { lat: 65.569, lng: -17.333 }, partyIds: ['THVA', 'THVL', 'THVN'] },
+  { id: 'thingeyjarsveit', name: 'Þingeyjarsveit', region: 'Norðurland eystra', population: 1471, coords: { lat: 65.7217, lng: -17.3597 }, partyIds: ['THVA', 'THVL', 'THVN'] },
   { id: 'svalbardsstrond', name: 'Svalbarðsstrandarhreppur', region: 'Norðurland eystra', population: 517, coords: { lat: 65.7625, lng: -18.0653 }, partyIds: ['SVSS', 'SVSH', 'SVSO'] },
   // ── Vesturland additions ─────────────────────────────────────────────────────
-  { id: 'hvalfjardarsveit', name: 'Hvalfjarðarsveit', region: 'Vesturland', population: 805, coords: { lat: 64.375, lng: -21.528 }, partyIds: ['HVA', 'HVB'] },
-  { id: 'snaefellsbaer', name: 'Snæfellsbær', region: 'Vesturland', population: 1669, coords: { lat: 64.893, lng: -23.621 }, partyIds: ['D'] },
+  { id: 'hvalfjardarsveit', name: 'Hvalfjarðarsveit', region: 'Vesturland', population: 805, coords: { lat: 64.3815, lng: -21.8385 }, partyIds: ['HVA', 'HVB'] },
+  { id: 'snaefellsbaer', name: 'Snæfellsbær', region: 'Vesturland', population: 1669, coords: { lat: 64.8942, lng: -23.7108 }, partyIds: ['D'] },
   // ── Höfuðborgarsvæðið addition ───────────────────────────────────────────────
-  { id: 'kjosarhreppur', name: 'Kjósarhreppur', region: 'Höfuðborgarsvæðið', population: 319, coords: { lat: 64.197, lng: -21.524 }, partyIds: ['KJA'] },
+  { id: 'kjosarhreppur', name: 'Kjósarhreppur', region: 'Höfuðborgarsvæðið', population: 319, coords: { lat: 64.3416, lng: -21.5926 }, partyIds: ['KJA'] },
   // ── Austurland additions ─────────────────────────────────────────────────────
-  { id: 'vopnafjordur', name: 'Vopnafjarðarhreppur', region: 'Austurland', population: 633, coords: { lat: 65.759, lng: -14.808 }, partyIds: ['VOP'] },
+  { id: 'vopnafjordur', name: 'Vopnafjarðarhreppur', region: 'Austurland', population: 633, coords: { lat: 65.75, lng: -14.833 }, partyIds: ['VOP'] },
   // ── Norðurland eystra additions ──────────────────────────────────────────────
-  { id: 'tjornes', name: 'Tjörneshreppur', region: 'Norðurland eystra', population: 54, coords: { lat: 65.860, lng: -17.450 }, partyIds: ['TJN'] },
+  { id: 'tjornes', name: 'Tjörneshreppur', region: 'Norðurland eystra', population: 54, coords: { lat: 66.1589, lng: -17.1261 }, partyIds: ['TJN'] },
   { id: 'grytubakkar', name: 'Grýtubakkahreppur', region: 'Norðurland eystra', population: 373, coords: { lat: 66.0028, lng: -18.1473 }, partyIds: [] },
   // ── Vestfirðir additions ─────────────────────────────────────────────────────
-  { id: 'arneshr', name: 'Árneshreppur', region: 'Vestfirðir', population: 60, coords: { lat: 65.857, lng: -21.583 }, partyIds: ['ARNA', 'ARNS'] },
-  { id: 'kaldrananes', name: 'Kaldrananeshreppur', region: 'Vestfirðir', population: 117, coords: { lat: 65.660, lng: -21.900 }, partyIds: [] },
+  { id: 'arneshr', name: 'Árneshreppur', region: 'Vestfirðir', population: 60, coords: { lat: 65.98, lng: -21.453 }, partyIds: ['ARNA', 'ARNS'] },
+  { id: 'kaldrananes', name: 'Kaldrananeshreppur', region: 'Vestfirðir', population: 117, coords: { lat: 65.6902, lng: -21.4364 }, partyIds: [] },
   // ── Vesturland additions ─────────────────────────────────────────────────────
-  { id: 'dalabyggd', name: 'Dalabyggð', region: 'Vesturland', population: 653, coords: { lat: 64.833, lng: -22.167 }, partyIds: [] },
-  { id: 'eyjamiklaholts', name: 'Eyja- og Miklaholtshreppur', region: 'Vesturland', population: 119, coords: { lat: 64.733, lng: -22.433 }, partyIds: [] },
+  { id: 'dalabyggd', name: 'Dalabyggð', region: 'Vesturland', population: 653, coords: { lat: 65.1082, lng: -21.7679 }, partyIds: [] },
+  { id: 'eyjamiklaholts', name: 'Eyja- og Miklaholtshreppur', region: 'Vesturland', population: 119, coords: { lat: 64.835, lng: -22.5625 }, partyIds: [] },
   // ── Suðurland addition ───────────────────────────────────────────────────────
   { id: 'asahr', name: 'Ásahreppur', region: 'Suðurland', population: 305, coords: { lat: 63.900, lng: -20.350 }, partyIds: [] },
   // ── Austurland additions ─────────────────────────────────────────────────────
-  { id: 'fljotsdalshr', name: 'Fljótsdalshreppur', region: 'Austurland', population: 115, coords: { lat: 65.0400, lng: -14.9700 }, partyIds: [] },  // S end of Lagarfljót (Skriðuklaustur area)
+  { id: 'fljotsdalshr', name: 'Fljótsdalshreppur', region: 'Austurland', population: 115, coords: { lat: 65.0152, lng: -14.9375 }, partyIds: [] },  // S end of Lagarfljót (Skriðuklaustur area)
   // ── Norðurland eystra addition ───────────────────────────────────────────────
-  { id: 'langanesbyggd', name: 'Langanesbyggð', region: 'Norðurland eystra', population: 543, coords: { lat: 66.3200, lng: -14.8500 }, partyIds: [] },  // middle of Langanes peninsula
+  { id: 'langanesbyggd', name: 'Langanesbyggð', region: 'Norðurland eystra', population: 543, coords: { lat: 66.2, lng: -15.333 }, partyIds: [] },  // middle of Langanes peninsula
 ];
