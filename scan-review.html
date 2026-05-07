@@ -202,7 +202,7 @@
           title="Jump to first unapproved bio"
           aria-label="Jump to first unapproved bio">↑</button>
   <div id="approve-counter" onclick="togglePanel()"><strong>0</strong> approved</div>
-  <div id="sync-status" data-state="idle" onclick="togglePanel()" style="cursor:pointer" title="Click to open approval panel"></div>
+  <div id="sync-status" data-state="idle" onclick="togglePanel()" style="cursor:pointer" title="Auto-syncs approvals + comments to a private cloud inbox so you can continue from any device. Click to open approval panel."></div>
 </div>
 <div id="approve-panel">
   <h3>Approval actions</h3>
@@ -6387,10 +6387,17 @@ function unlock() {
   if (v === PW) {
     document.getElementById('lock-screen').style.display = 'none';
     document.getElementById('main').style.display = 'block';
+    sessionStorage.setItem('scan-review-unlocked', '1');
+    // Pull latest cross-device state once unlocked.
+    hydrateFromInbox();
   } else {
     document.getElementById('pw-error').style.display = 'block';
     document.getElementById('pw-input').value = '';
   }
+}
+if (sessionStorage.getItem('scan-review-unlocked') === '1') {
+  document.getElementById('lock-screen').style.display = 'none';
+  document.getElementById('main').style.display = 'block';
 }
 document.getElementById('pw-input').addEventListener('keydown', function(e) {
   if (e.key === 'Enter') unlock();
@@ -6537,13 +6544,17 @@ function _onCommentInput(ev) {
 }
 document.addEventListener('input', _onCommentInput, true);
 
-// ─── Inbox auto-sync ───────────────────────────────────────────────────
-// POSTs the current approvals + comments state to the local dev server's
-// /api/inbox endpoint, which writes scan_results/approval_inbox.json.
-// Auto-syncs on every change (debounced); silently no-ops on production
-// where the endpoint doesn't exist.
+// ─── Inbox auto-sync (cross-device via ntfy.sh) ────────────────────────
+// Each change posts the full state (approvals + comments) to a fixed
+// ntfy.sh topic that's unguessable but constant across devices. On page
+// load, we pull the latest state back so the user can continue from any
+// device without copy/paste. The same topic is used by Claude on the
+// other side: `curl -s "<INBOX_URL>/json?poll=1" | tail -1`.
+const INBOX_TOPIC = 'lyd-scan-review-0b9f09719c91b7145ea812e418c55d805da16d2f';
+const INBOX_URL   = 'https://ntfy.sh/' + INBOX_TOPIC;
 let _syncTimer = null;
-let _lastSyncOk = null;  // null = unknown, true = ok, false = failed
+let _lastSyncOk = null;            // null = unknown, true = ok, false = failed
+let _lastSyncedSerialized = null;  // skip POSTs when state is unchanged
 let _saveCount = 0;
 function _setSyncStatus(state, msg) {
   const el = document.getElementById('sync-status');
@@ -6590,25 +6601,32 @@ function _pulseSavedLocally() {
   }, 1100);
 }
 async function _doSync() {
-  // On production (GitHub Pages) the endpoint will never exist — once we've
-  // confirmed offline mode on this page, stop wasting network requests on
-  // every keystroke. Show a brief "✓ Saved locally" pulse instead.
   if (_offlineConfirmed) {
     _pulseSavedLocally();
     return;
   }
-  _setSyncStatus('pending');
   const payload = _buildInboxPayload();
+  const serialized = JSON.stringify(payload);
+  if (serialized === _lastSyncedSerialized) {
+    // Nothing changed since the last successful POST.
+    return;
+  }
+  _setSyncStatus('pending');
   try {
-    const r = await fetch('/api/inbox', {
+    const r = await fetch(INBOX_URL, {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(payload),
+      headers: {
+        'Content-Type': 'application/json',
+        'Title': 'lyd-scan-review-update',
+        'Priority': 'min',
+        'Tags': 'pencil',
+      },
+      body: serialized,
     });
     if (!r.ok) throw new Error('HTTP ' + r.status);
-    const j = await r.json();
     _lastSyncOk = true;
-    _setSyncStatus('ok', 'Saved at ' + j.saved_at);
+    _lastSyncedSerialized = serialized;
+    _setSyncStatus('ok', 'Synced to inbox · ' + new Date().toLocaleTimeString());
   } catch (err) {
     // If we've never had a successful sync on this page, treat all failures as
     // "offline" — the user is probably reviewing on production where the
@@ -6629,7 +6647,61 @@ async function _doSync() {
 }
 function syncToInbox() {
   if (_syncTimer) clearTimeout(_syncTimer);
-  _syncTimer = setTimeout(_doSync, 400);
+  _syncTimer = setTimeout(_doSync, 1500);
+}
+
+// Pull the latest cached message from the ntfy topic and hydrate localStorage
+// from it, so the user can pick up where they left off on another device.
+async function pullFromInbox() {
+  try {
+    const r = await fetch(INBOX_URL + '/json?poll=1', { method: 'GET' });
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    const text = await r.text();
+    const lines = text.split('\n').map(l => l.trim()).filter(Boolean);
+    if (!lines.length) return null;
+    // Walk lines from newest backward; each line is an ntfy envelope.
+    for (let i = lines.length - 1; i >= 0; i--) {
+      try {
+        const env = JSON.parse(lines[i]);
+        if (env.event !== 'message' || !env.message) continue;
+        return JSON.parse(env.message);
+      } catch (_e) { /* skip malformed */ }
+    }
+    return null;
+  } catch (err) {
+    console.warn('pullFromInbox failed:', err);
+    return null;
+  }
+}
+
+async function hydrateFromInbox() {
+  _setSyncStatus('pending');
+  const remote = await pullFromInbox();
+  if (!remote) {
+    // No remote state yet — keep whatever localStorage has, push it up.
+    _setSyncStatus('idle');
+    syncToInbox();
+    return;
+  }
+  // Replace local approval/comment storage with the remote snapshot.
+  Object.keys(localStorage).filter(k => k.startsWith(APPROVE_KEY_PREFIX) || k.startsWith(COMMENT_KEY_PREFIX))
+        .forEach(k => localStorage.removeItem(k));
+  (remote.approvals || []).forEach(({id, kind}) => {
+    if (!id || APPLIED_IDS.has(id)) return;
+    localStorage.setItem(APPROVE_KEY_PREFIX + id, '1');
+    localStorage.setItem(APPROVE_KEY_PREFIX + id + ':kind', kind || 'as-is');
+  });
+  (remote.comments || []).forEach(({cid, text}) => {
+    if (cid && text && text.trim()) localStorage.setItem(COMMENT_KEY_PREFIX + cid, text);
+  });
+  // Re-render UI.
+  applyStateToCheckboxes();
+  restoreComments();
+  refreshCounter();
+  // Mark this state as already synced so we don't immediately re-POST it.
+  _lastSyncedSerialized = JSON.stringify(_buildInboxPayload());
+  _lastSyncOk = true;
+  _setSyncStatus('ok', 'Pulled from inbox · ' + new Date(remote.ts || Date.now()).toLocaleTimeString());
 }
 function copyCommented() {
   const items = listCommented();
@@ -6738,8 +6810,11 @@ window.addEventListener('load', () => {
   restoreComments();
   applyHideApproved(localStorage.getItem(HIDE_APPROVED_KEY) === '1');
   refreshCounter();
-  // Probe + initial snapshot of current state.
-  syncToInbox();
+  // If we're already unlocked from a prior session on this browser, pull the
+  // latest cross-device state right away. Otherwise wait for unlock().
+  if (sessionStorage.getItem('scan-review-unlocked') === '1') {
+    hydrateFromInbox();
+  }
 });
 </script>
 </body>
