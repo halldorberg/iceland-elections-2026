@@ -833,12 +833,15 @@ function _markApproved(cid, on) {
   if (blk) blk.classList.toggle('is-approved', on);
 }
 function applyStateToCheckboxes() {
+  // Idempotent: walks every checkbox, sets it to the localStorage state
+  // (checked or unchecked) and applies/clears the .is-approved card class.
+  // This is important after hydrateFromInbox() replaces localStorage —
+  // visual state from a previous session must be reset, not merely added to.
   document.querySelectorAll('.approve-cb').forEach(cb => {
     const cid = cb.dataset.cid;
-    if (localStorage.getItem(APPROVE_KEY_PREFIX + cid) === '1') {
-      cb.checked = true;
-      _markApproved(cid, true);
-    }
+    const on  = localStorage.getItem(APPROVE_KEY_PREFIX + cid) === '1';
+    cb.checked = on;
+    _markApproved(cid, on);
   });
 }
 function onApproveChange(ev) {
@@ -886,10 +889,14 @@ function _markCommentState(cid, hasComment) {
   if (card) card.classList.toggle('has-comment', hasComment);
 }
 function restoreComments() {
+  // Idempotent: every textarea is set to its localStorage value (or cleared
+  // if not stored). Same reasoning as applyStateToCheckboxes — needed after
+  // hydrateFromInbox() to flush stale UI state from a previous session.
   document.querySelectorAll('.comment-input').forEach(ta => {
     const cid = ta.dataset.cid;
-    const stored = localStorage.getItem(COMMENT_KEY_PREFIX + cid);
-    if (stored) { ta.value = stored; _markCommentState(cid, !!stored.trim()); }
+    const stored = localStorage.getItem(COMMENT_KEY_PREFIX + cid) || '';
+    ta.value = stored;
+    _markCommentState(cid, !!stored.trim());
   });
 }
 const _commentSaveTimers = new Map();
