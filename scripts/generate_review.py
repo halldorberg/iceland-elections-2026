@@ -728,11 +728,17 @@ def main():
     font-size: 11px; padding: 6px 10px; border-radius: 6px;
     background: var(--surface2); border: 1px solid var(--border);
     color: var(--muted); white-space: nowrap;
+    transition: background .25s, color .25s, border-color .25s;
   }
   #sync-status[data-state="ok"]      { color: var(--green);  border-color: var(--green); }
   #sync-status[data-state="pending"] { color: var(--accent); border-color: var(--accent); }
   #sync-status[data-state="offline"] { color: var(--muted); }
   #sync-status[data-state="error"]   { color: var(--red);    border-color: var(--red); }
+  #sync-status.pulse {
+    background: rgba(63,185,80,.18);
+    border-color: var(--green);
+    color: var(--green);
+  }
 '''
 
     js = r"""
@@ -919,12 +925,27 @@ function _buildInboxPayload() {
   return { approvals, comments, scan_date: SCAN_DATE_TAG, ts: new Date().toISOString() };
 }
 let _offlineConfirmed = false;
+let _pulseTimer = null;
+function _pulseSavedLocally() {
+  // Brief visual confirmation that a change was just persisted to localStorage.
+  // Used in offline mode so the user gets feedback even when no server sync
+  // is happening.
+  const el = document.getElementById('sync-status');
+  if (!el) return;
+  el.classList.add('pulse');
+  el.textContent = '✓ Saved locally';
+  if (_pulseTimer) clearTimeout(_pulseTimer);
+  _pulseTimer = setTimeout(() => {
+    el.classList.remove('pulse');
+    _setSyncStatus(_offlineConfirmed ? 'offline' : (_lastSyncOk ? 'ok' : 'idle'));
+  }, 900);
+}
 async function _doSync() {
   // On production (GitHub Pages) the endpoint will never exist — once we've
   // confirmed offline mode on this page, stop wasting network requests on
-  // every keystroke.
+  // every keystroke. Show a brief "✓ Saved locally" pulse instead.
   if (_offlineConfirmed) {
-    _setSyncStatus('offline');
+    _pulseSavedLocally();
     return;
   }
   _setSyncStatus('pending');
@@ -969,6 +990,31 @@ function copyCommented() {
   });
   const txt = lines.join('\\n\\n');
   navigator.clipboard.writeText(txt).then(() => showToast('Copied ' + items.length + ' commented candidate' + (items.length === 1 ? '' : 's')));
+}
+function copyForChat() {
+  // Chat-ready dump: approvals as a CSV list, then comments as id: text blocks.
+  // Either or both may be empty.
+  const approved = listApproved();
+  const items    = listCommented();
+  if (!approved.length && !items.length) { showToast('Nothing to copy yet'); return; }
+  const parts = [];
+  if (approved.length) {
+    parts.push('approved: ' + approved.join(', '));
+  }
+  if (items.length) {
+    const lines = items.map(({cid, text}) => {
+      const block = text.includes('\\n') ? '\\n  ' + text.replace(/\\n/g, '\\n  ') : ' ' + text;
+      return cid + ':' + block;
+    });
+    parts.push('comments:\\n\\n' + lines.join('\\n\\n'));
+  }
+  const txt = parts.join('\\n\\n');
+  navigator.clipboard.writeText(txt).then(() => {
+    const summary = (approved.length ? approved.length + ' approval' + (approved.length === 1 ? '' : 's') : '')
+                  + (approved.length && items.length ? ' + ' : '')
+                  + (items.length ? items.length + ' comment' + (items.length === 1 ? '' : 's') : '');
+    showToast('Copied ' + summary + ' to clipboard');
+  });
 }
 function downloadApproved() {
   const ids = listApproved();
@@ -1091,8 +1137,9 @@ window.addEventListener('load', () => {
 <div id="approve-panel">
   <h3>Approval actions</h3>
   <div id="approve-breakdown" style="font-size:11px;margin-bottom:10px"></div>
-  <button onclick="copyApproved()">📋 Copy IDs to clipboard</button>
-  <button onclick="copyCommented()">📝 Copy commented (id + comment)</button>
+  <button onclick="copyForChat()">📤 Copy everything for chat (approvals + comments)</button>
+  <button onclick="copyApproved()">📋 Copy IDs only</button>
+  <button onclick="copyCommented()">📝 Copy comments only</button>
   <button onclick="downloadApproved()">📥 Download approvals.json</button>
   <button class="danger" onclick="clearApprovals()">🗑 Clear all approvals</button>
   <button class="danger" onclick="clearComments()">🗑 Clear all comments</button>
