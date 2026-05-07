@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="is">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Map marker review</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #0f1729;
+      color: #e2e8f0;
+    }
+    .wrap { max-width: 1280px; margin: 0 auto; padding: 24px; }
+    h1 { font-size: 1.6rem; margin: 0 0 8px; }
+    p.lede { color: #94a3b8; margin: 0 0 16px; line-height: 1.5; }
+    p.lede code { background: rgba(255,255,255,0.06); padding: 1px 6px; border-radius: 4px; }
+    #map { height: 640px; border-radius: 8px; box-shadow: 0 2px 12px rgba(0,0,0,0.4); }
+    .legend {
+      display: flex; gap: 24px; align-items: center; margin: 16px 0 8px;
+      font-size: 0.9rem;
+    }
+    .legend-dot {
+      display: inline-block; width: 14px; height: 14px;
+      border-radius: 50%; margin-right: 6px; vertical-align: middle;
+    }
+    .legend-old { background: #ef4444; }
+    .legend-new { background: #22c55e; }
+    .legend-line { display: inline-block; width: 24px; height: 2px; background: #fbbf24; vertical-align: middle; margin-right: 6px; }
+    table { width: 100%; border-collapse: collapse; margin-top: 16px; font-size: 0.85rem; }
+    th, td { text-align: left; padding: 6px 10px; border-bottom: 1px solid rgba(255,255,255,0.08); }
+    th { background: rgba(255,255,255,0.04); font-weight: 600; color: #cbd5e1; position: sticky; top: 0; }
+    tr.moved { background: rgba(34,197,94,0.05); }
+    tr.unchanged { color: #64748b; }
+    .pill { display: inline-block; padding: 2px 8px; border-radius: 999px; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.03em; }
+    .pill-moved { background: rgba(34,197,94,0.18); color: #4ade80; }
+    .pill-unchanged { background: rgba(100,116,139,0.2); color: #94a3b8; }
+    .coord { font-family: ui-monospace, "SF Mono", Consolas, monospace; font-size: 0.78rem; }
+    a { color: #60a5fa; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .filter-bar { display: flex; gap: 8px; margin: 16px 0 8px; }
+    .filter-btn {
+      background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.12);
+      color: #e2e8f0; padding: 6px 12px; border-radius: 6px;
+      cursor: pointer; font-size: 0.85rem;
+    }
+    .filter-btn.active { background: #3b82f6; border-color: #3b82f6; }
+    .leaflet-popup-content-wrapper { background: #1e293b; color: #e2e8f0; border-radius: 6px; }
+    .leaflet-popup-tip { background: #1e293b; }
+    .popup-title { font-weight: 700; font-size: 0.95rem; margin-bottom: 6px; }
+    .popup-coord { font-family: ui-monospace, monospace; font-size: 0.78rem; color: #94a3b8; }
+    .popup-reason { font-size: 0.8rem; margin-top: 6px; color: #cbd5e1; }
+    .popup-source a { font-size: 0.75rem; }
+
+    /* ── Password gate ─────────────────────────────────────────── */
+    #lock-screen {
+      position: fixed; inset: 0; background: #0f1729;
+      display: flex; align-items: center; justify-content: center; z-index: 9999;
+    }
+    .lock-box {
+      background: #1e293b; padding: 36px 32px; border-radius: 12px;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.5); text-align: center; min-width: 280px;
+    }
+    .lock-box h2 { margin: 0 0 6px; font-size: 1.3rem; }
+    .lock-box p { color: #94a3b8; margin: 0 0 20px; font-size: 0.85rem; }
+    .lock-box input {
+      width: 100%; padding: 10px 12px; border-radius: 6px;
+      border: 1px solid rgba(255,255,255,0.12); background: #0f1729;
+      color: #e2e8f0; font-size: 0.95rem; margin-bottom: 12px;
+    }
+    .lock-box button {
+      width: 100%; padding: 10px 12px; border-radius: 6px;
+      border: 0; background: #3b82f6; color: #fff; font-weight: 600;
+      cursor: pointer; font-size: 0.95rem;
+    }
+    .lock-box button:hover { background: #2563eb; }
+    .lock-error { color: #ef4444; font-size: 0.85rem; margin-top: 10px; display: none; }
+    #main { display: none; }
+  </style>
+</head>
+<body>
+
+<div id="lock-screen">
+  <div class="lock-box">
+    <div style="font-size:36px;margin-bottom:12px">🗺️</div>
+    <h2>Map review</h2>
+    <p>Lýðræðisveislan · marker coordinate review</p>
+    <input type="password" id="pw-input" placeholder="Password" autofocus>
+    <button onclick="unlock()">Enter</button>
+    <div class="lock-error" id="pw-error">Incorrect password</div>
+  </div>
+</div>
+
+<div id="main">
+<div class="wrap">
+  <h1>Map marker review — proposed coordinate changes</h1>
+  <p class="lede">
+    Each muni is shown twice: <span style="color:#ef4444">red</span> = current coord (where the marker is now),
+    <span style="color:#22c55e">green</span> = proposed coord. A yellow line connects the two for moved markers.
+    Click any marker to see the reasoning and source. <strong>3 munis manually corrected earlier
+    (<code>Hörgársveit</code>, <code>Grýtubakkahreppur</code>, <code>Svalbarðsstrandarhreppur</code>) are not in this review.</strong>
+    Coordinates were primarily sourced from Icelandic Wikipedia infoboxes; in cases where the WP coord pointed
+    at a sparse-rural centroid, the marker was overridden to the muni's main town/seat.
+  </p>
+
+  <div class="legend">
+    <span><span class="legend-dot legend-old"></span>Current</span>
+    <span><span class="legend-dot legend-new"></span>Proposed</span>
+    <span><span class="legend-line"></span>Move (current → proposed)</span>
+  </div>
+
+  <div class="filter-bar">
+    <button class="filter-btn active" data-filter="all">All (<span id="count-all">0</span>)</button>
+    <button class="filter-btn" data-filter="moved">Moved only (<span id="count-moved">0</span>)</button>
+    <button class="filter-btn" data-filter="unchanged">Unchanged only (<span id="count-unchanged">0</span>)</button>
+  </div>
+
+  <div id="map"></div>
+
+  <h2 style="margin-top:32px;">Comparison table</h2>
+  <table id="comparison">
+    <thead>
+      <tr>
+        <th>Status</th>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Current (lat, lng)</th>
+        <th>Proposed (lat, lng)</th>
+        <th>Δ (km)</th>
+        <th>Reason / source</th>
+      </tr>
+    </thead>
+    <tbody id="rows"></tbody>
+  </table>
+</div>
+</div>
+
+<script>
+const PW = 'happyhappy';
+function unlock() {
+  const v = document.getElementById('pw-input').value;
+  if (v === PW) {
+    document.getElementById('lock-screen').style.display = 'none';
+    document.getElementById('main').style.display = 'block';
+    sessionStorage.setItem('map-review-unlocked', '1');
+    setTimeout(initMap, 50);
+  } else {
+    document.getElementById('pw-error').style.display = 'block';
+    document.getElementById('pw-input').value = '';
+  }
+}
+document.getElementById('pw-input').addEventListener('keydown', function(e) {
+  if (e.key === 'Enter') unlock();
+});
+if (sessionStorage.getItem('map-review-unlocked') === '1') {
+  document.getElementById('lock-screen').style.display = 'none';
+  document.getElementById('main').style.display = 'block';
+  setTimeout(initMap, 50);
+}
+
+const PROPOSED = [{"id": "reykjavik", "name": "Reykjavík", "old_lat": 64.1265, "old_lng": -21.8174, "new_lat": 64.1467, "new_lng": -21.94, "source": "https://is.wikipedia.org/wiki/Reykjav%C3%ADk", "reason": "moved to Wikipedia infobox coord (city centre, ~5 km W of old)"}, {"id": "kopavogur", "name": "Kópavogur", "old_lat": 64.1098, "old_lng": -21.9139, "new_lat": 64.1114, "new_lng": -21.9047, "source": "https://is.wikipedia.org/wiki/K%C3%B3pavogur", "reason": "unchanged (within 0.5 km of Wikipedia infobox coord)"}, {"id": "hafnarfjordur", "name": "Hafnarfjörður", "old_lat": 64.0669, "old_lng": -21.9509, "new_lat": 64.0686, "new_lng": -21.9569, "source": "https://is.wikipedia.org/wiki/Hafnarfj%C3%B6r%C3%B0ur", "reason": "unchanged (within 0.5 km of Wikipedia infobox coord)"}, {"id": "gardabaer", "name": "Garðabær", "old_lat": 64.087, "old_lng": -21.942, "new_lat": 64.0883, "new_lng": -21.9197, "source": "https://is.wikipedia.org/wiki/Gar%C3%B0ab%C3%A6r", "reason": "shifted ~1 km E to Wikipedia infobox coord (town centre)"}, {"id": "mosfellsbaer", "name": "Mosfellsbær", "old_lat": 64.1574, "old_lng": -21.6833, "new_lat": 64.17, "new_lng": -21.72, "source": "https://is.wikipedia.org/wiki/Mosfellsb%C3%A6r", "reason": "shifted ~2 km NW to Wikipedia infobox coord (town centre)"}, {"id": "akureyri", "name": "Akureyri", "old_lat": 65.6835, "old_lng": -18.0878, "new_lat": 65.6825, "new_lng": -18.0911, "source": "https://is.wikipedia.org/wiki/Akureyri", "reason": "unchanged (within 0.5 km of Wikipedia infobox coord)"}, {"id": "arborg", "name": "Árborg", "old_lat": 63.9333, "old_lng": -21.0, "new_lat": 63.9322, "new_lng": -21.0002, "source": "https://is.wikipedia.org/wiki/Selfoss", "reason": "unchanged (already at Selfoss town centre)"}, {"id": "akranes", "name": "Akranes", "old_lat": 64.3167, "old_lng": -22.0833, "new_lat": 64.317, "new_lng": -22.0833, "source": "https://is.wikipedia.org/wiki/Akranes", "reason": "unchanged (matches Wikipedia infobox coord)"}, {"id": "isafjordur", "name": "Ísafjarðarbær", "old_lat": 66.0746, "old_lng": -23.1336, "new_lat": 66.0738, "new_lng": -23.1417, "source": "https://is.wikipedia.org/wiki/%C3%8Dsafj%C3%B6r%C3%B0ur", "reason": "unchanged (~0.4 km shift to Wikipedia infobox coord at Ísafjörður town)"}, {"id": "nordurping", "name": "Norðurþing", "old_lat": 66.0444, "old_lng": -17.3389, "new_lat": 66.0439, "new_lng": -17.3417, "source": "https://is.wikipedia.org/wiki/H%C3%BAsav%C3%ADk", "reason": "unchanged (already at Húsavík town centre)"}, {"id": "fjardabyggd", "name": "Fjarðabyggð", "old_lat": 64.9833, "old_lng": -14.0417, "new_lat": 65.0325, "new_lng": -14.22, "source": "https://is.wikipedia.org/wiki/Rey%C3%B0arfj%C3%B6r%C3%B0ur", "reason": "moved ~12 km NW to Reyðarfjörður (main seat of Fjarðabyggð); old coord was offshore/centroid"}, {"id": "vestmannaeyjar", "name": "Vestmannaeyjar", "old_lat": 63.4396, "old_lng": -20.2766, "new_lat": 63.4333, "new_lng": -20.2833, "source": "https://is.wikipedia.org/wiki/Vestmannaeyjab%C3%A6r", "reason": "unchanged (within 0.8 km of Wikipedia infobox coord at Heimaey)"}, {"id": "borgarbyggd", "name": "Sameinað sveitarfélag Borgarbyggðar og Skorradalshrepps", "old_lat": 64.5357, "old_lng": -21.9194, "new_lat": 64.5431, "new_lng": -21.9125, "source": "https://is.wikipedia.org/wiki/Borgarnes", "reason": "unchanged (~1 km shift to Borgarnes town centre)"}, {"id": "hornafjordur", "name": "Sveitarfélagið Hornafjörður", "old_lat": 64.2542, "old_lng": -15.2014, "new_lat": 64.25, "new_lng": -15.217, "source": "https://is.wikipedia.org/wiki/H%C3%B6fn_%C3%AD_Hornafir%C3%B0i", "reason": "unchanged (within 1 km of Höfn town centre)"}, {"id": "fjallabyggd", "name": "Fjallabyggð", "old_lat": 66.1517, "old_lng": -18.9068, "new_lat": 66.0715, "new_lng": -18.6538, "source": "https://is.wikipedia.org/wiki/%C3%93lafsfj%C3%B6r%C3%B0ur", "reason": "moved ~17 km SE from Siglufjörður to Ólafsfjörður (Fjallabyggð is centred at Ólafsfjörður per user instruction)"}, {"id": "seltjarnarnes", "name": "Seltjarnarnesbær", "old_lat": 64.15, "old_lng": -22.02, "new_lat": 64.1528, "new_lng": -21.9897, "source": "https://is.wikipedia.org/wiki/Seltjarnarnes", "reason": "shifted ~1.5 km E to Wikipedia infobox coord (town centre)"}, {"id": "reykjanesbaer", "name": "Reykjanesbær", "old_lat": 64.003, "old_lng": -22.567, "new_lat": 64.0011, "new_lng": -22.5533, "source": "https://is.wikipedia.org/wiki/Keflav%C3%ADk", "reason": "unchanged (within 1 km of Keflavík town centre)"}, {"id": "vogar", "name": "Sveitarfélagið Vogar", "old_lat": 63.995, "old_lng": -22.376, "new_lat": 63.9817, "new_lng": -22.3847, "source": "https://is.wikipedia.org/wiki/Vogar", "reason": "moved ~1.5 km SW to Vogar village (Wikipedia infobox coord)"}, {"id": "grindavik", "name": "Grindavíkurbær", "old_lat": 63.844, "old_lng": -22.434, "new_lat": 63.833, "new_lng": -22.433, "source": "https://is.wikipedia.org/wiki/Grindav%C3%ADk", "reason": "unchanged (within 1.3 km of Wikipedia infobox coord at Grindavík town)"}, {"id": "sudurnesjabaer", "name": "Suðurnesjabær", "old_lat": 64.023, "old_lng": -22.7, "new_lat": 64.0372, "new_lng": -22.7021, "source": "https://is.wikipedia.org/wiki/Sandger%C3%B0i", "reason": "moved ~1.6 km N to Sandgerði town centre"}, {"id": "stykkisholmur", "name": "Sveitarfélagið Stykkishólmur", "old_lat": 65.075, "old_lng": -22.73, "new_lat": 65.0536, "new_lng": -22.7717, "source": "https://is.wikipedia.org/wiki/Stykkish%C3%B3lmur", "reason": "moved ~3 km SW to Stykkishólmur town centre (Wikipedia infobox coord)"}, {"id": "grundarfjordur", "name": "Grundarfjarðarbær", "old_lat": 64.923, "old_lng": -23.243, "new_lat": 64.933, "new_lng": -23.267, "source": "https://is.wikipedia.org/wiki/Grundarfj%C3%B6r%C3%B0ur", "reason": "shifted ~1.5 km NW to Grundarfjörður town centre"}, {"id": "bolungarvik", "name": "Bolungarvíkurkaupstaður", "old_lat": 66.152, "old_lng": -23.269, "new_lat": 66.1575, "new_lng": -23.2508, "source": "https://is.wikipedia.org/wiki/Bolungarv%C3%ADk", "reason": "shifted ~1 km NE to Bolungarvík town centre"}, {"id": "sudavik", "name": "Súðavíkurhreppur", "old_lat": 66.026, "old_lng": -23.543, "new_lat": 66.0278, "new_lng": -22.9917, "source": "https://is.wikipedia.org/wiki/S%C3%BA%C3%B0av%C3%ADk", "reason": "moved ~25 km E to Súðavík village; old coord was in Hnífsdalur/Ísafjörður (wrong fjord)"}, {"id": "vesturbyggd", "name": "Vesturbyggð", "old_lat": 65.596, "old_lng": -23.974, "new_lat": 65.5978, "new_lng": -23.996, "source": "https://is.wikipedia.org/wiki/Patreksfj%C3%B6r%C3%B0ur", "reason": "unchanged (within 1 km of Patreksfjörður town centre)"}, {"id": "strandabyggd", "name": "Strandabyggð", "old_lat": 65.704, "old_lng": -21.694, "new_lat": 65.7064, "new_lng": -21.6703, "source": "https://is.wikipedia.org/wiki/H%C3%B3lmav%C3%ADk", "reason": "unchanged (~1.1 km shift to Hólmavík town centre)"}, {"id": "reykholar", "name": "Reykhólahreppur", "old_lat": 65.453, "old_lng": -22.202, "new_lat": 65.4461, "new_lng": -22.2081, "source": "https://is.wikipedia.org/wiki/Reykh%C3%B3lar", "reason": "unchanged (within 1 km of Reykhólar village)"}, {"id": "hveragerdi", "name": "Hveragerðisbær", "old_lat": 64.003, "old_lng": -21.183, "new_lat": 63.9992, "new_lng": -21.2065, "source": "https://is.wikipedia.org/wiki/Hverager%C3%B0i", "reason": "shifted ~1.2 km W to Hveragerði town centre (Wikipedia infobox coord)"}, {"id": "rangarthingeystra", "name": "Rangárþing eystra", "old_lat": 63.85, "old_lng": -19.983, "new_lat": 63.7497, "new_lng": -20.2339, "source": "https://is.wikipedia.org/wiki/Hvolsv%C3%B6llur", "reason": "moved ~20 km SW to Hvolsvöllur (main town); old coord was wilderness centroid near Eyjafjallajökull"}, {"id": "rangarthingytra", "name": "Rangárþing ytra", "old_lat": 63.833, "old_lng": -20.4, "new_lat": 63.8348, "new_lng": -20.4008, "source": "https://is.wikipedia.org/wiki/Hella", "reason": "unchanged (already at Hella town centre)"}, {"id": "olfus", "name": "Sveitarfélagið Ölfus", "old_lat": 63.983, "old_lng": -21.467, "new_lat": 63.85, "new_lng": -21.367, "source": "https://is.wikipedia.org/wiki/%C3%9Eorl%C3%A1ksh%C3%B6fn", "reason": "moved ~16 km SE to Þorlákshöfn (main town); old coord was inland centroid near Hveragerði"}, {"id": "skaftarhreppur", "name": "Skaftárhreppur", "old_lat": 63.79, "old_lng": -18.06, "new_lat": 63.767, "new_lng": -18.067, "source": "https://is.wikipedia.org/wiki/Kirkjub%C3%A6jarklaustur", "reason": "unchanged (within 3 km of Kirkjubæjarklaustur town centre)"}, {"id": "myrdalshr", "name": "Mýrdalshreppur", "old_lat": 63.45, "old_lng": -19.0, "new_lat": 63.4194, "new_lng": -19.0097, "source": "https://is.wikipedia.org/wiki/V%C3%ADk_%C3%AD_M%C3%BDrdal", "reason": "shifted ~3.5 km S to Vík í Mýrdal town centre"}, {"id": "blaskogabyggd", "name": "Bláskógabyggð", "old_lat": 64.233, "old_lng": -20.617, "new_lat": 64.2667, "new_lng": -20.2333, "source": "manual: known location of Reykholt í Biskupstungum (Golden Circle)", "reason": "moved ~24 km E to Reykholt í Biskupstungum (main village); old coord was wilderness near Þingvellir"}, {"id": "floahreppur", "name": "Flóahreppur", "old_lat": 63.92, "old_lng": -20.85, "new_lat": 63.92, "new_lng": -20.85, "source": "manual: Flóahreppur has no real settlement centre per Wikipedia", "reason": "unchanged (no town to anchor; existing coord is reasonable mid-municipality position)"}, {"id": "hrunamannahreppur", "name": "Hrunamannahreppur", "old_lat": 64.1, "old_lng": -20.583, "new_lat": 64.1331, "new_lng": -20.3331, "source": "https://is.wikipedia.org/wiki/Fl%C3%BA%C3%B0ir", "reason": "moved ~13 km NE to Flúðir (main village); old coord was wilderness centroid"}, {"id": "grimsnesgrafningur", "name": "Grímsnes- og Grafningshreppur", "old_lat": 64.017, "old_lng": -20.833, "new_lat": 64.0758, "new_lng": -20.7643, "source": "https://is.wikipedia.org/wiki/Borg_%C3%AD_Gr%C3%ADmsnesi", "reason": "moved ~7.6 km NE to Borg (main settlement of Grímsnes-og-Grafningshreppur)"}, {"id": "skeidagnup", "name": "Skeiða- og Gnúpverjahreppur", "old_lat": 63.9, "old_lng": -20.467, "new_lat": 64.033, "new_lng": -20.25, "source": "https://is.wikipedia.org/wiki/%C3%81rnes_(%C3%BEorp)", "reason": "moved ~19 km NE to Árnes (main village); old coord was south plain centroid"}, {"id": "dalvikurbyggd", "name": "Dalvíkurbyggð", "old_lat": 65.973, "old_lng": -18.527, "new_lat": 65.9725, "new_lng": -18.5335, "source": "https://is.wikipedia.org/wiki/Dalv%C3%ADk", "reason": "unchanged (within 0.4 km of Dalvík town centre)"}, {"id": "eyjafjardarsveit", "name": "Eyjafjarðarsveit", "old_lat": 65.53, "old_lng": -18.08, "new_lat": 65.583, "new_lng": -18.067, "source": "https://is.wikipedia.org/wiki/Hrafnagil", "reason": "moved ~6 km N to Hrafnagil (sveitarfélagsmiðstöð); old coord was further south in valley"}, {"id": "hunabyggd", "name": "Húnabyggð", "old_lat": 65.517, "old_lng": -20.283, "new_lat": 65.667, "new_lng": -20.3, "source": "https://is.wikipedia.org/wiki/Bl%C3%B6ndu%C3%B3s", "reason": "moved ~17 km N to Blönduós (main town); old coord was inland centroid"}, {"id": "hunathing", "name": "Húnaþing vestra", "old_lat": 65.4, "old_lng": -21.033, "new_lat": 65.3972, "new_lng": -20.9438, "source": "https://is.wikipedia.org/wiki/Hvammstangi", "reason": "shifted ~4 km E to Hvammstangi town centre"}, {"id": "skagafjordur", "name": "Sveitarfélagið Skagafjörður", "old_lat": 65.55, "old_lng": -19.633, "new_lat": 65.7461, "new_lng": -19.6394, "source": "https://is.wikipedia.org/wiki/Sau%C3%B0%C3%A1rkr%C3%B3kur", "reason": "moved ~22 km N to Sauðárkrókur (main town); old coord was inland centroid"}, {"id": "skagastrond", "name": "Sveitarfélagið Skagaströnd", "old_lat": 65.517, "old_lng": -20.317, "new_lat": 65.833, "new_lng": -20.317, "source": "https://is.wikipedia.org/wiki/Skagastr%C3%B6nd", "reason": "moved ~35 km N to Skagaströnd village (Höfðakaupstaður); old coord was south of municipality"}, {"id": "mulathing", "name": "Múlaþing", "old_lat": 65.267, "old_lng": -14.3947, "new_lat": 65.267, "new_lng": -14.4, "source": "https://is.wikipedia.org/wiki/Egilssta%C3%B0ir", "reason": "unchanged (already at Egilsstaðir town centre)"}, {"id": "thingeyjarsveit", "name": "Þingeyjarsveit", "old_lat": 65.569, "old_lng": -17.333, "new_lat": 65.7217, "new_lng": -17.3597, "source": "https://en.wikipedia.org/wiki/Laugar,_Iceland", "reason": "moved ~17 km N to Laugar in Reykjadalur (main seat); old coord was further south near Mývatn"}, {"id": "hvalfjardarsveit", "name": "Hvalfjarðarsveit", "old_lat": 64.375, "old_lng": -21.528, "new_lat": 64.3815, "new_lng": -21.8385, "source": "https://is.wikipedia.org/wiki/Melahverfi", "reason": "moved ~15 km W to Melahverfi (main settlement); old coord was inland in Hvalfjörður interior"}, {"id": "snaefellsbaer", "name": "Snæfellsbær", "old_lat": 64.893, "old_lng": -23.621, "new_lat": 64.8942, "new_lng": -23.7108, "source": "https://is.wikipedia.org/wiki/%C3%93lafsv%C3%ADk", "reason": "shifted ~4.3 km W to Ólafsvík town centre (main town of Snæfellsbær)"}, {"id": "kjosarhreppur", "name": "Kjósarhreppur", "old_lat": 64.197, "old_lng": -21.524, "new_lat": 64.3416, "new_lng": -21.5926, "source": "https://is.wikipedia.org/wiki/Kj%C3%B3sarhreppur", "reason": "moved ~16 km N to Kjós municipality centre (Wikipedia infobox coord); old coord was just south of Esja in Mosfellsbær area"}, {"id": "vopnafjordur", "name": "Vopnafjarðarhreppur", "old_lat": 65.759, "old_lng": -14.808, "new_lat": 65.75, "new_lng": -14.833, "source": "https://is.wikipedia.org/wiki/Vopnafjar%C3%B0arhreppur", "reason": "unchanged (within 1.5 km of Vopnafjörður village)"}, {"id": "tjornes", "name": "Tjörneshreppur", "old_lat": 65.86, "old_lng": -17.45, "new_lat": 66.1589, "new_lng": -17.1261, "source": "https://is.wikipedia.org/wiki/Tj%C3%B6rneshreppur", "reason": "moved ~36 km NE to Wikipedia infobox coord on Tjörnes peninsula; old coord was south of peninsula"}, {"id": "arneshr", "name": "Árneshreppur", "old_lat": 65.857, "old_lng": -21.583, "new_lat": 65.98, "new_lng": -21.453, "source": "https://en.wikipedia.org/wiki/%C3%81rneshreppur", "reason": "moved ~16 km NE to Wikipedia coord (Norðurfjörður/Trékyllisvík area, main settlement)"}, {"id": "kaldrananes", "name": "Kaldrananeshreppur", "old_lat": 65.66, "old_lng": -21.9, "new_lat": 65.6902, "new_lng": -21.4364, "source": "https://is.wikipedia.org/wiki/Drangsnes", "reason": "moved ~21 km E to Drangsnes (main village); old coord was inland W of municipality"}, {"id": "dalabyggd", "name": "Dalabyggð", "old_lat": 64.833, "old_lng": -22.167, "new_lat": 65.1082, "new_lng": -21.7679, "source": "https://is.wikipedia.org/wiki/B%C3%BA%C3%B0ardalur", "reason": "moved ~36 km NE to Búðardalur (main town); old coord was south on Snæfellsnes (wrong region)"}, {"id": "eyjamiklaholts", "name": "Eyja- og Miklaholtshreppur", "old_lat": 64.733, "old_lng": -22.433, "new_lat": 64.835, "new_lng": -22.5625, "source": "https://is.wikipedia.org/wiki/Eyja-_og_Miklaholtshreppur", "reason": "moved ~13 km NW to Wikipedia infobox coord (Vegamót area, sparsely populated)"}, {"id": "asahr", "name": "Ásahreppur", "old_lat": 63.9, "old_lng": -20.35, "new_lat": 63.9, "new_lng": -20.35, "source": "manual: existing coord at populated Þykkvibær/Ringroad area; Wikipedia infobox is highland centroid (64.5, -18.5) which is uninhabited", "reason": "unchanged (existing coord is at the populated agricultural settlement; Wikipedia coord is wilderness)"}, {"id": "fljotsdalshr", "name": "Fljótsdalshreppur", "old_lat": 65.04, "old_lng": -14.97, "new_lat": 65.0152, "new_lng": -14.9375, "source": "https://en.wikipedia.org/wiki/Fljotsdalshreppur", "reason": "unchanged (~3 km shift to Wikipedia infobox coord near Skriðuklaustur)"}, {"id": "langanesbyggd", "name": "Langanesbyggð", "old_lat": 66.32, "old_lng": -14.85, "new_lat": 66.2, "new_lng": -15.333, "source": "https://is.wikipedia.org/wiki/%C3%9E%C3%B3rsh%C3%B6fn_(Langanesi)", "reason": "moved ~28 km SW to Þórshöfn (main town); old coord was on Langanes peninsula tip"}];
+
+function haversineKm(lat1, lng1, lat2, lng2) {
+  const R = 6371;
+  const dLat = (lat2-lat1) * Math.PI/180;
+  const dLng = (lng2-lng1) * Math.PI/180;
+  const a = Math.sin(dLat/2)**2 + Math.cos(lat1*Math.PI/180) * Math.cos(lat2*Math.PI/180) * Math.sin(dLng/2)**2;
+  return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+}
+
+function isMoved(d) {
+  return haversineKm(d.old_lat, d.old_lng, d.new_lat, d.new_lng) > 0.5;
+}
+
+let mapInited = false;
+function initMap() {
+  if (mapInited) return; mapInited = true;
+  const data = PROPOSED;
+  const map = L.map('map').setView([64.9, -19.0], 6);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '© OpenStreetMap', maxZoom: 18,
+  }).addTo(map);
+
+  const oldGroup = L.layerGroup().addTo(map);
+  const newGroup = L.layerGroup().addTo(map);
+  const lineGroup = L.layerGroup().addTo(map);
+
+  let moved = 0, unchanged = 0;
+
+  data.forEach(d => {
+    const movedFlag = isMoved(d);
+    if (movedFlag) moved++; else unchanged++;
+    const km = haversineKm(d.old_lat, d.old_lng, d.new_lat, d.new_lng);
+    const popupBase = `<div class="popup-title">${d.name}</div>
+      <div class="popup-coord">id: ${d.id}</div>`;
+    const oldPopup = popupBase + `
+      <div class="popup-coord">CURRENT: ${d.old_lat.toFixed(4)}, ${d.old_lng.toFixed(4)}</div>` +
+      (movedFlag ? `<div class="popup-coord" style="color:#22c55e">→ proposed: ${d.new_lat.toFixed(4)}, ${d.new_lng.toFixed(4)} (${km.toFixed(1)} km)</div>` : '');
+    const newPopup = popupBase + `
+      <div class="popup-coord">PROPOSED: ${d.new_lat.toFixed(4)}, ${d.new_lng.toFixed(4)}</div>
+      <div class="popup-coord" style="color:#ef4444">← current: ${d.old_lat.toFixed(4)}, ${d.old_lng.toFixed(4)}</div>
+      <div class="popup-reason">${d.reason}</div>
+      <div class="popup-source"><a href="${d.source}" target="_blank" rel="noopener">source</a></div>`;
+
+    const oldMarker = L.circleMarker([d.old_lat, d.old_lng], {
+      radius: 6, color: '#ef4444', fillColor: '#ef4444', fillOpacity: 0.7, weight: 2,
+    }).bindPopup(oldPopup).addTo(oldGroup);
+    oldMarker._muni = d; oldMarker._kind = 'old';
+
+    if (movedFlag) {
+      const newMarker = L.circleMarker([d.new_lat, d.new_lng], {
+        radius: 8, color: '#22c55e', fillColor: '#22c55e', fillOpacity: 0.85, weight: 2,
+      }).bindPopup(newPopup).addTo(newGroup);
+      newMarker._muni = d; newMarker._kind = 'new';
+
+      L.polyline(
+        [[d.old_lat, d.old_lng], [d.new_lat, d.new_lng]],
+        { color: '#fbbf24', weight: 1.5, opacity: 0.7, dashArray: '4 4' }
+      ).addTo(lineGroup);
+    }
+  });
+
+  document.getElementById('count-all').textContent = data.length;
+  document.getElementById('count-moved').textContent = moved;
+  document.getElementById('count-unchanged').textContent = unchanged;
+
+  document.querySelectorAll('.filter-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const f = btn.dataset.filter;
+      [oldGroup, newGroup, lineGroup].forEach(g => map.removeLayer(g));
+      if (f === 'all') { oldGroup.addTo(map); newGroup.addTo(map); lineGroup.addTo(map); }
+      else if (f === 'moved') {
+        oldGroup.addTo(map); newGroup.addTo(map); lineGroup.addTo(map);
+        oldGroup.eachLayer(l => l._muni && !isMoved(l._muni) ? oldGroup.removeLayer(l) : null);
+      }
+      else if (f === 'unchanged') {
+        oldGroup.addTo(map);
+        oldGroup.eachLayer(l => l._muni && isMoved(l._muni) ? oldGroup.removeLayer(l) : null);
+      }
+      document.querySelectorAll('#rows tr').forEach(tr => {
+        if (f === 'all') tr.style.display = '';
+        else if (f === 'moved') tr.style.display = tr.classList.contains('moved') ? '' : 'none';
+        else if (f === 'unchanged') tr.style.display = tr.classList.contains('unchanged') ? '' : 'none';
+      });
+    });
+  });
+
+  const moved_rows = data.filter(isMoved).sort((a,b) => a.name.localeCompare(b.name, 'is'));
+  const unchanged_rows = data.filter(d => !isMoved(d)).sort((a,b) => a.name.localeCompare(b.name, 'is'));
+  const sorted = [...moved_rows, ...unchanged_rows];
+
+  const tbody = document.getElementById('rows');
+  sorted.forEach(d => {
+    const movedFlag = isMoved(d);
+    const km = haversineKm(d.old_lat, d.old_lng, d.new_lat, d.new_lng);
+    const tr = document.createElement('tr');
+    tr.className = movedFlag ? 'moved' : 'unchanged';
+    tr.innerHTML = `
+      <td>${movedFlag ? '<span class="pill pill-moved">moved</span>' : '<span class="pill pill-unchanged">same</span>'}</td>
+      <td><code>${d.id}</code></td>
+      <td>${d.name}</td>
+      <td class="coord">${d.old_lat.toFixed(4)}, ${d.old_lng.toFixed(4)}</td>
+      <td class="coord">${d.new_lat.toFixed(4)}, ${d.new_lng.toFixed(4)}</td>
+      <td class="coord">${movedFlag ? km.toFixed(1) : '—'}</td>
+      <td>${d.reason}${d.source && d.source.startsWith('http') ? ' · <a href="'+d.source+'" target="_blank">src</a>' : ''}</td>
+    `;
+    tbody.appendChild(tr);
+  });
+}
+</script>
+</body>
+</html>
