@@ -918,7 +918,15 @@ function _buildInboxPayload() {
   const comments = listCommented();
   return { approvals, comments, scan_date: SCAN_DATE_TAG, ts: new Date().toISOString() };
 }
+let _offlineConfirmed = false;
 async function _doSync() {
+  // On production (GitHub Pages) the endpoint will never exist — once we've
+  // confirmed offline mode on this page, stop wasting network requests on
+  // every keystroke.
+  if (_offlineConfirmed) {
+    _setSyncStatus('offline');
+    return;
+  }
   _setSyncStatus('pending');
   const payload = _buildInboxPayload();
   try {
@@ -932,11 +940,19 @@ async function _doSync() {
     _lastSyncOk = true;
     _setSyncStatus('ok', 'Saved at ' + j.saved_at);
   } catch (err) {
-    // First failure on this page → "offline" (probably reviewing on production).
-    // Subsequent failures of an originally-ok session → "error".
-    if (_lastSyncOk === null) _setSyncStatus('offline', 'Inbox endpoint unavailable — comments still saved in this browser');
-    else                      _setSyncStatus('error',   String(err));
-    _lastSyncOk = false;
+    // If we've never had a successful sync on this page, treat all failures as
+    // "offline" — the user is probably reviewing on production where the
+    // /api/inbox endpoint doesn't exist. Only escalate to "Save failed" if
+    // the session WAS syncing successfully and then started failing.
+    if (_lastSyncOk !== true) {
+      _setSyncStatus('offline', 'Inbox endpoint unavailable — approvals + comments still saved in this browser. Use the Copy buttons to share.');
+      _lastSyncOk = false;
+      _offlineConfirmed = true;  // skip future POSTs on this page
+    } else {
+      _setSyncStatus('error', String(err));
+      // Keep _lastSyncOk = true so a later success can clear the warning,
+      // but if the next attempt also fails we'll still show "error".
+    }
   }
 }
 function syncToInbox() {
