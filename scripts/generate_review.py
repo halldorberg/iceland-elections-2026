@@ -257,6 +257,10 @@ def bio_section(bios, audit_data=None):
       <div class="tags-row">{interests}{social}</div>
       {sources_row}
       {audit_panel}
+      <div class="comment-row" data-cid="{e(cid)}">
+        <textarea class="comment-input" data-cid="{e(cid)}" rows="2"
+                  placeholder="Optional comment about this candidate (saved automatically)…"></textarea>
+      </div>
       {approve_row}
     </div>'''
     if unaudited_count > 0:
@@ -645,6 +649,17 @@ def main():
   .rescue-meta li.rescue-rescued { color: var(--green); }
   .rescue-meta li.rescue-dropped { color: var(--red); }
   .rescue-meta li.rescue-contradicted { color: var(--yellow); }
+  .comment-row { margin-top: 14px; }
+  .comment-input {
+    width: 100%; box-sizing: border-box; resize: vertical; min-height: 38px;
+    padding: 8px 10px; border-radius: 6px;
+    background: var(--surface2); color: var(--fg);
+    border: 1px solid var(--border);
+    font: inherit; font-size: 12.5px; line-height: 1.4;
+  }
+  .comment-input:focus { outline: none; border-color: var(--accent); }
+  .comment-input.has-comment { border-color: var(--yellow); background: rgba(210,153,34,.06); }
+  .card.has-comment { border-left: 3px solid var(--yellow); }
   .approve-row { margin-top: 14px; padding-top: 12px; border-top: 1px dashed var(--border); display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
   .approve-label { display: inline-flex; align-items: center; gap: 8px; padding: 6px 12px; background: var(--surface2); border: 1px solid var(--border); border-radius: 6px; font-size: 12px; cursor: pointer; user-select: none; }
   .approve-label:hover { border-color: var(--green); }
@@ -777,9 +792,11 @@ function refreshCounter() {
     else asis++;
   });
   const bd = document.getElementById('approve-breakdown');
+  const commentCount = listCommented().length;
   if (bd) bd.innerHTML = '<span style="color:var(--accent)">' + rw + ' rewrite</span> · '
     + '<span style="color:var(--green)">' + asis + ' as-is</span> · '
-    + '<span style="color:var(--yellow)">' + skip + ' skip</span>';
+    + '<span style="color:var(--yellow)">' + skip + ' skip</span>'
+    + (commentCount ? ' · <span style="color:var(--yellow)">' + commentCount + ' commented</span>' : '');
 }
 function _markApproved(cid, on) {
   const card = document.querySelector('.card[data-cid="' + cid + '"]');
@@ -817,6 +834,63 @@ function copyApproved() {
   const txt = ids.join(', ');
   navigator.clipboard.writeText(txt).then(() => showToast('Copied ' + ids.length + ' IDs to clipboard'));
 }
+
+// ─── Comments (per-bio free-text notes, separate from approval) ─────────
+const COMMENT_KEY_PREFIX = 'comment:';
+function listCommented() {
+  // Returns [{cid, text}] sorted by cid, only entries with non-empty text.
+  const out = [];
+  for (let i = 0; i < localStorage.length; i++) {
+    const k = localStorage.key(i);
+    if (!k || !k.startsWith(COMMENT_KEY_PREFIX)) continue;
+    const cid = k.slice(COMMENT_KEY_PREFIX.length);
+    const text = (localStorage.getItem(k) || '').trim();
+    if (text) out.push({ cid, text });
+  }
+  out.sort((a, b) => a.cid.localeCompare(b.cid));
+  return out;
+}
+function _markCommentState(cid, hasComment) {
+  const ta   = document.querySelector(`.comment-input[data-cid="${CSS.escape(cid)}"]`);
+  const card = document.querySelector(`.card[data-cid="${CSS.escape(cid)}"]`);
+  if (ta)   ta.classList.toggle('has-comment', hasComment);
+  if (card) card.classList.toggle('has-comment', hasComment);
+}
+function restoreComments() {
+  document.querySelectorAll('.comment-input').forEach(ta => {
+    const cid = ta.dataset.cid;
+    const stored = localStorage.getItem(COMMENT_KEY_PREFIX + cid);
+    if (stored) { ta.value = stored; _markCommentState(cid, !!stored.trim()); }
+  });
+}
+const _commentSaveTimers = new Map();
+function _onCommentInput(ev) {
+  const ta = ev.target;
+  if (!ta.classList.contains('comment-input')) return;
+  const cid  = ta.dataset.cid;
+  const text = ta.value;
+  // Debounce localStorage writes per-cid.
+  const prev = _commentSaveTimers.get(cid);
+  if (prev) clearTimeout(prev);
+  _commentSaveTimers.set(cid, setTimeout(() => {
+    if (text.trim()) localStorage.setItem(COMMENT_KEY_PREFIX + cid, text);
+    else             localStorage.removeItem(COMMENT_KEY_PREFIX + cid);
+    _markCommentState(cid, !!text.trim());
+    refreshCounter();
+  }, 250));
+}
+document.addEventListener('input', _onCommentInput, true);
+function copyCommented() {
+  const items = listCommented();
+  if (!items.length) { showToast('No comments yet'); return; }
+  const lines = items.map(({cid, text}) => {
+    // Multi-line comments: keep on a single block under the cid header.
+    const block = text.includes('\\n') ? '\\n  ' + text.replace(/\\n/g, '\\n  ') : ' ' + text;
+    return cid + ':' + block;
+  });
+  const txt = lines.join('\\n\\n');
+  navigator.clipboard.writeText(txt).then(() => showToast('Copied ' + items.length + ' commented candidate' + (items.length === 1 ? '' : 's')));
+}
 function downloadApproved() {
   const ids = listApproved();
   const detailed = ids.map(id => ({
@@ -832,12 +906,22 @@ function downloadApproved() {
 function clearApprovals() {
   const ids = listApproved();
   if (!ids.length) { showToast('Nothing to clear'); return; }
-  if (!confirm('Clear all ' + ids.length + ' approvals? This only affects the UI; applied rewrites stay applied.')) return;
+  if (!confirm('Clear all ' + ids.length + ' approvals? This only affects the UI; applied rewrites stay applied. Comments are kept.')) return;
   ids.forEach(id => localStorage.removeItem(APPROVE_KEY_PREFIX + id));
   document.querySelectorAll('.approve-cb').forEach(cb => { cb.checked = false; });
   document.querySelectorAll('.rescue-block.is-approved').forEach(b => b.classList.remove('is-approved'));
   refreshCounter();
   showToast('Cleared');
+}
+function clearComments() {
+  const items = listCommented();
+  if (!items.length) { showToast('No comments to clear'); return; }
+  if (!confirm('Clear all ' + items.length + ' comments? This only affects your local browser storage.')) return;
+  items.forEach(({cid}) => localStorage.removeItem(COMMENT_KEY_PREFIX + cid));
+  document.querySelectorAll('.comment-input').forEach(ta => { ta.value = ''; ta.classList.remove('has-comment'); });
+  document.querySelectorAll('.card.has-comment').forEach(c => c.classList.remove('has-comment'));
+  refreshCounter();
+  showToast('Cleared comments');
 }
 function togglePanel() {
   document.getElementById('approve-panel').classList.toggle('open');
@@ -873,6 +957,7 @@ document.addEventListener('change', onApproveChange);
 window.addEventListener('load', () => {
   clearAppliedFromStorage();
   applyStateToCheckboxes();
+  restoreComments();
   applyHideApproved(localStorage.getItem(HIDE_APPROVED_KEY) === '1');
   refreshCounter();
 });
@@ -922,8 +1007,10 @@ window.addEventListener('load', () => {
   <h3>Approval actions</h3>
   <div id="approve-breakdown" style="font-size:11px;margin-bottom:10px"></div>
   <button onclick="copyApproved()">📋 Copy IDs to clipboard</button>
+  <button onclick="copyCommented()">📝 Copy commented (id + comment)</button>
   <button onclick="downloadApproved()">📥 Download approvals.json</button>
   <button class="danger" onclick="clearApprovals()">🗑 Clear all approvals</button>
+  <button class="danger" onclick="clearComments()">🗑 Clear all comments</button>
   <div style="font-size:11px;color:var(--muted);margin-top:8px">Approved candidate IDs (also stored in your browser):</div>
   <div id="approve-id-list" class="id-list">(none yet)</div>
 </div>
