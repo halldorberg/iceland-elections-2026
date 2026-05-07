@@ -871,12 +871,6 @@
   pointer-events: none;
 }
 
-@media (max-width: 600px) {
-  .results-poll-nav-prev { left: -8px; }
-  .results-poll-nav-next { right: -8px; }
-  .results-poll-mobile-hint { display: block; }
-}
-
 .results-poll-nav:disabled {
   opacity: 0;
   pointer-events: none;
@@ -891,6 +885,25 @@
   letter-spacing: 0.04em;
   pointer-events: none;
   z-index: 1;
+}
+
+@media (max-width: 600px) {
+  /* Mobile gutters are too tight (~20px) for a side-positioned arrow without
+     overlapping the bar. Move the nav into a top strip above the bar instead,
+     flanking the pager. */
+  .results-poll-carousel { padding-top: 22px; }
+  .results-poll-nav {
+    top: 0;
+    transform: none;
+    font-size: 20px;
+    padding: 0 6px;
+    line-height: 22px;
+  }
+  .results-poll-nav-prev { left: 0; }
+  .results-poll-nav-next { right: 0; }
+  .results-poll-nav:hover:not(:disabled) { transform: none; }
+  .results-poll-pager { top: 4px; right: 36px; }
+  .results-poll-mobile-hint { display: block; }
 }
 
 .results-poll-older-tag {
