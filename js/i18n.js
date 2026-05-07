@@ -65,6 +65,7 @@ export const UI = {
     olderPollTag:      'Eldri könnun',
     olderPollNav:      'Sjá eldri könnun',
     newerPollNav:      'Sjá nýrri könnun',
+    pollCarouselHint:  'Smellið á örvarnar til að skoða eldri kannanir',
     electedFrameLabel: 'Kæmist inn samkvæmt nýjustu skoðanakönnun',
 
     // Party splash
@@ -144,6 +145,7 @@ export const UI = {
     olderPollTag:      'Older poll',
     olderPollNav:      'See older poll',
     newerPollNav:      'See newer poll',
+    pollCarouselHint:  'Tap the arrows to see older polls',
     electedFrameLabel: 'Would be elected per the latest poll',
     votes:             'votes',
     noSeats:           'No seats',
@@ -224,6 +226,7 @@ export const UI = {
     olderPollTag:      'Starszy sondaż',
     olderPollNav:      'Zobacz starszy sondaż',
     newerPollNav:      'Zobacz nowszy sondaż',
+    pollCarouselHint:  'Stuknij strzałki, aby zobaczyć starsze sondaże',
     electedFrameLabel: 'Otrzymałby mandat według najnowszego sondażu',
     votes:             'głosów',
     noSeats:           'Brak mandatów',

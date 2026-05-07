@@ -839,37 +839,42 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  width: 28px;
-  height: 28px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  background: rgba(0,0,0,0.35);
-  border: 1px solid rgba(255,255,255,0.45);
-  border-radius: 50%;
-  color: #fff;
-  font-size: 18px;
-  font-weight: 700;
+  background: none;
+  border: 0;
+  color: rgba(255,255,255,0.65);
+  font-size: 26px;
+  font-weight: 600;
   line-height: 1;
   cursor: pointer;
-  padding: 0;
+  padding: 6px 4px;
   z-index: 2;
-  transition: background .15s, border-color .15s, opacity .15s, transform .15s;
+  transition: color .15s, transform .15s, opacity .15s;
 }
 
 .results-poll-nav-prev { left: -34px; }
 .results-poll-nav-next { right: -34px; }
 
 .results-poll-nav:hover:not(:disabled) {
-  background: rgba(0,0,0,0.6);
-  border-color: #fff;
-  transform: translateY(-50%) scale(1.08);
+  color: #fff;
+  transform: translateY(-50%) scale(1.18);
+}
+
+/* Mobile-only caption beneath the carousel — desktop has the hover-title
+   instead. Only renders when the parent has 2+ slides (managed in JS). */
+.results-poll-mobile-hint {
+  display: none;
+  font-size: 0.62rem;
+  letter-spacing: 0.03em;
+  color: rgba(255,255,255,0.55);
+  text-align: center;
+  margin-top: 6px;
+  pointer-events: none;
 }
 
 @media (max-width: 600px) {
-  /* Tighter on mobile so arrows don't fall off-screen entirely. */
-  .results-poll-nav-prev { left: -10px; }
-  .results-poll-nav-next { right: -10px; }
+  .results-poll-nav-prev { left: -8px; }
+  .results-poll-nav-next { right: -8px; }
+  .results-poll-mobile-hint { display: block; }
 }
 
 .results-poll-nav:disabled {

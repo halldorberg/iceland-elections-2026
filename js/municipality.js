@@ -662,13 +662,14 @@ function buildPollHTML(partyCode, municipalityId) {
   return `
     <div class="results-poll-carousel" data-current="${newestIdx}" data-count="${count}">
       <button type="button" class="results-poll-nav results-poll-nav-prev"
-              data-dir="-1" aria-label="${ui.olderPollNav}">‹</button>
+              data-dir="-1" aria-label="${ui.olderPollNav}" title="${ui.olderPollNav}">‹</button>
       <div class="results-poll-viewport">
         <div class="results-poll-track">${slidesHTML}</div>
       </div>
       <button type="button" class="results-poll-nav results-poll-nav-next"
-              data-dir="1" aria-label="${ui.newerPollNav}" disabled>›</button>
+              data-dir="1" aria-label="${ui.newerPollNav}" title="${ui.newerPollNav}" disabled>›</button>
       <div class="results-poll-pager"><span class="results-poll-pager-current">${count}</span> / ${count}</div>
+      <div class="results-poll-mobile-hint">${ui.pollCarouselHint}</div>
     </div>`;
 }
 
