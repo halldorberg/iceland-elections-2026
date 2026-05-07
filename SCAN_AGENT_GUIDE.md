@@ -411,6 +411,36 @@ python scripts/generate_review.py --clear
 git add scan-review.html && git commit -m "Clear review page after approval" && git push
 ```
 
+### Partial approvals (per-ID, the common case)
+
+When the user approves only a subset of bios — e.g. "approved: AKR.B.1, AKR.B.2, …"
+— use `audit_apply_approved.py` instead of the bulk apply scripts. It marks each
+approved entry `applied: true` in `scan_results/audit_results.json` and writes the
+rescue-rewrite (if any) into `js/data/candidates.js`.
+
+```bash
+# Apply the approved IDs (CSV string)
+python scripts/audit_apply_approved.py "ID1, ID2, ID3, …"
+
+# Regenerate the review page — entries marked applied are filtered out
+python scripts/generate_review.py
+
+# Mirror to the worktree (where the preview server lives)
+cp scan-review.html .claude/worktrees/<worktree>/scan-review.html
+cp scan_results/audit_results.json .claude/worktrees/<worktree>/scan_results/audit_results.json
+
+# Commit and push to make it live
+git add js/data/candidates.js scan-review.html
+git commit -m "Apply <N> approved bio rewrites"
+git push origin master
+```
+
+**Important:** after pushing, the approved IDs MUST be removed from the scan-review
+page. `generate_review.py` does this automatically (it reads `applied: true` from
+`audit_results.json` and skips those entries). Always run `generate_review.py` and
+push the updated `scan-review.html` after every batch of approvals — never leave
+already-applied bios sitting in the review.
+
 ---
 
 ## Applying results
