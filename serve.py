@@ -4,9 +4,13 @@ import http.server
 import socketserver
 import sys
 import os
+import json
+from datetime import datetime, timezone
 
 PORT = int(sys.argv[1]) if len(sys.argv) > 1 else 3457
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
+
+INBOX_PATH = os.path.join('scan_results', 'approval_inbox.json')
 
 class Handler(http.server.SimpleHTTPRequestHandler):
     extensions_map = {
@@ -19,6 +23,37 @@ class Handler(http.server.SimpleHTTPRequestHandler):
         '.svg':  'image/svg+xml',
         '':      'application/octet-stream',
     }
+
+    def do_POST(self):
+        # Local-only inbox endpoint for scan-review auto-sync. Accepts a JSON
+        # body and writes it to scan_results/approval_inbox.json with a
+        # server-side timestamp. Replies {"ok": true} on success.
+        if self.path != '/api/inbox':
+            self.send_error(404)
+            return
+        try:
+            length = int(self.headers.get('Content-Length', '0'))
+            raw = self.rfile.read(length) if length else b''
+            payload = json.loads(raw.decode('utf-8') or '{}')
+        except (ValueError, json.JSONDecodeError) as e:
+            self.send_response(400)
+            self.send_header('Content-Type', 'application/json')
+            self.end_headers()
+            self.wfile.write(json.dumps({'ok': False, 'error': str(e)}).encode('utf-8'))
+            return
+        payload['_saved_at'] = datetime.now(timezone.utc).isoformat()
+        os.makedirs(os.path.dirname(INBOX_PATH), exist_ok=True)
+        # Atomic write so concurrent reads always see a complete file.
+        tmp = INBOX_PATH + '.tmp'
+        with open(tmp, 'w', encoding='utf-8') as f:
+            json.dump(payload, f, ensure_ascii=False, indent=2)
+        os.replace(tmp, INBOX_PATH)
+        body = json.dumps({'ok': True, 'saved_at': payload['_saved_at']}).encode('utf-8')
+        self.send_response(200)
+        self.send_header('Content-Type', 'application/json')
+        self.send_header('Content-Length', str(len(body)))
+        self.end_headers()
+        self.wfile.write(body)
 
     def end_headers(self):
         # Prevent browser caching of HTML, JS, and CSS so edits are always picked up

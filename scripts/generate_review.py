@@ -724,10 +724,20 @@ def main():
   .photo-card { display: flex; gap: 16px; align-items: flex-start; }
   .photo-thumb { width: 72px; height: 72px; object-fit: cover; border-radius: 8px; border: 1px solid var(--border); flex-shrink: 0; }
   .photo-info { flex: 1; }
+  #sync-status {
+    font-size: 11px; padding: 6px 10px; border-radius: 6px;
+    background: var(--surface2); border: 1px solid var(--border);
+    color: var(--muted); white-space: nowrap;
+  }
+  #sync-status[data-state="ok"]      { color: var(--green);  border-color: var(--green); }
+  #sync-status[data-state="pending"] { color: var(--accent); border-color: var(--accent); }
+  #sync-status[data-state="offline"] { color: var(--muted); }
+  #sync-status[data-state="error"]   { color: var(--red);    border-color: var(--red); }
 '''
 
     js = r"""
 const PW = 'happyhappy';
+const SCAN_DATE_TAG = '__SCAN_DATE_TAG__';
 function unlock() {
   const v = document.getElementById('pw-input').value;
   if (v === PW) {
@@ -827,6 +837,7 @@ function onApproveChange(ev) {
     _markApproved(cid, false);
   }
   refreshCounter();
+  syncToInbox();
 }
 function copyApproved() {
   const ids = listApproved();
@@ -877,9 +888,61 @@ function _onCommentInput(ev) {
     else             localStorage.removeItem(COMMENT_KEY_PREFIX + cid);
     _markCommentState(cid, !!text.trim());
     refreshCounter();
+    syncToInbox();
   }, 250));
 }
 document.addEventListener('input', _onCommentInput, true);
+
+// ─── Inbox auto-sync ───────────────────────────────────────────────────
+// POSTs the current approvals + comments state to the local dev server's
+// /api/inbox endpoint, which writes scan_results/approval_inbox.json.
+// Auto-syncs on every change (debounced); silently no-ops on production
+// where the endpoint doesn't exist.
+let _syncTimer = null;
+let _lastSyncOk = null;  // null = unknown, true = ok, false = failed
+function _setSyncStatus(state, msg) {
+  const el = document.getElementById('sync-status');
+  if (!el) return;
+  el.dataset.state = state;
+  el.title = msg || '';
+  if (state === 'ok')      el.textContent = '☁ Saved';
+  else if (state === 'pending') el.textContent = '⟳ Saving…';
+  else if (state === 'offline') el.textContent = '✎ Local only';
+  else if (state === 'error')   el.textContent = '⚠ Save failed';
+  else                          el.textContent = '';
+}
+function _buildInboxPayload() {
+  const approvals = listApproved().map(id => ({
+    id, kind: localStorage.getItem(APPROVE_KEY_PREFIX + id + ':kind') || 'as-is'
+  }));
+  const comments = listCommented();
+  return { approvals, comments, scan_date: SCAN_DATE_TAG, ts: new Date().toISOString() };
+}
+async function _doSync() {
+  _setSyncStatus('pending');
+  const payload = _buildInboxPayload();
+  try {
+    const r = await fetch('/api/inbox', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload),
+    });
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    const j = await r.json();
+    _lastSyncOk = true;
+    _setSyncStatus('ok', 'Saved at ' + j.saved_at);
+  } catch (err) {
+    // First failure on this page → "offline" (probably reviewing on production).
+    // Subsequent failures of an originally-ok session → "error".
+    if (_lastSyncOk === null) _setSyncStatus('offline', 'Inbox endpoint unavailable — comments still saved in this browser');
+    else                      _setSyncStatus('error',   String(err));
+    _lastSyncOk = false;
+  }
+}
+function syncToInbox() {
+  if (_syncTimer) clearTimeout(_syncTimer);
+  _syncTimer = setTimeout(_doSync, 400);
+}
 function copyCommented() {
   const items = listCommented();
   if (!items.length) { showToast('No comments yet'); return; }
@@ -912,6 +975,7 @@ function clearApprovals() {
   document.querySelectorAll('.rescue-block.is-approved').forEach(b => b.classList.remove('is-approved'));
   refreshCounter();
   showToast('Cleared');
+  syncToInbox();
 }
 function clearComments() {
   const items = listCommented();
@@ -922,6 +986,7 @@ function clearComments() {
   document.querySelectorAll('.card.has-comment').forEach(c => c.classList.remove('has-comment'));
   refreshCounter();
   showToast('Cleared comments');
+  syncToInbox();
 }
 function togglePanel() {
   document.getElementById('approve-panel').classList.toggle('open');
@@ -960,6 +1025,8 @@ window.addEventListener('load', () => {
   restoreComments();
   applyHideApproved(localStorage.getItem(HIDE_APPROVED_KEY) === '1');
   refreshCounter();
+  // Probe + initial snapshot of current state.
+  syncToInbox();
 });
 """
 
@@ -970,6 +1037,7 @@ window.addEventListener('load', () => {
     # localStorage approval flags for bios that have already been applied.
     applied_ids = sorted(cid for cid, e in audit_data.items() if e.get('applied'))
     js = js.replace('__APPLIED_IDS_JSON__', json.dumps(applied_ids))
+    js = js.replace('__SCAN_DATE_TAG__', scan_date)
 
     page = f"""<!DOCTYPE html>
 <html lang="is">
@@ -1002,6 +1070,7 @@ window.addEventListener('load', () => {
           title="Jump to first unapproved bio"
           aria-label="Jump to first unapproved bio">↑</button>
   <div id="approve-counter" onclick="togglePanel()"><strong>0</strong> approved</div>
+  <div id="sync-status" data-state="idle" title="Saves your approvals + comments to scan_results/approval_inbox.json on the local dev server"></div>
 </div>
 <div id="approve-panel">
   <h3>Approval actions</h3>
