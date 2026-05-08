@@ -1,6 +1,6 @@
 import { MUNICIPALITIES } from './data/municipalities.js?v=15';
 import { PARTIES } from './data/parties.js?v=4';
-import { getMunicipalityPartyData } from './data/candidates.js?v=66';
+import { getMunicipalityPartyData } from './data/candidates.js?v=67';
 import { RESULTS_2022 } from './data/results2022.js?v=2';
 import { POLLS }        from './data/polls.js?v=3';
 import { EYE_POSITIONS } from './data/eye_positions.js?v=1';
@@ -14,10 +14,10 @@ const ui   = t();
 
 let TR = {};
 if (lang === 'en') {
-  const mod = await import('./data/candidates.en.js?v=3');
+  const mod = await import('./data/candidates.en.js?v=4');
   TR = mod.TRANSLATIONS_EN;
 } else if (lang === 'pl') {
-  const mod = await import('./data/candidates.pl.js?v=3');
+  const mod = await import('./data/candidates.pl.js?v=4');
   TR = mod.TRANSLATIONS_PL;
 }
 

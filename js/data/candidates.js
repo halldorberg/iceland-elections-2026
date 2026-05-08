@@ -6651,9 +6651,13 @@ const RTE = {
     ],
   },
   NRE: {
-    tagline: 'Nýtt sjálfstætt framboð — ný sjónarmiðl í Rangárþingi eystra',
-    agenda: [],
-    // [stripped 2026-05-05] no source verifiable; research pending
+    tagline: 'Nýi óháði listinn í Rangárþingi eystra — Stefna 2026-2030',
+    platformUrl: 'https://www.facebook.com/nyi.ohadi.listinn/',
+    agenda: [
+      { icon: '💼', title: 'Atvinnumál',                                                text: 'Sjáum til þess að í boði séu lóðir fyrir ýmsa atvinnustarfsemi víða í sveitarfélaginu og löðum að fleiri opinberar stofnanir og störf til Rangárþings eystra. Stuðlum að enn fjölbreyttara atvinnulífi og hlúum að landbúnaði, matvælaframleiðslu, ferðaþjónustu og öðrum mikilvægum atvinnugreinum á svæðinu. Opnum vinnustaðaklasa í samstarfi við aðrar stofnanir og fyrirtæki — og aukum þannig tækifæri til atvinnu og náms — og auglýsum Rangárþing eystra sem góðan stað til fjarvinnu í fallegu og nærandi umhverfi til langs eða skamms tíma.' },
+      { icon: '🤝', title: 'Málefni fatlaðs fólks, öryrkja og eldri borgara',           text: 'Sköpum raunveruleg tækifæri fyrir fatlað fólk til íþrótta- og tómstundaiðkunar, stórbætum aðgengi á göngustígum og beitum okkur fyrir bættu aðgengi að verslun — m.a. með snjallverslun Krónunnar — til að styðja sjálfstæði eldri borgara í dreifbýli og annarra íbúa sem þurfa aðstoð við innkaup. Áframhaldandi uppbygging íbúakjarna og bætt aðgengi svo fólk geti búið þar sem það kýs innan sveitarfélagsins, framtíðarsýn í húsnæðismálum VISS, og efling heimaþjónustu við eldri borgara — þ.m.t. barátta fyrir því að heimaspítali HSU verði einnig starfræktur í Rangárþingi. Akstursþjónusta við fatlað fólk og hjólastólanotendur stóraukin með bíl sem væri staðsettur við Kirkjuhvol og VISS til skiptis, áframhaldandi stuðningur við félagsstarf eldri borgara og aukið samráð við fatlað fólk í málefnum sem það snertir.' },
+      { icon: '🏗️', title: 'Skipulags-, samgöngu- og innviðamál',                       text: 'Framsýni og vönduð vinnubrögð í skipulagsmálum þar sem skipulagt er lengra fram í tímann. Berjumst fyrir auknu viðhaldi og uppbyggingu á vegum í dreifbýli og fyrir hag Rangárþings eystra gagnvart ráðuneytum og Vegagerðinni, og ljúkum uppbyggingu miðbæjar á Hvolsvelli ásamt umbótum á Austurvegi sem fyrst í samræmi við skipulag. Bætt síma- og netsamband, viðhald stofnskurða í góðan farveg með auknu fjármagni, endurskoðun aðalskipulags út frá samfélagsgerð, umhverfi og umferðaröryggi, hringvegur í aðalskipulag sem 2+1 vegur og bætt eftirfylgni með verkefnum og fjárfestingum sveitarfélagsins. Stefnumótun til framtíðar með markvissa uppbyggingu á vegakerfi sveitarfélagsins, uppbygging og skipulag á göngu- og hjólastígum og reiðvegum á Hvolsvelli, í Skógum og í dreifbýli, frístundabíll milli Hvolsvallar og Hellu til að tryggja jöfn tækifæri barna til tómstunda, umhverfisvænar samgöngur (strætó og hjólreiðar) sem raunverulegur valkostur — og barátta fyrir því að strætóferð milli Hellu og Hvolsvallar kosti jafngildi eins miða á höfuðborgarsvæðinu (690 kr.) en ekki 1.200 kr. eins og í dag.' },
+    ],
 
     list: [
       [1, 'Tómas Birgir Magnússon', 'Ferðaþjónustuaðili og íþróttakennari', null, {
