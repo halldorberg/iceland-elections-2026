@@ -4,8 +4,8 @@ import { getMunicipalityPartyData } from './data/candidates.js?v=64';
 import { RESULTS_2022 } from './data/results2022.js?v=2';
 import { POLLS }        from './data/polls.js?v=3';
 import { EYE_POSITIONS } from './data/eye_positions.js?v=1';
-import { CLEAVAGES, STANCE_SMILEYS, STANCE_LABELS_IS } from './data/cleavages.js?v=2';
-import { getLang, t, renderLangSwitcher } from './i18n.js?v=5';
+import { CLEAVAGES, STANCE_SMILEYS } from './data/cleavages.js?v=3';
+import { getLang, t, renderLangSwitcher } from './i18n.js?v=6';
 import { partySlug, partyCodeFromSlug, slugify } from './data/party_slugs.js?v=2';
 
 // ─── i18n ──────────────────────────────────────────────────
@@ -711,10 +711,13 @@ function buildCleavagesHTML(data) {
   if (!list || !list.length) return '';
   const partyCode = data.partyCode;
 
+  const stanceLabels = {
+    A: ui.stanceA, B: ui.stanceB, C: ui.stanceC, D: ui.stanceD,
+  };
   const cards = list.map(topic => {
     const stance = topic.stances[partyCode];
     const smiley = stance ? STANCE_SMILEYS[stance] : '—';
-    const stanceLabel = stance ? STANCE_LABELS_IS[stance] : 'Tók ekki afstöðu';
+    const stanceLabel = stance ? stanceLabels[stance] : ui.cleavagesNoStance;
     return `
       <div class="cleavage-card" tabindex="0">
         <button class="cleavage-icon" type="button"
@@ -732,13 +735,13 @@ function buildCleavagesHTML(data) {
 
   return `
     <div class="cleavages-section" data-cleavage-count="${list.length}">
-      <div class="cleavages-header">Klofningsmál samkvæmt kosningaprófi Rúv</div>
+      <div class="cleavages-header">${escapeHtml(ui.cleavagesHeader)}</div>
       <div class="cleavages-track-wrap">
         <button type="button" class="cleavages-arrow cleavages-arrow-left"
-                aria-label="Skruna til vinstri" tabindex="-1">‹</button>
+                aria-label="${escapeHtml(ui.cleavagesScrollL)}" tabindex="-1">‹</button>
         <div class="cleavages-track">${cards}</div>
         <button type="button" class="cleavages-arrow cleavages-arrow-right"
-                aria-label="Skruna til hægri" tabindex="-1">›</button>
+                aria-label="${escapeHtml(ui.cleavagesScrollR)}" tabindex="-1">›</button>
       </div>
     </div>`;
 }
@@ -958,7 +961,7 @@ function buildCleavagesSourceHTML(data) {
     <svg width="11" height="11" viewBox="0 0 12 12" fill="none">
       <path d="M5 2H2a1 1 0 00-1 1v7a1 1 0 001 1h7a1 1 0 001-1V7M8 1h3m0 0v3m0-3L5 7" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
     </svg>
-    <a href="https://kosningaprof.ruv.is/" target="_blank" rel="noopener noreferrer">Heimild: kosningaprof.ruv.is</a>
+    <a href="https://kosningaprof.ruv.is/" target="_blank" rel="noopener noreferrer">${ui.platformSource('kosningaprof.ruv.is')}</a>
   </div>`;
 }
 

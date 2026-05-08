@@ -74,6 +74,16 @@ export const UI = {
     noPlatformCTA:    'Ertu frambjóðandi? Hafðu samband! →',
     platformSource:   (host) => `Heimild: ${host}`,
 
+    // Cleavages carousel — RÚV kosningapróf
+    cleavagesHeader:    'Klofningsmál samkvæmt kosningaprófi Rúv',
+    cleavagesScrollL:   'Skruna til vinstri',
+    cleavagesScrollR:   'Skruna til hægri',
+    cleavagesNoStance:  'Tók ekki afstöðu',
+    stanceA:            'Mjög ósammála',
+    stanceB:            'Ósammála',
+    stanceC:            'Sammála',
+    stanceD:            'Mjög sammála',
+
     // Candidate card / modal
     seeMore:          'Sjá nánar →',
     candidates:       'Frambjóðendur',
@@ -159,6 +169,17 @@ export const UI = {
     noPlatformCTA:    'Are you a candidate? Get in touch! →',
     platformSource:   (host) => `Source: ${host}`,
 
+    // Cleavages carousel — note: question text itself stays in Icelandic
+    // because it's quoted verbatim from RÚV's kosningapróf.
+    cleavagesHeader:    'Topics where the parties disagree (RÚV poll)',
+    cleavagesScrollL:   'Scroll left',
+    cleavagesScrollR:   'Scroll right',
+    cleavagesNoStance:  'Did not respond',
+    stanceA:            'Strongly disagree',
+    stanceB:            'Disagree',
+    stanceC:            'Agree',
+    stanceD:            'Strongly agree',
+
     seeMore:          'See more →',
     candidates:       'Candidates',
     ageLabel:         'years old',
@@ -239,6 +260,17 @@ export const UI = {
     noPlatformDesc:   'Nie znaleźliśmy potwierdzonego programu wyborczego tej partii i dlatego nie wyświetlamy żadnych punktów programowych.',
     noPlatformCTA:    'Jesteś kandydatem? Skontaktuj się z nami! →',
     platformSource:   (host) => `Źródło: ${host}`,
+
+    // Cleavages carousel — pytania pozostają w islandzkim, bo są
+    // dosłownymi cytatami z sondażu kosningapróf RÚV.
+    cleavagesHeader:    'Tematy sporne według sondażu RÚV',
+    cleavagesScrollL:   'Przewiń w lewo',
+    cleavagesScrollR:   'Przewiń w prawo',
+    cleavagesNoStance:  'Nie zajął stanowiska',
+    stanceA:            'Zdecydowanie się nie zgadza',
+    stanceB:            'Nie zgadza się',
+    stanceC:            'Zgadza się',
+    stanceD:            'Zdecydowanie się zgadza',
 
     seeMore:          'Zobacz więcej →',
     candidates:       'Kandydaci',
