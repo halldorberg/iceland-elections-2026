@@ -6673,7 +6673,7 @@ const RTE = {
       [7, 'Karel Geir Sverrisson', 'Bóndi'],
       [8, 'Bjarni Daníelsson', 'Verkamaður'],
       [9, 'Sigurður Orri Baldursson', 'Vörubílsstjóri'],
-      [10, 'Guðbjörg Konráðsdóttir', 'Viðskiptafræðingur', 'images/candidates/994864eba3455d67.jpg', { age: null, bio: 'Guðbjörg Konráðsdóttir er viðskiptafræðingur, búsett að Hlíð í Rangárþingi eystra. Hún skipar 10. sæti á N-lista, Nýja óháða listanum, í Rangárþingi eystra fyrir sveitarstjórnarkosningarnar 16. maí 2026. Listinn er nýtt sjálfstætt framboð undir forystu Tómasar Birgis Magnússonar.', interests: null, social: null, heimild: [{ url: 'https://www.hvolsvollur.is/is/frettir/auglysing-um-frambod-til-sveitarstjornar-i-rangarthingi-eystra-sem-fram-fara-laugardaginn-16-mai-2026', label: 'www.hvolsvollur.is' }], news: [] }],
+      [10, 'Guðbjörg Konráðsdóttir', 'Viðskiptafræðingur', null, { age: null, bio: 'Guðbjörg Konráðsdóttir er viðskiptafræðingur, búsett að Hlíð í Rangárþingi eystra. Hún skipar 10. sæti á N-lista, Nýja óháða listanum, í Rangárþingi eystra fyrir sveitarstjórnarkosningarnar 16. maí 2026. Listinn er nýtt sjálfstætt framboð undir forystu Tómasar Birgis Magnússonar.', interests: null, social: null, heimild: [{ url: 'https://www.hvolsvollur.is/is/frettir/auglysing-um-frambod-til-sveitarstjornar-i-rangarthingi-eystra-sem-fram-fara-laugardaginn-16-mai-2026', label: 'www.hvolsvollur.is' }], news: [] }],
       [11, 'Þórður Tómasson', 'Leiðsögumaður'],
       [12, 'Magnús Benónýsson', 'Skósmiður'],
       [13, 'Hjalti Logason', 'Byggingafræðingur'],
