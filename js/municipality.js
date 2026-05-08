@@ -4,6 +4,7 @@ import { getMunicipalityPartyData } from './data/candidates.js?v=64';
 import { RESULTS_2022 } from './data/results2022.js?v=2';
 import { POLLS }        from './data/polls.js?v=3';
 import { EYE_POSITIONS } from './data/eye_positions.js?v=1';
+import { CLEAVAGES, STANCE_SMILEYS, STANCE_LABELS_IS } from './data/cleavages.js?v=2';
 import { getLang, t, renderLangSwitcher } from './i18n.js?v=5';
 import { partySlug, partyCodeFromSlug, slugify } from './data/party_slugs.js?v=2';
 
@@ -344,6 +345,7 @@ function renderAccordion() {
     container.appendChild(ribbon);
     attachCustomScrollbar(ribbon);
     activatePollCarousels(ribbon);
+    activateCleavageTracks(ribbon);
   });
 }
 
@@ -699,6 +701,182 @@ function activatePollCarousels(root) {
   });
 }
 
+// ─── Cleavages carousel (RÚV kosningapróf) ─────────────────
+// Horizontal scroll of "where do parties disagree?" topics. The party
+// being viewed gets a smiley showing its stance; the icon on top is a
+// click/hover tooltip with the full Icelandic question text.
+
+function buildCleavagesHTML(data) {
+  const list = CLEAVAGES[data.municipalityId];
+  if (!list || !list.length) return '';
+  const partyCode = data.partyCode;
+
+  const cards = list.map(topic => {
+    const stance = topic.stances[partyCode];
+    const smiley = stance ? STANCE_SMILEYS[stance] : '—';
+    const stanceLabel = stance ? STANCE_LABELS_IS[stance] : 'Tók ekki afstöðu';
+    return `
+      <div class="cleavage-card" tabindex="0">
+        <button class="cleavage-icon" type="button"
+                aria-label="${escapeHtml(topic.title)}"
+                data-tooltip="${escapeHtml(topic.title)}"
+                data-tooltip-stance="${escapeHtml(stanceLabel)}"
+                data-tooltip-stance-key="${escapeHtml(stance || '')}">
+          <span class="cleavage-icon-emoji" aria-hidden="true">${topic.icon}</span>
+        </button>
+        <div class="cleavage-stance" title="${escapeHtml(stanceLabel)}">
+          <span class="cleavage-smiley" aria-hidden="true">${smiley}</span>
+        </div>
+      </div>`;
+  }).join('');
+
+  return `
+    <div class="cleavages-section" data-cleavage-count="${list.length}">
+      <div class="cleavages-header">Klofningsmál samkvæmt kosningaprófi Rúv</div>
+      <div class="cleavages-track-wrap">
+        <button type="button" class="cleavages-arrow cleavages-arrow-left"
+                aria-label="Skruna til vinstri" tabindex="-1">‹</button>
+        <div class="cleavages-track">${cards}</div>
+        <button type="button" class="cleavages-arrow cleavages-arrow-right"
+                aria-label="Skruna til hægri" tabindex="-1">›</button>
+      </div>
+    </div>`;
+}
+
+// Lazy single-instance body-level tooltip. Putting it inside the track
+// causes clipping (overflow-x:auto creates a clip context on the y-axis
+// too), so we render it as a body child positioned via getBoundingClientRect.
+let _cleavageTooltipEl = null;
+function _getCleavageTooltipEl() {
+  if (_cleavageTooltipEl) return _cleavageTooltipEl;
+  const el = document.createElement('div');
+  el.className = 'cleavage-tooltip';
+  el.setAttribute('role', 'tooltip');
+  document.body.appendChild(el);
+  _cleavageTooltipEl = el;
+  // Hide on outside tap (mobile). A click anywhere inside a cleavage card
+  // is treated as "still in interaction" — the click handler will replace
+  // the tooltip with that card's content.
+  document.addEventListener('pointerdown', (ev) => {
+    if (ev.target.closest('.cleavage-card')) return;
+    el.classList.remove('show');
+  });
+  return el;
+}
+function _showCleavageTooltip(target) {
+  const text = target.dataset.tooltip;
+  if (!text) return;
+  const el = _getCleavageTooltipEl();
+  const stance    = target.dataset.tooltipStance || '';
+  const stanceKey = target.dataset.tooltipStanceKey || '';
+  // Two-line content: question above, stance label below in a coloured pill.
+  el.innerHTML = ''; // wipe and rebuild structurally
+  const titleDiv = document.createElement('div');
+  titleDiv.className = 'cleavage-tooltip-title';
+  titleDiv.textContent = text;
+  el.appendChild(titleDiv);
+  if (stance) {
+    const stanceDiv = document.createElement('div');
+    stanceDiv.className = 'cleavage-tooltip-stance';
+    stanceDiv.dataset.stance = stanceKey;
+    stanceDiv.textContent = stance;
+    el.appendChild(stanceDiv);
+  }
+  el.classList.add('show');
+  // Default position above the icon, centered.
+  const r = target.getBoundingClientRect();
+  // First render to measure
+  el.style.maxWidth = `${Math.min(280, window.innerWidth - 24)}px`;
+  el.style.left = '0px';
+  el.style.top  = '0px';
+  const tw = el.offsetWidth, th = el.offsetHeight;
+  let cx = r.left + r.width / 2;
+  let top = r.top - th - 8;
+  // Flip below if it'd go off-screen at top
+  let placement = 'top';
+  if (top < 8) {
+    top = r.bottom + 8;
+    placement = 'bottom';
+  }
+  // Clamp horizontally
+  let left = cx - tw / 2;
+  if (left < 8) left = 8;
+  if (left + tw > window.innerWidth - 8) left = window.innerWidth - tw - 8;
+  el.style.left = `${left}px`;
+  el.style.top  = `${top}px`;
+  el.dataset.placement = placement;
+  // Position arrow caret to point at the icon
+  const arrowOffset = Math.max(8, Math.min(tw - 8, cx - left));
+  el.style.setProperty('--arrow-x', `${arrowOffset}px`);
+}
+function _hideCleavageTooltip() {
+  if (_cleavageTooltipEl) _cleavageTooltipEl.classList.remove('show');
+}
+
+// Apply transparency-fade + arrow visibility based on scroll position.
+// At scroll-start: only right side fades + only right arrow visible.
+// After any scroll: both fade and both arrows. At end: only left.
+function activateCleavageTracks(root) {
+  root.querySelectorAll('.cleavages-track').forEach(track => {
+    const wrap = track.parentElement;
+    const leftBtn  = wrap?.querySelector('.cleavages-arrow-left');
+    const rightBtn = wrap?.querySelector('.cleavages-arrow-right');
+    const update = () => {
+      const max = track.scrollWidth - track.clientWidth;
+      if (max <= 1) {
+        track.classList.remove('at-end', 'in-middle');
+        track.style.maskImage = 'none';
+        track.style.webkitMaskImage = 'none';
+        if (leftBtn)  leftBtn.hidden = true;
+        if (rightBtn) rightBtn.hidden = true;
+        return;
+      }
+      track.style.maskImage = '';
+      track.style.webkitMaskImage = '';
+      const left = track.scrollLeft;
+      const atStart = left <= 1;
+      const atEnd   = left >= max - 1;
+      track.classList.toggle('at-end',   atEnd && !atStart);
+      track.classList.toggle('in-middle', !atStart && !atEnd);
+      if (leftBtn)  leftBtn.hidden  = atStart;
+      if (rightBtn) rightBtn.hidden = atEnd;
+    };
+    track.addEventListener('scroll', update, { passive: true });
+    update();
+    if ('ResizeObserver' in window) {
+      new ResizeObserver(update).observe(track);
+    }
+    if (leftBtn)  leftBtn.addEventListener('click', () => track.scrollBy({ left: -track.clientWidth * 0.8, behavior: 'smooth' }));
+    if (rightBtn) rightBtn.addEventListener('click', () => track.scrollBy({ left:  track.clientWidth * 0.8, behavior: 'smooth' }));
+
+    // Tooltip handlers — fire from anywhere on the card (click, tap, hover,
+    // keyboard focus). The tooltip anchors to the icon so its position is
+    // consistent regardless of where on the card the user clicked.
+    // Always SHOW on click — never toggle. The body-level pointerdown
+    // handler installed in _getCleavageTooltipEl handles dismissal when
+    // the user clicks outside any card. (Toggling here was racing with
+    // the focus event on the inner button, which fired show first and
+    // then click toggled it back off.)
+    track.querySelectorAll('.cleavage-card').forEach(card => {
+      const btn = card.querySelector('.cleavage-icon');
+      if (!btn) return;
+      card.addEventListener('mouseenter', () => _showCleavageTooltip(btn));
+      card.addEventListener('mouseleave', _hideCleavageTooltip);
+      card.addEventListener('focusin',    () => _showCleavageTooltip(btn));
+      card.addEventListener('focusout',   _hideCleavageTooltip);
+      card.addEventListener('click', () => _showCleavageTooltip(btn));
+    });
+    // Hide tooltip while scrolling the strip.
+    track.addEventListener('scroll', _hideCleavageTooltip, { passive: true });
+  });
+}
+
+function escapeHtml(s) {
+  return String(s)
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+}
+
 // ─── Splash / Agenda ───────────────────────────────────────
 
 function buildSplashHTML(party, data) {
@@ -767,7 +945,21 @@ function buildSplashHTML(party, data) {
       ${disclaimerHTML}
       ${data.isPlaceholder ? '' : `<div class="agenda-grid">${cards}</div>`}
       ${sourceHTML}
+      ${buildCleavagesHTML(data)}
+      ${buildCleavagesSourceHTML(data)}
     </div>`;
+}
+
+// Source link rendered below the cleavages carousel — points readers at
+// the upstream RÚV kosningapróf so they can verify the party stances.
+function buildCleavagesSourceHTML(data) {
+  if (!CLEAVAGES[data.municipalityId]) return '';
+  return `<div class="agenda-source">
+    <svg width="11" height="11" viewBox="0 0 12 12" fill="none">
+      <path d="M5 2H2a1 1 0 00-1 1v7a1 1 0 001 1h7a1 1 0 001-1V7M8 1h3m0 0v3m0-3L5 7" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+    <a href="https://kosningaprof.ruv.is/" target="_blank" rel="noopener noreferrer">Heimild: kosningaprof.ruv.is</a>
+  </div>`;
 }
 
 // ─── Candidate Gallery ─────────────────────────────────────

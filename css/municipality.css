@@ -569,6 +569,204 @@
   line-height: 1.65;
 }
 
+/* ─── Cleavages carousel ─────────────────────────────── */
+
+.cleavages-section {
+  margin-top: var(--space-4);
+}
+.cleavages-header {
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.65);
+  margin-bottom: 8px;
+  padding-left: 4px;
+}
+.cleavages-track-wrap {
+  position: relative;
+}
+.cleavages-track {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  padding: 4px;
+  /* hide scrollbar but keep scroll */
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  /* Transparency-fade at the overflow edges. The mask is what fades the
+     cards out — the gradient is intrinsically transparent, not a colored
+     overlay, so it works on every party-coloured background.
+     Default state (scrolled to start): fade only on the right. JS toggles
+     `at-start` / `at-end` classes as the user scrolls. */
+  --fade: 36px;
+  -webkit-mask-image: linear-gradient(to right, #000 0, #000 calc(100% - var(--fade)), transparent 100%);
+          mask-image: linear-gradient(to right, #000 0, #000 calc(100% - var(--fade)), transparent 100%);
+}
+.cleavages-track.at-end {
+  -webkit-mask-image: linear-gradient(to right, transparent 0, #000 var(--fade), #000 100%);
+          mask-image: linear-gradient(to right, transparent 0, #000 var(--fade), #000 100%);
+}
+.cleavages-track.in-middle {
+  -webkit-mask-image: linear-gradient(to right, transparent 0, #000 var(--fade), #000 calc(100% - var(--fade)), transparent 100%);
+          mask-image: linear-gradient(to right, transparent 0, #000 var(--fade), #000 calc(100% - var(--fade)), transparent 100%);
+}
+.cleavages-track::-webkit-scrollbar { display: none; }
+
+.cleavage-card {
+  flex: 0 0 calc((100% - 30px) / 4);   /* 4 visible on mobile (gap = 10px × 3) */
+  min-width: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 6px;
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+}
+.cleavage-card:hover { background: rgba(255,255,255,0.10); }
+.cleavage-card:focus-within { border-color: rgba(255,255,255,0.30); }
+
+.cleavage-icon {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: none;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  color: inherit;
+}
+.cleavage-icon-emoji {
+  display: inline-flex;
+  width: 30px;
+  height: 30px;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+}
+.cleavage-icon-emoji svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* Body-level tooltip (escapes the track's overflow-clipping context).
+   Positioned via JS using getBoundingClientRect on the icon. */
+.cleavage-tooltip {
+  position: fixed;
+  z-index: 9999;
+  padding: 8px 10px;
+  background: #0f1729;
+  color: #e2e8f0;
+  border: 1px solid rgba(255,255,255,0.18);
+  border-radius: 6px;
+  font-size: 0.72rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0;
+  text-transform: none;
+  text-align: center;
+  pointer-events: none;
+  opacity: 0;
+  transform: translateY(-4px);
+  transition: opacity 0.15s, transform 0.15s;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.35);
+}
+.cleavage-tooltip-title {
+  font-size: 0.72rem;
+  line-height: 1.4;
+}
+.cleavage-tooltip-stance {
+  display: inline-block;
+  margin-top: 6px;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 0.66rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  background: rgba(255,255,255,0.10);
+  color: rgba(255,255,255,0.85);
+}
+.cleavage-tooltip-stance[data-stance="A"] { background: rgba(239,68,68,.20); color: #fca5a5; }
+.cleavage-tooltip-stance[data-stance="B"] { background: rgba(251,146,60,.18); color: #fdba74; }
+.cleavage-tooltip-stance[data-stance="C"] { background: rgba(74,222,128,.16); color: #86efac; }
+.cleavage-tooltip-stance[data-stance="D"] { background: rgba(34,197,94,.22);  color: #4ade80; }
+.cleavage-tooltip-stance[data-stance=""]  { background: rgba(255,255,255,.10); color: #94a3b8; }
+.cleavage-tooltip.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+.cleavage-tooltip::after {
+  content: '';
+  position: absolute;
+  left: var(--arrow-x, 50%);
+  width: 8px;
+  height: 8px;
+  background: inherit;
+  border: inherit;
+  transform: translateX(-50%) rotate(45deg);
+}
+.cleavage-tooltip[data-placement="top"]::after {
+  bottom: -5px;
+  border-top: 0;
+  border-left: 0;
+}
+.cleavage-tooltip[data-placement="bottom"]::after {
+  top: -5px;
+  border-bottom: 0;
+  border-right: 0;
+}
+
+/* Scroll arrows — bare chevrons, no chrome. JS toggles `hidden` based on
+   scroll position so an arrow only appears when there's content to scroll
+   to in that direction. */
+.cleavages-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: 0;
+  padding: 0 4px;
+  color: rgba(255,255,255,0.85);
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1;
+  cursor: pointer;
+  z-index: 4;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+  transition: color 0.15s, transform 0.15s;
+}
+.cleavages-arrow:hover  { color: #fff; transform: translateY(-50%) scale(1.18); }
+.cleavages-arrow[hidden] { display: none; }
+.cleavages-arrow-left  { left: 0; }
+.cleavages-arrow-right { right: 0; }
+
+.cleavage-stance {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cleavage-smiley {
+  font-size: 1.55rem;
+  line-height: 1;
+}
+
+/* Wider cards on larger screens — fit ~6 across desktop, ~5 tablet. */
+@media (min-width: 700px) {
+  .cleavage-card { flex: 0 0 calc((100% - 50px) / 6); }
+}
+@media (min-width: 480px) and (max-width: 699px) {
+  .cleavage-card { flex: 0 0 calc((100% - 40px) / 5); }
+}
+
 /* ─── Agenda source + disclaimer ────────────────────── */
 
 .agenda-source {
