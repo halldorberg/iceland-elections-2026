@@ -216,9 +216,20 @@ def extract(content):
                     in_interests = False
                     interest_idx = 0
                     obj_depth    = inline_depth
-                # else: object opens AND closes on the same line (e.g.
-                # `{ age: null, …, news: [] }],`) — nothing more to parse
-                # for this candidate, leave in_cand_obj False.
+                else:
+                    # Object opens AND closes on the same line. Extract any
+                    # inline bio / interests so we don't lose them — the
+                    # audit_apply_approved.py path writes one-line rows.
+                    bio_m = re.search(r"bio:\s*'((?:[^'\\]|\\.)*)'", rest)
+                    if bio_m:
+                        bio = unescape(bio_m.group(1))
+                        if bio:
+                            strings[f"{pfx}.list.{cand_ballot}.bio"] = bio
+                    int_m = re.search(r"interests:\s*\[((?:[^\[\]]|\\.)*)\]", rest)
+                    if int_m:
+                        items = re.findall(r"'((?:[^'\\]|\\.)+)'", int_m.group(1))
+                        for i, v in enumerate(items):
+                            strings[f"{pfx}.list.{cand_ballot}.interests.{i}"] = unescape(v)
             continue
 
     return strings, all_occupations
