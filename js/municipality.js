@@ -14,10 +14,10 @@ const ui   = t();
 
 let TR = {};
 if (lang === 'en') {
-  const mod = await import('./data/candidates.en.js?v=2');
+  const mod = await import('./data/candidates.en.js?v=3');
   TR = mod.TRANSLATIONS_EN;
 } else if (lang === 'pl') {
-  const mod = await import('./data/candidates.pl.js?v=2');
+  const mod = await import('./data/candidates.pl.js?v=3');
   TR = mod.TRANSLATIONS_PL;
 }
 
