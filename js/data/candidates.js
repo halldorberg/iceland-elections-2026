@@ -8614,14 +8614,69 @@ const HFJ = {
     ],
   },
   M: {
-    tagline: 'Miðflokkurinn á Hornafirði',
-    agenda: [],
-    // [stripped 2026-05-04] no source verifiable; no FB page found in 2026-05-04 sweep
-   
+    tagline: 'xM Hornafjörður — stefnumál 2026–2030',
+    platformUrl: 'http://xmhornafjordur.is/',
+    agenda: [
+      {
+        icon: '🏠',
+        title: 'Veruleg lækkun fasteigna- og veitugjalda',
+        text: '20% lækkun fasteigna- og veitugjalda á íbúa í byrjun árs 2027, áætluð kostnaðaráhrif um 77,7 m.kr. á ári (1,5% af tekjum sveitarfélagsins).',
+        source_quote: 'Veruleg lækkun fasteigna- og veitugjalda á íbúa',
+      },
+      {
+        icon: '🍽️',
+        title: 'Frítt fæði í leikskólum',
+        text: 'Frítt fæði í leikskólum sveitarfélagsins frá byrjun árs 2027, ásamt endurskoðun á gjöldum í kjölfarið. Áætluð útgjöld um 14 m.kr. á ári.',
+        source_quote: 'Frítt fæði í leikskólum auk endurskoðunar á gjöldum',
+      },
+      {
+        icon: '♻️',
+        title: 'Endurvakning klippikorta í ruslaporti',
+        text: 'Endurvakning klippikorta í ruslaporti fyrir íbúa, með úthlutun frá 1. janúar 2027.',
+        source_quote: 'Endurvakning klippikorta í ruslaporti fyrir íbúa',
+      },
+      {
+        icon: '🏛️',
+        title: 'Stofnun heimastjórnar',
+        text: 'Stofnun heimastjórnar í lok árs 2026 til þess að auka skilvirkni og tryggja að áhrif og aðkoma heimamanna séu virt í öllum sveitum sveitarfélagsins.',
+        source_quote: 'Stofnun heimastjórnar',
+      },
+      {
+        icon: '📊',
+        title: 'Heildarendurskoðun á rekstri sveitarfélagsins',
+        text: 'Ítarleg greining á rekstri sveitarfélagsins með það að markmiði að hagræða og lækka fasteignagjöld; áætluð árleg hagræðing 60–90 m.kr. — fyrsta verk Miðflokksins.',
+        source_quote: 'Heildarendurskoðun á rekstri sveitarfélagsins',
+      },
+      {
+        icon: '🏟️',
+        title: 'Bygging á nýju íþróttahúsi á Höfn',
+        text: 'Byrjum framkvæmdir ekki seinna en sumarið 2028. Áætlaður heildarkostnaður um 1,5 milljarður króna.',
+        source_quote: 'Bygging á nýju íþróttahúsi á Höfn',
+      },
+      {
+        icon: '🏔️',
+        title: 'Stjórn Vatnajökulsþjóðgarðs heim',
+        text: 'Færa stjórnina heim, með skýrum tímamörkum, og tryggja að þjóðgarðurinn styðji við byggð og atvinnulíf á svæðinu.',
+        source_quote: 'Stjórn Vatnajökulsþjóðgarðs heim',
+      },
+      {
+        icon: '🚒',
+        title: 'Björgunarmiðstöð í Öræfum',
+        text: 'Áfangaskipt uppbygging björgunarmiðstöðvar í Öræfum sem nýtist strax sem slökkvistöð og síðar sem miðstöð fyrir önnur viðbragðssvið; flugvöllurinn í Skaftafelli verði nothæfur fyrir sjúkraflug.',
+        source_quote: 'Björgunarmiðstöð í Öræfum',
+      },
+      {
+        icon: '🏥',
+        title: 'Heilsugæslan styrkt',
+        text: 'Stuðningur við starfsemi heilsugæslunnar; ekki verði afturför í ráðningu lækna inná stöðina og engin skerðing verði á læknisaðstoð í sveitarfélaginu á kjörtímabilinu.',
+        source_quote: 'Stuðningur við heilsugæsluna',
+      },
+    ],
+
     list: [
-      [1, 'Reynir Ásgeirsson', 'Framkvæmdastjóri', null, {
+      [1, 'Reynir Ásgeirsson', 'Framkvæmdastjóri', 'images/candidates/5d34c42deaaf064e.jpg', {
         age: null,
-        bio: 'Reynir Ásgeirsson er framkvæmdastjóri og leiðir lista Miðflokksins í Sveitarfélaginu Hornafirði í sveitarstjórnarkosningunum 2026. Hann sóttist eftir fyrsta sæti í prófkjöri Sjálfstæðisflokksins í mars 2026 en lenti í fjórða sæti og snéri sér í kjölfarið að framboði Miðflokksins.', heimild: [{ url: 'https://kosningasaga.wordpress.com/2026/04/03/frambodslisti-midflokksins-i-svf-hornafirdi/', label: 'kosningasaga' }],
+        bio: 'Reynir Ásgeirsson er framkvæmdastjóri og leiðir lista Miðflokksins í Sveitarfélaginu Hornafirði í sveitarstjórnarkosningunum 2026. Hann sóttist eftir fyrsta sæti í prófkjöri Sjálfstæðisflokksins í mars 2026 en lenti í fjórða sæti og snéri sér í kjölfarið að framboði Miðflokksins.', heimild: [{ url: 'https://kosningasaga.wordpress.com/2026/04/03/frambodslisti-midflokksins-i-svf-hornafirdi/', label: 'kosningasaga' }, { url: 'http://xmhornafjordur.is/', label: 'xmhornafjordur.is' }],
         interests: null,
         social: [
           { type: 'facebook', url: 'https://www.facebook.com/reynir.asgeirsson.5/', label: 'Facebook' },
@@ -8629,20 +8684,19 @@ const HFJ = {
         ],
         news: [{ title: 'Framboðslisti Miðflokksins í Svf. Hornafirði', url: 'https://kosningasaga.wordpress.com/2026/04/03/frambodslisti-midflokksins-i-svf-hornafirdi/', source: 'kosningasaga' }],
       }],
-      [2, 'Stefán Freyr Jónsson', 'Bóndi og slökkviliðsmaður', null, { age: null, bio: 'Stefán Freyr Jónsson er bóndi og slökkviliðsmaður og skipar 2. sæti á lista Miðflokksins í Sveitarfélaginu Hornafirði fyrir sveitarstjórnarkosningarnar 2026, sem er fyrsta framboð flokksins í sveitarfélaginu.', heimild: [{ url: 'https://kosningasaga.wordpress.com/2026/04/03/frambodslisti-midflokksins-i-svf-hornafirdi/', label: 'kosningasaga' }], interests: null, social: null, news: [{ title: 'Framboðslisti Miðflokksins í Svf. Hornafirði', url: 'https://kosningasaga.wordpress.com/2026/04/03/frambodslisti-midflokksins-i-svf-hornafirdi/', source: 'kosningasaga' }] }],
-      [3, 'Herdís Ingólfsdóttir Waage', 'Aðstoðarskólastjóri og kennari', null, { age: null, bio: 'Herdís Ingólfsdóttir Waage er aðstoðarskólameistari og kennari og skipar 3. sæti á lista Miðflokksins í Sveitarfélaginu Hornafirði fyrir sveitarstjórnarkosningarnar 2026.', heimild: [{ url: 'https://kosningasaga.wordpress.com/2026/04/03/frambodslisti-midflokksins-i-svf-hornafirdi/', label: 'kosningasaga' }], interests: null, social: null, news: [{ title: 'Framboðslisti Miðflokksins í Svf. Hornafirði', url: 'https://kosningasaga.wordpress.com/2026/04/03/frambodslisti-midflokksins-i-svf-hornafirdi/', source: 'kosningasaga' }] }],
-      [4, 'Erlingur Ingi Brynjólfsson', 'Verksmiðjustjóri', null, { age: null, bio: 'Erlingur Ingi Brynjólfsson er verksmiðjustjóri hjá Skinney-Þinganesi á Hornafirði og skipar 4. sæti á lista Miðflokksins í Sveitarfélaginu Hornafirði fyrir sveitarstjórnarkosningarnar 2026. Hann hefur tjáð sig opinberlega um raforkuskerðingar á Höfn í tengslum við vinnslu uppsjávarafla.', heimild: [{ url: 'https://kosningasaga.wordpress.com/2026/04/03/frambodslisti-midflokksins-i-svf-hornafirdi/', label: 'kosningasaga' }, { url: 'https://heimildin.is/grein/20223/skinney-thingnes-festir-kaup-a-olikatli/', label: 'heimildin.is' }, { url: 'https://sth.is/starfsmenn/erlingur-brynjolfsson/', label: 'sth.is' }], interests: null, social: null, news: [{ title: 'Framboðslisti Miðflokksins í Svf. Hornafirði', url: 'https://kosningasaga.wordpress.com/2026/04/03/frambodslisti-midflokksins-i-svf-hornafirdi/', source: 'kosningasaga' }] }],
-      [5, 'Valur Pálsson', 'Rekstrarstjóri', null, { age: null, bio: 'Valur Pálsson er verkstjóri á Höfn í Hornafirði og skipar 5. sæti á lista Miðflokksins í Sveitarfélaginu Hornafirði fyrir sveitarstjórnarkosningarnar 2026. Hann var áður á lista Kex-framboðsins en færði sig yfir á lista Miðflokksins í aðdraganda kosninga.', heimild: [{ url: 'https://kosningasaga.wordpress.com/2026/04/03/frambodslisti-midflokksins-i-svf-hornafirdi/', label: 'kosningasaga' }, { url: 'https://kosningasaga.wordpress.com/2026/02/28/frambodslisti-kex-frambods-i-sveitarfelaginu-hornafirdi/', label: 'kosningasaga' }], interests: null, social: null, news: [{ title: 'Framboðslisti Miðflokksins í Svf. Hornafirði', url: 'https://kosningasaga.wordpress.com/2026/04/03/frambodslisti-midflokksins-i-svf-hornafirdi/', source: 'kosningasaga' }] }],
-      [6, 'Hilmar Þór Sigurjónsson', 'Atvinnurekandi og hrossabóndi'],
-      [7, 'Hjörvar Ingi Hauksson', 'Bílvirki'],
-      [8, 'Amor Joy Pepito Mantilla', 'Atvinnurekandi og sjúkraflutningamaður'],
-      [9, 'Atli Arnarsson', 'Atvinnurekandi og pizzubakar'],
-      [10, 'Pálmi Freyr Gunnarsson', 'Flugmaður og bílvirki'],
-      [11, 'Antonía Malmquist Arnórsdóttir', 'Húsmóðir'],
-      [12, 'Magdalena Anna Zazulak', 'Hótelstarfsmaður'],
-      [13, 'Ágúst Már Ágústsson', 'Verkstjóri og varaslökkviliðsstjóri'],
-    
-      [14, 'Ómar Antonsson', 'Frambjóðandi'],
+      [2, 'Stefán Freyr Jónsson', 'Bóndi og slökkviliðsmaður', 'images/candidates/78a334707c958900.jpg', { age: null, bio: 'Stefán Freyr Jónsson er bóndi og slökkviliðsmaður og skipar 2. sæti á lista Miðflokksins í Sveitarfélaginu Hornafirði fyrir sveitarstjórnarkosningarnar 2026, sem er fyrsta framboð flokksins í sveitarfélaginu.', heimild: [{ url: 'https://kosningasaga.wordpress.com/2026/04/03/frambodslisti-midflokksins-i-svf-hornafirdi/', label: 'kosningasaga' }, { url: 'http://xmhornafjordur.is/', label: 'xmhornafjordur.is' }], interests: null, social: null, news: [{ title: 'Framboðslisti Miðflokksins í Svf. Hornafirði', url: 'https://kosningasaga.wordpress.com/2026/04/03/frambodslisti-midflokksins-i-svf-hornafirdi/', source: 'kosningasaga' }] }],
+      [3, 'Herdís Ingólfsdóttir Waage', 'Aðstoðarskólastjóri og kennari', 'images/candidates/accb5580ba78d051.jpg', { age: null, bio: 'Herdís Ingólfsdóttir Waage er aðstoðarskólameistari og kennari við FAS og skipar 3. sæti á lista Miðflokksins í Sveitarfélaginu Hornafirði fyrir sveitarstjórnarkosningarnar 2026.', heimild: [{ url: 'https://kosningasaga.wordpress.com/2026/04/03/frambodslisti-midflokksins-i-svf-hornafirdi/', label: 'kosningasaga' }, { url: 'http://xmhornafjordur.is/', label: 'xmhornafjordur.is' }], interests: null, social: null, news: [{ title: 'Framboðslisti Miðflokksins í Svf. Hornafirði', url: 'https://kosningasaga.wordpress.com/2026/04/03/frambodslisti-midflokksins-i-svf-hornafirdi/', source: 'kosningasaga' }] }],
+      [4, 'Erlingur Ingi Brynjólfsson', 'Verksmiðjustjóri og atvinnurekandi', 'images/candidates/08187f4fd844abef.jpg', { age: null, bio: 'Erlingur Ingi Brynjólfsson er verksmiðjustjóri hjá Skinney-Þinganesi á Hornafirði, viðskiptafræðingur að mennt og atvinnurekandi sem rekur meðal annars gistihús. Hann skipar 4. sæti á lista Miðflokksins í Sveitarfélaginu Hornafirði fyrir sveitarstjórnarkosningarnar 2026 og hefur tjáð sig opinberlega um raforkuskerðingar á Höfn í tengslum við vinnslu uppsjávarafla.', heimild: [{ url: 'https://kosningasaga.wordpress.com/2026/04/03/frambodslisti-midflokksins-i-svf-hornafirdi/', label: 'kosningasaga' }, { url: 'https://heimildin.is/grein/20223/skinney-thingnes-festir-kaup-a-olikatli/', label: 'heimildin.is' }, { url: 'https://sth.is/starfsmenn/erlingur-brynjolfsson/', label: 'sth.is' }, { url: 'http://xmhornafjordur.is/', label: 'xmhornafjordur.is' }], interests: null, social: null, news: [{ title: 'Framboðslisti Miðflokksins í Svf. Hornafirði', url: 'https://kosningasaga.wordpress.com/2026/04/03/frambodslisti-midflokksins-i-svf-hornafirdi/', source: 'kosningasaga' }] }],
+      [5, 'Valur Pálsson', 'Verkstjóri pípulagningar', 'images/candidates/6bcdb75cf8798434.jpg', { age: null, bio: 'Valur Pálsson er verkstjóri pípulagningar á Höfn í Hornafirði og skipar 5. sæti á lista Miðflokksins í Sveitarfélaginu Hornafirði fyrir sveitarstjórnarkosningarnar 2026. Hann var áður á lista Kex-framboðsins en færði sig yfir á lista Miðflokksins í aðdraganda kosninga.', heimild: [{ url: 'https://kosningasaga.wordpress.com/2026/04/03/frambodslisti-midflokksins-i-svf-hornafirdi/', label: 'kosningasaga' }, { url: 'https://kosningasaga.wordpress.com/2026/02/28/frambodslisti-kex-frambods-i-sveitarfelaginu-hornafirdi/', label: 'kosningasaga' }, { url: 'http://xmhornafjordur.is/', label: 'xmhornafjordur.is' }], interests: null, social: null, news: [{ title: 'Framboðslisti Miðflokksins í Svf. Hornafirði', url: 'https://kosningasaga.wordpress.com/2026/04/03/frambodslisti-midflokksins-i-svf-hornafirdi/', source: 'kosningasaga' }] }],
+      [6, 'Hilmar Þór Sigurjónsson', 'Atvinnurekandi og hrossabóndi', 'images/candidates/68c5adc1267925bb.jpg'],
+      [7, 'Hjörvar Ingi Hauksson', 'Atvinnurekandi — gistihús og vélaverktaki', 'images/candidates/2d8b95cbe48a054a.jpg'],
+      [8, 'Amor Joy Pepito Mantilla', 'Atvinnurekandi og sjúkraflutningamaður', 'images/candidates/f0a15854b4809096.jpg'],
+      [9, 'Atli Þór Arnarson', 'Eigandi Íshússins veitingahúss', 'images/candidates/f3212134ddd11bd8.jpg'],
+      [10, 'Pálmi Freyr Gunnarsson', 'Flugmaður hjá Atlantsflugi og bílvirki', 'images/candidates/758253aad8421af7.jpg'],
+      [11, 'Antonía Malmquist Arnórsdóttir', 'Frambjóðandi', 'images/candidates/c83a276435c78cdf.jpg'],
+      [12, 'Magdalena Anna Zazulak', 'Hótelstarfsmaður', 'images/candidates/bd09c859008c3c80.jpg'],
+      [13, 'Ágúst Már Ágústsson', 'Verkstjóri og varaslökkviliðsstjóri', 'images/candidates/c91fd3f17c4022aa.jpg'],
+      [14, 'Ómar Antonsson', 'Atvinnurekandi — Litlahorn ehf.', 'images/candidates/69f945a6fed6a642.jpg'],
     ],
   },
 };
