@@ -3401,7 +3401,7 @@ const MOS = {
       { icon: '🗳️', title: 'Lýðræðisleg þátttaka og gagnsæi', text: 'Aukin þátttaka íbúa í gegnum virkt þátttökulýðræði, opna og gagnsæja stjórnsýslu og faglægt bæjarstjórnunarfyrirkomulag.' },
     ],
     list: [
-      [1,  'Árni Jónsson',                     'Framkvæmdastjóri'],
+      [1,  'Árni Jónsson',                     'Framkvæmdastjóri', 'images/candidates/131549c49f540983.jpg'],
       [2,  'Guðfinna Birta Valgeirsdóttir',     'Markaðsstjóri'],
       [3,  'Michele Rebora',                    'Gæða- og umbótastjóri', 'images/candidates/cb8984aec4cb9343.webp', { age: null, bio: 'Michele Rebora er umbóta- og gæðastjóri og skipar 3. sæti á lista Vina Mosfellsbæjar (L-lista) í sveitarstjórnarkosningunum 2026.', interests: null, social: null, heimild: [{ url: 'https://www.vinirmos.is/', label: 'vinirmos.is' }, { url: 'https://kosningasaga.wordpress.com/2026/04/04/frambodslisti-vina-mosfellsbaejar-2/', label: 'kosningasaga.wordpress.com' }], news: [] }],
       [4,  'Guðrún Elísa Sævarsdóttir',         'Kennari'],
