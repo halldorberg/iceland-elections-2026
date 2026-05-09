@@ -74,7 +74,7 @@ export const RESULTS_2022 = {
       GB: { pct: 20.9, seats: 2 },  // Garðabæjarlistinn
       C:  { pct: 13.3, seats: 1 },
       B:  { pct: 13.1, seats: 1 },
-      M:  { pct: 4.6,  seats: 0 },
+      M:  { pct: 3.67,  seats: 0 },
       // S → "Nýtt framboð"
     },
   },
@@ -337,11 +337,11 @@ export const RESULTS_2022 = {
   nordurping: {
     totalSeats: 9,
     parties: {
-      B:   { pct: 32.8, seats: 3 },  // Framsókn og félagshyggja
-      D:   { pct: 24.8, seats: 2 },
-      NPV: { pct: 17.6, seats: 2 },  // Vinstri grænt framboð og óháðir
-      NPM: { pct: 15.2, seats: 1 },  // Samfélagið
-      S:   { pct: 13.5, seats: 1 },
+      B:   { pct: 31.61, seats: 3 },  // Framsókn og félagshyggja
+      D:   { pct: 23.85, seats: 2 },
+      NPV: { pct: 16.94, seats: 2 },  // Vinstri grænt framboð og óháðir
+      NPM: { pct: 14.61, seats: 1 },  // Samfélagið
+      S:   { pct: 12.99, seats: 1 },
     },
   },
 
@@ -349,8 +349,8 @@ export const RESULTS_2022 = {
   fjallabyggd: {
     totalSeats: 7,
     parties: {
-      S: { pct: 33.7, seats: 3 },  // Jafnaðarfólk og óháðir (S-tengdur)
-      D: { pct: 30.1, seats: 2 },
+      S: { pct: 36.15, seats: 3 },  // Jafnaðarfólk og óháðir (S-tengdur)
+      D: { pct: 32.32, seats: 2 },
       H: { pct: 29.3, seats: 2 },  // Fyrir heildina
     },
   },
@@ -359,8 +359,8 @@ export const RESULTS_2022 = {
   dalvikurbyggd: {
     totalSeats: 7,
     parties: {
-      DVK: { pct: 32.4, seats: 3 },  // K-listi Dalvíkurbyggðar
-      D:   { pct: 24.4, seats: 2 },
+      DVK: { pct: 43.68, seats: 3 },  // K-listi Dalvíkurbyggðar
+      D:   { pct: 32.81, seats: 2 },
       DVA: { pct: 21.9, seats: 2 },  // Framsókn og félagshyggjufólk
       // B → "Nýtt framboð" (separate list in 2026)
     },
@@ -389,8 +389,8 @@ export const RESULTS_2022 = {
   horgarsv: {
     totalSeats: 5,
     parties: {
-      HGG: { pct: 57.0, seats: 3 },  // Gróska (áður J-listinn) — vann meirihluta
-      HGH: { pct: 35.8, seats: 2 },  // H-listi Hörgársveitar
+      HGG: { pct: 61.45, seats: 3 },  // Gróska (áður J-listinn) — vann meirihluta
+      HGH: { pct: 38.55, seats: 2 },  // H-listi Hörgársveitar
       // D → "Nýtt framboð"
     },
   },
@@ -417,8 +417,8 @@ export const RESULTS_2022 = {
   fjardabyggd: {
     totalSeats: 9,
     parties: {
-      D: { pct: 32.1, seats: 4 },
-      B: { pct: 23.7, seats: 3 },
+      D: { pct: 40.61, seats: 4 },
+      B: { pct: 30.0, seats: 3 },
       // Fjarðarlistinn 18.41% 2 seats — not in 2026 partyIds
       // V (VG) 4.81% 0 seats — not in 2026
       // M and S → "Nýtt framboð"
@@ -429,11 +429,11 @@ export const RESULTS_2022 = {
   mulathing: {
     totalSeats: 11,
     parties: {
-      D: { pct: 23.9, seats: 3 },
-      B: { pct: 20.5, seats: 3 },
-      L: { pct: 16.4, seats: 2 },  // Austurlistinn
-      V: { pct: 13.7, seats: 2 },  // Vinstri græn
-      M: { pct: 7.2,  seats: 1 },
+      D: { pct: 29.23, seats: 3 },
+      B: { pct: 25.09, seats: 3 },
+      L: { pct: 20.09, seats: 2 },  // Austurlistinn
+      V: { pct: 16.75, seats: 2 },  // Vinstri græn
+      M: { pct: 8.85,  seats: 1 },
     },
   },
 
@@ -455,9 +455,9 @@ export const RESULTS_2022 = {
   arborg: {
     totalSeats: 11,
     parties: {
-      D: { pct: 35.1, seats: 6 },
-      B: { pct: 14.6, seats: 2 },
-      S: { pct: 11.6, seats: 2 },
+      D: { pct: 46.42, seats: 6 },
+      B: { pct: 19.27, seats: 2 },
+      S: { pct: 15.42, seats: 2 },
       // Áfram Árborg 5.96% 1 seat — not in 2026
       // M 3.77% 0, V 4.50% 0 — not in 2026
       // C → "Nýtt framboð"
@@ -468,8 +468,8 @@ export const RESULTS_2022 = {
   vestmannaeyjar: {
     totalSeats: 9,
     parties: {
-      D: { pct: 35.1, seats: 4 },
-      E: { pct: 16.0, seats: 2 },  // Eyjalistinn
+      D: { pct: 44.13, seats: 4 },
+      E: { pct: 20.17, seats: 2 },  // Eyjalistinn
       // Fyrir Heimaey 28.40% 3 seats — not in 2026 partyIds
       // M → "Nýtt framboð"
     },
@@ -479,9 +479,9 @@ export const RESULTS_2022 = {
   hveragerdi: {
     totalSeats: 7,
     parties: {
-      OKH: { pct: 27.8, seats: 3 },  // Okkar Hveragerði
-      D:   { pct: 23.0, seats: 2 },
-      B:   { pct: 19.3, seats: 2 },
+      OKH: { pct: 39.64, seats: 3 },  // Okkar Hveragerði
+      D:   { pct: 32.82, seats: 2 },
+      B:   { pct: 27.54, seats: 2 },
       // S → "Nýtt framboð"
     },
   },
@@ -490,7 +490,7 @@ export const RESULTS_2022 = {
   olfus: {
     totalSeats: 7,
     parties: {
-      D: { pct: 38.6, seats: 4 },
+      D: { pct: 55.88, seats: 4 },
       // Framfarasinnar (B-tengdur) 21.03% 2 seats — not in 2026
       // Íbúalisti 9.44% 1 seat — not in 2026
       // S → "Nýtt framboð"
@@ -501,9 +501,9 @@ export const RESULTS_2022 = {
   rangarthingeystra: {
     totalSeats: 7,
     parties: {
-      D:   { pct: 38.3, seats: 3 },
-      B:   { pct: 32.8, seats: 3 },
-      NRE: { pct: 19.3, seats: 1 },  // Nýi óháði listinn
+      D:   { pct: 42.36, seats: 3 },
+      B:   { pct: 36.31, seats: 3 },
+      NRE: { pct: 21.33, seats: 1 },  // Nýi óháði listinn
     },
   },
 
@@ -512,7 +512,7 @@ export const RESULTS_2022 = {
     totalSeats: 7,
     parties: {
       RYA: { pct: 50.8, seats: 4 },  // Áhugafólk um sveitarstjórnarmál
-      D:   { pct: 49.6, seats: 3 },
+      D:   { pct: 49.44, seats: 3 },
     },
   },
 
@@ -529,7 +529,7 @@ export const RESULTS_2022 = {
   hrunamannahreppur: {
     totalSeats: 5,
     parties: {
-      D:   { pct: 55.9, seats: 3 },
+      D:   { pct: 56.55, seats: 3 },
       HRL: { pct: 43.0, seats: 2 },  // L-listinn í Hrunamannahreppi
     },
   },
@@ -556,8 +556,8 @@ export const RESULTS_2022 = {
   skeidagnup: {
     totalSeats: 5,
     parties: {
-      SGL: { pct: 52.9, seats: 3 },  // Samvinnulistinn
-      SGE: { pct: 32.7, seats: 1 },  // Uppbygging
+      SGL: { pct: 50.4, seats: 3 },  // Samvinnulistinn
+      SGE: { pct: 31.2, seats: 1 },  // Uppbygging
       // Umhyggja, umhverfi, uppbygging 19.38% 1 seat — not in 2026
     },
   },
