@@ -366,7 +366,8 @@ export const RESULTS_2022 = {
   thingeyjarsveit: {
     totalSeats: 9,
     parties: {
-      THVA: { pct: 54.6, seats: 5 },  // E-listi
+      THVA: { pct: 55.08, seats: 5 },  // ran as E-listi (Íbúalistans) in 2022
+      THVL: { pct: 44.92, seats: 4 },  // ran as K-listi in 2022
       // THVN → "Nýtt framboð"
     },
   },
