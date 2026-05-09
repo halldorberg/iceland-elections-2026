@@ -1,7 +1,7 @@
 import { MUNICIPALITIES } from './data/municipalities.js?v=15';
 import { PARTIES } from './data/parties.js?v=4';
 import { getMunicipalityPartyData } from './data/candidates.js?v=69';
-import { RESULTS_2022 } from './data/results2022.js?v=4';
+import { RESULTS_2022 } from './data/results2022.js?v=5';
 import { POLLS }        from './data/polls.js?v=3';
 import { EYE_POSITIONS } from './data/eye_positions.js?v=1';
 import { CLEAVAGES, STANCE_SMILEYS } from './data/cleavages.js?v=3';

@@ -155,7 +155,6 @@ export const RESULTS_2022 = {
     totalSeats: 7,
     parties: {
       D:   { pct: 39.1, seats: 3 },
-      VOE: { pct: 37.0, seats: 3 },  // Framboðsfélag E-listans
       VOL: { pct: 23.9, seats: 1 },  // Listi fólksins
       // FYRS → "Nýtt framboð"
     },
@@ -231,8 +230,6 @@ export const RESULTS_2022 = {
     parties: {
       B: { pct: 24.4, seats: 2 },
       D: { pct: 24.7, seats: 2 },
-      S: { pct: 46.3, seats: 5, joint: 'Í-lista (S + C + VG + óháðir)' },
-      C: { pct: 46.3, seats: 5, joint: 'Í-lista (S + C + VG + óháðir)' },
       // M → "Nýtt framboð"
     },
   },
@@ -351,7 +348,6 @@ export const RESULTS_2022 = {
     parties: {
       S: { pct: 36.15, seats: 3 },  // Jafnaðarfólk og óháðir (S-tengdur)
       D: { pct: 32.32, seats: 2 },
-      H: { pct: 29.3, seats: 2 },  // Fyrir heildina
     },
   },
 
@@ -371,7 +367,6 @@ export const RESULTS_2022 = {
     totalSeats: 9,
     parties: {
       THVA: { pct: 54.6, seats: 5 },  // E-listi
-      THVL: { pct: 44.6, seats: 4 },  // K-listi
       // THVN → "Nýtt framboð"
     },
   },
@@ -511,7 +506,6 @@ export const RESULTS_2022 = {
   rangarthingytra: {
     totalSeats: 7,
     parties: {
-      RYA: { pct: 50.8, seats: 4 },  // Áhugafólk um sveitarstjórnarmál
       D:   { pct: 49.44, seats: 3 },
     },
   },
@@ -530,7 +524,6 @@ export const RESULTS_2022 = {
     totalSeats: 5,
     parties: {
       D:   { pct: 56.55, seats: 3 },
-      HRL: { pct: 43.0, seats: 2 },  // L-listinn í Hrunamannahreppi
     },
   },
 
@@ -548,7 +541,6 @@ export const RESULTS_2022 = {
     totalSeats: 5,
     parties: {
       FLI: { pct: 66.4, seats: 3 },  // Framfaralistinn
-      FLT: { pct: 33.6, seats: 2 },  // T-listinn í Flóahreppi
     },
   },
 
@@ -567,7 +559,6 @@ export const RESULTS_2022 = {
     totalSeats: 5,
     parties: {
       GGA: { pct: 51.0, seats: 3 },  // E-listinn (Óháðir lýðræðissinnar)
-      GGO: { pct: 49.0, seats: 2 },  // G-listinn (Framboðslisti um framsýni)
     },
   },
 
