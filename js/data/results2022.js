@@ -85,12 +85,11 @@ export const RESULTS_2022 = {
     parties: {
       B: { pct: 32.2, seats: 4 },
       D: { pct: 27.3, seats: 4 },
+      L: { pct: 13.0, seats: 1 },  // Vinir Mosfellsbæjar
       S: { pct: 9.0,  seats: 1 },
       C: { pct: 7.9,  seats: 1 },
       M: { pct: 4.9,  seats: 0 },
-      // L (VG): VG ran as separate list with 5.7%, 0 seats
-      L: { pct: 5.7, seats: 0, note: 'VG keppti sem sjálfstæður listi 2022' },
-      // Vinir Mosfellsbæjar (VG-allied local list) had 13.0%, 1 seat separately
+      // V-listi VG (5.71%, 0 seats) ran in 2022 but is not on the ballot 2026
     },
   },
 
