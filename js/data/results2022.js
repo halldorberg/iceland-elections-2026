@@ -157,6 +157,7 @@ export const RESULTS_2022 = {
       D:   { pct: 39.1, seats: 3 },
       VOL: { pct: 23.9, seats: 1 },  // Listi fólksins
       // FYRS → "Nýtt framboð"
+          VOE: { pct: 37.0, seats: 3 },  // E-listi 2022
     },
   },
 
@@ -346,8 +347,8 @@ export const RESULTS_2022 = {
   fjallabyggd: {
     totalSeats: 7,
     parties: {
-      S: { pct: 36.15, seats: 3 },  // Jafnaðarfólk og óháðir (S-tengdur)
       D: { pct: 32.32, seats: 2 },
+          H: { pct: 31.52, seats: 2 },  // H-listinn 2022
     },
   },
 
@@ -366,8 +367,6 @@ export const RESULTS_2022 = {
   thingeyjarsveit: {
     totalSeats: 9,
     parties: {
-      THVA: { pct: 55.08, seats: 5 },  // ran as E-listi (Íbúalistans) in 2022
-      THVL: { pct: 44.92, seats: 4 },  // ran as K-listi in 2022
       // THVN → "Nýtt framboð"
     },
   },
@@ -376,8 +375,8 @@ export const RESULTS_2022 = {
   eyjafjardarsveit: {
     totalSeats: 7,
     parties: {
-      EJF: { pct: 57.9, seats: 4 },  // F-listi
-      EJK: { pct: 40.3, seats: 3 },  // K-listi
+      EJF: { pct: 58.99, seats: 4 },  // F-listi
+      EJK: { pct: 41.01, seats: 3 },  // K-listi
     },
   },
 
@@ -385,7 +384,6 @@ export const RESULTS_2022 = {
   horgarsv: {
     totalSeats: 5,
     parties: {
-      HGG: { pct: 61.45, seats: 3 },  // Gróska (áður J-listinn) — vann meirihluta
       HGH: { pct: 38.55, seats: 2 },  // H-listi Hörgársveitar
       // D → "Nýtt framboð"
     },
@@ -395,8 +393,6 @@ export const RESULTS_2022 = {
   svalbardsstrond: {
     totalSeats: 5,
     parties: {
-      SVSS: { pct: 52.7, seats: 3 },  // Strandarlistinn
-      SVSH: { pct: 47.3, seats: 2 },  // Ströndungur
       // SVSO → "Nýtt framboð"
     },
   },
@@ -508,6 +504,7 @@ export const RESULTS_2022 = {
     totalSeats: 7,
     parties: {
       D:   { pct: 49.44, seats: 3 },
+          RYA: { pct: 50.56, seats: 4 },  // Á-listinn 2022
     },
   },
 
@@ -525,6 +522,7 @@ export const RESULTS_2022 = {
     totalSeats: 5,
     parties: {
       D:   { pct: 56.55, seats: 3 },
+          HRL: { pct: 43.45, seats: 2 },  // L-listinn 2022
     },
   },
 
@@ -542,6 +540,7 @@ export const RESULTS_2022 = {
     totalSeats: 5,
     parties: {
       FLI: { pct: 66.4, seats: 3 },  // Framfaralistinn
+          FLT: { pct: 33.59, seats: 2 },  // T-listinn 2022
     },
   },
 
@@ -559,7 +558,6 @@ export const RESULTS_2022 = {
   grimsnesgrafningur: {
     totalSeats: 5,
     parties: {
-      GGA: { pct: 51.0, seats: 3 },  // E-listinn (Óháðir lýðræðissinnar)
     },
   },
 
