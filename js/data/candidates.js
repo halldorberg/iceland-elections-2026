@@ -8433,7 +8433,7 @@ const FJD = {
   },
   S: {
     tagline: 'Samfylking og annað félagshyggjufólk — jöfnuður, ábyrgð og uppbygging',
-    platformUrl: 'https://www.visir.is/g/20262872627d/jofnudur-abyrgd-og-uppbygging',
+    platformUrl: 'https://www.fjardalistinn.is/stefnuskra/',
     agenda: [
         { icon: '⚖️', title: 'Jöfnuður, ábyrgð og uppbygging', text: 'Samfylkingin í Fjarðabyggð byggir á þremur kjarnagildum: jöfnuði, ábyrgð og uppbyggingu sem skili sér í betra samfélagi.' },
         { icon: '🏛️', title: 'Festa í rekstri sveitarfélagsins', text: 'Reksturinn á að vera fastur og ákvarðanir eiga að taka mið af heildinni fremur en einstökum loforðum.' },
@@ -10289,7 +10289,7 @@ const MUT = {
   },
   L: {
     tagline: 'Austurlistinn og Viðreisn — framtíðarsýn fyrir Austurland',
-    platformUrl: 'https://austurfrett.is/umraedan/erum-vidh-adh-missa-sjonar-a-thvi-sem-stendur-okkur-naest',
+    platformUrl: 'https://austurlistinn.is/index.php/stefnumal',
     agenda: [
       { icon: '👶', title: 'Þjónusta við börn og ungmenni', text: 'Gefa börnum og ungmennum forgang — bæta geðheilbrigðisþjónustu og tryggja jafnt aðgengi óháð búsetu.' },
       { icon: '🏫', title: 'Menntun og skólasamstarf', text: 'Efla skólasamstarf þvert á sveitarfélög á Austurlandi og tryggja jafna gæðamenntun í öllum hverfum.' },
