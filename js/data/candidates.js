@@ -9548,10 +9548,15 @@ const STK = {
     ],
   },
   IBU: {
-    tagline: 'Íbúalistinn — rödd íbúanna',
-    agenda: [],
-    // [stripped 2026-05-04] no source verifiable; FB: https://www.facebook.com/IbualistinnStykkisholmiogHelgafellssveit
-   
+    tagline: 'Íbúalistinn — fyrst traustur rekstur, síðan vöxtur',
+    platformUrl: 'https://www.facebook.com/IbualistinnStykkisholmiogHelgafellssveit/posts/pfbid02FfRBZSnDzUtBSyGPcwG3WMcSLU8mJP3tBhCKfkRsiWA8VDkurT2EjcaaWwgL2Lqgl',
+    agenda: [
+      { icon: '💰', title: 'Ábyrgur rekstur og skýr forgangsröðun', text: 'Áhersla á traustan rekstur og skýra forgangsröðun verkefna; rekstur fyrst, vöxtur síðan.' },
+      { icon: '🏗️', title: 'Sterkir innviðir og skynsamlegt skipulag', text: 'Uppbygging innviða og skipulagsmála með skynsamlegum og fagleggum vinnubrögðum.' },
+      { icon: '🏛️', title: 'Traust stjórnsýsla og öflugt atvinnulíf', text: 'Traust stjórnsýsla sem er undirstaða öflugs atvinnulífs í sveitarfélaginu.' },
+      { icon: '👨‍👩‍👧', title: 'Fjölskylduvænt samfélag þar sem öll hafa hlutverk', text: 'Fjölskylduvænt samfélag þar sem öll hafa hlutverk og engin er skilin eftir.' },
+    ],
+
     list: [
       [1, 'Sigurður Grétar Jónasson', 'Frambjóðandi', null, {
         age: null,
