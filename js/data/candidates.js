@@ -5373,10 +5373,59 @@ const GRN = {
     ],
   },
   M: {
-    tagline: 'Magnús Már Jakobsson leiðir Miðflokkinn í Grindavík',
-    agenda: [],
-    // [stripped 2026-05-04] no source verifiable; FB: https://www.facebook.com/midflokkurinngrindavik
-   
+    tagline: 'Endurreisn Grindavíkur — Miðflokkurinn í góðri samvinnu',
+    platformUrl: 'https://www.facebook.com/midflokkurinngrindavik',
+    agenda: [
+      {
+        icon: '🏠',
+        title: 'Endurreisn og samvinna við Þórkötlu',
+        text: 'Mikil áhersla lögð á samvinnu við Fasteignafélagið Þórkötlu svo Grindvíkingar eigi möguleika á að koma aftur heim. Við köllum eftir fyrirsjáanleika, breytingum á lögum um fasteignagjöld á eignum Þórkötlu og framlengingu á forkaupsrétti, auk þess að óska eftir að viðhaldi lóða verði sinnt svo bærinn verði meira aðlaðandi.',
+        source_quote: 'Mikil áhersla lögð á samvinnu við Fasteignafélagið Þórkötlu',
+      },
+      {
+        icon: '🏢',
+        title: 'Tryggingar og fjármögnun atvinnulífs',
+        text: 'Tryggingar og fjármögnun á húsnæði ásamt fjárfestingum fyrirtækja þarf að vera trygg.',
+        source_quote: 'Tryggingar og fjármögnun á húsnæði ásamt fjárfestingum fyrirtækja þarf að vera trygg',
+      },
+      {
+        icon: '⚡',
+        title: 'Tryggja afhendingu á rafmagni',
+        text: 'Við þurfum að tryggja afhendingu á rafmagni með hringtengingu við Reykjanesvirkjun.',
+        source_quote: 'tryggja afhendingu á rafmagni með hringtengingu við Reykjanesvirkjun',
+      },
+      {
+        icon: '🎓',
+        title: 'Skólar, leikskólar og frístundir',
+        text: 'Halda áfram stefnu núverandi bæjarstjórnar um að opna skóla og leikskóla á þessu ári með öryggi í fyrirrúmi. 50% afsláttur af leikskólagjöldum á fyrsta ári fyrir foreldra sem flytja heim, og frístundastyrkur fyrir börnin auk áframhaldandi styrkveitinga til íþróttastarfs.',
+        source_quote: 'opna skóla og leikskóla á þessu ári með öryggi í fyrirrúmi',
+      },
+      {
+        icon: '🅿️',
+        title: 'Ferðaþjónusta, bílastæði og Hópið',
+        text: 'Uppbygging bílastæða á vinsælum stoppistöðum ferðamanna og innheimta bílastæðagjalda. Hópið nýtt sem sýning fyrir ferðamenn sem vilja skoða sprunguna, með möguleika á að gera það að safni sem segir sögu skjálftanna og eldgosanna.',
+        source_quote: 'Uppbygging bílastæða á vinsælum stoppistöðum ferðamanna',
+      },
+      {
+        icon: '💰',
+        title: 'Öruggari og ábyrgari fjármálastjórn',
+        text: 'Bætur frá NTÍ verði nýttar til fjárfestinga sem bæta þjónustu við bæjarbúa, ekki í rekstur. Tryggja örugga eftirfylgd og eftirlit með nýframkvæmdum bæjarins svo mistök endurtaki sig ekki eftir hamfarirnar.',
+        source_quote: 'Öruggari og ábyrgari fjármálastjórn',
+      },
+      {
+        icon: '🚸',
+        title: 'Víkurbraut sem einstefnugata og göngugata',
+        text: 'Viljum gera Víkurbrautina að einstefnugötu en hún verði líka göngugata.',
+        source_quote: 'gera Víkurbrautina að einstefnugötu',
+      },
+      {
+        icon: '👨‍👩‍👧',
+        title: 'Fjölskylduviðburðir og leiksvæði',
+        text: 'Auka við fjölskylduviðburði í bænum, gera endurbætur á leikvelli við Ásabraut fyrir yngstu börnin og koma upp þrautabraut í Selskógi á svipuðum nótum og þeirri í Njarðvíkurskógum.',
+        source_quote: 'endurbætur á leikvelli við Ásabraut',
+      },
+    ],
+
     list: [
       [1, 'Magnús Már Jakobsson', 'Frambjóðandi', null, {
         age: null,

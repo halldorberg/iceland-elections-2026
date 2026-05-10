@@ -35,6 +35,12 @@ TAGLINE_RE     = re.compile(r"^\s+tagline:\s*'((?:[^'\\]|\\.)+)'")
 AGENDA_START   = re.compile(r'^\s+agenda:\s*\[')
 AGENDA_END     = re.compile(r'^\s{4}\],?\s*$')
 AGENDA_ITEM_RE = re.compile(r"^\s+\{\s*icon:\s*'[^']*',\s*title:\s*'((?:[^'\\]|\\.)+)',\s*text:\s*'((?:[^'\\]|\\.)+)'")
+# multi-line variant: title: and text: on their own lines inside an agenda item
+AGENDA_TITLE_RE = re.compile(r"^\s+title:\s*'((?:[^'\\]|\\.)+)'")
+AGENDA_TEXT_RE  = re.compile(r"^\s+text:\s*'((?:[^'\\]|\\.)+)'")
+# opening brace line of a multi-line agenda entry: matches "{" alone or
+# lines like "      { icon: '...'," where title/text are on subsequent lines
+AGENDA_ITEM_OPEN_RE = re.compile(r"^\s+\{(?:\s*icon:\s*'[^']*',?)?\s*$")
 LIST_START_RE  = re.compile(r'^\s+list:\s*\[')
 LIST_END_RE    = re.compile(r'^    \],?\s*$')
 CAND_TUPLE_RE  = re.compile(r"^\s{6,8}\[(\d+),\s*'([^']+)',\s*'((?:[^'\\]|\\.)+)'")
@@ -127,11 +133,24 @@ def extract(content):
             if AGENDA_END.match(line):
                 in_agenda = False
                 continue
+            # single-line item: { icon: '..', title: '..', text: '..' }
             m = AGENDA_ITEM_RE.match(line)
             if m:
                 strings[f"{pfx}.agenda.{agenda_idx}.title"] = unescape(m.group(1))
                 strings[f"{pfx}.agenda.{agenda_idx}.text"]  = unescape(m.group(2))
                 agenda_idx += 1
+                continue
+            # multi-line item: title and text appear on their own lines
+            mt = AGENDA_TITLE_RE.match(line)
+            if mt:
+                strings[f"{pfx}.agenda.{agenda_idx}.title"] = unescape(mt.group(1))
+                continue
+            mx = AGENDA_TEXT_RE.match(line)
+            if mx:
+                strings[f"{pfx}.agenda.{agenda_idx}.text"] = unescape(mx.group(1))
+                # text typically comes after title; advance index after we have text
+                agenda_idx += 1
+                continue
             continue
 
         # ── List section ─────────────────────────────────────────────────
