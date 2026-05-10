@@ -7095,10 +7095,53 @@ const FHR = {
     ],
   },
   FLT: {
-    tagline: 'T-listinn Flóa — samvinna og framfarir',
-    agenda: [],
-    // [stripped 2026-05-04] no source verifiable; no FB page found in 2026-05-04 sweep
-   
+    tagline: 'Sveitarfélagið okkar allra — T-listinn í Flóahreppi',
+    platformUrl: 'https://issuu.com/almar/docs/t_listinn_b_klingur_8_si_ur',
+    agenda: [
+      {
+        icon: '🌾',
+        title: 'Atvinna og landbúnaður',
+        text: 'Halda Flóahreppi áfram á sömu braut og hlúa að einyrkja- og fjölskyldubúskap, ferðaþjónustu, iðnaði, listum og fjarvinnu. Tryggja að iðnaðarhverfið í Heiðargerði verði án lyktarmengunar og vel hirt.',
+        source_quote: 'Atvinna í Flóahreppi byggist að stórum hluta upp á einyrkjabúskap',
+      },
+      {
+        icon: '🎓',
+        title: 'Skóla- og æskulýðsmál',
+        text: 'Hlúa vel að leik- og grunnskóla með sköpun að leiðarljósi og mæta þörfum foreldra vegna vistunar barna. Efla starf Ungmennafélagsins Þjótanda í leikja- og íþróttastarfi.',
+        source_quote: 'Mikilvægt er að hlúa vel að leik- og grunnskóla',
+      },
+      {
+        icon: '🤸',
+        title: 'Tómstundafulltrúi og frístundastarf',
+        text: 'Ráða tómstundafulltrúa í hlutastarf fyrir viðburði og tómstundastörf ungmenna og eldri borgara. Hvatagreiðslur fyrir börn 5–18 ára til heilsueflingar, skapandi starfa og tómstunda.',
+        source_quote: 'T-listinn mælist til þess að ráðinn verði tómstundafulltrúi',
+      },
+      {
+        icon: '🚧',
+        title: 'Umferðaröryggi og samgöngur',
+        text: 'Núverandi ástand vega í Flóahreppi er óboðlegt og afleggjarar illa merktir. Þrýsta markvisst á Vegagerðina um úrbætur og tryggja að umferð landbúnaðartækja fái pláss við breikkun þjóðvegar 1.',
+        source_quote: 'Núverandi ástand vega í Flóahreppi er með öllu óþætt',
+      },
+      {
+        icon: '❤️',
+        title: 'Heilsueflandi samfélag og eldri borgarar',
+        text: 'Hlúa að heilsu og líðan allra íbúa við stefnumótun og styrkja þjónustu í þágu eldri borgara svo fólk geti búið sem lengst í eigin heimkynnum. Nýta félagsheimili sem vettvang fyrir virkni og félagslega samveru.',
+        source_quote: 'T-listinn leggur áherslu á að heilsa og líðan allra íbúa Flóahrepps sé höfð í fyrirrúmi',
+      },
+      {
+        icon: '🌿',
+        title: 'Umhverfi og náttúruvernd',
+        text: 'Gera úrbætur þar sem skortur er á umgengni og umhirðu, efla sorpflokkun og minnka úrgang. Verja vistkerfi og náttúruminjar í aðalskipulagi og öllum framkvæmdum í sveitarfélaginu.',
+        source_quote: 'Ásýnd sveitarfélagsins er andlit þess útávið',
+      },
+      {
+        icon: '🏛️',
+        title: 'Stjórnsýsla og sjálfstæður Flóahreppur',
+        text: 'Lýðræðisleg, opin og gagnsæ stjórnsýsla með opnum íbúafundum a.m.k. tvisvar á ári og auglýstu starfi sveitarstjóra. T-listinn stendur fyrir sjálfstæði sveitarfélagsins, sem er í örum vexti með íbúafjölda á leið yfir þúsund.',
+        source_quote: 'T-listinn stendur fyrir sjálfstæði sveitarfélagsins',
+      },
+    ],
+
     list: [
       [1, 'Almar Sigurðsson', 'Ferðaþjónustubóndi', null, {
         age: null,
