@@ -3207,7 +3207,7 @@ const MOS = {
     list: [
       [1, 'Sveinn Óskar Sigurðsson', 'Viðskipta- og hagfræðingur', 'images/candidates/94991fdc8b49d4c6.jpg', {
         age: 57,
-        bio: 'Sveinn Óskar Sigurðsson er fæddur 27. júlí 1968 í Selfossi. Hann er hagfræðingur og heimspekingur með BA-gráðu frá Háskóla Íslands, MBA og MSc í fjármálum frá sama skóla, og dvaldi við Pekingháskóla 1996–1997 sem blaðamaður Morgunblaðsins í Kína. Hann er heiðurúlfhildur og rekur lítið ráðgjafar- og fasteignamatsfélag. Hann er bæjarfulltrúi Miðflokksins í Mosfellsbæ frá 2018 og leiðir M-listann í sveitarstjórnarkosningum 2026.',
+        bio: 'Sveinn Óskar Sigurðsson er fæddur 27. júlí 1968 í Selfossi. Hann er hagfræðingur og heimspekingur með BA-gráðu frá Háskóla Íslands, MBA og MSc í fjármálum frá sama skóla, og dvaldi við Pekingháskóla 1996–1997 sem blaðamaður Morgunblaðsins í Kína. Hann rekur lítið fjölskyldufyrirtæki sem sinnir ráðgjafarstörfum og gerð eignaskiptayfirlýsinga. Hann er bæjarfulltrúi Miðflokksins í Mosfellsbæ frá 2018 og leiðir M-listann í sveitarstjórnarkosningum 2026.',
         heimild: [{ url: 'https://is.wikipedia.org/wiki/Sveinn_%C3%93skar_Sigur%C3%B0sson', label: 'Wikipedia' }, { url: 'https://mosfellingur.is/thad-er-af-morgu-ad-taka/', label: 'Mosfellingur' }],
         interests: ['Börn og barnafólk í fyrirrúmi', 'Velferð og þjónusta við þá sem þurfa', 'Skipulag og samgöngumál (Sundabraut)', 'Ábyrg fjármálastjórnun', 'Umhverfisvernd'],
         social: [
@@ -9686,9 +9686,58 @@ const GFJ = {
 const BLV = {
   MMM: {
     tagline: 'Máttur meyja og manna — saman erum við sterk',
-    agenda: [],
-    // [stripped 2026-05-04] no source verifiable; no FB page found in 2026-05-04 sweep
-   
+    platformUrl: 'https://www.klistinn.is/%C3%ADslenska',
+    agenda: [
+      {
+        icon: '💼',
+        title: 'Atvinnumál',
+        text: 'Styðja við atvinnuuppbyggingu og deiliskipuleggja fleiri lóðir fyrir fjölbreytta atvinnustarfsemi. Þróa áfram sumarvinnu ungmenna í samvinnu við atvinnulíf bæjarins.',
+        source_quote: 'Styðja við alla atvinnuuppbyggingu og deiliskipuleggja fleiri lóðir',
+      },
+      {
+        icon: '⚓',
+        title: 'Hafnarmál',
+        text: 'Fylgja eftir tillögum úr skýrslunni „Ný framtíðarsýn fyrir Bolungarvíkurhöfn". Fjölga viðleguplássum við hafnarkanta og endurnýja og lengja flotbryggjur.',
+        source_quote: 'Ný framtíðarsýn fyrir Bolungarvíkurhöfn',
+      },
+      {
+        icon: '🎓',
+        title: 'Fræðslu-, íþrótta- og æskulýðsstarf',
+        text: 'Hækka frístundastyrk úr 40.000 í 60.000 á ári og tryggja börnum leikskólapláss frá eins árs aldri. Endurnýja leiktæki á lóð grunnskólans og klæða skólann að utan.',
+        source_quote: 'Frístundastyrkur verði hækkaður úr 40.000 í 60.000 á ári',
+      },
+      {
+        icon: '❤️',
+        title: 'Velferðarmál',
+        text: 'Tryggja betra aðgengi hreyfihamlaðra að stofnunum sveitarfélagsins. Útbúa stefnu í málefnum eldri borgara sem styður að fólk geti búið lengur heima.',
+        source_quote: 'Útbúa stefnu í málefnum eldri borgara sem styður að fólk geti búið lengur heima',
+      },
+      {
+        icon: '🌿',
+        title: 'Umhverfismál',
+        text: 'Efla umferðaröryggi með umferðaröryggisáætlun og að sveitarfélagið verði fordæmisgefandi í snyrtimennsku og umhirðu grænna svæða. Setja sorpmálin á oddinn — bæta flokkun og draga úr urðun.',
+        source_quote: 'Setja sorpmálin á oddinn',
+      },
+      {
+        icon: '🏠',
+        title: 'Íbúar Bolungarvíkur og innviðir',
+        text: 'Hlutast til um frekari uppbyggingu óhagnaðardrifins leiguhúsnæðis og efla samþættingu fjölmenningarsamfélagsins. Vinna markvisst að auknu raforkuöryggi á Vestfjörðum og þrýsta á Vegagerðina vegna Syðridalsvegar og Skálavíkurvegar.',
+        source_quote: 'Hlutast til um að frekari uppbygging óhagnaðardrifins leiguhúsnæðis',
+      },
+      {
+        icon: '🎭',
+        title: 'Menningarmál og ferðaþjónusta',
+        text: 'Byggja upp þjónustuaðstöðu bæði í Ósvör, á Bolafjalli eða á Skálavíkurheiði. Bæta þjónustu við ferðamenn með upplýsingaskiltum, QR-kóðum og móttökuplani.',
+        source_quote: 'Byggja upp þjónustuaðstöðu bæði í Ósvör, á Bolafjalli eða á Skálavíkurheiði',
+      },
+      {
+        icon: '🏛️',
+        title: 'Stjórnsýsla og fjármál',
+        text: 'Halda reglulega íbúafundi svo íbúar séu upplýstir um málefni sveitarfélagsins. Ábyrg fjármálastjórnun með gegnsæi að leiðarljósi og halda aftur af hækkunum á fasteignaskatti á íbúðarhúsnæði.',
+        source_quote: 'Ábyrg fjármálastjórnun með gegnsæi að leiðarljósi',
+      },
+    ],
+
     list: [
       [1, 'Guðfinnur Ragnar Jóhannsson', 'Frambjóðandi'],
       [2, 'Magnús Ingi Jónsson', 'Frambjóðandi'],
