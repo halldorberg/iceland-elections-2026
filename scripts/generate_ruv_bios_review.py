@@ -237,6 +237,7 @@ def render():
         '    <span id="confidence-chip" title="Tölfræðilegt öryggi miðað við slembiúrtak (p=0.5, ±5 prósentustig vikmörk, með leiðréttingu fyrir endanlegt þýði)">Öryggi <strong id="confidence-pct">—</strong> við ±5%</span>'
         '  </div>'
         '  <button id="randomize-btn" onclick="randomizeNext()">🎲 Næsta tilviljana­valda kort</button>'
+        '  <button id="clearall-btn" onclick="clearAllApprovals()" title="Núllstilla allar samþykktir á þessu tæki" style="background:transparent;color:var(--muted);border:1px solid var(--border);border-radius:8px;padding:8px 14px;font-size:12px;cursor:pointer;font-family:inherit;margin-left:8px;">🧹 Hreinsa allar</button>'
         '</div>'
         '<div class="toc"><h3>Sveitarfélög</h3>'
         + ' '.join(toc_links)
@@ -263,6 +264,7 @@ def render():
         'function toggleApprove(btn){const rid=btn.getAttribute("data-rid");if(APPROVED.has(rid)){APPROVED.delete(rid);}else{APPROVED.add(rid);}saveApproved(APPROVED);document.querySelectorAll(`.card[data-rid="${rid}"]`).forEach(applyState);updateCount();}'
         'function hydrate(){document.querySelectorAll(".card[data-rid]").forEach(applyState);updateCount();}'
         'function randomizeNext(){const all=[...document.querySelectorAll(".card[data-rid]")];const pool=all.filter(c=>!APPROVED.has(c.getAttribute("data-rid")));if(pool.length===0){alert("Allir frambjóðendur hafa verið samþykktir!");return;}const pick=pool[Math.floor(Math.random()*pool.length)];document.querySelectorAll(".card.flash").forEach(c=>c.classList.remove("flash"));pick.scrollIntoView({behavior:"smooth",block:"start"});setTimeout(()=>pick.classList.add("flash"),200);}'
+        'function clearAllApprovals(){const n=APPROVED.size;if(n===0){alert("Engar samþykktir til að hreinsa.");return;}if(!confirm(`Núllstilla allar ${n} samþykktir? Þetta verður ekki afturkallað.`))return;APPROVED=new Set();saveApproved(APPROVED);document.querySelectorAll(".card[data-rid]").forEach(applyState);updateCount();}'
         'document.addEventListener("DOMContentLoaded",hydrate);'
         'if(document.readyState!=="loading")hydrate();'
         '</script></body></html>'
