@@ -5308,10 +5308,53 @@ const VOG = {
 
 const GRN = {
   B: {
-    tagline: 'Ásrún Helga Kristinsdóttir leiðir Framsókn í Grindavík',
-    agenda: [],
-    // [stripped 2026-05-04] no source verifiable; FB: https://www.facebook.com/profile.php?id=61587731223589
-   
+    tagline: 'Framsókn í Grindavík — traust undirstaða fyrir framtíðina',
+    platformUrl: 'https://www.facebook.com/profile.php?id=61587731223589',
+    agenda: [
+      {
+        icon: '🏛️',
+        title: 'Traust undirstaða fyrir það sem framundan er',
+        text: 'Fagleg og ábyrg stjórnsýsla sem leggur grunn að stöðugleika og farsælli uppbyggingu. Tryggja áframhaldandi ábyrgan rekstur, ráða bæjarstjóra í opnu og faglegu ferli og móta skýra og sameiginlega framtíðarsýn fyrir Grindavík.',
+        source_quote: 'Fagleg og ábyrg stjórnsýsla sem leggur grunn að stöðugleika og farsælli uppbyggingu',
+      },
+      {
+        icon: '🛡️',
+        title: 'Öryggi í forgrunni',
+        text: 'Traustir innviðir og skýr forgangsröðun sem tryggir öryggi íbúa og atvinnulífs. Tryggja raforkuöryggi, efla samstarf við ríkisstofnanir með hag Grindvíkinga að leiðarljósi og viðhafa virkt og gagnsætt samráð um öryggismál.',
+        source_quote: 'Traustir innviðir og skýr forgangsröðun sem tryggir öryggi íbúa og atvinnulífs',
+      },
+      {
+        icon: '📈',
+        title: 'Tækifæri til vaxtar',
+        text: 'Sterkt atvinnulíf sem byggir á auðlindum, þekkingu og krafti Grindvíkinga. Styrkja ímynd Grindavíkur með markvissri kynningu, efla hafnarsvæðið og gera sjálfbærni að leiðarljósi í uppbyggingu bæjarins.',
+        source_quote: 'Sterkt atvinnulíf sem byggir á auðlindum, þekkingu og krafti Grindvíkinga',
+      },
+      {
+        icon: '🗺️',
+        title: 'Skipulag í takt við samfélagið',
+        text: 'Skipulag sem tekur mið af aðstæðum, náttúru og þörfum Grindvíkinga. Endurskoða aðalskipulag í samráði við íbúa, endurreisa innviði með þarfir samfélagsins að leiðarljósi og vernda og þróa hverfi bæjarins með virðingu fyrir sögu og sérstöðu.',
+        source_quote: 'Skipulag sem tekur mið af aðstæðum, náttúru og þörfum Grindvíkinga',
+      },
+      {
+        icon: '🌱',
+        title: 'Umhverfi sem gleður',
+        text: 'Hreint og vel skipulagt umhverfi þar sem náttúra og mannlíf fara saman. Græða sárin og bæta ásýnd bæjarins, byggja upp ferðaþjónustu í samráði við íbúa og styrkja geitina sem sameiningartákn og leiðarvísi.',
+        source_quote: 'Hreint og vel skipulagt umhverfi þar sem náttúra og mannlíf fara saman',
+      },
+      {
+        icon: '🎭',
+        title: 'Hjartað slær í menningu og leik',
+        text: 'Líflegt samfélag þar sem sköpun, samvera og kraftur íbúa fá að njóta sín. Varðveita og miðla sögu Grindavíkur, skapa vettvang fyrir skapandi verkefni og viðburði og styðja við menningu sem sameinar samfélagið.',
+        source_quote: 'Líflegt samfélag þar sem sköpun, samvera og kraftur íbúa fá að njóta sín',
+      },
+      {
+        icon: '❤️',
+        title: 'Heilsa nær og fjær',
+        text: 'Aðgengileg og öflug þjónusta sem styður Grindvíkinga hvar sem þeir eru staddir. Byggja upp öfluga velferðarþjónustu, tryggja áframhaldandi sálrænan stuðning og styðja endurreisn sem eflir samfélagslega velferð.',
+        source_quote: 'Aðgengileg og öflug þjónusta sem styður Grindvíkinga hvar sem þeir eru staddir',
+      },
+    ],
+
     list: [
       [1, 'Ásrún Helga Kristinsdóttir', 'Kennari og forseti bæjarstjórnar', 'images/candidates/36943f07fcbe04d6.webp', {
         age: null,
