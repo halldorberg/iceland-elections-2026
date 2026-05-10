@@ -5341,10 +5341,59 @@ const GRN = {
     ],
   },
   D: {
-    tagline: 'Guðbjörg Eyjólfsdóttir leiðir Sjálfstæðisflokkinn í Grindavík',
-    agenda: [],
-    // [stripped 2026-05-04] no source verifiable; no FB page found in 2026-05-04 sweep
-   
+    tagline: 'Sjálfstæðisflokkurinn í Grindavík — fyrir framtíðina',
+    platformUrl: 'https://www.facebook.com/profile.php?id=61581061679158',
+    agenda: [
+      {
+        icon: '🛡️',
+        title: 'Öryggi íbúa',
+        text: 'Öryggi Grindvíkinga þarf alltaf að vera í fyrsta sæti. Almannavarnanefnd hafi svigrúm til að ráða sérfræðinga sem vinni lifandi áhættumat fyrir bæinn, og slökkvilið Grindavíkur haldi áfram bolmagni, mannskap og búnaði til að sinna sínu hlutverki.',
+        source_quote: 'Öryggi Grindvíkinga þarf alltaf að vera í fyrsta sæti',
+      },
+      {
+        icon: '💰',
+        title: 'Ábyrg fjármálastjórn',
+        text: 'Næsta kjörtímabil verður krefjandi í rekstri sveitarfélagsins. Gæta vel að fjármunum bæjarins, forgangsraða skynsamlega og sækja þann stuðning úr sjóðum hins opinbera sem ber á meðan Grindavík er í endurreisn.',
+        source_quote: 'Ábyrg fjármálastjórn er grunnurinn að því að bærinn geti veitt góða þjónustu',
+      },
+      {
+        icon: '🏠',
+        title: 'Húsnæðismál',
+        text: 'Nýta þá innviði og húsnæði sem þegar eru til staðar í bænum, m.a. með útleigu á því húsnæði sem bærinn á aftur í notkun. Fá skýrari svör frá Þórkötlu um framtíð fasteigna í bænum og bjóða Grindvíkingum fleiri en eina leið í húsnæðismálum.',
+        source_quote: 'Grindvíkingar þurfa að geta skipulagt líf sitt',
+      },
+      {
+        icon: '🧾',
+        title: 'Fasteignagjöld',
+        text: 'Fasteignaskattur er ein öruggasta tekjulind sveitarfélaga. Skoða þarf leiðir gagnvart húsnæði í eigu Þórkötlu, sem er undanþegið fasteignaskatti samkvæmt lögum frá Alþingi — annaðhvort finna sanngjarna leið til gjaldtöku eða tryggja sveitarfélaginu bætur á móti frá ríkinu.',
+        source_quote: 'Fasteignaskattur er ein öruggasta tekjulind sveitarfélaga',
+      },
+      {
+        icon: '📢',
+        title: 'Betri upplýsingagjöf',
+        text: 'Íbúar hafa kallað skýrt eftir betri upplýsingum frá bænum. Upplýsingagjöf á að vera skýrari, reglulegri og aðgengilegri, og bæta þarf samtalið við íbúa svo fólk viti betur hvað er að gerast og af hverju ákvarðanir eru teknar.',
+        source_quote: 'Íbúar hafa kallað skýrt eftir betri upplýsingum frá bænum',
+      },
+      {
+        icon: '♿',
+        title: 'Þjónusta við fólk með fötlun',
+        text: 'Grindavík sé samfélag fyrir alla. Standa vörð um þá þjónustu sem fyrir er og vinna að því að bæta aðgengi, stuðning og félagslega þátttöku, og hlusta betur á þarfir fólks með fötlun og aðstandenda þeirra.',
+        source_quote: 'Grindavík sé samfélag fyrir alla',
+      },
+      {
+        icon: '👵',
+        title: 'Eldri borgarar',
+        text: 'Efla þjónustu og félagsstarf fyrir eldri borgara í Grindavík — m.a. garðsláttur og umhirða á góðu verði, hádegismatur á góðu verði, afsláttur eða inneign á veitingastöðum og reglulegir viðburðir yfir daginn.',
+        source_quote: 'Efla þjónustu og félagsstarf fyrir eldri borgara',
+      },
+      {
+        icon: '🎓',
+        title: 'Skóla- og leikskólamál',
+        text: 'Skóla- og leikskólahald í Grindavík í haust verður gert af metnaði, ábyrgð og með hagsmuni barna og fjölskyldna í fyrsta sæti. Halda áfram að byggja upp og bæta umhverfið í kringum skólana, m.a. með því að bæta skólalóðina við Ásabraut.',
+        source_quote: 'skóla- og leikskólahald í Grindavík í haust',
+      },
+    ],
+
     list: [
       [1, 'Guðbjörg Eyjólfsdóttir', 'Innheimtufulltrúi', 'images/candidates/b7a4f0d89e7404de.jpg', {
         age: null,
