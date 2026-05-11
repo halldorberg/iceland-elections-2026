@@ -5,7 +5,7 @@ import { RESULTS_2022 } from './data/results2022.js?v=7';
 import { POLLS }        from './data/polls.js?v=3';
 import { EYE_POSITIONS } from './data/eye_positions.js?v=1';
 import { CLEAVAGES, STANCE_SMILEYS } from './data/cleavages.js?v=3';
-import { getLang, t, renderLangSwitcher } from './i18n.js?v=6';
+import { getLang, t, renderLangSwitcher, MUNI_DATIVE_IS } from './i18n.js?v=8';
 import { partySlug, partyCodeFromSlug, slugify } from './data/party_slugs.js?v=2';
 
 // ─── i18n ──────────────────────────────────────────────────
@@ -953,15 +953,180 @@ function buildSplashHTML(party, data) {
     </div>`;
 }
 
+// Localised muni name for natural-language titles. Icelandic uses the
+// dative form after "í"; English/Polish leave the name as-is.
+function _muniLocative(m) {
+  if (lang === 'is') return MUNI_DATIVE_IS[m.id] || m.name;
+  return m.name;
+}
+
+// ─── Cleavage compare modal — open/close wiring ────────────
+// Build the modal lazily on click, append it to <body> so it escapes
+// any stacking contexts created by .party-ribbon / .ribbon-content,
+// then remove it on close. Avoids duplicate-overlay issues when the
+// user switches parties (each party-splash re-render).
+function _openCleavageCompare(partyCode) {
+  _closeCleavageCompare(); // wipe any prior instance
+  const fakeData = { municipalityId: muni.id, partyCode };
+  const html = buildCleavageCompareModalHTML(fakeData);
+  if (!html) return;
+  const wrap = document.createElement('div');
+  wrap.innerHTML = html;
+  const ov = wrap.firstElementChild;
+  document.body.appendChild(ov);
+  requestAnimationFrame(() => {
+    ov.classList.add('is-open');
+    _bindCompareScrollState(ov);
+  });
+  document.body.style.overflow = 'hidden';
+}
+
+// Edge-fade gradients + sticky-column shadow are toggled via a
+// data-scroll-state attribute that reflects whether the user is at the
+// start, middle, or end of horizontal scroll. Three states avoid
+// flashing transitions when the table fits without scrolling.
+function _bindCompareScrollState(ov) {
+  const scroller = ov.querySelector('.cleavage-compare-scroll');
+  if (!scroller) return;
+  const update = () => {
+    const max = scroller.scrollWidth - scroller.clientWidth;
+    if (max <= 1) { scroller.dataset.scrollState = 'none'; return; }
+    if (scroller.scrollLeft <= 1) scroller.dataset.scrollState = 'start';
+    else if (scroller.scrollLeft >= max - 1) scroller.dataset.scrollState = 'end';
+    else scroller.dataset.scrollState = 'mid';
+  };
+  scroller.addEventListener('scroll', update, { passive: true });
+  // Initial state: defer one frame so layout has settled
+  requestAnimationFrame(update);
+}
+function _closeCleavageCompare() {
+  const ov = document.getElementById('cleavage-compare-overlay');
+  if (ov) ov.remove();
+  document.body.style.overflow = '';
+}
+document.addEventListener('click', (ev) => {
+  const btn = ev.target.closest('[data-cleavages-compare]');
+  if (btn) {
+    ev.preventDefault();
+    _openCleavageCompare(btn.dataset.partyCode);
+    return;
+  }
+  if (ev.target.closest('#cleavage-compare-close')) {
+    _closeCleavageCompare();
+    return;
+  }
+  const ov = ev.target.closest('#cleavage-compare-overlay');
+  if (ov && ev.target === ov) _closeCleavageCompare();
+});
+document.addEventListener('keydown', (ev) => {
+  if (ev.key === 'Escape') _closeCleavageCompare();
+});
+
 // Source link rendered below the cleavages carousel — points readers at
 // the upstream RÚV kosningapróf so they can verify the party stances.
+// The "compare all parties" button sits next to it because that's the
+// natural place: same data, same source.
 function buildCleavagesSourceHTML(data) {
   if (!CLEAVAGES[data.municipalityId]) return '';
-  return `<div class="agenda-source">
+  return `<div class="agenda-source cleavages-source">
     <svg width="11" height="11" viewBox="0 0 12 12" fill="none">
       <path d="M5 2H2a1 1 0 00-1 1v7a1 1 0 001 1h7a1 1 0 001-1V7M8 1h3m0 0v3m0-3L5 7" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
     </svg>
     <a href="https://kosningaprof.ruv.is/" target="_blank" rel="noopener noreferrer">${ui.platformSource('kosningaprof.ruv.is')}</a>
+    <button type="button" class="cleavages-compare-btn"
+            data-cleavages-compare data-party-code="${escapeHtml(data.partyCode)}"
+            aria-label="${escapeHtml(ui.cleavagesCompareCTA)}">
+      <svg width="11" height="11" viewBox="0 0 12 12" fill="none" aria-hidden="true">
+        <rect x="1.5" y="1.5" width="9" height="9" rx="1" stroke="currentColor" stroke-width="1.2"/>
+        <path d="M6 1.5v9M1.5 6h9" stroke="currentColor" stroke-width="1.2"/>
+      </svg>
+      <span>${escapeHtml(ui.cleavagesCompareCTA)}</span>
+    </button>
+  </div>`;
+}
+
+// Comparison table modal — shows every party in this muni × every
+// cleavage topic, as a sticky-first-column / horizontal-scroll table.
+// Data source is identical to the carousel: CLEAVAGES[muniId].
+function buildCleavageCompareModalHTML(data) {
+  const list = CLEAVAGES[data.municipalityId];
+  if (!list || !list.length) return '';
+  const currentCode = data.partyCode;
+
+  // Party codes that actually appear in this muni's cleavages (intersect
+  // with PARTIES so we have colours + names). Order: current party first,
+  // then by ballot letter.
+  const stanceCodes = new Set();
+  list.forEach(t => Object.keys(t.stances).forEach(c => stanceCodes.add(c)));
+  const codes = [...stanceCodes]
+    .filter(c => PARTIES[c] || muni.partyIds.includes(c))
+    .sort();
+  if (currentCode && codes.includes(currentCode)) {
+    codes.splice(codes.indexOf(currentCode), 1);
+    codes.unshift(currentCode);
+  }
+
+  const stanceLabels = { A: ui.stanceA, B: ui.stanceB, C: ui.stanceC, D: ui.stanceD };
+
+  // Header row
+  const headerCells = codes.map(code => {
+    const p = PARTIES[code] || { name: code, color: '#666' };
+    const isCurrent = code === currentCode ? ' is-current' : '';
+    return `<th class="compare-party-th${isCurrent}" title="${escapeHtml(p.shortName || p.name || code)}">
+      <span class="compare-party-pill" style="background:${p.color || '#666'}">${escapeHtml(code)}</span>
+    </th>`;
+  }).join('');
+
+  // Body rows
+  const bodyRows = list.map(topic => {
+    const cells = codes.map(code => {
+      const stance = topic.stances[code];
+      const smiley = stance ? STANCE_SMILEYS[stance] : '—';
+      const stanceLabel = stance ? stanceLabels[stance] : ui.cleavagesNoStance;
+      const isCurrent = code === currentCode ? ' is-current' : '';
+      const stanceKey = stance || '';
+      const tooltip = `${topic.title} — ${stanceLabel}`;
+      return `<td class="compare-cell${isCurrent}" data-stance="${escapeHtml(stanceKey)}"
+                  title="${escapeHtml(tooltip)}">
+        <span class="compare-smiley">${smiley}</span>
+      </td>`;
+    }).join('');
+    return `<tr>
+      <th class="compare-topic-th" scope="row">
+        <span class="compare-topic-title">${escapeHtml(topic.title)}</span>
+      </th>${cells}
+    </tr>`;
+  }).join('');
+
+  return `<div class="cleavage-compare-overlay" id="cleavage-compare-overlay"
+                role="dialog" aria-modal="true" aria-labelledby="cleavage-compare-title">
+    <div class="cleavage-compare-card">
+      <button class="cleavage-compare-close" id="cleavage-compare-close"
+              type="button" aria-label="${escapeHtml(ui.cleavagesCompareClose)}">
+        <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
+          <path d="M3 3L13 13M13 3L3 13" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+      </button>
+      <div class="cleavage-compare-header">
+        <h3 id="cleavage-compare-title">${escapeHtml(ui.cleavagesCompareTitle(_muniLocative(muni)))}</h3>
+        <p class="cleavage-compare-sub">${escapeHtml(ui.cleavagesCompareSub)}</p>
+      </div>
+      <div class="cleavage-compare-scroll-wrap">
+        <div class="cleavage-compare-scroll" data-scroll-state="start">
+          <table class="cleavage-compare-table">
+            <thead><tr><th class="compare-topic-th compare-topic-th--header">${escapeHtml(ui.cleavagesCompareTopicCol)}</th>${headerCells}</tr></thead>
+            <tbody>${bodyRows}</tbody>
+          </table>
+        </div>
+        <div class="cleavage-compare-fade cleavage-compare-fade--left" aria-hidden="true"></div>
+        <div class="cleavage-compare-fade cleavage-compare-fade--right" aria-hidden="true"></div>
+      </div>
+      <div class="cleavage-compare-footer">
+        <a href="https://kosningaprof.ruv.is/" target="_blank" rel="noopener noreferrer">
+          ${escapeHtml(ui.platformSource('kosningaprof.ruv.is'))} ↗
+        </a>
+      </div>
+    </div>
   </div>`;
 }
 

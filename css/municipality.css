@@ -785,6 +785,234 @@
 }
 .agenda-source a:hover { color: rgba(255,255,255,0.75); }
 
+/* "Bera saman alla flokka" button sits inline with the source link */
+.cleavages-source { flex-wrap: wrap; gap: 8px; }
+.cleavages-compare-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin-left: 12px;
+  padding: 3px 9px;
+  font: inherit;
+  font-size: 0.72rem;
+  color: rgba(255,255,255,0.55);
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: 999px;
+  cursor: pointer;
+  transition: color 0.15s, background 0.15s, border-color 0.15s;
+}
+.cleavages-compare-btn:hover {
+  color: rgba(255,255,255,0.9);
+  background: rgba(255,255,255,0.1);
+  border-color: rgba(255,255,255,0.3);
+}
+.cleavages-compare-btn svg { opacity: 0.7; }
+
+/* ─── Cleavage compare modal ─────────────────────────── */
+.cleavage-compare-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.7);
+  backdrop-filter: blur(4px);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+  padding: 16px;
+}
+.cleavage-compare-overlay.is-open { display: flex; }
+.cleavage-compare-card {
+  background: #1a1d24;
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 14px;
+  width: min(960px, 100%);
+  max-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  box-shadow: 0 16px 48px rgba(0,0,0,0.5);
+}
+.cleavage-compare-close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 30px; height: 30px;
+  border: none;
+  background: rgba(255,255,255,0.08);
+  color: rgba(255,255,255,0.7);
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.15s;
+}
+.cleavage-compare-close:hover { background: rgba(255,255,255,0.18); color: #fff; }
+
+.cleavage-compare-header {
+  padding: 18px 22px 10px;
+}
+.cleavage-compare-header h3 {
+  margin: 0 0 4px;
+  font-size: 1.05rem;
+  color: #fff;
+}
+.cleavage-compare-sub {
+  margin: 0;
+  font-size: 0.78rem;
+  color: rgba(255,255,255,0.55);
+}
+
+/* Wrapper holds the scroller + the two overlay fade gradients. The
+   wrapper is the positioned ancestor for the fades; the scroller stays
+   the simple overflow container. */
+.cleavage-compare-scroll-wrap {
+  position: relative;
+  flex: 1;
+  min-height: 0;
+  display: flex;
+}
+.cleavage-compare-scroll {
+  overflow: auto;
+  padding: 4px 22px 16px;
+  flex: 1;
+  min-width: 0;
+}
+.cleavage-compare-fade {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 28px;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.15s ease;
+  z-index: 4;
+}
+.cleavage-compare-fade--left {
+  left: 0;
+  background: linear-gradient(to right, #1a1d24 0%, rgba(26,29,36,0) 100%);
+}
+.cleavage-compare-fade--right {
+  right: 0;
+  background: linear-gradient(to left, #1a1d24 0%, rgba(26,29,36,0) 100%);
+}
+/* Toggle fades based on the scroller's data-scroll-state attribute
+   (start/mid/end/none, set by _bindCompareScrollState). */
+.cleavage-compare-scroll-wrap:has([data-scroll-state="start"]) .cleavage-compare-fade--right,
+.cleavage-compare-scroll-wrap:has([data-scroll-state="mid"])   .cleavage-compare-fade--right,
+.cleavage-compare-scroll-wrap:has([data-scroll-state="mid"])   .cleavage-compare-fade--left,
+.cleavage-compare-scroll-wrap:has([data-scroll-state="end"])   .cleavage-compare-fade--left { opacity: 1; }
+.cleavage-compare-table {
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+  font-size: 0.82rem;
+  color: rgba(255,255,255,0.85);
+}
+.cleavage-compare-table thead th {
+  position: sticky;
+  top: 0;
+  background: #1a1d24;
+  z-index: 2;
+  padding: 8px 6px;
+  border-bottom: 1px solid rgba(255,255,255,0.15);
+  text-align: center;
+  font-weight: 500;
+}
+.cleavage-compare-table .compare-topic-th {
+  position: sticky;
+  left: 0;
+  background: #1a1d24;
+  z-index: 1;
+  text-align: left;
+  font-weight: 400;
+  padding: 9px 14px 9px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+  min-width: 220px;
+  max-width: 340px;
+  font-size: 0.8rem;
+  line-height: 1.35;
+  /* Shadow on the right edge only appears once the user scrolls the
+     party columns — visually lifts the sticky column so the freeze is
+     obvious. Driven by data-scroll-state on the scroller. */
+  transition: box-shadow 0.15s ease;
+}
+.cleavage-compare-scroll[data-scroll-state="mid"] .compare-topic-th,
+.cleavage-compare-scroll[data-scroll-state="end"] .compare-topic-th {
+  box-shadow: 6px 0 12px -8px rgba(0,0,0,0.7);
+}
+.cleavage-compare-table thead .compare-topic-th--header {
+  z-index: 3;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  color: rgba(255,255,255,0.4);
+}
+.cleavage-compare-table tbody tr:hover .compare-topic-th { background: #21252e; }
+.cleavage-compare-table tbody tr:hover td:not(.is-current) { background: rgba(255,255,255,0.03); }
+
+.compare-party-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 26px;
+  height: 22px;
+  padding: 0 7px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.75rem;
+  border-radius: 11px;
+  letter-spacing: 0.3px;
+}
+.compare-party-th.is-current .compare-party-pill {
+  box-shadow: 0 0 0 2px rgba(255,255,255,0.6);
+}
+
+.compare-cell {
+  text-align: center;
+  padding: 9px 6px;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+  cursor: help;
+  min-width: 44px; /* iOS HIG min touch target */
+}
+.compare-cell.is-current { background: rgba(255,255,255,0.05); }
+.compare-cell[data-stance="A"] { background: rgba(220,50,50,0.10); }
+.compare-cell[data-stance="B"] { background: rgba(220,50,50,0.05); }
+.compare-cell[data-stance="C"] { background: rgba(50,180,80,0.05); }
+.compare-cell[data-stance="D"] { background: rgba(50,180,80,0.10); }
+.compare-cell.is-current[data-stance="A"] { background: rgba(220,50,50,0.18); }
+.compare-cell.is-current[data-stance="B"] { background: rgba(220,50,50,0.10); }
+.compare-cell.is-current[data-stance="C"] { background: rgba(50,180,80,0.10); }
+.compare-cell.is-current[data-stance="D"] { background: rgba(50,180,80,0.18); }
+.compare-smiley { font-size: 1.05rem; line-height: 1; }
+
+.cleavage-compare-footer {
+  padding: 10px 22px 16px;
+  font-size: 0.72rem;
+  color: rgba(255,255,255,0.4);
+  border-top: 1px solid rgba(255,255,255,0.08);
+}
+.cleavage-compare-footer a {
+  color: rgba(255,255,255,0.55);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.cleavage-compare-footer a:hover { color: rgba(255,255,255,0.85); }
+
+@media (max-width: 600px) {
+  .cleavage-compare-table .compare-topic-th {
+    min-width: 130px;
+    max-width: 200px;
+    font-size: 0.72rem;
+    padding-right: 10px;
+  }
+  .cleavage-compare-header { padding: 14px 16px 8px; }
+  .cleavage-compare-scroll { padding: 4px 16px 12px; }
+  .compare-cell { min-width: 44px; }
+  .cleavage-compare-fade { width: 20px; }
+}
+
 .agenda-disclaimer {
   display: flex;
   gap: var(--space-3);
