@@ -2130,12 +2130,39 @@ const AKU = {
     ],
   },
   S: {
-    tagline: 'Sindri nýr oddviti — uppstilling með fjölbreytileika og reynslu',
-    platformUrl: 'https://xs.is/akureyri',
+    tagline: 'Sterkari saman — Samfylkingin á Akureyri 2026–2030',
+    platformUrl: 'https://xs.is/sterkari-saman',
     agenda: [
-      { icon: '🤝', title: 'Jafnaðarmennska', text: 'Jöfn tækifæri og félagsleg réttlæti sem grundvöllur stefnu.' },
-      { icon: '🏫', title: 'Menntun', text: 'Gæðamenntun og sterk skólaþjónusta.' },
-      { icon: '🏥', title: 'Velferð', text: 'Heilbrigðisþjónusta og velferðarkerfi sem þjónar öllum.' },
+      {
+        icon: '🏠',
+        title: 'Léttum þér daglega lífið',
+        text: 'Þak á leikskólagjöld með 100% systkinaafslátt, sumarfrístund fyrir 1.–4. bekk, endurhönnun strætó sem alvöru valkost og frístundastyrkir barna upp í 75.000 kr. Lækka fasteignagjöld og setja á fót Atvinnulífsstofu sem einn tengipunkt sveitarfélagsins við atvinnulífið.',
+        source_quote: 'Sama í hvaða stöðu og á hvaða æviskeiði þú ert ætlum við okkur að létta þér daglega lífið',
+      },
+      {
+        icon: '👶',
+        title: 'Hlúum að hverju barni',
+        text: 'Auka sérúrræði á borð við Hlíðaskóla og stytta biðlista; hefja átak í list- og verkgreinakennslu og íslensku sem öðru máli í grunnskólum. Efla starf félagsmiðstöðva, sérstaklega á aldrinum 16–18 ára, og taka loftgæði og svifryksmengun alvarlega.',
+        source_quote: 'Gætum þess að velferð og líðan barna og ungmenna sé ávallt í forgrunni',
+      },
+      {
+        icon: '🏘️',
+        title: 'Húsnæði, húsnæði, húsnæði',
+        text: 'Krefjast 35% óhagnaðardrifinnar uppbyggingar í öllu nýju skipulagi íbúðabyggðar, halda áfram skynsamlegri þéttingu í sátt við íbúa og hefja vinnu við nýtt aðalskipulag. Gera Akureyrarvöll að grænni perlu þar sem náttúra, íbúabyggð og fjölbreytt mannlíf fer saman.',
+        source_quote: 'Húsnæðisuppbygging á að eiga sér stað á forsendum bæjarbúa',
+      },
+      {
+        icon: '👵',
+        title: 'Áhyggjulaust og skemmtilegt ævikvöld',
+        text: 'Reisa almennilega félagsaðstöðu fyrir eldra fólk í samstarfi við EBAK, samþætta þjónustu og innleiða verkefnið „Gott að eldast" á Akureyri. Bjóða 70 ára og eldri frítt í sund og tryggja aðgengi hreyfihamlaðra að perlum bæjarins yfir vetrartímann.',
+        source_quote: 'Sýnum fólkinu sem byggði þennan bæ þá virðingu sem það verðskuldar',
+      },
+      {
+        icon: '🚀',
+        title: 'Akureyri í sókn',
+        text: 'Marka bænum atvinnu- og vaxtarstefnu til framtíðar, standa vörð um millilandaflug og halda áfram uppbyggingu flugvallarins. Lækka fasteignagjöld á atvinnuhúsnæði, standa vörð um Sjúkrahúsið á Akureyri og efla Akureyri sem heilsársáfangastað ferðamanna.',
+        source_quote: 'Bæjarstjórn Akureyrar þarf að stunda virka hagsmunagæslu fyrir bæinn, íbúa hans og atvinnulíf',
+      },
     ],
     list: [
       [1, 'Sindri S. Kristjánsson', 'Skrifstofustjóri', 'images/candidates/13eeb55d16336e16.png', {
@@ -4216,13 +4243,39 @@ const HAF = {
     ],
   },
   B: {
-    tagline: 'Valdimar Víðisson leiðir Framsókn í Hafnarfirði',
-    platformUrl: 'https://www.framsokn.is/hafnarfjordur/',
+    tagline: 'Framsókn í Hafnarfirði — þetta snýst um Hafnarfjörð',
+    platformUrl: 'https://www.facebook.com/framsoknhfj',
     agenda: [
-      { icon: '💪', title: 'Lýðheilsa', text: 'Lýðheilsa og heilbrigð lífsstíll sem forgangsmál.' },
-      { icon: '🤲', title: 'Velferðarmál', text: 'Öflug velferðarþjónusta og stuðningur við alla íbúa.' },
-      { icon: '🏘️', title: 'Samfélagsþjónusta', text: 'Gæðaþjónusta við börn, fjölskyldur og aldraða í bænum.' },
-      { icon: '🌟', title: 'Framtíðarsýn', text: '\"Framtíðin ræðst á miðjunni\" — skynsamleg uppbygging Hafnarfjarðar.' },
+      {
+        icon: '📚',
+        title: 'Mennta-, íþrótta- og lýðheilsumál',
+        text: 'Aukinn stuðningur við starfsfólk og börn í leik- og grunnskólum með áherslu á sérkennslu og samfellu í þjónustu, fríar skólamáltíðir og stórátak í endurbótum á skólahúsnæði. Stækka Tónlistarskólann og halda áfram uppbyggingu fjölbreyttrar íþróttaaðstöðu, göngu- og hjólastíga og næsta skref Ásvallalaugar.',
+        source_quote: 'Mennta-, íþrótta- og lýðheilsumál',
+      },
+      {
+        icon: '❤️',
+        title: 'Velferðarmál',
+        text: 'Styðjum við aðstandendur eldra fólks, eflum heilsueflingu þeirra og samþættingu þjónustu. Aukum fjárfestingu í forvörnum og endurhæfingu, og hlúum sérstaklega að ungu fólki og barnafjölskyldum.',
+        source_quote: 'Velferðarmál',
+      },
+      {
+        icon: '💼',
+        title: 'Atvinnu-, menningar- og ferðamál',
+        text: 'Höldum áfram að byggja upp öflugt atvinnulíf og tryggjum stöðu Hafnarfjarðar á þjónustusvæðinu í kringum byggingarframkvæmdir; hvetjum til aukinnar nýsköpunar og styðjum við ungt fólk í atvinnulífi. Eflum afkomu atvinnulífsins fyrir ungt fólk og Hafnarfjörð sem öflugan menningarbæ og áfangastað ferðamanna.',
+        source_quote: 'Atvinnu-, menningar- og ferðamál',
+      },
+      {
+        icon: '🗺️',
+        title: 'Umhverfis- og skipulagsmál',
+        text: 'Endurskoða aðalskipulag og halda áfram óhagnaðardrifinni búsetustefnu, byggja íbúðir fyrir aldraða og fatlaða og þróa græn svæði í gamla bænum. Þrýsta á úrbætur og framlagslausn á Reykjanesbraut, og auka loftgæði og umhverfismál við Vellina, Hamranes og Skarðshlíð.',
+        source_quote: 'Umhverfis- og skipulagsmál',
+      },
+      {
+        icon: '🏛️',
+        title: 'Mannauður og stjórnsýsla',
+        text: 'Tryggja að vellíðan starfsfólks sé í hávegum höfð og auka tækni og einföldun verklags í stjórnsýslunni. Endurskoða verkferla, viðhafa reglulegar mælingar og opna íbúafundi í stjórnsýsluferlum.',
+        source_quote: 'Mannauður og stjórnsýsla',
+      },
     ],
     list: [
       [1, 'Valdimar Víðisson', 'Bæjarstjóri', 'images/candidates/501431c0b7017450.jpg', {
