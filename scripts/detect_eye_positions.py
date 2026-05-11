@@ -18,6 +18,18 @@ IMAGE_DIR = ROOT / 'images' / 'candidates'
 OUT_FILE  = ROOT / 'js' / 'data' / 'eye_positions.js'
 EXTS      = {'.jpg', '.jpeg', '.png', '.webp'}
 
+# Hand-picked overrides for images where Haar-cascade fails (no face
+# detected) or fires false positives (typically on V-neck collars,
+# shadows, glasses reflections). Applied AFTER auto-detection so the
+# manual values always win on subsequent re-runs.
+MANUAL_OVERRIDES: dict[str, dict] = {
+    # HFJ.B — Framsókn í Hornafirði (May 2026):
+    # Sigursteinn — face cascade didn't fire; eyes ~y=75 in 400px
+    'images/candidates/13da0275de9d1757.jpg': { 'eyeY': 0.19, 'w': 400, 'h': 400 },
+    # Ásgerður — false positive on V-neck collar (auto: 0.47); eyes ~y=55
+    'images/candidates/fc2b63efa4146e4d.jpg': { 'eyeY': 0.14, 'w': 400, 'h': 400 },
+}
+
 face_cascade = cv2.CascadeClassifier(
     cv2.data.haarcascades + 'haarcascade_frontalface_default.xml'
 )
@@ -88,6 +100,18 @@ def main():
             print(f"  [{i}/{len(images)}] {len(results)} detected, {len(failed)} failed")
 
     print(f"\nDone: {len(results)} detected, {len(failed)} failed out of {len(images)}")
+
+    # Apply manual overrides (last-write-wins) — for images where Haar
+    # cascade fails or fires on collars/shadows. These are listed at the
+    # top of this file so the corrections survive subsequent re-runs.
+    overridden = 0
+    for path, vals in MANUAL_OVERRIDES.items():
+        results[path] = vals
+        overridden += 1
+        if path in failed:
+            failed.remove(path)
+    if overridden:
+        print(f"Applied {overridden} manual overrides")
 
     # Write ES module
     OUT_FILE.parent.mkdir(parents=True, exist_ok=True)
