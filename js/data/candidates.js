@@ -5743,10 +5743,10 @@ const GRN = {
     ],
 
     list: [
-      [1, 'Magnús Már Jakobsson', 'Frambjóðandi', null, {
+      [1, 'Magnús Már Jakobsson', 'Oddviti og verktaki', 'images/candidates/e8c52db6f43322af.jpg', {
         age: null,
-        bio: 'Magnús Már Jakobsson er formaður Verkalýðsfélags Grindavíkur og leiðir M-lista Miðflokksins í Grindavík í sveitarstjórnarkosningum 2026.',
-        heimild: [{ url: 'https://xd.is/hjalmar-hallgrimsson/', label: 'Sjálfstæðisflokkurinn (xd.is)' }, { url: 'https://www.grindavik.is/baejarstjorn/', label: 'grindavik.is – bæjarstjórn' }, { url: 'https://www.mbl.is/frettir/innlent/2024/02/01/hjalmar_i_leyfi_fra_logreglunni_a_sudurnesjum/', label: 'mbl.is' }],
+        bio: 'Magnús Már Jakobsson, kallaður Maggi, er oddviti M-lista Miðflokksins í Grindavík í sveitarstjórnarkosningum 2026. Hann starfar sem verktaki í öryggis- og mannauðsmálum og er fyrrverandi formaður Verkalýðsfélags Grindavíkur.\n\nHann er kvæntur Salbjörgu Júlíu Þorsteinsdóttur og þau eiga tvær dætur, Elísabetu Maríu (24 ára, í sambúð með Andra Hrafni Vilhelmssyni; saman eiga þau soninn Storm Má) og Matthildi Bylgju (11 ára).\n\nÁ Facebook-síðu Miðflokksins í Grindavík segir hann að samfélagið, fólkið og sagan séu það besta við Grindavík og að hann vilji leiða uppbyggingu bæjarins eftir rýmingu. Hann segir íslensk yfirvöld vera helstu ógn samfélagsins og leggur áherslu á sterka forystu sem þorir að takast á við þau.',
+        heimild: [{ url: 'https://www.facebook.com/midflokkurinngrindavik/', label: 'Miðflokkurinn í Grindavík (Facebook)' }],
         interests: null,
         social: null,
         news: [],
