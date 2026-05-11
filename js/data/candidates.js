@@ -1629,12 +1629,63 @@ const DEFAULT_AGENDAS = {
 
 const AKU = {
   D: {
-    tagline: 'Berglind í broddi flokks — gæði lífs sem grunnur framfara',
+    tagline: 'Sjálfstæðisflokkurinn á Akureyri — fyrir enn betri Akureyrarbæ',
     platformUrl: 'https://www.islendingur.is/kosningaaherslur2026',
     agenda: [
-      { icon: '🏗️', title: 'Þróun og uppbygging', text: 'Sterk atvinnulíf, áframhaldandi uppbygging og ábyrg fjármálastjórnun.' },
-      { icon: '🏛️', title: 'Góð þjónusta', text: 'Góð þjónusta við íbúa sem kjarnaverkefni bæjaryfirvalda.' },
-      { icon: '💼', title: 'Atvinnumál', text: 'Styðja við atvinnulíf og nýsköpun á Norðurlandi.' },
+      {
+        icon: '💰',
+        title: 'Ábyrg fjármál tryggja sterka framtíð',
+        text: 'Byggja áfram á sterkum grunni með ábyrgri og framsýnni fjármálastjórn, kostnaðaraðhaldi og tæknivæðingu sem dregur úr skuldsetningu sveitarfélagsins.',
+        source_quote: 'Við ætlum að byggja áfram á sterkum grunni með ábyrgri og framsýnni fjármálastjórn',
+      },
+      {
+        icon: '📉',
+        title: 'Lægri skattar og gjöld fyrir íbúa og fyrirtæki',
+        text: 'Halda áfram að lækka skatta og gjöld á fólk og fyrirtæki, m.a. með lægri fasteignasköttum og endurskoðun gjaldskráa.',
+        source_quote: 'Halda áfram að lækka skatta og gjöld á fólk og fyrirtæki með lægri fasteignasköttum',
+      },
+      {
+        icon: '💼',
+        title: 'Aukum samkeppnishæfni fyrir sterkt atvinnulíf',
+        text: 'Styrkja samkeppnishæfni og tekjugrunn Akureyrarbæjar með markvissri stefnu sem styður við fyrirtækin og skýrari framtíðarsýn fyrir hafnarsvæðið.',
+        source_quote: 'Styrkja samkeppnishæfni og tekjugrunn Akureyrarbæjar með markvissri stefnu sem styður við fyrirtækin',
+      },
+      {
+        icon: '🗺️',
+        title: 'Skýrt skipulag fyrir stórhuga framtíð',
+        text: 'Uppfæra aðalskipulag bæjarins með skýrri framtíðarsýn um uppbyggingu íbúða og atvinnusvæða, bætt bílastæði og umferðarlausnir.',
+        source_quote: 'Uppfæra aðalskipulag bæjarins með skýrri framtíðarsýn um uppbyggingu íbúða, atvinnusvæða',
+      },
+      {
+        icon: '❤️',
+        title: 'Öflug velferð fyrir betri lífsgæði á öllum æviskeiðum',
+        text: 'Styðja við uppbyggingu lífsgæðakjarna fyrir eldri borgara og setja kraft í uppbyggingu íbúðarhúsnæðis, með áherslu á þjónustu við eldra fólk og bætt aðgengi.',
+        source_quote: 'Styðja við uppbyggingu lífsgæðakjarna fyrir eldri borgara',
+      },
+      {
+        icon: '📚',
+        title: 'Sterkir skólar fyrir vaxandi samfélag',
+        text: 'Halda áfram að efla gjaldfrjálsa leikskóla og styðja við faglegt starf, klára Hagastein og fjölga skólarýmum til að mæta vaxandi barnafjölda.',
+        source_quote: 'Halda áfram að efla gjaldfrjálsa leikskóla og efla leikskólana og styðja við faglegt starf',
+      },
+      {
+        icon: '⚽',
+        title: 'Öflugt íþróttastarf fyrir alla án hindrana',
+        text: 'Ljúka þeirri uppbyggingu íþróttamannvirkja sem þegar er hafin og vinna heildstæða greiningu á framtíðarþörf, með áherslu á aðgengi fatlaðra barna að íþróttastarfi.',
+        source_quote: 'ljúka þeirri uppbyggingu sem þegar er hafin og vinna heildstæða greiningu á framtíðarþörf',
+      },
+      {
+        icon: '🎭',
+        title: 'Blómleg menning skapar verðmæti',
+        text: 'Efla áfram menningu og listir markvisst til að skapa störf og styðja við unga listamenn í bænum.',
+        source_quote: 'Efla áfram menningu og listir markvisst til að skapa störf og styðja við unga listamenn',
+      },
+      {
+        icon: '📣',
+        title: 'Enn sterkari rödd Akureyrarbæjar',
+        text: 'Stórefla hagsmunagæslu Akureyrarbæjar með því að standa vörð um lykilstofnanir bæjarins — Sjúkrahúsið, framhaldsskóla og Háskólann á Akureyri — og þrýsta á að opinber störf og þjónusta dreifist jafnar um landið.',
+        source_quote: 'Stórefla hagsmunagæslu Akureyrarbæjar með því að standa vörð um lykil stofnanir bæjarins',
+      },
     ],
     list: [
       [1, 'Berglind Ósk Guðmundsdóttir', 'Fyrrverandi þingmaður', 'images/candidates/3614cfa01eb60f39.png', {
