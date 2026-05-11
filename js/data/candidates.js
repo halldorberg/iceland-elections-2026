@@ -3446,7 +3446,7 @@ const MOS = {
     agenda: [
       { icon: '🏙️', title: 'Skipulagsmál á forsendum íbúa', text: 'Skipulagsmál á forsendum íbúa — þar á meðal gagnrýni á ofurþéttingu í Blikastaðalandi og kröfu um svör við ósvöruðum spurningum um innviði og umferð.' },
       { icon: '🚌', title: 'Alvöru almenningssamgöngur', text: 'Hrað- og innanbæjarstrætó — raunverulegur almenningsfarþegasamgöngur, ekki bara á pappír.' },
-      { icon: '🎒', title: 'Ókeypis strætó fyrir grunnskólabörn', text: 'Gjaldfrjáls almenningssamgöngur fyrir öll grunnskólabörn í Mosfellsbæ.' },
+      { icon: '🎒', title: 'Ókeypis strætó fyrir 18 ára og yngri', text: 'Gjaldfrjáls almenningssamgöngur fyrir alla 18 ára og yngri í Mosfellsbæ.' },
       { icon: '📚', title: 'Styrkari skólar', text: 'Aukið bolmagn fyrir skólastjórnendur, kennara og starfsfólk í leikskólum og grunnskólum — fagfólk í skólana og sterkara stuðningsnet svo hvert barn geti blómstrað á eigin forsendum.' },
       { icon: '🌆', title: 'Þróun miðbæjarsvæða', text: 'Alvöruleg þróun miðbæjarsvæða: Álafosskvosin, Stekkjarflöt, Hlégarður, Varmársvæði og Ævintýragarðurinn — með sérstakri áherslu á menningu og list á Hlégarðssvæðinu.' },
       { icon: '🗳️', title: 'Lýðræðisleg þátttaka og gagnsæi', text: 'Aukin þátttaka íbúa í gegnum virkt þátttökulýðræði, opna og gagnsæja stjórnsýslu og faglægt bæjarstjórnunarfyrirkomulag.' },
