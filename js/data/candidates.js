@@ -4080,15 +4080,63 @@ const KOP = {
 
 const HAF = {
   A: {
-    tagline: 'Ester Bíbí leiðir Vinstrið í Hafnarfirði',
-    platformUrl: 'https://www.fjardarfrettir.is/frettir/politik/ester-bibi-leidir-lista-vinstrisins-i-hafnarfirdi',
+    tagline: 'Vinstrið í Hafnarfirði — fyrir okkur öll',
+    platformUrl: 'https://vinstrid.is/hafnarfjordur.html',
     agenda: [
-      { icon: '🏘️', title: 'Húsnæðismál', text: 'Hagkvæmt og aðgengilegt húsnæði sem forgangsmál.' },
-      { icon: '📚', title: 'Menntamál', text: 'Sterk skólaþjónusta og stuðningur við börn og ungmenni.' },
-      { icon: '🚌', title: 'Samgöngur og skipulag', text: 'Betri almenningssamgöngur og skipulögð þróun bæjarins.' },
-      { icon: '🌿', title: 'Umhverfismál', text: 'Grænni Hafnarfjörður og sjálfbær þróun.' },
-      { icon: '⚖️', title: 'Réttlæti og lýðræði', text: 'Jafnrétti, félagslegt réttlæti og lýðræðisleg þátttaka.' },
-      { icon: '🤝', title: 'Öruggt samfélag', text: 'Öflugt velferðarkerfi og gæðaþjónusta við alla íbúa.' },
+      {
+        icon: '🤝',
+        title: 'Veitum þjónandi forystu',
+        text: 'Tryggjum samfellda þjónustu með áherslu á velferð, fjölmenningu, forvarnir og andlega heilsu.',
+        source_quote: 'Tryggjum samfellda þjónustu með áherslu á velferð, fjölmenningu, forvarnir og andlega heilsu',
+      },
+      {
+        icon: '💰',
+        title: 'Fullt útsvar á fjármagnstekjur',
+        text: 'Setja fullt útsvar á fjármagnstekjur, leiðrétt í gegnum jöfnunarsjóð sveitarfélaga.',
+        source_quote: 'Við viljum að fullt útsvar verði sett á fjármagnstekjur, leiðrétt í gegnum jöfnunarsjóð sveitarfélaga',
+      },
+      {
+        icon: '👶',
+        title: 'Börnin okkar allra',
+        text: 'Tryggja öllum börnum og ungmennum fjölbreytt og aðgengilegt tómstundastarf.',
+        source_quote: 'Tryggjum öllum börnum og ungmennum fjölbreytt og aðgengilegt tómstundastarf',
+      },
+      {
+        icon: '🏘️',
+        title: 'Sjálfbært skipulag og húsnæði',
+        text: 'Húsnæði fólks eru mannréttindi, ekki verslunarvara — skipulag á að byggja á lífsgæðum.',
+        source_quote: 'Húsnæði fólks eru mannréttindi, ekki verslunarvara. Skipulag á að byggja á lífsgæðum',
+      },
+      {
+        icon: '🗳️',
+        title: 'Alvöru íbúalýðræði',
+        text: 'Auka raunverulega þátttöku íbúa, þar á meðal barna og ungmenna, í stefnumótun og ákvarðanatöku.',
+        source_quote: 'Aukum raunverulega þátttöku íbúa, þar á meðal barna og ungmenna, í stefnumótun og ákvarðanatöku',
+      },
+      {
+        icon: '🎭',
+        title: 'Menning og samvera',
+        text: 'Menning er bæði samfélagsauður og efnahagsleg auðlind — skapa aðstöðu fyrir áhugamannafélög í bænum.',
+        source_quote: 'Menning er bæði samfélagsauður og efnahagsleg auðlind. Sköpum aðstöðu fyrir áhugamannafélög',
+      },
+      {
+        icon: '🌿',
+        title: 'Náttúruvernd og loftslagsaðgerðir',
+        text: 'Hafnarfjörður á að vera í fararbroddi í loftslagsmálum, draga úr losun og vernda land og vistkerfi.',
+        source_quote: 'Hafnarfjörður á að vera í fararbroddi í loftslagsmálum, draga úr losun og vernda land og vistkerfi',
+      },
+      {
+        icon: '🚌',
+        title: 'Bætum samgöngur',
+        text: 'Hraða framkvæmdum við Reykjanesbraut og klára tengingu Álftanesvegar.',
+        source_quote: 'Hröðum framkvæmdum við Reykjanesbraut og klárum tengingu Álftanesvegar',
+      },
+      {
+        icon: '🌳',
+        title: 'Fegrum bæinn',
+        text: 'Stórátak í fegrun bæjarins — fegra innkomuna og lyfta hverfum með lystigarði.',
+        source_quote: 'Gerum stórátak í fegrun bæjarins. Fegrum innkomuna og lyftum hverfum með lystigarði',
+      },
     ],
     list: [
       [1, 'Ester Bíbí Ásgeirsdóttir', 'Verkefnastjóri', 'images/candidates/dd522ea93684ea00.png', {
@@ -4710,9 +4758,48 @@ const SEL = {
     tagline: 'Kristinn Ólafsson leiðir Samfylkingu, Viðreisn og óháða á Seltjarnarnesi',
     platformUrl: 'https://xseltjarnarnes.is/stefnan/',
     agenda: [
-      { icon: '⚖️', title: 'Jafnrétti', text: 'Jafnrétti og félagsleg réttlæti.' },
-      { icon: '💡', title: 'Nýsköpun', text: 'Framsynt og nýskapandi stjórnun.' },
-      { icon: '🌿', title: 'Umhverfismál', text: 'Umhverfisvæn þróun.' },
+      {
+        icon: '💰',
+        title: 'Lögum fjármálin — styrkjum samfélagið',
+        text: 'Ábyrg fjármálastjórn er undirstaða sterks samfélags og betri þjónustu við íbúa á Seltjarnarnesi.',
+        source_quote: 'Ábyrg fjármálastjórn er undirstaða sterks samfélags og betri þjónustu við íbúa á Seltjarnarnesi',
+      },
+      {
+        icon: '📚',
+        title: 'Öruggt og framsækið skólasamfélag',
+        text: 'Menntun og vellíðan barna er mikilvægasta fjárfesting Seltjarnarness — skólarnir eiga að vera í fremstu röð með framúrskarandi starfsfólk og fyrirmyndaraðstöðu.',
+        source_quote: 'Menntun og vellíðan barna er mikilvægasta fjárfesting Seltjarnarness',
+      },
+      {
+        icon: '⚽',
+        title: 'Öflugt íþrótta- og tómstundastarf fyrir alla',
+        text: 'Íþrótta- og tómstundastarf er hjartað í uppvexti barna á Seltjarnarnesi, þar sem sjálfstraust og félagsleg tengsl verða til.',
+        source_quote: 'Íþrótta- og tómstundastarf er hjartað í uppvexti barna á Seltjarnarnesi',
+      },
+      {
+        icon: '❤️',
+        title: 'Fyrirmyndarsamfélag í velferðarmálum',
+        text: 'Seltjarnarnes á að vera fyrirmyndarsveitarfélag þar sem íbúar á öllum aldri lifa sjálfstæðu og innihaldsríku lífi í öruggu umhverfi.',
+        source_quote: 'Seltjarnarnes á að vera fyrirmyndarsveitarfélag þar sem íbúar á öllum aldri lifa sjálfstæðu og innihaldsríku lífi',
+      },
+      {
+        icon: '🎭',
+        title: 'Fjölbreytt menningarlíf og lifandi bæjarbragur',
+        text: 'Gera Seltjarnarnes að hvetjandi menningarsamfélagi með lifandi bæjarbrag og styðja betur við frumkvæði íbúa á sameiginlegum samkomustöðum.',
+        source_quote: 'gera Seltjarnarnes að hvetjandi menningarsamfélagi með lifandi bæjarbrag',
+      },
+      {
+        icon: '🏗️',
+        title: 'Uppbygging sem skilar árangri',
+        text: 'Sjálfbær rekstur Seltjarnarnesbæjar til framtíðar byggir á því að nýta tækifærin í umhverfi okkar til að styrkja tekjur og draga úr skuldum.',
+        source_quote: 'Sjálfbær rekstur Seltjarnarnesbæjar til framtíðar byggir á því að nýta tækifærin í umhverfi okkar',
+      },
+      {
+        icon: '🌊',
+        title: 'Sjóvarnir og öryggi',
+        text: 'Hækkandi sjávarstaða og breytt veðurfar kalla á nýja nálgun þar sem forvarnir og framsýni í skipulagi eru í fyrirrúmi.',
+        source_quote: 'Hækkandi sjávarstaða og breytt veðurfar kalla á nýja nálgun þar sem forvarnir og framsýni í skipulagi eru í fyrirrúmi',
+      },
     ],
     list: [
       [1, 'Kristinn Ólafsson', 'Framkvæmdastjóri', null, {
@@ -5123,12 +5210,45 @@ const RNB = {
     ],
   },
   S: {
-    tagline: 'Guðný Birna leiðir Samfylkinguna í Reykjanesbæ',
-    platformUrl: 'https://xs.is/reykjanesbaer',
+    tagline: 'Samfylkingin í Reykjanesbæ — fyrir fólkið í bænum',
+    platformUrl: 'https://xs.is/fyrir-folkid-i-baenum',
     agenda: [
-      { icon: '⚖️', title: 'Jafnrétti', text: 'Jöfn tækifæri og félagsleg réttlæti.' },
-      { icon: '🏫', title: 'Menntun', text: 'Gæðamenntun og sterk skólaþjónusta.' },
-      { icon: '🌍', title: 'Velferð', text: 'Öflug velferðarþjónusta fyrir alla.' },
+      {
+        icon: '🏠',
+        title: 'Daglega lífið með Samfylkingunni',
+        text: 'Einfalda daglegt líf íbúa, hvort sem fólk rekur fyrirtæki, elur upp fjölskyldu eða nýtur efri ára — einfaldari þjónusta, fríar strætóferðir fyrir börn og þak á leikskólagjöld í 50.000 kr á mánuði.',
+        source_quote: 'Við viljum einfalda daglega lífið fyrir íbúa Reykjanesbæjar',
+      },
+      {
+        icon: '👶',
+        title: 'Aðeins það besta fyrir börnin okkar',
+        text: 'Klára skólauppbyggingu, hækka frístundastyrk í að lágmarki 70.000 kr og fjölga tómstundaaðstöðu um allt sveitarfélagið.',
+        source_quote: 'Börnin okkar eiga skilið bestu mögulegu umgjörð til að vaxa og dafna',
+      },
+      {
+        icon: '💼',
+        title: 'Atvinna og uppbygging',
+        text: 'Öflugt og fjölbreytt atvinnulíf með stækkun hafnar, þróun Helguvíkur sem græns iðngarðs og atvinnutækifærum fyrir fólk með skerta starfsgetu í gegnum sveitarfélagið.',
+        source_quote: 'Við viljum öflugt og fjölbreytt atvinnulíf',
+      },
+      {
+        icon: '❤️',
+        title: 'Velferð fyrir okkur öll',
+        text: 'Opna Velferðarhús, veita nemendum á fjárhagsaðstoð stuðning vegna fartölvukaupa og byggja meira húsnæði fyrir fatlaða og eldri borgara.',
+        source_quote: 'Sterkt samfélag byggir á öflugri velferð og jöfnum tækifærum',
+      },
+      {
+        icon: '🌿',
+        title: 'Grænni og betri Reykjanesbær',
+        text: 'Þróa bæinn áfram á sjálfbæran hátt — bæta umferð á Njarðarbraut, klára göngu- og hjólastíga og þróa útivistarsvæði við Seltjörn og Fitjar.',
+        source_quote: 'Við viljum þróa bæinn okkar áfram á sjálfbæran hátt til framtíðar',
+      },
+      {
+        icon: '🎭',
+        title: 'Menning er stemning',
+        text: 'Styrkja menningarvitund með sýningum um svæðið, lengja opnunartíma sundlauga og skapa ungmennum tækifæri í tónlist og listum.',
+        source_quote: 'Lífleg menning gerir góðan bæ enn betri',
+      },
     ],
     list: [
       [1, 'Guðný Birna Guðmundsdóttir', 'Forseti bæjarstjórnar og ritari Samfylkingarinnar', 'images/candidates/653a53315c3ee7e0.png', {
