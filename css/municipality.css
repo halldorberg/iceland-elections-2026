@@ -1429,6 +1429,8 @@
   line-height: 1.75;
   color: var(--color-text-muted);
   margin-bottom: 0;
+  /* Preserve paragraph breaks from \n\n in the bio source */
+  white-space: pre-line;
 }
 
 .modal-heimild {

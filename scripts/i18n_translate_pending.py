@@ -105,15 +105,21 @@ def rebuild_overlay(strings: dict, lang: str, path: Path):
         '',
         f'export const TRANSLATIONS_{lang_upper} = {{',
     ]
+    def esc(s):
+        return (s.replace('\\', '\\\\')
+                 .replace('"', '\\"')
+                 .replace('\r', '\\r')
+                 .replace('\n', '\\n'))
+
     for key in sorted(main):
-        val = (main[key] or '').replace('\\', '\\\\').replace('"', '\\"')
+        val = esc(main[key] or '')
         lines.append(f'  "{key}": "{val}",')
     lines.append('')
     lines.append('  // Occupation lookup (deduplicated)')
     lines.append('  "_occupations": {')
     for occ_is, occ_tr in sorted(occ.items()):
-        k = occ_is.replace('\\', '\\\\').replace('"', '\\"')
-        v = (occ_tr or occ_is).replace('\\', '\\\\').replace('"', '\\"')
+        k = esc(occ_is)
+        v = esc(occ_tr or occ_is)
         lines.append(f'    "{k}": "{v}",')
     lines.append('  },')
     lines.append('};')
