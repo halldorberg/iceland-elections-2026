@@ -9664,10 +9664,19 @@ const BBD = {
 
 const ISF = {
   B: {
-    tagline: 'Framsóknarflokkur og óháðir í Ísafjarðarbæ',
-    agenda: [],
-    // [stripped 2026-05-04] no source verifiable; FB: https://www.facebook.com/framsoknisafjardarbaer
-   
+    tagline: 'Kosningaáherslur Framsóknar og óháðra í Ísafjarðarbæ',
+    platformUrl: 'https://www.facebook.com/framsoknisafjardarbaer',
+    agenda: [
+      { icon: '🏘️', title: 'Nægar lóðir í hverjum byggðarkjarna', text: 'Hafa á hverjum tíma nægar lóðir í boði í hverjum byggðarkjarna lausar til úthlutunar.', source_quote: 'Hafa á hverjum tíma nægar lóðir í boði í hverjum byggðarkjarna lausar til úthlutunar' },
+      { icon: '⚡', title: 'Raforka og verðmætasköpun', text: 'Raforka er undirstaða fjölbreytts atvinnulífs, lífsgæða og verðmætasköpunar.', source_quote: 'Raforka er undirstaða fjölbreytts atvinnulífs, lífsgæða og verðmætasköpunar' },
+      { icon: '🛡️', title: 'Forvarnarstefna fyrir börn', text: 'Innleiða forvarnarstefnu með sérstaka áherslu á að tryggja velferð barna.', source_quote: 'Innleiða forvarnarstefnu með sérstaka áherslu á að tryggja velferð barna' },
+      { icon: '⚽', title: 'Jafnt aðgengi að íþrótta- og tómstundastarfi', text: 'Jafna aðgengi barna í byggðarkjörnunum að íþrótta- og tómstundastarfi.', source_quote: 'Jafna aðgengi barna í byggðarkjörnunum að íþrótta og tómstundastarfi' },
+      { icon: '🎭', title: 'Þríhliða samningur um menningarhús', text: 'Tryggja þríhliða samning milli ríkis, sveitarfélags og Edinborgarhúss um menningarhús.', source_quote: 'Tryggja þríhliða samning milli ríkis, sveitarfélags og Edinborgarhús um menningarhús' },
+      { icon: '📚', title: 'Starfstengt nám fyrir skólastarfsmenn', text: 'Styðja við starfstengt nám fyrir ófaglærða starfsmenn leikskólanna og grunnskóla.', source_quote: 'Styðja við starfstengt nám fyrir ófaglærða starfsmenn leikskólanna og grunnskóla' },
+      { icon: '💰', title: 'Lægri álögur á íbúa', text: 'Minnka álögur á íbúa eins og kostur er og lækka fasteignaskatt.', source_quote: 'Minnka álögur á íbúa eins og kostur er og lækka fasteignaskatt' },
+      { icon: '🚌', title: 'Betri almenningssamgöngur', text: 'Fjölga ferðum í almenningssamgöngum milli hverfa og byggðarkjarna.', source_quote: 'Fjölga ferðum í almennings samgöngum milli hverfa og byggðarkjarna' },
+      { icon: '🌟', title: 'Öflugra samfélag', text: 'Ísafjarðarbær verði enn öflugra samfélag með þrótti og góðri þjónustu. Hraust samfélög laða að sér tækifæri og hæft fólk.', source_quote: 'Ísafjarðarbær verði enn öflugra samfélag með þrótti og góðri þjónustu. Hraust samfélög laða að sér tækifæri og hæft fólk' },
+    ],
     list: [
       [1, 'Kristján Þór Kristjánsson', 'Hótelstjóri', 'images/candidates/ddd047e4a53f496c.webp', {
         age: 48,
