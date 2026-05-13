@@ -33,6 +33,11 @@ MANUAL_OVERRIDES: dict[str, dict] = {
     'images/candidates/fa4c670ff3ad7977.jpg': { 'eyeY': 0.16, 'w': 400, 'h': 400 },
     # Andri Hrafn — face on left, false positive too high (auto: 0.0844); eyes ~y=60
     'images/candidates/96b104c7375f2e91.jpg': { 'eyeY': 0.15, 'w': 400, 'h': 400 },
+    # FJB.H — H-listinn í Fjallabyggð (May 2026):
+    # Helgi (with cap + skis prop) — auto put eyes near cap brim; eyes ~y=120
+    'images/candidates/41aa691853c69b7a.jpg': { 'eyeY': 0.30, 'w': 400, 'h': 400 },
+    # Jón Valgeir — false positive low (auto: 0.4769); eyes ~y=130
+    'images/candidates/d77a3d9457f8ddb9.jpg': { 'eyeY': 0.32, 'w': 400, 'h': 400 },
 }
 
 face_cascade = cv2.CascadeClassifier(

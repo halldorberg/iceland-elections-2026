@@ -1,9 +1,9 @@
 import { MUNICIPALITIES } from './data/municipalities.js?v=15';
 import { PARTIES } from './data/parties.js?v=4';
-import { getMunicipalityPartyData } from './data/candidates.js?v=89';
+import { getMunicipalityPartyData } from './data/candidates.js?v=90';
 import { RESULTS_2022 } from './data/results2022.js?v=7';
 import { POLLS }        from './data/polls.js?v=3';
-import { EYE_POSITIONS } from './data/eye_positions.js?v=3';
+import { EYE_POSITIONS } from './data/eye_positions.js?v=4';
 import { CLEAVAGES, STANCE_SMILEYS } from './data/cleavages.js?v=3';
 import { getLang, t, renderLangSwitcher, MUNI_DATIVE_IS } from './i18n.js?v=8';
 import { partySlug, partyCodeFromSlug, slugify } from './data/party_slugs.js?v=2';
