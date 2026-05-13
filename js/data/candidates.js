@@ -6719,10 +6719,28 @@ const FJB = {
     ],
   },
   H: {
-    tagline: 'H-listinn Fyrir Heildina — Helgi Jóhannsson leiðir',
-    agenda: [],
-    // [stripped 2026-05-04] no source verifiable; FB: https://www.facebook.com/profile.php?id=100067726875693
-   
+    tagline: 'H-listinn Fyrir Heildina — Ykkar hagur, Okkar starf',
+    platformUrl: 'https://www.facebook.com/profile.php?id=100067726875693',
+    agenda: [
+      {
+        icon: '🌱',
+        title: 'Fyrir umhverfið',
+        text: 'Fjallabyggð á að vera til fyrirmyndar í umhverfismálum með sjálfbæra þróun að leiðarljósi. Íbúar í Fjallabyggð hafa sýnt það í gegnum árin að þeir hafa mikinn áhuga á umhverfi sínu. H-listinn setur umhverfismál í forgang.',
+        source_quote: 'Fjallabyggð á að vera til fyrirmyndar í umhverfismálum með sjálfbæra þróun að leiðarljósi. Íbúar í Fjallabyggð hafa sýnt það í gegnum árin að þeir hafa mikinn áhuga á umhverfi sínu. H-listinn setur umhverfismál í forgang.',
+      },
+      {
+        icon: '👨‍👩‍👧',
+        title: 'Fyrir samfélagið',
+        text: 'H-listinn vill stuðla að því að ungt fólk og fjölskyldur þeirra sjái tækifæri í því að velja Fjallabyggð sér til búsetu. Í samfélaginu verði blómlegt menningar-, íþrótta- og atvinnulíf.',
+        source_quote: 'H-listinn vill stuðla að því að ungt fólk og fjölskyldur þeirra sjái tækifæri í því að velja Fjallabyggð sér til búsetu. Í samfélaginu verði blómlegt menningar- íþrótta- og atvinnulíf.',
+      },
+      {
+        icon: '🚶',
+        title: 'Gangstéttir og göngustígar',
+        text: 'H-listinn vill halda áfram með markvissar lagfæringar á gangstéttum og leggja nýjar þar sem þeirra er þörf. Víða eru útivistarstígar og göngustígar á skipulagi hjá sveitarfélaginu sem ekki hefur verið farið í framkvæmdir á; við viljum gera mun betur í þessum efnum.',
+        source_quote: 'H-Listinn vill halda áfram með markvissar lagfæringar á gangstéttum og leggja nýjar þar sem þeirra er þörf. Víða eru útivistarstígar/göngustígar á skipulagi hjá sveitarfélaginu en ekki hefur verið farið í framkvæmdir á þeim, við viljum gera mun betur í þessum efnum.',
+      },
+    ],
     list: [
       [1, 'Helgi Jóhannsson', 'Fjármálaráðgjafi hjá Arion banka', 'images/candidates/41aa691853c69b7a.jpg', {
         age: null,
