@@ -2189,3 +2189,53 @@
 }
 .disclaimer-badge:hover { background: rgba(26, 86, 219, 0.7); color: #fff; }
 .disclaimer-badge.is-visible { display: flex; opacity: 1; pointer-events: auto; }
+
+/* ─── mestlesid.is promo pill ──────────────────────────────────
+   Sits next to the (i) disclaimer badge at bottom-left. Two spans:
+   the "name" span is always rendered; the "rest" span has
+   max-width: 0 by default (collapsed to nothing) and grows to its
+   natural width on hover/focus. Pill width follows content. */
+.mestlesid-pill {
+  position: fixed;
+  bottom: 24px;
+  left: 66px;                 /* badge: left 24 + width 34 + 8 gap */
+  z-index: 900;
+  display: inline-flex;
+  align-items: center;
+  height: 34px;
+  padding: 0 14px;
+  background: rgba(15, 25, 45, 0.92);
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: 17px;
+  color: rgba(255,255,255,0.9);
+  font-size: 0.78rem;
+  font-weight: 500;
+  text-decoration: none;
+  white-space: nowrap;
+  overflow: hidden;
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+.mestlesid-pill-name { display: inline-block; }
+.mestlesid-pill-rest {
+  display: inline-block;
+  max-width: 0;
+  overflow: hidden;
+  vertical-align: middle;
+  white-space: nowrap;
+  transition: max-width 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.mestlesid-pill:hover .mestlesid-pill-rest,
+.mestlesid-pill:focus-visible .mestlesid-pill-rest {
+  max-width: 360px;
+}
+.mestlesid-pill:hover,
+.mestlesid-pill:focus-visible {
+  background: rgba(26, 86, 219, 0.7);
+  border-color: rgba(255,255,255,0.25);
+  color: #fff;
+}
+@media (max-width: 600px) {
+  .mestlesid-pill { left: 60px; padding: 0 12px; font-size: 0.74rem; }
+}
