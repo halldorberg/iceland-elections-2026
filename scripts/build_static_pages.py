@@ -264,6 +264,9 @@ def party_display_name(code: str) -> str:
         'OKH': 'Okkar Hveragerði', 'SCS': 'Seltjarnarneslistinn',
         'BBL': 'Borgarbyggðarlisti', 'G': 'Góðan daginn',
         'R': 'Okkar borg',
+        # Hörgársveit local lists — code prefix isn't a real letter ballot
+        'HGH': 'H-listi Hörgársveitar',
+        'HGG': 'G-listi Hörgársveitar',
     }
     return NATIONAL.get(code, code + '-listinn')
 

@@ -6,7 +6,7 @@ import { POLLS }        from './data/polls.js?v=3';
 import { EYE_POSITIONS } from './data/eye_positions.js?v=4';
 import { CLEAVAGES, STANCE_SMILEYS } from './data/cleavages.js?v=3';
 import { getLang, t, renderLangSwitcher, MUNI_DATIVE_IS } from './i18n.js?v=8';
-import { partySlug, partyCodeFromSlug, slugify } from './data/party_slugs.js?v=2';
+import { partySlug, partyCodeFromSlug, slugify } from './data/party_slugs.js?v=3';
 
 // ─── i18n ──────────────────────────────────────────────────
 const lang = getLang();

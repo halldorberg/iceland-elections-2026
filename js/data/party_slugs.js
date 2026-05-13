@@ -97,21 +97,31 @@ export function partySlug(code) {
   return PARTY_CODE_TO_SLUG[code] || code.toLowerCase();
 }
 
-// Reverse map (built lazily; many local-list codes use lowercased-code as slug
-// so the reverse map covers those by falling back to uppercasing the slug).
-let _slugToCodeCache = null;
+// Reverse map (built lazily). One slug can map to MULTIPLE codes — e.g.
+// 'h-listinn' is shared by the global H code and per-muni local lists
+// like HGH (Hörgársveit). So we keep ALL candidate codes per slug and
+// filter by `knownCodes` (the muni's partyIds) at lookup time so the
+// caller always gets the code that actually exists in their muni.
+let _slugToCodesCache = null;
 export function partyCodeFromSlug(slug, knownCodes = null) {
-  if (!_slugToCodeCache) {
-    _slugToCodeCache = {};
+  if (!_slugToCodesCache) {
+    _slugToCodesCache = {};
     for (const [code, s] of Object.entries(PARTY_CODE_TO_SLUG)) {
-      _slugToCodeCache[s] = code;
+      if (!_slugToCodesCache[s]) _slugToCodesCache[s] = [];
+      _slugToCodesCache[s].push(code);
     }
   }
-  if (_slugToCodeCache[slug]) return _slugToCodeCache[slug];
-  // Fallback: try uppercasing the slug (covers local lists where slug=lowercased code)
-  const upper = slug.toUpperCase();
-  if (knownCodes && knownCodes.includes(upper)) return upper;
-  return upper;
+  const candidates = _slugToCodesCache[slug] || [];
+  // If we have a muni's known codes, pick the one that actually belongs.
+  if (knownCodes && knownCodes.length) {
+    for (const c of candidates) if (knownCodes.includes(c)) return c;
+    // Fallback: try uppercasing the slug (per-muni codes use lowercased-code as slug)
+    const upper = slug.toUpperCase();
+    if (knownCodes.includes(upper)) return upper;
+  }
+  // No muni filter — return the first cached candidate, else upper.
+  if (candidates.length) return candidates[0];
+  return slug.toUpperCase();
 }
 
 /**
