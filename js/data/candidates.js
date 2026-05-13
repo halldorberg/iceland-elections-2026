@@ -2364,13 +2364,58 @@ const AKU = {
   AL: {
     tagline: 'Allt að gerast — tala skýrt, vinna hratt, skila árangri',
     platformUrl: 'https://www.akureyrarlistinn.is/stefna',
-    agenda: [
-      { icon: '💼', title: 'Atvinnulíf', text: 'Atvinnulíf, þróun, menntun, samgöngur og kjaramál.' },
-      { icon: '👴', title: 'Aldraðir', text: 'Mál aldraðra, menning, íþróttir og samfélagslíf.' },
-      { icon: '💰', title: 'Skattar', text: 'Lækkun skatta og aukin samræður við ríkið.' },
+        agenda: [
+      {
+        icon: '💼',
+        title: 'Atvinnulífið',
+        text: 'Sterkt atvinnulíf er forsenda velferðar. Vinnum með fyrirtækjum til að ýta undir vöxt; einföldum regluverk og lækkum fasteignagjöld til að styðja lítil og meðalstór fyrirtæki. Fjölgum atvinnulóðum í bænum. Akureyri verður að vera sterkt mótvægi við höfuðborgarsvæðið.',
+        source_quote: 'Sterkt atvinnulíf er forsenda velferðar. Við viljum vinna með fyrirtækjum til að ýta undir vöxt og ný tækifæri á svæðinu. Við ætlum að einfalda regluverk og lækka fasteignagjöld til að styðja lítil og meðalstór fyrirtæki.',
+      },
+      {
+        icon: '🏗️',
+        title: 'Uppbygging',
+        text: 'Höldum uppbyggingu áfram og bætum í. Fjölgum íbúðum í öllum verðflokkum með sérstaka áherslu á fyrstu kaupendur. Komum af stað íbúðauppbyggingu á Oddeyri, fjölgum bílastæðum í miðbænum og byggjum búsetukjarna fyrir eldra fólk sem vill minnka við sig. Dreifum gjöldum yfir byggingartímann til að auðvelda fólki að byggja sér hús.',
+        source_quote: 'Við höldum uppbyggingu áfram og bætum í. Við fjölgum íbúðum í öllum verðflokkum með sérstaka áherslu á fyrstu kaupendur.',
+      },
+      {
+        icon: '📚',
+        title: 'Menntun',
+        text: 'Akureyri á að vera besti staðurinn til að ala upp börn. Afnemum „fengitímann" á Akureyri — fólk á ekki að þurfa að horfa á dagatalið til að búa til börn — og tökum inn á leikskóla tvisvar á ári. Aukum sveigjanleika í vistunartíma og sumarleyfum leikskóla í samvinnu við starfsfólk. Bætum sértækan stuðning við nemendur og kennara, styrkjum tónlistarkennslu og þrýstum á að Háskóli allra landsmanna bjóði upp á fjarnám.',
+        source_quote: 'Akureyri á að vera besti staðurinn til að ala upp börn. Afnemum fengitímann á Akureyri! Fólk á ekki að þurfa að horfa á dagatalið til að búa til börn. Tökum inn á leikskóla tvisvar á ári.',
+      },
+      {
+        icon: '✈️',
+        title: 'Samgöngur',
+        text: 'Betri samgöngur skila sér margfalt til baka í auknum hagvexti. Akureyrarflugvöllur á að vera önnur gátt inn í landið — aukin tíðni og samfella í flugi eflir ferðaþjónustu og lífsgæði. Bætum göngu- og hjólaleiðir til að auka lýðheilsu og draga úr kolefnisspori. Tölum fyrir styttingu leiðarinnar milli Akureyrar og Reykjavíkur.',
+        source_quote: 'Betri samgöngur skila sér margfalt til baka í auknum hagvexti. Akureyrarflugvöllur er ekki bara varaflugvöllur. Hann á að vera önnur gátt inn í landið.',
+      },
+      {
+        icon: '🤝',
+        title: 'Eldra fólk',
+        text: 'Heilbrigði og félagslíf aldraðra í fyrirrúmi. Byggjum samkomusal sem uppfyllir þarfir eldri borgara og lífsgæðakjarna með glatvarma frá gagnaverunum. Berjumst gegn félagslegri einangrun, meðal annars með „Karlar í skúrum"-verkefninu.',
+        source_quote: 'Heilbrigði og félagslíf aldraðra í fyrirrúmi. Byggjum samkomusal sem uppfyllir þarfir eldri borgara. Lífsgæðakjarni með glatvarma frá gagnaverunum.',
+      },
+      {
+        icon: '🎭',
+        title: 'Menning, íþróttir og mannlíf',
+        text: 'Akureyri sem menningarhöfuðborg Norðurlands. Klárum frágang á KA-svæðinu, hefjum íþróttahús á Þórs-svæðinu og styðjum við uppbyggingu Bílaklúbbs Akureyrar. Nýr 9-holu golfvöllur á Jaðri og undirbúningur fyrir nýjan golfvöll á Skjaldarvík. Eflum Akureyri sem Vetraríþróttamiðstöð Íslands með nýrri stólalyftu í Hlíðarfjalli (í stað Fjarkans) og stærra bílastæði. Reglulegir sumartónleikar, 50 metra yfirbyggð keppnissundlaug og nýtt geymsluhúsnæði Minjasafnsins.',
+        source_quote: 'Markmiðið er skýrt: Akureyri sem menningarhöfuðborg Norðurlands.',
+      },
+      {
+        icon: '📉',
+        title: 'Lækkun skatta',
+        text: 'Fasteignagjöld hafa hækkað óhóflega — við breytum þessu. Nýtum svigrúmið til að lækka fasteignagjöld á íbúa og fyrirtæki. Hagræðum í stjórnsýslunni til að fjármagna metnaðarfulla þjónustu, höldum aftur af verðhækkunum og förum yfir fasteignir bæjarins til að hámarka nýtingu.',
+        source_quote: 'Fasteignagjöld hafa hækkað óhóflega. Við breytum þessu. Svigrúmið sem er til staðar verður nýtt til að lækka fasteignagjöld á íbúa og fyrirtæki.',
+      },
+      {
+        icon: '🏛️',
+        title: 'Ríkið',
+        text: 'Vinnum markvisst með ríkisstjórninni: stækkun og efling Sjúkrahússins á Akureyri, ný þyrlusveit Landhelgisgæslunnar staðsett á Akureyri, stækkun VMA og hröðun uppbyggingar hjúkrunarheimila. Þrýstum á samgöngubætur að Skógarböðum. Nei takk við sjókvíaeldi í Eyjafirði.',
+        source_quote: 'Við vinnum markvisst með ríkisstjórninni. Stækkun og efling Sjúkrahússins á Akureyri er lykilatriði fyrir byggð á Norðausturlandi.',
+      },
     ],
     list: [
-      [1, 'Þórhallur Jónsson', 'Framkvæmdastjóri og varabæjarfulltrúi', 'images/candidates/01a91db2259a8ee0.jpg', {
+      [1, 'Þórhallur Jónsson', 'Framkvæmdastjóri og varabæjarfulltrúi', 'images/candidates/5a4632ee006e5582.jpg', {
         age: 59,
         bio: 'Þórhallur Jónsson er framkvæmdastjóri og varabæjarfulltrúi á Akureyri, fæddur 24. maí 1966 í Hafnarfirði og uppalinn á Akureyri. Hann hefur um 40 ára reynslu í verslun og þjónustu og var varabæjarfulltrúi með Sjálfstæðisflokknum 2018, en gekk úr flokknum 2026 og stofnaði eigin lista – Akureyrarlistann – fyrir sveitarstjórnarkosningarnar. Hann segir sjálfan sig mikinn Akureyring, er giftur Ingu Vestmann og eiga þau 3 börn og 5 barnabörn sem eru öll búsett hér í nágrenninu.\n\nÞórhallur hefur setið í skipulagsráði í 8 ár og segist brenna fyrir atvinnu og skipulagsmálum og uppbyggingu Akureyrar. Hann vill sjá samfélag þar sem hugað er að þörfum allra íbúa og þjónustu stigið sé hátt, skólar séu framúrskarandi, afþreying sé fjölbreytt, stuðlað sé að almennri lýðheilsu og atvinnulífið blómstri. Hann starfar sem varabæjarfulltrúi, býr í einbýlishúsi og hefur lokið iðnnámi. Hann talar ensku auk íslensku, og um Akureyrarlistann segir hann að um nýtt framboð sé að ræða.\n\nAðspurður hvernig hann vilji að Akureyri verði eftir tíu ár segir Þórhallur að bærinn hafi vaxið töluvert og að hér sé allt að gerast. Ef hann þyrfti að flytja í annað sveitarfélag myndi Eyjafjarðarsveit eða Svalbarðsströnd verða fyrir valinu. Fyrirmynd hans í pólitík er Davíð Oddsson. Hann heldur mest upp á Bruce Springsteen, bókina Illusions eftir Richard Bach og kvikmyndina Subway, og aðaláhugamál hans er ljósmyndun.',
         heimild: [{ url: 'https://www.ruv.is/frettir/innlent/2026-03-27-thorhallur-leidir-akureyrarlistann-471175', label: 'ruv.is' }, { url: 'https://www.kaffid.is/thorhallur-teflir-fram-nyjum-lista/', label: 'kaffid.is' }, { url: 'https://www.mbl.is/frettir/innlent/2026/01/29/thorhallur_fer_fram_i_1_saeti_og_krefst_profkjors/', label: 'mbl.is' }, { url: 'https://kosningaprof.ruv.is/frambjodandi/orhallur-jonsson-6000-a-1/', label: 'RÚV kosningapróf' }],
@@ -2387,7 +2432,7 @@ const AKU = {
           { title: 'Þórhallur hjólar í tillögur ráðherra', url: 'https://www.mbl.is/frettir/innlent/2025/12/21/thorhallur_hjolar_i_tillogur_radherra/', source: 'mbl.is' },
         ],
       }],
-      [2, 'Karen Sigurbjörnsdóttir', 'Mannauðsfulltrúi', 'images/candidates/387b2edd4a103cb5.jpg', {
+      [2, 'Karen Sigurbjörnsdóttir', 'Mannauðsfulltrúi', 'images/candidates/26ad89451d30d874.jpg', {
         age: null,
         bio: 'Karen Sigurbjörnsdóttir er mannauðsfulltrúi við Sjúkrahúsið á Akureyri og er í 2. sæti á Akureyrarlistanum í sveitarstjórnarkosningum 2026. Hún leggur áherslu á heilbrigðismál og mannauðsmál í þágu íbúa Akureyrar. Karen er fædd árið 1993 á Íslandi, er gift og tveggja barna móðir. Hún býr á Akureyri og hefur nánast alla tíð gert, og býr í einbýlishúsi.\n\nKaren talar ensku og norsku auk íslensku og hefur lokið Bs gráðu. Hún hefur verið í flokknum í einn mánuð eða svo og segir að flokkurinn sé nýstofnaður. Hún vill að Akureyri verði „Geggjað!“ eftir tíu ár. Ef hún þyrfti að flytja í annað sveitarfélag yrði Hafnarfjörður kannski fyrir valinu. Fyrirmynd hennar í pólitík er Hildur Björnsdóttir, uppáhaldstónlistarmaðurinn eða hljómsveitin er Bastille, hún heldur mest upp á kvikmyndina Stella í orlofi og aðaláhugamál hennar eru skíði.',
         heimild: [{ url: 'https://www.ruv.is/frettir/innlent/2026-03-27-thorhallur-leidir-akureyrarlistann-471175', label: 'ruv.is' }, { url: 'https://kaffid.is/efstu-sjo-saetin-a-lista-akureyrarlistans-kynnt/', label: 'kaffid.is' }, { url: 'https://kosningaprof.ruv.is/frambjodandi/karen-sigurbjornsdottir-6000-a-2/', label: 'RÚV kosningapróf' }],
@@ -2398,7 +2443,7 @@ const AKU = {
           { title: 'Þórhallur, Karen og Helgi Steinar', url: 'https://www.akureyri.net/is/moya/news/thorhallur-karen-og-helgi-steinar', source: 'akureyri.net' },
         ],
       }],
-      [3, 'Helgi Steinar Halldórsson', 'Fasteignasali og lýsingahönnuður', 'images/candidates/1d6f10eaca9e7985.jpg', {
+      [3, 'Helgi Steinar Halldórsson', 'Fasteignasali og lýsingahönnuður', 'images/candidates/6e89ca5725f65706.jpg', {
         age: null,
         bio: 'Helgi Steinar Halldórsson er löggiltur fasteignasali hjá Kasafasteignum á Akureyri og ljósmyndari að áhuga. Hann er í 3. sæti á Akureyrarlistanum og tengir þekkingu á fasteignamarkaði saman við áhuga á samfélagsþróun Akureyrar. Helgi er fæddur á Akureyri 21. september 1984 og hefur búið þar nær alla sína ævi. Hann er kvæntur Guðnýju Völu og þau eiga tvo drengi, Hlyn Orra, 14 ára, og Hilmi Kató, 10 ára. Hann býr í raðhúsi og talar ensku auk íslensku.\n\nÍ dagvinnunni starfar Helgi sem fasteignasali, en tekur einnig að sér ljósahönnun og lýsingu á tónlistarviðburðum og ljósmyndar af og til. Hann er stúdent, lauk bóklega hluta rafvirkjans í Verkmenntaskólanum á Akureyri og síðar löggildingu fasteignasala hjá endurmenntun HÍ. Um Akureyrarlistann segir hann að þetta sé nýr flokkur og að hann hafi verið í honum frá upphafi, eða í c.a mánuð. Hann segist vilja sjá Akureyri vaxa á næstu tíu árum, með talsvert auknum íbúafjölda, sterku atvinnulífi, góðu aðgengi að menntun og góðum lífsgæðum fyrir bæjarbúa alla. Ef hann þyrfti að flytja í annað sveitarfélag yrði Hafnarfjörður eða Mosó fyrir valinu. Helgi hefur mjög mikinn áhuga á tækni, þróun hennar og notkun í daglegu lífi, og nefnir einnig ferðalög, golf, hjólreiðar og ljósmyndun sem aðaláhugamál. Hann segir ekki hægt að gera upp á milli allra þeirra frábæru tónlistarmanna sem Ísland hefur alið, heldur mest upp á Fight Club eða The Matrix og segir að hann hafi lesið tvær bækur, báðar eftir Yrsu, og að önnur sé aðeins betri en hin.',
         heimild: [{ url: 'https://www.ruv.is/frettir/innlent/2026-03-27-thorhallur-leidir-akureyrarlistann-471175', label: 'ruv.is' }, { url: 'https://www.kasafasteignir.is/starfsmenn/details/helgi@kasafasteignir.is', label: 'kasafasteignir.is' }, { url: 'https://ff.is/member/helgi-steinar-halldorsson/', label: 'ff.is' }, { url: 'https://kosningaprof.ruv.is/frambjodandi/helgi-steinar-halldorsson-6000-a-3/', label: 'RÚV kosningapróf' }],
@@ -2409,7 +2454,7 @@ const AKU = {
           { title: 'Þórhallur, Karen og Helgi Steinar', url: 'https://www.akureyri.net/is/moya/news/thorhallur-karen-og-helgi-steinar', source: 'akureyri.net' },
         ],
       }],
-      [4, 'Kristrún María Björnsdóttir', 'Doktorsnemi', null, {
+      [4, 'Kristrún María Björnsdóttir', 'Doktorsnemi', 'images/candidates/8eb1d04471dfa250.jpg', {
         age: null,
         bio: 'Kristrún María Björnsdóttir er doktorsnemandi í heilbrigðisvísindum við Háskólann á Akureyri og kennari að hluta, fædd 1991 og uppalin á Akureyri. Hún lauk meistaranámi í íþróttalífeðlisfræði og flutti aftur til Akureyrar árið 2024 eftir nám í Noregi og Reykjavík. Kristrún er 34 ára og býr á Akureyri í eigin húsnæði ásamt eiginmanni sínum og þremur börnum á leik- og grunnskólaaldri.\n\nHún er stundakennari og doktorsnemi í heilbrigðisvísindum við Háskólann á Akureyri, þar sem hún rannsakar heilsu ungs fólks. Hún hefur verið í Akureyrarlistanum frá stofnun. Kristrún er fædd á Íslandi, hefur lokið meistaragráðu, talar norsku og ensku auk íslensku og nefnir skíði og ferðalög sem aðaláhugamál. Ef hún þyrfti að flytja í annað sveitarfélag yrði Mosfellsbær fyrir valinu. Hún er í framboði fyrir Akureyrarlistann því hún vill leggja sitt af mörkum til að gera bæinn að enn betri stað fyrir alla sem þar vilja búa.',
         heimild: [{ url: 'https://www.ruv.is/frettir/innlent/2026-03-27-thorhallur-leidir-akureyrarlistann-471175', label: 'ruv.is' }, { url: 'https://kaffid.is/efstu-sjo-saetin-a-lista-akureyrarlistans-kynnt/', label: 'kaffid.is' }, { url: 'https://kosningaprof.ruv.is/frambjodandi/kristrun-maria-bjornsdottir-6000-a-4/', label: 'RÚV kosningapróf' }],
@@ -2419,7 +2464,7 @@ const AKU = {
           { title: 'Þórhallur leiðir Akureyrarlistann', url: 'https://www.ruv.is/frettir/innlent/2026-03-27-thorhallur-leidir-akureyrarlistann-471175', source: 'ruv.is' },
         ],
       }],
-      [5, 'Darri Rafn Hólmarsson', 'Tölvunarfræðingur og DJ', null, {
+      [5, 'Darri Rafn Hólmarsson', 'Tölvunarfræðingur og DJ', 'images/candidates/85b1936841b19c42.jpg', {
         age: null,
         bio: 'Darri Rafn Hólmarsson er tölvunarfræðingur og plötusnúður og starfar sem gagnasérfræðingur. Hann skipar 5. sæti á Akureyrarlistanum í sveitarstjórnarkosningum 2026. Darri er 35 ára faðir, fæddur árið 1991 á Íslandi, og segir sig vera Akureyring í húð og hár. Hann hefur lokið bakkalárgráðu, býr í fjölbýli og talar ensku auk íslensku.\n\nDarri hefur verið í Akureyrarlistanum í 1 mánuð. Um Akureyri eftir tíu ár nefnir hann að hann vilji sjá sveitarfélagið enn öflugra, enn jákvæðara, með meira samráð við bæjarbúa, meiri heilsu, betri tengingu við útlönd og aukna möguleika á sérfræðistörfum, til dæmis í gegnum fjarvinnu og fjarnám. Ef hann þyrfti að flytja í annað sveitarfélag myndi Eyjafjarðarsveit verða fyrir valinu. Fyrirmynd hans í pólitík er Martin Luther King.\n\nUppáhaldstónlistarmaður Darras er Common. Af bókum segir hann að Tesla And The Pyramid standi upp úr á síðustu árum, uppáhaldskvikmyndin er Rush Hour og aðaláhugamál hans er líkamsrækt. Í kynningu á sjálfum sér segist hann brenna fyrir því að gera bæinn okkar enn betri og ætla að leggja sitt af mörkum með Akureyrarlistanum.', heimild: [{ url: 'https://kaffid.is/efstu-sjo-saetin-a-lista-akureyrarlistans-kynnt/', label: 'kaffid.is' }, { url: 'https://www.akureyri.net/is/frettir/akureyrarlistinn-birtir-nofn-sjo-efstu', label: 'akureyri.net' }, { url: 'https://is.linkedin.com/in/darrirafn', label: 'LinkedIn — sjálfsbirt starfsupplýsingar' }, { url: 'https://kosningaprof.ruv.is/frambjodandi/darri-rafn-holmarsson-6000-a-5/', label: 'RÚV kosningapróf' }],
         interests: null,
@@ -2428,22 +2473,22 @@ const AKU = {
           { title: 'Þórhallur leiðir Akureyrarlistann', url: 'https://www.ruv.is/frettir/innlent/2026-03-27-thorhallur-leidir-akureyrarlistann-471175', source: 'ruv.is' },
         ],
       }],
-      [6, 'Dana Rán Jónsdóttir', 'Líftæknifræðingur', null, { age: null, bio: 'Dana Rán Jónsdóttir er 35 ára gömul og fædd árið 1990 á Íslandi. Hún er fædd og uppalin á Akureyri og segist vilja hvergi annars staðar búa. Dana er í sambúð, á eitt barn og annað á leiðinni.\n\nHún starfar sem sérfræðingur hjá Rannsóknamiðstöð Háskólans á Akureyri og hefur lokið Ms gráðu. Dana talar ensku auk íslensku. Hún er í framboði fyrir Akureyrarlistann, sem er nýtt framboð.', interests: null, social: null, heimild: [{ url: 'https://kosningaprof.ruv.is/frambjodandi/dana-ran-jonsdottir-6000-a-6/', label: 'RÚV kosningapróf' }], news: [] }],
-      [7, 'Vilmundur Aðalsteinn Árnason', 'Framkvæmdastjóri og fyrrverandi sjómaður'],
-      [8, 'Guðjón Andri Gylfason', 'Framhaldsskólakennari og lífefnafræðingur', null, { age: null, bio: 'Guðjón Andri Gylfason er fæddur árið 1968 á Íslandi. Hann er með meistaragráðu í lífefnafræði og starfar sem menntaskólakennari; í svörum sínum kemur fram að hann kenni efnafræði við MA. Hann býr í blokkaríbúð og talar ensku og hrafl í spænsku auk íslensku. Hann segir sjálfur að hann sé nýliði í sínum flokki.\n\nAuk starfs síns er Guðjón Andri sjálfboðaliði hjá Þór, þar sem hann er formaður körfuknattleiksdeildar félagsins. Körfubolti er aðaláhugamál hans, og í frístundum stundar hann einnig kæjakróður og er að læra að dansa latino dansa. Hann á tvær dætur og fimm afabörn. Um Akureyri segir hann að hann sjái fyrir sér vaxandi bæ með fjölbreyttu mannlífi á sviðum menntunar, menningar og íþrótta, og ef hann þyrfti að flytja í annað sveitarfélag væri svarið einfalt: „Vill bara Akureyri.“ Hann heldur upp á Pink Floyd og eftirlætisbók hans er Organic Chemistry.', interests: null, social: null, heimild: [{ url: 'https://kosningaprof.ruv.is/frambjodandi/gudjon-andri-gylfason-6000-a-8/', label: 'RÚV kosningapróf' }], news: [] }],
-      [9, 'Elfa Ágústsdóttir', 'Dýralæknir'],
-      [10, 'Pavel Víking Landa', 'Byggingarverktaki og byggingameistari'],
-      [11, 'Rannveig Hansen Jónsdóttir', 'Fjármálastjóri'],
-      [12, 'Hilmar Friðjónsson', 'Framhaldsskólakennari', null, { age: null, bio: 'Hilmar Friðjónsson er framhaldsskólakennari á Akureyri og býður sig fram fyrir Akureyrarlistann. Hann er fæddur árið 1967 á Íslandi, býr í eigin húsnæði og talar ensku auk íslensku. Hann hefur lokið Bsc og kennsluréttindanámi og hefur verið í sínum flokki í 4 mánuði.\n\nHilmar segir frá því að hann sé áhugamaður um áhugamál s.s. menntun, tækni, ljósmyndun og kvikmyndagerð. Hann hefur gaman af fólki og nýtur þess sérstaklega að vera með systkinabörnum sínum. Aðaláhugamál hans er ljósmyndun. Hann heldur mest upp á kvikmyndina Shawshank Redemption, uppáhaldstónlistarmaður hans er Emmsé Gauti og eftirlætisbækur hans eru Birtingur eftir Voltaire, Homo Sapien eftir Yuval Noah Harari og Outliers eftir Malcolm Gladwell.\n\nUm Akureyri segir Hilmar að hann vilji að sveitarfélagið verði eftir tíu ár eftirsóknarvert að búa í, framsækið og sveitarfélag með góða möguleika til að stækka og sé jafngilt Reykjavíkursvæðinu sem búsetumöguleiki. Ef hann yrði að flytja í annað sveitarfélag yrði ekkert annað fyrir valinu. Fyrirmynd hans í pólitík er Þórdís Kolbrún Reykfjörð Gylfadóttir.', interests: null, social: null, heimild: [{ url: 'https://kosningaprof.ruv.is/frambjodandi/hilmar-fridjonsson-6000-a-12/', label: 'RÚV kosningapróf' }], news: [] }],
-      [13, 'Fríða Kristín Hreiðarsdóttir', 'Grunnskólakennari'],
-      [14, 'Friðbjörn Benediktsson', 'Rekstrarstjóri'],
-      [15, 'Harpa Þórey Sigurðardóttir', 'Þjónustufulltrúi'],
-      [16, 'Elvar Freyr Pálsson', 'Viðskiptafræðinemi'],
-      [17, 'Axel Darri Þórhallsson', 'Efnisframleiðandi'],
+      [6, 'Dana Rán Jónsdóttir', 'Líftæknifræðingur', 'images/candidates/a6a715b732662eda.jpg', { age: null, bio: 'Dana Rán Jónsdóttir er 35 ára gömul og fædd árið 1990 á Íslandi. Hún er fædd og uppalin á Akureyri og segist vilja hvergi annars staðar búa. Dana er í sambúð, á eitt barn og annað á leiðinni.\n\nHún starfar sem sérfræðingur hjá Rannsóknamiðstöð Háskólans á Akureyri og hefur lokið Ms gráðu. Dana talar ensku auk íslensku. Hún er í framboði fyrir Akureyrarlistann, sem er nýtt framboð.', interests: null, social: null, heimild: [{ url: 'https://kosningaprof.ruv.is/frambjodandi/dana-ran-jonsdottir-6000-a-6/', label: 'RÚV kosningapróf' }], news: [] }],
+      [7, 'Vilmundur Aðalsteinn Árnason', 'Framkvæmdastjóri og fyrrverandi sjómaður', 'images/candidates/05b6f28d433b6cfa.jpg'],
+      [8, 'Guðjón Andri Gylfason', 'Framhaldsskólakennari og lífefnafræðingur', 'images/candidates/4542206f4ed2113e.jpg', { age: null, bio: 'Guðjón Andri Gylfason er fæddur árið 1968 á Íslandi. Hann er með meistaragráðu í lífefnafræði og starfar sem menntaskólakennari; í svörum sínum kemur fram að hann kenni efnafræði við MA. Hann býr í blokkaríbúð og talar ensku og hrafl í spænsku auk íslensku. Hann segir sjálfur að hann sé nýliði í sínum flokki.\n\nAuk starfs síns er Guðjón Andri sjálfboðaliði hjá Þór, þar sem hann er formaður körfuknattleiksdeildar félagsins. Körfubolti er aðaláhugamál hans, og í frístundum stundar hann einnig kæjakróður og er að læra að dansa latino dansa. Hann á tvær dætur og fimm afabörn. Um Akureyri segir hann að hann sjái fyrir sér vaxandi bæ með fjölbreyttu mannlífi á sviðum menntunar, menningar og íþrótta, og ef hann þyrfti að flytja í annað sveitarfélag væri svarið einfalt: „Vill bara Akureyri.“ Hann heldur upp á Pink Floyd og eftirlætisbók hans er Organic Chemistry.', interests: null, social: null, heimild: [{ url: 'https://kosningaprof.ruv.is/frambjodandi/gudjon-andri-gylfason-6000-a-8/', label: 'RÚV kosningapróf' }], news: [] }],
+      [9, 'Elfa Ágústsdóttir', 'Dýralæknir', 'images/candidates/5e071e3e0f3147f3.jpg'],
+      [10, 'Pavel Víking Landa', 'Byggingarverktaki og byggingameistari', 'images/candidates/0369b48bf233392c.jpg'],
+      [11, 'Rannveig Hansen Jónsdóttir', 'Fjármálastjóri', 'images/candidates/6db55f784a49cd98.jpg'],
+      [12, 'Hilmar Friðjónsson', 'Framhaldsskólakennari', 'images/candidates/cb52b258635a6180.jpg', { age: null, bio: 'Hilmar Friðjónsson er framhaldsskólakennari á Akureyri og býður sig fram fyrir Akureyrarlistann. Hann er fæddur árið 1967 á Íslandi, býr í eigin húsnæði og talar ensku auk íslensku. Hann hefur lokið Bsc og kennsluréttindanámi og hefur verið í sínum flokki í 4 mánuði.\n\nHilmar segir frá því að hann sé áhugamaður um áhugamál s.s. menntun, tækni, ljósmyndun og kvikmyndagerð. Hann hefur gaman af fólki og nýtur þess sérstaklega að vera með systkinabörnum sínum. Aðaláhugamál hans er ljósmyndun. Hann heldur mest upp á kvikmyndina Shawshank Redemption, uppáhaldstónlistarmaður hans er Emmsé Gauti og eftirlætisbækur hans eru Birtingur eftir Voltaire, Homo Sapien eftir Yuval Noah Harari og Outliers eftir Malcolm Gladwell.\n\nUm Akureyri segir Hilmar að hann vilji að sveitarfélagið verði eftir tíu ár eftirsóknarvert að búa í, framsækið og sveitarfélag með góða möguleika til að stækka og sé jafngilt Reykjavíkursvæðinu sem búsetumöguleiki. Ef hann yrði að flytja í annað sveitarfélag yrði ekkert annað fyrir valinu. Fyrirmynd hans í pólitík er Þórdís Kolbrún Reykfjörð Gylfadóttir.', interests: null, social: null, heimild: [{ url: 'https://kosningaprof.ruv.is/frambjodandi/hilmar-fridjonsson-6000-a-12/', label: 'RÚV kosningapróf' }], news: [] }],
+      [13, 'Fríða Kristín Hreiðarsdóttir', 'Grunnskólakennari', 'images/candidates/cc1dc3fdee7c0707.jpg'],
+      [14, 'Friðbjörn Benediktsson', 'Rekstrarstjóri', 'images/candidates/de03d0bb8c3f9049.jpg'],
+      [15, 'Harpa Þórey Sigurðardóttir', 'Þjónustufulltrúi', 'images/candidates/8d1bf3e44e8344d0.jpg'],
+      [16, 'Elvar Freyr Pálsson', 'Viðskiptafræðinemi', 'images/candidates/c834c2704fae2bdc.jpg'],
+      [17, 'Axel Darri Þórhallsson', 'Efnisframleiðandi', 'images/candidates/eeadd23654a8da7a.jpg'],
       [18, 'Ingibjörg Bergmann Bragadóttir', 'Frambjóðandi'],
-      [19, 'Rúnar Þór Björnsson', 'Ljósmyndari'],
+      [19, 'Rúnar Þór Björnsson', 'Ljósmyndari', 'images/candidates/65eeff1df1e6d56f.jpg'],
     
-      [20, 'Ingibjörg Margrét Þórhallsdóttir', 'Frambjóðandi'],
+      [20, 'Ingibjörg Margrét Þórhallsdóttir', 'Frambjóðandi', 'images/candidates/8df478d4b15dfae6.jpg'],
     ],
   },
 
