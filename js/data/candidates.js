@@ -322,15 +322,39 @@ const RVK = {
     ],
   },
   S: {
-    tagline: 'Borg fyrir fólk',
+    tagline: 'Borg fyrir fólk — Sterk velferð, stolt Reykjavík',
     platformUrl: 'https://xs.is/borg-fyrir-folk',
     agenda: [
-      { icon: '🏙️', title: 'Borg fyrir fólk', text: 'Stjórnsýsla miðuð að þörfum borgarbúa; fólkið í fyrirrúmi í öllum ákvörðunum Reykjavíkur.' },
-      { icon: '🎭', title: 'Menningarlíf', text: 'Öflug áhersla á lifandi menningarlíf með auknu fjármagni til menningarmála.' },
-      { icon: '📚', title: 'Menntun og æskulýður', text: 'Frístundaframlag hvers barns hækkað úr 50.000 í 75.000 kr.; stuðningur við gæði leikskóla; ókeypis skólalundir.' },
-      { icon: '🤝', title: 'Aðgengileg þjónusta', text: 'Gera þjónustu borgar aðgengilegri og minna skrifræðislega; minnka þvæli í bílastæðum, stígum og skipulagsmálum.' },
-      { icon: '⚖️', title: 'Jafnrétti og mannréttindi', text: 'Jafnréttisborg, mannréttindi, lífsgæði og sjálfbærni; fjölmenningarstefna.' },
-      { icon: '🚌', title: 'Strætó fyrir börn', text: 'Ókeypis strætófarið fyrir börn yngri en 16 ára.' },
+      {
+        icon: '👶',
+        title: 'Setjum börnin í fyrsta sæti',
+        text: 'Leikskóli er fyrsta skólastig: 600 mkr. í aukna mönnun og betra starfsumhverfi, 1.500 ný leikskólapláss og 10 milljarðar til viðbótar í viðhald og uppbyggingu á kjörtímabilinu, ásamt systkinaforgangi. Í grunnskóla aukin íslenskukennsla barna með annað móðurmál, fjölgun sálfræðinga og félagsráðgjafa innan skólanna og 600 mkr á ári í bættar starfsaðstæður. Börn frá tekjulágum heimilum fá fulla niðurgreiðslu á einni tómstund og frístundastarf 10–18 ára eflt.',
+        source_quote: 'Samfylkingin setur börn og fjölskyldur í forgang í Reykjavík. Það gerum við með auknum krafti í leikskólamálum, markvissri uppbyggingu í skólakerfinu og skýrri ábyrgð á velferð barna.',
+      },
+      {
+        icon: '🏗️',
+        title: 'Slagkraftur í húsnæðisuppbyggingu',
+        text: 'Byggja 6.000 nýjar íbúðir í Reykjavík á næstu fjórum árum, með áherslu á Ártúnshöfða, Keldnaland, Halla í Úlfarsárdal, Elliðaárvog og Vogabyggð, ásamt þéttingu í eldri hverfum eins og Mjódd og Skeifu. Halda áfram að styðja við óhagnaðardrifin húsnæðisfélög svo ungt fólk, einstæðir foreldrar, eldra fólk, fatlað fólk, lágtekjufólk og háskólanemar hafi raunhæfa kosti. Áhersla á fjölbreytta byggð, 15 mínútna hverfi og gott aðgengi að grænum svæðum og þjónustu.',
+        source_quote: 'Húsnæði er undirstaða jafnaðar og mannvænnar borgar. Samfylkingin vill byggja upp húsnæðismarkað þar sem öll geta fundið sér heimili við hæfi, þar sem húsnæðisöryggi er tryggt, meðal annars með óhagnaðardrifinni uppbyggingu.',
+      },
+      {
+        icon: '🚌',
+        title: 'Fulla ferð áfram í samgöngumálum',
+        text: 'Hrinda samgöngusáttmálanum í framkvæmd að fullu — Sæbrautarstokkur, Miklubrautargöng og Borgarlína í forgangi án málamiðlana á gæðum. Bæta strætó á meðan Borgarlína byggist upp með fleiri forgangsakreinum og betri tíðni um helgar. Gönguvænni borg með bættum hjólastígum og vetrarþjónustu og draga úr óþarfa flugumferð (einkaþotum, þyrlu- og kennsluflugi) um Reykjavíkurflugvöll. Stefnt að kolefnishlutleysi 2030.',
+        source_quote: 'Samfylkingin vill byggja upp samgöngukerfi í Reykjavík sem mætir þörfum fólks og daglegu lífi þess. Markmiðið er að fólk komist leiðar sinnar á einfaldan og öruggan hátt, hafi val um ferðamáta og geti sinnt daglegum erindum sínum án óþarfa álags.',
+      },
+      {
+        icon: '💼',
+        title: 'Rauði dregillinn fyrir fólk og atvinnulíf',
+        text: 'Stytta biðtíma í leyfisveitingum með einfaldari ferlum og skýrum tímamörkum; einn fastur tengiliður borgar fyrir fyrirtæki. Skapa aðstæður fyrir öflugt og fjölbreytt atvinnulíf, efla samstarf háskóla og atvinnulífs og bæta aðgengi að hentugu atvinnuhúsnæði. Aginn rekstur með reglulegum úttektum; Orkuveitan og Faxaflóahafnir verða aldrei seld úr opinberri eigu.',
+        source_quote: 'Reykjavíkurborg á að vera í liði með þeim sem vilja byggja upp, þróa og fjárfesta. Við viljum „rúlla út rauða dreglinum" fyrir fólk og fyrirtæki sem vilja láta gott af sér leiða í borginni.',
+      },
+      {
+        icon: '🎭',
+        title: 'Gott og gaman að búa í borginni',
+        text: 'Efla menningarlíf í öllum hverfum — bæta aðstöðu fyrir tónleika, sviðslistir og skapandi greinar; styðja við samfélagshús, bókasöfn og smærri rekstur. Aukin heimaþjónusta og málstjóri fyrir eldra fólk; áframhald uppbyggingar húsnæðis og NPA-þjónustu fyrir fatlað fólk; allar almenningssamgöngur aðgengilegar. Efla sundlaugar og baðmenningu, ljúka Vetrargarðinum í Breiðholti og byggja upp íþróttamannvirki og Þjóðarhöll í Laugardal.',
+        source_quote: 'Samfylkingin ætlar að þróa Reykjavík sem borg þar sem náttúra, menning og öflugt íþróttastarf mætast og skapa einstök lífsgæði.',
+      },
     ],
     list: [
       [1, 'Pétur H. Marteinsson', 'Rekstrarstjóri og fv. knattspyrnumaður',    'images/candidates/0029111166d51ecf.png', {
