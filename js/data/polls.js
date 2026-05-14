@@ -24,6 +24,41 @@ export const POLLS = {
   // Newest first.
   reykjavik: [
     {
+      // Kosningaspá Vísis (Baldur Héðinsson), uppfærð 14. maí 2026 miðað við
+      // nýjustu könnun Maskínu.
+      // https://www.visir.is/g/20262883168d/kosningaspa-visis-stodug-leiki-ad-komast-a-fylgi-i-borginni
+      // Numbers read exactly from the embedded Infogram bar chart
+      // ("kosningaspa sulur BORGIN v5 - 14. maí 2026",
+      //  https://e.infogram.com/d5209162-36b5-47ae-ba1d-f4bc10b644f9).
+      // Sum of all 11 lists = 100.0.
+      // D'Hondt vs 23 seats: D 7 · S 5 · A 3 · C 3 · M 2 · B 1 · J 1 · P 1
+      // Matches the article's narrative: "Sjö sjálfstæðismenn, fimm
+      // samfylkingarmenn"; Vinstrið með mestar líkur á þremur fulltrúum.
+      totalSeats: 23,
+      source: {
+        pollster:    'Kosningaspá Vísis',
+        pollsterGen: 'Kosningaspár Vísis',
+        period:      '14. maí 2026',
+        period_en:   'May 14, 2026',
+        period_pl:   '14 maja 2026',
+        sample:      null,
+        url:         'https://www.visir.is/g/20262883168d/kosningaspa-visis-stodug-leiki-ad-komast-a-fylgi-i-borginni',
+      },
+      parties: {
+        D: { pct: 28.4, seats: 7 },
+        S: { pct: 19.9, seats: 5 },
+        A: { pct: 12.5, seats: 3 },
+        C: { pct: 11.4, seats: 3 },
+        M: { pct:  8.7, seats: 2 },
+        B: { pct:  5.2, seats: 1 },
+        J: { pct:  4.2, seats: 1 },
+        P: { pct:  4.2, seats: 1 },
+        F: { pct:  3.2, seats: 0 },
+        R: { pct:  1.3, seats: 0 },
+        G: { pct:  1.0, seats: 0 },
+      },
+    },
+    {
       // Maskína via Vísir, 29. apríl – 6. maí 2026 (n ekki tilgreint).
       // https://www.visir.is/g/20262879317d/sjalfstaedisflokkur-eykur-forskotid-a-samfylkingu-i-reykjavik
       // Numbers read from the embedded Infogram chart in the article

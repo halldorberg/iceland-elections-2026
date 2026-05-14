@@ -52,6 +52,7 @@ images/candidates/8235d56083c9dae9.png
 images/candidates/86ca02f544ccd76e.jpg
 images/candidates/8985b8d7d2e3be01.jpg
 images/candidates/8c7b9c3b7f08714a.jpg
+images/candidates/8df478d4b15dfae6.jpg
 images/candidates/915a523717840bd2.jpg
 images/candidates/92838f05cf725b84.jpg
 images/candidates/94d71f5b69ba6425.jpg
@@ -93,8 +94,6 @@ images/candidates/ee9d4ea06a67a8ed.jpg
 images/candidates/efc93911d1f1c75f.png
 images/candidates/f1617a4367f0701e.jpg
 images/candidates/f28510dc32ee7d1a.jpg
-images/candidates/f685e0d8b362eb3a.jpg
 images/candidates/f6ae37ca115f2f9d.jpg
-images/candidates/fa4c670ff3ad7977.jpg
 images/candidates/fcebbe2716fd3305.jpg
 images/candidates/ff97cc3bd0547fd7.jpg

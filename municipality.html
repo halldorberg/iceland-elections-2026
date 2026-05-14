@@ -92,7 +92,7 @@
       <span id="back-btn-text">Til baka á kort</span>
     </a>
     <div class="muni-header-info">
-      <div class="muni-name" id="muni-name">–</div>
+      <h1 class="muni-name" id="muni-name">–</h1>
       <div class="muni-region" id="muni-region">–</div>
     </div>
     <div class="muni-nav-right">
@@ -130,14 +130,14 @@
   </div>
 
   <!-- Election type notice (sjálfkjörið / óbundnar kosningar) -->
-  <div id="election-type-notice"></div>
+  <div id="election-type-notice" role="status" aria-live="polite"></div>
 
   <!-- Accordion -->
-  <section class="accordion-section">
+  <main class="accordion-section" id="main-content">
     <div class="accordion-container" id="accordion-container">
       <!-- Ribbons injected by JS -->
     </div>
-  </section>
+  </main>
 
   <!-- Disclaimer -->
   <div class="disclaimer-wrap" id="disclaimer-wrap">
@@ -169,7 +169,7 @@
   <div class="share-toast" id="share-toast" aria-live="polite"></div>
 
   <!-- Candidate Modal -->
-  <div class="modal-overlay" id="modal-overlay" role="dialog" aria-modal="true">
+  <div class="modal-overlay" id="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-name">
     <div class="modal-card" id="modal-card">
       <button class="modal-close" id="modal-close" aria-label="Loka">
         <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
@@ -235,7 +235,7 @@
   </div>
 
   <!-- App -->
-  <script type="module" src="/js/municipality.js?v=64"></script>
+  <script type="module" src="/js/municipality.js?v=65"></script>
   <script type="module" src="js/outreach.js?v=1"></script>
   <script>
     (function () {
