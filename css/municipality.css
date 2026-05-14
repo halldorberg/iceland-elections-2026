@@ -2690,12 +2690,21 @@ body.has-coalition-strip .random-tooltip { top: calc(var(--nav-h, 60px) + var(--
 .coalition-detail-table .cdt-s-mid  { color: #fde68a; }
 .coalition-detail-table .cdt-s-high { color: #fca5a5; }
 .coalition-detail-table tbody tr:hover { background: rgba(255,255,255,0.025); }
-.coalition-detail-table .cdt-smiley { font-size: 1.05rem; line-height: 1; }
-.coalition-detail-table .cdt-imp {
-  color: #fbbf24;
-  font-size: 0.75rem;
-  margin-left: 3px;
+.coalition-detail-table .cdt-p {
+  /* Stack smiley above a fixed-height "important" slot so cells with
+     and without a star are the same height (alignment stays even). */
 }
+.coalition-detail-table .cdt-smiley { font-size: 1.05rem; line-height: 1; display: block; }
+.coalition-detail-table .cdt-p-imp {
+  display: block;
+  height: 0.85rem;
+  font-size: 0.62rem;
+  line-height: 1;
+  margin-top: 2px;
+  color: #fbbf24;
+  text-align: center;
+}
+.coalition-detail-table .cdt-p-imp--placeholder { visibility: hidden; }
 
 /* Pairwise distances */
 .coalition-detail-pairs {
@@ -2918,7 +2927,10 @@ body.coalition-detail-open { overflow: hidden; }
   font-style: italic;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .coalition-banner { height: 36px; font-size: 0.72rem; letter-spacing: 0.1em; }
-  .coalition-cards { padding: 12px; gap: 10px; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); }
+  /* One column on every phone-class viewport — including large
+     phones (Pro Max ≈ 430px, S22 Ultra ≈ 412px) that used to squeeze
+     two narrow cards per row with the previous 180px minmax. */
+  .coalition-cards { padding: 12px; gap: 10px; grid-template-columns: 1fr; }
 }

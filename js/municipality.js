@@ -6,7 +6,7 @@ import { POLLS }        from './data/polls.js?v=4';
 import { EYE_POSITIONS } from './data/eye_positions.js?v=5';
 import { CLEAVAGES, STANCE_SMILEYS } from './data/cleavages.js?v=3';
 import { RUV_POSITIONS } from './data/ruv_positions.js?v=3';
-import { getLang, t, renderLangSwitcher, MUNI_DATIVE_IS } from './i18n.js?v=12';
+import { getLang, t, renderLangSwitcher, MUNI_DATIVE_IS } from './i18n.js?v=13';
 import { partySlug, partyCodeFromSlug, slugify } from './data/party_slugs.js?v=3';
 
 // ─── i18n ──────────────────────────────────────────────────
@@ -625,19 +625,25 @@ document.documentElement.lang = lang;
         <th class="cdt-s">${spreadCol}</th>
       </tr>`;
     const bodyRows = s.rows.map(r => {
+      // Per-question importance map: how many of each coalition party's
+      // candidates flagged this proposition as decisive.
+      const impByParty = (positionsMuni.questions[r.qid] && positionsMuni.questions[r.qid].importance) || {};
       const stanceCells = codes.map(code => {
         const v = r.perParty[code];
         const letter = meanToLetter(v);
         const smiley = STANCE_SMILEYS[letter] || '·';
-        return `<td class="cdt-p"><span class="cdt-smiley" title="${code}: ${v != null ? v.toFixed(2) : '–'}/4">${smiley}</span></td>`;
+        const impN = impByParty[code] || 0;
+        const star = impN > 0
+          ? `<span class="cdt-p-imp" title="${impN} ${(ui.coalitionDetailImpHint || 'frambjóðendur merktu mikilvægt')}">★</span>`
+          : `<span class="cdt-p-imp cdt-p-imp--placeholder" aria-hidden="true">★</span>`;
+        return `<td class="cdt-p"><span class="cdt-smiley" title="${code}: ${v != null ? v.toFixed(2) : '–'}/4">${smiley}</span>${star}</td>`;
       }).join('');
       const spreadCls = r.spread >= 2.5 ? 'cdt-s-high'
                       : r.spread >= 1.5 ? 'cdt-s-mid'
                       : r.spread >= 0.5 ? 'cdt-s-low' : 'cdt-s-none';
-      const impMark = r.impW > 0 ? ` <span class="cdt-imp" title="${r.impW} ${(ui.coalitionDetailImpHint || 'frambjóðendur merktu mikilvægt')}">★</span>` : '';
       return `
         <tr>
-          <td class="cdt-q">${escHTML(r.title)}${impMark}</td>
+          <td class="cdt-q">${escHTML(r.title)}</td>
           ${stanceCells}
           <td class="cdt-s ${spreadCls}">${r.spread.toFixed(2)}</td>
         </tr>`;
