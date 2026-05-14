@@ -172,15 +172,69 @@ const RVK = {
     ],
   },
   B: {
-    tagline: 'Í átt að betri borg — breyting í forgangi',
-    platformUrl: 'https://framsoknrvk.is/aherslurnar-okkar/',
+    tagline: 'Þetta snýst um fólkið í borginni',
+    platformUrl: 'https://www.framsoknrvk.is/stefnumal',
     agenda: [
-      { icon: '🔄', title: 'Stefnubreyting', text: 'Listinn endurspeglar þá sem vilja breyta forgangsröðun í stjórnun Reykjavíkur; markmið er róttækar breytingar á stefnumörkun borgarinnar.' },
-      { icon: '🏠', title: 'Húsnæðisöryggi', text: 'Tryggja húsnæðisöryggi allra íbúa og auka framboð á hagkvæmu húsnæði.' },
-      { icon: '🍼', title: 'Leikskólar og menntun', text: 'Leysa biðlistamál leikskóla; undirbúa menntun fyrir framtíðarkynslóðir.' },
-      { icon: '🌿', title: 'Umhverfismál', text: 'Skuldbinding við sjálfbæra þróun og endurnýjanlega orku í allri starfsemi borgar.' },
-      { icon: '🔧', title: 'Innviðir', text: 'Uppbygging öflugra innviðakerfis sem þjónar öllum hverfum jafnt.' },
-      { icon: '❤️', title: 'Heilbrigðis- og öldrunarþjónusta', text: 'Heilbrigðisþjónusta og reisn á efri árum — grundvöllur blómlægs samfélags.' },
+      {
+        icon: '👶',
+        title: 'Börnin í fyrsta sæti',
+        text: 'Setja á fót fjölskyldumiðstöð sem einfaldar samskipti við borgina og innleiða farsældarlögin betur. Frítt í sund fyrir 18 ára og yngri og gjaldfrjálst í Strætó fyrir grunn- og framhaldsskólanema. Eyða biðlistum eftir leikskólaplássum, jafna greiðslur foreldra fyrir leikskóla og dagforeldra frá 12 mánaða aldri, koma á systkina- og hverfisforgangi og bjóða heimgreiðslur til foreldra sem bíða dagvistunar. Í grunnskólum: samræmt námsmat, símafrí, námsver fyrir nemendur með stuðningsþörf og sálfræðiþjónusta í skólunum.',
+        source_quote: 'Framsókn vill að Reykjavíkurborg setji hagsmuni barna ávallt í fyrsta sæti.',
+      },
+      {
+        icon: '👵',
+        title: 'Gott að eldast í Reykjavík',
+        text: '60.000 kr. frístundastyrkur fyrir tekjulágt eldra fólk, samningar við hverfisíþróttafélög um íþróttastarf eldri borgara. Skipa tengilið sem heldur utan um mál eldra fólks í samstarfi við ríkið, efla samþættingu heimaþjónustu og heimahjúkrunar og fjölga dagdvalarrýmum. Koma aftur á fót virku öldungaráði og vinna gegn ofbeldi gegn eldra fólki með fræðslu og vitundarvakningu.',
+        source_quote: 'Framsókn vill að það sé gott að eldast í Reykjavík.',
+      },
+      {
+        icon: '🏠',
+        title: 'Heimili fyrir borgarbúa',
+        text: 'Auka lóðaframboð svo skipulagðar og byggingarhæfar lóðir séu til fyrir 3.000 íbúðir á hverjum tíma. Byggja upp ný hverfi á Keldum, Geldinganesi og í Úlfarsárdal samhliða innviðum. Þétta byggð aðeins þar sem það er skynsamlegt, í sátt við nærsamfélagið. Lágmark eitt bílastæði á hverja íbúð. Styðja óhagnaðardrifin leigufélög, halda 5% nýrra íbúða félagslegum og eyða biðlistum eftir búsetuúrræðum fyrir fatlað fólk.',
+        source_quote: 'Byggjum meira, fjölbreyttara og fallegra húsnæði. Tryggjum borgarbúum þak yfir höfuðið.',
+      },
+      {
+        icon: '🚌',
+        title: 'Greiðar samgöngur og valfrelsi',
+        text: 'Tryggja framgang Samgöngusáttmálans en breyta útfærslu Borgarlínu við Suðurlandsbraut. Hraða Sundabraut og knýja á um mislæg gatnamót við Bústaðaveg og Reykjanesbraut. Efla almenningssamgöngur með sérakreinum, bættu leiðakerfi og tíðari ferðum. Standa við samkomulag um Reykjavíkurflugvöll í Vatnsmýrinni. Fella niður gjaldskyldu bílastæða í miðborg eftir kl. 18:00 og lækka strætógjöld fyrir háskólanema.',
+        source_quote: 'Framsókn vill að samgöngur í borginni séu skilvirkar og öruggar og að fólk hafi valfrelsi um ferðamáta.',
+      },
+      {
+        icon: '🎭',
+        title: 'Lifandi menning og sterk hverfi',
+        text: 'Styðja við tónlistarskóla og bæta aðgengi barna að tónlistarnámi; efla bókasöfn sem menningarmiðstöðvar í öllum hverfum. Bæta aðgengi að grunnþjónustu í hverfum (m.a. heimila matvöruverslun við Úlfarsárdal), endurvekja íbúaráð í samvinnu við íbúasamtök og koma á árlegum hverfishátíðum í öllum hverfum borgarinnar.',
+        source_quote: 'Reykjavík á að vera lifandi menningarborg þar sem listir og skapandi greinar þrífast í öllum hverfum.',
+      },
+      {
+        icon: '🏊',
+        title: 'Velferð, lýðheilsa og íþróttir',
+        text: 'Tryggja að Þjóðarhöll rísi í Reykjavík og að Laugardalsvöllur sé þjóðarleikvangur í knattspyrnu. Lengja opnunartíma sundlauga til 22:00 alla daga og endurvekja miðnæturopnun á fimmtudögum; ný sundlaug í Fossvogi í samvinnu við Kópavog. Bæta aðstöðu í Skálafelli, Bláfjöllum og nýjum vetrargarði í Seljahverfi; sauna við ylströndina í Nauthólsvík.',
+        source_quote: 'Setja lýðheilsu og forvarnir í forgang og vinna áfram að því að verða heilsueflandi samfélag.',
+      },
+      {
+        icon: '💼',
+        title: 'Höfuðborg atvinnulífsins',
+        text: 'Lækka fasteignagjöld á atvinnuhúsnæði og tryggja lóðir fyrir fjölbreyttan atvinnurekstur. Einfalda leyfisveitingar, stytta boðleiðir og setja skýr tímamörk á afgreiðslu mála. Byggja áfram upp nýsköpunar- og vísindasamfélagið í Vatnsmýri og styrkja Reykjavík sem ferðamannastað á heimsmælikvarða.',
+        source_quote: 'Reykjavík á að vera höfuðborg atvinnulífsins á Íslandi. Framsókn ætlar að tryggja fyrirtækjum góð rekstrarskilyrði með skilvirkri, lausnamiðaðri og styðjandi stjórnsýslu.',
+      },
+      {
+        icon: '🌳',
+        title: 'Hrein, falleg og græn borg',
+        text: 'Stígar séu ruddir, götur hreinsaðar og sorp hirt reglulega. Kaupa ryksugubíla til að sjúga upp fínasta svifrykið af götum borgarinnar. Hlúa að grænum svæðum, fjölga matjurtagörðum og gróðurhúsum við leik- og grunnskóla. Stefna að kolefnishlutlausri borg og gera Reykjavík leiðandi í hringrásarhagkerfinu.',
+        source_quote: 'Hrein, falleg og græn borg þar sem útivist og náttúra eru aðgengileg öllum.',
+      },
+      {
+        icon: '🛡️',
+        title: 'Örugg borg',
+        text: 'Auka öryggi íbúa með öflugra samstarfi við lögreglu í hverfum borgarinnar. Fara í aðgerðir til að sporna við ofbeldi gegn börnum og auka fræðslu um stafrænt ofbeldi. Tryggja að miðborgin sé örugg að degi og nóttu og að skemmtanalíf raski ekki lífsgæðum íbúa.',
+        source_quote: 'Örugg borg þar sem íbúar finna sig örugga á heimili sínu, í hverfinu og í miðborginni.',
+      },
+      {
+        icon: '🏛️',
+        title: 'Forgangsröðun og skilvirk stjórnsýsla',
+        text: 'Forgangsraða fjármunum borgarinnar í þágu grunnþjónustu og standa vörð um þjónustu við börn, eldra fólk og fatlað fólk. Einfalda miðlæga stjórnsýslu og bæta rekstur. Reykjavíkurborg á að vera eftirsóttur vinnustaður — tryggja að stjórnskipulag og ferlar séu nútímalegir og skýrir, fjölga atvinnutækifærum fyrir fatlað fólk hjá borginni og innleiða gervigreind markvisst.',
+        source_quote: 'Forgangsröðum fjármunum borgarinnar í þágu þeirra sem treysta á þjónustu hennar.',
+      },
     ],
     list: [
       [1, 'Einar Þorsteinsson', 'Borgarfulltrúi', 'images/candidates/862fd60390612d54.jpg', {
@@ -919,15 +973,45 @@ const RVK = {
     ],
   },
   F: {
-    tagline: 'Fólkið fyrst',
+    tagline: 'Áherslurnar okkar — Reykjavík á að þjóna íbúum',
     platformUrl: 'https://flokkurfolksins.is/reykjavik/aherslumal.html',
     agenda: [
-      { icon: '👥', title: 'Fólkið fyrst', text: 'Samfélag þar sem allir geta lifað með reisn, öryggi og jöfn tækifæri; "lífsgæði eru ekki einkaréttur fárra".' },
-      { icon: '🏘️', title: 'Hagkvæmt húsnæði', text: 'Þróun á hagkvæmu húsnæði og smáíbúðum í samstarfi við félagslegar stofnanir; andvígt ofþéttingu.' },
-      { icon: '🍼', title: 'Leikskólamál', text: 'Verulega minnka biðlista; kanna fjölbreyttari og hagkvæmari leiðir til að auka leikskólapláss.' },
-      { icon: '🚌', title: 'Samgönguréttlæti', text: 'Bæta samgöngustreymi fyrir allar ferðamátar; kerfið verður að virka fyrir þá sem eru háðir bílum.' },
-      { icon: '📖', title: 'Grunnskólar', text: 'Áhersla á gæði menntunar, bættar lestrarkennslu, einstaklingsmiðaðan stuðning og vellíðan nemenda.' },
-      { icon: '🧓', title: 'Öldrunarþjónusta', text: 'Tryggja áhyggjulausa efri ár og reisn á gamals aldri.' },
+      {
+        icon: '👴',
+        title: 'Áhyggjulaust ævikvöld',
+        text: 'Gjaldfrjálst í bílastæði og sund fyrir 67 ára og eldri — ekkert app eða flækjustig. 50.000 kr. frístundastyrkur fyrir efnaminnstu eldri borgarana. Stóreflum heimahjúkrun og heimaþjónustu, blásum til stórsóknar í uppbyggingu hjúkrunarheimila og bindum enda á þjónustuskerðingar. Rjúfum einangrun eldri karlmanna — fjölgum virkniúrræðum á borð við „Karla í skúrum" og eflum íþróttastarf eldri borgara.',
+        source_quote: 'Reykjavíkurborg á að þjóna íbúum sínum en ekki öfugt. Við leggjum áherslu á mannúð, skilvirkni og ráðdeild í rekstri borgarinnar.',
+      },
+      {
+        icon: '🏠',
+        title: 'Húsnæðisöryggi fyrir alla',
+        text: 'Klárum framkvæmdir í Úlfarsárdal, flýtum uppbyggingu í Keldnalandi og víkkum vaxtamörk fyrir ný hverfi. Eflum samstarf við óhagnaðardrifin byggingarfélög. Vindum ofan af ofurþéttingu byggðar — leggjum áherslu á mannvæna hönnun, græn svæði, birtu og hljóðvist. Tryggjum að nýjum íbúðum fylgi nægur fjöldi bílastæða. Stöðvum lóðabrask, herðum reglur um endursölu óbyggðra lóða og stöðvum útgáfu rekstrarleyfa fyrir Airbnb-gististaði í flokki II.',
+        source_quote: 'Stöðvum lóðabrask í borginni. Aukum framboð af lóðum á sanngjörnu verði, setjum skýrari tímamörk á uppbyggingu og herðum reglur um endursölu óbyggðra lóða.',
+      },
+      {
+        icon: '👨‍👩‍👧',
+        title: 'Fjölskyldan og skólamálin',
+        text: 'Innleiðum árangursríkar lestraraðferðir á borð við „Kveikjum neistann" og stóreflum ÍSAT-kennslu (íslensku sem annað tungumál). Stórbætum aðgengi að greiningarferlum svo sértækur stuðningur við börn hefjist strax. Reykjavíkurgrunnskólar reki eigin eldhús og eldi næringarríkar máltíðir frá grunni — ekki útvistun til einkafyrirtækja. Stóraukum aðgengi ungs fólks að sálfræðiaðstoð innan skóla, eflum ungmennahús og félagsmiðstöðvar. Spyrnum sérstaklega við jaðarsetningu ungra karlmanna.',
+        source_quote: 'Tryggjum að grunnskólar í Reykjavík reki eigin eldhús og eldi næringarríkar máltíðir frá grunni, í stað þess að útvista matseldinni til einkafyrirtækja.',
+      },
+      {
+        icon: '🍼',
+        title: 'Leysum leikskólavandann',
+        text: 'Tryggjum 100% systkinaafslátt þannig að foreldrar greiði aðeins fyrir eitt barn í leikskóla eða daggæslu. Bregðumst við bráðavanda með vönduðum einingahúsum, samhliða langtímauppbyggingu. Tryggjum öllum börnum leikskólapláss frá 12 mánaða aldri og tökum upp heimgreiðslur til foreldra sem bíða. Heimilum fyrirtækjum að reka leikskóla fyrir starfsfólk. Hættum mismunun á kostnaði við dagforeldra og leikskóla — hækkum niðurgreiðslur og tryggjum dagforeldrum faglega ráðgjöf að danskri fyrirmynd.',
+        source_quote: 'Tryggjum öllum börnum leikskólapláss frá 12 mánaða aldri. Tökum upp heimgreiðslur til foreldra sem bíða eftir leikskólaplássi á meðan við brúum bilið.',
+      },
+      {
+        icon: '🚌',
+        title: 'Greiðar samgöngur og hreinni borg',
+        text: 'Nýtum endurskoðunarákvæði í samgöngusáttmála til að stöðva að þrengt sé að einkabílnum á stofnæðum. Fjölgum bílastæðum í stað þess að fækka þeim. Fjölgum göngubrúm og undirgöngum í stað gönguljósa við fjölfarnar götur. Innleiðum snjallstýrð umferðarljós um alla borg. Vindum ofan af græðgisvæðingu bílastæðakerfisins, lækkum óhófleg gjöld og styttum gjaldskyldutímann. Tryggjum Reykjavíkurflugvöll áfram í Vatnsmýrinni.',
+        source_quote: 'Nýtum endurskoðunarákvæði í samgöngusáttmála sveitarfélaga til að stöðva að þrengt sé að einkabílnum á stofnæðum.',
+      },
+      {
+        icon: '🏛️',
+        title: 'Einföldum stjórnkerfið og hagræðum',
+        text: 'Stöðvum útþenslu báknsins með því að frysta ráðningar á skrifstofum borgarinnar — beinum fjármagninu í framlínustörf og grunnþjónustu. Innleiðum nýja og lausnamiðaða þjónustumenningu og minnkum skriffinnsku með ströngum tímamörkum á afgreiðslu mála. Skerum markvisst niður ferðakostnað og utanlandsferðir. Stöðvum bruðlið í stafrænum málum með auknu samstarfi við Stafrænt Ísland og önnur sveitarfélög. Öll innkaup borgarinnar verði samræmd í gegnum sameiginlegt aðfangakerfi.',
+        source_quote: 'Stöðvum útþenslu báknsins með því að frysta ráðningar á skrifstofum borgarinnar. Beinum fjármagninu í að efla framlínustörf og stórbæta grunnþjónustu.',
+      },
     ],
     list: [
       [1,  'Guðmundur Ingi Þóroddsson',       'Formaður Afstöðu', 'images/candidates/26c1461128fbf3dd.jpg', {
