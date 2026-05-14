@@ -141,6 +141,46 @@ const muniId = route.muniId;
 const muni = MUNICIPALITIES.find(m => m.id === muniId) || MUNICIPALITIES[0];
 
 document.getElementById('muni-name').textContent = muni.name;
+
+// ─── Long-name marquee ─────────────────────────────────────
+// If the muni name doesn't fit the centre column (e.g. "Sameinað
+// sveitarfélag Borgarbyggðar og Skorradalshrepps"), scroll it like a TV
+// news ticker. Otherwise leave it static. Decision is re-evaluated on
+// resize so rotating the device works too.
+(function setupMuniNameMarquee() {
+  const el = document.getElementById('muni-name');
+  if (!el) return;
+  const name = muni.name;
+
+  function measure() {
+    // Reset to static so we measure natural size, not the marquee track.
+    el.classList.remove('is-marquee');
+    el.textContent = name;
+    // Wait one frame for layout to settle before measuring.
+    requestAnimationFrame(() => {
+      const overflows = el.scrollWidth > el.clientWidth + 1;
+      if (!overflows) return;
+      // Build a seamlessly-looping ticker: two copies of the name with
+      // a gap; outer animates by -50% so the second copy slides in
+      // exactly where the first started.
+      el.classList.add('is-marquee');
+      el.textContent = '';
+      const track = document.createElement('span');
+      track.className = 'muni-name-track';
+      const a = document.createElement('span');  a.textContent = name;
+      const b = document.createElement('span');  b.textContent = name;  b.setAttribute('aria-hidden', 'true');
+      track.append(a, b);
+      el.appendChild(track);
+    });
+  }
+
+  measure();
+  let resizeTimer = null;
+  window.addEventListener('resize', () => {
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(measure, 150);
+  });
+})();
 document.getElementById('muni-region').textContent = muni.region;
 document.documentElement.lang = lang;
 
