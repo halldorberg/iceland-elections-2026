@@ -2277,6 +2277,8 @@ body.has-coalition-strip .random-tooltip { top: calc(var(--nav-h, 60px) + var(--
     top: calc(var(--nav-h, 60px) + var(--strip-h, 38px));
     padding-top: 0;  /* mobile uses `top` for positioning, not padding */
   }
+  /* The mobile expanded-panel + cards override lives further down the
+     file, after the desktop rules, so source order wins the cascade. */
 }
 .coalition-banner {
   appearance: none;
@@ -2341,6 +2343,16 @@ body.has-coalition-strip .random-tooltip { top: calc(var(--nav-h, 60px) + var(--
 .coalition-cards::-webkit-scrollbar-thumb {
   background: rgba(255,255,255,0.18);
   border-radius: 4px;
+}
+
+/* Mobile: expanded panel takes the full remaining viewport below the
+   nav + strip (instead of 50% on desktop). Placed AFTER the desktop
+   rule so source order resolves the cascade tie in mobile's favour. */
+@media (max-width: 768px) {
+  .coalition-panel.is-expanded,
+  .coalition-cards {
+    max-height: calc(100vh - var(--nav-h, 60px) - var(--strip-h, 38px));
+  }
 }
 
 .coalition-card {
