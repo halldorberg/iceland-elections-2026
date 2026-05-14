@@ -2384,7 +2384,11 @@ body.has-coalition-strip .random-tooltip { top: calc(var(--nav-h, 60px) + var(--
   align-items: center;
   justify-content: center;
   min-width: 56px;
-  padding: 4px 8px;
+  /* Equal top/bottom spacing inside the badge so the "54" sits with
+     the same gap to the badge's top edge as the label has to its
+     bottom edge. */
+  padding: 8px 10px;
+  gap: 4px;
   border-radius: 8px;
   background: rgba(255,255,255,0.04);
   border: 1px solid rgba(255,255,255,0.08);
@@ -2399,7 +2403,7 @@ body.has-coalition-strip .random-tooltip { top: calc(var(--nav-h, 60px) + var(--
   font-size: 0.6rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  margin-top: 3px;
+  line-height: 1;
   color: rgba(255,255,255,0.6);
 }
 .coalition-score--high     { background: rgba( 34,197, 94,0.15); border-color: rgba( 34,197, 94,0.35); }
@@ -2477,7 +2481,14 @@ body.has-coalition-strip .random-tooltip { top: calc(var(--nav-h, 60px) + var(--
 .coalition-card-chips {
   display: flex;
   flex-wrap: wrap;
+  align-content: center;   /* multi-row wraps centred vertically */
+  align-items: center;
   gap: 4px;
+  /* Reserve room for two rows of chips (≈44px) so all cards have the
+     same content height regardless of party count. 1-row coalitions
+     (D+S) sit vertically centred in the same slot; 5-party coalitions
+     fill it. */
+  min-height: 44px;
 }
 .coalition-chip {
   display: inline-flex;
