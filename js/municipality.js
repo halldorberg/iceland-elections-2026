@@ -104,6 +104,11 @@ function localAvatar(name) {
  * Candidate fields are resolved at runtime when path-based; the legacy
  * ?candidate=<id> form returns a candidateBallot of the actual ID.
  */
+// Special non-party second-segment slugs that open feature panels rather
+// than expand a party. Same slug across all locales (matches the existing
+// pattern where party slugs are language-agnostic Icelandic strings).
+const SPECIAL_FEATURE_SLUGS = new Set(['liklegustu-meirihlutarnir']);
+
 function parseRoute() {
   const pathSegs = window.location.pathname
     .split('/').filter(s => s && !s.endsWith('.html'));
@@ -117,15 +122,17 @@ function parseRoute() {
   }
   const sp = new URLSearchParams(window.location.search);
   const muniId = segs[0] || sp.get('id') || 'reykjavik';
-  const partySlugStr = segs[1] || null;
-  const candidateSlug = segs[2] || null;
+  const seg1 = segs[1] || null;
+  const featureSlug = (seg1 && SPECIAL_FEATURE_SLUGS.has(seg1)) ? seg1 : null;
+  const partySlugStr = featureSlug ? null : seg1;
+  const candidateSlug = featureSlug ? null : (segs[2] || null);
   const known = MUNICIPALITIES.find(m => m.id === muniId)?.partyIds || [];
   const partyCode = partySlugStr
     ? partyCodeFromSlug(partySlugStr, known)
     : sp.get('party') || null;
   // candidate from legacy ?candidate=ID; for path-based, resolved later.
   const candidateBallot = sp.get('candidate') || null;
-  return { muniId, partySlug: partySlugStr, partyCode, candidateSlug, candidateBallot, langOverride: langSeg };
+  return { muniId, partySlug: partySlugStr, partyCode, candidateSlug, candidateBallot, langOverride: langSeg, featureSlug };
 }
 
 const route = parseRoute();
@@ -438,6 +445,12 @@ document.documentElement.lang = lang;
   document.body.classList.add('has-coalition-strip');
   syncDimensions();
   window.addEventListener('resize', syncDimensions);
+
+  // Permalink: /reykjavik/liklegustu-meirihlutarnir/ opens the panel
+  // on load. Defer so the layout settles and the transition still plays.
+  if (route.featureSlug === 'liklegustu-meirihlutarnir') {
+    requestAnimationFrame(() => setExpanded(true));
+  }
 })();
 
 // ─── SEO: dynamic title / meta description / canonical / og per route ────

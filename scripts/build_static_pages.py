@@ -559,6 +559,65 @@ def main():
             else:
                 skipped += 1
 
+        # ── Per-language feature-page stubs ─────────────────────
+        # `/<muni>/liklegustu-meirihlutarnir/` etc. — permalinks that
+        # auto-open the named feature panel on load. Currently only the
+        # coalition strip on Reykjavík.
+        FEATURE_STUBS = {
+            'reykjavik': {
+                'liklegustu-meirihlutarnir': {
+                    'is': {
+                        'title': f'Líklegustu meirihlutarnir í {muni_name}',
+                        'desc':  f'Berðu saman alla mögulega meirihluta í {muni_name} byggt á nýjustu könnun, raðað eftir samstöðu frambjóðenda í kosningaprófi RÚV.',
+                        'crumb': 'Líklegustu meirihlutarnir',
+                    },
+                    'en': {
+                        'title': f'Most plausible coalitions in {muni_name}',
+                        'desc':  f'Compare every possible majority coalition in {muni_name} from the latest poll, ranked by candidate alignment in RÚV\'s election quiz.',
+                        'crumb': 'Most plausible coalitions',
+                    },
+                    'pl': {
+                        'title': f'Możliwe większości w {muni_name}',
+                        'desc':  f'Porównaj wszystkie możliwe koalicje większościowe w {muni_name} na podstawie najnowszego sondażu, z oceną zgodności z testu wyborczego RÚV.',
+                        'crumb': 'Możliwe większości',
+                    },
+                },
+            },
+        }
+        for feat_slug, feat_locales in FEATURE_STUBS.get(muni_id, {}).items():
+            for lang in ('is', 'en', 'pl'):
+                loc = LOCALES[lang]
+                fl = feat_locales[lang]
+                title = fl['title']
+                if len(title) > 60: title = title[:57] + '…'
+                hreflang_map = {
+                    'is': f'{BASE}/{muni_id}/{feat_slug}/',
+                    'en': f'{BASE}/en/{muni_id}/{feat_slug}/',
+                    'pl': f'{BASE}/pl/{muni_id}/{feat_slug}/',
+                }
+                canonical = hreflang_map[lang]
+                out_dir = ROOT / (lang if lang != 'is' else '') / muni_id / feat_slug
+                out_dir.mkdir(parents=True, exist_ok=True)
+                out_path = out_dir / 'index.html'
+                muni_url = f'{BASE}/{muni_id}/' if lang == 'is' else f'{BASE}/{lang}/{muni_id}/'
+                ld_blocks = [
+                    jsonld_breadcrumbs([
+                        {"name": {'is': 'Heim', 'en': 'Home', 'pl': 'Strona główna'}[lang],
+                         "url": f'{BASE}/' + ('' if lang == 'is' else f'{lang}/')},
+                        {"name": muni_name, "url": muni_url},
+                        {"name": fl['crumb'], "url": canonical},
+                    ]),
+                ]
+                html = stub_html(template, locale=loc, title=title, desc=fl['desc'],
+                                 canonical=canonical, hreflang_map=hreflang_map,
+                                 jsonld_blocks=ld_blocks)
+                existing = out_path.read_text(encoding='utf-8') if out_path.exists() else ''
+                if existing != html:
+                    out_path.write_text(html, encoding='utf-8')
+                    written += 1
+                else:
+                    skipped += 1
+
         # ── Per-language muni-party stubs ───────────────────────
         for code in party_codes:
             slug = party_slug(code)
