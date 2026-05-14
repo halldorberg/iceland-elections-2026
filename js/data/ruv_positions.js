@@ -13,70 +13,39 @@
 // backward compatibility with municipality.js scoreCoalition.
 export const RUV_POSITIONS = {
   "reykjavik": {
+    "order": [
+      "35",
+      "38",
+      "42",
+      "43",
+      "45",
+      "47",
+      "49",
+      "50",
+      "51",
+      "52",
+      "53",
+      "54",
+      "57",
+      "59",
+      "60",
+      "64",
+      "239",
+      "69",
+      "70",
+      "72",
+      "77",
+      "78",
+      "79",
+      "28",
+      "30",
+      "31",
+      "32",
+      "33",
+      "55",
+      "29"
+    ],
     "questions": {
-      "28": {
-        "title": "Hverfi Reykjavíkur njóta jafnræðis þegar kemur að þjónustu sem sveitarfélagið veitir.",
-        "slug": "hverfi-reykjavikur-njota-jafnraedis-thegar-kemur-ad-thjonustu-sem-sveitarfelagid-veitir",
-        "importance": {
-          "M": 1,
-          "J": 4,
-          "A": 1
-        }
-      },
-      "29": {
-        "title": "Festa á svokallaða Reykjavíkurleið í leikskólamálum í sessi til framtíðar.",
-        "slug": "festa-a-svokallada-reykjavikurleid-i-leikskolamalum-i-sessi-til-framtidar",
-        "importance": {
-          "C": 3
-        }
-      },
-      "30": {
-        "title": "Koma þarf í veg fyrir fyrirhugaðar breytingar á skipulagi Suðurlandsbrautar.",
-        "slug": "koma-tharf-i-veg-fyrir-fyrirhugadar-breytingar-a-skipulagi-sudurlandsbrautar",
-        "importance": {
-          "B": 1,
-          "M": 3,
-          "R": 5,
-          "S": 1,
-          "D": 1,
-          "C": 1,
-          "A": 1
-        }
-      },
-      "31": {
-        "title": "Hætta á við fyrirhuguð Miklubrautargöng.",
-        "slug": "haetta-a-vid-fyrirhugud-miklubrautargong",
-        "importance": {
-          "S": 2,
-          "C": 1,
-          "A": 1
-        }
-      },
-      "32": {
-        "title": "Einkavæða ætti Orkuveitu Reykjavíkur",
-        "slug": "einkavaeda-aetti-orkuveitu-reykjavikur",
-        "importance": {
-          "F": 1,
-          "R": 4,
-          "P": 1,
-          "S": 5,
-          "J": 8,
-          "C": 3,
-          "A": 9
-        }
-      },
-      "33": {
-        "title": "Reykjavíkurflugvöllur á að vera í Vatnsmýri til frambúðar.",
-        "slug": "reykjavikurflugvollur-a-ad-vera-i-vatnsmyri-til-frambudar",
-        "importance": {
-          "M": 1,
-          "R": 3,
-          "P": 2,
-          "S": 2,
-          "C": 3,
-          "A": 1
-        }
-      },
       "35": {
         "title": "Það er gott að búa í mínu sveitarfélagi.",
         "slug": "ad-er-gott-ad-bua-i-minu-sveitarfelagi",
@@ -220,15 +189,6 @@ export const RUV_POSITIONS = {
           "A": 2
         }
       },
-      "55": {
-        "title": "Sveitarfélagið ætti að greiða leið nýrra fyrirtækja sem vilja hefja starfsemi á svæðinu, með fjárhagslegum ívilnunum",
-        "slug": "sveitarfelagid-aetti-ad-greida-leid-nyrra-fyrirtaekja-sem-vilja-hefja-starfsemi-a-svaedinu-med-fjarhagslegum-ivilnunum",
-        "importance": {
-          "M": 1,
-          "S": 1,
-          "C": 1
-        }
-      },
       "57": {
         "title": "Sveitarfélagið þarf að auka fjárhagsaðstoð við þá íbúa sem lifa undir fátæktarmörkum.",
         "slug": "sveitarfelagid-tharf-ad-auka-fjarhagsadstod-vid-tha-ibua-sem-lifa-undir-fataektarmorkum",
@@ -270,6 +230,15 @@ export const RUV_POSITIONS = {
           "J": 7,
           "C": 3,
           "A": 2
+        }
+      },
+      "239": {
+        "title": "Sveitarfélög ættu að greiða eldri borgurum frístundastyrk.",
+        "slug": "sveitarfelog-aettu-ad-greida-eldri-borgurum-fristundastyrk",
+        "importance": {
+          "M": 1,
+          "J": 1,
+          "A": 1
         }
       },
       "69": {
@@ -336,13 +305,76 @@ export const RUV_POSITIONS = {
           "A": 2
         }
       },
-      "239": {
-        "title": "Sveitarfélög ættu að greiða eldri borgurum frístundastyrk.",
-        "slug": "sveitarfelog-aettu-ad-greida-eldri-borgurum-fristundastyrk",
+      "28": {
+        "title": "Hverfi Reykjavíkur njóta jafnræðis þegar kemur að þjónustu sem sveitarfélagið veitir.",
+        "slug": "hverfi-reykjavikur-njota-jafnraedis-thegar-kemur-ad-thjonustu-sem-sveitarfelagid-veitir",
         "importance": {
           "M": 1,
-          "J": 1,
+          "J": 4,
           "A": 1
+        }
+      },
+      "30": {
+        "title": "Koma þarf í veg fyrir fyrirhugaðar breytingar á skipulagi Suðurlandsbrautar.",
+        "slug": "koma-tharf-i-veg-fyrir-fyrirhugadar-breytingar-a-skipulagi-sudurlandsbrautar",
+        "importance": {
+          "B": 1,
+          "M": 3,
+          "R": 5,
+          "S": 1,
+          "D": 1,
+          "C": 1,
+          "A": 1
+        }
+      },
+      "31": {
+        "title": "Hætta á við fyrirhuguð Miklubrautargöng.",
+        "slug": "haetta-a-vid-fyrirhugud-miklubrautargong",
+        "importance": {
+          "S": 2,
+          "C": 1,
+          "A": 1
+        }
+      },
+      "32": {
+        "title": "Einkavæða ætti Orkuveitu Reykjavíkur",
+        "slug": "einkavaeda-aetti-orkuveitu-reykjavikur",
+        "importance": {
+          "F": 1,
+          "R": 4,
+          "P": 1,
+          "S": 5,
+          "J": 8,
+          "C": 3,
+          "A": 9
+        }
+      },
+      "33": {
+        "title": "Reykjavíkurflugvöllur á að vera í Vatnsmýri til frambúðar.",
+        "slug": "reykjavikurflugvollur-a-ad-vera-i-vatnsmyri-til-frambudar",
+        "importance": {
+          "M": 1,
+          "R": 3,
+          "P": 2,
+          "S": 2,
+          "C": 3,
+          "A": 1
+        }
+      },
+      "55": {
+        "title": "Sveitarfélagið ætti að greiða leið nýrra fyrirtækja sem vilja hefja starfsemi á svæðinu, með fjárhagslegum ívilnunum",
+        "slug": "sveitarfelagid-aetti-ad-greida-leid-nyrra-fyrirtaekja-sem-vilja-hefja-starfsemi-a-svaedinu-med-fjarhagslegum-ivilnunum",
+        "importance": {
+          "M": 1,
+          "S": 1,
+          "C": 1
+        }
+      },
+      "29": {
+        "title": "Festa á svokallaða Reykjavíkurleið í leikskólamálum í sessi til framtíðar.",
+        "slug": "festa-a-svokallada-reykjavikurleid-i-leikskolamalum-i-sessi-til-framtidar",
+        "importance": {
+          "C": 3
         }
       }
     },

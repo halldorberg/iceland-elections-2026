@@ -103,8 +103,11 @@ for muni_id, constituency_id in CONSTITUENCIES.items():
             if qid in applicable_qids and ans.get('important'):
                 importance[qid][pcode] += 1
 
-    # Pull each party's official answers
+    # Pull each party's official answers. The order in party.answers is
+    # the same as RÚV's published question order, so we capture it from
+    # the first party and use it as the canonical order for the muni.
     parties_out = {}
+    canonical_order = []  # qid list in source-document order
     party_slugs = PARTY_SLUGS.get(muni_id, {})
     for pcode, pslug in party_slugs.items():
         url = f'{ROOT_URL}/_next/data/{build_id}/flokkar/{pslug}.json'
@@ -124,21 +127,41 @@ for muni_id, constituency_id in CONSTITUENCIES.items():
             if num is None:
                 continue
             by_qid[qid] = {'value': v, 'mean': float(num), 'n': 1, 'std': 0.0}
+            # First party we see establishes the source ordering.
+            if not canonical_order or canonical_order.count(qid) == 0:
+                if qid not in canonical_order:
+                    canonical_order.append(qid)
         parties_out[pcode] = by_qid
         print(f'  [{muni_id}/{pcode}] {pslug}: {len(by_qid)} answers')
 
-    # Question metadata — only include questions any party answered
+    # Question metadata — emit in source-document order (matches RÚV's UI).
     seen_qids = {qid for by_q in parties_out.values() for qid in by_q}
     questions_out = {}
-    for qid in sorted(seen_qids, key=int):
+    # Walk canonical order first (covers questions the first parties answered),
+    # then append any qid only later parties answered, preserving its first
+    # appearance order.
+    for qid in canonical_order:
+        if qid not in seen_qids:
+            continue
         q = all_questions[qid]
         questions_out[qid] = {
             'title': q.get('title', ''),
             'slug': q.get('slug', ''),
             'importance': dict(importance[qid]),
         }
+    for qid in seen_qids:
+        if qid in questions_out:
+            continue
+        q = all_questions[qid]
+        questions_out[qid] = {
+            'title': q.get('title', ''),
+            'slug': q.get('slug', ''),
+            'importance': dict(importance[qid]),
+        }
+    order = [qid for qid in questions_out.keys()]
 
     result_by_muni[muni_id] = {
+        'order': order,
         'questions': questions_out,
         'parties': parties_out,
     }

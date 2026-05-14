@@ -2437,6 +2437,247 @@ body.has-coalition-strip .random-tooltip { top: calc(var(--nav-h, 60px) + var(--
   max-height: 600px;  /* generous; actual content never approaches this */
 }
 
+/* Detail-modal opener on each card. */
+.coalition-detail-link {
+  display: block;
+  width: 100%;
+  padding: 9px 14px 11px;
+  border: 0;
+  border-top: 1px solid rgba(255,255,255,0.06);
+  background: transparent;
+  color: rgba(147,197,253,0.85);
+  font: inherit;
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+  text-align: center;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+.coalition-detail-link:hover,
+.coalition-detail-link:focus-visible {
+  background: rgba(255,255,255,0.04);
+  color: #93c5fd;
+  outline: none;
+}
+
+/* ─── Coalition detail modal ───────────────────────────────────────── */
+.coalition-detail-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.coalition-detail-modal[hidden] { display: none; }
+.coalition-detail-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(8, 12, 24, 0.72);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+.coalition-detail-sheet {
+  position: relative;
+  width: min(880px, calc(100vw - 32px));
+  max-height: calc(100vh - 60px);
+  overflow-y: auto;
+  background: #0e1424;
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 12px;
+  padding: 22px 24px 26px;
+  box-shadow: 0 18px 48px rgba(0,0,0,0.55);
+}
+.coalition-detail-x {
+  position: absolute;
+  top: 10px; right: 10px;
+  width: 30px; height: 30px;
+  border: 0;
+  background: rgba(255,255,255,0.08);
+  border-radius: 50%;
+  color: rgba(255,255,255,0.7);
+  font-size: 1.1rem;
+  line-height: 30px;
+  padding: 0;
+  cursor: pointer;
+  text-align: center;
+}
+.coalition-detail-x:hover { background: rgba(255,255,255,0.15); color: #fff; }
+
+.coalition-detail-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 6px 0 16px;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+  margin-bottom: 18px;
+}
+.coalition-detail-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.coalition-detail-sheet section { margin-bottom: 20px; }
+.coalition-detail-sheet h4 {
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.55);
+  margin: 0 0 8px;
+  font-weight: 600;
+}
+.coalition-detail-sheet .cd-note {
+  font-size: 0.78rem;
+  color: rgba(255,255,255,0.55);
+  margin: 0 0 10px;
+  line-height: 1.5;
+}
+
+/* Score breakdown list */
+.coalition-detail-breakdown {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px 16px;
+}
+.coalition-detail-breakdown li {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 8px 11px 9px;
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.06);
+  border-radius: 6px;
+}
+.coalition-detail-breakdown .cdb-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.coalition-detail-breakdown .cdb-label {
+  font-size: 0.8rem;
+  color: rgba(255,255,255,0.78);
+}
+.coalition-detail-breakdown .cdb-value {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #fff;
+  font-variant-numeric: tabular-nums;
+}
+.coalition-detail-breakdown .cdb-formula {
+  font-size: 0.7rem;
+  font-style: italic;
+  color: rgba(255,255,255,0.48);
+  font-family: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  line-height: 1.45;
+  word-break: break-word;
+}
+.coalition-detail-breakdown .cdb-total {
+  grid-column: 1 / -1;
+  background: rgba(34,197,94,0.08);
+  border-color: rgba(34,197,94,0.22);
+}
+.coalition-detail-breakdown .cdb-total .cdb-value { font-size: 1.4rem; color: #86efac; }
+.coalition-detail-breakdown .cdb-total .cdb-formula { color: rgba(134, 239, 172, 0.55); }
+
+/* Per-question table */
+.coalition-detail-table-wrap {
+  overflow-x: auto;
+  border: 1px solid rgba(255,255,255,0.06);
+  border-radius: 8px;
+}
+.coalition-detail-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.82rem;
+}
+.coalition-detail-table th,
+.coalition-detail-table td {
+  padding: 7px 9px;
+  text-align: left;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+  vertical-align: middle;
+}
+.coalition-detail-table thead th {
+  position: sticky;
+  top: 0;
+  background: #131a2c;
+  color: rgba(255,255,255,0.85);
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-weight: 600;
+  z-index: 1;
+}
+.coalition-detail-table .cdt-p {
+  text-align: center;
+  width: 36px;
+  padding-inline: 4px;
+}
+.coalition-detail-table thead .cdt-p {
+  color: #fff;
+  background: var(--chip-bg, #131a2c);
+}
+.coalition-detail-table .cdt-q {
+  line-height: 1.35;
+  color: rgba(255,255,255,0.9);
+}
+.coalition-detail-table .cdt-s {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  width: 60px;
+  font-weight: 600;
+}
+.coalition-detail-table .cdt-s-none { color: rgba(255,255,255,0.4); }
+.coalition-detail-table .cdt-s-low  { color: #86efac; }
+.coalition-detail-table .cdt-s-mid  { color: #fde68a; }
+.coalition-detail-table .cdt-s-high { color: #fca5a5; }
+.coalition-detail-table tbody tr:hover { background: rgba(255,255,255,0.025); }
+.coalition-detail-table .cdt-smiley { font-size: 1.05rem; line-height: 1; }
+.coalition-detail-table .cdt-imp {
+  color: #fbbf24;
+  font-size: 0.75rem;
+  margin-left: 3px;
+}
+
+/* Pairwise distances */
+.coalition-detail-pairs {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.82rem;
+}
+.coalition-detail-pairs td {
+  padding: 6px 9px;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+.coalition-detail-pairs .cdp-pair {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.coalition-detail-pairs .cdp-vs {
+  color: rgba(255,255,255,0.45);
+  font-size: 0.85rem;
+}
+.coalition-detail-pairs .cdp-dist {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  width: 90px;
+  color: rgba(255,255,255,0.8);
+  font-weight: 600;
+}
+
+body.coalition-detail-open { overflow: hidden; }
+
+@media (max-width: 600px) {
+  .coalition-detail-sheet { padding: 18px 14px; }
+  .coalition-detail-breakdown { grid-template-columns: 1fr; }
+}
+
 .coalition-frictions {
   padding: 0 14px 14px;
   border-top: 1px solid rgba(255,255,255,0.06);
@@ -2554,6 +2795,17 @@ body.has-coalition-strip .random-tooltip { top: calc(var(--nav-h, 60px) + var(--
   padding: 30px;
   color: rgba(255,255,255,0.45);
   font-size: 0.85rem;
+}
+
+/* One-line intro above the cards grid. */
+.coalition-intro {
+  grid-column: 1 / -1;
+  font-size: 0.78rem;
+  letter-spacing: 0.02em;
+  color: rgba(255, 255, 255, 0.55);
+  text-align: center;
+  margin-bottom: 4px;
+  padding: 0 4px;
 }
 
 /* Methodology footer — sits below the grid, spans full width. */

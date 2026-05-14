@@ -184,6 +184,7 @@ export const UI = {
 
     // Coalition strip (RVK only for now)
     coalitionBannerTitle:    'Líklegustu meirihlutarnir',
+    coalitionIntro:          'Samstöðueinkunn byggð á svörum úr Kosningaprófi RÚV',
     coalitionEmpty:          'Engin meirihlutamyndun möguleg.',
     coalitionPartyCount:     (n) => n === 1 ? '1 flokkur' : `${n} flokkar`,
     coalitionScoreLabel:     'Samstaða',
@@ -198,6 +199,20 @@ export const UI = {
     coalitionMethodB3:       '<strong>Áhersluvegið bil (20%):</strong> sami bilmælikvarði, en með auknu vægi á fullyrðingar sem frambjóðendur merktu sem mikilvægar.',
     coalitionMethodP3:       'Það sem birtist undir <em>„Mestur munur á afstöðu"</em> þegar smellt er á spjald eru þær þrjár fullyrðingar þar sem munur milli flokka meirihlutans er mestur — helstu líkleg ágreiningsmál ef meirihlutinn yrði myndaður.',
     coalitionMethodNote:     '131 frambjóðandi af 11 listum í Reykjavík svaraði kosningaprófinu; sumir flokkar með færri svör hafa minni nákvæmni í meðaltali. Sætafjöldi byggir á efstu könnun í þessari síðu (sjá flokk fyrir uppruna).',
+    coalitionDetailLink:       'Sjá útreikning →',
+    coalitionDetailClose:      'Loka',
+    coalitionDetailBreakdownH: 'Útreikningur (0–100 á hvern hluta)',
+    coalitionDetailBreakdownB1: 'Bil (50%)',
+    coalitionDetailBreakdownB2: 'Versti hlekkur (30%)',
+    coalitionDetailBreakdownB3: 'Áhersluvegið bil (20%)',
+    coalitionDetailScoreTotal: 'Samtals',
+    coalitionDetailTableH:     'Allar fullyrðingar',
+    coalitionDetailTableHint:  'Brosmerki sýna opinbera afstöðu flokksins skv. kosningaprófi RÚV. <strong>Bil</strong> = munur milli flokks með hæstu og lægstu afstöðu (0–3). Stjarna ★ merkir fullyrðingar sem frambjóðendur flokkanna merktu mikilvægar.',
+    coalitionDetailQuestionCol:'Fullyrðing',
+    coalitionDetailSpreadCol:  'Bil',
+    coalitionDetailImpHint:    'frambjóðendur merktu mikilvægt',
+    coalitionDetailPairsH:     'Fjarlægðir milli flokka',
+    coalitionDetailPairsHint:  'Meðalfjarlægð á fullyrðingu fyrir hvern flokkapör. 0 = sammála á öllu, 3 = mjög ósammála á öllu. Versta parið er „veikasti hlekkurinn" sem dregur stigið niður.',
   },
 
   en: {
@@ -298,6 +313,7 @@ export const UI = {
 
     // Coalition strip (RVK only for now)
     coalitionBannerTitle:    'Most plausible majorities',
+    coalitionIntro:          'Alignment score based on answers from RÚV\'s election quiz',
     coalitionEmpty:          'No majority coalition is possible.',
     coalitionPartyCount:     (n) => n === 1 ? '1 party' : `${n} parties`,
     coalitionScoreLabel:     'Alignment',
@@ -312,6 +328,20 @@ export const UI = {
     coalitionMethodB3:       '<strong>Importance-weighted spread (20%):</strong> the same spread measure, weighted by how often candidates flagged the statement as important.',
     coalitionMethodP3:       'The three items shown under <em>"Biggest disagreements"</em> when you open a card are the statements with the largest within-coalition spread — the likely flashpoints if that coalition were formed.',
     coalitionMethodNote:     '131 candidates across 11 lists in Reykjavík answered the quiz; parties with fewer respondents have less reliable averages. Seat counts are taken from the topmost poll on this page (see the party block for the source).',
+    coalitionDetailLink:       'See breakdown →',
+    coalitionDetailClose:      'Close',
+    coalitionDetailBreakdownH: 'Score breakdown (0–100 per component)',
+    coalitionDetailBreakdownB1: 'Spread (50%)',
+    coalitionDetailBreakdownB2: 'Weakest link (30%)',
+    coalitionDetailBreakdownB3: 'Importance-weighted (20%)',
+    coalitionDetailScoreTotal: 'Total',
+    coalitionDetailTableH:     'All propositions',
+    coalitionDetailTableHint:  'Smileys show the party\'s official stance from RÚV\'s election quiz. <strong>Spread</strong> = gap between the highest- and lowest-positioned party on this proposition (0–3). A ★ marks propositions that candidates flagged as important.',
+    coalitionDetailQuestionCol:'Proposition',
+    coalitionDetailSpreadCol:  'Spread',
+    coalitionDetailImpHint:    'candidates flagged this important',
+    coalitionDetailPairsH:     'Pairwise distances',
+    coalitionDetailPairsHint:  'Average per-proposition distance for each party pair. 0 = agree on everything, 3 = strongly disagree on everything. The worst pair is the "weakest link" pulling the score down.',
   },
 
   pl: {
@@ -412,6 +442,7 @@ export const UI = {
 
     // Coalition strip (RVK only for now)
     coalitionBannerTitle:    'Najbardziej prawdopodobne większości',
+    coalitionIntro:          'Wynik zgodności na podstawie odpowiedzi z testu wyborczego RÚV',
     coalitionEmpty:          'Żadna większość nie jest możliwa.',
     coalitionPartyCount:     (n) => {
       // Polish plural: 1 → "1 partia"; 2-4 → "2 partie"; 5+/ends 0,1,12-14 → "5 partii"
@@ -432,6 +463,20 @@ export const UI = {
     coalitionMethodB3:       '<strong>Rozpiętość ważona ważnością (20%):</strong> ta sama miara rozpiętości, ale ze zwiększoną wagą stwierdzeń, które kandydaci oznaczyli jako ważne.',
     coalitionMethodP3:       'To, co pojawia się pod <em>„Największe różnice w stanowiskach"</em> po kliknięciu karty, to trzy stwierdzenia, w których różnica między partiami koalicji jest największa — prawdopodobne pola sporu, gdyby koalicja powstała.',
     coalitionMethodNote:     'Test wyborczy wypełniło 131 kandydatów z 11 list w Reykjavíku; partie z mniejszą liczbą odpowiedzi mają mniej wiarygodne średnie. Liczba mandatów pochodzi z najnowszego sondażu w tej sekcji (źródło widoczne przy konkretnej partii).',
+    coalitionDetailLink:       'Zobacz obliczenie →',
+    coalitionDetailClose:      'Zamknij',
+    coalitionDetailBreakdownH: 'Składowe wyniku (0–100 na składnik)',
+    coalitionDetailBreakdownB1: 'Rozpiętość (50%)',
+    coalitionDetailBreakdownB2: 'Najsłabsze ogniwo (30%)',
+    coalitionDetailBreakdownB3: 'Rozpiętość ważona (20%)',
+    coalitionDetailScoreTotal: 'Razem',
+    coalitionDetailTableH:     'Wszystkie stwierdzenia',
+    coalitionDetailTableHint:  'Emotki pokazują oficjalne stanowisko partii w teście wyborczym RÚV. <strong>Rozpiętość</strong> = różnica między partią o najwyższym i najniższym stanowisku w danym stwierdzeniu (0–3). Gwiazdka ★ oznacza stwierdzenia oznaczone jako ważne przez kandydatów.',
+    coalitionDetailQuestionCol:'Stwierdzenie',
+    coalitionDetailSpreadCol:  'Rozpiętość',
+    coalitionDetailImpHint:    'kandydaci oznaczyli jako ważne',
+    coalitionDetailPairsH:     'Odległości między partiami',
+    coalitionDetailPairsHint:  'Średnia odległość na stwierdzenie dla każdej pary partii. 0 = zgodność we wszystkim, 3 = całkowita niezgodność we wszystkim. Najgorsza para to "najsłabsze ogniwo" obniżające wynik.',
   },
 };
 

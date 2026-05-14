@@ -5,8 +5,8 @@ import { RESULTS_2022 } from './data/results2022.js?v=7';
 import { POLLS }        from './data/polls.js?v=4';
 import { EYE_POSITIONS } from './data/eye_positions.js?v=5';
 import { CLEAVAGES, STANCE_SMILEYS } from './data/cleavages.js?v=3';
-import { RUV_POSITIONS } from './data/ruv_positions.js?v=2';
-import { getLang, t, renderLangSwitcher, MUNI_DATIVE_IS } from './i18n.js?v=9';
+import { RUV_POSITIONS } from './data/ruv_positions.js?v=3';
+import { getLang, t, renderLangSwitcher, MUNI_DATIVE_IS } from './i18n.js?v=12';
 import { partySlug, partyCodeFromSlug, slugify } from './data/party_slugs.js?v=3';
 
 // ─── i18n ──────────────────────────────────────────────────
@@ -179,20 +179,20 @@ document.documentElement.lang = lang;
   }
 
   // ─── Coalition scoring on RÚV kosningapróf ─────────────────────────────
-  // Each candidate placed every proposition on a 1..4 Likert scale; we
-  // aggregated to per-(party, qid) means in ruv_positions.js. For a
-  // coalition we score on three signals and blend them.
+  // Uses each party's officially-submitted answer per proposition
+  // (ruv_positions.js .value / .mean, 1=mjög ósammála … 4=mjög sammála).
+  // Returns the 0-100 score plus enough detail for the breakdown modal.
   function scoreCoalition(memberCodes) {
     if (!positionsMuni) return null;
     const Q = positionsMuni.questions;
     const P = positionsMuni.parties;
 
-    // Per-proposition spread: max(mean) − min(mean) across coalition parties
-    // on questions where every member answered.
-    const qids = Object.keys(Q);
+    // Walk questions in the RÚV source-document order (captured at build
+    // time in ruv_positions.js). Falls back to dict insertion order.
+    const qids = positionsMuni.order || Object.keys(Q);
     let spreadSum = 0, spreadCount = 0;
     let impWeightedSpreadSum = 0, impWeightTotal = 0;
-    const frictionRows = []; // { qid, spread, perParty: {code: mean} }
+    const rows = []; // every per-question row { qid, title, spread, perParty, impW }
 
     for (const qid of qids) {
       const meta = Q[qid];
@@ -208,24 +208,25 @@ document.documentElement.lang = lang;
       const spread = Math.max(...vals) - Math.min(...vals);
       spreadSum += spread;
       spreadCount += 1;
-      // Importance weight: how many coalition candidates flagged this
-      // proposition as decisive.
       let impW = 0;
       for (const code of memberCodes) impW += (meta.importance && meta.importance[code]) || 0;
       if (impW > 0) {
         impWeightedSpreadSum += spread * impW;
         impWeightTotal += 3 * impW;  // 3 = max possible spread on a 1..4 scale
       }
-      frictionRows.push({ qid, spread, perParty });
+      rows.push({ qid, title: meta.title, spread, perParty, impW });
     }
     if (spreadCount === 0) return null;
 
     const avgSpread = spreadSum / spreadCount;
     const spreadScore = 1 - (avgSpread / 3);
 
-    // Weakest link: per-pair Manhattan distance, normalised, taking the
-    // worst pair. Captures "even one strained relationship hurts."
+    // Pairwise: average per-question distance for every pair of coalition
+    // parties. Worst pair drives the weakest-link signal; the whole matrix
+    // is exposed for the breakdown modal.
+    const pairs = []; // { a, b, dist }
     let worstPairDist = 0;
+    let worstPair = null;
     for (let i = 0; i < memberCodes.length; i++) {
       for (let j = i + 1; j < memberCodes.length; j++) {
         const a = memberCodes[i], b = memberCodes[j];
@@ -238,33 +239,43 @@ document.documentElement.lang = lang;
           n += 1;
         }
         if (n === 0) continue;
-        const d = sum / n;  // average per-question distance for this pair
-        if (d > worstPairDist) worstPairDist = d;
+        const d = sum / n;
+        pairs.push({ a, b, dist: d });
+        if (d > worstPairDist) { worstPairDist = d; worstPair = { a, b, dist: d }; }
       }
     }
     const weakestLinkScore = 1 - (worstPairDist / 3);
 
     const importanceScore = impWeightTotal > 0
       ? 1 - (impWeightedSpreadSum / impWeightTotal)
-      : spreadScore;  // fall back if nobody flagged anything as important
+      : spreadScore;
 
     const blended = 0.5 * spreadScore + 0.3 * weakestLinkScore + 0.2 * importanceScore;
     const score = Math.round(blended * 100);
 
-    // Top-3 friction propositions for the drill-down.
-    frictionRows.sort((a, b) => b.spread - a.spread);
-    const frictions = frictionRows.slice(0, 3).map(r => ({
-      qid: r.qid,
-      title: Q[r.qid].title,
-      spread: r.spread,
-      perParty: r.perParty,
+    // Top-3 frictions surface in the inline card detail; the full sorted
+    // list is kept for the modal.
+    const rowsByFriction = rows.slice().sort((a, b) => b.spread - a.spread);
+    const frictions = rowsByFriction.slice(0, 3).map(r => ({
+      qid: r.qid, title: r.title, spread: r.spread, perParty: r.perParty,
     }));
 
     return {
       score,
-      avgSpread: +avgSpread.toFixed(2),
-      worstPairDist: +worstPairDist.toFixed(2),
+      avgSpread:      +avgSpread.toFixed(3),
+      spreadSum:      +spreadSum.toFixed(3),
+      worstPairDist:  +worstPairDist.toFixed(3),
+      worstPair,                       // {a, b, dist}
+      spreadScore:    +spreadScore.toFixed(3),
+      weakestLinkScore: +weakestLinkScore.toFixed(3),
+      importanceScore: +importanceScore.toFixed(3),
+      impWeightedSpreadSum: +impWeightedSpreadSum.toFixed(3),
+      impWeightTotal:       +impWeightTotal.toFixed(3),
       frictions,
+      rows,                      // full list — source-doc order
+      rowsByFriction,            // full list — order = spread desc
+      pairs,                     // every coalition party-pair distance
+      questionCount: spreadCount,
     };
   }
 
@@ -362,6 +373,11 @@ document.documentElement.lang = lang;
            </div>`
         : `<div class="coalition-score coalition-score--unknown" title="${escHTML(ui.coalitionScoreUnknown)}"><span class="coalition-score-num">–</span><span class="coalition-score-label">${ui.coalitionScoreLabel}</span></div>`;
       const frictionsHTML = s ? renderFrictions(s.frictions, c.members.map(m => m.code)) : '';
+      const detailLinkHTML = s
+        ? `<button type="button" class="coalition-detail-link" data-idx="${idx}">
+             ${ui.coalitionDetailLink || 'Sjá útreikning →'}
+           </button>`
+        : '';
       return `
         <div class="coalition-card" data-idx="${idx}">
           <button class="coalition-card-head" type="button" aria-expanded="false">
@@ -375,11 +391,19 @@ document.documentElement.lang = lang;
             ${scoreHTML}
           </button>
           <div class="coalition-card-detail">${frictionsHTML}</div>
+          ${detailLinkHTML}
         </div>`;
     }).join('');
 
-    // Card expand/collapse toggling.
+    // Card expand/collapse + detail-modal opener.
     cardsEl.addEventListener('click', (e) => {
+      const linkBtn = e.target.closest('.coalition-detail-link');
+      if (linkBtn) {
+        const idx = parseInt(linkBtn.dataset.idx, 10);
+        const coalition = mwcs[idx];
+        if (coalition) openCoalitionDetailModal(coalition);
+        return;
+      }
       const head = e.target.closest('.coalition-card-head');
       if (!head) return;
       const card = head.closest('.coalition-card');
@@ -387,21 +411,12 @@ document.documentElement.lang = lang;
       head.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
     });
 
-    // Methodology footer — explains how the score is derived.
-    const methodology = document.createElement('div');
-    methodology.className = 'coalition-methodology';
-    methodology.innerHTML = `
-      <h3>${ui.coalitionMethodH}</h3>
-      <p>${ui.coalitionMethodP1}</p>
-      <p>${ui.coalitionMethodP2}</p>
-      <ul>
-        <li>${ui.coalitionMethodB1}</li>
-        <li>${ui.coalitionMethodB2}</li>
-        <li>${ui.coalitionMethodB3}</li>
-      </ul>
-      <p>${ui.coalitionMethodP3}</p>
-      <p class=”coalition-methodology-note”>${ui.coalitionMethodNote}</p>`;
-    cardsEl.appendChild(methodology);
+    // One-liner intro above the grid — same source-of-truth note that
+    // used to live in the footer methodology block.
+    const intro = document.createElement('div');
+    intro.className = 'coalition-intro';
+    intro.textContent = ui.coalitionIntro || 'Samstöðueinkunn byggð á svörum úr Kosningaprófi RÚV';
+    cardsEl.insertBefore(intro, cardsEl.firstChild);
   }
 
   // Sync --nav-h (top muni-nav height) and --strip-h (this strip's own
@@ -448,6 +463,200 @@ document.documentElement.lang = lang;
   document.body.classList.add('has-coalition-strip');
   syncDimensions();
   window.addEventListener('resize', syncDimensions);
+
+  // ─── Coalition-detail modal ────────────────────────────────────────────
+  // Lazy-built overlay opened by the "Sjá útreikning" link on each card.
+  // Shows the score breakdown, every proposition with each party's stance,
+  // and the pairwise distance matrix.
+  let _detailEl = null;
+  function ensureDetailEl() {
+    if (_detailEl) return _detailEl;
+    _detailEl = document.createElement('div');
+    _detailEl.className = 'coalition-detail-modal';
+    _detailEl.setAttribute('role', 'dialog');
+    _detailEl.setAttribute('aria-modal', 'true');
+    _detailEl.hidden = true;
+    _detailEl.innerHTML = `
+      <div class="coalition-detail-backdrop"></div>
+      <div class="coalition-detail-sheet" role="document">
+        <button type="button" class="coalition-detail-x" aria-label="${ui.coalitionDetailClose || 'Loka'}">×</button>
+        <div class="coalition-detail-body"></div>
+      </div>`;
+    document.body.appendChild(_detailEl);
+    _detailEl.addEventListener('click', (e) => {
+      if (e.target.classList.contains('coalition-detail-backdrop') ||
+          e.target.classList.contains('coalition-detail-x')) {
+        closeDetailModal();
+      }
+    });
+    return _detailEl;
+  }
+  function closeDetailModal() {
+    if (_detailEl) _detailEl.hidden = true;
+    document.body.classList.remove('coalition-detail-open');
+  }
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && _detailEl && !_detailEl.hidden) closeDetailModal();
+  });
+
+  function openCoalitionDetailModal(coalition) {
+    const el = ensureDetailEl();
+    const s = coalition.score;
+    const codes = coalition.members.map(m => m.code);
+    const tCol = ui.coalitionDetailQuestionCol || 'Fullyrðing';
+    const spreadCol = ui.coalitionDetailSpreadCol || 'Bil';
+
+    // Header: party chips + total seats + big score.
+    const chips = coalition.members.map(m => {
+      const p = PARTIES[m.code];
+      const bg = (p && p.color) || '#555';
+      return `<span class="coalition-chip" style="--chip-bg:${bg}">${m.code}<span class="coalition-chip-seats">${m.seats}</span></span>`;
+    }).join('');
+    const band = scoreBand(s.score);
+
+    // Score breakdown — three components blended. Each card shows the
+    // formula and the actual numbers plugged in beneath the score.
+    const pct = (v) => Math.round(v * 100);
+    const lang = getLang();
+    const f1 = (n) => Number(n).toFixed(2);
+    // Localised, terse formulae shown in italics under each component.
+    const formulae = {
+      is: {
+        bil:    `(1 − Σ bil / (N × 3)) × 100 = (1 − ${f1(s.spreadSum)} / (${s.questionCount} × 3)) × 100`,
+        link:   s.worstPair
+                  ? `(1 − versta-par / 3) × 100 = (1 − ${f1(s.worstPairDist)} / 3) × 100  ·  versta par: ${s.worstPair.a}↔${s.worstPair.b}`
+                  : `(1 − versta-par / 3) × 100`,
+        imp:    s.impWeightTotal > 0
+                  ? `(1 − Σ(bil × vægi) / Σ(3 × vægi)) × 100 = (1 − ${f1(s.impWeightedSpreadSum)} / ${f1(s.impWeightTotal)}) × 100`
+                  : `Engin mikilvæg merking — sami mælikvarði og „Bil".`,
+        total:  `Samtals = 0,5 × Bil + 0,3 × Versti hlekkur + 0,2 × Áhersluvegið bil = 0,5 × ${pct(s.spreadScore)} + 0,3 × ${pct(s.weakestLinkScore)} + 0,2 × ${pct(s.importanceScore)}`,
+      },
+      en: {
+        bil:    `(1 − Σ spread / (N × 3)) × 100 = (1 − ${f1(s.spreadSum)} / (${s.questionCount} × 3)) × 100`,
+        link:   s.worstPair
+                  ? `(1 − worst-pair / 3) × 100 = (1 − ${f1(s.worstPairDist)} / 3) × 100  ·  worst pair: ${s.worstPair.a}↔${s.worstPair.b}`
+                  : `(1 − worst-pair / 3) × 100`,
+        imp:    s.impWeightTotal > 0
+                  ? `(1 − Σ(spread × w) / Σ(3 × w)) × 100 = (1 − ${f1(s.impWeightedSpreadSum)} / ${f1(s.impWeightTotal)}) × 100`
+                  : `No "important" flags — falls back to the Spread measure.`,
+        total:  `Total = 0.5 × Spread + 0.3 × Weakest link + 0.2 × Importance-weighted = 0.5 × ${pct(s.spreadScore)} + 0.3 × ${pct(s.weakestLinkScore)} + 0.2 × ${pct(s.importanceScore)}`,
+      },
+      pl: {
+        bil:    `(1 − Σ rozpiętość / (N × 3)) × 100 = (1 − ${f1(s.spreadSum)} / (${s.questionCount} × 3)) × 100`,
+        link:   s.worstPair
+                  ? `(1 − najgorsza-para / 3) × 100 = (1 − ${f1(s.worstPairDist)} / 3) × 100  ·  najgorsza para: ${s.worstPair.a}↔${s.worstPair.b}`
+                  : `(1 − najgorsza-para / 3) × 100`,
+        imp:    s.impWeightTotal > 0
+                  ? `(1 − Σ(rozpiętość × w) / Σ(3 × w)) × 100 = (1 − ${f1(s.impWeightedSpreadSum)} / ${f1(s.impWeightTotal)}) × 100`
+                  : `Brak ważnych oznaczeń — używamy miary "Rozpiętość".`,
+        total:  `Razem = 0,5 × Rozpiętość + 0,3 × Najsłabsze ogniwo + 0,2 × Rozpiętość ważona = 0,5 × ${pct(s.spreadScore)} + 0,3 × ${pct(s.weakestLinkScore)} + 0,2 × ${pct(s.importanceScore)}`,
+      },
+    };
+    const F = formulae[lang] || formulae.is;
+
+    const lbl1 = ui.coalitionDetailBreakdownB1 || 'Bil (50%)';
+    const lbl2 = ui.coalitionDetailBreakdownB2 || 'Versti hlekkur (30%)';
+    const lbl3 = ui.coalitionDetailBreakdownB3 || 'Áhersluvegið bil (20%)';
+    const breakdownHTML = `
+      <ul class="coalition-detail-breakdown">
+        <li>
+          <div class="cdb-row"><span class="cdb-label">${lbl1}</span><span class="cdb-value">${pct(s.spreadScore)}</span></div>
+          <div class="cdb-formula">${F.bil}</div>
+        </li>
+        <li>
+          <div class="cdb-row"><span class="cdb-label">${lbl2}</span><span class="cdb-value">${pct(s.weakestLinkScore)}</span></div>
+          <div class="cdb-formula">${F.link}</div>
+        </li>
+        <li>
+          <div class="cdb-row"><span class="cdb-label">${lbl3}</span><span class="cdb-value">${pct(s.importanceScore)}</span></div>
+          <div class="cdb-formula">${F.imp}</div>
+        </li>
+        <li class="cdb-total">
+          <div class="cdb-row"><span class="cdb-label">${ui.coalitionDetailScoreTotal || 'Samtals'}</span><span class="cdb-value">${s.score}</span></div>
+          <div class="cdb-formula">${F.total}</div>
+        </li>
+      </ul>`;
+
+    // Full per-question table.
+    const headRow = `
+      <tr>
+        <th class="cdt-q">${tCol}</th>
+        ${codes.map(code => `<th class="cdt-p" style="--chip-bg:${(PARTIES[code]&&PARTIES[code].color)||'#555'}">${code}</th>`).join('')}
+        <th class="cdt-s">${spreadCol}</th>
+      </tr>`;
+    const bodyRows = s.rows.map(r => {
+      const stanceCells = codes.map(code => {
+        const v = r.perParty[code];
+        const letter = meanToLetter(v);
+        const smiley = STANCE_SMILEYS[letter] || '·';
+        return `<td class="cdt-p"><span class="cdt-smiley" title="${code}: ${v != null ? v.toFixed(2) : '–'}/4">${smiley}</span></td>`;
+      }).join('');
+      const spreadCls = r.spread >= 2.5 ? 'cdt-s-high'
+                      : r.spread >= 1.5 ? 'cdt-s-mid'
+                      : r.spread >= 0.5 ? 'cdt-s-low' : 'cdt-s-none';
+      const impMark = r.impW > 0 ? ` <span class="cdt-imp" title="${r.impW} ${(ui.coalitionDetailImpHint || 'frambjóðendur merktu mikilvægt')}">★</span>` : '';
+      return `
+        <tr>
+          <td class="cdt-q">${escHTML(r.title)}${impMark}</td>
+          ${stanceCells}
+          <td class="cdt-s ${spreadCls}">${r.spread.toFixed(2)}</td>
+        </tr>`;
+    }).join('');
+
+    // Pairwise distance matrix.
+    let pairsHTML = '';
+    if (s.pairs.length > 0) {
+      const pairRows = s.pairs.slice().sort((a, b) => b.dist - a.dist).map(p => {
+        const ca = PARTIES[p.a]?.color || '#555';
+        const cb = PARTIES[p.b]?.color || '#555';
+        return `
+          <tr>
+            <td class="cdp-pair">
+              <span class="coalition-chip" style="--chip-bg:${ca}">${p.a}</span>
+              <span class="cdp-vs">↔</span>
+              <span class="coalition-chip" style="--chip-bg:${cb}">${p.b}</span>
+            </td>
+            <td class="cdp-dist">${p.dist.toFixed(2)} / 3</td>
+          </tr>`;
+      }).join('');
+      pairsHTML = `
+        <h4>${ui.coalitionDetailPairsH || 'Fjarlægðir milli flokka'}</h4>
+        <p class="cd-note">${ui.coalitionDetailPairsHint || 'Meðalfjarlægð á fullyrðingu, 0 = sammála á öllu, 3 = mjög ósammála á öllu.'}</p>
+        <table class="coalition-detail-pairs">
+          <tbody>${pairRows}</tbody>
+        </table>`;
+    }
+
+    el.querySelector('.coalition-detail-body').innerHTML = `
+      <header class="coalition-detail-header">
+        <div class="coalition-detail-chips">${chips}</div>
+        <div class="coalition-score coalition-score--${band}">
+          <span class="coalition-score-num">${s.score}</span>
+          <span class="coalition-score-label">${ui.coalitionScoreLabel}</span>
+        </div>
+      </header>
+
+      <section>
+        <h4>${ui.coalitionDetailBreakdownH || 'Útreikningur (0–100 per hluti)'}</h4>
+        ${breakdownHTML}
+      </section>
+
+      <section>
+        <h4>${ui.coalitionDetailTableH || 'Allar fullyrðingar'}</h4>
+        <p class="cd-note">${ui.coalitionDetailTableHint || 'Brosmerki sýna opinbera afstöðu flokksins skv. kosningaprófi RÚV. Bil = munur milli flokks með hæstu og lægstu afstöðu (0–3).'}</p>
+        <div class="coalition-detail-table-wrap">
+          <table class="coalition-detail-table">
+            <thead>${headRow}</thead>
+            <tbody>${bodyRows}</tbody>
+          </table>
+        </div>
+      </section>
+
+      <section>${pairsHTML}</section>
+    `;
+    el.hidden = false;
+    document.body.classList.add('coalition-detail-open');
+  }
 
   // Permalink: /reykjavik/liklegustu-meirihlutarnir/ opens the panel
   // on load. Defer so the layout settles and the transition still plays.
