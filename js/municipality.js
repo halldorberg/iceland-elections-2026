@@ -5,7 +5,7 @@ import { RESULTS_2022 } from './data/results2022.js?v=7';
 import { POLLS }        from './data/polls.js?v=4';
 import { EYE_POSITIONS } from './data/eye_positions.js?v=5';
 import { CLEAVAGES, STANCE_SMILEYS } from './data/cleavages.js?v=3';
-import { RUV_POSITIONS } from './data/ruv_positions.js?v=1';
+import { RUV_POSITIONS } from './data/ruv_positions.js?v=2';
 import { getLang, t, renderLangSwitcher, MUNI_DATIVE_IS } from './i18n.js?v=9';
 import { partySlug, partyCodeFromSlug, slugify } from './data/party_slugs.js?v=3';
 
