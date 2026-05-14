@@ -262,6 +262,8 @@
   top: 80px;
   left: 50%;
   transform: translateX(-50%);
+  /* Pushed below the coalition strip when present (Reykjavík for now). */
+  /* See body.has-coalition-strip override below. */
   z-index: var(--z-tooltip);
   background: rgba(12,18,36,0.96);
   border: 1px solid rgba(100,181,246,0.25);
@@ -2251,19 +2253,31 @@
    expanding panel that takes ~50% of viewport-below-nav with all minimum
    winning coalitions from the latest poll rendered as cards. */
 .coalition-strip {
-  --nav-h: 60px;
-  --strip-h: 38px;
+  /* --nav-h / --strip-h are set on :root by JS once the nav has been
+     measured. We deliberately do NOT shadow them locally, so the strip
+     re-positions correctly when JS updates them. The fallbacks in the
+     var() expressions below cover the very first paint before JS runs. */
   position: fixed;
-  top: var(--nav-h);
+  top: var(--nav-h, 60px);
   left: 0;
   right: 0;
   z-index: 99;            /* below muni-nav (100) but above content */
   background: rgba(15, 25, 45, 0.96);
   border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 }
-/* Push main content down to clear the strip on munis where it shows. */
-body.has-coalition-strip .accordion-section { padding-top: calc(72px + var(--strip-h, 38px)); }
+/* Push main content down to clear the strip on munis where it shows.
+   On desktop the accordion uses padding-top; on mobile (≤768px) it's
+   position:fixed with top: 72px, so we offset that instead. JS keeps
+   --nav-h / --strip-h in sync with the live measurements. */
+body.has-coalition-strip .accordion-section { padding-top: calc(var(--nav-h, 72px) + var(--strip-h, 38px)); }
 body.has-coalition-strip #election-type-notice:not(:empty) { margin-top: var(--strip-h, 38px); }
+body.has-coalition-strip .random-tooltip { top: calc(var(--nav-h, 60px) + var(--strip-h, 38px) + 8px); }
+@media (max-width: 768px) {
+  body.has-coalition-strip .accordion-section {
+    top: calc(var(--nav-h, 60px) + var(--strip-h, 38px));
+    padding-top: 0;  /* mobile uses `top` for positioning, not padding */
+  }
+}
 .coalition-banner {
   appearance: none;
   -webkit-appearance: none;

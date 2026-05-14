@@ -6,7 +6,7 @@ import { POLLS }        from './data/polls.js?v=4';
 import { EYE_POSITIONS } from './data/eye_positions.js?v=5';
 import { CLEAVAGES, STANCE_SMILEYS } from './data/cleavages.js?v=3';
 import { RUV_POSITIONS } from './data/ruv_positions.js?v=1';
-import { getLang, t, renderLangSwitcher, MUNI_DATIVE_IS } from './i18n.js?v=8';
+import { getLang, t, renderLangSwitcher, MUNI_DATIVE_IS } from './i18n.js?v=9';
 import { partySlug, partyCodeFromSlug, slugify } from './data/party_slugs.js?v=3';
 
 // ─── i18n ──────────────────────────────────────────────────
@@ -279,6 +279,10 @@ document.documentElement.lang = lang;
   const cardsEl = document.getElementById('coalition-cards');
   if (!strip || !banner || !panel || !cardsEl) return;
 
+  // Banner title — translatable.
+  const bannerTextEl = banner.querySelector('.coalition-banner-text');
+  if (bannerTextEl) bannerTextEl.textContent = ui.coalitionBannerTitle;
+
   function scoreBand(s) {
     if (s == null) return 'unknown';
     if (s >= 75) return 'high';
@@ -322,14 +326,14 @@ document.documentElement.lang = lang;
     }).join('');
     return `
       <div class="coalition-frictions">
-        <div class="coalition-frictions-h">Mestur munur á afstöðu</div>
+        <div class="coalition-frictions-h">${ui.coalitionFrictionHeader}</div>
         <ul>${rows}</ul>
       </div>`;
   }
 
   // Build cards once, up front.
   if (mwcs.length === 0) {
-    cardsEl.innerHTML = '<div class="coalition-empty">Engin meirihlutamyndun möguleg.</div>';
+    cardsEl.innerHTML = `<div class="coalition-empty">${ui.coalitionEmpty}</div>`;
   } else {
     cardsEl.innerHTML = mwcs.map((c, idx) => {
       const chips = c.members.map(m => {
@@ -338,15 +342,15 @@ document.documentElement.lang = lang;
         return `<span class="coalition-chip" style="--chip-bg:${bg}">${m.code}<span class="coalition-chip-seats">${m.seats}</span></span>`;
       }).join('');
       const partyCount = c.members.length;
-      const partyLabel = partyCount === 1 ? '1 flokkur' : `${partyCount} flokkar`;
+      const partyLabel = ui.coalitionPartyCount(partyCount);
       const s = c.score;
       const band = scoreBand(s?.score);
       const scoreHTML = s
-        ? `<div class="coalition-score coalition-score--${band}" title="Samrýming við kosningapróf RÚV (0–100). Því hærra, því minni innbyrðis munur á afstöðu frambjóðenda flokkanna.">
+        ? `<div class="coalition-score coalition-score--${band}" title="${escHTML(ui.coalitionScoreTooltip)}">
              <span class="coalition-score-num">${s.score}</span>
-             <span class="coalition-score-label">Samstaða</span>
+             <span class="coalition-score-label">${ui.coalitionScoreLabel}</span>
            </div>`
-        : `<div class="coalition-score coalition-score--unknown" title="Engin afstöðugögn fyrir þessa samsetningu."><span class="coalition-score-num">–</span><span class="coalition-score-label">Samstaða</span></div>`;
+        : `<div class="coalition-score coalition-score--unknown" title="${escHTML(ui.coalitionScoreUnknown)}"><span class="coalition-score-num">–</span><span class="coalition-score-label">${ui.coalitionScoreLabel}</span></div>`;
       const frictionsHTML = s ? renderFrictions(s.frictions, c.members.map(m => m.code)) : '';
       return `
         <div class="coalition-card" data-idx="${idx}">
@@ -373,50 +377,34 @@ document.documentElement.lang = lang;
       head.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
     });
 
-    // Methodology footer — explains how the Samstaða score is derived.
+    // Methodology footer — explains how the score is derived.
     const methodology = document.createElement('div');
     methodology.className = 'coalition-methodology';
     methodology.innerHTML = `
-      <h3>Hvernig er <em>Samstaða</em> reiknuð?</h3>
-      <p>
-        Samstaða (0–100) er mælikvarði á hversu lík afstaða frambjóðenda flokkanna er
-        í <a href="https://kosningaprof.ruv.is/" target="_blank" rel="noopener">kosningaprófi RÚV</a>.
-        Hærri tala þýðir minni innbyrðis munur, og þ.a.l. meiri möguleika
-        á samkomulagi um stefnumál.
-      </p>
-      <p>
-        Hver frambjóðandi gaf afstöðu á fjögurra þrepa kvarða (mjög ósammála → mjög sammála)
-        við þær 30 fullyrðingar sem áttu við Reykjavík. Fyrir hvern flokk er reiknað meðaltal
-        allra hans frambjóðenda á hverri fullyrðingu. Samstaða meirihlutans blandar þrennu:
-      </p>
+      <h3>${ui.coalitionMethodH}</h3>
+      <p>${ui.coalitionMethodP1}</p>
+      <p>${ui.coalitionMethodP2}</p>
       <ul>
-        <li><strong>Bil (50%):</strong> meðalmunur milli flokks með hæstu og lægstu afstöðu á hverri fullyrðingu.</li>
-        <li><strong>Versti hlekkur (30%):</strong> mesti meðalfjarlægð milli tveggja flokka í meirihlutanum yfir allar fullyrðingar — meirihluti er aldrei sterkari en hans veikasta samband.</li>
-        <li><strong>Áhersluvegið bil (20%):</strong> sami bilmælikvarði, en með auknu vægi á fullyrðingar sem frambjóðendur merktu sem mikilvægar.</li>
+        <li>${ui.coalitionMethodB1}</li>
+        <li>${ui.coalitionMethodB2}</li>
+        <li>${ui.coalitionMethodB3}</li>
       </ul>
-      <p>
-        Það sem birtist undir <em>„Mestur munur á afstöðu“</em> þegar smellt er á spjald
-        eru þær þrjár fullyrðingar þar sem munur milli flokka meirihlutans er mestur
-        — helstu líkleg ágreiningsmál ef meirihlutinn yrði myndaður.
-      </p>
-      <p class="coalition-methodology-note">
-        131 frambjóðandi af 11 listum í Reykjavík svaraði kosningaprófinu;
-        sumir flokkar með færri svör hafa minni nákvæmni í meðaltali. Sætafjöldi
-        byggir á efstu könnun í þessari síðu (sjá flokk fyrir uppruna).
-      </p>`;
+      <p>${ui.coalitionMethodP3}</p>
+      <p class=”coalition-methodology-note”>${ui.coalitionMethodNote}</p>`;
     cardsEl.appendChild(methodology);
   }
 
   // Sync --nav-h (top muni-nav height) and --strip-h (this strip's own
-  // height) onto the strip element so position:fixed offsets + the 50%
-  // panel calc stay accurate across resizes / layout changes.
+  // height) onto :root so position:fixed offsets, the 50% panel calc,
+  // AND the accordion-section padding/top offsets all stay accurate
+  // across resizes and the desktop/mobile layout switch.
   function syncDimensions() {
     const nav = document.querySelector('.muni-nav');
     if (!nav) return;
     const nh = nav.getBoundingClientRect().height || 60;
-    strip.style.setProperty('--nav-h', `${nh}px`);
     const sh = banner.getBoundingClientRect().height || 38;
-    strip.style.setProperty('--strip-h', `${sh}px`);
+    document.documentElement.style.setProperty('--nav-h', `${nh}px`);
+    document.documentElement.style.setProperty('--strip-h', `${sh}px`);
   }
 
   function setExpanded(expanded) {
