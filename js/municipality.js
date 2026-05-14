@@ -5,6 +5,7 @@ import { RESULTS_2022 } from './data/results2022.js?v=7';
 import { POLLS }        from './data/polls.js?v=4';
 import { EYE_POSITIONS } from './data/eye_positions.js?v=5';
 import { CLEAVAGES, STANCE_SMILEYS } from './data/cleavages.js?v=3';
+import { RUV_POSITIONS } from './data/ruv_positions.js?v=1';
 import { getLang, t, renderLangSwitcher, MUNI_DATIVE_IS } from './i18n.js?v=8';
 import { partySlug, partyCodeFromSlug, slugify } from './data/party_slugs.js?v=3';
 
@@ -135,6 +136,321 @@ const muni = MUNICIPALITIES.find(m => m.id === muniId) || MUNICIPALITIES[0];
 document.getElementById('muni-name').textContent = muni.name;
 document.getElementById('muni-region').textContent = muni.region;
 document.documentElement.lang = lang;
+
+// ─── Coalition strip (líklegustu meirihlutarnir) ──────────────────────────
+// Renders an expandable banner directly under the top nav with every
+// minimum winning coalition derived from the muni's latest poll, each
+// scored on RÚV kosningapróf alignment. Currently gated to Reykjavík for
+// the experiment — extend later by removing the muniId check.
+(function setupCoalitionStrip() {
+  if (muniId !== 'reykjavik') return;
+  const pollEntry = (POLLS[muniId] && POLLS[muniId][0]) || null;
+  if (!pollEntry || !pollEntry.parties) return;
+  const positionsMuni = (RUV_POSITIONS && RUV_POSITIONS[muniId]) || null;
+
+  const totalSeats = pollEntry.totalSeats || 23;
+  const majority = Math.floor(totalSeats / 2) + 1;
+
+  // Parties with at least one seat — anything else can't help form a majority.
+  const seated = Object.entries(pollEntry.parties)
+    .filter(([_, v]) => (v.seats || 0) > 0)
+    .map(([code, v]) => ({ code, seats: v.seats }));
+
+  // Enumerate all minimum winning coalitions: subsets summing ≥ majority
+  // where removing any single member drops the total below majority.
+  const mwcs = [];
+  const n = seated.length;
+  for (let mask = 1; mask < (1 << n); mask++) {
+    let total = 0;
+    const members = [];
+    for (let i = 0; i < n; i++) {
+      if (mask & (1 << i)) { members.push(seated[i]); total += seated[i].seats; }
+    }
+    if (total < majority) continue;
+    const isMin = members.every(p => total - p.seats < majority);
+    if (isMin) mwcs.push({ members, total });
+  }
+
+  // ─── Coalition scoring on RÚV kosningapróf ─────────────────────────────
+  // Each candidate placed every proposition on a 1..4 Likert scale; we
+  // aggregated to per-(party, qid) means in ruv_positions.js. For a
+  // coalition we score on three signals and blend them.
+  function scoreCoalition(memberCodes) {
+    if (!positionsMuni) return null;
+    const Q = positionsMuni.questions;
+    const P = positionsMuni.parties;
+
+    // Per-proposition spread: max(mean) − min(mean) across coalition parties
+    // on questions where every member answered.
+    const qids = Object.keys(Q);
+    let spreadSum = 0, spreadCount = 0;
+    let impWeightedSpreadSum = 0, impWeightTotal = 0;
+    const frictionRows = []; // { qid, spread, perParty: {code: mean} }
+
+    for (const qid of qids) {
+      const meta = Q[qid];
+      const perParty = {};
+      let ok = true;
+      for (const code of memberCodes) {
+        const entry = P[code] && P[code][qid];
+        if (!entry || entry.n === 0) { ok = false; break; }
+        perParty[code] = entry.mean;
+      }
+      if (!ok) continue;
+      const vals = Object.values(perParty);
+      const spread = Math.max(...vals) - Math.min(...vals);
+      spreadSum += spread;
+      spreadCount += 1;
+      // Importance weight: how many coalition candidates flagged this
+      // proposition as decisive.
+      let impW = 0;
+      for (const code of memberCodes) impW += (meta.importance && meta.importance[code]) || 0;
+      if (impW > 0) {
+        impWeightedSpreadSum += spread * impW;
+        impWeightTotal += 3 * impW;  // 3 = max possible spread on a 1..4 scale
+      }
+      frictionRows.push({ qid, spread, perParty });
+    }
+    if (spreadCount === 0) return null;
+
+    const avgSpread = spreadSum / spreadCount;
+    const spreadScore = 1 - (avgSpread / 3);
+
+    // Weakest link: per-pair Manhattan distance, normalised, taking the
+    // worst pair. Captures "even one strained relationship hurts."
+    let worstPairDist = 0;
+    for (let i = 0; i < memberCodes.length; i++) {
+      for (let j = i + 1; j < memberCodes.length; j++) {
+        const a = memberCodes[i], b = memberCodes[j];
+        let sum = 0, n = 0;
+        for (const qid of qids) {
+          const ea = P[a] && P[a][qid];
+          const eb = P[b] && P[b][qid];
+          if (!ea || !eb) continue;
+          sum += Math.abs(ea.mean - eb.mean);
+          n += 1;
+        }
+        if (n === 0) continue;
+        const d = sum / n;  // average per-question distance for this pair
+        if (d > worstPairDist) worstPairDist = d;
+      }
+    }
+    const weakestLinkScore = 1 - (worstPairDist / 3);
+
+    const importanceScore = impWeightTotal > 0
+      ? 1 - (impWeightedSpreadSum / impWeightTotal)
+      : spreadScore;  // fall back if nobody flagged anything as important
+
+    const blended = 0.5 * spreadScore + 0.3 * weakestLinkScore + 0.2 * importanceScore;
+    const score = Math.round(blended * 100);
+
+    // Top-3 friction propositions for the drill-down.
+    frictionRows.sort((a, b) => b.spread - a.spread);
+    const frictions = frictionRows.slice(0, 3).map(r => ({
+      qid: r.qid,
+      title: Q[r.qid].title,
+      spread: r.spread,
+      perParty: r.perParty,
+    }));
+
+    return {
+      score,
+      avgSpread: +avgSpread.toFixed(2),
+      worstPairDist: +worstPairDist.toFixed(2),
+      frictions,
+    };
+  }
+
+  // Score every coalition once.
+  for (const c of mwcs) {
+    c.score = scoreCoalition(c.members.map(m => m.code));
+  }
+
+  // Sort: highest samstaða first; tiebreak with fewer parties, then more seats.
+  mwcs.sort((a, b) =>
+    (b.score?.score ?? -1) - (a.score?.score ?? -1) ||
+    a.members.length - b.members.length ||
+    b.total - a.total
+  );
+
+  const strip   = document.getElementById('coalition-strip');
+  const banner  = document.getElementById('coalition-banner');
+  const panel   = document.getElementById('coalition-panel');
+  const cardsEl = document.getElementById('coalition-cards');
+  if (!strip || !banner || !panel || !cardsEl) return;
+
+  function scoreBand(s) {
+    if (s == null) return 'unknown';
+    if (s >= 75) return 'high';
+    if (s >= 60) return 'mid';
+    if (s >= 45) return 'low';
+    return 'verylow';
+  }
+
+  function meanToLetter(m) {
+    if (m == null) return '–';
+    if (m < 1.5) return 'A';
+    if (m < 2.5) return 'B';
+    if (m < 3.5) return 'C';
+    return 'D';
+  }
+
+  // Local copy — keeps the IIFE independent of helper-hoisting order.
+  function escHTML(s) {
+    return String(s)
+      .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+  }
+
+  function renderFrictions(frictions, memberCodes) {
+    if (!frictions || frictions.length === 0) return '';
+    const rows = frictions.map(f => {
+      const stances = memberCodes.map(code => {
+        const m = f.perParty[code];
+        const p = PARTIES[code];
+        const bg = (p && p.color) || '#555';
+        return `<span class="friction-stance" style="--chip-bg:${bg}"
+                  title="${code}: ${m == null ? '–' : m.toFixed(2)}/4">
+                  ${code}<small>${meanToLetter(m)}</small>
+                </span>`;
+      }).join('');
+      return `
+        <li class="friction-row">
+          <div class="friction-q">${escHTML(f.title)}</div>
+          <div class="friction-stances">${stances}</div>
+        </li>`;
+    }).join('');
+    return `
+      <div class="coalition-frictions">
+        <div class="coalition-frictions-h">Mestur munur á afstöðu</div>
+        <ul>${rows}</ul>
+      </div>`;
+  }
+
+  // Build cards once, up front.
+  if (mwcs.length === 0) {
+    cardsEl.innerHTML = '<div class="coalition-empty">Engin meirihlutamyndun möguleg.</div>';
+  } else {
+    cardsEl.innerHTML = mwcs.map((c, idx) => {
+      const chips = c.members.map(m => {
+        const p = PARTIES[m.code];
+        const bg = (p && p.color) || '#555';
+        return `<span class="coalition-chip" style="--chip-bg:${bg}">${m.code}<span class="coalition-chip-seats">${m.seats}</span></span>`;
+      }).join('');
+      const partyCount = c.members.length;
+      const partyLabel = partyCount === 1 ? '1 flokkur' : `${partyCount} flokkar`;
+      const s = c.score;
+      const band = scoreBand(s?.score);
+      const scoreHTML = s
+        ? `<div class="coalition-score coalition-score--${band}" title="Samrýming við kosningapróf RÚV (0–100). Því hærra, því minni innbyrðis munur á afstöðu frambjóðenda flokkanna.">
+             <span class="coalition-score-num">${s.score}</span>
+             <span class="coalition-score-label">Samstaða</span>
+           </div>`
+        : `<div class="coalition-score coalition-score--unknown" title="Engin afstöðugögn fyrir þessa samsetningu."><span class="coalition-score-num">–</span><span class="coalition-score-label">Samstaða</span></div>`;
+      const frictionsHTML = s ? renderFrictions(s.frictions, c.members.map(m => m.code)) : '';
+      return `
+        <div class="coalition-card" data-idx="${idx}">
+          <button class="coalition-card-head" type="button" aria-expanded="false">
+            <div class="coalition-card-main">
+              <div class="coalition-card-chips">${chips}</div>
+              <div class="coalition-card-meta">
+                <span>${partyLabel}</span>
+                <span class="coalition-card-total">${c.total}<small>/${totalSeats}</small></span>
+              </div>
+            </div>
+            ${scoreHTML}
+          </button>
+          <div class="coalition-card-detail">${frictionsHTML}</div>
+        </div>`;
+    }).join('');
+
+    // Card expand/collapse toggling.
+    cardsEl.addEventListener('click', (e) => {
+      const head = e.target.closest('.coalition-card-head');
+      if (!head) return;
+      const card = head.closest('.coalition-card');
+      const isOpen = card.classList.toggle('is-open');
+      head.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    });
+
+    // Methodology footer — explains how the Samstaða score is derived.
+    const methodology = document.createElement('div');
+    methodology.className = 'coalition-methodology';
+    methodology.innerHTML = `
+      <h3>Hvernig er <em>Samstaða</em> reiknuð?</h3>
+      <p>
+        Samstaða (0–100) er mælikvarði á hversu lík afstaða frambjóðenda flokkanna er
+        í <a href="https://kosningaprof.ruv.is/" target="_blank" rel="noopener">kosningaprófi RÚV</a>.
+        Hærri tala þýðir minni innbyrðis munur, og þ.a.l. meiri möguleika
+        á samkomulagi um stefnumál.
+      </p>
+      <p>
+        Hver frambjóðandi gaf afstöðu á fjögurra þrepa kvarða (mjög ósammála → mjög sammála)
+        við þær 30 fullyrðingar sem áttu við Reykjavík. Fyrir hvern flokk er reiknað meðaltal
+        allra hans frambjóðenda á hverri fullyrðingu. Samstaða meirihlutans blandar þrennu:
+      </p>
+      <ul>
+        <li><strong>Bil (50%):</strong> meðalmunur milli flokks með hæstu og lægstu afstöðu á hverri fullyrðingu.</li>
+        <li><strong>Versti hlekkur (30%):</strong> mesti meðalfjarlægð milli tveggja flokka í meirihlutanum yfir allar fullyrðingar — meirihluti er aldrei sterkari en hans veikasta samband.</li>
+        <li><strong>Áhersluvegið bil (20%):</strong> sami bilmælikvarði, en með auknu vægi á fullyrðingar sem frambjóðendur merktu sem mikilvægar.</li>
+      </ul>
+      <p>
+        Það sem birtist undir <em>„Mestur munur á afstöðu“</em> þegar smellt er á spjald
+        eru þær þrjár fullyrðingar þar sem munur milli flokka meirihlutans er mestur
+        — helstu líkleg ágreiningsmál ef meirihlutinn yrði myndaður.
+      </p>
+      <p class="coalition-methodology-note">
+        131 frambjóðandi af 11 listum í Reykjavík svaraði kosningaprófinu;
+        sumir flokkar með færri svör hafa minni nákvæmni í meðaltali. Sætafjöldi
+        byggir á efstu könnun í þessari síðu (sjá flokk fyrir uppruna).
+      </p>`;
+    cardsEl.appendChild(methodology);
+  }
+
+  // Sync --nav-h (top muni-nav height) and --strip-h (this strip's own
+  // height) onto the strip element so position:fixed offsets + the 50%
+  // panel calc stay accurate across resizes / layout changes.
+  function syncDimensions() {
+    const nav = document.querySelector('.muni-nav');
+    if (!nav) return;
+    const nh = nav.getBoundingClientRect().height || 60;
+    strip.style.setProperty('--nav-h', `${nh}px`);
+    const sh = banner.getBoundingClientRect().height || 38;
+    strip.style.setProperty('--strip-h', `${sh}px`);
+  }
+
+  function setExpanded(expanded) {
+    banner.setAttribute('aria-expanded', expanded ? 'true' : 'false');
+    panel.setAttribute('aria-hidden', expanded ? 'false' : 'true');
+    panel.classList.toggle('is-expanded', expanded);
+  }
+
+  banner.addEventListener('click', () => {
+    const expanded = banner.getAttribute('aria-expanded') === 'true';
+    setExpanded(!expanded);
+  });
+
+  // Click anywhere outside the strip → collapse it.
+  document.addEventListener('click', (e) => {
+    if (banner.getAttribute('aria-expanded') !== 'true') return;
+    if (strip.contains(e.target)) return;
+    setExpanded(false);
+  });
+  // Esc also collapses.
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && banner.getAttribute('aria-expanded') === 'true') {
+      setExpanded(false);
+    }
+  });
+
+  // Reveal: drop `hidden`, mark body so the accordion-section CSS bumps
+  // its padding-top by --strip-h, then measure nav/strip heights now that
+  // they're actually laid out.
+  strip.hidden = false;
+  document.body.classList.add('has-coalition-strip');
+  syncDimensions();
+  window.addEventListener('resize', syncDimensions);
+})();
 
 // ─── SEO: dynamic title / meta description / canonical / og per route ────
 // Optional explicit candidate override — set by openModal so we can label
