@@ -320,9 +320,12 @@ document.documentElement.lang = lang;
         const m = f.perParty[code];
         const p = PARTIES[code];
         const bg = (p && p.color) || '#555';
+        const letter = meanToLetter(m);
+        const smiley = STANCE_SMILEYS[letter] || '·';
         return `<span class="friction-stance" style="--chip-bg:${bg}"
                   title="${code}: ${m == null ? '–' : m.toFixed(2)}/4">
-                  ${code}<small>${meanToLetter(m)}</small>
+                  <span class="friction-stance-code">${code}</span>
+                  <span class="friction-stance-smiley">${smiley}</span>
                 </span>`;
       }).join('');
       return `

@@ -2461,21 +2461,25 @@ body.has-coalition-strip .random-tooltip { top: calc(var(--nav-h, 60px) + var(--
 }
 .friction-stance {
   display: inline-flex;
+  flex-direction: column;
   align-items: center;
-  gap: 4px;
-  padding: 2px 7px;
-  border-radius: 4px;
-  font-size: 0.7rem;
-  font-weight: 700;
+  gap: 2px;
+  padding: 3px 6px 4px;
+  border-radius: 5px;
   color: #ffffff;
   background: var(--chip-bg, #555);
   cursor: default;
+  line-height: 1;
+  min-width: 26px;
 }
-.friction-stance small {
-  font-size: 0.62rem;
-  font-weight: 600;
-  opacity: 0.75;
+.friction-stance-code {
+  font-size: 0.7rem;
+  font-weight: 700;
   letter-spacing: 0.04em;
+}
+.friction-stance-smiley {
+  font-size: 0.95rem;
+  line-height: 1;
 }
 
 .coalition-card-chips {
