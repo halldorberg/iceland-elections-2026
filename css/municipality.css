@@ -2918,6 +2918,7 @@ body.coalition-detail-open { overflow: hidden; }
 }
 .coalition-share-btn svg { display: block; }
 
+.coalition-source-toggle,
 .coalition-scale-toggle {
   display: inline-flex;
   border: 1px solid rgba(255,255,255,0.12);
@@ -2925,6 +2926,25 @@ body.coalition-detail-open { overflow: hidden; }
   overflow: hidden;
   background: rgba(255,255,255,0.03);
 }
+.coalition-source-toggle button {
+  appearance: none;
+  -webkit-appearance: none;
+  background: transparent;
+  border: 0;
+  color: rgba(255,255,255,0.65);
+  font: inherit;
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+  padding: 6px 12px;
+  cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+.coalition-source-toggle button:hover { color: #fff; background: rgba(255,255,255,0.05); }
+.coalition-source-toggle button.is-active {
+  background: rgba(96, 165, 250, 0.20);
+  color: #93c5fd;
+}
+.coalition-source-toggle button + button { border-left: 1px solid rgba(255,255,255,0.12); }
 .coalition-scale-toggle button {
   appearance: none;
   -webkit-appearance: none;
@@ -3007,6 +3027,12 @@ body.coalition-detail-open { overflow: hidden; }
   .coalition-banner { height: 36px; font-size: 0.72rem; letter-spacing: 0.1em; }
   /* One column on every phone-class viewport — including large
      phones (Pro Max ≈ 430px, S22 Ultra ≈ 412px) that used to squeeze
-     two narrow cards per row with the previous 180px minmax. */
-  .coalition-cards { padding: 12px; gap: 10px; grid-template-columns: 1fr; }
+     two narrow cards per row with the previous 180px minmax.
+     Bottom padding ≈ 80 px so the last card can scroll above the
+     fixed mestlesid-pill / outreach-btn that overlay the panel. */
+  .coalition-cards {
+    padding: 12px 12px 80px;
+    gap: 10px;
+    grid-template-columns: 1fr;
+  }
 }

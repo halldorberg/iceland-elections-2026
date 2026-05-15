@@ -24,6 +24,39 @@ export const POLLS = {
   // Newest first.
   reykjavik: [
     {
+      // Lokakönnun Þjóðarpúls Gallups, birt 15. maí 2026 (daginn fyrir
+      // kjördag). Sýnir hreinan hægri-meirihluta: D+M = 8+3 = 11 (1 sæti
+      // frá meirihluta) en D+M+C = 13.
+      // https://www.ruv.is/frettir/innlent/2026-05-15-sjalfstaedisflokkurinn-a-siglingu-i-lokakonnun-gallups-475158
+      // Numbers read exactly off RÚV's published bar chart in the article.
+      // Sum = 99.9 (rounding). D'Hondt vs 23 seats: D 8 · S 5 · A 3 · M 3 ·
+      // C 2 · J 1 · B 1 — matches the article's narrative ("8 fulltrúar",
+      // "Vinstrið og Miðflokkurinn þrjá fulltrúa hvor", o.s.frv.).
+      totalSeats: 23,
+      source: {
+        pollster:    'Gallup',
+        pollsterGen: 'Gallups',
+        period:      'Lokakönnun 15. maí 2026',
+        period_en:   'Final poll, 15 May 2026',
+        period_pl:   'Sondaż końcowy, 15 maja 2026',
+        sample:      null,
+        url:         'https://www.ruv.is/frettir/innlent/2026-05-15-sjalfstaedisflokkurinn-a-siglingu-i-lokakonnun-gallups-475158',
+      },
+      parties: {
+        D: { pct: 31.3, seats: 8 },
+        S: { pct: 21.5, seats: 5 },
+        A: { pct: 11.3, seats: 3 },
+        M: { pct: 10.9, seats: 3 },
+        C: { pct:  9.8, seats: 2 },
+        J: { pct:  4.8, seats: 1 },
+        B: { pct:  4.7, seats: 1 },
+        F: { pct:  2.3, seats: 0 },
+        P: { pct:  2.3, seats: 0 },
+        G: { pct:  0.6, seats: 0 },
+        R: { pct:  0.4, seats: 0 },
+      },
+    },
+    {
       // Kosningaspá Vísis (Baldur Héðinsson), uppfærð 14. maí 2026 miðað við
       // nýjustu könnun Maskínu.
       // https://www.visir.is/g/20262883168d/kosningaspa-visis-stodug-leiki-ad-komast-a-fylgi-i-borginni

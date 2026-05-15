@@ -2,11 +2,11 @@ import { MUNICIPALITIES } from './data/municipalities.js?v=15';
 import { PARTIES } from './data/parties.js?v=4';
 import { getMunicipalityPartyData } from './data/candidates.js?v=96';
 import { RESULTS_2022 } from './data/results2022.js?v=7';
-import { POLLS }        from './data/polls.js?v=4';
+import { POLLS }        from './data/polls.js?v=5';
 import { EYE_POSITIONS } from './data/eye_positions.js?v=5';
 import { CLEAVAGES, STANCE_SMILEYS } from './data/cleavages.js?v=3';
 import { RUV_POSITIONS } from './data/ruv_positions.js?v=4';
-import { getLang, t, renderLangSwitcher, MUNI_DATIVE_IS } from './i18n.js?v=18';
+import { getLang, t, renderLangSwitcher, MUNI_DATIVE_IS } from './i18n.js?v=19';
 import { partySlug, partyCodeFromSlug, slugify } from './data/party_slugs.js?v=3';
 
 // ─── i18n ──────────────────────────────────────────────────
@@ -191,9 +191,55 @@ document.documentElement.lang = lang;
 // the experiment — extend later by removing the muniId check.
 (function setupCoalitionStrip() {
   if (muniId !== 'reykjavik') return;
-  const pollEntry = (POLLS[muniId] && POLLS[muniId][0]) || null;
-  if (!pollEntry || !pollEntry.parties) return;
+  const allPolls = POLLS[muniId] || [];
+  if (allPolls.length === 0 || !allPolls[0].parties) return;
   const positionsMuni = (RUV_POSITIONS && RUV_POSITIONS[muniId]) || null;
+
+  // ─── Poll source ──────────────────────────────────────────────────────
+  // Three sources to choose between: the two most-recent polls, plus a
+  // synthesised "average" of those two. Stored in allPolls[0] (newest)
+  // and allPolls[1] (next newest) by polls.js convention.
+  function averagePolls(polls) {
+    const codes = new Set();
+    polls.forEach(p => Object.keys(p.parties).forEach(c => codes.add(c)));
+    const avgPct = {};
+    for (const c of codes) {
+      const vals = polls.map(p => (p.parties[c]?.pct ?? 0));
+      avgPct[c] = vals.reduce((a, b) => a + b, 0) / polls.length;
+    }
+    const totalSeats = polls[0].totalSeats || 23;
+    // D'Hondt on the averaged percentages.
+    const seats = {}; for (const c of codes) seats[c] = 0;
+    for (let i = 0; i < totalSeats; i++) {
+      let bestC = null, bestQ = -1;
+      for (const c of codes) {
+        const q = avgPct[c] / (seats[c] + 1);
+        if (q > bestQ) { bestQ = q; bestC = c; }
+      }
+      seats[bestC] += 1;
+    }
+    const parties = {};
+    for (const c of codes) parties[c] = { pct: +avgPct[c].toFixed(2), seats: seats[c] };
+    return {
+      totalSeats,
+      parties,
+      source: { pollster: 'Meðaltal', pollsterGen: 'Meðaltals', period: 'Gallup + Kosningaspá', sample: null, url: null },
+      _averageOf: polls.map(p => p.source && p.source.pollster).join(' + '),
+    };
+  }
+  const POLL_SOURCES = [
+    { id: 'average',       getEntry: () => averagePolls(allPolls.slice(0, 2)) },
+    { id: 'gallup-may15',  getEntry: () => allPolls[0] },
+    { id: 'visir-may14',   getEntry: () => allPolls[1] },
+  ];
+  let pollSourceId = localStorage.getItem('rvk_poll_source') || 'average';
+  if (!POLL_SOURCES.some(s => s.id === pollSourceId)) pollSourceId = 'average';
+
+  function currentPollEntry() {
+    const src = POLL_SOURCES.find(s => s.id === pollSourceId) || POLL_SOURCES[0];
+    return src.getEntry();
+  }
+  let pollEntry = currentPollEntry();
 
   // ─── Likert-scale mode ────────────────────────────────────────────────
   // Two scales the user can toggle between:
@@ -223,28 +269,32 @@ document.documentElement.lang = lang;
     return best;
   }
 
-  const totalSeats = pollEntry.totalSeats || 23;
-  const majority = Math.floor(totalSeats / 2) + 1;
+  let totalSeats, majority, mwcs;
+  function enumerateCoalitions() {
+    totalSeats = pollEntry.totalSeats || 23;
+    majority = Math.floor(totalSeats / 2) + 1;
 
-  // Parties with at least one seat — anything else can't help form a majority.
-  const seated = Object.entries(pollEntry.parties)
-    .filter(([_, v]) => (v.seats || 0) > 0)
-    .map(([code, v]) => ({ code, seats: v.seats }));
+    // Parties with at least one seat — anything else can't help form a majority.
+    const seated = Object.entries(pollEntry.parties)
+      .filter(([_, v]) => (v.seats || 0) > 0)
+      .map(([code, v]) => ({ code, seats: v.seats }));
 
-  // Enumerate all minimum winning coalitions: subsets summing ≥ majority
-  // where removing any single member drops the total below majority.
-  const mwcs = [];
-  const n = seated.length;
-  for (let mask = 1; mask < (1 << n); mask++) {
-    let total = 0;
-    const members = [];
-    for (let i = 0; i < n; i++) {
-      if (mask & (1 << i)) { members.push(seated[i]); total += seated[i].seats; }
+    // Enumerate all minimum winning coalitions: subsets summing ≥ majority
+    // where removing any single member drops the total below majority.
+    mwcs = [];
+    const n = seated.length;
+    for (let mask = 1; mask < (1 << n); mask++) {
+      let total = 0;
+      const members = [];
+      for (let i = 0; i < n; i++) {
+        if (mask & (1 << i)) { members.push(seated[i]); total += seated[i].seats; }
+      }
+      if (total < majority) continue;
+      const isMin = members.every(p => total - p.seats < majority);
+      if (isMin) mwcs.push({ members, total });
     }
-    if (total < majority) continue;
-    const isMin = members.every(p => total - p.seats < majority);
-    if (isMin) mwcs.push({ members, total });
   }
+  enumerateCoalitions();
 
   // ─── Coalition scoring on RÚV kosningapróf ─────────────────────────────
   // Uses each party's officially-submitted answer per proposition
@@ -386,6 +436,41 @@ document.documentElement.lang = lang;
     return 'verylow';
   }
 
+  // Module-top-level shareURL/showToast aren't visible from inside this
+  // IIFE for the same reason escapeHtml wasn't earlier — keep local copies.
+  function doShare(url, title) {
+    const toastEl = document.getElementById('share-toast');
+    const flashToast = (msg) => {
+      if (!toastEl) return;
+      toastEl.textContent = msg;
+      toastEl.classList.add('is-visible');
+      setTimeout(() => toastEl.classList.remove('is-visible'), 3000);
+    };
+    if (navigator.share) {
+      navigator.share({ title, url }).catch(err => {
+        if (err && err.name === 'AbortError') return;
+        copyToClipboard(url).then(ok => ok && flashToast(ui.shareToastCopied || '✓ Hlekkur afritaður!'));
+      });
+      return;
+    }
+    copyToClipboard(url).then(ok => {
+      if (ok) flashToast(ui.shareToastCopied || '✓ Hlekkur afritaður!');
+      else flashToast(url);
+    });
+  }
+  async function copyToClipboard(url) {
+    try { await navigator.clipboard.writeText(url); return true; } catch (_) {}
+    try {
+      const ta = Object.assign(document.createElement('textarea'),
+        { value: url, style: 'position:fixed;left:-9999px;top:-9999px;opacity:0;' });
+      document.body.appendChild(ta);
+      ta.focus(); ta.select();
+      const ok = document.execCommand('copy');
+      document.body.removeChild(ta);
+      return ok;
+    } catch (_) { return false; }
+  }
+
   // Local copy — keeps the IIFE independent of helper-hoisting order.
   function escHTML(s) {
     return String(s)
@@ -465,11 +550,31 @@ document.documentElement.lang = lang;
         </div>`;
     }).join('');
 
-    // Header: intro line + scale toggle + share button.
+    // Header: intro + poll-source toggle + scale toggle + share button.
     const header = document.createElement('div');
     header.className = 'coalition-header';
+    const sourceLabels = {
+      'average':      ui.coalitionPollAverage || 'Meðaltal',
+      'gallup-may15': ui.coalitionPollGallup  || 'Gallup 15. maí',
+      'visir-may14':  ui.coalitionPollVisir   || 'Vísir 14. maí',
+    };
+    const sourceTips = {
+      'average':      ui.coalitionPollAverageTip || 'Meðaltal Gallups 15. maí og Kosningaspár Vísis 14. maí',
+      'gallup-may15': ui.coalitionPollGallupTip  || 'Lokakönnun Gallups 15. maí 2026',
+      'visir-may14':  ui.coalitionPollVisirTip   || 'Kosningaspá Vísis 14. maí 2026',
+    };
+    const sourceBtns = POLL_SOURCES.map(s =>
+      `<button type="button" role="radio" data-poll-source="${s.id}"
+         class="${pollSourceId === s.id ? 'is-active' : ''}"
+         title="${sourceTips[s.id]}">${sourceLabels[s.id]}</button>`
+    ).join('');
     header.innerHTML = `
       <div class="coalition-intro">${ui.coalitionIntro || 'Samstöðueinkunn byggð á svörum úr Kosningaprófi RÚV'}</div>
+      <div class="coalition-toolbar">
+        <div class="coalition-source-toggle" role="radiogroup" aria-label="${ui.coalitionPollSourceLabel || 'Könnun'}">
+          ${sourceBtns}
+        </div>
+      </div>
       <div class="coalition-toolbar">
         <div class="coalition-scale-toggle" role="radiogroup" aria-label="${ui.coalitionScaleLabel || 'Kvarði'}">
           <button type="button" role="radio" data-scale="linear"
@@ -502,6 +607,21 @@ document.documentElement.lang = lang;
   // Card expand/collapse + detail-modal opener + scale toggle.
   // Attached once on the persistent cardsEl; works across re-renders.
   cardsEl.addEventListener('click', (e) => {
+    const sourceBtn = e.target.closest('.coalition-source-toggle button[data-poll-source]');
+    if (sourceBtn) {
+      e.stopPropagation();
+      const newSrc = sourceBtn.dataset.pollSource;
+      if (newSrc !== pollSourceId && POLL_SOURCES.some(s => s.id === newSrc)) {
+        pollSourceId = newSrc;
+        try { localStorage.setItem('rvk_poll_source', newSrc); } catch (_) {}
+        pollEntry = currentPollEntry();
+        enumerateCoalitions();
+        rescoreAndSort();
+        renderCards();
+        closeDetailModal();
+      }
+      return;
+    }
     const shareBtn = e.target.closest('.coalition-share-btn');
     if (shareBtn) {
       e.stopPropagation();
@@ -509,7 +629,7 @@ document.documentElement.lang = lang;
       // reflects this when the panel is open, but a user could click
       // share before scrolling the URL).
       const path = buildCoalitionURL(true);
-      shareURL(location.origin + path, ui.coalitionBannerTitle || document.title);
+      doShare(location.origin + path, ui.coalitionBannerTitle || document.title);
       return;
     }
     const scaleBtn = e.target.closest('.coalition-scale-toggle button[data-scale]');
