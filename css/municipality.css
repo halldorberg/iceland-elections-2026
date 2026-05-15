@@ -15,10 +15,11 @@
   z-index: var(--z-ui);
   padding: var(--space-4) var(--space-6);
   display: grid;
-  /* Centre column shrinkable to 0 so long muni names can't push the
-     left/right widgets out of view — the muni-name marquee handles
-     overflow inside this column. */
-  grid-template-columns: auto minmax(0, 1fr) auto;
+  /* Desktop default: 1fr auto 1fr puts the centre column geometrically
+     at page-centre — the muni-name lines up with the "Líklegustu
+     meirihlutarnir" banner text below it. Sides take equal-fraction
+     remaining space, with min-width: 0 so they can shrink if needed. */
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
   align-items: center;
   gap: var(--space-3);
   background: linear-gradient(to bottom, rgba(10,14,26,0.97), transparent);
@@ -28,8 +29,8 @@
 }
 .muni-nav > .back-btn        { justify-self: start; }
 .muni-nav > .muni-header-info {
-  justify-self: stretch;
-  min-width: 0;          /* allow shrinking inside grid */
+  justify-self: center;
+  min-width: 0;
   text-align: center;
 }
 .muni-nav > .muni-nav-right  { justify-self: end; }
@@ -216,6 +217,11 @@
   .muni-pop { display: none; }
   .share-btn--muni #muni-share-text { display: none; }
   .share-btn--muni { padding-inline: var(--space-3); }
+  /* On phones we don't want the back-btn / right-nav floating at the
+     ends of equal-fraction 1fr columns — they should sit tight to the
+     edges with the muni-name filling the gap between them (and
+     marqueeing when the name is long). */
+  .muni-nav { grid-template-columns: auto minmax(0, 1fr) auto; }
 }
 
 /* ─── Election type notice card ──────────────────────────── */
@@ -2620,6 +2626,12 @@ body.has-coalition-strip .random-tooltip { top: calc(var(--nav-h, 60px) + var(--
   font-weight: 700;
   color: #fff;
   font-variant-numeric: tabular-nums;
+}
+.coalition-detail-breakdown .cdb-expl {
+  margin: 0;
+  font-size: 0.78rem;
+  line-height: 1.45;
+  color: rgba(255,255,255,0.72);
 }
 .coalition-detail-breakdown .cdb-formula {
   font-size: 0.7rem;

@@ -50,25 +50,17 @@ export const RUV_POSITIONS = {
         "title": "Það er gott að búa í mínu sveitarfélagi.",
         "slug": "ad-er-gott-ad-bua-i-minu-sveitarfelagi",
         "importance": {
-          "F": 2,
-          "M": 1,
-          "R": 4,
-          "P": 1,
-          "S": 2,
-          "J": 6,
-          "C": 2,
-          "A": 5
+          "C": 1,
+          "F": 1,
+          "S": 1
         }
       },
       "38": {
         "title": "Ég er ánægð/ur með þá þjónustu sem sveitarfélagið veitir mér.",
         "slug": "eg-er-anaegdur-med-tha-thjonustu-sem-sveitarfelagid-veitir-mer",
         "importance": {
-          "M": 1,
-          "R": 4,
-          "J": 8,
-          "C": 5,
-          "A": 3
+          "C": 1,
+          "J": 1
         }
       },
       "42": {
@@ -76,242 +68,158 @@ export const RUV_POSITIONS = {
         "slug": "egar-skipulogd-er-byggd-i-sveitarfelaginu-aetti-frekar-ad-leggja-aherslu-a-ny-hverfi-en-thettingu-byggdar",
         "importance": {
           "F": 1,
-          "M": 2,
-          "R": 6,
-          "P": 1,
-          "J": 6,
-          "C": 1,
-          "A": 3
+          "M": 1
         }
       },
       "43": {
         "title": "Fjölga ætti íbúakosningum svo að almenningur geti tekið meiri þátt í ákvörðunum í sveitarfélaginu.",
         "slug": "fjolga-aetti-ibuakosningum-svo-ad-almenningur-geti-tekid-meiri-thatt-i-akvordunum-i-sveitarfelaginu",
-        "importance": {
-          "M": 1,
-          "R": 4,
-          "P": 3,
-          "J": 1,
-          "C": 1,
-          "A": 4
-        }
+        "importance": {}
       },
       "45": {
         "title": "Sveitarfélögum ætti að vera skylt að lögum að sjá börnum fyrir leikskólavist frá tólf mánaða aldri.",
         "slug": "sveitarfelogum-aetti-ad-vera-skylt-ad-logum-ad-sja-bornum-fyrir-leikskolavist-fra-tolf-manada-aldri",
         "importance": {
-          "F": 1,
-          "P": 8,
-          "S": 5,
-          "J": 7,
-          "C": 1,
-          "A": 7
+          "J": 1,
+          "P": 1,
+          "S": 1
         }
       },
       "47": {
         "title": "Sveitarfélagið mitt ætti að bjóða heimgreiðslur til foreldra til að auðvelda þeim að vera heima með börnum frá því að fæðingarorlofi lýkur og fram að leikskólavist.",
         "slug": "sveitarfelagid-mitt-aetti-ad-bjoda-heimgreidslur-til-foreldra-til-ad-audvelda-theim-ad-vera-heima-med-bornum-fra-thvi-ad-faedingarorlofi-lykur-og-fram-ad-leikskolavist",
         "importance": {
-          "B": 2,
-          "M": 3,
-          "S": 2,
-          "J": 1,
-          "C": 6,
-          "A": 2
+          "C": 1,
+          "M": 1,
+          "S": 1
         }
       },
       "49": {
         "title": "Hvetja ætti foreldra til að stytta vistunartíma leikskólabarna gegn afslætti af gjöldum.",
         "slug": "hvetja-aetti-foreldra-til-ad-stytta-vistunartima-leikskolabarna-gegn-afslaetti-af-gjoldum",
         "importance": {
-          "B": 1,
-          "S": 1,
-          "J": 3,
-          "C": 1,
-          "A": 2
+          "J": 1
         }
       },
       "50": {
         "title": "Sveitarfélagið ætti að beita sér fyrir frekari útvistun verkefna sinna við rekstur leik- og grunnskóla",
         "slug": "sveitarfelagid-aetti-ad-beita-ser-fyrir-frekari-utvistun-verkefna-sinna-vid-rekstur-leik-og-grunnskola",
         "importance": {
-          "M": 1,
-          "R": 4,
-          "P": 1,
-          "S": 1,
-          "D": 1,
-          "J": 9,
-          "C": 5,
-          "A": 8
+          "C": 1,
+          "J": 1
         }
       },
       "51": {
         "title": "Sveitarfélagið ætti að niðurgreiða íþrótta- og tómstundaiðkun barna meira en nú er gert.",
         "slug": "sveitarfelagid-aetti-ad-nidurgreida-ithrotta-og-tomstundaidkun-barna-meira-en-nu-er-gert",
         "importance": {
-          "M": 2,
-          "S": 1,
-          "J": 6,
-          "C": 3,
-          "A": 3
+          "J": 1,
+          "S": 1
         }
       },
       "52": {
         "title": "Verja ætti meira fé til að styðja menningarlíf í sveitarfélaginu.",
         "slug": "verja-aetti-meira-fe-til-ad-stydja-menningarlif-i-sveitarfelaginu",
         "importance": {
-          "P": 1,
-          "S": 1,
-          "C": 1,
-          "A": 5
+          "S": 1
         }
       },
       "53": {
         "title": "Hælisleitendur á barnsaldri ættu að fá sömu þjónustu í sveitarfélaginu og aðrir íbúar.",
         "slug": "haelisleitendur-a-barnsaldri-aettu-ad-fa-somu-thjonustu-i-sveitarfelaginu-og-adrir-ibuar",
         "importance": {
-          "M": 1,
-          "P": 4,
-          "S": 2,
-          "J": 7,
-          "C": 2,
-          "A": 9
+          "J": 1,
+          "S": 1
         }
       },
       "54": {
         "title": "Snjómokstur og götusópun er fullnægjandi í mínu sveitarfélagi.",
         "slug": "snjomokstur-og-gotusopun-er-fullnaegjandi-i-minu-sveitarfelagi",
         "importance": {
-          "M": 2,
-          "R": 1,
-          "J": 7,
-          "C": 2,
-          "A": 2
+          "J": 1,
+          "M": 1
         }
       },
       "57": {
         "title": "Sveitarfélagið þarf að auka fjárhagsaðstoð við þá íbúa sem lifa undir fátæktarmörkum.",
         "slug": "sveitarfelagid-tharf-ad-auka-fjarhagsadstod-vid-tha-ibua-sem-lifa-undir-fataektarmorkum",
         "importance": {
-          "F": 1,
-          "M": 1,
-          "P": 1,
-          "J": 8,
-          "A": 10
+          "J": 1
         }
       },
       "59": {
         "title": "Lengja ætti opnunartíma sundlauga, þótt það kosti sveitarfélög fé.",
         "slug": "lengja-aetti-opnunartima-sundlauga-thott-thad-kosti-sveitarfelog-fe",
         "importance": {
-          "J": 1,
-          "C": 4,
-          "A": 3
+          "C": 1
         }
       },
       "60": {
         "title": "Sveitarfélög hafa gengið of langt í að skikka íbúa til að flokka sorp.",
         "slug": "sveitarfelog-hafa-gengid-of-langt-i-ad-skikka-ibua-til-ad-flokka-sorp",
-        "importance": {
-          "M": 1,
-          "P": 1,
-          "J": 1,
-          "A": 4
-        }
+        "importance": {}
       },
       "64": {
         "title": "Sveitarfélög ættu að verja meira fé í þjónustu við eldri borgara.",
         "slug": "sveitarfelog-aettu-ad-verja-meira-fe-i-thjonustu-vid-eldri-borgara",
         "importance": {
-          "F": 1,
-          "B": 1,
-          "M": 1,
-          "S": 1,
-          "J": 7,
-          "C": 3,
-          "A": 2
+          "J": 1
         }
       },
       "239": {
         "title": "Sveitarfélög ættu að greiða eldri borgurum frístundastyrk.",
         "slug": "sveitarfelog-aettu-ad-greida-eldri-borgurum-fristundastyrk",
-        "importance": {
-          "M": 1,
-          "J": 1,
-          "A": 1
-        }
+        "importance": {}
       },
       "69": {
         "title": "Sveitarfélagið á að taka þátt í svokölluðum samgöngusáttmála höfuðborgarsvæðisins.",
         "slug": "sveitarfelagid-a-ad-taka-thatt-i-svokolludum-samgongusattmala-hofudborgarsvaedisins",
         "importance": {
-          "M": 1,
-          "R": 6,
-          "P": 3,
-          "S": 5,
-          "C": 7,
-          "A": 11
+          "C": 1,
+          "P": 1,
+          "S": 1
         }
       },
       "70": {
         "title": "Ljúka á við Borgarlínu í þeirri mynd sem núverandi áform gera ráð fyrir.",
         "slug": "ljuka-a-vid-borgarlinu-i-theirri-mynd-sem-nuverandi-aform-gera-rad-fyrir",
         "importance": {
-          "M": 5,
-          "R": 6,
-          "P": 4,
-          "S": 4,
-          "C": 4,
-          "A": 12
+          "M": 1,
+          "S": 1
         }
       },
       "72": {
         "title": "Fækka á akreinum fyrir almenna bílaumferð til að búa til pláss fyrir sérakreinar fyrir strætó.",
         "slug": "faekka-a-akreinum-fyrir-almenna-bilaumferd-til-ad-bua-til-plass-fyrir-serakreinar-fyrir-straeto",
         "importance": {
-          "M": 2,
-          "R": 6,
-          "S": 1,
-          "D": 1,
-          "J": 1,
-          "A": 2
+          "M": 1
         }
       },
       "77": {
         "title": "Að minnsta kosti eitt bílastæði á að fylgja hverri íbúð í sveitarfélaginu.",
         "slug": "ad-minnsta-kosti-eitt-bilastaedi-a-ad-fylgja-hverri-ibud-i-sveitarfelaginu",
         "importance": {
-          "M": 3,
-          "R": 6,
-          "J": 1,
-          "C": 3
+          "C": 1,
+          "M": 1
         }
       },
       "78": {
         "title": "Það eru of margir einkabílar í umferðinni.",
         "slug": "ad-eru-of-margir-einkabilar-i-umferdinni",
         "importance": {
-          "M": 1,
-          "P": 1,
-          "S": 2,
-          "A": 4
+          "S": 1
         }
       },
       "79": {
         "title": "Það er rétt að takmarka aðgengi almennings að útivistarsvæðinu í Heiðmörk í þágu vatnsverndar.",
         "slug": "ad-er-rett-ad-takmarka-adgengi-almennings-ad-utivistarsvaedinu-i-heidmork-i-thagu-vatnsverndar",
-        "importance": {
-          "C": 2,
-          "A": 2
-        }
+        "importance": {}
       },
       "28": {
         "title": "Hverfi Reykjavíkur njóta jafnræðis þegar kemur að þjónustu sem sveitarfélagið veitir.",
         "slug": "hverfi-reykjavikur-njota-jafnraedis-thegar-kemur-ad-thjonustu-sem-sveitarfelagid-veitir",
         "importance": {
-          "M": 1,
-          "J": 4,
-          "A": 1
+          "J": 1
         }
       },
       "30": {
@@ -319,46 +227,29 @@ export const RUV_POSITIONS = {
         "slug": "koma-tharf-i-veg-fyrir-fyrirhugadar-breytingar-a-skipulagi-sudurlandsbrautar",
         "importance": {
           "B": 1,
-          "M": 3,
-          "R": 5,
-          "S": 1,
-          "D": 1,
-          "C": 1,
-          "A": 1
+          "M": 1
         }
       },
       "31": {
         "title": "Hætta á við fyrirhuguð Miklubrautargöng.",
         "slug": "haetta-a-vid-fyrirhugud-miklubrautargong",
         "importance": {
-          "S": 2,
-          "C": 1,
-          "A": 1
+          "S": 1
         }
       },
       "32": {
         "title": "Einkavæða ætti Orkuveitu Reykjavíkur",
         "slug": "einkavaeda-aetti-orkuveitu-reykjavikur",
         "importance": {
-          "F": 1,
-          "R": 4,
-          "P": 1,
-          "S": 5,
-          "J": 8,
-          "C": 3,
-          "A": 9
+          "J": 1,
+          "S": 1
         }
       },
       "33": {
         "title": "Reykjavíkurflugvöllur á að vera í Vatnsmýri til frambúðar.",
         "slug": "reykjavikurflugvollur-a-ad-vera-i-vatnsmyri-til-frambudar",
         "importance": {
-          "M": 1,
-          "R": 3,
-          "P": 2,
-          "S": 2,
-          "C": 3,
-          "A": 1
+          "S": 1
         }
       },
       "55": {
@@ -366,15 +257,14 @@ export const RUV_POSITIONS = {
         "slug": "sveitarfelagid-aetti-ad-greida-leid-nyrra-fyrirtaekja-sem-vilja-hefja-starfsemi-a-svaedinu-med-fjarhagslegum-ivilnunum",
         "importance": {
           "M": 1,
-          "S": 1,
-          "C": 1
+          "S": 1
         }
       },
       "29": {
         "title": "Festa á svokallaða Reykjavíkurleið í leikskólamálum í sessi til framtíðar.",
         "slug": "festa-a-svokallada-reykjavikurleid-i-leikskolamalum-i-sessi-til-framtidar",
         "importance": {
-          "C": 3
+          "C": 1
         }
       }
     },

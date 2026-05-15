@@ -92,16 +92,13 @@ for muni_id, constituency_id in CONSTITUENCIES.items():
         if ac is None or constituency_id in ac:
             applicable_qids.add(qid)
 
-    # Importance counts from candidate answers
-    importance = defaultdict(lambda: defaultdict(int))  # qid → party → count
-    for c in cands:
-        pcode = c.get('partyCode')
-        if not pcode:
-            continue
-        for ans in c.get('answers') or []:
-            qid = ans.get('qid')
-            if qid in applicable_qids and ans.get('important'):
-                importance[qid][pcode] += 1
+    # Importance — use the **party's** official `important` flag, the same
+    # source as the party-submitted A/B/C/D answer. Candidate-level
+    # aggregation produced false positives (any one of 30+ candidates
+    # flagging anything pushed the row over the threshold; e.g. Vinstrið
+    # showed up "important" on 27 of 30 questions while the party itself
+    # flagged 0). This filled in from the per-party fetch loop below.
+    importance = defaultdict(lambda: defaultdict(int))  # qid → party → 1 if flagged
 
     # Pull each party's official answers. The order in party.answers is
     # the same as RÚV's published question order, so we capture it from
@@ -127,6 +124,10 @@ for muni_id, constituency_id in CONSTITUENCIES.items():
             if num is None:
                 continue
             by_qid[qid] = {'value': v, 'mean': float(num), 'n': 1, 'std': 0.0}
+            # Party-flagged "this is important to us" — record 1 in the
+            # importance map so the modal star renders for that party.
+            if a.get('important'):
+                importance[qid][pcode] = 1
             # First party we see establishes the source ordering.
             if not canonical_order or canonical_order.count(qid) == 0:
                 if qid not in canonical_order:

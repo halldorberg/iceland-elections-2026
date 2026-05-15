@@ -5,8 +5,8 @@ import { RESULTS_2022 } from './data/results2022.js?v=7';
 import { POLLS }        from './data/polls.js?v=4';
 import { EYE_POSITIONS } from './data/eye_positions.js?v=5';
 import { CLEAVAGES, STANCE_SMILEYS } from './data/cleavages.js?v=3';
-import { RUV_POSITIONS } from './data/ruv_positions.js?v=3';
-import { getLang, t, renderLangSwitcher, MUNI_DATIVE_IS } from './i18n.js?v=13';
+import { RUV_POSITIONS } from './data/ruv_positions.js?v=4';
+import { getLang, t, renderLangSwitcher, MUNI_DATIVE_IS } from './i18n.js?v=15';
 import { partySlug, partyCodeFromSlug, slugify } from './data/party_slugs.js?v=3';
 
 // ─── i18n ──────────────────────────────────────────────────
@@ -597,22 +597,30 @@ document.documentElement.lang = lang;
     const lbl1 = ui.coalitionDetailBreakdownB1 || 'Bil (50%)';
     const lbl2 = ui.coalitionDetailBreakdownB2 || 'Versti hlekkur (30%)';
     const lbl3 = ui.coalitionDetailBreakdownB3 || 'Áhersluvegið bil (20%)';
+    const expl1 = ui.coalitionDetailExplB1 || '';
+    const expl2 = ui.coalitionDetailExplB2 || '';
+    const expl3 = ui.coalitionDetailExplB3 || '';
+    const explT = ui.coalitionDetailExplTotal || '';
     const breakdownHTML = `
       <ul class="coalition-detail-breakdown">
         <li>
           <div class="cdb-row"><span class="cdb-label">${lbl1}</span><span class="cdb-value">${pct(s.spreadScore)}</span></div>
+          <p class="cdb-expl">${expl1}</p>
           <div class="cdb-formula">${F.bil}</div>
         </li>
         <li>
           <div class="cdb-row"><span class="cdb-label">${lbl2}</span><span class="cdb-value">${pct(s.weakestLinkScore)}</span></div>
+          <p class="cdb-expl">${expl2}</p>
           <div class="cdb-formula">${F.link}</div>
         </li>
         <li>
           <div class="cdb-row"><span class="cdb-label">${lbl3}</span><span class="cdb-value">${pct(s.importanceScore)}</span></div>
+          <p class="cdb-expl">${expl3}</p>
           <div class="cdb-formula">${F.imp}</div>
         </li>
         <li class="cdb-total">
           <div class="cdb-row"><span class="cdb-label">${ui.coalitionDetailScoreTotal || 'Samtals'}</span><span class="cdb-value">${s.score}</span></div>
+          <p class="cdb-expl">${explT}</p>
           <div class="cdb-formula">${F.total}</div>
         </li>
       </ul>`;
@@ -634,7 +642,7 @@ document.documentElement.lang = lang;
         const smiley = STANCE_SMILEYS[letter] || '·';
         const impN = impByParty[code] || 0;
         const star = impN > 0
-          ? `<span class="cdt-p-imp" title="${impN} ${(ui.coalitionDetailImpHint || 'frambjóðendur merktu mikilvægt')}">★</span>`
+          ? `<span class="cdt-p-imp" title="${ui.coalitionDetailImpHint || 'Flokkurinn merkti þessa fullyrðingu sem mikilvæga'}">★</span>`
           : `<span class="cdt-p-imp cdt-p-imp--placeholder" aria-hidden="true">★</span>`;
         return `<td class="cdt-p"><span class="cdt-smiley" title="${code}: ${v != null ? v.toFixed(2) : '–'}/4">${smiley}</span>${star}</td>`;
       }).join('');
