@@ -185,6 +185,12 @@ export const UI = {
     // Coalition strip (RVK only for now)
     coalitionBannerTitle:    'Líklegustu meirihlutarnir',
     coalitionIntro:          'Samstöðueinkunn byggð á svörum úr Kosningaprófi RÚV',
+    coalitionScaleLabel:     'Kvarði',
+    coalitionScaleLinear:    'Línulegur kvarði',
+    coalitionScaleLeap:      'Aukinn munur á sammála/ósammála',
+    coalitionScaleLinearTip: 'A=1, B=2, C=3, D=4 — sömu millibil milli allra þrepa',
+    coalitionScaleLeapTip:   'A=1, B=2, C=4, D=5 — gildið 3 er sleppt, sem gerir muninn milli sammála og ósammála tvöfalt stærri en innri stigsmun á hvorri hlið',
+    coalitionShareTip:       'Afrita hlekk á þessa yfirlitssíðu',
     coalitionEmpty:          'Engin meirihlutamyndun möguleg.',
     coalitionPartyCount:     (n) => n === 1 ? '1 flokkur' : `${n} flokkar`,
     coalitionScoreLabel:     'Samstaða',
@@ -320,6 +326,12 @@ export const UI = {
     // Coalition strip (RVK only for now)
     coalitionBannerTitle:    'Most plausible majorities',
     coalitionIntro:          'Alignment score based on answers from RÚV\'s election quiz',
+    coalitionScaleLabel:     'Scale',
+    coalitionScaleLinear:    'Linear scale',
+    coalitionScaleLeap:      'Larger agree/disagree gap',
+    coalitionScaleLinearTip: 'A=1, B=2, C=3, D=4 — equal steps between all stances',
+    coalitionScaleLeapTip:   'A=1, B=2, C=4, D=5 — value 3 is skipped, making the agree/disagree gap twice the gradient gap on each side',
+    coalitionShareTip:       'Copy a link to this overview',
     coalitionEmpty:          'No majority coalition is possible.',
     coalitionPartyCount:     (n) => n === 1 ? '1 party' : `${n} parties`,
     coalitionScoreLabel:     'Alignment',
@@ -453,6 +465,12 @@ export const UI = {
     // Coalition strip (RVK only for now)
     coalitionBannerTitle:    'Najbardziej prawdopodobne większości',
     coalitionIntro:          'Wynik zgodności na podstawie odpowiedzi z testu wyborczego RÚV',
+    coalitionScaleLabel:     'Skala',
+    coalitionScaleLinear:    'Skala liniowa',
+    coalitionScaleLeap:      'Większa różnica zgoda/niezgoda',
+    coalitionScaleLinearTip: 'A=1, B=2, C=3, D=4 — równe odstępy między wszystkimi stanowiskami',
+    coalitionScaleLeapTip:   'A=1, B=2, C=4, D=5 — wartość 3 pominięta, dystans między „zgadzam się" a „nie zgadzam się" dwukrotnie większy niż wewnątrz każdej strony',
+    coalitionShareTip:       'Skopiuj link do tego zestawienia',
     coalitionEmpty:          'Żadna większość nie jest możliwa.',
     coalitionPartyCount:     (n) => {
       // Polish plural: 1 → "1 partia"; 2-4 → "2 partie"; 5+/ends 0,1,12-14 → "5 partii"

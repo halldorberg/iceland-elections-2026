@@ -2871,16 +2871,80 @@ body.coalition-detail-open { overflow: hidden; }
   font-size: 0.85rem;
 }
 
-/* One-line intro above the cards grid. */
-.coalition-intro {
+/* One-line intro + scale-toggle row above the cards grid. */
+.coalition-header {
   grid-column: 1 / -1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+.coalition-intro {
   font-size: 0.78rem;
   letter-spacing: 0.02em;
   color: rgba(255, 255, 255, 0.55);
   text-align: center;
-  margin-bottom: 4px;
   padding: 0 4px;
 }
+.coalition-toolbar {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.coalition-share-btn {
+  appearance: none;
+  -webkit-appearance: none;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 6px;
+  color: rgba(255,255,255,0.78);
+  font: inherit;
+  font-size: 0.74rem;
+  letter-spacing: 0.03em;
+  padding: 6px 10px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+.coalition-share-btn:hover {
+  background: rgba(255,255,255,0.08);
+  color: #fff;
+  border-color: rgba(255,255,255,0.22);
+}
+.coalition-share-btn svg { display: block; }
+
+.coalition-scale-toggle {
+  display: inline-flex;
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 6px;
+  overflow: hidden;
+  background: rgba(255,255,255,0.03);
+}
+.coalition-scale-toggle button {
+  appearance: none;
+  -webkit-appearance: none;
+  background: transparent;
+  border: 0;
+  color: rgba(255,255,255,0.65);
+  font: inherit;
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+  padding: 6px 12px;
+  cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease;
+  font-family: 'IBM Plex Mono', ui-monospace, SFMono-Regular, monospace;
+}
+.coalition-scale-toggle button:hover { color: #fff; background: rgba(255,255,255,0.05); }
+.coalition-scale-toggle button.is-active {
+  background: rgba(34,197,94,0.18);
+  color: #86efac;
+}
+.coalition-scale-toggle button + button { border-left: 1px solid rgba(255,255,255,0.12); }
 
 /* Methodology footer — sits below the grid, spans full width. */
 .coalition-methodology {

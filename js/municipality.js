@@ -6,7 +6,7 @@ import { POLLS }        from './data/polls.js?v=4';
 import { EYE_POSITIONS } from './data/eye_positions.js?v=5';
 import { CLEAVAGES, STANCE_SMILEYS } from './data/cleavages.js?v=3';
 import { RUV_POSITIONS } from './data/ruv_positions.js?v=4';
-import { getLang, t, renderLangSwitcher, MUNI_DATIVE_IS } from './i18n.js?v=15';
+import { getLang, t, renderLangSwitcher, MUNI_DATIVE_IS } from './i18n.js?v=18';
 import { partySlug, partyCodeFromSlug, slugify } from './data/party_slugs.js?v=3';
 
 // ─── i18n ──────────────────────────────────────────────────
@@ -195,6 +195,34 @@ document.documentElement.lang = lang;
   if (!pollEntry || !pollEntry.parties) return;
   const positionsMuni = (RUV_POSITIONS && RUV_POSITIONS[muniId]) || null;
 
+  // ─── Likert-scale mode ────────────────────────────────────────────────
+  // Two scales the user can toggle between:
+  //   linear: A=1, B=2, C=3, D=4 — every step is the same size
+  //   leap:   A=1, B=2, C=4, D=5 — value 3 is skipped, so the gap between
+  //                                "ósammála" and "sammála" is twice the
+  //                                gap between gradient pairs on each side
+  // letterToNum() and maxSpread() consult the current mode; calling code
+  // never sees hard-coded 1-4 or /3 again.
+  const SCALES = {
+    linear: { A: 1, B: 2, C: 3, D: 4 },
+    leap:   { A: 1, B: 2, C: 4, D: 5 },
+  };
+  let scaleMode = (localStorage.getItem('rvk_scale_mode') === 'leap') ? 'leap' : 'linear';
+  function letterToNum(letter) { return SCALES[scaleMode][letter]; }
+  function maxSpread()         { const v = Object.values(SCALES[scaleMode]); return Math.max(...v) - Math.min(...v); }
+  function meanToLetter(m) {
+    if (m == null) return '–';
+    // Resolve back to the nearest stance letter — useful for the smileys in
+    // the modal. We have at most 4 reference points; pick the closest.
+    const map = SCALES[scaleMode];
+    let best = 'A', bd = Infinity;
+    for (const L of ['A','B','C','D']) {
+      const d = Math.abs(m - map[L]);
+      if (d < bd) { bd = d; best = L; }
+    }
+    return best;
+  }
+
   const totalSeats = pollEntry.totalSeats || 23;
   const majority = Math.floor(totalSeats / 2) + 1;
 
@@ -234,14 +262,18 @@ document.documentElement.lang = lang;
     let impWeightedSpreadSum = 0, impWeightTotal = 0;
     const rows = []; // every per-question row { qid, title, spread, perParty, impW }
 
+    const MAX = maxSpread();
     for (const qid of qids) {
       const meta = Q[qid];
       const perParty = {};
       let ok = true;
       for (const code of memberCodes) {
         const entry = P[code] && P[code][qid];
-        if (!entry || entry.n === 0) { ok = false; break; }
-        perParty[code] = entry.mean;
+        // Use the letter value through the active scale, not the
+        // cached entry.mean (which is locked to 1-4 in the data file).
+        const num = entry && letterToNum(entry.value);
+        if (!entry || entry.n === 0 || num == null) { ok = false; break; }
+        perParty[code] = num;
       }
       if (!ok) continue;
       const vals = Object.values(perParty);
@@ -252,14 +284,14 @@ document.documentElement.lang = lang;
       for (const code of memberCodes) impW += (meta.importance && meta.importance[code]) || 0;
       if (impW > 0) {
         impWeightedSpreadSum += spread * impW;
-        impWeightTotal += 3 * impW;  // 3 = max possible spread on a 1..4 scale
+        impWeightTotal += MAX * impW;  // MAX = max possible spread under the active scale
       }
       rows.push({ qid, title: meta.title, spread, perParty, impW });
     }
     if (spreadCount === 0) return null;
 
     const avgSpread = spreadSum / spreadCount;
-    const spreadScore = 1 - (avgSpread / 3);
+    const spreadScore = 1 - (avgSpread / MAX);
 
     // Pairwise: average per-question distance for every pair of coalition
     // parties. Worst pair drives the weakest-link signal; the whole matrix
@@ -274,8 +306,10 @@ document.documentElement.lang = lang;
         for (const qid of qids) {
           const ea = P[a] && P[a][qid];
           const eb = P[b] && P[b][qid];
-          if (!ea || !eb) continue;
-          sum += Math.abs(ea.mean - eb.mean);
+          const na = ea && letterToNum(ea.value);
+          const nb = eb && letterToNum(eb.value);
+          if (na == null || nb == null) continue;
+          sum += Math.abs(na - nb);
           n += 1;
         }
         if (n === 0) continue;
@@ -284,7 +318,7 @@ document.documentElement.lang = lang;
         if (d > worstPairDist) { worstPairDist = d; worstPair = { a, b, dist: d }; }
       }
     }
-    const weakestLinkScore = 1 - (worstPairDist / 3);
+    const weakestLinkScore = 1 - (worstPairDist / MAX);
 
     const importanceScore = impWeightTotal > 0
       ? 1 - (impWeightedSpreadSum / impWeightTotal)
@@ -319,17 +353,20 @@ document.documentElement.lang = lang;
     };
   }
 
-  // Score every coalition once.
-  for (const c of mwcs) {
-    c.score = scoreCoalition(c.members.map(m => m.code));
+  // (Re-)score every coalition and re-sort. Called on initial render and
+  // whenever the scale toggle changes.
+  function rescoreAndSort() {
+    for (const c of mwcs) {
+      c.score = scoreCoalition(c.members.map(m => m.code));
+    }
+    // Sort: highest samstaða first; tiebreak with fewer parties, then more seats.
+    mwcs.sort((a, b) =>
+      (b.score?.score ?? -1) - (a.score?.score ?? -1) ||
+      a.members.length - b.members.length ||
+      b.total - a.total
+    );
   }
-
-  // Sort: highest samstaða first; tiebreak with fewer parties, then more seats.
-  mwcs.sort((a, b) =>
-    (b.score?.score ?? -1) - (a.score?.score ?? -1) ||
-    a.members.length - b.members.length ||
-    b.total - a.total
-  );
+  rescoreAndSort();
 
   const strip   = document.getElementById('coalition-strip');
   const banner  = document.getElementById('coalition-banner');
@@ -347,14 +384,6 @@ document.documentElement.lang = lang;
     if (s >= 60) return 'mid';
     if (s >= 45) return 'low';
     return 'verylow';
-  }
-
-  function meanToLetter(m) {
-    if (m == null) return '–';
-    if (m < 1.5) return 'A';
-    if (m < 2.5) return 'B';
-    if (m < 3.5) return 'C';
-    return 'D';
   }
 
   // Local copy — keeps the IIFE independent of helper-hoisting order.
@@ -392,10 +421,11 @@ document.documentElement.lang = lang;
       </div>`;
   }
 
-  // Build cards once, up front.
-  if (mwcs.length === 0) {
-    cardsEl.innerHTML = `<div class="coalition-empty">${ui.coalitionEmpty}</div>`;
-  } else {
+  function renderCards() {
+    if (mwcs.length === 0) {
+      cardsEl.innerHTML = `<div class="coalition-empty">${ui.coalitionEmpty}</div>`;
+      return;
+    }
     cardsEl.innerHTML = mwcs.map((c, idx) => {
       const chips = c.members.map(m => {
         const p = PARTIES[m.code];
@@ -435,29 +465,84 @@ document.documentElement.lang = lang;
         </div>`;
     }).join('');
 
-    // Card expand/collapse + detail-modal opener.
-    cardsEl.addEventListener('click', (e) => {
-      const linkBtn = e.target.closest('.coalition-detail-link');
-      if (linkBtn) {
-        const idx = parseInt(linkBtn.dataset.idx, 10);
-        const coalition = mwcs[idx];
-        if (coalition) openCoalitionDetailModal(coalition);
-        return;
-      }
-      const head = e.target.closest('.coalition-card-head');
-      if (!head) return;
-      const card = head.closest('.coalition-card');
-      const isOpen = card.classList.toggle('is-open');
-      head.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
-    });
-
-    // One-liner intro above the grid — same source-of-truth note that
-    // used to live in the footer methodology block.
-    const intro = document.createElement('div');
-    intro.className = 'coalition-intro';
-    intro.textContent = ui.coalitionIntro || 'Samstöðueinkunn byggð á svörum úr Kosningaprófi RÚV';
-    cardsEl.insertBefore(intro, cardsEl.firstChild);
+    // Header: intro line + scale toggle + share button.
+    const header = document.createElement('div');
+    header.className = 'coalition-header';
+    header.innerHTML = `
+      <div class="coalition-intro">${ui.coalitionIntro || 'Samstöðueinkunn byggð á svörum úr Kosningaprófi RÚV'}</div>
+      <div class="coalition-toolbar">
+        <div class="coalition-scale-toggle" role="radiogroup" aria-label="${ui.coalitionScaleLabel || 'Kvarði'}">
+          <button type="button" role="radio" data-scale="linear"
+            class="${scaleMode === 'linear' ? 'is-active' : ''}"
+            title="${ui.coalitionScaleLinearTip || 'A=1, B=2, C=3, D=4 — línulegt'}">
+            ${ui.coalitionScaleLinear || 'Línulegt 1-4'}
+          </button>
+          <button type="button" role="radio" data-scale="leap"
+            class="${scaleMode === 'leap' ? 'is-active' : ''}"
+            title="${ui.coalitionScaleLeapTip || 'A=1, B=2, C=4, D=5 — meiri munur milli sammála og ósammála'}">
+            ${ui.coalitionScaleLeap || 'Með stökki 1-2-4-5'}
+          </button>
+        </div>
+        <button type="button" class="coalition-share-btn" aria-label="${ui.share || 'Deila'}" title="${ui.coalitionShareTip || 'Afrita hlekk á þessa síðu'}">
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+            <circle cx="11" cy="2.5" r="1.75" stroke="currentColor" stroke-width="1.4"/>
+            <circle cx="3" cy="7" r="1.75" stroke="currentColor" stroke-width="1.4"/>
+            <circle cx="11" cy="11.5" r="1.75" stroke="currentColor" stroke-width="1.4"/>
+            <line x1="4.6" y1="6.1" x2="9.4" y2="3.4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+            <line x1="4.6" y1="7.9" x2="9.4" y2="10.6" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+          </svg>
+          <span>${ui.share || 'Deila'}</span>
+        </button>
+      </div>`;
+    cardsEl.insertBefore(header, cardsEl.firstChild);
   }
+
+  renderCards();
+
+  // Card expand/collapse + detail-modal opener + scale toggle.
+  // Attached once on the persistent cardsEl; works across re-renders.
+  cardsEl.addEventListener('click', (e) => {
+    const shareBtn = e.target.closest('.coalition-share-btn');
+    if (shareBtn) {
+      e.stopPropagation();
+      // Always share the panel-open permalink (the address bar already
+      // reflects this when the panel is open, but a user could click
+      // share before scrolling the URL).
+      const path = buildCoalitionURL(true);
+      shareURL(location.origin + path, ui.coalitionBannerTitle || document.title);
+      return;
+    }
+    const scaleBtn = e.target.closest('.coalition-scale-toggle button[data-scale]');
+    if (scaleBtn) {
+      // Stop the document-level outside-click listener from firing.
+      // Without this, the renderCards() below destroys e.target via
+      // innerHTML and strip.contains(e.target) returns false at the
+      // document level, collapsing the whole panel.
+      e.stopPropagation();
+      const newMode = scaleBtn.dataset.scale;
+      if (newMode !== scaleMode && SCALES[newMode]) {
+        scaleMode = newMode;
+        try { localStorage.setItem('rvk_scale_mode', newMode); } catch (_) {}
+        rescoreAndSort();
+        renderCards();
+        // Close the modal if it's open — its content is stale.
+        closeDetailModal();
+      }
+      return;
+    }
+    const linkBtn = e.target.closest('.coalition-detail-link');
+    if (linkBtn) {
+      const idx = parseInt(linkBtn.dataset.idx, 10);
+      const coalition = mwcs[idx];
+      if (coalition) openCoalitionDetailModal(coalition);
+      return;
+    }
+    const head = e.target.closest('.coalition-card-head');
+    if (!head) return;
+    const card = head.closest('.coalition-card');
+    const isOpen = card.classList.toggle('is-open');
+    head.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+  });
 
   // Sync --nav-h (top muni-nav height) and --strip-h (this strip's own
   // height) onto :root so position:fixed offsets, the 50% panel calc,
@@ -472,11 +557,40 @@ document.documentElement.lang = lang;
     document.documentElement.style.setProperty('--strip-h', `${sh}px`);
   }
 
-  function setExpanded(expanded) {
+  function buildCoalitionURL(expanded) {
+    const lang = getLang();
+    const langPrefix = lang === 'is' ? '' : `/${lang}`;
+    return expanded
+      ? `${langPrefix}/${muniId}/liklegustu-meirihlutarnir/`
+      : `${langPrefix}/${muniId}/`;
+  }
+
+  function setExpanded(expanded, opts) {
+    opts = opts || {};
     banner.setAttribute('aria-expanded', expanded ? 'true' : 'false');
     panel.setAttribute('aria-hidden', expanded ? 'false' : 'true');
     panel.classList.toggle('is-expanded', expanded);
+    // Sync the URL so the permalink lives in the address bar while the
+    // panel is open. Use pushState so the back-button collapses the
+    // panel. `skipUrl` avoids a feedback loop when popstate triggers us.
+    if (!opts.skipUrl) {
+      const url = buildCoalitionURL(expanded);
+      const cur = location.pathname.replace(/\/?$/, '/');
+      const want = url.replace(/\/?$/, '/');
+      if (cur !== want) {
+        history.pushState({ coalitionOpen: expanded }, '', url);
+      }
+    }
   }
+
+  // Back-button (or forward) should toggle the panel rather than just
+  // change the URL silently.
+  window.addEventListener('popstate', () => {
+    const wantOpen = /\/liklegustu-meirihlutarnir\/?$/.test(location.pathname);
+    if (wantOpen !== (banner.getAttribute('aria-expanded') === 'true')) {
+      setExpanded(wantOpen, { skipUrl: true });
+    }
+  });
 
   banner.addEventListener('click', () => {
     const expanded = banner.getAttribute('aria-expanded') === 'true';
@@ -560,34 +674,35 @@ document.documentElement.lang = lang;
     const lang = getLang();
     const f1 = (n) => Number(n).toFixed(2);
     // Localised, terse formulae shown in italics under each component.
+    const MAX = maxSpread();  // 3 for linear, 4 for leap
     const formulae = {
       is: {
-        bil:    `(1 − Σ bil / (N × 3)) × 100 = (1 − ${f1(s.spreadSum)} / (${s.questionCount} × 3)) × 100`,
+        bil:    `(1 − Σ bil / (N × ${MAX})) × 100 = (1 − ${f1(s.spreadSum)} / (${s.questionCount} × ${MAX})) × 100`,
         link:   s.worstPair
-                  ? `(1 − versta-par / 3) × 100 = (1 − ${f1(s.worstPairDist)} / 3) × 100  ·  versta par: ${s.worstPair.a}↔${s.worstPair.b}`
-                  : `(1 − versta-par / 3) × 100`,
+                  ? `(1 − versta-par / ${MAX}) × 100 = (1 − ${f1(s.worstPairDist)} / ${MAX}) × 100  ·  versta par: ${s.worstPair.a}↔${s.worstPair.b}`
+                  : `(1 − versta-par / ${MAX}) × 100`,
         imp:    s.impWeightTotal > 0
-                  ? `(1 − Σ(bil × vægi) / Σ(3 × vægi)) × 100 = (1 − ${f1(s.impWeightedSpreadSum)} / ${f1(s.impWeightTotal)}) × 100`
+                  ? `(1 − Σ(bil × vægi) / Σ(${MAX} × vægi)) × 100 = (1 − ${f1(s.impWeightedSpreadSum)} / ${f1(s.impWeightTotal)}) × 100`
                   : `Engin mikilvæg merking — sami mælikvarði og „Bil".`,
         total:  `Samtals = 0,5 × Bil + 0,3 × Versti hlekkur + 0,2 × Áhersluvegið bil = 0,5 × ${pct(s.spreadScore)} + 0,3 × ${pct(s.weakestLinkScore)} + 0,2 × ${pct(s.importanceScore)}`,
       },
       en: {
-        bil:    `(1 − Σ spread / (N × 3)) × 100 = (1 − ${f1(s.spreadSum)} / (${s.questionCount} × 3)) × 100`,
+        bil:    `(1 − Σ spread / (N × ${MAX})) × 100 = (1 − ${f1(s.spreadSum)} / (${s.questionCount} × ${MAX})) × 100`,
         link:   s.worstPair
-                  ? `(1 − worst-pair / 3) × 100 = (1 − ${f1(s.worstPairDist)} / 3) × 100  ·  worst pair: ${s.worstPair.a}↔${s.worstPair.b}`
-                  : `(1 − worst-pair / 3) × 100`,
+                  ? `(1 − worst-pair / ${MAX}) × 100 = (1 − ${f1(s.worstPairDist)} / ${MAX}) × 100  ·  worst pair: ${s.worstPair.a}↔${s.worstPair.b}`
+                  : `(1 − worst-pair / ${MAX}) × 100`,
         imp:    s.impWeightTotal > 0
-                  ? `(1 − Σ(spread × w) / Σ(3 × w)) × 100 = (1 − ${f1(s.impWeightedSpreadSum)} / ${f1(s.impWeightTotal)}) × 100`
+                  ? `(1 − Σ(spread × w) / Σ(${MAX} × w)) × 100 = (1 − ${f1(s.impWeightedSpreadSum)} / ${f1(s.impWeightTotal)}) × 100`
                   : `No "important" flags — falls back to the Spread measure.`,
         total:  `Total = 0.5 × Spread + 0.3 × Weakest link + 0.2 × Importance-weighted = 0.5 × ${pct(s.spreadScore)} + 0.3 × ${pct(s.weakestLinkScore)} + 0.2 × ${pct(s.importanceScore)}`,
       },
       pl: {
-        bil:    `(1 − Σ rozpiętość / (N × 3)) × 100 = (1 − ${f1(s.spreadSum)} / (${s.questionCount} × 3)) × 100`,
+        bil:    `(1 − Σ rozpiętość / (N × ${MAX})) × 100 = (1 − ${f1(s.spreadSum)} / (${s.questionCount} × ${MAX})) × 100`,
         link:   s.worstPair
-                  ? `(1 − najgorsza-para / 3) × 100 = (1 − ${f1(s.worstPairDist)} / 3) × 100  ·  najgorsza para: ${s.worstPair.a}↔${s.worstPair.b}`
-                  : `(1 − najgorsza-para / 3) × 100`,
+                  ? `(1 − najgorsza-para / ${MAX}) × 100 = (1 − ${f1(s.worstPairDist)} / ${MAX}) × 100  ·  najgorsza para: ${s.worstPair.a}↔${s.worstPair.b}`
+                  : `(1 − najgorsza-para / ${MAX}) × 100`,
         imp:    s.impWeightTotal > 0
-                  ? `(1 − Σ(rozpiętość × w) / Σ(3 × w)) × 100 = (1 − ${f1(s.impWeightedSpreadSum)} / ${f1(s.impWeightTotal)}) × 100`
+                  ? `(1 − Σ(rozpiętość × w) / Σ(${MAX} × w)) × 100 = (1 − ${f1(s.impWeightedSpreadSum)} / ${f1(s.impWeightTotal)}) × 100`
                   : `Brak ważnych oznaczeń — używamy miary "Rozpiętość".`,
         total:  `Razem = 0,5 × Rozpiętość + 0,3 × Najsłabsze ogniwo + 0,2 × Rozpiętość ważona = 0,5 × ${pct(s.spreadScore)} + 0,3 × ${pct(s.weakestLinkScore)} + 0,2 × ${pct(s.importanceScore)}`,
       },
