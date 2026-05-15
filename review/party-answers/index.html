@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="is">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>Yfirferð: Opinber svör flokka — Kosningapróf RÚV</title>
+  <style>
+    :root {
+      --bg: #0a0e1a;
+      --card: #131826;
+      --border: rgba(255,255,255,0.10);
+      --text: #e8eaf0;
+      --muted: rgba(255,255,255,0.55);
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+      padding: 24px;
+    }
+    header {
+      max-width: 1100px;
+      margin: 0 auto 24px;
+    }
+    header h1 { font-size: 1.4rem; margin-bottom: 4px; }
+    header p { color: var(--muted); font-size: 0.9rem; }
+
+    /* Password gate */
+    .gate {
+      max-width: 380px;
+      margin: 80px auto;
+      padding: 24px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+    }
+    .gate h2 { font-size: 1.1rem; margin-bottom: 12px; }
+    .gate p  { color: var(--muted); font-size: 0.85rem; margin-bottom: 16px; }
+    .gate input[type=password] {
+      width: 100%;
+      padding: 10px 12px;
+      background: rgba(255,255,255,0.06);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      color: var(--text);
+      font-size: 0.95rem;
+      margin-bottom: 12px;
+    }
+    .gate button {
+      width: 100%;
+      padding: 10px;
+      background: #2b7fff;
+      color: #fff;
+      border: 0;
+      border-radius: 6px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    .gate .err { color: #fca5a5; font-size: 0.8rem; min-height: 1.2em; margin-top: 8px; }
+
+    /* Main app */
+    main { display: none; max-width: 1100px; margin: 0 auto; }
+    main.is-revealed { display: block; }
+
+    .meta-line {
+      display: flex; gap: 16px; flex-wrap: wrap;
+      font-size: 0.82rem; color: var(--muted);
+      padding: 12px 16px;
+      background: var(--card); border: 1px solid var(--border); border-radius: 8px;
+      margin-bottom: 16px;
+    }
+    .meta-line strong { color: var(--text); margin-right: 4px; }
+
+    .filter-row { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 16px; }
+    .filter-row input, .filter-row select {
+      padding: 8px 12px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      color: var(--text);
+      font-size: 0.9rem;
+    }
+    .filter-row input { flex: 1; min-width: 200px; }
+
+    .muni {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      margin-bottom: 14px;
+      overflow: hidden;
+    }
+    .muni-head {
+      padding: 14px 18px;
+      display: flex; gap: 12px; align-items: baseline; justify-content: space-between;
+      cursor: pointer;
+      user-select: none;
+    }
+    .muni-head:hover { background: rgba(255,255,255,0.03); }
+    .muni-head h2 { font-size: 1.05rem; }
+    .muni-head .count { color: var(--muted); font-size: 0.82rem; }
+    .muni-body { display: none; padding: 0 18px 18px; }
+    .muni.is-open .muni-body { display: block; }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.85rem;
+      table-layout: fixed;
+    }
+    thead th {
+      background: rgba(255,255,255,0.04);
+      text-align: left;
+      padding: 8px 10px;
+      font-weight: 600;
+      font-size: 0.78rem;
+      letter-spacing: 0.04em;
+      border-bottom: 1px solid var(--border);
+      vertical-align: bottom;
+    }
+    thead th.q { width: auto; }
+    thead th.p { width: 56px; text-align: center; font-family: 'IBM Plex Mono', monospace; }
+    tbody td {
+      padding: 8px 10px;
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+      vertical-align: top;
+    }
+    tbody td.q { color: var(--text); }
+    tbody td.p {
+      text-align: center;
+      font-size: 1rem;
+      line-height: 1;
+    }
+    tbody td.p .star {
+      display: block;
+      font-size: 0.7rem;
+      color: #fbbf24;
+      margin-top: 2px;
+      height: 0.9rem;
+      visibility: hidden;
+    }
+    tbody td.p .star.shown { visibility: visible; }
+    tbody td.p .v {
+      display: inline-block;
+      min-width: 22px;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-size: 0.78rem;
+      font-weight: 700;
+      color: #fff;
+      background: var(--chip-bg, #555);
+    }
+    tbody tr.skipped td.q { color: var(--muted); font-style: italic; }
+    tr.party-row th { font-size: 0.7rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+
+    footer {
+      max-width: 1100px;
+      margin: 20px auto;
+      padding: 12px 16px;
+      font-size: 0.78rem;
+      color: var(--muted);
+    }
+    .stance-key {
+      display: inline-flex; gap: 12px; flex-wrap: wrap;
+      padding: 8px 12px;
+      background: rgba(255,255,255,0.03);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      font-size: 0.78rem;
+      color: var(--muted);
+      margin-bottom: 12px;
+    }
+    .stance-key b { color: var(--text); font-weight: 700; }
+  </style>
+</head>
+<body>
+
+<div id="gate" class="gate">
+  <h2>Lykilorð</h2>
+  <p>Þessi síða er aðeins ætluð til yfirferðar áður en gögnin verða birt á opinberum síðum.</p>
+  <input id="pwd" type="password" autocomplete="off" autofocus />
+  <button id="enter">Halda áfram</button>
+  <div id="err" class="err"></div>
+</div>
+
+<main id="app">
+  <header>
+    <h1>Opinber svör flokka — Kosningapróf RÚV</h1>
+    <p>Yfirferð fyrir birtingu. 182 flokka-færslur úr 48 sveitarfélögum, sótt beint úr kjordaemi-API RÚV.</p>
+  </header>
+
+  <div class="stance-key">
+    Skali: <b>A</b> = Mjög ósammála  ·  <b>B</b> = Ósammála  ·  <b>C</b> = Sammála  ·  <b>D</b> = Mjög sammála  ·  <b>★</b> = flokkurinn merkti fullyrðinguna mikilvæga
+  </div>
+
+  <div class="meta-line" id="meta-line"></div>
+
+  <div class="filter-row">
+    <input id="search" type="search" placeholder="Leita að sveitarfélagi …" />
+    <button id="expand-all" style="padding: 8px 14px; background: var(--card); border: 1px solid var(--border); border-radius: 6px; color: var(--text); cursor: pointer; font-size: 0.85rem;">Opna allt</button>
+    <button id="collapse-all" style="padding: 8px 14px; background: var(--card); border: 1px solid var(--border); border-radius: 6px; color: var(--text); cursor: pointer; font-size: 0.85rem;">Loka öllu</button>
+  </div>
+
+  <div id="munis-list"></div>
+</main>
+
+<footer>
+  Heimild: <a href="https://kosningaprof.ruv.is/" style="color:#93c5fd">kosningaprof.ruv.is</a> · /_next/data/{buildId}/kjordaemi.json
+</footer>
+
+<script type="module">
+  const PASSWORD = 'happyhappy';
+  const gate = document.getElementById('gate');
+  const app  = document.getElementById('app');
+  const pwd  = document.getElementById('pwd');
+  const err  = document.getElementById('err');
+  const btn  = document.getElementById('enter');
+
+  function submit() {
+    if (pwd.value === PASSWORD) {
+      gate.style.display = 'none';
+      app.classList.add('is-revealed');
+      sessionStorage.setItem('pa_pwd_ok', '1');
+      load();
+    } else {
+      err.textContent = 'Rangt lykilorð.';
+      pwd.select();
+    }
+  }
+  btn.addEventListener('click', submit);
+  pwd.addEventListener('keydown', e => { if (e.key === 'Enter') submit(); });
+
+  if (sessionStorage.getItem('pa_pwd_ok') === '1') {
+    gate.style.display = 'none';
+    app.classList.add('is-revealed');
+    load();
+  }
+
+  async function load() {
+    const res = await fetch('/data/party_answers_all.json?t=' + Date.now());
+    const data = await res.json();
+    render(data);
+  }
+
+  function render(data) {
+    document.getElementById('meta-line').innerHTML = `
+      <div><strong>Sótt:</strong> ${new Date(data.discoveredAt).toLocaleString('is-IS')}</div>
+      <div><strong>RÚV buildId:</strong> ${data.buildId}</div>
+      <div><strong>Sveitarfélög:</strong> ${Object.keys(data.munis).length}</div>
+      <div><strong>Flokkafærslur:</strong> ${Object.values(data.munis).reduce((a,m) => a + m.parties.length, 0)}</div>
+    `;
+
+    const munis = Object.entries(data.munis).sort((a, b) => a[1].name.localeCompare(b[1].name, 'is'));
+    const list = document.getElementById('munis-list');
+    list.innerHTML = munis.map(([id, m]) => renderMuni(id, m, data)).join('');
+
+    list.addEventListener('click', e => {
+      const head = e.target.closest('.muni-head');
+      if (!head) return;
+      head.parentElement.classList.toggle('is-open');
+    });
+
+    document.getElementById('search').addEventListener('input', e => {
+      const q = e.target.value.toLowerCase();
+      [...list.children].forEach(el => {
+        const name = el.querySelector('h2').textContent.toLowerCase();
+        el.style.display = name.includes(q) ? '' : 'none';
+      });
+    });
+    document.getElementById('expand-all').addEventListener('click', () => {
+      [...list.children].forEach(el => el.classList.add('is-open'));
+    });
+    document.getElementById('collapse-all').addEventListener('click', () => {
+      [...list.children].forEach(el => el.classList.remove('is-open'));
+    });
+  }
+
+  function renderMuni(muniId, m, data) {
+    const parties = m.parties;
+    // Collect all qids used by any party in this muni, in numeric order
+    const qids = new Set();
+    parties.forEach(p => p.answers.forEach(a => qids.add(a.qid)));
+    const orderedQids = [...qids].sort((a, b) => parseInt(a) - parseInt(b));
+
+    // Build per-party qid → {value, important} index
+    parties.forEach(p => {
+      p._byQ = {};
+      p.answers.forEach(a => { p._byQ[a.qid] = a; });
+    });
+
+    const partyHeader = parties.map(p =>
+      `<th class="p" style="--chip-bg:${p.color || '#555'}">${p.code}</th>`
+    ).join('');
+
+    const rows = orderedQids.map(qid => {
+      const q = data.questions[qid] || { title: `(qid ${qid})` };
+      const cells = parties.map(p => {
+        const a = p._byQ[qid];
+        if (!a) return '<td class="p"><span class="v" style="opacity:0.25">—</span><span class="star"></span></td>';
+        return `<td class="p">
+          <span class="v" style="--chip-bg:${p.color || '#555'}" title="${(a.reasoning || '').replace(/"/g,'&quot;')}">${a.value || '·'}</span>
+          <span class="star ${a.important ? 'shown' : ''}" title="Flokkurinn merkti mikilvægt">★</span>
+        </td>`;
+      }).join('');
+      return `<tr><td class="q">${escape(q.title)}</td>${cells}</tr>`;
+    }).join('');
+
+    return `
+      <div class="muni" data-id="${muniId}">
+        <div class="muni-head">
+          <h2>${escape(m.name)}</h2>
+          <span class="count">${parties.length} flokkar · ${orderedQids.length} fullyrðingar · cid ${m.constituencyId}</span>
+        </div>
+        <div class="muni-body">
+          <table>
+            <thead>
+              <tr><th class="q">Fullyrðing</th>${partyHeader}</tr>
+              <tr class="party-row"><th></th>${parties.map(p => `<th class="p">${escape(p.name)}</th>`).join('')}</tr>
+            </thead>
+            <tbody>${rows}</tbody>
+          </table>
+        </div>
+      </div>`;
+  }
+
+  function escape(s) {
+    return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  }
+</script>
+
+</body>
+</html>
