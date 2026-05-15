@@ -2384,12 +2384,12 @@ body.has-coalition-strip .random-tooltip { top: calc(var(--nav-h, 60px) + var(--
   box-shadow: 0 10px 24px rgba(0,0,0,0.4);
 }
 .coalition-panel.is-expanded {
-  /* 50% of viewport below the nav, minus the strip height itself. */
-  max-height: calc((100vh - var(--nav-h, 60px) - var(--strip-h, 38px)) * 0.5);
+  /* 80% of viewport below the nav, minus the strip height itself. */
+  max-height: calc((100vh - var(--nav-h, 60px) - var(--strip-h, 38px)) * 0.8);
 }
 
 .coalition-cards {
-  max-height: calc((100vh - var(--nav-h, 60px) - var(--strip-h, 38px)) * 0.5);
+  max-height: calc((100vh - var(--nav-h, 60px) - var(--strip-h, 38px)) * 0.8);
   overflow-y: auto;
   padding: 18px 22px;
   display: grid;
