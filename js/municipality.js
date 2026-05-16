@@ -2,11 +2,11 @@ import { MUNICIPALITIES } from './data/municipalities.js?v=15';
 import { PARTIES } from './data/parties.js?v=4';
 import { getMunicipalityPartyData } from './data/candidates.js?v=96';
 import { RESULTS_2022 } from './data/results2022.js?v=7';
-import { POLLS }        from './data/polls.js?v=5';
+import { POLLS }        from './data/polls.js?v=6';
 import { EYE_POSITIONS } from './data/eye_positions.js?v=5';
 import { CLEAVAGES, STANCE_SMILEYS } from './data/cleavages.js?v=3';
 import { RUV_POSITIONS } from './data/ruv_positions.js?v=4';
-import { getLang, t, renderLangSwitcher, MUNI_DATIVE_IS } from './i18n.js?v=19';
+import { getLang, t, renderLangSwitcher, MUNI_DATIVE_IS } from './i18n.js?v=20';
 import { partySlug, partyCodeFromSlug, slugify } from './data/party_slugs.js?v=3';
 
 // ─── i18n ──────────────────────────────────────────────────
@@ -196,9 +196,9 @@ document.documentElement.lang = lang;
   const positionsMuni = (RUV_POSITIONS && RUV_POSITIONS[muniId]) || null;
 
   // ─── Poll source ──────────────────────────────────────────────────────
-  // Three sources to choose between: the two most-recent polls, plus a
-  // synthesised "average" of those two. Stored in allPolls[0] (newest)
-  // and allPolls[1] (next newest) by polls.js convention.
+  // Four sources to choose between: the three most-recent polls, plus a
+  // synthesised "average" of those three. Stored in allPolls[0..2] by the
+  // polls.js newest-first convention.
   function averagePolls(polls) {
     const codes = new Set();
     polls.forEach(p => Object.keys(p.parties).forEach(c => codes.add(c)));
@@ -223,14 +223,15 @@ document.documentElement.lang = lang;
     return {
       totalSeats,
       parties,
-      source: { pollster: 'Meðaltal', pollsterGen: 'Meðaltals', period: 'Gallup + Kosningaspá', sample: null, url: null },
+      source: { pollster: 'Meðaltal', pollsterGen: 'Meðaltals', period: 'Maskína + Gallup + Kosningaspá', sample: null, url: null },
       _averageOf: polls.map(p => p.source && p.source.pollster).join(' + '),
     };
   }
   const POLL_SOURCES = [
-    { id: 'average',       getEntry: () => averagePolls(allPolls.slice(0, 2)) },
-    { id: 'gallup-may15',  getEntry: () => allPolls[0] },
-    { id: 'visir-may14',   getEntry: () => allPolls[1] },
+    { id: 'average',       getEntry: () => averagePolls(allPolls.slice(0, 3)) },
+    { id: 'maskina-may15', getEntry: () => allPolls[0] },
+    { id: 'gallup-may15',  getEntry: () => allPolls[1] },
+    { id: 'visir-may14',   getEntry: () => allPolls[2] },
   ];
   let pollSourceId = localStorage.getItem('rvk_poll_source') || 'average';
   if (!POLL_SOURCES.some(s => s.id === pollSourceId)) pollSourceId = 'average';
@@ -554,14 +555,16 @@ document.documentElement.lang = lang;
     const header = document.createElement('div');
     header.className = 'coalition-header';
     const sourceLabels = {
-      'average':      ui.coalitionPollAverage || 'Meðaltal',
-      'gallup-may15': ui.coalitionPollGallup  || 'Gallup 15. maí',
-      'visir-may14':  ui.coalitionPollVisir   || 'Vísir 14. maí',
+      'average':       ui.coalitionPollAverage || 'Meðaltal',
+      'maskina-may15': ui.coalitionPollMaskina || 'Maskína 15. maí',
+      'gallup-may15':  ui.coalitionPollGallup  || 'Gallup 15. maí',
+      'visir-may14':   ui.coalitionPollVisir   || 'Vísir 14. maí',
     };
     const sourceTips = {
-      'average':      ui.coalitionPollAverageTip || 'Meðaltal Gallups 15. maí og Kosningaspár Vísis 14. maí',
-      'gallup-may15': ui.coalitionPollGallupTip  || 'Lokakönnun Gallups 15. maí 2026',
-      'visir-may14':  ui.coalitionPollVisirTip   || 'Kosningaspá Vísis 14. maí 2026',
+      'average':       ui.coalitionPollAverageTip || 'Meðaltal Maskínu 15. maí, Gallups 15. maí og Kosningaspár Vísis 14. maí',
+      'maskina-may15': ui.coalitionPollMaskinaTip || 'Lokakönnun Maskínu 12.–15. maí 2026',
+      'gallup-may15':  ui.coalitionPollGallupTip  || 'Lokakönnun Gallups 15. maí 2026',
+      'visir-may14':   ui.coalitionPollVisirTip   || 'Kosningaspá Vísis 14. maí 2026',
     };
     const sourceBtns = POLL_SOURCES.map(s =>
       `<button type="button" role="radio" data-poll-source="${s.id}"

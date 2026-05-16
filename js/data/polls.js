@@ -24,6 +24,43 @@ export const POLLS = {
   // Newest first.
   reykjavik: [
     {
+      // Lokakönnun Maskínu, birt 15. maí 2026 kl. 23:15 (kvöldið fyrir
+      // kjördag). Sýnir D+B+C meirihluta (8+1+3 = 12) en EKKI D+M+B
+      // (8+2+1 = 11). Ólíkt Gallup könnuninni sama dag sem sýndi D+M+B.
+      // https://www.visir.is/g/20262884571d/sjalf-staedis-flokkur-staerstur-en-naer-ekki-meiri-hluta-med-midflokki-og-fram-sokn
+      // Tölur teknar beint úr texta greinarinnar. Sum allra 11 lista = 100.1
+      // (rounding). D'Hondt vs 23 seats: D 8 · S 5 · A 3 · C 3 · M 2 · B 1 ·
+      // J 1 — matches the article's narrative: "Sjálfstæðisflokkurinn fer úr
+      // sex í átta", "Viðreisn og Vinstrið mælast nú með þrjá fulltrúa hvor",
+      // "Miðflokkurinn tvo", "Framsóknarflokkurinn einn og Sósíalistaflokkurinn
+      // einn".
+      // C = Viðreisn (vidreisnreykjavik.is), A = Vinstrið (vinstrid.is) —
+      // letter assignments per kjörstjórn.
+      totalSeats: 23,
+      source: {
+        pollster:    'Maskína',
+        pollsterGen: 'Maskínu',
+        period:      'Lokakönnun 12.–15. maí 2026',
+        period_en:   'Final poll, 12–15 May 2026',
+        period_pl:   'Sondaż końcowy, 12–15 maja 2026',
+        sample:      3000,
+        url:         'https://www.visir.is/g/20262884571d/sjalf-staedis-flokkur-staerstur-en-naer-ekki-meiri-hluta-med-midflokki-og-fram-sokn',
+      },
+      parties: {
+        D: { pct: 31.3, seats: 8 },
+        S: { pct: 19.4, seats: 5 },
+        C: { pct: 12.0, seats: 3 },
+        A: { pct: 11.0, seats: 3 },
+        M: { pct:  9.8, seats: 2 },
+        B: { pct:  6.1, seats: 1 },
+        J: { pct:  4.5, seats: 1 },
+        F: { pct:  2.6, seats: 0 },
+        P: { pct:  2.4, seats: 0 },
+        G: { pct:  0.5, seats: 0 },
+        R: { pct:  0.5, seats: 0 },
+      },
+    },
+    {
       // Lokakönnun Þjóðarpúls Gallups, birt 15. maí 2026 (daginn fyrir
       // kjördag). Sýnir hreinan hægri-meirihluta: D+M = 8+3 = 11 (1 sæti
       // frá meirihluta) en D+M+C = 13.
