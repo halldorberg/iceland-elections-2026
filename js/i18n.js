@@ -135,7 +135,23 @@ export const UI = {
     olderPollNav:      'Sjá eldri könnun',
     newerPollNav:      'Sjá nýrri könnun',
     pollCarouselHint:  'Smellið á örvarnar til að skoða eldri kannanir',
+
+    // Live election-night results (per-party block)
+    liveResultsLabel:  '🟢 Niðurstöður — talning',
+    liveOlderTag:      'Fyrri talning',
+    liveVotesCounted:  (n) => `${n} atkvæði talin`,
+    liveUpdatedAt:     (t) => `uppfært kl. ${t}`,
+    liveOlderNav:      'Sjá fyrri talningu',
+    liveNewerNav:      'Sjá nýrri talningu',
+    liveCarouselHint:  'Smellið á örvarnar til að sjá fyrri talningar',
+
+    // Top "results overview" banner (bar chart of all parties)
+    resultsOverviewTitle:   'Yfirlit yfir kosninganiðurstöður',
+    resultsOverviewWaiting: 'Niðurstöður berast í kvöld',
+    resultsOverviewToggle:  'Sýna eða fela yfirlit',
+
     electedFrameLabel: 'Kæmist inn samkvæmt nýjustu skoðanakönnun',
+    electedFrameLabelLive: 'Næði kjöri skv. nýjustu talningu',
 
     // Party splash
     noPlatformTitle:  'Stefnuskrá ekki til staðar',
@@ -201,6 +217,7 @@ export const UI = {
     coalitionScaleLeapTip:   'A=1, B=2, C=4, D=5 — gildið 3 er sleppt, sem gerir muninn milli sammála og ósammála tvöfalt stærri en innri stigsmun á hvorri hlið',
     coalitionShareTip:       'Afrita hlekk á þessa yfirlitssíðu',
     coalitionEmpty:          'Engin meirihlutamyndun möguleg.',
+    coalitionLiveBasis:      'Sæti byggð á nýjustu talningu',
     coalitionPartyCount:     (n) => n === 1 ? '1 flokkur' : `${n} flokkar`,
     coalitionScoreLabel:     'Samstaða',
     coalitionScoreTooltip:   'Samrýming við kosningapróf RÚV (0–100). Því hærra, því minni innbyrðis munur á afstöðu frambjóðenda flokkanna.',
@@ -284,7 +301,23 @@ export const UI = {
     olderPollNav:      'See older poll',
     newerPollNav:      'See newer poll',
     pollCarouselHint:  'Tap the arrows to see older polls',
+
+    // Live election-night results (per-party block)
+    liveResultsLabel:  '🟢 Results — counting',
+    liveOlderTag:      'Earlier count',
+    liveVotesCounted:  (n) => `${n} votes counted`,
+    liveUpdatedAt:     (t) => `updated ${t}`,
+    liveOlderNav:      'See earlier count',
+    liveNewerNav:      'See newer count',
+    liveCarouselHint:  'Tap the arrows to see earlier counts',
+
+    // Top "results overview" banner (bar chart of all parties)
+    resultsOverviewTitle:   'Election results overview',
+    resultsOverviewWaiting: 'Results arrive tonight',
+    resultsOverviewToggle:  'Show or hide overview',
+
     electedFrameLabel: 'Would be elected per the latest poll',
+    electedFrameLabelLive: 'Would be elected per the latest count',
     votes:             'votes',
     noSeats:           'No seats',
     ofSeats:           (n) => `of ${n} seats`,
@@ -351,6 +384,7 @@ export const UI = {
     coalitionScaleLeapTip:   'A=1, B=2, C=4, D=5 — value 3 is skipped, making the agree/disagree gap twice the gradient gap on each side',
     coalitionShareTip:       'Copy a link to this overview',
     coalitionEmpty:          'No majority coalition is possible.',
+    coalitionLiveBasis:      'Seats based on the latest count',
     coalitionPartyCount:     (n) => n === 1 ? '1 party' : `${n} parties`,
     coalitionScoreLabel:     'Alignment',
     coalitionScoreTooltip:   'Alignment with the RÚV election quiz (0–100). Higher means smaller policy gaps between the parties\' candidates.',
@@ -432,7 +466,23 @@ export const UI = {
     olderPollNav:      'Zobacz starszy sondaż',
     newerPollNav:      'Zobacz nowszy sondaż',
     pollCarouselHint:  'Stuknij strzałki, aby zobaczyć starsze sondaże',
+
+    // Live election-night results (per-party block)
+    liveResultsLabel:  '🟢 Wyniki — liczenie',
+    liveOlderTag:      'Wcześniejsze liczenie',
+    liveVotesCounted:  (n) => `${n} głosów policzonych`,
+    liveUpdatedAt:     (t) => `zaktualizowano ${t}`,
+    liveOlderNav:      'Zobacz wcześniejsze liczenie',
+    liveNewerNav:      'Zobacz nowsze liczenie',
+    liveCarouselHint:  'Stuknij strzałki, aby zobaczyć wcześniejsze liczenia',
+
+    // Top "results overview" banner (bar chart of all parties)
+    resultsOverviewTitle:   'Przegląd wyników wyborów',
+    resultsOverviewWaiting: 'Wyniki pojawią się dziś wieczorem',
+    resultsOverviewToggle:  'Pokaż lub ukryj przegląd',
+
     electedFrameLabel: 'Otrzymałby mandat według najnowszego sondażu',
+    electedFrameLabelLive: 'Otrzymałby mandat według najnowszego liczenia',
     votes:             'głosów',
     noSeats:           'Brak mandatów',
     ofSeats:           (n) => `z ${n} mandatów`,
@@ -499,6 +549,7 @@ export const UI = {
     coalitionScaleLeapTip:   'A=1, B=2, C=4, D=5 — wartość 3 pominięta, dystans między „zgadzam się" a „nie zgadzam się" dwukrotnie większy niż wewnątrz każdej strony',
     coalitionShareTip:       'Skopiuj link do tego zestawienia',
     coalitionEmpty:          'Żadna większość nie jest możliwa.',
+    coalitionLiveBasis:      'Mandaty na podstawie najnowszego liczenia',
     coalitionPartyCount:     (n) => {
       // Polish plural: 1 → "1 partia"; 2-4 → "2 partie"; 5+/ends 0,1,12-14 → "5 partii"
       if (n === 1) return '1 partia';

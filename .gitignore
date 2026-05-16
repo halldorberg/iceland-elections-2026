@@ -14,3 +14,9 @@ translations/strings_is.json
 translations/strings_en.json
 translations/strings_pl.json
 translations/pending.json
+
+# Election-night local-only artifacts (never deployed; published via the
+# iceland-results-live micro-repo, not this repo)
+.scratch/
+data/live-results.draft.json
+test-live-results.json

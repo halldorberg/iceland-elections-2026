@@ -1,0 +1,619 @@
+{
+  "generatedAt": "2026-05-16T15:53:36Z",
+  "munis": {
+    "akranes": {
+      "name": "Akranes",
+      "region": "Vesturland",
+      "totalSeats": 9,
+      "partyIds": [
+        "B",
+        "C",
+        "D",
+        "M",
+        "S"
+      ],
+      "seatsUnverified": false
+    },
+    "akureyri": {
+      "name": "Akureyri",
+      "region": "Norðurland eystra",
+      "totalSeats": 11,
+      "partyIds": [
+        "D",
+        "B",
+        "C",
+        "L",
+        "M",
+        "S",
+        "V",
+        "AL"
+      ],
+      "seatsUnverified": false
+    },
+    "arborg": {
+      "name": "Árborg",
+      "region": "Suðurland",
+      "totalSeats": 11,
+      "partyIds": [
+        "B",
+        "C",
+        "D",
+        "S"
+      ],
+      "seatsUnverified": false
+    },
+    "arneshr": {
+      "name": "Árneshreppur",
+      "region": "Vestfirðir",
+      "totalSeats": 5,
+      "partyIds": [
+        "ARNA",
+        "ARNS"
+      ],
+      "seatsUnverified": false
+    },
+    "blaskogabyggd": {
+      "name": "Bláskógabyggð",
+      "region": "Suðurland",
+      "totalSeats": 7,
+      "partyIds": [
+        "BST",
+        "BSP"
+      ],
+      "seatsUnverified": false
+    },
+    "bolungarvik": {
+      "name": "Bolungarvíkurkaupstaður",
+      "region": "Vestfirðir",
+      "totalSeats": 7,
+      "partyIds": [
+        "MMM",
+        "BBK"
+      ],
+      "seatsUnverified": false
+    },
+    "borgarbyggd": {
+      "name": "Sameinað sveitarfélag Borgarbyggðar og Skorradalshrepps",
+      "region": "Vesturland",
+      "totalSeats": 9,
+      "partyIds": [
+        "B",
+        "D",
+        "M",
+        "A"
+      ],
+      "seatsUnverified": false
+    },
+    "dalvikurbyggd": {
+      "name": "Dalvíkurbyggð",
+      "region": "Norðurland eystra",
+      "totalSeats": 7,
+      "partyIds": [
+        "B",
+        "D",
+        "A",
+        "K"
+      ],
+      "seatsUnverified": false
+    },
+    "eyjafjardarsveit": {
+      "name": "Eyjafjarðarsveit",
+      "region": "Norðurland eystra",
+      "totalSeats": 7,
+      "partyIds": [
+        "EJF",
+        "EJK"
+      ],
+      "seatsUnverified": false
+    },
+    "fjallabyggd": {
+      "name": "Fjallabyggð",
+      "region": "Norðurland vestra",
+      "totalSeats": 7,
+      "partyIds": [
+        "D",
+        "H",
+        "S"
+      ],
+      "seatsUnverified": false
+    },
+    "fjardabyggd": {
+      "name": "Fjarðabyggð",
+      "region": "Austurland",
+      "totalSeats": 9,
+      "partyIds": [
+        "B",
+        "D",
+        "M",
+        "S"
+      ],
+      "seatsUnverified": false
+    },
+    "floahreppur": {
+      "name": "Flóahreppur",
+      "region": "Suðurland",
+      "totalSeats": 5,
+      "partyIds": [
+        "FLI",
+        "FLT"
+      ],
+      "seatsUnverified": false
+    },
+    "gardabaer": {
+      "name": "Garðabær",
+      "region": "Höfuðborgarsvæðið",
+      "totalSeats": 11,
+      "partyIds": [
+        "D",
+        "B",
+        "C",
+        "GB",
+        "M",
+        "S"
+      ],
+      "seatsUnverified": false
+    },
+    "grimsnesgrafningur": {
+      "name": "Grímsnes- og Grafningshreppur",
+      "region": "Suðurland",
+      "totalSeats": 5,
+      "partyIds": [
+        "GGA",
+        "GGO"
+      ],
+      "seatsUnverified": false
+    },
+    "grindavik": {
+      "name": "Grindavíkurbær",
+      "region": "Suðurnes",
+      "totalSeats": 7,
+      "partyIds": [
+        "B",
+        "D",
+        "M"
+      ],
+      "seatsUnverified": false
+    },
+    "grundarfjordur": {
+      "name": "Grundarfjarðarbær",
+      "region": "Vesturland",
+      "totalSeats": 7,
+      "partyIds": [
+        "GFB",
+        "GFD"
+      ],
+      "seatsUnverified": false
+    },
+    "hafnarfjordur": {
+      "name": "Hafnarfjörður",
+      "region": "Höfuðborgarsvæðið",
+      "totalSeats": 11,
+      "partyIds": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "M",
+        "S"
+      ],
+      "seatsUnverified": false
+    },
+    "horgarsv": {
+      "name": "Hörgársveit",
+      "region": "Norðurland eystra",
+      "totalSeats": 5,
+      "partyIds": [
+        "D",
+        "HGG",
+        "HGH"
+      ],
+      "seatsUnverified": false
+    },
+    "hornafjordur": {
+      "name": "Sveitarfélagið Hornafjörður",
+      "region": "Austurland",
+      "totalSeats": 7,
+      "partyIds": [
+        "B",
+        "D",
+        "HFJK",
+        "M"
+      ],
+      "seatsUnverified": true
+    },
+    "hrunamannahreppur": {
+      "name": "Hrunamannahreppur",
+      "region": "Suðurland",
+      "totalSeats": 5,
+      "partyIds": [
+        "D",
+        "HRL"
+      ],
+      "seatsUnverified": false
+    },
+    "hunabyggd": {
+      "name": "Húnabyggð",
+      "region": "Norðurland vestra",
+      "totalSeats": 9,
+      "partyIds": [
+        "HBA",
+        "B",
+        "D"
+      ],
+      "seatsUnverified": false
+    },
+    "hunathing": {
+      "name": "Húnaþing vestra",
+      "region": "Norðurland vestra",
+      "totalSeats": 7,
+      "partyIds": [
+        "B",
+        "D",
+        "NHV"
+      ],
+      "seatsUnverified": false
+    },
+    "hvalfjardarsveit": {
+      "name": "Hvalfjarðarsveit",
+      "region": "Vesturland",
+      "totalSeats": 7,
+      "partyIds": [
+        "HVA",
+        "HVB"
+      ],
+      "seatsUnverified": false
+    },
+    "hveragerdi": {
+      "name": "Hveragerðisbær",
+      "region": "Suðurland",
+      "totalSeats": 7,
+      "partyIds": [
+        "OKH",
+        "B",
+        "S",
+        "D"
+      ],
+      "seatsUnverified": false
+    },
+    "isafjordur": {
+      "name": "Ísafjarðarbær",
+      "region": "Vestfirðir",
+      "totalSeats": 9,
+      "partyIds": [
+        "B",
+        "C",
+        "D",
+        "M",
+        "S"
+      ],
+      "seatsUnverified": false
+    },
+    "kjosarhreppur": {
+      "name": "Kjósarhreppur",
+      "region": "Höfuðborgarsvæðið",
+      "totalSeats": 5,
+      "partyIds": [
+        "KJA"
+      ],
+      "seatsUnverified": false
+    },
+    "kopavogur": {
+      "name": "Kópavogur",
+      "region": "Höfuðborgarsvæðið",
+      "totalSeats": 11,
+      "partyIds": [
+        "B",
+        "C",
+        "D",
+        "J",
+        "M",
+        "S",
+        "V"
+      ],
+      "seatsUnverified": false
+    },
+    "mosfellsbaer": {
+      "name": "Mosfellsbær",
+      "region": "Höfuðborgarsvæðið",
+      "totalSeats": 11,
+      "partyIds": [
+        "D",
+        "B",
+        "C",
+        "L",
+        "M",
+        "S"
+      ],
+      "seatsUnverified": false
+    },
+    "mulathing": {
+      "name": "Múlaþing",
+      "region": "Austurland",
+      "totalSeats": 11,
+      "partyIds": [
+        "B",
+        "D",
+        "L",
+        "M",
+        "V"
+      ],
+      "seatsUnverified": false
+    },
+    "myrdalshr": {
+      "name": "Mýrdalshreppur",
+      "region": "Suðurland",
+      "totalSeats": 5,
+      "partyIds": [
+        "MYA",
+        "MYZ"
+      ],
+      "seatsUnverified": false
+    },
+    "nordurping": {
+      "name": "Norðurþing",
+      "region": "Norðurland eystra",
+      "totalSeats": 9,
+      "partyIds": [
+        "B",
+        "D",
+        "NPM",
+        "NBO",
+        "S",
+        "NPV"
+      ],
+      "seatsUnverified": false
+    },
+    "olfus": {
+      "name": "Sveitarfélagið Ölfus",
+      "region": "Suðurland",
+      "totalSeats": 7,
+      "partyIds": [
+        "D",
+        "S"
+      ],
+      "seatsUnverified": false
+    },
+    "rangarthingeystra": {
+      "name": "Rangárþing eystra",
+      "region": "Suðurland",
+      "totalSeats": 7,
+      "partyIds": [
+        "B",
+        "D",
+        "NRE"
+      ],
+      "seatsUnverified": false
+    },
+    "rangarthingytra": {
+      "name": "Rangárþing ytra",
+      "region": "Suðurland",
+      "totalSeats": 7,
+      "partyIds": [
+        "RYA",
+        "D"
+      ],
+      "seatsUnverified": false
+    },
+    "reykholar": {
+      "name": "Reykhólahreppur",
+      "region": "Vestfirðir",
+      "totalSeats": 5,
+      "partyIds": [
+        "ROA",
+        "S"
+      ],
+      "seatsUnverified": false
+    },
+    "reykjanesbaer": {
+      "name": "Reykjanesbær",
+      "region": "Suðurnes",
+      "totalSeats": 11,
+      "partyIds": [
+        "B",
+        "C",
+        "D",
+        "M",
+        "S"
+      ],
+      "seatsUnverified": false
+    },
+    "reykjavik": {
+      "name": "Reykjavík",
+      "region": "Höfuðborgarsvæðið",
+      "totalSeats": 23,
+      "partyIds": [
+        "D",
+        "B",
+        "S",
+        "A",
+        "P",
+        "M",
+        "F",
+        "C",
+        "J",
+        "G",
+        "R"
+      ],
+      "seatsUnverified": false
+    },
+    "seltjarnarnes": {
+      "name": "Seltjarnarnesbær",
+      "region": "Höfuðborgarsvæðið",
+      "totalSeats": 7,
+      "partyIds": [
+        "D",
+        "M",
+        "SCS"
+      ],
+      "seatsUnverified": false
+    },
+    "skaftarhreppur": {
+      "name": "Skaftárhreppur",
+      "region": "Suðurland",
+      "totalSeats": 5,
+      "partyIds": [
+        "D",
+        "SKO"
+      ],
+      "seatsUnverified": false
+    },
+    "skagafjordur": {
+      "name": "Sveitarfélagið Skagafjörður",
+      "region": "Norðurland vestra",
+      "totalSeats": 9,
+      "partyIds": [
+        "B",
+        "D",
+        "SFL",
+        "M"
+      ],
+      "seatsUnverified": false
+    },
+    "skagastrond": {
+      "name": "Sveitarfélagið Skagaströnd",
+      "region": "Norðurland vestra",
+      "totalSeats": 5,
+      "partyIds": [
+        "B",
+        "S",
+        "K"
+      ],
+      "seatsUnverified": false
+    },
+    "skeidagnup": {
+      "name": "Skeiða- og Gnúpverjahreppur",
+      "region": "Suðurland",
+      "totalSeats": 5,
+      "partyIds": [
+        "SGE",
+        "SGL"
+      ],
+      "seatsUnverified": false
+    },
+    "snaefellsbaer": {
+      "name": "Snæfellsbær",
+      "region": "Vesturland",
+      "totalSeats": 7,
+      "partyIds": [
+        "D"
+      ],
+      "seatsUnverified": false
+    },
+    "strandabyggd": {
+      "name": "Strandabyggð",
+      "region": "Vestfirðir",
+      "totalSeats": 5,
+      "partyIds": [
+        "B",
+        "VGV",
+        "SBD"
+      ],
+      "seatsUnverified": false
+    },
+    "stykkisholmur": {
+      "name": "Sveitarfélagið Stykkishólmur",
+      "region": "Vesturland",
+      "totalSeats": 7,
+      "partyIds": [
+        "FLS",
+        "IBU"
+      ],
+      "seatsUnverified": false
+    },
+    "sudavik": {
+      "name": "Súðavíkurhreppur",
+      "region": "Vestfirðir",
+      "totalSeats": 5,
+      "partyIds": [
+        "FJL",
+        "FTL"
+      ],
+      "seatsUnverified": false
+    },
+    "sudurnesjabaer": {
+      "name": "Suðurnesjabær",
+      "region": "Suðurnes",
+      "totalSeats": 9,
+      "partyIds": [
+        "B",
+        "D",
+        "M",
+        "S"
+      ],
+      "seatsUnverified": false
+    },
+    "svalbardsstrond": {
+      "name": "Svalbarðsstrandarhreppur",
+      "region": "Norðurland eystra",
+      "totalSeats": 5,
+      "partyIds": [
+        "SVSS",
+        "SVSH",
+        "SVSO"
+      ],
+      "seatsUnverified": false
+    },
+    "thingeyjarsveit": {
+      "name": "Þingeyjarsveit",
+      "region": "Norðurland eystra",
+      "totalSeats": 9,
+      "partyIds": [
+        "THVA",
+        "THVL",
+        "THVN"
+      ],
+      "seatsUnverified": false
+    },
+    "tjornes": {
+      "name": "Tjörneshreppur",
+      "region": "Norðurland eystra",
+      "totalSeats": 3,
+      "partyIds": [
+        "TJN"
+      ],
+      "seatsUnverified": false
+    },
+    "vestmannaeyjar": {
+      "name": "Vestmannaeyjar",
+      "region": "Suðurland",
+      "totalSeats": 9,
+      "partyIds": [
+        "D",
+        "E",
+        "M"
+      ],
+      "seatsUnverified": false
+    },
+    "vesturbyggd": {
+      "name": "Vesturbyggð",
+      "region": "Vestfirðir",
+      "totalSeats": 7,
+      "partyIds": [
+        "NYS",
+        "STV"
+      ],
+      "seatsUnverified": false
+    },
+    "vogar": {
+      "name": "Sveitarfélagið Vogar",
+      "region": "Suðurnes",
+      "totalSeats": 7,
+      "partyIds": [
+        "FYRS",
+        "D",
+        "VOE",
+        "VOL"
+      ],
+      "seatsUnverified": false
+    },
+    "vopnafjordur": {
+      "name": "Vopnafjarðarhreppur",
+      "region": "Austurland",
+      "totalSeats": 7,
+      "partyIds": [
+        "VOP"
+      ],
+      "seatsUnverified": false
+    }
+  }
+}

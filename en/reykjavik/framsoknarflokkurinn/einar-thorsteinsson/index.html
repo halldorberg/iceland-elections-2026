@@ -75,7 +75,7 @@
 
   <!-- App styles -->
   <link rel="stylesheet" href="/css/variables.css?v=3" />
-  <link rel="stylesheet" href="/css/municipality.css?v=55" />
+  <link rel="stylesheet" href="/css/municipality.css?v=56" />
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://lydraedisveislan.is/en/"},{"@type":"ListItem","position":2,"name":"Reykjavík","item":"https://lydraedisveislan.is/en/reykjavik/"},{"@type":"ListItem","position":3,"name":"Framsóknarflokkurinn","item":"https://lydraedisveislan.is/en/reykjavik/framsoknarflokkurinn/"},{"@type":"ListItem","position":4,"name":"Einar Þorsteinsson","item":"https://lydraedisveislan.is/en/reykjavik/framsoknarflokkurinn/einar-thorsteinsson/"}]}</script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Einar Þorsteinsson","jobTitle":"Borgarfulltrúi","affiliation":{"@type":"Organization","name":"Framsóknarflokkurinn — Reykjavík","url":"https://lydraedisveislan.is/en/reykjavik/framsoknarflokkurinn/"},"homeLocation":{"@type":"Place","name":"Reykjavík"},"image":"https://lydraedisveislan.is/images/candidates/862fd60390612d54.jpg","description":"Einar Þorsteinsson er fæddur 24. desember 1978 og starfaði sem fréttamaður, fréttaþulur og dagskrástjóri Kastljóss hjá RÚV áður en hann hætti þar árið 2022…"}</script>
 </head>
@@ -249,7 +249,7 @@
   </div>
 
   <!-- App -->
-  <script type="module" src="/js/municipality.js?v=90"></script>
+  <script type="module" src="/js/municipality.js?v=91"></script>
   <script type="module" src="/js/outreach.js?v=1"></script>
   <script>
     (function () {
@@ -277,116 +277,158 @@
     })();
   </script>
 
-  <!-- ─── Election-night announcement popup ───────────────────────────────
-       Shows once per unique browser (localStorage 'kvaka-pop-seen').
-       Self-disables after 20:00 16 May 2026 (Iceland = UTC year-round).
-       Fully self-contained: no external CSS/JS, so no cache versions to
-       bump — only static stubs need rebuilding to carry this markup. -->
-  <div class="kvaka-pop" id="kvaka-pop" hidden>
-    <div class="kvaka-pop-backdrop" id="kvaka-pop-backdrop"></div>
-    <div class="kvaka-pop-card" role="dialog" aria-modal="true" aria-labelledby="kvaka-pop-title">
-      <button class="kvaka-pop-close" id="kvaka-pop-close" aria-label="Loka">&times;</button>
-      <div class="kvaka-pop-icon" aria-hidden="true">🗳️</div>
-      <h2 class="kvaka-pop-title" id="kvaka-pop-title"></h2>
-      <p class="kvaka-pop-body" id="kvaka-pop-body"></p>
-      <button class="kvaka-pop-ok" id="kvaka-pop-ok" type="button"></button>
+  <!-- ─── Live-stream pill (bottom-right) ─────────────────────────────────
+       Greyed "starts at HH:MM" until START, then an active blinking-red
+       pill that expands to the channel's current live stream + a watch
+       link. Auto-hidden after END. Hides the outreach button while shown.
+       Self-contained: no external CSS/JS. -->
+  <div class="ls-pill" id="ls-pill" hidden>
+    <button class="ls-pill-btn" id="ls-pill-btn" type="button" aria-expanded="false">
+      <span class="ls-dot" aria-hidden="true"></span>
+      <span class="ls-label" id="ls-label"></span>
+    </button>
+    <div class="ls-panel" id="ls-panel" hidden>
+      <button class="ls-panel-x" id="ls-panel-x" type="button" aria-label="Loka">&times;</button>
+      <div class="ls-video" id="ls-video"></div>
+      <a class="ls-watch" id="ls-watch" href="#" target="_blank" rel="noopener noreferrer"></a>
     </div>
   </div>
   <style>
-    .kvaka-pop{position:fixed;inset:0;z-index:100000;display:flex;
-      align-items:center;justify-content:center;padding:16px;
-      opacity:0;transition:opacity .25s ease}
-    .kvaka-pop.is-visible{opacity:1}
-    .kvaka-pop[hidden]{display:none}
-    .kvaka-pop-backdrop{position:absolute;inset:0;
-      background:rgba(4,8,16,.72);backdrop-filter:blur(2px)}
-    .kvaka-pop-card{position:relative;max-width:460px;width:100%;
-      background:#10192b;color:#eef3fb;border:1px solid rgba(255,255,255,.10);
-      border-radius:16px;padding:30px 26px 26px;text-align:center;
-      box-shadow:0 24px 60px rgba(0,0,0,.55);
-      transform:translateY(12px) scale(.98);transition:transform .25s ease}
-    .kvaka-pop.is-visible .kvaka-pop-card{transform:none}
-    .kvaka-pop-icon{font-size:38px;line-height:1;margin-bottom:10px}
-    .kvaka-pop-title{font-family:'Space Grotesk',sans-serif;font-size:1.32rem;
-      font-weight:700;margin:0 0 12px;color:#fff}
-    .kvaka-pop-body{font-size:.97rem;line-height:1.6;margin:0 0 22px;
-      color:#c7d2e3}
-    .kvaka-pop-ok{appearance:none;border:0;cursor:pointer;
-      background:#1a56db;color:#fff;font-weight:600;font-size:.97rem;
-      padding:11px 30px;border-radius:9px;transition:background .15s ease}
-    .kvaka-pop-ok:hover{background:#2563eb}
-    .kvaka-pop-close{position:absolute;top:10px;right:12px;appearance:none;
-      border:0;background:transparent;color:#8b9bb4;font-size:26px;
-      line-height:1;cursor:pointer;padding:4px 8px;border-radius:6px}
-    .kvaka-pop-close:hover{color:#fff;background:rgba(255,255,255,.07)}
-    @media (max-width:480px){
-      .kvaka-pop-card{padding:26px 20px 22px}
-      .kvaka-pop-title{font-size:1.18rem}
-      .kvaka-pop-body{font-size:.92rem}
-    }
+    .ls-pill{position:fixed;right:16px;bottom:16px;z-index:99990;
+      font-family:Inter,system-ui,-apple-system,sans-serif}
+    .ls-pill[hidden]{display:none}
+    .ls-pill-btn{display:flex;align-items:center;gap:8px;
+      background:#10192b;color:#fff;border:1px solid rgba(255,255,255,.16);
+      border-radius:999px;padding:9px 15px;font-size:13px;font-weight:600;
+      cursor:pointer;box-shadow:0 8px 24px rgba(0,0,0,.45);max-width:78vw}
+    .ls-label{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+    .ls-dot{flex:0 0 auto;width:9px;height:9px;border-radius:50%;
+      background:#8b9bb4}
+    .ls-pill.is-live .ls-dot{background:#ff3b30;
+      animation:ls-blink 1.1s steps(2,start) infinite}
+    @keyframes ls-blink{50%{opacity:.2}}
+    .ls-pill.is-waiting .ls-pill-btn{opacity:.55;cursor:default;
+      box-shadow:none}
+    .ls-pill.is-live .ls-pill-btn:hover{background:#17233b}
+    .ls-panel{position:absolute;right:0;bottom:52px;width:min(90vw,420px);
+      background:#0c1422;border:1px solid rgba(255,255,255,.16);
+      border-radius:14px;padding:12px;box-shadow:0 18px 50px rgba(0,0,0,.6)}
+    .ls-panel[hidden]{display:none}
+    .ls-panel-x{position:absolute;top:6px;right:8px;z-index:3;
+      background:rgba(12,20,34,.9);border:0;border-radius:7px;color:#cdd9ec;
+      font-size:20px;line-height:1;cursor:pointer;padding:3px 9px 5px}
+    .ls-panel-x:hover{color:#fff;background:rgba(40,55,80,.95)}
+    .ls-video{position:relative;width:100%;aspect-ratio:16/9;background:#000;
+      border-radius:9px;overflow:hidden;margin-top:34px}
+    .ls-video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+    .ls-watch{display:block;text-align:center;margin-top:10px;
+      background:#ff3b30;color:#fff;font-weight:700;font-size:13px;
+      padding:10px;border-radius:9px;text-decoration:none}
+    .ls-watch:hover{background:#e0321f}
   </style>
   <script>
     (function () {
-      // Iceland keeps UTC year-round, so the cutoff is an absolute instant.
-      var CUTOFF = Date.parse('2026-05-16T20:00:00Z');
-      if (Date.now() >= CUTOFF) return;                       // expired
-      try { if (localStorage.getItem('kvaka-pop-seen') === '1') return; } catch (e) {}
+      // ── Config ──────────────────────────────────────────────────────
+      var YT_CHANNEL  = 'UCeNzzJXdJ180hns9cb7GUpQ';            // @halldorberg
+      var YT_LIVE_URL = 'https://www.youtube.com/@halldorberg/live';
+      var START = Date.parse('2026-05-16T22:30:00Z');  // Iceland = UTC
+      // No auto-hide: greyed until START, then stays live all night and
+      // afterwards until this block is removed in a later deploy.
+      // ────────────────────────────────────────────────────────────────
 
-      var lang = (new URLSearchParams(location.search).get('lang')) ||
-                 (function(){ try { return localStorage.getItem('lang'); } catch(e){ return null; } }()) || 'is';
-      var TXT = {
-        is: {
-          title: 'Kosningavaka Lýðræðisveislunnar',
-          body:  'Fylgist með kosningavöku Lýðræðisveislunnar hér á síðunni frá og með fyrstu tölum í kvöld. Við munum hafa tölur úr öllum sveitarfélögum, hægt verður að sjá hvaða sveitarstjórnarmenn eru inni og lesa meira um þá og sjá hvaða meirihlutar eru líklegri en aðrir. Hægt verður að taka þátt í umræðu um þróun mála eftir því sem líður á nóttina!',
-          ok: 'Loka', close: 'Loka'
-        },
-        en: {
-          title: 'Lýðræðisveislan election night',
-          body:  "Follow Lýðræðisveislan's election-night coverage right here on the site, starting with the first results tonight. We'll have numbers from every municipality — you'll see which council members are elected and can read more about them, and which majority coalitions are more likely than others. You'll be able to join the discussion as the night unfolds!",
-          ok: 'Close', close: 'Close'
-        },
-        pl: {
-          title: 'Wieczór wyborczy Lýðræðisveislan',
-          body:  'Śledź relację Lýðræðisveislan z wieczoru wyborczego tutaj na stronie, począwszy od pierwszych wyników dziś wieczorem. Będziemy mieć wyniki ze wszystkich gmin — będzie można zobaczyć, którzy radni dostali się do rady i przeczytać o nich więcej, a także które koalicje większościowe są bardziej prawdopodobne. Będzie można dołączyć do dyskusji w miarę rozwoju wydarzeń w nocy!',
-          ok: 'Zamknij', close: 'Zamknij'
-        }
+      function lang() {
+        try {
+          var seg = location.pathname.split('/').filter(Boolean)[0];
+          if (seg === 'en' || seg === 'pl') return seg;
+          var q = new URLSearchParams(location.search).get('lang');
+          if (q === 'en' || q === 'pl' || q === 'is') return q;
+          var s = localStorage.getItem('lang');
+          if (s === 'en' || s === 'pl' || s === 'is') return s;
+        } catch (e) {}
+        return 'is';
+      }
+      var d = new Date(START);
+      var hhmm = ('0' + d.getUTCHours()).slice(-2) + ':' +
+                 ('0' + d.getUTCMinutes()).slice(-2);
+      var T = {
+        is: { wait: 'Streymi byrjar klukkan ' + hhmm,
+              live: 'Fylgist með Lýðræðisveislunni í beinni á Youtube',
+              watch: 'Taktu þátt í umræðunni á Youtube', close: 'Loka' },
+        en: { wait: 'Live stream starts at ' + hhmm,
+              live: 'Watch Lýðræðisveislan live on YouTube',
+              watch: 'Join the discussion on YouTube', close: 'Close' },
+        pl: { wait: 'Transmisja na żywo startuje o ' + hhmm,
+              live: 'Oglądaj Lýðræðisveislan na żywo na YouTube',
+              watch: 'Dołącz do dyskusji na YouTube', close: 'Zamknij' }
       };
-      var t = TXT[lang] || TXT.is;
+      var t = T[lang()] || T.is;
+      var forceLive = /[?&]lsForce=live/.test(location.search);
 
-      function init() {
-        var pop = document.getElementById('kvaka-pop');
-        if (!pop) return;
-        document.getElementById('kvaka-pop-title').textContent = t.title;
-        document.getElementById('kvaka-pop-body').textContent  = t.body;
-        document.getElementById('kvaka-pop-ok').textContent    = t.ok;
-        var closeBtn = document.getElementById('kvaka-pop-close');
-        closeBtn.setAttribute('aria-label', t.close);
+      var pill  = document.getElementById('ls-pill');
+      var btn   = document.getElementById('ls-pill-btn');
+      var label = document.getElementById('ls-label');
+      var panel = document.getElementById('ls-panel');
+      var videoBox = document.getElementById('ls-video');
+      var watch = document.getElementById('ls-watch');
+      var xbtn  = document.getElementById('ls-panel-x');
+      if (!pill) return;
 
-        function dismiss() {
-          try { localStorage.setItem('kvaka-pop-seen', '1'); } catch (e) {}
-          pop.classList.remove('is-visible');
-          document.removeEventListener('keydown', onKey);
-          setTimeout(function () { pop.setAttribute('hidden', ''); }, 260);
+      // Hide the outreach button while the pill is on screen.
+      var hideCss = document.createElement('style');
+      hideCss.textContent = '#outreach-btn{display:none!important}';
+      document.head.appendChild(hideCss);
+
+      watch.href = YT_LIVE_URL;
+      watch.textContent = t.watch;
+      xbtn.setAttribute('aria-label', t.close);
+
+      var iframeLoaded = false;
+      function openPanel() {
+        if (!iframeLoaded) {
+          var f = document.createElement('iframe');
+          f.src = 'https://www.youtube-nocookie.com/embed/live_stream?channel='
+                  + YT_CHANNEL;
+          f.allow = 'accelerometer; encrypted-media; picture-in-picture; fullscreen';
+          f.allowFullscreen = true;
+          videoBox.appendChild(f);
+          iframeLoaded = true;
         }
-        function onKey(e) { if (e.key === 'Escape') dismiss(); }
-
-        document.getElementById('kvaka-pop-ok').addEventListener('click', dismiss);
-        closeBtn.addEventListener('click', dismiss);
-        document.getElementById('kvaka-pop-backdrop').addEventListener('click', dismiss);
-        document.addEventListener('keydown', onKey);
-
-        pop.removeAttribute('hidden');
-        // Two RAFs so the transition runs from the hidden state.
-        requestAnimationFrame(function () {
-          requestAnimationFrame(function () { pop.classList.add('is-visible'); });
-        });
+        panel.hidden = false;
+        btn.setAttribute('aria-expanded', 'true');
       }
-
-      if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', init);
-      } else {
-        init();
+      function closePanel() {
+        panel.hidden = true;
+        btn.setAttribute('aria-expanded', 'false');
       }
+      btn.addEventListener('click', function () {
+        if (!pill.classList.contains('is-live')) return;   // greyed = inert
+        if (panel.hidden) openPanel(); else closePanel();
+      });
+      xbtn.addEventListener('click', closePanel);
+      document.addEventListener('click', function (e) {
+        if (!panel.hidden && !pill.contains(e.target)) closePanel();
+      });
+
+      var _timer = null;
+      function apply() {
+        var now = Date.now();
+        pill.hidden = false;
+        if (now >= START || forceLive) {
+          pill.classList.add('is-live');
+          pill.classList.remove('is-waiting');
+          label.textContent = t.live;
+          btn.style.cursor = 'pointer';
+        } else {
+          pill.classList.add('is-waiting');
+          pill.classList.remove('is-live');
+          label.textContent = t.wait;
+          if (!panel.hidden) closePanel();
+        }
+      }
+      apply();
+      // Re-evaluate periodically so an open page flips waiting→live→ended
+      // on its own without a reload.
+      _timer = setInterval(apply, 20000);
     })();
   </script>
 </body>

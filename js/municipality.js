@@ -5,8 +5,8 @@ import { RESULTS_2022 } from './data/results2022.js?v=7';
 import { POLLS }        from './data/polls.js?v=6';
 import { EYE_POSITIONS } from './data/eye_positions.js?v=5';
 import { CLEAVAGES, STANCE_SMILEYS } from './data/cleavages.js?v=3';
-import { RUV_POSITIONS } from './data/ruv_positions.js?v=4';
-import { getLang, t, renderLangSwitcher, MUNI_DATIVE_IS } from './i18n.js?v=20';
+import { RUV_POSITIONS } from './data/ruv_positions.js?v=5';
+import { getLang, t, renderLangSwitcher, MUNI_DATIVE_IS } from './i18n.js?v=21';
 import { partySlug, partyCodeFromSlug, slugify } from './data/party_slugs.js?v=3';
 
 // ─── i18n ──────────────────────────────────────────────────
@@ -184,15 +184,32 @@ document.getElementById('muni-name').textContent = muni.name;
 document.getElementById('muni-region').textContent = muni.region;
 document.documentElement.lang = lang;
 
+// ─── Live-results shared state ────────────────────────────────────────────
+// Declared here (before the coalition IIFE, which runs at module-eval time
+// and reads LIVE_RESULTS through activeSeatEntry()) to stay out of the TDZ.
+// The live-results fetch/render functions further down assign these.
+const LIVE_RESULTS_DEFAULT_URL =
+  'https://halldorberg.github.io/iceland-results-live/results.json';
+let LIVE_RESULTS = null;      // parsed JSON or null (→ full fallback)
+let _liveFetchBusy = false;   // re-entrancy guard for the 60 s refresh
+let _coalitionRefresh = null; // set by the coalition IIFE; called on hydrate
+
+// Newest live snapshot for a muni (or null). Declared here (above the
+// coalition IIFE) so activeSeatEntry() can call it at module-eval time.
+function liveNewestSnapshot(municipalityId) {
+  const m = LIVE_RESULTS && LIVE_RESULTS.munis
+    ? LIVE_RESULTS.munis[municipalityId] : null;
+  if (!m || !Array.isArray(m.snapshots) || !m.snapshots.length) return null;
+  return m.snapshots[m.snapshots.length - 1];   // oldest→newest
+}
+
 // ─── Coalition strip (líklegustu meirihlutarnir) ──────────────────────────
-// Renders an expandable banner directly under the top nav with every
-// minimum winning coalition derived from the muni's latest poll, each
-// scored on RÚV kosningapróf alignment. Currently gated to Reykjavík for
-// the experiment — extend later by removing the muniId check.
+// Expandable banner under the top nav with every minimum winning coalition
+// for the muni, each scored on RÚV kosningapróf alignment. Seat source is
+// the newest live count when available, else the latest poll. Shown on
+// every contested muni.
 (function setupCoalitionStrip() {
-  if (muniId !== 'reykjavik') return;
   const allPolls = POLLS[muniId] || [];
-  if (allPolls.length === 0 || !allPolls[0].parties) return;
   const positionsMuni = (RUV_POSITIONS && RUV_POSITIONS[muniId]) || null;
 
   // ─── Poll source ──────────────────────────────────────────────────────
@@ -227,20 +244,55 @@ document.documentElement.lang = lang;
       _averageOf: polls.map(p => p.source && p.source.pollster).join(' + '),
     };
   }
-  const POLL_SOURCES = [
-    { id: 'average',       getEntry: () => averagePolls(allPolls.slice(0, 3)) },
-    { id: 'maskina-may15', getEntry: () => allPolls[0] },
-    { id: 'gallup-may15',  getEntry: () => allPolls[1] },
-    { id: 'visir-may14',   getEntry: () => allPolls[2] },
-  ];
+  // The 4-way Maskína/Gallup/Vísir/Meðaltal toggle is a Reykjavík-only
+  // thing (only RVK has 3 pre-election polls). Other poll munis get their
+  // single poll with no toggle; non-poll munis get nothing here and rely
+  // on live results.
+  const POLL_SOURCES =
+    (muniId === 'reykjavik' && allPolls.length >= 3)
+      ? [
+          { id: 'average',       getEntry: () => averagePolls(allPolls.slice(0, 3)) },
+          { id: 'maskina-may15', getEntry: () => allPolls[0] },
+          { id: 'gallup-may15',  getEntry: () => allPolls[1] },
+          { id: 'visir-may14',   getEntry: () => allPolls[2] },
+        ]
+      : (allPolls.length && allPolls[0].parties)
+        ? [{ id: 'poll', getEntry: () => allPolls[0] }]
+        : [];
   let pollSourceId = localStorage.getItem('rvk_poll_source') || 'average';
-  if (!POLL_SOURCES.some(s => s.id === pollSourceId)) pollSourceId = 'average';
+  if (!POLL_SOURCES.some(s => s.id === pollSourceId)) {
+    pollSourceId = POLL_SOURCES.length ? POLL_SOURCES[0].id : null;
+  }
 
   function currentPollEntry() {
+    if (!POLL_SOURCES.length) return null;
     const src = POLL_SOURCES.find(s => s.id === pollSourceId) || POLL_SOURCES[0];
     return src.getEntry();
   }
-  let pollEntry = currentPollEntry();
+
+  // Newest live count as a seat-source entry (same shape as a poll entry:
+  // { totalSeats, parties:{code:{pct,seats}} }). totalSeats is summed from
+  // the published per-party seats (publish_live_results.py ran D'Hondt).
+  function liveSeatEntry() {
+    const snap = liveNewestSnapshot(muniId);
+    if (!snap || !snap.parties || !Object.keys(snap.parties).length) return null;
+    const ts = Object.values(snap.parties)
+      .reduce((a, p) => a + (p.seats || 0), 0);
+    return {
+      totalSeats: ts,
+      parties: snap.parties,
+      _live: true,
+      _at: snap.at,
+      _votes: snap.votesCounted,
+    };
+  }
+  function liveActive() { return !!liveSeatEntry(); }
+
+  // Election night → live count; otherwise the poll; otherwise nothing
+  // (banner still shows, panel shows a "results arrive tonight" notice).
+  function activeSeatEntry() { return liveSeatEntry() || currentPollEntry(); }
+
+  let pollEntry = activeSeatEntry();
 
   // ─── Likert-scale mode ────────────────────────────────────────────────
   // Two scales the user can toggle between:
@@ -272,6 +324,12 @@ document.documentElement.lang = lang;
 
   let totalSeats, majority, mwcs;
   function enumerateCoalitions() {
+    // No seat source yet (non-poll muni before any results) → empty;
+    // renderCards() then shows the "results arrive tonight" notice.
+    if (!pollEntry || !pollEntry.parties) {
+      totalSeats = 0; majority = 0; mwcs = [];
+      return;
+    }
     totalSeats = pollEntry.totalSeats || 23;
     majority = Math.floor(totalSeats / 2) + 1;
 
@@ -509,7 +567,10 @@ document.documentElement.lang = lang;
 
   function renderCards() {
     if (mwcs.length === 0) {
-      cardsEl.innerHTML = `<div class="coalition-empty">${ui.coalitionEmpty}</div>`;
+      // No seat source at all → "results arrive tonight"; seats exist but
+      // no MWC possible → the existing "no majority" message.
+      const msg = pollEntry ? ui.coalitionEmpty : ui.resultsOverviewWaiting;
+      cardsEl.innerHTML = `<div class="coalition-empty">${msg}</div>`;
       return;
     }
     cardsEl.innerHTML = mwcs.map((c, idx) => {
@@ -569,15 +630,30 @@ document.documentElement.lang = lang;
     const sourceBtns = POLL_SOURCES.map(s =>
       `<button type="button" role="radio" data-poll-source="${s.id}"
          class="${pollSourceId === s.id ? 'is-active' : ''}"
-         title="${sourceTips[s.id]}">${sourceLabels[s.id]}</button>`
+         title="${sourceTips[s.id] || ''}">${sourceLabels[s.id] || s.id}</button>`
     ).join('');
+    // Seat-source row: live → a basis note; RVK pre-election → the
+    // 4-way poll toggle; single-poll muni → nothing.
+    let sourceRowHTML = '';
+    if (liveActive()) {
+      const snap = liveSeatEntry();
+      const when = typeof snap._at === 'string' && snap._at.length >= 16
+        ? snap._at.slice(11, 16) : '';
+      const note = (ui.coalitionLiveBasis || 'Sæti byggð á nýjustu talningu')
+        + (when ? ` · ${ui.liveUpdatedAt(when)}` : '');
+      sourceRowHTML = `<div class="coalition-toolbar">
+          <div class="coalition-livebasis">${note}</div>
+        </div>`;
+    } else if (POLL_SOURCES.length > 1) {
+      sourceRowHTML = `<div class="coalition-toolbar">
+          <div class="coalition-source-toggle" role="radiogroup" aria-label="${ui.coalitionPollSourceLabel || 'Könnun'}">
+            ${sourceBtns}
+          </div>
+        </div>`;
+    }
     header.innerHTML = `
       <div class="coalition-intro">${ui.coalitionIntro || 'Samstöðueinkunn byggð á svörum úr Kosningaprófi RÚV'}</div>
-      <div class="coalition-toolbar">
-        <div class="coalition-source-toggle" role="radiogroup" aria-label="${ui.coalitionPollSourceLabel || 'Könnun'}">
-          ${sourceBtns}
-        </div>
-      </div>
+      ${sourceRowHTML}
       <div class="coalition-toolbar">
         <div class="coalition-scale-toggle" role="radiogroup" aria-label="${ui.coalitionScaleLabel || 'Kvarði'}">
           <button type="button" role="radio" data-scale="linear"
@@ -740,6 +816,18 @@ document.documentElement.lang = lang;
   document.body.classList.add('has-coalition-strip');
   syncDimensions();
   window.addEventListener('resize', syncDimensions);
+
+  // Let hydrateLiveResults() re-derive the coalitions whenever a new
+  // count lands (first fetch + every 60 s). Re-enumerates from the live
+  // seat vector, re-scores, re-renders; closes a stale detail modal.
+  _coalitionRefresh = function () {
+    pollEntry = activeSeatEntry();
+    enumerateCoalitions();
+    rescoreAndSort();
+    renderCards();
+    if (typeof closeDetailModal === 'function') closeDetailModal();
+    syncDimensions();
+  };
 
   // ─── Coalition-detail modal ────────────────────────────────────────────
   // Lazy-built overlay opened by the "Sjá útreikning" link on each card.
@@ -1522,6 +1610,291 @@ function activatePollCarousels(root) {
   });
 }
 
+// ─── Live election-night results ───────────────────────────
+// Fetched at runtime from the iceland-results-live micro-repo (a 2-file
+// GitHub Pages site that deploys in seconds). Until a snapshot exists for
+// the current muni, every render path falls back to today's poll/2022 UI
+// so the page is byte-identical to now. Schema:
+//   { updatedAt, munis: { <id>: { totalSeats,
+//       snapshots: [ { at, votesCounted,
+//                       parties: { <L>: {pct,seats} } } ] } } }
+// snapshots are oldest→newest so the carousel can scroll back to earlier
+// (lower vote-count) results, exactly like the poll carousel.
+//
+// LIVE_RESULTS_DEFAULT_URL / LIVE_RESULTS / _liveFetchBusy are declared
+// near the top of the module (before the coalition IIFE) to avoid a TDZ.
+
+// Override for local testing: ?liveResults=/path or localStorage.
+function resolveLiveResultsUrl() {
+  let base = LIVE_RESULTS_DEFAULT_URL;
+  try {
+    const q = new URLSearchParams(location.search).get('liveResults');
+    base = q || localStorage.getItem('liveResultsUrl') || base;
+  } catch (_) { /* ignore */ }
+  // Cache-bust so Cloudflare/edge TTL is the only floor.
+  return base + (base.includes('?') ? '&' : '?') + 't=' + Date.now();
+}
+
+function _fmtInt(n) {
+  const loc = { is: 'is-IS', en: 'en-US', pl: 'pl-PL' }[lang] || 'is-IS';
+  try { return Number(n).toLocaleString(loc); }
+  catch (_) { return String(n); }
+}
+
+// Build the per-party live-results block. Returns '' when there are no
+// snapshots for this muni/party (→ caller renders today's UI instead).
+function buildLiveResultsHTML(partyCode, municipalityId) {
+  const m = LIVE_RESULTS && LIVE_RESULTS.munis
+    ? LIVE_RESULTS.munis[municipalityId] : null;
+  if (!m || !Array.isArray(m.snapshots) || !m.snapshots.length) return '';
+
+  const total = m.totalSeats;
+  const slides = m.snapshots
+    .map(snap => ({ snap, r: snap.parties && snap.parties[partyCode] }))
+    .filter(s => s.r);
+  if (!slides.length) return '';
+
+  // snapshots are oldest→newest, so chronological idx 0 = oldest. The
+  // "earlier count" tag goes on everything except the newest.
+  const renderSlide = ({ snap, r }, idx, count) => {
+    const barPct = Math.min(r.pct, 100);
+    const seatsLabel = r.seats === 0 ? ui.noSeats : ui.ofSeats(total);
+    const olderTag = idx < count - 1
+      ? `<span class="results-poll-older-tag">${ui.liveOlderTag}</span>` : '';
+    const when = typeof snap.at === 'string' && snap.at.length >= 16
+      ? snap.at.slice(11, 16) : '';   // Iceland = UTC year-round
+    const metaBits = [];
+    if (snap.votesCounted != null)
+      metaBits.push(ui.liveVotesCounted(_fmtInt(snap.votesCounted)));
+    if (when) metaBits.push(ui.liveUpdatedAt(when));
+    return `
+      <div class="results-poll-slide" data-slide="${idx}">
+        <div class="results-2022 results-poll results-live">
+          <div class="results-label">
+            ${ui.liveResultsLabel}
+            ${olderTag}
+          </div>
+          <div class="results-row">
+            <div class="results-pct">
+              <span class="results-pct-num">${r.pct}<span class="results-pct-sign">%</span></span>
+              <span class="results-pct-desc">${ui.votes}</span>
+            </div>
+            <div class="results-bar-wrap">
+              <div class="results-bar-track">
+                <div class="results-bar-fill" style="width:${barPct}%"></div>
+              </div>
+            </div>
+            <div class="results-seats">
+              <span class="results-seats-num">${r.seats === 0 ? '–' : r.seats}</span>
+              <span class="results-seats-desc">${seatsLabel}</span>
+            </div>
+          </div>
+          <div class="results-poll-source results-live-meta">
+            ${metaBits.join(' · ')}
+            <span class="results-poll-hint">· ${ui.pollSeatsHint}</span>
+          </div>
+        </div>
+      </div>`;
+  };
+
+  const count = slides.length;
+  if (count === 1) return renderSlide(slides[0], 0, 1);
+
+  const newestIdx = count - 1;
+  // Our snapshots are already oldest→newest, which is exactly the DOM
+  // order the carousel wants (oldest left, newest right). No reverse —
+  // activatePollCarousels starts at the rightmost = newest.
+  const slidesHTML = slides
+    .map((s, idx) => renderSlide(s, idx, count))
+    .join('');
+  return `
+    <div class="results-poll-carousel" data-current="${newestIdx}" data-count="${count}">
+      <button type="button" class="results-poll-nav results-poll-nav-prev"
+              data-dir="-1" aria-label="${ui.liveOlderNav}" title="${ui.liveOlderNav}">‹</button>
+      <div class="results-poll-viewport">
+        <div class="results-poll-track">${slidesHTML}</div>
+      </div>
+      <button type="button" class="results-poll-nav results-poll-nav-next"
+              data-dir="1" aria-label="${ui.liveNewerNav}" title="${ui.liveNewerNav}" disabled>›</button>
+      <div class="results-poll-pager"><span class="results-poll-pager-current">${count}</span> / ${count}</div>
+      <div class="results-poll-mobile-hint">${ui.liveCarouselHint}</div>
+    </div>`;
+}
+
+// Swap live blocks into already-rendered splashes without nuking the DOM
+// (preserves scroll/expanded state; cheap enough for the 60 s refresh).
+function hydrateLiveResults() {
+  document.querySelectorAll('.live-results-slot').forEach(slot => {
+    const html = buildLiveResultsHTML(slot.dataset.party, slot.dataset.muni);
+    if (slot.innerHTML.trim() === html.trim()) return;   // unchanged
+    slot.innerHTML = html;
+    const splash = slot.closest('.party-splash');
+    if (splash) splash.classList.toggle('splash--has-live', !!html);
+    if (html) activatePollCarousels(slot);
+  });
+  refreshElectedFrames();
+  renderResultsOverview();
+  if (_coalitionRefresh) _coalitionRefresh();
+}
+
+// Re-derive the "would be elected" frame from the newest live count and
+// re-paint candidate cards + the legend in place. When there's no live
+// data the cards keep their poll-based frame (rendered at build time).
+function refreshElectedFrames() {
+  document.querySelectorAll('.party-ribbon[data-code]').forEach(ribbon => {
+    const code = ribbon.dataset.code;
+    const snap = liveNewestSnapshot(muni.id);
+    const seats = snap?.parties?.[code]?.seats;
+    if (seats == null) return;                 // no live → leave poll frame
+    ribbon.querySelectorAll(
+      `.candidate-card[data-party-code="${code}"]`
+    ).forEach(card => {
+      const ballot = Number(card.dataset.ballot);
+      card.classList.toggle('is-elected-poll', seats > 0 && ballot <= seats);
+    });
+    const legend = ribbon.querySelector('.candidates-elected-legend');
+    if (legend) {
+      legend.hidden = !(seats > 0);
+      const txt = legend.querySelector('.candidates-elected-legend-text');
+      if (txt) txt.textContent = ui.electedFrameLabelLive;
+    }
+  });
+}
+
+// ─── Top "results overview" banner ─────────────────────────
+// Collapsible, in normal document flow (pushes the ribbons down, never
+// overlays them). Open by default; minimized state persists. Shows a
+// bar chart of every party's % from the newest live snapshot, or a
+// "results arrive tonight" placeholder until the first count lands.
+// Has the user explicitly toggled the banner? Their choice (stored as
+// '0'/'1') always wins; absent it, the banner auto-manages: closed until
+// the first results land, then it opens itself.
+function _overviewUserChoice() {
+  try {
+    const v = localStorage.getItem('results-overview-min');
+    return v === '0' || v === '1' ? v : null;
+  } catch (_) { return null; }
+}
+
+function injectResultsOverview() {
+  const section = document.querySelector('.accordion-section');
+  if (!section || document.getElementById('results-overview')) return;
+  // No explicit choice → start closed (no results in yet at boot; the
+  // fetch resolves async and renderResultsOverview() will auto-open it
+  // when the first snapshot arrives).
+  const choice = _overviewUserChoice();
+  const minimized = choice ? choice === '1' : true;
+
+  const el = document.createElement('section');
+  el.className = 'results-overview' + (minimized ? ' is-min' : '');
+  el.id = 'results-overview';
+  el.innerHTML = `
+    <button class="results-overview-bar" id="results-overview-toggle"
+            type="button" aria-expanded="${minimized ? 'false' : 'true'}"
+            aria-controls="results-overview-body"
+            title="${ui.resultsOverviewToggle}">
+      <span class="results-overview-title">${ui.resultsOverviewTitle}</span>
+      <svg class="results-overview-chevron" width="12" height="12"
+           viewBox="0 0 12 12" aria-hidden="true">
+        <path d="M2 4L6 8L10 4" stroke="currentColor" stroke-width="1.6"
+              stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+      </svg>
+    </button>
+    <div class="results-overview-body" id="results-overview-body">
+      <div class="results-overview-meta" id="results-overview-meta"></div>
+      <div class="results-overview-chart" id="results-overview-chart"></div>
+    </div>`;
+  section.insertBefore(el, section.firstChild);
+
+  el.querySelector('#results-overview-toggle').addEventListener('click', () => {
+    const min = el.classList.toggle('is-min');
+    el.querySelector('#results-overview-toggle')
+      .setAttribute('aria-expanded', String(!min));
+    try { localStorage.setItem('results-overview-min', min ? '1' : '0'); }
+    catch (_) { /* ignore */ }
+  });
+
+  renderResultsOverview();
+}
+
+function renderResultsOverview() {
+  const chart = document.getElementById('results-overview-chart');
+  if (!chart) return;
+  const meta = document.getElementById('results-overview-meta');
+  const snap = liveNewestSnapshot(muni.id);
+
+  if (!snap || !snap.parties || !Object.keys(snap.parties).length) {
+    chart.innerHTML =
+      `<div class="results-overview-waiting">${ui.resultsOverviewWaiting}</div>`;
+    if (meta) meta.textContent = '';
+    return;
+  }
+
+  const rows = Object.entries(snap.parties)
+    .map(([code, v]) => ({ code, pct: +v.pct || 0, seats: v.seats || 0 }))
+    .sort((a, b) => b.pct - a.pct);
+  const maxPct = Math.max(1, ...rows.map(r => r.pct));
+
+  chart.innerHTML = rows.map(r => {
+    const p = PARTIES[r.code] || {};
+    const color = p.color || '#888';
+    const w = (r.pct / maxPct) * 100;
+    return `
+      <div class="rov-row">
+        <span class="rov-code" style="background:${color};color:${p.textColor || '#fff'}">${r.code}</span>
+        <div class="rov-track">
+          <div class="rov-fill" style="width:${w}%;background:${color}"></div>
+        </div>
+        <span class="rov-pct">${r.pct}%</span>
+        <span class="rov-seats">${r.seats}</span>
+      </div>`;
+  }).join('');
+
+  if (meta) {
+    const bits = [];
+    if (snap.votesCounted != null)
+      bits.push(ui.liveVotesCounted(_fmtInt(snap.votesCounted)));
+    const when = typeof snap.at === 'string' && snap.at.length >= 16
+      ? snap.at.slice(11, 16) : '';
+    if (when) bits.push(ui.liveUpdatedAt(when));
+    meta.textContent = bits.join(' · ');
+  }
+
+  // Results are now present. If the user hasn't explicitly minimized it,
+  // auto-open the banner (animates from the closed default). We don't
+  // persist this — a later manual toggle still takes over for good.
+  if (!_overviewUserChoice()) {
+    const el = document.getElementById('results-overview');
+    if (el && el.classList.contains('is-min')) {
+      el.classList.remove('is-min');
+      el.querySelector('#results-overview-toggle')
+        ?.setAttribute('aria-expanded', 'true');
+    }
+  }
+}
+
+async function fetchLiveResults() {
+  if (_liveFetchBusy) return;
+  _liveFetchBusy = true;
+  try {
+    const ctrl = new AbortController();
+    const timer = setTimeout(() => ctrl.abort(), 6000);
+    const res = await fetch(resolveLiveResultsUrl(),
+      { signal: ctrl.signal, cache: 'no-store' });
+    clearTimeout(timer);
+    if (!res.ok) return;
+    const data = await res.json();
+    if (data && typeof data === 'object' && data.munis) {
+      LIVE_RESULTS = data;
+      hydrateLiveResults();
+    }
+  } catch (_) {
+    /* missing/offline/malformed → keep today's UI, no error surfaced */
+  } finally {
+    _liveFetchBusy = false;
+  }
+}
+
 // ─── Cleavages carousel (RÚV kosningapróf) ─────────────────
 // Horizontal scroll of "where do parties disagree?" topics. The party
 // being viewed gets a smiley showing its stance; the icon on top is a
@@ -1720,6 +2093,7 @@ function buildSplashHTML(party, data) {
 
   const resultsHTML = buildResultsHTML(data.partyCode, data.municipalityId);
   const pollHTML    = buildPollHTML(data.partyCode, data.municipalityId);
+  const liveHTML    = buildLiveResultsHTML(data.partyCode, data.municipalityId);
 
   const sourceHTML = data.platformUrl
     ? `<div class="agenda-source">
@@ -1744,7 +2118,7 @@ function buildSplashHTML(party, data) {
   const tagline = trData(`${muniKey}.${partyKey}.tagline`, data.tagline);
 
   return `
-    <div class="party-splash">
+    <div class="party-splash${liveHTML ? ' splash--has-live' : ''}">
       <div class="splash-bg"></div>
       <div class="splash-eyebrow">
         <span class="splash-party-badge" style="color:${party.textColor}">
@@ -1763,6 +2137,7 @@ function buildSplashHTML(party, data) {
           ${ui.share}
         </button>
       </div>
+      <div class="live-results-slot" data-muni="${data.municipalityId}" data-party="${data.partyCode}">${liveHTML}</div>
       ${resultsHTML}
       ${pollHTML}
       <div class="splash-tagline" style="color:${party.textColor}">${tagline}</div>
@@ -1963,6 +2338,15 @@ function buildCandidatesHTML(data, party) {
   const _newestPoll = Array.isArray(_pollEntry) ? _pollEntry[0] : _pollEntry;
   const pollSeats = _newestPoll?.parties?.[data.partyCode]?.seats || 0;
 
+  // On election night the newest live count overrides the poll: the frame
+  // marks who would actually take a seat per the latest tally. Same visual
+  // (party-coloured frame) as the poll-based frame — only the threshold and
+  // the legend wording change. Falls back to the poll when no live data.
+  const _liveSnap   = liveNewestSnapshot(data.municipalityId);
+  const _liveSeats  = _liveSnap?.parties?.[data.partyCode]?.seats;
+  const isLiveSeats = _liveSeats != null;
+  const electedSeats = isLiveSeats ? _liveSeats : pollSeats;
+
   const renderCard = c => {
     const fallback = localAvatar(c.name);
     const occupation = trOcc(c.occupation);
@@ -1970,12 +2354,13 @@ function buildCandidatesHTML(data, party) {
     // dimensions to prevent layout shift (Cumulative Layout Shift, a Google
     // Core Web Vitals ranking factor).
     const altText = `${c.name} — ${partyName}, ${muni.name}`;
-    const elected = pollSeats > 0 && c.ballotOrder <= pollSeats;
+    const elected = electedSeats > 0 && c.ballotOrder <= electedSeats;
     const cardClass = elected ? 'candidate-card is-elected-poll' : 'candidate-card';
     return `
       <div class="${cardClass}"
            data-candidate-id="${c.id}"
            data-party-code="${data.partyCode}"
+           data-ballot="${c.ballotOrder}"
            role="button" tabindex="0"
            aria-label="${ui.seeMore} ${c.name}">
         <div class="candidate-photo-wrap">
@@ -1996,12 +2381,13 @@ function buildCandidatesHTML(data, party) {
       </div>`;
   };
 
-  const legend = pollSeats > 0
-    ? `<div class="candidates-elected-legend" style="--party-color:${party.color}">
+  // Always emit the legend so hydrateLiveResults() can reveal/relabel it
+  // when live counts arrive (e.g. a party on 0 poll seats that gains one).
+  const legend =
+    `<div class="candidates-elected-legend" style="--party-color:${party.color}"${electedSeats > 0 ? '' : ' hidden'}>
          <span class="candidates-elected-legend-swatch"></span>
-         <span class="candidates-elected-legend-text">${ui.electedFrameLabel}</span>
-       </div>`
-    : '';
+         <span class="candidates-elected-legend-text">${isLiveSeats ? ui.electedFrameLabelLive : ui.electedFrameLabel}</span>
+       </div>`;
 
   return `
     <div class="candidates-section" style="--party-color:${party.color}">
@@ -2375,6 +2761,16 @@ container.addEventListener('click', e => {
 // ─── Boot ──────────────────────────────────────────────────
 
   renderAccordion();
+
+  // Top results-overview banner (in-flow, pushes ribbons down). Shows a
+  // "results arrive tonight" placeholder until live data lands.
+  injectResultsOverview();
+
+  // Live election-night results: fetch in the background and hydrate the
+  // already-rendered splashes. Non-blocking — the page is fully usable
+  // (today's poll/2022 UI) before, during, and if this ever fails.
+  fetchLiveResults();
+  setInterval(fetchLiveResults, 60000);
 
   // On mobile, fix the initial expanded panel height for sparse party lists
   if (window.innerWidth <= 768) {

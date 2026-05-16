@@ -563,28 +563,30 @@ def main():
         # `/<muni>/liklegustu-meirihlutarnir/` etc. — permalinks that
         # auto-open the named feature panel on load. Currently only the
         # coalition strip on Reykjavík.
-        FEATURE_STUBS = {
-            'reykjavik': {
-                'liklegustu-meirihlutarnir': {
-                    'is': {
-                        'title': f'Líklegustu meirihlutarnir í {muni_name}',
-                        'desc':  f'Berðu saman alla mögulega meirihluta í {muni_name} byggt á nýjustu könnun, raðað eftir samstöðu frambjóðenda í kosningaprófi RÚV.',
-                        'crumb': 'Líklegustu meirihlutarnir',
-                    },
-                    'en': {
-                        'title': f'Most plausible coalitions in {muni_name}',
-                        'desc':  f'Compare every possible majority coalition in {muni_name} from the latest poll, ranked by candidate alignment in RÚV\'s election quiz.',
-                        'crumb': 'Most plausible coalitions',
-                    },
-                    'pl': {
-                        'title': f'Możliwe większości w {muni_name}',
-                        'desc':  f'Porównaj wszystkie możliwe koalicje większościowe w {muni_name} na podstawie najnowszego sondażu, z oceną zgodności z testu wyborczego RÚV.',
-                        'crumb': 'Możliwe większości',
-                    },
+        # The coalition strip now ships on every contested muni, so the
+        # /<muni>/liklegustu-meirihlutarnir/ permalink stub is generated
+        # for all of them (skip uncontested munis with no party lists).
+        FEATURE_LOCALES = {
+            'liklegustu-meirihlutarnir': {
+                'is': {
+                    'title': f'Líklegustu meirihlutarnir í {muni_name}',
+                    'desc':  f'Berðu saman alla mögulega meirihluta í {muni_name} byggt á nýjustu tölum, raðað eftir samstöðu frambjóðenda í kosningaprófi RÚV.',
+                    'crumb': 'Líklegustu meirihlutarnir',
+                },
+                'en': {
+                    'title': f'Most plausible coalitions in {muni_name}',
+                    'desc':  f'Compare every possible majority coalition in {muni_name} from the latest results, ranked by candidate alignment in RÚV\'s election quiz.',
+                    'crumb': 'Most plausible coalitions',
+                },
+                'pl': {
+                    'title': f'Możliwe większości w {muni_name}',
+                    'desc':  f'Porównaj wszystkie możliwe koalicje większościowe w {muni_name} na podstawie najnowszych wyników, z oceną zgodności z testu wyborczego RÚV.',
+                    'crumb': 'Możliwe większości',
                 },
             },
         }
-        for feat_slug, feat_locales in FEATURE_STUBS.get(muni_id, {}).items():
+        muni_features = FEATURE_LOCALES if muni_dict.get('party_codes') else {}
+        for feat_slug, feat_locales in muni_features.items():
             for lang in ('is', 'en', 'pl'):
                 loc = LOCALES[lang]
                 fl = feat_locales[lang]
