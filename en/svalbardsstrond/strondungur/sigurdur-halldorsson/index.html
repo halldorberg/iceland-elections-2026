@@ -280,5 +280,118 @@
       badge.addEventListener('click', expand);
     })();
   </script>
+
+  <!-- ─── Election-night announcement popup ───────────────────────────────
+       Shows once per unique browser (localStorage 'kvaka-pop-seen').
+       Self-disables after 20:00 16 May 2026 (Iceland = UTC year-round).
+       Fully self-contained: no external CSS/JS, so no cache versions to
+       bump — only static stubs need rebuilding to carry this markup. -->
+  <div class="kvaka-pop" id="kvaka-pop" hidden>
+    <div class="kvaka-pop-backdrop" id="kvaka-pop-backdrop"></div>
+    <div class="kvaka-pop-card" role="dialog" aria-modal="true" aria-labelledby="kvaka-pop-title">
+      <button class="kvaka-pop-close" id="kvaka-pop-close" aria-label="Loka">&times;</button>
+      <div class="kvaka-pop-icon" aria-hidden="true">🗳️</div>
+      <h2 class="kvaka-pop-title" id="kvaka-pop-title"></h2>
+      <p class="kvaka-pop-body" id="kvaka-pop-body"></p>
+      <button class="kvaka-pop-ok" id="kvaka-pop-ok" type="button"></button>
+    </div>
+  </div>
+  <style>
+    .kvaka-pop{position:fixed;inset:0;z-index:100000;display:flex;
+      align-items:center;justify-content:center;padding:16px;
+      opacity:0;transition:opacity .25s ease}
+    .kvaka-pop.is-visible{opacity:1}
+    .kvaka-pop[hidden]{display:none}
+    .kvaka-pop-backdrop{position:absolute;inset:0;
+      background:rgba(4,8,16,.72);backdrop-filter:blur(2px)}
+    .kvaka-pop-card{position:relative;max-width:460px;width:100%;
+      background:#10192b;color:#eef3fb;border:1px solid rgba(255,255,255,.10);
+      border-radius:16px;padding:30px 26px 26px;text-align:center;
+      box-shadow:0 24px 60px rgba(0,0,0,.55);
+      transform:translateY(12px) scale(.98);transition:transform .25s ease}
+    .kvaka-pop.is-visible .kvaka-pop-card{transform:none}
+    .kvaka-pop-icon{font-size:38px;line-height:1;margin-bottom:10px}
+    .kvaka-pop-title{font-family:'Space Grotesk',sans-serif;font-size:1.32rem;
+      font-weight:700;margin:0 0 12px;color:#fff}
+    .kvaka-pop-body{font-size:.97rem;line-height:1.6;margin:0 0 22px;
+      color:#c7d2e3}
+    .kvaka-pop-ok{appearance:none;border:0;cursor:pointer;
+      background:#1a56db;color:#fff;font-weight:600;font-size:.97rem;
+      padding:11px 30px;border-radius:9px;transition:background .15s ease}
+    .kvaka-pop-ok:hover{background:#2563eb}
+    .kvaka-pop-close{position:absolute;top:10px;right:12px;appearance:none;
+      border:0;background:transparent;color:#8b9bb4;font-size:26px;
+      line-height:1;cursor:pointer;padding:4px 8px;border-radius:6px}
+    .kvaka-pop-close:hover{color:#fff;background:rgba(255,255,255,.07)}
+    @media (max-width:480px){
+      .kvaka-pop-card{padding:26px 20px 22px}
+      .kvaka-pop-title{font-size:1.18rem}
+      .kvaka-pop-body{font-size:.92rem}
+    }
+  </style>
+  <script>
+    (function () {
+      // Iceland keeps UTC year-round, so the cutoff is an absolute instant.
+      var CUTOFF = Date.parse('2026-05-16T20:00:00Z');
+      if (Date.now() >= CUTOFF) return;                       // expired
+      try { if (localStorage.getItem('kvaka-pop-seen') === '1') return; } catch (e) {}
+
+      var lang = (new URLSearchParams(location.search).get('lang')) ||
+                 (function(){ try { return localStorage.getItem('lang'); } catch(e){ return null; } }()) || 'is';
+      var TXT = {
+        is: {
+          title: 'Kosningavaka Lýðræðisveislunnar',
+          body:  'Fylgist með kosningavöku Lýðræðisveislunnar hér á síðunni frá og með fyrstu tölum í kvöld. Við munum hafa tölur úr öllum sveitarfélögum, hægt verður að sjá hvaða sveitarstjórnarmenn eru inni og lesa meira um þá og sjá hvaða meirihlutar eru líklegri en aðrir. Hægt verður að taka þátt í umræðu um þróun mála eftir því sem líður á nóttina!',
+          ok: 'Loka', close: 'Loka'
+        },
+        en: {
+          title: 'Lýðræðisveislan election night',
+          body:  "Follow Lýðræðisveislan's election-night coverage right here on the site, starting with the first results tonight. We'll have numbers from every municipality — you'll see which council members are elected and can read more about them, and which majority coalitions are more likely than others. You'll be able to join the discussion as the night unfolds!",
+          ok: 'Close', close: 'Close'
+        },
+        pl: {
+          title: 'Wieczór wyborczy Lýðræðisveislan',
+          body:  'Śledź relację Lýðræðisveislan z wieczoru wyborczego tutaj na stronie, począwszy od pierwszych wyników dziś wieczorem. Będziemy mieć wyniki ze wszystkich gmin — będzie można zobaczyć, którzy radni dostali się do rady i przeczytać o nich więcej, a także które koalicje większościowe są bardziej prawdopodobne. Będzie można dołączyć do dyskusji w miarę rozwoju wydarzeń w nocy!',
+          ok: 'Zamknij', close: 'Zamknij'
+        }
+      };
+      var t = TXT[lang] || TXT.is;
+
+      function init() {
+        var pop = document.getElementById('kvaka-pop');
+        if (!pop) return;
+        document.getElementById('kvaka-pop-title').textContent = t.title;
+        document.getElementById('kvaka-pop-body').textContent  = t.body;
+        document.getElementById('kvaka-pop-ok').textContent    = t.ok;
+        var closeBtn = document.getElementById('kvaka-pop-close');
+        closeBtn.setAttribute('aria-label', t.close);
+
+        function dismiss() {
+          try { localStorage.setItem('kvaka-pop-seen', '1'); } catch (e) {}
+          pop.classList.remove('is-visible');
+          document.removeEventListener('keydown', onKey);
+          setTimeout(function () { pop.setAttribute('hidden', ''); }, 260);
+        }
+        function onKey(e) { if (e.key === 'Escape') dismiss(); }
+
+        document.getElementById('kvaka-pop-ok').addEventListener('click', dismiss);
+        closeBtn.addEventListener('click', dismiss);
+        document.getElementById('kvaka-pop-backdrop').addEventListener('click', dismiss);
+        document.addEventListener('keydown', onKey);
+
+        pop.removeAttribute('hidden');
+        // Two RAFs so the transition runs from the hidden state.
+        requestAnimationFrame(function () {
+          requestAnimationFrame(function () { pop.classList.add('is-visible'); });
+        });
+      }
+
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', init);
+      } else {
+        init();
+      }
+    })();
+  </script>
 </body>
 </html>
