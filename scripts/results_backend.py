@@ -87,6 +87,16 @@ def load_json(p: Path, default):
         return default
 
 
+# Icelandic alphabetical collation: á after a, ð after d, þ/æ/ö at the end,
+# so Árborg sorts by 'A', Ísafjörður by 'I', Þingeyjarsveit/Ölfus last.
+_IS_ALPHABET = "a á b c d ð e é f g h i í j k l m n o ó p q r s t u ú v w x y ý z þ æ ö".split()
+_IS_RANK = {ch: i for i, ch in enumerate(_IS_ALPHABET)}
+
+
+def is_sort_key(name: str):
+    return [_IS_RANK.get(ch, 99 + ord(ch)) for ch in (name or "").lower()]
+
+
 def build_state() -> dict:
     cfg = load_json(CONFIG, {"munis": {}})["munis"]
     names = party_names()
@@ -101,7 +111,16 @@ def build_state() -> dict:
                 "at": snaps[-1].get("at"),
             }
     munis = []
-    for mid, c in sorted(cfg.items(), key=lambda kv: (kv[1]["region"], kv[1]["name"])):
+    for mid, c in sorted(cfg.items(),
+                         key=lambda kv: is_sort_key(kv[1]["name"])):
+        dr = draft.get(mid)
+        pb = pub_last.get(mid)
+        # "Needs confirm" = the draft holds info not yet on the live
+        # channel: a muni never published, or a draft vote-count that
+        # differs from what was last published. Clears once published
+        # (published==draft) on the next reload.
+        needs_confirm = bool(dr) and (
+            pb is None or dr.get("votesCounted") != pb.get("votesCounted"))
         munis.append({
             "id": mid,
             "name": c["name"],
@@ -110,8 +129,9 @@ def build_state() -> dict:
             "seatsUnverified": c.get("seatsUnverified", False),
             "parties": [{"code": L, "name": names.get(L, L)}
                         for L in c["partyIds"]],
-            "draft": draft.get(mid),
-            "published": pub_last.get(mid),
+            "draft": dr,
+            "published": pb,
+            "needsConfirm": needs_confirm,
         })
     return {"munis": munis, "generatedAt": now_iso()}
 
@@ -260,6 +280,8 @@ small.note{color:#7d92b3}
   <h1>🗳️ Kosninganiðurstöður — innsláttur</h1>
   <input type="text" id="q" placeholder="Leita að sveitarfélagi…">
   <select id="reg"></select>
+  <label style="font-size:12px;color:#cfe0f5;display:flex;align-items:center;gap:5px;cursor:pointer">
+    <input type="checkbox" id="ncOnly"> aðeins óstaðfest</label>
   <span class="sp"></span>
   <small class="note" id="meta"></small>
   <button class="sec" id="reload">↻ Endurhlaða af diski</button>
@@ -304,9 +326,11 @@ function render(){
       </label>`;
     }).join('');
     const pub=m.published?`<span class="pub">síðast birt: ${Number(m.published.votesCounted||0).toLocaleString('is-IS')} atkv · kl. ${(m.published.at||'').slice(11,16)}</span>`:'<span class="pub">engin birt tala enn</span>';
-    return `<div class="mrow" data-id="${m.id}" data-name="${m.name.toLowerCase()}" data-region="${m.region}">
+    const nc=m.needsConfirm
+      ?'<span class="nc-badge" title="Nýjar tölur úr skrapi sem á eftir að staðfesta/birta">● óstaðfest</span>':'';
+    return `<div class="mrow${m.needsConfirm?' needs-confirm':''}" data-id="${m.id}" data-name="${m.name.toLowerCase()}" data-region="${m.region}" data-nc="${m.needsConfirm?1:0}">
       <div class="mhead">
-        <div><span class="muni">${m.name}</span>${m.seatsUnverified?' <span title="Staðfesta sætafjölda fyrir kvöldið">⚠</span>':''}
+        <div><span class="muni">${m.name}</span>${m.seatsUnverified?' <span title="Staðfesta sætafjölda fyrir kvöldið">⚠</span>':''}${nc}
           <span class="region">${m.region} · ${m.totalSeats} sæti</span></div>
         <div>${pub}</div>
       </div>
@@ -323,7 +347,10 @@ function render(){
   }).join('');
   $('#wrap').innerHTML=blocks;
   document.querySelectorAll('.mrow').forEach(recalc);
-  $('#meta').textContent=`${STATE.munis.length} sveitarfélög · uppfært ${STATE.generatedAt.slice(11,16)}`;
+  const ncN=STATE.munis.filter(m=>m.needsConfirm).length;
+  $('#meta').textContent=`${STATE.munis.length} sveitarfélög`+
+    (ncN?` · ${ncN} óstaðfest`:` · ekkert óstaðfest`)+
+    ` · uppfært ${STATE.generatedAt.slice(11,16)}`;
 }
 
 function collect(row){
@@ -385,18 +412,26 @@ $('#reload').addEventListener('click',async()=>{
 function applyFilter(){
   const q=$('#q').value.toLowerCase().trim();
   const r=$('#reg').value;
+  const ncOnly=$('#ncOnly').checked;
   document.querySelectorAll('.mrow').forEach(row=>{
-    const ok=(!q||row.dataset.name.includes(q))&&(!r||row.dataset.region===r);
+    const ok=(!q||row.dataset.name.includes(q))
+      &&(!r||row.dataset.region===r)
+      &&(!ncOnly||row.dataset.nc==='1');
     row.style.display=ok?'':'none';
   });
 }
 $('#q').addEventListener('input',applyFilter);
 $('#reg').addEventListener('change',applyFilter);
+$('#ncOnly').addEventListener('change',applyFilter);
 render();
 </script>
 <style>
-.mrow{border-bottom:1px solid #16233c;padding:8px 16px}
+.mrow{border-bottom:1px solid #16233c;padding:8px 16px;border-left:3px solid transparent}
 .mrow:hover{background:#0f1c33}
+.mrow.needs-confirm{border-left-color:#ffb02e;background:rgba(255,176,46,.06)}
+.nc-badge{margin-left:8px;font-size:10px;font-weight:700;letter-spacing:.03em;
+  color:#ffb02e;border:1px solid rgba(255,176,46,.5);border-radius:5px;
+  padding:1px 6px;vertical-align:1px}
 .mhead{display:flex;justify-content:space-between;gap:12px;align-items:baseline;margin-bottom:5px}
 .mbody{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
 .pcell{display:flex;flex-direction:column;align-items:center;gap:2px}

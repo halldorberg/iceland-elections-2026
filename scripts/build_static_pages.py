@@ -228,13 +228,18 @@ def parse_munis():
     """Return list of dicts: {id, name, region, population, lat, lng, party_codes}."""
     src = MUNICIPALITIES_JS.read_text(encoding='utf-8')
     out = []
+    # NOTE: tolerate inline `// …` comments / arbitrary whitespace between
+    # fields (e.g. fjardabyggd has a comment on its coords line). The
+    # `[^\]]*?` gaps skip over comments but can't cross a block boundary
+    # (partyIds is the only `[` in a block). Must stay in sync with the
+    # lenient parser in build_muni_config.py.
     pat = re.compile(
         r"\{\s*id:\s*'(\w+)'\s*,"
         r"\s*name:\s*'([^']+)'\s*,"
         r"\s*region:\s*'([^']+)'\s*,"
-        r"\s*population:\s*(\d+)\s*,"
-        r"\s*coords:\s*\{\s*lat:\s*([\d\.-]+)\s*,\s*lng:\s*([\d\.-]+)\s*\}\s*,"
-        r"\s*partyIds:\s*\[([^\]]*)\]",
+        r"[^\]]*?population:\s*(\d+)\s*,"
+        r"[^\]]*?lat:\s*([\d\.-]+)\s*,\s*lng:\s*([\d\.-]+)"
+        r"[^\]]*?partyIds:\s*\[([^\]]*)\]",
         re.DOTALL,
     )
     for m in pat.finditer(src):
