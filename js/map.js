@@ -1,6 +1,6 @@
 import { MUNICIPALITIES } from './data/municipalities.js?v=13';
 import { PARTIES } from './data/parties.js?v=4';
-import { getLang, t, renderLangSwitcher } from './i18n.js?v=3';
+import { getLang, t, renderLangSwitcher } from './i18n.js?v=4';
 
 // ─── i18n ──────────────────────────────────────────────────
 const lang = getLang();
@@ -17,7 +17,7 @@ renderLangSwitcher(document.getElementById('lang-switcher'));
   // Hero
   setHTML('hero-title',     ui.heroTitle);
   set('hero-intro',          ui.heroIntro);
-  set('hero-intro-emphasis', ui.heroIntroEmphasis);
+  setHTML('hero-intro-emphasis', ui.heroIntroEmphasis);
 
   // Dynamic <title> and <meta name="description"> per language (SEO)
   if (ui.pageTitleHome) document.title = ui.pageTitleHome;

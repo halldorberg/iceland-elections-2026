@@ -90,8 +90,6 @@
       <a class="header-badge" href="https://island.is/v/sveitarstjornarkosningar-2026" target="_blank" rel="noopener">
         <span class="dot"></span>
         <span id="election-date-label">Kosningar 16. maí 2026</span>
-        <span class="pill-sep"></span>
-        <span id="countdown-badge" aria-live="polite"></span>
       </a>
     </div>
   </header>
@@ -111,11 +109,11 @@
     </div>
     <h1 class="hero-title" id="hero-title">Velkomin í <span>lýðræðisveisluna!</span></h1>
     <p class="hero-intro" id="hero-intro">
-      Finndu út allt um öll framboð fyrir sveitarstjórnarkosningarnar 16. maí 2026 á einum stað.
-      Sjáðu frambjóðendur, stefnumál og fréttir í þínu sveitarfélagi.
+      Finndu út allt um öll framboðin sem voru fyrir sveitarstjórnarkosningarnar 16. maí 2026 á einum stað.
+      Sjáðu frambjóðendur, stefnumál og líklegustu meirihlutana í þínu sveitarfélagi.
     </p>
     <p class="hero-intro-emphasis" id="hero-intro-emphasis">
-      Berðu saman flokka, kynnstu fólkinu sem býður sig fram, og taktu upplýsta ákvörðun fyrir kjördag.
+      <em>Við hlökkum til að sjá þig aftur hér í næstu kosningum fyrir meira af því sama.</em>
     </p>
     <div class="stats-bar">
       <div class="stat-item">
@@ -217,7 +215,7 @@
   </a>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-  <script type="module" src="js/map.js?v=7"></script>
+  <script type="module" src="js/map.js?v=8"></script>
   <script type="module">
     import { MUNICIPALITIES } from './js/data/municipalities.js';
     import { t } from './js/i18n.js';
@@ -329,19 +327,11 @@
   </script>
   <script>
     (function () {
-      // ─── i18n-aware countdown ──────────────────────────────
-      // Reads lang from URL param or localStorage (same logic as getLang()).
+      // Election is over — show only the localized date label
+      // (no countdown / election-day badge).
       const cdLang = (new URLSearchParams(window.location.search).get('lang')) ||
                      localStorage.getItem('lang') || 'is';
 
-      const cdLabels = {
-        is: { days: 'dagar', hours: 'klst', mins: 'mín', secs: 'sek', day: '🗳️ Kosningadagur!' },
-        en: { days: 'days',  hours: 'hrs',  mins: 'min', secs: 'sec', day: '🗳️ Election day!' },
-        pl: { days: 'dni',   hours: 'godz', mins: 'min', secs: 'sek', day: '🗳️ Dzień wyborów!' },
-      };
-      const lbl = cdLabels[cdLang] || cdLabels.is;
-
-      // Update election date label
       const dateLabels = {
         is: 'Kosningar 16. maí 2026',
         en: 'Elections 16 May 2026',
@@ -349,40 +339,6 @@
       };
       const dateLabelEl = document.getElementById('election-date-label');
       if (dateLabelEl) dateLabelEl.textContent = dateLabels[cdLang] || dateLabels.is;
-
-      // Election day: 16 May 2026 09:00 Iceland time (UTC+0, no DST)
-      const TARGET = new Date('2026-05-16T09:00:00Z');
-      const el = document.getElementById('countdown-badge');
-      if (!el) return;
-
-      function pad(n) { return String(n).padStart(2, '0'); }
-
-      function render() {
-        const diff = TARGET - Date.now();
-        if (diff <= 0) {
-          el.innerHTML = '<span style="color:var(--color-accent)">' + lbl.day + '</span>';
-          return;
-        }
-        const d = Math.floor(diff / 86400000);
-        const h = Math.floor((diff % 86400000) / 3600000);
-        const m = Math.floor((diff % 3600000) / 60000);
-        const s = Math.floor((diff % 60000) / 1000);
-
-        el.innerHTML =
-          unit(pad(d), lbl.days) + sep() +
-          unit(pad(h), lbl.hours) + sep() +
-          unit(pad(m), lbl.mins) + sep() +
-          unit(pad(s), lbl.secs);
-      }
-
-      function unit(v, l) {
-        return '<span class="cd-unit"><span class="cd-val">' + v +
-               '</span><span class="cd-lbl">' + l + '</span></span>';
-      }
-      function sep() { return '<span class="cd-sep">:</span>'; }
-
-      render();
-      setInterval(render, 1000);
     })();
   </script>
 
