@@ -145,10 +145,10 @@ function buildPage(side, arg, lang) {
   <meta property="og:url" content="https://lydraedisveislan.is${prefix}/esbkosningar2026/${arg.key}/" />
   <meta property="og:title" content="${esc(title)}" />
   <meta property="og:description" content="${esc(desc)}" />
-  <meta property="og:image" content="https://lydraedisveislan.is/images/og-preview.png" />
+  <meta property="og:image" content="https://lydraedisveislan.is/images/og-esb.png" />
   <meta property="og:locale" content="is_IS" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:image" content="https://lydraedisveislan.is/images/og-preview.png" />
+  <meta name="twitter:image" content="https://lydraedisveislan.is/images/og-esb.png" />
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -318,10 +318,10 @@ function buildArticlesPage() {
   <meta property="og:site_name" content="Lýðræðisveislan" />
   <meta property="og:url" content="https://lydraedisveislan.is/esbkosningar2026/greinar/" />
   <meta property="og:title" content="Allar greinar og umræða — ESB-kosningin 2026" />
-  <meta property="og:image" content="https://lydraedisveislan.is/images/og-preview.png" />
+  <meta property="og:image" content="https://lydraedisveislan.is/images/og-esb.png" />
   <meta property="og:locale" content="is_IS" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:image" content="https://lydraedisveislan.is/images/og-preview.png" />
+  <meta name="twitter:image" content="https://lydraedisveislan.is/images/og-esb.png" />
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-KVRHXCHYLV"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
