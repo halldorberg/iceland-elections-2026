@@ -1,0 +1,456 @@
+Total lines: 98
+
+=== Line 36 (1011 chars) ===
+{
+  "Bolungarvíkurkaupstaður": {
+    "K listi - Máttur meyja og manna": [
+      "Guðfinnur Ragnar Jóhannsson",
+      "Magnús Ingi Jónsson",
+      "Rebekka Líf Karlsdóttir",
+      "Karen Arna Hannesdóttir",
+      "Hjörtur Traustason",
+      "Katrín Ugla Kristjánsdóttir",
+      "Sigtryggur Benedikt Stefánsson",
+      "Olga Agata Tabaka",
+      "Ketill Elíasson",
+      "Helga Jónsdóttir",
+      "Unnur Eyrún Mörthudóttir",
+      "Guðbergur Ingólfur Arnarsson",
+      "Stefán Línberg Halldórsson",
+      "Matthildur Guðmundsdóttir"
+    ],
+    "O listi - Betri Bolungarvík": [
+      "Kristján Jón Guðmundsson",
+      "Jóhanna Ósk Halldórsdóttir",
+      "Þorbergur Haraldsson",
+      "Baldur Smári Einarsson",
+      "Margrét Hildur Eiðsdóttir",
+      "Jóna Dagbjört Pétursdóttir",
+      "Paul Lukas Smelt",
+      "Guðmundur Kristinn Albertsson",
+      "Svana Kristín Guðbjartsdóttir",
+      "Nikolas Marcin Knop",
+      "Anna Magdalena Preisner",
+      "Helgi Pálsson",
+      "Trausti Salvar Kristjánsso[TRUNCATED]
+
+=== Line 39 (1011 chars) ===
+
+=== Bolungarvíkurkaupstaður ===
+
+--- K listi - Máttur meyja og manna (14 candidates) ---
+1. Guðfinnur Ragnar Jóhannsson
+2. Magnús Ingi Jónsson
+3. Rebekka Líf Karlsdóttir
+4. Karen Arna Hannesdóttir
+5. Hjörtur Traustason
+6. Katrín Ugla Kristjánsdóttir
+7. Sigtryggur Benedikt Stefánsson
+8. Olga Agata Tabaka
+9. Ketill Elíasson
+10. Helga Jónsdóttir
+11. Unnur Eyrún Mörthudóttir
+12. Guðbergur Ingólfur Arnarsson
+13. Stefán Línberg Halldórsson
+14. Matthildur Guðmundsdóttir
+
+--- O listi - Betri Bolungarvík (14 candidates) ---
+1. Kristján Jón Guðmundsson
+2. Jóhanna Ósk Halldórsdóttir
+3. Þorbergur Haraldsson
+4. Baldur Smári Einarsson
+5. Margrét Hildur Eiðsdóttir
+6. Jóna Dagbjört Pétursdóttir
+7. Paul Lukas Smelt
+8. Guðmundur Kristinn Albertsson
+9. Svana Kristín Guðbjartsdóttir
+10. Nikolas Marcin Knop
+11. Anna Magdalena Preisner
+12. Helgi Pálsson
+13. Trausti Salvar Kristjánsson
+14. Hafþór Gunnarsson
+
+=== Grundarfjarðarbær ===
+
+--- B listi - Framsókn og félagshyggjufólk (14 candidates) ---
+1. Fannar [TRUNCATED]
+
+=== Line 42 (1011 chars) ===
+
+=== Bolungarvíkurkaupstaður ===
+
+--- K listi - Máttur meyja og manna (14) ---
+1. Guðfinnur Ragnar Jóhannsson
+2. Magnús Ingi Jónsson
+3. Rebekka Líf Karlsdóttir
+4. Karen Arna Hannesdóttir
+5. Hjörtur Traustason
+6. Katrín Ugla Kristjánsdóttir
+7. Sigtryggur Benedikt Stefánsson
+8. Olga Agata Tabaka
+9. Ketill Elíasson
+10. Helga Jónsdóttir
+11. Unnur Eyrún Mörthudóttir
+12. Guðbergur Ingólfur Arnarsson
+13. Stefán Línberg Halldórsson
+14. Matthildur Guðmundsdóttir
+
+--- O listi - Betri Bolungarvík (14) ---
+1. Kristján Jón Guðmundsson
+2. Jóhanna Ósk Halldórsdóttir
+3. Þorbergur Haraldsson
+4. Baldur Smári Einarsson
+5. Margrét Hildur Eiðsdóttir
+6. Jóna Dagbjört Pétursdóttir
+7. Paul Lukas Smelt
+8. Guðmundur Kristinn Albertsson
+9. Svana Kristín Guðbjartsdóttir
+10. Nikolas Marcin Knop
+11. Anna Magdalena Preisner
+12. Helgi Pálsson
+13. Trausti Salvar Kristjánsson
+14. Hafþór Gunnarsson
+
+=== Grundarfjarðarbær ===
+
+--- B listi - Framsókn og félagshyggjufólk (14) ---
+1. Fannar Þór Þorfinnsson
+2. Signý Gunnarsd[TRUNCATED]
+
+=== Line 47 (886 chars) ===
+=== Grundarfjarðarbær ===
+
+--- B listi - Framsókn og félagshyggjufólk (14) ---
+1. Fannar Þór Þorfinnsson
+2. Signý Gunnarsdóttir
+3. Aðalsteinn Jósepsson
+4. Þuríður Gía Jóhannesdóttir
+5. Eiríkur Þór Halldórsson
+6. Halldóra Dögg Hjörleifsdóttir
+7. Ragnheiður Dröfn Benidiktsdóttir
+8. Rakel Birgisdóttir
+9. Sigurborg Knarran Ólafsdóttir
+10. Anna Júlía Skúladóttir
+11. Hallur Pálsson
+12. Kristján Guðmundsson
+13. Loftur Árni Björgvinsson
+14. Guðni E. Hallgrímsson
+
+--- D listi - Sjálfstæðisflokkur og óháðir (14) ---
+1. Jósef Kjartansson
+2. Sigurhanna Ágústa Einarsdóttir
+3. Bjarni Sigurbjörnsson
+4. Sigurður Gísli Guðjónsson
+5. Davíð Magnússon
+6. Sólveig Ásta Bergvinsdóttir
+7. Lilja Björk Bjarnadóttir
+8. Guðbrandur Gunnar Garðarsson
+9. Hallfríður Guðný Ragnarsdóttir
+10. Elín Sigurðardóttir
+11. Sunneva Gissurardóttir
+12. Marta Magnúsdóttir
+13. Arnar Kristjánsson
+14. Ásgeir Valdimarsson
+
+
+=== Line 50 (909 chars) ===
+=== Sveitarfélagið Stykkishólmur ===
+
+--- H listi - Listi framfarasinna (14) ---
+1. Björn Ásgeir Sumarliðason
+2. Steinunn Ingibjörg Magnúsdóttir
+3. Mattías Arnar Þorgrímsson
+4. Þórhildur Eyþórsdóttir
+5. Viktoría Líf V. Ingibergsdóttir
+6. Þröstur Ingi Auðunsson
+7. Jón Ragnar Daðason
+8. Ragnar Ingi Sigurðsson
+9. Anna Margrét Pálsdóttir
+10. Kári Geir Jensson
+11. Guðbjörg Arna Evudóttir
+12. Marteinn Óli Þorgrímsson
+13. Björg Gunnarsdóttir
+14. Guðmundur Kolbeinn Björnsson
+
+--- Í listi - Íbúalistinn (14) ---
+1. Sigurður Grétar Jónasson
+2. Rannveig Tenchi Ernudóttir
+3. Kristján  Hildibrandsson
+4. Ólöf Inga Stefánsdóttir
+5. Skarphéðinn Berg Steinarsson
+6. Sólrún Ösp Jóhannsdóttir
+7. Heiðrún Edda Pálsdóttir
+8. Hjalti Hrafn Hafþórsson
+9. Snæbjörn Aðalsteinsson
+10. Eva Rut Ellertsdóttir
+11. Steindór Hjaltalín Þorsteinsson
+12. Sigrún Birta Sturludóttir
+13. Hrefna Frímannsdóttir
+14. Guðmundur Valur Valtýsson
+
+
+=== Line 52 (644 chars) ===
+=== Súðavíkurhreppur ===
+
+--- A listi - Fjarðarlistinn (10) ---
+1. Kristján Rúnar Kristjánsson
+2. Ingibjörg Ásdís  Björnsdóttir
+3. Finnur Jónsson
+4. María Lovísa Danium
+5. Jónas Haukur Jónbjörnsson
+6. Claudia Troost
+7. Jónatan Ingi Ásgeirsson
+8. Jóhanna R Kristjánsdóttir
+9. Eiríkur  Valgeir Scott
+10. Oddný Elínborg Bergsdóttir
+
+--- E listi - Framtíðarlistinn (10) ---
+1. Kjartan Geir Karlsson
+2. Birta Lind Garðarsdóttir
+3. Jónína Margrét Guðmundsdóttir
+4. Jónþór  Eiríksson
+5. Egill Bjarni Vikse Helgason
+6. Runólfur Georg Karlsson
+7. Sergine Modou Fall
+8. Díana Ösp Magdalena Jónínudóttir
+9. Anna  Lind Ragnarsdóttir
+10. Friðrik Sigurðsson
+
+
+=== Line 55 (802 chars) ===
+=== Vesturbyggð  ===
+
+--- N listi - Ný sýn (14) ---
+1. Þórkatla Soffía Ólafsdóttir
+2. Rebekka Hilmarsdóttir
+3. Jenný Lára Magnadóttir
+4. Gunnþórunn Bender
+5. Jón Árnason
+6. Friðbjörn Steinar Ottósson
+7. Jónas Snæbjörnsson
+8. Einar Helgason
+9. Edda Bára Árnadóttir
+10. Halldór Jökull Ólafsson
+11. Aðalsteinn Magnússon
+12. Andrés Páll Ásgeirsson
+13. Steinunn Sigmundsdóttir
+14. Jóhann Pétur Ágústsson
+
+--- V listi - Sterkari Vesturbyggð (14) ---
+1. Hlynur Ársælsson
+2. Friðbjörg Matthíasdóttir
+3. Egill Níelsson
+4. Silja Baldvinsdóttir
+5. Rúnar Ingi Pétursson
+6. Jóhann Örn Hreiðarsson
+7. Þorbjörn Guðmundsson
+8. Svanhildur Björk Gísladóttir
+9. Gísli Ægir Ágústsson
+10. Lech Robert Raszkiewicz
+11. Guðlaug Sigurrós Björnsdóttir
+12. Ísak Óli Óskarsson
+13. Silja Björg Ísafoldardóttir
+14. Ásgeir Sveinsson
+
+
+=== Line 57 (707 chars) ===
+=== Reykhólahreppur ===
+
+--- R listi - Raddir okkar allra (10) ---
+1. Árný Huld Haraldsdóttir
+2. Embla Dögg Bachmann Jóhannsdóttir
+3. Kjartan Þór Ragnarsson
+4. Indiana Svala Ólafsdóttir
+5. Matthías Óli Gústafsson
+6. Aron Viðar Kristjánsson
+7. Agnieszka Anna Marcinkowska-Kowalczyk
+8. Björn Samúelsson
+9. Sigríður Anna Ísleifsdóttir
+10. Karl Kristjánsson
+
+--- S listi - Samfylkingin og óháðir (10) ---
+1. Hrefna Jónsdóttir
+2. Þorleifur Jóhann Guðjónsson
+3. Jóhanna Ösp Einarsdóttir
+4. Ólafur Þór Ólafsson
+5. Margrét Dögg Sigurbjörnsdóttir
+6. Phedias Cadavez Rizon
+7. Guðlaug Guðmunda Ingibjörg Magnfríður Bergsveinsdóttir
+8. Tindur Ólafur Guðmundsson
+9. Helena Þóra Sigurbjörnsdóttir
+10. Andrea Björnsdóttir
+
+
+=== Line 68 (1011 chars) ===
+Title: "Svalbarsstrandarhreppur" (length 23)
+Chars: 83,118,97,108,98,97,114,115,115,116,114,97,110,100,97,114,104,114,101,112,112,117,114
+  List: "H listi - Strönd til framtíðar" => 10 candidates
+    1. Ólafur Rúnar Ólafsson
+    2. Gréta María Halldórsdóttir
+    3. Eiríkur Haukur Hauksson
+    4. Birgir Ingason
+    5. Dagbjört Beck
+    6. Jóhanna Þorgilsdóttir
+    7. Guðmundur Emilsson
+    8. Jóhanna Ester Guðmundsdóttir
+    9. Alma S. Þórólfsdóttir
+    10. Waldemar Sienda
+  List: "S listi - Samstaða" => 10 candidates
+    1. Sigríður Ingi Stefánsdóttir
+    2. Hafrún Helga Arnardóttir
+    3. Halldóra Dögg Sigurðardóttir
+    4. Sigrún Rósa Kjartansdóttir
+    5. Elísabet Inga Ásgrímsdóttir
+    6. Eva Sandra Bentsdóttir
+    7. Heiðrún Beck
+    8. Þóra Sigríður Torfadóttir
+    9. Maríanna Lind Garðarsdóttir
+    10. Helena Valdís Bergland Traustadóttir
+  List: "Ö listi - Ströndungur" => 10 candidates
+    1. Bjarni Þór Guðmundsson
+    2. Árný Þóra Ágústsdóttir
+    3. Harpa Barkardóttir
+    4. [TRUNCATED]
+
+=== Line 71 (274 chars) ===
+--- Ö listi - Ströndungur (10) ---
+1. Bjarni Þór Guðmundsson
+2. Árný Þóra Ágústsdóttir
+3. Harpa Barkardóttir
+4. Sigurður Halldórsson
+5. Svala Einarsdóttir
+6. Hanna Sigurjónsdóttir
+7. Ingþór Björnsson
+8. Dagur Elí Guðnason
+9. Andri Már Þórhallsson
+10. Anna Karen Úlfarsdóttir
+
+=== Line 74 (322 chars) ===
+
+=== Tjörneshreppur - sjálfkjörið ===
+
+--- T listi - Tjörneslistinn (10) ---
+1. Aðalsteinn Jóhannes Halldórsson
+2. Jón Gunnarsson
+3. Katý Bjarnadóttir
+4. Smári Kárason
+5. Sveinn Egilsson
+6. Hulda Ellý Jónsdóttir
+7. Jónas Jónasson
+8. Sigurbjörg Sveinsbjörnsdóttir
+9. Eyrún Dögg Guðmundsdóttir
+10. Sigríður Hörn Lárusdóttir
+
+
+=== Line 84 (1011 chars) ===
+
+=== Múlaþing ===
+
+--- B listi - Framsóknarflokkurinn (22) ---
+1. Jónína Brynjólfsdóttir
+2. Eiður Ragnarsson
+3. Þórey Birna Jónsdóttir
+4. Björg Eyþórsdóttir
+5. Guðmundur Bj. Hafþórsson
+6. Brynjar Pálmi Ásgeirsson
+7. Eygló Björg Jóhannsdóttir
+8. Guðgeir Einarsson
+9. Erla Gunnlaugsdóttir
+10. Kári Snær Valtingojer
+11. Lilja Sigurðardóttir
+12. Þorgeir Arason
+13. Íris Dóróthea Randversdóttir
+14. Jóhann G. Gunnarsson
+15. Jelena Marinković
+16. Þorsteinn Kristjánsson
+17. Einar Tómas Björnsson
+18. Aðalheiður Björt Unnarsdóttir
+19. Alda Ósk Harðardóttir
+20. Vilhjálmur Jónsson
+21. Vigdís Sveinbjörnsdóttir
+22. Þorvaldur Hjarðar
+
+--- D listi - Sjálfstæðisflokkurinn (22) ---
+1. Berglind Harpa Svavarsdóttir
+2. Þórhildur Katrín Stefánsdóttir
+3. Ívar Karl Hafliðason
+4. Einar Freyr Guðmundsson
+5. Oddný Björk Daníelsdóttir
+6. Herdís Magna Gunnarsdóttir
+7. Þórir Stefánsson
+8. Þórhallur Borgarsson
+9. Ólafur Arnar Hallgrímsson
+10. Gabríel Arnarsson
+11. Björgvin Stefán Pétursson
+12. Guðný Lára Guðrúnardóttir[TRUNCATED]
+
+=== Line 87 (431 chars) ===
+=== Vopnafjarðarhreppur - sjálfkjörið ===
+Accordion items: 1
+
+--- O listi - Sterk Stoð (14) ---
+1. Íris Edda Jónsdóttir
+2. Stefán Guðnason
+3. Magnús Þór Róbertsson
+4. Eyrún Guðbergsdóttir
+5. Skúli Þórðarson
+6. Sandra Konráðsdóttir
+7. Zhivko Todorov Dinev
+8. Gauti Halldórsson
+9. Helga Kristín Tryggvadóttir
+10. Gulmira Kanakova
+11. Ingólfur Sveinsson
+12. Oddur Pétur Guðmundsson
+13. Kristín Jónsdóttir
+14. Baldur Helgi Friðriksson
+
+
+=== Line 96 (604 chars) ===
+--- B listi - Framsóknarflokkurinn (22) ---
+1. Jónína Brynjólfsdóttir
+2. Eiður Ragnarsson
+3. Þórey Birna Jónsdóttir
+4. Björg Eyþórsdóttir
+5. Guðmundur Bj. Hafþórsson
+6. Brynjar Pálmi Ásgeirsson
+7. Eygló Björg Jóhannsdóttir
+8. Guðgeir Einarsson
+9. Erla Gunnlaugsdóttir
+10. Kári Snær Valtingojer
+11. Lilja Sigurðardóttir
+12. Þorgeir Arason
+13. Íris Dóróthea Randversdóttir
+14. Jóhann G. Gunnarsson
+15. Jelena Marinković
+16. Þorsteinn Kristjánsson
+17. Einar Tómas Björnsson
+18. Aðalheiður Björt Unnarsdóttir
+19. Alda Ósk Harðardóttir
+20. Vilhjálmur Jónsson
+21. Vigdís Sveinbjörnsdóttir
+22. Þorvaldur Hjarðar
+
+=== Line 98 (643 chars) ===
+--- D listi - Sjálfstæðisflokkurinn (22) ---
+1. Berglind Harpa Svavarsdóttir
+2. Þórhildur Katrín Stefánsdóttir
+3. Ívar Karl Hafliðason
+4. Einar Freyr Guðmundsson
+5. Oddný Björk Daníelsdóttir
+6. Herdís Magna Gunnarsdóttir
+7. Þórir Stefánsson
+8. Þórhallur Borgarsson
+9. Ólafur Arnar Hallgrímsson
+10. Gabríel Arnarsson
+11. Björgvin Stefán Pétursson
+12. Guðný Lára Guðrúnardóttir
+13. Matej Karlovic
+14. Guðný Margrét Hjaltadóttir
+15. Grímur Orri Sölvason
+16. Unnur Ólöf Tómasdóttir
+17. Sylvía Ösp Jónsdóttir
+18. Skarphéðinn Smári Þórhallsson
+19. Sigurður Gunnarsson
+20. Sunna Dögg Markvad Guðjónsdóttir
+21. Jóhann Hjaltason
+22. Ágústa Björnsdóttir

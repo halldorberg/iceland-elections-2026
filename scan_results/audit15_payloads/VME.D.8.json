@@ -1,0 +1,20 @@
+{
+  "id": "VME.D.8",
+  "bio": "Ármann Halldór Jensson er 33 ára bílstjóri í Vestmannaeyjum. Hann tók þátt í prófkjöri Sjálfstæðisflokksins í Vestmannaeyjum í mars 2026 og skipar 8. sæti á lista flokksins fyrir sveitarstjórnarkosningarnar 16. maí 2026. Þetta er fyrsta framboð hans til opinberra trúnaðarstarfa og lýsir hann sér sem nýliða í pólitík. Áherslur Ármanns í kosningabaráttunni snúa meðal annars að samgöngumálum, þjónustu við fatlaða og eldra fólk og uppbyggingu fjölskylduvænna lífsskilyrða. Eiginkona hans er Þórunn Ingólfsdóttir og eiga þau eina dóttur, Móeiði Únu.",
+  "sources": [
+    "https://eyjafrettir.is/spurt-og-svarad-armann-halldor-fra-sjalfstaedisflokkum/",
+    "https://xd.is/2026/03/31/frambodslisti-sjalfstaedisflokksins-i-vestmannaeyjum/"
+  ],
+  "statements": [
+    {"n": 1, "status": "verified", "claim": "33 ára", "quotes": ["Aldur: 33 ára"]},
+    {"n": 2, "status": "verified", "claim": "bílstjóri", "quotes": ["Ármann Halldór Jensson, 33 ára, bílstjóri"]},
+    {"n": 3, "status": "verified", "claim": "tók þátt í prófkjöri Sjálfstæðisflokksins í Vme í mars 2026", "quotes": ["Eftir töluverða hvatningu til að taka þátt í prófkjöri fór ég þó að velta því fyrir mér"]},
+    {"n": 4, "status": "verified", "claim": "skipar 8. sæti á lista flokksins", "quotes": ["Ármann Halldór Jensson, 33 ára, bílstjóri"]},
+    {"n": 5, "status": "verified", "claim": "kosningar 16. maí 2026", "quotes": ["bæjarstjórnarkosningarnar 16. maí nk. samþykkt samhljóða"]},
+    {"n": 6, "status": "verified", "claim": "nýliði í pólitík", "quotes": ["Ég hef ekki áður tekið virkan þátt í stjórnmálum"]},
+    {"n": 7, "status": "verified", "claim": "áherslur: samgöngur, fatlaðir, aldraðir, fjölskylduvæn lífsskilyrði", "quotes": ["Þar ber fyrst að nefna samgöngur, málefni fatlaðra og aldraðra, sem og að skapa góð búsetuskilyrði fyrir fjölskyldufólk"]},
+    {"n": 8, "status": "verified", "claim": "Eiginkona Þórunn Ingólfsdóttir, dóttir Móeiður Una", "quotes": ["Giftur Þórunni Ingólfsdóttur og saman eigum við hana Móeiði Únu sem er 3 ára gömul."]}
+  ],
+  "summary": "8 verified, 0 rescued, 0 flagged",
+  "rescue": null
+}

@@ -1,0 +1,29 @@
+=== AKR (76 candidates, 5 lists) ===
+  B: 18 candidates
+  C: 4 candidates
+  D: 18 candidates
+  M: 18 candidates
+  S: 18 candidates
+=== AKU (172 candidates, 8 lists) ===
+  AL: 19 candidates
+  B: 21 candidates
+  C: 22 candidates
+  D: 22 candidates
+  L: 22 candidates
+  M: 22 candidates
+  S: 22 candidates
+  V: 22 candidates
+=== ARB (88 candidates, 4 lists) ===
+  B: 22 candidates
+  C: 22 candidates
+  D: 22 candidates
+  S: 22 candidates
+=== ARN (20 candidates, 2 lists) ===
+  ARNA: 10 candidates
+  ARNS: 10 candidates
+=== BBD (60 candidates, 4 lists) ===
+  B: 6 candidates
+  BBL: 18 candidates
+  File "F:\Claude Projects\iceland-elections\scripts\extract_candidates.py", line 129, in <module>
+  File "F:\Claude Projects\iceland-elections\scripts\extract_candidates.py", line 113, in main
+  File "C:\Program Files\Python310\lib\encodings\cp1252.py", line 19, in encode

@@ -1,0 +1,20 @@
+{
+  "id": "AKU.M.2",
+  "bio": "Inga Dís Sigurðardóttir er náms- og starfsráðgjafi á Akureyri og kennari við Giljaskóla. Hún hefur lengi starfað við skólastarf í bænum og er meðal annars þekkt fyrir áhuga sinn á upplýsingatækni í kennslu og notkun stafrænna kennsluverkfæra á yngsta stigi grunnskóla. Inga Dís hlaut tvennar viðurkenningar frá fræðsluráði Akureyrar fyrir framlag sitt til skólastarfs. Hún skipar 2. sæti á lista Miðflokksins á Akureyri í sveitarstjórnarkosningunum 2026, í framboði sem Hlynur Jóhannsson bæjarfulltrúi leiðir.",
+  "sources": [
+    "https://kaffid.is/hlynur-leidir-midflokkinn-a-akureyri-afram/",
+    "https://sites.google.com/giljaskoli.is/ingaoggudridur/heim",
+    "https://www.vikubladid.is/is/frettir/vidurkenningar-fyrir-arangur-i-skolastarfi"
+  ],
+  "statements": [
+    {"n": 1, "status": "verified", "claim": "náms- og starfsráðgjafi", "quotes": ["Inga Dís Sigurðardóttir, náms- og starfsráðgjafi skipar annað sæti á lista flokksins"]},
+    {"n": 2, "status": "verified", "claim": "kennari við Giljaskóla á Akureyri", "quotes": ["Við heitum Guðríður Sveinsdóttir og Inga Dís Sigurðardóttir. Við erum kennarar við Giljaskóla á Akureyri"]},
+    {"n": 3, "status": "verified", "claim": "áhugi á upplýsingatækni í kennslu / stafrænum kennsluverkfærum", "quotes": ["höfum óbilandi áhuga á upplýsingatækni í skólastarfi", "verkefni sem við höfum búið til fyrir nemendur okkar í SeeSaw, Classkick og BookCreator"]},
+    {"n": 4, "status": "verified", "claim": "yngsta stig (og miðstig) grunnskóla", "quotes": ["Upplýsingatækni á yngsta- og miðstigi"]},
+    {"n": 5, "status": "verified", "claim": "tvennar viðurkenningar frá fræðsluráði Akureyrar", "quotes": ["Inga Dís Sigurðardóttir, Giljaskóli – hlaut tvær viðurkenningar", "Nýverið veitti fræðsluráð Akureyrarbæjar viðurkenningar þeim sem hafa skarað sérstaklega fram úr í skólastarfi."]},
+    {"n": 6, "status": "verified", "claim": "skipar 2. sæti á lista Miðflokksins á Akureyri 2026", "quotes": ["Inga Dís Sigurðardóttir, náms- og starfsráðgjafi skipar annað sæti á lista flokksins"]},
+    {"n": 7, "status": "verified", "claim": "Hlynur Jóhannsson bæjarfulltrúi leiðir framboðið", "quotes": ["Hlynur Jóhannsson, íþróttakennari, bæjarfulltrúi og rekstrarstjóri, mun leiða lista Miðflokksins á Akureyri í komandi sveitarstjórnarkosningum"]}
+  ],
+  "summary": "7 verified, 0 rescued, 0 flagged",
+  "rescue": null
+}

@@ -1,0 +1,1486 @@
+{
+  "35": {
+    "id": "35",
+    "type": "PROPOSITION",
+    "slug": "ad-er-gott-ad-bua-i-minu-sveitarfelagi",
+    "title": "Það er gott að búa í mínu sveitarfélagi.",
+    "description": null
+  },
+  "38": {
+    "id": "38",
+    "type": "PROPOSITION",
+    "slug": "eg-er-anaegdur-med-tha-thjonustu-sem-sveitarfelagid-veitir-mer",
+    "title": "Ég er ánægð/ur með þá þjónustu sem sveitarfélagið veitir mér.",
+    "description": null
+  },
+  "40": {
+    "id": "40",
+    "type": "RANGE",
+    "slug": "hvernig-aettu-skattar-og-gjold-ad-vera-i-sveitarfelaginu-midad-vid-stoduna-i-dag",
+    "title": "Hvernig ættu skattar og gjöld að vera í sveitarfélaginu miðað við stöðuna í dag?",
+    "description": null
+  },
+  "43": {
+    "id": "43",
+    "type": "PROPOSITION",
+    "slug": "fjolga-aetti-ibuakosningum-svo-ad-almenningur-geti-tekid-meiri-thatt-i-akvordunum-i-sveitarfelaginu",
+    "title": "Fjölga ætti íbúakosningum svo að almenningur geti tekið meiri þátt í ákvörðunum í sveitarfélaginu.",
+    "description": null
+  },
+  "45": {
+    "id": "45",
+    "type": "PROPOSITION",
+    "slug": "sveitarfelogum-aetti-ad-vera-skylt-ad-logum-ad-sja-bornum-fyrir-leikskolavist-fra-tolf-manada-aldri",
+    "title": "Sveitarfélögum ætti að vera skylt að lögum að sjá börnum fyrir leikskólavist frá tólf mánaða aldri.",
+    "description": null
+  },
+  "47": {
+    "id": "47",
+    "type": "PROPOSITION",
+    "slug": "sveitarfelagid-mitt-aetti-ad-bjoda-heimgreidslur-til-foreldra-til-ad-audvelda-theim-ad-vera-heima-med-bornum-fra-thvi-ad-faedingarorlofi-lykur-og-fram-ad-leikskolavist",
+    "title": "Sveitarfélagið mitt ætti að bjóða heimgreiðslur til foreldra til að auðvelda þeim að vera heima með börnum frá því að fæðingarorlofi lýkur og fram að leikskólavist.",
+    "description": null
+  },
+  "49": {
+    "id": "49",
+    "type": "PROPOSITION",
+    "slug": "hvetja-aetti-foreldra-til-ad-stytta-vistunartima-leikskolabarna-gegn-afslaetti-af-gjoldum",
+    "title": "Hvetja ætti foreldra til að stytta vistunartíma leikskólabarna gegn afslætti af gjöldum.",
+    "description": null
+  },
+  "50": {
+    "id": "50",
+    "type": "PROPOSITION",
+    "slug": "sveitarfelagid-aetti-ad-beita-ser-fyrir-frekari-utvistun-verkefna-sinna-vid-rekstur-leik-og-grunnskola",
+    "title": "Sveitarfélagið ætti að beita sér fyrir frekari útvistun verkefna sinna við rekstur leik- og grunnskóla",
+    "description": null
+  },
+  "51": {
+    "id": "51",
+    "type": "PROPOSITION",
+    "slug": "sveitarfelagid-aetti-ad-nidurgreida-ithrotta-og-tomstundaidkun-barna-meira-en-nu-er-gert",
+    "title": "Sveitarfélagið ætti að niðurgreiða íþrótta- og tómstundaiðkun barna meira en nú er gert.",
+    "description": null
+  },
+  "52": {
+    "id": "52",
+    "type": "PROPOSITION",
+    "slug": "verja-aetti-meira-fe-til-ad-stydja-menningarlif-i-sveitarfelaginu",
+    "title": "Verja ætti meira fé til að styðja menningarlíf í sveitarfélaginu.",
+    "description": null
+  },
+  "53": {
+    "id": "53",
+    "type": "PROPOSITION",
+    "slug": "haelisleitendur-a-barnsaldri-aettu-ad-fa-somu-thjonustu-i-sveitarfelaginu-og-adrir-ibuar",
+    "title": "Hælisleitendur á barnsaldri ættu að fá sömu þjónustu í sveitarfélaginu og aðrir íbúar.",
+    "description": null
+  },
+  "54": {
+    "id": "54",
+    "type": "PROPOSITION",
+    "slug": "snjomokstur-og-gotusopun-er-fullnaegjandi-i-minu-sveitarfelagi",
+    "title": "Snjómokstur og götusópun er fullnægjandi í mínu sveitarfélagi.",
+    "description": null
+  },
+  "55": {
+    "id": "55",
+    "type": "PROPOSITION",
+    "slug": "sveitarfelagid-aetti-ad-greida-leid-nyrra-fyrirtaekja-sem-vilja-hefja-starfsemi-a-svaedinu-med-fjarhagslegum-ivilnunum",
+    "title": "Sveitarfélagið ætti að greiða leið nýrra fyrirtækja sem vilja hefja starfsemi á svæðinu, með fjárhagslegum ívilnunum",
+    "description": null
+  },
+  "57": {
+    "id": "57",
+    "type": "PROPOSITION",
+    "slug": "sveitarfelagid-tharf-ad-auka-fjarhagsadstod-vid-tha-ibua-sem-lifa-undir-fataektarmorkum",
+    "title": "Sveitarfélagið þarf að auka fjárhagsaðstoð við þá íbúa sem lifa undir fátæktarmörkum.",
+    "description": null
+  },
+  "59": {
+    "id": "59",
+    "type": "PROPOSITION",
+    "slug": "lengja-aetti-opnunartima-sundlauga-thott-thad-kosti-sveitarfelog-fe",
+    "title": "Lengja ætti opnunartíma sundlauga, þótt það kosti sveitarfélög fé.",
+    "description": null
+  },
+  "60": {
+    "id": "60",
+    "type": "PROPOSITION",
+    "slug": "sveitarfelog-hafa-gengid-of-langt-i-ad-skikka-ibua-til-ad-flokka-sorp",
+    "title": "Sveitarfélög hafa gengið of langt í að skikka íbúa til að flokka sorp.",
+    "description": null
+  },
+  "64": {
+    "id": "64",
+    "type": "PROPOSITION",
+    "slug": "sveitarfelog-aettu-ad-verja-meira-fe-i-thjonustu-vid-eldri-borgara",
+    "title": "Sveitarfélög ættu að verja meira fé í þjónustu við eldri borgara.",
+    "description": null
+  },
+  "239": {
+    "id": "239",
+    "type": "PROPOSITION",
+    "slug": "sveitarfelog-aettu-ad-greida-eldri-borgurum-fristundastyrk",
+    "title": "Sveitarfélög ættu að greiða eldri borgurum frístundastyrk.",
+    "description": null
+  },
+  "100": {
+    "id": "100",
+    "type": "PROPOSITION",
+    "slug": "sveitarfelagid-mitt-aetti-ad-heimila-thad-ad-bilastaedi-vid-fjolfarna-ferdamannastadi-seu-staekkud",
+    "title": "Sveitarfélagið mitt ætti að heimila það að bílastæði við fjölfarna ferðamannastaði séu stækkuð.",
+    "description": null
+  },
+  "105": {
+    "id": "105",
+    "type": "PROPOSITION",
+    "slug": "uppbygging-i-thagu-ferdamanna-i-sveitarfelaginu-hefur-verid-a-kostnad-heimamanna",
+    "title": "Uppbygging í þágu ferðamanna í sveitarfélaginu hefur verið á kostnað heimamanna.",
+    "description": null
+  },
+  "209": {
+    "id": "209",
+    "type": "PROPOSITION",
+    "slug": "ad-er-gott-hversu-margt-folk-med-erlent-rikisfang-byr-i-sveitarfelaginu",
+    "title": "Það er gott hversu margt fólk með erlent ríkisfang býr í sveitarfélaginu.",
+    "description": null
+  },
+  "210": {
+    "id": "210",
+    "type": "PROPOSITION",
+    "slug": "sveitarstjorn-aetti-ad-beita-ser-fyrir-thvi-ad-grafin-verdi-gong-i-gegn-um-reynisfjall",
+    "title": "Sveitarstjórn ætti að beita sér fyrir því að grafin verði göng í gegn um Reynisfjall.",
+    "description": null
+  },
+  "212": {
+    "id": "212",
+    "type": "PROPOSITION",
+    "slug": "sveitarstjorn-aetti-ad-leggjast-gegn-storfelldu-vikurnami-i-hafursey",
+    "title": "Sveitarstjórn ætti að leggjast gegn stórfelldu vikurnámi í Hafursey.",
+    "description": null
+  },
+  "240": {
+    "id": "240",
+    "type": "PRIORITY",
+    "slug": "hver-eru-mikilvaegustu-kosningamalin",
+    "title": "Hver eru mikilvægustu kosningamálin?",
+    "description": null
+  },
+  "42": {
+    "id": "42",
+    "type": "PROPOSITION",
+    "slug": "egar-skipulogd-er-byggd-i-sveitarfelaginu-aetti-frekar-ad-leggja-aherslu-a-ny-hverfi-en-thettingu-byggdar",
+    "title": "Þegar skipulögð er byggð í sveitarfélaginu ætti frekar að leggja áherslu á ný hverfi en þéttingu byggðar.",
+    "description": null
+  },
+  "92": {
+    "id": "92",
+    "type": "PROPOSITION",
+    "slug": "faekka-aetti-skemmtaferdaskipum-sem-leggjast-ad-hofn-i-sveitarfelaginu",
+    "title": "Fækka ætti skemmtaferðaskipum sem leggjast að höfn í sveitarfélaginu.",
+    "description": null
+  },
+  "104": {
+    "id": "104",
+    "type": "PROPOSITION",
+    "slug": "sveitarstjornin-aetti-ad-beita-ser-fyrir-thvi-ad-haett-verdi-ad-innheimta-innvidagjald-af-skemmtiferdaskipum",
+    "title": "Sveitarstjórnin ætti að beita sér fyrir því að hætt verði að innheimta innviðagjald af skemmtiferðaskipum.",
+    "description": null
+  },
+  "115": {
+    "id": "115",
+    "type": "PROPOSITION",
+    "slug": "frida-aetti-eyjafjord-fyrir-sjokviaeldi",
+    "title": "Friða ætti Eyjafjörð fyrir sjókvíaeldi.",
+    "description": null
+  },
+  "71": {
+    "id": "71",
+    "type": "PROPOSITION",
+    "slug": "loka-aetti-gongugotunni-i-midbae-akureyrar-alfarid-fyrir-bilaumferd",
+    "title": "Loka ætti göngugötunni í miðbæ Akureyrar alfarið fyrir bílaumferð.",
+    "description": null
+  },
+  "73": {
+    "id": "73",
+    "type": "PROPOSITION",
+    "slug": "laekka-aetti-hamarkshrada-a-thjodvegi-1-i-gegnum-akureyrarbae",
+    "title": "Lækka ætti hámarkshraða á þjóðvegi 1 í gegnum Akureyrarbæ.",
+    "description": null
+  },
+  "74": {
+    "id": "74",
+    "type": "PROPOSITION",
+    "slug": "fe-baejarins-er-vel-varid-i-uppbyggingu-ithrottamannvirkja",
+    "title": "Fé bæjarins er vel varið í uppbyggingu íþróttamannvirkja.",
+    "description": null
+  },
+  "75": {
+    "id": "75",
+    "type": "PROPOSITION",
+    "slug": "leyfa-a-gomlu-leigubilastod-bso-ad-vera-afram-i-midbaenum",
+    "title": "Leyfa á gömlu leigubílastöð BSO að vera áfram í miðbænum.",
+    "description": null
+  },
+  "76": {
+    "id": "76",
+    "type": "PROPOSITION",
+    "slug": "faera-aetti-blondulinu-3-ut-fyrir-baejarmork-akureyrar",
+    "title": "Færa ætti Blöndulínu 3 út fyrir bæjarmörk Akureyrar.",
+    "description": null
+  },
+  "93": {
+    "id": "93",
+    "type": "PROPOSITION",
+    "slug": "heimastjornarfyrirkomulagid-i-mulathingi-hefur-reynst-vel",
+    "title": "Heimastjórnarfyrirkomulagið í Múlaþingi hefur reynst vel.",
+    "description": null
+  },
+  "94": {
+    "id": "94",
+    "type": "PROPOSITION",
+    "slug": "sveitarstjornarmenn-i-mulathingi-eiga-ad-berjast-fyrir-thvi-ad-fjardarheidargong-verdi-grafin-a-undan-fjardagongum",
+    "title": "Sveitarstjórnarmenn í Múlaþingi eiga að berjast fyrir því að Fjarðarheiðargöng verði grafin á undan Fjarðagöngum.",
+    "description": null
+  },
+  "95": {
+    "id": "95",
+    "type": "PROPOSITION",
+    "slug": "ef-leida-a-umferd-fram-hja-midbae-egilsstada-aetti-ad-fara-sudur-fyrir-thorpid-frekar-en-ad-fara-svokallada-nordurleid",
+    "title": "Ef leiða á umferð fram hjá miðbæ Egilsstaða ætti að fara suður fyrir þorpið, frekar en að fara svokallaða norðurleið.",
+    "description": null
+  },
+  "96": {
+    "id": "96",
+    "type": "PROPOSITION",
+    "slug": "koma-aetti-upp-fiskeldi-i-seydisfirdi-svo-fremi-sem-thad-raski-ekki-fjarskipta-og-siglingaoryggi",
+    "title": "Koma ætti upp fiskeldi í Seyðisfirði svo fremi sem það raski ekki fjarskipta- og siglingaöryggi.",
+    "description": null
+  },
+  "97": {
+    "id": "97",
+    "type": "PROPOSITION",
+    "slug": "baett-raforkuoryggi-a-austfjordum-skiptir-meira-mali-en-ad-nattura-se-afram-osnortin-thegar-akvardanir-eru-teknar-um-virkjanir",
+    "title": "Bætt raforkuöryggi á Austfjörðum skiptir meira máli en að náttúra sé áfram ósnortin þegar ákvarðanir eru teknar um virkjanir.",
+    "description": null
+  },
+  "218": {
+    "id": "218",
+    "type": "PROPOSITION",
+    "slug": "ad-er-of-dyrt-ad-halda-uti-leikskoladeild-a-laugum",
+    "title": "Það er of dýrt að halda úti leikskóladeild á Laugum.",
+    "description": null
+  },
+  "220": {
+    "id": "220",
+    "type": "PROPOSITION",
+    "slug": "sveitarfelagid-a-ad-verja-fe-i-uppbyggingu-a-fjolfornum-ferdamannastodum-svo-sem-dimmuborgum-dettifossi-godafossi-myvatni-og-viti",
+    "title": "Sveitarfélagið á að verja fé í uppbyggingu á fjölförnum ferðamannastöðum, svo sem Dimmuborgum, Dettifossi, Goðafossi, Mývatni og Víti.",
+    "description": null
+  },
+  "221": {
+    "id": "221",
+    "type": "PROPOSITION",
+    "slug": "jafnraedis-er-gaett-i-thjonustu-vid-ibua-sveitarfelagsins-eftir-busetu",
+    "title": "Jafnræðis er gætt í þjónustu við íbúa sveitarfélagsins eftir búsetu.",
+    "description": null
+  },
+  "223": {
+    "id": "223",
+    "type": "PROPOSITION",
+    "slug": "takmarka-tharf-fjolda-ferdamanna-i-sveitarfelaginu",
+    "title": "Takmarka þarf fjölda ferðamanna í sveitarfélaginu.",
+    "description": null
+  },
+  "184": {
+    "id": "184",
+    "type": "PROPOSITION",
+    "slug": "sameina-aetti-rangarthing-eystra-og-ytra",
+    "title": "Sameina ætti Rangárþing eystra og ytra.",
+    "description": null
+  },
+  "198": {
+    "id": "198",
+    "type": "PROPOSITION",
+    "slug": "sveitarstjorn-a-ad-beita-ser-fyrir-gerd-hvammsvirkjunar",
+    "title": "Sveitarstjórn á að beita sér fyrir gerð Hvammsvirkjunar.",
+    "description": null
+  },
+  "200": {
+    "id": "200",
+    "type": "PROPOSITION",
+    "slug": "leida-aetti-thjodveg-1-fram-hja-hellu-naer-gaddstadaflotum",
+    "title": "Leiða ætti þjóðveg 1 fram hjá Hellu, nær Gaddstaðaflötum.",
+    "description": null
+  },
+  "202": {
+    "id": "202",
+    "type": "PROPOSITION",
+    "slug": "sveitarstjorn-a-ad-beita-ser-gegn-thvi-ad-reistar-verdi-fleiri-vindmyllur-i-ykkvabae",
+    "title": "Sveitarstjórn á að beita sér gegn því að reistar verði fleiri vindmyllur í Þykkvabæ.",
+    "description": null
+  },
+  "110": {
+    "id": "110",
+    "type": "PROPOSITION",
+    "slug": "stefna-aetti-ad-sameiningu-allra-sveitarfelaga-a-vestfjordum",
+    "title": "Stefna ætti að sameiningu allra sveitarfélaga á Vestfjörðum.",
+    "description": null
+  },
+  "203": {
+    "id": "203",
+    "type": "PROPOSITION",
+    "slug": "of-geyst-hefur-verid-farid-i-uppbyggingu-i-bolungarvik",
+    "title": "Of geyst hefur verið farið í uppbyggingu í Bolungarvík.",
+    "description": null
+  },
+  "204": {
+    "id": "204",
+    "type": "PROPOSITION",
+    "slug": "vidhaldi-a-gotum-og-byggingum-hefur-verid-illa-sinnt-i-baenum",
+    "title": "Viðhaldi á götum og byggingum hefur verið illa sinnt í bænum.",
+    "description": null
+  },
+  "206": {
+    "id": "206",
+    "type": "PROPOSITION",
+    "slug": "utsynispallur-a-bolafjalli-er-vel-heppnud-framkvaemd",
+    "title": "Útsýnispallur á Bolafjalli er vel heppnuð framkvæmd.",
+    "description": null
+  },
+  "163": {
+    "id": "163",
+    "type": "PROPOSITION",
+    "slug": "folk-aetti-ad-geta-skrad-logheimili-sitt-i-sveitarfelaginu-thott-thad-bui-i-orlofshusabyggd",
+    "title": "Fólk ætti að geta skráð lögheimili sitt í sveitarfélaginu þótt það búi í orlofshúsabyggð.",
+    "description": null
+  },
+  "165": {
+    "id": "165",
+    "type": "PROPOSITION",
+    "slug": "malarnam-i-seydisholum-hefur-gengid-of-langt",
+    "title": "Malarnám í Seyðishólum hefur gengið of langt.",
+    "description": null
+  },
+  "167": {
+    "id": "167",
+    "type": "PROPOSITION",
+    "slug": "sveitarstjornin-aetti-ad-beita-ser-fyrir-thvi-ad-aftur-verdi-opnud-verslun-a-borg",
+    "title": "Sveitarstjórnin ætti að beita sér fyrir því að aftur verði opnuð verslun á Borg.",
+    "description": null
+  },
+  "134": {
+    "id": "134",
+    "type": "PROPOSITION",
+    "slug": "koma-aetti-i-veg-fyrir-uppbyggingu-vindorkuvera-i-sveitarfelaginu",
+    "title": "Koma ætti í veg fyrir uppbyggingu vindorkuvera í sveitarfélaginu.",
+    "description": null
+  },
+  "137": {
+    "id": "137",
+    "type": "PROPOSITION",
+    "slug": "faera-aetti-hringveginn-ut-ur-borgarnesi-thannig-ad-hann-liggi-med-fram-nesinu",
+    "title": "Færa ætti Hringveginn út úr Borgarnesi þannig að hann liggi með fram nesinu.",
+    "description": null
+  },
+  "138": {
+    "id": "138",
+    "type": "PROPOSITION",
+    "slug": "tryggja-tharf-graen-svaedi-adgengi-ibua-og-natturuvernd-vid-akvardanir-um-uppbyggingu-i-brakarey",
+    "title": "Tryggja þarf græn svæði, aðgengi íbúa og náttúruvernd við ákvarðanir um uppbyggingu í Brákarey.",
+    "description": null
+  },
+  "139": {
+    "id": "139",
+    "type": "PROPOSITION",
+    "slug": "ad-er-forgangsatridi-ad-tryggja-ad-starfsemi-haskolanna-a-bifrost-og-hvanneyri-haldist-innan-sveitarfelagsins",
+    "title": "Það er forgangsatriði að tryggja að starfsemi háskólanna á Bifröst og Hvanneyri haldist innan sveitarfélagsins.",
+    "description": null
+  },
+  "118": {
+    "id": "118",
+    "type": "PROPOSITION",
+    "slug": "faera-aetti-thjodveg-1-thannig-ad-hann-liggi-um-svokallada-vindheimaleid-fram-hja-varmahlid",
+    "title": "Færa ætti þjóðveg 1 þannig að hann liggi um svokallaða Vindheimaleið fram hjá Varmahlíð.",
+    "description": null
+  },
+  "120": {
+    "id": "120",
+    "type": "PROPOSITION",
+    "slug": "radast-aetti-i-skatastadavirkjun-ofan-heradsvatna",
+    "title": "Ráðast ætti í Skatastaðavirkjun ofan Héraðsvatna",
+    "description": null
+  },
+  "121": {
+    "id": "121",
+    "type": "PROPOSITION",
+    "slug": "byggja-tharf-nytt-menningarhus-a-saudarkroki-a-naesta-kjortimabili",
+    "title": "Byggja þarf nýtt menningarhús á Sauðárkróki á næsta kjörtímabili.",
+    "description": null
+  },
+  "122": {
+    "id": "122",
+    "type": "PROPOSITION",
+    "slug": "sameina-aetti-haskolann-a-holum-og-haskola-islands",
+    "title": "Sameina ætti Háskólann á Hólum og Háskóla Íslands",
+    "description": null
+  },
+  "205": {
+    "id": "205",
+    "type": "PROPOSITION",
+    "slug": "sveitarfelagid-a-ad-greida-gotu-fiskeldis-a-arskogssandi",
+    "title": "Sveitarfélagið á að greiða götu fiskeldis á Árskógssandi.",
+    "description": null
+  },
+  "207": {
+    "id": "207",
+    "type": "PROPOSITION",
+    "slug": "sveitarfelagid-a-ad-leggja-fe-i-ad-efla-ferdathjonustu-i-dalvikurbyggd",
+    "title": "Sveitarfélagið á að leggja fé í að efla ferðaþjónustu í Dalvíkurbyggð.",
+    "description": null
+  },
+  "208": {
+    "id": "208",
+    "type": "PROPOSITION",
+    "slug": "sveitarstjorn-tharf-ad-stemma-stigu-vid-ovarlegri-notkun-ungmenna-a-rafhlaupahjolum-a-dalvik",
+    "title": "Sveitarstjórn þarf að stemma stigu við óvarlegri notkun ungmenna á rafhlaupahjólum á Dalvík.",
+    "description": null
+  },
+  "188": {
+    "id": "188",
+    "type": "PROPOSITION",
+    "slug": "leyfa-a-uppbyggingu-hotela-i-orsmork",
+    "title": "Leyfa á uppbyggingu hótela í Þórsmörk.",
+    "description": null
+  },
+  "190": {
+    "id": "190",
+    "type": "PROPOSITION",
+    "slug": "sveitarstjorn-aetti-ad-berjast-fyrir-thvi-ad-heimamenn-thurfi-ekki-ad-greida-fyrir-afnot-af-bilastaedum-a-ferdamannastodum",
+    "title": "Sveitarstjórn ætti að berjast fyrir því að heimamenn þurfi ekki að greiða fyrir afnot af bílastæðum á ferðamannastöðum.",
+    "description": null
+  },
+  "124": {
+    "id": "124",
+    "type": "PROPOSITION",
+    "slug": "sameining-sandgerdis-og-gards-hefur-reynst-ibuum-vel",
+    "title": "Sameining Sandgerðis og Garðs hefur reynst íbúum vel.",
+    "description": null
+  },
+  "125": {
+    "id": "125",
+    "type": "PROPOSITION",
+    "slug": "ad-er-ekkert-athugavert-vid-thad-ad-sveitarfelagid-se-hluthafi-i-veitingahusi-i-gardinum",
+    "title": "Það er ekkert athugavert við það að sveitarfélagið sé hluthafi í veitingahúsi í Garðinum.",
+    "description": null
+  },
+  "126": {
+    "id": "126",
+    "type": "PROPOSITION",
+    "slug": "sveitarfelagid-aetti-ad-koma-i-veg-fyrir-uppbyggingu-fimmtan-smahysa-a-jordinni-gauksstodum-i-gardi",
+    "title": "Sveitarfélagið ætti að koma í veg fyrir uppbyggingu fimmtán smáhýsa á jörðinni Gauksstöðum í Garði.",
+    "description": null
+  },
+  "111": {
+    "id": "111",
+    "type": "PROPOSITION",
+    "slug": "kroftum-sveitarstjornarmanna-er-betur-varid-i-ad-berjast-fyrir-urbotum-a-ferjusiglingum-en-ad-tala-fyrir-ad-grafin-verdi-gong-milli-lands-og-eyja",
+    "title": "Kröftum sveitarstjórnarmanna er betur varið í að berjast fyrir úrbótum á ferjusiglingum en að tala fyrir að grafin verði göng milli lands og Eyja.",
+    "description": null
+  },
+  "112": {
+    "id": "112",
+    "type": "PROPOSITION",
+    "slug": "vidhaldi-skolabygginga-i-vestmannaeyjabae-hefur-verid-sinnt-med-fullnaegjandi-haetti",
+    "title": "Viðhaldi skólabygginga í Vestmannaeyjabæ hefur verið sinnt með fullnægjandi hætti",
+    "description": null
+  },
+  "113": {
+    "id": "113",
+    "type": "PROPOSITION",
+    "slug": "ad-var-rett-ad-radast-i-uppbyggingu-fiskeldis-i-vidlagafjoru",
+    "title": "Það var rétt að ráðast í uppbyggingu fiskeldis í Viðlagafjöru.",
+    "description": null
+  },
+  "114": {
+    "id": "114",
+    "type": "PROPOSITION",
+    "slug": "byggja-aetti-midbaejarsvaedi-a-throunarreit-nordaustast-i-baenum-thar-sem-nu-er-hraun",
+    "title": "Byggja ætti miðbæjarsvæði á þróunarreit norðaustast í bænum þar sem nú er hraun.",
+    "description": null
+  },
+  "116": {
+    "id": "116",
+    "type": "PROPOSITION",
+    "slug": "200-milljonum-er-vel-varid-i-gerd-minnisvarda-um-eldgosid-i-heimaey-eftir-olaf-eliasson",
+    "title": "200 milljónum er vel varið í gerð minnisvarða um eldgosið í Heimaey eftir Ólaf Elíasson.",
+    "description": null
+  },
+  "222": {
+    "id": "222",
+    "type": "PROPOSITION",
+    "slug": "stefna-aetti-ad-sameiningu-eyjafjardarsveitar-og-akureyrarbaejar",
+    "title": "Stefna ætti að sameiningu Eyjafjarðarsveitar og Akureyrarbæjar.",
+    "description": null
+  },
+  "224": {
+    "id": "224",
+    "type": "PROPOSITION",
+    "slug": "uppbygging-husnaedis-a-hrafnagili-hefur-verid-of-hrod",
+    "title": "Uppbygging húsnæðis á Hrafnagili hefur verið of hröð.",
+    "description": null
+  },
+  "69": {
+    "id": "69",
+    "type": "PROPOSITION",
+    "slug": "sveitarfelagid-a-ad-taka-thatt-i-svokolludum-samgongusattmala-hofudborgarsvaedisins",
+    "title": "Sveitarfélagið á að taka þátt í svokölluðum samgöngusáttmála höfuðborgarsvæðisins.",
+    "description": null
+  },
+  "70": {
+    "id": "70",
+    "type": "PROPOSITION",
+    "slug": "ljuka-a-vid-borgarlinu-i-theirri-mynd-sem-nuverandi-aform-gera-rad-fyrir",
+    "title": "Ljúka á við Borgarlínu í þeirri mynd sem núverandi áform gera ráð fyrir.",
+    "description": null
+  },
+  "72": {
+    "id": "72",
+    "type": "PROPOSITION",
+    "slug": "faekka-a-akreinum-fyrir-almenna-bilaumferd-til-ad-bua-til-plass-fyrir-serakreinar-fyrir-straeto",
+    "title": "Fækka á akreinum fyrir almenna bílaumferð til að búa til pláss fyrir sérakreinar fyrir strætó.",
+    "description": null
+  },
+  "77": {
+    "id": "77",
+    "type": "PROPOSITION",
+    "slug": "ad-minnsta-kosti-eitt-bilastaedi-a-ad-fylgja-hverri-ibud-i-sveitarfelaginu",
+    "title": "Að minnsta kosti eitt bílastæði á að fylgja hverri íbúð í sveitarfélaginu.",
+    "description": null
+  },
+  "78": {
+    "id": "78",
+    "type": "PROPOSITION",
+    "slug": "ad-eru-of-margir-einkabilar-i-umferdinni",
+    "title": "Það eru of margir einkabílar í umferðinni.",
+    "description": null
+  },
+  "79": {
+    "id": "79",
+    "type": "PROPOSITION",
+    "slug": "ad-er-rett-ad-takmarka-adgengi-almennings-ad-utivistarsvaedinu-i-heidmork-i-thagu-vatnsverndar",
+    "title": "Það er rétt að takmarka aðgengi almennings að útivistarsvæðinu í Heiðmörk í þágu vatnsverndar.",
+    "description": null
+  },
+  "28": {
+    "id": "28",
+    "type": "PROPOSITION",
+    "slug": "hverfi-reykjavikur-njota-jafnraedis-thegar-kemur-ad-thjonustu-sem-sveitarfelagid-veitir",
+    "title": "Hverfi Reykjavíkur njóta jafnræðis þegar kemur að þjónustu sem sveitarfélagið veitir.",
+    "description": null
+  },
+  "29": {
+    "id": "29",
+    "type": "PROPOSITION",
+    "slug": "festa-a-svokallada-reykjavikurleid-i-leikskolamalum-i-sessi-til-framtidar",
+    "title": "Festa á svokallaða Reykjavíkurleið í leikskólamálum í sessi til framtíðar.",
+    "description": null
+  },
+  "30": {
+    "id": "30",
+    "type": "PROPOSITION",
+    "slug": "koma-tharf-i-veg-fyrir-fyrirhugadar-breytingar-a-skipulagi-sudurlandsbrautar",
+    "title": "Koma þarf í veg fyrir fyrirhugaðar breytingar á skipulagi Suðurlandsbrautar.",
+    "description": null
+  },
+  "31": {
+    "id": "31",
+    "type": "PROPOSITION",
+    "slug": "haetta-a-vid-fyrirhugud-miklubrautargong",
+    "title": "Hætta á við fyrirhuguð Miklubrautargöng.",
+    "description": null
+  },
+  "32": {
+    "id": "32",
+    "type": "PROPOSITION",
+    "slug": "einkavaeda-aetti-orkuveitu-reykjavikur",
+    "title": "Einkavæða ætti Orkuveitu Reykjavíkur",
+    "description": null
+  },
+  "33": {
+    "id": "33",
+    "type": "PROPOSITION",
+    "slug": "reykjavikurflugvollur-a-ad-vera-i-vatnsmyri-til-frambudar",
+    "title": "Reykjavíkurflugvöllur á að vera í Vatnsmýri til frambúðar.",
+    "description": null
+  },
+  "211": {
+    "id": "211",
+    "type": "PROPOSITION",
+    "slug": "ad-var-naudsynlegt-ad-leggja-sudurnesjalinu-2-i-lofti-i-gegnum-sveitarfelagid-til-ad-flyta-framkvaemdum-vid-hana",
+    "title": "Það var nauðsynlegt að leggja Suðurnesjalínu 2 í lofti í gegnum sveitarfélagið til að flýta framkvæmdum við hana.",
+    "description": null
+  },
+  "213": {
+    "id": "213",
+    "type": "PROPOSITION",
+    "slug": "vogar-aettu-ad-sameinast-reykjanesbae",
+    "title": "Vogar ættu að sameinast Reykjanesbæ.",
+    "description": null
+  },
+  "214": {
+    "id": "214",
+    "type": "PROPOSITION",
+    "slug": "sveitarstjorn-aetti-ad-beita-ser-fyrir-thvi-ad-komid-verid-upp-landeldi-a-keilisnesi",
+    "title": "Sveitarstjórn ætti að beita sér fyrir því að komið verið upp landeldi á Keilisnesi.",
+    "description": null
+  },
+  "215": {
+    "id": "215",
+    "type": "PROPOSITION",
+    "slug": "ibuum-i-vogum-hefur-fjolgad-of-hratt",
+    "title": "Íbúum í Vogum hefur fjölgað of hratt.",
+    "description": null
+  },
+  "178": {
+    "id": "178",
+    "type": "PROPOSITION",
+    "slug": "stefna-aetti-ad-thvi-ad-koma-upp-thettbyliskjarna-vid-ingborg-og-hafa-midstod-thjonustu-sveitarfelagsins-thar",
+    "title": "Stefna ætti að því að koma upp þéttbýliskjarna við Þingborg og hafa miðstöð þjónustu sveitarfélagsins þar.",
+    "description": null
+  },
+  "179": {
+    "id": "179",
+    "type": "PROPOSITION",
+    "slug": "sveitarstjorn-aetti-beita-ser-fyrir-thvi-ad-kjotmjolsverksmidjan-fari-ur-sveitarfelaginu",
+    "title": "Sveitarstjórn ætti beita sér fyrir því að kjötmjölsverksmiðjan fari úr sveitarfélaginu.",
+    "description": null
+  },
+  "216": {
+    "id": "216",
+    "type": "PROPOSITION",
+    "slug": "baeta-tharf-vid-odrum-grunnskola-i-sveitarfelaginu-til-ad-born-thurfi-ekki-ad-fara-um-jafnlangan-veg-i-skola",
+    "title": "Bæta þarf við öðrum grunnskóla í sveitarfélaginu til að börn þurfi ekki að fara um jafnlangan veg í skóla.",
+    "description": null
+  },
+  "217": {
+    "id": "217",
+    "type": "PROPOSITION",
+    "slug": "leggja-aetti-meiri-aherslu-a-uppbyggingu-i-sveitarfelaginu-vidar-en-a-hvammstanga",
+    "title": "Leggja ætti meiri áherslu á uppbyggingu í sveitarfélaginu víðar en á Hvammstanga.",
+    "description": null
+  },
+  "219": {
+    "id": "219",
+    "type": "PROPOSITION",
+    "slug": "sveitarfelagid-hefur-stadid-sig-vel-i-ad-thrysta-a-um-vegbaetur-a-vatnsnesi",
+    "title": "Sveitarfélagið hefur staðið sig vel í að þrýsta á um vegbætur á Vatnsnesi.",
+    "description": null
+  },
+  "230": {
+    "id": "230",
+    "type": "PROPOSITION",
+    "slug": "holtavorduheidarlina-a-ad-liggja-i-gegn-um-blonduos",
+    "title": "Holtavörðuheiðarlína á að liggja í gegn um Blönduós.",
+    "description": null
+  },
+  "231": {
+    "id": "231",
+    "type": "PROPOSITION",
+    "slug": "hitaveita-skagastrandar-og-blonduoss-a-ad-vera-i-eigu-sveitarfelaganna",
+    "title": "Hitaveita Skagastrandar og Blönduóss á að vera í eigu sveitarfélaganna.",
+    "description": null
+  },
+  "232": {
+    "id": "232",
+    "type": "PROPOSITION",
+    "slug": "leyfa-aetti-efnistoku-ur-arfarvegum-i-sveitarfelaginu-til-ad-flyta-fyrir-framkvaemdum-vid-blondulinu-3",
+    "title": "Leyfa ætti efnistöku úr árfarvegum í sveitarfélaginu til að flýta fyrir framkvæmdum við Blöndulínu 3.",
+    "description": null
+  },
+  "143": {
+    "id": "143",
+    "type": "PROPOSITION",
+    "slug": "hitaveita-blonduoss-og-skagastrandar-a-ad-vera-i-eigu-sveitarfelaganna",
+    "title": "Hitaveita Blönduóss og Skagastrandar á að vera í eigu sveitarfélaganna.",
+    "description": null
+  },
+  "146": {
+    "id": "146",
+    "type": "PROPOSITION",
+    "slug": "sameina-aetti-skagastrond-og-hunabyggd",
+    "title": "Sameina ætti Skagaströnd og Húnabyggð.",
+    "description": null
+  },
+  "233": {
+    "id": "233",
+    "type": "PROPOSITION",
+    "slug": "frekar-aetti-ad-leitast-vid-ad-vardveita-natturuna-i-breidafirdi-en-ad-heimila-thar-idnad",
+    "title": "Frekar ætti að leitast við að varðveita náttúruna í Breiðafirði en að heimila þar iðnað.",
+    "description": null
+  },
+  "187": {
+    "id": "187",
+    "type": "PROPOSITION",
+    "slug": "fyrirhugud-uppbygging-a-midbaejarreit-grundarfjardar-er-skynsamleg",
+    "title": "Fyrirhuguð uppbygging á miðbæjarreit Grundarfjarðar er skynsamleg.",
+    "description": null
+  },
+  "189": {
+    "id": "189",
+    "type": "PROPOSITION",
+    "slug": "fe-er-vel-varid-i-framkvaemdir-vid-utsynispall-vid-kirkjufellsfoss",
+    "title": "Fé er vel varið í framkvæmdir við útsýnispall við Kirkjufellsfoss.",
+    "description": null
+  },
+  "191": {
+    "id": "191",
+    "type": "PROPOSITION",
+    "slug": "sveitarstjorn-a-ad-heimila-uppbyggingu-hotels-vid-larvadal-i-landi-skerdingsstada",
+    "title": "Sveitarstjórn á að heimila uppbyggingu hótels við Lárvaðal í landi Skerðingsstaða.",
+    "description": null
+  },
+  "88": {
+    "id": "88",
+    "type": "PROPOSITION",
+    "slug": "stefna-aetti-ad-sameiningu-akraneskaupstadar-og-hvalfjardarsveitar",
+    "title": "Stefna ætti að sameiningu Akraneskaupstaðar og Hvalfjarðarsveitar.",
+    "description": null
+  },
+  "89": {
+    "id": "89",
+    "type": "PROPOSITION",
+    "slug": "kjornir-fulltruar-a-akranesi-gerdu-allt-sem-their-gatu-til-ad-halda-fyrirtaekjum-i-baenum-sem-akvadu-ad-fara-annad",
+    "title": "Kjörnir fulltrúar á Akranesi gerðu allt sem þeir gátu til að halda fyrirtækjum í bænum sem ákváðu að fara annað.",
+    "description": null
+  },
+  "90": {
+    "id": "90",
+    "type": "PROPOSITION",
+    "slug": "sveitarstjornin-a-akranesi-aetti-ad-gera-thad-ad-markmidi-sinu-ad-fleiri-ibuar-saeki-atvinnu-innan-sveitarfelagsins",
+    "title": "Sveitarstjórnin á Akranesi ætti að gera það að markmiði sínu að fleiri íbúar sæki atvinnu innan sveitarfélagsins.",
+    "description": null
+  },
+  "91": {
+    "id": "91",
+    "type": "PROPOSITION",
+    "slug": "snua-aetti-akranesvelli-og-byggja-hotel-badlon-og-heilsulind-a-jadarsbakkasvaedinu",
+    "title": "Snúa ætti Akranesvelli og byggja hótel, baðlón og heilsulind á Jaðarsbakkasvæðinu.",
+    "description": null
+  },
+  "172": {
+    "id": "172",
+    "type": "PROPOSITION",
+    "slug": "god-fjarhagsstada-sveitarfelagsins-aetti-ad-leida-til-thess-ad-fasteignagjold-verdi-laekkud",
+    "title": "Góð fjárhagsstaða sveitarfélagsins ætti að leiða til þess að fasteignagjöld verði lækkuð.",
+    "description": null
+  },
+  "173": {
+    "id": "173",
+    "type": "PROPOSITION",
+    "slug": "ad-forgangsmal-ad-fjarfesta-i-aukinni-skolphreinsun-a-naesta-kjortimabili",
+    "title": "Það forgangsmál að fjárfesta í aukinni skólphreinsun á næsta kjörtímabili.",
+    "description": null
+  },
+  "174": {
+    "id": "174",
+    "type": "PROPOSITION",
+    "slug": "sveitarstjorn-ber-ad-tryggja-ad-verkefni-vid-uppbyggingu-vid-jokulsarlon-falli-heimamonnum-i-skaut",
+    "title": "Sveitarstjórn ber að tryggja að verkefni við uppbyggingu við Jökulsárlón falli heimamönnum í skaut.",
+    "description": null
+  },
+  "175": {
+    "id": "175",
+    "type": "PROPOSITION",
+    "slug": "radast-a-i-gerd-badlons-vid-hoffellsjokul",
+    "title": "Ráðast á í gerð baðlóns við Hoffellsjökul.",
+    "description": null
+  },
+  "34": {
+    "id": "34",
+    "type": "PROPOSITION",
+    "slug": "halda-aetti-obreyttri-stefnu-i-leikskolamalum-i-kopavogi-kopavogsmodelid",
+    "title": "Halda ætti óbreyttri stefnu í leikskólamálum í Kópavogi (Kópavogsmódelið).",
+    "description": null
+  },
+  "36": {
+    "id": "36",
+    "type": "PROPOSITION",
+    "slug": "hugmyndir-um-uppbyggingu-i-hamraborg-eru-vel-heppnadar",
+    "title": "Hugmyndir um uppbyggingu í Hamraborg eru vel heppnaðar.",
+    "description": null
+  },
+  "37": {
+    "id": "37",
+    "type": "PROPOSITION",
+    "slug": "spjaldtolvuvaeding-i-grunnskolum-i-kopavogi-hefur-heppnast-farsaellega",
+    "title": "Spjaldtölvuvæðing í grunnskólum í Kópavogi hefur heppnast farsællega.",
+    "description": null
+  },
+  "39": {
+    "id": "39",
+    "type": "PROPOSITION",
+    "slug": "reisa-aetti-svokalladan-lifsgaedakjarna-i-landi-gunnarsholma-sem-er-utan-vaxtarmarka-kopavogs-og-innan-vatnsverndarsvaedis",
+    "title": "Reisa ætti svokallaðan Lífsgæðakjarna í landi Gunnarshólma, sem er utan vaxtarmarka Kópavogs og innan vatnsverndarsvæðis.",
+    "description": null
+  },
+  "65": {
+    "id": "65",
+    "type": "PROPOSITION",
+    "slug": "ad-er-forgangsatridi-a-naesta-kjortimabili-ad-hanna-og-reisa-nyjan-midbae-i-gardabae",
+    "title": "Það er forgangsatriði á næsta kjörtímabili að hanna og reisa nýjan miðbæ í Garðabæ.",
+    "description": null
+  },
+  "66": {
+    "id": "66",
+    "type": "PROPOSITION",
+    "slug": "fjolga-tharf-akstursleidum-inn-og-ut-ur-urridaholti",
+    "title": "Fjölga þarf akstursleiðum inn og út úr Urriðaholti.",
+    "description": null
+  },
+  "67": {
+    "id": "67",
+    "type": "PROPOSITION",
+    "slug": "fe-sveitarfelagsins-var-vel-varid-i-knatthusid-midgard",
+    "title": "Fé sveitarfélagsins var vel varið í knatthúsið Miðgarð.",
+    "description": null
+  },
+  "68": {
+    "id": "68",
+    "type": "PROPOSITION",
+    "slug": "halda-a-leikskolum-baejarins-opnum-i-kringum-storhatidir-nema-a-raudum-dogum",
+    "title": "Halda á leikskólum bæjarins opnum í kringum stórhátíðir, nema á rauðum dögum.",
+    "description": null
+  },
+  "41": {
+    "id": "41",
+    "type": "PROPOSITION",
+    "slug": "ad-er-haegt-ad-byggja-thettar-i-hafnarfirdi-og-thvi-onaudsynlegt-ad-faera-ut-vaxtarmork-hofudborgarsvaedisins-ad-sinni",
+    "title": "Það er hægt að byggja þéttar í Hafnarfirði og því ónauðsynlegt að færa út vaxtarmörk höfuðborgarsvæðisins að sinni.",
+    "description": null
+  },
+  "44": {
+    "id": "44",
+    "type": "PROPOSITION",
+    "slug": "ad-er-forgangsatridi-ad-sveitarstjorn-beiti-ser-fyrir-jardgongum-undir-setbergshamar",
+    "title": "Það er forgangsatriði að sveitarstjórn beiti sér fyrir jarðgöngum undir Setbergshamar.",
+    "description": null
+  },
+  "46": {
+    "id": "46",
+    "type": "PROPOSITION",
+    "slug": "menningarstarf-i-hafnarfirdi-hefur-lidid-fyrir-aherslu-a-ithrottir-og-uppbyggingu-ithrottamannavirkja",
+    "title": "Menningarstarf í Hafnarfirði hefur liðið fyrir áherslu á íþróttir og uppbyggingu íþróttamannavirkja.",
+    "description": null
+  },
+  "48": {
+    "id": "48",
+    "type": "PROPOSITION",
+    "slug": "sveitarstjorn-hefdi-att-ad-tryggja-ad-fyrirtaekid-carbfix-reisti-kolefnisforgunarstodina-coda-terminal-i-straumsvik",
+    "title": "Sveitarstjórn hefði átt að tryggja að fyrirtækið Carbfix reisti kolefnisförgunarstöðina Coda Terminal í Straumsvík.",
+    "description": null
+  },
+  "80": {
+    "id": "80",
+    "type": "PROPOSITION",
+    "slug": "almenningssamgongu-milli-baejarhluta-i-mosfellsbae-eru-fullnaegjandi",
+    "title": "Almenningssamgöngu milli bæjarhluta í Mosfellsbæ eru fullnægjandi.",
+    "description": null
+  },
+  "81": {
+    "id": "81",
+    "type": "PROPOSITION",
+    "slug": "endurskoda-tharf-aform-um-uppbyggingu-a-blikastadalandi",
+    "title": "Endurskoða þarf áform um uppbyggingu á Blikastaðalandi.",
+    "description": null
+  },
+  "82": {
+    "id": "82",
+    "type": "PROPOSITION",
+    "slug": "ad-er-mikilvaegt-ad-vardveita-sveitabrag-i-mosfellsbae-thott-hann-se-hluti-af-hofudborgarsvaedinu",
+    "title": "Það er mikilvægt að varðveita sveitabrag í Mosfellsbæ þótt hann sé hluti af höfuðborgarsvæðinu.",
+    "description": null
+  },
+  "56": {
+    "id": "56",
+    "type": "PROPOSITION",
+    "slug": "ad-er-skynsamlegt-ad-thetta-byggd-i-rotgronari-hverfjum-reykjanesbaejar",
+    "title": "Það er skynsamlegt að þétta byggð í rótgrónari hverfjum Reykjanesbæjar.",
+    "description": null
+  },
+  "58": {
+    "id": "58",
+    "type": "PROPOSITION",
+    "slug": "reykjanesbaer-sinnir-ibuum-a-asbru-vel",
+    "title": "Reykjanesbær sinnir íbúum á Ásbrú vel.",
+    "description": null
+  },
+  "61": {
+    "id": "61",
+    "type": "PROPOSITION",
+    "slug": "reisa-a-brottvisunarbudir-i-sveitarfelaginu-fyrir-thau-sem-bida-thess-ad-vera-visad-ur-landi",
+    "title": "Reisa á brottvísunarbúðir í sveitarfélaginu fyrir þau sem bíða þess að vera vísað úr landi.",
+    "description": null
+  },
+  "62": {
+    "id": "62",
+    "type": "PROPOSITION",
+    "slug": "ad-var-god-akvordun-ad-faera-bokasafn-baejarins-inn-i-hljomaholl",
+    "title": "Það var góð ákvörðun að færa bókasafn bæjarins inn í Hljómahöll.",
+    "description": null
+  },
+  "63": {
+    "id": "63",
+    "type": "PROPOSITION",
+    "slug": "reykjanesbae-ber-ad-utvega-ungmennum-ad-18-ara-aldri-sumarvinnu",
+    "title": "Reykjanesbæ ber að útvega ungmennum að 18 ára aldri sumarvinnu.",
+    "description": null
+  },
+  "182": {
+    "id": "182",
+    "type": "PROPOSITION",
+    "slug": "grindavik-er-orugg",
+    "title": "Grindavík er örugg.",
+    "description": null
+  },
+  "183": {
+    "id": "183",
+    "type": "PROPOSITION",
+    "slug": "almannavarnir-hafa-haft-of-mikid-ad-segja-um-busetu-og-atvinnu-i-sveitarfelaginu",
+    "title": "Almannavarnir hafa haft of mikið að segja um búsetu og atvinnu í sveitarfélaginu.",
+    "description": null
+  },
+  "185": {
+    "id": "185",
+    "type": "PROPOSITION",
+    "slug": "ader-skynsamlegt-ad-opna-grunn-og-leikskola-i-grindavik-a-ny-a-naesta-skolaari",
+    "title": "Þaðer skynsamlegt að opna grunn- og leikskóla í Grindavík á ný á næsta skólaári.",
+    "description": null
+  },
+  "186": {
+    "id": "186",
+    "type": "PROPOSITION",
+    "slug": "grindavikurbaer-getur-aftur-ordid-jafn-fjolmennur-og-hann-var-fyrir-rymingu",
+    "title": "Grindavíkurbær getur aftur orðið jafn fjölmennur og hann var fyrir rýmingu.",
+    "description": null
+  },
+  "148": {
+    "id": "148",
+    "type": "PROPOSITION",
+    "slug": "ad-voru-mistok-hja-sveitarfelaginu-ad-thiggja-ad-gjof-hus-sem-adur-voru-i-eigu-fisk-seafood",
+    "title": "Það voru mistök hjá sveitarfélaginu að þiggja að gjöf hús sem áður voru í eigu FISK Seafood.",
+    "description": null
+  },
+  "151": {
+    "id": "151",
+    "type": "PROPOSITION",
+    "slug": "hafnarframkvaemdir-a-skagastrond-hafa-gengid-sem-skyldi",
+    "title": "Hafnarframkvæmdir á Skagaströnd hafa gengið sem skyldi.",
+    "description": null
+  },
+  "153": {
+    "id": "153",
+    "type": "PROPOSITION",
+    "slug": "sveitarfelagid-brast-rett-vid-thvi-thegar-starfsemi-stodvadist-hja-pcc-a-bakka",
+    "title": "Sveitarfélagið brást rétt við því þegar starfsemi stöðvaðist hjá PCC á Bakka.",
+    "description": null
+  },
+  "155": {
+    "id": "155",
+    "type": "PROPOSITION",
+    "slug": "hefja-aetti-aftur-grunnskolahald-a-raufarhofn-a-komandi-kjortimabili",
+    "title": "Hefja ætti aftur grunnskólahald á Raufarhöfn á komandi kjörtímabili.",
+    "description": null
+  },
+  "157": {
+    "id": "157",
+    "type": "PROPOSITION",
+    "slug": "sveitarfelagid-a-ad-beita-ser-fyrir-thvi-vindorkuver-risi-a-holaheidi",
+    "title": "Sveitarfélagið á að beita sér fyrir því vindorkuver rísi á Hólaheiði.",
+    "description": null
+  },
+  "158": {
+    "id": "158",
+    "type": "PROPOSITION",
+    "slug": "ferdamenn-i-sveitarfelaginu-a-sumrin-eru-ordnir-of-margir",
+    "title": "Ferðamenn í sveitarfélaginu á sumrin eru orðnir of margir.",
+    "description": null
+  },
+  "98": {
+    "id": "98",
+    "type": "PROPOSITION",
+    "slug": "skera-a-nidur-i-stjornsyslu-fjardabyggdar-til-ad-baeta-fjarhagsstodu-sveitarfelagsins",
+    "title": "Skera á niður í stjórnsýslu Fjarðabyggðar til að bæta fjárhagsstöðu sveitarfélagsins.",
+    "description": null
+  },
+  "99": {
+    "id": "99",
+    "type": "PROPOSITION",
+    "slug": "breyting-a-gjaldskra-leikskola-i-sveitarfelaginu-hefur-heppnast-vel",
+    "title": "Breyting á gjaldskrá leikskóla í sveitarfélaginu hefur heppnast vel.",
+    "description": null
+  },
+  "101": {
+    "id": "101",
+    "type": "PROPOSITION",
+    "slug": "ibuar-allra-byggdakjarna-sitja-vid-sama-bord-thegar-kemur-ad-thjonustu-sveitarfelagsins",
+    "title": "Íbúar allra byggðakjarna sitja við sama borð þegar kemur að þjónustu sveitarfélagsins.",
+    "description": null
+  },
+  "102": {
+    "id": "102",
+    "type": "PROPOSITION",
+    "slug": "ad-er-mikilvaegara-ad-tengja-nordfjord-og-seydisfjord-saman-med-gongum-en-seydisfjord-og-herad",
+    "title": "Það er mikilvægara að tengja Norðfjörð og Seyðisfjörð saman með göngum en Seyðisfjörð og Hérað.",
+    "description": null
+  },
+  "83": {
+    "id": "83",
+    "type": "PROPOSITION",
+    "slug": "sveitarfelagid-hefur-staekkad-hradar-en-fjarhagur-leyfdi",
+    "title": "Sveitarfélagið hefur stækkað hraðar en fjárhagur leyfði.",
+    "description": null
+  },
+  "84": {
+    "id": "84",
+    "type": "PROPOSITION",
+    "slug": "of-langt-hefur-verid-gengid-i-ad-skerda-thjonustu-vid-ibua-til-ad-maeta-fjarhagsvanda-sveitarfelagsins",
+    "title": "Of langt hefur verið gengið í að skerða þjónustu við íbúa til að mæta fjárhagsvanda sveitarfélagsins.",
+    "description": null
+  },
+  "85": {
+    "id": "85",
+    "type": "PROPOSITION",
+    "slug": "leggja-aetti-aukna-aherslu-a-uppbyggingu-a-eyrarbakka-og-stokkseyri-a-kostnad-uppbyggingar-a-selfossi",
+    "title": "Leggja ætti aukna áherslu á uppbyggingu á Eyrarbakka og Stokkseyri á kostnað uppbyggingar á Selfossi.",
+    "description": null
+  },
+  "86": {
+    "id": "86",
+    "type": "PROPOSITION",
+    "slug": "sveitarfelagid-aetti-ad-leggja-fe-i-ad-efla-almenningssamgongur-innan-sveitarfelagsins",
+    "title": "Sveitarfélagið ætti að leggja fé í að efla almenningssamgöngur innan sveitarfélagsins.",
+    "description": null
+  },
+  "87": {
+    "id": "87",
+    "type": "PROPOSITION",
+    "slug": "halda-aetti-afram-heimgreidslum-til-foreldra-i-arborg-ef-bornin-saekja-ekki-leikskola",
+    "title": "Halda ætti áfram heimgreiðslum til foreldra í Árborg ef börnin sækja ekki leikskóla.",
+    "description": null
+  },
+  "147": {
+    "id": "147",
+    "type": "PROPOSITION",
+    "slug": "ad-er-forgangsmal-ad-greida-nidur-skuldir-hveragerdisbaejar-tho-ad-thad-kunni-ad-koma-nidur-a-thjonustu",
+    "title": "Það er forgangsmál að greiða niður skuldir Hveragerðisbæjar, þó að það kunni að koma niður á þjónustu.",
+    "description": null
+  },
+  "149": {
+    "id": "149",
+    "type": "PROPOSITION",
+    "slug": "aform-um-uppbyggingu-ithrottamannvirkja-i-hveragerdisbae-eru-vel-heppnud",
+    "title": "Áform um uppbyggingu íþróttamannvirkja í Hveragerðisbæ eru vel heppnuð.",
+    "description": null
+  },
+  "150": {
+    "id": "150",
+    "type": "PROPOSITION",
+    "slug": "vel-hefur-tekist-til-i-husnaedismalum-leikskola-i-baenum",
+    "title": "Vel hefur tekist til í húsnæðismálum leikskóla í bænum.",
+    "description": null
+  },
+  "164": {
+    "id": "164",
+    "type": "PROPOSITION",
+    "slug": "sameina-aetti-olfus-og-hveragerdi",
+    "title": "Sameina ætti Ölfus og Hveragerði.",
+    "description": null
+  },
+  "140": {
+    "id": "140",
+    "type": "PROPOSITION",
+    "slug": "byggdakvota-er-dreift-milli-byggdakjarna-i-sveitarfelaginu-a-rettlatan-hatt",
+    "title": "Byggðakvóta er dreift milli byggðakjarna í sveitarfélaginu á réttlátan hátt.",
+    "description": null
+  },
+  "141": {
+    "id": "141",
+    "type": "PROPOSITION",
+    "slug": "koma-aetti-a-heimastjornum-i-byggdakjornum-innan-isafjardarbaejar",
+    "title": "Koma ætti á heimastjórnum í byggðakjörnum innan Ísafjarðarbæjar.",
+    "description": null
+  },
+  "142": {
+    "id": "142",
+    "type": "PROPOSITION",
+    "slug": "stefna-aetti-ad-uppbyggingu-ibuabyggdar-a-landfyllingu-nordan-skutulsfjardareyrar-i-isafjardarbae",
+    "title": "Stefna ætti að uppbyggingu íbúabyggðar á landfyllingu norðan Skutulsfjarðareyrar í Ísafjarðarbæ.",
+    "description": null
+  },
+  "144": {
+    "id": "144",
+    "type": "PROPOSITION",
+    "slug": "sveitarstjorn-a-ad-koma-i-veg-fyrir-uppbyggingu-sjobada-a-hvitasandi-i-onundarfirdi",
+    "title": "Sveitarstjórn á að koma í veg fyrir uppbyggingu sjóbaða á Hvítasandi í Önundarfirði.",
+    "description": null
+  },
+  "145": {
+    "id": "145",
+    "type": "PROPOSITION",
+    "slug": "fyrirhugud-framkvaemd-vid-eyrarklaf-a-isafirdi-er-vel-stadsett-og-mun-verda-til-heilla-fyrir-baejarfelagid",
+    "title": "Fyrirhuguð framkvæmd við Eyrarkláf á Ísafirði er vel staðsett og mun verða til heilla fyrir bæjarfélagið.",
+    "description": null
+  },
+  "132": {
+    "id": "132",
+    "type": "PROPOSITION",
+    "slug": "stjornsysla-sveitarfelagsins-er-ostarfhaeft-vegna-agreinings-og-thvi-er-forgangsatridi-ad-leita-sameiningar-vid-onnur-sveitarfelog",
+    "title": "Stjórnsýsla sveitarfélagsins er óstarfhæft vegna ágreinings og því er forgangsatriði að leita sameiningar við önnur sveitarfélög.",
+    "description": null
+  },
+  "133": {
+    "id": "133",
+    "type": "PROPOSITION",
+    "slug": "ekki-aetti-ad-veita-leyfi-fyrir-aaetladri-legu-hvalarlinu-um-sveitarfelagid",
+    "title": "Ekki ætti að veita leyfi fyrir áætlaðri legu Hvalárlínu um sveitarfélagið.",
+    "description": null
+  },
+  "135": {
+    "id": "135",
+    "type": "PROPOSITION",
+    "slug": "ad-er-mikilvaegara-ad-stydja-vid-thann-idnad-sem-fyrir-er-i-sveitarfelaginu-en-ad-lada-ad-nyja-atvinnustarfsemi",
+    "title": "Það er mikilvægara að styðja við þann iðnað sem fyrir er í sveitarfélaginu en að laða að nýja atvinnustarfsemi.",
+    "description": null
+  },
+  "136": {
+    "id": "136",
+    "type": "PROPOSITION",
+    "slug": "ad-var-rett-hja-sveitarfelaginu-ad-radast-i-ritun-byggdasogu-stranda",
+    "title": "Það var rétt hjá sveitarfélaginu að ráðast í ritun Byggðasögu Stranda.",
+    "description": null
+  },
+  "117": {
+    "id": "117",
+    "type": "PROPOSITION",
+    "slug": "sveitarstjorn-a-ad-gefa-ut-nytt-framkvaemdaleyfi-vegna-hvalarvirkjunar",
+    "title": "Sveitarstjórn á að gefa út nýtt framkvæmdaleyfi vegna Hvalárvirkjunar.",
+    "description": null
+  },
+  "119": {
+    "id": "119",
+    "type": "PROPOSITION",
+    "slug": "ad-er-edlilegt-ad-folk-sem-dvelur-bara-i-arneshreppi-yfir-sumartimann-sitji-i-sveitarstjorn",
+    "title": "Það er eðlilegt að fólk sem dvelur bara í Árneshreppi yfir sumartímann sitji í sveitarstjórn.",
+    "description": null
+  },
+  "123": {
+    "id": "123",
+    "type": "PROPOSITION",
+    "slug": "verdi-af-sameiningu-vid-kaldrananeshrepp-a-ad-koma-upp-heimastjornarfyrirkomulagi-i-sameinudu-sveitarfelagi",
+    "title": "Verði af sameiningu við Kaldrananeshrepp á að koma upp heimastjórnarfyrirkomulagi í sameinuðu sveitarfélagi.",
+    "description": null
+  },
+  "127": {
+    "id": "127",
+    "type": "PROPOSITION",
+    "slug": "horfa-aetti-serstaklega-til-sameiningar-vid-isafjardabae-eda-strandabyggd",
+    "title": "Horfa ætti sérstaklega til sameiningar við Ísafjarðabæ eða Strandabyggð.",
+    "description": null
+  },
+  "128": {
+    "id": "128",
+    "type": "PROPOSITION",
+    "slug": "rada-a-nyjan-sveitarstjora-i-sudavikurhreppi",
+    "title": "Ráða á nýjan sveitarstjóra í Súðavíkurhreppi.",
+    "description": null
+  },
+  "129": {
+    "id": "129",
+    "type": "PROPOSITION",
+    "slug": "stodva-aetti-aform-um-uppbyggingu-kalkthorungaverksmidju-i-sudavik",
+    "title": "Stöðva ætti áform um uppbyggingu Kalkþörungaverksmiðju í Súðavík.",
+    "description": null
+  },
+  "192": {
+    "id": "192",
+    "type": "PROPOSITION",
+    "slug": "frekar-hefdi-att-ad-radast-i-ny-mulagong-en-fljotagong",
+    "title": "Frekar hefði átt að ráðast í ný Múlagöng en Fljótagöng.",
+    "description": null
+  },
+  "194": {
+    "id": "194",
+    "type": "PROPOSITION",
+    "slug": "radast-a-i-storfellt-sjokviaeldi-i-siglufirdi-og-olafsfirdi",
+    "title": "Ráðast á í stórfellt sjókvíaeldi í Siglufirði og Ólafsfirði.",
+    "description": null
+  },
+  "196": {
+    "id": "196",
+    "type": "PROPOSITION",
+    "slug": "tryggja-aetti-ad-born-thurfi-ekki-ad-ferdast-milli-byggdakjarna-i-skola",
+    "title": "Tryggja ætti að börn þurfi ekki að ferðast milli byggðakjarna í skóla.",
+    "description": null
+  },
+  "197": {
+    "id": "197",
+    "type": "PROPOSITION",
+    "slug": "horgarsveit-aetti-ad-sameinast-akureyrarbae",
+    "title": "Hörgársveit ætti að sameinast Akureyrarbæ.",
+    "description": null
+  },
+  "199": {
+    "id": "199",
+    "type": "PROPOSITION",
+    "slug": "radast-aetti-i-uppbyggingu-a-idnadarsvaedi-a-dysnesi",
+    "title": "Ráðast ætti í uppbyggingu á iðnaðarsvæði á Dysnesi.",
+    "description": null
+  },
+  "201": {
+    "id": "201",
+    "type": "PROPOSITION",
+    "slug": "stodva-aetti-fyrir-fullt-og-allt-malartekju-ur-farvegi-horgar",
+    "title": "Stöðva ætti fyrir fullt og allt malartekju úr farvegi Hörgár.",
+    "description": null
+  },
+  "180": {
+    "id": "180",
+    "type": "PROPOSITION",
+    "slug": "natturan-i-hvalfirdi-aetti-ad-hafa-forgang-fram-yfir-aform-um-atvinnuuppbyggingu",
+    "title": "Náttúran í Hvalfirði ætti að hafa forgang fram yfir áform um atvinnuuppbyggingu.",
+    "description": null
+  },
+  "181": {
+    "id": "181",
+    "type": "PROPOSITION",
+    "slug": "ad-er-oradlegt-ad-halda-skepnur-og-bua-innan-gamla-thynningarsvaedisins-vid-grundartanga",
+    "title": "Það er óráðlegt að halda skepnur og búa innan gamla þynningarsvæðisins við Grundartanga.",
+    "description": null
+  },
+  "234": {
+    "id": "234",
+    "type": "PROPOSITION",
+    "slug": "ad-a-ad-vera-forgangsatridi-nyrrar-sveitarstjornar-ad-thrysta-a-stjornvold-ad-fella-ekki-nidur-skelbaetur",
+    "title": "Það á að vera forgangsatriði nýrrar sveitarstjórnar að þrýsta á stjórnvöld að fella ekki niður skelbætur.",
+    "description": null
+  },
+  "235": {
+    "id": "235",
+    "type": "PROPOSITION",
+    "slug": "fe-baejarins-vaeri-vel-varid-i-ad-reisa-yfirbyggdan-knattspyrnuvoll",
+    "title": "Fé bæjarins væri vel varið í að reisa yfirbyggðan knattspyrnuvöll.",
+    "description": null
+  },
+  "193": {
+    "id": "193",
+    "type": "PROPOSITION",
+    "slug": "sameina-aetti-hrunamannahrepp-og-blaskogabyggd",
+    "title": "Sameina ætti Hrunamannahrepp og Bláskógabyggð.",
+    "description": null
+  },
+  "195": {
+    "id": "195",
+    "type": "PROPOSITION",
+    "slug": "falla-aetti-fra-aformum-um-uppbyggingu-hotels-og-badlons-i-midbae-fluda",
+    "title": "Falla ætti frá áformum um uppbyggingu hótels og baðlóns í miðbæ Flúða.",
+    "description": null
+  },
+  "106": {
+    "id": "106",
+    "type": "PROPOSITION",
+    "slug": "skera-tharf-nidur-i-stjornsyslu-seltjarnarness-til-ad-ad-retta-af-fjarhag-baejarins",
+    "title": "Skera þarf niður í stjórnsýslu Seltjarnarness til að að rétta af fjárhag bæjarins.",
+    "description": null
+  },
+  "107": {
+    "id": "107",
+    "type": "PROPOSITION",
+    "slug": "leggja-aetti-frekari-aherslu-a-uppbyggingu-ibuda-fyrir-fyrstu-kaupendur-a-seltjarnarnesi",
+    "title": "Leggja ætti frekari áherslu á uppbyggingu íbúða fyrir fyrstu kaupendur á Seltjarnarnesi.",
+    "description": null
+  },
+  "108": {
+    "id": "108",
+    "type": "PROPOSITION",
+    "slug": "jonusta-vid-ungmenni-i-selinu-er-fullnaegjandi",
+    "title": "Þjónusta við ungmenni í Selinu er fullnægjandi.",
+    "description": null
+  },
+  "109": {
+    "id": "109",
+    "type": "PROPOSITION",
+    "slug": "ad-er-forgangsmal-ad-koma-felagsheimili-baejarins-i-lag-a-naesta-kjortimabili-thannig-ad-haegt-se-ad-opna-thad-a-ny",
+    "title": "Það er forgangsmál að koma félagsheimili bæjarins í lag á næsta kjörtímabili þannig að hægt sé að opna það á ný.",
+    "description": null
+  },
+  "225": {
+    "id": "225",
+    "type": "PROPOSITION",
+    "slug": "sveitarstjorn-aetti-ad-gefa-graent-ljos-ad-auka-laxeldi-i-vesturbyggd",
+    "title": "Sveitarstjórn ætti að gefa grænt ljós að auka laxeldi í Vesturbyggð.",
+    "description": null
+  },
+  "236": {
+    "id": "236",
+    "type": "PROPOSITION",
+    "slug": "fiskeldisfyrirtaeki-aettu-ad-skila-meira-til-sveitarfelagsins-en-nu-er",
+    "title": "Fiskeldisfyrirtæki ættu að skila meira til sveitarfélagsins en nú er.",
+    "description": null
+  },
+  "237": {
+    "id": "237",
+    "type": "PROPOSITION",
+    "slug": "byggja-aetti-upp-adstodu-vid-latrabjarg-til-ad-lada-ad-fleiri-ferdamenn",
+    "title": "Byggja ætti upp aðstöðu við Látrabjarg til að laða að fleiri ferðamenn.",
+    "description": null
+  },
+  "238": {
+    "id": "238",
+    "type": "PROPOSITION",
+    "slug": "radast-a-i-virkjun-i-fridlandinu-i-vatnsfirdi",
+    "title": "Ráðast á í virkjun í friðlandinu í Vatnsfirði.",
+    "description": null
+  },
+  "130": {
+    "id": "130",
+    "type": "PROPOSITION",
+    "slug": "sveitarfelagid-a-ad-stydja-uppbyggingu-vindorkuvers-i-garpsdal",
+    "title": "Sveitarfélagið á að styðja uppbyggingu vindorkuvers í Garpsdal.",
+    "description": null
+  },
+  "131": {
+    "id": "131",
+    "type": "PROPOSITION",
+    "slug": "sveitarfelagid-a-ad-roa-ollum-arum-ad-frekari-uppbyggingu-i-kroksfjardarnesi",
+    "title": "Sveitarfélagið á að róa öllum árum að frekari uppbyggingu í Króksfjarðarnesi.",
+    "description": null
+  },
+  "162": {
+    "id": "162",
+    "type": "PROPOSITION",
+    "slug": "of-geyst-hefur-verid-farid-i-husnaedisuppbyggingu-i-orlakshofn",
+    "title": "Of geyst hefur verið farið í húsnæðisuppbyggingu í Þorlákshöfn.",
+    "description": null
+  },
+  "166": {
+    "id": "166",
+    "type": "PROPOSITION",
+    "slug": "sveitarstjorn-a-ad-koma-i-veg-fyrir-ad-fyrirtaekid-carbfix-fai-ad-reisa-nidurdaelingarstodina-coda-terminal-i-olfusi",
+    "title": "Sveitarstjórn á að koma í veg fyrir að fyrirtækið Carbfix fái að reisa niðurdælingarstöðina Coda Terminal í Ölfusi.",
+    "description": null
+  },
+  "168": {
+    "id": "168",
+    "type": "PROPOSITION",
+    "slug": "ad-er-forgangsatridi-ad-sveitarstjorn-beiti-ser-fyrir-thvi-ad-norraena-sigli-i-orlakshofn-frekar-en-a-seydisfjord",
+    "title": "Það er forgangsatriði að sveitarstjórn beiti sér fyrir því að Norræna sigli í Þorlákshöfn, frekar en á Seyðisfjörð.",
+    "description": null
+  },
+  "169": {
+    "id": "169",
+    "type": "PROPOSITION",
+    "slug": "ad-var-rettlaetanlegt-ad-radast-i-landfyllingu-vid-sudurvararhofn-thott-thad-bitnadi-a-brimbrettafolki-sem-thar-stundadi-ithrott-sina",
+    "title": "Það var réttlætanlegt að ráðast í landfyllingu við Suðurvararhöfn þótt það bitnaði á brimbrettafólki sem þar stundaði íþrótt sína.",
+    "description": null
+  },
+  "152": {
+    "id": "152",
+    "type": "PROPOSITION",
+    "slug": "stefna-aetti-ad-sameiningu-svalbardsstrandarhrepps-og-naerliggjandi-sveitarfelaga",
+    "title": "Stefna ætti að sameiningu Svalbarðsstrandarhrepps og nærliggjandi sveitarfélaga.",
+    "description": null
+  },
+  "154": {
+    "id": "154",
+    "type": "PROPOSITION",
+    "slug": "sveitarfelagid-tharf-ad-beita-ser-fyrir-thvi-ad-lokid-verdi-vid-gongu-og-hjolaleid-til-akureyrar",
+    "title": "Sveitarfélagið þarf að beita sér fyrir því að lokið verði við göngu- og hjólaleið til Akureyrar.",
+    "description": null
+  },
+  "156": {
+    "id": "156",
+    "type": "PROPOSITION",
+    "slug": "adstadan-vid-sundlaug-svalbardsstrandarhrepps-er-fullnaegjandi",
+    "title": "Aðstaðan við sundlaug Svalbarðsstrandarhrepps er fullnægjandi.",
+    "description": null
+  },
+  "170": {
+    "id": "170",
+    "type": "PROPOSITION",
+    "slug": "eg-er-hlynntur-byggingu-hvammsvirkjunar",
+    "title": "Ég er hlynnt/ur byggingu Hvammsvirkjunar.",
+    "description": null
+  },
+  "171": {
+    "id": "171",
+    "type": "PROPOSITION",
+    "slug": "sveitarstjorn-aetti-ad-stodva-efnistoku-ur-burfellsholma",
+    "title": "Sveitarstjórn ætti að stöðva efnistöku úr Búrfellshólma.",
+    "description": null
+  },
+  "176": {
+    "id": "176",
+    "type": "PROPOSITION",
+    "slug": "sameina-aetti-skeida-og-gnupverjahrepp-og-hrunamannahrepp",
+    "title": "Sameina ætti Skeiða- og Gnúpverjahrepp og Hrunamannahrepp.",
+    "description": null
+  },
+  "177": {
+    "id": "177",
+    "type": "PROPOSITION",
+    "slug": "stefna-aetti-ad-thvi-ad-koma-upp-thettbyliskjarna-i-arnesi-og-hafa-midstod-thjonustu-sveitarfelagsins-thar",
+    "title": "Stefna ætti að því að koma upp þéttbýliskjarna í Árnesi og hafa miðstöð þjónustu sveitarfélagsins þar.",
+    "description": null
+  },
+  "159": {
+    "id": "159",
+    "type": "PROPOSITION",
+    "slug": "sveitarstjorn-a-ad-leyfa-uppbyggingu-a-storfelldu-fiskeldi-a-stjornarsandi-vid-kirkjubaejarklaustur-i-landi-skaftarhrepps",
+    "title": "Sveitarstjórn á að leyfa uppbyggingu á stórfelldu fiskeldi á Stjórnarsandi við Kirkjubæjarklaustur, í landi Skaftárhrepps.",
+    "description": null
+  },
+  "160": {
+    "id": "160",
+    "type": "PROPOSITION",
+    "slug": "sveitarfelagid-a-ad-verja-fe-i-ad-leita-ad-heitu-vatni-fyrir-ibua",
+    "title": "Sveitarfélagið á að verja fé í að leita að heitu vatni fyrir íbúa.",
+    "description": null
+  },
+  "161": {
+    "id": "161",
+    "type": "PROPOSITION",
+    "slug": "sveitarstjorn-skaftarhrepps-a-ad-beita-ser-fyrir-gerd-nyrrar-bryggju-vid-alvidruhamra-a-myrdalssandi-fyrir-vikurutflutning-ur-hafursey",
+    "title": "Sveitarstjórn Skaftárhrepps á að beita sér fyrir gerð nýrrar bryggju við Alviðruhamra á Mýrdalssandi fyrir vikurútflutning úr Hafursey.",
+    "description": null
+  },
+  "226": {
+    "id": "226",
+    "type": "PROPOSITION",
+    "slug": "sveitarfelagid-a-ad-koma-til-mots-vid-kostnad-landeigenda-vid-ad-tryggja-oryggi-a-fjolfornum-ferdamannastodum",
+    "title": "Sveitarfélagið á að koma til móts við kostnað landeigenda við að tryggja öryggi á fjölförnum ferðamannastöðum.",
+    "description": null
+  },
+  "227": {
+    "id": "227",
+    "type": "PROPOSITION",
+    "slug": "sveitarstjornin-hefdi-getad-gert-meira-til-ad-koma-i-veg-fyrir-ad-heilsugaesla-uppsveita-yrdi-flutt-fra-laugarasi-yfir-a-fludir",
+    "title": "Sveitarstjórnin hefði getað gert meira til að koma í veg fyrir að Heilsugæsla Uppsveita yrði flutt frá Laugarási yfir á Flúðir.",
+    "description": null
+  },
+  "228": {
+    "id": "228",
+    "type": "PROPOSITION",
+    "slug": "ad-var-rett-akvordun-ad-loka-hjolhysasvaedinu-a-laugarvatni",
+    "title": "Það var rétt ákvörðun að loka hjólhýsasvæðinu á Laugarvatni.",
+    "description": null
+  },
+  "229": {
+    "id": "229",
+    "type": "PROPOSITION",
+    "slug": "sveitarstjorn-aetti-ad-beita-ser-fyrir-thvi-ad-gerdar-verdi-ibudir-i-gamla-husmaedraskolanum-a-laugarvatni",
+    "title": "Sveitarstjórn ætti að beita sér fyrir því að gerðar verði íbúðir í gamla húsmæðraskólanum á Laugarvatni.",
+    "description": null
+  }
+}

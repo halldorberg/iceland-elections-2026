@@ -1,0 +1,27 @@
+{
+  "scan_type": "photos",
+  "scan_date": "2026-05-01",
+  "agent_note": "Agent A",
+  "results": [
+    {
+      "id": "VOG.VOE.1",
+      "muni_slug": "vogar",
+      "party_code": "VOE",
+      "ballot": 1,
+      "name": "Birgir Örn Ólafsson",
+      "photo_url": "https://www.vogar.is/static/employees/birgir-orn-olafsson.jpg",
+      "photo_local": "images/candidates/e8bab110da9413f5.jpg",
+      "source": "https://www.vogar.is/is/stjornsysla/stjornkerfi/baejarstjorn"
+    },
+    {
+      "id": "HVA.HVA.1",
+      "muni_slug": "hvalfjardarsveit",
+      "party_code": "HVA",
+      "ballot": 1,
+      "name": "Haraldur Benediktsson",
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Haraldur_Benediktson_2021.jpg",
+      "photo_local": "images/candidates/f45a567193a4cb9b.jpg",
+      "source": "https://is.wikipedia.org/wiki/Haraldur_Benediktsson"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+﻿Sveitarf�lag                                              Tegund        Listar Framb./lista                    Samtals  Listab�kstafir
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+Akranes                                                   Venjulegt          5 17, 16, 17, 18, 17                   85  B, C, D, M, S
+Akureyri                                                  Venjulegt          8 21, 21, 21, 21, 21, 22, 21, 19      167  D, B, C, L, M, S, V, AL
+Bl�sk�gabygg�                                             Venjulegt          2 13                                   26  BST, BSP
+Bolungarv�kurkaupsta�ur                                   Venjulegt          2 13                                   26  MMM, BBK
+Dalv�kurbygg�                                             Venjulegt          2 13                                   26  B, D
+Eyjafjar�arsveit                                          Venjulegt          2 13                                   26  EJF, EJK
+Fjallabygg�                                               Venjulegt          3 13                                   39  D, H, S
+Fjar�abygg�                                               Venjulegt          4 18, 17, 17, 17                       69  B, D, M, S
+Fl�ahreppur                                               Venjulegt          2 9                                    18  FLI, FLT
+Gar�ab�r                                                  Venjulegt          6 22, 22, 21, 21, 21, 21              128  D, B, C, GB, M, S
+Grindav�kurb�r                                            Venjulegt          3 13, 13, 10                           36  B, D, M
+Grundarfjar�arb�r                                         Venjulegt          2 13                                   26  GFB, GFD
+Gr�msnes- og Grafningshreppur                             Venjulegt          2 10, 9                                19  GGA, GGO
+Hafnarfj�r�ur                                             Venjulegt          6 21, 21, 21, 22, 22, 21              128  A, B, C, D, M, S
+Hrunamannahreppur                                         Venjulegt          2 9                                    18  D, HRL
+Hvalfjar�arsveit                                          Venjulegt          2 13                                   26  HVA, HVB
+Hverager�isb�r                                            Venjulegt          4 13, 14, 13, 13                       53  OKH, B, S, D
+H�rg�rsveit                                               Venjulegt          3 9, 0, 9                              18  D, HGG, HGH
+H�nabygg�                                                 Venjulegt          3 17                                   51  HBA, B, D
+H�na�ing vestra                                           Venjulegt          3 14, 13, 13                           40  B, D, NHV
+K�pavogur                                                 Venjulegt          7 21, 21, 21, 18, 21, 21, 21          144  B, C, D, J, M, S, V
+Mosfellsb�r                                               Venjulegt          6 21                                  126  D, B, C, L, M, S
+M�la�ing                                                  Venjulegt          5 21                                  105  B, D, L, M, V
+M�rdalshreppur                                            Venjulegt          2 9                                    18  MYA, MYZ
+Nor�ur�ing                                                Venjulegt          6 17                                  102  B, D, NPM, NBO, S, NPV
+Rang�r�ing eystra                                         Venjulegt          3 13                                   39  B, D, NRE
+Rang�r�ing ytra                                           Venjulegt          2 13                                   26  RYA, D
+Reykh�lahreppur                                           Venjulegt          2 9                                    18  ROA, S
+Reykjanesb�r                                              Venjulegt          5 21                                  105  B, C, D, M, S
+Reykjav�k                                                 Venjulegt         11 46, 45, 45, 46, 45, 45, 45, 45, 45, 22, 22      451  D, B, S, A, P, M, F, C, J, G, R
+Sameina� sveitarf�lag Borgarbygg�ar og Skorradalshrepps   Venjulegt          3 18, 17, 17                           52  B, D, M
+Seltjarnarnesb�r                                          Venjulegt          3 13                                   39  D, M, SCS
+Skaft�rhreppur                                            Venjulegt          2 9                                    18  D, SKO
+Skei�a- og Gn�pverjahreppur                               Venjulegt          2 9, 10                                19  SGE, SGL
+Strandabygg�                                              Venjulegt          3 9, 9, 10                             28  B, VGV, SBD
+Su�urnesjab�r                                             Venjulegt          4 17                                   68  B, D, M, S
+Sveitarf�lagi� Hornafj�r�ur                               Venjulegt          4 13                                   52  B, D, K, M
+Sveitarf�lagi� Skagafj�r�ur                               Venjulegt          4 17, 17, 18, 17                       69  B, D, SFL, M
+Sveitarf�lagi� Skagastr�nd                                Venjulegt          2 9                                    18  B, S
+Sveitarf�lagi� Stykkish�lmur                              Venjulegt          2 13                                   26  FLS, IBU
+Sveitarf�lagi� Vogar                                      Venjulegt          4 13                                   52  FYRS, D, VOE, VOL
+Sveitarf�lagi� �lfus                                      Venjulegt          2 13                                   26  D, S
+S��av�kurhreppur                                          Venjulegt          2 10, 9                                19  FJL, FTL
+Vestmannaeyjar                                            Venjulegt          3 17                                   51  D, E, M
+Vesturbygg�                                               Venjulegt          2 13                                   26  NYS, STV
+�rborg                                                    Venjulegt          4 21                                   84  B, C, D, S
+�rneshreppur                                              Venjulegt          2 9                                    18  ARNA, ARNS
+�safjar�arb�r                                             Venjulegt          5 17, 17, 17, 9, 17                    77  B, C, D, M, S
+�ingeyjarsveit                                            Venjulegt          3 13                                   39  THVA, THVL, THVN
+Kj�sarhreppur                                             Sj�lfkj�ri�        1 9                                     9  KJA
+Sn�fellsb�r                                               Sj�lfkj�ri�        1 14                                   14  D
+Svalbar�sstrandarhreppur                                  Sj�lfkj�ri�        1 9                                     9  SVSS
+Tj�rneshreppur                                            Sj�lfkj�ri�        1 10                                   10  TJN
+Vopnafjar�arhreppur                                       Sj�lfkj�ri�        1 14                                   14  VOP
+Dalabygg�                                                 �bundi�            0 -                                     0  
+Eyja- og Miklaholtshreppur                                �bundi�            0 -                                     0  
+Flj�tsdalshreppur                                         �bundi�            0 -                                     0  
+Gr�tubakkahreppur                                         �bundi�            0 -                                     0  
+Kaldrananeshreppur                                        �bundi�            0 -                                     0  
+Langanesbygg�                                             �bundi�            0 -                                     0  
+�sahreppur                                                �bundi�            0 -                                     0  
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+SAMTALS                                                                    176                                    2996

@@ -1,0 +1,211 @@
+{
+  "scope": "bios scan 2026-05-01 — ballot 1-6 with has_extended=true, sorted by ballot then population",
+  "agent_label": "B",
+  "slice": [
+    20,
+    40
+  ],
+  "count": 20,
+  "missing_bios": [
+    {
+      "id": "SKE.SGE.1",
+      "muni_slug": "skeidagnup",
+      "muni_label": "Skeiða- og Gnúpverjahreppur",
+      "party_code": "SGE",
+      "ballot": 1,
+      "name": "Gunnar Örn Marteinsson",
+      "occupation": "Ferðaþjónustubóndi",
+      "has_extended": true
+    },
+    {
+      "id": "SKE.SGL.1",
+      "muni_slug": "skeidagnup",
+      "muni_label": "Skeiða- og Gnúpverjahreppur",
+      "party_code": "SGL",
+      "ballot": 1,
+      "name": "Haraldur Þór Jónsson",
+      "occupation": "Bóndi og sveitarstjórnarfulltrúi",
+      "has_extended": true
+    },
+    {
+      "id": "SKA.D.1",
+      "muni_slug": "skaftarhreppur",
+      "muni_label": "Skaftárhreppur",
+      "party_code": "D",
+      "ballot": 1,
+      "name": "Sveinn Hreiðar Jensson",
+      "occupation": "Framkvæmdastjóri og sveitarstjórnarfulltrúi",
+      "has_extended": true
+    },
+    {
+      "id": "SKA.SKO.1",
+      "muni_slug": "skaftarhreppur",
+      "muni_label": "Skaftárhreppur",
+      "party_code": "SKO",
+      "ballot": 1,
+      "name": "Jóhannes Gissurarson",
+      "occupation": "Bóndi",
+      "has_extended": true
+    },
+    {
+      "id": "VOP.VOP.1",
+      "muni_slug": "vopnafjordur",
+      "muni_label": "Vopnafjörður",
+      "party_code": "VOP",
+      "ballot": 1,
+      "name": "Íris Edda Jónsdóttir",
+      "occupation": "Frambjóðandi",
+      "has_extended": true
+    },
+    {
+      "id": "VES.D.2",
+      "muni_slug": "vestmannaeyjar",
+      "muni_label": "Vestmannaeyjar",
+      "party_code": "D",
+      "ballot": 2,
+      "name": "Trausti Hjaltason",
+      "occupation": "Áhættustjóri",
+      "has_extended": true
+    },
+    {
+      "id": "VES.E.2",
+      "muni_slug": "vestmannaeyjar",
+      "muni_label": "Vestmannaeyjar",
+      "party_code": "E",
+      "ballot": 2,
+      "name": "Anton Örn Björnsson",
+      "occupation": "Kennari",
+      "has_extended": true
+    },
+    {
+      "id": "VES.M.2",
+      "muni_slug": "vestmannaeyjar",
+      "muni_label": "Vestmannaeyjar",
+      "party_code": "M",
+      "ballot": 2,
+      "name": "Sæunn Magnúsdóttir",
+      "occupation": "Frambjóðandi",
+      "has_extended": true
+    },
+    {
+      "id": "SKA.B.2",
+      "muni_slug": "skagafjordur",
+      "muni_label": "Skagafjörður",
+      "party_code": "B",
+      "ballot": 2,
+      "name": "Hrund Pétursdóttir",
+      "occupation": "Deildarstjóri",
+      "has_extended": true
+    },
+    {
+      "id": "SKA.D.2",
+      "muni_slug": "skagafjordur",
+      "muni_label": "Skagafjörður",
+      "party_code": "D",
+      "ballot": 2,
+      "name": "Sólborg S. Borgarsdóttir",
+      "occupation": "Vinnuverndarsérfræðingur",
+      "has_extended": true
+    },
+    {
+      "id": "SKA.SFL.2",
+      "muni_slug": "skagafjordur",
+      "muni_label": "Skagafjörður",
+      "party_code": "SFL",
+      "ballot": 2,
+      "name": "Jóhanna Ey Harðardóttir",
+      "occupation": "Fatahönnuður",
+      "has_extended": true
+    },
+    {
+      "id": "SKA.M.2",
+      "muni_slug": "skagafjordur",
+      "muni_label": "Skagafjörður",
+      "party_code": "M",
+      "ballot": 2,
+      "name": "Jódís Helga Káradóttir",
+      "occupation": "Dómsritari og lagastúdent",
+      "has_extended": true
+    },
+    {
+      "id": "SUD.M.2",
+      "muni_slug": "sudurnesjabaer",
+      "muni_label": "Suðurnesjabær",
+      "party_code": "M",
+      "ballot": 2,
+      "name": "Sigrún Harpa Sigurjónd. Heide",
+      "occupation": "Frambjóðandi",
+      "has_extended": true
+    },
+    {
+      "id": "HOR.B.2",
+      "muni_slug": "hornafjordur",
+      "muni_label": "Hornafjarðarsveit",
+      "party_code": "B",
+      "ballot": 2,
+      "name": "Ingibjörg Sveinsdóttir",
+      "occupation": "Atvinnurekandi og grunnskólakennari",
+      "has_extended": true
+    },
+    {
+      "id": "HOR.D.2",
+      "muni_slug": "hornafjordur",
+      "muni_label": "Hornafjarðarsveit",
+      "party_code": "D",
+      "ballot": 2,
+      "name": "Hjördís Edda Olgeirsdóttir",
+      "occupation": "Bæjarfulltrúi",
+      "has_extended": true
+    },
+    {
+      "id": "HOR.HFJK.2",
+      "muni_slug": "hornafjordur",
+      "muni_label": "Hornafjarðarsveit",
+      "party_code": "HFJK",
+      "ballot": 2,
+      "name": "Guðrún Stefanía Vopnfjörð Ingólfsdóttir",
+      "occupation": "Bæjarfulltrúi og sérfræðingur",
+      "has_extended": true
+    },
+    {
+      "id": "HOR.M.2",
+      "muni_slug": "hornafjordur",
+      "muni_label": "Hornafjarðarsveit",
+      "party_code": "M",
+      "ballot": 2,
+      "name": "Stefán Freyr Jónsson",
+      "occupation": "Bóndi og slökkviliðsmaður",
+      "has_extended": true
+    },
+    {
+      "id": "VOG.FYRS.2",
+      "muni_slug": "vogar",
+      "muni_label": "Vogar",
+      "party_code": "FYRS",
+      "ballot": 2,
+      "name": "Áslaug Fjóla Magnúsdóttir",
+      "occupation": "Starfsmaður Útfaraþjónustu Suðurnesja",
+      "has_extended": true
+    },
+    {
+      "id": "VOG.D.2",
+      "muni_slug": "vogar",
+      "muni_label": "Vogar",
+      "party_code": "D",
+      "ballot": 2,
+      "name": "Guðmann Rúnar Lúðvíksson",
+      "occupation": "Sérfræðingur hjá landhelgisgæslunni, varabæjarfulltrúi",
+      "has_extended": true
+    },
+    {
+      "id": "VOG.VOE.2",
+      "muni_slug": "vogar",
+      "muni_label": "Vogar",
+      "party_code": "VOE",
+      "ballot": 2,
+      "name": "Eva Björk Jónsdóttir",
+      "occupation": "Deildarstjóri, bæjarfulltrúi",
+      "has_extended": true
+    }
+  ]
+}

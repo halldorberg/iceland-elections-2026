@@ -1,0 +1,39 @@
+{
+  "id": "RVK.S.30",
+  "bio": "Marzibil Snæfríðar Sæmundardóttir er kvikmyndagerðarkona og fyrrverandi varaborgarfulltrúi Samfylkingarinnar í Reykjavík á árunum 2002–2010. Hún lauk námi í verkefnastjórnun frá Háskóla Íslands og starfaði á árunum 1997–2006 við stofnun og rekstur úrræðis fyrir ungt fólk á vinnumarkaði og meðferðarheimilis fyrir ungt fólk með vímuefnavanda. Árið 2010 stofnaði hún framleiðslufyrirtækið arCus.films og útskrifaðist þremur árum síðar úr Kvikmyndaskóla Íslands, þar sem hún kennir handritsskrif. Frá 2015 var hún framkvæmdastjóri kvikmyndahátíðarinnar Stockfish. Meðal verka hennar eru stuttmyndin Freyja (2011), Drink My Life (2022) og Jón Jónsson (2013). Marzibil skipar 30. sæti á lista Samfylkingarinnar í Reykjavík fyrir borgarstjórnarkosningarnar 16. maí 2026.",
+  "sources": [
+    "https://klapptre.is/2015/11/27/marzibil-saemundardottir-radin-framkvaemdastjori-stockfish-hatidarinnar-skilafrestur-i-stuttmyndakeppni-10-januar/",
+    "https://www.imdb.com/name/nm4420126/",
+    "https://www.fadetoher.com/2019/07/30/encounter-115-marzibil-snaefridar-saemundardottir/",
+    "https://xs.is/frambjodendur-i-reykjavik-2026"
+  ],
+  "statements": [
+    {"n":1,"status":"verified","claim":"Kvikmyndagerðarkona","quotes":["Marzibil S. Sæmundardóttir kvikmyndagerðarkona","30. Marzibil Sæmundardóttir Kvikmyndagerðarkona"]},
+    {"n":2,"status":"verified","claim":"Fyrrverandi varaborgarfulltrúi (Samfylkingin)","quotes":["Hún er fyrrverandi framkvæmdastjóri og varaborgarfulltrúi"]},
+    {"n":3,"status":"flagged","claim":"Á árunum 2002–2010","quotes":[],"note":"Nákvæm ár ekki bein vitnað."},
+    {"n":4,"status":"flagged","claim":"Verkefnastjórnun frá HÍ","quotes":[],"note":"Heimild segir bara 'verkefnastjórnun' í reynslu, ekki próf frá HÍ."},
+    {"n":5,"status":"flagged","claim":"1997–2006 stofnun og rekstur úrræðis fyrir ungt fólk og meðferðarheimilis","quotes":[],"note":"Ekki bein vitnað í tiltækum heimildum."},
+    {"n":6,"status":"verified","claim":"Stofnaði arCus.films og útskrifaðist úr Kvikmyndaskóla Íslands 2013","quotes":["produced by Edda MacKenzie Kristinsson, Ársæll Sigurlaugar Níelsson and Marzibil herself, for arCus Films","graduated as a screenwriter and director from The Icelandic Film School back in 2013"]},
+    {"n":7,"status":"flagged","claim":"Kennir handritsskrif við Kvikmyndaskóla Íslands","quotes":[],"note":"Ekki bein vitnað."},
+    {"n":8,"status":"verified","claim":"Frá 2015 framkvæmdastjóri Stockfish","quotes":["27. nóvember 2015 ... Marzibil S. Sæmundardóttir kvikmyndagerðarkona hefur verið ráðin framkvæmdastjóri Stockfish kvikmyndahátíðarinnar"]},
+    {"n":9,"status":"verified","claim":"Stuttmyndir Freyja (2011), Drink My Life (2022), Jón Jónsson (2013)","quotes":["Marzibil Sæmundardóttir is known for Freyja (2011), Drink My Life (2022) and Jón Jónsson (2013)"]},
+    {"n":10,"status":"verified","claim":"30. sæti á lista Samfylkingarinnar í Reykjavík 2026","quotes":["30. Marzibil Sæmundardóttir Kvikmyndagerðarkona"]}
+  ],
+  "summary": "Several biographical specifics (year ranges 2002–2010 / 1997–2006, HÍ verkefnastjórnun, kennsla við KSÍ) lack direct quotes; rewrite drops them.",
+  "rescue": {
+    "rewrite": "Marzibil Snæfríðar Sæmundardóttir er kvikmyndagerðarkona og fyrrverandi varaborgarfulltrúi Samfylkingarinnar í Reykjavík. Hún rekur framleiðslufyrirtækið arCus Films og útskrifaðist sem handritshöfundur og leikstjóri frá Kvikmyndaskóla Íslands árið 2013. Marzibil var ráðin framkvæmdastjóri kvikmyndahátíðarinnar Stockfish í lok árs 2015. Meðal verka hennar eru stuttmyndirnar Freyja (2011), Jón Jónsson (2013) og Drink My Life (2022). Hún skipar 30. sæti á lista Samfylkingarinnar í Reykjavík fyrir borgarstjórnarkosningarnar 16. maí 2026.",
+    "rewrite_words": 87,
+    "new_sources": [],
+    "resolutions": [
+      {"n":3,"action":"dropped","reason":"2002–2010 ár ekki bein vitnað"},
+      {"n":4,"action":"dropped","reason":"verkefnastjórnun frá HÍ ekki bein vitnað"},
+      {"n":5,"action":"dropped","reason":"1997–2006 starfssaga ekki bein vitnað"},
+      {"n":7,"action":"dropped","reason":"kennsla við KSÍ ekki bein vitnað"}
+    ],
+    "new_heimild": [
+      {"url":"https://klapptre.is/2015/11/27/marzibil-saemundardottir-radin-framkvaemdastjori-stockfish-hatidarinnar-skilafrestur-i-stuttmyndakeppni-10-januar/","label":"Klapptré — Stockfish 2015"},
+      {"url":"https://www.imdb.com/name/nm4420126/","label":"IMDb — Marzibil Sæmundardóttir"},
+      {"url":"https://xs.is/frambjodendur-i-reykjavik-2026","label":"xs.is — listi Samfylkingar Reykjavík 2026"}
+    ]
+  }
+}

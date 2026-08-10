@@ -1,0 +1,15 @@
+L1323: seat=4 name=Ágústa Árnadóttir
+L3208: seat=3 name=Gunnar Sær Ragnarsson
+L3383: seat=5 name=Guðmundur Jóhann Jónsson
+L3454: seat=4 name=Sigurður Haraldsson
+L3461: seat=5 name=Þórgunnur Guðgeirsdóttir
+L3695: seat=5 name=Rakel Ósk Sigurðardóttir
+L3845: seat=3 name=Árni Rúnar Árnason
+L3931: seat=3 name=Hjördís Hlíðberg
+L3941: seat=4 name=Óli Örn Eiríksson
+L3950: seat=5 name=Sigrún Jónsdóttir
+L4111: seat=4 name=Eva Rún Helgadóttir
+L4120: seat=5 name=Arnhildur Ásdís Kolbeins
+L4408: seat=5 name=Halla Karen Guðjónsdóttir
+L4785: seat=1 name=Gunnar J. Helgason
+L4790: seat=2 name=Áslaug Fjóla Magnúsdóttir

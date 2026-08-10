@@ -1,0 +1,26 @@
+{
+  "id": "MOS.D.12",
+  "bio": "Katrín Dögg Hilmarsdóttir er PGA-vottuð golfkennari hjá Golfklúbbi Mosfellsbæjar. Hún hefur kennt almennum félagsmönnum, byrjendum og kvennahópum og leitt sumarbyrjendanámskeið sem og innanhússnámskeið yfir vetrartímann. Katrín Dögg var áður valin íþróttamaður Mosfellsbæjar fyrir afrek sín í golfi og hefur einnig starfað sem fararstjóri og þjálfari Golfklúbbs Mosfellsbæjar í Evrópumótum klúbbsveita. Hún er félagi í PGA á Íslandi. Katrín Dögg skipar 12. sæti á lista Sjálfstæðisflokksins í Mosfellsbæ fyrir sveitarstjórnarkosningarnar 2026.",
+  "sources": [
+    "https://www.golfmos.is/golfkennsla",
+    "https://pga.is/felagsmenn/kennarar/",
+    "https://www.golf.is/golfklubbur-mosfellsbaejar-endadi-i-10-saeti-a-a-evropumoti-golfklubba-i-slovakiu/",
+    "https://www.mbl.is/greinasafn/grein/583644/",
+    "https://xd.is/2026/02/27/fullskipadur-frambodslisti-sjalfstaedisflokksins-i-mosfellsbae/"
+  ],
+  "statements": [
+    {"n":1,"status":"verified","claim":"PGA golfkennari hjá Golfklúbbi Mosfellsbæjar; kennir byrjendum og kvenna-hópum","quotes":["Golfkennarar í golfæfingum félagsmanna í vetur eru Katrín Dögg Hilmarsdóttir og Andri Ágústsson PGA golfkennarar","Mánudagar 20:00 - 21:00 (Katrín - byrjendur)","Miðvikudagar 18:00 - 19:00 (Katrín - konur byrjendur)","Miðvikudagar 19:00 - 20:00 (Katrín - konur framhalds)","Katrín Dögg Hilmarsdóttir 615-4468 katrin@golfmos.is"]},
+    {"n":2,"status":"verified","claim":"Áður íþróttamaður Mosfellsbæjar (golf)","quotes":["Katrín Dögg íþróttamaður Mosfellsbæjar","19 ára golfkona úr Golfklúbbnum Kili, fyrir valinu"]},
+    {"n":3,"status":"verified","claim":"Liðstjóri/þjálfari Golfklúbbs Mosfellsbæjar á Evrópumóti klúbbsveita","quotes":["Pamela Ósk Hjaltadóttir, Birna Rut Snorradóttir og Heiða Rakel Rafnsdóttir skipuðu lið GM og Katrín Dögg Hilmarsdóttir var liðstjóri og þjálfari"]},
+    {"n":4,"status":"verified","claim":"Félagi í PGA á Íslandi","quotes":["Katrín Dögg Hilmarsdóttir 615-4468 katrin@golfmos.is"]},
+    {"n":5,"status":"verified","claim":"12. sæti á lista Sjálfstæðisflokksins í Mosfellsbæ 2026","quotes":["Árni Bragi Eyjólfsson - Rekstrarstjóri Katrín Dögg Hilmarsdóttir - Golfkennari"]}
+  ],
+  "summary": "Bio fully verified.",
+  "rescue": {
+    "rewrite": null,
+    "rewrite_words": 0,
+    "new_sources": [],
+    "resolutions": [],
+    "new_heimild": []
+  }
+}

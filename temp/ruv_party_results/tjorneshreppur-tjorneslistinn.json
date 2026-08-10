@@ -1,0 +1,15 @@
+{
+  "slug": "tjorneshreppur-tjorneslistinn",
+  "name": "Tjörneslistinn",
+  "color": "#CF5D00",
+  "answersString": "",
+  "abbreviation": "T",
+  "runningInConstituencies": [
+    {
+      "id": "6611",
+      "__typename": "Constituency"
+    }
+  ],
+  "answers": [],
+  "__typename": "Party"
+}

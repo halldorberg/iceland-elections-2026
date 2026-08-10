@@ -1,0 +1,206 @@
+[
+  {
+    "muni_id": "bolungarvik",
+    "muni_name": "Bolungarvík",
+    "const": "BLV",
+    "code": "MMM",
+    "tagline": "Máttur meyja og manna — saman erum við sterk",
+    "leader": "Guðfinnur Ragnar Jóhannsson",
+    "leader_occ": "Frambjóðandi",
+    "top5_names": [
+      "Guðfinnur Ragnar Jóhannsson",
+      "Magnús Ingi Jónsson",
+      "Rebekka Líf Karlsdóttir",
+      "Karen Arna Hannesdóttir",
+      "Hjörtur Trautason"
+    ],
+    "sources_in_data": [
+      "https://bb.is/2026/03/bolungavik-mattur-manna-og-meyja-birtir-frambodslista/",
+      "https://www.klistinn.is/"
+    ]
+  },
+  {
+    "muni_id": "eyjafjardarsveit",
+    "muni_name": "Eyjafjarðarsveit",
+    "const": "EJA",
+    "code": "EJK",
+    "tagline": "K-listinn — öflug Eyjafjarðarsveit",
+    "leader": "Guðmundur Sigurbjörn Óskarsson",
+    "leader_occ": "Vélfræðingur og bóndi",
+    "top5_names": [
+      "Guðmundur Sigurbjörn Óskarsson",
+      "Linda Lárusdóttir",
+      "Friðrik Karlsson",
+      "Sóley Kjerúlf Svansdóttir",
+      "Ragnar Jónsson"
+    ],
+    "sources_in_data": [
+      "https://kaffid.is/gudmundur-leidir-k-listann-i-eyjafjardarsveit/",
+      "https://www.esveit.is/eyjafjardarsveit/frettir/tilkynning-fra-kjorstjorn-eyjafjardarsveitar-tveir-listar-samthykktir",
+      "https://kaffid.is/tvo-frambod-i-eyjafjardarsveit/"
+    ]
+  },
+  {
+    "muni_id": "grindavik",
+    "muni_name": "Grindavík",
+    "const": "GRN",
+    "code": "D",
+    "tagline": "Guðbjörg Eyjólfsdóttir leiðir Sjálfstæðisflokkinn í Grindaví",
+    "leader": "Guðbjörg Eyjólfsdóttir",
+    "leader_occ": "Innheimtufulltrúi",
+    "top5_names": [
+      "Guðbjörg Eyjólfsdóttir",
+      "Hjálmar Hallgrímsson",
+      "Ómar Davíð Ólafsson",
+      "Ólöf Rún Óladóttir",
+      "Eva Lind Matthíasdóttir"
+    ],
+    "sources_in_data": [
+      "https://web.archive.org/web/2024/https://grindavik.is/v/42",
+      "https://kosningasaga.wordpress.com/2026/03/18/frambodslisti-framsoknar-i-grindavik/",
+      "https://www.visir.is/g/20252752806d/maelirinn-fullur-hja-rekstrar-adilum-i-grinda-vik-sem-aetla-i-hart",
+      "https://www.visir.is/g/20262867458d/ekki-trua-ollu-sem-thu-lest-a-samfelagsmidlum.-komdu-i-kaffi-eg-skal-syna-ther-grinda-vik",
+      "https://xd.is/hjalmar-hallgrimsson/",
+      "https://www.grindavikguesthouse.is/"
+    ]
+  },
+  {
+    "muni_id": "hvalfjardarsveit",
+    "muni_name": "Hvalfjarðarsveit",
+    "const": "HVF",
+    "code": "HVB",
+    "tagline": "Íbúahreyfingin Hvalfjörður — rödd þeirra sem búa hér",
+    "leader": "Þóra Margrét Júlíusdóttir",
+    "leader_occ": "Frambjóðandi",
+    "top5_names": [
+      "Þóra Margrét Júlíusdóttir",
+      "Baldur Þór Ketilsson",
+      "Vignir Már Sigurjónsson",
+      "Sigurður Pétur Svanbergsson",
+      "Katrín Rós Sigvaldadóttir"
+    ],
+    "sources_in_data": []
+  },
+  {
+    "muni_id": "hunathing",
+    "muni_name": "Húnaþing vestra",
+    "const": "HNT",
+    "code": "NHV",
+    "tagline": "Ný öfl — nýjar hugmyndir í Húnaþingi vestra",
+    "leader": "Viktor Ingi Jónsson",
+    "leader_occ": "Bæjarfulltrúi og kennari",
+    "top5_names": [
+      "Viktor Ingi Jónsson",
+      "Magnús Vignir Eðvaldsson",
+      "Eygló Hrund Guðmundsdóttir",
+      "Guðrún Gróa Þorsteinsdóttir",
+      "Sigurbjörg Jóhannesdóttir"
+    ],
+    "sources_in_data": [
+      "https://www.hunathing.is/is/mannlif/frettir-og-auglysingar/tilkynningar-og-frettir/auglysing-um-urskurd-kjorstjornar-hunathings-vestra",
+      "https://www.hunathing.is/is/viktor-ingi-jonsson"
+    ]
+  },
+  {
+    "muni_id": "rangarthingytra",
+    "muni_name": "Rangárþing ytra",
+    "const": "RTY",
+    "code": "D",
+    "tagline": "Sjálfstæðisflokkurinn í Rangárþingi ytra — stöðugleiki og fr",
+    "leader": "Ingvar Pétur Guðbjörnsson",
+    "leader_occ": "Upplýsingafulltrúi og sveitarstjórnarfulltrúi",
+    "top5_names": [
+      "Ingvar Pétur Guðbjörnsson",
+      "Guðmar Aubertsson",
+      "Þröstur Sigurðsson",
+      "Sóley Margeirsdóttir",
+      "Gyða Árný Helgadóttir"
+    ],
+    "sources_in_data": [
+      "https://www.tonrang.is/is/skolinn/starfsfolk",
+      "https://www.ry.is/is/stjornsysla/sveitarstjorn/sveitarstjorn",
+      "https://www.dfs.is/frettir/kosningar/a-listinn-kynnir-frambodslista-og-sveitarstjoraefni/",
+      "https://xd.is/2026/03/05/fullskipadur-frambodslisti-i-rangarthingi-ytra/",
+      "https://www.muzikusajunga.lt/nariai/laima-jakaite",
+      "https://www.ry.is/is/frettir/frambodin-i-rangarthingi-ytra"
+    ]
+  },
+  {
+    "muni_id": "skeidagnup",
+    "muni_name": "Skeiða- og Gnúpverjahreppur",
+    "const": "SGN",
+    "code": "SGL",
+    "tagline": "Samvinnulistinn — samvinna og þróun",
+    "leader": "Haraldur Þór Jónsson",
+    "leader_occ": "Bóndi og sveitarstjórnarfulltrúi",
+    "top5_names": [
+      "Haraldur Þór Jónsson",
+      "Vilborg M. Ástráðsdóttir",
+      "Harpa Dís Harðardóttir",
+      "Björgvin Þór Harðarson",
+      "Birna Þorsteinsdóttir"
+    ],
+    "sources_in_data": [
+      "https://www.skeidgnup.is/is/moya/news/skil-a-frambodum-til-sveitarstjornarkosninga-16-mai-2026",
+      "https://www.mbl.is/frettir/innlent/2024/05/23/haraldur_thor_rettir_sylviu_karen_keflid/",
+      "https://www.mbl.is/frettir/innlent/2026/03/01/ovaentar_vinsaeldir_i_netheimum/",
+      "https://www.visir.is/g/20222264307d/l-listinn-med-thrja-af-fimm-fulltruum-i-skeida-og-gnupverjahreppi",
+      "https://www.dfs.is/2022/11/04/fjallabodin-i-thjorsardal-verda-ad-veruleika/"
+    ]
+  },
+  {
+    "muni_id": "skagastrond",
+    "muni_name": "Sveitarfélagið Skagaströnd",
+    "const": "SST",
+    "code": "B",
+    "tagline": "Framsókn og óháðir í Skagaströnd",
+    "leader": "Eydís Inga Sigurjónsdóttir",
+    "leader_occ": "Forstöðumaður hjúkrunardeilda",
+    "top5_names": [
+      "Eydís Inga Sigurjónsdóttir",
+      "Guðlaugur Siggi Hannesson",
+      "Sæmundur Þór Hafsteinsson",
+      "Elvar Bjarki Gíslason",
+      "Jóhanna Guðrún Karlsdóttir"
+    ],
+    "sources_in_data": [
+      "https://kosningasaga.wordpress.com/2026/04/04/frambodslisti-framsoknar-og-ohadra-a-skagastrond/",
+      "https://huni.is/index.php?cid=22731&pid=32",
+      "https://www.skagastrond.is/is/moya/news/sveitarstjornakosningar-2026"
+    ]
+  },
+  {
+    "muni_id": "sudavik",
+    "muni_name": "Súðavíkurhreppur",
+    "const": "SDV",
+    "code": "FTL",
+    "tagline": "Framtíðarlistinn — í átt að betri framtíð",
+    "leader": "Kjartan Geir Karlsson",
+    "leader_occ": "Frambjóðandi",
+    "top5_names": [
+      "Kjartan Geir Karlsson",
+      "Birta Lind Garðarsdóttir",
+      "Jónína Margrét Guðmundsdóttir",
+      "Jónþór Eiríksson",
+      "Egill Bjarni Vikse Helgason"
+    ],
+    "sources_in_data": []
+  },
+  {
+    "muni_id": "arneshr",
+    "muni_name": "Árneshreppur",
+    "const": "ARN",
+    "code": "ARNS",
+    "tagline": "S-listi — Sólstöður í Árneshreppi",
+    "leader": "Arinbjörn Bernharðsson",
+    "leader_occ": "Frambjóðandi",
+    "top5_names": [
+      "Arinbjörn Bernharðsson",
+      "Kristjana María S. Ásbjörnsd.",
+      "Héðinn Birnir Ásbjörnsson",
+      "Marta Gíslrún Ólafsdóttir",
+      "Axel Thorarensen Hraundal"
+    ],
+    "sources_in_data": []
+  }
+]

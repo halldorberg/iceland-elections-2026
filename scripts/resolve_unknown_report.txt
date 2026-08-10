@@ -1,0 +1,207 @@
+RESOLUTION OF ❓ LISTS (compound keys matched by name overlap)
+======================================================================
+
+── arneshr  [ARNA]  (9 candidates)
+   Best match: "Á listi - Framtíð Árneshrepps"  [✓ MATCH]
+   island.is=9 ours=9 overlap=9
+      All 9 candidates match ✓
+
+── arneshr  [ARNS]  (9 candidates)
+   Best match: "S listi - Sólstöður"  [✓ MATCH]
+   island.is=9 ours=9 overlap=9
+      All 9 candidates match ✓
+
+── blaskogabyggd  [BSP]  (13 candidates)
+   Best match: "Þ listi - Þ listi"  [✓ MATCH]
+   island.is=13 ours=13 overlap=13
+      All 13 candidates match ✓
+
+── blaskogabyggd  [BST]  (13 candidates)
+   Best match: "T listi - T listi"  [✓ MATCH]
+   island.is=13 ours=13 overlap=13
+      All 13 candidates match ✓
+
+── bolungarvik  [BBK]  (13 candidates)
+   Best match: "O listi - Betri Bolungarvík"  [✓ MATCH]
+   island.is=13 ours=13 overlap=13
+      All 13 candidates match ✓
+
+── bolungarvik  [MMM]  (13 candidates)
+   Best match: "K listi - Máttur meyja og manna"  [✓ MATCH]
+   island.is=13 ours=13 overlap=13
+      All 13 candidates match ✓
+
+── eyjafjardarsveit  [EJF]  (13 candidates)
+   Best match: "F listi - F-listinn"  [✓ MATCH]
+   island.is=13 ours=13 overlap=13
+      All 13 candidates match ✓
+
+── eyjafjardarsveit  [EJK]  (13 candidates)
+   Best match: "K listi - K-listinn"  [✓ MATCH]
+   island.is=13 ours=13 overlap=13
+      All 13 candidates match ✓
+
+── floahreppur  [FLI]  (9 candidates)
+   Best match: "I listi - Framfaralistinn"  [✓ MATCH]
+   island.is=9 ours=9 overlap=9
+      All 9 candidates match ✓
+
+── floahreppur  [FLT]  (9 candidates)
+   Best match: "T listi - T listinn"  [✓ MATCH]
+   island.is=9 ours=9 overlap=9
+      All 9 candidates match ✓
+
+── grimsnesgrafningur  [GGA]  (10 candidates)
+   Best match: "A listi - Framboðslisti um öflugt samfélag í vaxandi sveitarfélagi"  [✓ MATCH]
+   island.is=10 ours=10 overlap=10
+      All 10 candidates match ✓
+
+── grimsnesgrafningur  [GGO]  (9 candidates)
+   Best match: "Ö listi - Betri sveit - fyrir okkur öll"  [✓ MATCH]
+   island.is=9 ours=9 overlap=9
+      All 9 candidates match ✓
+
+── grundarfjordur  [GFB]  (13 candidates)
+   Best match: "B listi - Framsókn og félagshyggjufólk"  [✓ MATCH]
+   island.is=13 ours=13 overlap=13
+      All 13 candidates match ✓
+
+── grundarfjordur  [GFD]  (13 candidates)
+   Best match: "D listi - Sjálfstæðisflokkur og óháðir"  [✓ MATCH]
+   island.is=13 ours=13 overlap=13
+      All 13 candidates match ✓
+
+── hrunamannahreppur  [HRL]  (9 candidates)
+   Best match: "L listi - L-listinn"  [✓ MATCH]
+   island.is=9 ours=9 overlap=9
+      All 9 candidates match ✓
+
+── hunabyggd  [HBA]  (17 candidates)
+   Best match: "A listi - Öll saman"  [✓ MATCH]
+   island.is=17 ours=17 overlap=17
+      All 17 candidates match ✓
+
+── hvalfjardarsveit  [HVA]  (13 candidates)
+   Best match: "A listi - Samhent sveit"  [✓ MATCH]
+   island.is=13 ours=13 overlap=13
+      All 13 candidates match ✓
+
+── hvalfjardarsveit  [HVB]  (13 candidates)
+   Best match: "Í listi - Íbúahreyfingin"  [✓ MATCH]
+   island.is=13 ours=13 overlap=13
+      All 13 candidates match ✓
+
+── myrdalshr  [MYA]  (9 candidates)
+   Best match: "A listi - A fyrir alla"  [✓ MATCH]
+   island.is=9 ours=9 overlap=9
+      All 9 candidates match ✓
+
+── myrdalshr  [MYZ]  (9 candidates)
+   Best match: "Z listi - Samfélagið"  [✓ MATCH]
+   island.is=9 ours=9 overlap=9
+      All 9 candidates match ✓
+
+── nordurping  [NBO]  (17 candidates)
+   Best match: "Ó listi - Óskalistinn"  [✓ MATCH]
+   island.is=17 ours=17 overlap=17
+      All 17 candidates match ✓
+
+── nordurping  [NPM]  (17 candidates)
+   Best match: "M listi - Listi samfélagsins"  [✓ MATCH]
+   island.is=17 ours=17 overlap=17
+      All 17 candidates match ✓
+
+── nordurping  [NPV]  (17 candidates)
+   Best match: "V listi - V-listi velferðar"  [✓ MATCH]
+   island.is=17 ours=17 overlap=17
+      All 17 candidates match ✓
+
+── rangarthingytra  [RYA]  (13 candidates)
+   Best match: "Á listi - Á-listinn"  [✓ MATCH]
+   island.is=13 ours=13 overlap=13
+      All 13 candidates match ✓
+
+── skaftarhreppur  [SKO]  (9 candidates)
+   Best match: "Ö listi - Öflugt samfélag"  [✓ MATCH]
+   island.is=9 ours=9 overlap=9
+      All 9 candidates match ✓
+
+── skagafjordur  [SFL]  (18 candidates)
+   Best match: "L listi - Byggðalistinn"  [✓ MATCH]
+   island.is=18 ours=18 overlap=18
+      All 18 candidates match ✓
+
+── skeidagnup  [SGE]  (9 candidates)
+   Best match: "E listi - Uppbygging"  [✓ MATCH]
+   island.is=9 ours=9 overlap=9
+      All 9 candidates match ✓
+
+── skeidagnup  [SGL]  (10 candidates)
+   Best match: "L listi - Samvinnulistinn"  [✓ MATCH]
+   island.is=10 ours=10 overlap=10
+      All 10 candidates match ✓
+
+── strandabyggd  [SBD]  (10 candidates)
+   Best match: "T listi - Strandabandalagið"  [✓ MATCH]
+   island.is=10 ours=10 overlap=10
+      All 10 candidates match ✓
+
+── strandabyggd  [VGV]  (9 candidates)
+   Best match: "G listi - Vegvísir"  [✓ MATCH]
+   island.is=9 ours=9 overlap=9
+      All 9 candidates match ✓
+
+── stykkisholmur  [FLS]  (13 candidates)
+   Best match: "H listi - Listi framfarasinna"  [✓ MATCH]
+   island.is=13 ours=13 overlap=13
+      All 13 candidates match ✓
+
+── stykkisholmur  [IBU]  (13 candidates)
+   Best match: "Í listi - Íbúalistinn"  [✓ MATCH]
+   island.is=13 ours=13 overlap=13
+      All 13 candidates match ✓
+
+── sudavik  [FJL]  (10 candidates)
+   Best match: "A listi - Fjarðarlistinn"  [✓ MATCH]
+   island.is=10 ours=10 overlap=10
+      All 10 candidates match ✓
+
+── sudavik  [FTL]  (9 candidates)
+   Best match: "E listi - Framtíðarlistinn"  [✓ MATCH]
+   island.is=9 ours=9 overlap=9
+      All 9 candidates match ✓
+
+── thingeyjarsveit  [THVA]  (13 candidates)
+   Best match: "Á listi - Ábyrgðar"  [✓ MATCH]
+   island.is=13 ours=13 overlap=13
+      All 13 candidates match ✓
+
+── thingeyjarsveit  [THVL]  (13 candidates)
+   Best match: "L listi - Framfara"  [✓ MATCH]
+   island.is=13 ours=13 overlap=13
+      All 13 candidates match ✓
+
+── thingeyjarsveit  [THVN]  (13 candidates)
+   Best match: "N listi - N listinn"  [✓ MATCH]
+   island.is=13 ours=13 overlap=13
+      All 13 candidates match ✓
+
+── vesturbyggd  [STV]  (13 candidates)
+   Best match: "V listi - Sterkari Vesturbyggð"  [✓ MATCH]
+   island.is=13 ours=13 overlap=13
+      All 13 candidates match ✓
+
+── vogar  [FYRS]  (13 candidates)
+   Best match: "A listi - Fyrir samfélagið"  [✓ MATCH]
+   island.is=13 ours=13 overlap=13
+      All 13 candidates match ✓
+
+── vogar  [VOE]  (13 candidates)
+   Best match: "E listi - Framboðsfélag E-listans"  [✓ MATCH]
+   island.is=13 ours=13 overlap=13
+      All 13 candidates match ✓
+
+── vogar  [VOL]  (13 candidates)
+   Best match: "L listi - Framfarafélag L-listans"  [✓ MATCH]
+   island.is=13 ours=13 overlap=13
+      All 13 candidates match ✓

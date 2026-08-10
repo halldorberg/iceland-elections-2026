@@ -1,0 +1,15 @@
+{
+  "slug": "sudavikurhreppur-fjardarlistinn",
+  "name": "Fjarðarlistinn",
+  "color": "#FF5500",
+  "answersString": "",
+  "abbreviation": "A",
+  "runningInConstituencies": [
+    {
+      "id": "4803",
+      "__typename": "Constituency"
+    }
+  ],
+  "answers": [],
+  "__typename": "Party"
+}

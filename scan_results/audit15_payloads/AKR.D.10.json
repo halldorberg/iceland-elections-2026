@@ -1,0 +1,33 @@
+{
+  "id": "AKR.D.10",
+  "bio": "Þura Björk Hreinsdóttir er hjúkrunarfræðingur og framkvæmdastjóri hjúkrunar og rekstrar hjá Heilbrigðisstofnun Vesturlands (HVE). Hún lauk BS-prófi í hjúkrunarfræði árið 2007 og meistaranámi í forystu og stjórnun árið 2017. Hún hefur starfað innan heilbrigðisþjónustunnar á Akranesi um árabil og er meðal yfirstjórnar HVE, sem rekur meðal annars sjúkrahúsið og fæðingardeildina á Akranesi. Þura skipar 10. sæti á lista Sjálfstæðisflokksins á Akranesi fyrir sveitarstjórnarkosningarnar 16. maí 2026.",
+  "sources": [
+    "https://xd.is/2026/02/27/lif-leidir-afram-frambod-sjalfstaedisflokksins-a-akranesi/",
+    "https://www.hve.is/frettir/thura-bjork-framkvaemdastjori-hjukrunar-og-rekstrar-a-hve/",
+    "https://skessuhorn.is/2020/05/20/lionsklubbar-gefa-faedingarum-til-hve-a-akranesi/"
+  ],
+  "statements": [
+    {"n": 1, "status": "verified", "claim": "hjúkrunarframkvæmdastjóri / framkvæmdastjóri hjúkrunar", "quotes": ["Þura Björk Hreinsdóttir, framkvæmdastjóri hjúkrunar", "Þura Björk Hreinsdóttir hjúkrunarframkvæmdastjóri"]},
+    {"n": 2, "status": "flagged", "claim": "framkvæmdastjóri hjúkrunar OG REKSTRAR", "notes": "xd.is segir aðeins 'framkvæmdastjóri hjúkrunar'. HVE-frétt er 404 í cache. 'og rekstrar' er ekki staðfest af aðgengilegum heimildum (titill greinarinnar í cache.manifest bendir til þess en innihaldið er glatað)."},
+    {"n": 3, "status": "flagged", "claim": "BS-próf í hjúkrunarfræði 2007", "notes": "Engin tilvitnuð heimild með aðgengi staðfestir ártalið."},
+    {"n": 4, "status": "flagged", "claim": "meistaranám í forystu og stjórnun 2017", "notes": "Engin tilvitnuð heimild með aðgengi staðfestir ártalið eða námið."},
+    {"n": 5, "status": "verified", "claim": "starfar á Akranesi innan heilbrigðisþjónustunnar (HVE)", "quotes": ["Frá móttöku gjafarinnar. F.v. Þura Björk Hreinsdóttir hjúkrunarframkvæmdastjóri ... Lionsklúbbar gefa fæðingarúm til HVE á Akranesi"]},
+    {"n": 6, "status": "verified", "claim": "HVE rekur sjúkrahúsið/fæðingardeildina á Akranesi", "quotes": ["Lionsklúbbar gefa fæðingarúm til HVE á Akranesi", "Katarina Anna Schumacher fæðinga- og kvensjúkdómalæknir"]},
+    {"n": 7, "status": "verified", "claim": "skipar 10. sæti á lista Sjálfstæðisflokksins á Akranesi", "quotes": ["Þura Björk Hreinsdóttir, framkvæmdastjóri hjúkrunar"]},
+    {"n": 8, "status": "verified", "claim": "kosningar 16. maí 2026", "quotes": ["bæjarstjórnarkosningarnar 16.maí 2026"]}
+  ],
+  "summary": "5 verified, 0 rescued, 3 flagged",
+  "rescue": {
+    "rewrite": "Þura Björk Hreinsdóttir er hjúkrunarframkvæmdastjóri hjá Heilbrigðisstofnun Vesturlands (HVE). Hún hefur starfað innan heilbrigðisþjónustunnar á Akranesi um árabil og kemur meðal annars að rekstri sjúkrahússins og fæðingardeildarinnar á Akranesi sem HVE rekur. Þura skipar 10. sæti á lista Sjálfstæðisflokksins á Akranesi fyrir bæjarstjórnarkosningarnar 16. maí 2026.",
+    "rewrite_words": 47,
+    "new_sources": [],
+    "resolutions": [
+      {"kind": "dropped", "text": "'og rekstrar' fellt — ekki staðfest af aðgengilegum heimildum (HVE-cache 404)."},
+      {"kind": "dropped", "text": "Ártöl náms (2007, 2017) felld — engin staðfest heimild."}
+    ],
+    "new_heimild": [
+      {"url": "https://xd.is/2026/02/27/lif-leidir-afram-frambod-sjalfstaedisflokksins-a-akranesi/", "label": "Líf leiðir áfram framboð Sjálfstæðisflokksins á Akranesi (xd.is)"},
+      {"url": "https://skessuhorn.is/2020/05/20/lionsklubbar-gefa-faedingarum-til-hve-a-akranesi/", "label": "Lionsklúbbar gefa fæðingarúm til HVE á Akranesi (Skessuhorn)"}
+    ]
+  }
+}

@@ -1,0 +1,281 @@
+{
+  "scan_type": "news",
+  "scan_date": "2026-05-01",
+  "agent_note": "Agent B — Haf+Gar+Rnb top2 + smaller munis. Searches focused on non-election angles (sport, career, board roles, union, controversies, interviews); strict identity verification before adding.",
+  "results": [
+    {
+      "id": "HAF.S.2",
+      "muni_slug": "hafnarfjordur",
+      "party_code": "S",
+      "ballot": 2,
+      "name": "Hildur Rós Guðbjargardóttir",
+      "new_articles": [
+        {"title": "Hildur Rós Guðbjargardóttir nýr formaður Kvennahreyfingarinnar", "url": "https://frettatiminn.is/14/12/2022/hildur-ros-gudbjargardottir-nyr-formadur-kvennahreyfingarinnar/", "source": "frettatiminn.is"},
+        {"title": "Ung til athafna", "url": "https://www.visir.is/g/20262829735d/ung-til-at-hafna", "source": "visir.is"},
+        {"title": "Ný framkvæmdastjórn Samfylkingarinnar", "url": "https://www.mbl.is/frettir/innlent/2022/10/29/ny_framkvaemdastjorn_samfylkingarinnar/", "source": "mbl.is"}
+      ]
+    },
+    {
+      "id": "GAR.D.1",
+      "muni_slug": "gardabaer",
+      "party_code": "D",
+      "ballot": 1,
+      "name": "Almar Guðmundsson",
+      "new_articles": [
+        {"title": "Almar undrandi: „Staðsetningin er algjörlega klár\"", "url": "https://www.mbl.is/frettir/innlent/2025/03/01/almar_undrandi_stadsetningin_er_algjorlega_klar/", "source": "mbl.is"},
+        {"title": "Leikskólapláss stórt jafnréttismál", "url": "https://www.mbl.is/frettir/innlent/2024/09/30/leikskolaplass_stort_jafnrettismal/", "source": "mbl.is"}
+      ]
+    },
+    {
+      "id": "GAR.D.2",
+      "muni_slug": "gardabaer",
+      "party_code": "D",
+      "ballot": 2,
+      "name": "Björg Fenger",
+      "new_articles": [
+        {"title": "Sjálfstæðismaður um Björgu Fenger og Garðabæ: „Þetta getur ekki haldið svona áfram\"", "url": "https://gamla.mannlif.is/frettir/innlent/sjalfstaedismadur-um-bjorg-fenger-og-gardabaer-thetta-getur-ekki-haldid-svona-afram/", "source": "mannlif.is"}
+      ]
+    },
+    {
+      "id": "GAR.GB.2",
+      "muni_slug": "gardabaer",
+      "party_code": "GB",
+      "ballot": 2,
+      "name": "Guðjón Pétur Lýðsson",
+      "new_articles": [
+        {"title": "Fótboltamaður byggir upp fasteignaveldi – Athafnamaðurinn Guðjón Pétur skorar innan vallar og utan", "url": "https://gamla.mannlif.is/frettir/fotboltamadur-byggir-upp-fasteignaveldi-athafnamadurinn-gudjon-petur-skorar-innan-og-utan-vallar/", "source": "mannlif.is"}
+      ]
+    },
+    {
+      "id": "GAR.S.2",
+      "muni_slug": "gardabaer",
+      "party_code": "S",
+      "ballot": 2,
+      "name": "Vilborg Anna Strange Garðarsdóttir",
+      "new_articles": [
+        {"title": "Sterkur og skapandi Garðabær", "url": "https://www.visir.is/g/20262871521d/sterkur-og-skapandi-gardabaer", "source": "visir.is"}
+      ]
+    },
+    {
+      "id": "REY.B.1",
+      "muni_slug": "reykjanesbaer",
+      "party_code": "B",
+      "ballot": 1,
+      "name": "Halldóra Fríða Þorvaldsdóttir",
+      "new_articles": [
+        {"title": "Fagnaðaróp þegar heita vatnið kom á", "url": "https://www.mbl.is/frettir/innlent/2024/02/12/fagnadarop_thegar_heita_vatnid_kom_a/", "source": "mbl.is"},
+        {"title": "Fylgst grannt með þróun mála í Reykjanesbæ", "url": "https://www.mbl.is/frettir/innlent/2025/07/16/fylgst_grannt_med_throun_mala_i_reykjanesbae/", "source": "mbl.is"}
+      ]
+    },
+    {
+      "id": "REY.D.1",
+      "muni_slug": "reykjanesbaer",
+      "party_code": "D",
+      "ballot": 1,
+      "name": "Vilhjálmur Árnason",
+      "new_articles": [
+        {"title": "Vilhjálmur segir ákvörðunina varhugaverða", "url": "https://www.mbl.is/frettir/innlent/2025/05/14/segir_akvordunina_varhugaverda/", "source": "mbl.is"},
+        {"title": "Tókust á um auknar valdheimildir lögreglu", "url": "https://www.mbl.is/frettir/innlent/2022/09/25/tokust_a_um_auknar_valdheimildir_logreglu/", "source": "mbl.is"}
+      ]
+    },
+    {
+      "id": "AKU.D.1",
+      "muni_slug": "akureyri",
+      "party_code": "D",
+      "ballot": 1,
+      "name": "Berglind Ósk Guðmundsdóttir",
+      "new_articles": [
+        {"title": "Berglind sækist eftir 2. sæti", "url": "https://www.mbl.is/frettir/innlent/2021/02/23/berglind_saekist_eftir_2_saeti/", "source": "mbl.is"}
+      ]
+    },
+    {
+      "id": "AKU.L.1",
+      "muni_slug": "akureyri",
+      "party_code": "L",
+      "ballot": 1,
+      "name": "Óðinn Svan Óðinsson",
+      "new_articles": [
+        {"title": "10 bestu - Óðinn Svan Óðinsson", "url": "https://www.kaffid.is/10-bestu-odinn-svan-odinsson/", "source": "kaffid.is"}
+      ]
+    },
+    {
+      "id": "AKU.AL.1",
+      "muni_slug": "akureyri",
+      "party_code": "AL",
+      "ballot": 1,
+      "name": "Þórhallur Jónsson",
+      "new_articles": [
+        {"title": "Þórhallur hjólar í tillögur ráðherra", "url": "https://www.mbl.is/frettir/innlent/2025/12/21/thorhallur_hjolar_i_tillogur_radherra/", "source": "mbl.is"}
+      ]
+    },
+    {
+      "id": "MOS.D.1",
+      "muni_slug": "mosfellsbaer",
+      "party_code": "D",
+      "ballot": 1,
+      "name": "Hilmar Gunnarsson",
+      "new_articles": [
+        {"title": "Mosfellingur endurspeglar gott mannlíf", "url": "https://www.mbl.is/frettir/innlent/2020/12/12/mosfellingur_endurspeglar_gott_mannlif/", "source": "mbl.is"},
+        {"title": "Nýtt fólk - sama blaðið", "url": "https://mosfellingur.is/nytt-folk-sama-bladid/", "source": "mosfellingur.is"}
+      ]
+    },
+    {
+      "id": "MOS.B.1",
+      "muni_slug": "mosfellsbaer",
+      "party_code": "B",
+      "ballot": 1,
+      "name": "Sævar Birgisson",
+      "new_articles": [
+        {"title": "Meiri Mosó á Blikastöðum", "url": "https://mosfellingur.is/meiri-moso-a-blikastodum/", "source": "mosfellingur.is"}
+      ]
+    },
+    {
+      "id": "ARB.D.1",
+      "muni_slug": "arborg",
+      "party_code": "D",
+      "ballot": 1,
+      "name": "Bragi Bjarnason",
+      "new_articles": [
+        {"title": "Bragi mun bjóða sig fram til forystu aftur", "url": "https://www.mbl.is/frettir/innlent/2025/05/14/bragi_mun_bjoda_sig_fram_til_forystu_aftur/", "source": "mbl.is"}
+      ]
+    },
+    {
+      "id": "MUL.B.1",
+      "muni_slug": "mulathing",
+      "party_code": "B",
+      "ballot": 1,
+      "name": "Jónína Brynjólfsdóttir",
+      "new_articles": [
+        {"title": "Segir skipun samgönguráðs lykta af kjördæmapoti", "url": "https://www.mbl.is/frettir/innlent/2025/08/30/segir_skipun_samgongurads_lykta_af_kjordaemapoti/", "source": "mbl.is"},
+        {"title": "Þungi á fundi þingmanna og sveitarstjórnarfólks", "url": "https://www.mbl.is/frettir/innlent/2025/12/09/thungi_a_fundi_thingmanna_og_sveitarstjornarfolks/", "source": "mbl.is"},
+        {"title": "„Það er bara dýrara að halda árshátíð úti á landi\"", "url": "https://www.mbl.is/frettir/innlent/2024/04/16/thad_er_bara_dyrara_ad_halda_arshatid_uti_a_landi/", "source": "mbl.is"}
+      ]
+    },
+    {
+      "id": "MUL.D.1",
+      "muni_slug": "mulathing",
+      "party_code": "D",
+      "ballot": 1,
+      "name": "Berglind Harpa Svavarsdóttir",
+      "new_articles": [
+        {"title": "Heilsugæslur illa tækjum búnar", "url": "https://www.mbl.is/frettir/kosning/2022/03/11/heilsugaeslur_illa_taekjum_bunar/", "source": "mbl.is"}
+      ]
+    },
+    {
+      "id": "MUL.V.1",
+      "muni_slug": "mulathing",
+      "party_code": "V",
+      "ballot": 1,
+      "name": "Ásrún Mjöll Stefánsdóttir",
+      "new_articles": [
+        {"title": "Innviðaráðuneytið staðfestir vanhæfi Ásrúnar Mjallar", "url": "https://www.austurfrett.is/frettir/innvidharadhuneytidh-stadhfestir-vanhaefi-asrunar-mjallar", "source": "austurfrett.is"},
+        {"title": "Blekkingarleikur á kostnað náttúrunnar", "url": "https://www.visir.is/g/20222253442d/blekkingar-leikur-a-kostnad-natturunnar", "source": "visir.is"}
+      ]
+    },
+    {
+      "id": "MUL.L.1",
+      "muni_slug": "mulathing",
+      "party_code": "L",
+      "ballot": 1,
+      "name": "Hólmfríður Rut Einarsdóttir",
+      "new_articles": [
+        {"title": "Erum við að missa sjónar á því sem stendur okkur næst?", "url": "https://www.visir.is/g/20262871254d/erum-vid-ad-missa-sjonar-a-thvi-sem-stendur-okkur-naest-", "source": "visir.is"}
+      ]
+    },
+    {
+      "id": "FJA.D.1",
+      "muni_slug": "fjardabyggd",
+      "party_code": "D",
+      "ballot": 1,
+      "name": "Ragnar Sigurðsson",
+      "new_articles": [
+        {"title": "Tvöfalda framlögin eftir áföll síðustu ára", "url": "https://www.mbl.is/frettir/innlent/2025/09/03/tvofalda_framlogin_eftir_afoll_sidustu_ara/", "source": "mbl.is"},
+        {"title": "Ragnar Sigurðsson ráðinn framkvæmdastjóri hjúkrunarheimilanna í Fjarðabyggð", "url": "https://www.fjardabyggd.is/frettir/ragnar-sigurdsson-radinn-framkvaemdastjori-hjukrunarheimilanna-i-fjardabyggd", "source": "fjardabyggd.is"}
+      ]
+    },
+    {
+      "id": "FJA.S.1",
+      "muni_slug": "fjardabyggd",
+      "party_code": "S",
+      "ballot": 1,
+      "name": "Stefán Þór Eysteinsson",
+      "new_articles": [
+        {"title": "Gerir ráð fyrir að fundað verði um vatnsmálið", "url": "https://www.mbl.is/frettir/innlent/2025/08/06/gerir_rad_fyrir_ad_fundad_verdi_um_vatnsmalid/", "source": "mbl.is"},
+        {"title": "Finna fyrir ónotum við tilhugsunina", "url": "https://www.mbl.is/frettir/innlent/2025/09/12/finna_fyrir_onotum_vid_tilhugsunina/", "source": "mbl.is"},
+        {"title": "Doktorsvörn í matvælafræði - Stefán Þór Eysteinsson", "url": "https://www.hi.is/vidburdir/doktorsvorn_i_matvaelafraedi_stefan_thor_eysteinsson", "source": "hi.is"}
+      ]
+    },
+    {
+      "id": "SEL.D.1",
+      "muni_slug": "seltjarnarnes",
+      "party_code": "D",
+      "ballot": 1,
+      "name": "Þór Sigurgeirsson",
+      "new_articles": [
+        {"title": "Maður fólksins!", "url": "https://lifdununa.is/grein/madur-folksins/", "source": "lifdununa.is"}
+      ]
+    },
+    {
+      "id": "VES.D.1",
+      "muni_slug": "vestmannaeyjar",
+      "party_code": "D",
+      "ballot": 1,
+      "name": "Eyþór Harðarson",
+      "new_articles": [
+        {"title": "Gera allt klárt fyrir loðnuvertíð í Eyjum", "url": "https://www.mbl.is/200milur/frettir/2026/01/29/gera_allt_klart_fyrir_lodnuvertid_i_eyjum/", "source": "mbl.is"}
+      ]
+    },
+    {
+      "id": "BOR.M.1",
+      "muni_slug": "borgarbyggd",
+      "party_code": "M",
+      "ballot": 1,
+      "name": "Haukur Þór Hauksson",
+      "new_articles": [
+        {"title": "Haukur Þór Hauksson – Félag atvinnurekenda", "url": "https://atvinnurekendur.is/formenn/haukur-thor/", "source": "atvinnurekendur.is"}
+      ]
+    },
+    {
+      "id": "ISA.B.1",
+      "muni_slug": "isafjordur",
+      "party_code": "B",
+      "ballot": 1,
+      "name": "Kristján Þór Kristjánsson",
+      "new_articles": [
+        {"title": "Viðtalið: Kristján Þór Kristjánsson", "url": "https://www.bb.is/2024/05/vidtalid-kristjan-thor-kristjansson/", "source": "bb.is"}
+      ]
+    },
+    {
+      "id": "ISA.C.1",
+      "muni_slug": "isafjordur",
+      "party_code": "C",
+      "ballot": 1,
+      "name": "Gylfi Ólafsson",
+      "new_articles": [
+        {"title": "Gylfi Ólafsson nýr forstjóri Heilbrigðisstofnunar Vestfjarða", "url": "https://www.visir.is/g/2018180629596", "source": "visir.is"},
+        {"title": "Gylfi ráðinn aðstoðarmaður Benedikts", "url": "https://skessuhorn.is/2016/11/02/gylfi-radinn-adstodarmadur-benedikts", "source": "skessuhorn.is"}
+      ]
+    },
+    {
+      "id": "HVE.OKH.1",
+      "muni_slug": "hveragerdi",
+      "party_code": "OKH",
+      "ballot": 1,
+      "name": "Lárus Jónsson",
+      "new_articles": [
+        {"title": "Lárus Jónsson tekur við Þórsurum", "url": "https://hafnarfrettir.is/2020/04/15/larus-jonsson-tekur-vid-thorsurum/", "source": "hafnarfrettir.is"},
+        {"title": "Þarf víst að fara að skila mér heim", "url": "https://www.mbl.is/sport/korfubolti/2025/09/04/tharf_vist_ad_fara_ad_skila_mer_heim/", "source": "mbl.is"}
+      ]
+    },
+    {
+      "id": "NOR.B.1",
+      "muni_slug": "nordurping",
+      "party_code": "B",
+      "ballot": 1,
+      "name": "Eysteinn Heiðar Kristjánsson",
+      "new_articles": [
+        {"title": "Vaðlaheiðargöng hafa skipt sköpum með sjúkraflutninga", "url": "https://www.vadlaheidi.is/is/frettir/vadlaheidargong-hafa-skipt-skopum-med-sjukraflutninga", "source": "vadlaheidi.is"}
+      ]
+    }
+  ]
+}

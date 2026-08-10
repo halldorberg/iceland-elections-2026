@@ -1,0 +1,72 @@
+L4815: seat=1 name=Björg Ásta Þórðardóttir
+L4820: seat=2 name=Guðmann Rúnar Lúðvíksson
+L4845: seat=1 name=Birgir Örn Ólafsson
+L4850: seat=2 name=Eva Björk Jónsdóttir
+L4875: seat=1 name=Kristinn Björgvinsson
+L4882: seat=2 name=Eðvarð Atli Bjarnason
+L5008: seat=1 name=Anton Kristinn Guðmundsson
+L5016: seat=2 name=Magnús Sigfús Magnússon
+L5045: seat=1 name=Haukur Andreasson
+L5050: seat=2 name=Haraldur Helgason
+L5082: seat=1 name=Daði Bergþórsson
+L5089: seat=2 name=Sigrún Harpa Sigurjóns. Heide
+L5118: seat=1 name=Svavar Grétarsson
+L5123: seat=2 name=Bergný Jóna Sævarsdóttir
+L5488: seat=2 name=Trausti Hjaltason
+L5526: seat=2 name=Anton Örn Björnsson
+L5567: seat=2 name=Sæunn Magnúsdóttir
+L6278: seat=1 name=Sveinn Hreiðar Jensson
+L6283: seat=2 name=Sigurður Árnason
+L6304: seat=1 name=Jóhannes Gissurarson
+L6309: seat=2 name=Auður Guðbjörnsdóttir
+L6510: seat=1 name=Jón Bjarnason
+L6515: seat=2 name=Bjarney Vignisdóttir
+L6536: seat=1 name=Daði Geir Samúelsson
+L6541: seat=2 name=Rakel Ósk Kristófersdóttir
+L6622: seat=1 name=Gunnar Örn Marteinsson
+L6627: seat=2 name=Ingibjörg Sæunn Jónsdóttir
+L6648: seat=1 name=Haraldur Þór Jónsson
+L6653: seat=2 name=Vilborg María Ástráðsdóttir
+L6871: seat=1 name=Árni Rúnar Örvarsson
+L6876: seat=2 name=Katrín Olsen Björnsdóttir
+L6897: seat=1 name=Sunna María Jónasdóttir
+L6902: seat=2 name=Róbert Fanndal Jósavinsson
+L6923: seat=1 name=Bjarki Brynjólfsson
+L6928: seat=2 name=Ásta Hafberg
+L6960: seat=2 name=Sara Björk Þorsteinsdóttir
+L6994: seat=2 name=Jenný Lind Gunnarsdóttir
+L7030: seat=2 name=Zophonías Ari Lárusson
+L7063: seat=1 name=Sigurður Líndal Þórisson
+L7068: seat=2 name=Nína Axelsdóttir
+L7093: seat=1 name=Örn Arnarson
+L7098: seat=2 name=Sigríður Ólafsdóttir
+L7123: seat=1 name=Viktor Ingi Jónsson
+L7128: seat=2 name=Magnús Vignir Eðvaldsson
+L7161: seat=1 name=Einar Eðvald Einarsson
+L7166: seat=2 name=Hrund Pétursdóttir
+L7195: seat=1 name=Magnús Barðdal Reynisson
+L7200: seat=2 name=Sólborg S. Borgarsdóttir
+L7233: seat=1 name=Eyþór Fannar Sveinsson
+L7238: seat=2 name=Jóhanna Ey Harðardóttir
+L7271: seat=1 name=Högni Elfar Gylfason
+L7276: seat=2 name=Jódís Helga Káradóttir
+L7744: seat=2 name=Ingibjörg Sveinsdóttir
+L7745: seat=3 name=Björgvin Óskar Sigurjónsson
+L7746: seat=4 name=Kolbrún Þorbjörg Björnsdóttir
+L7747: seat=5 name=Gunnar Ásgeirsson
+L7773: seat=1 name=Gauti Árnason
+L7778: seat=2 name=Hjördís Edda Olgeirsdóttir
+L7779: seat=3 name=Ásta Steinunn Eiríksdóttir
+L7780: seat=4 name=Ágústa Arnardóttir
+L7781: seat=5 name=Sindri Ragnarsson
+L7808: seat=2 name=Guðrún Stefanía Vopnfjörð Ingólfsdóttir
+L7809: seat=3 name=Elías Tjörvi Halldórsson
+L7810: seat=4 name=Wiktoria Anna Darnowska
+L7811: seat=5 name=Sigrún Sigurgeirsdóttir
+L7833: seat=1 name=Reynir Ásgeirsson
+L7841: seat=2 name=Stefán Freyr Jónsson
+L7842: seat=3 name=Herdís I Waage
+L7843: seat=4 name=Erlingur Ingi Brynjólfsson
+L7844: seat=5 name=Valur Pálsson
+L9379: seat=1 name=Ásgeir Jónsson
+L9384: seat=2 name=Þóra Björk Þórarinsdóttir

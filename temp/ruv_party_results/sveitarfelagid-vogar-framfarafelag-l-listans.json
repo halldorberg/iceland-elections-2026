@@ -1,0 +1,438 @@
+{
+  "slug": "sveitarfelagid-vogar-framfarafelag-l-listans",
+  "name": "Framfarafélag L-listans",
+  "color": "#00AFCC",
+  "answersString": "D!;C!;1/5!;D;C!;D!;D;A;C;C;D;D;C;D;C;B;D;D;C;A;C;C;[2,4,9]",
+  "abbreviation": "L",
+  "runningInConstituencies": [
+    {
+      "id": "2506",
+      "__typename": "Constituency"
+    }
+  ],
+  "answers": [
+    {
+      "important": true,
+      "questionId": "35",
+      "questionType": "PROPOSITION",
+      "stringValue": "D!",
+      "value": "D",
+      "question": {
+        "__typename": "PropositionQuestion",
+        "id": "35",
+        "slug": "ad-er-gott-ad-bua-i-minu-sveitarfelagi",
+        "title": "Það er gott að búa í mínu sveitarfélagi.",
+        "type": "PROPOSITION"
+      },
+      "__typename": "PropositionQuestionAnswer"
+    },
+    {
+      "important": true,
+      "questionId": "38",
+      "questionType": "PROPOSITION",
+      "stringValue": "C!",
+      "value": "C",
+      "question": {
+        "__typename": "PropositionQuestion",
+        "id": "38",
+        "slug": "eg-er-anaegdur-med-tha-thjonustu-sem-sveitarfelagid-veitir-mer",
+        "title": "Ég er ánægð/ur með þá þjónustu sem sveitarfélagið veitir mér.",
+        "type": "PROPOSITION"
+      },
+      "__typename": "PropositionQuestionAnswer"
+    },
+    {
+      "important": true,
+      "questionId": "40",
+      "questionType": "RANGE",
+      "stringValue": "1/5!",
+      "value": "1",
+      "question": {
+        "__typename": "RangeQuestion",
+        "id": "40",
+        "slug": "hvernig-aettu-skattar-og-gjold-ad-vera-i-sveitarfelaginu-midad-vid-stoduna-i-dag",
+        "title": "Hvernig ættu skattar og gjöld að vera í sveitarfélaginu miðað við stöðuna í dag?",
+        "type": "RANGE",
+        "positions": []
+      },
+      "__typename": "RangeQuestionAnswer"
+    },
+    {
+      "important": false,
+      "questionId": "43",
+      "questionType": "PROPOSITION",
+      "stringValue": "D",
+      "value": "D",
+      "question": {
+        "__typename": "PropositionQuestion",
+        "id": "43",
+        "slug": "fjolga-aetti-ibuakosningum-svo-ad-almenningur-geti-tekid-meiri-thatt-i-akvordunum-i-sveitarfelaginu",
+        "title": "Fjölga ætti íbúakosningum svo að almenningur geti tekið meiri þátt í ákvörðunum í sveitarfélaginu.",
+        "type": "PROPOSITION"
+      },
+      "__typename": "PropositionQuestionAnswer"
+    },
+    {
+      "important": true,
+      "questionId": "45",
+      "questionType": "PROPOSITION",
+      "stringValue": "C!",
+      "value": "C",
+      "question": {
+        "__typename": "PropositionQuestion",
+        "id": "45",
+        "slug": "sveitarfelogum-aetti-ad-vera-skylt-ad-logum-ad-sja-bornum-fyrir-leikskolavist-fra-tolf-manada-aldri",
+        "title": "Sveitarfélögum ætti að vera skylt að lögum að sjá börnum fyrir leikskólavist frá tólf mánaða aldri.",
+        "type": "PROPOSITION"
+      },
+      "__typename": "PropositionQuestionAnswer"
+    },
+    {
+      "important": true,
+      "questionId": "47",
+      "questionType": "PROPOSITION",
+      "stringValue": "D!",
+      "value": "D",
+      "question": {
+        "__typename": "PropositionQuestion",
+        "id": "47",
+        "slug": "sveitarfelagid-mitt-aetti-ad-bjoda-heimgreidslur-til-foreldra-til-ad-audvelda-theim-ad-vera-heima-med-bornum-fra-thvi-ad-faedingarorlofi-lykur-og-fram-ad-leikskolavist",
+        "title": "Sveitarfélagið mitt ætti að bjóða heimgreiðslur til foreldra til að auðvelda þeim að vera heima með börnum frá því að fæðingarorlofi lýkur og fram að leikskólavist.",
+        "type": "PROPOSITION"
+      },
+      "__typename": "PropositionQuestionAnswer"
+    },
+    {
+      "important": false,
+      "questionId": "49",
+      "questionType": "PROPOSITION",
+      "stringValue": "D",
+      "value": "D",
+      "question": {
+        "__typename": "PropositionQuestion",
+        "id": "49",
+        "slug": "hvetja-aetti-foreldra-til-ad-stytta-vistunartima-leikskolabarna-gegn-afslaetti-af-gjoldum",
+        "title": "Hvetja ætti foreldra til að stytta vistunartíma leikskólabarna gegn afslætti af gjöldum.",
+        "type": "PROPOSITION"
+      },
+      "__typename": "PropositionQuestionAnswer"
+    },
+    {
+      "important": false,
+      "questionId": "50",
+      "questionType": "PROPOSITION",
+      "stringValue": "A",
+      "value": "A",
+      "question": {
+        "__typename": "PropositionQuestion",
+        "id": "50",
+        "slug": "sveitarfelagid-aetti-ad-beita-ser-fyrir-frekari-utvistun-verkefna-sinna-vid-rekstur-leik-og-grunnskola",
+        "title": "Sveitarfélagið ætti að beita sér fyrir frekari útvistun verkefna sinna við rekstur leik- og grunnskóla",
+        "type": "PROPOSITION"
+      },
+      "__typename": "PropositionQuestionAnswer"
+    },
+    {
+      "important": false,
+      "questionId": "51",
+      "questionType": "PROPOSITION",
+      "stringValue": "C",
+      "value": "C",
+      "question": {
+        "__typename": "PropositionQuestion",
+        "id": "51",
+        "slug": "sveitarfelagid-aetti-ad-nidurgreida-ithrotta-og-tomstundaidkun-barna-meira-en-nu-er-gert",
+        "title": "Sveitarfélagið ætti að niðurgreiða íþrótta- og tómstundaiðkun barna meira en nú er gert.",
+        "type": "PROPOSITION"
+      },
+      "__typename": "PropositionQuestionAnswer"
+    },
+    {
+      "important": false,
+      "questionId": "52",
+      "questionType": "PROPOSITION",
+      "stringValue": "C",
+      "value": "C",
+      "question": {
+        "__typename": "PropositionQuestion",
+        "id": "52",
+        "slug": "verja-aetti-meira-fe-til-ad-stydja-menningarlif-i-sveitarfelaginu",
+        "title": "Verja ætti meira fé til að styðja menningarlíf í sveitarfélaginu.",
+        "type": "PROPOSITION"
+      },
+      "__typename": "PropositionQuestionAnswer"
+    },
+    {
+      "important": false,
+      "questionId": "53",
+      "questionType": "PROPOSITION",
+      "stringValue": "D",
+      "value": "D",
+      "question": {
+        "__typename": "PropositionQuestion",
+        "id": "53",
+        "slug": "haelisleitendur-a-barnsaldri-aettu-ad-fa-somu-thjonustu-i-sveitarfelaginu-og-adrir-ibuar",
+        "title": "Hælisleitendur á barnsaldri ættu að fá sömu þjónustu í sveitarfélaginu og aðrir íbúar.",
+        "type": "PROPOSITION"
+      },
+      "__typename": "PropositionQuestionAnswer"
+    },
+    {
+      "important": false,
+      "questionId": "54",
+      "questionType": "PROPOSITION",
+      "stringValue": "D",
+      "value": "D",
+      "question": {
+        "__typename": "PropositionQuestion",
+        "id": "54",
+        "slug": "snjomokstur-og-gotusopun-er-fullnaegjandi-i-minu-sveitarfelagi",
+        "title": "Snjómokstur og götusópun er fullnægjandi í mínu sveitarfélagi.",
+        "type": "PROPOSITION"
+      },
+      "__typename": "PropositionQuestionAnswer"
+    },
+    {
+      "important": false,
+      "questionId": "55",
+      "questionType": "PROPOSITION",
+      "stringValue": "C",
+      "value": "C",
+      "question": {
+        "__typename": "PropositionQuestion",
+        "id": "55",
+        "slug": "sveitarfelagid-aetti-ad-greida-leid-nyrra-fyrirtaekja-sem-vilja-hefja-starfsemi-a-svaedinu-med-fjarhagslegum-ivilnunum",
+        "title": "Sveitarfélagið ætti að greiða leið nýrra fyrirtækja sem vilja hefja starfsemi á svæðinu, með fjárhagslegum ívilnunum",
+        "type": "PROPOSITION"
+      },
+      "__typename": "PropositionQuestionAnswer"
+    },
+    {
+      "important": false,
+      "questionId": "57",
+      "questionType": "PROPOSITION",
+      "stringValue": "D",
+      "value": "D",
+      "question": {
+        "__typename": "PropositionQuestion",
+        "id": "57",
+        "slug": "sveitarfelagid-tharf-ad-auka-fjarhagsadstod-vid-tha-ibua-sem-lifa-undir-fataektarmorkum",
+        "title": "Sveitarfélagið þarf að auka fjárhagsaðstoð við þá íbúa sem lifa undir fátæktarmörkum.",
+        "type": "PROPOSITION"
+      },
+      "__typename": "PropositionQuestionAnswer"
+    },
+    {
+      "important": false,
+      "questionId": "59",
+      "questionType": "PROPOSITION",
+      "stringValue": "C",
+      "value": "C",
+      "question": {
+        "__typename": "PropositionQuestion",
+        "id": "59",
+        "slug": "lengja-aetti-opnunartima-sundlauga-thott-thad-kosti-sveitarfelog-fe",
+        "title": "Lengja ætti opnunartíma sundlauga, þótt það kosti sveitarfélög fé.",
+        "type": "PROPOSITION"
+      },
+      "__typename": "PropositionQuestionAnswer"
+    },
+    {
+      "important": false,
+      "questionId": "60",
+      "questionType": "PROPOSITION",
+      "stringValue": "B",
+      "value": "B",
+      "question": {
+        "__typename": "PropositionQuestion",
+        "id": "60",
+        "slug": "sveitarfelog-hafa-gengid-of-langt-i-ad-skikka-ibua-til-ad-flokka-sorp",
+        "title": "Sveitarfélög hafa gengið of langt í að skikka íbúa til að flokka sorp.",
+        "type": "PROPOSITION"
+      },
+      "__typename": "PropositionQuestionAnswer"
+    },
+    {
+      "important": false,
+      "questionId": "64",
+      "questionType": "PROPOSITION",
+      "stringValue": "D",
+      "value": "D",
+      "question": {
+        "__typename": "PropositionQuestion",
+        "id": "64",
+        "slug": "sveitarfelog-aettu-ad-verja-meira-fe-i-thjonustu-vid-eldri-borgara",
+        "title": "Sveitarfélög ættu að verja meira fé í þjónustu við eldri borgara.",
+        "type": "PROPOSITION"
+      },
+      "__typename": "PropositionQuestionAnswer"
+    },
+    {
+      "important": false,
+      "questionId": "239",
+      "questionType": "PROPOSITION",
+      "stringValue": "D",
+      "value": "D",
+      "question": {
+        "__typename": "PropositionQuestion",
+        "id": "239",
+        "slug": "sveitarfelog-aettu-ad-greida-eldri-borgurum-fristundastyrk",
+        "title": "Sveitarfélög ættu að greiða eldri borgurum frístundastyrk.",
+        "type": "PROPOSITION"
+      },
+      "__typename": "PropositionQuestionAnswer"
+    },
+    {
+      "important": false,
+      "questionId": "211",
+      "questionType": "PROPOSITION",
+      "stringValue": "C",
+      "value": "C",
+      "question": {
+        "__typename": "PropositionQuestion",
+        "id": "211",
+        "slug": "ad-var-naudsynlegt-ad-leggja-sudurnesjalinu-2-i-lofti-i-gegnum-sveitarfelagid-til-ad-flyta-framkvaemdum-vid-hana",
+        "title": "Það var nauðsynlegt að leggja Suðurnesjalínu 2 í lofti í gegnum sveitarfélagið til að flýta framkvæmdum við hana.",
+        "type": "PROPOSITION"
+      },
+      "__typename": "PropositionQuestionAnswer"
+    },
+    {
+      "important": false,
+      "questionId": "213",
+      "questionType": "PROPOSITION",
+      "stringValue": "A",
+      "value": "A",
+      "question": {
+        "__typename": "PropositionQuestion",
+        "id": "213",
+        "slug": "vogar-aettu-ad-sameinast-reykjanesbae",
+        "title": "Vogar ættu að sameinast Reykjanesbæ.",
+        "type": "PROPOSITION"
+      },
+      "__typename": "PropositionQuestionAnswer"
+    },
+    {
+      "important": false,
+      "questionId": "214",
+      "questionType": "PROPOSITION",
+      "stringValue": "C",
+      "value": "C",
+      "question": {
+        "__typename": "PropositionQuestion",
+        "id": "214",
+        "slug": "sveitarstjorn-aetti-ad-beita-ser-fyrir-thvi-ad-komid-verid-upp-landeldi-a-keilisnesi",
+        "title": "Sveitarstjórn ætti að beita sér fyrir því að komið verið upp landeldi á Keilisnesi.",
+        "type": "PROPOSITION"
+      },
+      "__typename": "PropositionQuestionAnswer"
+    },
+    {
+      "important": false,
+      "questionId": "215",
+      "questionType": "PROPOSITION",
+      "stringValue": "C",
+      "value": "C",
+      "question": {
+        "__typename": "PropositionQuestion",
+        "id": "215",
+        "slug": "ibuum-i-vogum-hefur-fjolgad-of-hratt",
+        "title": "Íbúum í Vogum hefur fjölgað of hratt.",
+        "type": "PROPOSITION"
+      },
+      "__typename": "PropositionQuestionAnswer"
+    },
+    {
+      "important": false,
+      "questionId": "240",
+      "questionType": "PRIORITY",
+      "stringValue": "[2,4,9]",
+      "value": [
+        "2",
+        "4",
+        "9"
+      ],
+      "question": {
+        "__typename": "PriorityQuestion",
+        "id": "240",
+        "slug": "hver-eru-mikilvaegustu-kosningamalin",
+        "title": "Hver eru mikilvægustu kosningamálin?",
+        "type": "PRIORITY",
+        "alternatives": [
+          {
+            "text": "Almenningssamgöngur",
+            "id": "1",
+            "__typename": "QuestionAlternative"
+          },
+          {
+            "text": "Atvinnumál",
+            "id": "2",
+            "__typename": "QuestionAlternative"
+          },
+          {
+            "text": "Bæjarbragur",
+            "id": "3",
+            "__typename": "QuestionAlternative"
+          },
+          {
+            "text": "Fjármál og rekstur sveitarfélagsins",
+            "id": "4",
+            "__typename": "QuestionAlternative"
+          },
+          {
+            "text": "Gatna- og vegamál (þ.m.t. snjómokstur og götusópun)",
+            "id": "5",
+            "__typename": "QuestionAlternative"
+          },
+          {
+            "text": "Húsnæðismál",
+            "id": "6",
+            "__typename": "QuestionAlternative"
+          },
+          {
+            "text": "Íþróttir og tómstundir",
+            "id": "7",
+            "__typename": "QuestionAlternative"
+          },
+          {
+            "text": "Málefni eldri borgara",
+            "id": "8",
+            "__typename": "QuestionAlternative"
+          },
+          {
+            "text": "Málefni leik- og grunnskóla",
+            "id": "9",
+            "__typename": "QuestionAlternative"
+          },
+          {
+            "text": "Málefni fatlaðs fólks",
+            "id": "10",
+            "__typename": "QuestionAlternative"
+          },
+          {
+            "text": "Menningarmál",
+            "id": "11",
+            "__typename": "QuestionAlternative"
+          },
+          {
+            "text": "Samgöngumál",
+            "id": "12",
+            "__typename": "QuestionAlternative"
+          },
+          {
+            "text": "Skattar og gjöld",
+            "id": "13",
+            "__typename": "QuestionAlternative"
+          },
+          {
+            "text": "Sorphirða",
+            "id": "14",
+            "__typename": "QuestionAlternative"
+          }
+        ]
+      },
+      "__typename": "PriorityQuestionAnswer"
+    }
+  ],
+  "__typename": "Party"
+}

@@ -1,0 +1,102 @@
+[
+  {
+    "muni_name": "Bolungarvík",
+    "code": "MMM",
+    "list_name": "Máttur meyja og manna (K-listinn)",
+    "found": true,
+    "best_url": "https://www.klistinn.is/íslenska",
+    "source_type": "official",
+    "notes": "K-listinn (MMM) has a full 2026 stefnuskrá published on their official site klistinn.is in Icelandic, English and Polish. Detailed policy by category: business, harbor, citizen democracy, environment, welfare, culture/tourism, education/sports, administration, residents, financial management. The site is already in sources_in_data; this is the dedicated stefnuskrá page within it.",
+    "fb_page_url": "https://www.facebook.com/people/M%C3%81TTUR-MEYJA-OG-MANNA/100068061552738/"
+  },
+  {
+    "muni_name": "Eyjafjarðarsveit",
+    "code": "EJK",
+    "list_name": "K-listinn — öflug Eyjafjarðarsveit",
+    "found": true,
+    "best_url": "https://bb.is/2026/05/samvinna-reynsla-og-framtidarsyn/",
+    "source_type": "op-ed",
+    "notes": "K-listinn does not appear to have a dedicated website. Op-ed/news coverage in Bæjarins Besta (May 2026) titled 'Samvinna, reynsla og framtíðarsýn' summarizes platform priorities (responsible/democratic/honest work, prosperity for residents, diverse experience). K-listinn has an active Facebook page where they post candidate spotlights and platform content.",
+    "fb_page_url": "https://www.facebook.com/k.listinn.esveit/"
+  },
+  {
+    "muni_name": "Grindavík",
+    "code": "D",
+    "list_name": "Sjálfstæðisflokkurinn í Grindavík",
+    "found": false,
+    "best_url": "https://www.visir.is/g/20262874841d/timi-undanbragda-er-lidinn-maetir-radherra-med-svor-",
+    "source_type": "op-ed",
+    "notes": "No dedicated 2026 stefnuskrá found for D-listi Grindavík. xd.is/sveitastjornir/grindavik/ shows only 2022-elected representatives, no 2026 platform content. National xd.is platform is generic. Best campaign-related content is op-eds by candidates: Hjálmar Hallgrímsson (#2 on list) wrote a 27 April 2026 Vísir op-ed on Grindavík reconstruction/housing equality/community autonomy, functioning as a campaign positioning piece. Leader Guðbjörg has not published a platform document.",
+    "fb_page_url": null
+  },
+  {
+    "muni_name": "Hvalfjarðarsveit",
+    "code": "HVB",
+    "list_name": "Íbúahreyfingin",
+    "found": true,
+    "best_url": "https://www.facebook.com/61577458847705/posts/122106782012915294/",
+    "source_type": "facebook",
+    "notes": "No agenda found on a dedicated website. Íbúahreyfingin Hvalfjarðarsveit has an official Facebook page (created for 2026 election) — agenda content likely posted there. The Skessuhorn op-ed 'Hvaða framtíð viljum við fyrir Hvalfjarðarsveit?' is signed by Sigrún Vigdís and Karl Ingi (NOT in our top 5), so it's an unrelated A-listi/Samhent sveit-related piece, not Íbúahreyfingin. Skessuhorn has a paywalled article on the list submission. FB scraping recommended for actual agenda content.",
+    "fb_page_url": "https://www.facebook.com/61577458847705/"
+  },
+  {
+    "muni_name": "Húnaþing vestra",
+    "code": "NHV",
+    "list_name": "N-listi — Nýtt afl í Húnaþingi vestra",
+    "found": false,
+    "best_url": null,
+    "source_type": "none",
+    "notes": "Note: list name in our data is 'Ný öfl' but official kjörstjórn ruling shows it's 'Nýtt afl' (N-listi), led by Viktor Ingi Jónsson. No 2026 stefnuskrá found anywhere — no dedicated site, no Feykir X26 KYNNING article (Feykir covered Skagaströnd lists but not Húnaþing vestra), no op-ed by Viktor Ingi about 2026, no clear FB page for the list. Existing 2018 history shows N-listi Nýtt afl ran previously. Nothing better than what's already in sources_in_data.",
+    "fb_page_url": null
+  },
+  {
+    "muni_name": "Rangárþing ytra",
+    "code": "D",
+    "list_name": "Sjálfstæðisflokkurinn í Rangárþingi ytra",
+    "found": false,
+    "best_url": "https://xd.is/2026/03/05/fullskipadur-frambodslisti-i-rangarthingi-ytra/",
+    "source_type": "national-party-page",
+    "notes": "xd.is has a candidate-list announcement post for Rangárþing ytra D-listi (already in sources_in_data) where Ingvar Pétur outlines very general priorities ('good basic services, responsible public finances') but no formal stefnuskrá document. The xd.is/sveitastjornir/rangarthing-ytra/ page shows only 2022-elected representatives. Ingvar Pétur's bio page on ry.is does not contain a platform either. No FB page for the local D-listi found.",
+    "fb_page_url": null
+  },
+  {
+    "muni_name": "Skeiða- og Gnúpverjahreppur",
+    "code": "SGL",
+    "list_name": "L-listi Samvinnulistinn",
+    "found": false,
+    "best_url": null,
+    "source_type": "none",
+    "notes": "No 2026 stefnuskrá found. Note: actual ballot letter is L (not SGL). Samvinnulistinn has no apparent dedicated website or Facebook page. Sunnlenska covers it only in news context (2022 majority win). The 'Ovaentar vinsaeldir' mbl piece in sources is about Haraldur's social-media popularity, not platform. Vísir 03/2026 op-ed by Haraldur Þór attacks his political opponents but does not function as platform. Nothing better than existing sources_in_data.",
+    "fb_page_url": null
+  },
+  {
+    "muni_name": "Sveitarfélagið Skagaströnd",
+    "code": "B",
+    "list_name": "Framsókn og óháðir",
+    "found": true,
+    "best_url": "https://www.feykir.is/is/frettir/x26-kynning-b-listinn-a-skagastrond",
+    "source_type": "op-ed",
+    "notes": "Feykir's X26 KYNNING B-listinn article (May 2026) is a substantial platform summary: slogan 'Betri Skagaströnd til framtíðar', detailed policy on health-promoting community, transparency/open information flow, servant leadership, addressing population decline (~450 residents), housing shortages, drainage, harbor slip repair, walking/cycling paths, waste management. Functions as the de facto agenda for the list.",
+    "fb_page_url": null
+  },
+  {
+    "muni_name": "Súðavíkurhreppur",
+    "code": "FTL",
+    "list_name": "Framtíðarlistinn",
+    "found": false,
+    "best_url": null,
+    "source_type": "none",
+    "notes": "Framtíðarlistinn (E-listi by ballot letter, FTL by our code) is a brand new list led by Kjartan Geir Karlsson. Súðavík muni site lists candidates only. bb.is article (March 2026) noted 'a stefnuskrá is being compiled and will be announced in coming days' but no follow-up appears in search. No dedicated site, no obvious FB page for the list. Existing sources_in_data are empty; nothing found to add.",
+    "fb_page_url": null
+  },
+  {
+    "muni_name": "Árneshreppur",
+    "code": "ARNS",
+    "list_name": "S-listi — Sólstöður",
+    "found": false,
+    "best_url": "https://kosningasaga.wordpress.com/2026/04/14/frambodslistinn-solstodur-i-arneshreppi/",
+    "source_type": "op-ed",
+    "notes": "Sólstöður is one of two lists in Árneshreppur (the other was an extension after only one list was initially submitted). No dedicated site or FB page found for Sólstöður. Kosningasaga has an article on the list announcement but only candidate names — no policy. Given Árneshreppur has only ~50 residents, a written platform may not exist. Best link is just the kosningasaga listing; nothing approaching a real stefnuskrá found.",
+    "fb_page_url": null
+  }
+]

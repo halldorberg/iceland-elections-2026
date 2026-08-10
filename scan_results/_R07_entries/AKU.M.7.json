@@ -1,0 +1,42 @@
+{
+  "id": "AKU.M.7",
+  "bio": "Hólmgeir Karlsson er fæddur 29. júní 1960 á Akureyri og hefur verið framkvæmdastjóri fóður- og áburðarfyrirtækisins Bústólpa á Oddeyrartanga frá árinu 2007. Hann lauk meistaranámi í mjólkurfræði frá Landbúnaðarháskóla Noregs (NLH) árið 1986 og starfaði fyrst sem mjólkurfræðingur, síðar sem markaðs- og þróunarstjóri Norðurmjólkur og loks sem framkvæmdastjóri mjólkursamlags KEA. Hann hefur skrifað greinar um stöðu íslensks landbúnaðar og setið í velferðarráði Akureyrarbæjar fyrir Miðflokkinn á yfirstandandi kjörtímabili. Hólmgeir skipar 7. sæti á lista Miðflokksins á Akureyri í sveitarstjórnarkosningunum 2026.",
+  "sources": [
+    "https://www.bustolpi.is/um-okkur/starfsfolk/",
+    "https://hk.blog.is/blog/hk/about/",
+    "https://kosningasaga.wordpress.com/2026/03/07/hlynur-leidir-midflokinn-a-akureyri-afram/",
+    "https://www.mbl.is/greinasafn/grein/802153/",
+    "https://midflokkurinn.is/velferdarmalin-a-akureyri-setjum-borninn-i-forgang",
+    "https://www.visir.is/g/20242605638d/villutru-vidskiptarads-um-tollamal-og-matvaelaverd-a-islandi"
+  ],
+  "statements": [
+    {"n":1,"status":"rescued","claim":"Fæddur 29. júní 1960 á Akureyri","quotes":["Hólmgeir Karlsson er fæddur 29. júní 1960 á Akureyri"]},
+    {"n":2,"status":"verified","claim":"Framkvæmdastjóri Bústólpa á Akureyri","quotes":["Hólmgeir Karlsson holmgeir@bustolpi.is Framkvæmdastjóri","Höfundur er framkvæmdastjóri Bústólpa á Akureyri","Starfa nú sem framkvæmdastjóri Bústólpa á Akureyri, en fyrirtækið framleiðir og selur fóður og rekstrarvörur fyrir landbúnað"]},
+    {"n":3,"status":"flagged","claim":"Frá árinu 2007 / staðsetning Oddeyrartanga","quotes":[],"note":"Blog 'Janúar 2007' nefnir fyrirtækið en ekki nákvæmt upphafsár; Oddeyrartangi er almennt þekkt staðsetning Bústólpa en ekki beint vitnað."},
+    {"n":4,"status":"rescued","claim":"Meistaranám í mjólkurverkfræði/mjólkurfræði frá Landbúnaðarháskóla Noregs 1986","quotes":["Hann lauk mastersnámi í mjólkurverkfræði frá Landbúnaðarháskólanum í Noregi 1986","Er menntaður mjólkurverkfræðingur frá Ási í Noregi"]},
+    {"n":5,"status":"verified","claim":"Markaðs- og þróunarstjóri Norðurmjólkur og fyrr framkvæmdastjóri Mjólkursamlags KEA","quotes":["síðustu 6 árin sem þróunar- og markaðsstjóri hjá Norðurmjólk","Fyrir þann tíma framkvæmdastjóri Mjólkursamlags KEA og þar áður framleiðslustjóri þess","forstöðumaður markaðs- og þróunarsviðs Norðurmjólkur"]},
+    {"n":6,"status":"rescued","claim":"Hefur setið í velferðarráði Akureyrarbæjar á yfirstandandi kjörtímabili","quotes":["Sjálfur er ég þakklátur fyrir að hafa fengið tækifærið til að vera þátttakandi í þessu mikilvæga starfi sem fulltrúi í Velferðarráði á kjörtímabilinu sem er að líða"]},
+    {"n":7,"status":"rescued","claim":"7. sæti á lista Miðflokksins á Akureyri 2026","quotes":["Sigurbjörg Níelsdóttir skrifstofustjóri Hólmgeir Karlsson framkvæmdastjóri"]}
+  ],
+  "summary": "All major claims verified or rescued; only the 2007 start date for Bústólpa is loosely supported. Rewrite softens it.",
+  "rescue": {
+    "rewrite": "Hólmgeir Karlsson er fæddur 29. júní 1960 á Akureyri og er framkvæmdastjóri fóður- og rekstrarvörufyrirtækisins Bústólpa á Akureyri. Hann lauk mastersnámi í mjólkurverkfræði frá Landbúnaðarháskólanum í Noregi 1986 og starfaði í kjölfarið hjá Mjólkursamlagi KEA, fyrst sem framleiðslustjóri og síðar framkvæmdastjóri, og var þróunar- og markaðsstjóri Norðurmjólkur til ársins 2007 þegar hann fór í nýtt starf. Hólmgeir hefur setið í velferðarráði Akureyrarbæjar fyrir Miðflokkinn á yfirstandandi kjörtímabili. Hann skipar 7. sæti á lista Miðflokksins á Akureyri í sveitarstjórnarkosningunum 2026.",
+    "rewrite_words": 109,
+    "new_sources": [
+      "https://kosningasaga.wordpress.com/2026/03/07/hlynur-leidir-midflokinn-a-akureyri-afram/",
+      "https://www.mbl.is/greinasafn/grein/802153/",
+      "https://midflokkurinn.is/velferdarmalin-a-akureyri-setjum-borninn-i-forgang",
+      "https://www.visir.is/g/20242605638d/villutru-vidskiptarads-um-tollamal-og-matvaelaverd-a-islandi"
+    ],
+    "resolutions": [
+      {"n":3,"action":"softened","reason":"removed 'frá árinu 2007' as exact start date and 'Oddeyrartanga' as not directly quoted"}
+    ],
+    "new_heimild": [
+      {"url":"https://www.bustolpi.is/um-okkur/starfsfolk/","label":"Bústólpi — Starfsfólk"},
+      {"url":"https://hk.blog.is/blog/hk/about/","label":"Blog.is — Hólmgeir Karlsson"},
+      {"url":"https://kosningasaga.wordpress.com/2026/03/07/hlynur-leidir-midflokinn-a-akureyri-afram/","label":"KOSNINGASAGA — Miðflokkurinn á Akureyri 2026"},
+      {"url":"https://www.mbl.is/greinasafn/grein/802153/","label":"Morgunblaðið greinasafn — Mjólkurvörur eru heilsubót (2004)"},
+      {"url":"https://midflokkurinn.is/velferdarmalin-a-akureyri-setjum-borninn-i-forgang","label":"Miðflokkurinn — Velferðarmálin á Akureyri"}
+    ]
+  }
+}

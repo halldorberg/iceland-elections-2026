@@ -1,0 +1,883 @@
+=== AKR ===
+  AKR.B.1: Ragnar Baldvin Sæmundsson
+  AKR.B.2: Liv Åse Skarstad
+  AKR.B.3: Sædís Alexía Sigurmundsdóttir
+  AKR.B.4: Karl Jóhann Haagensen
+  AKR.B.5: Aníta Eir Einarsdóttir
+  AKR.C.1: Jón Guðni Guðmundsson
+  AKR.C.2: Helga Björg Þrastardóttir
+  AKR.C.3: Ingvar Örn Ákason
+  AKR.C.4: Guðný Sara Birgisdóttir
+  AKR.C.5: Guðmundur Claxton
+  AKR.D.1: Líf Lárusdóttir
+  AKR.D.2: Bjarnheiður Hallsdóttir
+  AKR.D.3: Guðmundur Ingþór Guðjónsson
+  AKR.D.4: Viktor Elvar Viktorsson
+  AKR.D.5: Ragnheiður Helgadóttir
+  AKR.M.1: Hrafn Ágúst Björnsson
+  AKR.M.2: Guðríður Þorbjörnsdóttir
+  AKR.M.3: Ólafur Rúnar Sigurðsson
+  AKR.M.4: Hörður Svavarsson
+  AKR.M.5: Aníta Hauksdóttir
+  AKR.S.1: Sigurður Vopni Vatnsdal
+  AKR.S.2: Jónína Margrét Sigmundsdóttir
+  AKR.S.3: Kristinn Hallur Sveinsson
+  AKR.S.4: Anna Sólveig Smáradóttir
+  AKR.S.5: Jón Hjörvar Valgarðsson
+
+=== AKU ===
+  AKU.AL.2: Karen Sigurbjörnsdóttir
+  AKU.AL.3: Helgi Steinar Halldórsson
+  AKU.AL.4: Kristrún María Björnsdóttir
+  AKU.AL.5: Darri Rafn Hólmarsson
+  AKU.B.2: Gunnar Már Gunnarsson
+  AKU.B.3: Sverre Andreas Jakobsson
+  AKU.B.4: Guðbjörg Anna Björnsdóttir
+  AKU.B.5: Steinar Óli Sigfússon
+  AKU.C.2: Elías Gunnar Þorbjörnsson
+  AKU.C.3: Þóroddur Ingvarsson
+  AKU.C.4: Elísabet Ögn Jóhannsdóttir
+  AKU.C.5: Íunn Eir Gunnarsdóttir
+  AKU.D.2: Heimir Örn Árnason
+  AKU.D.3: Arna Rut Gunnarsdóttir
+  AKU.D.4: Þórhallur Harðarson
+  AKU.D.5: Þorsteinn Kristjánsson
+  AKU.L.2: Brynja Hlíf Þorsteinsdóttir
+  AKU.L.3: Preben Jón Pétursson
+  AKU.L.4: María Pálsdóttir
+  AKU.L.5: Andri Teitsson
+  AKU.M.2: Inga Dís Sigurðardóttir
+  AKU.M.3: Egill Einarsson
+  AKU.M.4: Katrín Vilhjálmsdóttir
+  AKU.M.5: Hannes Karlsson
+  AKU.S.2: Hanna Dóra Markúsdóttir
+  AKU.S.3: Sigrún Steinarsdóttir
+  AKU.S.4: Jóhannes Már Pétursson
+  AKU.S.5: Zane Brikovska
+  AKU.V.2: Stefán Oddur Hrafnsson
+  AKU.V.3: Ásrún Ýr Gestsdóttir
+  AKU.V.4: Sigtryggur Ellertsson
+  AKU.V.5: Herdís Júlía Júlíusdóttir
+
+=== ARB ===
+  ARB.B.2: Ellý Tómasdóttir
+  ARB.B.3: Arnar Freyr Ólafsson
+  ARB.B.4: Guðrún Rakel Svandísardóttir
+  ARB.B.5: Magnús Benediktsson
+  ARB.C.2: Guðný Björk Pálmadóttir
+  ARB.C.3: Þorsteinn Haukur Harðarson
+  ARB.C.4: Birgir Marteinsson
+  ARB.C.5: Ingunn Guðmundsdóttir
+  ARB.D.2: Sveinn Ægir Birgisson
+  ARB.D.3: Linda Björk Hilmarsdóttir
+  ARB.D.4: Brynhildur Jónsdóttir
+  ARB.D.5: Þórhildur Ingvadóttir
+  ARB.S.2: Margrét Björk Ólafsdóttir
+  ARB.S.3: Brynjar Þór Elvarsson
+  ARB.S.4: Elísabet Björgvinsdóttir
+  ARB.S.5: Árni Magnússon
+
+=== ARN ===
+  ARN.ARNA.1: Sigrún Sverrisdóttir
+  ARN.ARNA.2: Þorgerður Lilja Björnsdóttir
+  ARN.ARNA.3: Róbert Hlífar Ingólfsson
+  ARN.ARNA.4: Davíð Már Bjarnason
+  ARN.ARNA.5: Thomas Eleguezabal
+  ARN.ARNS.1: Arinbjörn Bernharðsson
+  ARN.ARNS.2: Kristjana María S. Ásbjörnsdóttir
+  ARN.ARNS.3: Héðinn Birnir Ásbjörnsson
+  ARN.ARNS.4: Marta Gíslrún Ólafsdóttir
+  ARN.ARNS.5: Axel Thorarensen Hraundal
+
+=== BBD ===
+  BBD.B.2: Sonja Lind Eyglóardóttir
+  BBD.B.3: Jón Eiríkur Einarsson
+  BBD.B.4: Guðdís Jónsdóttir
+  BBD.B.5: Jón Theodór Jónsson
+  BBD.BBL.1: Jovana Pavlović
+  BBD.BBL.2: Hermann B. Valsson
+  BBD.BBL.3: Guðrún Vala Elísdóttir
+  BBD.BBL.4: Bjarni Bequette
+  BBD.BBL.5: Friðrik Aspelund
+  BBD.D.2: Ragnhildur Eva Jónsdóttir
+  BBD.D.3: Kristján Ágúst Magnússon
+  BBD.D.4: Birgir Heiðar Andrésson
+  BBD.D.5: Svana Hrönn Jóhannsdóttir
+  BBD.M.2: Þórður Brynjarsson
+  BBD.M.3: Tinna Rut Þórarinsdóttir
+  BBD.M.4: Helena Rós Helgadóttir
+  BBD.M.5: Hafsteinn Ingi Gunnarsson
+
+=== BLV ===
+  BLV.BBK.1: Kristján Jón Guðmundsson
+  BLV.BBK.2: Jóhanna Ósk Halldórsdóttir
+  BLV.BBK.3: Þorbergur Haraldsson
+  BLV.BBK.4: Baldur Smári Einarsson
+  BLV.BBK.5: Margrét Hildur Eiðsdóttir
+  BLV.MMM.1: Guðfinnur Ragnar Jóhannsson
+  BLV.MMM.2: Magnús Ingi Jónsson
+  BLV.MMM.3: Rebekka Líf Karlsdóttir
+  BLV.MMM.4: Karen Arna Hannesdóttir
+  BLV.MMM.5: Hjörtur Traustason
+
+=== BSG ===
+  BSG.BSP.1: Anna Greta Ólafsdóttir
+  BSG.BSP.2: Valdís María Smáradóttir
+  BSG.BSP.3: Óli Björn Finnsson
+  BSG.BSP.4: Hildur Hálfdanardóttir
+  BSG.BSP.5: Stephanie Elizabeth May Langridge
+  BSG.BST.1: Helgi Kjartansson
+  BSG.BST.2: Stefanía Hákonardóttir
+  BSG.BST.3: Áslaug Alda Þórarinsdóttir
+  BSG.BST.4: Ísak Eyfjörð Arnarson
+  BSG.BST.5: Kristján Einir Traustason
+
+=== DVB ===
+  DVB.B.1: Monika Margrét Stefánsdóttir
+  DVB.B.2: María Björk Stefánsdóttir
+  DVB.B.3: Sigvaldi Gunnlaugsson
+  DVB.B.4: Sigurlaug Dóra Ingimundardóttir
+  DVB.B.5: Kristinn Bogi Antonsson
+  DVB.D.2: Bessi Ragúels Víðisson
+  DVB.D.3: Auður Olga Arnarsdóttir
+  DVB.D.4: Sindri Ólafsson
+  DVB.D.5: Birta Dís Jónsdóttir
+  DVB.DVA.1: Börkur Þór Ottósson
+  DVB.DVA.2: Erla Björk Jónsdóttir
+  DVB.DVA.3: Elín Björk Unnarsdóttir
+  DVB.DVA.4: Garðar Hrafn Sigurjónsson
+  DVB.DVA.5: Tryggvi K. Guðmundsson
+  DVB.DVK.1: Helgi Einarsson
+  DVB.DVK.2: Katrín Sif Ingvarsdóttir
+  DVB.DVK.3: Magni Þór Óskarsson
+  DVB.DVK.4: Dominique Sigrúnardóttir
+  DVB.DVK.5: Hörður Snævar Jónsson
+
+=== EJA ===
+  EJA.EJF.1: Hermann Ingi Gunnarsson
+  EJA.EJF.2: Berglind Kristinsdóttir
+  EJA.EJF.3: Gestur Júlíusson
+  EJA.EJF.4: Inga Vala Gísladóttir
+  EJA.EJF.5: Hákon B. Harðarson
+  EJA.EJK.1: Guðmundur Sigurbjörn Óskarsson
+  EJA.EJK.2: Linda Lárusdóttir
+  EJA.EJK.3: Friðrik Karlsson
+  EJA.EJK.4: Sóley Kjerúlf Svansdóttir
+  EJA.EJK.5: Ragnar Jónsson
+
+=== FHR ===
+  FHR.FLI.1: Árni Eiríksson
+  FHR.FLI.2: Hulda Kristjánsdóttir
+  FHR.FLI.3: Walter Fannar Kristjánsson
+  FHR.FLI.4: Hrafnhildur Helga Guðmundsdóttir
+  FHR.FLI.5: Hjalti Guðmundsson
+  FHR.FLT.1: Almar Sigurðsson
+  FHR.FLT.2: Ágúst Hjálmarsson
+  FHR.FLT.3: Halla Kjartansdóttir
+  FHR.FLT.4: Ólafur Sveinn Gíslason
+  FHR.FLT.5: Anný Ingimarsdóttir
+
+=== FJB ===
+  FJB.D.2: Kristín Ágústa Eiðsdóttir
+  FJB.D.3: Guðrún Sif Guðbrandsdóttir
+  FJB.D.4: Viktor Freyr Elísson
+  FJB.D.5: Stefán Júlíusson
+  FJB.H.2: Kristinn Kristjánsson
+  FJB.H.3: Ásgeir Logi Ásgeirsson
+  FJB.H.4: Auður Ösp H. Magnúsdóttir
+  FJB.H.5: Guðlaugur Magnús Ingason
+  FJB.S.2: Pálmi Blængsson
+  FJB.S.3: Sæunn Gísladóttir
+  FJB.S.4: Guðjón M. Ólafsson
+  FJB.S.5: Kristín M. Halldórsdóttir
+
+=== FJD ===
+  FJD.B.2: Birgir Jónsson
+  FJD.B.3: Helga Rakel Arnardóttir
+  FJD.B.4: Sigurjón Andrés Jónasson
+  FJD.B.5: Bjarney Birta Bergsdóttir
+  FJD.D.2: Kristinn Þór Jónasson
+  FJD.D.3: Þórdís Mjöll Benediktsdóttir
+  FJD.D.4: Húnbogi Sólon Gunnþórsson
+  FJD.D.5: Tanja Tómasdóttir
+  FJD.M.2: Alma Sigurbjörnsdóttir
+  FJD.M.3: Baldur Marteinn Einarsson
+  FJD.M.4: Hafþór Eiríksson
+  FJD.M.5: Anna Guðný Gunnarsdóttir
+  FJD.S.2: Hjördís Helga Seljan
+  FJD.S.3: Valborg Ösp Á. Warén
+  FJD.S.4: Adam Ingi Guðlaugsson
+  FJD.S.5: Arndís Bára Pétursdóttir
+
+=== GAR ===
+  GAR.B.2: Anna Margrét Steingrímsdóttir
+  GAR.B.3: Einar Þór Einarsson
+  GAR.B.4: Einar Bárðarson
+  GAR.B.5: Inga Amal Hasan
+  GAR.C.2: Harpa Þorsteinsdóttir
+  GAR.C.3: Jón Bjarni Steinsson
+  GAR.C.4: Sigríður Þóra Ásgeirsdóttir
+  GAR.C.5: Hreiðar Þór Jónsson
+  GAR.D.2: Björg Fenger
+  GAR.D.3: Margrét Bjarnadóttir
+  GAR.D.4: Hrannar Bragi Eyjólfsson
+  GAR.D.5: Stella Stefánsdóttir
+  GAR.GB.2: Guðjón Pétur Lýðsson
+  GAR.GB.3: Joanna Marcinkowska
+  GAR.GB.4: Finnur Jónsson
+  GAR.GB.5: Baldur Ó. Svavarsson
+  GAR.M.2: Laufey Gunnþórsdóttir
+  GAR.M.3: Snorri Marteinsson
+  GAR.M.4: Bessí Þóra Jónsdóttir
+  GAR.M.5: Unnur Ýr Jónsdóttir
+  GAR.S.2: Vilborg Anna Strange Garðarsdóttir
+  GAR.S.3: Rakel Margrét Viggósdóttir
+  GAR.S.4: Vilmar Pétursson
+  GAR.S.5: Ögmundur Árni Sveinsson
+
+=== GFJ ===
+  GFJ.GFB.1: Fannar Þór Þorfinnsson
+  GFJ.GFB.2: Signý Gunnarsdóttir
+  GFJ.GFB.3: Aðalsteinn Jósepsson
+  GFJ.GFB.4: Þuríður Gía Jóhannesdóttir
+  GFJ.GFB.5: Eiríkur Þór Halldórsson
+  GFJ.GFD.1: Jósef Kjartansson
+  GFJ.GFD.2: Sigurhanna Ágústa Einarsdóttir
+  GFJ.GFD.3: Bjarni Sigurbjörnsson
+  GFJ.GFD.4: Sigurður Gísli Guðjónsson
+  GFJ.GFD.5: Davíð Magnússon
+
+=== GGR ===
+  GGR.GGA.1: Guðmundur Finnbogason
+  GGR.GGA.2: Rebekka Lind Guðmundsdóttir
+  GGR.GGA.3: Bergur Guðmundsson
+  GGR.GGA.4: Ragnheiður Eggertsdóttir
+  GGR.GGA.5: Pétur Thomsen
+  GGR.GGO.1: Andrés Bertelsen
+  GGR.GGO.2: Ragna Ívarsdóttir
+  GGR.GGO.3: Friðrik Guðmundsson
+  GGR.GGO.4: Viðar Marinósson
+  GGR.GGO.5: Gunnlaugur I. Ingimarsson
+
+=== GRN ===
+  GRN.B.1: Ásrún Helga Kristinsdóttir
+  GRN.B.2: Þorleifur Ólafsson
+  GRN.B.3: Inga Fanney Rúnarsdóttir
+  GRN.B.4: Elínborg Ingvarsdóttir
+  GRN.B.5: Benedikt Óskar Steingrímsson
+  GRN.D.1: Guðbjörg Eyjólfsdóttir
+  GRN.D.2: Hjálmar Hallgrímsson
+  GRN.D.3: Ómar Davíð Ólafsson
+  GRN.D.4: Ólöf Rún Óladóttir
+  GRN.D.5: Eva Lind Matthíasdóttir
+  GRN.M.1: Magnús Már Jakobsson
+  GRN.M.2: Björn Steinar Brynjólfsson
+  GRN.M.3: Gunnar Már Gunnarsson
+  GRN.M.4: Signý Lind Elíasdóttir
+  GRN.M.5: Eydís Ármannsdóttir
+
+=== HAF ===
+  HAF.A.2: Svenný Kristins
+  HAF.A.3: Davíð Arnar Stefánsson
+  HAF.A.4: Guðrún Lína Thoroddsen
+  HAF.A.5: Margrét Pétursdóttir
+  HAF.B.2: Kolbrún Magnúsdóttir
+  HAF.B.3: Árni Rúnar Árnason
+  HAF.B.4: Jóhanna Erla Guðjónsdóttir
+  HAF.B.5: Guðmundur Fylkisson
+  HAF.C.2: Árni Stefán Guðjónsson
+  HAF.C.3: Hjördís Hlíðberg
+  HAF.C.4: Óli Örn Eiríksson
+  HAF.C.5: Sigrún Jónsdóttir
+  HAF.D.2: Kristín Thoroddsen
+  HAF.D.3: Viktor Pétur Finnsson
+  HAF.D.4: Guðbjörg Oddný Jónasdóttir
+  HAF.D.5: Kristinn Andersen
+  HAF.M.2: Signý Jóna Tryggvadóttir
+  HAF.M.3: Böðvar Ingi Guðbjartsson
+  HAF.M.4: Eva Rún Helgadóttir
+  HAF.M.5: Arnhildur Ásdís Kolbeins
+  HAF.S.2: Hildur Rós Guðbjargardóttir
+  HAF.S.3: Árni Rúnar Þorvaldsson
+  HAF.S.4: Elín Anna Baldursdóttir
+  HAF.S.5: Stefán Már Gunnlaugsson
+
+=== HFJ ===
+  HFJ.B.2: Ingibjörg Sveinsdóttir
+  HFJ.B.3: Björgvin Óskar Sigurjónsson
+  HFJ.B.4: Kolbrún Þorbjörg Björnsdóttir
+  HFJ.B.5: Gunnar Ásgeirsson
+  HFJ.D.1: Gauti Árnason
+  HFJ.D.2: Hjördís Edda Olgeirsdóttir
+  HFJ.D.3: Ásta Steinunn Eiríksdóttir
+  HFJ.D.4: Ágústa Arnardóttir
+  HFJ.D.5: Sindri Ragnarsson
+  HFJ.K.2: Guðrún Stefanía Vopnfjörð Ingólfsdóttir
+  HFJ.K.3: Elías Tjörvi Halldórsson
+  HFJ.K.4: Wiktoria Anna Darnowska
+  HFJ.K.5: Sigrún Sigurgeirsdóttir
+  HFJ.M.1: Reynir Ásgeirsson
+  HFJ.M.2: Stefán Freyr Jónsson
+  HFJ.M.3: Herdís I Waage
+  HFJ.M.4: Erlingur Ingi Brynjólfsson
+  HFJ.M.5: Valur Pálsson
+
+=== HGS ===
+  HGS.D.1: Árni Rúnar Örvarsson
+  HGS.D.2: Katrín Olsen Björnsdóttir
+  HGS.D.3: Jónas Þór Jónasson
+  HGS.D.4: Aðalsteinn Heiðmann Hreinsson
+  HGS.D.5: Björg Ingadóttir
+  HGS.HGG.1: Sunna María Jónasdóttir
+  HGS.HGG.2: Róbert Fanndal Jósavinsson
+  HGS.HGG.3: Kolbrún Lind Malmquist
+  HGS.HGG.4: Jóhanna María Oddsdóttir
+  HGS.HGG.5: Agnar Þór Magnússon
+  HGS.HGH.1: Bjarki Brynjólfsson
+  HGS.HGH.2: Ásta Hafberg
+  HGS.HGH.3: Hugrún Lísa Heimisdóttir
+  HGS.HGH.4: Jón Þór Benediktsson
+  HGS.HGH.5: Sveinn Brimar Jónsson
+
+=== HMR ===
+  HMR.D.1: Jón Bjarnason
+  HMR.D.2: Bjarney Vignisdóttir
+  HMR.D.3: Ragnar Lúðvík Jónsson
+  HMR.D.4: Katrín Þorvaldsdóttir
+  HMR.D.5: Bjarni Arnar Hjaltason
+  HMR.HRL.1: Daði Geir Samúelsson
+  HMR.HRL.2: Rakel Ósk Kristófersdóttir
+  HMR.HRL.3: Hjalti Sigurðsson
+  HMR.HRL.4: Margrét Sævarsdóttir
+  HMR.HRL.5: Þórmundur Smári Hilmarsson
+
+=== HNB ===
+  HNB.B.2: Jenný Lind Gunnarsdóttir
+  HNB.B.3: Helgi Páll Gíslason
+  HNB.B.4: Ágústa Rós Ingibjörnsdóttir
+  HNB.B.5: Ásdís Adda Ólafsdóttir
+  HNB.D.2: Zophonías Ari Lárusson
+  HNB.D.3: Kolbrún Ágústa Guðnadóttir
+  HNB.D.4: Sævar Björgvinsson
+  HNB.D.5: Ragnhildur Haraldsdóttir
+  HNB.HBA.2: Sara Björk Þorsteinsdóttir
+  HNB.HBA.3: Emil Jóhann Þorsteinsson
+  HNB.HBA.4: Sverrir Þór Sverrisson
+  HNB.HBA.5: Karen Helga R Steinsdóttir
+
+=== HNT ===
+  HNT.B.1: Sigurður Líndal Þórisson
+  HNT.B.2: Nína Axelsdóttir
+  HNT.B.3: Dagrún Kristinsdóttir
+  HNT.B.4: Ingveldur Linda Gestsdóttir
+  HNT.B.5: Matthías Rúnarsson
+  HNT.D.1: Örn Arnarson
+  HNT.D.2: Sigríður Ólafsdóttir
+  HNT.D.3: Magnús Magnússon
+  HNT.D.4: Fríða Marý Halldórsdóttir
+  HNT.D.5: Magnús Örn Valsson
+  HNT.NHV.1: Viktor Ingi Jónsson
+  HNT.NHV.2: Magnús Vignir Eðvaldsson
+  HNT.NHV.3: Eygló Hrund Guðmundsdóttir
+  HNT.NHV.4: Guðrún Gróa Þorsteinsdóttir
+  HNT.NHV.5: Sigurbjörg Jóhannesdóttir
+
+=== HVF ===
+  HVF.HVA.1: Sigurður Örn Sigurðsson
+  HVF.HVA.2: Þóra Björk Þórðardóttir
+  HVF.HVA.3: Gunnar Páll Gunnarsson
+  HVF.HVA.4: Guðrún Sigríður Guðnadóttir
+  HVF.HVA.5: Jónas Freyr Jónasson
+  HVF.HVB.1: Ragnheiður Sigríður Ragnarsdóttir
+  HVF.HVB.2: Þorsteinn Óskar Þorsteinsson
+  HVF.HVB.3: Sigrún Björk Sigurjónsdóttir
+  HVF.HVB.4: Magnús Freyr Magnússon
+  HVF.HVB.5: Elín Helga Einarsdóttir
+
+=== HVG ===
+  HVG.B.1: Marta Rut Ólafsdóttir
+  HVG.B.2: Einar Alexander K. Haraldsson
+  HVG.B.3: Thelma Rún Runólfsdóttir
+  HVG.B.4: Atli Örn Egilsson
+  HVG.B.5: Sæbjörg L. Másdóttir
+  HVG.D.1: Ingimar Guðmundsson
+  HVG.D.2: María Rún Þorsteinsdóttir
+  HVG.D.3: Sigmar Karlsson
+  HVG.D.4: Hjalti Helgason
+  HVG.D.5: Karitas Róbertsdóttir
+  HVG.OKH.2: Dagný Sif Sigurbjörnsdóttir
+  HVG.OKH.3: Jónas Guðnason
+  HVG.OKH.4: Sandra Lind Brynjardóttir
+  HVG.OKH.5: Ívar Dagur B. Sævarsson
+  HVG.S.1: Birgitta Ragnarsdóttir
+  HVG.S.2: Þorsteinn Hjartarson
+  HVG.S.3: Maria de Araceli Quintana
+  HVG.S.4: Guðmundur Benóný Baldvinsson
+  HVG.S.5: Berglind Ósk Guttormsdóttir
+
+=== ISF ===
+  ISF.B.2: Elísabet Samúelsdóttir
+  ISF.B.3: Stefán Hannibal Hafberg
+  ISF.B.4: Tinna Rún Snorradóttir
+  ISF.B.5: Elísabet Margrét Jónasdóttir
+  ISF.C.3: Magnús Einar Magnússon
+  ISF.C.4: Arnheiður Steinþórsdóttir
+  ISF.C.5: Valur Richter
+  ISF.D.1: Jónas Þór Birgisson
+  ISF.D.2: Þóra Marý Arnórsdóttir
+  ISF.D.3: Martha Kristín Pálmadóttir
+  ISF.D.4: Grétar Örn Eiríksson
+  ISF.D.5: Þorvaldur Óli Ragnarsson
+  ISF.M.1: Sævar Óli Hjörvarsson
+  ISF.M.2: Jón Auðun Auðunarson
+  ISF.M.3: Þorbjörn Halldór Jóhannesson
+  ISF.M.4: Karlotta Dúfa Markan
+  ISF.M.5: Hákon Sturla Unnsteinsson
+  ISF.S.1: Svanfríður Guðrún Bergvinsdóttir
+  ISF.S.2: Helgi Karl Guðmundsson
+  ISF.S.3: Finney Rakel Árnadóttir
+  ISF.S.4: Sigurður Jón Hreinsson
+  ISF.S.5: Hrafnhildur Hrönn Óðinsdóttir
+
+=== KJO ===
+  KJO.KJA.1: Sigurður Gunnar Sigurðsson
+  KJO.KJA.2: Guðrún Björk Guðmundsdóttir
+  KJO.KJA.3: Þorsteinn Freyr Þorsteinsson
+  KJO.KJA.4: Helga Rún Helgadóttir
+  KJO.KJA.5: Kristján Óskar Kristjánsson
+
+=== KOP ===
+  KOP.B.3: Gunnar Sær Ragnarsson
+  KOP.B.4: Svava Halldóra Friðgeirsdóttir
+  KOP.B.5: Heiðdís Geirsdóttir
+  KOP.C.2: Pétur Björgvin Sveinsson
+  KOP.C.3: Arnar Grétarsson
+  KOP.C.4: Sigrún Ólöf Ingólfsdóttir
+  KOP.C.5: Elvar Bjarki Helgason
+  KOP.D.4: Elísabet Berglind Sveinsdóttir
+  KOP.D.5: Guðmundur Jóhann Jónsson
+  KOP.J.2: Anna Ceridwen Auðnudóttir
+  KOP.J.3: Marzuk Ingi Lamsiah Svanlaugar
+  KOP.J.4: Sigurður Haraldsson
+  KOP.J.5: Þórgunnur Guðgeirsdóttir
+  KOP.M.2: Nína Berglind Sigurgeirsdóttir
+  KOP.M.3: Beitir Ólafsson
+  KOP.M.4: Thelma Bergmann Árnadóttir
+  KOP.M.5: Trausti Örn Þórðarson
+  KOP.S.2: Eydís Inga Valsdóttir
+  KOP.S.3: Hákon Gunnarsson
+  KOP.S.4: Sólveig Skaftadóttir
+  KOP.S.5: Orri Thor Eggertsson
+  KOP.V.2: Bjarki Valberg
+  KOP.V.3: Kjartan Sveinn Guðmundsson
+  KOP.V.4: Víðís Einarsdóttir
+  KOP.V.5: Rakel Ósk Sigurðardóttir
+
+=== MOS ===
+  MOS.B.2: Halla Karen Kristjánsdóttir
+  MOS.B.3: Leifur Ingi Eysteinsson
+  MOS.B.4: Elín Guðný Hlöðversdóttir
+  MOS.B.5: Ýmir Örn Hafsteinsson
+  MOS.C.2: Valdimar Birgisson
+  MOS.C.3: Elín Anna Gísladóttir
+  MOS.C.4: Berglind Robertson Grétarsdóttir
+  MOS.C.5: Haukur Skúlason
+  MOS.D.2: Jana Katrín Knútsdóttir
+  MOS.D.3: Elísabet S. Ólafsdóttir
+  MOS.D.4: Hjörtur Örn Arnarson
+  MOS.D.5: Þórarinn Örn Andrésson
+  MOS.M.2: Ingibjörg Einarsdóttir
+  MOS.M.3: Hjalti Árnason
+  MOS.M.4: Sóley Sævarsdóttir Meyer
+  MOS.M.5: Kristján Davíð Sigurjónsson
+  MOS.S.2: Guðný Maja Riba
+  MOS.S.3: Ómar Ingþórsson
+  MOS.S.4: Auður Einarsdóttir
+  MOS.S.5: Guðlaugur Bjarki Lúðvíksson
+
+=== MUT ===
+  MUT.B.2: Eiður Ragnarsson
+  MUT.B.3: Þórey Birna Jónsdóttir
+  MUT.B.4: Björg Eyþórsdóttir
+  MUT.B.5: Guðmundur Bj. Hafþórsson
+  MUT.D.2: Þórhildur Katrín Stefánsdóttir
+  MUT.D.3: Ívar Karl Hafliðason
+  MUT.D.4: Einar Freyr Guðmundsson
+  MUT.D.5: Oddný Björk Daníelsdóttir
+  MUT.L.2: Eyþór Stefánsson
+  MUT.L.3: Urður Arna Ómarsdóttir
+  MUT.L.4: Jóhann Hjalti Þorsteinsson
+  MUT.L.5: Hrafnhildur Margrét Vídalín Áslaugardóttir
+  MUT.M.2: Hannes Karl Hilmarsson
+  MUT.M.3: Stefán Bragi Birgisson
+  MUT.M.4: Jóhann Halldór Harðarson
+  MUT.M.5: Guðmunda Vala Jónasdóttir
+  MUT.V.2: Helgi Hlynur Ásgrímsson
+  MUT.V.3: Glúmur Björnsson
+  MUT.V.4: Guðrún Ásta Tryggvadóttir
+  MUT.V.5: Sigríður Lára Sigurjónsdóttir
+
+=== MYR ===
+  MYR.MYA.1: Anna Huld Óskarsdóttir
+  MYR.MYA.2: Salóme Svandís Þórhildardóttir
+  MYR.MYA.3: Brynjar Ögmundsson
+  MYR.MYA.4: Kristína Hajniková
+  MYR.MYA.5: Michal Ladaczek
+  MYR.MYZ.1: Björn Þór Ólafsson
+  MYR.MYZ.2: Þórey Richardt Úlfarsdóttir
+  MYR.MYZ.3: Daníel Óliver Sveinsson
+  MYR.MYZ.4: Magnús Örn Sigurjónsson
+  MYR.MYZ.5: Hjördís Rut Jónsdóttir
+
+=== NPG ===
+  NPG.B.1: Eysteinn Heiðar Kristjánsson
+  NPG.B.2: Bylgja Steingrímsdóttir
+  NPG.B.3: Kristinn Rúnar Tryggvason
+  NPG.B.4: Elísabet Anna Helgadóttir
+  NPG.B.5: Eiður Pétursson
+  NPG.D.1: Helena Eydís Ingólfsdóttir
+  NPG.D.2: Þorsteinn Snævar Benediktsson
+  NPG.D.3: Kristján Friðrik Sigurðsson
+  NPG.D.4: Guðrún Þóra Hallgrímsdóttir
+  NPG.D.5: Guðni Már Kjartansson
+  NPG.NBO.1: Ómar Gunnarsson
+  NPG.NBO.2: Gísli Þór Briem
+  NPG.NBO.3: Einar Sigurðsson
+  NPG.NBO.4: Ann-Charlotte Fernholm
+  NPG.NBO.5: Elvar Már Stefánsson
+  NPG.NPM.1: Rúnar Traustason
+  NPG.NPM.2: Ágúst Sigurður Óskarsson
+  NPG.NPM.3: Elín Guðmundsdóttir
+  NPG.NPM.4: Brynjar Baldursson
+  NPG.NPM.5: Hilda Rós Pálsdóttir
+  NPG.NPV.1: Aldey Unnar Traustadóttir
+  NPG.NPV.2: Salbjörg Matthíasdóttir
+  NPG.NPV.3: Halldór Jón Gíslason
+  NPG.NPV.4: Guðmundur H. Halldórsson
+  NPG.NPV.5: Guðrún Einarsdóttir
+  NPG.S.1: Kjartan Páll Þórarinsson
+  NPG.S.2: Rebekka Ásgeirsdóttir
+  NPG.S.3: Ísak Már Aðalsteinsson
+  NPG.S.4: Agnieszka Szczodrowska
+  NPG.S.5: Reynir Ingi Reinhardsson
+
+=== OLF ===
+  OLF.D.1: Grétar Ingi Erlendsson
+  OLF.D.2: Sigurbjörg Jenný Jónsdóttir
+  OLF.D.3: Gestur Þór Kristjánsson
+  OLF.D.4: Erla Sif Markúsdóttir
+  OLF.D.5: Guðlaug Einarsdóttir
+  OLF.S.2: Berglind Friðriksdóttir
+  OLF.S.3: Pálmi Þór Ásbergsson
+  OLF.S.4: Bryndís Sigurðardóttir
+  OLF.S.5: Sigurður Freyr Vestmann Sigurvinsson
+
+=== RKH ===
+  RKH.ROA.1: Árný Huld Haraldsdóttir
+  RKH.ROA.2: Embla Dögg Bachmann Jóhannsdóttir
+  RKH.ROA.3: Kjartan Þór Ragnarsson
+  RKH.ROA.4: Indiana Svala Ólafsdóttir
+  RKH.ROA.5: Matthías Óli Gústafsson
+  RKH.S.1: Hrefna Jónsdóttir
+  RKH.S.2: Þorleifur Jóhann Guðjónsson
+  RKH.S.3: Jóhanna Ösp Einarsdóttir
+  RKH.S.4: Ólafur Þór Ólafsson
+  RKH.S.5: Margrét Dögg Sigurbjörnsdóttir
+
+=== RNB ===
+  RNB.B.2: Róbert Jóhann Guðmundsson
+  RNB.B.3: Díana Hilmarsdóttir
+  RNB.B.4: Birgir Már Bragasson
+  RNB.B.5: Halla Karen Guðjónsdóttir
+  RNB.C.2: Davíð Skarphéðinsson
+  RNB.C.3: Ásta Kristín Guðmundsdóttir
+  RNB.C.4: Aðalheiður Júlírós Óskarsdóttir
+  RNB.C.5: Sveinn Enok Jóhannsson
+  RNB.D.2: Margrét Þórarinsdóttir
+  RNB.D.3: Kristján Pétur Kristjánsson
+  RNB.D.4: Alexander Ragnarsson
+  RNB.D.5: Guðbergur Reynisson
+  RNB.M.2: Rúnar Fossádal
+  RNB.M.3: Sigrún Þorsteinsdóttir
+  RNB.M.4: Bjarni Gunnólfsson
+  RNB.M.5: Matthildur Júlía Matthíasdóttir
+  RNB.S.2: Hjörtur Magnús Guðbjartsson
+  RNB.S.3: Aðalheiður Hilmarsdóttir
+  RNB.S.4: Bjarni Halldór Heiðuson Janusson
+  RNB.S.5: Hámundur Örn Helgason
+
+=== RTE ===
+  RTE.B.1: Rafn Bergsson
+  RTE.B.2: Bjarki Oddsson
+  RTE.B.3: Gunnhildur Jónsdóttir
+  RTE.B.4: Harpa Sif Þorsteinsdóttir
+  RTE.B.5: Jón Pétur Þorvaldsson
+  RTE.D.1: Anton Kári Halldórsson
+  RTE.D.2: Aðalbjörg Rún Ásgeirsdóttir
+  RTE.D.3: Andri Már Óskarsson
+  RTE.D.4: Hulda Dóra Eysteinsdóttir
+  RTE.D.5: Bjarki Freyr Sigurjónsson
+  RTE.NRE.1: Tómas Birgir Magnússon
+  RTE.NRE.2: Inger Erla Thomsen
+  RTE.NRE.3: Anna Runólfsdóttir
+  RTE.NRE.4: Guðni Ragnarsson
+  RTE.NRE.5: Guðmundur Ólafsson
+
+=== RTY ===
+  RTY.D.1: Ingvar Pétur Guðbjörnsson
+  RTY.D.2: Guðmar Aubertsson
+  RTY.D.3: Þröstur Sigurðsson
+  RTY.D.4: Sóley Margeirsdóttir
+  RTY.D.5: Gyða Árný Helgadóttir
+  RTY.RYA.1: Eggert Valur Guðmundsson
+  RTY.RYA.2: Margrét Harpa Guðsteinsdóttir
+  RTY.RYA.3: Erla Sigríður Sigurðardóttir
+  RTY.RYA.4: Viðar Már Þorsteinsson
+  RTY.RYA.5: Eiríkur Vilhelm Sigurðarson
+
+=== RVK ===
+  RVK.B.5: Andrea Edda Guðlaugsdóttir
+  RVK.G.5: Jón L. Árnason
+  RVK.J.3: Hannes Pétursson
+  RVK.M.2: Kristín Kolbrún Kolbeinsdóttir
+
+=== SDV ===
+  SDV.FJL.1: Kristján Rúnar Kristjánsson
+  SDV.FJL.2: Ingibjörg Ásdís Björnsdóttir
+  SDV.FJL.3: Finnur Jónsson
+  SDV.FJL.4: María Lovísa Danium
+  SDV.FJL.5: Jónas Haukur Jónbjörnsson
+  SDV.FTL.1: Kjartan Geir Karlsson
+  SDV.FTL.2: Birta Lind Garðarsdóttir
+  SDV.FTL.3: Jónína Margrét Guðmundsdóttir
+  SDV.FTL.4: Jónþór Eiríksson
+  SDV.FTL.5: Egill Bjarni Vikse Helgason
+
+=== SEL ===
+  SEL.D.1: Þór Sigurgeirsson
+  SEL.D.2: Elísabet Ingunn Einarsdóttir
+  SEL.D.3: Magnús Benediktsson
+  SEL.D.4: Björn Jóhannesson
+  SEL.D.5: Lárus Gunnarsson
+  SEL.M.1: Skafti Harðarson
+  SEL.M.2: Þóra Sif Friðriksdóttir
+  SEL.M.3: Guðrún Jónsdóttir
+  SEL.M.4: Hannes Tryggvi Hafstein
+  SEL.M.5: Jóhanna Sigríður Sveinsdóttir
+  SEL.SCS.1: Kristinn Ólafsson
+  SEL.SCS.2: Sigurþóra Bergsdóttir
+  SEL.SCS.3: Helgi Steinar Helgason
+  SEL.SCS.4: Auður Halla Rögnvaldsdóttir
+  SEL.SCS.5: Egill Ö. Hermannsson
+
+=== SFJ ===
+  SFJ.B.1: Einar Eðvald Einarsson
+  SFJ.B.2: Hrund Pétursdóttir
+  SFJ.B.3: Halldór Jón Sigurðsson
+  SFJ.B.4: Sylvía Sif Halldórsdóttir
+  SFJ.B.5: Sigurlína Erla Magnúsdóttir
+  SFJ.D.1: Magnús Barðdal Reynisson
+  SFJ.D.2: Sólborg S. Borgarsdóttir
+  SFJ.D.3: Guðlaugur Skúlason
+  SFJ.D.4: Rósanna Valdimarsdóttir
+  SFJ.D.5: Jón Daníel Jónsson
+  SFJ.M.1: Högni Elfar Gylfason
+  SFJ.M.2: Jódís Helga Káradóttir
+  SFJ.M.3: Elfa Björk Víðisdóttir
+  SFJ.M.4: Sædís Bylgja Jónsdóttir
+  SFJ.M.5: Hreiðar Örn Steinþórsson
+  SFJ.SFL.1: Eyþór Fannar Sveinsson
+  SFJ.SFL.2: Jóhanna Ey Harðardóttir
+  SFJ.SFL.3: Sveinn Úlfarsson
+  SFJ.SFL.4: Elínborg Erla Ásgeirsdóttir
+  SFJ.SFL.5: Ingvar Daði Jóhannsson
+
+=== SGN ===
+  SGN.SGE.1: Gunnar Örn Marteinsson
+  SGN.SGE.2: Ingibjörg Sæunn Jónsdóttir
+  SGN.SGE.3: Sigurður Kristmundsson
+  SGN.SGE.4: Sigríður Björk Marinósdóttir
+  SGN.SGE.5: Gylfi Sigríðarson
+  SGN.SGL.1: Haraldur Þór Jónsson
+  SGN.SGL.2: Vilborg María Ástráðsdóttir
+  SGN.SGL.3: Harpa Dís Harðardóttir
+  SGN.SGL.4: Björgvin Þór Harðarson
+  SGN.SGL.5: Birna Þorsteinsdóttir
+
+=== SKR ===
+  SKR.D.1: Sveinn Hreiðar Jensson
+  SKR.D.2: Sigurður Árnason
+  SKR.D.3: Auðbjörg B. Bjarnadóttir
+  SKR.D.4: Bergur Kr. Guðnason
+  SKR.D.5: Sólveig Ólafsdóttir
+  SKR.SKO.1: Jóhannes Gissurarson
+  SKR.SKO.2: Auður Guðbjörnsdóttir
+  SKR.SKO.3: Gunnar Pétur Sigmarsson
+  SKR.SKO.4: Einar Kristján Jónsson
+  SKR.SKO.5: Guðmundur Vignir Steinsson
+
+=== SNB ===
+  SNB.B.1: Anton Kristinn Guðmundsson
+  SNB.B.2: Magnús Sigfús Magnússon
+  SNB.B.3: Ólöf Ólafsdóttir
+  SNB.B.4: Sindri Lars Ómarsson
+  SNB.B.5: Ewa Krysztopa
+  SNB.D.1: Haukur Andreasson
+  SNB.D.2: Haraldur Helgason
+  SNB.D.3: Oddný Kristrún Ásgeirsdóttir
+  SNB.D.4: María Kjartansdóttir
+  SNB.D.5: Berglind Lára Haraldsdóttir
+  SNB.M.1: Daði Bergþórsson
+  SNB.M.2: Sigrún Harpa Sigurjóns. Heide
+  SNB.M.3: Erla Jóhannsdóttir
+  SNB.M.4: Sigríður Rós Jónatansdóttir
+  SNB.M.5: Ólafur Fannar Þórhallsson
+  SNB.S.1: Svavar Grétarsson
+  SNB.S.2: Bergný Jóna Sævarsdóttir
+  SNB.S.3: Egill Rúnar Sigurðsson
+  SNB.S.4: Önundur S. Björnsson
+  SNB.S.5: Thelma Dís Eggertsdóttir
+
+=== SNF ===
+  SNF.D.1: Ásgeir Jónsson
+  SNF.D.2: Þóra Björk Þórarinsdóttir
+  SNF.D.3: Sigurður Freyr Sigurðsson
+  SNF.D.4: Guðrún Lilja Guðmundsdóttir
+  SNF.D.5: Magnús Óskar Magnússon
+
+=== SST ===
+  SST.B.1: Eydís Inga Sigurjónsdóttir
+  SST.B.2: Guðlaugur Siggi Hannesson
+  SST.B.3: Sæmundur Þór Hafsteinsson
+  SST.S.1: Ragnheiður Erla Stefánsdóttir
+  SST.S.2: Davíð Birkir Tryggvason
+  SST.S.3: Hugrún Sif Hallgrímsdóttir
+  SST.S.4: Stefán Sveinsson
+  SST.S.5: Ingimar Vignisson
+  SST.SKSK.2: Ragnar Rögnvaldsson
+  SST.SKSK.3: Ástrós Elísdóttir
+  SST.SKSK.4: Jóhann Guðbjartur Sigurjónsson
+  SST.SKSK.5: Halla María Þórðardóttir
+
+=== STD ===
+  STD.B.1: Sigurbjörn Rafn Úlfarsson
+  STD.B.2: Kristín Anna Oddsdóttir
+  STD.B.3: Valgeir Örn Kristjánsson
+  STD.B.4: Ragnheiður Ingimundardóttir
+  STD.B.5: Röfn Friðriksdóttir
+  STD.SBD.1: Þorgeir Pálsson
+  STD.SBD.2: Grettir Örn Ásmundsson
+  STD.SBD.3: Marta Sigvaldadóttir
+  STD.SBD.4: Aleksandra Pilugina
+  STD.SBD.5: Þórdís Karlsdóttir
+  STD.VGV.1: Hrafnhildur Þorsteinsdóttir
+  STD.VGV.2: Jón Örn Haraldsson
+  STD.VGV.3: Kjartan Jónsson
+  STD.VGV.4: Laufey Heiða Reynisdóttir
+  STD.VGV.5: Andri Freyr Arnarson
+
+=== STK ===
+  STK.FLS.1: Björn Ásgeir Sumarliðason
+  STK.FLS.2: Steinunn Ingibjörg Magnúsdóttir
+  STK.FLS.3: Mattías Arnar Þorgrímsson
+  STK.FLS.4: Þórhildur Eyþórsdóttir
+  STK.FLS.5: Viktoría Líf V. Ingibergsdóttir
+  STK.IBU.2: Rannveig Tenchi Ernudóttir
+  STK.IBU.3: Kristján Hildibrandsson
+  STK.IBU.4: Ólöf Inga Stefánsdóttir
+  STK.IBU.5: Skarphéðinn Berg Steinarsson
+
+=== SVS ===
+  SVS.SVSH.1: Ólafur Rúnar Ólafsson
+  SVS.SVSH.2: Gréta María Halldórsdóttir
+  SVS.SVSH.3: Eiríkur Haukur Hauksson
+  SVS.SVSH.4: Birgir Ingason
+  SVS.SVSH.5: Dagbjört Beck
+  SVS.SVSO.1: Bjarni Þór Guðmundsson
+  SVS.SVSO.2: Árný Þóra Ágústsdóttir
+  SVS.SVSO.3: Harpa Barkardóttir
+  SVS.SVSO.4: Sigurður Halldórsson
+  SVS.SVSO.5: Svala Einarsdóttir
+  SVS.SVSS.1: Sigríður Ingi Stefánsdóttir
+  SVS.SVSS.2: Hafrún Helga Arnardóttir
+  SVS.SVSS.3: Halldóra Dögg Sigurðardóttir
+  SVS.SVSS.4: Sigrún Rósa Kjartansdóttir
+  SVS.SVSS.5: Elísabet Inga Ásgrímsdóttir
+
+=== THV ===
+  THV.THVA.1: Knútur Jónasson
+  THV.THVA.2: Nanna Marteinsdóttir
+  THV.THVA.3: Anna Bragadóttir
+  THV.THVA.4: Dóra Rún Kristjánsdóttir
+  THV.THVA.5: Hörður Sigurðsson
+  THV.THVL.2: Freydís Anna Ingvarsdóttir
+  THV.THVL.3: Snæþór Haukur Sveinbjörnsson
+  THV.THVL.4: Snorri Már Snorrason
+  THV.THVL.5: Jón Sverrir Sigtryggsson
+  THV.THVN.2: Bylgja Dögg Sigurbjörnsdóttir
+  THV.THVN.3: Jónas Þórólfsson
+  THV.THVN.4: Hermann Aðalsteinsson
+  THV.THVN.5: Garðar Finnsson
+
+=== TJR ===
+  TJR.TJN.1: Aðalsteinn Jóhannes Halldórsson
+  TJR.TJN.2: Jón Gunnarsson
+  TJR.TJN.3: Katý Bjarnadóttir
+  TJR.TJN.4: Smári Kárason
+  TJR.TJN.5: Sveinn Egilsson
+
+=== VBG ===
+  VBG.NYS.1: Þórkatla Soffía Ólafsdóttir
+  VBG.NYS.2: Rebekka Hilmarsdóttir
+  VBG.NYS.3: Jenný Lára Magnadóttir
+  VBG.NYS.4: Gunnþórunn Bender
+  VBG.NYS.5: Jón Árnason
+  VBG.STV.1: Hlynur Ársælsson
+  VBG.STV.2: Friðbjörg Matthíasdóttir
+  VBG.STV.3: Egill Níelsson
+  VBG.STV.4: Silja Baldvinsdóttir
+  VBG.STV.5: Rúnar Ingi Pétursson
+
+=== VME ===
+  VME.D.2: Trausti Hjaltason
+  VME.D.3: Aníta Jóhannsdóttir
+  VME.D.4: Óskar Jósúason
+  VME.D.5: Hildur Sólveig Sigurðardóttir
+  VME.E.2: Anton Örn Björnsson
+  VME.E.3: Erlingur Guðbjörnsson
+  VME.E.4: Jessý Friðbjarnardóttir
+  VME.E.5: Ágúst Erling Kristjánsson
+  VME.M.2: Sæunn Magnúsdóttir
+  VME.M.3: Jóhann Ingó Óskarsson
+  VME.M.4: Sonja Andrésdóttir
+  VME.M.5: Guðni Hjörleiðsson
+
+=== VOG ===
+  VOG.D.1: Björg Ásta Þórðardóttir
+  VOG.D.2: Guðmann Rúnar Lúðvíksson
+  VOG.D.3: Hulda Birna Helgadóttir Blöndal
+  VOG.D.4: Kristín Arna Hjaltadóttir
+  VOG.D.5: Andri Rúnar Sigurðsson
+  VOG.FYRS.1: Gunnar J. Helgason
+  VOG.FYRS.2: Áslaug Fjóla Magnúsdóttir
+  VOG.FYRS.3: Hilmar Ólafsson
+  VOG.FYRS.4: Guðrún Ósk Barðadóttir
+  VOG.FYRS.5: Ásgeir Ragnar Ásgeirsson
+  VOG.VOE.1: Birgir Örn Ólafsson
+  VOG.VOE.2: Eva Björk Jónsdóttir
+  VOG.VOE.3: Friðrik Valdimar Árnason
+  VOG.VOE.4: Ingbór Guðmundsson
+  VOG.VOE.5: Inga Rut Hlöðversdóttir
+  VOG.VOL.1: Kristinn Björgvinsson
+  VOG.VOL.2: Eðvarð Atli Bjarnason
+  VOG.VOL.3: Snædís Ósk Guðjónsdóttir
+  VOG.VOL.4: Anna Karen Gísladóttir
+  VOG.VOL.5: Guðni Oddgeirsson
+
+=== VPF ===
+  VPF.VOP.1: Íris Edda Jónsdóttir
+  VPF.VOP.2: Stefán Guðnason
+  VPF.VOP.3: Magnús Þór Róbertsson
+  VPF.VOP.4: Eyrún Guðbergsdóttir
+  VPF.VOP.5: Skúli Þórðarson
+

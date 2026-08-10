@@ -1,0 +1,18 @@
+{
+  "id": "VME.D.9",
+  "bio": "Guðbjörg Sól Sindradóttir er 21 árs og starfar á búsetuheimili samhliða þjónustu- og afgreiðslustörfum. Hún lauk stúdentsprófi af félagsfræðibraut Framhaldsskólans í Vestmannaeyjum árið 2023. Hún hefur áður setið í stjórn Eyverja, ungliðahreyfingar Sjálfstæðisflokksins í Vestmannaeyjum, og skipar nú 9. sæti á lista Sjálfstæðisflokksins í Vestmannaeyjum fyrir sveitarstjórnarkosningarnar 2026. Meðal áhersluatriða hennar í kosningabaráttunni eru framkvæmdir í vatnsmálum, bættar samgöngur milli lands og Eyja og góð grunnþjónusta við íbúa.",
+  "sources": [
+    "https://eyjafrettir.is/spurt-og-svarad-gudbjorg-sol-fra-sjalfstaedisflokknum/",
+    "https://xd.is/2026/03/31/frambodslisti-sjalfstaedisflokksins-i-vestmannaeyjum/"
+  ],
+  "statements": [
+    {"n": 1, "status": "verified", "claim": "21 árs", "quotes": ["Aldur: 21 árs."]},
+    {"n": 2, "status": "verified", "claim": "starfar á íbúðarkjarna og afgreiðslu-/þjónustustörfum", "quotes": ["Ég starfa á íbúðarkjarna og við afgreiðslu- og þjónustustörf að hluta til."]},
+    {"n": 3, "status": "verified", "claim": "lauk stúdentsprófi af félagsfræðilínu FÍV 2023", "quotes": ["Árið 2023 lauk ég stúdentsprófi frá félagsfræðilínu Framhaldsskólans Í Vestmannaeyjum."]},
+    {"n": 4, "status": "verified", "claim": "setið í stjórn Eyverja", "quotes": ["Ég hef áður setið í stjórn Eyverja."]},
+    {"n": 5, "status": "verified", "claim": "skipar 9. sæti á lista Sjálfstæðisflokksins í Vme", "quotes": ["Guðbjörg Sól Sindradóttir, 21 árs, starfsmaður íbúðarkjarna"]},
+    {"n": 6, "status": "verified", "claim": "áherslur: vatnsmál, samgöngur, grunnþjónusta", "quotes": ["Að fá vatnslögnina samþykkta sem almannavarnamál og framfarir í samgöngum eru mjög mikilvæg verkefni.", "Þá þarf að huga vel að allri grunnþjónustu við íbúa í Vestmannaeyjum."]}
+  ],
+  "summary": "6 verified, 0 rescued, 0 flagged",
+  "rescue": null
+}

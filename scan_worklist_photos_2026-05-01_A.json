@@ -1,0 +1,677 @@
+{
+  "scope": "photos scan 2026-05-01 — top-3 ballot, sorted by ballot then population",
+  "agent_label": "A",
+  "slice": [
+    0,
+    74
+  ],
+  "count": 74,
+  "missing_photos": [
+    {
+      "id": "REY.B.1",
+      "muni_slug": "reykjavik",
+      "muni_label": "Reykjavík",
+      "party_code": "B",
+      "ballot": 1,
+      "name": "Einar Þorsteinsson",
+      "occupation": "Borgarfulltrúi, fyrrverandi borgarstjóri (2024–2025), fyrrverandi RÚV blaðamaður"
+    },
+    {
+      "id": "REY.G.1",
+      "muni_slug": "reykjavik",
+      "muni_label": "Reykjavík",
+      "party_code": "G",
+      "ballot": 1,
+      "name": "Ingimar Þór Friðriksson",
+      "occupation": "Framkvæmdastjóri"
+    },
+    {
+      "id": "REY.J.1",
+      "muni_slug": "reykjavik",
+      "muni_label": "Reykjavík",
+      "party_code": "J",
+      "ballot": 1,
+      "name": "Silja Sóley Birgisdóttir",
+      "occupation": "Stuðningsfulltrúi í grunnskóla"
+    },
+    {
+      "id": "KOP.B.1",
+      "muni_slug": "kopavogur",
+      "muni_label": "Kópavogur",
+      "party_code": "B",
+      "ballot": 1,
+      "name": "Orri Vignir Hlöðversson",
+      "occupation": "Framkvæmdastjóri, bæjarfulltrúi"
+    },
+    {
+      "id": "KOP.J.1",
+      "muni_slug": "kopavogur",
+      "muni_label": "Kópavogur",
+      "party_code": "J",
+      "ballot": 1,
+      "name": "Markús Candi",
+      "occupation": "Stuðningsfulltrúi í grunnskóla og leikjahönnuður"
+    },
+    {
+      "id": "HAF.B.1",
+      "muni_slug": "hafnarfjordur",
+      "muni_label": "Hafnarfjörður",
+      "party_code": "B",
+      "ballot": 1,
+      "name": "Valdimar Víðisson",
+      "occupation": "Bæjarstjóri"
+    },
+    {
+      "id": "HAF.M.1",
+      "muni_slug": "hafnarfjordur",
+      "muni_label": "Hafnarfjörður",
+      "party_code": "M",
+      "ballot": 1,
+      "name": "Einar Geir Þorsteinsson",
+      "occupation": "Lögmaður"
+    },
+    {
+      "id": "REY.B.1",
+      "muni_slug": "reykjanesbaer",
+      "muni_label": "Reykjanesbær",
+      "party_code": "B",
+      "ballot": 1,
+      "name": "Halldóra Fríða Þorvaldsdóttir",
+      "occupation": "Bæjarfulltrúi og verkefnastjóri"
+    },
+    {
+      "id": "REY.C.1",
+      "muni_slug": "reykjanesbaer",
+      "muni_label": "Reykjanesbær",
+      "party_code": "C",
+      "ballot": 1,
+      "name": "Arnar Páll Guðmundsson",
+      "occupation": "Viðskiptafræðingur og mannauðsráðgjafi"
+    },
+    {
+      "id": "GAR.B.1",
+      "muni_slug": "gardabaer",
+      "muni_label": "Garðabær",
+      "party_code": "B",
+      "ballot": 1,
+      "name": "Hlynur Bæringsson",
+      "occupation": "Varabæjarstjóri og rekstrarstjóri"
+    },
+    {
+      "id": "AKU.B.1",
+      "muni_slug": "akureyri",
+      "muni_label": "Akureyri",
+      "party_code": "B",
+      "ballot": 1,
+      "name": "Sunna Hlín Jóhannesdóttir",
+      "occupation": "Bæjarfulltrúi og framhaldsskólakennari"
+    },
+    {
+      "id": "MOS.B.1",
+      "muni_slug": "mosfellsbaer",
+      "muni_label": "Mosfellsbær",
+      "party_code": "B",
+      "ballot": 1,
+      "name": "Sævar Birgisson",
+      "occupation": "Viðskiptahagfræðingur og bæjarfulltrúi"
+    },
+    {
+      "id": "MOS.L.1",
+      "muni_slug": "mosfellsbaer",
+      "muni_label": "Mosfellsbær",
+      "party_code": "L",
+      "ballot": 1,
+      "name": "Árni Jónsson",
+      "occupation": "Framkvæmdastjóri"
+    },
+    {
+      "id": "ARB.B.1",
+      "muni_slug": "arborg",
+      "muni_label": "Árborg",
+      "party_code": "B",
+      "ballot": 1,
+      "name": "Matthías Bjarnason",
+      "occupation": "Tæknimaður"
+    },
+    {
+      "id": "AKR.B.1",
+      "muni_slug": "akranes",
+      "muni_label": "Akranes",
+      "party_code": "B",
+      "ballot": 1,
+      "name": "Ragnar Baldvin Sæmundsson",
+      "occupation": "Bæjarfulltrúi"
+    },
+    {
+      "id": "AKR.M.1",
+      "muni_slug": "akranes",
+      "muni_label": "Akranes",
+      "party_code": "M",
+      "ballot": 1,
+      "name": "Hrafn Ágúst Björnsson",
+      "occupation": "Öryggisráðgjafi"
+    },
+    {
+      "id": "MUL.B.1",
+      "muni_slug": "mulathing",
+      "muni_label": "Múlaþing",
+      "party_code": "B",
+      "ballot": 1,
+      "name": "Jónína Brynjólfsdóttir",
+      "occupation": "Safnstjóri og forseti sveitarstjórnar"
+    },
+    {
+      "id": "MUL.V.1",
+      "muni_slug": "mulathing",
+      "muni_label": "Múlaþing",
+      "party_code": "V",
+      "ballot": 1,
+      "name": "Ásrún Mjöll Stefánsdóttir",
+      "occupation": "Sveitarstjórnarfulltrúi og húsasmiður"
+    },
+    {
+      "id": "FJA.B.1",
+      "muni_slug": "fjardabyggd",
+      "muni_label": "Fjarðabyggð",
+      "party_code": "B",
+      "ballot": 1,
+      "name": "Þuríður Lillý Sigurðardóttir",
+      "occupation": "Bóndi og bæjarfulltrúi"
+    },
+    {
+      "id": "FJA.M.1",
+      "muni_slug": "fjardabyggd",
+      "muni_label": "Fjarðabyggð",
+      "party_code": "M",
+      "ballot": 1,
+      "name": "Hrafn Bjarnason",
+      "occupation": "Gæða- og verkefnastjóri hjá Egersund Island"
+    },
+    {
+      "id": "SEL.SCS.1",
+      "muni_slug": "seltjarnarnes",
+      "muni_label": "Seltjarnarnes",
+      "party_code": "SCS",
+      "ballot": 1,
+      "name": "Kristinn Ólafsson",
+      "occupation": "Framkvæmdastjóri"
+    },
+    {
+      "id": "SKA.B.1",
+      "muni_slug": "skagafjordur",
+      "muni_label": "Skagafjörður",
+      "party_code": "B",
+      "ballot": 1,
+      "name": "Einar Eðvald Einarsson",
+      "occupation": "Framkvæmdarstjóri og forseti sveitarstjórnar"
+    },
+    {
+      "id": "SUD.B.1",
+      "muni_slug": "sudurnesjabaer",
+      "muni_label": "Suðurnesjabær",
+      "party_code": "B",
+      "ballot": 1,
+      "name": "Anton Kristinn Guðmundsson",
+      "occupation": "Stjórnunarfræðingur og bæjarfulltrúi"
+    },
+    {
+      "id": "BOR.B.1",
+      "muni_slug": "borgarbyggd",
+      "muni_label": "Borgarbyggð",
+      "party_code": "B",
+      "ballot": 1,
+      "name": "Davíð Sigurðsson",
+      "occupation": "Formaður byggðarráðs og bóndi"
+    },
+    {
+      "id": "BOR.A.1",
+      "muni_slug": "borgarbyggd",
+      "muni_label": "Borgarbyggð",
+      "party_code": "A",
+      "ballot": 1,
+      "name": "Jovana Pavlović",
+      "occupation": "Frambjóðandi"
+    },
+    {
+      "id": "ISA.B.1",
+      "muni_slug": "isafjordur",
+      "muni_label": "Ísafjarðarbær",
+      "party_code": "B",
+      "ballot": 1,
+      "name": "Kristján Þór Kristjánsson",
+      "occupation": "Hótelstjóri"
+    },
+    {
+      "id": "HVE.B.1",
+      "muni_slug": "hveragerdi",
+      "muni_label": "Hveragerði",
+      "party_code": "B",
+      "ballot": 1,
+      "name": "Marta Rut Ólafsdóttir",
+      "occupation": "Ferlaverkfræðingur og þróunarstjóri viðskipta"
+    },
+    {
+      "id": "NOR.S.1",
+      "muni_slug": "nordurping",
+      "muni_label": "Norðurþing",
+      "party_code": "S",
+      "ballot": 1,
+      "name": "Kjartan Páll Þórarinsson",
+      "occupation": "Frambjóðandi"
+    },
+    {
+      "id": "HOR.B.1",
+      "muni_slug": "hornafjordur",
+      "muni_label": "Hornafjarðarsveit",
+      "party_code": "B",
+      "ballot": 1,
+      "name": "Hjalti Þór Vignisson",
+      "occupation": "Framkvæmdastjóri hjá Stormar hf"
+    },
+    {
+      "id": "HOR.M.1",
+      "muni_slug": "hornafjordur",
+      "muni_label": "Hornafjarðarsveit",
+      "party_code": "M",
+      "ballot": 1,
+      "name": "Reynir Ásgeirsson",
+      "occupation": "Framkvæmdastjóri"
+    },
+    {
+      "id": "RAN.B.1",
+      "muni_slug": "rangarthingeystra",
+      "muni_label": "Rangárþing eystra",
+      "party_code": "B",
+      "ballot": 1,
+      "name": "Rafn Bergsson",
+      "occupation": "Bóndi og sveitarstjórnarfulltrúi"
+    },
+    {
+      "id": "RAN.NRE.1",
+      "muni_slug": "rangarthingeystra",
+      "muni_label": "Rangárþing eystra",
+      "party_code": "NRE",
+      "ballot": 1,
+      "name": "Tómas Birgir Magnússon",
+      "occupation": "Ferðaþjónustuaðili og íþróttakennari"
+    },
+    {
+      "id": "DAL.B.1",
+      "muni_slug": "dalvikurbyggd",
+      "muni_label": "Dalvíkurbyggð",
+      "party_code": "B",
+      "ballot": 1,
+      "name": "Monika Margrét Stefánsdóttir",
+      "occupation": "Framkvæmdastjóri og sveitarstjórnarfulltrúi"
+    },
+    {
+      "id": "DAL.A.1",
+      "muni_slug": "dalvikurbyggd",
+      "muni_label": "Dalvíkurbyggð",
+      "party_code": "A",
+      "ballot": 1,
+      "name": "Börkur Þór Ottósson",
+      "occupation": "Frambjóðandi"
+    },
+    {
+      "id": "DAL.K.1",
+      "muni_slug": "dalvikurbyggd",
+      "muni_label": "Dalvíkurbyggð",
+      "party_code": "K",
+      "ballot": 1,
+      "name": "Helgi Einarsson",
+      "occupation": "Frambjóðandi"
+    },
+    {
+      "id": "VOG.FYRS.1",
+      "muni_slug": "vogar",
+      "muni_label": "Vogar",
+      "party_code": "FYRS",
+      "ballot": 1,
+      "name": "Gunnar J. Helgason",
+      "occupation": "Pípari"
+    },
+    {
+      "id": "VOG.VOE.1",
+      "muni_slug": "vogar",
+      "muni_label": "Vogar",
+      "party_code": "VOE",
+      "ballot": 1,
+      "name": "Birgir Örn Ólafsson",
+      "occupation": "Deildarstjóri, forseti bæjarstjórnar"
+    },
+    {
+      "id": "SNA.D.1",
+      "muni_slug": "snaefellsbaer",
+      "muni_label": "Snæfellsbær",
+      "party_code": "D",
+      "ballot": 1,
+      "name": "Auður Kjartansdóttir",
+      "occupation": "Fjármálastjóri"
+    },
+    {
+      "id": "THI.THVA.1",
+      "muni_slug": "thingeyjarsveit",
+      "muni_label": "Þingeyjarsveit",
+      "party_code": "THVA",
+      "ballot": 1,
+      "name": "Knútur Emil Jónasson",
+      "occupation": "Byggingarfræðingur"
+    },
+    {
+      "id": "THI.THVL.1",
+      "muni_slug": "thingeyjarsveit",
+      "muni_label": "Þingeyjarsveit",
+      "party_code": "THVL",
+      "ballot": 1,
+      "name": "Hallgrímur Páll Leifsson",
+      "occupation": "Flugmaður og skíðaþjálfari"
+    },
+    {
+      "id": "THI.THVN.1",
+      "muni_slug": "thingeyjarsveit",
+      "muni_label": "Þingeyjarsveit",
+      "party_code": "THVN",
+      "ballot": 1,
+      "name": "Eyþór Kári Ingólfsson",
+      "occupation": "Búfræðinemi"
+    },
+    {
+      "id": "HUN.HBA.1",
+      "muni_slug": "hunabyggd",
+      "muni_label": "Húnabyggð",
+      "party_code": "HBA",
+      "ballot": 1,
+      "name": "Jón Gíslason",
+      "occupation": "Bóndi á Stóra-Búrfelli"
+    },
+    {
+      "id": "HUN.B.1",
+      "muni_slug": "hunabyggd",
+      "muni_label": "Húnabyggð",
+      "party_code": "B",
+      "ballot": 1,
+      "name": "Grímur Rúnar Lárusson",
+      "occupation": "Lögfræðingur"
+    },
+    {
+      "id": "STY.FLS.1",
+      "muni_slug": "stykkisholmur",
+      "muni_label": "Stykkishólmur",
+      "party_code": "FLS",
+      "ballot": 1,
+      "name": "Björn Ásgeir Sumarliðason",
+      "occupation": "Bæjarstjóri"
+    },
+    {
+      "id": "STY.IBU.1",
+      "muni_slug": "stykkisholmur",
+      "muni_label": "Stykkishólmur",
+      "party_code": "IBU",
+      "ballot": 1,
+      "name": "Sigurður Grétar Jónasson",
+      "occupation": "Frambjóðandi"
+    },
+    {
+      "id": "VES.NYS.1",
+      "muni_slug": "vesturbyggd",
+      "muni_label": "Vesturbyggð",
+      "party_code": "NYS",
+      "ballot": 1,
+      "name": "Þórkatla Soffía Ólafsdóttir",
+      "occupation": "Frambjóðandi"
+    },
+    {
+      "id": "VES.STV.1",
+      "muni_slug": "vesturbyggd",
+      "muni_label": "Vesturbyggð",
+      "party_code": "STV",
+      "ballot": 1,
+      "name": "Hlynur Ársælsson",
+      "occupation": "Frambjóðandi"
+    },
+    {
+      "id": "EYJ.EJF.1",
+      "muni_slug": "eyjafjardarsveit",
+      "muni_label": "Eyjafjarðarsveit",
+      "party_code": "EJF",
+      "ballot": 1,
+      "name": "Hermann Ingi Gunnarsson",
+      "occupation": "Bóndi og bæjarfulltrúi"
+    },
+    {
+      "id": "EYJ.EJK.1",
+      "muni_slug": "eyjafjardarsveit",
+      "muni_label": "Eyjafjarðarsveit",
+      "party_code": "EJK",
+      "ballot": 1,
+      "name": "Guðmundur Sigurbjörn Óskarsson",
+      "occupation": "Vélfræðingur og bóndi"
+    },
+    {
+      "id": "HUN.B.1",
+      "muni_slug": "hunathing",
+      "muni_label": "Húnavatnshreppur",
+      "party_code": "B",
+      "ballot": 1,
+      "name": "Sigurður Líndal Þórison",
+      "occupation": "Verkefnastjóri"
+    },
+    {
+      "id": "MYR.MYA.1",
+      "muni_slug": "myrdalshr",
+      "muni_label": "Mýrdalshreppur",
+      "party_code": "MYA",
+      "ballot": 1,
+      "name": "Anna Huld Óskarsdóttir",
+      "occupation": "Hótelstjóri"
+    },
+    {
+      "id": "MYR.MYZ.1",
+      "muni_slug": "myrdalshr",
+      "muni_label": "Mýrdalshreppur",
+      "party_code": "MYZ",
+      "ballot": 1,
+      "name": "Björn Þór Ólafsson",
+      "occupation": "Verslunarstjóri"
+    },
+    {
+      "id": "BOL.MMM.1",
+      "muni_slug": "bolungarvik",
+      "muni_label": "Bolungarvík",
+      "party_code": "MMM",
+      "ballot": 1,
+      "name": "Guðfinnur Ragnar Jóhannsson",
+      "occupation": "Frambjóðandi"
+    },
+    {
+      "id": "BOL.BBK.1",
+      "muni_slug": "bolungarvik",
+      "muni_label": "Bolungarvík",
+      "party_code": "BBK",
+      "ballot": 1,
+      "name": "Kristján Jón Guðmundsson",
+      "occupation": "Frambjóðandi"
+    },
+    {
+      "id": "HOR.HGG.1",
+      "muni_slug": "horgarsv",
+      "muni_label": "Hörgársveit",
+      "party_code": "HGG",
+      "ballot": 1,
+      "name": "Sunna María Jónasdóttir",
+      "occupation": ""
+    },
+    {
+      "id": "HOR.HGH.1",
+      "muni_slug": "horgarsv",
+      "muni_label": "Hörgársveit",
+      "party_code": "HGH",
+      "ballot": 1,
+      "name": "Bjarki Brynjólfsson",
+      "occupation": "Lögfræðingur"
+    },
+    {
+      "id": "HRU.HRL.1",
+      "muni_slug": "hrunamannahreppur",
+      "muni_label": "Hrunamannahreppur",
+      "party_code": "HRL",
+      "ballot": 1,
+      "name": "Daði Geir Samúelsson",
+      "occupation": "Rekstrarstjóri Sólskins grænmetis"
+    },
+    {
+      "id": "GRU.GFB.1",
+      "muni_slug": "grundarfjordur",
+      "muni_label": "Grundarfjörður",
+      "party_code": "GFB",
+      "ballot": 1,
+      "name": "Fannar Þór Þorfinnsson",
+      "occupation": "Frambjóðandi"
+    },
+    {
+      "id": "GRI.B.1",
+      "muni_slug": "grindavik",
+      "muni_label": "Grindavík",
+      "party_code": "B",
+      "ballot": 1,
+      "name": "Ásrún Helga Kristinsdóttir",
+      "occupation": "Kennari og forseti bæjarstjórnar"
+    },
+    {
+      "id": "GRI.M.1",
+      "muni_slug": "grindavik",
+      "muni_label": "Grindavík",
+      "party_code": "M",
+      "ballot": 1,
+      "name": "Magnús Már Jakobsson",
+      "occupation": "Frambjóðandi"
+    },
+    {
+      "id": "HVA.HVA.1",
+      "muni_slug": "hvalfjardarsveit",
+      "muni_label": "Hvalfjarðarsveit",
+      "party_code": "HVA",
+      "ballot": 1,
+      "name": "Haraldur Benediktsson",
+      "occupation": "Frambjóðandi"
+    },
+    {
+      "id": "HVA.HVB.1",
+      "muni_slug": "hvalfjardarsveit",
+      "muni_label": "Hvalfjarðarsveit",
+      "party_code": "HVB",
+      "ballot": 1,
+      "name": "Þóra Margrét Júlíusdóttir",
+      "occupation": "Frambjóðandi"
+    },
+    {
+      "id": "FLO.FLT.1",
+      "muni_slug": "floahreppur",
+      "muni_label": "Flóahreppur",
+      "party_code": "FLT",
+      "ballot": 1,
+      "name": "Almar Sigurðsson",
+      "occupation": "Ferðaþjónustubóndi"
+    },
+    {
+      "id": "SKE.SGE.1",
+      "muni_slug": "skeidagnup",
+      "muni_label": "Skeiða- og Gnúpverjahreppur",
+      "party_code": "SGE",
+      "ballot": 1,
+      "name": "Gunnar Örn Marteinsson",
+      "occupation": "Ferðaþjónustubóndi"
+    },
+    {
+      "id": "SKE.SGL.1",
+      "muni_slug": "skeidagnup",
+      "muni_label": "Skeiða- og Gnúpverjahreppur",
+      "party_code": "SGL",
+      "ballot": 1,
+      "name": "Haraldur Þór Jónsson",
+      "occupation": "Bóndi og sveitarstjórnarfulltrúi"
+    },
+    {
+      "id": "SKA.SKO.1",
+      "muni_slug": "skaftarhreppur",
+      "muni_label": "Skaftárhreppur",
+      "party_code": "SKO",
+      "ballot": 1,
+      "name": "Jóhannes Gissurarson",
+      "occupation": "Bóndi"
+    },
+    {
+      "id": "VOP.VOP.1",
+      "muni_slug": "vopnafjordur",
+      "muni_label": "Vopnafjörður",
+      "party_code": "VOP",
+      "ballot": 1,
+      "name": "Íris Edda Jónsdóttir",
+      "occupation": "Frambjóðandi"
+    },
+    {
+      "id": "SVA.SVSS.1",
+      "muni_slug": "svalbardsstrond",
+      "muni_label": "Svalbards- og Langadalshr.",
+      "party_code": "SVSS",
+      "ballot": 1,
+      "name": "Sigríður Ingi Stefánsdóttir",
+      "occupation": "Frambjóðandi"
+    },
+    {
+      "id": "SVA.SVSH.1",
+      "muni_slug": "svalbardsstrond",
+      "muni_label": "Svalbards- og Langadalshr.",
+      "party_code": "SVSH",
+      "ballot": 1,
+      "name": "Ólafur Rúnar Ólafsson",
+      "occupation": "Frambjóðandi"
+    },
+    {
+      "id": "SVA.SVSO.1",
+      "muni_slug": "svalbardsstrond",
+      "muni_label": "Svalbards- og Langadalshr.",
+      "party_code": "SVSO",
+      "ballot": 1,
+      "name": "Bjarni Þór Guðmundsson",
+      "occupation": "Frambjóðandi"
+    },
+    {
+      "id": "SKA.B.1",
+      "muni_slug": "skagastrond",
+      "muni_label": "Skagaströnd",
+      "party_code": "B",
+      "ballot": 1,
+      "name": "Eydís Inga Sigurjónsdóttir",
+      "occupation": "Forstöðumaður hjúkrunardeilda"
+    },
+    {
+      "id": "SKA.S.1",
+      "muni_slug": "skagastrond",
+      "muni_label": "Skagaströnd",
+      "party_code": "S",
+      "ballot": 1,
+      "name": "Ragnheiður Erla Stefánsdóttir",
+      "occupation": "Hagfræðingur"
+    },
+    {
+      "id": "SKA.K.1",
+      "muni_slug": "skagastrond",
+      "muni_label": "Skagaströnd",
+      "party_code": "K",
+      "ballot": 1,
+      "name": "Vigdís Elva Þorgeirsdóttir",
+      "occupation": "Frambjóðandi"
+    },
+    {
+      "id": "STR.B.1",
+      "muni_slug": "strandabyggd",
+      "muni_label": "Strandabyggð",
+      "party_code": "B",
+      "ballot": 1,
+      "name": "Sigurbjörn Rafn Úlfarsson",
+      "occupation": "Frambjóðandi"
+    }
+  ]
+}

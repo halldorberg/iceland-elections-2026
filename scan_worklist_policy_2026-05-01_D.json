@@ -1,0 +1,219 @@
+{
+  "scope": "policy scan 2026-05-01 — all parties without platformUrl, no-agenda priority",
+  "agent_label": "D",
+  "slice": [
+    87,
+    113
+  ],
+  "count": 26,
+  "missing_policy": [
+    {
+      "id": "SKA.B",
+      "muni_slug": "skagastrond",
+      "muni_label": "Skagaströnd",
+      "party_code": "B",
+      "party_label": "Framsóknarflokkurinn",
+      "tagline": "Framsókn og óháðir í Skagaströnd"
+    },
+    {
+      "id": "SKA.S",
+      "muni_slug": "skagastrond",
+      "muni_label": "Skagaströnd",
+      "party_code": "S",
+      "party_label": "Samfylkingin",
+      "tagline": "Samfylking og óháðir í Skagaströnd"
+    },
+    {
+      "id": "SKE.SGE",
+      "muni_slug": "skeidagnup",
+      "muni_label": "Skeiða- og Gnúpverjahreppur",
+      "party_code": "SGE",
+      "party_label": "SGE",
+      "tagline": "Uppbyggingarlistinn — framtíð Skeiða- og Gnúpverjahrepps"
+    },
+    {
+      "id": "SKE.SGL",
+      "muni_slug": "skeidagnup",
+      "muni_label": "Skeiða- og Gnúpverjahreppur",
+      "party_code": "SGL",
+      "party_label": "SGL",
+      "tagline": "Samvinnulistinn — samvinna og þróun"
+    },
+    {
+      "id": "SNA.D",
+      "muni_slug": "snaefellsbaer",
+      "muni_label": "Snæfellsbær",
+      "party_code": "D",
+      "party_label": "Sjálfstæðisflokkurinn",
+      "tagline": "D-listi Sjálfstæðisflokks — Snæfellsbær 2026"
+    },
+    {
+      "id": "STR.B",
+      "muni_slug": "strandabyggd",
+      "muni_label": "Strandabyggð",
+      "party_code": "B",
+      "party_label": "Framsóknarflokkurinn",
+      "tagline": "Framsóknarmenn og óháðir í Strandabyggð"
+    },
+    {
+      "id": "STR.SBD",
+      "muni_slug": "strandabyggd",
+      "muni_label": "Strandabyggð",
+      "party_code": "SBD",
+      "party_label": "SBD",
+      "tagline": "Strandabandalagið — sameinuð um framtíðina"
+    },
+    {
+      "id": "STR.VGV",
+      "muni_slug": "strandabyggd",
+      "muni_label": "Strandabyggð",
+      "party_code": "VGV",
+      "party_label": "VGV",
+      "tagline": "Vegvísir — leiðum Strandabyggð í rétta átt"
+    },
+    {
+      "id": "STY.FLS",
+      "muni_slug": "stykkisholmur",
+      "muni_label": "Stykkishólmur",
+      "party_code": "FLS",
+      "party_label": "FLS",
+      "tagline": "Framfaralisti Stykkishólms — byggjum upp bæinn saman"
+    },
+    {
+      "id": "STY.IBU",
+      "muni_slug": "stykkisholmur",
+      "muni_label": "Stykkishólmur",
+      "party_code": "IBU",
+      "party_label": "IBU",
+      "tagline": "Íbúalistinn — rödd íbúanna"
+    },
+    {
+      "id": "SUD.FJL",
+      "muni_slug": "sudavik",
+      "muni_label": "Suðavík",
+      "party_code": "FJL",
+      "party_label": "FJL",
+      "tagline": "Fjarðarlistinn — hlutum okkur af framtíð Súðavíkur"
+    },
+    {
+      "id": "SUD.FTL",
+      "muni_slug": "sudavik",
+      "muni_label": "Suðavík",
+      "party_code": "FTL",
+      "party_label": "FTL",
+      "tagline": "Framtíðarlistinn — í átt að betri framtíð"
+    },
+    {
+      "id": "SUD.D",
+      "muni_slug": "sudurnesjabaer",
+      "muni_label": "Suðurnesjabær",
+      "party_code": "D",
+      "party_label": "Sjálfstæðisflokkurinn",
+      "tagline": "Haukur Andreasson leiðir D-listann og óháða í Suðurnesjabæ"
+    },
+    {
+      "id": "SUD.S",
+      "muni_slug": "sudurnesjabaer",
+      "muni_label": "Suðurnesjabær",
+      "party_code": "S",
+      "party_label": "Samfylkingin",
+      "tagline": "Svavar Grétarsson leiðir Samfylkinguna og óháða í Suðurnesjabæ"
+    },
+    {
+      "id": "SVA.SVSS",
+      "muni_slug": "svalbardsstrond",
+      "muni_label": "Svalbards- og Langadalshr.",
+      "party_code": "SVSS",
+      "party_label": "SVSS",
+      "tagline": "S-listi í Svalbarðsstrandarhreppi — samstaða og framþróun"
+    },
+    {
+      "id": "THI.THVA",
+      "muni_slug": "thingeyjarsveit",
+      "muni_label": "Þingeyjarsveit",
+      "party_code": "THVA",
+      "party_label": "THVA",
+      "tagline": "A-listi í Þingeyjarsveit — áfram sveitin"
+    },
+    {
+      "id": "THI.THVL",
+      "muni_slug": "thingeyjarsveit",
+      "muni_label": "Þingeyjarsveit",
+      "party_code": "THVL",
+      "party_label": "THVL",
+      "tagline": "L-listi í Þingeyjarsveit — lausnir fyrir íbúana"
+    },
+    {
+      "id": "THI.THVN",
+      "muni_slug": "thingeyjarsveit",
+      "muni_label": "Þingeyjarsveit",
+      "party_code": "THVN",
+      "party_label": "THVN",
+      "tagline": "N-listi í Þingeyjarsveit — nýtt líf í sveitina"
+    },
+    {
+      "id": "TJO.TJN",
+      "muni_slug": "tjornes",
+      "muni_label": "Þórshafnarhreppur",
+      "party_code": "TJN",
+      "party_label": "TJN",
+      "tagline": "Tjörnes — Eitt framboð"
+    },
+    {
+      "id": "VES.NYS",
+      "muni_slug": "vesturbyggd",
+      "muni_label": "Vesturbyggð",
+      "party_code": "NYS",
+      "party_label": "NYS",
+      "tagline": "Nýrra sýnar — framtíðarsýn fyrir Vesturbyggð"
+    },
+    {
+      "id": "VES.STV",
+      "muni_slug": "vesturbyggd",
+      "muni_label": "Vesturbyggð",
+      "party_code": "STV",
+      "party_label": "STV",
+      "tagline": "Sterkari Vesturbyggð — saman getum við meira"
+    },
+    {
+      "id": "VOG.D",
+      "muni_slug": "vogar",
+      "muni_label": "Vogar",
+      "party_code": "D",
+      "party_label": "Sjálfstæðisflokkurinn",
+      "tagline": "Björg Ásta Þórðardóttir leiðir Sjálfstæðismannalistann í Vogum"
+    },
+    {
+      "id": "VOG.FYRS",
+      "muni_slug": "vogar",
+      "muni_label": "Vogar",
+      "party_code": "FYRS",
+      "party_label": "FYRS",
+      "tagline": "Gunnar J. Helgason leiðir listann Fyrir samfélagið í Vogum"
+    },
+    {
+      "id": "VOG.VOE",
+      "muni_slug": "vogar",
+      "muni_label": "Vogar",
+      "party_code": "VOE",
+      "party_label": "VOE",
+      "tagline": "Birgir Örn Ólafsson leiðir E-listann í Vogum"
+    },
+    {
+      "id": "VOG.VOL",
+      "muni_slug": "vogar",
+      "muni_label": "Vogar",
+      "party_code": "VOL",
+      "party_label": "VOL",
+      "tagline": "Kristinn Björgvinsson leiðir L-listann í Vogum"
+    },
+    {
+      "id": "VOP.VOP",
+      "muni_slug": "vopnafjordur",
+      "muni_label": "Vopnafjörður",
+      "party_code": "VOP",
+      "party_label": "VOP",
+      "tagline": "Vopnafjörður — eitt framboð, sameinaður hreppur"
+    }
+  ]
+}

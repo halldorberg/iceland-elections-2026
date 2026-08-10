@@ -1,0 +1,27 @@
+{
+  "scan_type": "photos",
+  "scan_date": "2026-05-01",
+  "agent_note": "Agent B",
+  "results": [
+    {
+      "id": "STR.SBD.1",
+      "muni_slug": "strandabyggd",
+      "party_code": "SBD",
+      "ballot": 1,
+      "name": "Þorgeir Pálsson",
+      "photo_url": "https://bb.is/wp-content/uploads/2021/06/THorgeir_visir.is_-1.jpg",
+      "photo_local": "images/candidates/3bd6c57c31acc7a6.jpg",
+      "source": "https://bb.is/2026/04/strandabandalagid-kynnir-frambodslistann/"
+    },
+    {
+      "id": "HAF.B.2",
+      "muni_slug": "hafnarfjordur",
+      "party_code": "B",
+      "ballot": 2,
+      "name": "Kolbrún Magnúsdóttir",
+      "photo_url": "https://www.fjardarfrettir.is/wp-content/uploads/Kolbrun-Magnusdottir-2025-vef.avif",
+      "photo_local": "images/candidates/31084ab6c2e53184.avif",
+      "source": "https://www.fjardarfrettir.is/frettir/politik/skiptir-yfir-i-framoknarflokkinn"
+    }
+  ]
+}

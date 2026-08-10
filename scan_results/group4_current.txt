@@ -1,0 +1,489 @@
+
+hveragerdi (HVG): 56 candidates total
+  OKH (14 candidates):
+    1. Lárus Jónsson
+    2. Dagný Sif Sigurbjörnsdóttir
+    3. Jónas Guðnason
+    4. Sandra Lind Brynjardóttir
+    5. Ívar Dagur B. Sævarsson
+    6. Brynja Hrafnkelsdóttir
+    7. Eyþór Ólsen Finnsson
+    8. Embla Werner Gudleifsdóttir
+    9. Guðjón Óskar Kristjánsson
+    10. Halldóra Jóna Guðmundsdóttir
+    11. Hrafn Andrés Harðarson
+    12. Anna Jórunn Stefánsdóttir
+    13. Njörður Sigurðsson
+    14. Sandra Sigurðardóttir
+  B (14 candidates):
+    1. Marta Rut Ólafsdóttir
+    2. Einar Alexander K. Haraldsson
+    3. Thelma Rún Runólfsdóttir
+    4. Atli Örn Egilsson
+    5. Sæbjörg L. Másdóttir
+    6. Hanna Einarsdóttir
+    7. Örn Sigurðarson
+    8. Guðbjörg Ýr Ingólfsdóttir
+    9. Páll Sigurðsson
+    10. Margrét S. Stefánsdóttir
+    11. Örlygur Atli Guðmundsson
+    12. Friðrik Þórðardóttir
+    13. Halldór Bjarni Mariasson
+    14. Jóhanna Ýr Jóhannsdóttir
+  S (14 candidates):
+    1. Birgitta Ragnarsdóttir
+    2. Þorsteinn Hjartarson
+    3. Maria de Araceli Quintana
+    4. Guðmundur Benóný Baldvinsson
+    5. Berglind Ósk Guttormsdóttir
+    6. Arnar Hannes Halldórsson
+    7. Árný Fjóla Ásmundsdóttir
+    8. Tómas Kristjánsson
+    9. Kristín Lilja Th. Björnsdóttir
+    10. Halldór Grétar Einarsson
+    11. Harpa Björnsdóttir
+    12. Hjálmar Trausti Kristjánsson
+    13. María Arnardóttir
+    14. Ingibjörg Sigmundsdóttir
+  D (14 candidates):
+    1. Ingimar Guðmundsson
+    2. María Rún Þorsteinsdóttir
+    3. Sigmar Karlsson
+    4. Hjalti Helgason
+    5. Karitas Róbertsdóttir
+    6. Írís Brá Svavarsdóttir
+    7. Einar Ísberg
+    8. Hekla Björt Birkisdóttir
+    9. Sigurður Einar Guðjónsson
+    10. Guðfinna Ýr Sumarliðadóttir
+    11. Hallgrímur Þorgilsson
+    12. Nishadi U. Weerasooriya
+    13. Feng Jiang Hannesdóttir
+    14. Eyjólfur K. Kolbeins
+
+fjardabyggd (FJD): 71 candidates total
+  B (18 candidates):
+    1. Þuríður Lillý Sigurðardóttir
+    2. Birgir Jónsson
+    3. Helga Rakel Arnardóttir
+    4. Sigurjón Andrés Jónasson
+    5. Bjarney Birta Bergsdóttir
+    6. Guðbjartur Hjálmarsson
+    7. Sigrún Eva Grétarsdóttir
+    8. Björgvin Karl Gunnarsson
+    9. Tinna Hrönn Smáradóttir
+    10. Alma Eiðsdóttir
+    11. Vilberg Marinó Jónasson
+    12. Margrét Sigfúsdóttir
+    13. Jórunn Dagbjört Jónsdóttir
+    14. Halldór B. Bjarneyjarson
+    15. Linda María Emilsdóttir
+    16. Sara Rut Mellado Vilbergsdóttir
+    17. Kristján Guðni Sævarsson
+    18. Jón Björn Hákonarson
+  D (17 candidates):
+    1. Ragnar Sigurðsson
+    2. Kristinn Þór Jónasson
+    3. Þórdís Mjöll Benediktsdóttir
+    4. Húnbogi Sólon Gunnþórsson
+    5. Tanja Tómasdóttir
+    7. Bryngeir Ágúst Margeirsson
+    8. Hildur Ósk Pétursdóttir
+    9. Anton Berg Sævarsson
+    10. Ingunn Eir Andrésdóttir
+    11. Theodór Elvar Haraldsson
+    12. Sóley Katrín Heiðarsdóttir
+    13. Guðný Margrét Bjarnadóttir
+    14. Sölvi Guðmundarson
+    15. Simona Giastautiené
+    16. Íris Katla Guðmundsdóttir
+    17. Sigurjón Rúnarsson
+    18. Kristinn Aðalsteinsson
+  M (18 candidates):
+    1. Hrafn Bjarnason
+    2. Alma Sigurbjörnsdóttir
+    3. Baldur Marteinn Einarsson
+    4. Hafþór Eiríksson
+    5. Anna Guðný Gunnarsdóttir
+    6. Elís Ármannsson
+    7. Guðný Harðardóttir
+    8. Sævar Þór Skoradal
+    9. Anna Þórhildur Kristmundsdóttir
+    10. Jóna Petra Magnúsdóttir
+    11. Guðröður Hákonarson
+    12. Júlíus Óli Jacobsen
+    13. Þorbergur Níels Hauksson
+    14. Magnea María Jónudóttir
+    15. Þórunn Ólafsdóttir
+    16. Guðmundur Björgólfsson
+    17. Gestur Sigmundsson
+    18. Rúnar Már Gunnarsson
+  S (18 candidates):
+    1. Stefán Þór Eysteinsson
+    2. Hjördís Helga Seljan
+    3. Valborg Ösp Á. Warén
+    4. Adam Ingi Guðlaugsson
+    5. Arndís Bára Pétursdóttir
+    6. Ásdís Helga Jóhannsdóttir
+    7. Birkir Snær Guðjónsson
+    8. Esther Ösp Gunnarsdóttir
+    9. A. Eva Sigurðardóttir
+    10. Jaroslaw Zajaczkowski
+    11. Salóme Rut Harðardóttir
+    12. Joanna Katarzyna Mrowiec
+    13. Oddur Sigurðsson
+    14. Sveinn Fannar Sæmundsson
+    15. Anna Sigrún Jóhönnudóttir
+    16. Kristrún Antonsdóttir
+    17. Benedikt Sigurjónsson
+    18. Björn Hafþór Guðmundsson
+
+fjallabyggd (FJB): 38 candidates total
+  D (10 candidates):
+    1. Tómas Atli Einarsson
+    2. Kristín Ágústa Eiðsdóttir
+    3. Guðrún Sif Guðbrandsdóttir
+    4. Viktor Freyr Elísson
+    5. Stefán Júlíusson
+    6. Hanna Sigríður Ásgeirsdóttir
+    7. Rut Jónsdóttir
+    8. Egill Ólason
+    9. Sandra Finnsdóttir
+    10. Ásgeir Frímannsson
+  H (14 candidates):
+    1. Helgi Jóhannsson
+    2. Kristinn Kristjánsson
+    3. Ásgeir Logi Ásgeirsson
+    4. Auður Ösp H. Magnúsdóttir
+    5. Guðlaugur Magnús Ingason
+    6. Þorfinna Þrastarsdóttir
+    7. Þorgeir Bjarnason
+    8. Klara Mist Pálsdóttir
+    9. Jón Valgeir Baldursson
+    10. Andri Viðar Víglundsson
+    11. Aðalbjörg Snorradóttir
+    12. Áki Berndsen
+    13. Katrín Freysdóttir
+    14. Árni Helgason
+  S (14 candidates):
+    1. Jóhann K. Jóhannsson
+    2. Pálmi Blængsson
+    3. Sæunn Gísladóttir
+    4. Guðjón M. Ólafsson
+    5. Kristín M. Halldórsdóttir
+    6. Áslaug Barðadóttir
+    7. Habib Jaouad
+    8. Valdís Jörgensdóttir
+    9. Ásta Lovísa Pálsdóttir
+    10. Kristjana Rannveig Sveinsdóttir
+    11. Jón Kort Ólafsson
+    12. Hólmar Hákon Óðinsson
+    13. Ægir Bergsson
+    14. Sæbjörg Ágústsdóttir
+
+hornafjordur (HFJ): 56 candidates total
+  B (14 candidates):
+    1. Hjalti Þór Vignisson
+    2. Ingibjörg Sveinsdóttir
+    3. Björgvin Óskar Sigurjónsson
+    4. Kolbrún Þorbjörg Björnsdóttir
+    5. Gunnar Ásgeirsson
+    6. Finnur Smári Torfason
+    7. Erla Rún Guðmundsdóttir
+    8. Þórdís Þórsdóttir
+    9. Lena Hrönn Marteinsdóttir
+    10. Sigursteinn Ingvar Traustason
+    11. Lars Jóhann Andrésson Imsland
+    12. Haukur Ingi Einarsson
+    13. Reynir Arnarson
+    14. Ásgerður Kristín Gylfadóttir
+  D (14 candidates):
+    1. Gauti Árnason
+    2. Hjördís Edda Olgeirsdóttir
+    3. Ásta Steinunn Eiríksdóttir
+    4. Ágústa Arnardóttir
+    5. Sindri Ragnarsson
+    6. Níels Brimar Jónsson
+    7. Þröstur Jóhansson
+    8. Steindór Sigurjónsson
+    9. Bjarni Haukur Bjarnason
+    10. Alexander Vigfússon
+    11. Ingvi Þór Sigurðsson
+    12. Gísli Þórarinn Hallsson
+    13. Tinna Rut Sigurðardóttir
+    14. Skúli Ingólfsson
+  K (14 candidates):
+    1. Eyrún Fríða Árnadóttir
+    2. Guðrún Stefanía Vopnfjörð Ingólfsdóttir
+    3. Elías Tjörvi Halldórsson
+    4. Wiktoria Anna Darnowska
+    5. Sigrún Sigurgeirsdóttir
+    6. Styrmir Einarsson
+    7. Kristján Örn Ebenezersson
+    8. Róslín Alma Valdemarsdóttir
+    9. Sigríður Þórunn Þorvarðardóttir
+    10. Sveinbjörg Jónsdóttir
+    11. Helga Árnadóttir
+    12. Sæmundur Jón Jónsson
+    13. Hrafnhildur Ævarsdóttir
+    14. Halldór Tjörvi Einarsson
+  M (14 candidates):
+    1. Reynir Ásgeirsson
+    2. Stefán Freyr Jónsson
+    3. Herdís I Waage
+    4. Erlingur Ingi Brynjólfsson
+    5. Valur Pálsson
+    6. Hilmar Þór Sigurjónsson
+    7. Hjörvar Hauksson
+    8. Amor Joy Pepito Mantilla
+    9. Atli Arnarson
+    10. Pálmi Freyr Gunnarsson
+    11. Antonía Arnórsdóttir
+    12. Magdalena Anna Zazulak
+    13. Ágúst Már Ágústsson
+    14. Ómar Antonsson
+
+skagafjordur (SFJ): 72 candidates total
+  B (18 candidates):
+    1. Einar Eðvald Einarsson
+    2. Hrund Pétursdóttir
+    3. Halldór Jón Sigurðsson
+    4. Sylvía Sif Halldórsdóttir
+    5. Sigurlína Erla Magnúsdóttir
+    6. Atli Már Traustason
+    7. Sigurður Bjarni Rafnsson
+    8. Helga Þórsdóttir
+    9. Kristján Jónsson
+    10. Hrefna Jóhannesdóttir
+    11. Sigríður Hrafnhildur Stefánsdóttir
+    12. Ísak Óli Traustason
+    13. Guðbjörg Óskarsdóttir
+    14. Marcin Sienkiewicz
+    15. Kolbjörg Katla Hinriksdóttir
+    16. Eyrún Sævarsdóttir
+    17. Axel Kárason
+    18. Sigríður Magnúsdóttir
+  D (18 candidates):
+    1. Magnús Barðdal Reynisson
+    2. Sólborg S. Borgarsdóttir
+    3. Guðlaugur Skúlason
+    4. Rósanna Valdimarsdóttir
+    5. Jón Daníel Jónsson
+    6. Guðbjörg Konráðsdóttir
+    7. Jóhann Daði Gíslason
+    8. Brynja Sif Harðardóttir
+    9. Anton Þorri Axelsson
+    10. Grazyna Maria Garlak
+    11. Jakob Logi Gunnarsson
+    12. Sandra Björk Jónsdóttir
+    13. Sigrún Eva Helgadóttir
+    14. Óli Björn Pétursson
+    15. Gunnar Smári Reynaldsson
+    16. Merete Rabølle
+    17. Árni Egilsson
+    18. Gísli Sigurðsson
+  SFL (18 candidates):
+    1. Eyþór Fannar Sveinsson
+    2. Jóhanna Ey Harðardóttir
+    3. Sveinn Úlfarsson
+    4. Elínborg Erla Ásgeirsdóttir
+    5. Ingvar Daði Jóhannsson
+    6. Bryndís Rut Haraldsdóttir
+    7. Davíð Logi Jónsson
+    8. Guðrún Sonja Birgisdóttir
+    9. Harpa Katrín Halldórsdóttir
+    10. Jóhanna Sigrún Björnsdóttir
+    11. Jón Einar Kjartansson
+    12. Ólafur Bjarni Haraldsson
+    13. Þórunn Eyjólfsdóttir
+    14. Jón Sigurjónsson
+    15. Sigurjón Leifsson
+    16. Dragica Glisovic
+    17. Vignir Nói Sveinsson
+    18. Agnar Halldór Gunnarsson
+  M (18 candidates):
+    1. Högni Elfar Gylfason
+    2. Jódís Helga Káradóttir
+    3. Elfa Björk Víðisdóttir
+    4. Sædís Bylgja Jónsdóttir
+    5. Hreiðar Örn Steinþórsson
+    6. Helga Rósa Pálsdóttir Þormar
+    7. Valdimar Á. Þorbergsson
+    8. Hólmsteinn Orri Þorleifsson
+    9. Kristján Ingi Sigurðsson
+    10. Hafsteinn Máni Björnsson
+    11. Karen Edda Kristjánsdóttir
+    12. Sigurjón Heiðar Sigurbjörnsson
+    13. Kristján Elvar Gíslason
+    14. Sigfríður Jódís Halldórsdóttir
+    15. Hafsteinn Logi Sigurðarson
+    16. Líney María Hjálmarsdóttir
+    17. Ingi Sigþór Gunnarsson
+    18. Jóhann Már Jóhannsson
+
+hunabyggd (HNB): 54 candidates total
+  HBA (18 candidates):
+    1. Jón Gíslason
+    2. Sara Björk Þorsteinsdóttir
+    3. Emil Jóhann Þorsteinsson
+    4. Sverrir Þór Sverrisson
+    5. Karen Helga R Steinsdóttir
+    6. Ásmundur Óskar Einarsson
+    7. Lára Dagný Sævarsdóttir
+    8. Sigurður Árnason
+    9. Jóhanna Stella Jóhannsdóttir
+    10. Sigþór Ottó Hallgrímsson
+    11. Kristín Birna Sveinbjörnsdóttir
+    12. Guðmann Ásgeir Halldórsson
+    13. Guðný Ósk Jónasdóttir
+    14. Guðmundur Sævar Þórsson
+    15. Jóna Rannveig Ólafsdóttir
+    16. Einar Pétursson
+    17. Berglind Hlín Baldursdóttir
+    18. Þorleifur Ingvarsson
+  B (18 candidates):
+    1. Grímur Rúnar Lárusson
+    2. Jenný Lind Gunnarsdóttir
+    3. Helgi Páll Gíslason
+    4. Ágústa Rós Ingibjörnsdóttir
+    5. Ásdís Adda Ólafsdóttir
+    6. Morgan Christina Bresko
+    7. Agnar Logi Eiríksson
+    8. Bryndís Sigurðardóttir
+    9. Sigurður Bjarni Aadnegard
+    10. Elín Ósk Gísladóttir
+    11. Guðmann Valdimarsson
+    12. Arnar Freyr Ómarsson
+    13. Þórdís Eva Einarsdóttir
+    14. Gunnar Ingi Jósepsson
+    15. Arnór Guðjónsson
+    16. Björn Ívar Jónsson
+    17. Magnús Ólafsson
+    18. Auðunn Steinn Sigurðsson
+  D (18 candidates):
+    1. Guðmundur Haukur Jakobsson
+    2. Zophonías Ari Lárusson
+    3. Kolbrún Ágústa Guðnadóttir
+    4. Sævar Björgvinsson
+    5. Ragnhildur Haraldsdóttir
+    6. Atli Einarsson
+    7. Arnrún Bára Finnsdóttir
+    8. Magnús Sigurjónsson
+    9. Anton Haraldsson
+    10. Friðrún Fanný Guðmundsdóttir
+    11. Freyja Dís Jóhannsdóttir
+    12. Kristófer Kristjánsson
+    13. Höskuldur Sveinn Björnsson
+    14. Anna Margrét Jónsdóttir
+    15. Ásdís Ýr Arnardóttir
+    16. Jón Árni Magnússon
+    17. Linda Björk Ævarsdóttir
+    18. Magnús Rúnar Sigurðsson
+
+hunathing (HNT): 42 candidates total
+  B (14 candidates):
+    1. Sigurður Líndal Þórisson
+    2. Nína Axelsdóttir
+    3. Dagrún Kristinsdóttir
+    4. Ingveldur Linda Gestsdóttir
+    5. Matthías Rúnarsson
+    6. Magnús Ásgeir Elíasson
+    7. Gerður Rósa Sigurðardóttir
+    8. Ingimar Sigurðsson
+    9. Guðni Þór Skúlason
+    10. Kolbrún Stella Indriðadóttir
+    11. Friðrik Már Sigurðsson
+    12. Anna Birna Þorsteinsdóttir
+    13. Sigrún Ólafsdóttir
+    14. Þorleifur Karl Eggertsson
+  D (14 candidates):
+    1. Örn Arnarson
+    2. Sigríður Ólafsdóttir
+    3. Magnús Magnússon
+    4. Fríða Marý Halldórsdóttir
+    5. Magnús Örn Valsson
+    6. Stella Dröfn Bjarnadóttir
+    7. Jóhanna Maj Júlíusdóttir Lundberg
+    8. Stefán Páll Böðvarsson
+    9. Abdulwahab Abd Alhaji
+    10. Dagný Sigurlaug Ragnarsdóttir
+    11. Elísa Ýr Sverrisdóttir
+    12. Ragnheiður Rún Sveinbjörnsdóttir
+    13. Ragnar Bragi Ægisson
+    14. Þorvaldur Böðvarsson
+  NHV (14 candidates):
+    1. Viktor Ingi Jónsson
+    2. Magnús Vignir Eðvaldsson
+    3. Eygló Hrund Guðmundsdóttir
+    4. Guðrún Gróa Þorsteinsdóttir
+    5. Sigurbjörg Jóhannesdóttir
+    6. Patrekur Óli Gústafsson
+    7. Hallfríður Sigurbjörg Óladóttir
+    8. Guðmundur Brynjar Guðmundsson
+    9. Elísabet Eir Steinbjörnsdóttir
+    10. Kolfinna Rún Gunnarsdóttir
+    11. Ómar Eyjólfsson
+    12. Hrafnhildur Ísabella Harðardóttir
+    13. Ólafur Már Sigurbjartsson
+    14. Guðmundur Haukur Sigurðsson
+
+dalvikurbyggd (DVB): 55 candidates total
+  DVA (13 candidates):
+    1. Börkur Þór Ottósson
+    2. Erla Björk Jónsdóttir
+    3. Elín Björk Unnarsdóttir
+    4. Garðar Hrafn Sigurjónsson
+    5. Tryggvi K. Guðmundsson
+    6. Ritthichai Khamsa-ing
+    7. Sigríður Kolbrún Guðmundsdóttir
+    8. Haukur Dór Kjartansson
+    9. Sigríður Björk Hafstað
+    10. Borghildur Freyja Rúnarsdóttir
+    11. Hjörleifur Sveinbjörnsson
+    12. Oliver Edvardsson
+    13. Ottó B. Jakobsson
+  B (14 candidates):
+    1. Monika Margrét Stefánsdóttir
+    2. María Björk Stefánsdóttir
+    3. Sigvaldi Gunnlaugsson
+    4. Sigurlaug Dóra Ingimundardóttir
+    5. Kristinn Bogi Antonsson
+    6. Margrét Víkingsdóttir
+    7. Allan Ingi Geirdal Bjarnason
+    8. Árný Ósk Hauksdóttir
+    9. Þorsteinn Kristinn Björnsson
+    10. Jana Sól Ísleifsdóttir
+    11. Sigurður Valdimar Bragason
+    12. Jón Ingi Sveinsson
+    13. Eiður Smári Árnason
+    14. Lilja Ósmann Guðnadóttir
+  D (14 candidates):
+    1. Benedikt Snær Magnússon
+    2. Bessi Ragúels Víðisson
+    3. Auður Olga Arnarsdóttir
+    4. Sindri Ólafsson
+    5. Birta Dís Jónsdóttir
+    6. Viktoría Katrín Oliversdóttir
+    7. Gunnþór E. Sveinbjörnsson
+    8. Gunnar Anton Njáll Gunnarsson
+    9. Sheila Velázquez Garcia
+    10. Júlíus Magnússon
+    11. Ivar Breki Benjamínsson
+    12. Selma Rut Guðmundsdóttir
+    13. Jed Jovannie Cortes Nuez
+    14. Freyr Antonsson
+  DVK (14 candidates):
+    1. Helgi Einarsson
+    2. Katrín Sif Ingvarsdóttir
+    3. Magni Þór Óskarsson
+    4. Dominique Sigrúnardóttir
+    5. Hörður Snævar Jónsson
+    6. Emil Júlíus Einarsson
+    7. Guðrún Anna Óskarsdóttir
+    8. Haukur Arnar Gunnarsson
+    9. Hrefna Katrín Björgvinsdóttir
+    10. Rúnar Jóhannesson
+    11. Íris Björk Magnúsdóttir
+    12. Michal Oleszko
+    13. Sólveig Lilja Einarsdóttir
+    14. Þorvaldur Eyfjörð Kristjánsson

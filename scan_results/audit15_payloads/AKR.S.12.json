@@ -1,0 +1,30 @@
+{
+  "id": "AKR.S.12",
+  "bio": "Ásbjörn Þór Ásbjörnsson er viðskipta- og markaðsfræðingur og starfar sem sölustjóri hjá Sixt langtímaleigu, þar sem starf hans felur meðal annars í sér samskipti við lykilviðskiptavini, viðskiptaráðgjöf og verkefnastjórnun. Hann fluttist til Akraness um árið 2023 og hefur tekið virkan þátt í umræðu um þróun samfélagsins á Vesturlandi. Ásbjörn skipar 12. sæti á lista Samfylkingarinnar á Akranesi fyrir sveitarstjórnarkosningarnar 2026.",
+  "sources": [
+    "https://www.linkedin.com/in/%C3%A1sbj%C3%B6rn-%C3%BE%C3%B3r-%C3%A1sbj%C3%B6rnsson-9984492a/",
+    "https://www.visir.is/g/20242654373d/af-hverju-eg-styd-samfylkinguna-og-hannes-sigurbjorn-jonsson",
+    "https://xs.is/frettir/2026/03/frambodslisti--akranesi"
+  ],
+  "statements": [
+    {"n": 1, "status": "verified", "claim": "viðskipta- og markaðsfræðingur", "quotes": ["12. Ásbjörn Þór Ásbjörnsson, viðskipta- og markaðsfræðingur"]},
+    {"n": 2, "status": "unreachable", "claim": "sölustjóri hjá Sixt langtímaleigu", "notes": "LinkedIn er ávallt óaðgengilegt. Engin önnur tilvitnuð heimild staðfestir starfsheiti eða vinnustað."},
+    {"n": 3, "status": "flagged", "claim": "samskipti við lykilviðskiptavini, viðskiptaráðgjöf og verkefnastjórnun", "notes": "Engin önnur en LinkedIn (óaðgengileg) styður þessa lýsingu á starfsskyldum."},
+    {"n": 4, "status": "verified", "claim": "fluttist til Akraness um 2023", "quotes": ["Ég flutti hingað fyrir aðeins ári síðan"]},
+    {"n": 5, "status": "verified", "claim": "tekið þátt í umræðu á Vesturlandi", "quotes": ["Ég vil sjá Akranes og Norðvesturkjördæmi blómstra.", "Höfundur Akranesbúi sem vill sjá samfélagið sitt vaxa og dafna."]},
+    {"n": 6, "status": "verified", "claim": "skipar 12. sæti á lista Samfylkingarinnar á Akranesi", "quotes": ["12. Ásbjörn Þór Ásbjörnsson, viðskipta- og markaðsfræðingur"]}
+  ],
+  "summary": "4 verified, 0 rescued, 1 flagged, 1 unreachable",
+  "rescue": {
+    "rewrite": "Ásbjörn Þór Ásbjörnsson er viðskipta- og markaðsfræðingur. Hann fluttist til Akraness um 2023 og hefur tekið þátt í opinberri umræðu um Akranes og Norðvesturkjördæmi, meðal annars með aðsendri grein á Vísi. Ásbjörn skipar 12. sæti á lista Samfylkingarinnar á Akranesi fyrir sveitarstjórnarkosningarnar 2026.",
+    "rewrite_words": 47,
+    "new_sources": [],
+    "resolutions": [
+      {"kind": "dropped", "text": "Starfsheiti 'sölustjóri hjá Sixt langtímaleigu' og lýsing á starfsskyldum felld — eingöngu LinkedIn-stuðningur, sem er óaðgengilegt."}
+    ],
+    "new_heimild": [
+      {"url": "https://www.visir.is/g/20242654373d/af-hverju-eg-styd-samfylkinguna-og-hannes-sigurbjorn-jonsson", "label": "Af hverju ég styð Samfylkinguna (Vísir, aðsend grein)"},
+      {"url": "https://xs.is/frettir/2026/03/frambodslisti--akranesi", "label": "Framboðslisti Samfylkingarinnar á Akranesi (xs.is)"}
+    ]
+  }
+}

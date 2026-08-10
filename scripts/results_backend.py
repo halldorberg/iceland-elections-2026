@@ -282,6 +282,10 @@ small.note{color:#7d92b3}
   <select id="reg"></select>
   <label style="font-size:12px;color:#cfe0f5;display:flex;align-items:center;gap:5px;cursor:pointer">
     <input type="checkbox" id="ncOnly"> aðeins óstaðfest</label>
+  <select id="sort" title="Röðun sveitarfélaga">
+    <option value="name">Röð: stafrófsröð</option>
+    <option value="recent">Röð: nýjustu tölur efst</option>
+  </select>
   <span class="sp"></span>
   <small class="note" id="meta"></small>
   <button class="sec" id="reload">↻ Endurhlaða af diski</button>
@@ -351,6 +355,7 @@ function render(){
   $('#meta').textContent=`${STATE.munis.length} sveitarfélög`+
     (ncN?` · ${ncN} óstaðfest`:` · ekkert óstaðfest`)+
     ` · uppfært ${STATE.generatedAt.slice(11,16)}`;
+  applySort();
 }
 
 function collect(row){
@@ -420,9 +425,34 @@ function applyFilter(){
     row.style.display=ok?'':'none';
   });
 }
+// Sort the rendered rows in place (moves existing nodes, so any unsaved
+// input + the per-row status are preserved). "name" = the server's
+// Icelandic-alphabetical order; "recent" = newest RÚV figure first
+// (draft.at, which is RÚV's per-muni update time), munis with no draft
+// data last in their original alphabetical order.
+function applySort(){
+  const mode=$('#sort').value;
+  const wrap=$('#wrap');
+  const idx=new Map(STATE.munis.map((m,i)=>[m.id,i]));
+  const atOf=id=>{const m=STATE.munis[idx.get(id)];
+    return (m&&m.draft&&m.draft.at)||'';};
+  const rows=[...wrap.children];
+  rows.sort((a,b)=>{
+    const ia=idx.get(a.dataset.id), ib=idx.get(b.dataset.id);
+    if(mode==='recent'){
+      const ta=atOf(a.dataset.id), tb=atOf(b.dataset.id);
+      if(ta&&tb&&ta!==tb) return tb<ta?-1:1;   // newest first
+      if(ta&&!tb) return -1;                    // has data → above no-data
+      if(!ta&&tb) return 1;
+    }
+    return ia-ib;                               // tie / name → server order
+  });
+  rows.forEach(r=>wrap.appendChild(r));
+}
 $('#q').addEventListener('input',applyFilter);
 $('#reg').addEventListener('change',applyFilter);
 $('#ncOnly').addEventListener('change',applyFilter);
+$('#sort').addEventListener('change',applySort);
 render();
 </script>
 <style>

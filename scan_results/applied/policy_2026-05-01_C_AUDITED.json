@@ -1,0 +1,554 @@
+{
+  "scan_type": "policy",
+  "scan_date": "2026-05-01",
+  "agent_label": "C",
+  "agent_note": "v3 STRICT scan. Pattern-probed each candidate URL first; fell back to web search only when patterns failed. Recency: kept only sources dated >=2025-01-01 or with explicit 2026 references. Party-page preferred over op-eds where available. | quote-audited 2026-05-01",
+  "results": [
+    {
+      "id": "HVE.S",
+      "muni_slug": "hveragerdi",
+      "party_code": "S",
+      "platform_url": "https://xs.is/gerum-godan-bae-betri",
+      "verified_source_kind": "own-site",
+      "audit_status": "OK",
+      "audit_note": "Probed xs.is/hveragerdi -> hub page led to /gerum-godan-bae-betri (Kosningastefna S-listans 2026-2030).",
+      "recency_evidence": "Page header: 'Kosningastefna S-listans í Hveragerði 2026-2030'; multiple articles April 2026.",
+      "tagline": "Gerum góðan bæ betri — kosningastefna S-listans 2026–2030",
+      "agenda": [
+        {
+          "icon": "🏠",
+          "title": "Lágreist íbúðabyggð",
+          "text": "S-listinn vill að ný íbúðabyggð á bæjarflötinni verði lágreist og að næsta framtíðarsvæði verði Sólborgarsvæðið.",
+          "source_quote": "S-listinn vill að íbúðabyggð á núverandi bæjarflöt verði lágreist",
+          "quote_verified": true
+        },
+        {
+          "icon": "👶",
+          "title": "Foreldragreiðslur 12–24 mán.",
+          "text": "S-listinn ætlar að brúa bilið milli fæðingarorlofs og leikskóla með foreldragreiðslum frá 12 til 24 mánaða aldurs.",
+          "source_quote": "S-listinn vill bjóða upp á foreldragreiðslur frá 12-24 mánaða aldurs",
+          "quote_verified": true
+        },
+        {
+          "icon": "🎨",
+          "title": "Listir sem lýðheilsumál",
+          "text": "Listir eru ekki bara menningarmál heldur lýðheilsumál — þær efla heilsu og samfélagsanda.",
+          "source_quote": "Listir eru lýðheilsumál en ekki einungis menningarmál",
+          "quote_verified": true
+        },
+        {
+          "icon": "⚽",
+          "title": "Íþróttir efla samfélagið",
+          "text": "Leiðarljós íþróttastarfs er félagsfærni, öryggi og vellíðan, og að allir hafi aðgang óháð efnahag.",
+          "source_quote": "Leiðarljós íþrótta er að efla félagsfærni, öryggi og vellíðan",
+          "quote_verified": true
+        },
+        {
+          "icon": "❤️",
+          "title": "Velferð og stoðþjónusta",
+          "text": "Biðtími eftir stoðþjónustu á að styttast og tryggja á raunveruleg úrræði fyrir börn og fjölskyldur.",
+          "source_quote": "Stytta þarf biðtíma, efla stoðþjónustu og tryggja raunveruleg úrræði",
+          "quote_verified": true
+        },
+        {
+          "icon": "📋",
+          "title": "Skilvirk stjórnsýsla",
+          "text": "Stjórnsýsla bæjarins á að vera skilvirk og rafvædd í gegnum rafræna málaskrá.",
+          "source_quote": "Stjórnsýsla bæjarins skal vera skilvirk og skráð í rafræna málaskrá",
+          "quote_verified": true
+        }
+      ],
+      "quote_audit": "6/6 quotes verified against fetched body"
+    },
+    {
+      "id": "ISA.C",
+      "muni_slug": "isafjordur",
+      "party_code": "C",
+      "platform_url": "https://vidreisn.is/isafjardarbaer/stefnan/",
+      "verified_source_kind": "own-site",
+      "audit_status": "OK",
+      "audit_note": "Pattern vidreisn.is/<muni>/stefnan failed at /isafjordur/, succeeded at /isafjardarbaer/stefnan/. Local stefnuskrá page with 8 málaflokkar.",
+      "recency_evidence": "Footer: '© 2026 Allur réttur áskilinn'; references kosningar 16. maí 2026 throughout.",
+      "tagline": "Viðreisn í Ísafjarðarbæ — skólar, skipulag og uppbygging fyrir 2026–2030",
+      "agenda": [
+        {
+          "icon": "🏫",
+          "title": "Stækka leikskóla",
+          "text": "Stækka á Eyrarskjól og Sólborg og hefja markvissa fjölgun leikskólakennara til að mæta þörfum fjölskyldna.",
+          "source_quote": "Stækka Eyrarskjól og Sólborg, og setja í gang áætlun um fjölgun leikskólakennara",
+          "quote_verified": true
+        },
+        {
+          "icon": "📵",
+          "title": "Símalausir grunnskólar",
+          "text": "Setja á skýrar reglur um takmarkanir á símanotkun í grunnskólum til að styðja námsumhverfi nemenda.",
+          "source_quote": "Setja skýrar reglur um takmarkanir á símanotkun í grunnskólum",
+          "quote_verified": true
+        },
+        {
+          "icon": "🏗️",
+          "title": "Þéttingarreitir í öllum byggðarkjörnum",
+          "text": "Skipuleggja á þéttingarreiti til húsbygginga í öllum byggðarkjörnum sveitarfélagsins.",
+          "source_quote": "Skipuleggja þéttingarreiti til húsbygginga í öllum byggðarkjörnum",
+          "quote_verified": true
+        },
+        {
+          "icon": "🚌",
+          "title": "Endurskoða akstursþjónustu",
+          "text": "Akstursþjónusta bæjarins fyrir eldri borgara og fólk með skerta hreyfigetu á að taka stakkaskiptum.",
+          "source_quote": "Endurskoða akstursþjónustu bæjarins",
+          "quote_verified": true
+        },
+        {
+          "icon": "💰",
+          "title": "Lægri fasteignaskattur",
+          "text": "Passa á upp á peninga íbúanna og lækka fasteignaskattshlutfall enn frekar.",
+          "source_quote": "Passa upp á peninga íbúanna, lækka fasteignaskattshlutfall enn meira",
+          "quote_verified": true
+        },
+        {
+          "icon": "🚢",
+          "title": "Móttökuhús skemmtiferðaskipa",
+          "text": "Klára á móttökuhús fyrir gesti skemmtiferðaskipa og styrkja atvinnumál tengd ferðaþjónustu.",
+          "source_quote": "Klára móttökuhús fyrir gesti skemmtiferðaskipa",
+          "quote_verified": true
+        }
+      ],
+      "quote_audit": "6/6 quotes verified against fetched body"
+    },
+    {
+      "id": "MUL.M",
+      "muni_slug": "mulathing",
+      "party_code": "M",
+      "platform_url": "https://midflokkurinn.is/mulathing-til-framtidar-samfelag-fyrir-allar-kynslodir",
+      "verified_source_kind": "own-site",
+      "audit_status": "OK",
+      "audit_note": "Probed midflokkurinn.is/mulathing — only roster + national policy. Found dedicated stefnu-grein dated 30. apríl 2026 by oddviti Lárus Bjarnason.",
+      "recency_evidence": "Article publication date 30. apríl 2026 on midflokkurinn.is.",
+      "tagline": "Múlaþing til framtíðar — samfélag fyrir allar kynslóðir",
+      "agenda": [
+        {
+          "icon": "🛣️",
+          "title": "Samgöngur skipta sköpum",
+          "text": "Framgangur Fjarðarheiðarganga og uppbygging Axarvegar er forgangsmál fyrir öryggi og byggð.",
+          "source_quote": "Framgangur Fjarðarheiðarganga og uppbygging Axarvegar skipta sköpum fyrir öryggi",
+          "quote_verified": true
+        },
+        {
+          "icon": "💼",
+          "title": "Atvinnulíf og skipulag",
+          "text": "Styrkja á atvinnulíf og vanda til skipulagsmála í öllum kjörnum Múlaþings.",
+          "source_quote": "Styrkja atvinnulíf og vanda til skipulagsmála",
+          "quote_verified": true
+        },
+        {
+          "icon": "📚",
+          "title": "Öflugt fræðslukerfi",
+          "text": "Öflugt fræðslukerfi með snemmtækum stuðningi og raunverulegri áherslu á börnin er grundvallaratriði.",
+          "source_quote": "Öflugt fræðslukerfi, snemmtækur stuðningur og raunveruleg áhersla",
+          "quote_verified": true
+        },
+        {
+          "icon": "👴",
+          "title": "Aðbúnaður eldri borgara",
+          "text": "Aðbúnaður eldri borgara þarf að vera tryggur og mannsæmandi um allt sveitarfélagið.",
+          "source_quote": "Aðbúnaður eldri borgara þarf að vera tryggur og mannsæmandi",
+          "quote_verified": true
+        },
+        {
+          "icon": "🏥",
+          "title": "Aðgengileg heilsugæsla",
+          "text": "Heilsugæsla og almenn heilbrigðisþjónusta þurfa að vera aðgengilegar fyrir alla íbúa.",
+          "source_quote": "Heilsugæsla og almenn heilbrigðisþjónusta þurfa að vera aðgengilegar",
+          "quote_verified": true
+        },
+        {
+          "icon": "💰",
+          "title": "Ábyrg fjármálastjórn",
+          "text": "Ábyrg fjármálastjórn og skynsamleg nýting sameiginlegra fjármuna á að einkenna næsta kjörtímabil.",
+          "source_quote": "Ábyrgri fjármálastjórn og skynsamlegri nýtingu sameiginlegra fjármuna",
+          "quote_verified": true
+        }
+      ],
+      "quote_audit": "6/6 quotes verified against fetched body"
+    },
+    {
+      "id": "NOR.NBO",
+      "muni_slug": "nordurping",
+      "party_code": "NBO",
+      "platform_url": "https://www.husavik.com/2026/04/20-ara-afmaeli/",
+      "verified_source_kind": "news-with-rationale",
+      "audit_status": "OK",
+      "audit_note": "Óskalistinn (X-Ó) has no own-site. Top-of-list candidate Ómar Gunnarsson published Skoðun-grein on husavik.com (local Húsavík paper) 19. apríl 2026 framing his áherslur for Norðurþing 2026.",
+      "recency_evidence": "Article dated 19. apríl 2026, signed by Ómar Gunnarsson, oddviti X-Ó Óskalistans.",
+      "tagline": "Óskalistinn — sátt, samtal og samvinna í Norðurþingi",
+      "agenda": [
+        {
+          "icon": "🤝",
+          "title": "Sátt og traust",
+          "text": "Eitt af meginmálefnunum er að koma á sátt, góðum samskiptum og trausti milli íbúa og kjarna sveitarfélagsins.",
+          "source_quote": "Það er því eitt af meginmálefnum mínum að koma á sátt, góðum samskiptum og trausti",
+          "quote_verified": true
+        },
+        {
+          "icon": "🗣️",
+          "title": "Samtal og samvinna",
+          "text": "Það sem vantar sárlega í Norðurþing er skilningur, samtal og samvinna á milli byggðakjarna og íbúa.",
+          "source_quote": "Það sem vantar sárlega er skilningur, samtal og samvinna",
+          "quote_verified": true
+        },
+        {
+          "icon": "⚙️",
+          "title": "Bætt fyrirkomulag",
+          "text": "Mörg vandamál sem íbúar lýsa eru tiltölulega auðvelt að leysa með breyttu fyrirkomulagi í stjórnsýslu.",
+          "source_quote": "tiltölulega auðvelt að leysa með breyttu fyrirkomulagi",
+          "quote_verified": true
+        },
+        {
+          "icon": "🏘️",
+          "title": "Sameining sem tókst ekki",
+          "text": "Óskalistinn telur að sameining sveitarfélaganna í Norðurþingi hafi ekki tekist sem skyldi og þurfi endurskoðun.",
+          "source_quote": "sameininguna sem skapaði Norðurþing telur Ómar að hafi ekki tekist sem skyldi",
+          "quote_verified": false
+        }
+      ],
+      "quote_audit": "3/4 quotes verified against fetched body"
+    },
+    {
+      "id": "NOR.NPM",
+      "muni_slug": "nordurping",
+      "party_code": "NPM",
+      "platform_url": "https://kaffid.is/m-lista-samfelagsins-i-nordurthingi-samthykktur/",
+      "verified_source_kind": "news-with-rationale",
+      "audit_status": "OK",
+      "audit_note": "M-Listi Samfélagsins (samstarfslisti óháðra, Samfylkingar og Miðflokksmanna) hefur engan eigin vef. kaffid.is birti 22. mars 2026 grein um samþykkt listans með skýrum áherslum.",
+      "recency_evidence": "Article dated 22. mars 2026 on kaffid.is.",
+      "tagline": "M-Listi Samfélagsins — heiðarleg stjórnsýsla og atvinnuuppbygging í Norðurþingi",
+      "agenda": [
+        {
+          "icon": "💼",
+          "title": "Atvinnuuppbygging",
+          "text": "M-Listinn vill styðja við frumkvöðlastarf og atvinnuuppbyggingu í Norðurþingi.",
+          "source_quote": "stuðning við frumkvöðlastarf og atvinnuuppbyggingu",
+          "quote_verified": true
+        },
+        {
+          "icon": "📈",
+          "title": "Skilvirkur rekstur",
+          "text": "Skilvirkni í rekstri sveitarfélagsins og aukin velferð íbúa eru lykilmarkmið listans.",
+          "source_quote": "skilvirkni í rekstri og aukna velferð í sveitarfélaginu",
+          "quote_verified": true
+        },
+        {
+          "icon": "🤝",
+          "title": "Heiðarleg stjórnsýsla",
+          "text": "Stjórnsýslan á að vera heiðarleg og skilvirk og byggjast á samráði, samstarfi og þjónustu.",
+          "source_quote": "Stjórnsýslan verður heiðarleg og skilvirk og byggist upp á samráði, samstarfi og þjónustu",
+          "quote_verified": true
+        },
+        {
+          "icon": "👥",
+          "title": "Hagsmunir íbúa fremstir",
+          "text": "Listinn sameinar öflugt og reynslumikið fólk úr ólíkum áttum samfélagsins með áherslu á hagsmuni íbúa.",
+          "source_quote": "öflugt og reynslumikið fólk úr ólíkum áttum samfélagsins til að vinna að hagsmunum íbúa",
+          "quote_verified": true
+        }
+      ],
+      "quote_audit": "4/4 quotes verified against fetched body"
+    },
+    {
+      "id": "MUL.D",
+      "muni_slug": "mulathing",
+      "party_code": "D",
+      "platform_url": "https://austurfrett.is/frettir/berglind-harpa-bydhur-sig-fram-til-adh-leidha-sjalfstaedhisflokkinn-afram",
+      "verified_source_kind": "news-with-rationale",
+      "audit_status": "OK",
+      "audit_note": "xd.is/sveitastjornir/mulathing er 404 og fljotsdalsherad-síðan er roster only. Berglind Harpa, oddviti D-lista, lýsir áherslum sínum í aðsendri grein/yfirlýsingu á austurfrett.is 27. janúar 2026.",
+      "recency_evidence": "Article dated 27. janúar 2026 on austurfrett.is.",
+      "tagline": "Sjálfstæðisflokkurinn í Múlaþingi — Berglind Harpa: stöðugar úrbætur og samgöngutengingar",
+      "agenda": [
+        {
+          "icon": "🛣️",
+          "title": "Samgöngutengingar byggðakjarna",
+          "text": "D-listinn berst fyrir því að tengja saman byggðakjarna Múlaþings með samgöngubótum.",
+          "source_quote": "baráttu sinni fyrir því að tengja saman byggðakjarna með samgöngubótum",
+          "quote_verified": true
+        },
+        {
+          "icon": "📈",
+          "title": "Stöðugar úrbætur og langtímaáætlun",
+          "text": "Stöðugt á að horfa til úrbóta — bæði í stjórnsýslu og framkvæmdum með langtímaáætlunum.",
+          "source_quote": "Stöðugt sé horft til úrbóta, bæði í stjórnsýslu og í framkvæmdum með langtímaáætlunum",
+          "quote_verified": true
+        },
+        {
+          "icon": "💼",
+          "title": "Samtal við fyrirtæki og fjárfesta",
+          "text": "Aukna áherslu á samtal við fyrirtæki og fjárfesta til að nýta tækifæri til uppbyggingar í Múlaþingi.",
+          "source_quote": "samtal við fyrirtæki og fjárfesta til að nýta tækifæri til uppbyggingar",
+          "quote_verified": true
+        },
+        {
+          "icon": "🏘️",
+          "title": "Sameiningin sem tókst",
+          "text": "D-listinn telur að sameining Múlaþings hafi tekist vel og að styrkur sveitarfélagsins felist í henni.",
+          "source_quote": "styrk Múlaþings, að sameiningin hafi tekist vel",
+          "quote_verified": true
+        }
+      ],
+      "quote_audit": "4/4 quotes verified against fetched body"
+    },
+    {
+      "id": "SKA.D",
+      "muni_slug": "skagafjordur",
+      "party_code": "D",
+      "platform_url": "https://www.feykir.is/is/frettir/skagafjordur-sem-afangastadur-gripum-taekifaerin-rosanna-valdimarsdottir-skrifar",
+      "verified_source_kind": "news-with-rationale",
+      "audit_status": "OK",
+      "audit_note": "xd.is/sveitastjornir/skagafjordur er roster only. Strong stefnu-grein eftir D-listakandídat Rósönnu Valdimarsdóttur (4. sæti) birt á feykir.is 17. apríl 2026 með áherslum á áfangastað og innviði.",
+      "recency_evidence": "Feykir.is article dated 17. apríl 2026, signed Rósanna Valdimarsdóttir, frambjóðandi á D-lista.",
+      "tagline": "Sjálfstæðisflokkurinn í Skagafirði — grípum tækifæri ferðaþjónustunnar",
+      "agenda": [
+        {
+          "icon": "🧳",
+          "title": "Áfangastaður Skagafjörður",
+          "text": "Skagafjörður hefur alla burði til að verða einn eftirsóttasti áfangastaður landsins fyrir lengri dvöl.",
+          "source_quote": "Skagafjörður hefur alla burði til að verða einn eftirsóttasti áfangastaður landsins",
+          "quote_verified": true
+        },
+        {
+          "icon": "🏗️",
+          "title": "Innviðir auka eftirspurn",
+          "text": "Þar sem fjárfest er í innviðum eykst eftirspurnin — Skagafjörður þarf meiri uppbyggingu á gistirými.",
+          "source_quote": "Þar sem fjárfest er í innviðum, eykst eftirspurnin",
+          "quote_verified": true
+        },
+        {
+          "icon": "🛏️",
+          "title": "Fleiri hótel og herbergi",
+          "text": "Fjöldi hótela og herbergja á svæðinu er verulega minni en annars staðar — D-listinn vill stoppa upp í gatið.",
+          "source_quote": "fjöldi hótela og herbergja á svæðinu er verulega minni en annars staðar",
+          "quote_verified": true
+        },
+        {
+          "icon": "✈️",
+          "title": "Beint flug til Akureyrar",
+          "text": "Beint flug til Akureyrar opnar Norðurland fyrir nýjum markhópum og styrkir Skagafjörð sem áfangastað.",
+          "source_quote": "Beint flug til Akureyrar hefur opnað Norðurlandið fyrir nýjum markhópum",
+          "quote_verified": true
+        },
+        {
+          "icon": "🐎",
+          "title": "Heimavöllur íslenska hestsins",
+          "text": "Skagafjörður er heimavöllur íslenska hestsins — sérstaða sem D-listinn vill nýta til markaðssetningar.",
+          "source_quote": "Skagafjörður er heimavöllur íslenska hestsins og það er sérstaða sem við höfum ekki nýtt",
+          "quote_verified": true
+        },
+        {
+          "icon": "🤝",
+          "title": "Bændur og ferðaþjónusta saman",
+          "text": "Bændur, ferðaþjónustan, menntastofnanir og fyrirtæki þurfa að taka höndum saman um sókn.",
+          "source_quote": "Bændur, ferðaþjónustan, menntastofnanir og fyrirtæki þurfa að taka höndum saman",
+          "quote_verified": true
+        }
+      ],
+      "quote_audit": "6/6 quotes verified against fetched body"
+    },
+    {
+      "id": "HVE.D",
+      "muni_slug": "hveragerdi",
+      "party_code": "D",
+      "platform_url": "https://www.dfs.is/frettir/kosningar/ingimar-gudmundsson-verdur-baejarstjoraefni-d-listans-i-hveragerdi/",
+      "verified_source_kind": "news-with-rationale",
+      "audit_status": "OK",
+      "audit_note": "xd.is/sveitastjornir/hveragerdi roster only. Bæjarstjóraefni-tilkynning á dfs.is birtir áherslur D-lista í Hveragerði ítarlega (16. apríl 2026).",
+      "recency_evidence": "dfs.is article dated 16. apríl 2026 with Ingimar Guðmundsson as bæjarstjóraefni for 2026 elections.",
+      "tagline": "Sjálfstæðisflokkurinn í Hveragerði — sérstaða Hveragerðis og betri lífsgæði",
+      "agenda": [
+        {
+          "icon": "🌿",
+          "title": "Sérstaða Hveragerðis",
+          "text": "D-listinn vill tryggja að sérstaða Hveragerðis fái að njóta sín til framtíðar — heilsubær og garðyrkjuhefð.",
+          "source_quote": "Við viljum tryggja að sérstaða Hveragerðis fái að njóta sín til framtíðar.",
+          "quote_verified": true
+        },
+        {
+          "icon": "💰",
+          "title": "Vel farið með fjármuni",
+          "text": "D-listinn ætlar að tryggja að fjármunum íbúa sé vel varið og að fjárfestingar miðist við greiðslugetu.",
+          "source_quote": "Við ætlum að tryggja að fjárfestingar og lántökur taki mið af greiðslugetu sveitarfélagsins.",
+          "quote_verified": true
+        },
+        {
+          "icon": "❤️",
+          "title": "Lýðheilsa og menntun",
+          "text": "Lýðheilsa og menntun eiga að vera grunnur að sterku samfélagi í Hveragerði.",
+          "source_quote": "Við leggjum áherslu á lýðheilsu og menntun sem grunn að sterku samfélagi.",
+          "quote_verified": true
+        },
+        {
+          "icon": "🏫",
+          "title": "Leikskóli í Kambalandi",
+          "text": "D-listinn ætlar að fara af stað með hönnun og uppbyggingu á leikskóla í Kambalandi á næsta kjörtímabili.",
+          "source_quote": "Við viljum fara af stað með hönnun og uppbyggingu á leikskóla í Kambalandi.",
+          "quote_verified": true
+        },
+        {
+          "icon": "🏗️",
+          "title": "Ábyrg uppbygging",
+          "text": "Ábyrg uppbygging og betri lífsgæði eru leiðarljós Sjálfstæðisflokksins í Hveragerði.",
+          "source_quote": "Við viljum ábyrga uppbyggingu og við viljum betri lífsgæði.",
+          "quote_verified": true
+        },
+        {
+          "icon": "📋",
+          "title": "Skýr forgangsröðun",
+          "text": "Ákvarðanir eiga að vera teknar á grundvelli heildarstefnu, raunhæfra forsendna og skýrrar forgangsröðunar.",
+          "source_quote": "ákvarðanir eru teknar á grundvelli heildarstefnu, raunhæfra forsendna og skýrrar forgangsröðunar.",
+          "quote_verified": true
+        }
+      ],
+      "quote_audit": "6/6 quotes verified against fetched body"
+    },
+    {
+      "id": "NOR.D",
+      "muni_slug": "nordurping",
+      "party_code": "D",
+      "platform_url": "https://www.husavik.com/2026/04/a-husavik-kvikna-hugmyndir/",
+      "verified_source_kind": "news-with-rationale",
+      "audit_status": "OK",
+      "audit_note": "xd.is hefur enga lokal-stefnu fyrir Norðurþing. Helena Eydís Ingólfsdóttir, oddviti D-lista, birti aðsenda áherslugrein á husavik.com 24. apríl 2026.",
+      "recency_evidence": "husavik.com article dated 24. apríl 2026 by Helena Eydís Ingólfsdóttir.",
+      "tagline": "Sjálfstæðisflokkurinn í Norðurþingi — Nýsköpunarbærinn Húsavík",
+      "agenda": [
+        {
+          "icon": "🚀",
+          "title": "Hraðið og Fab Lab",
+          "text": "D-listinn vill áfram styðja við Hraðið og Fab Lab Húsavík sem hornstein nýsköpunar í sveitarfélaginu.",
+          "source_quote": "Við viljum áfram styðja við Hraðið og Fab Lab Húsavík",
+          "quote_verified": true
+        },
+        {
+          "icon": "🍽️",
+          "title": "Matarskemma á Húsavík",
+          "text": "Kanna á hvort hægt sé að koma upp aðstöðu á Húsavík sem áþekk er matarskemmum og styður við matvælaframleiðslu.",
+          "source_quote": "Við viljum kanna hvort hægt er að koma upp aðstöðu á Húsavík, áþekkri matarskemmum",
+          "quote_verified": true
+        },
+        {
+          "icon": "💼",
+          "title": "Fjölbreyttara atvinnulíf",
+          "text": "Öflugt nýsköpunarumhverfi leiðir af sér fjölbreyttara atvinnulíf í Norðurþingi.",
+          "source_quote": "Öflugt nýsköpunarumhverfi leiðir af sér fjölbreyttara atvinnulíf",
+          "quote_verified": true
+        },
+        {
+          "icon": "🏛️",
+          "title": "Stuðningur úr byggðaáætlun",
+          "text": "Sækja á stuðning við uppbyggingu nýsköpunaraðstöðu úr byggðaáætlun ríkisins.",
+          "source_quote": "Við viljum kanna hvort hægt er að afla stuðnings við uppbyggingu slíkrar aðstöðu úr byggðaáætlun",
+          "quote_verified": true
+        },
+        {
+          "icon": "🤝",
+          "title": "Sterkara samfélag",
+          "text": "Stefnan miðar að sterkara samfélagi í Nýsköpunarbænum Húsavík og þar með sveitarfélaginu öllu.",
+          "source_quote": "sterkara samfélag í Nýsköpunarbænum Húsavík og þar með sveitarfélaginu öllu",
+          "quote_verified": true
+        }
+      ],
+      "quote_audit": "5/5 quotes verified against fetched body"
+    },
+    {
+      "id": "NOR.B",
+      "muni_slug": "nordurping",
+      "party_code": "B",
+      "platform_url": "https://www.husavik.com/2026/04/lausnir-sem-skipta-fjolskyldur-mali/",
+      "verified_source_kind": "news-with-rationale",
+      "audit_status": "OK",
+      "audit_note": "framsokn.is/sveitarfelog/nordurthing er aðeins skipulag — engin staðbundin stefnu. Eysteinn Heiðar Kristjánsson, oddviti B-lista, birti aðsenda áherslugrein á husavik.com 26. apríl 2026.",
+      "recency_evidence": "husavik.com article dated 26. apríl 2026 by Eysteinn Heiðar Kristjánsson.",
+      "tagline": "Framsókn í Norðurþingi — sterk samfélög byggjast á sterkum fjölskyldum",
+      "agenda": [
+        {
+          "icon": "🆓",
+          "title": "Gjaldfrjáls 36 stunda leikskóli",
+          "text": "Framsókn vill bjóða gjaldfrjálsa 36 stunda leikskólavist til að styðja fjölskyldur sem standa frammi fyrir efnahagsþrýstingi.",
+          "source_quote": "gjaldfrjálsa 36 stunda leikskólavist",
+          "quote_verified": true
+        },
+        {
+          "icon": "⚖️",
+          "title": "Jafn aðgangur að leikskóla",
+          "text": "Tryggja á jafnan aðgang að leikskóla án fjárhagslegra hindrana — bæði réttlætismál og fjárfesting.",
+          "source_quote": "tryggja jafnan aðgang að leikskóla án fjárhagslegra hindrana",
+          "quote_verified": true
+        },
+        {
+          "icon": "👶",
+          "title": "Sveigjanlegar heimgreiðslur",
+          "text": "Auka á sveigjanleika í heimgreiðslum til foreldra barna allt að 18 mánaða aldri.",
+          "source_quote": "auka sveigjanleika í heimgreiðslum til foreldra barna allt að 18 mánaða aldri",
+          "quote_verified": true
+        },
+        {
+          "icon": "👩‍🏫",
+          "title": "Stuðningur við starfsfólk",
+          "text": "Lausnir eiga að styðja ekki aðeins við fjölskyldur heldur einnig við leikskólastarfsfólkið sjálft.",
+          "source_quote": "lausnir sem styðja ekki aðeins við fjölskyldur heldur einnig við starfsfólkið sjálft",
+          "quote_verified": true
+        },
+        {
+          "icon": "👨‍👩‍👧",
+          "title": "Sterk samfélög, sterkar fjölskyldur",
+          "text": "Sterk samfélög byggjast á sterkum fjölskyldum — hornsteinn áherslu Framsóknar í Norðurþingi.",
+          "source_quote": "sterk samfélög byggist á sterkum fjölskyldum",
+          "quote_verified": true
+        }
+      ],
+      "quote_audit": "5/5 quotes verified against fetched body"
+    },
+    {
+      "id": "NOR.NPV",
+      "muni_slug": "nordurping",
+      "party_code": "NPV",
+      "platform_url": "https://www.husavik.com/2026/04/grunnthjonusta-barna-ma-ekki-vikja-sundlaugin-i-lundi-verdi-i-forgangi/",
+      "verified_source_kind": "news-with-rationale",
+      "audit_status": "OK",
+      "audit_note": "V-listi Velferðar hefur engan eigin vef. Salbjörg Matthíasdóttir (2. sæti) birti stefnu-grein á husavik.com í apríl 2026 með skýrum áherslum á grunnþjónustu barna.",
+      "recency_evidence": "husavik.com article dated April 2026 (in /2026/04/ directory), authored by Salbjörg Matthíasdóttir, 2. sæti V-lista Velferðar.",
+      "tagline": "V-listi Velferðar — grunnþjónusta barna í forgang í Norðurþingi",
+      "agenda": [
+        {
+          "icon": "🏊",
+          "title": "Sundlaugin í Lundi í forgang",
+          "text": "Grunnþjónusta barna má ekki víkja — sundlaugin í Lundi á að vera í forgangi sveitarfélagsins.",
+          "source_quote": "Grunnþjónusta barna má ekki víkja: Sundlaugin í Lundi á að vera í forgangi",
+          "quote_verified": true
+        },
+        {
+          "icon": "⚖️",
+          "title": "Lagaleg skylda um sundkennslu",
+          "text": "Samkvæmt íþróttalögum eiga öll börn að læra sund — V-listinn vill standa við þá lagaskyldu.",
+          "source_quote": "Samkvæmt 2. mgr. 11. gr. íþróttalaga nr. 64/1998 eiga öll börn að læra sund",
+          "quote_verified": true
+        },
+        {
+          "icon": "📚",
+          "title": "20 kennslustundir á ári",
+          "text": "Tryggja á að lágmarki einn sundtíma á stundaskrá skóla í hverri viku — alls 20 kennslustundir á ári.",
+          "source_quote": "a.m.k. einn sundtíma á stundaskrá skóla í hverri viku skólaársins",
+          "quote_verified": true
+        },
+        {
+          "icon": "👶",
+          "title": "Börn og lagalegar skyldur fyrst",
+          "text": "Sveitarfélagið á að setja framkvæmdir sem snúa að börnum og lagalegum skyldum í forgang.",
+          "source_quote": "Sveitarfélagið á að setja framkvæmdir sem snúa að börnum og lagalegum skyldum í forgang",
+          "quote_verified": true
+        }
+      ],
+      "quote_audit": "4/4 quotes verified against fetched body"
+    }
+  ]
+}

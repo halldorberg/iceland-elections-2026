@@ -1,0 +1,243 @@
+{
+  "scope": "policy scan 2026-05-01 — all parties without platformUrl, no-agenda priority",
+  "agent_label": "C",
+  "slice": [
+    58,
+    87
+  ],
+  "count": 29,
+  "missing_policy": [
+    {
+      "id": "HVE.D",
+      "muni_slug": "hveragerdi",
+      "muni_label": "Hveragerði",
+      "party_code": "D",
+      "party_label": "Sjálfstæðisflokkurinn",
+      "tagline": "Sjálfstæðisflokkurinn í Hveragerði — frelsið og framfararnir"
+    },
+    {
+      "id": "HVE.S",
+      "muni_slug": "hveragerdi",
+      "muni_label": "Hveragerði",
+      "party_code": "S",
+      "party_label": "Samfylkingin",
+      "tagline": "Samfylkingin í Hveragerði — jafnrétti og velferð"
+    },
+    {
+      "id": "ISA.B",
+      "muni_slug": "isafjordur",
+      "muni_label": "Ísafjarðarbær",
+      "party_code": "B",
+      "party_label": "Framsóknarflokkurinn",
+      "tagline": "Framsóknarflokkur og óháðir í Ísafjarðarbæ"
+    },
+    {
+      "id": "ISA.C",
+      "muni_slug": "isafjordur",
+      "muni_label": "Ísafjarðarbær",
+      "party_code": "C",
+      "party_label": "Viðreisn",
+      "tagline": "Viðreisn í Ísafjarðarbæ"
+    },
+    {
+      "id": "ISA.D",
+      "muni_slug": "isafjordur",
+      "muni_label": "Ísafjarðarbær",
+      "party_code": "D",
+      "party_label": "Sjálfstæðisflokkurinn",
+      "tagline": "Sjálfstæðisflokkurinn í Ísafjarðarbæ"
+    },
+    {
+      "id": "ISA.M",
+      "muni_slug": "isafjordur",
+      "muni_label": "Ísafjarðarbær",
+      "party_code": "M",
+      "party_label": "Miðflokkurinn",
+      "tagline": "Miðflokkurinn í Ísafjarðarbæ"
+    },
+    {
+      "id": "ISA.S",
+      "muni_slug": "isafjordur",
+      "muni_label": "Ísafjarðarbær",
+      "party_code": "S",
+      "party_label": "Samfylkingin",
+      "tagline": "Samfylkingin í Ísafjarðarbæ"
+    },
+    {
+      "id": "KJO.KJA",
+      "muni_slug": "kjosarhreppur",
+      "muni_label": "Kjósarhreppur",
+      "party_code": "KJA",
+      "party_label": "KJA",
+      "tagline": "Íbúar í Kjós — A-listi Kjósarhrepps 2026"
+    },
+    {
+      "id": "MOS.D",
+      "muni_slug": "mosfellsbaer",
+      "muni_label": "Mosfellsbær",
+      "party_code": "D",
+      "party_label": "Sjálfstæðisflokkurinn",
+      "tagline": "Hilmar leiðir D-lista í Mosfellsbæ — Nú verður fjör"
+    },
+    {
+      "id": "MUL.D",
+      "muni_slug": "mulathing",
+      "muni_label": "Múlaþing",
+      "party_code": "D",
+      "party_label": "Sjálfstæðisflokkurinn",
+      "tagline": "Berglind Harpa leiðir Sjálfstæðisflokkinn í Múlaþingi"
+    },
+    {
+      "id": "MUL.M",
+      "muni_slug": "mulathing",
+      "muni_label": "Múlaþing",
+      "party_code": "M",
+      "party_label": "Miðflokkurinn",
+      "tagline": "Miðflokkurinn í Múlaþingi"
+    },
+    {
+      "id": "MYR.MYA",
+      "muni_slug": "myrdalshr",
+      "muni_label": "Mýrdalshreppur",
+      "party_code": "MYA",
+      "party_label": "MYA",
+      "tagline": "Listi allra — sameiginleg framtíð í Mýrdal"
+    },
+    {
+      "id": "MYR.MYZ",
+      "muni_slug": "myrdalshr",
+      "muni_label": "Mýrdalshreppur",
+      "party_code": "MYZ",
+      "party_label": "MYZ",
+      "tagline": "Listi Samfélagsins — öflugt Mýrdalshreppur"
+    },
+    {
+      "id": "NOR.B",
+      "muni_slug": "nordurping",
+      "muni_label": "Norðurþing",
+      "party_code": "B",
+      "party_label": "Framsóknarflokkurinn",
+      "tagline": "Eysteinn Heiðar leiðir Framsókn í Norðurþingi"
+    },
+    {
+      "id": "NOR.D",
+      "muni_slug": "nordurping",
+      "muni_label": "Norðurþing",
+      "party_code": "D",
+      "party_label": "Sjálfstæðisflokkurinn",
+      "tagline": "Helena Eydís leiðir Sjálfstæðisflokkinn í Norðurþingi"
+    },
+    {
+      "id": "NOR.NBO",
+      "muni_slug": "nordurping",
+      "muni_label": "Norðurþing",
+      "party_code": "NBO",
+      "party_label": "NBO",
+      "tagline": "Óskalistinn — Ómar Gunnarsson leiðir lista í Norðurþingi"
+    },
+    {
+      "id": "NOR.NPM",
+      "muni_slug": "nordurping",
+      "muni_label": "Norðurþing",
+      "party_code": "NPM",
+      "party_label": "NPM",
+      "tagline": "Listi samfélagsins — Rúnar Traustason fyrir Norðurþing"
+    },
+    {
+      "id": "NOR.NPV",
+      "muni_slug": "nordurping",
+      "muni_label": "Norðurþing",
+      "party_code": "NPV",
+      "party_label": "NPV",
+      "tagline": "Listi velferðar — Aldey Unnar leiðir lista í Norðurþingi"
+    },
+    {
+      "id": "NOR.S",
+      "muni_slug": "nordurping",
+      "muni_label": "Norðurþing",
+      "party_code": "S",
+      "party_label": "Samfylkingin",
+      "tagline": "Samfylkingin í Norðurþingi"
+    },
+    {
+      "id": "RAN.B",
+      "muni_slug": "rangarthingeystra",
+      "muni_label": "Rangárþing eystra",
+      "party_code": "B",
+      "party_label": "Framsóknarflokkurinn",
+      "tagline": "Framsókn í Rangárþingi eystra — landbúnaður og velferð"
+    },
+    {
+      "id": "RAN.D",
+      "muni_slug": "rangarthingeystra",
+      "muni_label": "Rangárþing eystra",
+      "party_code": "D",
+      "party_label": "Sjálfstæðisflokkurinn",
+      "tagline": "Sjálfstæðisflokkurinn í Rangárþingi eystra — þróun og stöðugleiki"
+    },
+    {
+      "id": "RAN.NRE",
+      "muni_slug": "rangarthingeystra",
+      "muni_label": "Rangárþing eystra",
+      "party_code": "NRE",
+      "party_label": "NRE",
+      "tagline": "Nýtt sjálfstætt framboð — ný sjónarmiðl í Rangárþingi eystra"
+    },
+    {
+      "id": "RAN.D",
+      "muni_slug": "rangarthingytra",
+      "muni_label": "Rangárþing ytra",
+      "party_code": "D",
+      "party_label": "Sjálfstæðisflokkurinn",
+      "tagline": "Sjálfstæðisflokkurinn í Rangárþingi ytra — stöðugleiki og framfarir"
+    },
+    {
+      "id": "REY.ROA",
+      "muni_slug": "reykholar",
+      "muni_label": "Reykhólar",
+      "party_code": "ROA",
+      "party_label": "ROA",
+      "tagline": "Raddir okkar allra — við tökum höndum saman"
+    },
+    {
+      "id": "REY.S",
+      "muni_slug": "reykholar",
+      "muni_label": "Reykhólar",
+      "party_code": "S",
+      "party_label": "Samfylkingin",
+      "tagline": "Samfylkingin í Reykhólahreppi"
+    },
+    {
+      "id": "SEL.M",
+      "muni_slug": "seltjarnarnes",
+      "muni_label": "Seltjarnarnes",
+      "party_code": "M",
+      "party_label": "Miðflokkurinn",
+      "tagline": "Skafti Harðarson leiðir Miðflokkinn á Seltjarnarnesi"
+    },
+    {
+      "id": "SKA.D",
+      "muni_slug": "skaftarhreppur",
+      "muni_label": "Skaftárhreppur",
+      "party_code": "D",
+      "party_label": "Sjálfstæðisflokkurinn",
+      "tagline": "Sjálfstæðismenn og óháðir í Skaftárhreppi — byggðaþróun og velferð"
+    },
+    {
+      "id": "SKA.SKO",
+      "muni_slug": "skaftarhreppur",
+      "muni_label": "Skaftárhreppur",
+      "party_code": "SKO",
+      "party_label": "SKO",
+      "tagline": "Öflugt samfélag — samvinna íbúa í Skaftárhreppi"
+    },
+    {
+      "id": "SKA.D",
+      "muni_slug": "skagafjordur",
+      "muni_label": "Skagafjörður",
+      "party_code": "D",
+      "party_label": "Sjálfstæðisflokkurinn",
+      "tagline": "Sjálfstæðisflokkurinn í Skagafirði — stöðugleiki og framfarir"
+    }
+  ]
+}

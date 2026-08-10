@@ -1,0 +1,136 @@
+======================================================================
+UNSOURCED BIOS  (0 candidates)
+======================================================================
+
+======================================================================
+UNSOURCED AGENDAS  (4 parties)
+======================================================================
+  arneshr                 ARNA, ARNS
+  blaskogabyggd           BSP
+  rangarthingeystra       NRE
+
+======================================================================
+INTERESTS WITHOUT BIO/SOURCE  (85 candidates)
+(soft flag — interests aren't bio claims, but they assert the person)
+======================================================================
+
+  hafnarfjordur  (6)
+    B. 3  Árni Rúnar Árnason
+    C. 3  Hjördís Hlíðberg
+    C. 4  Óli Örn Eiríksson
+    C. 5  Sigrún Jónsdóttir
+    M. 4  Eva Rún Helgadóttir
+    M. 5  Arnhildur Ásdís Kolbeins
+
+  horgarsv  (4)
+    D. 1  Árni Rúnar Örvarsson
+    D. 2  Katrín Olsen Björnsdóttir
+    HGH. 1  Bjarki Brynjólfsson
+    HGH. 2  Ásta Hafberg
+
+  hornafjordur  (18)
+    B. 2  Ingibjörg Sveinsdóttir
+    B. 3  Björgvin Óskar Sigurjónsson
+    B. 4  Kolbrún Þorbjörg Björnsdóttir
+    B. 5  Gunnar Ásgeirsson
+    D. 1  Gauti Árnason
+    D. 2  Hjördís Edda Olgeirsdóttir
+    D. 3  Ásta Steinunn Eiríksdóttir
+    D. 4  Ágústa Arnardóttir
+    D. 5  Sindri Ragnarsson
+    HFJK. 2  Guðrún Stefanía Vopnfjörð Ingólfsdóttir
+    HFJK. 3  Elías Tjörvi Halldórsson
+    HFJK. 4  Wiktoria Anna Darnowska
+    HFJK. 5  Sigrún Sigurgeirsdóttir
+    M. 1  Reynir Ásgeirsson
+    M. 2  Stefán Freyr Jónsson
+    M. 3  Herdís Ingólfsdóttir Waage
+    M. 4  Erlingur Ingi Brynjólfsson
+    M. 5  Valur Pálsson
+
+  hrunamannahreppur  (4)
+    D. 1  Jón Bjarnason
+    D. 2  Bjarney Vignisdóttir
+    HRL. 1  Daði Geir Samúelsson
+    HRL. 2  Rakel Ósk Kristófersdóttir
+
+  hunabyggd  (3)
+    B. 2  Jenný Lind Gunnarsdóttir
+    D. 2  Zophonías Ari Lárusson
+    HBA. 2  Sara Björk Þorsteinsdóttir
+
+  hunathing  (6)
+    B. 1  Sigurður Líndal Þórison
+    B. 2  Nína Axelsdóttir
+    D. 1  Örn Arnarson
+    D. 2  Sigríður Ólafsdóttir
+    NHV. 1  Viktor Ingi Jónsson
+    NHV. 2  Magnús Vignir Eðvaldsson
+
+  isafjordur  (1)
+    C. 2  Sif Huld Albertsdóttir
+
+  kopavogur  (5)
+    B. 3  Gunnar Sær Ragnarsson
+    D. 5  Guðmundur Jóhann Jónsson
+    J. 4  Sigurður Haraldsson
+    J. 5  Þórgunnur Guðgeirsdóttir
+    V. 5  Rakel Ósk Sigurðardóttir
+
+  reykjanesbaer  (1)
+    B. 5  Halla Karen Guðjónsdóttir
+
+  reykjavik  (3)
+    F. 4  Sigurveig Jóhannsdóttir
+    P. 4  Unnar Þór Sæmundsson
+    R. 4  Ágústa Árnadóttir
+
+  skaftarhreppur  (4)
+    D. 1  Sveinn Hreiðar Jensson
+    D. 2  Sigurður Árnason
+    SKO. 1  Jóhannes Gissurarson
+    SKO. 2  Auður Guðbjörnsdóttir
+
+  skagafjordur  (8)
+    B. 1  Einar Eðvald Einarsson
+    B. 2  Hrund Pétursdóttir
+    D. 1  Magnús Barðdal
+    D. 2  Sólborg S. Borgarsdóttir
+    M. 1  Högni Elfar Gylfason
+    M. 2  Jódís Helga Káradóttir
+    SFL. 1  Eyþór Fannar Sveinsson
+    SFL. 2  Jóhanna Ey Harðardóttir
+
+  skeidagnup  (4)
+    SGE. 1  Gunnar Örn Marteinsson
+    SGE. 2  Ingibjörg Sæunn Jónsdóttir
+    SGL. 1  Haraldur Þór Jónsson
+    SGL. 2  Vilborg M. Ástráðsdóttir
+
+  sudurnesjabaer  (7)
+    B. 1  Anton Kristinn Guðmundsson
+    B. 2  Magnús Sigfús Magnússon
+    D. 1  Haukur Andreasson
+    D. 2  Haraldur Helgason
+    M. 1  Daði Bergþórsson
+    M. 2  Sigrún Harpa Sigurjónd. Heide
+    S. 2  Bergný Jóna Sævarsdóttir
+
+  vestmannaeyjar  (3)
+    D. 2  Trausti Hjaltason
+    E. 2  Anton Örn Björnsson
+    M. 2  Sæunn Magnúsdóttir
+
+  vogar  (8)
+    D. 1  Björg Ásta Þórðardóttir
+    D. 2  Guðmann Rúnar Lúðvíksson
+    FYRS. 1  Gunnar J. Helgason
+    FYRS. 2  Áslaug Fjóla Magnúsdóttir
+    VOE. 1  Birgir Örn Ólafsson
+    VOE. 2  Eva Björk Jónsdóttir
+    VOL. 1  Kristinn Björgvinsson
+    VOL. 2  Eðvarð Atli Bjarnason
+
+  JSON report → audit_unsourced_report.json
+
+SUMMARY: bios=0 agendas=4 interests=85

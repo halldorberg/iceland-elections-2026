@@ -1,0 +1,28 @@
+{
+  "id": "VME.M.7",
+  "bio": "Linda Rós Sigurðardóttir starfar sem tækniteiknari á umhverfis- og framkvæmdasviði Vestmannaeyjabæjar. Hún skipar 7. sæti á lista Miðflokksins í Vestmannaeyjum fyrir sveitarstjórnarkosningarnar 2026 og hefur meðal annars vakið máls á náttúruvernd og hugmyndum um UNESCO-jarðvang sem leið til að samtvinna náttúru, fræðslu og ferðaþjónustu í Eyjum.",
+  "sources": [
+    "https://eyjafrettir.is/vestmannaeyjar-eyjan-okkar/",
+    "https://midflokkurinn.is/vestmannaeyjar"
+  ],
+  "statements": [
+    {"n": 1, "status": "verified", "claim": "tækniteiknari", "quotes": ["7. sæti Linda Rós Sigurðardóttir Tækniteiknari"]},
+    {"n": 2, "status": "flagged", "claim": "tækniteiknari á umhverfis- og framkvæmdasviði Vestmannaeyjabæjar", "notes": "Hvorug heimild segir hvar hún starfar. Vinnustaðurinn er ekki staðfestur."},
+    {"n": 3, "status": "verified", "claim": "skipar 7. sæti á lista Miðflokksins í Vme", "quotes": ["Höfundur skipar 7. sæti á lista Miðflokksins í Vestmannaeyjum.", "7. sæti Linda Rós Sigurðardóttir Tækniteiknari"]},
+    {"n": 4, "status": "verified", "claim": "vakið máls á náttúruvernd og UNESCO-jarðvangi", "quotes": ["Við í Miðflokknum viljum vernda náttúruna þar sem það er hægt t.d.með því að gera hluta af nýja hrauninu að jarðvangi.", "Jarðvangar UNESCO Global Geoparks eru sérstök svæði"]},
+    {"n": 5, "status": "verified", "claim": "samtvinna náttúru, fræðslu og ferðaþjónustu", "quotes": ["Jarðvangar eru svæði þar sem náttúra, fræðsla og ferðamennska fara saman á sjálfbæran hátt."]}
+  ],
+  "summary": "4 verified, 0 rescued, 1 flagged",
+  "rescue": {
+    "rewrite": "Linda Rós Sigurðardóttir starfar sem tækniteiknari og skipar 7. sæti á lista Miðflokksins í Vestmannaeyjum fyrir sveitarstjórnarkosningarnar 2026. Í aðsendri grein í Eyjafréttum hefur hún vakið máls á náttúruvernd og lagt til að hluta af nýja hrauninu verði gerður að jarðvangi á borð við UNESCO Global Geoparks, þar sem náttúra, fræðsla og ferðaþjónusta fari saman á sjálfbæran hátt.",
+    "rewrite_words": 65,
+    "new_sources": [],
+    "resolutions": [
+      {"kind": "dropped", "text": "Vinnustaður 'umhverfis- og framkvæmdasvið Vestmannaeyjabæjar' fellt — engin heimild."}
+    ],
+    "new_heimild": [
+      {"url": "https://eyjafrettir.is/vestmannaeyjar-eyjan-okkar/", "label": "Vestmannaeyjar, eyjan okkar (Eyjafréttir)"},
+      {"url": "https://midflokkurinn.is/vestmannaeyjar", "label": "Frambjóðendur Miðflokksins í Vestmannaeyjum"}
+    ]
+  }
+}

@@ -1,0 +1,304 @@
+{
+  "scan_type": "bios",
+  "scan_date": "2026-05-01",
+  "agent_note": "Agent C",
+  "results": [
+    {
+      "id": "VOG.VOL.2",
+      "muni_slug": "vogar",
+      "party_code": "VOL",
+      "ballot": 2,
+      "name": "Eðvarð Atli Bjarnason",
+      "age": null,
+      "bio": "Eðvarð Atli Bjarnason er sölustjóri og pípulagningafræðingur og hefur starfað hjá Benna Pípara ehf. frá árinu 2013. Hann stundaði nám við Fjölbrautaskóla Suðurnesja og útskrifaðist frá Tækniskólanum árið 2017. Hann hefur setið sem varabæjarfulltrúi í sveitarfélaginu Vogum frá árinu 2019.",
+      "interests": ["sveitarstjórnarmál", "iðnaður", "atvinnuuppbygging", "Suðurnes"],
+      "social": {"linkedin": "", "facebook": "https://www.facebook.com/edvardatli"},
+      "sources": [
+        "https://www.facebook.com/edvardatli"
+      ]
+    },
+    {
+      "id": "HUN.HBA.2",
+      "muni_slug": "hunabyggd",
+      "party_code": "HBA",
+      "ballot": 2,
+      "name": "Sara Björk Þorsteinsdóttir",
+      "age": null,
+      "bio": "Sara Björk Þorsteinsdóttir er frambjóðandi á lista HBA í Húnabyggð fyrir sveitarstjórnarkosningarnar 2026. Hún tengist stjórnsýslu sveitarfélagsins en frekari upplýsingar um menntun hennar og starfsferil liggja ekki fyrir í opinberum heimildum.",
+      "interests": ["sveitarstjórnarmál", "Húnabyggð"],
+      "social": {"linkedin": "", "facebook": ""},
+      "sources": [
+        "https://www.hunabyggd.is/is/stjornsysla/stjornskipulag/nefndir-og-rad/sveitarstjorn"
+      ]
+    },
+    {
+      "id": "HUN.B.2",
+      "muni_slug": "hunabyggd",
+      "party_code": "B",
+      "ballot": 2,
+      "name": "Jenný Lind Gunnarsdóttir",
+      "age": null,
+      "bio": "Jenný Lind Gunnarsdóttir er sérkennslustjóri og farsældartengiliður og skipar 2. sæti á lista Framsóknar og annarra framfarasinna í Húnabyggð fyrir sveitarstjórnarkosningarnar 2026. Hún hefur áður setið sem fulltrúi á lista „Gerum þetta saman“ í sveitarstjórn Húnabyggðar og á sæti í íþrótta-, tómstunda- og lýðheilsunefnd sveitarfélagsins.",
+      "interests": ["menntun", "sérkennsla", "farsæld barna", "lýðheilsa", "sveitarstjórnarmál"],
+      "social": {"linkedin": "", "facebook": ""},
+      "sources": [
+        "https://huni.is/index.php?cid=22681&pid=32",
+        "https://kosningasaga.wordpress.com/2026/03/20/frambod-framsoknar-o-fl-i-hunabyggd/",
+        "https://www.hunabyggd.is/is/stjornsysla/stjornskipulag/nefndir-og-rad/ithrotta-tomstunda-og-lydheilsunefnd"
+      ]
+    },
+    {
+      "id": "HUN.D.2",
+      "muni_slug": "hunabyggd",
+      "party_code": "D",
+      "ballot": 2,
+      "name": "Zophonías Ari Lárusson",
+      "age": 51,
+      "bio": "Zophonías Ari Lárusson, fæddur 1975, er framkvæmdastjóri og húsasmíðameistari á Blönduósi. Hann skipar 2. sæti á lista Sjálfstæðisflokksins í Húnabyggð fyrir sveitarstjórnarkosningarnar 2026 og á sæti í byggðaráði Húnabyggðar.",
+      "interests": ["atvinnulíf", "byggingarmál", "sveitarstjórnarmál", "Blönduós"],
+      "social": {"linkedin": "", "facebook": ""},
+      "sources": [
+        "https://xd.is/sveitastjornir/hunabyggd/",
+        "https://www.feykir.is/is/frettir/sveitarstjorn-hunabyggdar-fundadi-i-fyrsta-sinn"
+      ]
+    },
+    {
+      "id": "HUN.B.2",
+      "muni_slug": "hunathing",
+      "party_code": "B",
+      "ballot": 2,
+      "name": "Nína Axelsdóttir",
+      "age": null,
+      "bio": "Nína Axelsdóttir er tónlistarkennari og bóndi í Húnavatnshreppi og skipar 2. sæti á lista Framsóknarflokksins í sveitarfélaginu fyrir sveitarstjórnarkosningarnar 2026.",
+      "interests": ["tónlist", "menntun", "landbúnaður", "sveitarstjórnarmál"],
+      "social": {"linkedin": "", "facebook": ""},
+      "sources": [
+        "https://www.hunavatnshreppur.is/"
+      ]
+    },
+    {
+      "id": "HUN.D.2",
+      "muni_slug": "hunathing",
+      "party_code": "D",
+      "ballot": 2,
+      "name": "Sigríður Ólafsdóttir",
+      "age": 43,
+      "bio": "Sigríður Ólafsdóttir, fædd 1982, er sauðfjárbóndi í Víðidalstungu og ráðgjafi hjá Ráðgjafarmiðstöð landbúnaðarins, þar sem hún hefur starfað á rekstrar- og umhverfissviði frá árinu 2013. Hún lauk M.Sc.-prófi í búvísindum frá Landbúnaðarháskóla Íslands árið 2013 og kenndi þar í hlutastarfi á árunum 2010–2014. Hún situr sem sveitarstjórnarfulltrúi í Húnaþingi vestra og skipar 2. sæti á lista Sjálfstæðisflokksins fyrir sveitarstjórnarkosningarnar 2026.",
+      "interests": ["landbúnaður", "sauðfjárrækt", "umhverfismál", "byggðamál", "sveitarstjórnarmál"],
+      "social": {"linkedin": "", "facebook": ""},
+      "sources": [
+        "https://www.hunathing.is/is/sigridur-olafsdottir",
+        "https://www.stjornarradid.is/media/kosning.media/media/althingiskosningar-2016/auglysing-2016-med-undirskr-lokaskjal_uppfaert24.okt.pdf"
+      ]
+    },
+    {
+      "id": "HUN.NHV.2",
+      "muni_slug": "hunathing",
+      "party_code": "NHV",
+      "ballot": 2,
+      "name": "Magnús Vignir Eðvaldsson",
+      "age": null,
+      "bio": "Magnús Vignir Eðvaldsson er kennari á Hvammstanga og oddviti Nýs afls í sveitarstjórn Húnaþings vestra. Hann skipar 2. sæti á lista Nýs afls fyrir sveitarstjórnarkosningarnar 16. maí 2026.",
+      "interests": ["menntun", "sveitarstjórnarmál", "byggðamál", "Húnaþing vestra"],
+      "social": {"linkedin": "", "facebook": ""},
+      "sources": [
+        "https://www.hunathing.is/is/mannlif/frettir-og-auglysingar/tilkynningar-og-frettir/auglysing-um-urskurd-kjorstjornar-hunathings-vestra",
+        "https://huni.is/index.php?cid=18457&pid=32"
+      ]
+    },
+    {
+      "id": "HOR.D.2",
+      "muni_slug": "horgarsv",
+      "party_code": "D",
+      "ballot": 2,
+      "name": "Katrín Olsen Björnsdóttir",
+      "age": null,
+      "bio": "Katrín Olsen Björnsdóttir er hjúkrunarfræðingur og skipar 2. sæti á lista Sjálfstæðismanna og óháðra (D-lista) í Hörgársveit fyrir sveitarstjórnarkosningarnar 2026. Listinn er nýtt framboð í sveitarfélaginu.",
+      "interests": ["heilbrigðismál", "hjúkrun", "sveitarstjórnarmál", "Hörgársveit"],
+      "social": {"linkedin": "", "facebook": ""},
+      "sources": [
+        "https://kaffid.is/d-listi-sjalfstaedismanna-og-ohadra-i-horgarsveit/",
+        "https://kaffid.is/thrir-listar-i-kjori-i-horgarsveit/",
+        "https://utvarpsaga.is/nytt-frambod-sjalfstaedismanna-og-ohadra-i-horgarsveit/"
+      ]
+    },
+    {
+      "id": "HOR.HGH.2",
+      "muni_slug": "horgarsv",
+      "party_code": "HGH",
+      "ballot": 2,
+      "name": "Ásta Hafberg",
+      "age": null,
+      "bio": "Ásta Hafberg er sölu- og markaðsstjóri með búsetu að Þríhyrningi 2 í Hörgársveit og skipar 2. sæti á H-lista í sveitarfélaginu fyrir sveitarstjórnarkosningarnar 16. maí 2026.",
+      "interests": ["markaðsmál", "atvinnulíf", "sveitarstjórnarmál", "Hörgársveit"],
+      "social": {"linkedin": "", "facebook": ""},
+      "sources": [
+        "https://kaffid.is/thrir-listar-i-kjori-i-horgarsveit/",
+        "https://www.vikubladid.is/is/moya/news/sveitarstjornarkosningar-2026-thrir-listar-i-kjori-i-horgarsveit"
+      ]
+    },
+    {
+      "id": "HRU.D.2",
+      "muni_slug": "hrunamannahreppur",
+      "party_code": "D",
+      "ballot": 2,
+      "name": "Bjarney Vignisdóttir",
+      "age": null,
+      "bio": "Bjarney Vignisdóttir er hjúkrunarfræðingur að Auðsholti 6 í Hrunamannahreppi og situr sem sveitarstjórnarfulltrúi á lista Sjálfstæðisflokksins. Hún á sæti í nefndum og ráðum sveitarfélagsins og skipar 2. sæti á D-lista fyrir sveitarstjórnarkosningarnar 2026.",
+      "interests": ["heilbrigðismál", "hjúkrun", "sveitarstjórnarmál", "Hrunamannahreppur"],
+      "social": {"linkedin": "", "facebook": ""},
+      "sources": [
+        "https://xd.is/sveitastjornir/hrunamannahreppur/",
+        "https://www.fludir.is/is/stjornsysla/stjornsysla/nefndir-og-rad"
+      ]
+    },
+    {
+      "id": "HRU.HRL.2",
+      "muni_slug": "hrunamannahreppur",
+      "party_code": "HRL",
+      "ballot": 2,
+      "name": "Rakel Ósk Kristófersdóttir",
+      "age": null,
+      "bio": "Rakel Ósk Kristófersdóttir er verslunarstjóri með BS-próf í líflæknisfræði og skipar 2. sæti á L-lista (Hrunalistanum) í Hrunamannahreppi fyrir sveitarstjórnarkosningarnar 16. maí 2026.",
+      "interests": ["verslun", "heilbrigðisvísindi", "sveitarstjórnarmál", "Hrunamannahreppur"],
+      "social": {"linkedin": "", "facebook": ""},
+      "sources": [
+        "https://kosningasaga.wordpress.com/2026/04/06/frambodslisti-l-listans-i-hrunamannahreppi-2/"
+      ]
+    },
+    {
+      "id": "SKE.SGE.2",
+      "muni_slug": "skeidagnup",
+      "party_code": "SGE",
+      "ballot": 2,
+      "name": "Ingibjörg Sæunn Jónsdóttir",
+      "age": null,
+      "bio": "Ingibjörg Sæunn Jónsdóttir er líffræðingur og skipar 2. sæti á E-lista Uppbyggingar í Skeiða- og Gnúpverjahreppi fyrir sveitarstjórnarkosningarnar 16. maí 2026.",
+      "interests": ["líffræði", "umhverfismál", "sveitarstjórnarmál", "Skeiða- og Gnúpverjahreppur"],
+      "social": {"linkedin": "", "facebook": ""},
+      "sources": [
+        "https://www.skeidgnup.is/is/moya/news/skil-a-frambodum-til-sveitarstjornarkosninga-16-mai-2026"
+      ]
+    },
+    {
+      "id": "SKE.SGL.2",
+      "muni_slug": "skeidagnup",
+      "party_code": "SGL",
+      "ballot": 2,
+      "name": "Vilborg M. Ástráðsdóttir",
+      "age": null,
+      "bio": "Vilborg María Ástráðsdóttir er myndlistakennari og situr sem fulltrúi Samvinnulistans í sveitarstjórn Skeiða- og Gnúpverjahrepps. Hún skipar 2. sæti á L-lista Samvinnulistans fyrir sveitarstjórnarkosningarnar 16. maí 2026.",
+      "interests": ["myndlist", "menntun", "menning", "sveitarstjórnarmál"],
+      "social": {"linkedin": "", "facebook": ""},
+      "sources": [
+        "https://www.skeidgnup.is/is/moya/news/skil-a-frambodum-til-sveitarstjornarkosninga-16-mai-2026",
+        "https://kosningasaga.wordpress.com/2026/04/02/frambodslisti-samvinnulistans-i-skeida-og-gnupverjahreppi/"
+      ]
+    },
+    {
+      "id": "SKA.D.2",
+      "muni_slug": "skaftarhreppur",
+      "party_code": "D",
+      "ballot": 2,
+      "name": "Sigurður Árnason",
+      "age": null,
+      "bio": "Sigurður Árnason er stálsmiður og rekstraraðili í Skaftárhreppi og skipar 2. sæti á D-lista Sjálfstæðisflokksins og óháðra fyrir sveitarstjórnarkosningarnar 16. maí 2026.",
+      "interests": ["iðnaður", "atvinnulíf", "sveitarstjórnarmál", "Skaftárhreppur"],
+      "social": {"linkedin": "", "facebook": ""},
+      "sources": [
+        "https://www.sunnlenska.is/frettir/tvo-frambod-i-skaftarhreppi/"
+      ]
+    },
+    {
+      "id": "SKA.SKO.2",
+      "muni_slug": "skaftarhreppur",
+      "party_code": "SKO",
+      "ballot": 2,
+      "name": "Auður Guðbjörnsdóttir",
+      "age": null,
+      "bio": "Auður Guðbjörnsdóttir er bóndi á Búlandi í Skaftárhreppi og skólabílstjóri og hefur búið ásamt manni sínum, Pétri Davíð Sigurðssyni, á jörðinni frá árinu 2013. Hún er upprunnin úr Magnússkógum í Dölum og rekur blandað bú með nautgripum, sauðfé og hrossum. Hún situr í sveitarstjórn Skaftárhrepps og skipar 2. sæti á Ö-lista Öflugs samfélags fyrir sveitarstjórnarkosningarnar 2026.",
+      "interests": ["landbúnaður", "byggðamál", "sveitarstjórnarmál", "hross", "Skaftárhreppur"],
+      "social": {"linkedin": "", "facebook": ""},
+      "sources": [
+        "https://www.bbl.is/lif-og-starf/bondinn/buland",
+        "https://www.sunnlenska.is/frettir/tvo-frambod-i-skaftarhreppi/"
+      ]
+    },
+    {
+      "id": "KOP.B.3",
+      "muni_slug": "kopavogur",
+      "party_code": "B",
+      "ballot": 3,
+      "name": "Gunnar Sær Ragnarsson",
+      "age": null,
+      "bio": "Gunnar Sær Ragnarsson er lögfræðingur og býr í Kópavogi. Hann skipar 3. sæti á lista Framsóknar í Kópavogi fyrir sveitarstjórnarkosningarnar 16. maí 2026 og hefur áður setið framarlega á lista flokksins í sveitarfélaginu.",
+      "interests": ["lögfræði", "stjórnmál", "sveitarstjórnarmál", "Kópavogur"],
+      "social": {"linkedin": "", "facebook": ""},
+      "sources": [
+        "https://www.framsokn.is/sveitarfelog/kopavogur",
+        "https://xbkop.is/folkid/"
+      ]
+    },
+    {
+      "id": "HAF.B.3",
+      "muni_slug": "hafnarfjordur",
+      "party_code": "B",
+      "ballot": 3,
+      "name": "Árni Rúnar Árnason",
+      "age": null,
+      "bio": "Árni Rúnar Árnason er tæknistjóri og skipar 3. sæti á lista Framsóknar í Hafnarfirði fyrir sveitarstjórnarkosningarnar 16. maí 2026. Hann hefur áður verið á framboðslista flokksins í landsmálum.",
+      "interests": ["tæknimál", "atvinnulíf", "sveitarstjórnarmál", "Hafnarfjörður"],
+      "social": {"linkedin": "", "facebook": ""},
+      "sources": [
+        "https://www.framsokn.is/sveitarfelog/hafnarfjordur",
+        "https://www.framsokn.is/blog/valdimar-vidisson-leidir-lista-framsoknar-i-hafnarfirdi",
+        "https://framsokn.is/nyjast/frettir/frambodslistar-framsoknar-2024/"
+      ]
+    },
+    {
+      "id": "HAF.C.3",
+      "muni_slug": "hafnarfjordur",
+      "party_code": "C",
+      "ballot": 3,
+      "name": "Hjördís Hlíðberg",
+      "age": null,
+      "bio": "Hjördís Hlíðberg er verkefnastjóri hjá JBT Marel og skipar 3. sæti á lista Viðreisnar í Hafnarfirði fyrir sveitarstjórnarkosningarnar 16. maí 2026.",
+      "interests": ["atvinnulíf", "verkefnastjórnun", "sveitarstjórnarmál", "Hafnarfjörður"],
+      "social": {"linkedin": "", "facebook": "https://www.facebook.com/hjordis.hlidberg/"},
+      "sources": [
+        "https://www.fjardarfrettir.is/frettir/politik/frambodslisti-vidreisnar-kynntur",
+        "https://vidreisn.is/2026/03/karolina-leidir-lista-i-hafnarfirdi/"
+      ]
+    },
+    {
+      "id": "HOR.B.3",
+      "muni_slug": "hornafjordur",
+      "party_code": "B",
+      "ballot": 3,
+      "name": "Björgvin Óskar Sigurjónsson",
+      "age": null,
+      "bio": "Björgvin Óskar Sigurjónsson er byggingatæknifræðingur og bæjarfulltrúi í Sveitarfélaginu Hornafirði fyrir Framsókn. Hann skipar 3. sæti á B-lista Framsóknar og stuðningsmanna fyrir sveitarstjórnarkosningarnar 16. maí 2026.",
+      "interests": ["byggingarmál", "skipulagsmál", "sveitarstjórnarmál", "Hornafjörður"],
+      "social": {"linkedin": "", "facebook": ""},
+      "sources": [
+        "https://framsokn.is/folkid/sveitarstjornarfolk/sveitarfelagid-hornafjordur/",
+        "https://kosningasaga.wordpress.com/2026/02/27/frambodslisti-framsoknar-og-studningsmanna-i-sveitarfelaginu-hornafirdi/",
+        "https://www.hornafjordur.is/stjornsysla/stjorn/baejarstjorn/"
+      ]
+    },
+    {
+      "id": "HOR.D.3",
+      "muni_slug": "hornafjordur",
+      "party_code": "D",
+      "ballot": 3,
+      "name": "Ásta Steinunn Eiríksdóttir",
+      "age": null,
+      "bio": "Ásta Steinunn Eiríksdóttir er hagfræðingur og skipar 3. sæti á lista Sjálfstæðisflokksins í Sveitarfélaginu Hornafirði fyrir sveitarstjórnarkosningarnar 16. maí 2026. Listinn er leiddur af Gauta Árnasyni, núverandi bæjarstjóra.",
+      "interests": ["efnahagsmál", "atvinnulíf", "sveitarstjórnarmál", "Hornafjörður"],
+      "social": {"linkedin": "", "facebook": ""},
+      "sources": [
+        "https://xd.is/2026/03/27/fullskipadur-frambodslisti-sjalfstaedisflokksins-a-hornafirdi/"
+      ]
+    }
+  ]
+}

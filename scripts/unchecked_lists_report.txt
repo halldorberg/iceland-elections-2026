@@ -1,0 +1,353 @@
+UNCHECKED LISTS ANALYSIS
+Total lists in our DB: 175
+Lists verified by comparison script: 121
+Unchecked: 54
+
+── akureyri  [AKU/AL]  (19 candidates)
+   Island.is list: "A listi - Akureyrarlistinn"  [✓ MATCH]
+   island.is=19 ours=19
+      ✓ Þórhallur Jónsson
+      ✓ Karen Sigurbjörnsdóttir
+      ✓ Helgi Steinar Halldórsson
+      ✓ Kristrún María Björnsdóttir
+      ✓ Darri Rafn Hólmarsson
+      ✓ Dana Rán Jónsdóttir
+      ✓ Vilmundur Aðalsteinn Árnason
+      ✓ Guðjón Andri Gylfason
+      ✓ Elfa Ágústsdóttir
+      ✓ Pavel Víking Landa
+      ✓ Rannveig Hansen Jónsdóttir
+      ✓ Hilmar Friðjónsson
+      ✓ Fríða Kristín Hreiðarsdóttir
+      ✓ Friðbjörn Benediktsson
+      ✓ Harpa Þórey Sigurðardóttir
+      ✓ Elvar Freyr Pálsson
+      ✓ Axel Darri Þórhallsson
+      ✓ Ingibjörg Bergmann Bragadóttir
+      ✓ Rúnar Þór Björnsson
+
+── arneshr  [ARN/ARNA]  (9 candidates)
+   STATUS: ❓  No island.is "A" list — island.is letters: ['S', 'Á']
+          Our names: Sigrún Sverrisdóttir, Þorgerður Lilja Björnsdóttir, Róbert Hlífar Ingólfsson, Davíð Már Bjarnason, Thomas Elguezabal, Pétur Freyr Ragnarsson, Joanna Zofia Wilczynska, Kristín Guðmundsdóttir, Björn Guðmundur Torfason
+
+── arneshr  [ARN/ARNS]  (9 candidates)
+   STATUS: ❓  No island.is "A" list — island.is letters: ['S', 'Á']
+          Our names: Arinbjörn Bernharðsson, Kristjana María S. Ásbjörnsdóttir, Héðinn Birnir Ásbjörnsson, Marta Gíslrún Ólafsdóttir, Axel Thorarensen Hraundal, Guðlaugur Agnar Ágústsson, Grétar Örn Jóhannsson, Hilde Berit Hundstuen, Magnús Karl Pétursson
+
+── blaskogabyggd  [BSG/BSP]  (13 candidates)
+   STATUS: ❓  No island.is "B" list — island.is letters: ['T', 'Þ']
+          Our names: Anna Greta Ólafsdóttir, Valdís María Smáradóttir, Óli Björn Finnsson, Hildur Hálfdanardóttir, Stephanie Elizabeth May Langridge, Jón Forni Snæbjörnsson, Steindóra K. Þorleifsdóttir, Kristrún Sigurfinnsdóttir, Anthony Karl Flores, Sigurður Pétursson, Kamil Jan Lewandowski, Smári Stefánsson, Ragnheiður Bjarnadóttir
+
+── blaskogabyggd  [BSG/BST]  (13 candidates)
+   STATUS: ❓  No island.is "B" list — island.is letters: ['T', 'Þ']
+          Our names: Helgi Kjartansson, Stefanía Hákonardóttir, Áslaug Alda Þórarinsdóttir, Ísak Eyfjörð Arnarson, Kristján Einir Traustason, Elías Bergmann Jóhannsson, Grímur Kristinsson, Anna Svava Sverrisdóttir, Sveinn Ingi Sveinbjörnsson, Axel Sæland, Ewa Piatek, Sindri Fannar Sigurbjörnsson, Harpa Sævarsdóttir
+
+── bolungarvik  [BLV/BBK]  (13 candidates)
+   STATUS: ❓  No island.is "B" list — island.is letters: ['K', 'O']
+          Our names: Kristján Jón Guðmundsson, Jóhanna Ósk Halldórsdóttir, Þorbergur Haraldsson, Baldur Smári Einarsson, Margrét Hildur Eiðsdóttir, Jóna Dagbjört Pétursdóttir, Paul Lukas Smelt, Guðmundur Kristinn Albertsson, Svana Kristín Guðbjartsdóttir, Nikolas Marcin Knop, Anna Magdalena Preisner, Helgi Pálsson, Trausti Salvar Kristjánsson
+
+── bolungarvik  [BLV/MMM]  (13 candidates)
+   STATUS: ❓  No island.is "M" list — island.is letters: ['K', 'O']
+          Our names: Guðfinnur Ragnar Jóhannsson, Magnús Ingi Jónsson, Rebekka Líf Karlsdóttir, Karen Arna Hannesdóttir, Hjörtur Traustason, Katrín Ugla Kristjánsdóttir, Sigtryggur Benedikt Stefánsson, Olga Agata Tabaka, Ketill Elíasson, Helga Jónsdóttir, Unnur Eyrún Mörthudóttir, Guðbergur Ingólfur Arnarsson, Stefán Línberg Halldórsson
+
+── eyjafjardarsveit  [EJA/EJF]  (13 candidates)
+   STATUS: ❓  No island.is "E" list — island.is letters: ['F', 'K']
+          Our names: Hermann Ingi Gunnarsson, Berglind Kristinsdóttir, Gestur Júlíusson, Inga Vala Gísladóttir, Hákon B. Harðarson, Beate Stormo, Reynir Sverrir Sverrisson, Susanne Lintermann, Halldór Sigurður Guðmundsson, Sara Dögg Sindradóttir, Kristján Hermann Tryggvason, Andrea Þórey Hjaltadóttir, Guðmundur I. Geirsson
+
+── eyjafjardarsveit  [EJA/EJK]  (13 candidates)
+   STATUS: ❓  No island.is "E" list — island.is letters: ['F', 'K']
+          Our names: Guðmundur Sigurbjörn Óskarsson, Linda Lárusdóttir, Friðrik Karlsson, Sóley Kjerúlf Svansdóttir, Ragnar Jónsson, Margrét Árnadóttir, Hafþór Magni Sólmundsson, Valgerður Guðrún Valdimarsdóttir, Aðalsteinn Hallgrímsson, Sveinbjörg Helgadóttir, Garðar Hólm Stefánsson, Sigríður Bjarnadóttir, Sigurður Ingi Friðleifsson
+
+── floahreppur  [FHR/FLI]  (9 candidates)
+   STATUS: ❓  No island.is "F" list — island.is letters: ['I', 'T']
+          Our names: Árni Eiríksson, Hulda Kristjánsdóttir, Walter Fannar Kristjánsson, Hrafnhildur Helga Guðmundsdóttir, Hjalti Guðmundsson, Sveinn Orri Einarsson, Sigrún Hrefna Arnardóttir, Sigurjón Reynisson, Helena Hólm
+
+── floahreppur  [FHR/FLT]  (9 candidates)
+   STATUS: ❓  No island.is "F" list — island.is letters: ['I', 'T']
+          Our names: Almar Sigurðsson, Ágúst Hjálmarsson, Halla Kjartansdóttir, Ólafur Sveinn Gíslason, Anný Ingimarsdóttir, Jónas Már Hreggviðsson, Brynjar Þór Þormóðsson, Gunnar Einar Jóhannsson, Íris Björk Magnúsdóttir
+
+── gardabaer  [GAR/GB]  (21 candidates)
+   Island.is list: "G listi - Garðarbæjarlistinn"  [✓ MATCH]
+   island.is=21 ours=21
+      ✓ Þorbjörg Þorvaldsdóttir
+      ✓ Guðjón Pétur Lýðsson
+      ✓ Joanna Marcinkowska
+      ✓ Finnur Jónsson
+      ✓ Baldur Ó. Svavarsson
+      ✓ Harpa Grétarsdóttir
+      ✓ Maru E. Aleman
+      ✓ Hannes Ingi Geirsson
+      ✓ Sveinbjörg Vilhjálmsdóttir
+      ✓ Askur Hrafn Hannesson
+      ✓ Guðrún Elín Herbertsdóttir
+      ✓ Tómas Þór Jacobsen
+      ✓ Ása Steinarsdóttir
+      ✓ Axel Ingi Jónsson
+      ✓ Signý Hlíf Árnadóttir
+      ✓ Stefán Daníel Jónsson
+      ✓ Svanhvít Sigurjónsdóttir
+      ✓ Björn Gústav Jónsson
+      ✓ Kristín Helga Gunnarsdóttir
+      ✓ Óli Valur Ómarsson
+      ✓ Brynja Guðmundsdóttir
+
+── grimsnesgrafningur  [GGR/GGA]  (10 candidates)
+   STATUS: ❓  No island.is "G" list — island.is letters: ['A', 'Ö']
+          Our names: Guðmundur Finnbogason, Rebekka Lind Guðmundsdóttir, Bergur Guðmundsson, Ragnheiður Eggertsdóttir, Pétur Thomsen, Dagný Davíðsdóttir, Sigurður Ingi Ágústsson, Halldór Þorbjörnsson, Örvar Bjarnason, Sigríður K. Oddsdóttir
+
+── grimsnesgrafningur  [GGR/GGO]  (9 candidates)
+   STATUS: ❓  No island.is "G" list — island.is letters: ['A', 'Ö']
+          Our names: Andrés Bertelsen, Ragna Ívarsdóttir, Friðrik Guðmundsson, Viðar Marinósson, Gunnlaugur I. Ingimarsson, Sandra Gunnarsdóttir, Karl Heimir Karlsson, Sigríður Björnsdóttir, Lára Valgerður Júlíusdóttir
+
+── grundarfjordur  [GFJ/GFB]  (13 candidates)
+   STATUS: ❓  No island.is "G" list — island.is letters: ['B', 'D']
+          Our names: Fannar Þór Þorfinnsson, Signý Gunnarsdóttir, Aðalsteinn Jósepsson, Þuríður Gía Jóhannesdóttir, Eiríkur Þór Halldórsson, Halldóra Dögg Hjörleifsdóttir, Ragnheiður Dröfn Benidiktsdóttir, Rakel Birgisdóttir, Sigurborg Knarran Ólafsdóttir, Anna Júlía Skúladóttir, Hallur Pálsson, Kristján Guðmundsson, Loftur Árni Björgvinsson
+
+── grundarfjordur  [GFJ/GFD]  (13 candidates)
+   STATUS: ❓  No island.is "G" list — island.is letters: ['B', 'D']
+          Our names: Jósef Kjartansson, Sigurhanna Ágústa Einarsdóttir, Bjarni Sigurbjörnsson, Sigurður Gísli Guðjónsson, Davíð Magnússon, Sólveig Ásta Bergvinsdóttir, Lilja Björk Bjarnadóttir, Guðbrandur Gunnar Garðarsson, Hallfríður Guðný Ragnarsdóttir, Elín Sigurðardóttir, Sunneva Gissurardóttir, Marta Magnúsdóttir, Arnar Kristjánsson
+
+── horgarsv  [HGS/HGH]  (9 candidates)
+   Island.is list: "H listi - Hörgársveitar"  [✓ MATCH]
+   island.is=9 ours=9
+      ✓ Bjarki Brynjólfsson
+      ✓ Ásta Hafberg
+      ✓ Hugrún Lísa Heimisdóttir
+      ✓ Jón Þór Benediktsson
+      ✓ Sveinn Brimar Jónsson
+      ✓ Jenný Dögg Heiðarsdóttir
+      ✓ Vikar Mar Valsson
+      ✓ Hugrún Pála Birnisdóttir
+      ✓ Sigurður Pálsson
+
+── hrunamannahreppur  [HMR/HRL]  (9 candidates)
+   STATUS: ❓  No island.is "H" list — island.is letters: ['D', 'L']
+          Our names: Daði Geir Samúelsson, Rakel Ósk Kristófersdóttir, Hjalti Sigurðsson, Margrét Sævarsdóttir, Þórmundur Smári Hilmarsson, Katarina Sand, Damian Józefik, Lilja Helgadóttir, Davíð Logi Ingvarsson
+
+── hunabyggd  [HNB/HBA]  (17 candidates)
+   STATUS: ❓  No island.is "H" list — island.is letters: ['A', 'B', 'D']
+          Our names: Jón Gíslason, Sara Björk Þorsteinsdóttir, Emil Jóhann Þorsteinsson, Sverrir Þór Sverrisson, Karen Helga R. Steinsdóttir, Ásmundur Óskar Einarsson, Lára Dagný Sævarsdóttir, Sigurður Árnason, Jóhanna Stella Jóhannsdóttir, Sigþór Ottó Hallgrímsson, Kristín Birna Sveinbjörnsdóttir, Guðmann Ásgeir Halldórsson, Guðný Ósk Jónasdóttir, Guðmundur Sævar Þórsson, Jóna Rannveig Ólafsdóttir, Einar Pétursson, Berglind Hlín Baldursdóttir
+
+── hunathing  [HNT/NHV]  (13 candidates)
+   Island.is list: "N listi - Nýtt afl í Húnaþingi vestra"  [✓ MATCH]
+   island.is=13 ours=13
+      ✓ Viktor Ingi Jónsson
+      ✓ Magnús Vignir Eðvaldsson
+      ✓ Eygló Hrund Guðmundsdóttir
+      ✓ Guðrún Gróa Þorsteinsdóttir
+      ✓ Sigurbjörg Jóhannesdóttir
+      ✓ Patrekur Óli Gústafsson
+      ✓ Hallfríður Sigurbjörg Óladóttir
+      ✓ Guðmundur Brynjar Guðmundsson
+      ✓ Elísabet Eir Steinbjörnsdóttir
+      ✓ Kolfinna Rún Gunnarsdóttir
+      ✓ Ómar Eyjólfsson
+      ✓ Hrafnhildur Ísabella Harðardóttir
+      ✓ Ólafur Már Sigurbjartsson
+
+── hvalfjardarsveit  [HVF/HVA]  (13 candidates)
+   STATUS: ❓  No island.is "H" list — island.is letters: ['A', 'Í']
+          Our names: Haraldur Benediktsson, Guðrún Sigríður Gísladóttir, Guðbjartur Þór Stefánsson, Einar Þórarinsson, Brynhildur Stefánsdóttir, Bjarki Borgdal Magnússon, Arney Þyrí Guðjónsdóttir, Jón Þór Marinósson, Erna Elvarsdóttir, Anton Teitur Ottesen, Róbert Eyvar Ólafsson, Inga María Sigurðardóttir, Björgvin Helgason
+
+── hvalfjardarsveit  [HVF/HVB]  (13 candidates)
+   STATUS: ❓  No island.is "H" list — island.is letters: ['A', 'Í']
+          Our names: Þóra Margrét Júlíusdóttir, Baldur Þór Ketilsson, Vignir Már Sigurjónsson, Sigurður Pétur Svanbergsson, Katrín Rós Sigvaldadóttir, Jóhanna Ingisól Sævarsdóttir, Áskell Þórisson, Hildur Jónsdóttir, Ólafur Ingi Jóhannesson, Josefina Margareta Morell, Einar Thorberg Guðmundsson, Kristján B. Kristinsson, Kristján Ottó Hreiðarsson
+
+── hveragerdi  [HVG/OKH]  (13 candidates)
+   Island.is list: "O listi - Okkar Hveragerði"  [✓ MATCH]
+   island.is=13 ours=13
+      ✓ Lárus Jónsson
+      ✓ Dagný Sif Sigurbjörnsdóttir
+      ✓ Jónas Guðnason
+      ✓ Sandra Lind Brynjarsdóttir
+      ✓ Ívar Dagur B. Sævarsson
+      ✓ Brynja Hrafnkelsdóttir
+      ✓ Eyþór Atli Olsen Finnsson
+      ✓ Embla Werner Guðleifsdóttir
+      ✓ Guðjón Óskar Kristjánsson
+      ✓ Halldóra Jóna Guðmundsdóttir
+      ✓ Hrafn Andrés Harðarson
+      ✓ Anna Jórunn Stefánsdóttir
+      ✓ Njörður Sigurðsson
+
+── kjosarhreppur  [KJO/KJA]  (9 candidates)
+   STATUS: ❓  No island.is "K" list — island.is letters: ['A']
+          Our names: Jóhanna Hreinsdóttir, Sigurþór I. Sigurðsson, Jón Þorgeir Sigurðsson, Þóra Jónsdóttir, Díana Þorsteinsdóttir, Brynja Baldursdóttir, Andri Jónsson, Ólöf Ósk Guðmundsdóttir, Elvar Gunnarsson
+
+── myrdalshr  [MYR/MYA]  (9 candidates)
+   STATUS: ❓  No island.is "M" list — island.is letters: ['A', 'Z']
+          Our names: Anna Huld Óskarsdóttir, Salóme Svandís Þórhildardóttir, Brynjar Ögmundsson, Kristína Hajniková, Michal Ladaczek, Deirdre Anna Stack Marques, Davíð Geir Jónasson, Marton Agoston Doemoek, Adam Szymielewicz
+
+── myrdalshr  [MYR/MYZ]  (9 candidates)
+   STATUS: ❓  No island.is "M" list — island.is letters: ['A', 'Z']
+          Our names: Björn Þór Ólafsson, Þórey Richardt Úlfarsdóttir, Daníel Óliver Sveinsson, Magnús Örn Sigurjónsson, Hjördís Rut Jónsdóttir, Guðjón Þorsteinn Guðmundsson, Kamil Pawel Burnóg, Natalia Zams, Sigurjóna Kristófersdóttir
+
+── nordurping  [NPG/NBO]  (17 candidates)
+   STATUS: ❓  No island.is "N" list — island.is letters: ['B', 'D', 'M', 'S', 'V', 'Ó']
+          Our names: Ómar Gunnarsson, Gísli Þór Briem, Einar Sigurðsson, Ann-Charlotte Fernholm, Elvar Már Stefánsson, Svala Rut Stefánsdóttir, Maríus Snær Halldórsson, Matthildur Dögg Jónsdóttir, Bjarni Harðarson, Kolbrún Valbergsdóttir, Einar Atli Helgason, Silja Rún Stefánsdóttir, Guðmundur Magnússon, Jón Ketilsson, Árdís Inga Höskuldsdóttir, Heiðar H. Hermundsson, Halldór Svanur Olgeirsson
+
+── nordurping  [NPG/NPM]  (17 candidates)
+   STATUS: ❓  No island.is "N" list — island.is letters: ['B', 'D', 'M', 'S', 'V', 'Ó']
+          Our names: Rúnar Traustason, Ágúst Sigurður Óskarsson, Elín Guðmundsdóttir, Brynjar Baldursson, Hilda Rós Pálsdóttir, Áki Hauksson, Hallur Lund, Gunnólfur Sveinsson, Alexander Gunnar Jónasson, Helga Sigurbjörg S. Heide, Monika Zyvatkauskaité, Jónas Sævarsson, Svava Steingrímsdóttir, Önundur Kristjánsson, María Guðrún Jónsdóttir, Davíð Þórólfsson, Gunnar Björnsson
+
+── nordurping  [NPG/NPV]  (17 candidates)
+   STATUS: ❓  No island.is "N" list — island.is letters: ['B', 'D', 'M', 'S', 'V', 'Ó']
+          Our names: Aldey Unnar Traustadóttir, Salbjörg Matthíasdóttir, Halldór Jón Gíslason, Guðmundur H. Halldórsson, Guðrún Einarsdóttir, Jonas Hrafn Klitgaard, Bergljót Friðbjarnardóttir, Baldur Stefánsson, Ingibjörg Benediktsdóttir, Árdís H. Jónsdóttir, Christoph Wöll, Sunna Torfadóttir, Jónas Þór Viðarsson, Guðrún Sædís Harðardóttir, Arnþór Þórsteinsson, Bjartey Unnur Stefándóttir, Sólveig Mikaelsdóttir
+
+── rangarthingeystra  [RTE/NRE]  (13 candidates)
+   Island.is list: "N listi - N-listinn"  [✓ MATCH]
+   island.is=13 ours=13
+      ✓ Tómas Birgir Magnússon
+      ✓ Inger Erla Thomsen
+      ✓ Anna Runólfsdóttir
+      ✓ Guðni Ragnarsson
+      ✓ Guðmundur Ólafsson
+      ✓ Anna Margrét Aðalsteinsdóttir
+      ✓ Karel Geir Sverrisson
+      ✓ Bjarni Daníelsson
+      ✓ Sigurður Orri Baldursson
+      ✓ Guðbjörg Konráðsdóttir
+      ✓ Þórður Tómasson
+      ✓ Magnús Benónýsson
+      ✓ Hjalti Logason
+
+── rangarthingytra  [RTY/RYA]  (13 candidates)
+   STATUS: ❓  No island.is "R" list — island.is letters: ['D', 'Á']
+          Our names: Eggert Valur Guðmundsson, Margrét Harpa Guðsteinsdóttir, Erla Sigurðardóttir, Viðar M. Þorsteinsson, Eiríkur Vilhelm Sigurðsson, Guðbjörg Snorradóttir, Þórunn Dís Þórunnardóttir, Gunnar Aron Ólason, Anna Sóley Kjeld, Berglind Kristinsdóttir, Daníel Freyr Steinarsson, Auður Erla Logadóttir, Gabríel Snær Ólafsson
+
+── reykholar  [RKH/ROA]  (9 candidates)
+   Island.is list: "R listi - Raddir okkar allra"  [✓ MATCH]
+   island.is=9 ours=9
+      ✓ Árný Huld Haraldsdóttir
+      ✓ Embla Dögg Bachmann Jóhannsdóttir
+      ✓ Kjartan Þór Ragnarsson
+      ✓ Indiana Svala Ólafsdóttir
+      ✓ Matthías Óli Gústafsson
+      ✓ Aron Viðar Kristjánsson
+      ✓ Agnieszka Anna Marcinkowska-Kowalczyk
+      ✓ Björn Samúelsson
+      ✓ Sigríður Anna Ísleifsdóttir
+
+── seltjarnarnes  [SEL/SCS]  (13 candidates)
+   Island.is list: "S listi - Samfylking, Viðreisn og óháðir"  [✓ MATCH]
+   island.is=13 ours=13
+      ✓ Kristinn Ólafsson
+      ✓ Sigurþóra Bergsdóttir
+      ✓ Helgi Steinar Helgason
+      ✓ Auður Halla Rögnvaldsdóttir
+      ✓ Egill Ö. Hermannsson
+      ✓ Áslaug Eva Björnsdóttir
+      ✓ Kristín Edda Óskarsdóttir
+      ✓ Garðar Svavar Gíslason
+      ✓ Halla Helgadóttir
+      ✓ María Stefánsdóttir
+      ✓ Björg Þorsteinsdóttir
+      ✓ Skúli Eiríksson
+      ✓ Karen María Jónsdóttir
+
+── skaftarhreppur  [SKR/SKO]  (9 candidates)
+   STATUS: ❓  No island.is "S" list — island.is letters: ['D', 'Ö']
+          Our names: Jóhannes Gissurarson, Auður Guðbjörnsdóttir, Gunnar Pétur Sigmarsson, Einar Kristján Jónsson, Guðmundur Vignir Steinsson, Elín Heiða Valsdóttir, Bergur Sigfússon, Guðbrandur Magnússon, Fanndís Ósk Pálsdóttir
+
+── skagafjordur  [SFJ/SFL]  (18 candidates)
+   STATUS: ❓  No island.is "S" list — island.is letters: ['B', 'D', 'L', 'M']
+          Our names: Eyþór Fannar Sveinsson, Jóhanna Ey Harðardóttir, Sveinn Úlfarsson, Elínborg Erla Ásgeirsdóttir, Ingvar Daði Jóhannsson, Bryndís Rut Haraldsdóttir, Davíð Logi Jónsson, Guðrún Sonja Birgisdóttir, Harpa Katrín Halldórsdóttir, Jóhanna Sigrún Björnsdóttir, Jón Einar Kjartansson, Ólafur Bjarni Haraldsson, Þórunn Eyjólfsdóttir, Jón Sigurjónsson, Sigurjón Leifsson, Dragica Glisovic, Vignir Nói Sveinsson, Agnar Halldór Gunnarsson
+
+── skeidagnup  [SGN/SGE]  (9 candidates)
+   STATUS: ❓  No island.is "S" list — island.is letters: ['E', 'L']
+          Our names: Gunnar Örn Marteinsson, Ingibjörg Sæunn Jónsdóttir, Sigurður Kristmundsson, Sigríður Björk Marinósdóttir, Gylfi Sigríðarson, Ingvar Hersir Sveinsson, Elín Anna Lárusdóttir, Hannes Ólafur Gestsson, Guðmundur Arnar Sigfússon
+
+── skeidagnup  [SGN/SGL]  (10 candidates)
+   STATUS: ❓  No island.is "S" list — island.is letters: ['E', 'L']
+          Our names: Haraldur Þór Jónsson, Vilborg M. Ástráðsdóttir, Harpa Dís Harðardóttir, Björgvin Þór Harðarson, Birna Þorsteinsdóttir, Guðmundur Árnason, Oddrún Ýr Sigurðardóttir, Ingvar Þrándarson, Jóhannes Hlynur Sigurðsson, Bjarni H. Ásbjörnsson
+
+── strandabyggd  [STD/SBD]  (10 candidates)
+   STATUS: ❓  No island.is "S" list — island.is letters: ['B', 'G', 'T']
+          Our names: Þorgeir Pálsson, Grettir Örn Ásmundsson, Marta Sigvaldadóttir, Aleksandra Pilugina, Þórdís Karlsdóttir, Gústaf Hrannar Magnússon, Sigurlaug Stefánsdóttir, Indriði Aðalsteinsson, Ásmundur H. Vermundsson, Guðmundur V. Gústafsson
+
+── strandabyggd  [STD/VGV]  (9 candidates)
+   STATUS: ❓  No island.is "V" list — island.is letters: ['B', 'G', 'T']
+          Our names: Hrafnhildur Þorsteinsdóttir, Jón Örn Haraldsson, Kjartan Jónsson, Laufey Heiða Reynisdóttir, Andri Freyr Arnarson, Anna Karen Amin Kolbeins, Jóhann Lárus Jónsson, Heiðrún Helga Hjörleifsdóttir, Sigríður Guðmundsdóttir
+
+── stykkisholmur  [STK/FLS]  (13 candidates)
+   STATUS: ❓  No island.is "F" list — island.is letters: ['H', 'Í']
+          Our names: Björn Ásgeir Sumarliðason, Steinunn Ingibjörg Magnúsdóttir, Mattías Arnar Þorgrímsson, Þórhildur Eyþórsdóttir, Viktoría Líf V. Ingibergsdóttir, Þröstur Ingi Auðunsson, Jón Ragnar Daðason, Ragnar Ingi Sigurðsson, Anna Margrét Pálsdóttir, Kári Geir Jensson, Guðbjörg Arna Evudóttir, Marteinn Óli Þorgrímsson, Björg Gunnarsdóttir
+
+── stykkisholmur  [STK/IBU]  (13 candidates)
+   STATUS: ❓  No island.is "I" list — island.is letters: ['H', 'Í']
+          Our names: Sigurður Grétar Jónasson, Rannveig Tenchi Ernudóttir, Kristján  Hildibrandsson, Ólöf Inga Stefánsdóttir, Skarphéðinn Berg Steinarsson, Sólrún Ösp Jóhannsdóttir, Heiðrún Edda Pálsdóttir, Hjalti Hrafn Hafþórsson, Snæbjörn Aðalsteinsson, Eva Rut Ellertsdóttir, Steindór Hjaltalín Þorsteinsson, Sigrún Birta Sturludóttir, Hrefna Frímannsdóttir
+
+── sudavik  [SDV/FJL]  (10 candidates)
+   STATUS: ❓  No island.is "F" list — island.is letters: ['A', 'E']
+          Our names: Kristján Rúnar Kristjánsson, Ingibjörg Ásdís  Björnsdóttir, Finnur Jónsson, María Lovísa Danium, Jónas Haukur Jónbjörnsson, Claudia Troost, Jónatan Ingi Ásgeirsson, Jóhanna R Kristjánsdóttir, Eiríkur  Valgeir Scott, Oddný Elínborg Bergsdóttir
+
+── sudavik  [SDV/FTL]  (9 candidates)
+   STATUS: ❓  No island.is "F" list — island.is letters: ['A', 'E']
+          Our names: Kjartan Geir Karlsson, Birta Lind Garðarsdóttir, Jónína Margrét Guðmundsdóttir, Jónþór  Eiríksson, Egill Bjarni Vikse Helgason, Runólfur Georg Karlsson, Sergine Modou Fall, Díana Ösp Magdalena Jónínudóttir, Anna  Lind Ragnarsdóttir
+
+── svalbardsstrond  [SVS/SVSS]  (9 candidates)
+   Island.is list: "S listi - Samstaða"  [✓ MATCH]
+   island.is=9 ours=9
+      ✓ Sigríður Ingi Stefánsdóttir
+      ✓ Hafrún Helga Arnardóttir
+      ✓ Halldóra Dögg Sigurðardóttir
+      ✓ Sigrún Rósa Kjartansdóttir
+      ✓ Elísabet Inga Ásgrímsdóttir
+      ✓ Eva Sandra Bentsdóttir
+      ✓ Heiðrún Beck
+      ✓ Þóra Sigríður Torfadóttir
+      ✓ Maríanna Lind Garðarsdóttir
+
+── thingeyjarsveit  [THV/THVA]  (13 candidates)
+   STATUS: ❓  No island.is "T" list — island.is letters: ['L', 'N', 'Á']
+          Our names: Knútur Emil Jónasson, Nanna Marteinsdóttir, Anna Bragadóttir, Dóra Rún Kristjánsdóttir, Hörður Sigurðsson, Sigurlína Tryggvadóttir, Líney Rúnarsdóttir, Sigðurður Guðni Böðvarsson, Sæmundur Þór Sigurðsson, Ósk Helgadóttir, Arnheiður Rán Almarsdóttir, Gísli Sigurðsson, Hallgrímur Hallsson
+
+── thingeyjarsveit  [THV/THVL]  (13 candidates)
+   STATUS: ❓  No island.is "T" list — island.is letters: ['L', 'N', 'Á']
+          Our names: Hallgrímur Páll Leifsson, Freydís Anna Ingvarsdóttir, Snæþór Haukur Sveinbjörnsson, Snorri Már Snorrason, Jón Sverrir Sigtryggsson, Soffía Kristín Jónsdóttir, Ólafur Ragnarsson, Anton Freyr Birgisson, Gunnar Ingi Jónsson, Brynjar Árnason, Elísabet Sigurðardóttir, Jóhannes Már Sigurðsson, Kristján Jónsson
+
+── thingeyjarsveit  [THV/THVN]  (13 candidates)
+   STATUS: ❓  No island.is "T" list — island.is letters: ['L', 'N', 'Á']
+          Our names: Eyþór Kári Ingólfsson, Bylgja Dögg Sigurbjörnsdóttir, Jónas Þórólfsson, Hermann Aðalsteinsson, Garðar Finnsson, Nína Björg Sæmundsdóttir, Ásta Hrönn Hersteinsdóttir, Bjarni Ole Apel Ingason, Friðrika Sigurgeirsdóttir, Ingvar Vagnsson, Hjördís Ólafsdóttir, Sigfús Haraldur Bóasson, Hólmfríður Ásdís Illugadóttir
+
+── tjornes  [TJR/TJN]  (10 candidates)
+   Island.is list: "T listi - Tjörneslistinn"  [❌ MISMATCH]
+   island.is=9 ours=10
+      - OUR DB ONLY: Sigríður Hörn Lárusdóttir
+
+── vesturbyggd  [VBG/NYS]  (13 candidates)
+   Island.is list: "N listi - Ný sýn"  [✓ MATCH]
+   island.is=13 ours=13
+      ✓ Þórkatla Soffía Ólafsdóttir
+      ✓ Rebekka Hilmarsdóttir
+      ✓ Jenný Lára Magnadóttir
+      ✓ Gunnþórunn Bender
+      ✓ Jón Árnason
+      ✓ Friðbjörn Steinar Ottósson
+      ✓ Jónas Snæbjörnsson
+      ✓ Einar Helgason
+      ✓ Edda Bára Árnadóttir
+      ✓ Halldór Jökull Ólafsson
+      ✓ Aðalsteinn Magnússon
+      ✓ Andrés Páll Ásgeirsson
+      ✓ Steinunn Sigmundsdóttir
+
+── vesturbyggd  [VBG/STV]  (13 candidates)
+   STATUS: ❓  No island.is "S" list — island.is letters: ['N', 'V']
+          Our names: Hlynur Ársælsson, Friðbjörg Matthíasdóttir, Egill Níelsson, Silja Baldvinsdóttir, Rúnar Ingi Pétursson, Jóhann Örn Hreiðarsson, Þorbjörn Guðmundsson, Svanhildur Björk Gísladóttir, Gísli Ægir Ágústsson, Lech Robert Raszkiewicz, Guðlaug Sigurrós Björnsdóttir, Ísak Óli Óskarsson, Silja Björg Ísafoldardóttir
+
+── vogar  [VOG/FYRS]  (13 candidates)
+   STATUS: ❓  No island.is "F" list — island.is letters: ['A', 'D', 'E', 'L']
+          Our names: Gunnar J. Helgason, Áslaug Fjóla Magnúsdóttir, Hilmar Ólafsson, Guðrún Ósk Barðadóttir, Ásgeir Ragnar Ásgeirsson, Ingibjörg Njarðvík, Bergur Brynjar Álfþórsson, Nanna Lovísa Zophoníasdóttir, Óðinn Hilmisson, Jóhanna Brynja Ólafsdóttir, Tadej Venta, Glóð Jónsdóttir, Nökkvi Freyr Hvítaness Bergsson
+
+── vogar  [VOG/VOE]  (13 candidates)
+   STATUS: ❓  No island.is "V" list — island.is letters: ['A', 'D', 'E', 'L']
+          Our names: Birgir Örn Ólafsson, Eva Björk Jónsdóttir, Friðrik Valdimar Árnason, Ingþór Guðmundsson, Inga Rut Hlöðversdóttir, Adrian Krawczuk, Gunnar Richter, Linda Dögg Agnarsdóttir, Alexandra Líf Ingþórsdóttir, Samúel Þórir Drengsson, Logi Friðriksson, Tinna Magnúsdóttir, Valdimar Pétursson
+
+── vogar  [VOG/VOL]  (13 candidates)
+   STATUS: ❓  No island.is "V" list — island.is letters: ['A', 'D', 'E', 'L']
+          Our names: Kristinn Björgvinsson, Eðvarð Atli Bjarnason, Snædís Ósk Guðjóndóttir, Anna Karen Gísladóttir, Guðni Oddgeirsson, Berglind Petra Jóhannsdóttir, Theophilus Joe Yamoah, Þóranna Margrét Kristinsdóttir, Ástrós Ösp Gunnarsdóttir, Dagný Rut Ólafsdóttir, Ágúst Sveinbjörn Bjarnason, Karen I. Mejna, Guðmundur Björgvin Hauksson
+
+── vopnafjordur  [VPF/VOP]  (14 candidates)
+   STATUS: ❓  No island.is "V" list — island.is letters: ['O']
+          Our names: Íris Edda Jónsdóttir, Stefán Guðnason, Magnús Þór Róbertsson, Eyrún Guðbergsdóttir, Skúli Þórðarson, Sandra Konráðsdóttir, Zhivko Todorov Dinev, Gauti Halldórsson, Helga Kristín Tryggvadóttir, Gulmira Kanakova, Ingólfur Sveinsson, Oddur Pétur Guðmundsson, Kristín Jónsdóttir, Baldur Helgi Friðriksson

@@ -1,0 +1,86 @@
+[
+  {
+    "ballot": 1, "name": "Guðfinnur Ragnar Jóhannsson", "photo": "c39d05648f8c9993.jpg",
+    "occupation": "Vélfræðingur",
+    "bio": "Guðfinnur Ragnar Jóhannsson er fæddur 31. maí 1998 og uppalinn á Ströndum, nánar tiltekið á Drangsnesi og Hólmavík. Hann er menntaður vélfræðingur með meistararéttindi í vélvirkjun og sveinspróf í rafvirkjun, og starfar hjá Orkubúi Vestfjarða við kerfisstjórn og rekstur. Hann býr í Bolungarvík með kærustu sinni Hönnu Þóreyju Björnsdóttur og hefur tekið virkan þátt í björgunarsveitinni Erni. Hann leiðir K-listann (Máttur meyja og manna) í Bolungarvík í sveitarstjórnarkosningunum 16. maí 2026.",
+    "interests": ["Ábyrg fjármálastjórnun", "Atvinnumál", "Skipulagsmál", "Aukið samtal"]
+  },
+  {
+    "ballot": 2, "name": "Magnús Ingi Jónsson", "photo": "7a193bb4860caa3e.jpg",
+    "occupation": "Sérfræðingur í fiskeldi",
+    "bio": "Magnús Ingi Jónsson er sérfræðingur í fiskeldi hjá Matvælastofnun og borinn og barnfæddur Bolvíkingur, yngsti sonur Jóns Sveinssonar og Ingibjargar Bjarnadóttur. Hann er með BS-gráðu í ferðamála- og markaðsfræðum frá Háskóla Íslands og meistaragráðu í forystu og stjórnun með áherslu á mannauðsstjórnun, auk diploma í viðburðastjórnun og opinberri stjórnsýslu. Sambýliskona hans er Annika Behnsen og þau eiga tvö börn. Hann skipar 2. sæti á K-lista MMM í sveitarstjórnarkosningunum 16. maí 2026.",
+    "interests": ["Umhverfis- og skipulagsmál", "Samþætting fjölmenningarsamfélagsins", "Betri ásýnd bæjarins"]
+  },
+  {
+    "ballot": 3, "name": "Rebekka Líf Karlsdóttir", "photo": "37faa5e030c5d5b5.jpg",
+    "occupation": "Tannsmiður",
+    "bio": "Rebekka Líf Karlsdóttir er tannsmiður og uppalin í Bolungarvík, dóttir Kalla Gunn heitins og Laugu Bern. Hún er móðir þriggja barna á leik- og grunnskólaaldri og flutti aftur heim árið 2021. Hún stofnaði Vesturbros árið 2022 sem í dag veitir sex manns vinnu, hefur setið í umhverfisráði í fjögur ár, er formaður sundsdeildar UMFB og kom að stofnun Vinir Gamla Róló. Hún skipar 3. sæti á K-lista MMM í sveitarstjórnarkosningunum 16. maí 2026 og leggur áherslu á jöfn tækifæri og að efla þátttöku íbúa af erlendum uppruna.",
+    "interests": ["Mannauður og samfélag", "Jöfn tækifæri barna", "Aðgengi að menntun og íþróttum", "Þátttaka íbúa af erlendum uppruna"]
+  },
+  {
+    "ballot": 4, "name": "Karen Arna Hannesdóttir", "photo": "c2241d2b305607f9.jpg",
+    "occupation": "Rafvirki",
+    "bio": "Karen Arna Hannesdóttir flutti til Bolungarvíkur árið 2014 og hefur starfað hjá Orkubúi Vestfjarða síðan. Hún gegnir í dag starfi rafvirkja á eftirlitsdeild fyrirtækisins. Hún er alin upp í Eyjafjarðarsveit og bjó einnig um tíma á suðvesturhorninu. Hún er í sambúð með Auðuni Elvarssyni og á þrjú börn á grunn- og framhaldsskólaaldri. Hún skipar 4. sæti á K-lista MMM í sveitarstjórnarkosningunum 16. maí 2026 og hefur áhuga á garðrækt í frítíma sínum.",
+    "interests": ["Umhverfismál", "Snyrtilegt og aðlaðandi nærumhverfi", "Garðrækt"]
+  },
+  {
+    "ballot": 5, "name": "Hjörtur Traustason", "photo": "5adbbf0e46d58267.jpg",
+    "occupation": "Verkstjóri og rafvirki",
+    "bio": "Hjörtur Traustason er fæddur og uppalinn Bolvíkingur og vinnur hjá Orkubúi Vestfjarða við verkstjórn og rafvirkjun. Hann er nokkrum námskeiðum frá því að klára meistaranám í sínu fagi. Hjörtur sat í bæjarstjórn Bolungarvíkur 2018–2022 og var í tvö ár af því í bæjarráði ásamt sæti í hafnarstjórn, og hefur tekið virkan þátt í félags- og æskulýðsstörfum. Hann er kvæntur Freydísi Ósk Daníelsdóttur og þau eiga fjórar dætur. Hann skipar 5. sæti á K-lista MMM í sveitarstjórnarkosningunum 16. maí 2026.",
+    "interests": ["Umferðaröryggi", "Atvinnumál", "Ferðamannamál", "Umhverfismál", "Fjölskylduvænt samfélag", "Tónlist og akstursíþróttir"]
+  },
+  {
+    "ballot": 6, "name": "Katrín Ugla Kristjánsdóttir", "photo": "3715d4c2b90fbdde.jpg",
+    "occupation": "Tannlæknir",
+    "bio": "Katrín Ugla Kristjánsdóttir er tannlæknir og lærði tannlæknisfræði við Háskóla Íslands. Hún flutti til Bolungarvíkur árið 2022 með fjölskyldu sinni og stofnaði Vesturbros frá grunni með Rebekku Líf Karlsdóttur, þar sem sex manns starfa í dag. Foreldrar hennar og afar og ömmur eru úr Bolungarvík. Hún á þrjú börn í leik- og grunnskóla og skipar 6. sæti á K-lista MMM í sveitarstjórnarkosningunum 16. maí 2026.",
+    "interests": ["Jafnrétti", "Jöfn tækifæri", "Sanngjörn fagleg meðferð"]
+  },
+  {
+    "ballot": 7, "name": "Sigtryggur Benedikt Stefánsson", "photo": "60c0d91b5c32680c.jpg",
+    "occupation": "Verkefnastjóri hjá NORA Seafood",
+    "bio": "Sigtryggur Benedikt Stefánsson er fæddur á Akureyri, uppalinn í Mosfellsbæ og flutti vestur í Bolungarvík árið 2017. Hann starfar sem verkefnastjóri hjá NORA Seafood á Ísafirði þar sem hann kemur að krefjandi verkefnum sem snúa að fiskvinnslu og sölu. Hann á þrjú börn í grunn- og leikskóla með Hildi Maríu og skipar 7. sæti á K-lista MMM í sveitarstjórnarkosningunum 16. maí 2026.",
+    "interests": ["Innviðir og atvinnumál", "Fræðslumál", "Velferðarmál", "Húsnæðis- og skipulagsmál", "Aðstaða fyrir íþróttir og tómstundir"]
+  },
+  {
+    "ballot": 8, "name": "Olga Agata Tabaka", "photo": "61ec5cbef5b04b7c.jpg",
+    "occupation": "Stuðningsfulltrúi og listakennari",
+    "bio": "Olga Agata Tabaka kom til Bolungarvíkur frá Póllandi árið 2013. Hún hefur unnið í Grunnskóla Bolungarvíkur síðan 2016 sem stuðningsfulltrúi á yngsta stigi og kennir listir í heilsuskólanum. Hún er gift Gunnlaugi Gunnlaugssyni og þau eiga saman tvö börn. Hún skipar 8. sæti á K-lista MMM í sveitarstjórnarkosningunum 16. maí 2026 og setur sér það markmið að brúa bilið í fjölmenningarsamfélaginu Bolungarvík, styrkja umgjörð tómstunda og bæta námsaðstöðu í bænum.",
+    "interests": ["Fjölmenningarsamfélagið", "Tómstundastörf", "Námsaðstaða", "Ferðalög, lestur, borðspil og íþróttir"]
+  },
+  {
+    "ballot": 9, "name": "Ketill Elíasson", "photo": "c33774e53ebc1d52.jpg",
+    "occupation": "Vélstjóri og smábátaútgerðarmaður",
+    "bio": "Ketill Elíasson er sjötugur og hefur alltaf haft mikinn áhuga á bæjarmálum; hann var fyrst í framboði árið 1986. Hann er vélvirki að mennt og lærði hjá Gumma Bjarna í vélsmiðjunni, og hefur starfað sem vélstjóri og rekið smábáta og þorskeldi síðustu 30 ár. Hann skipar 9. sæti á K-lista MMM í sveitarstjórnarkosningunum 16. maí 2026.",
+    "interests": ["Uppbygging bæjarins", "Aðgengilegar lóðir með götum og lýsingu", "Matvælaframleiðsla", "Hreint vatn"]
+  },
+  {
+    "ballot": 10, "name": "Helga Jónsdóttir", "photo": "eab2cbc060ed871f.jpg",
+    "occupation": "Deildarstjóri við Grunnskóla Bolungarvíkur",
+    "bio": "Helga Jónsdóttir er deildarstjóri við Grunnskóla Bolungarvíkur og hefur lengi starfað þar, bæði sem kennari og í stjórnunarhlutverki tengdu stoðþjónustu og farsæld barna. Hún hefur lengstan hluta fullorðinsáranna búið í Bolungarvík með sambýlismanni sínum og þau eiga fjögur börn og fjögur barnabörn; foreldrar hennar búa einnig í bænum. Hún skipar 10. sæti á K-lista MMM í sveitarstjórnarkosningunum 16. maí 2026.",
+    "interests": ["Velferðarmál", "Umhverfismál", "Atvinnumál", "Húsnæðismál"]
+  },
+  {
+    "ballot": 11, "name": "Unnur Eyrún Mörthudóttir", "photo": "8274786175aa0e8e.jpg",
+    "occupation": "Sérfræðingur í vöruþróun",
+    "bio": "Unnur Eyrún Mörthudóttir er fædd í Bolungarvík en að mestu alin upp á Ísafirði. Hún starfar sem sérfræðingur í vöruþróun hjá Kerecis á Ísafirði samhliða því að ljúka námi í líftækni við Háskólann á Akureyri, og lauk námi í sviðslistum í Noregi árið 2022. Hún er meðal annars umsjónarmaður í Unglingadeildinni Erni og vinnur reglulega í félagsheimilinu. Hún skipar 11. sæti á K-lista MMM í sveitarstjórnarkosningunum 16. maí 2026.",
+    "interests": ["Æskulýðsmál", "Íþróttamál", "Umhverfismál", "Menningarmál"]
+  },
+  {
+    "ballot": 12, "name": "Guðbergur Ingólfur Arnarsson", "photo": "2c3fa488cc4ad677.jpg",
+    "occupation": "Rafeindavirki",
+    "bio": "Guðbergur Ingólfur Arnarsson er fæddur í Hafnarfirði árið 1970 og flutti til Bolungarvíkur fimm ára gamall, þar sem hann gekk í grunnskóla og menntaskóla. Hann er með sveinspróf í rafeindavirkjun, smáskipapróf og stúdentspróf, rak fyrirtækið Særaf ehf í 20 ár og starfar í dag sem rafeindavirki hjá Rafverki Alberts Guðmundssonar. Hann er giftur Nikólínu Beck Þorvaldsdóttur og þau eiga fjögur börn og átta barnabörn. Hann skipar 12. sæti á K-lista MMM í sveitarstjórnarkosningunum 16. maí 2026.",
+    "interests": ["Atvinnumál", "Hafnarmál", "Ferðalög, tjaldútilegur og gönguferðir"]
+  },
+  {
+    "ballot": 13, "name": "Stefán Línberg Halldórsson", "photo": "b235cdf19e53b7df.jpg",
+    "occupation": "Tæknistjóri hjá Arctic Fish",
+    "bio": "Stefán Línberg Halldórsson er fæddur og uppalinn Bolvíkingur og hefur búið í Bolungarvík í tæp 32 ár. Hann er lærður meistari í stálsmíði frá Menntaskólanum á Ísafirði og starfar í dag sem tæknistjóri í laxasláturhúsinu Drimlu hjá Arctic Fish, eftir 11 ár sem stálsmiður hjá 3X Technology. Hann hefur staðið vaktina í Slökkviliði Bolungarvíkur í 10 ár og setið í 6 ár í stjórn Verkalýðsfélags járniðnaðarmanna. Sambýliskona hans er Þórdís Björnsdóttir og saman eiga þau soninn Árna Línberg. Hann skipar 13. sæti á K-lista MMM í sveitarstjórnarkosningunum 16. maí 2026.",
+    "interests": ["Fjölbreytt atvinnulíf", "Tækifæri fyrir alla", "Stuðningur við viðbragðsaðila"]
+  },
+  {
+    "ballot": 14, "name": "Matthildur Guðmundsdóttir", "photo": "8ded9ee7630ed959.jpg",
+    "occupation": "Launþegi hjá lífeyrissjóði og tryggingastofnun",
+    "bio": "Matthildur Finnborg Guðmundsdóttir vermir heiðursæti K-lista MMM í Bolungarvík í sveitarstjórnarkosningunum 16. maí 2026. Hún er gift Viggói Bjarnasyni og þau eiga einn son. Í dag er hún launþegi lífeyrissjóða og tryggingastofnunar.",
+    "interests": ["Blómstrandi byggð", "Fjölbreytt atvinnulíf og tómstundir", "Fallegt og vel hirt umhverfi"]
+  }
+]

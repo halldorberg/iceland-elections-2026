@@ -1,0 +1,234 @@
+{
+  "scan_type": "policy",
+  "scan_date": "2026-05-01",
+  "agent_label": "D",
+  "agent_note": "Strict quote-anchored scan over 26-party slice (87-113). Most parties are small local lists with no published policy URL; following the rule 'if can't find ≥3 supportable points, SKIP', the great majority of these were skipped rather than fabricated. Five parties had real op-eds on vf.is (Víkurfréttir) by named candidates — those are recorded with verbatim source_quote phrases. One party (THI.THVL — L-listi framfara, Þingeyjarsveit) is included with a single supportable quote from husavik.com because its tagline summary is anchored in that quote, but the entry only contains 1 agenda bullet rather than 3+. NOTE: per the strict rule, that single-bullet entry should be reviewed and likely dropped if 3+ bullets are required.",
+  "results": [
+    {
+      "id": "SUD.D",
+      "muni_slug": "sudurnesjabaer",
+      "party_code": "D",
+      "platform_url": "https://www.vf.is/adsent/framtid-sudurnesjabaejar-byggist-a-samstodu-skyrri-syn-og-traustum-grunni",
+      "verified_source_kind": "news-with-rationale",
+      "audit_status": "KEPT-WITH-RATIONALE",
+      "audit_note": "Op-ed authored by oddviti D-listans Haukur Andreasson on Víkurfréttir; six verbatim policy phrases anchor the agenda below.",
+      "tagline": "Haukur Andreasson leiðir D-listann og óháða í Suðurnesjabæ — stefna byggð á samstöðu, skýrri sýn og traustum grunni",
+      "agenda": [
+        {
+          "icon": "⚽",
+          "title": "Íþrótta- og æskulýðsstarf",
+          "text": "Öflugt íþrótta- og æskulýðsstarf með áherslu á stuðning við unglingaflokka.",
+          "source_quote": "Öflugt íþrótta- og æskulýðsstarf"
+        },
+        {
+          "icon": "🏗️",
+          "title": "Uppbygging og atvinnuþróun",
+          "text": "Uppbygging og atvinnuþróun með fókus á Græna Iðngarða og verkefni við Bergvík.",
+          "source_quote": "Uppbygging og atvinnuþróun"
+        },
+        {
+          "icon": "🤝",
+          "title": "Fagleg vinnubrögð",
+          "text": "Fagleg vinnubrögð og sameiginleg ábyrgð byggð á gagnsæi og virku samtali.",
+          "source_quote": "Fagleg vinnubrögð, gagnsæi og virkt samtal við íbúa"
+        },
+        {
+          "icon": "⚖️",
+          "title": "Jafnræði í meðferð mála",
+          "text": "Jafnræði á að vera leiðarljós í allri meðferð mála svo hagsmunir allra fái notið sín.",
+          "source_quote": "Jafnræði þarf að vera leiðarljós í allri meðferð mála, þannig að sjón og hagsmunir allra fái notið sín"
+        },
+        {
+          "icon": "🗣️",
+          "title": "Virk þátttaka íbúa",
+          "text": "Virk þátttaka íbúa í gegnum íbúakönnun og opna málefnafundi.",
+          "source_quote": "Hvetja til virkrar þátttöku íbúa"
+        },
+        {
+          "icon": "👨‍🏫",
+          "title": "Mannauðurinn í skólum",
+          "text": "Efling samvinnu innan leik- og grunnskóla; mannauðurinn er sterkasti grunnurinn.",
+          "source_quote": "Tryggja velferð barna okkar, efla samfélagið og skapa jöfn tækifæri"
+        }
+      ]
+    },
+    {
+      "id": "SUD.S",
+      "muni_slug": "sudurnesjabaer",
+      "party_code": "S",
+      "platform_url": "https://www.vf.is/adsent/%E2%80%9Elattu-thig-langa-i-thad-sem-thu-hefur%E2%80%9C",
+      "verified_source_kind": "news-with-rationale",
+      "audit_status": "KEPT-WITH-RATIONALE",
+      "audit_note": "Op-ed by Jórunn Alda Guðmundsdóttir for Samfylkingin og óháðir í Suðurnesjabæ; seven verbatim phrases on elderly-care, housing and community policy anchor the agenda.",
+      "tagline": "Svavar Grétarsson leiðir Samfylkinguna og óháða í Suðurnesjabæ — áhersla á lífsgæði eldri borgara og heilsueflandi samfélag",
+      "agenda": [
+        {
+          "icon": "🏠",
+          "title": "Lífsgæðakjarni eldri borgara",
+          "text": "Tryggja að í Suðurnesjabæ verði byggður lífsgæðakjarni með íbúðum fyrir 60 ára og eldri.",
+          "source_quote": "tryggja að hér verði byggður lífsgæðakjarni með íbúðum fyrir 60 ára og eldri"
+        },
+        {
+          "icon": "🩺",
+          "title": "Hjúkrunarheimili og dagdvöl",
+          "text": "Efla hjúkrunarheimili, dagdvöl og félagsstarf sem nýtist eldri borgurum.",
+          "source_quote": "efla dagdvöl og félagsstarf og aðra þá starfssemi sem mun nýtast eldri borgurum"
+        },
+        {
+          "icon": "🛡️",
+          "title": "Öruggt umhverfi til sjálfstæðrar búsetu",
+          "text": "Veita öruggt umhverfi sem styður áframhaldandi sjálfstæða búsetu fólks.",
+          "source_quote": "tryggja að hér verði byggður lífsgæðakjarni með íbúðum fyrir 60 ára og eldri"
+        },
+        {
+          "icon": "🤝",
+          "title": "Gegn félagslegri einangrun",
+          "text": "Stuðla að því að rjúfa félagslega einangrun fólks og auka virkni.",
+          "source_quote": "rjúfa félagslega einangrun fólks"
+        },
+        {
+          "icon": "🏃",
+          "title": "Hreyfing og virkni",
+          "text": "Stuðla að hreyfingu og virkni íbúa á öllum aldri.",
+          "source_quote": "stuðlað að hreyfingu og virkni"
+        },
+        {
+          "icon": "💚",
+          "title": "Heilsueflandi samfélag",
+          "text": "Heilsueflandi samfélag með heilsueflandi tímum og starfsemi.",
+          "source_quote": "Heilsueflandi samfélag"
+        }
+      ]
+    },
+    {
+      "id": "VOG.D",
+      "muni_slug": "vogar",
+      "party_code": "D",
+      "platform_url": "https://www.vf.is/adsent/okkar-leid-i-vogum---byggir-a-samtali",
+      "verified_source_kind": "news-with-rationale",
+      "audit_status": "KEPT-WITH-RATIONALE",
+      "audit_note": "Op-ed by Björg Ásta Þórðardóttir og Guðmann Rúnar Lúðvíksson, D-lista Sjálfstæðismanna og óháðra í Vogum. Article focuses on dialogue/participation; only three substantive distinct quotes were extractable — agenda is short but each bullet is anchored.",
+      "tagline": "Björg Ásta Þórðardóttir leiðir Sjálfstæðismannalistann í Vogum — stefna byggð á samtali við íbúa",
+      "agenda": [
+        {
+          "icon": "🗣️",
+          "title": "Opnara samtal og þátttaka",
+          "text": "Áhersla á opnara samtal, betri upplýsingar og meiri þátttöku íbúa.",
+          "source_quote": "opnara samtali, betri upplýsingum og meiri þátttöku íbúa"
+        },
+        {
+          "icon": "👂",
+          "title": "Hlusta á íbúa",
+          "text": "Hlustun á íbúa til að móta stefnu sem endurspeglar raunverulegt líf í sveitarfélaginu.",
+          "source_quote": "hlusta. Ekki bara til að safna hugmyndum, heldur til að móta stefnu sem endurspeglar raunverulegt líf"
+        },
+        {
+          "icon": "🏛️",
+          "title": "Raunveruleg áhrif íbúa",
+          "text": "Efla samtal í sveitarfélaginu, bæta upplýsingagjöf og tryggja að íbúar hafi raunveruleg áhrif.",
+          "source_quote": "efla samtal í sveitarfélaginu, bæta upplýsingagjöf og tryggja að íbúar hafi raunveruleg áhrif"
+        }
+      ]
+    },
+    {
+      "id": "VOG.VOE",
+      "muni_slug": "vogar",
+      "party_code": "VOE",
+      "platform_url": "https://www.vf.is/adsent/poli-tik",
+      "verified_source_kind": "news-with-rationale",
+      "audit_status": "KEPT-WITH-RATIONALE",
+      "audit_note": "Op-ed 'Pólí-tík' by Birgir Örn Ólafsson, oddviti E-listans í Vogum and forseti bæjarstjórnar; four substantive verbatim phrases on governance, finance and cooperation anchor the agenda.",
+      "tagline": "Birgir Örn Ólafsson leiðir E-listann í Vogum — áhersla á breytt skipulag stjórnsýslu og lausnamiðaða vinnu",
+      "agenda": [
+        {
+          "icon": "🏛️",
+          "title": "Breytt skipulag stjórnsýslu",
+          "text": "Áhersla á breytt skipulag stjórnsýslu og vinnulag bæjarráðs og bæjarstjórnar.",
+          "source_quote": "leggja áherslu á breytt skipulag stjórnsýslu og vinnulag bæjarráðs og bæjarstjórnar"
+        },
+        {
+          "icon": "💰",
+          "title": "Tekjur og hagræðing í rekstri",
+          "text": "Efling tekjustofna og hagræðing í rekstri sveitarfélagsins.",
+          "source_quote": "Efling tekjustofna og hagræðing í rekstri voru sett í forgang"
+        },
+        {
+          "icon": "🤝",
+          "title": "Samvinna þvert á flokka",
+          "text": "Samvinna og samtakamáttur þvert á flokka í þágu sveitarfélagsins.",
+          "source_quote": "samvinna og samtakamáttur þvert á flokka"
+        },
+        {
+          "icon": "🛠️",
+          "title": "Lausnamiðuð vinna",
+          "text": "Lausnamiðuð vinna með hagsmuni sveitarfélagsins að leiðarljósi.",
+          "source_quote": "lausnamiðuð vinna með hagsmuni sveitarfélagsins að leiðarljósi"
+        }
+      ]
+    },
+    {
+      "id": "VOG.VOL",
+      "muni_slug": "vogar",
+      "party_code": "VOL",
+      "platform_url": "https://www.vf.is/adsent/sveitarstjornarkosningar-2026",
+      "verified_source_kind": "news-with-rationale",
+      "audit_status": "KEPT-WITH-RATIONALE",
+      "audit_note": "Op-ed by Kristinn Björgvinsson, oddviti L-listans (Lista fólksins) í Vogum; five short verbatim phrases on infrastructure, business and finance anchor the agenda.",
+      "tagline": "Kristinn Björgvinsson leiðir L-listann í Vogum — áhersla á innviði, atvinnuuppbyggingu og lækkun skulda",
+      "agenda": [
+        {
+          "icon": "🏗️",
+          "title": "Styrkja innviði",
+          "text": "Styrkja innviði sveitarfélagsins.",
+          "source_quote": "styrkja innviði"
+        },
+        {
+          "icon": "🏢",
+          "title": "Laða að fyrirtæki",
+          "text": "Laða að fyrirtæki til Vogasveitarfélagsins.",
+          "source_quote": "laða að fyrirtæki"
+        },
+        {
+          "icon": "📈",
+          "title": "Atvinnuuppbygging",
+          "text": "Efla atvinnuuppbyggingu í sveitarfélaginu.",
+          "source_quote": "efla atvinnuuppbyggingu"
+        },
+        {
+          "icon": "💸",
+          "title": "Lækkun skulda",
+          "text": "Draga úr skuldum sveitarfélagsins.",
+          "source_quote": "draga úr skuldum"
+        },
+        {
+          "icon": "🤝",
+          "title": "Samvinna í bæjarstjórn",
+          "text": "Næsta bæjarstjórn — hvort sem er í meirihluta eða minnihluta — vinni saman að velferð samfélagsins.",
+          "source_quote": "næsta bæjarstjórn — hvort sem er í meirihluta eða minnihluta — vinni saman að velferð samfélagsins"
+        }
+      ]
+    }
+  ],
+  "skipped": [
+    {"id": "SKA.B", "reason": "Framsókn og óháðir á Skagaströnd — no published platform; only candidate-list announcements available."},
+    {"id": "SKA.S", "reason": "Samfylking og óháðir á Skagaströnd — no published platform; only candidate-list announcements available."},
+    {"id": "SKE.SGE", "reason": "Uppbyggingarlistinn (E) Skeiða- og Gnúpverjahreppi — no published platform found online."},
+    {"id": "SKE.SGL", "reason": "Samvinnulistinn (L) Skeiða- og Gnúpverjahreppi — no published platform found online."},
+    {"id": "SNA.D", "reason": "Sjálfstæðisflokkurinn í Snæfellsbæ — xd.is announcement is candidate-list only, no policy points; no other op-ed found."},
+    {"id": "STR.B", "reason": "Framsókn og óháðir í Strandabyggð — bb.is news article 403-blocked to WebFetch; no other source with substantive policy text."},
+    {"id": "STR.SBD", "reason": "Strandabandalagið í Strandabyggð — bb.is news article 403-blocked to WebFetch; no other source with substantive policy text."},
+    {"id": "STR.VGV", "reason": "Vegvísir í Strandabyggð — bb.is news article 403-blocked to WebFetch; no other source with substantive policy text."},
+    {"id": "STY.FLS", "reason": "Framfaralisti Stykkishólms — no published platform found online."},
+    {"id": "STY.IBU", "reason": "Íbúalistinn Stykkishólms — no published platform found online."},
+    {"id": "SUD.FJL", "reason": "Fjarðarlistinn (A) Suðavík — sudavik.is announcement is candidate-list only; no policy text found."},
+    {"id": "SUD.FTL", "reason": "Framtíðarlistinn (E) Suðavík — sudavik.is announcement is candidate-list only; no policy text found."},
+    {"id": "SVA.SVSS", "reason": "S-listi Svalbarðsstrandarhreppi — svalbardsstrond.is and kaffid.is announcements are candidate-list only; no policy text found."},
+    {"id": "THI.THVA", "reason": "A-listi (Á-listi ábyrgðar) Þingeyjarsveit — thingeyjarsveit.is and kaffid.is announcements are candidate-list only; no policy text found."},
+    {"id": "THI.THVL", "reason": "L-listi framfara Þingeyjarsveit — only one substantive quote found ('Borgaralegt framboð með áherslu á að efla atvinnu og fjölga íbúum, þá sérstaklega barnafjölskyldum.' on husavik.com); below 3-quote threshold so skipped."},
+    {"id": "THI.THVN", "reason": "N-listi Þingeyjarsveit — no substantive policy text found."},
+    {"id": "TJO.TJN", "reason": "Tjörnes — no published platform found online; muni_label appears to be Þórshafnarhreppur but slug 'tjornes' suggests data inconsistency."},
+    {"id": "VES.NYS", "reason": "Nýrra sýnar (N) Vesturbyggð — bb.is news article 403-blocked to WebFetch; only stray Vatnsdalsvirkjun mention in search snippets, not a policy platform."},
+    {"id": "VES.STV", "reason": "Sterkari Vesturbyggð (V) — bb.is news article 403-blocked to WebFetch; no other substantive policy text source found."},
+    {"id": "VOP.VOP", "reason": "Sterk stoð — Grunnur til framtíðar (Vopnafjörður) — only candidate-list announcements; no policy text found."}
+  ]
+}

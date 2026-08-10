@@ -1,0 +1,26 @@
+{
+  "id": "ARB.D.6",
+  "bio": "Kjartan Björnsson er rakari á Selfossi og forseti bæjarstjórnar Sveitarfélagsins Árborgar. Hann starfar á Rakarastofu Björns og Kjartans, sem faðir hans Gísli Sigurðsson stofnaði árið 1948, og hefur klippt í rúma þrjá áratugi. Kjartan rekur stofuna ásamt Birni bróður sínum og Birni Daða syni hans. Hann hefur lengi setið í bæjarstjórn Árborgar fyrir Sjálfstæðisflokkinn og verið virkur í sveitarstjórnarmálum á Suðurlandi. Fyrir sveitarstjórnarkosningarnar 2026 skipar hann 6. sæti á D-lista í Árborg, sem Bragi Bjarnason bæjarstjóri leiðir.",
+  "sources": [
+    "https://xd.is/2026/03/30/fullskipadur-listi-i-arborg/",
+    "https://www.dfs.is/frettir/kosningar/d-listinn-i-arborg-kynntur/",
+    "https://www.visir.is/g/20181582489d",
+    "https://rakarastofan.is/"
+  ],
+  "statements": [
+    {"n":1,"status":"verified","claim":"Rakari á Selfossi og forseti bæjarstjórnar Árborgar","quotes":["Kjartan Björnsson, rakari og forseti bæjarstjórnar"]},
+    {"n":2,"status":"verified","claim":"Stofan sem faðir Gísli Sigurðsson stofnaði (70 ára árið 2018 = stofnuð 1948)","quotes":["rakarastofan sem pabbi hans stofnaði, Gísli Sigurðsson, rakarameistari fagnar 70 ára afmæli","Í dag var 70 ára afmæli rakarastofunnar fagnað"]},
+    {"n":3,"status":"verified","claim":"Klippt í rúma þrjá áratugi","quotes":["Kjartan hefur starfaði sem rakari í 34 ár"]},
+    {"n":4,"status":"verified","claim":"Rekur stofuna ásamt Birni bróður og Birni Daða syni hans","quotes":["þar vinnur líka Björn Daði, sonur Björns og bróðir Kjartans"]},
+    {"n":5,"status":"verified","claim":"Setið í bæjarstjórn Árborgar fyrir Sjálfstæðisflokkinn","quotes":["situr Kjartan í bæjarstjórn Árborgar fyrir Sjálfstæðisflokkinn"]},
+    {"n":6,"status":"verified","claim":"6. sæti á D-lista 2026, Bragi leiðir","quotes":["Bragi Bjarnason, bæjarstjóri","Kjartan Björnsson, rakari og forseti bæjarstjórnar"]}
+  ],
+  "summary": "Bio fully verified.",
+  "rescue": {
+    "rewrite": null,
+    "rewrite_words": 0,
+    "new_sources": [],
+    "resolutions": [],
+    "new_heimild": []
+  }
+}

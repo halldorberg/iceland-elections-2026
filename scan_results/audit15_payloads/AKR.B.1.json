@@ -1,0 +1,28 @@
+{
+  "id": "AKR.B.1",
+  "bio": "Ragnar Baldvin Sæmundsson er verslunarmaður og bæjarfulltrúi á Akranesi. Hann hefur setið í bæjarstjórn Akraness fyrir Framsókn og frjálsa frá árinu 2022 og gegnir embætti 2. varaforseta bæjarstjórnar á yfirstandandi kjörtímabili. Ragnar leiðir áfram lista Framsóknar og frjálsra á Akranesi í sveitarstjórnarkosningunum 2026 sem oddviti framboðsins.",
+  "sources": [
+    "https://skessuhorn.is/2022/03/09/framsokn-med-frjalsum-kynna-frambodslista-a-akranesi/",
+    "https://www.akranes.is/stjornsysla/stjornkerfi/baejarstjorn-akraness",
+    "https://framsokn.is/folkid/sveitarstjornarfolk/akraneskaupstadur/"
+  ],
+  "statements": [
+    {"n": 1, "status": "verified", "claim": "verslunarmaður og bæjarfulltrúi á Akranesi", "quotes": ["Oddviti listans verður Ragnar B. Sæmundsson bæjarfulltrúi og verslunarmaður."]},
+    {"n": 2, "status": "verified", "claim": "í bæjarstjórn Akraness fyrir Framsókn og frjálsa frá 2022", "quotes": ["Nr. 1. Ragnar Baldvin Sæmundsson, verslunarmaður og bæjarfulltrúi", "Ragnar B. Sæmundsson (B) 2. varaforseti bæjarstjórnar"]},
+    {"n": 3, "status": "verified", "claim": "2. varaforseti bæjarstjórnar á yfirstandandi kjörtímabili", "quotes": ["Ragnar B. Sæmundsson (B) 2. varaforseti bæjarstjórnar"]},
+    {"n": 4, "status": "flagged", "claim": "leiðir áfram lista Framsóknar og frjálsra á Akranesi 2026 sem oddviti", "notes": "Heimild framsokn.is fannst ekki (404). Engin tilvitnuð heimild staðfestir 2026-oddvitastöðu Ragnars sérstaklega; þó staðfestir Skessuhorn að hann var oddviti 2022, og bæjarstjórnasíða Akraneskaupstaðar segir hann enn (B) 2. varaforseta. Vísisgrein Liv Aase staðfestir 2. sæti hennar 2026."}
+  ],
+  "summary": "3 verified, 0 rescued, 1 flagged",
+  "rescue": {
+    "rewrite": "Ragnar Baldvin Sæmundsson er verslunarmaður og bæjarfulltrúi á Akranesi. Hann hefur setið í bæjarstjórn Akraness fyrir Framsókn og frjálsa frá árinu 2022 — var þá oddviti listans — og gegnir embætti 2. varaforseta bæjarstjórnar á yfirstandandi kjörtímabili.",
+    "rewrite_words": 41,
+    "new_sources": [],
+    "resolutions": [
+      {"kind": "dropped", "text": "'leiðir áfram listann 2026 sem oddviti' fellt — framsokn.is heimild fannst ekki og engin önnur tilvitnuð heimild staðfestir oddvitastöðu Ragnars 2026."}
+    ],
+    "new_heimild": [
+      {"url": "https://skessuhorn.is/2022/03/09/framsokn-med-frjalsum-kynna-frambodslista-a-akranesi/", "label": "Framsókn með frjálsum kynnir framboðslista á Akranesi (Skessuhorn)"},
+      {"url": "https://www.akranes.is/stjornsysla/stjornkerfi/baejarstjorn-akraness", "label": "Bæjarstjórn Akraness (akranes.is)"}
+    ]
+  }
+}

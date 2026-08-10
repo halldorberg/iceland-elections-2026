@@ -1,0 +1,1320 @@
+{
+  "scope": "news scan 2026-05-01 — RVK top5 / Kop top3 / Haf+Gar+Rnb top2 / others top1 by pop",
+  "agent_label": "B",
+  "slice": [
+    85,
+    170
+  ],
+  "count": 85,
+  "news_candidates": [
+    {
+      "id": "HAF.M.2",
+      "muni_slug": "hafnarfjordur",
+      "muni_label": "Hafnarfjörður",
+      "party_code": "M",
+      "ballot": 2,
+      "name": "Signý Jóna Tryggvadóttir",
+      "occupation": "Mannauðssérfræðingur",
+      "news_count": 1,
+      "news_urls": [
+        "https://www.fjardarfrettir.is/frettir/politik/midflokkurinn-hefur-kynnt-frambodslista-sinn"
+      ]
+    },
+    {
+      "id": "HAF.S.1",
+      "muni_slug": "hafnarfjordur",
+      "muni_label": "Hafnarfjörður",
+      "party_code": "S",
+      "ballot": 1,
+      "name": "Guðmundur Árni Stefánsson",
+      "occupation": "Bæjarfulltrúi, varaformaður Samfylkingar",
+      "news_count": 8,
+      "news_urls": [
+        "https://www.dv.is/eyjan/2022/01/13/gudmundur-arni-snyr-aftur-stjornmalin/",
+        "https://www.visir.is/g/20222207704d/gud-mundur-arni-snyr-aftur-i-politik-eftir-sex-tan-ar-i-utan-rikis-thjonustunni",
+        "https://www.mbl.is/frettir/kosning/2022/02/12/gudmundur_arni_sigradi_i_profkjorinu/",
+        "https://www.visir.is/g/20222331458d/gudmundur-arni-sjalfkjorinn-varaformadur",
+        "https://www.visir.is/g/20262849479d/gud-mundur-arni-leidir-a-fram-listann",
+        "https://kjarninn.is/frettir/vill-vinna-hafnarfjord-fyrir-jafnadarmenn-29-arum-eftir-ad-hann-haetti-sem-baejarstjori/",
+        "https://kjarninn.is/frettir/meirihlutinn-i-hafnarfirdi-fallinn-og-samfylkingin-tvofaldar-fjolda-baejarfulltrua/",
+        "https://www.mannlif.is/frettir/innlent/gudmundur-arni-thegjandi-samkomulag-milli-okkar-um-ad-tala-um-drengina-okkar-og-slysid/"
+      ]
+    },
+    {
+      "id": "HAF.S.2",
+      "muni_slug": "hafnarfjordur",
+      "muni_label": "Hafnarfjörður",
+      "party_code": "S",
+      "ballot": 2,
+      "name": "Hildur Rós Guðbjargardóttir",
+      "occupation": "Bæjarfulltrúi",
+      "news_count": 1,
+      "news_urls": [
+        "https://www.fjardarfrettir.is/frettir/frambodslisti-samfylkingarinnar-i-hafnarfirdi"
+      ]
+    },
+    {
+      "id": "GAR.D.1",
+      "muni_slug": "gardabaer",
+      "muni_label": "Garðabær",
+      "party_code": "D",
+      "ballot": 1,
+      "name": "Almar Guðmundsson",
+      "occupation": "Bæjarstjóri og hagfræðingur",
+      "news_count": 8,
+      "news_urls": [
+        "https://www.ruv.is/frettir/innlent/2026-02-17-almar-leidir-sjalfstaedismenn-i-gardabae-467281",
+        "https://xd.is/2026/02/17/almar-leidir-lista-sjalfstaedisflokksins-i-gardabae/",
+        "https://www.visir.is/g/20222271140d/almar-gudmundsson-nyr-baejarstjori-gardabaejar",
+        "https://kjarninn.is/frettir/2017-05-30-almar-gudmundsson-latinn-fara-fra-samtokum-idnadarins/",
+        "https://www.mbl.is/frettir/innlent/2023/11/02/hyggjast_haekka_skatta_og_hagraeda_i_gardabae/",
+        "https://postar.is/gardabaer/vid-leggjum-verk-okkar-ohraedd-i-dom-gardbaeinga-segir-almar-gudmundsson-baejarstjori-gardabaejar-i-addraganda-kosning/",
+        "https://www.globenewswire.com/news-release/2025/12/04/3200270/0/is/L%C3%A6gri-skattar-og-skuldahlutfall-l%C3%A6kkar-verulega.html",
+        "https://www.visir.is/g/20262872176d/kosningapallbord-frettastofu-mun-sjalfstaedisflokkurinn-halda-velli-i-gardabae-"
+      ]
+    },
+    {
+      "id": "GAR.D.2",
+      "muni_slug": "gardabaer",
+      "muni_label": "Garðabær",
+      "party_code": "D",
+      "ballot": 2,
+      "name": "Björg Fenger",
+      "occupation": "Formaður bæjarráðs og lögfræðingur",
+      "news_count": 1,
+      "news_urls": [
+        "https://xd.is/2026/02/17/almar-leidir-lista-sjalfstaedisflokksins-i-gardabae/"
+      ]
+    },
+    {
+      "id": "GAR.B.1",
+      "muni_slug": "gardabaer",
+      "muni_label": "Garðabær",
+      "party_code": "B",
+      "ballot": 1,
+      "name": "Hlynur Bæringsson",
+      "occupation": "Varabæjarstjóri og rekstrarstjóri",
+      "news_count": 8,
+      "news_urls": [
+        "https://www.mbl.is/frettir/innlent/2026/03/14/hlynur_leidir_lista_framsoknar_i_gardabae/",
+        "https://www.ruv.is/frettir/innlent/2026-03-14-framsokn-i-gardabae-kynnir-nyjan-oddvita-469830",
+        "https://www.visir.is/g/20262844552d/korfuboltastjarna-ihugar-frambod-i-gardabae",
+        "https://www.mbl.is/sport/korfubolti/2025/05/21/hlynur_elias_baeringsson_thvilika_godsognin/",
+        "https://www.mbl.is/sport/korfubolti/2025/05/21/eg_tharf_ad_finna_nyjan_tilgang/",
+        "https://www.mbl.is/sport/korfubolti/2025/05/21/stjarnan_islandsmeistari_i_fyrsta_sinn/",
+        "https://www.mannlif.is/frettir/hlynur-baeringsson-thad-sitja-ekki-allir-vid-habordid/",
+        "https://www.framsokn.is/blog/hlynur-baeringsson-leidir-framsokn-i-gardabae"
+      ]
+    },
+    {
+      "id": "GAR.B.2",
+      "muni_slug": "gardabaer",
+      "muni_label": "Garðabær",
+      "party_code": "B",
+      "ballot": 2,
+      "name": "Anna Margrét Steingrímsdóttir",
+      "occupation": "Markaðs- og þjónustustjóri",
+      "news_count": 1,
+      "news_urls": [
+        "https://www.mbl.is/frettir/innlent/2026/03/14/hlynur_leidir_lista_framsoknar_i_gardabae/"
+      ]
+    },
+    {
+      "id": "GAR.C.1",
+      "muni_slug": "gardabaer",
+      "muni_label": "Garðabær",
+      "party_code": "C",
+      "ballot": 1,
+      "name": "Guðlaugur Kristmundsson",
+      "occupation": "Fyrrverandi varabæjarfulltrúi",
+      "news_count": 2,
+      "news_urls": [
+        "https://www.ruv.is/frettir/innlent/2026-03-05-fyrrum-framkvaemdastjori-vidreisnar-faer-oddvitasaetid-i-gardabae-468884",
+        "https://www.visir.is/g/20262851833d/thessi-leida-vid-reisn-i-garda-bae"
+      ]
+    },
+    {
+      "id": "GAR.C.2",
+      "muni_slug": "gardabaer",
+      "muni_label": "Garðabær",
+      "party_code": "C",
+      "ballot": 2,
+      "name": "Harpa Þorsteinsdóttir",
+      "occupation": "Frambjóðandi",
+      "news_count": 1,
+      "news_urls": [
+        "https://www.ruv.is/frettir/innlent/2026-03-05-fyrrum-framkvaemdastjori-vidreisnar-faer-oddvitasaetid-i-gardabae-468884"
+      ]
+    },
+    {
+      "id": "GAR.GB.1",
+      "muni_slug": "gardabaer",
+      "muni_label": "Garðabær",
+      "party_code": "GB",
+      "ballot": 1,
+      "name": "Þorbjörg Þorvaldsdóttir",
+      "occupation": "Bæjarfulltrúi",
+      "news_count": 7,
+      "news_urls": [
+        "https://www.ruv.is/frettir/innlent/2026-01-23-thorbjorg-leidir-gardabaejarlistann-aftur-464839",
+        "https://postar.is/gardabaer/thorbjorg-leidir-gardabaejarlistann-afram-i-kosningunum-2026/",
+        "https://www.mbl.is/frettir/innlent/2019/03/03/thorbjorg_nyr_formadur_samtakanna_78/",
+        "https://www.ruv.is/frett/thorbjorg-er-nyr-formadur-samtakanna-78",
+        "https://www.visir.is/g/20252814991d/thor-bjorg-haettir-aftur-hja-sam-tokunum-78",
+        "https://www.mbl.is/frettir/innlent/2026/01/23/oddvitinn_heldur_afram_og_knattspyrnuhetja_i_odru/",
+        "https://www.visir.is/k/f2d643a8-3763-49d6-9f4b-715d0f0a5e6d-1776786445778/kosningapallbord-barattan-um-gardabae"
+      ]
+    },
+    {
+      "id": "GAR.GB.2",
+      "muni_slug": "gardabaer",
+      "muni_label": "Garðabær",
+      "party_code": "GB",
+      "ballot": 2,
+      "name": "Guðjón Pétur Lýðsson",
+      "occupation": "Atvinnurekandi",
+      "news_count": 2,
+      "news_urls": [
+        "https://www.ruv.is/frettir/innlent/2026-01-23-thorbjorg-leidir-gardabaejarlistann-aftur-464839",
+        "https://www.mbl.is/frettir/innlent/2026/01/23/oddvitinn_heldur_afram_og_knattspyrnuhetja_i_odru/"
+      ]
+    },
+    {
+      "id": "GAR.M.1",
+      "muni_slug": "gardabaer",
+      "muni_label": "Garðabær",
+      "party_code": "M",
+      "ballot": 1,
+      "name": "Lárus Guðmundsson",
+      "occupation": "Framkvæmdastjóri og varaþingmaður",
+      "news_count": 6,
+      "news_urls": [
+        "https://www.mbl.is/frettir/innlent/2026/03/15/oddvitinn_heldr_afram_og_knattspyrnuhetja_i_odru/",
+        "https://kgp.is/gardabaer/larus-gudmundsson-leidir-lista-midflokksins-i-gardabae/",
+        "https://www.mbl.is/frettir/kosning/2022/04/08/larus_i_fyrsta_saeti_midflokksins_i_gardabae/",
+        "https://www.visir.is/g/20222246325d/larus-leidir-lista-midflokksins-i-gardabae",
+        "https://www.althingi.is/altext/raeda/156/rad20250305T150335.html",
+        "https://en.wikipedia.org/wiki/L%C3%A1rus_Gu%C3%B0mundsson"
+      ]
+    },
+    {
+      "id": "GAR.M.2",
+      "muni_slug": "gardabaer",
+      "muni_label": "Garðabær",
+      "party_code": "M",
+      "ballot": 2,
+      "name": "Laufey Gunnþórsdóttir",
+      "occupation": "Verkfræðingur",
+      "news_count": 1,
+      "news_urls": [
+        "https://www.mbl.is/frettir/innlent/2026/03/15/oddvitinn_heldr_afram_og_knattspyrnuhetja_i_odru/"
+      ]
+    },
+    {
+      "id": "GAR.S.1",
+      "muni_slug": "gardabaer",
+      "muni_label": "Garðabær",
+      "party_code": "S",
+      "ballot": 1,
+      "name": "Kjartan Atli Kjartansson",
+      "occupation": "Stjórnmálafræðingur, fjölmiðlamaður og rithöfundur",
+      "news_count": 8,
+      "news_urls": [
+        "https://www.ruv.is/frettir/innlent/2026-03-12-kjartan-atli-leidir-samfylkinguna-i-gardabae-469510",
+        "https://www.visir.is/g/20262856786d/kjartan-atli-leidir-sam-fylkinguna-i-garda-bae",
+        "https://www.mbl.is/sport/korfubolti/2025/12/13/kjartan_atli_haettir_storfum/",
+        "https://www.ruv.is/frettir/ithrottir/2025-12-13-kjartan-atli-haettur-med-alftanes-eftir-sogulegt-tap-461471",
+        "https://www.visir.is/g/20252817063d/kjartan-atli-laetur-af-storfum",
+        "https://www.visir.is/g/20262872518d/tveir-flokkar-i-gardabae-utiloka-samstarf",
+        "https://www.visir.is/g/20202046341d/kjartan-atli-um-nyju-bokina-korfu-bolta-a-hugann-og-inn-blasturinn-a-sinum-yngri-arum",
+        "https://www.dv.is/fokus/birta/2018/01/22/korfubolti-kria-i-hadeginu-og-kostir-thess-ad-setja-simann-silent-4hyh5o/"
+      ]
+    },
+    {
+      "id": "GAR.S.2",
+      "muni_slug": "gardabaer",
+      "muni_label": "Garðabær",
+      "party_code": "S",
+      "ballot": 2,
+      "name": "Vilborg Anna Strange Garðarsdóttir",
+      "occupation": "Fjármála- og rekstrarstjóri",
+      "news_count": 1,
+      "news_urls": [
+        "https://www.ruv.is/frettir/innlent/2026-03-12-kjartan-atli-leidir-samfylkinguna-i-gardabae-469510"
+      ]
+    },
+    {
+      "id": "REY.B.1",
+      "muni_slug": "reykjanesbaer",
+      "muni_label": "Reykjanesbær",
+      "party_code": "B",
+      "ballot": 1,
+      "name": "Halldóra Fríða Þorvaldsdóttir",
+      "occupation": "Bæjarfulltrúi og verkefnastjóri",
+      "news_count": 6,
+      "news_urls": [
+        "https://www.mbl.is/frettir/innlent/2026/02/08/halldora_frida_oddviti_framsoknarmanna_i_reykjanesb/",
+        "https://framsokn.is/nyjast/frettir/halldora-frida-leidir-lista-framsoknar-i-reykjanesbae/",
+        "https://www.visir.is/g/20222233275d/halldora-frida-oddviti-framsoknar-i-reykjanesbae",
+        "https://www.ruv.is/frett/2022/03/11/halldora-efst-hja-framsokn-i-reykjanesbae",
+        "https://www.visir.is/g/20262869144d/haelis-leit-enda-malin-settu-thrysting-a-reykja-nes-bae",
+        "https://www.vf.is/frettir/frambodslisti-framsoknar-i-reykjanesbaer-birtur"
+      ]
+    },
+    {
+      "id": "REY.B.2",
+      "muni_slug": "reykjanesbaer",
+      "muni_label": "Reykjanesbær",
+      "party_code": "B",
+      "ballot": 2,
+      "name": "Róbert Jóhann Guðmundsson",
+      "occupation": "Bæjarfulltrúi og málarameistari",
+      "news_count": 2,
+      "news_urls": [
+        "https://www.mbl.is/frettir/innlent/2026/02/08/halldora_frida_oddviti_framsoknarmanna_i_reykjanesb/",
+        "https://www.vf.is/frettir/frambodslisti-framsoknar-i-reykjanesbaer-birtur"
+      ]
+    },
+    {
+      "id": "REY.C.1",
+      "muni_slug": "reykjanesbaer",
+      "muni_label": "Reykjanesbær",
+      "party_code": "C",
+      "ballot": 1,
+      "name": "Arnar Páll Guðmundsson",
+      "occupation": "Viðskiptafræðingur og mannauðsráðgjafi",
+      "news_count": 7,
+      "news_urls": [
+        "https://www.ruv.is/frettir/innlent/2026-03-11-fyrsti-listi-vidreisnar-i-reykjanesbae-469529",
+        "https://www.vf.is/frettir/arnar-pall-leidir-lista-vidreisnar-i-reykjanesbae",
+        "https://www.visir.is/g/20262854297d/fyrsti-listi-vidreisnar-i-reykjanesbae-kynntur",
+        "https://www.vf.is/frettir/adalfundur-vidreisnar-a-sudurnesjum",
+        "https://icelandmonitor.mbl.is/news/news/2025/09/02/liberal_reform_party_to_field_candidates_in_reykjan/",
+        "https://www.vf.is/frettir/vidreisn-bydur-fram-i-reykjanesbae",
+        "https://www.visir.is/g/20262868958d/kosningapallbord-frettastofu-barattan-um-reykjanesbae"
+      ]
+    },
+    {
+      "id": "REY.C.2",
+      "muni_slug": "reykjanesbaer",
+      "muni_label": "Reykjanesbær",
+      "party_code": "C",
+      "ballot": 2,
+      "name": "Davíð Skarphéðinsson",
+      "occupation": "Byggingafræðingur",
+      "news_count": 2,
+      "news_urls": [
+        "https://www.ruv.is/frettir/innlent/2026-03-11-fyrsti-listi-vidreisnar-i-reykjanesbae-469529",
+        "https://www.vf.is/frettir/arnar-pall-leidir-lista-vidreisnar-i-reykjanesbae"
+      ]
+    },
+    {
+      "id": "REY.D.1",
+      "muni_slug": "reykjanesbaer",
+      "muni_label": "Reykjanesbær",
+      "party_code": "D",
+      "ballot": 1,
+      "name": "Vilhjálmur Árnason",
+      "occupation": "Þingmaður og fyrrverandi lögreglumaður",
+      "news_count": 9,
+      "news_urls": [
+        "https://www.mbl.is/frettir/innlent/2026/01/31/vilhjalmur_nyr_oddviti_i_reykjanesbae/",
+        "https://www.mbl.is/frettir/innlent/2026/01/03/vilhjalmur_vill_verda_oddviti/",
+        "https://www.mbl.is/frettir/innlent/2026/01/03/of_spennandi_askorun_til_ad_sleppa_thvi/",
+        "https://xd.is/2026/01/31/fjolmennasta-profkjor-sjalfstaedisflokksins-i-reykjanesbae/",
+        "https://www.visir.is/g/20262834062d/ungir-sjalf-staedis-menn-fengu-ser-a-fengi-i-ferd-med-vil-hjalmi-og-foru-svo-a-kjor-stad",
+        "https://vb.is/frettir/baejarstjoraefni-motmaelir-gjaldtoku-a-reykjanesbraut/",
+        "https://www.dv.is/frettir/2026/03/18/segir-thad-thvaetting-ad-til-standi-ad-rukka-fyrir-reykjanesbraut-og-sudurlandsveg/",
+        "https://www.vf.is/adsent/vilhjalmur-arnason-bydur-sig-fram-til-oddvita",
+        "https://www.visir.is/g/20262868958d/kosningapallbord-frettastofu-barattan-um-reykjanesbae"
+      ]
+    },
+    {
+      "id": "REY.D.2",
+      "muni_slug": "reykjanesbaer",
+      "muni_label": "Reykjanesbær",
+      "party_code": "D",
+      "ballot": 2,
+      "name": "Margrét Þórarinsdóttir",
+      "occupation": "Yfirflugfreyja og bæjarfulltrúi",
+      "news_count": 2,
+      "news_urls": [
+        "https://www.mbl.is/frettir/innlent/2026/01/31/vilhjalmur_nyr_oddviti_i_reykjanesbae/",
+        "https://www.vf.is/frettir/linur-ad-skyrast-i-baejarpolitikinni"
+      ]
+    },
+    {
+      "id": "REY.M.1",
+      "muni_slug": "reykjanesbaer",
+      "muni_label": "Reykjanesbær",
+      "party_code": "M",
+      "ballot": 1,
+      "name": "Gunnlaugur Kárason",
+      "occupation": "Kennari og viðskiptafræðingur",
+      "news_count": 4,
+      "news_urls": [
+        "https://www.ruv.is/frettir/innlent/2026-03-25-vidskiptafraedingur-leidir-midflokkinn-i-reykjanesbae-470853",
+        "https://www.vf.is/frettir/gunnlaugur-leidir-midflokkinn-i-reykjanesbae",
+        "https://www.visir.is/g/20262860793d/thau-skipa-lista-midflokksins-i-reykjanesbae",
+        "https://www.visir.is/g/20262868958d/kosningapallbord-frettastofu-barattan-um-reykjanesbae"
+      ]
+    },
+    {
+      "id": "REY.M.2",
+      "muni_slug": "reykjanesbaer",
+      "muni_label": "Reykjanesbær",
+      "party_code": "M",
+      "ballot": 2,
+      "name": "Rúnar Fossádal",
+      "occupation": "Rannsóknarlögreglumaður",
+      "news_count": 2,
+      "news_urls": [
+        "https://www.ruv.is/frettir/innlent/2026-03-25-vidskiptafraedingur-leidir-midflokkinn-i-reykjanesbae-470853",
+        "https://www.visir.is/g/20262860793d/thau-skipa-lista-midflokksins-i-reykjanesbae"
+      ]
+    },
+    {
+      "id": "REY.S.1",
+      "muni_slug": "reykjanesbaer",
+      "muni_label": "Reykjanesbær",
+      "party_code": "S",
+      "ballot": 1,
+      "name": "Guðný Birna Guðmundsdóttir",
+      "occupation": "Forseti bæjarstjórnar og ritari Samfylkingarinnar",
+      "news_count": 6,
+      "news_urls": [
+        "https://www.vf.is/frettir/mikil-askorun-ad-taka-a-rekstri-og-byggja-upp-um-leid",
+        "https://www.dv.is/frettir/2026/4/16/gagnrynir-oasaettanlega-mismunun-reykjanesbae/",
+        "https://www.visir.is/g/20262869144d/haelisleitendamalin-settu-thrysting-a-reykjanesbae",
+        "https://www.visir.is/g/20262868958d/kosningapallbord-frettastofu-barattan-um-reykjanesbae",
+        "https://www.vf.is/frettir/linur-ad-skyrast-i-baejarpolitikinni",
+        "https://www.vf.is/adsent/litla-reykjavik-eda-reykjanesbaer"
+      ]
+    },
+    {
+      "id": "REY.S.2",
+      "muni_slug": "reykjanesbaer",
+      "muni_label": "Reykjanesbær",
+      "party_code": "S",
+      "ballot": 2,
+      "name": "Hjörtur Magnús Guðbjartsson",
+      "occupation": "Kerfisstjóri",
+      "news_count": 1,
+      "news_urls": [
+        "https://www.vf.is/frettir/mikil-askorun-ad-taka-a-rekstri-og-byggja-upp-um-leid"
+      ]
+    },
+    {
+      "id": "AKU.D.1",
+      "muni_slug": "akureyri",
+      "muni_label": "Akureyri",
+      "party_code": "D",
+      "ballot": 1,
+      "name": "Berglind Ósk Guðmundsdóttir",
+      "occupation": "Fyrrverandi þingmaður",
+      "news_count": 8,
+      "news_urls": [
+        "https://www.mbl.is/frettir/innlent/2026/02/07/berglind_osk_leidir_sjalfstaedismenn_a_akureyri_2/",
+        "https://www.mbl.is/frettir/innlent/2026/01/15/berglind_osk_vill_oddvitasaeti/",
+        "https://www.visir.is/g/20262829312d/fyrr-verandi-thing-madur-vill-oddvitasaeti-a-akur-eyri",
+        "https://www.mbl.is/frettir/innlent/2026/01/25/stofna_til_kosningabandalags_a_akureyri/",
+        "https://www.mbl.is/smartland/frami/2022/02/19/berglind_klaedist_aldrei_neinu_othaegilegu/",
+        "https://austurfrett.is/frettir/berglind-harpa-i-thridhja-saetinu-hja-sjalfstaedhisflokknum-berglind-osk-haett",
+        "https://kaffid.is/hingad-til-nams-hingad-til-framtidar/",
+        "https://xd.is/2026/02/26/fullskipadur-frambodislisti-sjalfstaedisflokksins-a-akureyri/"
+      ]
+    },
+    {
+      "id": "AKU.B.1",
+      "muni_slug": "akureyri",
+      "muni_label": "Akureyri",
+      "party_code": "B",
+      "ballot": 1,
+      "name": "Sunna Hlín Jóhannesdóttir",
+      "occupation": "Bæjarfulltrúi og framhaldsskólakennari",
+      "news_count": 8,
+      "news_urls": [
+        "https://www.kaffid.is/sunna-hlin-leidir-lista-framsoknar-a-akureyri/",
+        "https://framsokn.is/nyjast/frettir/sunna-hlin-johannesdottir-framhaldsskolakennari-og-varabaejarfulltrui-leidir-lista-framsoknar-a-akureyri/",
+        "https://kaffid.is/oddvitaspjall-sunna-hlin-johannesdottir/",
+        "https://www.kaffid.is/sunna-hlin-gefur-kost-a-ser-i-oddvitasaeti-framsoknar-a-akureyri/",
+        "https://www.kaffid.is/meirihlutinn-skiladi-audu-i-stefnumorkun-atvinnumala/",
+        "https://kaffid.is/sporum-okkur-ekki-til-obota/",
+        "https://www.vikubladid.is/is/frettir/framtidarsyn-i-fraedslu-og-dagvistarmalum-a-akureyri",
+        "https://www.visir.is/g/20222257242d"
+      ]
+    },
+    {
+      "id": "AKU.C.1",
+      "muni_slug": "akureyri",
+      "muni_label": "Akureyri",
+      "party_code": "C",
+      "ballot": 1,
+      "name": "Lovísa Oktavía Eyvindsdóttir",
+      "occupation": "Stjórnmálafræðingur og varaþingmaður",
+      "news_count": 7,
+      "news_urls": [
+        "https://www.mbl.is/frettir/innlent/2026/02/23/lovisa_leidir_lista_vidreisnar/",
+        "https://www.ruv.is/frettir/innlent/2026-02-24-lovisa-oktovia-leidir-lista-vidreisnar-a-akureyri-467768",
+        "https://www.mbl.is/frettir/innlent/2026/01/19/vill_leida_lista_vidreisnar_a_akureyri/",
+        "https://www.vikubladid.is/is/moya/news/lovisa-oktovia-leidir-lista-vidreisnar-a-akureyri",
+        "https://www.kaffid.is/lovisa-oktovia-leidir-lista-vidreisnar-a-akureyri/",
+        "https://www.vikubladid.is/is/moya/news/bornin-okkar-kalla-hver-er-ad-hlusta-1",
+        "https://www.kaffid.is/fyrir-hvad-a-akureyri-ad-standa/"
+      ]
+    },
+    {
+      "id": "AKU.L.1",
+      "muni_slug": "akureyri",
+      "muni_label": "Akureyri",
+      "party_code": "L",
+      "ballot": 1,
+      "name": "Óðinn Svan Óðinsson",
+      "occupation": "Fjölmiðlamaður, fyrrverandi RÚV blaðamaður",
+      "news_count": 6,
+      "news_urls": [
+        "https://www.mbl.is/frettir/innlent/2026/02/13/haettur_a_ruv_og_heldur_i_baejarpolitikina/",
+        "https://www.kaffid.is/af-ruv-yfir-i-baejarpolitikina/",
+        "https://www.ruv.is/frettir/innlent/2026-03-13-listi-l-listans-akvedinn-469773",
+        "https://www.visir.is/g/20262843231d/odinn-svan-leidir-l-listann",
+        "https://www.akureyri.net/is/frettir/odinn-svan-verdur-i-efsta-saeti-l-listans",
+        "https://www.visir.is/g/20262866820d/thau-skipa-l-listann-a-akureyri"
+      ]
+    },
+    {
+      "id": "AKU.M.1",
+      "muni_slug": "akureyri",
+      "muni_label": "Akureyri",
+      "party_code": "M",
+      "ballot": 1,
+      "name": "Hlynur Jóhannsson",
+      "occupation": "Bæjarfulltrúi og íþróttakennari",
+      "news_count": 5,
+      "news_urls": [
+        "https://kaffid.is/hlynur-leidir-midflokkinn-a-akureyri-afram/",
+        "https://www.akureyri.net/is/frettir/hlynur-afram-efstur-hja-midflokknum",
+        "https://kaffid.is/oddvitaspjall-hlynur-johannsson/",
+        "https://www.vikubladid.is/is/moya/news/hlynur-johannsson-baejarfulltrui-leidir-lista-midflokksins-a-akureyri",
+        "https://www.mbl.is/frettir/kosning/2018/05/06/hlynur_leidir_midflokkinn_a_akureyri/"
+      ]
+    },
+    {
+      "id": "AKU.S.1",
+      "muni_slug": "akureyri",
+      "muni_label": "Akureyri",
+      "party_code": "S",
+      "ballot": 1,
+      "name": "Sindri S. Kristjánsson",
+      "occupation": "Skrifstofustjóri",
+      "news_count": 5,
+      "news_urls": [
+        "https://www.mbl.is/frettir/innlent/2026/03/14/sindri_nyr_oddviti_samfylkingingarinnar_a_akureyri/",
+        "https://www.ruv.is/frettir/innlent/2026-03-14-nyr-oddviti-hja-samfylkingunni-a-akureyri-469825",
+        "https://www.vikubladid.is/is/moya/news/sindri-s-kristjansson-er-oddviti-samfylkingarinnar-a-akureyri-fyrir-komandi-sveitarstjornarkosninga-i-vor",
+        "https://www.visir.is/g/20262872428d/sterkari-saman",
+        "https://kaffid.is/hvad-aetlar-akureyri-ad-verda-thegar-hun-verdur-stor/"
+      ]
+    },
+    {
+      "id": "AKU.V.1",
+      "muni_slug": "akureyri",
+      "muni_label": "Akureyri",
+      "party_code": "V",
+      "ballot": 1,
+      "name": "Jana Salóme Ingibjargar Jósepsdóttir",
+      "occupation": "Bæjarfulltrúi",
+      "news_count": 7,
+      "news_urls": [
+        "https://www.vikubladid.is/is/moya/news/jana-salome-ingibjargar-josepsdottir-leidir-lista-vg-a-akureyri-i-komandi-sveitarstjornarkosningum",
+        "https://kaffid.is/oddvitaspjall-jana-salome-ingibjargar-josepsdottir/",
+        "https://www.dv.is/eyjan/2022/01/10/jana-salome-gefur-kost-ser-til-ad-leida-vg-fyrir-nordan/",
+        "https://www.visir.is/g/20232391233d",
+        "https://www.mbl.is/frettir/innlent/2022/01/10/jana_vill_1_saeti_vg_a_akureyri/",
+        "https://kaffid.is/sjokviaeldi-vid-eyjafjord/",
+        "https://www.kaffid.is/frambodslisti-vg-samthykktur-a-akureyri/"
+      ]
+    },
+    {
+      "id": "AKU.AL.1",
+      "muni_slug": "akureyri",
+      "muni_label": "Akureyri",
+      "party_code": "AL",
+      "ballot": 1,
+      "name": "Þórhallur Jónsson",
+      "occupation": "Framkvæmdastjóri og varabæjarfulltrúi",
+      "news_count": 7,
+      "news_urls": [
+        "https://www.ruv.is/frettir/innlent/2026-03-27-thorhallur-leidir-akureyrarlistann-471175",
+        "https://www.kaffid.is/thorhallur-teflir-fram-nyjum-lista/",
+        "https://www.mbl.is/frettir/innlent/2026/01/29/thorhallur_fer_fram_i_1_saeti_og_krefst_profkjors/",
+        "https://www.vikubladid.is/is/moya/news/thorhallur-jonsson-saekist-eftir-fyrst-saeti-hja-sjalfstaedismonnum-og-vill-profkjor-1",
+        "https://www.akureyri.net/is/moya/news/thorhallur-jonsson-fer-i-serframbod",
+        "https://www.akureyri.net/is/frettir/otaekt-ad-breyta-adferd-vid-val-a-listann",
+        "https://www.akureyri.net/is/moya/news/thorhallur-karen-og-helgi-steinar"
+      ]
+    },
+    {
+      "id": "MOS.D.1",
+      "muni_slug": "mosfellsbaer",
+      "muni_label": "Mosfellsbær",
+      "party_code": "D",
+      "ballot": 1,
+      "name": "Hilmar Gunnarsson",
+      "occupation": "Ritstjóri",
+      "news_count": 9,
+      "news_urls": [
+        "https://www.mbl.is/frettir/innlent/2025/11/27/hilmar_vill_leida_lista_sjalfstaedismanna/",
+        "https://www.mbl.is/frettir/innlent/2025/10/11/hefur_haldid_i_sveitabraginn_i_20_ar/",
+        "https://www.dv.is/eyjan/2025/11/27/ritstjorinn-saekist-eftir-fyrsta-saeti-mosfellsbae/",
+        "https://www.ruv.is/frettir/innlent/2026-01-31-hilmar-nyr-oddviti-sjalfstaedisflokksins-i-mosfellsbae-465791",
+        "https://mosfellingur.is/hilmar-nyr-oddviti-med-92/",
+        "https://www.mbl.is/frettir/innlent/2026/02/27/svona_stillir_sjalfstaedisflokkurinn_upp_i_mosfells/",
+        "https://www.visir.is/g/20262849308d/-nu-verdur-fjor-hja-sjalf-staedis-monnum-sem-kynna-lista-i-moso",
+        "https://mosfellingur.is/50-fyrirheit/",
+        "https://www.visir.is/g/20262866350d/fyrsta-pallbord-fyrir-kosningarnar-i-mai-mosfellsbaer-a-svidid"
+      ]
+    },
+    {
+      "id": "MOS.B.1",
+      "muni_slug": "mosfellsbaer",
+      "muni_label": "Mosfellsbær",
+      "party_code": "B",
+      "ballot": 1,
+      "name": "Sævar Birgisson",
+      "occupation": "Viðskiptahagfræðingur og bæjarfulltrúi",
+      "news_count": 6,
+      "news_urls": [
+        "https://mosfellingur.is/heilbrigt-og-fjolskylduvaent-samfelag/",
+        "https://en.wikipedia.org/wiki/S%C3%A6var_Birgisson",
+        "https://www.ski.is/is/um-ski/frettir/saevar-birgisson-leggur-skidin-a-hilluna",
+        "https://www.mbl.is/sport/frettir/2014/04/03/veronika_og_saevar_unnu_fyrstu_greinina_a_skidaland/",
+        "https://www.visir.is/g/20262866350d/fyrsta-pallbord-fyrir-kosningarnar-i-mai-mosfellsbaer-a-svidid",
+        "https://mosfellingur.is/blikastadaland-bilastaedi-og-asynd-i-satt-vid-umhverfid/"
+      ]
+    },
+    {
+      "id": "MOS.C.1",
+      "muni_slug": "mosfellsbaer",
+      "muni_label": "Mosfellsbær",
+      "party_code": "C",
+      "ballot": 1,
+      "name": "Gylfi Þór Þorsteinsson",
+      "occupation": "Sviðsstjóri hjá Rauða krossinum",
+      "news_count": 9,
+      "news_urls": [
+        "https://www.mbl.is/frettir/innlent/2026/02/28/gylfi_thor_leidir_vidreisn_i_mosfellsbae/",
+        "https://www.ruv.is/frettir/innlent/2026-02-28-gylfi-thor-er-oddviti-vidreisnar-i-mosfellsbae-468235",
+        "https://www.visir.is/g/20262849464d/gylfi-thor-leidir-vidreisn-i-mosfellsbae",
+        "https://mosfellingur.is/gylfi-thor-er-nyr-oddviti-vidreisnar/",
+        "https://www.mbl.is/frettir/innlent/2022/03/07/gylfi_thor_adgerdastjori_yfir_mottoku_ukrainumanna/",
+        "https://www.mbl.is/frettir/innlent/2024/04/26/gylfi_thor_radinn_i_samhaefingu_vegna_grindavikur/",
+        "https://www.ruv.is/frettir/innlent/2024-04-26-gylfi-thor-leidir-samhaefingu-fyrir-grindavik-411344",
+        "https://gamla.mannlif.is/frettir/gylfi-thor-stod-vaktina-i-covid-faraldrinum-eg-var-a-vakt-allan-solarhringinn-thessi-tvo-ar/",
+        "https://gamla.mannlif.is/frettir/innlent/gylfi-thor-verndari-covid-sjuklinganna-kominn-med-veiruna-lidanin-er-drulluslaem/"
+      ]
+    },
+    {
+      "id": "MOS.M.1",
+      "muni_slug": "mosfellsbaer",
+      "muni_label": "Mosfellsbær",
+      "party_code": "M",
+      "ballot": 1,
+      "name": "Sveinn Óskar Sigurðsson",
+      "occupation": "Viðskipta- og hagfræðingur",
+      "news_count": 9,
+      "news_urls": [
+        "https://www.ruv.is/frettir/innlent/2026-04-04-sveinn-oskar-oddviti-midflokksins-i-mosfellsbae-471687",
+        "https://www.mbl.is/frettir/innlent/2026/04/05/kalla_eftir_breytingum_i_mosfellsbae/",
+        "https://www.mbl.is/frettir/innlent/2025/11/21/sveinn_oskar_afram_oddviti_midflokksins/",
+        "https://www.mbl.is/frettir/kosning/2022/04/05/sveinn_oskar_leidir_midflokkinn_i_mosfellsbae/",
+        "https://www.mbl.is/frettir/innlent/2024/10/23/sveinn_oskar_vill_verda_oddviti_hja_midflokknum/",
+        "https://www.mbl.is/frettir/innlent/2020/01/10/sakar_heradsdomara_um_ad_hafa_slegid_sig_sem_barn/",
+        "https://mosfellingur.is/fjarmal-a-veikum-grunni-og-framurkeyrsla/",
+        "https://mosfellingur.is/mikilvaegt-ad-hlusta-a-folkid-i-baenum/",
+        "https://mosfellingur.is/thad-er-af-morgu-ad-taka/"
+      ]
+    },
+    {
+      "id": "MOS.S.1",
+      "muni_slug": "mosfellsbaer",
+      "muni_label": "Mosfellsbær",
+      "party_code": "S",
+      "ballot": 1,
+      "name": "Ólafur Ingi Óskarsson",
+      "occupation": "Netverkfræðingur og formaður velferðarnefndar",
+      "news_count": 5,
+      "news_urls": [
+        "https://www.ruv.is/frettir/innlent/2026-03-09-nyr-oddviti-leidir-samfylkinguna-i-mosfellsbae-469367",
+        "https://www.visir.is/g/20262866446d/karlabyltingin-hefst-i-mosfellsbae",
+        "https://www.visir.is/g/20262866350d/fyrsta-pallbord-fyrir-kosningarnar-i-mai-mosfellsbaer-a-svidid",
+        "https://kosningasaga.wordpress.com/2026/03/09/frambodslisti-samfylkingarinnar-i-mosfellsbae/",
+        "https://mosfellingur.is/mikid-tilhlokkunarefni/"
+      ]
+    },
+    {
+      "id": "MOS.L.1",
+      "muni_slug": "mosfellsbaer",
+      "muni_label": "Mosfellsbær",
+      "party_code": "L",
+      "ballot": 1,
+      "name": "Árni Jónsson",
+      "occupation": "Framkvæmdastjóri",
+      "news_count": 0,
+      "news_urls": []
+    },
+    {
+      "id": "ARB.B.1",
+      "muni_slug": "arborg",
+      "muni_label": "Árborg",
+      "party_code": "B",
+      "ballot": 1,
+      "name": "Matthías Bjarnason",
+      "occupation": "Tæknimaður",
+      "news_count": 2,
+      "news_urls": [
+        "https://www.sunnlenska.is/frettir/listi-framsoknar-i-arborg-samthykktur/",
+        "https://www.sunnlenska.is/adsent/horfum-til-framtidar-i-arborg/"
+      ]
+    },
+    {
+      "id": "ARB.C.1",
+      "muni_slug": "arborg",
+      "muni_label": "Árborg",
+      "party_code": "C",
+      "ballot": 1,
+      "name": "Heiðrún Kristmundsdóttir",
+      "occupation": "Verkefnastjóri",
+      "news_count": 3,
+      "news_urls": [
+        "https://www.mbl.is/frettir/innlent/2026/03/22/heidrun_leidir_fyrsta_lista_vidreisnar_i_arborg/",
+        "https://www.ruv.is/frettir/innlent/2026-03-22-listi-vidreisnar-i-arborg-stadfestur-470564",
+        "https://www.visir.is/g/20262867181d/gagnsaei-i-akvardanatoku"
+      ]
+    },
+    {
+      "id": "ARB.D.1",
+      "muni_slug": "arborg",
+      "muni_label": "Árborg",
+      "party_code": "D",
+      "ballot": 1,
+      "name": "Bragi Bjarnason",
+      "occupation": "Bæjarstjóri",
+      "news_count": 4,
+      "news_urls": [
+        "https://www.mbl.is/frettir/innlent/2026/01/15/bragi_saekist_eftir_oddvitasaeti_a_ny/",
+        "https://www.mbl.is/frettir/innlent/2026/02/23/listi_sjalfstaedismanna_i_arborg_samthykktur/",
+        "https://www.dv.is/frettir/2026/04/07/sveitarfelagid-arborg-skrad-sem-greidandi-politiskra-auglysinga-baejarstjorans-rong-skraning-segir-bragi/",
+        "https://www.mbl.is/frettir/innlent/2024/05/23/nyr_meirihluti_myndadur_bragi_verdur_baejarstjori/"
+      ]
+    },
+    {
+      "id": "ARB.S.1",
+      "muni_slug": "arborg",
+      "muni_label": "Árborg",
+      "party_code": "S",
+      "ballot": 1,
+      "name": "Sigurjón Vídalín Guðmundsson",
+      "occupation": "Sérfræðingur hjá Vegagerðinni og bæjarfulltrúi",
+      "news_count": 2,
+      "news_urls": [
+        "https://www.visir.is/g/20262854491d/nyr-listi-sam-fylkingarinnar-i-ar-borg-kynntur",
+        "https://www.dfs.is/frettir/frambodslisti-samfylkingar-og-ohadra-i-arborg-samthykktur/"
+      ]
+    },
+    {
+      "id": "AKR.B.1",
+      "muni_slug": "akranes",
+      "muni_label": "Akranes",
+      "party_code": "B",
+      "ballot": 1,
+      "name": "Ragnar Baldvin Sæmundsson",
+      "occupation": "Bæjarfulltrúi",
+      "news_count": 1,
+      "news_urls": [
+        "https://www.ruv.is/frettir/innlent/2026-04-22-oddvitaumraedur-a-akranesi-473426"
+      ]
+    },
+    {
+      "id": "AKR.C.1",
+      "muni_slug": "akranes",
+      "muni_label": "Akranes",
+      "party_code": "C",
+      "ballot": 1,
+      "name": "Jón Guðni Guðmundsson",
+      "occupation": "Burðarþolssérfræðingur og brúahönnuður",
+      "news_count": 2,
+      "news_urls": [
+        "https://www.visir.is/g/20262865133d/vid-reisn-bydur-fram-sinn-fyrsta-lista-a-akra-nesi",
+        "https://www.ruv.is/frettir/innlent/2026-04-22-oddvitaumraedur-a-akranesi-473426"
+      ]
+    },
+    {
+      "id": "AKR.D.1",
+      "muni_slug": "akranes",
+      "muni_label": "Akranes",
+      "party_code": "D",
+      "ballot": 1,
+      "name": "Líf Lárusdóttir",
+      "occupation": "Verkefnastjóri og bæjarfulltrúi",
+      "news_count": 2,
+      "news_urls": [
+        "https://xd.is/2026/02/27/lif-leidir-afram-frambod-sjalfstaedisflokksins-a-akranesi/",
+        "https://www.ruv.is/frettir/innlent/2026-04-22-oddvitaumraedur-a-akranesi-473426"
+      ]
+    },
+    {
+      "id": "AKR.M.1",
+      "muni_slug": "akranes",
+      "muni_label": "Akranes",
+      "party_code": "M",
+      "ballot": 1,
+      "name": "Hrafn Ágúst Björnsson",
+      "occupation": "Öryggisráðgjafi",
+      "news_count": 2,
+      "news_urls": [
+        "https://skessuhorn.is/2026/04/14/midflokkurinn-bydur-i-fyrsta-sinn-fram-a-akranesi",
+        "https://www.ruv.is/frettir/innlent/2026-04-22-oddvitaumraedur-a-akranesi-473426"
+      ]
+    },
+    {
+      "id": "AKR.S.1",
+      "muni_slug": "akranes",
+      "muni_label": "Akranes",
+      "party_code": "S",
+      "ballot": 1,
+      "name": "Sigurður Vopni Vatnsdal",
+      "occupation": "Ráðgjafi hjá Sjóvá á Akranesi",
+      "news_count": 4,
+      "news_urls": [
+        "https://kratinn.is/2026/03/26/sigurdur-vopni-leidir-samfylkinguna-a-akranesi/",
+        "https://www.visir.is/g/20262860588d/hvers-vegna-flutti-eg-a-akranes-",
+        "https://www.visir.is/g/20262872236d/bornin-i-fyrsta-saeti",
+        "https://www.ruv.is/frettir/innlent/2026-04-22-oddvitaumraedur-a-akranesi-473426"
+      ]
+    },
+    {
+      "id": "MUL.B.1",
+      "muni_slug": "mulathing",
+      "muni_label": "Múlaþing",
+      "party_code": "B",
+      "ballot": 1,
+      "name": "Jónína Brynjólfsdóttir",
+      "occupation": "Safnstjóri og forseti sveitarstjórnar",
+      "news_count": 2,
+      "news_urls": [
+        "https://www.mbl.is/frettir/innlent/2025/12/18/jonina_mun_leida_lista_framsoknar_i_mulathingi/",
+        "https://austurfrett.is/umraedan/vidh-stoendum-voerdh-um-mulathing"
+      ]
+    },
+    {
+      "id": "MUL.D.1",
+      "muni_slug": "mulathing",
+      "muni_label": "Múlaþing",
+      "party_code": "D",
+      "ballot": 1,
+      "name": "Berglind Harpa Svavarsdóttir",
+      "occupation": "Hjúkrunarfræðingur og formaður byggðaráðs",
+      "news_count": 2,
+      "news_urls": [
+        "https://xd.is/2026/02/28/berglind-harpa-afram-oddviti-i-mulathingi-thorhildur-katrin-i-2-saeti/",
+        "https://austurfrett.is/frettir/berglind-harpa-bydhur-sig-fram-til-adh-leidha-sjalfstaedhisflokkinn-afram"
+      ]
+    },
+    {
+      "id": "MUL.M.1",
+      "muni_slug": "mulathing",
+      "muni_label": "Múlaþing",
+      "party_code": "M",
+      "ballot": 1,
+      "name": "Lárus Bjarnason",
+      "occupation": "Lögfræðingur og fyrrverandi sýslumaður",
+      "news_count": 2,
+      "news_urls": [
+        "https://www.ruv.is/frettir/innlent/2026-04-08-larus-efstur-hja-midflokknum-i-mulathingi-472169",
+        "https://austurfrett.is/frettir/fyrrum-syslumadhur-leidhir-midhflokkinn-i-mulathingi"
+      ]
+    },
+    {
+      "id": "MUL.V.1",
+      "muni_slug": "mulathing",
+      "muni_label": "Múlaþing",
+      "party_code": "V",
+      "ballot": 1,
+      "name": "Ásrún Mjöll Stefánsdóttir",
+      "occupation": "Sveitarstjórnarfulltrúi og húsasmiður",
+      "news_count": 2,
+      "news_urls": [
+        "https://kosningasaga.wordpress.com/2026/03/27/frambodslisti-vg-og-ohadra-i-mulathingi/",
+        "https://austurfrett.is/frettir/asrun-mjoell-nyr-oddviti-vg-i-mulathingi"
+      ]
+    },
+    {
+      "id": "MUL.L.1",
+      "muni_slug": "mulathing",
+      "muni_label": "Múlaþing",
+      "party_code": "L",
+      "ballot": 1,
+      "name": "Hólmfríður Rut Einarsdóttir",
+      "occupation": "Samskiptasérfræðingur",
+      "news_count": 2,
+      "news_urls": [
+        "https://www.ruv.is/frettir/innlent/2026-03-04-holmfridur-rut-oddviti-vidreisnar-i-mulathingi-468712",
+        "https://kosningasaga.wordpress.com/2026/03/28/austurlistinn-og-vidreisn-i-mulathingi-sameinast/"
+      ]
+    },
+    {
+      "id": "FJA.B.1",
+      "muni_slug": "fjardabyggd",
+      "muni_label": "Fjarðabyggð",
+      "party_code": "B",
+      "ballot": 1,
+      "name": "Þuríður Lillý Sigurðardóttir",
+      "occupation": "Bóndi og bæjarfulltrúi",
+      "news_count": 2,
+      "news_urls": [
+        "https://www.mbl.is/frettir/innlent/2026/01/20/saekist_eftir_oddvitasaeti/",
+        "https://kosningasaga.wordpress.com/2026/03/13/frambodslisti-framsoknar-i-fjardabyggd/"
+      ]
+    },
+    {
+      "id": "FJA.D.1",
+      "muni_slug": "fjardabyggd",
+      "muni_label": "Fjarðabyggð",
+      "party_code": "D",
+      "ballot": 1,
+      "name": "Ragnar Sigurðsson",
+      "occupation": "Framkvæmdastjóri og formaður bæjarráðs",
+      "news_count": 5,
+      "news_urls": [
+        "https://www.ruv.is/frettir/innlent/2026-02-21-ragnar-sjalfkjorinn-oddviti-sjalfstaedismanna-i-fjardabyggd-467615",
+        "https://www.mbl.is/frettir/innlent/2026/02/14/ragnar_afram_oddviti/",
+        "https://www.visir.is/g/20262864094d/fjarfestum-i-verdmaetaskopun",
+        "https://www.mbl.is/frettir/innlent/2023/03/16/stjornsysla_fjardabyggdar_tekin_ut/",
+        "https://www.mbl.is/frettir/innlent/2026/04/13/fjardabyggd_bregst_vid_verdbolgu_med_laekkun_gjalds/"
+      ]
+    },
+    {
+      "id": "FJA.M.1",
+      "muni_slug": "fjardabyggd",
+      "muni_label": "Fjarðabyggð",
+      "party_code": "M",
+      "ballot": 1,
+      "name": "Hrafn Bjarnason",
+      "occupation": "Gæða- og verkefnastjóri hjá Egersund Island",
+      "news_count": 1,
+      "news_urls": [
+        "https://austurfrett.is/frettir/frambodhslisti-midhflokksins-i-fjardhabyggdh-kynntur"
+      ]
+    },
+    {
+      "id": "FJA.S.1",
+      "muni_slug": "fjardabyggd",
+      "muni_label": "Fjarðabyggð",
+      "party_code": "S",
+      "ballot": 1,
+      "name": "Stefán Þór Eysteinsson",
+      "occupation": "Deildarstjóri hjá Matís ohf.",
+      "news_count": 3,
+      "news_urls": [
+        "https://www.visir.is/g/20262872627d/jofnudur-abyrgd-og-uppbygging",
+        "https://www.visir.is/g/20262869705d/vidsnuningur-i-rekstri-hver-borgar-",
+        "https://www.ruv.is/frettir/innlent/2026-02-28-fjardalistinn-bydur-ekki-fram-i-fjardabyggd-468252"
+      ]
+    },
+    {
+      "id": "SEL.D.1",
+      "muni_slug": "seltjarnarnes",
+      "muni_label": "Seltjarnarnes",
+      "party_code": "D",
+      "ballot": 1,
+      "name": "Þór Sigurgeirsson",
+      "occupation": "Bæjarstjóri",
+      "news_count": 6,
+      "news_urls": [
+        "https://www.mbl.is/frettir/innlent/2026/02/07/thor_oddviti_a_seltjarnarnesi/",
+        "https://www.ruv.is/frettir/innlent/2026-02-07-thor-sigurgeirsson-endurkjorinn-oddviti-sjalfstaedisflokksins-a-seltjarnarnesi-466441",
+        "https://www.mbl.is/frettir/innlent/2026/03/03/svona_er_listi_sjalfstaedismanna_a_seltjarnarnesi/",
+        "https://www.visir.is/g/20262842656d/baejar-stjorinn-einn-a-moti-staekkun-frid-lysingar-grottu-og-seltjarnar",
+        "https://www.mbl.is/frettir/innlent/2025/05/30/seltjarnarnes_og_gardabaer_laekka_alagningu/",
+        "https://www.mbl.is/frettir/innlent/2025/12/13/aaetlunin_syni_vidsnuning/"
+      ]
+    },
+    {
+      "id": "SEL.M.1",
+      "muni_slug": "seltjarnarnes",
+      "muni_label": "Seltjarnarnes",
+      "party_code": "M",
+      "ballot": 1,
+      "name": "Skafti Harðarson",
+      "occupation": "Framkvæmdastjóri",
+      "news_count": 2,
+      "news_urls": [
+        "https://www.ruv.is/frettir/innlent/2026-04-09-skafti-fyrsti-oddviti-midflokksins-a-seltjarnarnesi-472317",
+        "https://www.dv.is/eyjan/2018/05/09/skafti-fer-fyrir-nyju-frambodi-seltjarnarnesi/"
+      ]
+    },
+    {
+      "id": "SEL.SCS.1",
+      "muni_slug": "seltjarnarnes",
+      "muni_label": "Seltjarnarnes",
+      "party_code": "SCS",
+      "ballot": 1,
+      "name": "Kristinn Ólafsson",
+      "occupation": "Framkvæmdastjóri",
+      "news_count": 4,
+      "news_urls": [
+        "https://www.mbl.is/frettir/innlent/2026/03/08/kristinn_leidir_sameiginlegt_frambod_a_nesinu/",
+        "https://www.dv.is/eyjan/2026/03/08/kristinn-baejarstjoraefni-samfylkingar-vidreisnar-og-ohadra-seltjarnarnesi/",
+        "https://www.dv.is/frettir/2026/3/30/ottast-ad-seltjarnarnes-missi-fjarhagslegt-sjalfstaedi-taeplega-thrir-milljardar-hafa-tapast-aratug-og-skuldir-fjorfaldast/",
+        "https://www.visir.is/g/20262862597d/fjar-hags-legt-sjalf-staedi-sel-tjarnar-ness-i-haettu"
+      ]
+    },
+    {
+      "id": "VES.D.1",
+      "muni_slug": "vestmannaeyjar",
+      "muni_label": "Vestmannaeyjar",
+      "party_code": "D",
+      "ballot": 1,
+      "name": "Eyþór Harðarson",
+      "occupation": "Útgerðarstjóri hjá Ísfélag hf.",
+      "news_count": 4,
+      "news_urls": [
+        "https://www.mbl.is/frettir/innlent/2026/02/21/eythor_gefur_aftur_kost_a_ser_i_oddvitasaetid/",
+        "https://xd.is/2026/03/31/frambodslisti-sjalfstaedisflokksins-i-vestmannaeyjum/",
+        "https://www.visir.is/g/20262869486d/skjalfti-vegna-irisar-innan-sjalfstaedisflokksins-i-eyjum",
+        "https://eyjafrettir.is/vatnslognin-er-staersta-hagsmunamal-ibua-i-eyjum/"
+      ]
+    },
+    {
+      "id": "VES.E.1",
+      "muni_slug": "vestmannaeyjar",
+      "muni_label": "Vestmannaeyjar",
+      "party_code": "E",
+      "ballot": 1,
+      "name": "Arndís María Kjartansdóttir",
+      "occupation": "Kennari og löggildur fasteigna- og skipasali",
+      "news_count": 1,
+      "news_urls": [
+        "https://eyjafrettir.is/spurt-og-svarad-arndis-maria-fra-eyjalistanum/"
+      ]
+    },
+    {
+      "id": "VES.M.1",
+      "muni_slug": "vestmannaeyjar",
+      "muni_label": "Vestmannaeyjar",
+      "party_code": "M",
+      "ballot": 1,
+      "name": "Jón Þór Guðjónsson",
+      "occupation": "Starfsmaður tölvudeildar Vestmannaeyjabæjar",
+      "news_count": 3,
+      "news_urls": [
+        "https://eyjafrettir.is/spurt-og-svarad-jon-thor-fra-midflokknum/",
+        "https://eyjafrettir.is/stadfestur-kerfisbrestur-hver-ber-abyrgd/",
+        "https://www.visir.is/g/20262838162d/midflokkurinn-bydur-fram-i-vestmannaeyjum"
+      ]
+    },
+    {
+      "id": "SKA.B.1",
+      "muni_slug": "skagafjordur",
+      "muni_label": "Skagafjörður",
+      "party_code": "B",
+      "ballot": 1,
+      "name": "Einar Eðvald Einarsson",
+      "occupation": "Framkvæmdarstjóri og forseti sveitarstjórnar",
+      "news_count": 1,
+      "news_urls": [
+        "https://kosningasaga.wordpress.com/2026/03/05/frambodslisti-framsoknar-i-skagafirdi-2/"
+      ]
+    },
+    {
+      "id": "SKA.D.1",
+      "muni_slug": "skagafjordur",
+      "muni_label": "Skagafjörður",
+      "party_code": "D",
+      "ballot": 1,
+      "name": "Magnús Barðdal",
+      "occupation": "Lögfræðingur",
+      "news_count": 1,
+      "news_urls": [
+        "https://xd.is/2026/03/17/fullskipadur-frambodslisti-i-skagafirdi/"
+      ]
+    },
+    {
+      "id": "SKA.SFL.1",
+      "muni_slug": "skagafjordur",
+      "muni_label": "Skagafjörður",
+      "party_code": "SFL",
+      "ballot": 1,
+      "name": "Eyþór Fannar Sveinsson",
+      "occupation": "Byggingaverkfræðingur",
+      "news_count": 1,
+      "news_urls": [
+        "https://www.feykir.is/is/frettir/horfumst-i-augu-vid-stadreyndir-eythor-fannar-sveinsson-skrifar"
+      ]
+    },
+    {
+      "id": "SKA.M.1",
+      "muni_slug": "skagafjordur",
+      "muni_label": "Skagafjörður",
+      "party_code": "M",
+      "ballot": 1,
+      "name": "Högni Elfar Gylfason",
+      "occupation": "Bóndi og vélfræðingur",
+      "news_count": 1,
+      "news_urls": [
+        "https://www.feykir.is/is/frettir/timar-og-taekifaeri-i-skagafirdi-hogni-elfar-gylfason-skrifar"
+      ]
+    },
+    {
+      "id": "SUD.B.1",
+      "muni_slug": "sudurnesjabaer",
+      "muni_label": "Suðurnesjabær",
+      "party_code": "B",
+      "ballot": 1,
+      "name": "Anton Kristinn Guðmundsson",
+      "occupation": "Stjórnunarfræðingur og bæjarfulltrúi",
+      "news_count": 2,
+      "news_urls": [
+        "https://www.visir.is/g/20242614877d/framsoknarflokkurinn-tryggir-heilbrigdisthjonustu-i-sudurnesjabae",
+        "https://www.visir.is/g/20262872778d/arangur-a-vakt-framsoknar-i-sudurnesjabae"
+      ]
+    },
+    {
+      "id": "SUD.D.1",
+      "muni_slug": "sudurnesjabaer",
+      "muni_label": "Suðurnesjabær",
+      "party_code": "D",
+      "ballot": 1,
+      "name": "Haukur Andreasson",
+      "occupation": "Lögfræðingur og fasteignasali hjá Allt fasteignir",
+      "news_count": 2,
+      "news_urls": [
+        "https://www.vf.is/frettir/d-listinn-i-sudurnesjabae-kynnir-frambodslista-sinn-fyrir-kosningar",
+        "https://www.vf.is/frettir/hvar-bua-thau-sem-aetla-ad-gaeta-hagsmuna-ibua-i-sudurnesjabae"
+      ]
+    },
+    {
+      "id": "SUD.M.1",
+      "muni_slug": "sudurnesjabaer",
+      "muni_label": "Suðurnesjabær",
+      "party_code": "M",
+      "ballot": 1,
+      "name": "Daði Bergþórsson",
+      "occupation": "Frambjóðandi",
+      "news_count": 1,
+      "news_urls": [
+        "https://www.mbl.is/frettir/innlent/2026/04/13/listi_midflokksins_ologmaetur_svaesin_nidurstada/"
+      ]
+    },
+    {
+      "id": "SUD.S.1",
+      "muni_slug": "sudurnesjabaer",
+      "muni_label": "Suðurnesjabær",
+      "party_code": "S",
+      "ballot": 1,
+      "name": "Svavar Grétarsson",
+      "occupation": "Flotastjóri",
+      "news_count": 1,
+      "news_urls": [
+        "https://www.vf.is/frettir/hvar-bua-thau-sem-aetla-ad-gaeta-hagsmuna-ibua-i-sudurnesjabae"
+      ]
+    },
+    {
+      "id": "BOR.B.1",
+      "muni_slug": "borgarbyggd",
+      "muni_label": "Borgarbyggð",
+      "party_code": "B",
+      "ballot": 1,
+      "name": "Davíð Sigurðsson",
+      "occupation": "Formaður byggðarráðs og bóndi",
+      "news_count": 2,
+      "news_urls": [
+        "https://skessuhorn.is/2026/03/08/david-mun-leida-lista-framsoknar-i-borgarbyggd",
+        "https://kosningasaga.wordpress.com/2026/04/02/frambodslisti-framsoknar-i-borgarbyggd/"
+      ]
+    },
+    {
+      "id": "BOR.D.1",
+      "muni_slug": "borgarbyggd",
+      "muni_label": "Borgarbyggð",
+      "party_code": "D",
+      "ballot": 1,
+      "name": "Sigurður Guðmundsson",
+      "occupation": "Fjármálastjóri og bæjarfulltrúi",
+      "news_count": 2,
+      "news_urls": [
+        "https://xd.is/2026/04/08/frambodslisti-sjalfstaedisflokksins-i-borgarbyggd-samthykktur/",
+        "https://www.visir.is/g/20262868322d/uxahryggir-og-kaldidalur-lykill-ad-oflugri-borgarbyggd-og-betri-ferdathjonustu-a-islandi"
+      ]
+    },
+    {
+      "id": "BOR.M.1",
+      "muni_slug": "borgarbyggd",
+      "muni_label": "Borgarbyggð",
+      "party_code": "M",
+      "ballot": 1,
+      "name": "Haukur Þór Hauksson",
+      "occupation": "Viðskiptahagfræðingur",
+      "news_count": 2,
+      "news_urls": [
+        "https://www.visir.is/g/20262864285d/yfirgaf-sjalfstaedisflokkinn-og-leidir-midflokkinn-i-borgarbyggd",
+        "https://skessuhorn.is/2026/04/11/midflokkurinn-kynnti-frambodslista-sinn-i-borgarbyggd"
+      ]
+    },
+    {
+      "id": "BOR.A.1",
+      "muni_slug": "borgarbyggd",
+      "muni_label": "Borgarbyggð",
+      "party_code": "A",
+      "ballot": 1,
+      "name": "Jovana Pavlović",
+      "occupation": "Frambjóðandi",
+      "news_count": 0,
+      "news_urls": []
+    },
+    {
+      "id": "ISA.B.1",
+      "muni_slug": "isafjordur",
+      "muni_label": "Ísafjarðarbær",
+      "party_code": "B",
+      "ballot": 1,
+      "name": "Kristján Þór Kristjánsson",
+      "occupation": "Hótelstjóri",
+      "news_count": 2,
+      "news_urls": [
+        "https://framsokn.is/nyjast/frettir/listi-framsoknar-framsoknar-i-isafjardarbae-samthykktur/",
+        "https://www.mbl.is/frettir/innlent/2025/03/04/skellur_fyrir_allt_samfelagid/"
+      ]
+    },
+    {
+      "id": "ISA.C.1",
+      "muni_slug": "isafjordur",
+      "muni_label": "Ísafjarðarbær",
+      "party_code": "C",
+      "ballot": 1,
+      "name": "Gylfi Ólafsson",
+      "occupation": "Heilsuhagfræðingur og formaður bæjarráðs",
+      "news_count": 4,
+      "news_urls": [
+        "https://www.ruv.is/frettir/innlent/2026-01-28-gylfi-gefur-afram-kost-a-ser-en-oljost-um-framtid-i-listans-465369",
+        "https://bb.is/2026/02/isafjardarbaer-vidreisn-bydur-fram-undir-eigin-merkjum/",
+        "https://bb.is/2026/02/vidreisn-med-opinn-fund-um-lagareldi/",
+        "https://www.ruv.is/frettir/innlent/2022-03-29-gylfi-olafsson-leidir-i-listann-a-isafirdi"
+      ]
+    },
+    {
+      "id": "ISA.D.1",
+      "muni_slug": "isafjordur",
+      "muni_label": "Ísafjarðarbær",
+      "party_code": "D",
+      "ballot": 1,
+      "name": "Jónas Þór Birgisson",
+      "occupation": "Lyfjafræðingur",
+      "news_count": 3,
+      "news_urls": [
+        "https://bb.is/2026/02/isafjardarbaer-jonas-thor-i-efsta-saeti/",
+        "https://bb.is/2026/03/vikuvidtalid-jonas-thor-birgisson/",
+        "https://www.visir.is/g/20262868198d/fyrir-folkid"
+      ]
+    },
+    {
+      "id": "ISA.M.1",
+      "muni_slug": "isafjordur",
+      "muni_label": "Ísafjarðarbær",
+      "party_code": "M",
+      "ballot": 1,
+      "name": "Sævar Óli Hjörvarsson",
+      "occupation": "Smiður",
+      "news_count": 2,
+      "news_urls": [
+        "https://bb.is/2026/04/isafjardarbaer-saevar-oli-efstur-a-lista-midflokksins/",
+        "https://bb.is/2026/04/midflokkurinn-isafjardarbae-aherslur/"
+      ]
+    },
+    {
+      "id": "ISA.S.1",
+      "muni_slug": "isafjordur",
+      "muni_label": "Ísafjarðarbær",
+      "party_code": "S",
+      "ballot": 1,
+      "name": "Svanfríður Guðrún Bergvinsdóttir",
+      "occupation": "Viðskiptafræðinemi og formaður ASÍ-UNG",
+      "news_count": 4,
+      "news_urls": [
+        "https://bb.is/2026/04/samfylkingin-oddvitinn-i-isafjardarbae-af-lista/",
+        "https://bb.is/2026/04/samfylkingin-naudsynlegt-ad-tryggja-skyra-stefnu-og-stodugleika/",
+        "https://www.visir.is/g/20262864548d/odd-vita-sparkad-af-listanum-og-segir-af-ser-for-mennsku",
+        "https://www.ruv.is/frettir/innlent/2026-03-03-frambodslisti-samfylkingarinnar-i-isafjardarbae-samthykktur-468502"
+      ]
+    },
+    {
+      "id": "HVE.OKH.1",
+      "muni_slug": "hveragerdi",
+      "muni_label": "Hveragerði",
+      "party_code": "OKH",
+      "ballot": 1,
+      "name": "Lárus Jónsson",
+      "occupation": "Körfuboltaþjálfari og íþróttafræðingur",
+      "news_count": 2,
+      "news_urls": [
+        "https://www.sunnlenska.is/frettir/larus-nyr-oddviti-okkar-hveragerdis/",
+        "https://kosningasaga.wordpress.com/2026/03/22/larus-jonsson-leidir-okkar-hveragerdi/"
+      ]
+    },
+    {
+      "id": "HVE.B.1",
+      "muni_slug": "hveragerdi",
+      "muni_label": "Hveragerði",
+      "party_code": "B",
+      "ballot": 1,
+      "name": "Marta Rut Ólafsdóttir",
+      "occupation": "Ferlaverkfræðingur og þróunarstjóri viðskipta",
+      "news_count": 2,
+      "news_urls": [
+        "https://www.sunnlenska.is/frettir/marta-leidir-b-listann-i-hveragerdi/",
+        "https://kosningasaga.wordpress.com/2026/03/19/frambodslisti-framsoknar-i-hveragerdi-2/"
+      ]
+    },
+    {
+      "id": "HVE.S.1",
+      "muni_slug": "hveragerdi",
+      "muni_label": "Hveragerði",
+      "party_code": "S",
+      "ballot": 1,
+      "name": "Birgitta Ragnarsdóttir",
+      "occupation": "Tollamiðlari",
+      "news_count": 1,
+      "news_urls": [
+        "https://www.sunnlenska.is/frettir/birgitta-leidir-s-listann-i-hveragerdi/"
+      ]
+    },
+    {
+      "id": "HVE.D.1",
+      "muni_slug": "hveragerdi",
+      "muni_label": "Hveragerði",
+      "party_code": "D",
+      "ballot": 1,
+      "name": "Ingimar Guðmundsson",
+      "occupation": "Sérfræðingur hjá Sambandi íslenskra sveitarfélaga",
+      "news_count": 2,
+      "news_urls": [
+        "https://www.sunnlenska.is/frettir/ingimar-nyr-oddviti-d-listans-i-hveragerdi/",
+        "https://xd.is/2026/03/04/frambodslisti-sjalfstaedisflokksins-i-hveragerdi/"
+      ]
+    },
+    {
+      "id": "NOR.B.1",
+      "muni_slug": "nordurping",
+      "muni_label": "Norðurþing",
+      "party_code": "B",
+      "ballot": 1,
+      "name": "Eysteinn Heiðar Kristjánsson",
+      "occupation": "Verkefnastjóri sjúkraflutninga HSN",
+      "news_count": 2,
+      "news_urls": [
+        "https://www.vikubladid.is/is/frettir/b-listi-framsoknarflokks-i-nordurthingi-samthykktur-a-fjolmennum-fundi",
+        "https://kosningasaga.wordpress.com/2026/02/28/fjogur-efstu-hja-framsokn-i-nordurthingi/"
+      ]
+    }
+  ]
+}

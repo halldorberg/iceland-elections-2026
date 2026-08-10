@@ -1,0 +1,211 @@
+{
+  "scope": "bios scan 2026-05-01 — ballot 1-6 with has_extended=true, sorted by ballot then population",
+  "agent_label": "C",
+  "slice": [
+    40,
+    60
+  ],
+  "count": 20,
+  "missing_bios": [
+    {
+      "id": "VOG.VOL.2",
+      "muni_slug": "vogar",
+      "muni_label": "Vogar",
+      "party_code": "VOL",
+      "ballot": 2,
+      "name": "Eðvarð Atli Bjarnason",
+      "occupation": "Sölustjóri",
+      "has_extended": true
+    },
+    {
+      "id": "HUN.HBA.2",
+      "muni_slug": "hunabyggd",
+      "muni_label": "Húnabyggð",
+      "party_code": "HBA",
+      "ballot": 2,
+      "name": "Sara Björk Þorsteinsdóttir",
+      "occupation": "Frambjóðandi",
+      "has_extended": true
+    },
+    {
+      "id": "HUN.B.2",
+      "muni_slug": "hunabyggd",
+      "muni_label": "Húnabyggð",
+      "party_code": "B",
+      "ballot": 2,
+      "name": "Jenný Lind Gunnarsdóttir",
+      "occupation": "Frambjóðandi",
+      "has_extended": true
+    },
+    {
+      "id": "HUN.D.2",
+      "muni_slug": "hunabyggd",
+      "muni_label": "Húnabyggð",
+      "party_code": "D",
+      "ballot": 2,
+      "name": "Zophonías Ari Lárusson",
+      "occupation": "Framkvæmdastjóri og húsasmíðameistari",
+      "has_extended": true
+    },
+    {
+      "id": "HUN.B.2",
+      "muni_slug": "hunathing",
+      "muni_label": "Húnavatnshreppur",
+      "party_code": "B",
+      "ballot": 2,
+      "name": "Nína Axelsdóttir",
+      "occupation": "Tónlistarkennari og bóndi",
+      "has_extended": true
+    },
+    {
+      "id": "HUN.D.2",
+      "muni_slug": "hunathing",
+      "muni_label": "Húnavatnshreppur",
+      "party_code": "D",
+      "ballot": 2,
+      "name": "Sigríður Ólafsdóttir",
+      "occupation": "Bóndi, ráðgjafi og sveitarstjórnarfulltrúi",
+      "has_extended": true
+    },
+    {
+      "id": "HUN.NHV.2",
+      "muni_slug": "hunathing",
+      "muni_label": "Húnavatnshreppur",
+      "party_code": "NHV",
+      "ballot": 2,
+      "name": "Magnús Vignir Eðvaldsson",
+      "occupation": "Bæjarfulltrúi og kennari",
+      "has_extended": true
+    },
+    {
+      "id": "HOR.D.2",
+      "muni_slug": "horgarsv",
+      "muni_label": "Hörgársveit",
+      "party_code": "D",
+      "ballot": 2,
+      "name": "Katrín Olsen Björnsdóttir",
+      "occupation": "Hjúkrunarfræðingur",
+      "has_extended": true
+    },
+    {
+      "id": "HOR.HGH.2",
+      "muni_slug": "horgarsv",
+      "muni_label": "Hörgársveit",
+      "party_code": "HGH",
+      "ballot": 2,
+      "name": "Ásta Hafberg",
+      "occupation": "Sölu- og markaðsstjóri",
+      "has_extended": true
+    },
+    {
+      "id": "HRU.D.2",
+      "muni_slug": "hrunamannahreppur",
+      "muni_label": "Hrunamannahreppur",
+      "party_code": "D",
+      "ballot": 2,
+      "name": "Bjarney Vignisdóttir",
+      "occupation": "Hjúkrunarfræðingur",
+      "has_extended": true
+    },
+    {
+      "id": "HRU.HRL.2",
+      "muni_slug": "hrunamannahreppur",
+      "muni_label": "Hrunamannahreppur",
+      "party_code": "HRL",
+      "ballot": 2,
+      "name": "Rakel Ósk Kristófersdóttir",
+      "occupation": "Verslunarstjóri",
+      "has_extended": true
+    },
+    {
+      "id": "SKE.SGE.2",
+      "muni_slug": "skeidagnup",
+      "muni_label": "Skeiða- og Gnúpverjahreppur",
+      "party_code": "SGE",
+      "ballot": 2,
+      "name": "Ingibjörg Sæunn Jónsdóttir",
+      "occupation": "Líffræðingur",
+      "has_extended": true
+    },
+    {
+      "id": "SKE.SGL.2",
+      "muni_slug": "skeidagnup",
+      "muni_label": "Skeiða- og Gnúpverjahreppur",
+      "party_code": "SGL",
+      "ballot": 2,
+      "name": "Vilborg M. Ástráðsdóttir",
+      "occupation": "Listakennari",
+      "has_extended": true
+    },
+    {
+      "id": "SKA.D.2",
+      "muni_slug": "skaftarhreppur",
+      "muni_label": "Skaftárhreppur",
+      "party_code": "D",
+      "ballot": 2,
+      "name": "Sigurður Árnason",
+      "occupation": "Stálsmiður og rekstraraðili",
+      "has_extended": true
+    },
+    {
+      "id": "SKA.SKO.2",
+      "muni_slug": "skaftarhreppur",
+      "muni_label": "Skaftárhreppur",
+      "party_code": "SKO",
+      "ballot": 2,
+      "name": "Auður Guðbjörnsdóttir",
+      "occupation": "Bóndi og skólabílstjóri",
+      "has_extended": true
+    },
+    {
+      "id": "KOP.B.3",
+      "muni_slug": "kopavogur",
+      "muni_label": "Kópavogur",
+      "party_code": "B",
+      "ballot": 3,
+      "name": "Gunnar Sær Ragnarsson",
+      "occupation": "Lögfræðingur",
+      "has_extended": true
+    },
+    {
+      "id": "HAF.B.3",
+      "muni_slug": "hafnarfjordur",
+      "muni_label": "Hafnarfjörður",
+      "party_code": "B",
+      "ballot": 3,
+      "name": "Árni Rúnar Árnason",
+      "occupation": "Tæknistjóri",
+      "has_extended": true
+    },
+    {
+      "id": "HAF.C.3",
+      "muni_slug": "hafnarfjordur",
+      "muni_label": "Hafnarfjörður",
+      "party_code": "C",
+      "ballot": 3,
+      "name": "Hjördís Hlíðberg",
+      "occupation": "Verkefnastjóri",
+      "has_extended": true
+    },
+    {
+      "id": "HOR.B.3",
+      "muni_slug": "hornafjordur",
+      "muni_label": "Hornafjarðarsveit",
+      "party_code": "B",
+      "ballot": 3,
+      "name": "Björgvin Óskar Sigurjónsson",
+      "occupation": "Byggingatæknifræðingur og bæjarfulltrúi",
+      "has_extended": true
+    },
+    {
+      "id": "HOR.D.3",
+      "muni_slug": "hornafjordur",
+      "muni_label": "Hornafjarðarsveit",
+      "party_code": "D",
+      "ballot": 3,
+      "name": "Ásta Steinunn Eiríksdóttir",
+      "occupation": "Hagfræðingur",
+      "has_extended": true
+    }
+  ]
+}

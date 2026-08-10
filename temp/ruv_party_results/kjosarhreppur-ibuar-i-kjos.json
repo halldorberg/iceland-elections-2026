@@ -1,0 +1,15 @@
+{
+  "slug": "kjosarhreppur-ibuar-i-kjos",
+  "name": "Íbúar í Kjós",
+  "color": "#9BC2E6",
+  "answersString": "",
+  "abbreviation": "A",
+  "runningInConstituencies": [
+    {
+      "id": "1606",
+      "__typename": "Constituency"
+    }
+  ],
+  "answers": [],
+  "__typename": "Party"
+}

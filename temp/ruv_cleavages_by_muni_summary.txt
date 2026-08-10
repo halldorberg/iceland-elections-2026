@@ -1,0 +1,655 @@
+═══ AKRANES  (5 parties)  ═══
+  parties: Framsókn og frjálsir, Miðflokkur, Samfylkingin, Sjálfstæðisflokkur, Viðreisn
+
+  CLEAVAGES (4):
+    [std 0.82, 2↓ vs 1↑]  Snúa ætti Akranesvelli og byggja hótel, baðlón og heilsulind á Jaðarsbakkasvæðinu.
+    [std 0.80, 1↓ vs 4↑]  Sveitarfélagið mitt ætti að bjóða heimgreiðslur til foreldra til að auðvelda þeim að vera heima með börnum frá því að fæðingarorlofi lýkur og fram að leikskólavist.
+    [std 0.75, 3↓ vs 2↑]  Snjómokstur og götusópun er fullnægjandi í mínu sveitarfélagi.
+    [std 0.75, 3↓ vs 2↑]  Sveitarfélög hafa gengið of langt í að skikka íbúa til að flokka sorp.
+
+  PRIORITY divergence (Jaccard avg): 0.60
+
+═══ AKUREYRI  (8 parties)  ═══
+  parties: Akureyrarlistinn, Bæjarlisti Akureyrar, Framsóknarflokkur, Miðflokkur, Samfylkingin, Sjálfstæðisflokkur, Viðreisn, Vinstrihreyfingin - grænt framboð
+
+  CLEAVAGES (10):
+    [std 1.32, 3↓ vs 5↑]  Sveitarfélagið mitt ætti að bjóða heimgreiðslur til foreldra til að auðvelda þeim að vera heima með börnum frá því að fæðingarorlofi lýkur og fram að leikskólavist.
+    [std 1.05, 3↓ vs 5↑]  Hvetja ætti foreldra til að stytta vistunartíma leikskólabarna gegn afslætti af gjöldum.
+    [std 0.97, 5↓ vs 3↑]  Sveitarfélagið ætti að beita sér fyrir frekari útvistun verkefna sinna við rekstur leik- og grunnskóla
+    [std 0.93, 4↓ vs 4↑]  Þegar skipulögð er byggð í sveitarfélaginu ætti frekar að leggja áherslu á ný hverfi en þéttingu byggðar.
+    [std 0.93, 4↓ vs 4↑]  Sveitarfélögum ætti að vera skylt að lögum að sjá börnum fyrir leikskólavist frá tólf mánaða aldri.
+    [std 0.93, 3↓ vs 5↑]  Loka ætti göngugötunni í miðbæ Akureyrar alfarið fyrir bílaumferð.
+    [std 0.83, 4↓ vs 4↑]  Verja ætti meira fé til að styðja menningarlíf í sveitarfélaginu.
+    [std 0.83, 4↓ vs 4↑]  Sveitarfélagið ætti að greiða leið nýrra fyrirtækja sem vilja hefja starfsemi á svæðinu, með fjárhagslegum ívilnunum
+    [std 0.78, 3↓ vs 5↑]  Sveitarstjórnin ætti að beita sér fyrir því að hætt verði að innheimta innviðagjald af skemmtiferðaskipum.
+    [std 0.71, 7↓ vs 1↑]  Fækka ætti skemmtaferðaskipum sem leggjast að höfn í sveitarfélaginu.
+
+  PRIORITY divergence (Jaccard avg): 0.75
+
+═══ ARNESHREPPUR  (2 parties)  ═══
+  parties: Framtíð Árneshrepps, Sólstöður
+
+  CLEAVAGES (1):
+    [std 1.00, 1↓ vs 1↑]  Sveitarfélagið ætti að beita sér fyrir frekari útvistun verkefna sinna við rekstur leik- og grunnskóla
+
+  PRIORITY divergence (Jaccard avg): 0.50
+
+═══ BLASKOGABYGGD  (2 parties)  ═══
+  parties: T-listinn, Þ-listinn
+
+  CLEAVAGES (5):
+    [std 1.50, 1↓ vs 1↑]  Sveitarstjórnin hefði getað gert meira til að koma í veg fyrir að Heilsugæsla Uppsveita yrði flutt frá Laugarási yfir á Flúðir.
+    [std 1.00, 1↓ vs 1↑]  Sameina ætti Hrunamannahrepp og Bláskógabyggð.
+    [std 1.00, 1↓ vs 1↑]  Sveitarfélög ættu að greiða eldri borgurum frístundastyrk.
+    [std 1.00, 1↓ vs 1↑]  Sveitarfélagið ætti að beita sér fyrir frekari útvistun verkefna sinna við rekstur leik- og grunnskóla
+    [std 1.00, 1↓ vs 1↑]  Sveitarfélagið ætti að greiða leið nýrra fyrirtækja sem vilja hefja starfsemi á svæðinu, með fjárhagslegum ívilnunum
+
+  PRIORITY divergence (Jaccard avg): 0.80
+
+═══ BOLUNGARVIK  (2 parties)  ═══
+  parties: Betri Bolungarvík, Máttur meyja og manna
+
+  CLEAVAGES (2):
+    [std 1.50, 1↓ vs 1↑]  Ég er ánægð/ur með þá þjónustu sem sveitarfélagið veitir mér.
+    [std 1.00, 1↓ vs 1↑]  Lengja ætti opnunartíma sundlauga, þótt það kosti sveitarfélög fé.
+
+  PRIORITY divergence (Jaccard avg): 0.80
+
+═══ BORGARBYGGD  (4 parties)  ═══
+  parties: Borgarbyggðarlistinn, Framsóknarflokkur, Miðflokkur, Sjálfstæðisflokkur
+
+  CLEAVAGES (6):
+    [std 0.94, 1↓ vs 2↑]  Færa ætti Hringveginn út úr Borgarnesi þannig að hann liggi með fram nesinu.
+    [std 0.83, 1↓ vs 3↑]  Tryggja þarf græn svæði, aðgengi íbúa og náttúruvernd við ákvarðanir um uppbyggingu í Brákarey.
+    [std 0.83, 2↓ vs 2↑]  Sveitarfélögum ætti að vera skylt að lögum að sjá börnum fyrir leikskólavist frá tólf mánaða aldri.
+    [std 0.83, 2↓ vs 2↑]  Sveitarfélagið þarf að auka fjárhagsaðstoð við þá íbúa sem lifa undir fátæktarmörkum.
+    [std 0.83, 3↓ vs 1↑]  Sveitarfélög hafa gengið of langt í að skikka íbúa til að flokka sorp.
+    [std 0.82, 1↓ vs 2↑]  Snjómokstur og götusópun er fullnægjandi í mínu sveitarfélagi.
+
+  PRIORITY divergence (Jaccard avg): 0.90
+
+═══ DALVIKURBYGGD  (4 parties)  ═══
+  parties: Byggðalistinn, Framsóknarflokkur, K-listi Dalvíkurbyggðar, Sjálfstæðisflokkur
+
+  CLEAVAGES (5):
+    [std 0.87, 1↓ vs 3↑]  Sveitarstjórn þarf að stemma stigu við óvarlegri notkun ungmenna á rafhlaupahjólum á Dalvík.
+    [std 0.87, 1↓ vs 3↑]  Fjölga ætti íbúakosningum svo að almenningur geti tekið meiri þátt í ákvörðunum í sveitarfélaginu.
+    [std 0.83, 2↓ vs 2↑]  Hvetja ætti foreldra til að stytta vistunartíma leikskólabarna gegn afslætti af gjöldum.
+    [std 0.82, 1↓ vs 2↑]  Sveitarfélagið á að greiða götu fiskeldis á Árskógssandi.
+    [std 0.71, 1↓ vs 3↑]  Sveitarfélagið mitt ætti að bjóða heimgreiðslur til foreldra til að auðvelda þeim að vera heima með börnum frá því að fæðingarorlofi lýkur og fram að leikskólavist.
+
+  PRIORITY divergence (Jaccard avg): 0.78
+
+═══ EYJAFJARDARSVEIT  (2 parties)  ═══
+  parties: F-listinn, K-listinn
+
+  CLEAVAGES (1):
+    [std 1.00, 1↓ vs 1↑]  Hvetja ætti foreldra til að stytta vistunartíma leikskólabarna gegn afslætti af gjöldum.
+
+  PRIORITY divergence (Jaccard avg): 0.50
+
+═══ FJALLABYGGD  (3 parties)  ═══
+  parties: Fyrir heildina, Jafnaðarmannafélag Fjallabyggðar og óháðir, Sjálfstæðisflokkur
+
+  CLEAVAGES (7):
+    [std 0.94, 2↓ vs 1↑]  Sveitarfélagið ætti að beita sér fyrir frekari útvistun verkefna sinna við rekstur leik- og grunnskóla
+    [std 0.82, 2↓ vs 1↑]  Sveitarfélög ættu að greiða eldri borgurum frístundastyrk.
+    [std 0.82, 1↓ vs 2↑]  Sveitarfélögum ætti að vera skylt að lögum að sjá börnum fyrir leikskólavist frá tólf mánaða aldri.
+    [std 0.82, 1↓ vs 2↑]  Sveitarfélagið ætti að niðurgreiða íþrótta- og tómstundaiðkun barna meira en nú er gert.
+    [std 0.82, 2↓ vs 1↑]  Snjómokstur og götusópun er fullnægjandi í mínu sveitarfélagi.
+    [std 0.82, 1↓ vs 2↑]  Lengja ætti opnunartíma sundlauga, þótt það kosti sveitarfélög fé.
+    [std 0.82, 2↓ vs 1↑]  Sveitarfélög hafa gengið of langt í að skikka íbúa til að flokka sorp.
+
+  PRIORITY divergence (Jaccard avg): 0.50
+
+═══ FJARDABYGGD  (4 parties)  ═══
+  parties: Framsóknarflokkur, Miðflokkur, Samfylkingin og annað félagshyggjufólk, Sjálfstæðisflokkur
+
+  CLEAVAGES (7):
+    [std 1.30, 2↓ vs 2↑]  Sveitarfélagið mitt ætti að bjóða heimgreiðslur til foreldra til að auðvelda þeim að vera heima með börnum frá því að fæðingarorlofi lýkur og fram að leikskólavist.
+    [std 0.83, 2↓ vs 2↑]  Sveitarfélög ættu að greiða eldri borgurum frístundastyrk.
+    [std 0.83, 2↓ vs 2↑]  Fjölga ætti íbúakosningum svo að almenningur geti tekið meiri þátt í ákvörðunum í sveitarfélaginu.
+    [std 0.83, 2↓ vs 2↑]  Sveitarfélagið ætti að beita sér fyrir frekari útvistun verkefna sinna við rekstur leik- og grunnskóla
+    [std 0.83, 2↓ vs 2↑]  Sveitarfélög hafa gengið of langt í að skikka íbúa til að flokka sorp.
+    [std 0.83, 2↓ vs 2↑]  Skera á niður í stjórnsýslu Fjarðabyggðar til að bæta fjárhagsstöðu sveitarfélagsins.
+    [std 0.83, 2↓ vs 2↑]  Breyting á gjaldskrá leikskóla í sveitarfélaginu hefur heppnast vel.
+
+  PRIORITY divergence (Jaccard avg): 0.85
+
+═══ FLOAHREPPUR  (2 parties)  ═══
+  parties: Framfaralistinn, T-listinn
+
+  CLEAVAGES (5):
+    [std 1.50, 1↓ vs 1↑]  Sveitarstjórn ætti beita sér fyrir því að kjötmjölsverksmiðjan fari úr sveitarfélaginu.
+    [std 1.00, 1↓ vs 1↑]  Stefna ætti að því að koma upp þéttbýliskjarna við Þingborg og hafa miðstöð þjónustu sveitarfélagsins þar.
+    [std 1.00, 1↓ vs 1↑]  Ég er ánægð/ur með þá þjónustu sem sveitarfélagið veitir mér.
+    [std 1.00, 1↓ vs 1↑]  Sveitarfélögum ætti að vera skylt að lögum að sjá börnum fyrir leikskólavist frá tólf mánaða aldri.
+    [std 1.00, 1↓ vs 1↑]  Snjómokstur og götusópun er fullnægjandi í mínu sveitarfélagi.
+
+  PRIORITY divergence (Jaccard avg): 0.50
+
+═══ GARDABAER  (6 parties)  ═══
+  parties: Framsóknarflokkur, Garðabæjarlistinn, Miðflokkur, Samfylkingin, Sjálfstæðisflokkur, Viðreisn
+
+  CLEAVAGES (9):
+    [std 1.17, 2↓ vs 3↑]  Sveitarfélögum ætti að vera skylt að lögum að sjá börnum fyrir leikskólavist frá tólf mánaða aldri.
+    [std 1.10, 1↓ vs 4↑]  Sveitarfélagið þarf að auka fjárhagsaðstoð við þá íbúa sem lifa undir fátæktarmörkum.
+    [std 1.07, 2↓ vs 4↑]  Ljúka á við Borgarlínu í þeirri mynd sem núverandi áform gera ráð fyrir.
+    [std 1.00, 1↓ vs 5↑]  Sveitarfélagið mitt ætti að bjóða heimgreiðslur til foreldra til að auðvelda þeim að vera heima með börnum frá því að fæðingarorlofi lýkur og fram að leikskólavist.
+    [std 1.00, 5↓ vs 1↑]  Það eru of margir einkabílar í umferðinni.
+    [std 0.98, 2↓ vs 3↑]  Fjölga ætti íbúakosningum svo að almenningur geti tekið meiri þátt í ákvörðunum í sveitarfélaginu.
+    [std 0.75, 1↓ vs 5↑]  Sveitarfélög ættu að greiða eldri borgurum frístundastyrk.
+    [std 0.75, 3↓ vs 3↑]  Snjómokstur og götusópun er fullnægjandi í mínu sveitarfélagi.
+    [std 0.75, 1↓ vs 5↑]  Sveitarfélagið á að taka þátt í svokölluðum samgöngusáttmála höfuðborgarsvæðisins.
+
+  PRIORITY divergence (Jaccard avg): 0.75
+
+═══ GRIMSNES-OG-GRAFNINGSHREPPUR  (2 parties)  ═══
+  parties: Betri sveit - fyrir okkur öll, Framboðslisti um öflugt samfélag í vaxandi sv.f.
+
+  CLEAVAGES (5):
+    [std 1.50, 1↓ vs 1↑]  Ég er ánægð/ur með þá þjónustu sem sveitarfélagið veitir mér.
+    [std 1.00, 1↓ vs 1↑]  Fólk ætti að geta skráð lögheimili sitt í sveitarfélaginu þótt það búi í orlofshúsabyggð.
+    [std 1.00, 1↓ vs 1↑]  Sveitarfélög ættu að greiða eldri borgurum frístundastyrk.
+    [std 1.00, 1↓ vs 1↑]  Verja ætti meira fé til að styðja menningarlíf í sveitarfélaginu.
+    [std 1.00, 1↓ vs 1↑]  Sveitarfélagið ætti að greiða leið nýrra fyrirtækja sem vilja hefja starfsemi á svæðinu, með fjárhagslegum ívilnunum
+
+  PRIORITY divergence (Jaccard avg): 0.80
+
+═══ GRINDAVIK  (3 parties)  ═══
+  parties: Framsóknarflokkur, Miðflokkur, Sjálfstæðisflokkur
+
+  CLEAVAGES (4):
+    [std 1.25, 2↓ vs 1↑]  Sveitarfélög hafa gengið of langt í að skikka íbúa til að flokka sorp.
+    [std 0.94, 1↓ vs 2↑]  Sveitarfélagið ætti að niðurgreiða íþrótta- og tómstundaiðkun barna meira en nú er gert.
+    [std 0.94, 1↓ vs 2↑]  Sveitarfélagið ætti að greiða leið nýrra fyrirtækja sem vilja hefja starfsemi á svæðinu, með fjárhagslegum ívilnunum
+    [std 0.82, 1↓ vs 2↑]  Sveitarfélagið ætti að beita sér fyrir frekari útvistun verkefna sinna við rekstur leik- og grunnskóla
+
+  PRIORITY divergence (Jaccard avg): 0.77
+
+═══ GRUNDARFJARDARBAER  (2 parties)  ═══
+  parties: Framsókn og félagshyggjufólk, Sjálfstæðisflokkur og óháðir
+
+  CLEAVAGES (1):
+    [std 1.00, 1↓ vs 1↑]  Sveitarfélög hafa gengið of langt í að skikka íbúa til að flokka sorp.
+
+  PRIORITY divergence (Jaccard avg): 0.80
+
+═══ HAFNARFJORDUR  (6 parties)  ═══
+  parties: Framsóknarflokkur, Miðflokkur, Samfylkingin, Sjálfstæðisflokkur, Viðreisn, Vinstrið
+
+  CLEAVAGES (10):
+    [std 0.94, 4↓ vs 2↑]  Ég er ánægð/ur með þá þjónustu sem sveitarfélagið veitir mér.
+    [std 0.94, 4↓ vs 2↑]  Sveitarfélög hafa gengið of langt í að skikka íbúa til að flokka sorp.
+    [std 0.90, 4↓ vs 2↑]  Það er hægt að byggja þéttar í Hafnarfirði og því ónauðsynlegt að færa út vaxtarmörk höfuðborgarsvæðisins að sinni.
+    [std 0.76, 4↓ vs 2↑]  Snjómokstur og götusópun er fullnægjandi í mínu sveitarfélagi.
+    [std 0.75, 1↓ vs 5↑]  Sveitarfélagið mitt ætti að bjóða heimgreiðslur til foreldra til að auðvelda þeim að vera heima með börnum frá því að fæðingarorlofi lýkur og fram að leikskólavist.
+    [std 0.75, 5↓ vs 1↑]  Sveitarfélagið ætti að beita sér fyrir frekari útvistun verkefna sinna við rekstur leik- og grunnskóla
+    [std 0.75, 1↓ vs 4↑]  Sveitarfélagið þarf að auka fjárhagsaðstoð við þá íbúa sem lifa undir fátæktarmörkum.
+    [std 0.75, 3↓ vs 3↑]  Ljúka á við Borgarlínu í þeirri mynd sem núverandi áform gera ráð fyrir.
+    [std 0.75, 5↓ vs 1↑]  Fækka á akreinum fyrir almenna bílaumferð til að búa til pláss fyrir sérakreinar fyrir strætó.
+    [std 0.75, 4↓ vs 1↑]  Það er rétt að takmarka aðgengi almennings að útivistarsvæðinu í Heiðmörk í þágu vatnsverndar.
+
+  PRIORITY divergence (Jaccard avg): 0.65
+
+═══ HORGARSVEIT  (3 parties)  ═══
+  parties: Gróska, H-listi Hörgársveitar, Sjálfstæðismenn og óháðir
+
+  CLEAVAGES (3):
+    [std 0.94, 1↓ vs 2↑]  Friða ætti Eyjafjörð fyrir sjókvíaeldi.
+    [std 0.94, 1↓ vs 2↑]  Snjómokstur og götusópun er fullnægjandi í mínu sveitarfélagi.
+    [std 0.82, 2↓ vs 1↑]  Sveitarfélög hafa gengið of langt í að skikka íbúa til að flokka sorp.
+
+  PRIORITY divergence (Jaccard avg): 0.53
+
+═══ HRUNAMANNAHREPPUR  (2 parties)  ═══
+  parties: L-listinn, Sjálfstæðismenn og óháðir
+
+  CLEAVAGES (2):
+    [std 1.00, 1↓ vs 1↑]  Snjómokstur og götusópun er fullnægjandi í mínu sveitarfélagi.
+    [std 1.00, 1↓ vs 1↑]  Lengja ætti opnunartíma sundlauga, þótt það kosti sveitarfélög fé.
+
+  PRIORITY divergence (Jaccard avg): 0.50
+
+═══ HUNABYGGD  (3 parties)  ═══
+  parties: Framsókn og aðrir framfarasinnar, Sjálfstæðismenn og óháðir, Öll saman
+
+  CLEAVAGES (7):
+    [std 1.00, 1↓ vs 1↑]  Sveitarfélagið mitt ætti að bjóða heimgreiðslur til foreldra til að auðvelda þeim að vera heima með börnum frá því að fæðingarorlofi lýkur og fram að leikskólavist.
+    [std 0.94, 2↓ vs 1↑]  Sameina ætti Skagaströnd og Húnabyggð.
+    [std 0.82, 1↓ vs 2↑]  Hitaveita Blönduóss og Skagastrandar á að vera í eigu sveitarfélaganna.
+    [std 0.82, 1↓ vs 2↑]  Hitaveita Skagastrandar og Blönduóss á að vera í eigu sveitarfélaganna.
+    [std 0.82, 2↓ vs 1↑]  Leyfa ætti efnistöku úr árfarvegum í sveitarfélaginu til að flýta fyrir framkvæmdum við Blöndulínu 3.
+    [std 0.82, 1↓ vs 2↑]  Hvetja ætti foreldra til að stytta vistunartíma leikskólabarna gegn afslætti af gjöldum.
+    [std 0.82, 1↓ vs 2↑]  Snjómokstur og götusópun er fullnægjandi í mínu sveitarfélagi.
+
+  PRIORITY divergence (Jaccard avg): 0.77
+
+═══ HUNATHING-VESTRA  (3 parties)  ═══
+  parties: Framsókn og aðrir framfarasinnar, Nýtt afl, Sjálfstæðismenn og óháðir
+
+  CLEAVAGES (4):
+    [std 1.00, 1↓ vs 1↑]  Sveitarfélagið mitt ætti að bjóða heimgreiðslur til foreldra til að auðvelda þeim að vera heima með börnum frá því að fæðingarorlofi lýkur og fram að leikskólavist.
+    [std 0.82, 1↓ vs 2↑]  Sveitarfélagið hefur staðið sig vel í að þrýsta á um vegbætur á Vatnsnesi.
+    [std 0.82, 1↓ vs 2↑]  Hvetja ætti foreldra til að stytta vistunartíma leikskólabarna gegn afslætti af gjöldum.
+    [std 0.82, 1↓ vs 2↑]  Lengja ætti opnunartíma sundlauga, þótt það kosti sveitarfélög fé.
+
+  PRIORITY divergence (Jaccard avg): 0.70
+
+═══ HVALFJARDARSVEIT  (2 parties)  ═══
+  parties: Íbúahreyfingin, Samhent sveit
+
+  CLEAVAGES (1):
+    [std 1.00, 1↓ vs 1↑]  Fjölga ætti íbúakosningum svo að almenningur geti tekið meiri þátt í ákvörðunum í sveitarfélaginu.
+
+  PRIORITY divergence (Jaccard avg): 0.80
+
+═══ HVERAGERDI  (4 parties)  ═══
+  parties: Framsóknarflokkur, Okkar Hveragerði, Samfylkingin og óflokksbundin, Sjálfstæðisflokkur
+
+  CLEAVAGES (9):
+    [std 1.22, 1↓ vs 3↑]  Vel hefur tekist til í húsnæðismálum leikskóla í bænum.
+    [std 1.09, 1↓ vs 3↑]  Áform um uppbyggingu íþróttamannvirkja í Hveragerðisbæ eru vel heppnuð.
+    [std 0.94, 2↓ vs 1↑]  Sveitarfélög ættu að greiða eldri borgurum frístundastyrk.
+    [std 0.83, 3↓ vs 1↑]  Uppbygging í þágu ferðamanna í sveitarfélaginu hefur verið á kostnað heimamanna.
+    [std 0.83, 1↓ vs 3↑]  Sameina ætti Ölfus og Hveragerði.
+    [std 0.83, 2↓ vs 2↑]  Þegar skipulögð er byggð í sveitarfélaginu ætti frekar að leggja áherslu á ný hverfi en þéttingu byggðar.
+    [std 0.83, 1↓ vs 3↑]  Sveitarfélagið ætti að greiða leið nýrra fyrirtækja sem vilja hefja starfsemi á svæðinu, með fjárhagslegum ívilnunum
+    [std 0.82, 2↓ vs 1↑]  Hvetja ætti foreldra til að stytta vistunartíma leikskólabarna gegn afslætti af gjöldum.
+    [std 0.71, 1↓ vs 3↑]  Það er forgangsmál að greiða niður skuldir Hveragerðisbæjar, þó að það kunni að koma niður á þjónustu.
+
+  PRIORITY divergence (Jaccard avg): 0.70
+
+═══ INGEYJARSVEIT  (3 parties)  ═══
+  parties: Á listi Ábyrgðar, L listi Framfara, N listinn
+
+  CLEAVAGES (5):
+    [std 0.94, 2↓ vs 1↑]  Sveitarfélagið ætti að beita sér fyrir frekari útvistun verkefna sinna við rekstur leik- og grunnskóla
+    [std 0.94, 1↓ vs 2↑]  Sveitarfélagið ætti að greiða leið nýrra fyrirtækja sem vilja hefja starfsemi á svæðinu, með fjárhagslegum ívilnunum
+    [std 0.82, 2↓ vs 1↑]  Uppbygging í þágu ferðamanna í sveitarfélaginu hefur verið á kostnað heimamanna.
+    [std 0.82, 2↓ vs 1↑]  Það er of dýrt að halda úti leikskóladeild á Laugum.
+    [std 0.82, 1↓ vs 2↑]  Lengja ætti opnunartíma sundlauga, þótt það kosti sveitarfélög fé.
+
+  PRIORITY divergence (Jaccard avg): 0.77
+
+═══ ISAFJARDARBAER  (5 parties)  ═══
+  parties: Framsóknarflokkur og óháðir, Miðflokkur, Samfylkingin, Sjálfstæðisflokkur, Viðreisn
+
+  CLEAVAGES (12):
+    [std 1.09, 1↓ vs 3↑]  Sveitarfélögum ætti að vera skylt að lögum að sjá börnum fyrir leikskólavist frá tólf mánaða aldri.
+    [std 0.87, 1↓ vs 3↑]  Sveitarfélög ættu að greiða eldri borgurum frístundastyrk.
+    [std 0.83, 2↓ vs 2↑]  Stefna ætti að sameiningu allra sveitarfélaga á Vestfjörðum.
+    [std 0.82, 1↓ vs 2↑]  Fyrirhuguð framkvæmd við Eyrarkláf á Ísafirði er vel staðsett og mun verða til heilla fyrir bæjarfélagið.
+    [std 0.80, 1↓ vs 4↑]  Ég er ánægð/ur með þá þjónustu sem sveitarfélagið veitir mér.
+    [std 0.80, 4↓ vs 1↑]  Þegar skipulögð er byggð í sveitarfélaginu ætti frekar að leggja áherslu á ný hverfi en þéttingu byggðar.
+    [std 0.80, 3↓ vs 2↑]  Sveitarfélagið mitt ætti að bjóða heimgreiðslur til foreldra til að auðvelda þeim að vera heima með börnum frá því að fæðingarorlofi lýkur og fram að leikskólavist.
+    [std 0.80, 1↓ vs 4↑]  Hvetja ætti foreldra til að stytta vistunartíma leikskólabarna gegn afslætti af gjöldum.
+    [std 0.75, 1↓ vs 4↑]  Stefna ætti að uppbyggingu íbúabyggðar á landfyllingu norðan Skutulsfjarðareyrar í Ísafjarðarbæ.
+    [std 0.75, 3↓ vs 2↑]  Sveitarfélagið ætti að beita sér fyrir frekari útvistun verkefna sinna við rekstur leik- og grunnskóla
+
+  PRIORITY divergence (Jaccard avg): 0.40
+
+═══ KJOSARHREPPUR  (1 parties)  ═══
+  parties: Íbúar í Kjós
+
+  CLEAVAGES: (none)
+
+═══ KOPAVOGUR  (7 parties)  ═══
+  parties: Framsóknarflokkur, Miðflokkur, Samfylkingin, Sjálfstæðisflokkur, Sósíalistaflokkur Íslands, Viðreisn, Vinstrihreyfingin - grænt framboð
+
+  CLEAVAGES (20):
+    [std 1.40, 3↓ vs 4↑]  Sveitarfélagið ætti að beita sér fyrir frekari útvistun verkefna sinna við rekstur leik- og grunnskóla
+    [std 1.37, 3↓ vs 3↑]  Sveitarfélög hafa gengið of langt í að skikka íbúa til að flokka sorp.
+    [std 1.36, 4↓ vs 3↑]  Sveitarfélagið mitt ætti að bjóða heimgreiðslur til foreldra til að auðvelda þeim að vera heima með börnum frá því að fæðingarorlofi lýkur og fram að leikskólavist.
+    [std 1.29, 4↓ vs 3↑]  Sveitarfélögum ætti að vera skylt að lögum að sjá börnum fyrir leikskólavist frá tólf mánaða aldri.
+    [std 1.25, 4↓ vs 2↑]  Halda ætti óbreyttri stefnu í leikskólamálum í Kópavogi (Kópavogsmódelið).
+    [std 1.25, 5↓ vs 2↑]  Sveitarfélagið ætti að greiða leið nýrra fyrirtækja sem vilja hefja starfsemi á svæðinu, með fjárhagslegum ívilnunum
+    [std 1.20, 4↓ vs 3↑]  Reisa ætti svokallaðan Lífsgæðakjarna í landi Gunnarshólma, sem er utan vaxtarmarka Kópavogs og innan vatnsverndarsvæðis.
+    [std 1.11, 5↓ vs 1↑]  Hugmyndir um uppbyggingu í Hamraborg eru vel heppnaðar.
+    [std 1.07, 2↓ vs 5↑]  Ljúka á við Borgarlínu í þeirri mynd sem núverandi áform gera ráð fyrir.
+    [std 1.05, 1↓ vs 6↑]  Sveitarfélagið á að taka þátt í svokölluðum samgöngusáttmála höfuðborgarsvæðisins.
+
+  PRIORITY divergence (Jaccard avg): 0.61
+
+═══ MOSFELLSBAER  (6 parties)  ═══
+  parties: Framsóknarflokkur, Miðflokkur, Samfylkingin, Sjálfstæðisflokkur, Viðreisn, Vinir Mosfellsbæjar
+
+  CLEAVAGES (11):
+    [std 1.26, 3↓ vs 3↑]  Endurskoða þarf áform um uppbyggingu á Blikastaðalandi.
+    [std 1.21, 5↓ vs 1↑]  Hvernig ættu skattar og gjöld að vera í sveitarfélaginu miðað við stöðuna í dag?
+    [std 1.07, 2↓ vs 4↑]  Sveitarfélagið ætti að beita sér fyrir frekari útvistun verkefna sinna við rekstur leik- og grunnskóla
+    [std 0.98, 1↓ vs 4↑]  Það er rétt að takmarka aðgengi almennings að útivistarsvæðinu í Heiðmörk í þágu vatnsverndar.
+    [std 0.94, 2↓ vs 4↑]  Sveitarfélagið mitt ætti að bjóða heimgreiðslur til foreldra til að auðvelda þeim að vera heima með börnum frá því að fæðingarorlofi lýkur og fram að leikskólavist.
+    [std 0.94, 2↓ vs 4↑]  Það eru of margir einkabílar í umferðinni.
+    [std 0.90, 4↓ vs 2↑]  Almenningssamgöngu milli bæjarhluta í Mosfellsbæ eru fullnægjandi.
+    [std 0.82, 2↓ vs 4↑]  Fjölga ætti íbúakosningum svo að almenningur geti tekið meiri þátt í ákvörðunum í sveitarfélaginu.
+    [std 0.76, 5↓ vs 1↑]  Sveitarfélög hafa gengið of langt í að skikka íbúa til að flokka sorp.
+    [std 0.75, 1↓ vs 5↑]  Hvetja ætti foreldra til að stytta vistunartíma leikskólabarna gegn afslætti af gjöldum.
+
+  PRIORITY divergence (Jaccard avg): 0.74
+
+═══ MULATHING  (5 parties)  ═══
+  parties: Austurlistinn/Viðreisn Múlaþingi, Framsóknarflokkur, Miðflokkur, Sjálfstæðisflokkur, Vg og óháð
+
+  CLEAVAGES (13):
+    [std 1.30, 2↓ vs 2↑]  Koma ætti upp fiskeldi í Seyðisfirði svo fremi sem það raski ekki fjarskipta- og siglingaöryggi.
+    [std 1.10, 4↓ vs 1↑]  Sveitarfélagið ætti að beita sér fyrir frekari útvistun verkefna sinna við rekstur leik- og grunnskóla
+    [std 1.10, 1↓ vs 4↑]  Bætt raforkuöryggi á Austfjörðum skiptir meira máli en að náttúra sé áfram ósnortin þegar ákvarðanir eru teknar um virkjanir.
+    [std 0.98, 3↓ vs 2↑]  Sveitarfélagið ætti að greiða leið nýrra fyrirtækja sem vilja hefja starfsemi á svæðinu, með fjárhagslegum ívilnunum
+    [std 0.83, 1↓ vs 3↑]  Sveitarstjórnin ætti að beita sér fyrir því að hætt verði að innheimta innviðagjald af skemmtiferðaskipum.
+    [std 0.83, 2↓ vs 2↑]  Sveitarfélagið mitt ætti að bjóða heimgreiðslur til foreldra til að auðvelda þeim að vera heima með börnum frá því að fæðingarorlofi lýkur og fram að leikskólavist.
+    [std 0.83, 1↓ vs 3↑]  Sveitarfélagið þarf að auka fjárhagsaðstoð við þá íbúa sem lifa undir fátæktarmörkum.
+    [std 0.80, 4↓ vs 1↑]  Uppbygging í þágu ferðamanna í sveitarfélaginu hefur verið á kostnað heimamanna.
+    [std 0.80, 2↓ vs 3↑]  Hvetja ætti foreldra til að stytta vistunartíma leikskólabarna gegn afslætti af gjöldum.
+    [std 0.80, 1↓ vs 4↑]  Snjómokstur og götusópun er fullnægjandi í mínu sveitarfélagi.
+
+  PRIORITY divergence (Jaccard avg): 0.69
+
+═══ MYRDALSHREPPUR  (2 parties)  ═══
+  parties: A fyrir alla, Samfélagið
+
+  CLEAVAGES (3):
+    [std 1.00, 1↓ vs 1↑]  Uppbygging í þágu ferðamanna í sveitarfélaginu hefur verið á kostnað heimamanna.
+    [std 1.00, 1↓ vs 1↑]  Sveitarfélagið ætti að beita sér fyrir frekari útvistun verkefna sinna við rekstur leik- og grunnskóla
+    [std 1.00, 1↓ vs 1↑]  Snjómokstur og götusópun er fullnægjandi í mínu sveitarfélagi.
+
+  PRIORITY divergence (Jaccard avg): 0.80
+
+═══ NORDURTHING  (6 parties)  ═══
+  parties: Framsóknarflokkur, Listi samfélagsins, Óskalistinn, Samfylkingin, Sjálfstæðisflokkur, V-listi velferðar
+
+  CLEAVAGES (14):
+    [std 1.07, 1↓ vs 5↑]  Hælisleitendur á barnsaldri ættu að fá sömu þjónustu í sveitarfélaginu og aðrir íbúar.
+    [std 1.02, 3↓ vs 2↑]  Sveitarfélög ættu að greiða eldri borgurum frístundastyrk.
+    [std 0.94, 2↓ vs 4↑]  Þegar skipulögð er byggð í sveitarfélaginu ætti frekar að leggja áherslu á ný hverfi en þéttingu byggðar.
+    [std 0.94, 4↓ vs 2↑]  Sveitarfélög hafa gengið of langt í að skikka íbúa til að flokka sorp.
+    [std 0.90, 2↓ vs 4↑]  Sveitarfélögum ætti að vera skylt að lögum að sjá börnum fyrir leikskólavist frá tólf mánaða aldri.
+    [std 0.90, 4↓ vs 2↑]  Sveitarfélagið ætti að beita sér fyrir frekari útvistun verkefna sinna við rekstur leik- og grunnskóla
+    [std 0.87, 1↓ vs 3↑]  Sveitarfélagið á að beita sér fyrir því vindorkuver rísi á Hólaheiði.
+    [std 0.82, 2↓ vs 4↑]  Fjölga ætti íbúakosningum svo að almenningur geti tekið meiri þátt í ákvörðunum í sveitarfélaginu.
+    [std 0.76, 1↓ vs 5↑]  Sveitarfélagið mitt ætti að bjóða heimgreiðslur til foreldra til að auðvelda þeim að vera heima með börnum frá því að fæðingarorlofi lýkur og fram að leikskólavist.
+    [std 0.76, 1↓ vs 5↑]  Lengja ætti opnunartíma sundlauga, þótt það kosti sveitarfélög fé.
+
+  PRIORITY divergence (Jaccard avg): 0.17
+
+═══ RANGARTHING-EYSTRA  (3 parties)  ═══
+  parties: D-listinn og aðrir lýðræðissinnar, Framsókn og aðrir framfarasinnar, N-listinn
+
+  CLEAVAGES (8):
+    [std 1.25, 2↓ vs 1↑]  Hvetja ætti foreldra til að stytta vistunartíma leikskólabarna gegn afslætti af gjöldum.
+    [std 0.94, 1↓ vs 2↑]  Uppbygging í þágu ferðamanna í sveitarfélaginu hefur verið á kostnað heimamanna.
+    [std 0.94, 1↓ vs 2↑]  Snjómokstur og götusópun er fullnægjandi í mínu sveitarfélagi.
+    [std 0.82, 1↓ vs 2↑]  Sveitarfélagið mitt ætti að heimila það að bílastæði við fjölfarna ferðamannastaði séu stækkuð.
+    [std 0.82, 1↓ vs 2↑]  Sameina ætti Rangárþing eystra og ytra.
+    [std 0.82, 2↓ vs 1↑]  Sveitarfélög ættu að greiða eldri borgurum frístundastyrk.
+    [std 0.82, 2↓ vs 1↑]  Sveitarfélagið mitt ætti að bjóða heimgreiðslur til foreldra til að auðvelda þeim að vera heima með börnum frá því að fæðingarorlofi lýkur og fram að leikskólavist.
+    [std 0.82, 1↓ vs 2↑]  Lengja ætti opnunartíma sundlauga, þótt það kosti sveitarfélög fé.
+
+  PRIORITY divergence (Jaccard avg): 0.50
+
+═══ RANGARTHING-YTRA  (2 parties)  ═══
+  parties: Á-listinn, D-listi sjálfstæðismanna
+
+  CLEAVAGES (3):
+    [std 1.00, 1↓ vs 1↑]  Sveitarfélögum ætti að vera skylt að lögum að sjá börnum fyrir leikskólavist frá tólf mánaða aldri.
+    [std 1.00, 1↓ vs 1↑]  Sveitarfélagið ætti að beita sér fyrir frekari útvistun verkefna sinna við rekstur leik- og grunnskóla
+    [std 1.00, 1↓ vs 1↑]  Snjómokstur og götusópun er fullnægjandi í mínu sveitarfélagi.
+
+  PRIORITY divergence (Jaccard avg): 0.80
+
+═══ REYKHOLAHREPPUR  (2 parties)  ═══
+  parties: Raddir okkar allra, Samfylkingin og óháðir
+
+  CLEAVAGES (1):
+    [std 1.00, 1↓ vs 1↑]  Stefna ætti að sameiningu allra sveitarfélaga á Vestfjörðum.
+
+  PRIORITY divergence (Jaccard avg): 0.80
+
+═══ REYKJANESBAER  (5 parties)  ═══
+  parties: Framsóknarflokkur, Miðflokkur, Samfylkingin, Sjálfstæðisflokkur, Viðreisn
+
+  CLEAVAGES (10):
+    [std 1.26, 2↓ vs 3↑]  Það var góð ákvörðun að færa bókasafn bæjarins inn í Hljómahöll.
+    [std 1.02, 2↓ vs 3↑]  Sveitarfélagið mitt ætti að bjóða heimgreiðslur til foreldra til að auðvelda þeim að vera heima með börnum frá því að fæðingarorlofi lýkur og fram að leikskólavist.
+    [std 1.02, 3↓ vs 2↑]  Það er skynsamlegt að þétta byggð í rótgrónari hverfjum Reykjanesbæjar.
+    [std 0.89, 2↓ vs 3↑]  Hælisleitendur á barnsaldri ættu að fá sömu þjónustu í sveitarfélaginu og aðrir íbúar.
+    [std 0.89, 2↓ vs 3↑]  Snjómokstur og götusópun er fullnægjandi í mínu sveitarfélagi.
+    [std 0.80, 2↓ vs 3↑]  Hvetja ætti foreldra til að stytta vistunartíma leikskólabarna gegn afslætti af gjöldum.
+    [std 0.75, 1↓ vs 4↑]  Ég er ánægð/ur með þá þjónustu sem sveitarfélagið veitir mér.
+    [std 0.75, 2↓ vs 3↑]  Sveitarfélagið ætti að beita sér fyrir frekari útvistun verkefna sinna við rekstur leik- og grunnskóla
+    [std 0.75, 2↓ vs 3↑]  Reykjanesbær sinnir íbúum á Ásbrú vel.
+    [std 0.75, 3↓ vs 2↑]  Sveitarfélög hafa gengið of langt í að skikka íbúa til að flokka sorp.
+
+  PRIORITY divergence (Jaccard avg): 0.58
+
+═══ REYKJAVIK  (11 parties)  ═══
+  parties: Flokkur fólksins, Framsóknarflokkur, Góðan daginn, Miðflokkur, Okkar borg, Píratar, Samfylkingin - jafnaðarflokkur Íslands, Sjálfstæðisflokkur, Sósíalistaflokkur Íslands, Viðreisn, Vinstrið
+
+  CLEAVAGES (19):
+    [std 1.26, 4↓ vs 6↑]  Koma þarf í veg fyrir fyrirhugaðar breytingar á skipulagi Suðurlandsbrautar.
+    [std 1.23, 6↓ vs 5↑]  Ljúka á við Borgarlínu í þeirri mynd sem núverandi áform gera ráð fyrir.
+    [std 1.21, 4↓ vs 7↑]  Sveitarfélagið mitt ætti að bjóða heimgreiðslur til foreldra til að auðvelda þeim að vera heima með börnum frá því að fæðingarorlofi lýkur og fram að leikskólavist.
+    [std 1.20, 5↓ vs 5↑]  Reykjavíkurflugvöllur á að vera í Vatnsmýri til frambúðar.
+    [std 1.16, 6↓ vs 5↑]  Það eru of margir einkabílar í umferðinni.
+    [std 1.15, 4↓ vs 7↑]  Sveitarfélagið ætti að beita sér fyrir frekari útvistun verkefna sinna við rekstur leik- og grunnskóla
+    [std 1.13, 6↓ vs 5↑]  Fækka á akreinum fyrir almenna bílaumferð til að búa til pláss fyrir sérakreinar fyrir strætó.
+    [std 1.10, 4↓ vs 6↑]  Sveitarfélagið ætti að greiða leið nýrra fyrirtækja sem vilja hefja starfsemi á svæðinu, með fjárhagslegum ívilnunum
+    [std 1.04, 4↓ vs 6↑]  Sveitarfélögum ætti að vera skylt að lögum að sjá börnum fyrir leikskólavist frá tólf mánaða aldri.
+    [std 0.96, 2↓ vs 9↑]  Sveitarfélög ættu að greiða eldri borgurum frístundastyrk.
+
+  PRIORITY divergence (Jaccard avg): 0.59
+
+═══ SELTJARNARNES  (3 parties)  ═══
+  parties: Miðflokkur, Samfylking, Viðreisn og óháðir, Sjálfstæðisflokkur
+
+  CLEAVAGES (17):
+    [std 1.41, 2↓ vs 1↑]  Sveitarfélög hafa gengið of langt í að skikka íbúa til að flokka sorp.
+    [std 1.25, 2↓ vs 1↑]  Þjónusta við ungmenni í Selinu er fullnægjandi.
+    [std 1.25, 1↓ vs 2↑]  Sveitarfélagið ætti að beita sér fyrir frekari útvistun verkefna sinna við rekstur leik- og grunnskóla
+    [std 1.00, 1↓ vs 1↑]  Leggja ætti frekari áherslu á uppbyggingu íbúða fyrir fyrstu kaupendur á Seltjarnarnesi.
+    [std 1.00, 1↓ vs 1↑]  Sveitarfélögum ætti að vera skylt að lögum að sjá börnum fyrir leikskólavist frá tólf mánaða aldri.
+    [std 1.00, 1↓ vs 1↑]  Sveitarfélagið þarf að auka fjárhagsaðstoð við þá íbúa sem lifa undir fátæktarmörkum.
+    [std 1.00, 1↓ vs 1↑]  Það er rétt að takmarka aðgengi almennings að útivistarsvæðinu í Heiðmörk í þágu vatnsverndar.
+    [std 0.94, 1↓ vs 2↑]  Það er forgangsmál að koma félagsheimili bæjarins í lag á næsta kjörtímabili þannig að hægt sé að opna það á ný.
+    [std 0.94, 2↓ vs 1↑]  Hvetja ætti foreldra til að stytta vistunartíma leikskólabarna gegn afslætti af gjöldum.
+    [std 0.94, 2↓ vs 1↑]  Sveitarfélagið ætti að greiða leið nýrra fyrirtækja sem vilja hefja starfsemi á svæðinu, með fjárhagslegum ívilnunum
+
+  PRIORITY divergence (Jaccard avg): 0.70
+
+═══ SKAFTARHREPPUR  (2 parties)  ═══
+  parties: Sjálfstæðismenn og óháðir, Öflugt samfélag
+
+  CLEAVAGES (3):
+    [std 1.00, 1↓ vs 1↑]  Uppbygging í þágu ferðamanna í sveitarfélaginu hefur verið á kostnað heimamanna.
+    [std 1.00, 1↓ vs 1↑]  Ég er ánægð/ur með þá þjónustu sem sveitarfélagið veitir mér.
+    [std 1.00, 1↓ vs 1↑]  Sveitarfélagið ætti að niðurgreiða íþrótta- og tómstundaiðkun barna meira en nú er gert.
+
+  PRIORITY divergence (Jaccard avg): 1.00
+
+═══ SKAGAFJORDUR  (4 parties)  ═══
+  parties: Byggðalistinn, Framsóknarflokkur, Miðflokkur, Sjálfstæðisflokkur
+
+  CLEAVAGES (6):
+    [std 1.30, 2↓ vs 2↑]  Fjölga ætti íbúakosningum svo að almenningur geti tekið meiri þátt í ákvörðunum í sveitarfélaginu.
+    [std 0.87, 1↓ vs 3↑]  Ráðast ætti í Skatastaðavirkjun ofan Héraðsvatna
+    [std 0.83, 1↓ vs 3↑]  Byggja þarf nýtt menningarhús á Sauðárkróki á næsta kjörtímabili.
+    [std 0.71, 1↓ vs 3↑]  Verja ætti meira fé til að styðja menningarlíf í sveitarfélaginu.
+    [std 0.71, 3↓ vs 1↑]  Snjómokstur og götusópun er fullnægjandi í mínu sveitarfélagi.
+    [std 0.71, 3↓ vs 1↑]  Sveitarfélög hafa gengið of langt í að skikka íbúa til að flokka sorp.
+
+  PRIORITY divergence (Jaccard avg): 0.60
+
+═══ SKEIDA-OG-GNUPVERJAHREPPUR  (2 parties)  ═══
+  parties: Samvinnulistinn, Uppbygging
+
+  CLEAVAGES (2):
+    [std 1.00, 1↓ vs 1↑]  Sveitarfélagið mitt ætti að heimila það að bílastæði við fjölfarna ferðamannastaði séu stækkuð.
+    [std 1.00, 1↓ vs 1↑]  Snjómokstur og götusópun er fullnægjandi í mínu sveitarfélagi.
+
+  PRIORITY divergence (Jaccard avg): 0.80
+
+═══ SNAEFELLSBAER  (1 parties)  ═══
+  parties: Sjálfstæðisflokkur
+
+  CLEAVAGES: (none)
+
+═══ STRANDABYGGD  (3 parties)  ═══
+  parties: Framsóknarmenn og óháðir, Strandabandalagið, Vegvísir
+
+  CLEAVAGES (3):
+    [std 1.25, 2↓ vs 1↑]  Það er mikilvægara að styðja við þann iðnað sem fyrir er í sveitarfélaginu en að laða að nýja atvinnustarfsemi.
+    [std 0.94, 2↓ vs 1↑]  Sveitarfélög hafa gengið of langt í að skikka íbúa til að flokka sorp.
+    [std 0.82, 1↓ vs 2↑]  Snjómokstur og götusópun er fullnægjandi í mínu sveitarfélagi.
+
+  PRIORITY divergence (Jaccard avg): 0.33
+
+═══ SUDAVIKURHREPPUR-F  (2 parties)  ═══
+  parties: Fjarðarlistinn, Framtíðarlistinn
+
+  CLEAVAGES: (none)
+
+═══ SUDURNESJABAER  (4 parties)  ═══
+  parties: D-listinn og óháðir, Framsókn og óháðir, Miðflokkur, Samfylkingin og óháðir
+
+  CLEAVAGES (10):
+    [std 1.30, 1↓ vs 3↑]  Sveitarfélög ættu að greiða eldri borgurum frístundastyrk.
+    [std 1.12, 2↓ vs 2↑]  Hvetja ætti foreldra til að stytta vistunartíma leikskólabarna gegn afslætti af gjöldum.
+    [std 0.83, 2↓ vs 2↑]  Sveitarfélögum ætti að vera skylt að lögum að sjá börnum fyrir leikskólavist frá tólf mánaða aldri.
+    [std 0.83, 1↓ vs 3↑]  Hælisleitendur á barnsaldri ættu að fá sömu þjónustu í sveitarfélaginu og aðrir íbúar.
+    [std 0.83, 3↓ vs 1↑]  Sveitarfélög hafa gengið of langt í að skikka íbúa til að flokka sorp.
+    [std 0.82, 1↓ vs 2↑]  Sveitarfélagið þarf að auka fjárhagsaðstoð við þá íbúa sem lifa undir fátæktarmörkum.
+    [std 0.71, 3↓ vs 1↑]  Sveitarfélagið ætti að beita sér fyrir frekari útvistun verkefna sinna við rekstur leik- og grunnskóla
+    [std 0.71, 1↓ vs 3↑]  Sveitarfélagið ætti að niðurgreiða íþrótta- og tómstundaiðkun barna meira en nú er gert.
+    [std 0.71, 1↓ vs 3↑]  Verja ætti meira fé til að styðja menningarlíf í sveitarfélaginu.
+    [std 0.71, 1↓ vs 3↑]  Lengja ætti opnunartíma sundlauga, þótt það kosti sveitarfélög fé.
+
+  PRIORITY divergence (Jaccard avg): 0.72
+
+═══ SVALBARDSSTRANDARHREPPUR-S  (3 parties)  ═══
+  parties: Samstaða, Strönd til framtíðar, Ströndungur
+
+  CLEAVAGES (2):
+    [std 0.94, 2↓ vs 1↑]  Aðstaðan við sundlaug Svalbarðsstrandarhrepps er fullnægjandi.
+    [std 0.82, 2↓ vs 1↑]  Snjómokstur og götusópun er fullnægjandi í mínu sveitarfélagi.
+
+  PRIORITY divergence (Jaccard avg): 0.70
+
+═══ SVEITARFELAGID-ARBORG  (4 parties)  ═══
+  parties: Framsóknarflokkur, Samfylkingin og óháðir, Sjálfstæðisflokkur, Viðreisn
+
+  CLEAVAGES (8):
+    [std 1.22, 1↓ vs 3↑]  Sveitarfélagið mitt ætti að bjóða heimgreiðslur til foreldra til að auðvelda þeim að vera heima með börnum frá því að fæðingarorlofi lýkur og fram að leikskólavist.
+    [std 1.12, 2↓ vs 2↑]  Sveitarfélög ættu að greiða eldri borgurum frístundastyrk.
+    [std 0.83, 1↓ vs 3↑]  Sveitarfélagið ætti að niðurgreiða íþrótta- og tómstundaiðkun barna meira en nú er gert.
+    [std 0.83, 1↓ vs 3↑]  Sveitarfélagið ætti að greiða leið nýrra fyrirtækja sem vilja hefja starfsemi á svæðinu, með fjárhagslegum ívilnunum
+    [std 0.83, 1↓ vs 3↑]  Of langt hefur verið gengið í að skerða þjónustu við íbúa til að mæta fjárhagsvanda sveitarfélagsins.
+    [std 0.83, 2↓ vs 2↑]  Halda ætti áfram heimgreiðslum til foreldra í Árborg ef börnin sækja ekki leikskóla.
+    [std 0.71, 1↓ vs 3↑]  Sveitarfélögum ætti að vera skylt að lögum að sjá börnum fyrir leikskólavist frá tólf mánaða aldri.
+    [std 0.71, 1↓ vs 3↑]  Sveitarfélagið ætti að beita sér fyrir frekari útvistun verkefna sinna við rekstur leik- og grunnskóla
+
+  PRIORITY divergence (Jaccard avg): 0.77
+
+═══ SVEITARFELAGID-HORNAFJORDUR  (4 parties)  ═══
+  parties: Framsókn og stuðningsmenn, Kex framboðið, Miðflokkur, Sjálfstæðisflokkur
+
+  CLEAVAGES (11):
+    [std 1.30, 2↓ vs 2↑]  Hvetja ætti foreldra til að stytta vistunartíma leikskólabarna gegn afslætti af gjöldum.
+    [std 1.12, 2↓ vs 2↑]  Sveitarfélög ættu að greiða eldri borgurum frístundastyrk.
+    [std 1.09, 1↓ vs 3↑]  Sveitarfélögum ætti að vera skylt að lögum að sjá börnum fyrir leikskólavist frá tólf mánaða aldri.
+    [std 1.09, 3↓ vs 1↑]  Sveitarfélög hafa gengið of langt í að skikka íbúa til að flokka sorp.
+    [std 0.94, 2↓ vs 1↑]  Sveitarfélagið ætti að beita sér fyrir frekari útvistun verkefna sinna við rekstur leik- og grunnskóla
+    [std 0.87, 1↓ vs 3↑]  Sveitarfélagið mitt ætti að heimila það að bílastæði við fjölfarna ferðamannastaði séu stækkuð.
+    [std 0.83, 2↓ vs 2↑]  Sveitarfélagið mitt ætti að bjóða heimgreiðslur til foreldra til að auðvelda þeim að vera heima með börnum frá því að fæðingarorlofi lýkur og fram að leikskólavist.
+    [std 0.83, 2↓ vs 2↑]  Verja ætti meira fé til að styðja menningarlíf í sveitarfélaginu.
+    [std 0.71, 3↓ vs 1↑]  Það forgangsmál að fjárfesta í aukinni skólphreinsun á næsta kjörtímabili.
+    [std 0.71, 1↓ vs 3↑]  Ég er ánægð/ur með þá þjónustu sem sveitarfélagið veitir mér.
+
+  PRIORITY divergence (Jaccard avg): 0.52
+
+═══ SVEITARFELAGID-OLFUS-S  (2 parties)  ═══
+  parties: Samfylking og félagar, Sjálfstæðisflokkur
+
+  CLEAVAGES (4):
+    [std 1.50, 1↓ vs 1↑]  Það var réttlætanlegt að ráðast í landfyllingu við Suðurvararhöfn þótt það bitnaði á brimbrettafólki sem þar stundaði íþrótt sína.
+    [std 1.00, 1↓ vs 1↑]  Of geyst hefur verið farið í húsnæðisuppbyggingu í Þorlákshöfn.
+    [std 1.00, 1↓ vs 1↑]  Fjölga ætti íbúakosningum svo að almenningur geti tekið meiri þátt í ákvörðunum í sveitarfélaginu.
+    [std 1.00, 1↓ vs 1↑]  Sveitarfélagið ætti að greiða leið nýrra fyrirtækja sem vilja hefja starfsemi á svæðinu, með fjárhagslegum ívilnunum
+
+  PRIORITY divergence (Jaccard avg): 0.50
+
+═══ SVEITARFELAGID-SKAGASTROND  (3 parties)  ═══
+  parties: Framsóknarflokkur, Fyrir Skagaströnd, Samfylking og óháðir
+
+  CLEAVAGES (8):
+    [std 0.94, 1↓ vs 2↑]  Fjölga ætti íbúakosningum svo að almenningur geti tekið meiri þátt í ákvörðunum í sveitarfélaginu.
+    [std 0.94, 1↓ vs 2↑]  Sveitarfélögum ætti að vera skylt að lögum að sjá börnum fyrir leikskólavist frá tólf mánaða aldri.
+    [std 0.94, 2↓ vs 1↑]  Hvetja ætti foreldra til að stytta vistunartíma leikskólabarna gegn afslætti af gjöldum.
+    [std 0.94, 1↓ vs 2↑]  Sveitarfélagið ætti að greiða leið nýrra fyrirtækja sem vilja hefja starfsemi á svæðinu, með fjárhagslegum ívilnunum
+    [std 0.94, 1↓ vs 2↑]  Lengja ætti opnunartíma sundlauga, þótt það kosti sveitarfélög fé.
+    [std 0.82, 1↓ vs 2↑]  Ég er ánægð/ur með þá þjónustu sem sveitarfélagið veitir mér.
+    [std 0.82, 2↓ vs 1↑]  Sveitarfélagið ætti að beita sér fyrir frekari útvistun verkefna sinna við rekstur leik- og grunnskóla
+    [std 0.82, 1↓ vs 2↑]  Sveitarfélagið ætti að niðurgreiða íþrótta- og tómstundaiðkun barna meira en nú er gert.
+
+  PRIORITY divergence (Jaccard avg): 0.60
+
+═══ SVEITARFELAGID-STYKKISHOLMUR  (2 parties)  ═══
+  parties: Íbúalistinn, Listi framfarasinna
+
+  CLEAVAGES (2):
+    [std 1.50, 1↓ vs 1↑]  Sveitarstjórnin ætti að beita sér fyrir því að hætt verði að innheimta innviðagjald af skemmtiferðaskipum.
+    [std 1.00, 1↓ vs 1↑]  Sveitarfélagið ætti að greiða leið nýrra fyrirtækja sem vilja hefja starfsemi á svæðinu, með fjárhagslegum ívilnunum
+
+  PRIORITY divergence (Jaccard avg): 1.00
+
+═══ SVEITARFELAGID-VOGAR  (4 parties)  ═══
+  parties: Framboðsfélag E-listans, Framfarafélag L-listans, Fyrir samfélagið, Sjálfstæðismenn og óháðir
+
+  CLEAVAGES (10):
+    [std 1.12, 2↓ vs 2↑]  Sveitarfélagið ætti að beita sér fyrir frekari útvistun verkefna sinna við rekstur leik- og grunnskóla
+    [std 1.00, 2↓ vs 2↑]  Snjómokstur og götusópun er fullnægjandi í mínu sveitarfélagi.
+    [std 0.87, 1↓ vs 3↑]  Hvetja ætti foreldra til að stytta vistunartíma leikskólabarna gegn afslætti af gjöldum.
+    [std 0.87, 1↓ vs 3↑]  Sveitarfélagið ætti að greiða leið nýrra fyrirtækja sem vilja hefja starfsemi á svæðinu, með fjárhagslegum ívilnunum
+    [std 0.83, 2↓ vs 2↑]  Það var nauðsynlegt að leggja Suðurnesjalínu 2 í lofti í gegnum sveitarfélagið til að flýta framkvæmdum við hana.
+    [std 0.71, 1↓ vs 3↑]  Sveitarstjórn ætti að beita sér fyrir því að komið verið upp landeldi á Keilisnesi.
+    [std 0.71, 1↓ vs 3↑]  Íbúum í Vogum hefur fjölgað of hratt.
+    [std 0.71, 1↓ vs 3↑]  Ég er ánægð/ur með þá þjónustu sem sveitarfélagið veitir mér.
+    [std 0.71, 1↓ vs 3↑]  Sveitarfélagið ætti að niðurgreiða íþrótta- og tómstundaiðkun barna meira en nú er gert.
+    [std 0.71, 3↓ vs 1↑]  Sveitarfélög hafa gengið of langt í að skikka íbúa til að flokka sorp.
+
+  PRIORITY divergence (Jaccard avg): 0.40
+
+═══ TJORNESHREPPUR  (1 parties)  ═══
+  parties: Tjörneslistinn
+
+  CLEAVAGES: (none)
+
+═══ VESTMANNAEYJAR  (3 parties)  ═══
+  parties: Eyjalistinn, Miðflokkur, Sjálfstæðisflokkur
+
+  CLEAVAGES (11):
+    [std 1.41, 1↓ vs 2↑]  Kröftum sveitarstjórnarmanna er betur varið í að berjast fyrir úrbótum á ferjusiglingum en að tala fyrir að grafin verði göng milli lands og Eyja.
+    [std 1.41, 1↓ vs 2↑]  Hvetja ætti foreldra til að stytta vistunartíma leikskólabarna gegn afslætti af gjöldum.
+    [std 1.25, 2↓ vs 1↑]  Sveitarstjórnin ætti að beita sér fyrir því að hætt verði að innheimta innviðagjald af skemmtiferðaskipum.
+    [std 1.25, 2↓ vs 1↑]  Sveitarfélögum ætti að vera skylt að lögum að sjá börnum fyrir leikskólavist frá tólf mánaða aldri.
+    [std 1.25, 2↓ vs 1↑]  Sveitarfélagið ætti að greiða leið nýrra fyrirtækja sem vilja hefja starfsemi á svæðinu, með fjárhagslegum ívilnunum
+    [std 1.00, 1↓ vs 1↑]  200 milljónum er vel varið í gerð minnisvarða um eldgosið í Heimaey eftir Ólaf Elíasson.
+    [std 0.94, 2↓ vs 1↑]  Byggja ætti miðbæjarsvæði á þróunarreit norðaustast í bænum þar sem nú er hraun.
+    [std 0.94, 2↓ vs 1↑]  Sveitarfélög ættu að greiða eldri borgurum frístundastyrk.
+    [std 0.94, 1↓ vs 2↑]  Sveitarfélagið ætti að niðurgreiða íþrótta- og tómstundaiðkun barna meira en nú er gert.
+    [std 0.82, 2↓ vs 1↑]  Sveitarfélagið ætti að beita sér fyrir frekari útvistun verkefna sinna við rekstur leik- og grunnskóla
+
+  PRIORITY divergence (Jaccard avg): 0.33
+
+═══ VESTURBYGGD  (2 parties)  ═══
+  parties: Ný sýn, Sterkari Vesturbyggð
+
+  CLEAVAGES (2):
+    [std 1.00, 1↓ vs 1↑]  Fiskeldisfyrirtæki ættu að skila meira til sveitarfélagsins en nú er.
+    [std 1.00, 1↓ vs 1↑]  Ráðast á í virkjun í friðlandinu í Vatnsfirði.
+
+  PRIORITY divergence (Jaccard avg): 0.50
+
+═══ VOPNAFJARDARHREPPUR  (1 parties)  ═══
+  parties: Sterk Stoð
+
+  CLEAVAGES: (none)

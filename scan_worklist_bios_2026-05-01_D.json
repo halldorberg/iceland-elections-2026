@@ -1,0 +1,211 @@
+{
+  "scope": "bios scan 2026-05-01 — ballot 1-6 with has_extended=true, sorted by ballot then population",
+  "agent_label": "D",
+  "slice": [
+    60,
+    80
+  ],
+  "count": 20,
+  "missing_bios": [
+    {
+      "id": "HOR.HFJK.3",
+      "muni_slug": "hornafjordur",
+      "muni_label": "Hornafjarðarsveit",
+      "party_code": "HFJK",
+      "ballot": 3,
+      "name": "Elías Tjörvi Halldórsson",
+      "occupation": "Kokkur og hjúkrunarfræðinemi",
+      "has_extended": true
+    },
+    {
+      "id": "HOR.M.3",
+      "muni_slug": "hornafjordur",
+      "muni_label": "Hornafjarðarsveit",
+      "party_code": "M",
+      "ballot": 3,
+      "name": "Herdís Ingólfsdóttir Waage",
+      "occupation": "Aðstoðarskólastjóri og kennari",
+      "has_extended": true
+    },
+    {
+      "id": "REY.R.4",
+      "muni_slug": "reykjavik",
+      "muni_label": "Reykjavík",
+      "party_code": "R",
+      "ballot": 4,
+      "name": "Ágústa Árnadóttir",
+      "occupation": "Jógaþjálfari",
+      "has_extended": true
+    },
+    {
+      "id": "KOP.J.4",
+      "muni_slug": "kopavogur",
+      "muni_label": "Kópavogur",
+      "party_code": "J",
+      "ballot": 4,
+      "name": "Sigurður Haraldsson",
+      "occupation": "Forstöðumaður",
+      "has_extended": true
+    },
+    {
+      "id": "HAF.C.4",
+      "muni_slug": "hafnarfjordur",
+      "muni_label": "Hafnarfjörður",
+      "party_code": "C",
+      "ballot": 4,
+      "name": "Óli Örn Eiríksson",
+      "occupation": "Verkefnastjóri",
+      "has_extended": true
+    },
+    {
+      "id": "HAF.M.4",
+      "muni_slug": "hafnarfjordur",
+      "muni_label": "Hafnarfjörður",
+      "party_code": "M",
+      "ballot": 4,
+      "name": "Eva Rún Helgadóttir",
+      "occupation": "Viðskiptafræðingur",
+      "has_extended": true
+    },
+    {
+      "id": "HOR.B.4",
+      "muni_slug": "hornafjordur",
+      "muni_label": "Hornafjarðarsveit",
+      "party_code": "B",
+      "ballot": 4,
+      "name": "Kolbrún Þorbjörg Björnsdóttir",
+      "occupation": "Heilsuþjálfari og rekstrarstjóri",
+      "has_extended": true
+    },
+    {
+      "id": "HOR.D.4",
+      "muni_slug": "hornafjordur",
+      "muni_label": "Hornafjarðarsveit",
+      "party_code": "D",
+      "ballot": 4,
+      "name": "Ágústa Arnardóttir",
+      "occupation": "Athafnamaður",
+      "has_extended": true
+    },
+    {
+      "id": "HOR.HFJK.4",
+      "muni_slug": "hornafjordur",
+      "muni_label": "Hornafjarðarsveit",
+      "party_code": "HFJK",
+      "ballot": 4,
+      "name": "Wiktoria Anna Darnowska",
+      "occupation": "Starfsmaður í félagsþjónustu",
+      "has_extended": true
+    },
+    {
+      "id": "HOR.M.4",
+      "muni_slug": "hornafjordur",
+      "muni_label": "Hornafjarðarsveit",
+      "party_code": "M",
+      "ballot": 4,
+      "name": "Erlingur Ingi Brynjólfsson",
+      "occupation": "Verksmiðjustjóri",
+      "has_extended": true
+    },
+    {
+      "id": "KOP.D.5",
+      "muni_slug": "kopavogur",
+      "muni_label": "Kópavogur",
+      "party_code": "D",
+      "ballot": 5,
+      "name": "Guðmundur Jóhann Jónsson",
+      "occupation": "Fyrrverandi forstjóri",
+      "has_extended": true
+    },
+    {
+      "id": "KOP.J.5",
+      "muni_slug": "kopavogur",
+      "muni_label": "Kópavogur",
+      "party_code": "J",
+      "ballot": 5,
+      "name": "Þórgunnur Guðgeirsdóttir",
+      "occupation": "Verslunarstjóri",
+      "has_extended": true
+    },
+    {
+      "id": "KOP.V.5",
+      "muni_slug": "kopavogur",
+      "muni_label": "Kópavogur",
+      "party_code": "V",
+      "ballot": 5,
+      "name": "Rakel Ósk Sigurðardóttir",
+      "occupation": "Félags- og gagnafræðingur",
+      "has_extended": true
+    },
+    {
+      "id": "HAF.C.5",
+      "muni_slug": "hafnarfjordur",
+      "muni_label": "Hafnarfjörður",
+      "party_code": "C",
+      "ballot": 5,
+      "name": "Sigrún Jónsdóttir",
+      "occupation": "Flugfreyja",
+      "has_extended": true
+    },
+    {
+      "id": "HAF.M.5",
+      "muni_slug": "hafnarfjordur",
+      "muni_label": "Hafnarfjörður",
+      "party_code": "M",
+      "ballot": 5,
+      "name": "Arnhildur Ásdís Kolbeins",
+      "occupation": "Fjármálastjóri",
+      "has_extended": true
+    },
+    {
+      "id": "REY.B.5",
+      "muni_slug": "reykjanesbaer",
+      "muni_label": "Reykjanesbær",
+      "party_code": "B",
+      "ballot": 5,
+      "name": "Halla Karen Guðjónsdóttir",
+      "occupation": "Sérfræðingur",
+      "has_extended": true
+    },
+    {
+      "id": "HOR.B.5",
+      "muni_slug": "hornafjordur",
+      "muni_label": "Hornafjarðarsveit",
+      "party_code": "B",
+      "ballot": 5,
+      "name": "Gunnar Ásgeirsson",
+      "occupation": "Innkaupastjóri og varabæjarfulltrúi",
+      "has_extended": true
+    },
+    {
+      "id": "HOR.D.5",
+      "muni_slug": "hornafjordur",
+      "muni_label": "Hornafjarðarsveit",
+      "party_code": "D",
+      "ballot": 5,
+      "name": "Sindri Ragnarsson",
+      "occupation": "Íþróttafræðingur",
+      "has_extended": true
+    },
+    {
+      "id": "HOR.HFJK.5",
+      "muni_slug": "hornafjordur",
+      "muni_label": "Hornafjarðarsveit",
+      "party_code": "HFJK",
+      "ballot": 5,
+      "name": "Sigrún Sigurgeirsdóttir",
+      "occupation": "Sérfræðingur",
+      "has_extended": true
+    },
+    {
+      "id": "HOR.M.5",
+      "muni_slug": "hornafjordur",
+      "muni_label": "Hornafjarðarsveit",
+      "party_code": "M",
+      "ballot": 5,
+      "name": "Valur Pálsson",
+      "occupation": "Rekstrarstjóri",
+      "has_extended": true
+    }
+  ]
+}

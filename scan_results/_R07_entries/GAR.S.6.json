@@ -1,0 +1,40 @@
+{
+  "id": "GAR.S.6",
+  "bio": "Katrín Júlíusdóttir er fædd í Reykjavík 23. nóvember 1974. Hún lauk stúdentsprófi frá Menntaskólanum í Reykjavík árið 1994 og stundaði nám í mannfræði við Háskóla Íslands á árunum 1995–1999. Katrín var alþingismaður Samfylkingarinnar í Suðvesturkjördæmi árin 2003–2016 og gegndi stöðu iðnaðarráðherra 2009–2012 og fjármála- og efnahagsráðherra 2012–2013. Eftir þingstörf var hún meðal annars framkvæmdastjóri Samtaka fjármálafyrirtækja og hefur jafnframt starfað sem ráðgjafi og rithöfundur. Vorið 2025 var hún kjörin formaður framkvæmdastjórnar Samfylkingarinnar. Hún skipar 6. sæti á lista Samfylkingarinnar í Garðabæ fyrir sveitarstjórnarkosningarnar vorið 2026.",
+  "sources": [
+    "https://www.althingi.is/altext/cv/is/?nfaerslunr=660",
+    "https://en.wikipedia.org/wiki/Katr%C3%ADn_J%C3%BAl%C3%ADusd%C3%B3ttir",
+    "https://www.mbl.is/frettir/innlent/2025/04/11/katrin_formadur_framkvaemdastjornar_samfylkingarinn/",
+    "https://kosningasaga.wordpress.com/2026/03/16/frambodslisti-samfylkingarinnar-i-gardabae/"
+  ],
+  "statements": [
+    {"n":1,"status":"verified","claim":"Fædd í Reykjavík 23. nóvember 1974","quotes":["Fædd í Reykjavík 23. nóvember 1974","Born ( 1974-11-23 ) 23 November 1974 (age 51) Reykjavík , Iceland"]},
+    {"n":2,"status":"flagged","claim":"Stúdent frá Menntaskólanum í Reykjavík 1994","quotes":[],"note":"Althingi.is: 'Stúdent MK 1994' = Menntaskólanum í Kópavogi, ekki MR."},
+    {"n":3,"status":"verified","claim":"Mannfræðinám HÍ 1995–1999","quotes":["Nám í mannfræði við Háskóla Íslands 1995–1999"]},
+    {"n":4,"status":"verified","claim":"Alþingismaður Samfylkingarinnar í Suðvesturkjördæmi 2003–2016","quotes":["Alþingismaður Suðvesturkjördæmis 2003–2016 (Samfylkingin)"]},
+    {"n":5,"status":"verified","claim":"Iðnaðarráðherra 2009–2012","quotes":["Iðnaðarráðherra 2009–2012"]},
+    {"n":6,"status":"verified","claim":"Fjármála- og efnahagsráðherra 2012–2013","quotes":["Fjármála- og efnahagsráðherra 2012–2013"]},
+    {"n":7,"status":"rescued","claim":"Framkvæmdastjóri Samtaka fjármálafyrirtækja","quotes":["Katrín Júlíusdóttir nýr framkvæmdastjóri Samtaka fjármálafyrirtækja","Managing Director of Finance Iceland (2016-2022)"]},
+    {"n":8,"status":"verified","claim":"Ráðgjafi og rithöfundur","quotes":["Katrín Júlíusdóttir, f.v. ráðherra, ráðgjafi og rithöfundur","is currently a consultant at Athygli - Consultancy in Reykjavík","received the Svartfuglinn-Award for her first crime novel, Sykur"]},
+    {"n":9,"status":"verified","claim":"Vorið 2025 kjörin formaður framkvæmdastjórnar Samfylkingar","quotes":["11.4.2025 | 19:56 Katrín formaður framkvæmdastjórnar Samfylkingarinnar","Katrín var sú eina sem bauð sig fram og var því sjálfkjörin"]},
+    {"n":10,"status":"verified","claim":"6. sæti á lista Samfylkingarinnar í Garðabæ 2026","quotes":["Katrín Júlíusdóttir, f.v. ráðherra, ráðgjafi og rithöfundur"]}
+  ],
+  "summary": "Wrong school: bio says MR but althingi.is says MK. Rewrite corrects.",
+  "rescue": {
+    "rewrite": "Katrín Júlíusdóttir er fædd í Reykjavík 23. nóvember 1974. Hún lauk stúdentsprófi frá Menntaskólanum í Kópavogi 1994 og stundaði nám í mannfræði við Háskóla Íslands á árunum 1995–1999. Katrín var alþingismaður Samfylkingarinnar í Suðvesturkjördæmi 2003–2016, iðnaðarráðherra 2009–2012 og fjármála- og efnahagsráðherra 2012–2013. Eftir þingstörf var hún framkvæmdastjóri Samtaka fjármálafyrirtækja á árunum 2016–2022 og hefur einnig starfað sem ráðgjafi og rithöfundur, m.a. höfundur glæpasögunnar Sykur. Í apríl 2025 var hún sjálfkjörin formaður framkvæmdastjórnar Samfylkingarinnar. Hún skipar 6. sæti á lista Samfylkingarinnar í Garðabæ fyrir sveitarstjórnarkosningarnar 2026.",
+    "rewrite_words": 110,
+    "new_sources": [
+      "https://kjarninn.is/frettir/2016-11-18-katrin-juliusdottir-nyr-formadur-samtaka-fjarmalafyrirtaekja/"
+    ],
+    "resolutions": [
+      {"n":2,"action":"corrected","reason":"Stúdentsprófið er frá MK (Menntaskólanum í Kópavogi), ekki MR"}
+    ],
+    "new_heimild": [
+      {"url":"https://www.althingi.is/altext/cv/is/?nfaerslunr=660","label":"Alþingi — æviágrip"},
+      {"url":"https://en.wikipedia.org/wiki/Katr%C3%ADn_J%C3%BAl%C3%ADusd%C3%B3ttir","label":"Wikipedia"},
+      {"url":"https://www.mbl.is/frettir/innlent/2025/04/11/katrin_formadur_framkvaemdastjornar_samfylkingarinn/","label":"mbl.is — formaður framkvæmdastjórnar 2025"},
+      {"url":"https://kjarninn.is/frettir/2016-11-18-katrin-juliusdottir-nyr-formadur-samtaka-fjarmalafyrirtaekja/","label":"Kjarninn — framkvæmdastjóri SFF 2016"},
+      {"url":"https://kosningasaga.wordpress.com/2026/03/16/frambodslisti-samfylkingarinnar-i-gardabae/","label":"KOSNINGASAGA — Samfylkingin í Garðabæ 2026"}
+    ]
+  }
+}

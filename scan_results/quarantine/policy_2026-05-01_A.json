@@ -1,0 +1,355 @@
+{
+  "scan_type": "policy",
+  "scan_date": "2026-05-01",
+  "agent_note": "Agent A — strict fetch-and-extract; agendas anchored to verbatim quotes from platform_url",
+  "results": [
+    {
+      "id": "AKR.C",
+      "muni_slug": "akranes",
+      "party_code": "C",
+      "platform_url": "https://www.visir.is/g/20262875231d/akranes-a-ad-vera-eftirsoknarverdasti-baerinn-fersk-nalgun-med-vidreisn",
+      "verified_source_kind": "news-with-rationale",
+      "audit_status": "OK",
+      "audit_note": "Op-ed by Viðreisn candidate on visir.is presents the party's Akranes platform; 5 agenda bullets quoted directly from the article.",
+      "tagline": "Fersk nálgun á Akranesi — börn, ábyrg fjármál og kraftmikið atvinnulíf",
+      "agenda": [
+        {
+          "icon": "👶",
+          "title": "Börnin í forgrunn",
+          "text": "Viðreisn ætlar að setja börnin í forgrunn allra ákvarðana sem teknar eru í bæjarstjórn.",
+          "source_quote": "Við ætlum að setja börnin í forgrunn allra ákvarðana."
+        },
+        {
+          "icon": "💰",
+          "title": "Ábyrg meðferð skattfjár",
+          "text": "Skattfé íbúa er varið af ábyrgð og hverri krónu varið af skynsemi.",
+          "source_quote": "Við ætlum að fara vel með fé íbúa og verja skattfé af ábyrgð."
+        },
+        {
+          "icon": "💼",
+          "title": "Kraftmikið atvinnulíf",
+          "text": "Byggt verður upp kraftmikið og öflugt atvinnulíf á Akranesi.",
+          "source_quote": "Við ætlum að byggja upp kraftmikið og öflugt atvinnulíf."
+        },
+        {
+          "icon": "🤝",
+          "title": "Velferð sem grípur strax",
+          "text": "Velferðarþjónusta sem grípur fólk strax þegar þörf er á aðstoð.",
+          "source_quote": "Við ætlum að tryggja velferðarþjónustu sem grípur fólk strax."
+        },
+        {
+          "icon": "🪟",
+          "title": "Heiðarleiki og gagnsæi",
+          "text": "Stjórnsýslan verður rekin af heiðarleika, gagnsæi og fagmennsku.",
+          "source_quote": "Við ætlum að starfa af heiðarleika, gagnsæi og fagmennsku."
+        },
+        {
+          "icon": "🏗️",
+          "title": "Hagstætt lóðaverð og styttri afgreiðslutími",
+          "text": "Boðið verður hagstætt lóðaverð og afgreiðslutími leyfa styttur.",
+          "source_quote": "Við ætlum að bjóða hagstætt lóðaverð og stytta afgreiðslutíma leyfa"
+        }
+      ]
+    },
+    {
+      "id": "AKU.M",
+      "muni_slug": "akureyri",
+      "party_code": "M",
+      "platform_url": "https://midflokkurinn.is/akureyri-tharf-skyra-stefnu",
+      "verified_source_kind": "own-site",
+      "audit_status": "OK",
+      "audit_note": "Article on midflokkurinn.is sets out the party's Akureyri platform; 5 agenda bullets quoted directly from the page.",
+      "tagline": "Skýr stefna fyrir Akureyri — atvinnulíf, ábyrgð og hagkvæm gjaldtaka",
+      "agenda": [
+        {
+          "icon": "💼",
+          "title": "Öflugt atvinnulíf",
+          "text": "Öflugur bæjarsjóður byggir á öflugu atvinnulífi sem styrkir tekjustofna sveitarfélagsins.",
+          "source_quote": "Öflugur bæjarsjóður byggir á einu umfram allt – öflugu atvinnulífi."
+        },
+        {
+          "icon": "🏛️",
+          "title": "Sækja opinber störf til Akureyrar",
+          "text": "Sótt verður til Akureyrar opinber störf og stofnanir og tækifærin í störfum án staðsetningar nýtt.",
+          "source_quote": "Sækja til Akureyrar opinber störf og stofnanir, nýta þau tækifæri sem felast í störfum án staðsetningar"
+        },
+        {
+          "icon": "🏗️",
+          "title": "Nóg framboð lóða á hóflegu verði",
+          "text": "Tryggt verður nægt framboð lóða og verðlagningu þeirra haldið í hófi.",
+          "source_quote": "Tryggja þarf nægt framboð lóða og halda verðlagningu þeirra í hófi."
+        },
+        {
+          "icon": "📊",
+          "title": "Ábyrgur rekstur bæjarins",
+          "text": "Ábyrgur rekstur Akureyrarbæjar er grundvallarforsenda allrar þjónustu og uppbyggingar.",
+          "source_quote": "Ábyrgur rekstur bæjarins er grundvallarforsenda alls þess er að framan greinir."
+        },
+        {
+          "icon": "💸",
+          "title": "Hófleg gjaldtaka af íbúum",
+          "text": "Bærinn og fyrirtæki hans eiga ekki að taka meira af íbúum en þarf til að reka grunnþjónustu.",
+          "source_quote": "Bærinn og fyrirtæki hans eiga ekki að taka meira af íbúum en þarf til þess að reka grunnþjónustu"
+        }
+      ]
+    },
+    {
+      "id": "ARB.S",
+      "muni_slug": "arborg",
+      "party_code": "S",
+      "platform_url": "https://xs.is/arborg-alla-aevi",
+      "verified_source_kind": "own-site",
+      "audit_status": "OK",
+      "audit_note": "Samfylkingin's own platform page 'Árborg alla ævi' lists kosningastefna 2026-2030; bullets quoted verbatim.",
+      "tagline": "Árborg alla ævi — kosningastefna Samfylkingar og óháðra 2026–2030",
+      "agenda": [
+        {
+          "icon": "👨‍👩‍👧",
+          "title": "Lægri kostnaður barnafjölskyldna",
+          "text": "Sett verður þak á leikskólagjöld, þau lækkuð í áföngum og veittur 100% systkinaafsláttur.",
+          "source_quote": "Setja þak á leikskólagjöld, lækka gjöld í áföngum og veita 100% systkinaafslátt"
+        },
+        {
+          "icon": "🧒",
+          "title": "Leikskóli frá eins árs aldri",
+          "text": "Aðgangur að leikskólum frá eins árs aldri tryggður í takt við íbúafjölda.",
+          "source_quote": "Tryggja aðgang að leikskólum frá eins árs aldri, í takt við íbúafjölda"
+        },
+        {
+          "icon": "🥗",
+          "title": "Gæði skólamáltíða",
+          "text": "Gæði skólamáltíða í Árborg verða tryggð.",
+          "source_quote": "Tryggja gæði skólamáltíða"
+        },
+        {
+          "icon": "⚽",
+          "title": "Hærri frístundastyrkir",
+          "text": "Frístundastyrkir í sveitarfélaginu verða hækkaðir.",
+          "source_quote": "Hækka frístundastyrki"
+        },
+        {
+          "icon": "🏫",
+          "title": "Skólahús á Eyrarbakka",
+          "text": "Hafinn verður undirbúningur að uppbyggingu skólahúss á Eyrarbakka.",
+          "source_quote": "Hefja undirbúning að uppbyggingu skólahúss á Eyrarbakka"
+        },
+        {
+          "icon": "🏠",
+          "title": "Lægri fasteignagjöld",
+          "text": "Fasteignagjöld og álögur á íbúa og fyrirtæki verða lækkuð í áföngum.",
+          "source_quote": "Lækka fasteignagjöld og álögur á íbúa og fyrirtæki í áföngum"
+        },
+        {
+          "icon": "📱",
+          "title": "Mín Árborg sem þjónustugátt",
+          "text": "Mín Árborg verður virkjuð sem einn viðkomustaður fyrir þjónustu sveitarfélagsins.",
+          "source_quote": "Virkja Mín Árborg sem einn viðkomustað fyrir þjónustu sveitarfélagsins"
+        }
+      ]
+    },
+    {
+      "id": "AKU.V",
+      "muni_slug": "akureyri",
+      "party_code": "V",
+      "platform_url": "https://www.akureyri.net/is/frettir/vinstri-graen-svara-spurningum-lesenda",
+      "verified_source_kind": "news-with-rationale",
+      "audit_status": "OK",
+      "audit_note": "Akureyri.net Q&A with VG sets out the party's positions on local issues; bullets quoted verbatim.",
+      "tagline": "VG á Akureyri — frítt strætó, gjaldfrjálsar skólamáltíðir og þétting byggðar",
+      "agenda": [
+        {
+          "icon": "🚌",
+          "title": "Áfram frítt í strætó",
+          "text": "VG styður heilshugar að áfram verði frítt í strætisvagnakerfi Akureyrar.",
+          "source_quote": "Við styðjum heilshugar að áfram verði frítt í strætó"
+        },
+        {
+          "icon": "🍱",
+          "title": "Gjaldfrjálsar skólamáltíðir og frístund",
+          "text": "Skólamáltíðir og frístund í Akureyri verði gerðar gjaldfrjálsar í skrefum.",
+          "source_quote": "gera skólamáltíðir og frístund gjaldfrjálsa í skrefum"
+        },
+        {
+          "icon": "🌳",
+          "title": "Viðhald og hreinsun bæjarins",
+          "text": "Lögð er áhersla á gott viðhald og hreinsun bæjarins.",
+          "source_quote": "Við leggjum mikla áherslu á gott viðhald og hreinsun bæjarins"
+        },
+        {
+          "icon": "🏘️",
+          "title": "Þétting byggðar",
+          "text": "Takmörkuð landgæði kalla á þéttingu byggðar í Akureyri.",
+          "source_quote": "Við eigum takmörkuð landgæði og verðum að horfa til þéttingar"
+        },
+        {
+          "icon": "🛣️",
+          "title": "Hálkuvarnir",
+          "text": "Hálkuvarnir í bænum eru mikilvægt öryggisatriði.",
+          "source_quote": "Hálkuvarnir eru mikilvægt öryggisatriði"
+        }
+      ]
+    },
+    {
+      "id": "BLA.BSP",
+      "muni_slug": "blaskogabyggd",
+      "party_code": "BSP",
+      "platform_url": "https://www.dfs.is/frettir/kosningar/soknarfaeri-i-blaskogabyggd/",
+      "verified_source_kind": "news-with-rationale",
+      "audit_status": "OK",
+      "audit_note": "Op-ed by Þ-listinn candidate on dfs.is sets out platform priorities; bullets quoted verbatim.",
+      "tagline": "Þ-listinn — sóknarfæri og grunnþjónusta í Bláskógabyggð",
+      "agenda": [
+        {
+          "icon": "🏠",
+          "title": "Fleiri íbúðalóðir",
+          "text": "Boðið verður upp á fleiri íbúðalóðir til úthlutunar.",
+          "source_quote": "bjóða upp á fleiri íbúðalóðir til úthlutunar"
+        },
+        {
+          "icon": "💼",
+          "title": "Lóðir fyrir fyrirtæki og fjölbreyttari störf",
+          "text": "Fyrirtækjum verða boðnar lóðir til uppbyggingar og fjölbreyttari störf sköpuð.",
+          "source_quote": "bjóða fyrirtækjum lóðir til uppbyggingar og skapa fjölbreyttari störf"
+        },
+        {
+          "icon": "🏥",
+          "title": "Aukin grunnþjónusta",
+          "text": "Sótt verður eftir meiri grunnþjónustu, svo sem dvalarheimili fyrir aldraða, apóteki og lágvöruverslun.",
+          "source_quote": "fá til okkar meiri grunnþjónustu, svo sem dvalarheimili fyrir aldraða, apótek og lágvöruverslun"
+        },
+        {
+          "icon": "💻",
+          "title": "Sameiginleg fjarvinnurými",
+          "text": "Útbúin verða sameiginleg rými þar sem fólk getur unnið fjarvinnu og hist.",
+          "source_quote": "útbúa sameiginleg rými þar sem fólk getur unnið fjarvinnu, hitt annað fólk, drukkið kaffi"
+        }
+      ]
+    },
+    {
+      "id": "AKR.D",
+      "muni_slug": "akranes",
+      "party_code": "D",
+      "platform_url": "https://skessuhorn.is/adsendar-greinar/abyrg-fjarmal-betri-thjonusta-a-akranesi",
+      "verified_source_kind": "news-with-rationale",
+      "audit_status": "OK",
+      "audit_note": "Op-ed by Sjálfstæðisflokkurinn candidate (8. sæti) on Skessuhorn sets out party's platform; bullets quoted verbatim.",
+      "tagline": "Sjálfstæðisflokkurinn á Akranesi — ábyrg fjármál, betri þjónusta",
+      "agenda": [
+        {
+          "icon": "💰",
+          "title": "Sterk og ábyrg fjármál",
+          "text": "Sterk og ábyrg fjármál eru forsenda þess að Akranes geti sinnt hlutverki sínu vel.",
+          "source_quote": "Sterk og ábyrg fjármál eru forsenda þess að sveitarfélag geti sinnt hlutverki sínu vel"
+        },
+        {
+          "icon": "💸",
+          "title": "Skynsöm nýting sameiginlegra sjóða",
+          "text": "Hver króna úr sameiginlegum sjóðum á að nýtast íbúum á skynsaman, gagnsæjan og réttlátan hátt.",
+          "source_quote": "hver króna sem fer úr sameiginlegum sjóðum nýtist í okkar þágu – á skynsaman, gagnsæjan og réttlátan hátt"
+        },
+        {
+          "icon": "⚙️",
+          "title": "Skilvirkari rekstur",
+          "text": "Með einföldun ferla, betra skipulagi og bættri tækninýtingu má auka skilvirkni.",
+          "source_quote": "Með því að einfalda ferla, bæta skipulag og nýta tækni betur getum við aukið skilvirkni"
+        },
+        {
+          "icon": "🪟",
+          "title": "Gagnsæi í lykilhlutverki",
+          "text": "Gagnsæi er lykilatriði í rekstri Akraness.",
+          "source_quote": "Gagnsæi er lykilatriði"
+        },
+        {
+          "icon": "🎯",
+          "title": "Framúrskarandi þjónusta",
+          "text": "Markmiðið er að reka Akranes á ábyrgan hátt og veita framúrskarandi þjónustu.",
+          "source_quote": "Markmiðið er einfalt; að reka Akranes á ábyrgan hátt þannig að við getum veitt framúrskarandi þjónustu"
+        }
+      ]
+    },
+    {
+      "id": "BOR.D",
+      "muni_slug": "borgarbyggd",
+      "party_code": "D",
+      "platform_url": "https://skessuhorn.is/adsendar-greinar/uxahryggir-og-kaldidalur-lykill-ad-oflugri-borgarbyggd-og-betri-ferdathjonustu-a-islandi",
+      "verified_source_kind": "news-with-rationale",
+      "audit_status": "OK",
+      "audit_note": "Op-ed by Sjálfstæðisflokkurinn candidate Sigurður Guðmundsson on Skessuhorn presents the party's infrastructure platform; bullets quoted verbatim.",
+      "tagline": "Sjálfstæðisflokkurinn í Borgarbyggð — innviðir og samgöngur fyrir öflugt sveitarfélag",
+      "agenda": [
+        {
+          "icon": "🛣️",
+          "title": "Vegabætur á Uxahryggjum og Kaldadal",
+          "text": "Lykilinnviðir í Borgarbyggð: vegabætur á Uxahryggjum og Kaldadal til að styrkja samfélagið og ferðaþjónustuna.",
+          "source_quote": "Vegabætur á Uxahryggjum og Kaldadal eru lykilinnviðir"
+        },
+        {
+          "icon": "🚧",
+          "title": "Áframhaldandi lagfæring Kaldadalsvegar",
+          "text": "Uppbygging vegarins um Uxahryggi og lagfæring á Kaldadalsvegi heldur áfram.",
+          "source_quote": "Uppbygging vegarins um Uxahryggi og áframhaldandi lagfæring Kaldadalsvegar"
+        },
+        {
+          "icon": "🏞️",
+          "title": "Nýjar hringleiðir frá höfuðborgarsvæðinu",
+          "text": "Skapaðar verða nýjar og áhugaverðar hringleiðir frá höfuðborgarsvæðinu um Borgarbyggð.",
+          "source_quote": "Skapa nýjar og afar áhugaverðar hringleiðir frá höfuðborgarsvæðinu"
+        },
+        {
+          "icon": "❄️",
+          "title": "Heilsársopnun fjallvega",
+          "text": "Forsendur skapaðar fyrir því að halda veginum opnum yfir vetrarmánuðina.",
+          "source_quote": "Skapa forsendur fyrir því að halda veginum opnum yfir vetrarmánuðina"
+        },
+        {
+          "icon": "🚍",
+          "title": "Stöðugri ferðaþjónusta",
+          "text": "Heilsársopnun og bætt færð gerir ferðaþjónustunni kleift að byggja upp stöðugri rekstur.",
+          "source_quote": "Heilsársopnun og bætt færð gera ferðaþjónustunni kleift að byggja upp stöðugri rekstur"
+        }
+      ]
+    },
+    {
+      "id": "AKR.M",
+      "muni_slug": "akranes",
+      "party_code": "M",
+      "platform_url": "https://skessuhorn.is/2026/04/14/midflokkurinn-bydur-i-fyrsta-sinn-fram-a-akranesi",
+      "verified_source_kind": "news-with-rationale",
+      "audit_status": "OK",
+      "audit_note": "Skessuhorn news article naming Miðflokkurinn's five priority areas verbatim; the same sentence sources every bullet.",
+      "tagline": "Miðflokkurinn á Akranesi — fimm áherslumál fyrir bæinn",
+      "agenda": [
+        {
+          "icon": "📊",
+          "title": "Ábyrg fjármál og stjórnsýsla",
+          "text": "Ábyrg fjármál og stjórnsýsla eru meðal helstu áherslumála Miðflokksins á Akranesi.",
+          "source_quote": "helstu áherslumál framboðsins verða; ábyrg fjármál og stjórnsýsla, skólamál, samgöngumál, íþróttamál og atvinnuuppbygging."
+        },
+        {
+          "icon": "🏫",
+          "title": "Skólamál",
+          "text": "Skólamál eru meðal helstu áherslumála Miðflokksins á Akranesi.",
+          "source_quote": "helstu áherslumál framboðsins verða; ábyrg fjármál og stjórnsýsla, skólamál, samgöngumál, íþróttamál og atvinnuuppbygging."
+        },
+        {
+          "icon": "🛣️",
+          "title": "Samgöngumál",
+          "text": "Samgöngumál eru meðal helstu áherslumála Miðflokksins á Akranesi.",
+          "source_quote": "helstu áherslumál framboðsins verða; ábyrg fjármál og stjórnsýsla, skólamál, samgöngumál, íþróttamál og atvinnuuppbygging."
+        },
+        {
+          "icon": "⚽",
+          "title": "Íþróttamál",
+          "text": "Íþróttamál eru meðal helstu áherslumála Miðflokksins á Akranesi.",
+          "source_quote": "helstu áherslumál framboðsins verða; ábyrg fjármál og stjórnsýsla, skólamál, samgöngumál, íþróttamál og atvinnuuppbygging."
+        },
+        {
+          "icon": "💼",
+          "title": "Atvinnuuppbygging",
+          "text": "Atvinnuuppbygging er meðal helstu áherslumála Miðflokksins á Akranesi.",
+          "source_quote": "helstu áherslumál framboðsins verða; ábyrg fjármál og stjórnsýsla, skólamál, samgöngumál, íþróttamál og atvinnuuppbygging."
+        }
+      ]
+    }
+  ]
+}

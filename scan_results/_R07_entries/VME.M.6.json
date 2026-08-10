@@ -1,0 +1,37 @@
+{
+  "id": "VME.M.6",
+  "bio": "Þuríður Bernódusdóttir er fædd í Vestmannaeyjum 13. nóvember 1954, dóttir Bernódusar Þorkelssonar skipstjóra og Aðalbjargar Jóhönnu Bergmundsdóttur. Hún lauk verslunarprófi frá Framhaldsskólanum í Vestmannaeyjum og hefur einnig sótt skrifstofu- og bókhaldsnám. Þuríður vann lengi við fiskvinnslu, var verkstjóri hjá Ísfélaginu og rak ásamt eiginmanni sínum harðfiskverkunina Gust í Vestmannaeyjum á árunum 1986–1994. Hún starfaði sem gjaldkeri hjá sýslumanninum í Vestmannaeyjum 1994–2001 og hefur síðustu árin verið þjónustufulltrúi á fjölskyldu- og fræðslusviði Vestmannaeyjabæjar. Þuríður átti sæti á Alþingi sem varaþingmaður Framsóknarflokksins í Suðurlandskjördæmi á árunum 1991–1995 og sat einnig í útvarpsráði. Hún var ein af stofnendum menningarviðburðarins Eyjahjartans. Hún skipar 6. sæti á lista Miðflokksins í Vestmannaeyjum fyrir sveitarstjórnarkosningarnar 2026. Eiginmaður hennar er Gísli Erlingsson og eiga þau tvo syni.",
+  "sources": [
+    "https://www.heimaslod.is/index.php/%C3%9Eur%C3%AD%C3%B0ur_Bern%C3%B3dusd%C3%B3ttir_(Borgarh%C3%B3l)",
+    "https://safnahus.vestmannaeyjar.is/page/eyjahjartad-2019",
+    "https://midflokkurinn.is/vestmannaeyjar"
+  ],
+  "statements": [
+    {"n":1,"status":"rescued","claim":"Fædd 13. nóvember 1954, dóttir Bernódusar Þorkelssonar og Aðalbjargar Jóhönnu Bergmundsdóttur","quotes":["Þuríður Bernódusdóttir frá Borgarhól við Kirkjuveg 11 , húsfreyja, fiskverkakona, þjónustufulltrúi fæddist 13. nóvember 1954","Foreldrar hennar voru Bernódus Þorkelsson frá Sandprýði , vélstjóri, skipstjóri","Aðalbjörg Jóhanna Bergmundsdóttir"]},
+    {"n":2,"status":"rescued","claim":"Verslunarpróf og skrifstofu/bókhaldsnám","quotes":["lauk verslunarprófi í Framhaldsskólanum í Eyjum","stundaði nám á skrifstofubraut við Menntaskólann í Kópavogi og bókaranám við Háskólann í Reykjavík"]},
+    {"n":3,"status":"rescued","claim":"Verkstjóri hjá Ísfélaginu","quotes":["Þuríður var fiskiðnaðarkona og verkstjóri hjá Ísfélaginu"]},
+    {"n":4,"status":"flagged","claim":"Rak Gust ásamt eiginmanni sínum 1986–1994","quotes":[],"note":"Heimild segir 'stofnaði ásamt nokkrum systrum sínum Harðfiskverkunina Gust í Eyjum 1986 og starfrækti hana til 1994' — ekki eiginmanni."},
+    {"n":5,"status":"rescued","claim":"Gjaldkeri hjá sýslumanni 1994–2001","quotes":["Þuríður var gjaldkeri hjá sýslumanninum í Vestmannaeyjum 1994-2001"]},
+    {"n":6,"status":"rescued","claim":"Þjónustufulltrúi á fjölskyldu- og fræðslusviði Vestmannaeyjabæjar","quotes":["Hún var ráðin þjónustufulltrúi á skrifstofu fjölskyldu og fræðslusviðs í Eyjum 3. mars 2021"]},
+    {"n":7,"status":"rescued","claim":"Varaþingmaður Framsóknarflokksins í Suðurlandskjördæmi 1991–1995","quotes":["var varaþingmaður Framsóknarflokksins í Suðurlandskjördæmi á árunum 1991-1995 og sat á Alþingi um skeið 1992, 1993 og 1994"]},
+    {"n":8,"status":"flagged","claim":"Sat í útvarpsráði","quotes":[],"note":"Heimild segir 'varamaður í stjórn Ríkisútvarpsins' — ekki sama og útvarpsráð."},
+    {"n":9,"status":"verified","claim":"Ein af stofnendum/aðstandendum Eyjahjartans","quotes":["Þau sem standa að Eyjahjartanu og hafa gert frá upphafi eru Kári Bjarnason, Einar Gylfi Jónsson, Atli Ásmundsson og Þuríður Bernódusdóttir"]},
+    {"n":10,"status":"verified","claim":"6. sæti á lista Miðflokksins í Vestmannaeyjum 2026","quotes":["6. sæti Þuríður Bernódusdóttir Eldri borgari og afgreiðslustúlka"]},
+    {"n":11,"status":"rescued","claim":"Eiginmaður Gísli Erlingsson, tveir synir","quotes":["Maður Þuríðar, (24. júní 1978), er Gísli Erlingsson húsmíðameistari","Þau Gísli giftu sig 1978, eignuðust tvö börn"]}
+  ],
+  "summary": "Two clauses fail audit: (a) 'rak ásamt eiginmanni sínum' contradicts Heimaslóð which says she founded Gust with sisters; (b) 'útvarpsráð' is loose paraphrase of 'varamaður í stjórn Ríkisútvarpsins'. Rewrite drops/corrects both.",
+  "rescue": {
+    "rewrite": "Þuríður Bernódusdóttir er fædd í Vestmannaeyjum 13. nóvember 1954, dóttir Bernódusar Þorkelssonar skipstjóra og Aðalbjargar Jóhönnu Bergmundsdóttur. Hún lauk verslunarprófi frá Framhaldsskólanum í Eyjum og hefur einnig stundað nám á skrifstofubraut við Menntaskólann í Kópavogi og bókaranám við Háskólann í Reykjavík. Þuríður var verkstjóri hjá Ísfélaginu og stofnaði árið 1986 harðfiskverkunina Gust í Eyjum ásamt nokkrum systrum sínum og starfrækti hana til 1994. Hún var gjaldkeri hjá sýslumanninum í Vestmannaeyjum 1994–2001 og var ráðin þjónustufulltrúi á skrifstofu fjölskyldu- og fræðslusviðs í Eyjum árið 2021. Þuríður var varaþingmaður Framsóknarflokksins í Suðurlandskjördæmi 1991–1995 og um skeið varamaður í stjórn Ríkisútvarpsins. Hún hefur frá upphafi verið ein af aðstandendum menningarviðburðarins Eyjahjartans. Eiginmaður hennar er Gísli Erlingsson og eiga þau tvo syni. Hún skipar 6. sæti á lista Miðflokksins í Vestmannaeyjum fyrir sveitarstjórnarkosningarnar 2026.",
+    "rewrite_words": 154,
+    "new_sources": [],
+    "resolutions": [
+      {"n":4,"action":"corrected","reason":"Gust founded with sisters not husband; rewrite reflects source"},
+      {"n":8,"action":"corrected","reason":"changed útvarpsráð to varamaður í stjórn Ríkisútvarpsins"}
+    ],
+    "new_heimild": [
+      {"url":"https://www.heimaslod.is/index.php/%C3%9Eur%C3%AD%C3%B0ur_Bern%C3%B3dusd%C3%B3ttir_(Borgarh%C3%B3l)","label":"Heimaslóð"},
+      {"url":"https://safnahus.vestmannaeyjar.is/page/eyjahjartad-2019","label":"Eyjahjartað 2019"},
+      {"url":"https://midflokkurinn.is/vestmannaeyjar","label":"Miðflokkurinn — Vestmannaeyjar"}
+    ]
+  }
+}

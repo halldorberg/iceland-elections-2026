@@ -1,0 +1,36 @@
+{
+  "id": "RVK.S.6",
+  "bio": "Bjarnveig Birta Bjarnadóttir er rekstrarstjóri hjá hönnunarfyrirtækinu Tulipop, sem framleiðir íslenskar barnavörur. Hún er með BS-próf í viðskiptafræði og MS-próf í stjórnun og stefnumótun frá Háskóla Íslands. Hún ólst upp í Breiðholti hjá ungum foreldrum sem stunduðu láglaunastörf og nám og býr nú í Rimahverfi í Grafarvogi með eiginmanni sínum Pétri Frey Sigurjónssyni og þremur börnum. Í desember 2025 sigraði hún ásamt Stein Olav Romslo ungliðaprófkjör Hallveigar, ungliðahreyfingar Samfylkingarinnar í Reykjavík. Hún hefur lagt áherslu á barnafjölskyldur, hverfaþróun og skilvirkari rekstur borgarinnar. Hún skipar 6. sæti á lista Samfylkingarinnar í Reykjavík.",
+  "sources": [
+    "https://www.bjarnveigbirta.is/",
+    "https://www.mbl.is/frettir/innlent/2026/01/01/bjarn_veig_birta_bydur_sig_fram_i_2_saeti_hja_sam_f/",
+    "https://www.mbl.is/frettir/innlent/2025/12/13/bjarnveig_birta_og_stein_olav_sigrudu_unglidaprofkj/",
+    "https://mannlif.is/greinar/krofuhord-bjarnveig/",
+    "https://xs.is/frambjodendur-i-reykjavik-2026"
+  ],
+  "statements": [
+    {"n":1,"status":"verified","claim":"Rekstrarstjóri Tulipop","quotes":["Bjarnveig Birta Bjarnadóttir, rekstrarstjóri Tulipop","Ég hef starfað sem rekstrarstjóri hjá nýsköpunarfyrirtækinu Tulipop"]},
+    {"n":2,"status":"flagged","claim":"Tulipop framleiðir íslenskar barnavörur","quotes":[],"note":"Heimasíða segir 'framleiðir hágæðaefni fyrir börn á íslensku' (efni á íslensku, ekki barnavörur)."},
+    {"n":3,"status":"verified","claim":"BS viðskiptafræði og MS stjórnun og stefnumótun frá HÍ","quotes":["Bjarnveig Birta er með B.Sc.-gráðu í viðskiptafræði og M.Sc.-gráðu í stjórnun og stefnumótun frá Háskóla Íslands"]},
+    {"n":4,"status":"verified","claim":"Ólst upp í Breiðholti hjá ungum foreldrum","quotes":["Ég ólst upp í Breiðholti með foreldrum mínum sem voru aðeins 16 ára þegar þau áttu mig","Við bjuggum í verkamannabústöðum hjá ömmu minni á meðan foreldrar mínir unnu láglaunastörf og sóttu sér menntun"]},
+    {"n":5,"status":"verified","claim":"Býr í Rimahverfi með Pétri Frey Sigurjónssyni og þremur börnum","quotes":["Ég bý í Rimahverfi Grafarvogs með manninum mínum Pétri Frey Sigurjónssyni og börnunum okkar sem eru 2, 5 og 6 ára gömul"]},
+    {"n":6,"status":"verified","claim":"Sigraði ungliðaprófkjör Hallveigar í desember 2025 ásamt Stein Olav Romslo","quotes":["Hún sigraði í ungliðaprófkjöri Hallveigar, félags ungs jafnaðarfólks í Reykjavík í byrjun desem","Bjarnveig og Stein Olav Romslo unnu forprófkjör hjá ungliðahreyfingunni"]},
+    {"n":7,"status":"verified","claim":"Áhersla á barnafjölskyldur, hverfaþróun, rekstur","quotes":["Ég ætla að berjast fyrir barnafjölskyldur","Ég ætla að efla hverfin í borginni","Ég ætla að passa upp á reksturinn"]},
+    {"n":8,"status":"verified","claim":"6. sæti á lista Samfylkingarinnar í Reykjavík 2026","quotes":["6. Bjarnveig Birta Bjarnadóttir Rekstrarstjóri"]}
+  ],
+  "summary": "Almost all verified; Tulipop description loose paraphrase ('íslenskar barnavörur' vs 'hágæðaefni fyrir börn á íslensku').",
+  "rescue": {
+    "rewrite": "Bjarnveig Birta Bjarnadóttir er rekstrarstjóri hjá nýsköpunarfyrirtækinu Tulipop, sem framleiðir hágæðaefni fyrir börn á íslensku. Hún er með B.Sc.-próf í viðskiptafræði og M.Sc.-próf í stjórnun og stefnumótun frá Háskóla Íslands. Bjarnveig Birta ólst upp í Breiðholti hjá foreldrum sem voru sextán ára þegar þau áttu hana og stunduðu láglaunastörf og nám, og býr nú í Rimahverfi Grafarvogs með eiginmanni sínum Pétri Frey Sigurjónssyni og þremur börnum þeirra. Í desember 2025 sigraði hún ungliðaprófkjör Hallveigar, ungliðahreyfingar Samfylkingarinnar í Reykjavík, ásamt Stein Olav Romslo. Áherslumál hennar eru barnafjölskyldur, efling hverfanna og að passa upp á rekstur borgarinnar. Hún skipar 6. sæti á lista Samfylkingarinnar í Reykjavík fyrir borgarstjórnarkosningarnar 2026.",
+    "rewrite_words": 132,
+    "new_sources": [],
+    "resolutions": [
+      {"n":2,"action":"corrected","reason":"vörulýsing samræmd Tulipop heimasíðu"}
+    ],
+    "new_heimild": [
+      {"url":"https://www.bjarnveigbirta.is/","label":"bjarnveigbirta.is"},
+      {"url":"https://www.mbl.is/frettir/innlent/2026/01/01/bjarn_veig_birta_bydur_sig_fram_i_2_saeti_hja_sam_f/","label":"mbl.is — býður sig fram"},
+      {"url":"https://www.mbl.is/frettir/innlent/2025/12/13/bjarnveig_birta_og_stein_olav_sigrudu_unglidaprofkj/","label":"mbl.is — ungliðaprófkjör 2025"},
+      {"url":"https://xs.is/frambjodendur-i-reykjavik-2026","label":"xs.is — listi Samfylkingar Reykjavík 2026"}
+    ]
+  }
+}

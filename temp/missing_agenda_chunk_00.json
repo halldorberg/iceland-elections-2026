@@ -1,0 +1,212 @@
+[
+  {
+    "muni_id": "blaskogabyggd",
+    "muni_name": "Bláskógabyggð",
+    "const": "BSG",
+    "code": "BST",
+    "tagline": "T-listinn — framþróun í Bláskógabyggð",
+    "leader": "Helgi Kjartansson",
+    "leader_occ": "Íþróttakennari",
+    "top5_names": [
+      "Helgi Kjartansson",
+      "Stefanía Hákonardóttir",
+      "Áslaug Alda Þórarinsdóttir",
+      "Ísak Eyfjörð Arnarson",
+      "Kristján Einir Trautason"
+    ],
+    "sources_in_data": [
+      "https://www.dfs.is/frettir/frambodslisti-t-listans-samthykktur-a-fjolmennum-fundi/",
+      "https://www.visir.is/g/20222264115d/naest-staersti-sigur-lista-a-landinu-var-i-bla-skoga-byggd",
+      "https://www.blaskogabyggd.is/is/moya/news/tveir-frambodslistar",
+      "https://www.icelandreview.com/news/population-climb-continues-in-blaskogabyggd-says-mayor/",
+      "https://www.mbl.is/frettir/innlent/2025/08/03/metnadur_fyrir_thjonustu/",
+      "https://www.sunnlenska.is/frettir/tveir-frambodslistar-i-blaskogabyggd/"
+    ]
+  },
+  {
+    "muni_id": "eyjafjardarsveit",
+    "muni_name": "Eyjafjarðarsveit",
+    "const": "EJA",
+    "code": "EJF",
+    "tagline": "F-listinn — öflugt landbúnaðarsamfélag í Eyjafirði",
+    "leader": "Hermann Ingi Gunnarsson",
+    "leader_occ": "Bóndi og bæjarfulltrúi",
+    "top5_names": [
+      "Hermann Ingi Gunnarsson",
+      "Berglind Kristinsdóttir",
+      "Gestur Júlíusson",
+      "Inga Vala Gísladóttir",
+      "Hákon B. Harðarson"
+    ],
+    "sources_in_data": [
+      "http://hedinsfjordur.is/k-listinn-er-nytt-ohad-frambod-i-dalvikurbyggd/",
+      "https://kaffid.is/tvo-frambod-i-eyjafjardarsveit/",
+      "https://www.bbl.is/lif-og-starf/lif-og-starf/bondinn-a-klauf-med-allt-ad-8-tonn-af-byggi-a-hektara",
+      "https://www.ruv.is/frett/2021/08/27/its-fun-to-be-a-farmer-these-days",
+      "https://kosningasaga.wordpress.com/2026/04/11/frambodslisti-k-lista-dalvikurbyggdar/",
+      "https://www.mbl.is/frettir/innlent/2023/10/20/komin_mikil_uppgjof_hja_baendum/"
+    ]
+  },
+  {
+    "muni_id": "grindavik",
+    "muni_name": "Grindavík",
+    "const": "GRN",
+    "code": "B",
+    "tagline": "Ásrún Helga Kristinsdóttir leiðir Framsókn í Grindavík",
+    "leader": "Ásrún Helga Kristinsdóttir",
+    "leader_occ": "Kennari og forseti bæjarstjórnar",
+    "top5_names": [
+      "Ásrún Helga Kristinsdóttir",
+      "Þorleifur Ólafsson",
+      "Inga Fanney Rúnarsdóttir",
+      "Elínborg Ingvarsdóttir",
+      "Benedikt Óskar Steingrímsson"
+    ],
+    "sources_in_data": [
+      "https://web.archive.org/web/2024/https://grindavik.is/v/42",
+      "https://kosningasaga.wordpress.com/2026/03/18/frambodslisti-framsoknar-i-grindavik/",
+      "https://www.dv.is/frettir/2024/05/08/forseti-baejarstjornar-grindavikur-segir-baeinn-raun-daudan/",
+      "https://www.mbl.is/frettir/innlent/2025/10/09/finn_fyrir_aukinni_bjartsyni_hja_folki/",
+      "https://www.mbl.is/frettir/innlent/2025/03/17/um_200_fjolskyldur_thurfa_a_studningi_ad_halda/",
+      "https://www.mbl.is/frettir/innlent/2023/11/24/vona_ad_sem_flestir_grindvikingar_snui_aftur_heim/"
+    ]
+  },
+  {
+    "muni_id": "hrunamannahreppur",
+    "muni_name": "Hrunamannahreppur",
+    "const": "HMR",
+    "code": "HRL",
+    "tagline": "L-listinn — íbúar í forgrunni í Hrunamannahreppi",
+    "leader": "Daði Geir Samúelsson",
+    "leader_occ": "Rekstrarstjóri Sólskins grænmetis",
+    "top5_names": [
+      "Daði Geir Samúelsson",
+      "Rakel Ósk Kristófersdóttir",
+      "Hjalti Sigurðsson",
+      "Margrét Sævarsdóttir",
+      "Þórmundur Smári Hilmarsson"
+    ],
+    "sources_in_data": [
+      "https://kosningasaga.wordpress.com/2026/04/06/frambodslisti-l-listans-i-hrunamannahreppi-2/",
+      "https://www.solskinsbudin.is/",
+      "https://rocketreach.co/dadi-samuelsson-email_267343814"
+    ]
+  },
+  {
+    "muni_id": "hunathing",
+    "muni_name": "Húnaþing vestra",
+    "const": "HNT",
+    "code": "D",
+    "tagline": "Sjálfstæðisflokkur og óháðir í Húnaþingi vestra",
+    "leader": "Örn Arnarson",
+    "leader_occ": "Framkvæmdastjóri",
+    "top5_names": [
+      "Örn Arnarson",
+      "Sigríður Ólafsdóttir",
+      "Magnús Magnússon",
+      "Fríða Marý Halldórsdóttir",
+      "Magnús Örn Valsson"
+    ],
+    "sources_in_data": [
+      "https://www.hunathing.is/is/mannlif/frettir-og-auglysingar/tilkynningar-og-frettir/auglysing-um-urskurd-kjorstjornar-hunathings-vestra",
+      "https://www.hunathing.is/is/sigridur-olafsdottir",
+      "https://www.rml.is/is/moya/employees/viewEmployee/sigridur-olafsdottir",
+      "https://huni.is/index.php?cid=22730&pid=32",
+      "https://www.hunathing.is/is/magnus-magnusson"
+    ]
+  },
+  {
+    "muni_id": "rangarthingeystra",
+    "muni_name": "Rangárþing eystra",
+    "const": "RTE",
+    "code": "D",
+    "tagline": "Sjálfstæðisflokkurinn í Rangárþingi eystra — þróun og stöðug",
+    "leader": "Anton Kári Halldórsson",
+    "leader_occ": "Sveitarstjóri",
+    "top5_names": [
+      "Anton Kári Halldórsson",
+      "Aðalbjörg Rún Ásgeirsdóttir",
+      "Andri Már Óskarsson",
+      "Hulda Dóra Eysteinsdóttir",
+      "Bjarki Freyr Sigurjónsson"
+    ],
+    "sources_in_data": [
+      "https://www.hvolsvollur.is/is/stjornsysla/stjornsysla/fundargerdir/fjolskyldunefnd/440",
+      "https://www.bbl.is/frettir/bjarki-freyr-sigurjonsson-er-kjotmeistari-islands-2020",
+      "https://www.mbl.is/frettir/innlent/2014/05/17/syslumadur_faest_vid_byflugnaraekt/",
+      "https://www.sunnlenska.is/frettir/frambodslisti-d-listans-i-rangarthingi-eystra-samthykktur/",
+      "https://www.mbl.is/frettir/innlent/2025/05/19/lausar_lodir_i_thjodlendunum/",
+      "https://www.mbl.is/frettir/innlent/2026/01/22/retta_fram_sattarhond_vid_seljalandsfoss/"
+    ]
+  },
+  {
+    "muni_id": "skeidagnup",
+    "muni_name": "Skeiða- og Gnúpverjahreppur",
+    "const": "SGN",
+    "code": "SGE",
+    "tagline": "Uppbyggingarlistinn — framtíð Skeiða- og Gnúpverjahrepps",
+    "leader": "Gunnar Örn Marteinsson",
+    "leader_occ": "Ferðaþjónustubóndi",
+    "top5_names": [
+      "Gunnar Örn Marteinsson",
+      "Ingibjörg Sæunn Jónsdóttir",
+      "Sigurður Kristmundsson",
+      "Sigríður Björk Marinósdóttir",
+      "Gylfi Sigríðarson"
+    ],
+    "sources_in_data": [
+      "https://www.skeidgnup.is/is/moya/news/skil-a-frambodum-til-sveitarstjornarkosninga-16-mai-2026"
+    ]
+  },
+  {
+    "muni_id": "svalbardsstrond",
+    "muni_name": "Svalbarðsstrandarhreppur",
+    "const": "SVS",
+    "code": "SVSS",
+    "tagline": "S-listi í Svalbarðsstrandarhreppi — samstaða og framþróun",
+    "leader": "Sigríður Ingi Stefánsdóttir",
+    "leader_occ": "Frambjóðandi",
+    "top5_names": [
+      "Sigríður Ingi Stefánsdóttir",
+      "Hafrún Helga Arnardóttir",
+      "Halldóra Dögg Sigurðardóttir",
+      "Sigrún Rósa Kjartansdóttir",
+      "Elísabet Inga Ásgrímsdóttir"
+    ],
+    "sources_in_data": []
+  },
+  {
+    "muni_id": "sudavik",
+    "muni_name": "Súðavíkurhreppur",
+    "const": "SDV",
+    "code": "FJL",
+    "tagline": "Fjarðarlistinn — hlutum okkur af framtíð Súðavíkur",
+    "leader": "Kristján Rúnar Kristjánsson",
+    "leader_occ": "Frambjóðandi",
+    "top5_names": [
+      "Kristján Rúnar Kristjánsson",
+      "Ingibjörg Ásdís Björnsdóttir",
+      "Finnur Jónsson",
+      "María Lovísa Danium",
+      "Jónas Haukur Jónbjörnsson"
+    ],
+    "sources_in_data": []
+  },
+  {
+    "muni_id": "arneshr",
+    "muni_name": "Árneshreppur",
+    "const": "ARN",
+    "code": "ARNA",
+    "tagline": "Á-listi — Framtíð Árneshrepps",
+    "leader": "Sigrún Sverrisdóttir",
+    "leader_occ": "Frambjóðandi",
+    "top5_names": [
+      "Sigrún Sverrisdóttir",
+      "Þorgerður Lilja Björnsdóttir",
+      "Róbert Hlífar Ingólfsson",
+      "Davíð Már Bjarnason",
+      "Thomas Elguezabal"
+    ],
+    "sources_in_data": []
+  }
+]

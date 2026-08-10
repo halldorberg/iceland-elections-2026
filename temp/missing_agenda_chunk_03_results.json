@@ -1,0 +1,102 @@
+[
+  {
+    "muni_name": "Dalvíkurbyggð",
+    "code": "B",
+    "list_name": "Framsókn og óháðir í Dalvíkurbyggð",
+    "found": false,
+    "best_url": null,
+    "source_type": "none",
+    "notes": "Could not locate any 2026 stefnuskrá / áherslur for Framsókn og óháðir í Dalvíkurbyggð on framsokn.is, the muni site, or in news. The dedicated framsokn.is/sveitarstjornarfolk/dalvikurbyggd/ slug returns 404. Only candidate-list announcements (mbl.is, kaffid.is, kosningasaga) are available — already in sources_in_data. The 2022 'Framsókn og frjálsra' Issuu booklet is from the previous term and must NOT be used.",
+    "fb_page_url": null
+  },
+  {
+    "muni_name": "Fjallabyggð",
+    "code": "H",
+    "list_name": "H-listinn Fyrir heildina í Fjallabyggð",
+    "found": true,
+    "best_url": "https://www.facebook.com/H-Listinn-Fyrir-Heildina-%C3%AD-Fjallabygg%C3%B0-1611807362248615/",
+    "source_type": "facebook",
+    "notes": "No 2026 stefnuskrá published on a standalone site. The H-listinn 'Fyrir heildina í Fjallabyggð' Facebook page exists (id 1611807362248615) and is their primary public channel — likely posts platform content as posts/images. Hedinsfjordur.is and trolli.is articles cover the slate but reference older platform points (environment, transport, school discounts). No 2026 áherslur document found.",
+    "fb_page_url": "https://www.facebook.com/H-Listinn-Fyrir-Heildina-%C3%AD-Fjallabygg%C3%B0-1611807362248615/"
+  },
+  {
+    "muni_name": "Grundarfjörður",
+    "code": "GFB",
+    "list_name": "Framsókn og félagshyggjufólk í Grundarfirði",
+    "found": false,
+    "best_url": null,
+    "source_type": "none",
+    "notes": "Joint Framsókn/Samfylking list. Neither framsokn.is nor xs.is has a Grundarfjörður sub-page; the muni site only lists candidates; bb.is and kosningasaga have only the slate announcement (already in sources). No 2026 stefnuskrá / áherslur document or op-ed located. No FB page surfaced in searches.",
+    "fb_page_url": null
+  },
+  {
+    "muni_name": "Húnabyggð",
+    "code": "D",
+    "list_name": "Sjálfstæðismenn og óháðir í Húnabyggð",
+    "found": true,
+    "best_url": "https://www.feykir.is/is/frettir/x26-gudmundur-haukur-er-i-1-saeti-d-listans-i-hunabyggd",
+    "source_type": "op-ed",
+    "notes": "Feykir.is X26 leader-introduction article includes Guðmundur Haukur's three campaign priorities: (1) family-friendly society with strong services, (2) economic development and energy issues, (3) infrastructure and transportation — with infrastructure flagged as his main fight. xd.is/sveitastjornir/hunabyggd/ has only a candidate list, no 2026 platform. No dedicated D-listi sub-site found.",
+    "fb_page_url": null
+  },
+  {
+    "muni_name": "Mýrdalshreppur",
+    "code": "MYA",
+    "list_name": "A-listi Allra í Mýrdalshreppi",
+    "found": false,
+    "best_url": null,
+    "source_type": "none",
+    "notes": "A-listi Allra (Listi allra). Only the kosningasaga slate post and the vik.is municipal election page surfaced — both already in sources. No standalone stefnuskrá, no party site, no op-ed/interview, no FB page found. dfs.is/sunnlenska.is have no Mýrdalshreppur 2026 election content yet.",
+    "fb_page_url": null
+  },
+  {
+    "muni_name": "Reykhólahreppur",
+    "code": "S",
+    "list_name": "Samfylking og óháðir í Reykhólahreppi",
+    "found": false,
+    "best_url": null,
+    "source_type": "none",
+    "notes": "First-time Samfylking list. xs.is has no Reykhólar sub-page; bb.is and reykholar.is only carry the slate announcement; kosningasaga has the candidate list. No 2026 stefnuskrá / áherslur, no leader interview op-ed, no FB page surfaced.",
+    "fb_page_url": null
+  },
+  {
+    "muni_name": "Strandabyggð",
+    "code": "SBD",
+    "list_name": "Strandabandalagið",
+    "found": false,
+    "best_url": null,
+    "source_type": "none",
+    "notes": "Strandabandalagið — incumbent majority list led by mayor Þorgeir Pálsson. The bb.is 2026 article (already in sources) is a slate announcement only and does not contain a 2026 áherslur document. The 2022 bb.is 'Áherslur og sýn Strandabandalagsins 2022' op-ed exists but is excluded by 2026-only policy. No standalone party site, no 2026 stefnuskrá, no FB page surfaced.",
+    "fb_page_url": null
+  },
+  {
+    "muni_name": "Sveitarfélagið Skagaströnd",
+    "code": "S",
+    "list_name": "Samfylking og óháðir á Skagaströnd",
+    "found": true,
+    "best_url": "https://www.feykir.is/is/frettir/x26-ragnheidur-erla-er-i-1-saeti-s-listans-a-skagastrond",
+    "source_type": "op-ed",
+    "notes": "Feykir.is X26 leader-introduction article has substantive policy content from Ragnheiður Erla: strengthening community / population growth, attracting residents, simultaneous business development and housing construction, lower preschool fees with a per-household cap, two-week summer-care program before school starts, and leveraging proximity to nature for tourism. First Samfylking list ever in Skagaströnd. No standalone party site or FB page surfaced.",
+    "fb_page_url": null
+  },
+  {
+    "muni_name": "Vesturbyggð",
+    "code": "NYS",
+    "list_name": "Nýrra sýnar í Vesturbyggð",
+    "found": true,
+    "best_url": "https://bb.is/2026/04/vikuvidtalid-thorkatla-soffia-olafsdottir/",
+    "source_type": "op-ed",
+    "notes": "bb.is 'Vikuviðtalið' (week interview) with leader Þórkatla Soffía Ólafsdóttir is the best available source — covers her background and motivation for leading Nýrra sýnar (note Cloudflare blocks WebFetch but the page exists per search snippets). The slate-announcement bb.is article is also available. Earlier 2024 bb.is V-Barð piece refers to an older 'Ný sýn' position on Vatnsdalsvirkjun. No standalone party site or 2026 stefnuskrá document; no FB page surfaced.",
+    "fb_page_url": null
+  },
+  {
+    "muni_name": "Þingeyjarsveit",
+    "code": "THVA",
+    "list_name": "Á-listi Ábyrgðar í Þingeyjarsveit",
+    "found": false,
+    "best_url": null,
+    "source_type": "none",
+    "notes": "IMPORTANT: input tagline says 'A-listi … áfram sveitin' but the actual confirmed 2026 list led by Knútur Emil Jónasson is 'Á-listi Ábyrgðar' (per husavik.com and thingeyjarsveit.is). The other two lists are L-listi Framfara and N-listinn (Eyþór Kári). austurlistinn.is is the OLD Austurlistinn (Viðreisn-affiliated, 2022 stefnuskrá only) and is not Knútur's list. Husavik.com mbl.is articles cover Knútur's positions (against Einbúavirkjun, no further school mergers, infrastructure maintenance) but no 2026 stefnuskrá document or dedicated party site found. No FB page surfaced.",
+    "fb_page_url": null
+  }
+]

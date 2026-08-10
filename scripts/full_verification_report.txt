@@ -1,0 +1,2778 @@
+FULL VERIFICATION REPORT
+Municipalities checked: 54
+Party lists checked:    132
+Candidates verified:    2477
+Lists with mismatches:  0
+Lists fully matching:   132
+
+
+========================================================================
+MUNICIPALITY: Akraneskaupstaður
+  B listi - Framsókn og frjálsir  [✓ OK]  island.is=17 ours=17
+      ✓ Ragnar Baldvin Sæmundsson
+      ✓ Liv Aase Skarstad
+      ✓ Sædís Alexía Sigurmundsdóttir
+      ✓ Karl Jóhann Haagensen
+      ✓ Aníta Eir Einarsdóttir
+      ✓ Elín Theódóra Reynisdóttir
+      ✓ Björgvin Viktor Færseth
+      ✓ Erla Edvardsdóttir
+      ✓ Magni Grétarsson
+      ✓ Erla Björg Kristjánsdóttir
+      ✓ Freyr Líndal Sævarsson
+      ✓ Adriana Monika Malczyk
+      ✓ Áslaug Guðmundsdóttir
+      ✓ Jóhannes Geir Guðnason
+      ✓ Íris Petra Jónsdóttir
+      ✓ Þröstur Karlsson
+      ✓ Elsa Lára Arnardóttir
+  C listi - Viðreisn  [✓ OK]  island.is=16 ours=16
+      ✓ Jón Guðni Guðmundsson
+      ✓ Helga Björg Þrastardóttir
+      ✓ Ingvar Örn Ákason
+      ✓ Guðný Sara Birgisdóttir
+      ✓ Guðmundur Claxton
+      ✓ Tinna Steindórsdóttir
+      ✓ Ellert Hjelm Gestsson
+      ✓ Aldís Ylfa Heimisdóttir
+      ✓ Alexander Aron Guðjónsson
+      ✓ Hugrún Eva Valdimarsdóttir
+      ✓ Drífa Dröfn Siggerðardóttir
+      ✓ Sigfús Agnar Jónsson
+      ✓ Ragnheiður Ásta Brynjólfsdóttir
+      ✓ Ýmir Hjálmsson
+      ✓ Elírós Kjaran Zar
+      ✓ Jóhannes Finnur Halldórsson
+  D listi - Sjálfstæðisflokkurinn  [✓ OK]  island.is=17 ours=17
+      ✓ Líf Lárusdóttir
+      ✓ Bjarnheiður Hallsdóttir
+      ✓ Guðmundur Ingþór Guðjónsson
+      ✓ Viktor Elvar Viktorsson
+      ✓ Ragnheiður Helgadóttir
+      ✓ Emil Kristmann Sævarsson
+      ✓ Ísak Örn Elvarsson
+      ✓ Erla Karlsdóttir
+      ✓ Rúnar Freyr Ágústsson
+      ✓ Þura Björk Hreinsdóttir
+      ✓ Stefán Orri Ólafsson
+      ✓ Anna Þóra Hannesdóttir
+      ✓ Ásta María Búadóttir
+      ✓ Sigurjón Jósef Magnússon
+      ✓ Tjörvi Guðjónsson
+      ✓ Ella María Gunnarsdóttir
+      ✓ Guðný Jóna Ólafsdóttir
+  M listi - Miðflokkurinn  [✓ OK]  island.is=18 ours=18
+      ✓ Hrafn Ágúst Björnsson
+      ✓ Guðríður Þorbjörnsdóttir
+      ✓ Ólafur Rúnar Sigurðsson
+      ✓ Hörður Svavarsson
+      ✓ Aníta Hauksdóttir
+      ✓ Finney Aníta Thelmudóttir
+      ✓ Tómas Sjöberg Kjartansson
+      ✓ Elly Sandra Ingvarsdóttir
+      ✓ Gerald Brimir Einarsson
+      ✓ Hermann Unnarsson
+      ✓ Ágúst Snær Þorsteinsson
+      ✓ Valdimar Þorvaldsson
+      ✓ Steindór Mar Gunnarsson
+      ✓ Guðmundur Jóhann Steindórsson
+      ✓ Helga Kristín Haug Jónsdóttir
+      ✓ Emin Kadri
+      ✓ Jón Jónsson
+      ✓ Óli Jón Gunnarsson
+  S listi - Samfylkingin  [✓ OK]  island.is=17 ours=17
+      ✓ Sigurður Vopni Vatnsdal
+      ✓ Jónína Margrét Sigmundsdóttir
+      ✓ Kristinn Hallur Sveinsson
+      ✓ Anna Sólveig Smáradóttir
+      ✓ Jón Hjörvar Valgarðsson
+      ✓ Katrín Valdís Hjartardóttir
+      ✓ Björn Guðmundsson
+      ✓ Þóranna Hildur Kjartansdóttir
+      ✓ Gunnþórunn Valsdóttir
+      ✓ Örn Arnarson
+      ✓ Margrét Bjarnadóttir
+      ✓ Ásbjörn Þór Ásbjörnsson
+      ✓ Agla Harðardóttir
+      ✓ Elvar Sigurjónsson
+      ✓ Gunnhildur Björnsdóttir
+      ✓ Bjarni Vésteinsson
+      ✓ Ásta Egilsdóttir
+
+========================================================================
+MUNICIPALITY: Akureyrarbær
+  A listi - Akureyrarlistinn  [✓ OK]  island.is=19 ours=19
+      ✓ Þórhallur Jónsson
+      ✓ Karen Sigurbjörnsdóttir
+      ✓ Helgi Steinar Halldórsson
+      ✓ Kristrún María Björnsdóttir
+      ✓ Darri Rafn Hólmarsson
+      ✓ Dana Rán Jónsdóttir
+      ✓ Vilmundur Aðalsteinn Árnason
+      ✓ Guðjón Andri Gylfason
+      ✓ Elfa Ágústsdóttir
+      ✓ Pavel Víking Landa
+      ✓ Rannveig Hansen Jónsdóttir
+      ✓ Hilmar Friðjónsson
+      ✓ Fríða Kristín Hreiðarsdóttir
+      ✓ Friðbjörn Benediktsson
+      ✓ Harpa Þórey Sigurðardóttir
+      ✓ Elvar Freyr Pálsson
+      ✓ Axel Darri Þórhallsson
+      ✓ Ingibjörg Bergmann Bragadóttir
+      ✓ Rúnar Þór Björnsson
+  B listi - Framsóknarflokkurinn  [✓ OK]  island.is=21 ours=21
+      ✓ Sunna Hlín Jóhannesdóttir
+      ✓ Gunnar Már Gunnarsson
+      ✓ Sverre Andreas Jakobsson
+      ✓ Guðbjörg Anna Björnsdóttir
+      ✓ Steinar Óli Sigfússon
+      ✓ Thea Rut Jónsdóttir
+      ✓ Einar Hjartarson
+      ✓ Bethsaida Rún Arnarson
+      ✓ Ingimar Eydal
+      ✓ Tanja Hlín Þorgeirsdóttir
+      ✓ Jóhannes Gunnar Bjarnason
+      ✓ Ólöf Rún Pétursdóttir
+      ✓ Guðmar Gísli Þrastarson
+      ✓ Aðalheiður Alex Ósk Kristjánsdóttir
+      ✓ Bergur Ingi Óskarsson
+      ✓ Katrín Ásgrímsdóttir
+      ✓ Erlingur Kristjánsson
+      ✓ Ragnhildur Hjaltadóttir
+      ✓ Tryggvi Már Ingvarsson
+      ✓ María Ingadóttir
+      ✓ Jakob Björnsson
+  C listi - Viðreisn  [✓ OK]  island.is=21 ours=21
+      ✓ Lovísa Oktavía Eyvindsdóttir
+      ✓ Elías Gunnar Þorbjörnsson
+      ✓ Þóroddur Ingvarsson
+      ✓ Elísabet Ögn Jóhannsdóttir
+      ✓ Íunn Eir Gunnarsdóttir
+      ✓ Hjálmar Pálsson
+      ✓ Unnur Pétursdóttir
+      ✓ Vilhjálmur Kristjánsson
+      ✓ Halla Rut Ákadóttir
+      ✓ Magnús Hilmar Felixson
+      ✓ Þórey Sif Þórisdóttir
+      ✓ Axel Björnsson
+      ✓ Veronika Lalkova Bozhkova
+      ✓ Halldór Jóhannesson
+      ✓ Anna Svava Traustadóttir
+      ✓ Árni Jón Erlendsson
+      ✓ Arna Garðarsdóttir
+      ✓ Ólafur Ingimarsson
+      ✓ Eydís Arna S. Eiríksdóttir
+      ✓ Kristján Ingimar Ragnarsson
+      ✓ Aðalheiður Rósa Jóhannesdóttir
+  D listi - Sjálfstæðisflokkurinn  [✓ OK]  island.is=21 ours=21
+      ✓ Berglind Ósk Guðmundsdóttir
+      ✓ Heimir Örn Árnason
+      ✓ Arna Rut Gunnarsdóttir
+      ✓ Þórhallur Harðarson
+      ✓ Þorsteinn Kristjánsson
+      ✓ Kristína Björk Arnórsdóttir
+      ✓ Jóhann Gunnar Kristjánsson
+      ✓ Jóhanna Hlín Ragnarsdóttir
+      ✓ Freydís Lilja Þormóðsdóttir
+      ✓ Kristinn Frímann Árnason
+      ✓ Dagný Reykjalín Ragnarsdóttir
+      ✓ Fannar Gíslason
+      ✓ Elín Birna Gunnlaugsdóttir
+      ✓ Davíð Þ. Kristjánsson
+      ✓ Sara Halldórsdóttir
+      ✓ Jósavin Heiðmann Arason
+      ✓ Kristín Elva Viðarsdóttir
+      ✓ Ísak Svavarsson
+      ✓ Ólöf Heiða Óskarsdóttir
+      ✓ Þórarinn B. Jónsson
+      ✓ Njáll Trausti Friðbertsson
+  L listi - L-listinn, bæjarlisti Akureyrar  [✓ OK]  island.is=21 ours=21
+      ✓ Óðinn Svan Óðinsson
+      ✓ Brynja Hlíf Þorsteinsdóttir
+      ✓ Preben Jón Pétursson
+      ✓ María Pálsdóttir
+      ✓ Andri Teitsson
+      ✓ Heiðbjört Ósk Ófeigsdóttir
+      ✓ Geir Kristinn Aðalsteinsson
+      ✓ Paula Del Olmo
+      ✓ Jón Þorvaldur Heiðarsson
+      ✓ Guðríður Sveinsdóttir
+      ✓ Árni Óðinsson
+      ✓ Maríanna Margeirsdóttir
+      ✓ Kristján Valur Kristjánsson
+      ✓ Anna Hildur Guðmundsdóttir
+      ✓ Kristján Sigurólason
+      ✓ Guðrún Karitas Garðarsdóttir
+      ✓ Aðalgeir Axelsson
+      ✓ Ólöf Inga Andrésdóttir
+      ✓ Arnar Már Bjarnason
+      ✓ Anna Fanney Stefánsdóttir
+      ✓ Víðir Benediktsson
+  M listi - Miðflokkurinn  [✓ OK]  island.is=21 ours=21
+      ✓ Hlynur Jóhannsson
+      ✓ Inga Dís Sigurðardóttir
+      ✓ Egill Einarsson
+      ✓ Katrín Vilhjálmsdóttir
+      ✓ Hannes Karlsson
+      ✓ Sigurbjörg Níelsdóttir
+      ✓ Hólmgeir Karlsson
+      ✓ Lísbet Hannesdóttir
+      ✓ Hafþór Már Vignisson
+      ✓ Guðrún Linda Guðmundsdóttir
+      ✓ Gunnlaugur Kristinsson
+      ✓ Þóra Aldís Axelsdóttir
+      ✓ Helgi Sveinbjörn Jóhannsson
+      ✓ Anna Sif Melstað
+      ✓ Aron Ingi Hlynsson
+      ✓ Úlfhildur Rögnvaldsdóttir
+      ✓ Viðar Valdimarsson
+      ✓ Rósanna Marín Valdimarsdóttir
+      ✓ Þorvaldur Helgi Sigurpálsson
+      ✓ Guðný Heiðveig Gestsdóttir
+      ✓ Snæbjörn Þorbjörnsson
+  S listi - Samfylkingin  [✓ OK]  island.is=22 ours=22
+      ✓ Sindri S. Kristjánsson
+      ✓ Hanna Dóra Markúsdóttir
+      ✓ Sigrún Steinarsdóttir
+      ✓ Jóhannes Már Pétursson
+      ✓ Zane Brikovska
+      ✓ Baldur Sverrisson
+      ✓ Elsa María Guðmundsdóttir
+      ✓ Elvar Björn Ólafsson
+      ✓ Kristín Helga Schiöth
+      ✓ Jóhann Jónsson
+      ✓ Aðalheiður Anna Ragnarsdóttir
+      ✓ Kristinn Berg Gunnarsson
+      ✓ Heiðrún Hafdal Björgvinsdóttir
+      ✓ Hallur Gunnarsson
+      ✓ Anna Sigga Jökuls Ragnheiðardóttir
+      ✓ Unnar Jónsson
+      ✓ Kristín Sóley Björnsdóttir
+      ✓ Eiður Stefánsson
+      ✓ Sigríður Huld Jónsdóttir
+      ✓ Þorsteinn Þorsteinsson
+      ✓ Guðrún Gunnarsdóttir
+      ✓ Ragnar Sverrisson
+  V listi - Vinstri hreyfingin grænt framboð  [✓ OK]  island.is=21 ours=21
+      ✓ Jana Salóme Ingibjargar Jósepsdóttir
+      ✓ Stefán Oddur Hrafnsson
+      ✓ Ásrún Ýr Gestsdóttir
+      ✓ Sigtryggur Ellertsson
+      ✓ Herdís Júlía Júlíusdóttir
+      ✓ Erlendur Steinar Friðriksson
+      ✓ Sif Jóhannesar Ástudóttir
+      ✓ Jóhannes Árnason
+      ✓ Harpa Guðbrandsdóttir
+      ✓ Elvar Freyr Fossdal Sigfússon
+      ✓ Anna Sigríður Jónsdóttir
+      ✓ Mikael Snær Gíslason
+      ✓ Hrönn Soffíu Björgvinsdóttir
+      ✓ Davíð Örvar Hansson
+      ✓ Inga Elísabet Vésteinsdóttir
+      ✓ Bragi Guðmundsson
+      ✓ Arnfríður Kjartansdóttir
+      ✓ Angantýr Ómar Ásgeirsson
+      ✓ Dýrleif Skjóldal
+      ✓ Guðmundur Ármann Sigurjónsson
+      ✓ Hannes Sigurðsson
+
+========================================================================
+MUNICIPALITY: Bláskógabyggð
+
+========================================================================
+MUNICIPALITY: Bolungarvíkurkaupstaður
+
+========================================================================
+MUNICIPALITY: Dalvíkurbyggð
+  B listi - Framsóknarflokkurinn  [✓ OK]  island.is=13 ours=13
+      ✓ Monika Margrét Stefánsdóttir
+      ✓ María Björk Stefánsdóttir
+      ✓ Sigvaldi Gunnlaugsson
+      ✓ Sigurlaug Dóra Ingimundardóttir
+      ✓ Kristinn Bogi Antonsson
+      ✓ Margrét Víkingsdóttir
+      ✓ Allan Ingi Geirdal Bjarnason
+      ✓ Árný Ósk Hauksdóttir
+      ✓ Þorsteinn Kristinn Björnsson
+      ✓ Jana Sól Ísleifsdóttir
+      ✓ Sigurður Valdimar Bragason
+      ✓ Jón Ingi Sveinsson
+      ✓ Eiður Smári Árnason
+  D listi - Sjálfstæðisflokkurinn  [✓ OK]  island.is=13 ours=13
+      ✓ Benedikt Snær Magnússon
+      ✓ Bessi Ragúels Víðisson
+      ✓ Auður Olga Arnarsdóttir
+      ✓ Sindri Ólafsson
+      ✓ Birta Dís Jónsdóttir
+      ✓ Viktoría Katrín Oliversdóttir
+      ✓ Gunnþór E. Sveinbjörnsson
+      ✓ Gunnar Anton Njáll Gunnarsson
+      ✓ Sheila Velázquez Garcia
+      ✓ Júlíus Magnússon
+      ✓ Ívar Breki Benjamínsson
+      ✓ Selma Rut Guðmundsdóttir
+      ✓ Jed Jovannie Cortes Nuez
+
+========================================================================
+MUNICIPALITY: Eyjafjarðarsveit
+
+========================================================================
+MUNICIPALITY: Fjallabyggð
+  D listi - Sjálfstæðisflokkurinn  [✓ OK]  island.is=13 ours=13
+      ✓ Tómas Atli Einarsson
+      ✓ Kristín Ágústa Eiðsdóttir
+      ✓ Guðrún Sif Guðbrandsdóttir
+      ✓ Viktor Freyr Elísson
+      ✓ Stefán Júlíusson
+      ✓ Hanna Sigríður Ásgeirsdóttir
+      ✓ Rut Jónsdóttir
+      ✓ Egill Ólason
+      ✓ Sandra Finnsdóttir
+      ✓ Ásgeir Frímannsson
+      ✓ Halldór Ingvar Guðmundsson
+      ✓ Björk Óladóttir
+      ✓ Þorsteinn Ásgeirsson
+  H listi - H-listinn  [✓ OK]  island.is=13 ours=13
+      ✓ Helgi Jóhannsson
+      ✓ Kristinn Kristjánsson
+      ✓ Ásgeir Logi Ásgeirsson
+      ✓ Auður Ösp H. Magnúsdóttir
+      ✓ Guðlaugur Magnús Ingason
+      ✓ Þorfinna Þrastardóttir
+      ✓ Þorgeir Bjarnason
+      ✓ Klara Mist Pálsdóttir
+      ✓ Jón Valgeir Baldursson
+      ✓ Andri Viðar Víglundsson
+      ✓ Aðalbjörg Snorradóttir
+      ✓ Áki Berndsen
+      ✓ Katrín Freysdóttir
+  S listi - Jafnaðarmannafélag Fjallabyggðar og óháðir  [✓ OK]  island.is=13 ours=13
+      ✓ Jóhann K. Jóhannsson
+      ✓ Pálmi Blængsson
+      ✓ Sæunn Gísladóttir
+      ✓ Guðjón Marinó Ólafsson
+      ✓ Kristín Margrét Halldórsdóttir
+      ✓ Áslaug Barðadóttir
+      ✓ Hbib Jaouad
+      ✓ Valdís Jörgensdóttir
+      ✓ Ásta Lovísa Pálsdóttir
+      ✓ Kristjana Rannveig Sveinsdóttir
+      ✓ Jón Kort Ólafsson
+      ✓ Hólmar Hákon Óðinsson
+      ✓ Ægir Bergsson
+
+========================================================================
+MUNICIPALITY: Fjarðabyggð
+  B listi - Framsókn  [✓ OK]  island.is=18 ours=18
+      ✓ Þuríður Lillý Sigurðardóttir
+      ✓ Birgir Jónsson
+      ✓ Helga Rakel Arnardóttir
+      ✓ Sigurjón Andrés Jónasson
+      ✓ Bjarney Birta Bergsdóttir
+      ✓ Guðbjartur Hjálmarsson
+      ✓ Sigrún Eva Grétarsdóttir
+      ✓ Björgvin Karl Gunnarsson
+      ✓ Tinna Hrönn Smáradóttir
+      ✓ Alma Eiðsdóttir
+      ✓ Vilberg Marinó Jónasson
+      ✓ Margrét Sigfúsdóttir
+      ✓ Jórunn Dagbjört Jónsdóttir
+      ✓ Halldór B. Bjarneyjarson
+      ✓ Linda María Emilsdóttir
+      ✓ Sara Rut Mellado Vilbergsdóttir
+      ✓ Kristján Guðni Sævarsson
+      ✓ Jón Björn Hákonarson
+  D listi - Sjálfstæðisflokkur  [✓ OK]  island.is=17 ours=17
+      ✓ Ragnar Sigurðsson
+      ✓ Kristinn Þór Jónasson
+      ✓ Þórdís Mjöll Benediktsdóttir
+      ✓ Húnbogi Sólon Gunnþórsson
+      ✓ Tanja Tómasdóttir
+      ✓ Friðrik Júlíus Jósefsson
+      ✓ Bryngeir Ágúst Margeirsson
+      ✓ Hildur Ósk Pétursdóttir
+      ✓ Anton Berg Sævarsson
+      ✓ Ingunn Eir Andrésdóttir
+      ✓ Theodór Elvar Haraldsson
+      ✓ Sóley Katrín Heiðarsdóttir
+      ✓ Guðný Margrét Bjarnadóttir
+      ✓ Sölvi Guðmundarson
+      ✓ Simona Giastautiené
+      ✓ Íris Katla Guðmundsdóttir
+      ✓ Sigurjón Rúnarsson
+  M listi - Miðflokkur  [✓ OK]  island.is=17 ours=17
+      ✓ Hrafn Bjarnason
+      ✓ Alma Sigurbjörnsdóttir
+      ✓ Baldur Marteinn Einarsson
+      ✓ Hafþór Eiríksson
+      ✓ Anna Guðný Gunnarsdóttir
+      ✓ Elís Ármannsson
+      ✓ Guðný Harðardóttir
+      ✓ Sævar Þór Skoradal
+      ✓ Anna Þórhildur Kristmundsdóttir
+      ✓ Jóna Petra Magnúsdóttir
+      ✓ Guðröður Hákonarson
+      ✓ Júlíus Óli Jacobsen
+      ✓ Þorbergur Níels Hauksson
+      ✓ Magnea María Jónudóttir
+      ✓ Þórunn Ólafsdóttir
+      ✓ Guðmundur Björgólfsson
+      ✓ Gestur Sigmundsson
+  S listi - Samfylking og annað félagshyggjufólk  [✓ OK]  island.is=17 ours=17
+      ✓ Stefán Þór Eysteinsson
+      ✓ Hjördís Helga Seljan
+      ✓ Valborg Ösp Á. Warén
+      ✓ Adam Ingi Guðlaugsson
+      ✓ Arndís  Bára Pétursdóttir
+      ✓ Ásdís Helga Jóhannsdóttir
+      ✓ Birkir Snær Guðjónsson
+      ✓ Esther Ösp Gunnarsdóttir
+      ✓ A. Eva Sigurðardóttir
+      ✓ Jaroslaw Zajaczkowski
+      ✓ Salóme  Rut Harðardóttir
+      ✓ Joanna Katarzyna Mrowiec
+      ✓ Oddur Sigurðsson
+      ✓ Sveinn Fannar Sæmundsson
+      ✓ Anna Sigrún Jóhönnudóttir
+      ✓ Kristrún Antonsdóttir
+      ✓ Benedikt Sigurjónsson
+
+========================================================================
+MUNICIPALITY: Flóahreppur
+
+========================================================================
+MUNICIPALITY: Garðabær
+  B listi - Framsóknarflokkurinn  [✓ OK]  island.is=22 ours=22
+      ✓ Hlynur Bæringsson
+      ✓ Anna Margrét Steingrímsdóttir
+      ✓ Einar Þór Einarsson
+      ✓ Einar Bárðarson
+      ✓ Inga Amal Hasan
+      ✓ Sigurður Jökull Ólafsson
+      ✓ Hjördís Guðný Guðmundsdóttir
+      ✓ Vilhjálmur Halldórsson
+      ✓ Tinna Hemstock
+      ✓ Markús Pálsson
+      ✓ Elín Jóhannsdóttir
+      ✓ Alexander Einarsson Olsen
+      ✓ Bryndís Sveinsdóttir
+      ✓ Einar Sveinbjörnsson
+      ✓ Hera Björk Guðmundsdóttir
+      ✓ Anna Gréta Hafsteinsdóttir
+      ✓ Ómar Örn Sævarsson
+      ✓ Anna Lena Halldórsdóttir
+      ✓ Stefanía Ólöf Reynisdóttir
+      ✓ Tara Sól Guðmundsdóttir
+      ✓ Ólöf Sigurbjörg Sigurðardóttir
+      ✓ Úlfar Ármannsson
+  C listi - Viðreisn  [✓ OK]  island.is=21 ours=21
+      ✓ Guðlaugur Kristmundsson
+      ✓ Harpa Þorsteinsdóttir
+      ✓ Jón Bjarni Steinsson
+      ✓ Sigríður Þóra Ásgeirsdóttir
+      ✓ Hreiðar Þór Jónsson
+      ✓ Tamar Klara Lipka Þormarsdóttir
+      ✓ Júlíus Arnarson
+      ✓ Þyrí Halla Steingrímsdóttir
+      ✓ Árni Björn Eiríksson
+      ✓ Herdís Anna Ingimarsdóttir
+      ✓ Hafsteinn Ezekíel Hafsteinsson
+      ✓ Geirþrúður Alfreðsdóttir
+      ✓ Jens Guðjón Einarsson
+      ✓ Maria Rosario Blöndal
+      ✓ Viðar Kristinsson
+      ✓ Tinna Borg Arnfinnsdóttir
+      ✓ Eyþór Eðvarðsson
+      ✓ Ásta Sigríður Guðjónsdóttir
+      ✓ Ingi Þór Hermannsson
+      ✓ Heiðrún Sigurðardóttir
+      ✓ Eiríkur Björn Björgvinsson
+  D listi - Sjálfstæðisflokkurinn  [✓ OK]  island.is=22 ours=22
+      ✓ Almar Guðmundsson
+      ✓ Björg Fenger
+      ✓ Margrét Bjarnadóttir
+      ✓ Hrannar Bragi Eyjólfsson
+      ✓ Stella Stefánsdóttir
+      ✓ Birkir Guðlaugsson
+      ✓ Jón Þór Eggertsson
+      ✓ Anna R. Möller
+      ✓ Ýmir Örn Finnbogason
+      ✓ Harpa Rós Gísladóttir
+      ✓ Sigrún Antonsdóttir
+      ✓ Halldór Snær Lárusson
+      ✓ Berglind Víðisdóttir
+      ✓ Páll Árnason
+      ✓ Lára Sif Christiansen
+      ✓ Ásgeir Ágústsson
+      ✓ Inga Rós Reynisdóttir
+      ✓ Dúi Þór Jónsson
+      ✓ Ingibjörg Loftsdóttir
+      ✓ Sigurður Sveinn Þórðarson
+      ✓ Gunnar Valur Gíslason
+      ✓ Sigríður Hulda Jónsdóttir
+  G listi - Garðarbæjarlistinn  [✓ OK]  island.is=21 ours=21
+      ✓ Þorbjörg Þorvaldsdóttir
+      ✓ Guðjón Pétur Lýðsson
+      ✓ Joanna Marcinkowska
+      ✓ Finnur Jónsson
+      ✓ Baldur Ó. Svavarsson
+      ✓ Harpa Grétarsdóttir
+      ✓ Maru E. Aleman
+      ✓ Hannes Ingi Geirsson
+      ✓ Sveinbjörg Vilhjálmsdóttir
+      ✓ Askur Hrafn Hannesson
+      ✓ Guðrún Elín Herbertsdóttir
+      ✓ Tómas Þór Jacobsen
+      ✓ Ása Steinarsdóttir
+      ✓ Axel Ingi Jónsson
+      ✓ Signý Hlíf Árnadóttir
+      ✓ Stefán Daníel Jónsson
+      ✓ Svanhvít Sigurjónsdóttir
+      ✓ Björn Gústav Jónsson
+      ✓ Kristín Helga Gunnarsdóttir
+      ✓ Óli Valur Ómarsson
+      ✓ Brynja Guðmundsdóttir
+  M listi - Miðflokkurinn  [✓ OK]  island.is=21 ours=21
+      ✓ Lárus Guðmundsson
+      ✓ Laufey Gunnþórsdóttir
+      ✓ Snorri Marteinsson
+      ✓ Bessí Þóra Jónsdóttir
+      ✓ Unnur Ýr Jónsdóttir
+      ✓ Anton Sveinn McKee
+      ✓ Guðjón Baldvinsson
+      ✓ Haraldur Ásgeir Gíslason
+      ✓ Guðrún Hulda Ólafsdóttir
+      ✓ Eyjólfur Eiríksson
+      ✓ Bryndís Þorsteinsdóttir
+      ✓ Guðrún Björg Sigurðardóttir
+      ✓ Sindri Guðmundsson
+      ✓ Ágúst Karlsson
+      ✓ Bárður Steinn Róbertsson
+      ✓ Yandy Nunez Martinez
+      ✓ Helgi Árnason
+      ✓ Guðmundur R. Lárusson
+      ✓ Haukur Herbertsson
+      ✓ Anna Bára Ólafsdóttir
+      ✓ Zophanías Þ. Sigurðsson
+  S listi - Samfylkingin  [✓ OK]  island.is=21 ours=21
+      ✓ Kjartan Atli Kjartansson
+      ✓ Vilborg Anna Strange Garðarsdóttir
+      ✓ Rakel Margrét Viggósdóttir
+      ✓ Vilmar Pétursson
+      ✓ Ögmundur Árni Sveinsson
+      ✓ Katrín Júlíusdóttir
+      ✓ Rósanna Andrésdóttir
+      ✓ Bjarni Thor Kristinsson
+      ✓ Guðfinna Guðmundsdóttir
+      ✓ Ragnheiður Hergeirsdóttir
+      ✓ Freyja Kvaran
+      ✓ Jón Gunnlaugur Viggósson
+      ✓ Ásdís Magnúsdóttir
+      ✓ Ósk Sigurðardóttir
+      ✓ Stefán Arinbjarnarson
+      ✓ Greta Ósk Óskarsdóttir
+      ✓ Birta Mjöll Antonsdóttir
+      ✓ Heiða Mist Kristjánsdóttir
+      ✓ Kristján Sveinbjörnsson
+      ✓ Rafn Svanur Oddsson
+      ✓ Edda Gíslrún Kjartansdóttir
+
+========================================================================
+MUNICIPALITY: Grindavíkurbær
+  B listi - Framsóknarflokkurinn  [✓ OK]  island.is=13 ours=13
+      ✓ Ásrún Helga Kristinsdóttir
+      ✓ Þorleifur Ólafsson
+      ✓ Inga Fanney Rúnarsdóttir
+      ✓ Elínborg Ingvarsdóttir
+      ✓ Benedikt Óskar Steingrímsson
+      ✓ Valgerður Ágústsdóttir
+      ✓ Jón Fannar Sigurðsson
+      ✓ Valgerður Jennýjardóttir
+      ✓ Ása Björg Einarsdóttir
+      ✓ Helgi Gylfason
+      ✓ Siggeir Fannar Ævarsson
+      ✓ Bergur Hinriksson
+      ✓ Bríet Rose Raysdóttir
+  D listi - Sjálfstæðisflokkurinn  [✓ OK]  island.is=13 ours=13
+      ✓ Guðbjörg Eyjólfsdóttir
+      ✓ Hjálmar Hallgrímsson
+      ✓ Ómar Davíð Ólafsson
+      ✓ Ólöf Rún Óladóttir
+      ✓ Eva Lind Matthíasdóttir
+      ✓ Guðmundur Pálsson
+      ✓ Jón Breki Einarsson
+      ✓ Dagmar Valsdóttir
+      ✓ Friðrik Þór Sigurðsson
+      ✓ Margrét Kristín Pétursdóttir
+      ✓ Gréta Dögg Hjálmarsdóttir
+      ✓ Natalía Freyja Gunnarsdóttir
+      ✓ Helgi Leó Leifsson
+  M listi - Miðflokkurinn  [✓ OK]  island.is=10 ours=10
+      ✓ Magnús Már Jakobsson
+      ✓ Björn Steinar Brynjólfsson
+      ✓ Gunnar Már Gunnarsson
+      ✓ Signý Lind Elíasdóttir
+      ✓ Eydís Ármannsdóttir
+      ✓ Aníta Sig Kristjánsdóttir
+      ✓ Páll Gíslason
+      ✓ Páll Árni Pétursson
+      ✓ Hajie Flores Sicat
+      ✓ Andri Hrafn Vilhelmsson
+
+========================================================================
+MUNICIPALITY: Grundarfjarðarbær
+
+========================================================================
+MUNICIPALITY: Grímsnes- og Grafningshreppur
+
+========================================================================
+MUNICIPALITY: Hafnarfjarðarbær
+  A listi - Vinstrið  [✓ OK]  island.is=21 ours=21
+      ✓ Ester Bíbí Ásgeirsdóttir
+      ✓ Svenný Kristins
+      ✓ Davíð Arnar Stefánsson
+      ✓ Guðrún Lína Thoroddsen
+      ✓ Margrét Pétursdóttir
+      ✓ Anna Sigríður Sigurðardóttir
+      ✓ Fjölnir Sæmundsson
+      ✓ Elísabet Kristjánsdóttir
+      ✓ Elsa Sigríður Þorvaldsdóttir
+      ✓ Inga Björk Margrétar Bjarnadóttir
+      ✓ Helgi Hrafn Ólafsson
+      ✓ Jón Hallur Haraldsson
+      ✓ Gestur Svavarsson
+      ✓ Bára Dís Guðjónsdóttir
+      ✓ Björgúlfur Árni Romero Ernuson
+      ✓ Heiðdís Traustadóttir
+      ✓ Sigurður Magnússon
+      ✓ Björn Reynir Halldórsson
+      ✓ Björg Jóna Sveinsdóttir
+      ✓ Nicolas Liebing
+      ✓ Hrefna Sóley Jónsdóttir
+  B listi - Framsóknarflokkur  [✓ OK]  island.is=21 ours=21
+      ✓ Valdimar Víðisson
+      ✓ Kolbrún Magnúsdóttir
+      ✓ Árni Rúnar Árnason
+      ✓ Jóhanna Erla Guðjónsdóttir
+      ✓ Guðmundur Fylkisson
+      ✓ Stefán Már Víðisson
+      ✓ Linda Hrönn Þórisdóttir
+      ✓ Petrea Aðalheiður Ómarsdóttir
+      ✓ Ragnar Þór Reynisson
+      ✓ Alexander Marías Árnason
+      ✓ Lena Karen Sveinsdóttir
+      ✓ María Jonný Sæmundsdóttir
+      ✓ Freyja Kristín Rúnarsdóttir
+      ✓ Oddný Helga Einarsdóttir
+      ✓ Júlíus Sigurjónsson
+      ✓ Björn Einar Ólafsson
+      ✓ Elísabet Rós Birgisdóttir
+      ✓ Ásdís Jóhannesdóttir
+      ✓ Garðar Smári Gunnarsson
+      ✓ Sveinn Heiðar Jóhannesson
+      ✓ Njóla Elísdóttir
+  C listi - Viðreisn  [✓ OK]  island.is=21 ours=21
+      ✓ Karólína Helga Símonardóttir
+      ✓ Árni Stefán Guðjónsson
+      ✓ Hjördís Hlíðberg
+      ✓ Óli Örn Eiríksson
+      ✓ Sigrún Jónsdóttir
+      ✓ Júlíus Andri Þórðarson
+      ✓ Amanda K. Ólafsdóttir
+      ✓ Sigurjón Ingvason
+      ✓ Ágústa Sigurjónsdóttir
+      ✓ Bragi Hinrik Magnússon
+      ✓ Karitas Möller
+      ✓ Björn Sighvatsson
+      ✓ Una Rán Tjörvadóttir
+      ✓ Ellert Þór Arason
+      ✓ Jóhanna Guðrún Snæfeld Magnúsdóttir
+      ✓ Aron Eydal Sigurðsson
+      ✓ Helga Björg Jóhönnu Arnardóttir
+      ✓ Auðunn Arnórsson
+      ✓ Erla Sigurlaug Sigurðardóttir
+      ✓ Steinar Bragi Sigurjónsson
+      ✓ Þorgerður Katrín Gunnarsdóttir
+  D listi - Sjálfstæðisflokkurinn  [✓ OK]  island.is=22 ours=22
+      ✓ Orri Björnsson
+      ✓ Kristín Thoroddsen
+      ✓ Viktor Pétur Finnsson
+      ✓ Guðbjörg Oddný Jónasdóttir
+      ✓ Kristinn Andersen
+      ✓ Helga Björg Loftsdóttir
+      ✓ Einar Páll Þorgilsson Mathiesen
+      ✓ Kristjana Ósk Jónsdóttir
+      ✓ Júlíus Freyr Bjarnason
+      ✓ Margrét Vala Marteinsdóttir
+      ✓ Hilmar Ingimundarson
+      ✓ Unnur Elín Sigursteinsdóttir
+      ✓ Örn Geirsson
+      ✓ Eva Björk Harðardóttir
+      ✓ Birkir Snær Brynleifsson
+      ✓ Guðjón Óskar Guðmundsson
+      ✓ Paula Wiszniewska
+      ✓ Þórhallur Guðmundsson
+      ✓ Bjarni Geir Lúðvíksson
+      ✓ Elsa Dóra Ísleifsdóttir
+      ✓ Kovan Abdulkhaleq Ali
+      ✓ Rósa Guðbjartsdóttir
+  M listi - Miðflokkurinn  [✓ OK]  island.is=22 ours=22
+      ✓ Einar Geir Þorsteinsson
+      ✓ Signý Jóna Tryggvadóttir
+      ✓ Böðvar Ingi Guðbjartsson
+      ✓ Eva Rún Helgadóttir
+      ✓ Arnhildur Ásdís Kolbeins
+      ✓ Stefán Sveinn Gunnarsson
+      ✓ Margrét Elín Arnarsdóttir
+      ✓ Lena Karen Andreasdóttir
+      ✓ Þórður Hugo Björnsson
+      ✓ Helga Margét Sveinsdóttir
+      ✓ Hjörtur Þórisson
+      ✓ Magnús Pálsson Sigurðsson
+      ✓ Þorkell Gunnarsson
+      ✓ Kolbrún Róbertsdóttir
+      ✓ Jóhann Kristinn Jóhannesson
+      ✓ Kristín Þóra L. Reynisdóttir
+      ✓ Vilhjálmur Skúli Steinarsson
+      ✓ Kristmundur Sch. Skarphéðinsson
+      ✓ Kolbeinn Helgi Kristjánsson
+      ✓ Reynir Elís Þorvaldsson
+      ✓ Indriði Kristinsson
+      ✓ Hilmar Kristensen
+  S listi - Samfylkingin  [✓ OK]  island.is=21 ours=21
+      ✓ Guðmundur Árni Stefánsson
+      ✓ Hildur Rós Guðbjargardóttir
+      ✓ Árni Rúnar Þorvaldsson
+      ✓ Elín Anna Baldursdóttir
+      ✓ Stefán Már Gunnlaugsson
+      ✓ Hekla Sóley Arnarsdóttir
+      ✓ Óskar Steinn Ómarsson
+      ✓ Margrét Lilja Pálsdóttir
+      ✓ Jón Grétar Þórsson
+      ✓ Auður Brynjólfsdóttir
+      ✓ Hörður Þorsteinsson
+      ✓ Hrund Biering Valsdóttir
+      ✓ Árni Freyr Ársælsson
+      ✓ Jóhanna Ósk Maríudóttir Níelsen
+      ✓ Sigurður Þórður Ragnarsson
+      ✓ Gundega Jaunlinina
+      ✓ Valdimar Aðalsteinsson
+      ✓ Sonja Magnúsdóttir
+      ✓ Ragnar Már Jónsson
+      ✓ Sigrid Foss
+      ✓ Tryggvi Rafnsson
+
+========================================================================
+MUNICIPALITY: Hrunamannahreppur
+  D listi - Sjálfstæðismenn og óháðir  [✓ OK]  island.is=9 ours=9
+      ✓ Jón Bjarnason
+      ✓ Bjarney Vignisdóttir
+      ✓ Ragnar Lúðvík Jónsson
+      ✓ Katrín Þorvaldsdóttir
+      ✓ Bjarni Arnar Hjaltason
+      ✓ Elísabet Finnbjörnsdóttir
+      ✓ Zuzanna Szczygiel
+      ✓ María Magnúsdóttir
+      ✓ Elvar Harðarson
+
+========================================================================
+MUNICIPALITY: Hvalfjarðarsveit
+
+========================================================================
+MUNICIPALITY: Hveragerðisbær
+  B listi - Framsókn  [✓ OK]  island.is=14 ours=14
+      ✓ Marta Rut Ólafsdóttir
+      ✓ Einar Alexander K. Haraldsson
+      ✓ Thelma Rún Runólfsdóttir
+      ✓ Atli Örn Egilsson
+      ✓ Sæbjörg L. Másdóttir
+      ✓ Hanna Einarsdóttir
+      ✓ Örn Sigurðarson
+      ✓ Guðbjörg Ýr Ingólfsdóttir
+      ✓ Páll Sigurðsson
+      ✓ Margrét S. Stefánsdóttir
+      ✓ Örlygur Atli Guðmundsson
+      ✓ Herdís Þórðardóttir
+      ✓ Halldór Bjarni Maríasson
+      ✓ Jóhanna Ýr Jóhannsdóttir
+  D listi - Sjálfstæðisflokkurinn  [✓ OK]  island.is=13 ours=13
+      ✓ Ingimar Guðmundsson
+      ✓ María Rún Þorsteinsdóttir
+      ✓ Sigmar Karlsson
+      ✓ Hjalti Helgason
+      ✓ Karitas Róbertsdóttir
+      ✓ Íris Brá Svavarsdóttir
+      ✓ Einar Ísberg
+      ✓ Hekla Björt Birkisdóttir
+      ✓ Sigurður Einar Guðjónsson
+      ✓ Guðfinna Ýr Sumarliðadóttir
+      ✓ Hallgrímur Þorgilsson
+      ✓ Nishadi U. Weerasooriya
+      ✓ Feng Jiang Hannesdóttir
+  O listi - Okkar Hveragerði  [✓ OK]  island.is=13 ours=13
+      ✓ Lárus Jónsson
+      ✓ Dagný Sif Sigurbjörnsdóttir
+      ✓ Jónas Guðnason
+      ✓ Sandra Lind Brynjarsdóttir
+      ✓ Ívar Dagur B. Sævarsson
+      ✓ Brynja Hrafnkelsdóttir
+      ✓ Eyþór Atli Olsen Finnsson
+      ✓ Embla Werner Guðleifsdóttir
+      ✓ Guðjón Óskar Kristjánsson
+      ✓ Halldóra Jóna Guðmundsdóttir
+      ✓ Hrafn Andrés Harðarson
+      ✓ Anna Jórunn Stefánsdóttir
+      ✓ Njörður Sigurðsson
+  S listi - Samfylking og óflokksbundin  [✓ OK]  island.is=13 ours=13
+      ✓ Birgitta Ragnarsdóttir
+      ✓ Þorsteinn Hjartarson
+      ✓ Maria de Araceli Quintana
+      ✓ Guðmundur Benóný Baldvinsson
+      ✓ Berglind Ósk Guttormsdóttir
+      ✓ Arnar Hannes Halldórsson
+      ✓ Árný Fjóla Ásmundsdóttir
+      ✓ Tómas Kristjánsson
+      ✓ Kristín Lilja Th. Björnsdóttir
+      ✓ Halldór Grétar Einarsson
+      ✓ Harpa Björnsdóttir
+      ✓ Hjálmar Trausti Kristjánsson
+      ✓ María Arnardóttir
+
+========================================================================
+MUNICIPALITY: Hörgársveit
+  D listi - Sjálfstæðismenn og óháðir  [✓ OK]  island.is=9 ours=9
+      ✓ Árni Rúnar Örvarsson
+      ✓ Katrín Olsen Björnsdóttir
+      ✓ Jónas Þór Jónasson
+      ✓ Aðalsteinn Heiðmann Hreinsson
+      ✓ Björg Ingadóttir
+      ✓ Sylvía Sól Guðmundsdóttir
+      ✓ Björgvin Helgason
+      ✓ Jóhanna Margrét Gunnarsdóttir
+      ✓ Áslaug Ólöf Stefánsdóttir
+  H listi - Hörgársveitar  [✓ OK]  island.is=9 ours=9
+      ✓ Bjarki Brynjólfsson
+      ✓ Ásta Hafberg
+      ✓ Hugrún Lísa Heimisdóttir
+      ✓ Jón Þór Benediktsson
+      ✓ Sveinn Brimar Jónsson
+      ✓ Jenný Dögg Heiðarsdóttir
+      ✓ Vikar Mar Valsson
+      ✓ Hugrún Pála Birnisdóttir
+      ✓ Sigurður Pálsson
+
+========================================================================
+MUNICIPALITY: Húnabyggð
+  B listi - Framsókn og aðrir framfarasinnar  [✓ OK]  island.is=17 ours=17
+      ✓ Grímur Rúnar Lárusson
+      ✓ Jenný Lind Gunnarsdóttir
+      ✓ Helgi Páll Gíslason
+      ✓ Ágústa Rós Ingibjörnsdóttir
+      ✓ Ásdís Adda Ólafsdóttir
+      ✓ Morgan Christina Bresko
+      ✓ Agnar Logi Eiríksson
+      ✓ Bryndís Sigurðardóttir
+      ✓ Sigurður Bjarni Aadnegard
+      ✓ Elín Ósk Gísladóttir
+      ✓ Guðmann Valdimarsson
+      ✓ Arnar Freyr Ómarsson
+      ✓ Þórdís Eva Einarsdóttir
+      ✓ Gunnar Ingi Jósepsson
+      ✓ Arnór Guðjónsson
+      ✓ Björn Ívar Jónsson
+      ✓ Magnús Ólafsson
+  D listi - Sjálfstæðismenn og óháðir í Húnabyggð  [✓ OK]  island.is=17 ours=17
+      ✓ Guðmundur Haukur Jakobsson
+      ✓ Zophonías Ari Lárusson
+      ✓ Kolbrún Ágústa Guðnadóttir
+      ✓ Sævar Björgvinsson
+      ✓ Ragnhildur Haraldsdóttir
+      ✓ Atli Einarsson
+      ✓ Arnrún Bára Finnsdóttir
+      ✓ Magnús Sigurjónsson
+      ✓ Anton Haraldsson
+      ✓ Friðrún Fanný Guðmundsdóttir
+      ✓ Freyja Dís Jóhannsdóttir
+      ✓ Kristófer Kristjánsson
+      ✓ Höskuldur Sveinn Björnsson
+      ✓ Anna Margrét Jónsdóttir
+      ✓ Ásdís Ýr Arnardóttir
+      ✓ Jón Árni Magnússon
+      ✓ Linda Björk Ævarsdóttir
+
+========================================================================
+MUNICIPALITY: Húnaþing vestra
+  B listi - Framsókn og aðrir framfarasinnar  [✓ OK]  island.is=14 ours=14
+      ✓ Sigurður Líndal Þórisson
+      ✓ Nína Axelsdóttir
+      ✓ Dagrún Kristinsdóttir
+      ✓ Ingveldur Linda Gestsdóttir
+      ✓ Matthías Rúnarsson
+      ✓ Magnús Ásgeir Elíasson
+      ✓ Gerður Rósa Sigurðardóttir
+      ✓ Ingimar Sigurðsson
+      ✓ Guðni Þór Skúlason
+      ✓ Kolbrún Stella Indriðadóttir
+      ✓ Friðrik Már Sigurðsson
+      ✓ Anna Birna Þorsteinsdóttir
+      ✓ Sigrún Ólafsdóttir
+      ✓ Þorleifur Karl Eggertsson
+  D listi - Sjálfstæðismenn og óháðir  [✓ OK]  island.is=13 ours=13
+      ✓ Örn Arnarson
+      ✓ Sigríður Ólafsdóttir
+      ✓ Magnús Magnússon
+      ✓ Fríða Marý Halldórsdóttir
+      ✓ Magnús Örn Valsson
+      ✓ Stella Dröfn Bjarnadóttir
+      ✓ Jóhanna Maj Júlíusdóttir Lundberg
+      ✓ Stefán Páll Böðvarsson
+      ✓ Abdulwahab Abd Alhaji
+      ✓ Dagný Sigurlaug Ragnarsdóttir
+      ✓ Elísa Ýr Sverrisdóttir
+      ✓ Ragnheiður Rún Sveinbjörnsdóttir
+      ✓ Ragnar Bragi Ægisson
+  N listi - Nýtt afl í Húnaþingi vestra  [✓ OK]  island.is=13 ours=13
+      ✓ Viktor Ingi Jónsson
+      ✓ Magnús Vignir Eðvaldsson
+      ✓ Eygló Hrund Guðmundsdóttir
+      ✓ Guðrún Gróa Þorsteinsdóttir
+      ✓ Sigurbjörg Jóhannesdóttir
+      ✓ Patrekur Óli Gústafsson
+      ✓ Hallfríður Sigurbjörg Óladóttir
+      ✓ Guðmundur Brynjar Guðmundsson
+      ✓ Elísabet Eir Steinbjörnsdóttir
+      ✓ Kolfinna Rún Gunnarsdóttir
+      ✓ Ómar Eyjólfsson
+      ✓ Hrafnhildur Ísabella Harðardóttir
+      ✓ Ólafur Már Sigurbjartsson
+
+========================================================================
+MUNICIPALITY: Kjósarhreppur - sjálfkjörið
+
+========================================================================
+MUNICIPALITY: Kópavogsbær
+  B listi - Framsóknarflokkurinn  [✓ OK]  island.is=21 ours=21
+      ✓ Orri Vignir Hlöðversson
+      ✓ Björg Baldursdóttir
+      ✓ Gunnar Sær Ragnarsson
+      ✓ Svava Halldóra Friðgeirsdóttir
+      ✓ Heiðdís Geirsdóttir
+      ✓ Bergrún Ósk Ólafsdóttir
+      ✓ Sveinn Gíslason
+      ✓ Stefán Atli Rúnarsson
+      ✓ Jónas Haukur Thors Einarsson
+      ✓ Atli Ársælsson
+      ✓ Kristinn Dagur Gissurarson
+      ✓ Guðrún Sigurborg Viggósdóttir
+      ✓ Atli Ómarsson
+      ✓ Þórunn Kolbeins Matthíasdóttir
+      ✓ Baldur Þór Baldvinsson
+      ✓ Díana Íva Gunnarsdóttir
+      ✓ Einar Gunnar Bollason
+      ✓ Margrét Sigmundsdóttir
+      ✓ Andrea Mist Guðjónsdóttir
+      ✓ Sigrún Hulda Jónsdóttir
+      ✓ Willum Þór Þórsson
+  C listi - Viðreisn  [✓ OK]  island.is=21 ours=21
+      ✓ María Ellen Steingrímsdóttir
+      ✓ Pétur Björgvin Sveinsson
+      ✓ Arnar Grétarsson
+      ✓ Sigrún Ólöf Ingólfsdóttir
+      ✓ Elvar Bjarki Helgason
+      ✓ Bryndís Rut Logadóttir
+      ✓ Ísak Leon Júlíusson
+      ✓ Irpa Fönn Hlynsdóttir
+      ✓ Ásgeir Þór Jónsson
+      ✓ Sigurlín Margrét Sigurðardóttir
+      ✓ Andrés Pétursson
+      ✓ Sóley Eiríksdóttir
+      ✓ Máni Þór Magnason
+      ✓ Þórunn Einarsdóttir
+      ✓ Þór Hinriksson
+      ✓ Auður Gunnarsdóttir
+      ✓ Bergþór Skúlason
+      ✓ Inga Þórunn Halldórsdóttir
+      ✓ Hafsteinn Hrannar Ásgrímsson
+      ✓ Ingibjörg Auður Guðmundsdóttir
+      ✓ Jón Ingvar Bragason
+  D listi - Sjálfstæðisflokkurinn  [✓ OK]  island.is=21 ours=21
+      ✓ Ásdís Kristjánsdóttir
+      ✓ Hjördís Ýr Johnson
+      ✓ Andri Steinn Hilmarsson
+      ✓ Elísabet Berglind Sveinsdóttir
+      ✓ Guðmundur Jóhann Jónsson
+      ✓ Hildur Einarsdóttir
+      ✓ Karen Rúnarsdóttir
+      ✓ Kristinn Jakobsson
+      ✓ Sigrún Bjarnadóttir
+      ✓ Leifur Andri Leifsson
+      ✓ Ragna Klara Magnúsdóttir
+      ✓ Guðný Svandís Guðjónsdóttir
+      ✓ Jóhann Sveinn Friðleifsson
+      ✓ Arnór Sveinn Aðalsteinsson
+      ✓ Berglind Haraldsdóttir
+      ✓ Þorsteinn Vilhelmsson
+      ✓ Helga Guðrún Jónasdóttir
+      ✓ Kristófer Breki Halldórsson
+      ✓ Haukur Már Hauksson
+      ✓ Birgir Ari Óskarsson
+      ✓ Jón Atli Kristjánsson
+  J listi - Sósíalistaflokkurinn  [✓ OK]  island.is=18 ours=18
+      ✓ Markús Candi
+      ✓ Anna Ceridwen Auðnudóttir
+      ✓ Marzuk Ingi Lamsiah Svanlaugar
+      ✓ Sigurður Haraldsson
+      ✓ Þórgunnur Guðgeirsdóttir
+      ✓ Kolbrún Anna Björnsdóttir
+      ✓ Magnea Hildur Jónsdóttir
+      ✓ Sæþór Benjamín Randalsson
+      ✓ Ágúst Valves Jóhannesson
+      ✓ Franklín Máni Arnarsson
+      ✓ Óskar Steinn Gestsson
+      ✓ Kristján Héðinn Gíslason
+      ✓ Veturliði Snær Gylfason
+      ✓ Viktor Gunnarsson
+      ✓ Ágúst Karlsson
+      ✓ Bjarni Ágústsson
+      ✓ Alexíus Metúsalem Alexandersson
+      ✓ Mikolaj Cymcyk
+  M listi - Miðflokkurinn  [✓ OK]  island.is=21 ours=21
+      ✓ Einar Jóhannes Guðnason
+      ✓ Nína Berglind Sigurgeirsdóttir
+      ✓ Beitir Ólafsson
+      ✓ Thelma Bergmann Árnadóttir
+      ✓ Trausti Örn Þórðarson
+      ✓ Ævar Örn Jóhannsson
+      ✓ Una María Óskarsdóttir
+      ✓ Guðmundur Pétur Pálsson
+      ✓ Eva Guðrún Hilmarsdóttir
+      ✓ Högni Guðmundsson
+      ✓ Ingibjörg Jóna Gunnarsdóttir
+      ✓ Kolbeinn Sturla Baldursson
+      ✓ Anna Pétursdóttir
+      ✓ Matthildur Skúladóttir
+      ✓ Sigurður Bjarni Jónsson
+      ✓ Guðrún Stefánsdóttir
+      ✓ Magnús Valur Böðvarsson
+      ✓ Alda Viggósdóttir
+      ✓ Ásgeir Önundarson
+      ✓ Kristján Atli Marteinsson
+      ✓ Einar Baldursson
+  S listi - Samfylkingin  [✓ OK]  island.is=21 ours=21
+      ✓ Jónas Már Torfason
+      ✓ Eydís Inga Valsdóttir
+      ✓ Hákon Gunnarsson
+      ✓ Sólveig Skaftadóttir
+      ✓ Orri Thor Eggertsson
+      ✓ Hildur María Friðriksdóttir
+      ✓ Örn Arnarson
+      ✓ Mirabela Blaga
+      ✓ Björn Þór Rögnvaldsson
+      ✓ Sólveig Jóhannesdóttir Larsen
+      ✓ Sigurður Kári Harðarson
+      ✓ Friðmey Jónsdóttir
+      ✓ Kristján Bjarnar Ólafsson
+      ✓ Margrét Tryggvadóttir
+      ✓ Jón Júlíusson
+      ✓ Ingunn S. Unnsteinsdóttir Kristensen
+      ✓ Ingi Hafliði Guðjónsson
+      ✓ Heiða Björk Þórbergsdóttir
+      ✓ Erlendur Geirdal
+      ✓ Sigurlaug Kristín Sævarsdóttir
+      ✓ Bergljót Kristinsdóttir
+  V listi - Vinstri græn og óháð  [✓ OK]  island.is=21 ours=21
+      ✓ Anna Sigríður Hafliðadóttir
+      ✓ Bjarki Valberg
+      ✓ Kjartan Sveinn Guðmundsson
+      ✓ Védís Einarsdóttir
+      ✓ Rakel Ósk Sigurðardóttir
+      ✓ Ársæll Már Arnarson
+      ✓ Signý Þórðardóttir
+      ✓ Ásbjörn Þ. Björgvinson
+      ✓ Ólöf Sigursveinsdóttir
+      ✓ Þóra Elfa Björnsson
+      ✓ Sigurður Karl Pétursson
+      ✓ Rebeca Lombardo
+      ✓ Kristín Einarsdóttir
+      ✓ Unnur Aldred
+      ✓ Kristín Njálsdóttir
+      ✓ Bergný Marvinsdóttir
+      ✓ Margrét Júlía Rafnsdóttir
+      ✓ Baldvin Björgvinsson
+      ✓ Aldís Aðalbjarnardóttir
+      ✓ Sigurður Flosason
+      ✓ Þuríður Backmann
+
+========================================================================
+MUNICIPALITY: Mosfellsbær
+  B listi - Framsóknarflokkurinn  [✓ OK]  island.is=21 ours=21
+      ✓ Sævar Birgisson
+      ✓ Halla Karen Kristjánsdóttir
+      ✓ Leifur Ingi Eysteinsson
+      ✓ Elín Guðný Hlöðversdóttir
+      ✓ Ýmir Örn Hafsteinsson
+      ✓ Sandra Dís Bjarnadóttir
+      ✓ Kjartan Helgi Ólafsson
+      ✓ Matthildur Þórðardóttir
+      ✓ Frímann Ægir Frímannsson
+      ✓ Bjarni Ingimarsson
+      ✓ Vala Garðarsdóttir
+      ✓ Hansína Þorbjörg Sólbjartsdóttir
+      ✓ Helga Einarsdóttir
+      ✓ Ragnar Sverrisson
+      ✓ Sigurbjörg Kristmundsdóttir
+      ✓ Karlotta Lind Pedersen
+      ✓ Sigríður Dóra Sigtryggsdóttir
+      ✓ Þór Gíslason
+      ✓ Erlingur Agnarsson
+      ✓ Páll Marís Pálsson
+      ✓ Ævar Sigdórsson
+  C listi - Viðreisn  [✓ OK]  island.is=21 ours=21
+      ✓ Gylfi Þór Þorsteinsson
+      ✓ Valdimar Birgisson
+      ✓ Elín Anna Gísladóttir
+      ✓ Berglind Robertson Grétarsdóttir
+      ✓ Haukur Skúlason
+      ✓ Guðrún Þórarinsdóttir
+      ✓ Birgir Örn Birgisson
+      ✓ Erla Björk Gísladóttir
+      ✓ Óðinn Freyr Baldursson
+      ✓ Valgerður Lilja Jónsdóttir
+      ✓ Sigurður Unnar Ragnarsson
+      ✓ Hera Björk Þórhallsdóttir
+      ✓ Kjartan Jóhannes Hauksson
+      ✓ Hildur Björg Bæringsdóttir
+      ✓ Magnús Sverrir Kristófersson
+      ✓ Eyja Eydal Björnsdóttir
+      ✓ Reynir Matthíasson
+      ✓ Ingibjörg Bergrós Jóhannesdóttir
+      ✓ Helgi Pálsson
+      ✓ Ólöf Guðmundsdóttir
+      ✓ Bolli Valgarðsson
+  D listi - Sjálfstæðisflokkurinn  [✓ OK]  island.is=21 ours=21
+      ✓ Hilmar Gunnarsson
+      ✓ Jana Katrín Knútsdóttir
+      ✓ Elísabet S. Ólafsdóttir
+      ✓ Hjörtur Örn Arnarson
+      ✓ Þórarinn Örn Andrésson
+      ✓ Ásgeir Sveinsson
+      ✓ Magnús Ingi Ingvarsson
+      ✓ Brynja Hlíf Hjaltadóttir
+      ✓ Nanna Björt Ívarsdóttir
+      ✓ Elín María Jónsdóttir
+      ✓ Árni Bragi Eyjólfsson
+      ✓ Katrín Dögg Hilmarsdóttir
+      ✓ Jón Magnús Jónsson
+      ✓ Gunnhildur Einarsdóttir
+      ✓ Þorsteinn Birgisson
+      ✓ Halldóra Sif Guðlaugsdóttir
+      ✓ Jódís Lilja Jakobsdóttir
+      ✓ Alexander V. Kárason
+      ✓ Hafrún Hafliðadóttir
+      ✓ Nína Huld Leifsdóttir
+      ✓ Aron Valur Gunnlaugsson
+  L listi - Vinir Mosfellsbæjar  [✓ OK]  island.is=21 ours=21
+      ✓ Árni Jónsson
+      ✓ Guðfinna Birta Valgeirsdóttir
+      ✓ Michele Rebora
+      ✓ Guðrún Elísa Sævarsdóttir
+      ✓ Þóranna Rósa Ólafsdóttir
+      ✓ Kristinn Guðjónsson
+      ✓ Katarzyna Krystyna Krolokowska
+      ✓ Ólafur Jónas Sigurðsson
+      ✓ Andri Freyr Friðriksson
+      ✓ Matthildur Freyja Árnadóttir
+      ✓ Leó Halldórsson
+      ✓ Árni Magnússon
+      ✓ Fabio La Marca
+      ✓ Bríet Bjarnadóttir
+      ✓ Haukur Leo Senstius Árnason
+      ✓ Stefán Pálsson
+      ✓ Orri Grétar Valgeirsson
+      ✓ Kristín Eva Ólafsdóttir
+      ✓ Tómas Þorgeir Hafsteinsson
+      ✓ Lárus Arnar Sölvason
+      ✓ Fanney Valgarðsdóttir
+  M listi - Miðflokkurinn  [✓ OK]  island.is=21 ours=21
+      ✓ Sveinn Óskar Sigurðsson
+      ✓ Ingibjörg Einarsdóttir
+      ✓ Hjalti Árnason
+      ✓ Sóley Sævarsdóttir Meyer
+      ✓ Kristján Davíð Sigurjónsson
+      ✓ Karl Gissur Þórisson
+      ✓ Nói Þrastarson
+      ✓ Sara Hafbergsdóttir
+      ✓ Ólafur Vignir Þórarinsson
+      ✓ Eyþór Bjarki Benediktsson
+      ✓ Aldís Dröfn Ingvarsdóttir
+      ✓ Bjarki Þór Þórisson
+      ✓ Pétur Ásgeirsson
+      ✓ Helga Diljá Jónsdóttir
+      ✓ Sigurjón Kristjánsson
+      ✓ Jóhannes Birgir Jóhannesson
+      ✓ Mikael Árni Bergmann Þorsteinsson
+      ✓ Linda Björk Stefánsdóttir
+      ✓ Hlynur Hilmarsson
+      ✓ Friðbert Bragason
+      ✓ Sigurrós Kristín Indriðadóttir
+  S listi - Samfylkingin  [✓ OK]  island.is=21 ours=21
+      ✓ Ólafur Ingi Óskarsson
+      ✓ Guðný Maja Riba
+      ✓ Ómar Ingþórsson
+      ✓ Auður Einarsdóttir
+      ✓ Guðlaugur Bjarki Lúðvíksson
+      ✓ Elín Eiríksdóttir
+      ✓ Sigurður Óli Karlsson
+      ✓ Viktoría Lilja Magnúsdóttir
+      ✓ Þórarinn Snorri Sigurgeirsson
+      ✓ Þóra Sigrún Kjartansdóttir
+      ✓ Magnús Hlynur Haraldsson
+      ✓ Kristín María Ingimarsdóttir
+      ✓ Kári Freyr Kane
+      ✓ Halla Halldórsdóttir
+      ✓ Þyrnir Hálfdán Þyrnisson
+      ✓ Þóra Hermansdóttir Passauer
+      ✓ Guðbjörn Sigvaldason
+      ✓ Þórunn Ísfeld Þorsteinsdóttir
+      ✓ Ragnar Gunnar Þórhallsson
+      ✓ Kristín Sæunn Sigurðardóttir
+      ✓ Jónas Sigurðsson
+
+========================================================================
+MUNICIPALITY: Múlaþing
+  B listi - Framsóknarflokkurinn  [✓ OK]  island.is=21 ours=21
+      ✓ Jónína Brynjólfsdóttir
+      ✓ Eiður Ragnarsson
+      ✓ Þórey Birna Jónsdóttir
+      ✓ Björg Eyþórsdóttir
+      ✓ Guðmundur Bj. Hafþórsson
+      ✓ Brynjar Pálmi Ásgeirsson
+      ✓ Eygló Björg Jóhannsdóttir
+      ✓ Guðgeir Einarsson
+      ✓ Erla Gunnlaugsdóttir
+      ✓ Kári Snær Valtingojer
+      ✓ Lilja Sigurðardóttir
+      ✓ Þorgeir Arason
+      ✓ Íris Dóróthea Randversdóttir
+      ✓ Jóhann G. Gunnarsson
+      ✓ Jelena Marinković
+      ✓ Þorsteinn Kristjánsson
+      ✓ Einar Tómas Björnsson
+      ✓ Aðalheiður Björt Unnarsdóttir
+      ✓ Alda Ósk Harðardóttir
+      ✓ Vilhjálmur Jónsson
+      ✓ Vigdís Sveinbjörnsdóttir
+  D listi - Sjálfstæðisflokkurinn  [✓ OK]  island.is=21 ours=21
+      ✓ Berglind Harpa Svavarsdóttir
+      ✓ Þórhildur Katrín Stefánsdóttir
+      ✓ Ívar Karl Hafliðason
+      ✓ Einar Freyr Guðmundsson
+      ✓ Oddný Björk Daníelsdóttir
+      ✓ Herdís Magna Gunnarsdóttir
+      ✓ Þórir Stefánsson
+      ✓ Þórhallur Borgarsson
+      ✓ Ólafur Arnar Hallgrímsson
+      ✓ Gabríel Arnarsson
+      ✓ Björgvin Stefán Pétursson
+      ✓ Guðný Lára Guðrúnardóttir
+      ✓ Matej Karlovic
+      ✓ Guðný Margrét Hjaltadóttir
+      ✓ Grímur Orri Sölvason
+      ✓ Unnur Ólöf Tómasdóttir
+      ✓ Sylvía Ösp Jónsdóttir
+      ✓ Skarphéðinn Smári Þórhallsson
+      ✓ Sigurður Gunnarsson
+      ✓ Sunna Dögg Markvad Guðjónsdóttir
+      ✓ Jóhann Hjaltason
+  L listi - Austurlistinn/Viðreisn Múlaþingi  [✓ OK]  island.is=21 ours=21
+      ✓ Hólmfríður Rut Einarsdóttir
+      ✓ Eyþór Stefánsson
+      ✓ Urður Arna Ómarsdóttir
+      ✓ Jóhann Hjalti Þorsteinsson
+      ✓ Hrafnhildur Margrét Vídalín Áslaugardóttir
+      ✓ Páll Baldursson
+      ✓ Kristjana Sigurðardóttir
+      ✓ Ævar Orri Eðvaldsson
+      ✓ Hanna Lára Ólafsdóttir
+      ✓ Arngrímur Viðar Ásgeirsson
+      ✓ Ásdís Hafrún Benediktsdóttir
+      ✓ Grímur Ólafsson
+      ✓ Tinna Jóhanna Magnusson
+      ✓ Daði Sigfússon
+      ✓ Katrín Alfa Snorradóttir
+      ✓ Aðalsteinn Ásmundarson
+      ✓ Iryna Boiko
+      ✓ Andrew John Morgan
+      ✓ Ragnhildur Billa Árnadóttir
+      ✓ Hafliði Sævarsson
+      ✓ Baldur Pálsson
+  M listi - Miðflokkurinn  [✓ OK]  island.is=21 ours=21
+      ✓ Lárus Bjarnason
+      ✓ Hannes Karl Hilmarsson
+      ✓ Stefán Bragi Birgisson
+      ✓ Jóhann Halldór Harðarson
+      ✓ Guðmunda Vala Jónasdóttir
+      ✓ Viðar Gunnlaugur Hauksson
+      ✓ Ingibjörg Lárusdóttir
+      ✓ Gestur Bergmann Gestsson
+      ✓ Berglind Sveinsdóttir
+      ✓ Erlingur Hjörvar Guðjónsson
+      ✓ Regína Margrét Friðfinnsdóttir
+      ✓ Ingunn Anna Þráinsdóttir
+      ✓ Óli Stefánsson
+      ✓ Guðjón Sigmundsson
+      ✓ Benedikt V. Warén
+      ✓ Sigurður Alex Sigurgeirsson
+      ✓ Harpa Hlín Jónasdóttir
+      ✓ Stefán Scheving Einarsson
+      ✓ Grétar Heimir Helgason
+      ✓ Sigurður Ragnarsson
+      ✓ Björn Ármann Ólafsson
+  V listi - VG og óháð  [✓ OK]  island.is=21 ours=21
+      ✓ Ásrún Mjöll Stefánsdóttir
+      ✓ Helgi Hlynur Ásgrímsson
+      ✓ Glúmur Björnsson
+      ✓ Guðrún Ásta Tryggvadóttir
+      ✓ Sigríður Lára Sigurjónsdóttir
+      ✓ Jón Kristófer Arnarson
+      ✓ Sigrún Styrmisdóttir
+      ✓ Óli Jóhannes Gunnþórsson
+      ✓ Kinan Kadoni
+      ✓ Guðrún Schmidt
+      ✓ Unnar Aðalsteinsson
+      ✓ Jessica Auer
+      ✓ Hulda Sigurdís Þráinsdóttir
+      ✓ Karen Erla Erlingsdóttir
+      ✓ Ásgrímur Ingi Arngrímsson
+      ✓ Heiðdís Halla Bjarnadóttir
+      ✓ Sigríður Ruth Magnúsdóttir
+      ✓ Aðalheiður L. Borgþórsdóttir
+      ✓ Kristján Ketill Stefánsson
+      ✓ Ragnhildur Rós Indriðadóttir
+      ✓ Pétur Heimisson
+
+========================================================================
+MUNICIPALITY: Mýrdalshreppur
+
+========================================================================
+MUNICIPALITY: Norðurþing
+  B listi - Framsóknarflokkurinn  [✓ OK]  island.is=17 ours=17
+      ✓ Eysteinn Heiðar Kristjánsson
+      ✓ Bylgja Steingrímsdóttir
+      ✓ Kristinn Rúnar Tryggvason
+      ✓ Elísabet Anna Helgadóttir
+      ✓ Eiður Pétursson
+      ✓ Helga Björg Sigurðardóttir
+      ✓ Steinarr Bergsson
+      ✓ Nele Marie Beitelstein
+      ✓ Vilborg Hrund Jónsdóttir
+      ✓ Friðrik Aðalgeir Guðmundsson
+      ✓ Anna Sigrún Mikaelsdóttir
+      ✓ Unnsteinn Ingi Júlíusson
+      ✓ Hanna Jóna Stefánsdóttir
+      ✓ Elmar Ægir Eysteinsson
+      ✓ Soffía Gísladóttir
+      ✓ Lilja Skarphéðinsdóttir
+      ✓ Sigurgeir Aðalgeirsson
+  D listi - Sjálfstæðisflokkurinn  [✓ OK]  island.is=17 ours=17
+      ✓ Helena Eydís Ingólfsdóttir
+      ✓ Þorsteinn Snævar Benediktsson
+      ✓ Kristján Friðrik Sigurðsson
+      ✓ Guðrún Þóra Hallgrímsdóttir
+      ✓ Guðni Már Kjartansson
+      ✓ Birna Íris Barkardóttir
+      ✓ Þórður Sigmundur Sigmundsson
+      ✓ Arna Ýr Arnarsdóttir
+      ✓ Stefán Jón Sigurgeirsson
+      ✓ Áslaug Guðfinna Friðfinnsdóttir
+      ✓ Baldur Baldvinsson
+      ✓ Erna Sigríður Hannesdóttir
+      ✓ Elmar Örn Guðmundsson
+      ✓ Anna Björg Leifsdóttir
+      ✓ Magnús Máni Sigurgeirsson
+      ✓ Anna Rósa Magnúsdóttir
+      ✓ Oddur Vilhelm Jóhannsson
+  S listi - Samfylkingin  [✓ OK]  island.is=17 ours=17
+      ✓ Kjartan Páll Þórarinsson
+      ✓ Rebekka Ásgeirsdóttir
+      ✓ Ísak Már Aðalsteinsson
+      ✓ Agnieszka Szczodrowska
+      ✓ Reynir Ingi Reinhardsson
+      ✓ Regína Sigurðardóttir
+      ✓ Birta Guðlaug Sigmarsdóttir
+      ✓ Andreas Blensner
+      ✓ Katla María Guðnadóttir
+      ✓ Linda Birgisdóttir
+      ✓ Óskar Páll Davíðsson
+      ✓ Ruth Ragnarsdóttir
+      ✓ Egill P. Egilsson
+      ✓ Helga Gunnarsdóttir
+      ✓ Sigurður Jóhann Freygarðsson
+      ✓ Berglind Júlíusdóttir
+      ✓ Tryggvi Grani Jóhannsson
+
+========================================================================
+MUNICIPALITY: Rangárþing eystra
+  B listi - Framsókn og aðrir framfarasinnar  [✓ OK]  island.is=13 ours=13
+      ✓ Rafn Bergsson
+      ✓ Bjarki Oddsson
+      ✓ Gunnhildur Jónsdóttir
+      ✓ Harpa Sif Þorsteinsdóttir
+      ✓ Jón Pétur Þorvaldsson
+      ✓ Sigrún Bjarnadóttir
+      ✓ Ágúst Jensson
+      ✓ Ída Rún Sveinsdóttir
+      ✓ Ragnar Lárusson
+      ✓ Ólöf Sara Garðarsdóttir
+      ✓ Lea Birna Lárusdóttir
+      ✓ Stefán Bjarki Smárason
+      ✓ Ásta Brynjólfsdóttir
+  D listi - D-listinn og aðrir lýðræðissinnar  [✓ OK]  island.is=13 ours=13
+      ✓ Anton Kári Halldórsson
+      ✓ Aðalbjörg Rún Ásgeirsdóttir
+      ✓ Andri Már Óskarsson
+      ✓ Hulda Dóra Eysteinsdóttir
+      ✓ Bjarki Freyr Sigurjónsson
+      ✓ Anna Birna Þráinsdóttir
+      ✓ Ólafur Þórisson
+      ✓ Írena Sif Kjartansdóttir
+      ✓ Helgi Valur Smárason
+      ✓ Sandra Sif Úlfarsdóttir
+      ✓ Jón Pálmi Ólafsson
+      ✓ Einar Grétar Magnússon
+      ✓ Sigríður Karolína Viðarsdóttir
+  N listi - N-listinn  [✓ OK]  island.is=13 ours=13
+      ✓ Tómas Birgir Magnússon
+      ✓ Inger Erla Thomsen
+      ✓ Anna Runólfsdóttir
+      ✓ Guðni Ragnarsson
+      ✓ Guðmundur Ólafsson
+      ✓ Anna Margrét Aðalsteinsdóttir
+      ✓ Karel Geir Sverrisson
+      ✓ Bjarni Daníelsson
+      ✓ Sigurður Orri Baldursson
+      ✓ Guðbjörg Konráðsdóttir
+      ✓ Þórður Tómasson
+      ✓ Magnús Benónýsson
+      ✓ Hjalti Logason
+
+========================================================================
+MUNICIPALITY: Rangárþing ytra
+  D listi - D-listi sjálfstæðismanna  [✓ OK]  island.is=13 ours=13
+      ✓ Ingvar Pétur Guðbjörnsson
+      ✓ Guðmar Aubertsson
+      ✓ Þröstur Sigurðsson
+      ✓ Sóley Margeirsdóttir
+      ✓ Gyða Árný Helgadóttir
+      ✓ Árni Kristjánsson
+      ✓ Björk Grétarsdóttir
+      ✓ Sara Bergmann Valtýsdóttir
+      ✓ Gústav Magnús Ásbjörnsson
+      ✓ Laima Jakaite
+      ✓ Finnur Egilsson
+      ✓ Guðrún Karlsdóttir
+      ✓ Sævar Jónsson
+
+========================================================================
+MUNICIPALITY: Reykhólahreppur
+  R listi - Raddir okkar allra  [✓ OK]  island.is=9 ours=9
+      ✓ Árný Huld Haraldsdóttir
+      ✓ Embla Dögg Bachmann Jóhannsdóttir
+      ✓ Kjartan Þór Ragnarsson
+      ✓ Indiana Svala Ólafsdóttir
+      ✓ Matthías Óli Gústafsson
+      ✓ Aron Viðar Kristjánsson
+      ✓ Agnieszka Anna Marcinkowska-Kowalczyk
+      ✓ Björn Samúelsson
+      ✓ Sigríður Anna Ísleifsdóttir
+  S listi - Samfylkingin og óháðir  [✓ OK]  island.is=9 ours=9
+      ✓ Hrefna Jónsdóttir
+      ✓ Þorleifur Jóhann Guðjónsson
+      ✓ Jóhanna Ösp Einarsdóttir
+      ✓ Ólafur Þór Ólafsson
+      ✓ Margrét Dögg Sigurbjörnsdóttir
+      ✓ Phedias Cadavez Rizon
+      ✓ Guðlaug Guðmunda Ingibjörg Magnfríður Bergsveinsdóttir
+      ✓ Tindur Ólafur Guðmundsson
+      ✓ Helena Þóra Sigurbjörnsdóttir
+
+========================================================================
+MUNICIPALITY: Reykjanesbær
+  B listi - Framsóknarflokkurinn  [✓ OK]  island.is=21 ours=21
+      ✓ Halldóra Fríða Þorvaldsdóttir
+      ✓ Róbert Jóhann Guðmundsson
+      ✓ Díana Hilmarsdóttir
+      ✓ Birgir Már Bragasson
+      ✓ Halla Karen Guðjónsdóttir
+      ✓ Sighvatur Jónsson
+      ✓ Gunnar Jón Ólafsson
+      ✓ Eva Stefánsdóttir
+      ✓ Þórarinn Darri Ólafsson
+      ✓ Hekla Sif Ingvadóttir
+      ✓ Sigurður Guðjónsson
+      ✓ Àsta María Guðmundsdóttir
+      ✓ Hrafnkell Freyr Ágústsson
+      ✓ Birna Ósk Óskarsdóttir
+      ✓ Karítas Lára Rafnkelsdóttir
+      ✓ Hólmfríður Jennýjar Árnadóttir
+      ✓ Hreinn Ágúst Kristinsson
+      ✓ Steinunn Valsdóttir
+      ✓ Yasmin Petra Younesdóttir
+      ✓ Bjarney Rut Jensdóttir
+      ✓ Kristinn Þór Jakobsson
+  C listi - Viðreisn  [✓ OK]  island.is=21 ours=21
+      ✓ Arnar Páll Guðmundsson
+      ✓ Davíð Skarphéðinsson
+      ✓ Ásta Kristín Guðmundsdóttir
+      ✓ Aðalheiður Júlírós Óskarsdóttir
+      ✓ Sveinn Enok Jóhannsson
+      ✓ Sigrún G. Bates
+      ✓ Rúnar Þór Guðmundsson
+      ✓ Jóhanna Björk Sigurbjörnsdóttir
+      ✓ Daníel Birgir Björgvinsson
+      ✓ Brynja Ýr Júlíusdóttir
+      ✓ Jón Garðar Snædal Jónsson
+      ✓ Gunnhildur Brynjólfssdóttir
+      ✓ Hafsteinn Þórir Haraldsson
+      ✓ Helena Björk Rúnarsdóttir
+      ✓ Ingi Eggert Ásbjarnarson
+      ✓ Hildigunnur Eir Kristjánsdóttir
+      ✓ Haukur Hilmarsson
+      ✓ Ingibjörg Ýr Smáradóttir
+      ✓ Fannar Jónsson
+      ✓ Alda Friðný Skagfjörð Áskelsdóttir
+      ✓ Sigurður Jóhannsson
+  D listi - Sjálfstæðisflokkurinn  [✓ OK]  island.is=21 ours=21
+      ✓ Vilhjálmur Árnason
+      ✓ Margrét Þórarinsdóttir
+      ✓ Kristján Pétur Kristjánsson
+      ✓ Alexander Ragnarsson
+      ✓ Guðbergur Reynisson
+      ✓ Guðlaug Sunna Gunnarsdóttir
+      ✓ Ásdís Ólafsdóttir
+      ✓ Logi Þór Ágústsson
+      ✓ Ólöf Steinunn Lárusdóttir
+      ✓ Gunnar Felix Rúnarsson
+      ✓ Hermann Borgar Jakobsson
+      ✓ Helga Guðrún Sigurðardóttir
+      ✓ Tryggvi Þór Bragason
+      ✓ Alma Guðnadóttir
+      ✓ Guðmundur Steinarsson
+      ✓ Axel Ingi Auðunsson
+      ✓ Berglind Ragnarsdóttir
+      ✓ Jón Már Sverrisson
+      ✓ Ragnar Már Ragnarsson
+      ✓ Harpa B. Sævarsdóttir
+      ✓ Hjörleifur Stefánsson
+  M listi - Miðflokkurinn  [✓ OK]  island.is=21 ours=21
+      ✓ Gunnlaugur Kárason
+      ✓ Rúnar Fossádal
+      ✓ Sigrún Þorsteinsdóttir
+      ✓ Bjarni Gunnólfsson
+      ✓ Matthildur Júlía Matthíasdóttir
+      ✓ Brynjólfur Sveinn Ívarssson
+      ✓ Davíð Brár Unnarsson
+      ✓ Aðalgeir Jónsson
+      ✓ Guðdís Eiríksdóttir
+      ✓ Bjarni Geir Bjarnason
+      ✓ Elísa Margrét Johnsen
+      ✓ Jón Ragnar Reynisson
+      ✓ Þorsteinn Ingi Hjálmarsson
+      ✓ Sigurður Jón Sigmundsson
+      ✓ Matthías Snorrason
+      ✓ Patience A. Karlsson
+      ✓ Bryndís Káradóttir
+      ✓ Andrea Thorarensen
+      ✓ Elísa Gunnlaugsdóttir
+      ✓ Sandra Trang Bui Geirsdóttir
+      ✓ Karvel Granz
+  S listi - Samfylkingin  [✓ OK]  island.is=21 ours=21
+      ✓ Guðný Birna Guðmundsdóttir
+      ✓ Hjörtur Magnús Guðbjartsson
+      ✓ Aðalheiður Hilmarsdóttir
+      ✓ Bjarni Halldór Heiðuson Janusson
+      ✓ Hámundur Örn Helgason
+      ✓ Sigurrós Antonsdóttir
+      ✓ Eysteinn Eyjólfsson
+      ✓ Hildur Björnsdóttir
+      ✓ Magnús Einþór Áskelsson
+      ✓ Elfa Hrund Guttormsdóttir
+      ✓ Hjálmar Kári Smárason
+      ✓ Vala Ósk Ólafsdóttir
+      ✓ Hlynur Snær Vilhjálmsson
+      ✓ Erna María Jensdóttir
+      ✓ Styrmir Gauti Fjeldsted
+      ✓ Tinna Kristjánsdóttir
+      ✓ Stefán Páll Halldórsson
+      ✓ Auður Sigurðardóttir
+      ✓ Borgar Lúðvík Jónsson
+      ✓ Borgar Unnbjörn Ólafsson
+      ✓ Sveindís Valdimarsdóttir
+
+========================================================================
+MUNICIPALITY: Reykjavíkurborg
+  A listi - Vinstrið  [✓ OK]  island.is=46 ours=46
+      ✓ Sanna Magdalena Mörtudóttir
+      ✓ Líf Magneudóttir
+      ✓ Stefán Pálsson
+      ✓ Ásta Þ. Skjalddal Guðjónsdóttir
+      ✓ Arna Magnea Danks
+      ✓ Finnur Ricart Andrason
+      ✓ Laufey Líndal Ólafsdóttir
+      ✓ Riitta Anne Maarit Kaipainen
+      ✓ Tinna Rut Jóhannsdóttir
+      ✓ Steinar Harðarson
+      ✓ Viðar Gunnarsson
+      ✓ Bergrún Andradóttir
+      ✓ María Hjálmtýsdóttir
+      ✓ Illugi Gunnarsson
+      ✓ Halldór Auðar Svansson
+      ✓ Brynhildur Björnsdóttir
+      ✓ Signý Sigurðardóttir
+      ✓ Sveinn Rúnar Hauksson
+      ✓ Armando Garcia Teixeira
+      ✓ Nína Aradóttir
+      ✓ Þórdís Nadia Semichat
+      ✓ Kristinn Helgi Magnússon Schram
+      ✓ Sigurður Andrés Sigurðarson
+      ✓ Ragnhildur Björt Björnsdóttir
+      ✓ Davíð Sól Páls
+      ✓ Ari Orrason
+      ✓ Ragnheiður Guðmundsdóttir
+      ✓ Birna Björg Guðmundsdóttir
+      ✓ Björn Rúnar Guðmundsson
+      ✓ Sæmundur Helgason
+      ✓ Sóley Lóa Smáradóttir
+      ✓ Auður Alfífa Ketilsdóttir
+      ✓ Þórir Jónsson Hraundal
+      ✓ Ingileif Jónsdóttir
+      ✓ Silva Á. Skjalddal Eggertsdóttir
+      ✓ Viktor Árnason
+      ✓ Alexandre Amaral Da Silva
+      ✓ Sigrún Jóhannsdóttir
+      ✓ Rakel Hildardóttir
+      ✓ Anna Lára Steindal
+      ✓ Jón Helgi Þórarinsson
+      ✓ René Biasone
+      ✓ Úlfhildur Melkorka Magnadóttir
+      ✓ Sjöfn Ingólfsdóttir
+      ✓ Sigrún Jónsdóttir
+      ✓ Guðrún Ágústsdóttir
+  B listi - Framsóknarflokkurinn  [✓ OK]  island.is=45 ours=45
+      ✓ Einar Þorsteinsson
+      ✓ Magnea Gná Jóhannsdóttir
+      ✓ Þorvaldur Daníelsson
+      ✓ Halldór Bachmann
+      ✓ Andrea Edda Guðlaugsdóttir
+      ✓ Þórdís Jóna Jakobsdóttir
+      ✓ Ína Holoyad
+      ✓ Guðmundur Ingi Þorvaldsson
+      ✓ Ásrún Kristjánsdóttir
+      ✓ Skúli Bragi Geirdal
+      ✓ Kristjana Þórarinsdóttir
+      ✓ Dagbjört S Höskuldsdóttir
+      ✓ Jón Finnbogason
+      ✓ Þórdís Arna Bjarkarsdóttir
+      ✓ Fanný Gunnarsdóttir
+      ✓ Haraldur Þorvarðarson
+      ✓ Ragnhildur Helga Ragnarsdóttir
+      ✓ Hörður Ragnarsson
+      ✓ Sæþór Már Hinriksson
+      ✓ Ásta Björg Björgvinsdóttir
+      ✓ Gísli J. Jónatansson
+      ✓ Dröfn Skorradóttir
+      ✓ Ágúst Guðjónsson
+      ✓ Hafsteinn Bergmann Gunnarsson
+      ✓ Björg Ósk Gunnarsdóttir
+      ✓ Björn Ívar Björnsson
+      ✓ Gyða Björg Olgeirsdóttir
+      ✓ Arnar Már Davíðsson
+      ✓ Linda Björk Hávarðardóttir
+      ✓ Arnþór Árni Logason
+      ✓ Bragi Ingólfsson
+      ✓ Steinþór Ólafur Guðrúnarson
+      ✓ Olga Hrönn Olgeirsdóttir
+      ✓ Breki Halldórsson Bachmann
+      ✓ Inga Þyri Kjartansdóttir
+      ✓ Ólafur Ólafsson
+      ✓ Jóhann Karl Sigurðsson
+      ✓ Ívar Orri Aronsson
+      ✓ Milla Ósk Magnúsdóttir
+      ✓ Lárus Sigurður Lárusson
+      ✓ Hulda Finnlaugsdóttir
+      ✓ Aðalsteinn Haukur Sverrisson
+      ✓ Árelía Eydís Guðmundsdóttir
+      ✓ Níels Árni Lund
+      ✓ Hjálmar Waag Árnason
+  C listi - Viðreisn  [✓ OK]  island.is=45 ours=45
+      ✓ Björg Magnúsdóttir
+      ✓ Róbert Ragnarsson
+      ✓ Þorvaldur Davíð Kristjánsson
+      ✓ Margrét Rós Sigurjónsdóttir
+      ✓ Eyþór Máni Steinarsson
+      ✓ Sandra Hlín Guðmundsdóttir
+      ✓ Sverrir Páll Einarsson
+      ✓ Monika Katarzyna Waleszczynska
+      ✓ Samúel Torfi Pétursson
+      ✓ Ingunn Rós Kristjánsdóttir
+      ✓ Hákon Skúlason
+      ✓ Emma Ósk Ragnarsdóttir
+      ✓ Oddgeir Páll Georgsson
+      ✓ Helga Dögg Björgvinsdóttir
+      ✓ Bjartur Hrafn Jóhannsson
+      ✓ Ragnheiður Dóra H. Jónsdóttir
+      ✓ Jón Steindór Valdimarsson
+      ✓ Ester Ósk Gestsdóttir Waage
+      ✓ Bjarki Fjalar Guðjónsson
+      ✓ Diljá Ámundadóttir Zoega
+      ✓ Hjálmar Gíslason
+      ✓ Emilía Björt Írisard. Bachmann
+      ✓ Sverrir Örn Kaaber
+      ✓ Noorina Khalikyar
+      ✓ Steinar Logi Hafsteinsson
+      ✓ Ólöf Hugrún Valdimarsdóttir
+      ✓ Gústaf Berg Guðnýjarson
+      ✓ Íris Arnlaugsdóttir
+      ✓ Unnar Geir Unnarsson
+      ✓ Jana Guðrún Jahzara T. Maillard
+      ✓ Jakob Rafn Löve
+      ✓ Jóhanna Fjóla Ólafsdóttir
+      ✓ Rúnar Guðjónsson
+      ✓ María Svanfríður Malmquist
+      ✓ Ásmundur Helgason
+      ✓ Draumey Ósk Ómarsdóttir
+      ✓ Helgi Hrafn Gunnarsson
+      ✓ Kristín A. Árnadóttir
+      ✓ Haukur Árnason
+      ✓ Andrea Þormar
+      ✓ Árni Grétar Jóhannsson
+      ✓ Anna Hildigunnur Jónasdóttir
+      ✓ Úlfur Atli Stefaníuson
+      ✓ Ingileif Friðriksdóttir
+      ✓ Jón Gnarr
+  D listi - Sjálfstæðisflokkurinn  [✓ OK]  island.is=46 ours=46
+      ✓ Hildur Björnsdóttir
+      ✓ Bjarni Eggerts Guðjónsson
+      ✓ Brynjar Níelsson
+      ✓ Ragnhildur Alda Vilhjálmsdóttir
+      ✓ Rúnar Freyr Gíslason
+      ✓ Guðný María Jóhannsdóttir
+      ✓ Albert Guðmundsson
+      ✓ Bjarni Fritzson
+      ✓ Sigrún Ásta Einarsdóttir
+      ✓ Björn Gíslason
+      ✓ Friðjón R Friðjónsson
+      ✓ Hafrún Kristjánsdóttir
+      ✓ Helga Margrét Marzellíusardóttir
+      ✓ Safa Jemai
+      ✓ Daníel Hjörvar Guðmundsson
+      ✓ Elínborg Ásdís Árnadóttir
+      ✓ Aðalsteinn Örn Aðalsteinsson
+      ✓ Már Másson
+      ✓ Katla Guðjónsdóttir
+      ✓ Kristjón Jónsson
+      ✓ Ásthildur Bertha Bjarkadóttir
+      ✓ Elías Blöndal Guðjónsson
+      ✓ Arna Arnardóttir
+      ✓ Luka Lúkas Kostic
+      ✓ Auður Jónsdóttir
+      ✓ Eva Dögg M Sigurgeirsdóttir
+      ✓ Stefán Karl Snorrason
+      ✓ Hlíf Sturludóttir
+      ✓ Atli Guðjónsson
+      ✓ Tómas Orri Tryggvason
+      ✓ Kolbrún Ólafsdóttir
+      ✓ Þórarinn Hjaltason
+      ✓ Anna Fríða Ingvarsdóttir
+      ✓ Logi Stefánsson
+      ✓ Georg Ingi Kulp
+      ✓ Ingibjörg H Sverrisdóttir
+      ✓ Alda María Þórðardóttir
+      ✓ Guðmundur Snorrason
+      ✓ Erna Birgisdóttir
+      ✓ Eydís Helga Viðarsdóttir
+      ✓ Bertha Biering
+      ✓ Bjarni Pálsson
+      ✓ Gunnar Örn Ólafsson
+      ✓ Gestur Ólafsson
+      ✓ Svava Þorgerður Johansen
+      ✓ Ragnar Jónasson
+  F listi - Flokkur fólksins  [✓ OK]  island.is=45 ours=45
+      ✓ Guðmundur Ingi Þóroddsson
+      ✓ Einar Sveinbjörn Guðmundsson
+      ✓ Guðbjörg Ingunn Magnúsdóttir
+      ✓ Sigurveig Jóhannsdóttir
+      ✓ Rúnar Sigurjónsson
+      ✓ Lilja Sigríður Steingrímsdóttir
+      ✓ Sigurður Rúnarsson
+      ✓ Helga Þórðardóttir
+      ✓ Tristan Elizabeth Gribbin
+      ✓ Heimir Már Pétursson
+      ✓ Atli Jónasson
+      ✓ Ingi Björgvin Karlsson
+      ✓ Gefn Baldursdóttir
+      ✓ Inga Þóra Þóroddsdóttir
+      ✓ Halldóra Gestsdóttir
+      ✓ Hreggviður Emil Eðvarðsson
+      ✓ Freyja Dís Númadóttir
+      ✓ Birgir Jóhann Birgisson
+      ✓ Stefanía Sesselja Hinriksdóttir
+      ✓ Kristján Salvar Davíðsson
+      ✓ Valur Sigurðsson
+      ✓ Oddný Árnadóttir
+      ✓ Jóna S. Skjalddal Marvinsdóttir
+      ✓ Ingvar Gíslason
+      ✓ Siriprapaporn Taemsungnoen
+      ✓ Kristján Karlsson
+      ✓ Katrín Viktoría Leiva
+      ✓ Gunnar Skúli Ármannsson
+      ✓ Ómar Örn Ómarsson
+      ✓ Ívar Már Jónsson
+      ✓ Alexander Jakob Dubik
+      ✓ Óli Már Guðmundsson
+      ✓ Þórarinn Kristinsson
+      ✓ Hilmar Guðmundsson
+      ✓ Margrét Víkingsdóttir
+      ✓ Bjarni Guðmundsson
+      ✓ Sigríður Sæland Óladóttir
+      ✓ Kristján Arnar Helgason
+      ✓ Baldvin Örn Ólason
+      ✓ Daníel Dúi Ragnarsson
+      ✓ Eysteinn Lester Batson
+      ✓ Sigríður G. Kristjánsdóttir
+      ✓ Kolbrún Áslaugar Baldursdóttir
+      ✓ Ragnar Þór Ingólfsson
+      ✓ Sigríður Sæland Jónsdóttir
+  G listi - Góðan daginn  [✓ OK]  island.is=22 ours=22
+      ✓ Ingimar Þór Friðriksson
+      ✓ Hjördís Dröfn Vilhjálmsdóttir
+      ✓ Torfi Markússon
+      ✓ Nathalia B. Tómasdóttir
+      ✓ Jón L. Árnason
+      ✓ Björn Jóhann Þórsson
+      ✓ Andri Ívarsson
+      ✓ Inga María Friðriksdóttir
+      ✓ Jónas Gunnarsson
+      ✓ Unnur Sól Ingimarsdóttir
+      ✓ Markús Karl Torfason
+      ✓ Birta Hrönn Ingimarsdóttir
+      ✓ Dagur Adam Ólafsson
+      ✓ Jón Bjarni Geirsson
+      ✓ Þorleifur Þorleifsson
+      ✓ Sunnefa Pálsdóttir
+      ✓ Jóhann Jökull Bæhrenz
+      ✓ Súsanna Sif Terrazas
+      ✓ Sigfús Þór Guðbjartsson
+      ✓ Páll Kristinn Guðjónsson
+      ✓ Pétur Bjarni Pétursson
+      ✓ Guðmundur Óskar Hauksson
+  J listi - Sósíalistaflokkur Íslands  [✓ OK]  island.is=45 ours=45
+      ✓ Silja Sóley Birgisdóttir
+      ✓ Sigrún E Unnsteinsdóttir
+      ✓ Hannes Pétursson
+      ✓ Geirdís Hanna Kristjánsdóttir
+      ✓ Jón Ferdínand Estherarson
+      ✓ Birna Gunnlaugsdóttir
+      ✓ Rósa Guðný Arnardóttir
+      ✓ Halldór Ísak Ólafsson
+      ✓ Jökull Sólberg Auðunsson
+      ✓ Júnía Líf Sigurjónsdóttir
+      ✓ Guðmundur Guðmundsson
+      ✓ Þórhildur Katrín Pálsdóttir
+      ✓ Davíð Aron Routley
+      ✓ Anita da Silva Bjarnadóttir
+      ✓ Guðröður Atli Jónsson
+      ✓ Eyjólfur B. Eyvindarson
+      ✓ Uldarico Castillo de Luna
+      ✓ Berglind Rut Terrazas
+      ✓ Anna Jonna Ármannsdóttir
+      ✓ Katrín Baldursdóttir
+      ✓ Helgi Páll Einarsson
+      ✓ Bryndís Ýrr Baldursdóttir
+      ✓ Esther Jónsdóttir
+      ✓ Tinna Þorvaldsdóttir Önnudóttir
+      ✓ Hjörtur Birgir Jóhönnuson
+      ✓ Hermann Karl Gunnarsson
+      ✓ Auður Mist Eydal Halldórsdóttir
+      ✓ Þorvaldur Þorvaldsson
+      ✓ Björgvin Már Karlsson
+      ✓ Magnús Bergsson
+      ✓ Sólrún Freyja Sen
+      ✓ Hjörtur Þorgeirsson
+      ✓ Hjálmar Friðriksson
+      ✓ Valtýr Kári Daníelsson
+      ✓ Kristbjörg Eva Andersen Ramos
+      ✓ Stefán Örn Ingvarsson Olsen
+      ✓ Kristófer Andrésson
+      ✓ Björn Guðmundsson
+      ✓ Þorbjörg Inga Þórisdóttir
+      ✓ Árni Daníel Júlíusson
+      ✓ Björgvin Máni Ársælsson
+      ✓ Ólafur Pétur Georgsson
+      ✓ Sherry Ruth Espino Buot
+      ✓ Guðmundur Erlendsson
+      ✓ Júlíus K. Valdimarsson
+  M listi - Miðflokkurinn  [✓ OK]  island.is=45 ours=45
+      ✓ Ari Edwald
+      ✓ Kristín Kolbrún Kolbeinsdóttir
+      ✓ Lárus Sigurðsson
+      ✓ Hlédís Maren Guðmundsdóttir
+      ✓ Helgi Áss Grétarsson
+      ✓ Páll Edwald
+      ✓ Eva Þorsteinsdóttir
+      ✓ Katrín H. Magnúsdóttir
+      ✓ Breki Atlason
+      ✓ Salma Björk Önnudóttir
+      ✓ Sóldís Birta Reynisdóttir
+      ✓ Jón Múli Egilsson Prunner
+      ✓ Marta Guðjónsdóttir
+      ✓ Ásgeir Theodór Jóhannesson
+      ✓ Kjartan Magnússon
+      ✓ Jón Ingi Gíslason
+      ✓ Margrét Edda Gnarr
+      ✓ Símon Þorkell Símonarson Olsen
+      ✓ Marcin Szafranowicz
+      ✓ Arnór Valdimarsson
+      ✓ Karolína M Jónsdóttir
+      ✓ Eliso Kalandia
+      ✓ Bóas Sigurjónsson
+      ✓ Krzysztof Giewiel
+      ✓ Ómar Örn Karlsson
+      ✓ Steinunn Anna Baldvinsdóttir
+      ✓ Davíð Bergmann Davíðsson
+      ✓ Dorota Anna Zaorska
+      ✓ Ellert Scheving Markússon
+      ✓ Kristín Linda Sævarsdóttir
+      ✓ Símon Ólafsson
+      ✓ Ævar Daníel Guðrúnarson
+      ✓ Eiður Fannar Erlendsson
+      ✓ Halldór Örn Írisarson
+      ✓ Sonja Ólafsdóttir
+      ✓ Jón A Jónsson
+      ✓ Fjóla Hrund Björnsdóttir
+      ✓ Jón Sigurðsson
+      ✓ Elínbjörg Ingólfsdóttir
+      ✓ Ingibjörg Lilja Jónsdóttir
+      ✓ Valey Ýr Mörk Valgeirsdóttir
+      ✓ Guðlaugur Sverrisson
+      ✓ Valdimar Ármann Þórhallsson
+      ✓ Erna Valsdóttir
+      ✓ Gunnlaugur A. Júlíusson
+  P listi - Píratar  [✓ OK]  island.is=45 ours=45
+      ✓ Kristinn Jón Ólafsson
+      ✓ Alexandra Briem
+      ✓ Oktavía Hrund Guðrúnar Jóns
+      ✓ Unnar Þór Sæmundsson
+      ✓ Olga Margrét Kristínardóttir Cilia
+      ✓ Hans Alexander Margrétarson Hansen
+      ✓ Oddur Björn Jónsson
+      ✓ Jökull Leuschner Veigarsson
+      ✓ Guðni Freyr Öfjörð
+      ✓ Katla María Unnþórsdóttir
+      ✓ Derek Terell Allen
+      ✓ Ari Logn Yndu
+      ✓ Alexandra Ýrr Ford
+      ✓ Kjartan Jónsson
+      ✓ Andie Sophia Fontaine
+      ✓ Reyn Alpha Magnúsdóttir
+      ✓ Steinar Guðlaugsson
+      ✓ Hulda Biering
+      ✓ Stefán Atli Thoroddsen
+      ✓ Shruthi Basappa
+      ✓ Snorri Sturluson
+      ✓ María Eldey Kristínardóttir
+      ✓ Arnór Dan Arnarson
+      ✓ Agnes Jónasdóttir
+      ✓ Móberg Ordal
+      ✓ Viktoría Ziliute
+      ✓ Veigar Freyr Ragnheiðarson
+      ✓ Elsa Kristjánsdóttir
+      ✓ Ormur Guðjónsson
+      ✓ Valgerður Kristín Einarsdóttir
+      ✓ Jóhann Hjörtur Ösp Stefánsbur
+      ✓ Beverley Anderson
+      ✓ Jóhann Kristian Jóhannsson
+      ✓ Renata Sara Arnórsdóttir
+      ✓ Bob Cluness
+      ✓ Elín Jósepsdóttir
+      ✓ Hrannar Jónsson
+      ✓ Annie Marín Vestfjörð Guðmundsdóttir
+      ✓ Sólhrafn Elí Gunnarsson
+      ✓ Raluca-Elmira Moldovan
+      ✓ Alexander Arnarsson
+      ✓ Dan Zerin
+      ✓ Hrefna Árnadóttir
+      ✓ Bergþór Grétar Böðvarsson
+      ✓ Iðunn Doris Sigríður Magnúsdóttir
+  R listi - Okkar borg  [✓ OK]  island.is=22 ours=22
+      ✓ Sigfús Aðalsteinsson
+      ✓ Baldur Borgþórsson
+      ✓ Hlynur Áskelsson
+      ✓ Ágústa Árnadóttir
+      ✓ Thelma Guðrún Jónsdóttir
+      ✓ Katarzyna Anna Dziadkowiec
+      ✓ Hreinn Pétursson
+      ✓ Valbjörn Jónsson
+      ✓ Jón Viðar Óskarsson
+      ✓ Alexander Jón Baldursson
+      ✓ Sandra Andradóttir
+      ✓ Linda Jónsdóttir
+      ✓ Eiríkur Ottó Bragason
+      ✓ Þorsteinn Már Sigurðarson
+      ✓ Örn Úlfar Úlfarsson
+      ✓ Sigursteinn Snorrason
+      ✓ Sigurður Halldór Bjarnason
+      ✓ Þórhallur H Þórhallsson
+      ✓ Björn Máni Björnsson
+      ✓ Sigurður Jónsson
+      ✓ Kristbjörn Kris Sigurðsson
+      ✓ Sigrún Ásta Jónsdóttir
+  S listi - Samfylkingin - jafnaðarflokkur Íslands  [✓ OK]  island.is=45 ours=45
+      ✓ Pétur Hafliði Marteinsson
+      ✓ Heiða Björg Hilmisdóttir
+      ✓ Steinunn Guðjónsdóttir
+      ✓ Skúli Helgason
+      ✓ Stein Olav Romslo
+      ✓ Bjarnveig Birta Bjarnadóttir
+      ✓ Regína Ásvaldsdóttir
+      ✓ Birkir Ingibjartsson
+      ✓ Isabel Alejandra Diaz
+      ✓ Sara Björg Sigurðardóttir
+      ✓ Katarzyna Kubis
+      ✓ Arnar Ingi Ingason
+      ✓ Steinunn Ósk Óskarsdóttir
+      ✓ Hildur Oddsdóttir
+      ✓ Harpa Sif Eyjólfsdóttir
+      ✓ Anna Margrét Ólafsdóttir
+      ✓ Hlynur Páll Pálsson
+      ✓ Tinna Davíðsdóttir
+      ✓ Jón Heiðar Þorkelsson
+      ✓ Fanney Dóra Veigarsdóttir
+      ✓ Stefán Árni Geirsson
+      ✓ Magnea Marinósdóttir
+      ✓ Steindór Örn Gunnarsson
+      ✓ Valný Óttarsdóttir
+      ✓ Kristján Benjamín Guðmundsson
+      ✓ Vigdís Freyja Gísladóttir
+      ✓ Rúnar Logi Ingólfsson
+      ✓ Jódís Bjarnadóttir
+      ✓ Brynjar Bragi Einarsson
+      ✓ Marzibil Sæmundardóttir
+      ✓ Jóhann Ágúst Jóhannsson
+      ✓ María Gyða Pétursdóttir
+      ✓ Aland Shirwan Kamal
+      ✓ Elva Dögg Gunnarsdóttir
+      ✓ Sveinn Eggert Jónsson
+      ✓ Brynhildur Björnsdóttir
+      ✓ Halla Þorkelsson
+      ✓ Þórður Árnason
+      ✓ Lilja Ólafsdóttir
+      ✓ Hörður Filippusson
+      ✓ Aðalheiður Frantzdóttir
+      ✓ Sigfús Ómar Höskuldsson
+      ✓ Hjálmar Sveinsson
+      ✓ Steinunn Valdís Óskarsdóttir
+      ✓ Dagur B. Eggertsson
+
+========================================================================
+MUNICIPALITY: Sameinað sveitarfélag Borgarbyggðar og Skorradalshrepps
+  B listi - Framsóknarflokkurinn  [✓ OK]  island.is=18 ours=18
+      ✓ Davíð Sigurðsson
+      ✓ Sonja Lind Eyglóardóttir
+      ✓ Jón E. Einarsson
+      ✓ Guðdís Jónsdóttir
+      ✓ Jón Theódór Jónsson
+      ✓ Ásdís H. Bjarnadóttir
+      ✓ Kristín Jónsdóttir
+      ✓ Valdimar Reynisson
+      ✓ Hafdís Jóhannsdóttir
+      ✓ Inga Berta Bergsdóttir
+      ✓ Bryndís Birgisdóttir
+      ✓ Ásdís Lind Vigfúsdóttir
+      ✓ Egill Gunnarsson
+      ✓ Kristín Erla Guðmundsdóttir
+      ✓ Sigurþór Kristjánsson
+      ✓ Lilja Rannveig Sigurgeirsdóttir
+      ✓ Bergur Þorgeirsson
+      ✓ Guðveig Lind Eyglóardóttir
+  D listi - Sjálfstæðisflokkurinn  [✓ OK]  island.is=17 ours=17
+      ✓ Sigurður Guðmundsson
+      ✓ Ragnhildur Eva Jónsdóttir
+      ✓ Kristján Ágúst Magnússon
+      ✓ Birgir Heiðar Andrésson
+      ✓ Svana Hrönn Jóhannsdóttir
+      ✓ Ólafur Tryggvason
+      ✓ Sigríður Guðbjartsdóttir
+      ✓ Gísli Guðjónsson
+      ✓ Margrét Helga Guðmundsdóttir
+      ✓ Heiða Dís Fieldsted
+      ✓ Sigurður Guðmundsson
+      ✓ Sumarliði Páll Sigurbergsson
+      ✓ Fannar Kristjánsson
+      ✓ Arnþór Pálsson
+      ✓ Birgitta Rán Ásgeirsdóttir
+      ✓ Jónína Erna Arnarsdóttir
+      ✓ Axel Freyr Eiríksson
+  M listi - Miðflokkurinn  [✓ OK]  island.is=17 ours=17
+      ✓ Haukur Þór Hauksson
+      ✓ Þórður Brynjarsson
+      ✓ Tinna Rut Þórarinsdóttir
+      ✓ Helena Rós Helgadóttir
+      ✓ Hafsteinn Ingi Gunnarsson
+      ✓ Helgi Már Ólafsson
+      ✓ Þuríður Inga G. Gísladóttir
+      ✓ Sigurjón Helgason
+      ✓ Einar Ólafsson
+      ✓ Gunnhildur Gísladóttir
+      ✓ Guðjón Pétursson
+      ✓ Guðný Vilhjálmsdóttir
+      ✓ Snorri Jóhannesson
+      ✓ Jórunn Guðsteinsdóttir
+      ✓ Bjarni Benedikt Gunnarsson
+      ✓ Alexandra Sif Svavarsdóttir
+      ✓ Vilhjálmur Diðriksson
+
+========================================================================
+MUNICIPALITY: Seltjarnarnesbær
+  D listi - Sjálfstæðisflokkurinn  [✓ OK]  island.is=13 ours=13
+      ✓ Þór Sigurgeirsson
+      ✓ Elísabet Ingunn Einarsdóttir
+      ✓ Magnús Benediktsson
+      ✓ Björn Jóhannesson
+      ✓ Lárus Gunnarsson
+      ✓ Dagbjört Snjólaug Oddsdóttir
+      ✓ Agnes Sólbjört Helgadóttir
+      ✓ Ásgeir Guðmundur Bjarnason
+      ✓ Pétur Már Harðarson
+      ✓ Anna Björg Erlingsdóttir
+      ✓ Guðrún Guðmundsdóttir
+      ✓ Kristín Fenger Vermundsdóttir
+      ✓ Óli Björn Kárason
+  M listi - Miðflokkurinn  [✓ OK]  island.is=13 ours=13
+      ✓ Skafti Harðarson
+      ✓ Þóra Sif Friðriksdóttir
+      ✓ Guðrún Jónsdóttir
+      ✓ Hannes Tryggvi Hafstein
+      ✓ Jóhanna Sigríður Sveinsdóttir
+      ✓ Hákon R. Jónsson
+      ✓ Ágústa Sif Víðisdóttir
+      ✓ Guðmundur Júlíus Gíslason
+      ✓ Tómas Nielsen
+      ✓ Maríanna Ósk Guðjónsdóttir
+      ✓ Nökkvi Gunnarsson
+      ✓ Halldór Benóný Nellett
+      ✓ Viðar Freyr Guðmundsson
+  S listi - Samfylking, Viðreisn og óháðir  [✓ OK]  island.is=13 ours=13
+      ✓ Kristinn Ólafsson
+      ✓ Sigurþóra Bergsdóttir
+      ✓ Helgi Steinar Helgason
+      ✓ Auður Halla Rögnvaldsdóttir
+      ✓ Egill Ö. Hermannsson
+      ✓ Áslaug Eva Björnsdóttir
+      ✓ Kristín Edda Óskarsdóttir
+      ✓ Garðar Svavar Gíslason
+      ✓ Halla Helgadóttir
+      ✓ María Stefánsdóttir
+      ✓ Björg Þorsteinsdóttir
+      ✓ Skúli Eiríksson
+      ✓ Karen María Jónsdóttir
+
+========================================================================
+MUNICIPALITY: Skaftárhreppur
+  D listi - Sjálfstæðismenn og óháðir  [✓ OK]  island.is=9 ours=9
+      ✓ Sveinn Hreiðar Jensson
+      ✓ Sigurður Árnason
+      ✓ Auðbjörg Brynja Bjarnadóttir
+      ✓ Bergur Kristinn Guðnason
+      ✓ Sólveig Ólafsdóttir
+      ✓ Björn Hafsteinsson
+      ✓ Pálmar Atli Jóhannesson
+      ✓ Anna Magdalena Buda
+      ✓ Atli Sigurðarson
+
+========================================================================
+MUNICIPALITY: Skagafjörður
+  B listi - Framsóknarflokkurinn  [✓ OK]  island.is=17 ours=17
+      ✓ Einar Eðvald Einarsson
+      ✓ Hrund Pétursdóttir
+      ✓ Halldór Jón Sigurðsson
+      ✓ Sylvía Sif Halldórsdóttir
+      ✓ Sigurlína Erla Magnúsdóttir
+      ✓ Atli Már Traustason
+      ✓ Sigurður Bjarni Rafnsson
+      ✓ Helga Þórsdóttir
+      ✓ Kristján Jónsson
+      ✓ Hrefna Jóhannesdóttir
+      ✓ Sigríður Hrafnhildur Stefánsdóttir
+      ✓ Ísak Óli Traustason
+      ✓ Guðbjörg Óskarsdóttir
+      ✓ Marcin Sienkiewicz
+      ✓ Kolbjörg Katla Hinriksdóttir
+      ✓ Eyrún Sævarsdóttir
+      ✓ Axel Kárason
+  D listi - Sjálfstæðisflokkurinn  [✓ OK]  island.is=17 ours=17
+      ✓ Magnús Barðdal
+      ✓ Sólborg S. Borgarsdóttir
+      ✓ Guðlaugur Skúlason
+      ✓ Rósanna Valdimarsdóttir
+      ✓ Jón Daníel Jónsson
+      ✓ Guðbjörg Konráðsdóttir
+      ✓ Jóhann Daði Gíslason
+      ✓ Brynja Sif Harðardóttir
+      ✓ Anton Þorri Axelsson
+      ✓ Grazyna Maria Garlak
+      ✓ Jakob Logi Gunnarsson
+      ✓ Sandra Björk Jónsdóttir
+      ✓ Sigrún Eva Helgadóttir
+      ✓ Óli Björn Pétursson
+      ✓ Gunnar Smári Reynaldsson
+      ✓ Merete Rabølle
+      ✓ Árni Egilsson
+  M listi - Miðflokkurinn  [✓ OK]  island.is=17 ours=17
+      ✓ Högni Elfar Gylfason
+      ✓ Jódís Helga Káradóttir
+      ✓ Elfa Björk Víðisdóttir
+      ✓ Sædís Bylgja Jónsdóttir
+      ✓ Hreiðar Örn Steinþórsson
+      ✓ Helga Rósa Pálsdóttir Þormar
+      ✓ Valdimar Á. Þorbergsson
+      ✓ Hólmsteinn Orri Þorleifsson
+      ✓ Kristján Ingi Sigurðsson
+      ✓ Hafsteinn Máni Björnsson
+      ✓ Karen Edda Kristjánsdóttir
+      ✓ Sigurjón Heiðar Sigurbjörnsson
+      ✓ Kristján Elvar Gíslason
+      ✓ Sigfríður Jódís Halldórsdóttir
+      ✓ Hafsteinn Logi Sigurðarson
+      ✓ Líney María Hjálmarsdóttir
+      ✓ Ingi Sigþór Gunnarsson
+
+========================================================================
+MUNICIPALITY: Skeiða- og Gnúpverjahreppur
+
+========================================================================
+MUNICIPALITY: Snæfellsbær - sjálfkjörið
+  D listi - Sjálfstæðisflokkurinn  [✓ OK]  island.is=13 ours=13
+      ✓ Auður Kjartansdóttir
+      ✓ Eiríkur Böðvar Rúnarsson
+      ✓ Jón Bjarki Jónatansson
+      ✓ Júníana Björg Óttarsdóttir
+      ✓ Jóhanna Jóhannesdóttir
+      ✓ Urszula Zyskowska
+      ✓ Illugi Jens Jónasson
+      ✓ Sigrún Erla Sveinsdóttir
+      ✓ Kristgeir Kristinsson
+      ✓ Marinó Sigurjónsson
+      ✓ Sara Egilsdóttir
+      ✓ Styrmir Páll Sigurðarson
+      ✓ Gunnar Ólafur Sigmarsson
+
+========================================================================
+MUNICIPALITY: Strandabyggð
+  B listi - Framsóknarmenn og óháðir  [✓ OK]  island.is=9 ours=9
+      ✓ Sigurbjörn Rafn Úlfarsson
+      ✓ Kristín Anna Oddsdóttir
+      ✓ Valgeir Örn Kristjánsson
+      ✓ Ragnheiður Ingimundardóttir
+      ✓ Röfn Friðriksdóttir
+      ✓ Silja Dagrún Júlíusdóttir
+      ✓ Halldór Jónsson
+      ✓ Andri Hrafn Ásgeirsson
+      ✓ Árný Helga Birkisdóttir
+
+========================================================================
+MUNICIPALITY: Suðurnesjabær
+  B listi - Framsókn og óháðir  [✓ OK]  island.is=17 ours=17
+      ✓ Anton Kristinn Guðmundsson
+      ✓ Magnús Sigfús Magnússon
+      ✓ Ólöf Ólafsdóttir
+      ✓ Sindri Lars Ómarsson
+      ✓ Ewa Krysztopa
+      ✓ Gísli Jónatan Pálsson
+      ✓ Óskar Helgason
+      ✓ Þórsteina Þöll Árnadóttir
+      ✓ Guðrún Sif Pétursdóttir
+      ✓ Gissur Þór Grétarsson
+      ✓ Bjarki Dagsson
+      ✓ Gunnlaug María Óskarsdóttir
+      ✓ Róbert Páll Arason
+      ✓ Bylgja Dröfn Olsen Jónsdóttir
+      ✓ Hallur Jónas Gunnarsson
+      ✓ Guðrún Elva Friðriksdóttir
+      ✓ Haraldur Hinriksson
+  D listi - D-listinn og óháðir  [✓ OK]  island.is=17 ours=17
+      ✓ Haukur Andreasson
+      ✓ Haraldur Helgason
+      ✓ Oddný Kristrún Ásgeirsdóttir
+      ✓ María Kjartansdóttir
+      ✓ Berglind Lára Haraldsdóttir
+      ✓ Margrét Edda Arnardóttir
+      ✓ Fannar Logi Waldorff Sigurðsson
+      ✓ Arnar Geir Gestsson
+      ✓ Sólmundur Ingi Einvarðsson
+      ✓ Sigurður Þór Magnússon
+      ✓ Bergljót Bára Theódórsdóttir
+      ✓ Guðmundur Torfi Rafnsson
+      ✓ Jónatan Már Sigurjónsson
+      ✓ Oliwia Klaudia Fierka
+      ✓ Bogi Jónsson
+      ✓ Jón Kristinn Snæhólm
+      ✓ Gunnar Hámundarson Häsler
+  M listi - Miðflokkurinn  [✓ OK]  island.is=17 ours=17
+      ✓ Daði Bergþórsson
+      ✓ Sigrún Harpa Sigurjónsd. Heide
+      ✓ Erla Jóhannsdóttir
+      ✓ Sigríður Rós Jónatansdóttir
+      ✓ Ólafur Fannar Þórhallsson
+      ✓ Birgitta Sædís Eymundsdóttir
+      ✓ Elmar Aron Gunnarsson
+      ✓ Brynjar Þór Kristinsson
+      ✓ Gréta Ágústsdóttir
+      ✓ Hafþór Örvar Sveinsson
+      ✓ Guðbergur Magni Guðmundsson
+      ✓ Przemyslaw Piotr Skibinski
+      ✓ Ólafur Geir Írisarson
+      ✓ Patryk Szablewski
+      ✓ Laufey Guðmunda Ómarsdóttir
+      ✓ Benjamín Jafet Sigurðarson
+      ✓ Óskar Mikolaj Zarski
+  S listi - Samfylkingin og óháðir  [✓ OK]  island.is=17 ours=17
+      ✓ Svavar Grétarsson
+      ✓ Bergný Jóna Sævarsdóttir
+      ✓ Egill Rúnar Sigurðsson
+      ✓ Önundur S. Björnsson
+      ✓ Thelma Dís Eggertsdóttir
+      ✓ Bára Kristín Þórisdóttir
+      ✓ Agnes Helgadóttir
+      ✓ Jón Þór Jónsson Hansen
+      ✓ Benóný Þórhallsson
+      ✓ Przemyslaw Antoni Szymajda
+      ✓ Magnús Orri Arnarson
+      ✓ Hildur Guðný Björnsdóttir
+      ✓ Guðmundur Fannar Sigurbjörnsson
+      ✓ Sigurbjörg Ragnarsdóttir
+      ✓ Jón Snævar Jónsson
+      ✓ Sigursveinn Bjarni Jónsson
+      ✓ Elín Frímannsdóttir
+
+========================================================================
+MUNICIPALITY: Svalbarðsstrandarhreppur
+  S listi - Samstaða  [✓ OK]  island.is=9 ours=9
+      ✓ Sigríður Ingi Stefánsdóttir
+      ✓ Hafrún Helga Arnardóttir
+      ✓ Halldóra Dögg Sigurðardóttir
+      ✓ Sigrún Rósa Kjartansdóttir
+      ✓ Elísabet Inga Ásgrímsdóttir
+      ✓ Eva Sandra Bentsdóttir
+      ✓ Heiðrún Beck
+      ✓ Þóra Sigríður Torfadóttir
+      ✓ Maríanna Lind Garðarsdóttir
+
+========================================================================
+MUNICIPALITY: Sveitarfélagið Hornafjörður
+  B listi - Framsókn og stuðningsmenn  [✓ OK]  island.is=13 ours=13
+      ✓ Hjalti Þór Vignisson
+      ✓ Ingibjörg Sveinsdóttir
+      ✓ Björgvin Óskar Sigurjónsson
+      ✓ Kolbrún Þorbjörg Björnsdóttir
+      ✓ Gunnar Ásgeirsson
+      ✓ Finnur Smári Torfason
+      ✓ Erla Rún Guðmundsdóttir
+      ✓ Þórdís Þórsdóttir
+      ✓ Lena Hrönn Marteinsdóttir
+      ✓ Sigursteinn Ingvar Traustason
+      ✓ Lars Jóhann Andrésson Imsland
+      ✓ Haukur Ingi Einarsson
+      ✓ Reynir Arnarson
+  D listi - Sjálfstæðisflokkurinn  [✓ OK]  island.is=13 ours=13
+      ✓ Gauti Árnason
+      ✓ Hjördís Edda Olgeirsdóttir
+      ✓ Ásta Steinunn Eiríksdóttir
+      ✓ Ágústa Arnardóttir
+      ✓ Sindri Ragnarsson
+      ✓ Níels Brimar Jónsson
+      ✓ Þröstur Jóhannsson
+      ✓ Steindór Sigurjónsson
+      ✓ Bjarni Haukur Bjarnason
+      ✓ Alexander Vigfússon
+      ✓ Ingvi Þór Sigurðsson
+      ✓ Gísli Þórarinn Hallsson
+      ✓ Tinna Rut Sigurðardóttir
+  K listi - Kex framboð  [✓ OK]  island.is=13 ours=13
+      ✓ Eyrún Fríða Árnadóttir
+      ✓ Guðrún Stefanía Vopnfjörð Ingólfsdóttir
+      ✓ Elías Tjörvi Halldórsson
+      ✓ Wiktoria Anna Darnowska
+      ✓ Sigrún Sigurgeirsdóttir
+      ✓ Styrmir Einarsson
+      ✓ Kristján Örn Ebenezersson
+      ✓ Róslín Alma Valdemarsdóttir
+      ✓ Sigríður Þórunn Þorvarðardóttir
+      ✓ Sveinbjörg Jónsdóttir
+      ✓ Helga Árnadóttir
+      ✓ Sæmundur Jón Jónsson
+      ✓ Hrafnhildur Ævarsdóttir
+  M listi - Miðflokkurinn  [✓ OK]  island.is=13 ours=13
+      ✓ Reynir Ásgeirsson
+      ✓ Stefán Freyr Jónsson
+      ✓ Herdís Ingólfsdóttir Waage
+      ✓ Erlingur Ingi Brynjólfsson
+      ✓ Valur Pálsson
+      ✓ Hilmar Þór Sigurjónsson
+      ✓ Hjörvar Ingi Hauksson
+      ✓ Amor Joy Pepito Mantilla
+      ✓ Atli Arnarsson
+      ✓ Pálmi Freyr Gunnarsson
+      ✓ Antonía Malmquist Arnórsdóttir
+      ✓ Magdalena Anna Zazulak
+      ✓ Ágúst Már Ágústsson
+
+========================================================================
+MUNICIPALITY: Sveitarfélagið Skagaströnd
+  B listi - Framsókn og óháðir  [✓ OK]  island.is=9 ours=9
+      ✓ Eydís Inga Sigurjónsdóttir
+      ✓ Guðlaugur Siggi Hannesson
+      ✓ Sæmundur Þór Hafsteinsson
+      ✓ Elvar Bjarki Gíslason
+      ✓ Jóhanna Guðrún Karlsdóttir
+      ✓ Guðni Már Lýðsson
+      ✓ Elín Ósk Ómarsdóttir
+      ✓ Einar Ólafur Þorleifsson
+      ✓ Sigríður Þórunn Gestsdóttir
+  S listi - Samfylking og óháðir  [✓ OK]  island.is=9 ours=9
+      ✓ Ragnheiður Erla Stefánsdóttir
+      ✓ Davíð Birkir Tryggvason
+      ✓ Hugrún Sif Hallgrímsdóttir
+      ✓ Stefán Sveinsson
+      ✓ Ingimar Vignisson
+      ✓ Helena Mara Velemir
+      ✓ Herdís Þórunn Jakobsdóttir
+      ✓ Snæfríður Dögg Guðmundsdóttir
+      ✓ Björn Hallbjörnsson
+
+========================================================================
+MUNICIPALITY: Sveitarfélagið Stykkishólmur
+
+========================================================================
+MUNICIPALITY: Sveitarfélagið Vogar
+  D listi - Sjálfstæðismenn og óháðir  [✓ OK]  island.is=13 ours=13
+      ✓ Björg Ásta Þórðardóttir
+      ✓ Guðmann Rúnar Lúðvíksson
+      ✓ Hulda Birna Helgadóttir Blöndal
+      ✓ Kristín Arna Hjaltadóttir
+      ✓ Andri Rúnar Sigurðsson
+      ✓ Magnús G. Jónsson Núpan
+      ✓ Þórunn Sigurðardóttir
+      ✓ Hólmgrímur Rósenbergsson
+      ✓ Súsanna Margrét Tómasdóttir
+      ✓ Róbert Andri Drymkowski
+      ✓ Sigurður Rafn Vignisson
+      ✓ Árni Grétar Torfason
+      ✓ Steinar Smári Guðbergsson
+
+========================================================================
+MUNICIPALITY: Sveitarfélagið Árborg
+  B listi - Framsóknarflokkurinn  [✓ OK]  island.is=21 ours=21
+      ✓ Matthías Bjarnason
+      ✓ Ellý Tómasdóttir
+      ✓ Arnar Freyr Ólafsson
+      ✓ Guðrún R. Svandísardóttir
+      ✓ Magnús Benediktsson
+      ✓ Kristín J. Hannesdóttir
+      ✓ Árdís L. Gísladóttir
+      ✓ Guri H. Ólason
+      ✓ Óskar Hróbjartsson
+      ✓ Ólafur M. Ólafsson
+      ✓ Ólafía Ingólfsdóttir
+      ✓ Þorvaldur Guðmundsson
+      ✓ Böðvar Arnarsson
+      ✓ Erna Guðjónsdóttir
+      ✓ Gissur Jónsson
+      ✓ Iða Marsibil Jónsdóttir
+      ✓ Guðmundur H. Ágústsson
+      ✓ Sólveig Þorvaldsdóttir
+      ✓ Ragnar G. Brynjólfsson
+      ✓ Gils Einarsson
+      ✓ Kolbrún J. Erlendsdóttir
+  C listi - Viðreisn  [✓ OK]  island.is=21 ours=21
+      ✓ Heiðrún Kristmundsdóttir
+      ✓ Guðný Björk Pálmadóttir
+      ✓ Þorsteinn Haukur Harðarson
+      ✓ Birgir Marteinsson
+      ✓ Ingunn Guðmundsdóttir
+      ✓ Trausti Jóhannsson
+      ✓ Sandra Guðmundsdóttir
+      ✓ Daníel Leó Ólason
+      ✓ Ellen Amilía Óladóttir
+      ✓ Valdimar Gylfason
+      ✓ Alísa Ruth Andradóttir
+      ✓ Óli Kristján Erlendsson
+      ✓ Lovísa Lillý Davíðsdóttir
+      ✓ Sigurður Sólmundsson
+      ✓ Laufey Ósk Magnúsdóttir
+      ✓ Sindri Ólafsson
+      ✓ Björg Þorkelsdóttir
+      ✓ Þorvaldur Óskar Gunnarsson
+      ✓ Selma Klara Gunnarsdóttir
+      ✓ Gísli Halldór Halldórsson
+      ✓ Sigurbjörg Björgvinsdóttir
+  D listi - Sjálfstæðisflokkurinn  [✓ OK]  island.is=21 ours=21
+      ✓ Bragi Bjarnason
+      ✓ Sveinn Ægir Birgisson
+      ✓ Linda Björk Hilmarsdóttir
+      ✓ Brynhildur Jónsdóttir
+      ✓ Þórhildur Ingvadóttir
+      ✓ Kjartan Björnsson
+      ✓ Sigurbjörg Guðmundsdóttir
+      ✓ Sigríður Ósk Harðardóttir
+      ✓ Gísli Rúnar Gíslason
+      ✓ Esther Ýr Óskarsdóttir
+      ✓ Ívar Marinó Lillendahl
+      ✓ Björg Agnarsdóttir
+      ✓ Þorvaldur Þórðarson
+      ✓ Margrét Anna Guðmundsdóttir
+      ✓ Alexander Egan
+      ✓ Embla Líf Guðmundsdóttir
+      ✓ Olga Bjarnadóttir
+      ✓ Atli Dagur Guðmundsson
+      ✓ Jóhann Jónsson
+      ✓ Andri Hrafn Hallsson
+      ✓ Júlía Katrín Sigmundsdóttir
+  S listi - Samfylkingin og óháðir  [✓ OK]  island.is=21 ours=21
+      ✓ Sigurjón Vídalín Guðmundsson
+      ✓ Margrét Björk Ólafsdóttir
+      ✓ Brynjar Þór Elvarsson
+      ✓ Elísabet Björgvinsdóttir
+      ✓ Árni Magnússon
+      ✓ Elísabet Davíðsdóttir
+      ✓ Margrét Kristjana Sverrisdóttir
+      ✓ Eva Gunnarsdóttir
+      ✓ Einar Sindri Ólafsson
+      ✓ Herdís Sif Ásmundsdóttir
+      ✓ Linda Ásdísardóttir
+      ✓ Benóný Jónsson
+      ✓ Renuka Chareyre Perera
+      ✓ Tinna Berg Damayanth Rúnarsdóttir
+      ✓ Svala Norðdahl
+      ✓ Kristinn Hermannsson
+      ✓ Davíð Kristjánsson
+      ✓ Þorvarður Hjaltason
+      ✓ Margrét Frímannsdóttir
+      ✓ Ástfríður Sigurðardóttir
+      ✓ Björgvin Guðni Sigurðsson
+
+========================================================================
+MUNICIPALITY: Sveitarfélagið Ölfus
+  S listi - Samfylking og félagar  [✓ OK]  island.is=13 ours=13
+      ✓ Gunnsteinn R Ómarsson
+      ✓ Berglind Friðriksdóttir
+      ✓ Pálmi Þór Ásbergsson
+      ✓ Bryndís Sigurðardóttir
+      ✓ Sigurður Freyr Vestmann Sigurvinsson
+      ✓ Sigfús Benóný Harðarson
+      ✓ Hrafnhildur Lilja Harðardóttir
+      ✓ Sylwia Dzwoniarska
+      ✓ Gunnar Sigurðsson
+      ✓ Guðrún Bjarnadóttir
+      ✓ Helga Ósk Gunnsteinsdóttir
+      ✓ Hannes Gunnarsson
+      ✓ Hjördís Erlingsdóttir
+  D listi - Sjálfstæðisflokkurinn  [✓ OK]  island.is=13 ours=13
+      ✓ Grétar Ingi Erlendsson
+      ✓ Sigurbjörg Jenný Jónsdóttir
+      ✓ Gestur Þór Kristjánsson
+      ✓ Erla Sif Markúsdóttir
+      ✓ Guðlaug Einarsdóttir
+      ✓ Geir Höskuldsson
+      ✓ Bettý Grímsdóttir
+      ✓ Davíð Arnar Ágústsson
+      ✓ Ingunn Guðnadóttir
+      ✓ Oskar Rybinski
+      ✓ Ólöf Ingibergsdóttir
+      ✓ Böðvar Guðbjörn Jónsson
+      ✓ Sævar Elí Kjartansson
+
+========================================================================
+MUNICIPALITY: Súðavíkurhreppur
+
+========================================================================
+MUNICIPALITY: Tjörneshreppur - sjálfkjörið
+  T listi - Tjörneslistinn  [✓ OK]  island.is=9 ours=9
+      ✓ Aðalsteinn Jóhannes Halldórsson
+      ✓ Jón Gunnarsson
+      ✓ Katý Bjarnadóttir
+      ✓ Smári Kárason
+      ✓ Sveinn Egilsson
+      ✓ Hulda Ellý Jónsdóttir
+      ✓ Jónas Jónasson
+      ✓ Sigurbjörg Sveinsbjörnsdóttir
+      ✓ Eyrún Dögg Guðmundsdóttir
+
+========================================================================
+MUNICIPALITY: Vestmannaeyjabær
+  D listi - Sjálfstæðisflokkurinn  [✓ OK]  island.is=17 ours=17
+      ✓ Eyþór Harðarson
+      ✓ Trausti Hjaltason
+      ✓ Aníta Jóhannsdóttir
+      ✓ Óskar Jósúason
+      ✓ Hildur Sólveig Sigurðardóttir
+      ✓ Kjartan Vídó Ólafsson
+      ✓ Rannveig Ísfjörð
+      ✓ Ármann Halldór Jensson
+      ✓ Guðbjörg Sól Sindradóttir
+      ✓ Hannes Kristinn Sigurðsson
+      ✓ Ragnheiður Lind Geirsdóttir
+      ✓ Þóra Guðný Arnarsdóttir
+      ✓ Garðar Benedikt Sigurjónsson
+      ✓ Guðríður Jónsdóttir
+      ✓ Magnús Stefánsson
+      ✓ Guðný Rún Gísladóttir
+      ✓ Jason Stefánsson
+  E listi - Eyjalistinn  [✓ OK]  island.is=17 ours=17
+      ✓ Arndís María Kjartansdóttir
+      ✓ Anton Örn Björnsson
+      ✓ Erlingur Guðbjörnsson
+      ✓ Hildur Rún Róbertsdóttir
+      ✓ Jessý Friðbjarnardóttir
+      ✓ Ágúst Erling Kristjánsson
+      ✓ Eyrún Haraldsdóttir
+      ✓ Zindri Freyr Ragnarsson Caine
+      ✓ Þorsteinn Ívar Þorsteinsson
+      ✓ Þórdís Jóna Guðmundsdóttir
+      ✓ Hafdís Víglundsdóttir
+      ✓ Bergþóra Sigurðardóttir
+      ✓ Stefán Jónasson
+      ✓ Hafdís Ástþórsdóttir
+      ✓ Bjartey Hermannsdóttir
+      ✓ Friðrik Björgvinsson
+      ✓ Hrefna Valdís Guðmundsdóttir
+  M listi - Miðflokkurinn  [✓ OK]  island.is=17 ours=17
+      ✓ Jón Þór Guðjónsson
+      ✓ Sæunn Magnúsdóttir
+      ✓ Jóhann Ingi Óskarsson
+      ✓ Sonja Andrésdóttir
+      ✓ Guðni Hjörleifsson
+      ✓ Þuríður Bernódusdóttir
+      ✓ Linda Rós Sigurðardóttir
+      ✓ Erlendur Ágúst Stefánsson
+      ✓ Emma Karína Jakobsen
+      ✓ Sveinn Hjalti Guðmundsson
+      ✓ Hafþór Elí Hafsteinsson
+      ✓ Ailandas Baurinas
+      ✓ Þórey Katla Brynjarsdóttir
+      ✓ Jón Helgi Gíslason
+      ✓ Sigdór Yngvi Kristinsson
+      ✓ Adam Smári Sigfússon
+      ✓ Elmar Hrafn Óskarsson
+
+========================================================================
+MUNICIPALITY: Vesturbyggð
+  N listi - Ný sýn  [✓ OK]  island.is=13 ours=13
+      ✓ Þórkatla Soffía Ólafsdóttir
+      ✓ Rebekka Hilmarsdóttir
+      ✓ Jenný Lára Magnadóttir
+      ✓ Gunnþórunn Bender
+      ✓ Jón Árnason
+      ✓ Friðbjörn Steinar Ottósson
+      ✓ Jónas Snæbjörnsson
+      ✓ Einar Helgason
+      ✓ Edda Bára Árnadóttir
+      ✓ Halldór Jökull Ólafsson
+      ✓ Aðalsteinn Magnússon
+      ✓ Andrés Páll Ásgeirsson
+      ✓ Steinunn Sigmundsdóttir
+
+========================================================================
+MUNICIPALITY: Vopnafjarðarhreppur - sjálfkjörið
+
+========================================================================
+MUNICIPALITY: Árneshreppur
+
+========================================================================
+MUNICIPALITY: Ísafjarðarbær
+  B listi - Framsóknarflokkurinn og óháðir  [✓ OK]  island.is=17 ours=17
+      ✓ Kristján Þór Kristjánsson
+      ✓ Elísabet Samúelsdóttir
+      ✓ Stefán Hannibal Hafberg
+      ✓ Tinna Rún Snorradóttir
+      ✓ Elísabet Margrét Jónasdóttir
+      ✓ Guðni Páll Viktorsson
+      ✓ Gerður Ásta Sigmundsdóttir
+      ✓ Gauti Geirsson
+      ✓ Katarzyna Maliszewzka
+      ✓ Sædís Ólöf Þórsdóttir
+      ✓ Guðríður Vala Atladóttir
+      ✓ Jóhann Bæring Gunnarsson
+      ✓ Halla Signý Kristjánsdóttir
+      ✓ Halldór Karl Valsson
+      ✓ Dýrleif Arna Ómarsdóttir
+      ✓ Anton Helgi Guðjónsson
+      ✓ Sigmundur Fríðar Þórðarson
+  C listi - Viðreisn  [✓ OK]  island.is=17 ours=17
+      ✓ Gylfi Ólafsson
+      ✓ Sif Huld Albertsdóttir
+      ✓ Magnús Einar Magnússon
+      ✓ Arnheiður Steinþórsdóttir
+      ✓ Valur Richter
+      ✓ Halldóra Norðdahl
+      ✓ Sigþór Snorrason
+      ✓ Hanna Gerður Jónsdóttir
+      ✓ Marcel Knop
+      ✓ Monika Maria Wielgosz
+      ✓ Einar Geir Jónasson
+      ✓ Júlía Ósk Bjarnadóttir
+      ✓ Hörður Christian Newman
+      ✓ Guðrún Helga Sigurðardóttir
+      ✓ Haukur Harðarson
+      ✓ Auður Helga Ólafsdóttir
+      ✓ Guðmundur M. Kristjánsson
+  D listi - Sjálfstæðisflokkurinn  [✓ OK]  island.is=17 ours=17
+      ✓ Jónas Þór Birgisson
+      ✓ Þóra Marý Arnórsdóttir
+      ✓ Martha Kristín Pálmadóttir
+      ✓ Grétar Örn Eiríksson
+      ✓ Þorvaldur Óli Ragnarson
+      ✓ Ásgerður Þorleifsdóttir
+      ✓ Snorri Karl Birgisson
+      ✓ Jón Gunnar Shiransson
+      ✓ Baldur Smári Ólafsson
+      ✓ Gyða Björg Jónsdóttir
+      ✓ Samúel Sigurjón Sigurjónsson
+      ✓ Guðrún Oddný Schmidt
+      ✓ Torfi Tímoteus Gunnarsson
+      ✓ Kristján Kristjánsson
+      ✓ Magdalena Tatala
+      ✓ Gísli Jón Hjaltason
+      ✓ Kristín Karlsdóttir
+  M listi - Miðflokkurinn  [✓ OK]  island.is=9 ours=9
+      ✓ Sævar Óli Hjörvarsson
+      ✓ Jón Auðun Auðunarson
+      ✓ Þorbjörn Halldór Jóhannesson
+      ✓ Karlotta Dúfa Markan
+      ✓ Hákon Sturla Unnsteinsson
+      ✓ Sigríður Laufey Sigurðardóttir
+      ✓ Albert Guðmundur Haraldsson
+      ✓ Júlíana Aðalheiður Ernisdóttir
+      ✓ Hákon Hermannsson
+  S listi - Samfylkingin  [✓ OK]  island.is=17 ours=17
+      ✓ Svanfríður Guðrún Bergvinsdóttir
+      ✓ Helgi Karl Guðmundsson
+      ✓ Finney Rakel Árnadóttir
+      ✓ Sigurður Jón Hreinsson
+      ✓ Hrafnhildur Hrönn Óðinsdóttir
+      ✓ Gísli Már Guðjónsson
+      ✓ Jónína Eyja Þórðardóttir
+      ✓ Úlfar Logason
+      ✓ Iwona Maria Samson
+      ✓ Sveinberg Þór Birgisson
+      ✓ Sigurrós Elddís Huldudóttir
+      ✓ Rúnar Helgi Haraldsson
+      ✓ Ingibjörg Andrea Hallgrímsdóttir
+      ✓ Guðmundur Ólafsson
+      ✓ Þórunn Sunnefa Elfarsdóttir
+      ✓ Kári Jóhannsson
+      ✓ Inga María Guðmundsdóttir
+
+========================================================================
+MUNICIPALITY: Þingeyjarsveit

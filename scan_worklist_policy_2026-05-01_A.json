@@ -1,0 +1,243 @@
+{
+  "scope": "policy scan 2026-05-01 — all parties without platformUrl, no-agenda priority",
+  "agent_label": "A",
+  "slice": [
+    0,
+    29
+  ],
+  "count": 29,
+  "missing_policy": [
+    {
+      "id": "BOR.A",
+      "muni_slug": "borgarbyggd",
+      "muni_label": "Borgarbyggð",
+      "party_code": "A",
+      "party_label": "Vinstrið – grænt og framsækt",
+      "tagline": "Borgarbyggðarlistinn — A-listi"
+    },
+    {
+      "id": "DAL.A",
+      "muni_slug": "dalvikurbyggd",
+      "muni_label": "Dalvíkurbyggð",
+      "party_code": "A",
+      "party_label": "Vinstrið – grænt og framsækt",
+      "tagline": "Byggðalistinn — A-listi Dalvíkurbyggðar"
+    },
+    {
+      "id": "DAL.K",
+      "muni_slug": "dalvikurbyggd",
+      "muni_label": "Dalvíkurbyggð",
+      "party_code": "K",
+      "party_label": "Kex framboð",
+      "tagline": "K-listi — Dalvíkurbyggð"
+    },
+    {
+      "id": "SKA.K",
+      "muni_slug": "skagastrond",
+      "muni_label": "Skagaströnd",
+      "party_code": "K",
+      "party_label": "Kex framboð",
+      "tagline": "Fyrir Skagaströnd — K-listi"
+    },
+    {
+      "id": "SVA.SVSH",
+      "muni_slug": "svalbardsstrond",
+      "muni_label": "Svalbards- og Langadalshr.",
+      "party_code": "SVSH",
+      "party_label": "SVSH",
+      "tagline": "Strönd til framtíðar — H-listi Svalbarðsstrandar"
+    },
+    {
+      "id": "SVA.SVSO",
+      "muni_slug": "svalbardsstrond",
+      "muni_label": "Svalbards- og Langadalshr.",
+      "party_code": "SVSO",
+      "party_label": "SVSO",
+      "tagline": "Ströndungur — Ö-listi í Svalbarðsstrandarhreppi"
+    },
+    {
+      "id": "AKR.B",
+      "muni_slug": "akranes",
+      "muni_label": "Akranes",
+      "party_code": "B",
+      "party_label": "Framsóknarflokkurinn",
+      "tagline": "Frjálsir með Framsókn á Akranesi"
+    },
+    {
+      "id": "AKR.C",
+      "muni_slug": "akranes",
+      "muni_label": "Akranes",
+      "party_code": "C",
+      "party_label": "Viðreisn",
+      "tagline": "Viðreisn á Akranesi — í fyrsta skipti"
+    },
+    {
+      "id": "AKR.D",
+      "muni_slug": "akranes",
+      "muni_label": "Akranes",
+      "party_code": "D",
+      "party_label": "Sjálfstæðisflokkurinn",
+      "tagline": "Líf — Sjálfstæðisflokkurinn á Akranesi"
+    },
+    {
+      "id": "AKR.M",
+      "muni_slug": "akranes",
+      "muni_label": "Akranes",
+      "party_code": "M",
+      "party_label": "Miðflokkurinn",
+      "tagline": "Miðflokkurinn á Akranesi"
+    },
+    {
+      "id": "AKU.M",
+      "muni_slug": "akureyri",
+      "muni_label": "Akureyri",
+      "party_code": "M",
+      "party_label": "Miðflokkurinn",
+      "tagline": "Samstaða og ábyrgð í bæjarmálum"
+    },
+    {
+      "id": "AKU.V",
+      "muni_slug": "akureyri",
+      "muni_label": "Akureyri",
+      "party_code": "V",
+      "party_label": "Vinstri Græn",
+      "tagline": "Jana Salóme leiðir lista VG á Akureyri"
+    },
+    {
+      "id": "ARB.S",
+      "muni_slug": "arborg",
+      "muni_label": "Árborg",
+      "party_code": "S",
+      "party_label": "Samfylkingin",
+      "tagline": "Sigurjón Vídalín leiðir Samfylkinguna í Árborg"
+    },
+    {
+      "id": "BLA.BSP",
+      "muni_slug": "blaskogabyggd",
+      "muni_label": "Bláskógabyggð",
+      "party_code": "BSP",
+      "party_label": "BSP",
+      "tagline": "Þ-listinn — öflug Bláskógabyggð"
+    },
+    {
+      "id": "BLA.BST",
+      "muni_slug": "blaskogabyggd",
+      "muni_label": "Bláskógabyggð",
+      "party_code": "BST",
+      "party_label": "BST",
+      "tagline": "T-listinn — framþróun í Bláskógabyggð"
+    },
+    {
+      "id": "BOL.BBK",
+      "muni_slug": "bolungarvik",
+      "muni_label": "Bolungarvík",
+      "party_code": "BBK",
+      "party_label": "BBK",
+      "tagline": "Betri Bolungarvík — nýtt líf í gamla bæinn"
+    },
+    {
+      "id": "BOL.MMM",
+      "muni_slug": "bolungarvik",
+      "muni_label": "Bolungarvík",
+      "party_code": "MMM",
+      "party_label": "MMM",
+      "tagline": "Máttur meyja og manna — saman erum við sterk"
+    },
+    {
+      "id": "BOR.B",
+      "muni_slug": "borgarbyggd",
+      "muni_label": "Borgarbyggð",
+      "party_code": "B",
+      "party_label": "Framsóknarflokkurinn",
+      "tagline": "Framsóknarflokkurinn í Borgarbyggð"
+    },
+    {
+      "id": "BOR.D",
+      "muni_slug": "borgarbyggd",
+      "muni_label": "Borgarbyggð",
+      "party_code": "D",
+      "party_label": "Sjálfstæðisflokkurinn",
+      "tagline": "Sjálfstæðisflokkurinn í Borgarbyggð og Skorradalshreppi"
+    },
+    {
+      "id": "BOR.M",
+      "muni_slug": "borgarbyggd",
+      "muni_label": "Borgarbyggð",
+      "party_code": "M",
+      "party_label": "Miðflokkurinn",
+      "tagline": "Miðflokkurinn í Borgarbyggð"
+    },
+    {
+      "id": "DAL.B",
+      "muni_slug": "dalvikurbyggd",
+      "muni_label": "Dalvíkurbyggð",
+      "party_code": "B",
+      "party_label": "Framsóknarflokkurinn",
+      "tagline": "Framsóknarflokkurinn í Dalvíkurbyggð"
+    },
+    {
+      "id": "DAL.D",
+      "muni_slug": "dalvikurbyggd",
+      "muni_label": "Dalvíkurbyggð",
+      "party_code": "D",
+      "party_label": "Sjálfstæðisflokkurinn",
+      "tagline": "Sjálfstæðisflokkurinn í Dalvíkurbyggð"
+    },
+    {
+      "id": "EYJ.EJF",
+      "muni_slug": "eyjafjardarsveit",
+      "muni_label": "Eyjafjarðarsveit",
+      "party_code": "EJF",
+      "party_label": "EJF",
+      "tagline": "F-listinn — öflugt landbúnaðarsamfélag í Eyjafirði"
+    },
+    {
+      "id": "EYJ.EJK",
+      "muni_slug": "eyjafjardarsveit",
+      "muni_label": "Eyjafjarðarsveit",
+      "party_code": "EJK",
+      "party_label": "EJK",
+      "tagline": "K-listinn — öflug Eyjafjarðarsveit"
+    },
+    {
+      "id": "FJA.D",
+      "muni_slug": "fjallabyggd",
+      "muni_label": "Fjallabyggð",
+      "party_code": "D",
+      "party_label": "Sjálfstæðisflokkurinn",
+      "tagline": "Tómas Atli leiðir Sjálfstæðisflokkinn í Fjallabyggð"
+    },
+    {
+      "id": "FJA.H",
+      "muni_slug": "fjallabyggd",
+      "muni_label": "Fjallabyggð",
+      "party_code": "H",
+      "party_label": "H-listinn",
+      "tagline": "H-listinn Fyrir Heildina — Helgi Jóhannsson leiðir"
+    },
+    {
+      "id": "FJA.S",
+      "muni_slug": "fjallabyggd",
+      "muni_label": "Fjallabyggð",
+      "party_code": "S",
+      "party_label": "Samfylkingin",
+      "tagline": "Jóhann K. leiðir Samfylkinguna í Fjallabyggð"
+    },
+    {
+      "id": "FJA.B",
+      "muni_slug": "fjardabyggd",
+      "muni_label": "Fjarðabyggð",
+      "party_code": "B",
+      "party_label": "Framsóknarflokkurinn",
+      "tagline": "Framsóknarflokkur í Fjarðabyggð"
+    },
+    {
+      "id": "FJA.D",
+      "muni_slug": "fjardabyggd",
+      "muni_label": "Fjarðabyggð",
+      "party_code": "D",
+      "party_label": "Sjálfstæðisflokkurinn",
+      "tagline": "Sjálfstæðisflokkurinn í Fjarðabyggð"
+    }
+  ]
+}

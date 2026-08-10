@@ -1,0 +1,68 @@
+Ground truth: 54 municipalities
+Found 54 const blocks
+Extracted JS candidates for 54 municipalities
+
+Ground truth municipality keys:
+  'Akraneskaupstaður'
+  'Akureyrarbær'
+  'Árneshreppur'
+  'Bláskógabyggð'
+  'Bolungarvíkurkaupstaður'
+  'Dalvíkurbyggð'
+  'Eyjafjarðarsveit'
+  'Fjallabyggð'
+  'Fjarðabyggð'
+  'Flóahreppur'
+  'Garðabær'
+  'Grindavíkurbær'
+  'Grímsnes- og Grafningshreppur'
+  'Grundarfjarðarbær'
+  'Hafnarfjarðarbær'
+  'Hrunamannahreppur'
+  'Húnabyggð'
+  'Húnaþing vestra'
+  'Hvalfjarðarsveit'
+  'Hveragerðisbær'
+  'Hörgársveit'
+  'Ísafjarðarbær'
+  'Kjósarhreppur - sjálfkjörið'
+  'Kópavogsbær'
+  'Mosfellsbær'
+  'Múlaþing'
+  'Mýrdalshreppur'
+  'Norðurþing'
+  'Rangárþing eystra'
+  'Rangárþing ytra'
+  'Reykhólahreppur'
+  'Reykjanesbær'
+  'Reykjavíkurborg'
+  'Sameinað sveitarfélag Borgarbyggðar og Skorradalshrepps'
+  'Seltjarnarnesbær'
+  'Skaftárhreppur'
+  'Skagafjörður'
+  'Skeiða- og Gnúpverjahreppur'
+  'Snæfellsbær - sjálfkjörið'
+  'Strandabyggð'
+  'Suðurnesjabær'
+  'Súðavíkurhreppur'
+  'Svalbarðsstrandarhreppur'
+  'Sveitarfélagið Árborg'
+  'Sveitarfélagið Hornafjörður'
+  'Sveitarfélagið Skagaströnd'
+  'Sveitarfélagið Stykkishólmur'
+  'Sveitarfélagið Vogar'
+  'Sveitarfélagið Ölfus'
+  'Tjörneshreppur - sjálfkjörið'
+  'Vestmannaeyjabær'
+  'Vesturbyggð'
+  'Vopnafjarðarhreppur - sjálfkjörið'
+  'Þingeyjarsveit'
+
+
+=== DISCREPANCIES ===
+
+
+Total discrepancies: 0
+Affected municipality+party combinations: 0
+
+Saved discrepancies.json

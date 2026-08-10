@@ -1,0 +1,336 @@
+{
+  "AKU": {
+    "D": {
+      "Berglind Ósk Guðmundsdóttir": [
+        {"title": "Berglind Ósk leiðir Sjálfstæðismenn á Akureyri", "url": "https://www.mbl.is/frettir/innlent/2026/02/07/berglind_osk_leidir_sjalfstaedismenn_a_akureyri_2/", "source": "mbl.is"},
+        {"title": "Berglind Ósk vill oddvitasæti", "url": "https://www.mbl.is/frettir/innlent/2026/01/15/berglind_osk_vill_oddvitasaeti/", "source": "mbl.is"},
+        {"title": "Fyrrverandi þingmaður vill oddvitasæti á Akureyri", "url": "https://www.visir.is/g/20262829312d/fyrr-verandi-thing-madur-vill-oddvitasaeti-a-akur-eyri", "source": "visir.is"},
+        {"title": "Stofna til kosningabandalags á Akureyri", "url": "https://www.mbl.is/frettir/innlent/2026/01/25/stofna_til_kosningabandalags_a_akureyri/", "source": "mbl.is"},
+        {"title": "Berglind klæðist aldrei neinu óþægilegu", "url": "https://www.mbl.is/smartland/frami/2022/02/19/berglind_klaedist_aldrei_neinu_othaegilegu/", "source": "mbl.is"},
+        {"title": "Berglind Harpa í þriðja sætinu hjá Sjálfstæðisflokknum: Berglind Ósk hætt", "url": "https://austurfrett.is/frettir/berglind-harpa-i-thridhja-saetinu-hja-sjalfstaedhisflokknum-berglind-osk-haett", "source": "austurfrett.is"},
+        {"title": "Hingað til náms - hingað til framtíðar", "url": "https://kaffid.is/hingad-til-nams-hingad-til-framtidar/", "source": "kaffid.is"},
+        {"title": "Fullskipaður framboðslisti Sjálfstæðisflokksins á Akureyri", "url": "https://xd.is/2026/02/26/fullskipadur-frambodislisti-sjalfstaedisflokksins-a-akureyri/", "source": "xd.is"}
+      ],
+      "Heimir Örn Árnason": [
+        {"title": "Stofna til kosningabandalags á Akureyri", "url": "https://www.mbl.is/frettir/innlent/2026/01/25/stofna_til_kosningabandalags_a_akureyri/", "source": "mbl.is"},
+        {"title": "Fullskipaður framboðslisti Sjálfstæðisflokksins á Akureyri", "url": "https://xd.is/2026/02/26/fullskipadur-frambodislisti-sjalfstaedisflokksins-a-akureyri/", "source": "xd.is"},
+        {"title": "Listi Sjálfstæðisflokksins á Akureyri kynntur", "url": "https://www.mbl.is/frettir/innlent/2026/03/14/listi_sjalfstaedisflokksins_a_akureyri_kynntur/", "source": "mbl.is"}
+      ],
+      "Arna Rut Gunnarsdóttir": [
+        {"title": "Fullskipaður framboðslisti Sjálfstæðisflokksins á Akureyri", "url": "https://xd.is/2026/02/26/fullskipadur-frambodislisti-sjalfstaedisflokksins-a-akureyri/", "source": "xd.is"}
+      ],
+      "Þórhallur Harðarson": [
+        {"title": "Fullskipaður framboðslisti Sjálfstæðisflokksins á Akureyri", "url": "https://xd.is/2026/02/26/fullskipadur-frambodislisti-sjalfstaedisflokksins-a-akureyri/", "source": "xd.is"}
+      ],
+      "Þorsteinn Kristjánsson": [
+        {"title": "Fullskipaður framboðslisti Sjálfstæðisflokksins á Akureyri", "url": "https://xd.is/2026/02/26/fullskipadur-frambodislisti-sjalfstaedisflokksins-a-akureyri/", "source": "xd.is"},
+        {"title": "Hingað til náms - hingað til framtíðar", "url": "https://kaffid.is/hingad-til-nams-hingad-til-framtidar/", "source": "kaffid.is"}
+      ]
+    },
+    "B": {
+      "Sunna Hlín Jóhannesdóttir": [
+        {"title": "Sunna Hlín leiðir lista Framsóknar á Akureyri", "url": "https://www.kaffid.is/sunna-hlin-leidir-lista-framsoknar-a-akureyri/", "source": "kaffid.is"},
+        {"title": "Sunna Hlín Jóhannesdóttir framhaldsskólakennari og varabæjarfulltrúi leiðir lista Framsóknar á Akureyri", "url": "https://framsokn.is/nyjast/frettir/sunna-hlin-johannesdottir-framhaldsskolakennari-og-varabaejarfulltrui-leidir-lista-framsoknar-a-akureyri/", "source": "framsokn.is"},
+        {"title": "Oddvitaspjall - Sunna Hlín Jóhannesdóttir", "url": "https://kaffid.is/oddvitaspjall-sunna-hlin-johannesdottir/", "source": "kaffid.is"},
+        {"title": "Sunna Hlín gefur kost á sér í oddvitasæti Framsóknar á Akureyri", "url": "https://www.kaffid.is/sunna-hlin-gefur-kost-a-ser-i-oddvitasaeti-framsoknar-a-akureyri/", "source": "kaffid.is"},
+        {"title": "Meirihlutinn skilaði auðu í stefnumörkun atvinnumála", "url": "https://www.kaffid.is/meirihlutinn-skiladi-audu-i-stefnumorkun-atvinnumala/", "source": "kaffid.is"},
+        {"title": "Spörum okkur ekki til óbóta", "url": "https://kaffid.is/sporum-okkur-ekki-til-obota/", "source": "kaffid.is"},
+        {"title": "Framtíðarsýn í fræðslu- og dagvistarmálum á Akureyri", "url": "https://www.vikubladid.is/is/frettir/framtidarsyn-i-fraedslu-og-dagvistarmalum-a-akureyri", "source": "vikubladid.is"},
+        {"title": "Oddvitaáskorunin: Horfir vandræðalega mikið á raunveruleikaþætti", "url": "https://www.visir.is/g/20222257242d", "source": "visir.is"}
+      ],
+      "Gunnar Már Gunnarsson": [
+        {"title": "Sunna Hlín leiðir lista Framsóknar á Akureyri", "url": "https://www.kaffid.is/sunna-hlin-leidir-lista-framsoknar-a-akureyri/", "source": "kaffid.is"},
+        {"title": "Framboðslisti Framsóknarflokksins á Akureyri tilbúinn", "url": "https://www.vikubladid.is/is/moya/news/frambodslisti-framsoknarflokksins-a-akureyri-tilbuinn", "source": "vikubladid.is"}
+      ],
+      "Sverre Andreas Jakobsson": [
+        {"title": "Sunna Hlín leiðir lista Framsóknar á Akureyri", "url": "https://www.kaffid.is/sunna-hlin-leidir-lista-framsoknar-a-akureyri/", "source": "kaffid.is"},
+        {"title": "Spörum okkur ekki til óbóta", "url": "https://kaffid.is/sporum-okkur-ekki-til-obota/", "source": "kaffid.is"}
+      ],
+      "Guðbjörg Anna Björnsdóttir": [
+        {"title": "Sunna Hlín leiðir lista Framsóknar á Akureyri", "url": "https://www.kaffid.is/sunna-hlin-leidir-lista-framsoknar-a-akureyri/", "source": "kaffid.is"}
+      ],
+      "Steinar Óli Sigfússon": [
+        {"title": "Sunna Hlín leiðir lista Framsóknar á Akureyri", "url": "https://www.kaffid.is/sunna-hlin-leidir-lista-framsoknar-a-akureyri/", "source": "kaffid.is"}
+      ]
+    },
+    "C": {
+      "Lovísa Oktovía Eyvindsdóttir": [
+        {"title": "Lovísa leiðir lista Viðreisnar", "url": "https://www.mbl.is/frettir/innlent/2026/02/23/lovisa_leidir_lista_vidreisnar/", "source": "mbl.is"},
+        {"title": "Lovísa Oktovía leiðir lista Viðreisnar á Akureyri", "url": "https://www.ruv.is/frettir/innlent/2026-02-24-lovisa-oktovia-leidir-lista-vidreisnar-a-akureyri-467768", "source": "ruv.is"},
+        {"title": "Vill leiða lista Viðreisnar á Akureyri", "url": "https://www.mbl.is/frettir/innlent/2026/01/19/vill_leida_lista_vidreisnar_a_akureyri/", "source": "mbl.is"},
+        {"title": "Lovísa Oktovía leiðir lista Viðreisnar á Akureyri", "url": "https://www.vikubladid.is/is/moya/news/lovisa-oktovia-leidir-lista-vidreisnar-a-akureyri", "source": "vikubladid.is"},
+        {"title": "Lovísa Oktovía leiðir lista Viðreisnar á Akureyri", "url": "https://www.kaffid.is/lovisa-oktovia-leidir-lista-vidreisnar-a-akureyri/", "source": "kaffid.is"},
+        {"title": "Börnin okkar kalla - hver er að hlusta?", "url": "https://www.vikubladid.is/is/moya/news/bornin-okkar-kalla-hver-er-ad-hlusta-1", "source": "vikubladid.is"},
+        {"title": "Fyrir hvað á Akureyri að standa?", "url": "https://www.kaffid.is/fyrir-hvad-a-akureyri-ad-standa/", "source": "kaffid.is"}
+      ],
+      "Elías Gunnar Þorbjörnsson": [
+        {"title": "Lovísa leiðir lista Viðreisnar", "url": "https://www.mbl.is/frettir/innlent/2026/02/23/lovisa_leidir_lista_vidreisnar/", "source": "mbl.is"},
+        {"title": "Börnin okkar kalla - hver er að hlusta?", "url": "https://www.vikubladid.is/is/moya/news/bornin-okkar-kalla-hver-er-ad-hlusta-1", "source": "vikubladid.is"}
+      ],
+      "Þóroddur Ingvarsson": [
+        {"title": "Lovísa leiðir lista Viðreisnar", "url": "https://www.mbl.is/frettir/innlent/2026/02/23/lovisa_leidir_lista_vidreisnar/", "source": "mbl.is"}
+      ],
+      "Elísabet Ögn Jóhannsdóttir": [
+        {"title": "Lovísa leiðir lista Viðreisnar", "url": "https://www.mbl.is/frettir/innlent/2026/02/23/lovisa_leidir_lista_vidreisnar/", "source": "mbl.is"}
+      ],
+      "Íunn Eir Gunnarsdóttir": [
+        {"title": "Lovísa leiðir lista Viðreisnar", "url": "https://www.mbl.is/frettir/innlent/2026/02/23/lovisa_leidir_lista_vidreisnar/", "source": "mbl.is"}
+      ]
+    },
+    "L": {
+      "Óðinn Svan Óðinsson": [
+        {"title": "Hættur á RÚV og heldur í bæjarpólitíkina", "url": "https://www.mbl.is/frettir/innlent/2026/02/13/haettur_a_ruv_og_heldur_i_baejarpolitikina/", "source": "mbl.is"},
+        {"title": "Óðinn Svan hættir á RÚV og leiðir L-listann", "url": "https://www.kaffid.is/af-ruv-yfir-i-baejarpolitikina/", "source": "kaffid.is"},
+        {"title": "Listi L-listans ákveðinn", "url": "https://www.ruv.is/frettir/innlent/2026-03-13-listi-l-listans-akvedinn-469773", "source": "ruv.is"},
+        {"title": "Óðinn Svan hættir á RÚV og leiðir L-listann", "url": "https://www.visir.is/g/20262843231d/odinn-svan-leidir-l-listann", "source": "visir.is"},
+        {"title": "Óðinn Svan verður í efsta sæti L-listans", "url": "https://www.akureyri.net/is/frettir/odinn-svan-verdur-i-efsta-saeti-l-listans", "source": "akureyri.net"},
+        {"title": "Þau skipa L-listann á Akureyri", "url": "https://www.visir.is/g/20262866820d/thau-skipa-l-listann-a-akureyri", "source": "visir.is"}
+      ],
+      "Brynja Hlíf Þorsteinsdóttir": [
+        {"title": "Listi L-listans ákveðinn", "url": "https://www.ruv.is/frettir/innlent/2026-03-13-listi-l-listans-akvedinn-469773", "source": "ruv.is"},
+        {"title": "Þau skipa L-listann á Akureyri", "url": "https://www.visir.is/g/20262866820d/thau-skipa-l-listann-a-akureyri", "source": "visir.is"}
+      ],
+      "Preben Jón Pétursson": [
+        {"title": "Listi L-listans ákveðinn", "url": "https://www.ruv.is/frettir/innlent/2026-03-13-listi-l-listans-akvedinn-469773", "source": "ruv.is"}
+      ],
+      "María Pálsdóttir": [
+        {"title": "Listi L-listans ákveðinn", "url": "https://www.ruv.is/frettir/innlent/2026-03-13-listi-l-listans-akvedinn-469773", "source": "ruv.is"}
+      ],
+      "Andri Teitsson": [
+        {"title": "Listi L-listans ákveðinn", "url": "https://www.ruv.is/frettir/innlent/2026-03-13-listi-l-listans-akvedinn-469773", "source": "ruv.is"}
+      ]
+    },
+    "M": {
+      "Hlynur Jóhannsson": [
+        {"title": "Hlynur leiðir lista Miðflokksins á Akureyri áfram", "url": "https://kaffid.is/hlynur-leidir-midflokkinn-a-akureyri-afram/", "source": "kaffid.is"},
+        {"title": "Hlynur áfram efstur hjá Miðflokknum", "url": "https://www.akureyri.net/is/frettir/hlynur-afram-efstur-hja-midflokknum", "source": "akureyri.net"},
+        {"title": "Oddvitaspjall - Hlynur Jóhannsson", "url": "https://kaffid.is/oddvitaspjall-hlynur-johannsson/", "source": "kaffid.is"},
+        {"title": "Hlynur Jóhannsson bæjarfulltrúi leiðir lista Miðflokksins á Akureyri", "url": "https://www.vikubladid.is/is/moya/news/hlynur-johannsson-baejarfulltrui-leidir-lista-midflokksins-a-akureyri", "source": "vikubladid.is"},
+        {"title": "Hlynur leiðir Miðflokkinn á Akureyri", "url": "https://www.mbl.is/frettir/kosning/2018/05/06/hlynur_leidir_midflokkinn_a_akureyri/", "source": "mbl.is"}
+      ],
+      "Inga Dís Sigurðardóttir": [
+        {"title": "Hlynur leiðir lista Miðflokksins á Akureyri áfram", "url": "https://kaffid.is/hlynur-leidir-midflokkinn-a-akureyri-afram/", "source": "kaffid.is"}
+      ],
+      "Egill Einarsson": [
+        {"title": "Hlynur leiðir lista Miðflokksins á Akureyri áfram", "url": "https://kaffid.is/hlynur-leidir-midflokkinn-a-akureyri-afram/", "source": "kaffid.is"}
+      ],
+      "Katrín Vilhjálmsdóttir": [
+        {"title": "Hlynur leiðir lista Miðflokksins á Akureyri áfram", "url": "https://kaffid.is/hlynur-leidir-midflokkinn-a-akureyri-afram/", "source": "kaffid.is"}
+      ],
+      "Hannes Karlsson": [
+        {"title": "Hlynur leiðir lista Miðflokksins á Akureyri áfram", "url": "https://kaffid.is/hlynur-leidir-midflokkinn-a-akureyri-afram/", "source": "kaffid.is"}
+      ]
+    },
+    "S": {
+      "Sindri S. Kristjánsson": [
+        {"title": "Sindri nýr oddviti Samfylkingingarinnar á Akureyri", "url": "https://www.mbl.is/frettir/innlent/2026/03/14/sindri_nyr_oddviti_samfylkingingarinnar_a_akureyri/", "source": "mbl.is"},
+        {"title": "Nýr oddviti hjá Samfylkingunni á Akureyri", "url": "https://www.ruv.is/frettir/innlent/2026-03-14-nyr-oddviti-hja-samfylkingunni-a-akureyri-469825", "source": "ruv.is"},
+        {"title": "Sindri S. Kristjánsson er oddviti Samfylkingarinnar á Akureyri", "url": "https://www.vikubladid.is/is/moya/news/sindri-s-kristjansson-er-oddviti-samfylkingarinnar-a-akureyri-fyrir-komandi-sveitarstjornarkosninga-i-vor", "source": "vikubladid.is"},
+        {"title": "Sterkari saman", "url": "https://www.visir.is/g/20262872428d/sterkari-saman", "source": "visir.is"},
+        {"title": "Hvað ætlar Akureyri að verða þegar hún verður stór?", "url": "https://kaffid.is/hvad-aetlar-akureyri-ad-verda-thegar-hun-verdur-stor/", "source": "kaffid.is"}
+      ],
+      "Hanna Dóra Markúsdóttir": [
+        {"title": "Sindri nýr oddviti Samfylkingingarinnar á Akureyri", "url": "https://www.mbl.is/frettir/innlent/2026/03/14/sindri_nyr_oddviti_samfylkingingarinnar_a_akureyri/", "source": "mbl.is"}
+      ],
+      "Sigrún Steinarsdóttir": [
+        {"title": "Sindri nýr oddviti Samfylkingingarinnar á Akureyri", "url": "https://www.mbl.is/frettir/innlent/2026/03/14/sindri_nyr_oddviti_samfylkingingarinnar_a_akureyri/", "source": "mbl.is"},
+        {"title": "Matargjafir Akureyri og nágrenni - söfnuðu 7 milljónum og náðu að aðstoða rúmlega 200 fjölskyldur", "url": "https://www.vikubladid.is/is/frettir/matargjafir-akureyri-og-nagrenni-sofnudu-7-milljonum-og-nadu-ad-adstoda-rumlega-200-fjolskyldur", "source": "vikubladid.is"},
+        {"title": "Matargjafir styrktu fjölskyldur fyrir ríflega 7 milljónir", "url": "https://www.kaffid.is/matargjafir-styrktu-fjolskyldur-fyrir-riflega-7-milljonir/", "source": "kaffid.is"},
+        {"title": "Fjölmargar fjölskyldur á Akureyri í vandræðum - Óska eftir matargjöfum til að anna eftirspurn", "url": "https://www.kaffid.is/fjolmargar-fjolskyldur-a-akureyri-i-vandraedum-oska-eftir-matargjofum-til-ad-anna-eftirspurn/", "source": "kaffid.is"}
+      ],
+      "Jóhannes Már Pétursson": [
+        {"title": "Sindri nýr oddviti Samfylkingingarinnar á Akureyri", "url": "https://www.mbl.is/frettir/innlent/2026/03/14/sindri_nyr_oddviti_samfylkingingarinnar_a_akureyri/", "source": "mbl.is"}
+      ],
+      "Zane Brikovska": [
+        {"title": "Sindri nýr oddviti Samfylkingingarinnar á Akureyri", "url": "https://www.mbl.is/frettir/innlent/2026/03/14/sindri_nyr_oddviti_samfylkingingarinnar_a_akureyri/", "source": "mbl.is"}
+      ]
+    },
+    "V": {
+      "Jana Salóme Ingibjargar Jósepsdóttir": [
+        {"title": "Jana Salóme Ingibjargar Jósepsdóttir leiðir lista VG á Akureyri í komandi sveitarstjórnarkosningum", "url": "https://www.vikubladid.is/is/moya/news/jana-salome-ingibjargar-josepsdottir-leidir-lista-vg-a-akureyri-i-komandi-sveitarstjornarkosningum", "source": "vikubladid.is"},
+        {"title": "Oddvitaspjall - Jana Salóme Ingibjargar Jósepsdóttir", "url": "https://kaffid.is/oddvitaspjall-jana-salome-ingibjargar-josepsdottir/", "source": "kaffid.is"},
+        {"title": "Jana Salóme gefur kost á sér til að leiða VG fyrir norðan", "url": "https://www.dv.is/eyjan/2022/01/10/jana-salome-gefur-kost-ser-til-ad-leida-vg-fyrir-nordan/", "source": "dv.is"},
+        {"title": "Jana Salóme og Steinar höfðu betur á landsfundi VG", "url": "https://www.visir.is/g/20232391233d", "source": "visir.is"},
+        {"title": "Jana vill 1. sæti VG á Akureyri", "url": "https://www.mbl.is/frettir/innlent/2022/01/10/jana_vill_1_saeti_vg_a_akureyri/", "source": "mbl.is"},
+        {"title": "Sjókvíaeldi við Eyjafjörð", "url": "https://kaffid.is/sjokviaeldi-vid-eyjafjord/", "source": "kaffid.is"},
+        {"title": "Framboðslisti VG samþykktur á Akureyri", "url": "https://www.kaffid.is/frambodslisti-vg-samthykktur-a-akureyri/", "source": "kaffid.is"}
+      ],
+      "Stefán Oddur Hrafnsson": [
+        {"title": "Jana Salóme Ingibjargar Jósepsdóttir leiðir lista VG á Akureyri í komandi sveitarstjórnarkosningum", "url": "https://www.vikubladid.is/is/moya/news/jana-salome-ingibjargar-josepsdottir-leidir-lista-vg-a-akureyri-i-komandi-sveitarstjornarkosningum", "source": "vikubladid.is"}
+      ],
+      "Ásrún Ýr Gestsdóttir": [
+        {"title": "Jana Salóme Ingibjargar Jósepsdóttir leiðir lista VG á Akureyri í komandi sveitarstjórnarkosningum", "url": "https://www.vikubladid.is/is/moya/news/jana-salome-ingibjargar-josepsdottir-leidir-lista-vg-a-akureyri-i-komandi-sveitarstjornarkosningum", "source": "vikubladid.is"}
+      ],
+      "Sigtryggur Ellertsson": [
+        {"title": "Jana Salóme Ingibjargar Jósepsdóttir leiðir lista VG á Akureyri í komandi sveitarstjórnarkosningum", "url": "https://www.vikubladid.is/is/moya/news/jana-salome-ingibjargar-josepsdottir-leidir-lista-vg-a-akureyri-i-komandi-sveitarstjornarkosningum", "source": "vikubladid.is"}
+      ],
+      "Herdís Júlía Júlíusdóttir": [
+        {"title": "Jana Salóme Ingibjargar Jósepsdóttir leiðir lista VG á Akureyri í komandi sveitarstjórnarkosningum", "url": "https://www.vikubladid.is/is/moya/news/jana-salome-ingibjargar-josepsdottir-leidir-lista-vg-a-akureyri-i-komandi-sveitarstjornarkosningum", "source": "vikubladid.is"}
+      ]
+    },
+    "AL": {
+      "Þórhallur Jónsson": [
+        {"title": "Þórhallur leiðir Akureyrarlistann", "url": "https://www.ruv.is/frettir/innlent/2026-03-27-thorhallur-leidir-akureyrarlistann-471175", "source": "ruv.is"},
+        {"title": "Þórhallur teflir fram nýjum lista", "url": "https://www.kaffid.is/thorhallur-teflir-fram-nyjum-lista/", "source": "kaffid.is"},
+        {"title": "Þórhallur fer fram í 1. sæti og krefst prófkjörs", "url": "https://www.mbl.is/frettir/innlent/2026/01/29/thorhallur_fer_fram_i_1_saeti_og_krefst_profkjors/", "source": "mbl.is"},
+        {"title": "Þórhallur Jónsson sækist eftir fyrst sæti hjá Sjálfstæðismönnum og vill prófkjör", "url": "https://www.vikubladid.is/is/moya/news/thorhallur-jonsson-saekist-eftir-fyrst-saeti-hja-sjalfstaedismonnum-og-vill-profkjor-1", "source": "vikubladid.is"},
+        {"title": "Þórhallur Jónsson fer í sérframboð", "url": "https://www.akureyri.net/is/moya/news/thorhallur-jonsson-fer-i-serframbod", "source": "akureyri.net"},
+        {"title": "Ótækt að breyta aðferð við val á listann", "url": "https://www.akureyri.net/is/frettir/otaekt-ad-breyta-adferd-vid-val-a-listann", "source": "akureyri.net"},
+        {"title": "Þórhallur, Karen og Helgi Steinar", "url": "https://www.akureyri.net/is/moya/news/thorhallur-karen-og-helgi-steinar", "source": "akureyri.net"}
+      ],
+      "Karen Sigurbjörnsdóttir": [
+        {"title": "Þórhallur leiðir Akureyrarlistann", "url": "https://www.ruv.is/frettir/innlent/2026-03-27-thorhallur-leidir-akureyrarlistann-471175", "source": "ruv.is"},
+        {"title": "Þórhallur, Karen og Helgi Steinar", "url": "https://www.akureyri.net/is/moya/news/thorhallur-karen-og-helgi-steinar", "source": "akureyri.net"}
+      ],
+      "Helgi Steinar Halldórsson": [
+        {"title": "Þórhallur leiðir Akureyrarlistann", "url": "https://www.ruv.is/frettir/innlent/2026-03-27-thorhallur-leidir-akureyrarlistann-471175", "source": "ruv.is"},
+        {"title": "Þórhallur, Karen og Helgi Steinar", "url": "https://www.akureyri.net/is/moya/news/thorhallur-karen-og-helgi-steinar", "source": "akureyri.net"}
+      ],
+      "Kristrún María Björnsdóttir": [
+        {"title": "Þórhallur leiðir Akureyrarlistann", "url": "https://www.ruv.is/frettir/innlent/2026-03-27-thorhallur-leidir-akureyrarlistann-471175", "source": "ruv.is"}
+      ],
+      "Darri Rafn Hólmarsson": [
+        {"title": "Þórhallur leiðir Akureyrarlistann", "url": "https://www.ruv.is/frettir/innlent/2026-03-27-thorhallur-leidir-akureyrarlistann-471175", "source": "ruv.is"}
+      ]
+    }
+  },
+  "GAR": {
+    "D": {
+      "Almar Guðmundsson": [
+        {"title": "Almar leiðir Sjálfstæðismenn í Garðabæ", "url": "https://www.ruv.is/frettir/innlent/2026-02-17-almar-leidir-sjalfstaedismenn-i-gardabae-467281", "source": "ruv.is"},
+        {"title": "Almar leiðir lista Sjálfstæðisflokksins í Garðabæ", "url": "https://xd.is/2026/02/17/almar-leidir-lista-sjalfstaedisflokksins-i-gardabae/", "source": "xd.is"},
+        {"title": "Almar Guðmundsson nýr bæjarstjóri Garðabæjar", "url": "https://www.visir.is/g/20222271140d/almar-gudmundsson-nyr-baejarstjori-gardabaejar", "source": "visir.is"},
+        {"title": "Almar Guðmundsson látinn fara frá Samtökum iðnaðarins", "url": "https://kjarninn.is/frettir/2017-05-30-almar-gudmundsson-latinn-fara-fra-samtokum-idnadarins/", "source": "kjarninn.is"},
+        {"title": "Hyggjast hækka skatta og hagræða í Garðabæ", "url": "https://www.mbl.is/frettir/innlent/2023/11/02/hyggjast_haekka_skatta_og_hagraeda_i_gardabae/", "source": "mbl.is"},
+        {"title": "Við leggjum verk okkar óhrædd í dóm Garðbæinga", "url": "https://postar.is/gardabaer/vid-leggjum-verk-okkar-ohraedd-i-dom-gardbaeinga-segir-almar-gudmundsson-baejarstjori-gardabaejar-i-addraganda-kosning/", "source": "postar.is"},
+        {"title": "Lægri skattar og skuldahlutfall lækkar verulega", "url": "https://www.globenewswire.com/news-release/2025/12/04/3200270/0/is/L%C3%A6gri-skattar-og-skuldahlutfall-l%C3%A6kkar-verulega.html", "source": "globenewswire.com"},
+        {"title": "Kosningapallborð fréttatofu: Mun Sjálfstæðisflokkurinn halda velli í Garðabæ?", "url": "https://www.visir.is/g/20262872176d/kosningapallbord-frettastofu-mun-sjalfstaedisflokkurinn-halda-velli-i-gardabae-", "source": "visir.is"}
+      ],
+      "Björg Fenger": [
+        {"title": "Almar leiðir lista Sjálfstæðisflokksins í Garðabæ", "url": "https://xd.is/2026/02/17/almar-leidir-lista-sjalfstaedisflokksins-i-gardabae/", "source": "xd.is"}
+      ],
+      "Margrét Bjarnadóttir": [
+        {"title": "Almar leiðir lista Sjálfstæðisflokksins í Garðabæ", "url": "https://xd.is/2026/02/17/almar-leidir-lista-sjalfstaedisflokksins-i-gardabae/", "source": "xd.is"}
+      ],
+      "Hrannar Bragi Eyjólfsson": [
+        {"title": "Almar leiðir lista Sjálfstæðisflokksins í Garðabæ", "url": "https://xd.is/2026/02/17/almar-leidir-lista-sjalfstaedisflokksins-i-gardabae/", "source": "xd.is"}
+      ],
+      "Stella Stefánsdóttir": [
+        {"title": "Almar leiðir lista Sjálfstæðisflokksins í Garðabæ", "url": "https://xd.is/2026/02/17/almar-leidir-lista-sjalfstaedisflokksins-i-gardabae/", "source": "xd.is"}
+      ]
+    },
+    "B": {
+      "Hlynur Bæringsson": [
+        {"title": "Hlynur leiðir lista Framsóknar í Garðabæ", "url": "https://www.mbl.is/frettir/innlent/2026/03/14/hlynur_leidir_lista_framsoknar_i_gardabae/", "source": "mbl.is"},
+        {"title": "Framsókn í Garðabæ kynnir nýjan oddvita", "url": "https://www.ruv.is/frettir/innlent/2026-03-14-framsokn-i-gardabae-kynnir-nyjan-oddvita-469830", "source": "ruv.is"},
+        {"title": "Körfuboltastjarna íhugar framboð í Garðabæ", "url": "https://www.visir.is/g/20262844552d/korfuboltastjarna-ihugar-frambod-i-gardabae", "source": "visir.is"},
+        {"title": "Hlynur Elías Bæringsson - þvílíka goðsögnin", "url": "https://www.mbl.is/sport/korfubolti/2025/05/21/hlynur_elias_baeringsson_thvilika_godsognin/", "source": "mbl.is"},
+        {"title": "Ég þarf að finna nýjan tilgang", "url": "https://www.mbl.is/sport/korfubolti/2025/05/21/eg_tharf_ad_finna_nyjan_tilgang/", "source": "mbl.is"},
+        {"title": "Stjarnan Íslandsmeistari í fyrsta sinn", "url": "https://www.mbl.is/sport/korfubolti/2025/05/21/stjarnan_islandsmeistari_i_fyrsta_sinn/", "source": "mbl.is"},
+        {"title": "Hlynur Bæringsson missti föður sinn ungur: Ég slapp fyrir horn", "url": "https://www.mannlif.is/frettir/hlynur-baeringsson-thad-sitja-ekki-allir-vid-habordid/", "source": "mannlif.is"},
+        {"title": "Hlynur Bæringsson leiðir Framsókn í Garðabæ", "url": "https://www.framsokn.is/blog/hlynur-baeringsson-leidir-framsokn-i-gardabae", "source": "framsokn.is"}
+      ],
+      "Anna Margrét Steingrímsdóttir": [
+        {"title": "Hlynur leiðir lista Framsóknar í Garðabæ", "url": "https://www.mbl.is/frettir/innlent/2026/03/14/hlynur_leidir_lista_framsoknar_i_gardabae/", "source": "mbl.is"}
+      ],
+      "Einar Þór Einarsson": [
+        {"title": "Hlynur leiðir lista Framsóknar í Garðabæ", "url": "https://www.mbl.is/frettir/innlent/2026/03/14/hlynur_leidir_lista_framsoknar_i_gardabae/", "source": "mbl.is"}
+      ],
+      "Einar Bárðarson": [
+        {"title": "Hlynur leiðir lista Framsóknar í Garðabæ", "url": "https://www.mbl.is/frettir/innlent/2026/03/14/hlynur_leidir_lista_framsoknar_i_gardabae/", "source": "mbl.is"}
+      ],
+      "Inga Amal Hasan": [
+        {"title": "Hlynur leiðir lista Framsóknar í Garðabæ", "url": "https://www.mbl.is/frettir/innlent/2026/03/14/hlynur_leidir_lista_framsoknar_i_gardabae/", "source": "mbl.is"}
+      ]
+    },
+    "C": {
+      "Guðlaugur Kristmundsson": [
+        {"title": "Fyrrum framkvæmdastjóri Viðreisnar fær oddvitasætið í Garðabæ", "url": "https://www.ruv.is/frettir/innlent/2026-03-05-fyrrum-framkvaemdastjori-vidreisnar-faer-oddvitasaetid-i-gardabae-468884", "source": "ruv.is"},
+        {"title": "Þessir leiða Viðreisn í Garðabæ", "url": "https://www.visir.is/g/20262851833d/thessi-leida-vid-reisn-i-garda-bae", "source": "visir.is"}
+      ],
+      "Harpa Þorsteinsdóttir": [
+        {"title": "Fyrrum framkvæmdastjóri Viðreisnar fær oddvitasætið í Garðabæ", "url": "https://www.ruv.is/frettir/innlent/2026-03-05-fyrrum-framkvaemdastjori-vidreisnar-faer-oddvitasaetid-i-gardabae-468884", "source": "ruv.is"}
+      ],
+      "Jón Bjarni Steinsson": [
+        {"title": "Fyrrum framkvæmdastjóri Viðreisnar fær oddvitasætið í Garðabæ", "url": "https://www.ruv.is/frettir/innlent/2026-03-05-fyrrum-framkvaemdastjori-vidreisnar-faer-oddvitasaetid-i-gardabae-468884", "source": "ruv.is"}
+      ],
+      "Sigríður Þóra Ásgeirsdóttir": [
+        {"title": "Fyrrum framkvæmdastjóri Viðreisnar fær oddvitasætið í Garðabæ", "url": "https://www.ruv.is/frettir/innlent/2026-03-05-fyrrum-framkvaemdastjori-vidreisnar-faer-oddvitasaetid-i-gardabae-468884", "source": "ruv.is"}
+      ],
+      "Hreiðar Þór Jónsson": [
+        {"title": "Fyrrum framkvæmdastjóri Viðreisnar fær oddvitasætið í Garðabæ", "url": "https://www.ruv.is/frettir/innlent/2026-03-05-fyrrum-framkvaemdastjori-vidreisnar-faer-oddvitasaetid-i-gardabae-468884", "source": "ruv.is"}
+      ]
+    },
+    "GB": {
+      "Þorbjörg Þorvaldsdóttir": [
+        {"title": "Þorbjörg leiðir Garðabæjarlistann aftur", "url": "https://www.ruv.is/frettir/innlent/2026-01-23-thorbjorg-leidir-gardabaejarlistann-aftur-464839", "source": "ruv.is"},
+        {"title": "Þorbjörg leiðir Garðabæjarlistann áfram í kosningunum 2026", "url": "https://postar.is/gardabaer/thorbjorg-leidir-gardabaejarlistann-afram-i-kosningunum-2026/", "source": "postar.is"},
+        {"title": "Þorbjörg nýr formaður Samtakanna '78", "url": "https://www.mbl.is/frettir/innlent/2019/03/03/thorbjorg_nyr_formadur_samtakanna_78/", "source": "mbl.is"},
+        {"title": "Þorbjörg er nýr formaður Samtakanna '78", "url": "https://www.ruv.is/frett/thorbjorg-er-nyr-formadur-samtakanna-78", "source": "ruv.is"},
+        {"title": "Þorbjörg hættir aftur hjá Samtökunum '78", "url": "https://www.visir.is/g/20252814991d/thor-bjorg-haettir-aftur-hja-sam-tokunum-78", "source": "visir.is"},
+        {"title": "Oddvitinn heldur áfram og knattspyrnuhetja í öðru sæti", "url": "https://www.mbl.is/frettir/innlent/2026/01/23/oddvitinn_heldur_afram_og_knattspyrnuhetja_i_odru/", "source": "mbl.is"},
+        {"title": "Kosningapallborð: Baráttan um Garðabæ", "url": "https://www.visir.is/k/f2d643a8-3763-49d6-9f4b-715d0f0a5e6d-1776786445778/kosningapallbord-barattan-um-gardabae", "source": "visir.is"}
+      ],
+      "Guðjón Pétur Lýðsson": [
+        {"title": "Þorbjörg leiðir Garðabæjarlistann aftur", "url": "https://www.ruv.is/frettir/innlent/2026-01-23-thorbjorg-leidir-gardabaejarlistann-aftur-464839", "source": "ruv.is"},
+        {"title": "Oddvitinn heldur áfram og knattspyrnuhetja í öðru sæti", "url": "https://www.mbl.is/frettir/innlent/2026/01/23/oddvitinn_heldur_afram_og_knattspyrnuhetja_i_odru/", "source": "mbl.is"}
+      ],
+      "Joanna Marcinkowska": [
+        {"title": "Þorbjörg leiðir Garðabæjarlistann aftur", "url": "https://www.ruv.is/frettir/innlent/2026-01-23-thorbjorg-leidir-gardabaejarlistann-aftur-464839", "source": "ruv.is"},
+        {"title": "Garðabæjarlistinn í Garðabæ liggur fyrir", "url": "https://www.ruv.is/frettir/innlent/2026-03-16-gardabaejarlistinn-i-gardabae-liggur-fyrir-469898", "source": "ruv.is"}
+      ],
+      "Finnur Jónsson": [
+        {"title": "Garðabæjarlistinn í Garðabæ liggur fyrir", "url": "https://www.ruv.is/frettir/innlent/2026-03-16-gardabaejarlistinn-i-gardabae-liggur-fyrir-469898", "source": "ruv.is"}
+      ],
+      "Baldur Ó. Svavarsson": [
+        {"title": "Garðabæjarlistinn í Garðabæ liggur fyrir", "url": "https://www.ruv.is/frettir/innlent/2026-03-16-gardabaejarlistinn-i-gardabae-liggur-fyrir-469898", "source": "ruv.is"}
+      ]
+    },
+    "M": {
+      "Lárus Þór Guðmundsson": [
+        {"title": "Oddvitinn heldur áfram og knattspyrnuhetja í öðru sæti", "url": "https://www.mbl.is/frettir/innlent/2026/03/15/oddvitinn_heldr_afram_og_knattspyrnuhetja_i_odru/", "source": "mbl.is"},
+        {"title": "Lárus Guðmundsson leiðir lista Miðflokksins í Garðabæ", "url": "https://kgp.is/gardabaer/larus-gudmundsson-leidir-lista-midflokksins-i-gardabae/", "source": "kgp.is"},
+        {"title": "Lárus í fyrsta sæti Miðflokksins í Garðabæ", "url": "https://www.mbl.is/frettir/kosning/2022/04/08/larus_i_fyrsta_saeti_midflokksins_i_gardabae/", "source": "mbl.is"},
+        {"title": "Lárus leiðir lista Miðflokksins í Garðabæ", "url": "https://www.visir.is/g/20222246325d/larus-leidir-lista-midflokksins-i-gardabae", "source": "visir.is"},
+        {"title": "Lárus Guðmundsson (M): ræða á Alþingi", "url": "https://www.althingi.is/altext/raeda/156/rad20250305T150335.html", "source": "althingi.is"},
+        {"title": "Lárus Guðmundsson - Wikipedia", "url": "https://en.wikipedia.org/wiki/L%C3%A1rus_Gu%C3%B0mundsson", "source": "en.wikipedia.org"}
+      ],
+      "Laufey Gunnþórsdóttir": [
+        {"title": "Oddvitinn heldur áfram og knattspyrnuhetja í öðru sæti", "url": "https://www.mbl.is/frettir/innlent/2026/03/15/oddvitinn_heldr_afram_og_knattspyrnuhetja_i_odru/", "source": "mbl.is"}
+      ],
+      "Snorri Marteinsson": [
+        {"title": "Oddvitinn heldur áfram og knattspyrnuhetja í öðru sæti", "url": "https://www.mbl.is/frettir/innlent/2026/03/15/oddvitinn_heldr_afram_og_knattspyrnuhetja_i_odru/", "source": "mbl.is"}
+      ],
+      "Bessí Þóra Jónsdóttir": [
+        {"title": "Oddvitinn heldur áfram og knattspyrnuhetja í öðru sæti", "url": "https://www.mbl.is/frettir/innlent/2026/03/15/oddvitinn_heldr_afram_og_knattspyrnuhetja_i_odru/", "source": "mbl.is"}
+      ],
+      "Unnur Ýr Jónsdóttir": [
+        {"title": "Oddvitinn heldur áfram og knattspyrnuhetja í öðru sæti", "url": "https://www.mbl.is/frettir/innlent/2026/03/15/oddvitinn_heldr_afram_og_knattspyrnuhetja_i_odru/", "source": "mbl.is"}
+      ]
+    },
+    "S": {
+      "Kjartan Atli Kjartansson": [
+        {"title": "Kjartan Atli leiðir Samfylkinguna í Garðabæ", "url": "https://www.ruv.is/frettir/innlent/2026-03-12-kjartan-atli-leidir-samfylkinguna-i-gardabae-469510", "source": "ruv.is"},
+        {"title": "Kjartan Atli leiðir Samfylkinguna í Garðabæ", "url": "https://www.visir.is/g/20262856786d/kjartan-atli-leidir-sam-fylkinguna-i-garda-bae", "source": "visir.is"},
+        {"title": "Kjartan Atli hættir störfum", "url": "https://www.mbl.is/sport/korfubolti/2025/12/13/kjartan_atli_haettir_storfum/", "source": "mbl.is"},
+        {"title": "Kjartan Atli hættur með Álftanes eftir sögulegt tap", "url": "https://www.ruv.is/frettir/ithrottir/2025-12-13-kjartan-atli-haettur-med-alftanes-eftir-sogulegt-tap-461471", "source": "ruv.is"},
+        {"title": "Kjartan Atli lætur af störfum", "url": "https://www.visir.is/g/20252817063d/kjartan-atli-laetur-af-storfum", "source": "visir.is"},
+        {"title": "Tveir flokkar í Garðabæ útiloka samstarf", "url": "https://www.visir.is/g/20262872518d/tveir-flokkar-i-gardabae-utiloka-samstarf", "source": "visir.is"},
+        {"title": "Kjartan Atli um nýju bókina, körfuboltaáhugann og innblásturinn á sínum yngri árum", "url": "https://www.visir.is/g/20202046341d/kjartan-atli-um-nyju-bokina-korfu-bolta-a-hugann-og-inn-blasturinn-a-sinum-yngri-arum", "source": "visir.is"},
+        {"title": "Dagur í lífi Kjartans Atla", "url": "https://www.dv.is/fokus/birta/2018/01/22/korfubolti-kria-i-hadeginu-og-kostir-thess-ad-setja-simann-silent-4hyh5o/", "source": "dv.is"}
+      ],
+      "Vilborg Anna Strange Garðarsdóttir": [
+        {"title": "Kjartan Atli leiðir Samfylkinguna í Garðabæ", "url": "https://www.ruv.is/frettir/innlent/2026-03-12-kjartan-atli-leidir-samfylkinguna-i-gardabae-469510", "source": "ruv.is"}
+      ],
+      "Rakel Margrét Viggósdóttir": [
+        {"title": "Kjartan Atli leiðir Samfylkinguna í Garðabæ", "url": "https://www.ruv.is/frettir/innlent/2026-03-12-kjartan-atli-leidir-samfylkinguna-i-gardabae-469510", "source": "ruv.is"}
+      ],
+      "Vilmar Pétursson": [
+        {"title": "Kjartan Atli leiðir Samfylkinguna í Garðabæ", "url": "https://www.ruv.is/frettir/innlent/2026-03-12-kjartan-atli-leidir-samfylkinguna-i-gardabae-469510", "source": "ruv.is"}
+      ],
+      "Ögmundur Árni Sveinsson": [
+        {"title": "Kjartan Atli leiðir Samfylkinguna í Garðabæ", "url": "https://www.ruv.is/frettir/innlent/2026-03-12-kjartan-atli-leidir-samfylkinguna-i-gardabae-469510", "source": "ruv.is"}
+      ]
+    }
+  }
+}

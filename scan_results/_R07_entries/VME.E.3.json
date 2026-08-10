@@ -1,0 +1,39 @@
+{
+  "id": "VME.E.3",
+  "bio": "Erlingur Guðbjörnsson er rekstrarstjóri Íslandspósts í Vestmannaeyjum og skipar 3. sæti á E-lista Eyjalistans í sveitarstjórnarkosningum 2026. Hann er fæddur 27. nóvember 1972, kvæntur Rögnu Steinu S. Lárudóttur og eiga þau saman þrjú börn, Kristján Lárus, Antoníu Emmu og Sunnu Maríu. Erlingur er með diplómu í stjórnun frá Háskólanum á Akureyri og diplómu í mannauðsstjórnun frá NTV og tók við sem stöðvarstjóri Pósthússins í Vestmannaeyjum haustið 2021. Hann skipaði einnig 3. sætið á Eyjalistanum árið 2022 og hefur á síðasta kjörtímabili setið sem varabæjarfulltrúi auk þess að hafa verið formaður framkvæmda- og hafnarráðs. Í kosningabaráttunni leggur hann áherslu á uppbyggingu skóla- og íþróttamannvirkja, bætta öldrunarþjónustu, hafnarframkvæmdir og samgöngumál.",
+  "sources": [
+    "https://www.heimaslod.is/index.php/Erlingur_Gu%C3%B0bj%C3%B6rnsson",
+    "https://eyjafrettir.is/spurt-og-svarad-erlingur-gudbjornsson-hja-eyjalistanum/",
+    "https://tigull.is/erlingur-gudbjornsson-ny-stodvarstjori-posthusins/",
+    "https://www.mbl.is/frettir/burdargrein/2022/04/08/njall_leidir_eyjalistann/",
+    "https://kosningasaga.wordpress.com/2026/03/12/frambodslisti-eyjalistans-i-vestmannaeyjum/"
+  ],
+  "statements": [
+    {"n":1,"status":"verified","claim":"Rekstrarstjóri Íslandspósts í Vestmannaeyjum","quotes":["Ég er rekstrarstjóri Íslandspósts hér í Vestmannaeyjum"]},
+    {"n":2,"status":"verified","claim":"3. sæti á E-lista Eyjalistans 2026","quotes":["Erlingur Guðbjörnsson, rekstrarstjóri & varabæjarfulltrúi"]},
+    {"n":3,"status":"rescued","claim":"Fæddur 27. nóvember 1972","quotes":["Erlingur Guðbjörnsson , stöðvarstjóri Pósts og síma, fæddist 27. nóvember 1972"]},
+    {"n":4,"status":"verified","claim":"Kvæntur Rögnu Steinu S. Lárudóttur, þrjú börn (Kristján Lárus, Antonía Emma, Sunna María)","quotes":["Giftur Rögnu Steinu S. Lárudóttur og eigum þrjú börn. Kristján Lárus, Antoníu Emmu og Sunnu Maríu"]},
+    {"n":5,"status":"verified","claim":"Diplóma í stjórnun frá HA og diplóma í mannauðsstjórnun frá NTV","quotes":["Ég er með diplómu í stjórnun frá háskólanum á Akureyri","Eins er ég með diplómu í Mannauðsstjórnun frá NTV"]},
+    {"n":6,"status":"verified","claim":"Tók við sem stöðvarstjóri Pósthússins haustið 2021","quotes":["01/09/2021 5:37 e.h. Erlingur Guðbjörnsson hefur tekið við sem stöðvarstóri Pósthúsins í Vestmannaeyjum hann hóf störf í dag"]},
+    {"n":7,"status":"rescued","claim":"3. sæti á Eyjalistanum 2022","quotes":["3. Erlingur Guðbjörnsson – Stöðvarstjóri hjá Íslandspósti"]},
+    {"n":8,"status":"verified","claim":"Varabæjarfulltrúi og formaður framkvæmda- og hafnarráðs á síðasta kjörtímabili","quotes":["Búinn að vera varabæjarfulltrúi og formaður framkvæmda og hafnarráðs síðasta kjörtímabil"]},
+    {"n":9,"status":"verified","claim":"Áherslur: skóla- og íþróttamannvirki, öldrunarþjónusta, hafnarframkvæmdir, samgöngur","quotes":["Bætta aðstöðu í skólum , stærri leikskóla og endurskipulagning. íþróttamannvirkja","Betri þjónustu við eldri borgara","Stórskipahöfn. Mjög stórt og mikilvægt framtíðarverkefni","Samgöngur. Við verðum að berjast fyrir öruggum og áreiðanlegum samgöngum"]}
+  ],
+  "summary": "Bio fully verified after rescue (heimaslod fetched fresh; mbl.is and kosningasaga added).",
+  "rescue": {
+    "rewrite": null,
+    "rewrite_words": 0,
+    "new_sources": [
+      "https://www.mbl.is/frettir/burdargrein/2022/04/08/njall_leidir_eyjalistann/",
+      "https://kosningasaga.wordpress.com/2026/03/12/frambodslisti-eyjalistans-i-vestmannaeyjum/"
+    ],
+    "resolutions": [],
+    "new_heimild": [
+      {"url":"https://www.heimaslod.is/index.php/Erlingur_Gu%C3%B0bj%C3%B6rnsson","label":"heimaslod.is"},
+      {"url":"https://eyjafrettir.is/spurt-og-svarad-erlingur-gudbjornsson-hja-eyjalistanum/","label":"eyjafrettir.is"},
+      {"url":"https://tigull.is/erlingur-gudbjornsson-ny-stodvarstjori-posthusins/","label":"tigull.is"},
+      {"url":"https://www.mbl.is/frettir/burdargrein/2022/04/08/njall_leidir_eyjalistann/","label":"mbl.is — Eyjalistinn 2022"},
+      {"url":"https://kosningasaga.wordpress.com/2026/03/12/frambodslisti-eyjalistans-i-vestmannaeyjum/","label":"kosningasaga.wordpress.com"}
+    ]
+  }
+}

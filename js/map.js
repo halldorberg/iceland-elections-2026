@@ -1,6 +1,6 @@
-import { MUNICIPALITIES } from './data/municipalities.js?v=13';
-import { PARTIES } from './data/parties.js?v=4';
-import { getLang, t, renderLangSwitcher } from './i18n.js?v=4';
+import { MUNICIPALITIES } from './data/municipalities.js?v=16';
+import { PARTIES } from './data/parties.js?v=5';
+import { getLang, t, renderLangSwitcher } from './i18n.js?v=22';
 
 // ─── i18n ──────────────────────────────────────────────────
 const lang = getLang();

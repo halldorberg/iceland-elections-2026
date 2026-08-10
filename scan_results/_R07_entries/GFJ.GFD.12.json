@@ -1,0 +1,36 @@
+{
+  "id": "GFJ.GFD.12",
+  "bio": "Marta Magnúsdóttir er fædd og uppalin í Grundarfirði og rekur þar sérkaffihúsið Kaffi Valeríu, sem hún opnaði sumarið 2021 ásamt eiginmanni sínum, kólumbíska kaffibrennaranum Jan van Haas. Hún er menntuð á sviði kennslu og hefur einnig sinnt skrifum og menningarstarfi. Áður gegndi hún embætti skátahöfðingja Bandalags íslenskra skáta árin 2017–2019, þá yngsti skátahöfðingi í sögu bandalagsins, 23 ára gömul. Marta skipar 12. sæti á D-lista Sjálfstæðisflokksins og óháðra í Grundarfjarðarbæ fyrir sveitarstjórnarkosningarnar 2026.",
+  "sources": [
+    "https://www.icelandreview.com/magazine/goodbye-to-the-grind/",
+    "https://www.mbl.is/frettir/innlent/2017/03/11/marta_yngsti_skatahofdingi_bis_2/",
+    "https://skessuhorn.is/2017/03/22/marta-magnusdottir-er-skatahofdingi-islands",
+    "https://skessuhorn.is/2022/09/04/kaffihusid-valeria-bydur-upp-a-kolumbiskt-kaffi",
+    "https://www.grundarfjordur.is/is/frettir-og-tilkynningar/frambodslistar-i-grundarfjardarbae-1"
+  ],
+  "statements": [
+    {"n":1,"status":"verified","claim":"Fædd og uppalin í Grundarfirði","quotes":["Marta er uppalinn Grundfirðingur og vill hvergi annars staðar vera"]},
+    {"n":2,"status":"verified","claim":"Rekur Kaffi Valeríu með eiginmanni sínum Jan Van Haas","quotes":["Jan Van Haas og Marta Magnúsdóttir, eigendur Valeriu","Eigendur þess eru hjónin Marta Magnúsdóttir og Jan Van Haas"]},
+    {"n":3,"status":"flagged","claim":"Opnaði sumarið 2021","quotes":[],"note":"Heimild segir 'Í júní opnaði í Grundarfirði nýtt kaffihús' (júní 2022). Húsið var keypt sumar 2021 og standsett í eitt ár."},
+    {"n":4,"status":"verified","claim":"Jan er kólumbískur kaffibrennari","quotes":["Jan er frá Kólumbíu","Ferlið tekur einungis nokkrar mínútur og fylgjast þarf vel með allan tímann svo baunirnar verði alveg nógu ristaðar"]},
+    {"n":5,"status":"flagged","claim":"Menntuð á sviði kennslu, hefur sinnt skrifum og menningarstarfi","quotes":[],"note":"Ekki bein vitnað í tiltækum heimildum."},
+    {"n":6,"status":"verified","claim":"Skátahöfðingi BÍS 2017, kjörin í tveggja ára embætti, yngsti í sögu, 23 ára","quotes":["11.3.2017 ... Marta Magnúsdóttir var í dag kjörin skátahöfðingi Bandalags íslenskra skáta til tveggja ára","Marta er yngsti skátahöfðingi BÍS frá upphafi","23 ára gömul frá Grundarfirði Marta Magnúsdóttir skátahöfðingi er 23 ára gömul"]},
+    {"n":7,"status":"verified","claim":"12. sæti á D-lista Sjálfstæðisflokksins og óháðra í Grundarfjarðarbæ 2026","quotes":["Sunneva Gissurardóttir Marta Magnúsdóttir Arnar Kristjánsson"]}
+  ],
+  "summary": "Two issues: (a) opening year of café was 2022 (not 2021); (b) education/skrif/menning claims lack direct quotes. Rewrite corrects.",
+  "rescue": {
+    "rewrite": "Marta Magnúsdóttir er fædd og uppalin í Grundarfirði og rekur þar ásamt eiginmanni sínum, kólumbíska Jan Van Haas, sérkaffihúsið Valeríu sem opnaði í júní 2022 við Grundargötu. Áður gegndi hún embætti skátahöfðingja Bandalags íslenskra skáta árin 2017–2019, þá 23 ára og yngsti skátahöfðingi í sögu bandalagsins. Marta skipar 12. sæti á D-lista Sjálfstæðisflokksins og óháðra í Grundarfjarðarbæ fyrir sveitarstjórnarkosningarnar 2026.",
+    "rewrite_words": 70,
+    "new_sources": [],
+    "resolutions": [
+      {"n":3,"action":"corrected","reason":"opening was June 2022"},
+      {"n":5,"action":"dropped","reason":"menntun/skrif/menning ekki bein vitnað"}
+    ],
+    "new_heimild": [
+      {"url":"https://www.icelandreview.com/magazine/goodbye-to-the-grind/","label":"Iceland Review — Kaffi Valeria"},
+      {"url":"https://www.mbl.is/frettir/innlent/2017/03/11/marta_yngsti_skatahofdingi_bis_2/","label":"mbl.is — yngsti skátahöfðingi 2017"},
+      {"url":"https://skessuhorn.is/2022/09/04/kaffihusid-valeria-bydur-upp-a-kolumbiskt-kaffi","label":"Skessuhorn — Valeria 2022"},
+      {"url":"https://www.grundarfjordur.is/is/frettir-og-tilkynningar/frambodslistar-i-grundarfjardarbae-1","label":"Grundarfjörður — framboðslistar 2026"}
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "AKU.S.7",
+  "bio": "Elsa María Guðmundsdóttir er listkennari (sjónlistakennari) og er búsett á Akureyri. Hún hefur áður átt sæti á lista Samfylkingarinnar á Akureyri og bauð sig fram fyrir Samfylkinguna í Norðausturkjördæmi í alþingiskosningunum 2024, þar sem hún skipaði 13. sæti. Hún hefur skrifað um menningar- og listamál á Akureyri í aðsendum greinum. Elsa María skipar 7. sæti á lista Samfylkingarinnar á Akureyri í sveitarstjórnarkosningunum 16. maí 2026.",
+  "sources": [
+    "https://xs.is/frettir/2024/10/frambodslisti-nordausturkjordaemi2024",
+    "https://www.akureyri.net/is/umraedan/afram-menning-og-listir-a-akureyri",
+    "https://xs.is/frambjodendur-a-akureyri-2026"
+  ],
+  "statements": [
+    {"n": 1, "status": "verified", "claim": "sjónlistakennari", "quotes": ["7. Elsa María Guðmundsdóttir Sjónlistakennari"]},
+    {"n": 2, "status": "verified", "claim": "áður á lista Samfylkingarinnar á Akureyri (2022)", "quotes": ["Elsa María Guðmundsdóttir skipar 3. sæti á lista Samfylkingarinnar á Akureyri fyrir bæjarstjórnarkosningarnar í næsta mánuði."]},
+    {"n": 3, "status": "verified", "claim": "13. sæti á lista Samfylkingar í Norðausturkjördæmi 2024", "quotes": ["13. Elsa María Guðmundsdóttir, grunnskólakennari", "alþingiskosningarnar 30. nóvember 2024"]},
+    {"n": 4, "status": "verified", "claim": "skrifað aðsendar greinar um menningar- og listamál á Akureyri", "quotes": ["Elsa María Guðmundsdóttir skrifar 25. apríl 2022", "Áfram menning og listir á Akureyri"]},
+    {"n": 5, "status": "verified", "claim": "skipar 7. sæti á lista Samfylkingarinnar á Akureyri 2026", "quotes": ["7. Elsa María Guðmundsdóttir Sjónlistakennari"]},
+    {"n": 6, "status": "rescued", "claim": "kosningar 16. maí 2026", "quotes": ["sveitarstjórnarkosningum sem fram fara 16. maí næstkomandi"]}
+  ],
+  "summary": "5 verified, 1 rescued, 0 flagged",
+  "rescue": null
+}

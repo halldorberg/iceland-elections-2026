@@ -1,0 +1,18 @@
+{
+  "id": "AKR.S.6",
+  "bio": "Katrín Valdís Hjartardóttir er svæðisstjóri æskulýðsmála í Vesturlandsprófastsdæmi þjóðkirkjunnar og starfar þar að æskulýðsstarfi á svæðinu. Hún skipar 6. sæti á lista Samfylkingarinnar á Akranesi fyrir sveitarstjórnarkosningarnar 16. maí 2026. Listinn var samþykktur einróma á fjölmennum félagsfundi og er Sigurður Vopni Vatnsdal oddviti hans.",
+  "sources": [
+    "https://xs.is/frettir/2026/03/frambodslisti--akranesi",
+    "https://www.visir.is/g/20262861110d/thau-skipa-lista-sam-fylkingarinnar-a-akra-nesi",
+    "https://skagafrettir.is/2026/03/28/sigurdur-vopni-skipar-oddvitasaetid-hja-samfylkingunni-a-akranesi/"
+  ],
+  "statements": [
+    {"n": 1, "status": "verified", "claim": "svæðisstjóri æskulýðsmála í Vesturlandsprófastsdæmi", "quotes": ["Katrín Valdís Hjartardóttir, svæðisstjóri æskulýðsmála í Vesturlandsprófastsdæmi"]},
+    {"n": 2, "status": "verified", "claim": "skipar 6. sæti á lista Samfylkingarinnar á Akranesi 2026", "quotes": ["6. Katrín Valdís Hjartardóttir, svæðisstjóri æskulýðsmála í Vesturlandsprófastsdæmi"]},
+    {"n": 3, "status": "verified", "claim": "kosningar 16. maí 2026", "quotes": ["sveitarstjórnarkosningum sem fram fara 16. maí næstkomandi"]},
+    {"n": 4, "status": "verified", "claim": "Listinn var samþykktur einróma á fjölmennum félagsfundi", "quotes": ["Framboðslisti Samfylkingarinnar á Akranesi var samþykktur einróma á fjölmennum félagsfundi í gærkvöld."]},
+    {"n": 5, "status": "verified", "claim": "Sigurður Vopni Vatnsdal oddviti", "quotes": ["Sigurður Vopni Vatnsdal verður í oddvitasætinu", "Sigurður Vopni Vatnsdal, ráðgjafi hjá Sjóvá á Akranesi, mun leiða lista Samfylkingarinnar á á Akranesi"]}
+  ],
+  "summary": "5 verified, 0 rescued, 0 flagged",
+  "rescue": null
+}

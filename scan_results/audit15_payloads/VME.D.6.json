@@ -1,0 +1,40 @@
+{
+  "id": "VME.D.6",
+  "bio": "Kjartan Vídó Ólafsson er 47 ára og starfar sem fulltrúi á umhverfis- og framkvæmdasviði Vestmannaeyjabæjar. Hann fluttist aftur til Eyja fyrir um ári síðan og var áður markaðsstjóri Handknattleikssambands Íslands (HSÍ). Kjartan er einn af stofnendum og rekstraraðilum The Brothers Brewery í Vestmannaeyjum. Hann hefur lengi tekið þátt í starfi Sjálfstæðisflokksins, sat meðal annars í stjórn Heimdallar og Sambands ungra sjálfstæðismanna (1999–2005) og gegndi forystuhlutverki í norrænu samstarfi ungra hægrimanna á árunum 2001–2003. Hann tók þátt í prófkjöri Sjálfstæðisflokksins í Vestmannaeyjum í mars 2026 og skipar 6. sæti á lista flokksins fyrir sveitarstjórnarkosningarnar 16. maí 2026. Sambýliskona Kjartans er Guðrún Lilja Friðgeirsdóttir leikskólakennari og á hann þrjú börn.",
+  "sources": [
+    "https://eyjafrettir.is/spurt-og-svarad-kjartan-vido-fra-sjalfstaedisflokknum/",
+    "https://xd.is/2026/03/31/frambodslisti-sjalfstaedisflokksins-i-vestmannaeyjum/"
+  ],
+  "statements": [
+    {"n": 1, "status": "verified", "claim": "47 ára", "quotes": ["Aldur: 47 ára"]},
+    {"n": 2, "status": "verified", "claim": "fulltrúi á umhverfis- og framkvæmdasviði Vestmannaeyjabæjar", "quotes": ["Starfa sem fulltrúi á framkvæmda- og umhverfissviði Vestmannaeyjabæjar"]},
+    {"n": 3, "status": "verified", "claim": "fluttist aftur til Eyja fyrir um ári síðan", "quotes": ["Flutti aftur til Eyja fyrir rúmu ári"]},
+    {"n": 4, "status": "flagged", "claim": "var áður markaðsstjóri Handknattleikssambands Íslands (HSÍ)", "notes": "Engin tilvísun til HSÍ-starfa í Eyjafréttaviðtali eða framboðslista."},
+    {"n": 5, "status": "flagged", "claim": "stofnandi og rekstraraðili The Brothers Brewery í Vestmannaeyjum", "notes": "Ekki minnst á brugghús í tilvitnuðum heimildum."},
+    {"n": 6, "status": "flagged", "claim": "sat í stjórn Heimdallar", "notes": "Heimildin nefnir 'stjórn Eyverja og Hugins í Garðabæ' — Hugin (Garðabær), ekki Heimdall (Reykjavík). Skipti á félagsheiti."},
+    {"n": 7, "status": "verified", "claim": "sat í stjórn SUS 1999–2005", "quotes": ["sat í stjórn SUS 1999-2005"]},
+    {"n": 8, "status": "verified", "claim": "framkvæmdastjóri Norðurlandasamtaka ungra hægri manna 2001–2003", "quotes": ["Var framkvæmdastjóri Norðurlandasamtaka ungra hægri manna 2001-2003"]},
+    {"n": 9, "status": "verified", "claim": "skipar 6. sæti á lista Sjálfstæðisflokksins í Vestmannaeyjum", "quotes": ["Kjartan Vídó Ólafsson, 47 ára, fulltrúi á umhverfissviði"]},
+    {"n": 10, "status": "verified", "claim": "tók þátt í prófkjöri í mars 2026", "quotes": ["14. mars 2026 Lokatölur frá Vestmannaeyjum: Eyþór efstur", "Í sjötta sæti er Kjartan Vídó Ólafsson með 584 atkvæði"]},
+    {"n": 11, "status": "verified", "claim": "kosningar 16. maí 2026", "quotes": ["bæjarstjórnarkosningarnar 16. maí nk. samþykkt samhljóða"]},
+    {"n": 12, "status": "verified", "claim": "Sambýliskona er Guðrún Lilja Friðgeirsdóttir leikskólakennari", "quotes": ["er í sambúð með Guðrúnu Lilju Friðgeirsdóttur, leikskólakennara á Sóla"]},
+    {"n": 13, "status": "flagged", "claim": "á þrjú börn", "notes": "Heimildin segir hann eiga Önnu Birnu (22) og Kristjönu Emmu (15); Breki (21) er sonur Guðrúnar. Þ.e. tvö börn hans, ekki þrjú."}
+  ],
+  "summary": "9 verified, 0 rescued, 4 flagged",
+  "rescue": {
+    "rewrite": "Kjartan Vídó Ólafsson er 47 ára og starfar sem fulltrúi á framkvæmda- og umhverfissviði Vestmannaeyjabæjar. Hann fluttist aftur til Eyja fyrir rúmu ári síðan. Kjartan hefur lengi tekið þátt í starfi Sjálfstæðisflokksins, sat í stjórn Eyverja og Hugins í Garðabæ, í stjórn Sambands ungra sjálfstæðismanna 1999–2005 og var framkvæmdastjóri Norðurlandasamtaka ungra hægri manna 2001–2003. Í prófkjöri flokksins í Vestmannaeyjum 14. mars 2026 hlaut hann 584 atkvæði og skipar 6. sæti á lista Sjálfstæðisflokksins fyrir bæjarstjórnarkosningarnar 16. maí 2026. Sambýliskona Kjartans er Guðrún Lilja Friðgeirsdóttir leikskólakennari og hann á tvær dætur, Önnu Birnu og Kristjönu Emmu.",
+    "rewrite_words": 110,
+    "new_sources": ["https://xd.is/2026/03/14/lokatolur-fra-vestmannaeyjum-eythor-efstur/"],
+    "resolutions": [
+      {"kind": "dropped", "text": "HSÍ-markaðsstjórastarf fellt — engin heimild."},
+      {"kind": "dropped", "text": "The Brothers Brewery fellt — engin heimild."},
+      {"kind": "contradicted", "text": "Heimdall leiðrétt í 'Eyverja og Hugin í Garðabæ' samkvæmt Eyjafrétta-viðtali."},
+      {"kind": "contradicted", "text": "'Þrjú börn' leiðrétt í 'tvær dætur' samkvæmt viðtali."}
+    ],
+    "new_heimild": [
+      {"url": "https://eyjafrettir.is/spurt-og-svarad-kjartan-vido-fra-sjalfstaedisflokknum/", "label": "Spurt og svarað: Kjartan Vídó (Eyjafréttir)"},
+      {"url": "https://xd.is/2026/03/31/frambodslisti-sjalfstaedisflokksins-i-vestmannaeyjum/", "label": "Framboðslisti Sjálfstæðisflokksins í Vestmannaeyjum (xd.is)"},
+      {"url": "https://xd.is/2026/03/14/lokatolur-fra-vestmannaeyjum-eythor-efstur/", "label": "Lokatölur frá Vestmannaeyjum: Eyþór efstur (xd.is)"}
+    ]
+  }
+}

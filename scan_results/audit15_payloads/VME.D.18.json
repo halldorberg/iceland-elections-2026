@@ -1,0 +1,31 @@
+{
+  "id": "VME.D.18",
+  "bio": "Elísabet Arnoddsdóttir er hjúkrunarfræðingur og býr í Vestmannaeyjum. Hún kemur úr fjölskyldu sem missti heimili sitt undir hraun í eldgosinu á Heimaey árið 1973 og hefur deilt minningum úr gosinu meðal annars í heimildarmyndum um upplifun Eyjamanna af náttúruhamförunum. Elísabet skipar 18. sæti á lista Sjálfstæðisflokksins í Vestmannaeyjum fyrir sveitarstjórnarkosningarnar 16. maí 2026.",
+  "sources": [
+    "http://sigvamedia.is/en/project/my-unfamiliar-home/",
+    "https://www.heimaslod.is/index.php/Flokkur:Hj%C3%BAkrunarfr%C3%A6%C3%B0ingar"
+  ],
+  "statements": [
+    {"n": 1, "status": "rescued", "claim": "er hjúkrunarfræðingur", "quotes": ["Elísabet Arnoddsdóttir, 83 ára, hjúkrunarfræðingur"]},
+    {"n": 2, "status": "verified", "claim": "kemur úr fjölskyldu sem missti heimili sitt undir hraun í eldgosinu á Heimaey 1973", "quotes": ["Elísabet Arnoddsdóttir at the remains of her's family house that went under the lava."]},
+    {"n": 3, "status": "verified", "claim": "deilt minningum úr gosinu í heimildarmynd um upplifun Eyjamanna", "quotes": ["A documentary about peoples experience of the volcanic eruption on Heimaey in Iceland in 1973, 40 years later.", "told by the inhabitants that were among the 5.000 people that fled from an exploding volcano"]},
+    {"n": 4, "status": "rescued", "claim": "skipar 18. sæti á lista Sjálfstæðisflokksins í Vestmannaeyjum", "quotes": ["Elísabet Arnoddsdóttir, 83 ára, hjúkrunarfræðingur"]},
+    {"n": 5, "status": "rescued", "claim": "fyrir sveitarstjórnarkosningarnar 16. maí 2026", "quotes": ["bæjarstjórnarkosningarnar 16. maí nk. samþykkt samhljóða"]},
+    {"n": 6, "status": "flagged", "claim": "býr í Vestmannaeyjum", "notes": "Engin bein heimild að hún búi nú í Vestmannaeyjum; aðeins fjölskyldutengsl."}
+  ],
+  "summary": "2 verified, 3 rescued, 1 flagged",
+  "rescue": {
+    "rewrite": "Elísabet Arnoddsdóttir er hjúkrunarfræðingur og skipar 18. sæti á lista Sjálfstæðisflokksins í Vestmannaeyjum fyrir bæjarstjórnarkosningarnar 16. maí 2026. Fjölskylda hennar missti heimili sitt undir hraun í eldgosinu á Heimaey árið 1973, og hún kemur fram í heimildarmyndinni „My unfamiliar home – accepting the volcano“ sem segir frá upplifun Eyjamanna af gosinu fjörutíu árum síðar.",
+    "rewrite_words": 67,
+    "new_sources": ["https://xd.is/2026/03/31/frambodslisti-sjalfstaedisflokksins-i-vestmannaeyjum/"],
+    "resolutions": [
+      {"kind": "rescued", "text": "'hjúkrunarfræðingur' og '18. sæti' staðfest með xd.is framboðslista (heimaslod cache mistókst)."},
+      {"kind": "rescued", "text": "Kosningadagur staðfestur með xd.is framboðslista."},
+      {"kind": "dropped", "text": "'býr í Vestmannaeyjum' fellt — ekki staðfest."}
+    ],
+    "new_heimild": [
+      {"url": "http://sigvamedia.is/en/project/my-unfamiliar-home/", "label": "My unfamiliar home – accepting the volcano (SIGVA media)"},
+      {"url": "https://xd.is/2026/03/31/frambodslisti-sjalfstaedisflokksins-i-vestmannaeyjum/", "label": "Framboðslisti Sjálfstæðisflokksins í Vestmannaeyjum (xd.is)"}
+    ]
+  }
+}

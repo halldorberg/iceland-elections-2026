@@ -1,0 +1,27 @@
+{
+  "id": "SEL.D.6",
+  "bio": "Dagbjört Snjólaug Oddsdóttir er héraðsdómslögmaður og einn eigenda lögmannsstofunnar Könnun Legal ehf., þar sem hún starfar sem aðalfulltrúi (general counsel). Hún lauk meistaraprófi í lögfræði frá Háskóla Íslands árið 2010 og hlaut málflutningsréttindi árið 2012. Sérsvið hennar eru sjó- og flutningaréttur, vátryggingaréttur og félaga- og viðskiptaréttur. Dagbjört hefur búið á Seltjarnarnesi um árabil og hefur tekið virkan þátt í starfi Sjálfstæðisflokksins þar, meðal annars sem stjórnarmaður í Sjálfstæðisfélagi Seltirninga og fulltrúi í íþrótta- og tómstundanefnd. Hún gaf áður kost á sér í forystusæti á lista flokksins fyrir kosningarnar 2022 og skipar nú 6. sæti á lista Sjálfstæðisflokksins á Seltjarnarnesi fyrir sveitarstjórnarkosningarnar 16. maí 2026.",
+  "sources": [
+    "https://www.konnun.is/our-people",
+    "https://lmfi.is/logmannalisti/1333/dagbjort-snjolaug-oddsdottir",
+    "https://www.mbl.is/frettir/kosning/2022/01/24/dagbjort_gefur_kost_a_ser_i_annad_saetid/",
+    "https://xd.is/2026/03/02/frambodslisti-sjalfstaedisflokksins-a-seltjarnarnesi-2/"
+  ],
+  "statements": [
+    {"n":1,"status":"verified","claim":"General Counsel hjá Könnun Legal ehf","quotes":["Dagbjört S. Oddsdóttir General Counsel"]},
+    {"n":2,"status":"verified","claim":"Héraðsdómslögmaður","quotes":["Dagbjört Snjólaug Oddsdóttir Lögmaður með réttindi til málflutnings fyrir héraðsdómstólum"]},
+    {"n":3,"status":"verified","claim":"M.L. HÍ 2010, málflutningsréttindi 2012","quotes":["Dagbjört graduated with Master of Laws from the University of Iceland in 2010 and was admitted in Iceland in 2012"]},
+    {"n":4,"status":"verified","claim":"Sérsvið: sjó- og flutningaréttur, vátryggingaréttur, félaga- og viðskiptaréttur","quotes":["Dagbjört is a specialist in: Maritime and Shipping law Insurance Recovery law Commercial and Company law"]},
+    {"n":5,"status":"verified","claim":"Búsett á Seltjarnarnesi um árabil; í stjórn Sjálfstæðisfélags Seltirninga; í íþrótta- og tómstundanefnd","quotes":["Dagbjört, sem hefur verið búsett á Seltjarnarnesi síðastliðin tíu ár","situr hún í stjórn Sjálfstæðisfélags Seltirninga og er nefndarmaður í íþrótta- og tómstundanefnd Seltjarnarnesbæjar"]},
+    {"n":6,"status":"verified","claim":"Gaf kost á sér í 2. sæti á lista flokksins fyrir 2022","quotes":["Dagbjört Snjólaug Oddsdóttir hefur ákveðið að bjóða sig fram í annað sæti á lista Sjálfstæðisflokksins á Seltjarnarnesi í prófkjöri sem fer fram 26. febrúar"]},
+    {"n":7,"status":"verified","claim":"6. sæti á lista Sjálfstæðisflokksins á Seltjarnarnesi 2026","quotes":["Dagbjört Snjólaug Oddsdóttir, lögmaður"]}
+  ],
+  "summary": "Bio fully verified.",
+  "rescue": {
+    "rewrite": null,
+    "rewrite_words": 0,
+    "new_sources": [],
+    "resolutions": [],
+    "new_heimild": []
+  }
+}

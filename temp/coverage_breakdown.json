@@ -1,0 +1,2373 @@
+{
+  "total_candidates": 3233,
+  "with_image": 1326,
+  "with_news": 77,
+  "total_parties": 182,
+  "with_agenda": 122,
+  "without_agenda": [
+    [
+      "vogar",
+      "VOG",
+      "FYRS",
+      "Gunnar J. Helgason leiðir listann Fyrir samfélagið í Vogum"
+    ],
+    [
+      "grindavik",
+      "GRN",
+      "B",
+      "Ásrún Helga Kristinsdóttir leiðir Framsókn í Grindavík"
+    ],
+    [
+      "grindavik",
+      "GRN",
+      "D",
+      "Guðbjörg Eyjólfsdóttir leiðir Sjálfstæðisflokkinn í Grindaví"
+    ],
+    [
+      "grindavik",
+      "GRN",
+      "M",
+      "Magnús Már Jakobsson leiðir Miðflokkinn í Grindavík"
+    ],
+    [
+      "fjallabyggd",
+      "FJB",
+      "D",
+      "Tómas Atli leiðir Sjálfstæðisflokkinn í Fjallabyggð"
+    ],
+    [
+      "fjallabyggd",
+      "FJB",
+      "H",
+      "H-listinn Fyrir Heildina — Helgi Jóhannsson leiðir"
+    ],
+    [
+      "fjallabyggd",
+      "FJB",
+      "S",
+      "Jóhann K. leiðir Samfylkinguna í Fjallabyggð"
+    ],
+    [
+      "isafjordur",
+      "ISF",
+      "B",
+      "Framsóknarflokkur og óháðir í Ísafjarðarbæ"
+    ],
+    [
+      "rangarthingeystra",
+      "RTE",
+      "B",
+      "Framsókn í Rangárþingi eystra — landbúnaður og velferð"
+    ],
+    [
+      "rangarthingeystra",
+      "RTE",
+      "D",
+      "Sjálfstæðisflokkurinn í Rangárþingi eystra — þróun og stöðug"
+    ],
+    [
+      "rangarthingytra",
+      "RTY",
+      "D",
+      "Sjálfstæðisflokkurinn í Rangárþingi ytra — stöðugleiki og fr"
+    ],
+    [
+      "skaftarhreppur",
+      "SKR",
+      "D",
+      "Sjálfstæðismenn og óháðir í Skaftárhreppi — byggðaþróun og v"
+    ],
+    [
+      "skaftarhreppur",
+      "SKR",
+      "SKO",
+      "Öflugt samfélag — samvinna íbúa í Skaftárhreppi"
+    ],
+    [
+      "myrdalshr",
+      "MYR",
+      "MYA",
+      "Listi allra — sameiginleg framtíð í Mýrdal"
+    ],
+    [
+      "myrdalshr",
+      "MYR",
+      "MYZ",
+      "Listi Samfélagsins — öflugt Mýrdalshreppur"
+    ],
+    [
+      "blaskogabyggd",
+      "BSG",
+      "BST",
+      "T-listinn — framþróun í Bláskógabyggð"
+    ],
+    [
+      "floahreppur",
+      "FHR",
+      "FLT",
+      "T-listinn Flóa — samvinna og framfarir"
+    ],
+    [
+      "hrunamannahreppur",
+      "HMR",
+      "D",
+      "Sjálfstæðismenn og óháðir í Hrunamannahreppi"
+    ],
+    [
+      "hrunamannahreppur",
+      "HMR",
+      "HRL",
+      "L-listinn — íbúar í forgrunni í Hrunamannahreppi"
+    ],
+    [
+      "skeidagnup",
+      "SGN",
+      "SGE",
+      "Uppbyggingarlistinn — framtíð Skeiða- og Gnúpverjahrepps"
+    ],
+    [
+      "skeidagnup",
+      "SGN",
+      "SGL",
+      "Samvinnulistinn — samvinna og þróun"
+    ],
+    [
+      "dalvikurbyggd",
+      "DVB",
+      "B",
+      "Framsóknarflokkurinn í Dalvíkurbyggð"
+    ],
+    [
+      "dalvikurbyggd",
+      "DVB",
+      "D",
+      "Sjálfstæðisflokkurinn í Dalvíkurbyggð"
+    ],
+    [
+      "dalvikurbyggd",
+      "DVB",
+      "A",
+      "Byggðalistinn — A-listi Dalvíkurbyggðar"
+    ],
+    [
+      "dalvikurbyggd",
+      "DVB",
+      "K",
+      "K-listi — Dalvíkurbyggð"
+    ],
+    [
+      "eyjafjardarsveit",
+      "EJA",
+      "EJF",
+      "F-listinn — öflugt landbúnaðarsamfélag í Eyjafirði"
+    ],
+    [
+      "eyjafjardarsveit",
+      "EJA",
+      "EJK",
+      "K-listinn — öflug Eyjafjarðarsveit"
+    ],
+    [
+      "hunabyggd",
+      "HNB",
+      "HBA",
+      "Öll saman — sameiginleg framtíð Húnabyggðar"
+    ],
+    [
+      "hunabyggd",
+      "HNB",
+      "B",
+      "Framsókn og framfarasinnar í Húnabyggð"
+    ],
+    [
+      "hunabyggd",
+      "HNB",
+      "D",
+      "Sjálfstæðismenn og óháðir í Húnabyggð"
+    ],
+    [
+      "hunathing",
+      "HNT",
+      "B",
+      "Framsókn og Framfarabandalag í Húnaþingi vestra"
+    ],
+    [
+      "hunathing",
+      "HNT",
+      "D",
+      "Sjálfstæðisflokkur og óháðir í Húnaþingi vestra"
+    ],
+    [
+      "hunathing",
+      "HNT",
+      "NHV",
+      "Ný öfl — nýjar hugmyndir í Húnaþingi vestra"
+    ],
+    [
+      "skagastrond",
+      "SST",
+      "B",
+      "Framsókn og óháðir í Skagaströnd"
+    ],
+    [
+      "skagastrond",
+      "SST",
+      "S",
+      "Samfylking og óháðir í Skagaströnd"
+    ],
+    [
+      "skagastrond",
+      "SST",
+      "K",
+      "Fyrir Skagaströnd — K-listi"
+    ],
+    [
+      "stykkisholmur",
+      "STK",
+      "FLS",
+      "Framfaralisti Stykkishólms — byggjum upp bæinn saman"
+    ],
+    [
+      "stykkisholmur",
+      "STK",
+      "IBU",
+      "Íbúalistinn — rödd íbúanna"
+    ],
+    [
+      "grundarfjordur",
+      "GFJ",
+      "GFB",
+      "Framsókn og Samfylking — áfram Grundarfjörður"
+    ],
+    [
+      "grundarfjordur",
+      "GFJ",
+      "GFD",
+      "Sjálfstæðisflokkur og óháðir — traust og framþróun"
+    ],
+    [
+      "bolungarvik",
+      "BLV",
+      "MMM",
+      "Máttur meyja og manna — saman erum við sterk"
+    ],
+    [
+      "sudavik",
+      "SDV",
+      "FJL",
+      "Fjarðarlistinn — hlutum okkur af framtíð Súðavíkur"
+    ],
+    [
+      "sudavik",
+      "SDV",
+      "FTL",
+      "Framtíðarlistinn — í átt að betri framtíð"
+    ],
+    [
+      "vesturbyggd",
+      "VBG",
+      "NYS",
+      "Nýrra sýnar — framtíðarsýn fyrir Vesturbyggð"
+    ],
+    [
+      "strandabyggd",
+      "STD",
+      "SBD",
+      "Strandabandalagið — sameinuð um framtíðina"
+    ],
+    [
+      "reykholar",
+      "RKH",
+      "ROA",
+      "Raddir okkar allra — við tökum höndum saman"
+    ],
+    [
+      "reykholar",
+      "RKH",
+      "S",
+      "Samfylkingin í Reykhólahreppi"
+    ],
+    [
+      "thingeyjarsveit",
+      "THV",
+      "THVA",
+      "A-listi í Þingeyjarsveit — áfram sveitin"
+    ],
+    [
+      "thingeyjarsveit",
+      "THV",
+      "THVL",
+      "L-listi í Þingeyjarsveit — lausnir fyrir íbúana"
+    ],
+    [
+      "thingeyjarsveit",
+      "THV",
+      "THVN",
+      "N-listi í Þingeyjarsveit — nýtt líf í sveitina"
+    ],
+    [
+      "hvalfjardarsveit",
+      "HVF",
+      "HVB",
+      "Íbúahreyfingin Hvalfjörður — rödd þeirra sem búa hér"
+    ],
+    [
+      "snaefellsbaer",
+      "SNF",
+      "D",
+      "D-listi Sjálfstæðisflokks — Snæfellsbær 2026"
+    ],
+    [
+      "svalbardsstrond",
+      "SVS",
+      "SVSS",
+      "S-listi í Svalbarðsstrandarhreppi — samstaða og framþróun"
+    ],
+    [
+      "svalbardsstrond",
+      "SVS",
+      "SVSH",
+      "Strönd til framtíðar — H-listi Svalbarðsstrandar"
+    ],
+    [
+      "svalbardsstrond",
+      "SVS",
+      "SVSO",
+      "Ströndungur — Ö-listi í Svalbarðsstrandarhreppi"
+    ],
+    [
+      "kjosarhreppur",
+      "KJO",
+      "KJA",
+      "Íbúar í Kjós — A-listi Kjósarhrepps 2026"
+    ],
+    [
+      "vopnafjordur",
+      "VPF",
+      "VOP",
+      "Vopnafjörður — eitt framboð, sameinaður hreppur"
+    ],
+    [
+      "tjornes",
+      "TJR",
+      "TJN",
+      "Tjörnes — Eitt framboð"
+    ],
+    [
+      "arneshr",
+      "ARN",
+      "ARNA",
+      "Á-listi — Framtíð Árneshrepps"
+    ],
+    [
+      "arneshr",
+      "ARN",
+      "ARNS",
+      "S-listi — Sólstöður í Árneshreppi"
+    ]
+  ],
+  "party_stats": [
+    {
+      "muni_id": "reykjavik",
+      "const": "RVK",
+      "code": "D",
+      "tagline": "Breytinga er þörf í Reykjavík",
+      "n": 46,
+      "with_image": 15,
+      "with_news": 0,
+      "agenda_count": 6,
+      "platform_url": "https://www.hildurbjoss.is/%C3%A1herslur"
+    },
+    {
+      "muni_id": "reykjavik",
+      "const": "RVK",
+      "code": "B",
+      "tagline": "Í átt að betri borg — breyting í forgangi",
+      "n": 46,
+      "with_image": 45,
+      "with_news": 0,
+      "agenda_count": 6,
+      "platform_url": "https://framsoknrvk.is/aherslurnar-okkar/"
+    },
+    {
+      "muni_id": "reykjavik",
+      "const": "RVK",
+      "code": "S",
+      "tagline": "Borg fyrir fólk",
+      "n": 46,
+      "with_image": 45,
+      "with_news": 0,
+      "agenda_count": 6,
+      "platform_url": "https://xs.is/borg-fyrir-folk"
+    },
+    {
+      "muni_id": "reykjavik",
+      "const": "RVK",
+      "code": "A",
+      "tagline": "Húsnæði á að vera heimili — byggt fyrir fólk, ekki fjárfesta",
+      "n": 46,
+      "with_image": 6,
+      "with_news": 0,
+      "agenda_count": 8,
+      "platform_url": "https://www.vinstrid.is/stefnumal.html"
+    },
+    {
+      "muni_id": "reykjavik",
+      "const": "RVK",
+      "code": "P",
+      "tagline": "Bestum borgina fyrir þig",
+      "n": 46,
+      "with_image": 9,
+      "with_news": 0,
+      "agenda_count": 8,
+      "platform_url": "https://piratar.is/stefna/reykjavik/"
+    },
+    {
+      "muni_id": "reykjavik",
+      "const": "RVK",
+      "code": "M",
+      "tagline": "Látum heilbrigða skynsemi taka yfir Ráðhús Reykjavíkur.",
+      "n": 46,
+      "with_image": 6,
+      "with_news": 0,
+      "agenda_count": 7,
+      "platform_url": "https://midflokkurinn.is/reykjavik"
+    },
+    {
+      "muni_id": "reykjavik",
+      "const": "RVK",
+      "code": "F",
+      "tagline": "Fólkið fyrst",
+      "n": 46,
+      "with_image": 10,
+      "with_news": 0,
+      "agenda_count": 6,
+      "platform_url": "https://flokkurfolksins.is/reykjavik/aherslumal.html"
+    },
+    {
+      "muni_id": "reykjavik",
+      "const": "RVK",
+      "code": "C",
+      "tagline": "Góð þjónusta við Reykvíkinga er aðalverkefni borgarinnar.",
+      "n": 44,
+      "with_image": 19,
+      "with_news": 0,
+      "agenda_count": 11,
+      "platform_url": "https://vidreisnreykjavik.is/malefni"
+    },
+    {
+      "muni_id": "reykjavik",
+      "const": "RVK",
+      "code": "G",
+      "tagline": "Góðan daginn — nýtt andlit í Reykjavík",
+      "n": 23,
+      "with_image": 6,
+      "with_news": 0,
+      "agenda_count": 6,
+      "platform_url": "https://gdf.is/stefnumalin/"
+    },
+    {
+      "muni_id": "reykjavik",
+      "const": "RVK",
+      "code": "J",
+      "tagline": "Sameiginlegir innviðar þjóna almenningi — ekki sérhagsmunum.",
+      "n": 46,
+      "with_image": 5,
+      "with_news": 0,
+      "agenda_count": 6,
+      "platform_url": "https://sosialistaflokkurinn.is/stefna"
+    },
+    {
+      "muni_id": "reykjavik",
+      "const": "RVK",
+      "code": "R",
+      "tagline": "Okkar borg — Reykjavík í höndum þeirra sem búa hér",
+      "n": 23,
+      "with_image": 16,
+      "with_news": 0,
+      "agenda_count": 6,
+      "platform_url": "https://www.okkarborg.is/stefna"
+    },
+    {
+      "muni_id": "kopavogur",
+      "const": "KOP",
+      "code": "B",
+      "tagline": "Orri Vignir leiðir Framsókn í Kópavogi",
+      "n": 22,
+      "with_image": 5,
+      "with_news": 0,
+      "agenda_count": 5,
+      "platform_url": "https://www.framsokn.is/sveitarfelog/kopavogur/"
+    },
+    {
+      "muni_id": "kopavogur",
+      "const": "KOP",
+      "code": "C",
+      "tagline": "María Ellen leiðir Viðreisn í Kópavogi",
+      "n": 22,
+      "with_image": 6,
+      "with_news": 0,
+      "agenda_count": 6,
+      "platform_url": "https://vidreisn.is/kopavogur/"
+    },
+    {
+      "muni_id": "kopavogur",
+      "const": "KOP",
+      "code": "D",
+      "tagline": "Kópavogur í sókn!",
+      "n": 22,
+      "with_image": 21,
+      "with_news": 0,
+      "agenda_count": 7,
+      "platform_url": "https://xdkop.is/"
+    },
+    {
+      "muni_id": "kopavogur",
+      "const": "KOP",
+      "code": "J",
+      "tagline": "Markús Candi leiðir Sósíalista í Kópavogi",
+      "n": 19,
+      "with_image": 3,
+      "with_news": 0,
+      "agenda_count": 4,
+      "platform_url": "https://www.visir.is/g/20262859524d/sosialistar-skila-ekki-audu-i-husnaedismalum-kopavogs"
+    },
+    {
+      "muni_id": "kopavogur",
+      "const": "KOP",
+      "code": "M",
+      "tagline": "Einar Jóhannes leiðir Miðflokkinn í Kópavogi",
+      "n": 22,
+      "with_image": 5,
+      "with_news": 0,
+      "agenda_count": 6,
+      "platform_url": "https://www.midflokkurinn.is/sveitarstjorn/kopavogur/"
+    },
+    {
+      "muni_id": "kopavogur",
+      "const": "KOP",
+      "code": "S",
+      "tagline": "Jónas Már leiðir Samfylkinguna í Kópavogi",
+      "n": 22,
+      "with_image": 21,
+      "with_news": 0,
+      "agenda_count": 5,
+      "platform_url": "https://xs.is/kopavogur"
+    },
+    {
+      "muni_id": "kopavogur",
+      "const": "KOP",
+      "code": "V",
+      "tagline": "Anna Sigríður leiðir VG í Kópavogi",
+      "n": 22,
+      "with_image": 4,
+      "with_news": 0,
+      "agenda_count": 4,
+      "platform_url": "https://vg.is/greinar/vg-og-ohad-bjoda-fram-i-kopavogi/"
+    },
+    {
+      "muni_id": "hafnarfjordur",
+      "const": "HAF",
+      "code": "A",
+      "tagline": "Ester Bíbí leiðir Vinstrið í Hafnarfirði",
+      "n": 22,
+      "with_image": 5,
+      "with_news": 0,
+      "agenda_count": 6,
+      "platform_url": "https://www.fjardarfrettir.is/frettir/politik/ester-bibi-leidir-lista-vinstrisins-i-hafnarfirdi"
+    },
+    {
+      "muni_id": "hafnarfjordur",
+      "const": "HAF",
+      "code": "B",
+      "tagline": "Valdimar Víðisson leiðir Framsókn í Hafnarfirði",
+      "n": 22,
+      "with_image": 5,
+      "with_news": 0,
+      "agenda_count": 4,
+      "platform_url": "https://www.framsokn.is/hafnarfjordur/"
+    },
+    {
+      "muni_id": "hafnarfjordur",
+      "const": "HAF",
+      "code": "C",
+      "tagline": "Karólína Helga leiðir Viðreisn í Hafnarfirði",
+      "n": 22,
+      "with_image": 6,
+      "with_news": 0,
+      "agenda_count": 6,
+      "platform_url": "https://vidreisn.is/hafnarfjordur/stefnan/"
+    },
+    {
+      "muni_id": "hafnarfjordur",
+      "const": "HAF",
+      "code": "D",
+      "tagline": "Orri Björnsson leiðir Sjálfstæðisflokkinn í Hafnarfirði",
+      "n": 22,
+      "with_image": 21,
+      "with_news": 0,
+      "agenda_count": 6,
+      "platform_url": "https://xdhafnarfjordur.is/aherslur/"
+    },
+    {
+      "muni_id": "hafnarfjordur",
+      "const": "HAF",
+      "code": "M",
+      "tagline": "Einar Geir leiðir Miðflokkinn í Hafnarfirði",
+      "n": 22,
+      "with_image": 4,
+      "with_news": 0,
+      "agenda_count": 3,
+      "platform_url": "https://www.midflokkurinn.is/hafnarfjordur/"
+    },
+    {
+      "muni_id": "hafnarfjordur",
+      "const": "HAF",
+      "code": "S",
+      "tagline": "Guðmundur Árni leiðir Samfylkinguna í Hafnarfirði",
+      "n": 22,
+      "with_image": 19,
+      "with_news": 0,
+      "agenda_count": 4,
+      "platform_url": "https://xs.is/hafnarfjordur"
+    },
+    {
+      "muni_id": "gardabaer",
+      "const": "GAR",
+      "code": "D",
+      "tagline": "Garðabær í blóma — fyrirheit til framtíðar",
+      "n": 22,
+      "with_image": 22,
+      "with_news": 0,
+      "agenda_count": 8,
+      "platform_url": "https://gardar.is/stefnuskra-sjalfstaedisflokksins-i-gardabae-2026/"
+    },
+    {
+      "muni_id": "gardabaer",
+      "const": "GAR",
+      "code": "B",
+      "tagline": "Framsókn Garðabæ — lýðheilsa, ábyrgur rekstur og fjölskylduv",
+      "n": 22,
+      "with_image": 4,
+      "with_news": 0,
+      "agenda_count": 4,
+      "platform_url": "https://www.facebook.com/framsokngardabaer"
+    },
+    {
+      "muni_id": "gardabaer",
+      "const": "GAR",
+      "code": "C",
+      "tagline": "Guðlaugur leiðir Viðreisn í Garðabæ",
+      "n": 22,
+      "with_image": 5,
+      "with_news": 0,
+      "agenda_count": 6,
+      "platform_url": "https://vidreisn.is/sveitarstjorn/gardabaer/"
+    },
+    {
+      "muni_id": "gardabaer",
+      "const": "GAR",
+      "code": "GB",
+      "tagline": "Garðabæjarlistinn — málefnin fyrir 2026",
+      "n": 22,
+      "with_image": 3,
+      "with_news": 0,
+      "agenda_count": 8,
+      "platform_url": "https://gardabaejarlistinn.is/malefnin/"
+    },
+    {
+      "muni_id": "gardabaer",
+      "const": "GAR",
+      "code": "M",
+      "tagline": "Lárus Þór leiðir Miðflokkinn í Garðabæ",
+      "n": 22,
+      "with_image": 5,
+      "with_news": 0,
+      "agenda_count": 5,
+      "platform_url": "https://www.midflokkurinn.is/sveitarstjorn/gardabaer/"
+    },
+    {
+      "muni_id": "gardabaer",
+      "const": "GAR",
+      "code": "S",
+      "tagline": "Kjartan Atli leiðir Samfylkinguna í Garðabæ — stefnuskrá 202",
+      "n": 22,
+      "with_image": 20,
+      "with_news": 0,
+      "agenda_count": 7,
+      "platform_url": "https://xs.is/ny-forysta-i-gardabae"
+    },
+    {
+      "muni_id": "mosfellsbaer",
+      "const": "MOS",
+      "code": "D",
+      "tagline": "50 fyrirheit fyrir heimabæinn",
+      "n": 22,
+      "with_image": 21,
+      "with_news": 0,
+      "agenda_count": 7,
+      "platform_url": "https://www.50fyrirheit.is/"
+    },
+    {
+      "muni_id": "mosfellsbaer",
+      "const": "MOS",
+      "code": "B",
+      "tagline": "Heilbrigt og fjölskylduvænt samfélag — Sævar leiðir B-listan",
+      "n": 22,
+      "with_image": 5,
+      "with_news": 0,
+      "agenda_count": 3,
+      "platform_url": "https://framsoknmos.is/malefnin/"
+    },
+    {
+      "muni_id": "mosfellsbaer",
+      "const": "MOS",
+      "code": "C",
+      "tagline": "Gylfi Þór leiðir Viðreisn í Mosfellsbæ",
+      "n": 22,
+      "with_image": 6,
+      "with_news": 0,
+      "agenda_count": 6,
+      "platform_url": "https://vidreisn.is/sveitarstjorn/mosfellsbaer/"
+    },
+    {
+      "muni_id": "mosfellsbaer",
+      "const": "MOS",
+      "code": "M",
+      "tagline": "Sveinn Óskar oddviti Miðflokksins í Mosfellsbæ — Fyrir lifan",
+      "n": 22,
+      "with_image": 5,
+      "with_news": 0,
+      "agenda_count": 6,
+      "platform_url": "https://www.midflokkurinn.is/sveitarstjorn/mosfellsbaer/"
+    },
+    {
+      "muni_id": "mosfellsbaer",
+      "const": "MOS",
+      "code": "S",
+      "tagline": "Ólafur Ingi leiðir Samfylkinguna í Mosfellsbæ",
+      "n": 22,
+      "with_image": 4,
+      "with_news": 0,
+      "agenda_count": 7,
+      "platform_url": "https://xs.is/mosfellsbaer/"
+    },
+    {
+      "muni_id": "mosfellsbaer",
+      "const": "MOS",
+      "code": "L",
+      "tagline": "Árni Jónsson leiðir Vini Mosfellsbæjar — skipulag á forsendu",
+      "n": 22,
+      "with_image": 21,
+      "with_news": 0,
+      "agenda_count": 6,
+      "platform_url": "https://www.vinirmos.is/"
+    },
+    {
+      "muni_id": "akureyri",
+      "const": "AKU",
+      "code": "D",
+      "tagline": "Berglind í broddi flokks — gæði lífs sem grunnur framfara",
+      "n": 22,
+      "with_image": 22,
+      "with_news": 0,
+      "agenda_count": 3,
+      "platform_url": "https://www.islendingur.is/kosningaaherslur2026"
+    },
+    {
+      "muni_id": "akureyri",
+      "const": "AKU",
+      "code": "B",
+      "tagline": "Sunna Hlín leiðir lista Framsóknar á Akureyri",
+      "n": 22,
+      "with_image": 5,
+      "with_news": 0,
+      "agenda_count": 5,
+      "platform_url": "https://www.framsokn.is/sveitarfelog/akureyri/"
+    },
+    {
+      "muni_id": "akureyri",
+      "const": "AKU",
+      "code": "C",
+      "tagline": "Fyrsta framboð Viðreisnar á Akureyri — gagnsæi, fagmennska o",
+      "n": 22,
+      "with_image": 6,
+      "with_news": 0,
+      "agenda_count": 4,
+      "platform_url": "https://vidreisn.is/akureyri/stefnan"
+    },
+    {
+      "muni_id": "akureyri",
+      "const": "AKU",
+      "code": "L",
+      "tagline": "Tala skýrt, vinna hratt og skila sýnilegum árangri",
+      "n": 22,
+      "with_image": 3,
+      "with_news": 0,
+      "agenda_count": 6,
+      "platform_url": "https://www.l-listinn.is/is/stefnumal"
+    },
+    {
+      "muni_id": "akureyri",
+      "const": "AKU",
+      "code": "M",
+      "tagline": "Miðflokkurinn á Akureyri — ábyrgur rekstur og fjölskyldubæri",
+      "n": 22,
+      "with_image": 12,
+      "with_news": 0,
+      "agenda_count": 6,
+      "platform_url": "https://midflokkurinn.is/akureyri"
+    },
+    {
+      "muni_id": "akureyri",
+      "const": "AKU",
+      "code": "S",
+      "tagline": "Sindri nýr oddviti — uppstilling með fjölbreytileika og reyn",
+      "n": 22,
+      "with_image": 22,
+      "with_news": 0,
+      "agenda_count": 3,
+      "platform_url": "https://xs.is/akureyri"
+    },
+    {
+      "muni_id": "akureyri",
+      "const": "AKU",
+      "code": "V",
+      "tagline": "Vinstri græn á Akureyri — fyrir fólk og náttúru",
+      "n": 22,
+      "with_image": 5,
+      "with_news": 0,
+      "agenda_count": 9,
+      "platform_url": "https://www.facebook.com/vgakureyri/posts/pfbid0r6ykKffLNG6r36rVMq8frdaSPacnqxvN1HaJC5tLCSwu4g8sh997m1nztbMp1PMol"
+    },
+    {
+      "muni_id": "akureyri",
+      "const": "AKU",
+      "code": "AL",
+      "tagline": "Allt að gerast — tala skýrt, vinna hratt, skila árangri",
+      "n": 20,
+      "with_image": 3,
+      "with_news": 0,
+      "agenda_count": 3,
+      "platform_url": "https://www.akureyrarlistinn.is/stefna"
+    },
+    {
+      "muni_id": "seltjarnarnes",
+      "const": "SEL",
+      "code": "D",
+      "tagline": "Þór Sigurgeirsson bæjarstjóri leiðir D-listann á Seltjarnarn",
+      "n": 14,
+      "with_image": 12,
+      "with_news": 1,
+      "agenda_count": 4,
+      "platform_url": "https://xd.is/sveitastjornir/seltjarnarnes/"
+    },
+    {
+      "muni_id": "seltjarnarnes",
+      "const": "SEL",
+      "code": "M",
+      "tagline": "Miðflokkurinn og óháðir á Seltjarnarnesi",
+      "n": 14,
+      "with_image": 2,
+      "with_news": 0,
+      "agenda_count": 8,
+      "platform_url": "https://xmseltjarnarnes.is/stefnuskra/"
+    },
+    {
+      "muni_id": "seltjarnarnes",
+      "const": "SEL",
+      "code": "SCS",
+      "tagline": "Kristinn Ólafsson leiðir Samfylkingu, Viðreisn og óháða á Se",
+      "n": 14,
+      "with_image": 0,
+      "with_news": 1,
+      "agenda_count": 3,
+      "platform_url": "https://xseltjarnarnes.is/stefnan/"
+    },
+    {
+      "muni_id": "reykjanesbaer",
+      "const": "RNB",
+      "code": "B",
+      "tagline": "Halldóra Fríða leiðir Framsókn í Reykjanesbæ",
+      "n": 22,
+      "with_image": 5,
+      "with_news": 0,
+      "agenda_count": 5,
+      "platform_url": "https://www.framsokn.is/sveitarfelog/reykjanesbaer/"
+    },
+    {
+      "muni_id": "reykjanesbaer",
+      "const": "RNB",
+      "code": "C",
+      "tagline": "Arnar Páll leiðir Viðreisn í Reykjanesbæ",
+      "n": 22,
+      "with_image": 6,
+      "with_news": 0,
+      "agenda_count": 6,
+      "platform_url": "https://vidreisn.is/reykjanesbaer/"
+    },
+    {
+      "muni_id": "reykjanesbaer",
+      "const": "RNB",
+      "code": "D",
+      "tagline": "Vilhjálmur Árnason leiðir Sjálfstæðisflokkinn í Reykjanesbæ",
+      "n": 22,
+      "with_image": 22,
+      "with_news": 0,
+      "agenda_count": 4,
+      "platform_url": "https://xdrnb.is/"
+    },
+    {
+      "muni_id": "reykjanesbaer",
+      "const": "RNB",
+      "code": "M",
+      "tagline": "Gunnlaugur Kárason leiðir Miðflokkinn í Reykjanesbæ",
+      "n": 22,
+      "with_image": 5,
+      "with_news": 0,
+      "agenda_count": 6,
+      "platform_url": "https://midflokkurinn.is/taekifaerid-er-nuna-oflugri-reykjanesbaer-med-midflokknum"
+    },
+    {
+      "muni_id": "reykjanesbaer",
+      "const": "RNB",
+      "code": "S",
+      "tagline": "Guðný Birna leiðir Samfylkinguna í Reykjanesbæ",
+      "n": 22,
+      "with_image": 21,
+      "with_news": 0,
+      "agenda_count": 3,
+      "platform_url": "https://xs.is/reykjanesbaer"
+    },
+    {
+      "muni_id": "vogar",
+      "const": "VOG",
+      "code": "FYRS",
+      "tagline": "Gunnar J. Helgason leiðir listann Fyrir samfélagið í Vogum",
+      "n": 14,
+      "with_image": 0,
+      "with_news": 0,
+      "agenda_count": 0,
+      "platform_url": null
+    },
+    {
+      "muni_id": "vogar",
+      "const": "VOG",
+      "code": "D",
+      "tagline": "Björg Ásta Þórðardóttir leiðir D-listann í Vogum — stefna by",
+      "n": 14,
+      "with_image": 9,
+      "with_news": 0,
+      "agenda_count": 5,
+      "platform_url": "https://www.vf.is/adsent/okkar-leid-i-vogum---byggir-a-samtali"
+    },
+    {
+      "muni_id": "vogar",
+      "const": "VOG",
+      "code": "VOE",
+      "tagline": "Birgir Örn Ólafsson leiðir E-listann í Vogum — samvinna, lau",
+      "n": 14,
+      "with_image": 1,
+      "with_news": 0,
+      "agenda_count": 4,
+      "platform_url": "https://www.vf.is/adsent/poli-tik"
+    },
+    {
+      "muni_id": "vogar",
+      "const": "VOG",
+      "code": "VOL",
+      "tagline": "Kristinn Björgvinsson leiðir L-listann í Vogum — innviðir, a",
+      "n": 14,
+      "with_image": 1,
+      "with_news": 0,
+      "agenda_count": 5,
+      "platform_url": "https://www.vf.is/adsent/sveitarstjornarkosningar-2026"
+    },
+    {
+      "muni_id": "grindavik",
+      "const": "GRN",
+      "code": "B",
+      "tagline": "Ásrún Helga Kristinsdóttir leiðir Framsókn í Grindavík",
+      "n": 14,
+      "with_image": 4,
+      "with_news": 0,
+      "agenda_count": 0,
+      "platform_url": null
+    },
+    {
+      "muni_id": "grindavik",
+      "const": "GRN",
+      "code": "D",
+      "tagline": "Guðbjörg Eyjólfsdóttir leiðir Sjálfstæðisflokkinn í Grindaví",
+      "n": 14,
+      "with_image": 13,
+      "with_news": 0,
+      "agenda_count": 0,
+      "platform_url": null
+    },
+    {
+      "muni_id": "grindavik",
+      "const": "GRN",
+      "code": "M",
+      "tagline": "Magnús Már Jakobsson leiðir Miðflokkinn í Grindavík",
+      "n": 11,
+      "with_image": 0,
+      "with_news": 0,
+      "agenda_count": 0,
+      "platform_url": null
+    },
+    {
+      "muni_id": "sudurnesjabaer",
+      "const": "SNB",
+      "code": "B",
+      "tagline": "Anton Kristinn Guðmundsson leiðir Framsókn og óháða í Suðurn",
+      "n": 18,
+      "with_image": 6,
+      "with_news": 0,
+      "agenda_count": 5,
+      "platform_url": "https://www.framsokn.is/blog/verdmaetaskopun-tryggir-lifsgaedin"
+    },
+    {
+      "muni_id": "sudurnesjabaer",
+      "const": "SNB",
+      "code": "D",
+      "tagline": "Haukur Andreasson leiðir D-listann í Suðurnesjabæ — samstaða",
+      "n": 18,
+      "with_image": 18,
+      "with_news": 0,
+      "agenda_count": 5,
+      "platform_url": "https://www.vf.is/adsent/framtid-sudurnesjabaejar-byggist-a-samstodu-skyrri-syn-og-traustum-grunni"
+    },
+    {
+      "muni_id": "sudurnesjabaer",
+      "const": "SNB",
+      "code": "M",
+      "tagline": "Daði Bergþórsson leiðir Miðflokkinn í Suðurnesjabæ",
+      "n": 18,
+      "with_image": 7,
+      "with_news": 0,
+      "agenda_count": 5,
+      "platform_url": "https://midflokkurinn.is/klarum-sameininguna-laekkum-alogur"
+    },
+    {
+      "muni_id": "sudurnesjabaer",
+      "const": "SNB",
+      "code": "S",
+      "tagline": "Tökum ábyrgar og hugrakkar ákvarðanir",
+      "n": 18,
+      "with_image": 16,
+      "with_news": 0,
+      "agenda_count": 7,
+      "platform_url": "https://www.facebook.com/xsudurnes/"
+    },
+    {
+      "muni_id": "arborg",
+      "const": "ARB",
+      "code": "B",
+      "tagline": "Framsókn í Árborg — þjónusta og sjálfbær þróun í Suðurlandi",
+      "n": 22,
+      "with_image": 5,
+      "with_news": 0,
+      "agenda_count": 5,
+      "platform_url": "https://framsokn.is/blog/horfum-til-framtidar-i-arborg/"
+    },
+    {
+      "muni_id": "arborg",
+      "const": "ARB",
+      "code": "C",
+      "tagline": "Viðreisn í Árborg — nýsköpun og fagleg stjórnun",
+      "n": 22,
+      "with_image": 7,
+      "with_news": 0,
+      "agenda_count": 5,
+      "platform_url": "https://vidreisn.is/sveitarstjorn/arborg/"
+    },
+    {
+      "muni_id": "arborg",
+      "const": "ARB",
+      "code": "D",
+      "tagline": "Bragi Bjarnason leiðir Sjálfstæðisflokkinn í Árborg",
+      "n": 22,
+      "with_image": 21,
+      "with_news": 0,
+      "agenda_count": 6,
+      "platform_url": "https://www.bragibjarna.is/"
+    },
+    {
+      "muni_id": "arborg",
+      "const": "ARB",
+      "code": "S",
+      "tagline": "Samfylkingin og óháðir í Árborg — Árborg alla ævi",
+      "n": 22,
+      "with_image": 7,
+      "with_news": 0,
+      "agenda_count": 6,
+      "platform_url": "https://xs.is/arborg-alla-aevi"
+    },
+    {
+      "muni_id": "vestmannaeyjar",
+      "const": "VME",
+      "code": "D",
+      "tagline": "Eyþór Harðarson leiðir Sjálfstæðisflokkinn í Vestmannaeyjum",
+      "n": 18,
+      "with_image": 16,
+      "with_news": 0,
+      "agenda_count": 5,
+      "platform_url": "https://eyjafrettir.is/vatnslognin-er-staersta-hagsmunamal-ibua-i-eyjum/"
+    },
+    {
+      "muni_id": "vestmannaeyjar",
+      "const": "VME",
+      "code": "E",
+      "tagline": "Eyjalistinn — hlustum á eyjabúana",
+      "n": 18,
+      "with_image": 5,
+      "with_news": 1,
+      "agenda_count": 6,
+      "platform_url": "https://eyjafrettir.is/spurt-og-svarad-arndis-maria-fra-eyjalistanum/"
+    },
+    {
+      "muni_id": "vestmannaeyjar",
+      "const": "VME",
+      "code": "M",
+      "tagline": "Miðflokkurinn í Vestmannaeyjum — gildi og þjónusta",
+      "n": 18,
+      "with_image": 13,
+      "with_news": 0,
+      "agenda_count": 5,
+      "platform_url": "https://eyjafrettir.is/spurt-og-svarad-jon-thor-fra-midflokknum/"
+    },
+    {
+      "muni_id": "nordurping",
+      "const": "NPG",
+      "code": "B",
+      "tagline": "Framsókn í Norðurþingi — sterk samfélög byggjast á sterkum f",
+      "n": 18,
+      "with_image": 1,
+      "with_news": 0,
+      "agenda_count": 5,
+      "platform_url": "https://www.husavik.com/2026/04/lausnir-sem-skipta-fjolskyldur-mali/"
+    },
+    {
+      "muni_id": "nordurping",
+      "const": "NPG",
+      "code": "D",
+      "tagline": "Sjálfstæðisflokkurinn í Norðurþingi — Nýsköpunarbærinn Húsav",
+      "n": 18,
+      "with_image": 6,
+      "with_news": 1,
+      "agenda_count": 5,
+      "platform_url": "https://www.husavik.com/2026/04/a-husavik-kvikna-hugmyndir/"
+    },
+    {
+      "muni_id": "nordurping",
+      "const": "NPG",
+      "code": "NPM",
+      "tagline": "M-Listi Samfélagsins — heiðarleg stjórnsýsla og atvinnuuppby",
+      "n": 18,
+      "with_image": 17,
+      "with_news": 0,
+      "agenda_count": 4,
+      "platform_url": "https://kaffid.is/m-lista-samfelagsins-i-nordurthingi-samthykktur/"
+    },
+    {
+      "muni_id": "nordurping",
+      "const": "NPG",
+      "code": "NBO",
+      "tagline": "Óskalistinn — sátt, samtal og samvinna í Norðurþingi",
+      "n": 18,
+      "with_image": 1,
+      "with_news": 1,
+      "agenda_count": 4,
+      "platform_url": "https://www.husavik.com/2026/04/20-ara-afmaeli/"
+    },
+    {
+      "muni_id": "nordurping",
+      "const": "NPG",
+      "code": "S",
+      "tagline": "Í forystu fyrir fólk og fjölskyldur",
+      "n": 18,
+      "with_image": 0,
+      "with_news": 0,
+      "agenda_count": 4,
+      "platform_url": "https://xs.is/i-forystu-fyrir-folk-og-fjolskyldur"
+    },
+    {
+      "muni_id": "nordurping",
+      "const": "NPG",
+      "code": "NPV",
+      "tagline": "V-listi Velferðar — grunnþjónusta barna í forgang í Norðurþi",
+      "n": 18,
+      "with_image": 1,
+      "with_news": 1,
+      "agenda_count": 4,
+      "platform_url": "https://www.husavik.com/2026/04/grunnthjonusta-barna-ma-ekki-vikja-sundlaugin-i-lundi-verdi-i-forgangi/"
+    },
+    {
+      "muni_id": "fjallabyggd",
+      "const": "FJB",
+      "code": "D",
+      "tagline": "Tómas Atli leiðir Sjálfstæðisflokkinn í Fjallabyggð",
+      "n": 14,
+      "with_image": 13,
+      "with_news": 0,
+      "agenda_count": 0,
+      "platform_url": null
+    },
+    {
+      "muni_id": "fjallabyggd",
+      "const": "FJB",
+      "code": "H",
+      "tagline": "H-listinn Fyrir Heildina — Helgi Jóhannsson leiðir",
+      "n": 14,
+      "with_image": 1,
+      "with_news": 1,
+      "agenda_count": 0,
+      "platform_url": null
+    },
+    {
+      "muni_id": "fjallabyggd",
+      "const": "FJB",
+      "code": "S",
+      "tagline": "Jóhann K. leiðir Samfylkinguna í Fjallabyggð",
+      "n": 14,
+      "with_image": 13,
+      "with_news": 1,
+      "agenda_count": 0,
+      "platform_url": null
+    },
+    {
+      "muni_id": "fjardabyggd",
+      "const": "FJD",
+      "code": "B",
+      "tagline": "Þetta snýst um málefnin — Framsókn í Fjarðabyggð",
+      "n": 18,
+      "with_image": 5,
+      "with_news": 0,
+      "agenda_count": 10,
+      "platform_url": "https://www.facebook.com/fjardaxb"
+    },
+    {
+      "muni_id": "fjardabyggd",
+      "const": "FJD",
+      "code": "D",
+      "tagline": "Sjálfstæðisflokkurinn í Fjarðabyggð — verðmætasköpunin er hj",
+      "n": 17,
+      "with_image": 17,
+      "with_news": 0,
+      "agenda_count": 5,
+      "platform_url": "https://xd.is/2026/03/09/verdmaetaskopunin-er-i-fjardabyggd/"
+    },
+    {
+      "muni_id": "fjardabyggd",
+      "const": "FJD",
+      "code": "M",
+      "tagline": "Löðum fólk og fyrirtæki til Fjarðabyggðar",
+      "n": 18,
+      "with_image": 0,
+      "with_news": 0,
+      "agenda_count": 6,
+      "platform_url": "https://austurfrett.is/umraedan/loedhum-folk-og-fyrirtaeki-til-fjardhabyggdhar"
+    },
+    {
+      "muni_id": "fjardabyggd",
+      "const": "FJD",
+      "code": "S",
+      "tagline": "Samfylking og annað félagshyggjufólk — jöfnuður, ábyrgð og u",
+      "n": 18,
+      "with_image": 15,
+      "with_news": 0,
+      "agenda_count": 4,
+      "platform_url": "https://www.fjardalistinn.is/stefnuskra/"
+    },
+    {
+      "muni_id": "hornafjordur",
+      "const": "HFJ",
+      "code": "B",
+      "tagline": "Framsókn og stuðningsmenn — Stefnumál 2026-2030",
+      "n": 14,
+      "with_image": 5,
+      "with_news": 5,
+      "agenda_count": 6,
+      "platform_url": "https://leidarhofdi.is/stefnumal-2026-2030/"
+    },
+    {
+      "muni_id": "hornafjordur",
+      "const": "HFJ",
+      "code": "D",
+      "tagline": "Sjálfstæðisflokkurinn á Hornafirði",
+      "n": 14,
+      "with_image": 14,
+      "with_news": 5,
+      "agenda_count": 6,
+      "platform_url": "https://xdhornafjordur.is/sterkur-hopur-og-skyr-framtidarsyn/"
+    },
+    {
+      "muni_id": "hornafjordur",
+      "const": "HFJ",
+      "code": "HFJK",
+      "tagline": "Kex Framboð – íbúamiðað framboð á Hornafirði",
+      "n": 14,
+      "with_image": 11,
+      "with_news": 5,
+      "agenda_count": 5,
+      "platform_url": "https://www.xkex.is/stefnuskra"
+    },
+    {
+      "muni_id": "hornafjordur",
+      "const": "HFJ",
+      "code": "M",
+      "tagline": "xM Hornafjörður — stefnumál 2026–2030",
+      "n": 14,
+      "with_image": 14,
+      "with_news": 5,
+      "agenda_count": 9,
+      "platform_url": "http://xmhornafjordur.is/"
+    },
+    {
+      "muni_id": "akranes",
+      "const": "AKR",
+      "code": "B",
+      "tagline": "Þetta snýst um Akranes",
+      "n": 18,
+      "with_image": 6,
+      "with_news": 0,
+      "agenda_count": 6,
+      "platform_url": "https://www.framsokn.is/blog/stefnuskra-framsoknar-og-frjalsra-a-akranesi"
+    },
+    {
+      "muni_id": "akranes",
+      "const": "AKR",
+      "code": "C",
+      "tagline": "Viðreisn á Akranesi — fersk rödd og börnin í forgang",
+      "n": 17,
+      "with_image": 2,
+      "with_news": 0,
+      "agenda_count": 6,
+      "platform_url": "https://xcakranes.is/stefna/"
+    },
+    {
+      "muni_id": "akranes",
+      "const": "AKR",
+      "code": "D",
+      "tagline": "Skemmtilegra Akranes — væri það ekki næs?",
+      "n": 18,
+      "with_image": 17,
+      "with_news": 0,
+      "agenda_count": 9,
+      "platform_url": "https://xd-akranes.netlify.app/"
+    },
+    {
+      "muni_id": "akranes",
+      "const": "AKR",
+      "code": "M",
+      "tagline": "Málefnaskrá Miðflokksins á Akranesi",
+      "n": 18,
+      "with_image": 1,
+      "with_news": 0,
+      "agenda_count": 7,
+      "platform_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0m5iVpPRWFJPqC5msPDKB7ULzqi62K3RgxrmbFLtShjymxmK8MkRhijYCGdYADgefl&id=61583869156249"
+    },
+    {
+      "muni_id": "akranes",
+      "const": "AKR",
+      "code": "S",
+      "tagline": "Samfylkingin á Akranesi",
+      "n": 18,
+      "with_image": 17,
+      "with_news": 0,
+      "agenda_count": 6,
+      "platform_url": "https://xs.is/fjolskyldan-numer-eitt"
+    },
+    {
+      "muni_id": "borgarbyggd",
+      "const": "BBD",
+      "code": "B",
+      "tagline": "Stefnuskrá Framsóknar í sameinuðu sveitarfélagi Borgarbyggða",
+      "n": 18,
+      "with_image": 6,
+      "with_news": 4,
+      "agenda_count": 9,
+      "platform_url": "https://framerusercontent.com/assets/F291CUAAQ8UCVRLO8lwGnEWseo.pdf"
+    },
+    {
+      "muni_id": "borgarbyggd",
+      "const": "BBD",
+      "code": "D",
+      "tagline": "Sjálfstæðisflokkurinn í Borgarbyggð — málefnaskrá fyrir 2026",
+      "n": 18,
+      "with_image": 17,
+      "with_news": 4,
+      "agenda_count": 4,
+      "platform_url": "https://www.facebook.com/xdborgarbyggd"
+    },
+    {
+      "muni_id": "borgarbyggd",
+      "const": "BBD",
+      "code": "M",
+      "tagline": "Málefnaskrá Miðflokksins í Borgarbyggð — Tækifærið er núna!",
+      "n": 18,
+      "with_image": 17,
+      "with_news": 4,
+      "agenda_count": 9,
+      "platform_url": "https://www.facebook.com/reel/1691397398969653/"
+    },
+    {
+      "muni_id": "borgarbyggd",
+      "const": "BBD",
+      "code": "A",
+      "tagline": "Borgarbyggðarlistinn — félagshyggjuframboð fyrir samfélag og",
+      "n": 18,
+      "with_image": 5,
+      "with_news": 0,
+      "agenda_count": 10,
+      "platform_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0x9DWQrjfVH1ZJoB959dpZ1HHZRdfKrvZwcPADAg7HBrrcfXXju5QaFavzfcB6zacl&id=61573246230759"
+    },
+    {
+      "muni_id": "isafjordur",
+      "const": "ISF",
+      "code": "B",
+      "tagline": "Framsóknarflokkur og óháðir í Ísafjarðarbæ",
+      "n": 18,
+      "with_image": 3,
+      "with_news": 0,
+      "agenda_count": 0,
+      "platform_url": null
+    },
+    {
+      "muni_id": "isafjordur",
+      "const": "ISF",
+      "code": "C",
+      "tagline": "Viðreisn í Ísafjarðarbæ — skólar, skipulag og uppbygging fyr",
+      "n": 18,
+      "with_image": 6,
+      "with_news": 0,
+      "agenda_count": 6,
+      "platform_url": "https://vidreisn.is/isafjardarbaer/stefnan/"
+    },
+    {
+      "muni_id": "isafjordur",
+      "const": "ISF",
+      "code": "D",
+      "tagline": "Fyrir fólkið, fyrir fjölskylduna, fyrir framtíðina",
+      "n": 18,
+      "with_image": 15,
+      "with_news": 0,
+      "agenda_count": 7,
+      "platform_url": "https://xd.is/wp-content/uploads/2026/05/xd-stefnuskra-isafjardarbaer.pdf"
+    },
+    {
+      "muni_id": "isafjordur",
+      "const": "ISF",
+      "code": "M",
+      "tagline": "Áherslur Miðflokksins í Ísafjarðarbæ — látum verkin tala",
+      "n": 10,
+      "with_image": 2,
+      "with_news": 0,
+      "agenda_count": 6,
+      "platform_url": "https://bb.is/2026/04/midflokkurinn-isafjardarbae-aherslur/"
+    },
+    {
+      "muni_id": "isafjordur",
+      "const": "ISF",
+      "code": "S",
+      "tagline": "Horft til framtíðar — kosningastefna Samfylkingarinnar í Ísa",
+      "n": 18,
+      "with_image": 14,
+      "with_news": 0,
+      "agenda_count": 10,
+      "platform_url": "https://www.facebook.com/xsisafjardarbaer"
+    },
+    {
+      "muni_id": "hveragerdi",
+      "const": "HVG",
+      "code": "OKH",
+      "tagline": "Okkar Hveragerði — fjölskylduvænt samfélag, raunverulegur al",
+      "n": 14,
+      "with_image": 13,
+      "with_news": 0,
+      "agenda_count": 6,
+      "platform_url": "https://okkarhveragerdi.is"
+    },
+    {
+      "muni_id": "hveragerdi",
+      "const": "HVG",
+      "code": "B",
+      "tagline": "Framsókn í Hveragerði — þjónustukjarni eldri borgara og fjöl",
+      "n": 14,
+      "with_image": 4,
+      "with_news": 0,
+      "agenda_count": 5,
+      "platform_url": "https://www.visir.is/g/20262830550d/thjonustukjarni-eldri-borgara-lykill-ad-gaedasamfelaginu-i-hveragerdi"
+    },
+    {
+      "muni_id": "hveragerdi",
+      "const": "HVG",
+      "code": "S",
+      "tagline": "Gerum góðan bæ betri — kosningastefna S-listans 2026–2030",
+      "n": 14,
+      "with_image": 13,
+      "with_news": 1,
+      "agenda_count": 6,
+      "platform_url": "https://xs.is/gerum-godan-bae-betri"
+    },
+    {
+      "muni_id": "hveragerdi",
+      "const": "HVG",
+      "code": "D",
+      "tagline": "Sjálfstæðisflokkurinn í Hveragerði — sérstaða Hveragerðis og",
+      "n": 14,
+      "with_image": 10,
+      "with_news": 0,
+      "agenda_count": 6,
+      "platform_url": "https://www.dfs.is/frettir/kosningar/ingimar-gudmundsson-verdur-baejarstjoraefni-d-listans-i-hveragerdi/"
+    },
+    {
+      "muni_id": "rangarthingeystra",
+      "const": "RTE",
+      "code": "B",
+      "tagline": "Framsókn í Rangárþingi eystra — landbúnaður og velferð",
+      "n": 14,
+      "with_image": 3,
+      "with_news": 1,
+      "agenda_count": 0,
+      "platform_url": null
+    },
+    {
+      "muni_id": "rangarthingeystra",
+      "const": "RTE",
+      "code": "D",
+      "tagline": "Sjálfstæðisflokkurinn í Rangárþingi eystra — þróun og stöðug",
+      "n": 14,
+      "with_image": 12,
+      "with_news": 0,
+      "agenda_count": 0,
+      "platform_url": null
+    },
+    {
+      "muni_id": "rangarthingeystra",
+      "const": "RTE",
+      "code": "NRE",
+      "tagline": "Nýi óháði listinn í Rangárþingi eystra — Stefna 2026-2030",
+      "n": 14,
+      "with_image": 1,
+      "with_news": 1,
+      "agenda_count": 3,
+      "platform_url": "https://www.facebook.com/nyi.ohadi.listinn/"
+    },
+    {
+      "muni_id": "rangarthingytra",
+      "const": "RTY",
+      "code": "RYA",
+      "tagline": "Á-listinn — hlutlæg, sjálfstæð hreyfingarleg stefna fyrir sj",
+      "n": 14,
+      "with_image": 12,
+      "with_news": 1,
+      "agenda_count": 5,
+      "platform_url": "https://alisti.is/stefnumal/"
+    },
+    {
+      "muni_id": "rangarthingytra",
+      "const": "RTY",
+      "code": "D",
+      "tagline": "Sjálfstæðisflokkurinn í Rangárþingi ytra — stöðugleiki og fr",
+      "n": 14,
+      "with_image": 14,
+      "with_news": 0,
+      "agenda_count": 0,
+      "platform_url": null
+    },
+    {
+      "muni_id": "olfus",
+      "const": "OLF",
+      "code": "D",
+      "tagline": "Sjálfstæðisflokkurinn í Ölfusi — þróun og gæði þjónustu",
+      "n": 14,
+      "with_image": 14,
+      "with_news": 0,
+      "agenda_count": 5,
+      "platform_url": "https://xd.is/2026/03/04/d-listi-sjalfstaedisfelagsins-i-olfusi-samthykktur-einroma/"
+    },
+    {
+      "muni_id": "olfus",
+      "const": "OLF",
+      "code": "S",
+      "tagline": "Samfylkingin í Ölfusi — jafnrétti og velferð",
+      "n": 14,
+      "with_image": 13,
+      "with_news": 1,
+      "agenda_count": 6,
+      "platform_url": "https://xs.is/olfus"
+    },
+    {
+      "muni_id": "skaftarhreppur",
+      "const": "SKR",
+      "code": "D",
+      "tagline": "Sjálfstæðismenn og óháðir í Skaftárhreppi — byggðaþróun og v",
+      "n": 10,
+      "with_image": 7,
+      "with_news": 0,
+      "agenda_count": 0,
+      "platform_url": null
+    },
+    {
+      "muni_id": "skaftarhreppur",
+      "const": "SKR",
+      "code": "SKO",
+      "tagline": "Öflugt samfélag — samvinna íbúa í Skaftárhreppi",
+      "n": 10,
+      "with_image": 0,
+      "with_news": 0,
+      "agenda_count": 0,
+      "platform_url": null
+    },
+    {
+      "muni_id": "myrdalshr",
+      "const": "MYR",
+      "code": "MYA",
+      "tagline": "Listi allra — sameiginleg framtíð í Mýrdal",
+      "n": 10,
+      "with_image": 0,
+      "with_news": 0,
+      "agenda_count": 0,
+      "platform_url": null
+    },
+    {
+      "muni_id": "myrdalshr",
+      "const": "MYR",
+      "code": "MYZ",
+      "tagline": "Listi Samfélagsins — öflugt Mýrdalshreppur",
+      "n": 10,
+      "with_image": 0,
+      "with_news": 0,
+      "agenda_count": 0,
+      "platform_url": null
+    },
+    {
+      "muni_id": "blaskogabyggd",
+      "const": "BSG",
+      "code": "BST",
+      "tagline": "T-listinn — framþróun í Bláskógabyggð",
+      "n": 14,
+      "with_image": 1,
+      "with_news": 0,
+      "agenda_count": 0,
+      "platform_url": null
+    },
+    {
+      "muni_id": "blaskogabyggd",
+      "const": "BSG",
+      "code": "BSP",
+      "tagline": "Framsýni — Þor, þekking, þjónusta",
+      "n": 14,
+      "with_image": 14,
+      "with_news": 0,
+      "agenda_count": 7,
+      "platform_url": "https://heyzine.com/flip-book/79e539d075.html"
+    },
+    {
+      "muni_id": "floahreppur",
+      "const": "FHR",
+      "code": "FLI",
+      "tagline": "Framfaralistinn í Flóahreppi — traustur grunnur og áframhald",
+      "n": 10,
+      "with_image": 1,
+      "with_news": 0,
+      "agenda_count": 5,
+      "platform_url": "https://www.dfs.is/frettir/kosningar/framfaralistinn-bydur-fram-i-annad-sinn/"
+    },
+    {
+      "muni_id": "floahreppur",
+      "const": "FHR",
+      "code": "FLT",
+      "tagline": "T-listinn Flóa — samvinna og framfarir",
+      "n": 10,
+      "with_image": 0,
+      "with_news": 0,
+      "agenda_count": 0,
+      "platform_url": null
+    },
+    {
+      "muni_id": "hrunamannahreppur",
+      "const": "HMR",
+      "code": "D",
+      "tagline": "Sjálfstæðismenn og óháðir í Hrunamannahreppi",
+      "n": 10,
+      "with_image": 9,
+      "with_news": 0,
+      "agenda_count": 0,
+      "platform_url": null
+    },
+    {
+      "muni_id": "hrunamannahreppur",
+      "const": "HMR",
+      "code": "HRL",
+      "tagline": "L-listinn — íbúar í forgrunni í Hrunamannahreppi",
+      "n": 10,
+      "with_image": 0,
+      "with_news": 0,
+      "agenda_count": 0,
+      "platform_url": null
+    },
+    {
+      "muni_id": "grimsnesgrafningur",
+      "const": "GGR",
+      "code": "GGA",
+      "tagline": "A-listinn í Grímsnes- og Grafningshreppi — innviðir til fram",
+      "n": 10,
+      "with_image": 1,
+      "with_news": 0,
+      "agenda_count": 5,
+      "platform_url": "https://www.sunnlenska.is/adsent/innvidir-til-framtidar/"
+    },
+    {
+      "muni_id": "grimsnesgrafningur",
+      "const": "GGR",
+      "code": "GGO",
+      "tagline": "Ö-listinn Betri sveit — fyrir okkur öll í Grímsnes- og Grafn",
+      "n": 10,
+      "with_image": 1,
+      "with_news": 0,
+      "agenda_count": 5,
+      "platform_url": "https://www.dfs.is/frettir/kosningar/mannaudur-og-taekifaeri-i-grimsnes-og-grafningshreppi/"
+    },
+    {
+      "muni_id": "skeidagnup",
+      "const": "SGN",
+      "code": "SGE",
+      "tagline": "Uppbyggingarlistinn — framtíð Skeiða- og Gnúpverjahrepps",
+      "n": 10,
+      "with_image": 0,
+      "with_news": 0,
+      "agenda_count": 0,
+      "platform_url": null
+    },
+    {
+      "muni_id": "skeidagnup",
+      "const": "SGN",
+      "code": "SGL",
+      "tagline": "Samvinnulistinn — samvinna og þróun",
+      "n": 10,
+      "with_image": 0,
+      "with_news": 0,
+      "agenda_count": 0,
+      "platform_url": null
+    },
+    {
+      "muni_id": "dalvikurbyggd",
+      "const": "DVB",
+      "code": "B",
+      "tagline": "Framsóknarflokkurinn í Dalvíkurbyggð",
+      "n": 14,
+      "with_image": 3,
+      "with_news": 1,
+      "agenda_count": 0,
+      "platform_url": null
+    },
+    {
+      "muni_id": "dalvikurbyggd",
+      "const": "DVB",
+      "code": "D",
+      "tagline": "Sjálfstæðisflokkurinn í Dalvíkurbyggð",
+      "n": 14,
+      "with_image": 13,
+      "with_news": 0,
+      "agenda_count": 0,
+      "platform_url": null
+    },
+    {
+      "muni_id": "dalvikurbyggd",
+      "const": "DVB",
+      "code": "A",
+      "tagline": "Byggðalistinn — A-listi Dalvíkurbyggðar",
+      "n": 13,
+      "with_image": 0,
+      "with_news": 0,
+      "agenda_count": 0,
+      "platform_url": null
+    },
+    {
+      "muni_id": "dalvikurbyggd",
+      "const": "DVB",
+      "code": "K",
+      "tagline": "K-listi — Dalvíkurbyggð",
+      "n": 14,
+      "with_image": 0,
+      "with_news": 0,
+      "agenda_count": 0,
+      "platform_url": null
+    },
+    {
+      "muni_id": "eyjafjardarsveit",
+      "const": "EJA",
+      "code": "EJF",
+      "tagline": "F-listinn — öflugt landbúnaðarsamfélag í Eyjafirði",
+      "n": 14,
+      "with_image": 1,
+      "with_news": 1,
+      "agenda_count": 0,
+      "platform_url": null
+    },
+    {
+      "muni_id": "eyjafjardarsveit",
+      "const": "EJA",
+      "code": "EJK",
+      "tagline": "K-listinn — öflug Eyjafjarðarsveit",
+      "n": 14,
+      "with_image": 0,
+      "with_news": 1,
+      "agenda_count": 0,
+      "platform_url": null
+    },
+    {
+      "muni_id": "horgarsv",
+      "const": "HGS",
+      "code": "D",
+      "tagline": "Sjálfstæðisflokkur og óháðir í Hörgársveit — Stefnuskrá 2026",
+      "n": 10,
+      "with_image": 10,
+      "with_news": 0,
+      "agenda_count": 9,
+      "platform_url": "https://online.fliphtml5.com/eqgxv/omlr/"
+    },
+    {
+      "muni_id": "horgarsv",
+      "const": "HGS",
+      "code": "HGG",
+      "tagline": "Gróska í Hörgársveit — gegnsæ stjórnsýsla og samfélag fyrir ",
+      "n": 10,
+      "with_image": 0,
+      "with_news": 0,
+      "agenda_count": 5,
+      "platform_url": "https://kaffid.is/groska-bydur-fram-i-horgarsveit/"
+    },
+    {
+      "muni_id": "horgarsv",
+      "const": "HGS",
+      "code": "HGH",
+      "tagline": "Saman byggjum við betri sveit — Stefnuskrá H-listans 2026-20",
+      "n": 10,
+      "with_image": 0,
+      "with_news": 0,
+      "agenda_count": 10,
+      "platform_url": "https://heyzine.com/flip-book/683a0de4e4.html"
+    },
+    {
+      "muni_id": "hunabyggd",
+      "const": "HNB",
+      "code": "HBA",
+      "tagline": "Öll saman — sameiginleg framtíð Húnabyggðar",
+      "n": 18,
+      "with_image": 1,
+      "with_news": 0,
+      "agenda_count": 0,
+      "platform_url": null
+    },
+    {
+      "muni_id": "hunabyggd",
+      "const": "HNB",
+      "code": "B",
+      "tagline": "Framsókn og framfarasinnar í Húnabyggð",
+      "n": 18,
+      "with_image": 6,
+      "with_news": 0,
+      "agenda_count": 0,
+      "platform_url": null
+    },
+    {
+      "muni_id": "hunabyggd",
+      "const": "HNB",
+      "code": "D",
+      "tagline": "Sjálfstæðismenn og óháðir í Húnabyggð",
+      "n": 18,
+      "with_image": 18,
+      "with_news": 0,
+      "agenda_count": 0,
+      "platform_url": null
+    },
+    {
+      "muni_id": "hunathing",
+      "const": "HNT",
+      "code": "B",
+      "tagline": "Framsókn og Framfarabandalag í Húnaþingi vestra",
+      "n": 14,
+      "with_image": 0,
+      "with_news": 1,
+      "agenda_count": 0,
+      "platform_url": null
+    },
+    {
+      "muni_id": "hunathing",
+      "const": "HNT",
+      "code": "D",
+      "tagline": "Sjálfstæðisflokkur og óháðir í Húnaþingi vestra",
+      "n": 14,
+      "with_image": 11,
+      "with_news": 1,
+      "agenda_count": 0,
+      "platform_url": null
+    },
+    {
+      "muni_id": "hunathing",
+      "const": "HNT",
+      "code": "NHV",
+      "tagline": "Ný öfl — nýjar hugmyndir í Húnaþingi vestra",
+      "n": 14,
+      "with_image": 1,
+      "with_news": 0,
+      "agenda_count": 0,
+      "platform_url": null
+    },
+    {
+      "muni_id": "skagafjordur",
+      "const": "SFJ",
+      "code": "B",
+      "tagline": "Framsóknarflokkurinn í Skagafirði — landbúnaður og velferð",
+      "n": 18,
+      "with_image": 3,
+      "with_news": 1,
+      "agenda_count": 6,
+      "platform_url": "https://www.feykir.is/is/frettir/oflugur-rekstur-skagafjardar-einar-e-einarsson-hrund-petursdottir-og-hrefna-johannesdottir-skrifa"
+    },
+    {
+      "muni_id": "skagafjordur",
+      "const": "SFJ",
+      "code": "D",
+      "tagline": "Gerum Skagafjörð skemmtilegri",
+      "n": 18,
+      "with_image": 18,
+      "with_news": 1,
+      "agenda_count": 8,
+      "platform_url": "https://www.skemmtilegri.is/"
+    },
+    {
+      "muni_id": "skagafjordur",
+      "const": "SFJ",
+      "code": "SFL",
+      "tagline": "Byggðalistinn — ný öfl í Skagafirði",
+      "n": 18,
+      "with_image": 2,
+      "with_news": 1,
+      "agenda_count": 6,
+      "platform_url": "https://www.feykir.is/is/adsendar-greinar/horfumst-i-augu-vid-stadreyndir-eythor-fannar-sveinsson-skrifar"
+    },
+    {
+      "muni_id": "skagafjordur",
+      "const": "SFJ",
+      "code": "M",
+      "tagline": "Miðflokkurinn í Skagafirði — landbúnaður og samfélag",
+      "n": 18,
+      "with_image": 17,
+      "with_news": 1,
+      "agenda_count": 6,
+      "platform_url": "https://midflokkurinn.is/sveitarstjorn/skagafjordur/"
+    },
+    {
+      "muni_id": "skagastrond",
+      "const": "SST",
+      "code": "B",
+      "tagline": "Framsókn og óháðir í Skagaströnd",
+      "n": 10,
+      "with_image": 0,
+      "with_news": 0,
+      "agenda_count": 0,
+      "platform_url": null
+    },
+    {
+      "muni_id": "skagastrond",
+      "const": "SST",
+      "code": "S",
+      "tagline": "Samfylking og óháðir í Skagaströnd",
+      "n": 10,
+      "with_image": 0,
+      "with_news": 0,
+      "agenda_count": 0,
+      "platform_url": null
+    },
+    {
+      "muni_id": "skagastrond",
+      "const": "SST",
+      "code": "K",
+      "tagline": "Fyrir Skagaströnd — K-listi",
+      "n": 10,
+      "with_image": 0,
+      "with_news": 0,
+      "agenda_count": 0,
+      "platform_url": null
+    },
+    {
+      "muni_id": "stykkisholmur",
+      "const": "STK",
+      "code": "FLS",
+      "tagline": "Framfaralisti Stykkishólms — byggjum upp bæinn saman",
+      "n": 14,
+      "with_image": 0,
+      "with_news": 0,
+      "agenda_count": 0,
+      "platform_url": null
+    },
+    {
+      "muni_id": "stykkisholmur",
+      "const": "STK",
+      "code": "IBU",
+      "tagline": "Íbúalistinn — rödd íbúanna",
+      "n": 14,
+      "with_image": 0,
+      "with_news": 0,
+      "agenda_count": 0,
+      "platform_url": null
+    },
+    {
+      "muni_id": "grundarfjordur",
+      "const": "GFJ",
+      "code": "GFB",
+      "tagline": "Framsókn og Samfylking — áfram Grundarfjörður",
+      "n": 14,
+      "with_image": 1,
+      "with_news": 0,
+      "agenda_count": 0,
+      "platform_url": null
+    },
+    {
+      "muni_id": "grundarfjordur",
+      "const": "GFJ",
+      "code": "GFD",
+      "tagline": "Sjálfstæðisflokkur og óháðir — traust og framþróun",
+      "n": 14,
+      "with_image": 13,
+      "with_news": 0,
+      "agenda_count": 0,
+      "platform_url": null
+    },
+    {
+      "muni_id": "bolungarvik",
+      "const": "BLV",
+      "code": "MMM",
+      "tagline": "Máttur meyja og manna — saman erum við sterk",
+      "n": 14,
+      "with_image": 1,
+      "with_news": 0,
+      "agenda_count": 0,
+      "platform_url": null
+    },
+    {
+      "muni_id": "bolungarvik",
+      "const": "BLV",
+      "code": "BBK",
+      "tagline": "Betri Bolungarvík — fjölskylduvænt, framsækið og sjálfbært s",
+      "n": 14,
+      "with_image": 0,
+      "with_news": 0,
+      "agenda_count": 6,
+      "platform_url": "https://betribolungarvik.is/?p=stefnuskra"
+    },
+    {
+      "muni_id": "sudavik",
+      "const": "SDV",
+      "code": "FJL",
+      "tagline": "Fjarðarlistinn — hlutum okkur af framtíð Súðavíkur",
+      "n": 10,
+      "with_image": 0,
+      "with_news": 0,
+      "agenda_count": 0,
+      "platform_url": null
+    },
+    {
+      "muni_id": "sudavik",
+      "const": "SDV",
+      "code": "FTL",
+      "tagline": "Framtíðarlistinn — í átt að betri framtíð",
+      "n": 10,
+      "with_image": 0,
+      "with_news": 0,
+      "agenda_count": 0,
+      "platform_url": null
+    },
+    {
+      "muni_id": "vesturbyggd",
+      "const": "VBG",
+      "code": "NYS",
+      "tagline": "Nýrra sýnar — framtíðarsýn fyrir Vesturbyggð",
+      "n": 14,
+      "with_image": 0,
+      "with_news": 0,
+      "agenda_count": 0,
+      "platform_url": null
+    },
+    {
+      "muni_id": "vesturbyggd",
+      "const": "VBG",
+      "code": "STV",
+      "tagline": "Komdu með í Sterkari Vesturbyggð!",
+      "n": 14,
+      "with_image": 1,
+      "with_news": 0,
+      "agenda_count": 10,
+      "platform_url": "https://heyzine.com/flip-book/783d8a035b.html"
+    },
+    {
+      "muni_id": "strandabyggd",
+      "const": "STD",
+      "code": "B",
+      "tagline": "Ábyrgð – Traust – Framtíð",
+      "n": 10,
+      "with_image": 10,
+      "with_news": 0,
+      "agenda_count": 12,
+      "platform_url": "https://www.facebook.com/profile.php?id=61585879199774"
+    },
+    {
+      "muni_id": "strandabyggd",
+      "const": "STD",
+      "code": "VGV",
+      "tagline": "Vegvísir — leiðum Strandabyggð í rétta átt",
+      "n": 10,
+      "with_image": 10,
+      "with_news": 0,
+      "agenda_count": 14,
+      "platform_url": "https://www.facebook.com/profile.php?id=61577654363537"
+    },
+    {
+      "muni_id": "strandabyggd",
+      "const": "STD",
+      "code": "SBD",
+      "tagline": "Strandabandalagið — sameinuð um framtíðina",
+      "n": 10,
+      "with_image": 1,
+      "with_news": 0,
+      "agenda_count": 0,
+      "platform_url": null
+    },
+    {
+      "muni_id": "reykholar",
+      "const": "RKH",
+      "code": "ROA",
+      "tagline": "Raddir okkar allra — við tökum höndum saman",
+      "n": 10,
+      "with_image": 0,
+      "with_news": 0,
+      "agenda_count": 0,
+      "platform_url": null
+    },
+    {
+      "muni_id": "reykholar",
+      "const": "RKH",
+      "code": "S",
+      "tagline": "Samfylkingin í Reykhólahreppi",
+      "n": 10,
+      "with_image": 0,
+      "with_news": 0,
+      "agenda_count": 0,
+      "platform_url": null
+    },
+    {
+      "muni_id": "mulathing",
+      "const": "MUT",
+      "code": "B",
+      "tagline": "Jónína leiðir Framsókn í Múlaþingi",
+      "n": 22,
+      "with_image": 7,
+      "with_news": 4,
+      "agenda_count": 5,
+      "platform_url": "https://austurfrett.is/umraedan/vidh-stoendum-voerdh-um-mulathing"
+    },
+    {
+      "muni_id": "mulathing",
+      "const": "MUT",
+      "code": "D",
+      "tagline": "Sjálfstæðisflokkurinn í Múlaþingi — Berglind Harpa: stöðugar",
+      "n": 22,
+      "with_image": 22,
+      "with_news": 4,
+      "agenda_count": 4,
+      "platform_url": "https://austurfrett.is/frettir/berglind-harpa-bydhur-sig-fram-til-adh-leidha-sjalfstaedhisflokkinn-afram"
+    },
+    {
+      "muni_id": "mulathing",
+      "const": "MUT",
+      "code": "M",
+      "tagline": "Múlaþing til framtíðar — samfélag fyrir allar kynslóðir",
+      "n": 22,
+      "with_image": 12,
+      "with_news": 4,
+      "agenda_count": 6,
+      "platform_url": "https://midflokkurinn.is/mulathing-til-framtidar-samfelag-fyrir-allar-kynslodir"
+    },
+    {
+      "muni_id": "mulathing",
+      "const": "MUT",
+      "code": "V",
+      "tagline": "VG og óháðir í Múlaþingi — grænt framboð",
+      "n": 22,
+      "with_image": 4,
+      "with_news": 4,
+      "agenda_count": 5,
+      "platform_url": "https://austurfrett.is/umraedan/natturan-manngildidh-og-fjoelbreytt-atvinnutaekifaeri"
+    },
+    {
+      "muni_id": "mulathing",
+      "const": "MUT",
+      "code": "L",
+      "tagline": "Austurlistinn og Viðreisn — framtíðarsýn fyrir Austurland",
+      "n": 22,
+      "with_image": 4,
+      "with_news": 4,
+      "agenda_count": 6,
+      "platform_url": "https://austurlistinn.is/index.php/stefnumal"
+    },
+    {
+      "muni_id": "thingeyjarsveit",
+      "const": "THV",
+      "code": "THVA",
+      "tagline": "A-listi í Þingeyjarsveit — áfram sveitin",
+      "n": 14,
+      "with_image": 1,
+      "with_news": 1,
+      "agenda_count": 0,
+      "platform_url": null
+    },
+    {
+      "muni_id": "thingeyjarsveit",
+      "const": "THV",
+      "code": "THVL",
+      "tagline": "L-listi í Þingeyjarsveit — lausnir fyrir íbúana",
+      "n": 14,
+      "with_image": 0,
+      "with_news": 1,
+      "agenda_count": 0,
+      "platform_url": null
+    },
+    {
+      "muni_id": "thingeyjarsveit",
+      "const": "THV",
+      "code": "THVN",
+      "tagline": "N-listi í Þingeyjarsveit — nýtt líf í sveitina",
+      "n": 14,
+      "with_image": 0,
+      "with_news": 1,
+      "agenda_count": 0,
+      "platform_url": null
+    },
+    {
+      "muni_id": "hvalfjardarsveit",
+      "const": "HVF",
+      "code": "HVA",
+      "tagline": "Samhent sveit — sjálfstætt og sterkt sveitarfélag með lága s",
+      "n": 14,
+      "with_image": 2,
+      "with_news": 0,
+      "agenda_count": 4,
+      "platform_url": "https://skessuhorn.is/adsendar-greinar/a-listi-samhent-sveit-i-hvalfjardarsveit"
+    },
+    {
+      "muni_id": "hvalfjardarsveit",
+      "const": "HVF",
+      "code": "HVB",
+      "tagline": "Íbúahreyfingin Hvalfjörður — rödd þeirra sem búa hér",
+      "n": 14,
+      "with_image": 0,
+      "with_news": 0,
+      "agenda_count": 0,
+      "platform_url": null
+    },
+    {
+      "muni_id": "snaefellsbaer",
+      "const": "SNF",
+      "code": "D",
+      "tagline": "D-listi Sjálfstæðisflokks — Snæfellsbær 2026",
+      "n": 14,
+      "with_image": 0,
+      "with_news": 0,
+      "agenda_count": 0,
+      "platform_url": null
+    },
+    {
+      "muni_id": "svalbardsstrond",
+      "const": "SVS",
+      "code": "SVSS",
+      "tagline": "S-listi í Svalbarðsstrandarhreppi — samstaða og framþróun",
+      "n": 10,
+      "with_image": 0,
+      "with_news": 0,
+      "agenda_count": 0,
+      "platform_url": null
+    },
+    {
+      "muni_id": "svalbardsstrond",
+      "const": "SVS",
+      "code": "SVSH",
+      "tagline": "Strönd til framtíðar — H-listi Svalbarðsstrandar",
+      "n": 10,
+      "with_image": 0,
+      "with_news": 0,
+      "agenda_count": 0,
+      "platform_url": null
+    },
+    {
+      "muni_id": "svalbardsstrond",
+      "const": "SVS",
+      "code": "SVSO",
+      "tagline": "Ströndungur — Ö-listi í Svalbarðsstrandarhreppi",
+      "n": 10,
+      "with_image": 0,
+      "with_news": 0,
+      "agenda_count": 0,
+      "platform_url": null
+    },
+    {
+      "muni_id": "kjosarhreppur",
+      "const": "KJO",
+      "code": "KJA",
+      "tagline": "Íbúar í Kjós — A-listi Kjósarhrepps 2026",
+      "n": 10,
+      "with_image": 0,
+      "with_news": 0,
+      "agenda_count": 0,
+      "platform_url": null
+    },
+    {
+      "muni_id": "vopnafjordur",
+      "const": "VPF",
+      "code": "VOP",
+      "tagline": "Vopnafjörður — eitt framboð, sameinaður hreppur",
+      "n": 14,
+      "with_image": 0,
+      "with_news": 0,
+      "agenda_count": 0,
+      "platform_url": null
+    },
+    {
+      "muni_id": "tjornes",
+      "const": "TJR",
+      "code": "TJN",
+      "tagline": "Tjörnes — Eitt framboð",
+      "n": 10,
+      "with_image": 0,
+      "with_news": 0,
+      "agenda_count": 0,
+      "platform_url": null
+    },
+    {
+      "muni_id": "arneshr",
+      "const": "ARN",
+      "code": "ARNA",
+      "tagline": "Á-listi — Framtíð Árneshrepps",
+      "n": 10,
+      "with_image": 0,
+      "with_news": 0,
+      "agenda_count": 0,
+      "platform_url": null
+    },
+    {
+      "muni_id": "arneshr",
+      "const": "ARN",
+      "code": "ARNS",
+      "tagline": "S-listi — Sólstöður í Árneshreppi",
+      "n": 10,
+      "with_image": 0,
+      "with_news": 0,
+      "agenda_count": 0,
+      "platform_url": null
+    }
+  ]
+}

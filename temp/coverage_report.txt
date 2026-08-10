@@ -1,0 +1,107 @@
+===========================================
+TOTAL: 3233 candidates across 182 party-lists in 54 municipalities
+===========================================
+
+PHOTOS:    1326/3233 ( 41.0%)  ·  no photo: 1907
+NEWS:        77/3233 (  2.4%)  ·  no news: 3156
+AGENDA:     122/182 ( 67.0%) of lists  ·  no agenda: 60
+
+=== PHOTO COVERAGE BY LIST (worst first, only those <100%) ===
+  Norðurþing                     S        0/18 (  0.0%) — Í forystu fyrir fólk og fjölskyldur
+  Fjarðabyggð                    M        0/18 (  0.0%) — Löðum fólk og fyrirtæki til Fjarðabyggðar
+  Seltjarnarnes                  SCS      0/14 (  0.0%) — Kristinn Ólafsson leiðir Samfylkingu, Viðreisn og 
+  Vogar                          FYRS     0/14 (  0.0%) — Gunnar J. Helgason leiðir listann Fyrir samfélagið
+  Dalvíkurbyggð                  K        0/14 (  0.0%) — K-listi — Dalvíkurbyggð
+  Eyjafjarðarsveit               EJK      0/14 (  0.0%) — K-listinn — öflug Eyjafjarðarsveit
+  Húnaþing vestra                B        0/14 (  0.0%) — Framsókn og Framfarabandalag í Húnaþingi vestra
+  Stykkishólmur                  FLS      0/14 (  0.0%) — Framfaralisti Stykkishólms — byggjum upp bæinn sam
+  Stykkishólmur                  IBU      0/14 (  0.0%) — Íbúalistinn — rödd íbúanna
+  Bolungarvík                    BBK      0/14 (  0.0%) — Betri Bolungarvík — fjölskylduvænt, framsækið og s
+  Vesturbyggð                    NYS      0/14 (  0.0%) — Nýrra sýnar — framtíðarsýn fyrir Vesturbyggð
+  Þingeyjarsveit                 THVL     0/14 (  0.0%) — L-listi í Þingeyjarsveit — lausnir fyrir íbúana
+  Þingeyjarsveit                 THVN     0/14 (  0.0%) — N-listi í Þingeyjarsveit — nýtt líf í sveitina
+  Hvalfjarðarsveit               HVB      0/14 (  0.0%) — Íbúahreyfingin Hvalfjörður — rödd þeirra sem búa h
+  Snæfellsbær                    D        0/14 (  0.0%) — D-listi Sjálfstæðisflokks — Snæfellsbær 2026
+  Vopnafjörður                   VOP      0/14 (  0.0%) — Vopnafjörður — eitt framboð, sameinaður hreppur
+  Dalvíkurbyggð                  A        0/13 (  0.0%) — Byggðalistinn — A-listi Dalvíkurbyggðar
+  Grindavík                      M        0/11 (  0.0%) — Magnús Már Jakobsson leiðir Miðflokkinn í Grindaví
+  Skaftárhreppur                 SKO      0/10 (  0.0%) — Öflugt samfélag — samvinna íbúa í Skaftárhreppi
+  Mýrdalshreppur                 MYA      0/10 (  0.0%) — Listi allra — sameiginleg framtíð í Mýrdal
+  Mýrdalshreppur                 MYZ      0/10 (  0.0%) — Listi Samfélagsins — öflugt Mýrdalshreppur
+  Flóahreppur                    FLT      0/10 (  0.0%) — T-listinn Flóa — samvinna og framfarir
+  Hrunamannahreppur              HRL      0/10 (  0.0%) — L-listinn — íbúar í forgrunni í Hrunamannahreppi
+  Skeiða- og Gnúpverjahr.        SGE      0/10 (  0.0%) — Uppbyggingarlistinn — framtíð Skeiða- og Gnúpverja
+  Skeiða- og Gnúpverjahr.        SGL      0/10 (  0.0%) — Samvinnulistinn — samvinna og þróun
+  Hörgársveit                    HGG      0/10 (  0.0%) — Gróska í Hörgársveit — gegnsæ stjórnsýsla og samfé
+  Hörgársveit                    HGH      0/10 (  0.0%) — Saman byggjum við betri sveit — Stefnuskrá H-lista
+  Skagaströnd                    B        0/10 (  0.0%) — Framsókn og óháðir í Skagaströnd
+  Skagaströnd                    S        0/10 (  0.0%) — Samfylking og óháðir í Skagaströnd
+  Skagaströnd                    K        0/10 (  0.0%) — Fyrir Skagaströnd — K-listi
+  Súðavík                        FJL      0/10 (  0.0%) — Fjarðarlistinn — hlutum okkur af framtíð Súðavíkur
+  Súðavík                        FTL      0/10 (  0.0%) — Framtíðarlistinn — í átt að betri framtíð
+  Reykhólar                      ROA      0/10 (  0.0%) — Raddir okkar allra — við tökum höndum saman
+  Reykhólar                      S        0/10 (  0.0%) — Samfylkingin í Reykhólahreppi
+  Svalbarðsströnd                SVSS     0/10 (  0.0%) — S-listi í Svalbarðsstrandarhreppi — samstaða og fr
+  Svalbarðsströnd                SVSH     0/10 (  0.0%) — Strönd til framtíðar — H-listi Svalbarðsstrandar
+  Svalbarðsströnd                SVSO     0/10 (  0.0%) — Ströndungur — Ö-listi í Svalbarðsstrandarhreppi
+  Kjósarhreppur                  KJA      0/10 (  0.0%) — Íbúar í Kjós — A-listi Kjósarhrepps 2026
+  Tjörnes                        TJN      0/10 (  0.0%) — Tjörnes — Eitt framboð
+  Árneshreppur                   ARNA     0/10 (  0.0%) — Á-listi — Framtíð Árneshrepps
+  Árneshreppur                   ARNS     0/10 (  0.0%) — S-listi — Sólstöður í Árneshreppi
+  Norðurþing                     B        1/18 (  5.6%) — Framsókn í Norðurþingi — sterk samfélög byggjast á
+  Norðurþing                     NBO      1/18 (  5.6%) — Óskalistinn — sátt, samtal og samvinna í Norðurþin
+  Norðurþing                     NPV      1/18 (  5.6%) — V-listi Velferðar — grunnþjónusta barna í forgang 
+  Akranes                        M        1/18 (  5.6%) — Málefnaskrá Miðflokksins á Akranesi
+  Húnabyggð                      HBA      1/18 (  5.6%) — Öll saman — sameiginleg framtíð Húnabyggðar
+  Vogar                          VOE      1/14 (  7.1%) — Birgir Örn Ólafsson leiðir E-listann í Vogum — sam
+  Vogar                          VOL      1/14 (  7.1%) — Kristinn Björgvinsson leiðir L-listann í Vogum — i
+  Fjallabyggð                    H        1/14 (  7.1%) — H-listinn Fyrir Heildina — Helgi Jóhannsson leiðir
+  Rangárþing eystra              NRE      1/14 (  7.1%) — Nýi óháði listinn í Rangárþingi eystra — Stefna 20
+  Bláskógabyggð                  BST      1/14 (  7.1%) — T-listinn — framþróun í Bláskógabyggð
+  Eyjafjarðarsveit               EJF      1/14 (  7.1%) — F-listinn — öflugt landbúnaðarsamfélag í Eyjafirði
+  Húnaþing vestra                NHV      1/14 (  7.1%) — Ný öfl — nýjar hugmyndir í Húnaþingi vestra
+  Grundarfjörður                 GFB      1/14 (  7.1%) — Framsókn og Samfylking — áfram Grundarfjörður
+  Bolungarvík                    MMM      1/14 (  7.1%) — Máttur meyja og manna — saman erum við sterk
+  Vesturbyggð                    STV      1/14 (  7.1%) — Komdu með í Sterkari Vesturbyggð!
+  Þingeyjarsveit                 THVA     1/14 (  7.1%) — A-listi í Þingeyjarsveit — áfram sveitin
+  Flóahreppur                    FLI      1/10 ( 10.0%) — Framfaralistinn í Flóahreppi — traustur grunnur og
+  Grímsnes- og Grafningshr.      GGA      1/10 ( 10.0%) — A-listinn í Grímsnes- og Grafningshreppi — innviði
+  Grímsnes- og Grafningshr.      GGO      1/10 ( 10.0%) — Ö-listinn Betri sveit — fyrir okkur öll í Grímsnes
+  Strandabyggð                   SBD      1/10 ( 10.0%) — Strandabandalagið — sameinuð um framtíðina
+  Reykjavík                      J        5/46 ( 10.9%) — Sameiginlegir innviðar þjóna almenningi — ekki sér
+  Skagafjörður                   SFL      2/18 ( 11.1%) — Byggðalistinn — ný öfl í Skagafirði
+  Akranes                        C        2/17 ( 11.8%) — Viðreisn á Akranesi — fersk rödd og börnin í forga
+  Reykjavík                      A        6/46 ( 13.0%) — Húsnæði á að vera heimili — byggt fyrir fólk, ekki
+  Reykjavík                      M        6/46 ( 13.0%) — Látum heilbrigða skynsemi taka yfir Ráðhús Reykjav
+  Garðabær                       GB       3/22 ( 13.6%) — Garðabæjarlistinn — málefnin fyrir 2026
+  Akureyri                       L        3/22 ( 13.6%) — Tala skýrt, vinna hratt og skila sýnilegum árangri
+  Seltjarnarnes                  M        2/14 ( 14.3%) — Miðflokkurinn og óháðir á Seltjarnarnesi
+  Hvalfjarðarsveit               HVA      2/14 ( 14.3%) — Samhent sveit — sjálfstætt og sterkt sveitarfélag 
+  Akureyri                       AL       3/20 ( 15.0%) — Allt að gerast — tala skýrt, vinna hratt, skila ár
+  Kópavogur                      J        3/19 ( 15.8%) — Markús Candi leiðir Sósíalista í Kópavogi
+  Ísafjörður                     B        3/18 ( 16.7%) — Framsóknarflokkur og óháðir í Ísafjarðarbæ
+  Skagafjörður                   B        3/18 ( 16.7%) — Framsóknarflokkurinn í Skagafirði — landbúnaður og
+  Kópavogur                      V        4/22 ( 18.2%) — Anna Sigríður leiðir VG í Kópavogi
+  Hafnarfjörður                  M        4/22 ( 18.2%) — Einar Geir leiðir Miðflokkinn í Hafnarfirði
+  Garðabær                       B        4/22 ( 18.2%) — Framsókn Garðabæ — lýðheilsa, ábyrgur rekstur og f
+  Mosfellsbær                    S        4/22 ( 18.2%) — Ólafur Ingi leiðir Samfylkinguna í Mosfellsbæ
+  Múlaþing                       V        4/22 ( 18.2%) — VG og óháðir í Múlaþingi — grænt framboð
+  Múlaþing                       L        4/22 ( 18.2%) — Austurlistinn og Viðreisn — framtíðarsýn fyrir Aus
+  Reykjavík                      P        9/46 ( 19.6%) — Bestum borgina fyrir þig
+  Ísafjörður                     M        2/10 ( 20.0%) — Áherslur Miðflokksins í Ísafjarðarbæ — látum verki
+  Rangárþing eystra              B        3/14 ( 21.4%) — Framsókn í Rangárþingi eystra — landbúnaður og vel
+  Dalvíkurbyggð                  B        3/14 ( 21.4%) — Framsóknarflokkurinn í Dalvíkurbyggð
+  Reykjavík                      F       10/46 ( 21.7%) — Fólkið fyrst
+  Kópavogur                      B        5/22 ( 22.7%) — Orri Vignir leiðir Framsókn í Kópavogi
+  Kópavogur                      M        5/22 ( 22.7%) — Einar Jóhannes leiðir Miðflokkinn í Kópavogi
+  Hafnarfjörður                  A        5/22 ( 22.7%) — Ester Bíbí leiðir Vinstrið í Hafnarfirði
+  Hafnarfjörður                  B        5/22 ( 22.7%) — Valdimar Víðisson leiðir Framsókn í Hafnarfirði
+  Garðabær                       C        5/22 ( 22.7%) — Guðlaugur leiðir Viðreisn í Garðabæ
+  Garðabær                       M        5/22 ( 22.7%) — Lárus Þór leiðir Miðflokkinn í Garðabæ
+  Mosfellsbær                    B        5/22 ( 22.7%) — Heilbrigt og fjölskylduvænt samfélag — Sævar leiði
+  Mosfellsbær                    M        5/22 ( 22.7%) — Sveinn Óskar oddviti Miðflokksins í Mosfellsbæ — F
+  Akureyri                       B        5/22 ( 22.7%) — Sunna Hlín leiðir lista Framsóknar á Akureyri
+  Akureyri                       V        5/22 ( 22.7%) — Vinstri græn á Akureyri — fyrir fólk og náttúru
+  Reykjanesbær                   B        5/22 ( 22.7%) — Halldóra Fríða leiðir Framsókn í Reykjanesbæ
+  Reykjanesbær                   M        5/22 ( 22.7%) — Gunnlaugur Kárason leiðir Miðflokkinn í Reykjanesb
+  Árbo

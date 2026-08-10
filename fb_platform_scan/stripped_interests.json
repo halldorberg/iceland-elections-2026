@@ -1,0 +1,1107 @@
+{
+  "stripped_at": "2026-05-05T02:24:39.641403",
+  "count": 85,
+  "candidates": [
+    {
+      "id": "RVK.P.4",
+      "muni_slug": "reykjavik",
+      "party_code": "P",
+      "ballot": 4,
+      "name": "Unnar Þór Sæmundsson",
+      "original_interests": [
+        "Barnavernd og málefni barna",
+        "Meðferðarmál",
+        "Bein lýðræðið",
+        "Réttindi jaðarsettrar hópa"
+      ]
+    },
+    {
+      "id": "RVK.F.4",
+      "muni_slug": "reykjavik",
+      "party_code": "F",
+      "ballot": 4,
+      "name": "Sigurveig Jóhannsdóttir",
+      "original_interests": [
+        "Æskulýðsþjónusta",
+        "Stuðningur við ungt fólk í erfiðleikum"
+      ]
+    },
+    {
+      "id": "RVK.R.4",
+      "muni_slug": "reykjavik",
+      "party_code": "R",
+      "ballot": 4,
+      "name": "Ágústa Árnadóttir",
+      "original_interests": [
+        "lýðræði",
+        "jóga",
+        "borgaraleg þátttaka",
+        "mannréttindi",
+        "samfélagsumræða"
+      ]
+    },
+    {
+      "id": "KOP.B.3",
+      "muni_slug": "kopavogur",
+      "party_code": "B",
+      "ballot": 3,
+      "name": "Gunnar Sær Ragnarsson",
+      "original_interests": [
+        "lögfræði",
+        "stjórnmál",
+        "sveitarstjórnarmál",
+        "Kópavogur"
+      ]
+    },
+    {
+      "id": "KOP.D.5",
+      "muni_slug": "kopavogur",
+      "party_code": "D",
+      "ballot": 5,
+      "name": "Guðmundur Jóhann Jónsson",
+      "original_interests": [
+        "fjármál",
+        "tryggingar",
+        "stjórnun",
+        "atvinnulíf",
+        "kirkjustarf"
+      ]
+    },
+    {
+      "id": "KOP.J.4",
+      "muni_slug": "kopavogur",
+      "party_code": "J",
+      "ballot": 4,
+      "name": "Sigurður Haraldsson",
+      "original_interests": [
+        "húsnæðismál",
+        "félagslegt réttlæti",
+        "verkalýðsmál",
+        "velferðarmál"
+      ]
+    },
+    {
+      "id": "KOP.J.5",
+      "muni_slug": "kopavogur",
+      "party_code": "J",
+      "ballot": 5,
+      "name": "Þórgunnur Guðgeirsdóttir",
+      "original_interests": [
+        "húsnæðismál",
+        "verkalýðsmál",
+        "verslun",
+        "félagslegt réttlæti"
+      ]
+    },
+    {
+      "id": "KOP.V.5",
+      "muni_slug": "kopavogur",
+      "party_code": "V",
+      "ballot": 5,
+      "name": "Rakel Ósk Sigurðardóttir",
+      "original_interests": [
+        "félagsmál",
+        "gagnagreining",
+        "ljósmyndun",
+        "umhverfismál",
+        "jafnréttismál"
+      ]
+    },
+    {
+      "id": "HAF.B.3",
+      "muni_slug": "hafnarfjordur",
+      "party_code": "B",
+      "ballot": 3,
+      "name": "Árni Rúnar Árnason",
+      "original_interests": [
+        "tæknimál",
+        "atvinnulíf",
+        "sveitarstjórnarmál",
+        "Hafnarfjörður"
+      ]
+    },
+    {
+      "id": "HAF.C.3",
+      "muni_slug": "hafnarfjordur",
+      "party_code": "C",
+      "ballot": 3,
+      "name": "Hjördís Hlíðberg",
+      "original_interests": [
+        "atvinnulíf",
+        "verkefnastjórnun",
+        "sveitarstjórnarmál",
+        "Hafnarfjörður"
+      ]
+    },
+    {
+      "id": "HAF.C.4",
+      "muni_slug": "hafnarfjordur",
+      "party_code": "C",
+      "ballot": 4,
+      "name": "Óli Örn Eiríksson",
+      "original_interests": [
+        "skipulagsmál",
+        "samgöngur",
+        "miðbær Hafnarfjarðar",
+        "hjólreiðar",
+        "bæjarmál"
+      ]
+    },
+    {
+      "id": "HAF.C.5",
+      "muni_slug": "hafnarfjordur",
+      "party_code": "C",
+      "ballot": 5,
+      "name": "Sigrún Jónsdóttir",
+      "original_interests": [
+        "verkalýðsmál",
+        "kjarasamningar",
+        "samgöngur",
+        "ferðaþjónusta",
+        "fjölskyldumál"
+      ]
+    },
+    {
+      "id": "HAF.M.4",
+      "muni_slug": "hafnarfjordur",
+      "party_code": "M",
+      "ballot": 4,
+      "name": "Eva Rún Helgadóttir",
+      "original_interests": [
+        "fjármál",
+        "málefni flóttafólks",
+        "gagnsæi í stjórnsýslu",
+        "bæjarmál"
+      ]
+    },
+    {
+      "id": "HAF.M.5",
+      "muni_slug": "hafnarfjordur",
+      "party_code": "M",
+      "ballot": 5,
+      "name": "Arnhildur Ásdís Kolbeins",
+      "original_interests": [
+        "fjármál",
+        "húsnæðismál",
+        "skipulagsmál",
+        "byggðaþróun"
+      ]
+    },
+    {
+      "id": "RNB.B.5",
+      "muni_slug": "reykjanesbaer",
+      "party_code": "B",
+      "ballot": 5,
+      "name": "Halla Karen Guðjónsdóttir",
+      "original_interests": [
+        "bæjarmál",
+        "atvinnumál",
+        "byggðaþróun"
+      ]
+    },
+    {
+      "id": "VOG.FYRS.1",
+      "muni_slug": "vogar",
+      "party_code": "FYRS",
+      "ballot": 1,
+      "name": "Gunnar J. Helgason",
+      "original_interests": [
+        "íþróttastarf",
+        "félagsstarf",
+        "ungmennafélag",
+        "sveitarstjórnarmál"
+      ]
+    },
+    {
+      "id": "VOG.FYRS.2",
+      "muni_slug": "vogar",
+      "party_code": "FYRS",
+      "ballot": 2,
+      "name": "Áslaug Fjóla Magnúsdóttir",
+      "original_interests": [
+        "Sveitarstjórnarmál",
+        "Samfélagsmál",
+        "Þjónusta"
+      ]
+    },
+    {
+      "id": "VOG.D.1",
+      "muni_slug": "vogar",
+      "party_code": "D",
+      "ballot": 1,
+      "name": "Björg Ásta Þórðardóttir",
+      "original_interests": [
+        "lögfræði",
+        "knattspyrna",
+        "sveitarstjórnarmál",
+        "atvinnulíf"
+      ]
+    },
+    {
+      "id": "VOG.D.2",
+      "muni_slug": "vogar",
+      "party_code": "D",
+      "ballot": 2,
+      "name": "Guðmann Rúnar Lúðvíksson",
+      "original_interests": [
+        "Sveitarstjórnarmál",
+        "Öryggismál",
+        "Sjávarútvegur",
+        "Almannavarnir"
+      ]
+    },
+    {
+      "id": "VOG.VOE.1",
+      "muni_slug": "vogar",
+      "party_code": "VOE",
+      "ballot": 1,
+      "name": "Birgir Örn Ólafsson",
+      "original_interests": [
+        "sveitarstjórnarmál",
+        "byggðaþróun",
+        "samfélagsmál"
+      ]
+    },
+    {
+      "id": "VOG.VOE.2",
+      "muni_slug": "vogar",
+      "party_code": "VOE",
+      "ballot": 2,
+      "name": "Eva Björk Jónsdóttir",
+      "original_interests": [
+        "Sveitarstjórnarmál",
+        "Atvinnumál",
+        "Skólamál",
+        "Samfélagsmál"
+      ]
+    },
+    {
+      "id": "VOG.VOL.1",
+      "muni_slug": "vogar",
+      "party_code": "VOL",
+      "ballot": 1,
+      "name": "Kristinn Björgvinsson",
+      "original_interests": [
+        "sveitarstjórnarmál",
+        "samfélagsmál",
+        "byggðaþróun"
+      ]
+    },
+    {
+      "id": "VOG.VOL.2",
+      "muni_slug": "vogar",
+      "party_code": "VOL",
+      "ballot": 2,
+      "name": "Eðvarð Atli Bjarnason",
+      "original_interests": [
+        "sveitarstjórnarmál",
+        "iðnaður",
+        "atvinnuuppbygging",
+        "Suðurnes"
+      ]
+    },
+    {
+      "id": "SNB.B.1",
+      "muni_slug": "sudurnesjabaer",
+      "party_code": "B",
+      "ballot": 1,
+      "name": "Anton Kristinn Guðmundsson",
+      "original_interests": [
+        "Heilbrigðisþjónusta",
+        "Efnahagsþróun á Suðurnesjum",
+        "Sveitarstjórnarmál",
+        "Skilvirkur rekstur sveitarfélaga"
+      ]
+    },
+    {
+      "id": "SNB.B.2",
+      "muni_slug": "sudurnesjabaer",
+      "party_code": "B",
+      "ballot": 2,
+      "name": "Magnús Sigfús Magnússon",
+      "original_interests": [
+        "Verkalýðsmál og réttindi launafólks",
+        "Sveitarstjórnarmál",
+        "Þróun Sandgerðis og nærsamfélagsins"
+      ]
+    },
+    {
+      "id": "SNB.D.1",
+      "muni_slug": "sudurnesjabaer",
+      "party_code": "D",
+      "ballot": 1,
+      "name": "Haukur Andreasson",
+      "original_interests": [
+        "Húsnæðismál og fasteignamarkaður",
+        "Atvinnuþróun og frumkvæði",
+        "Umhverfismál",
+        "Menning, íþróttir og æskulýðsmál"
+      ]
+    },
+    {
+      "id": "SNB.D.2",
+      "muni_slug": "sudurnesjabaer",
+      "party_code": "D",
+      "ballot": 2,
+      "name": "Haraldur Helgason",
+      "original_interests": [
+        "Heilbrigðismál og velferðarþjónusta",
+        "Sveitarstjórnarmál",
+        "Atvinnumál á Suðurnesjum",
+        "Nærsamfélag og íbúaþátttaka"
+      ]
+    },
+    {
+      "id": "SNB.M.1",
+      "muni_slug": "sudurnesjabaer",
+      "party_code": "M",
+      "ballot": 1,
+      "name": "Daði Bergþórsson",
+      "original_interests": [
+        "sveitarstjórnarmál",
+        "byggðaþróun",
+        "samfélagsmál"
+      ]
+    },
+    {
+      "id": "SNB.M.2",
+      "muni_slug": "sudurnesjabaer",
+      "party_code": "M",
+      "ballot": 2,
+      "name": "Sigrún Harpa Sigurjónd. Heide",
+      "original_interests": [
+        "Sveitarstjórnarmál",
+        "Stjórnmál",
+        "Samfélagsmál"
+      ]
+    },
+    {
+      "id": "SNB.S.2",
+      "muni_slug": "sudurnesjabaer",
+      "party_code": "S",
+      "ballot": 2,
+      "name": "Bergný Jóna Sævarsdóttir",
+      "original_interests": [
+        "Stjórnsýsla og verkefnastjórnun",
+        "Sjálfbær þróun",
+        "Velferðarmál"
+      ]
+    },
+    {
+      "id": "VME.D.2",
+      "muni_slug": "vestmannaeyjar",
+      "party_code": "D",
+      "ballot": 2,
+      "name": "Trausti Hjaltason",
+      "original_interests": [
+        "Sveitarstjórnarmál",
+        "Áhættustjórnun",
+        "Skólamál",
+        "Atvinnumál"
+      ]
+    },
+    {
+      "id": "VME.E.2",
+      "muni_slug": "vestmannaeyjar",
+      "party_code": "E",
+      "ballot": 2,
+      "name": "Anton Örn Björnsson",
+      "original_interests": [
+        "Skólamál",
+        "Æskulýðsmál",
+        "Forvarnir",
+        "Samfélagsmál"
+      ]
+    },
+    {
+      "id": "VME.M.2",
+      "muni_slug": "vestmannaeyjar",
+      "party_code": "M",
+      "ballot": 2,
+      "name": "Sæunn Magnúsdóttir",
+      "original_interests": [
+        "Lögfræði",
+        "Samgöngumál",
+        "Atvinnumál",
+        "Íþróttastarf"
+      ]
+    },
+    {
+      "id": "SKR.D.1",
+      "muni_slug": "skaftarhreppur",
+      "party_code": "D",
+      "ballot": 1,
+      "name": "Sveinn Hreiðar Jensson",
+      "original_interests": [
+        "Ferðaþjónusta",
+        "Hótelrekstur",
+        "Sveitarstjórnarmál",
+        "Atvinnuuppbygging"
+      ]
+    },
+    {
+      "id": "SKR.D.2",
+      "muni_slug": "skaftarhreppur",
+      "party_code": "D",
+      "ballot": 2,
+      "name": "Sigurður Árnason",
+      "original_interests": [
+        "iðnaður",
+        "atvinnulíf",
+        "sveitarstjórnarmál",
+        "Skaftárhreppur"
+      ]
+    },
+    {
+      "id": "SKR.SKO.1",
+      "muni_slug": "skaftarhreppur",
+      "party_code": "SKO",
+      "ballot": 1,
+      "name": "Jóhannes Gissurarson",
+      "original_interests": [
+        "Landbúnaður",
+        "Almannavarnir",
+        "Sveitarstjórnarmál",
+        "Náttúruvá"
+      ]
+    },
+    {
+      "id": "SKR.SKO.2",
+      "muni_slug": "skaftarhreppur",
+      "party_code": "SKO",
+      "ballot": 2,
+      "name": "Auður Guðbjörnsdóttir",
+      "original_interests": [
+        "landbúnaður",
+        "byggðamál",
+        "sveitarstjórnarmál",
+        "hross",
+        "Skaftárhreppur"
+      ]
+    },
+    {
+      "id": "HMR.D.1",
+      "muni_slug": "hrunamannahreppur",
+      "party_code": "D",
+      "ballot": 1,
+      "name": "Jón Bjarnason",
+      "original_interests": [
+        "sauðfjárrækt",
+        "ferðaþjónusta",
+        "sveitarstjórnarmál",
+        "byggðamál"
+      ]
+    },
+    {
+      "id": "HMR.D.2",
+      "muni_slug": "hrunamannahreppur",
+      "party_code": "D",
+      "ballot": 2,
+      "name": "Bjarney Vignisdóttir",
+      "original_interests": [
+        "heilbrigðismál",
+        "hjúkrun",
+        "sveitarstjórnarmál",
+        "Hrunamannahreppur"
+      ]
+    },
+    {
+      "id": "HMR.HRL.1",
+      "muni_slug": "hrunamannahreppur",
+      "party_code": "HRL",
+      "ballot": 1,
+      "name": "Daði Geir Samúelsson",
+      "original_interests": [
+        "landbúnaður",
+        "garðyrkja",
+        "sveitarstjórnarmál",
+        "atvinnumál"
+      ]
+    },
+    {
+      "id": "HMR.HRL.2",
+      "muni_slug": "hrunamannahreppur",
+      "party_code": "HRL",
+      "ballot": 2,
+      "name": "Rakel Ósk Kristófersdóttir",
+      "original_interests": [
+        "verslun",
+        "heilbrigðisvísindi",
+        "sveitarstjórnarmál",
+        "Hrunamannahreppur"
+      ]
+    },
+    {
+      "id": "SGN.SGE.1",
+      "muni_slug": "skeidagnup",
+      "party_code": "SGE",
+      "ballot": 1,
+      "name": "Gunnar Örn Marteinsson",
+      "original_interests": [
+        "Ferðaþjónusta",
+        "Hestamennska",
+        "Sveitarstjórnarmál",
+        "Landbúnaður"
+      ]
+    },
+    {
+      "id": "SGN.SGE.2",
+      "muni_slug": "skeidagnup",
+      "party_code": "SGE",
+      "ballot": 2,
+      "name": "Ingibjörg Sæunn Jónsdóttir",
+      "original_interests": [
+        "líffræði",
+        "umhverfismál",
+        "sveitarstjórnarmál",
+        "Skeiða- og Gnúpverjahreppur"
+      ]
+    },
+    {
+      "id": "SGN.SGL.1",
+      "muni_slug": "skeidagnup",
+      "party_code": "SGL",
+      "ballot": 1,
+      "name": "Haraldur Þór Jónsson",
+      "original_interests": [
+        "Sveitarstjórnarmál",
+        "Landbúnaður",
+        "Orkumál",
+        "Ferðaþjónusta"
+      ]
+    },
+    {
+      "id": "SGN.SGL.2",
+      "muni_slug": "skeidagnup",
+      "party_code": "SGL",
+      "ballot": 2,
+      "name": "Vilborg M. Ástráðsdóttir",
+      "original_interests": [
+        "myndlist",
+        "menntun",
+        "menning",
+        "sveitarstjórnarmál"
+      ]
+    },
+    {
+      "id": "HGS.D.1",
+      "muni_slug": "horgarsv",
+      "party_code": "D",
+      "ballot": 1,
+      "name": "Árni Rúnar Örvarsson",
+      "original_interests": [
+        "sveitarstjórnarmál",
+        "atvinnumál",
+        "byggðaþróun"
+      ]
+    },
+    {
+      "id": "HGS.D.2",
+      "muni_slug": "horgarsv",
+      "party_code": "D",
+      "ballot": 2,
+      "name": "Katrín Olsen Björnsdóttir",
+      "original_interests": [
+        "heilbrigðismál",
+        "hjúkrun",
+        "sveitarstjórnarmál",
+        "Hörgársveit"
+      ]
+    },
+    {
+      "id": "HGS.HGH.1",
+      "muni_slug": "horgarsv",
+      "party_code": "HGH",
+      "ballot": 1,
+      "name": "Bjarki Brynjólfsson",
+      "original_interests": [
+        "lögfræði",
+        "sveitarstjórnarmál",
+        "byggðamál"
+      ]
+    },
+    {
+      "id": "HGS.HGH.2",
+      "muni_slug": "horgarsv",
+      "party_code": "HGH",
+      "ballot": 2,
+      "name": "Ásta Hafberg",
+      "original_interests": [
+        "markaðsmál",
+        "atvinnulíf",
+        "sveitarstjórnarmál",
+        "Hörgársveit"
+      ]
+    },
+    {
+      "id": "HNB.HBA.2",
+      "muni_slug": "hunabyggd",
+      "party_code": "HBA",
+      "ballot": 2,
+      "name": "Sara Björk Þorsteinsdóttir",
+      "original_interests": [
+        "sveitarstjórnarmál",
+        "Húnabyggð"
+      ]
+    },
+    {
+      "id": "HNB.B.2",
+      "muni_slug": "hunabyggd",
+      "party_code": "B",
+      "ballot": 2,
+      "name": "Jenný Lind Gunnarsdóttir",
+      "original_interests": [
+        "menntun",
+        "sérkennsla",
+        "farsæld barna",
+        "lýðheilsa",
+        "sveitarstjórnarmál"
+      ]
+    },
+    {
+      "id": "HNB.D.2",
+      "muni_slug": "hunabyggd",
+      "party_code": "D",
+      "ballot": 2,
+      "name": "Zophonías Ari Lárusson",
+      "original_interests": [
+        "atvinnulíf",
+        "byggingarmál",
+        "sveitarstjórnarmál",
+        "Blönduós"
+      ]
+    },
+    {
+      "id": "HNT.B.1",
+      "muni_slug": "hunathing",
+      "party_code": "B",
+      "ballot": 1,
+      "name": "Sigurður Líndal Þórison",
+      "original_interests": [
+        "menningarmál",
+        "byggðaþróun",
+        "atvinnumál",
+        "ferðaþjónusta",
+        "leiklist"
+      ]
+    },
+    {
+      "id": "HNT.B.2",
+      "muni_slug": "hunathing",
+      "party_code": "B",
+      "ballot": 2,
+      "name": "Nína Axelsdóttir",
+      "original_interests": [
+        "tónlist",
+        "menntun",
+        "landbúnaður",
+        "sveitarstjórnarmál"
+      ]
+    },
+    {
+      "id": "HNT.D.1",
+      "muni_slug": "hunathing",
+      "party_code": "D",
+      "ballot": 1,
+      "name": "Örn Arnarson",
+      "original_interests": [
+        "sveitarstjórnarmál",
+        "atvinnumál",
+        "byggðamál"
+      ]
+    },
+    {
+      "id": "HNT.D.2",
+      "muni_slug": "hunathing",
+      "party_code": "D",
+      "ballot": 2,
+      "name": "Sigríður Ólafsdóttir",
+      "original_interests": [
+        "landbúnaður",
+        "sauðfjárrækt",
+        "umhverfismál",
+        "byggðamál",
+        "sveitarstjórnarmál"
+      ]
+    },
+    {
+      "id": "HNT.NHV.1",
+      "muni_slug": "hunathing",
+      "party_code": "NHV",
+      "ballot": 1,
+      "name": "Viktor Ingi Jónsson",
+      "original_interests": [
+        "menntamál",
+        "knattspyrna",
+        "ungmennastarf",
+        "sveitarstjórnarmál"
+      ]
+    },
+    {
+      "id": "HNT.NHV.2",
+      "muni_slug": "hunathing",
+      "party_code": "NHV",
+      "ballot": 2,
+      "name": "Magnús Vignir Eðvaldsson",
+      "original_interests": [
+        "menntun",
+        "sveitarstjórnarmál",
+        "byggðamál",
+        "Húnaþing vestra"
+      ]
+    },
+    {
+      "id": "SFJ.B.1",
+      "muni_slug": "skagafjordur",
+      "party_code": "B",
+      "ballot": 1,
+      "name": "Einar Eðvald Einarsson",
+      "original_interests": [
+        "sveitarstjórnarmál",
+        "landbúnaður",
+        "byggðaþróun",
+        "samvinnufélög"
+      ]
+    },
+    {
+      "id": "SFJ.B.2",
+      "muni_slug": "skagafjordur",
+      "party_code": "B",
+      "ballot": 2,
+      "name": "Hrund Pétursdóttir",
+      "original_interests": [
+        "Sveitarstjórnarmál",
+        "Atvinnumál",
+        "Fjármál",
+        "Byggðamál"
+      ]
+    },
+    {
+      "id": "SFJ.D.1",
+      "muni_slug": "skagafjordur",
+      "party_code": "D",
+      "ballot": 1,
+      "name": "Magnús Barðdal",
+      "original_interests": [
+        "sveitarstjórnarmál",
+        "atvinnuþróun",
+        "fjárfestingar",
+        "lögfræði"
+      ]
+    },
+    {
+      "id": "SFJ.D.2",
+      "muni_slug": "skagafjordur",
+      "party_code": "D",
+      "ballot": 2,
+      "name": "Sólborg S. Borgarsdóttir",
+      "original_interests": [
+        "Sveitarstjórnarmál",
+        "Vinnuvernd",
+        "Hafnarmál",
+        "Mannvirkjamál"
+      ]
+    },
+    {
+      "id": "SFJ.SFL.1",
+      "muni_slug": "skagafjordur",
+      "party_code": "SFL",
+      "ballot": 1,
+      "name": "Eyþór Fannar Sveinsson",
+      "original_interests": [
+        "sveitarstjórnarmál",
+        "byggingaverkfræði",
+        "fjármál sveitarfélaga",
+        "byggðamál"
+      ]
+    },
+    {
+      "id": "SFJ.SFL.2",
+      "muni_slug": "skagafjordur",
+      "party_code": "SFL",
+      "ballot": 2,
+      "name": "Jóhanna Ey Harðardóttir",
+      "original_interests": [
+        "Fatahönnun",
+        "Handverk",
+        "Menning",
+        "Sveitarstjórnarmál"
+      ]
+    },
+    {
+      "id": "SFJ.M.1",
+      "muni_slug": "skagafjordur",
+      "party_code": "M",
+      "ballot": 1,
+      "name": "Högni Elfar Gylfason",
+      "original_interests": [
+        "sauðfjárrækt",
+        "byggðamál",
+        "sveitarstjórnarmál",
+        "landsmál"
+      ]
+    },
+    {
+      "id": "SFJ.M.2",
+      "muni_slug": "skagafjordur",
+      "party_code": "M",
+      "ballot": 2,
+      "name": "Jódís Helga Káradóttir",
+      "original_interests": [
+        "Lögfræði",
+        "Dómsmál",
+        "Sveitarstjórnarmál",
+        "Stjórnmál"
+      ]
+    },
+    {
+      "id": "HFJ.B.2",
+      "muni_slug": "hornafjordur",
+      "party_code": "B",
+      "ballot": 2,
+      "name": "Ingibjörg Sveinsdóttir",
+      "original_interests": [
+        "Skólamál",
+        "Atvinnumál",
+        "Sveitarstjórnarmál",
+        "Byggðamál"
+      ]
+    },
+    {
+      "id": "HFJ.B.3",
+      "muni_slug": "hornafjordur",
+      "party_code": "B",
+      "ballot": 3,
+      "name": "Björgvin Óskar Sigurjónsson",
+      "original_interests": [
+        "byggingarmál",
+        "skipulagsmál",
+        "sveitarstjórnarmál",
+        "Hornafjörður"
+      ]
+    },
+    {
+      "id": "HFJ.B.4",
+      "muni_slug": "hornafjordur",
+      "party_code": "B",
+      "ballot": 4,
+      "name": "Kolbrún Þorbjörg Björnsdóttir",
+      "original_interests": [
+        "heilsurækt",
+        "lýðheilsa",
+        "eldri borgarar",
+        "íþróttir",
+        "rekstur"
+      ]
+    },
+    {
+      "id": "HFJ.B.5",
+      "muni_slug": "hornafjordur",
+      "party_code": "B",
+      "ballot": 5,
+      "name": "Gunnar Ásgeirsson",
+      "original_interests": [
+        "sjávarútvegur",
+        "atvinnumál",
+        "byggðaþróun",
+        "sveitarstjórnarmál"
+      ]
+    },
+    {
+      "id": "HFJ.D.1",
+      "muni_slug": "hornafjordur",
+      "party_code": "D",
+      "ballot": 1,
+      "name": "Gauti Árnason",
+      "original_interests": [
+        "sveitarstjórnarmál",
+        "samgöngur",
+        "atvinnumál",
+        "byggðaþróun"
+      ]
+    },
+    {
+      "id": "HFJ.D.2",
+      "muni_slug": "hornafjordur",
+      "party_code": "D",
+      "ballot": 2,
+      "name": "Hjördís Edda Olgeirsdóttir",
+      "original_interests": [
+        "Sveitarstjórnarmál",
+        "Umhverfis- og skipulagsmál",
+        "Atvinnumál",
+        "Menning"
+      ]
+    },
+    {
+      "id": "HFJ.D.3",
+      "muni_slug": "hornafjordur",
+      "party_code": "D",
+      "ballot": 3,
+      "name": "Ásta Steinunn Eiríksdóttir",
+      "original_interests": [
+        "efnahagsmál",
+        "atvinnulíf",
+        "sveitarstjórnarmál",
+        "Hornafjörður"
+      ]
+    },
+    {
+      "id": "HFJ.D.4",
+      "muni_slug": "hornafjordur",
+      "party_code": "D",
+      "ballot": 4,
+      "name": "Ágústa Arnardóttir",
+      "original_interests": [
+        "atvinnumál",
+        "hönnun",
+        "frumkvöðlastarf",
+        "mannauðsmál",
+        "byggðaþróun"
+      ]
+    },
+    {
+      "id": "HFJ.D.5",
+      "muni_slug": "hornafjordur",
+      "party_code": "D",
+      "ballot": 5,
+      "name": "Sindri Ragnarsson",
+      "original_interests": [
+        "íþróttir",
+        "ferðaþjónusta",
+        "Vatnajökull",
+        "golf",
+        "atvinnumál"
+      ]
+    },
+    {
+      "id": "HFJ.HFJK.2",
+      "muni_slug": "hornafjordur",
+      "party_code": "HFJK",
+      "ballot": 2,
+      "name": "Guðrún Stefanía Vopnfjörð Ingólfsdóttir",
+      "original_interests": [
+        "Sveitarstjórnarmál",
+        "Náttúruvernd",
+        "Menning",
+        "Ferðaþjónusta"
+      ]
+    },
+    {
+      "id": "HFJ.HFJK.3",
+      "muni_slug": "hornafjordur",
+      "party_code": "HFJK",
+      "ballot": 3,
+      "name": "Elías Tjörvi Halldórsson",
+      "original_interests": [
+        "matreiðsla",
+        "veitingarekstur",
+        "heilbrigðismál",
+        "atvinnumál",
+        "samfélagsmál"
+      ]
+    },
+    {
+      "id": "HFJ.HFJK.4",
+      "muni_slug": "hornafjordur",
+      "party_code": "HFJK",
+      "ballot": 4,
+      "name": "Wiktoria Anna Darnowska",
+      "original_interests": [
+        "félagsþjónusta",
+        "velferðarmál",
+        "fjölmenning",
+        "samfélagsmál"
+      ]
+    },
+    {
+      "id": "HFJ.HFJK.5",
+      "muni_slug": "hornafjordur",
+      "party_code": "HFJK",
+      "ballot": 5,
+      "name": "Sigrún Sigurgeirsdóttir",
+      "original_interests": [
+        "bæjarmál",
+        "atvinnumál",
+        "byggðaþróun",
+        "samfélagsmál"
+      ]
+    },
+    {
+      "id": "HFJ.M.1",
+      "muni_slug": "hornafjordur",
+      "party_code": "M",
+      "ballot": 1,
+      "name": "Reynir Ásgeirsson",
+      "original_interests": [
+        "sveitarstjórnarmál",
+        "atvinnumál"
+      ]
+    },
+    {
+      "id": "HFJ.M.2",
+      "muni_slug": "hornafjordur",
+      "party_code": "M",
+      "ballot": 2,
+      "name": "Stefán Freyr Jónsson",
+      "original_interests": [
+        "Landbúnaður",
+        "Slökkvistörf",
+        "Sveitarstjórnarmál",
+        "Almannavarnir"
+      ]
+    },
+    {
+      "id": "HFJ.M.3",
+      "muni_slug": "hornafjordur",
+      "party_code": "M",
+      "ballot": 3,
+      "name": "Herdís Ingólfsdóttir Waage",
+      "original_interests": [
+        "menntamál",
+        "skólastarf",
+        "byggðaþróun",
+        "samfélagsmál"
+      ]
+    },
+    {
+      "id": "HFJ.M.4",
+      "muni_slug": "hornafjordur",
+      "party_code": "M",
+      "ballot": 4,
+      "name": "Erlingur Ingi Brynjólfsson",
+      "original_interests": [
+        "sjávarútvegur",
+        "atvinnumál",
+        "orkumál",
+        "byggðaþróun"
+      ]
+    },
+    {
+      "id": "HFJ.M.5",
+      "muni_slug": "hornafjordur",
+      "party_code": "M",
+      "ballot": 5,
+      "name": "Valur Pálsson",
+      "original_interests": [
+        "atvinnumál",
+        "rekstur",
+        "sveitarstjórnarmál",
+        "byggðaþróun"
+      ]
+    },
+    {
+      "id": "ISF.C.2",
+      "muni_slug": "isafjordur",
+      "party_code": "C",
+      "ballot": 2,
+      "name": "Sif Huld Albertsdóttir",
+      "original_interests": [
+        "Atvinnulíf og stjórnun",
+        "Nýsköpun",
+        "Gagnsæi og gagnastýrð stefnumörkun",
+        "Þróun Vestfjarða"
+      ]
+    }
+  ]
+}

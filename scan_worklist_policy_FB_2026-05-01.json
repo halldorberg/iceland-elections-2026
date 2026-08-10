@@ -1,0 +1,702 @@
+{
+  "scope": "policy scan FB 2026-05-01 — find FB pages for parties without platformUrl",
+  "count": 87,
+  "missing_policy": [
+    {
+      "id": "GAR.D",
+      "muni_slug": "gardabaer",
+      "muni_label": "Garðabær",
+      "party_code": "D",
+      "party_label": "Sjálfstæðisflokkurinn",
+      "tagline": "Almar leiðir lista Sjálfstæðisflokksins — Garðabær á gott framhald"
+    },
+    {
+      "id": "GAR.B",
+      "muni_slug": "gardabaer",
+      "muni_label": "Garðabær",
+      "party_code": "B",
+      "party_label": "Framsóknarflokkurinn",
+      "tagline": "Hlynur Bæringsson leiðir Framsókn í Garðabæ"
+    },
+    {
+      "id": "GAR.S",
+      "muni_slug": "gardabaer",
+      "muni_label": "Garðabær",
+      "party_code": "S",
+      "party_label": "Samfylkingin",
+      "tagline": "Kjartan Atli leiðir Samfylkinguna í Garðabæ"
+    },
+    {
+      "id": "AKU.V",
+      "muni_slug": "akureyri",
+      "muni_label": "Akureyri",
+      "party_code": "V",
+      "party_label": "Vinstri Græn",
+      "tagline": "Jana Salóme leiðir lista VG á Akureyri"
+    },
+    {
+      "id": "MOS.D",
+      "muni_slug": "mosfellsbaer",
+      "muni_label": "Mosfellsbær",
+      "party_code": "D",
+      "party_label": "Sjálfstæðisflokkurinn",
+      "tagline": "Hilmar leiðir D-lista í Mosfellsbæ — Nú verður fjör"
+    },
+    {
+      "id": "AKR.B",
+      "muni_slug": "akranes",
+      "muni_label": "Akranes",
+      "party_code": "B",
+      "party_label": "Framsóknarflokkurinn",
+      "tagline": "Frjálsir með Framsókn á Akranesi"
+    },
+    {
+      "id": "AKR.D",
+      "muni_slug": "akranes",
+      "muni_label": "Akranes",
+      "party_code": "D",
+      "party_label": "Sjálfstæðisflokkurinn",
+      "tagline": "Líf — Sjálfstæðisflokkurinn á Akranesi"
+    },
+    {
+      "id": "AKR.M",
+      "muni_slug": "akranes",
+      "muni_label": "Akranes",
+      "party_code": "M",
+      "party_label": "Miðflokkurinn",
+      "tagline": "Miðflokkurinn á Akranesi"
+    },
+    {
+      "id": "FJA.B",
+      "muni_slug": "fjardabyggd",
+      "muni_label": "Fjarðabyggð",
+      "party_code": "B",
+      "party_label": "Framsóknarflokkurinn",
+      "tagline": "Framsóknarflokkur í Fjarðabyggð"
+    },
+    {
+      "id": "FJA.M",
+      "muni_slug": "fjardabyggd",
+      "muni_label": "Fjarðabyggð",
+      "party_code": "M",
+      "party_label": "Miðflokkurinn",
+      "tagline": "Miðflokkurinn í Fjarðabyggð"
+    },
+    {
+      "id": "SEL.M",
+      "muni_slug": "seltjarnarnes",
+      "muni_label": "Seltjarnarnes",
+      "party_code": "M",
+      "party_label": "Miðflokkurinn",
+      "tagline": "Skafti Harðarson leiðir Miðflokkinn á Seltjarnarnesi"
+    },
+    {
+      "id": "BOR.B",
+      "muni_slug": "borgarbyggd",
+      "muni_label": "Borgarbyggð",
+      "party_code": "B",
+      "party_label": "Framsóknarflokkurinn",
+      "tagline": "Framsóknarflokkurinn í Borgarbyggð"
+    },
+    {
+      "id": "BOR.D",
+      "muni_slug": "borgarbyggd",
+      "muni_label": "Borgarbyggð",
+      "party_code": "D",
+      "party_label": "Sjálfstæðisflokkurinn",
+      "tagline": "Sjálfstæðisflokkurinn í Borgarbyggð og Skorradalshreppi"
+    },
+    {
+      "id": "BOR.M",
+      "muni_slug": "borgarbyggd",
+      "muni_label": "Borgarbyggð",
+      "party_code": "M",
+      "party_label": "Miðflokkurinn",
+      "tagline": "Miðflokkurinn í Borgarbyggð"
+    },
+    {
+      "id": "BOR.A",
+      "muni_slug": "borgarbyggd",
+      "muni_label": "Borgarbyggð",
+      "party_code": "A",
+      "party_label": "Vinstrið – grænt og framsækt",
+      "tagline": "Borgarbyggðarlistinn — A-listi"
+    },
+    {
+      "id": "ISA.B",
+      "muni_slug": "isafjordur",
+      "muni_label": "Ísafjarðarbær",
+      "party_code": "B",
+      "party_label": "Framsóknarflokkurinn",
+      "tagline": "Framsóknarflokkur og óháðir í Ísafjarðarbæ"
+    },
+    {
+      "id": "ISA.D",
+      "muni_slug": "isafjordur",
+      "muni_label": "Ísafjarðarbær",
+      "party_code": "D",
+      "party_label": "Sjálfstæðisflokkurinn",
+      "tagline": "Sjálfstæðisflokkurinn í Ísafjarðarbæ"
+    },
+    {
+      "id": "ISA.M",
+      "muni_slug": "isafjordur",
+      "muni_label": "Ísafjarðarbær",
+      "party_code": "M",
+      "party_label": "Miðflokkurinn",
+      "tagline": "Miðflokkurinn í Ísafjarðarbæ"
+    },
+    {
+      "id": "ISA.S",
+      "muni_slug": "isafjordur",
+      "muni_label": "Ísafjarðarbær",
+      "party_code": "S",
+      "party_label": "Samfylkingin",
+      "tagline": "Samfylkingin í Ísafjarðarbæ"
+    },
+    {
+      "id": "NOR.S",
+      "muni_slug": "nordurping",
+      "muni_label": "Norðurþing",
+      "party_code": "S",
+      "party_label": "Samfylkingin",
+      "tagline": "Samfylkingin í Norðurþingi"
+    },
+    {
+      "id": "HOR.B",
+      "muni_slug": "hornafjordur",
+      "muni_label": "Hornafjarðarsveit",
+      "party_code": "B",
+      "party_label": "Framsóknarflokkurinn",
+      "tagline": "Framsóknarflokkur á Hornafirði"
+    },
+    {
+      "id": "HOR.M",
+      "muni_slug": "hornafjordur",
+      "muni_label": "Hornafjarðarsveit",
+      "party_code": "M",
+      "party_label": "Miðflokkurinn",
+      "tagline": "Miðflokkurinn á Hornafirði"
+    },
+    {
+      "id": "RAN.B",
+      "muni_slug": "rangarthingeystra",
+      "muni_label": "Rangárþing eystra",
+      "party_code": "B",
+      "party_label": "Framsóknarflokkurinn",
+      "tagline": "Framsókn í Rangárþingi eystra — landbúnaður og velferð"
+    },
+    {
+      "id": "RAN.D",
+      "muni_slug": "rangarthingeystra",
+      "muni_label": "Rangárþing eystra",
+      "party_code": "D",
+      "party_label": "Sjálfstæðisflokkurinn",
+      "tagline": "Sjálfstæðisflokkurinn í Rangárþingi eystra — þróun og stöðugleiki"
+    },
+    {
+      "id": "RAN.NRE",
+      "muni_slug": "rangarthingeystra",
+      "muni_label": "Rangárþing eystra",
+      "party_code": "NRE",
+      "party_label": "NRE",
+      "tagline": "Nýtt sjálfstætt framboð — ný sjónarmiðl í Rangárþingi eystra"
+    },
+    {
+      "id": "FJA.D",
+      "muni_slug": "fjallabyggd",
+      "muni_label": "Fjallabyggð",
+      "party_code": "D",
+      "party_label": "Sjálfstæðisflokkurinn",
+      "tagline": "Tómas Atli leiðir Sjálfstæðisflokkinn í Fjallabyggð"
+    },
+    {
+      "id": "FJA.H",
+      "muni_slug": "fjallabyggd",
+      "muni_label": "Fjallabyggð",
+      "party_code": "H",
+      "party_label": "H-listinn",
+      "tagline": "H-listinn Fyrir Heildina — Helgi Jóhannsson leiðir"
+    },
+    {
+      "id": "FJA.S",
+      "muni_slug": "fjallabyggd",
+      "muni_label": "Fjallabyggð",
+      "party_code": "S",
+      "party_label": "Samfylkingin",
+      "tagline": "Jóhann K. leiðir Samfylkinguna í Fjallabyggð"
+    },
+    {
+      "id": "RAN.D",
+      "muni_slug": "rangarthingytra",
+      "muni_label": "Rangárþing ytra",
+      "party_code": "D",
+      "party_label": "Sjálfstæðisflokkurinn",
+      "tagline": "Sjálfstæðisflokkurinn í Rangárþingi ytra — stöðugleiki og framfarir"
+    },
+    {
+      "id": "DAL.B",
+      "muni_slug": "dalvikurbyggd",
+      "muni_label": "Dalvíkurbyggð",
+      "party_code": "B",
+      "party_label": "Framsóknarflokkurinn",
+      "tagline": "Framsóknarflokkurinn í Dalvíkurbyggð"
+    },
+    {
+      "id": "DAL.D",
+      "muni_slug": "dalvikurbyggd",
+      "muni_label": "Dalvíkurbyggð",
+      "party_code": "D",
+      "party_label": "Sjálfstæðisflokkurinn",
+      "tagline": "Sjálfstæðisflokkurinn í Dalvíkurbyggð"
+    },
+    {
+      "id": "DAL.A",
+      "muni_slug": "dalvikurbyggd",
+      "muni_label": "Dalvíkurbyggð",
+      "party_code": "A",
+      "party_label": "Vinstrið – grænt og framsækt",
+      "tagline": "Byggðalistinn — A-listi Dalvíkurbyggðar"
+    },
+    {
+      "id": "DAL.K",
+      "muni_slug": "dalvikurbyggd",
+      "muni_label": "Dalvíkurbyggð",
+      "party_code": "K",
+      "party_label": "Kex framboð",
+      "tagline": "K-listi — Dalvíkurbyggð"
+    },
+    {
+      "id": "VOG.FYRS",
+      "muni_slug": "vogar",
+      "muni_label": "Vogar",
+      "party_code": "FYRS",
+      "party_label": "FYRS",
+      "tagline": "Gunnar J. Helgason leiðir listann Fyrir samfélagið í Vogum"
+    },
+    {
+      "id": "SNA.D",
+      "muni_slug": "snaefellsbaer",
+      "muni_label": "Snæfellsbær",
+      "party_code": "D",
+      "party_label": "Sjálfstæðisflokkurinn",
+      "tagline": "D-listi Sjálfstæðisflokks — Snæfellsbær 2026"
+    },
+    {
+      "id": "THI.THVA",
+      "muni_slug": "thingeyjarsveit",
+      "muni_label": "Þingeyjarsveit",
+      "party_code": "THVA",
+      "party_label": "THVA",
+      "tagline": "A-listi í Þingeyjarsveit — áfram sveitin"
+    },
+    {
+      "id": "THI.THVL",
+      "muni_slug": "thingeyjarsveit",
+      "muni_label": "Þingeyjarsveit",
+      "party_code": "THVL",
+      "party_label": "THVL",
+      "tagline": "L-listi í Þingeyjarsveit — lausnir fyrir íbúana"
+    },
+    {
+      "id": "THI.THVN",
+      "muni_slug": "thingeyjarsveit",
+      "muni_label": "Þingeyjarsveit",
+      "party_code": "THVN",
+      "party_label": "THVN",
+      "tagline": "N-listi í Þingeyjarsveit — nýtt líf í sveitina"
+    },
+    {
+      "id": "BLA.BST",
+      "muni_slug": "blaskogabyggd",
+      "muni_label": "Bláskógabyggð",
+      "party_code": "BST",
+      "party_label": "BST",
+      "tagline": "T-listinn — framþróun í Bláskógabyggð"
+    },
+    {
+      "id": "BLA.BSP",
+      "muni_slug": "blaskogabyggd",
+      "muni_label": "Bláskógabyggð",
+      "party_code": "BSP",
+      "party_label": "BSP",
+      "tagline": "Þ-listinn — öflug Bláskógabyggð"
+    },
+    {
+      "id": "HUN.HBA",
+      "muni_slug": "hunabyggd",
+      "muni_label": "Húnabyggð",
+      "party_code": "HBA",
+      "party_label": "HBA",
+      "tagline": "Öll saman — sameiginleg framtíð Húnabyggðar"
+    },
+    {
+      "id": "HUN.B",
+      "muni_slug": "hunabyggd",
+      "muni_label": "Húnabyggð",
+      "party_code": "B",
+      "party_label": "Framsóknarflokkurinn",
+      "tagline": "Framsókn og framfarasinnar í Húnabyggð"
+    },
+    {
+      "id": "HUN.D",
+      "muni_slug": "hunabyggd",
+      "muni_label": "Húnabyggð",
+      "party_code": "D",
+      "party_label": "Sjálfstæðisflokkurinn",
+      "tagline": "Sjálfstæðismenn og óháðir í Húnabyggð"
+    },
+    {
+      "id": "STY.FLS",
+      "muni_slug": "stykkisholmur",
+      "muni_label": "Stykkishólmur",
+      "party_code": "FLS",
+      "party_label": "FLS",
+      "tagline": "Framfaralisti Stykkishólms — byggjum upp bæinn saman"
+    },
+    {
+      "id": "STY.IBU",
+      "muni_slug": "stykkisholmur",
+      "muni_label": "Stykkishólmur",
+      "party_code": "IBU",
+      "party_label": "IBU",
+      "tagline": "Íbúalistinn — rödd íbúanna"
+    },
+    {
+      "id": "VES.NYS",
+      "muni_slug": "vesturbyggd",
+      "muni_label": "Vesturbyggð",
+      "party_code": "NYS",
+      "party_label": "NYS",
+      "tagline": "Nýrra sýnar — framtíðarsýn fyrir Vesturbyggð"
+    },
+    {
+      "id": "VES.STV",
+      "muni_slug": "vesturbyggd",
+      "muni_label": "Vesturbyggð",
+      "party_code": "STV",
+      "party_label": "STV",
+      "tagline": "Sterkari Vesturbyggð — saman getum við meira"
+    },
+    {
+      "id": "EYJ.EJF",
+      "muni_slug": "eyjafjardarsveit",
+      "muni_label": "Eyjafjarðarsveit",
+      "party_code": "EJF",
+      "party_label": "EJF",
+      "tagline": "F-listinn — öflugt landbúnaðarsamfélag í Eyjafirði"
+    },
+    {
+      "id": "EYJ.EJK",
+      "muni_slug": "eyjafjardarsveit",
+      "muni_label": "Eyjafjarðarsveit",
+      "party_code": "EJK",
+      "party_label": "EJK",
+      "tagline": "K-listinn — öflug Eyjafjarðarsveit"
+    },
+    {
+      "id": "HUN.B",
+      "muni_slug": "hunathing",
+      "muni_label": "Húnavatnshreppur",
+      "party_code": "B",
+      "party_label": "Framsóknarflokkurinn",
+      "tagline": "Framsókn og Framfarabandalag í Húnaþingi vestra"
+    },
+    {
+      "id": "HUN.D",
+      "muni_slug": "hunathing",
+      "muni_label": "Húnavatnshreppur",
+      "party_code": "D",
+      "party_label": "Sjálfstæðisflokkurinn",
+      "tagline": "Sjálfstæðisflokkur og óháðir í Húnaþingi vestra"
+    },
+    {
+      "id": "HUN.NHV",
+      "muni_slug": "hunathing",
+      "muni_label": "Húnavatnshreppur",
+      "party_code": "NHV",
+      "party_label": "NHV",
+      "tagline": "Ný öfl — nýjar hugmyndir í Húnaþingi vestra"
+    },
+    {
+      "id": "MYR.MYA",
+      "muni_slug": "myrdalshr",
+      "muni_label": "Mýrdalshreppur",
+      "party_code": "MYA",
+      "party_label": "MYA",
+      "tagline": "Listi allra — sameiginleg framtíð í Mýrdal"
+    },
+    {
+      "id": "MYR.MYZ",
+      "muni_slug": "myrdalshr",
+      "muni_label": "Mýrdalshreppur",
+      "party_code": "MYZ",
+      "party_label": "MYZ",
+      "tagline": "Listi Samfélagsins — öflugt Mýrdalshreppur"
+    },
+    {
+      "id": "BOL.MMM",
+      "muni_slug": "bolungarvik",
+      "muni_label": "Bolungarvík",
+      "party_code": "MMM",
+      "party_label": "MMM",
+      "tagline": "Máttur meyja og manna — saman erum við sterk"
+    },
+    {
+      "id": "BOL.BBK",
+      "muni_slug": "bolungarvik",
+      "muni_label": "Bolungarvík",
+      "party_code": "BBK",
+      "party_label": "BBK",
+      "tagline": "Betri Bolungarvík — nýtt líf í gamla bæinn"
+    },
+    {
+      "id": "HOR.D",
+      "muni_slug": "horgarsv",
+      "muni_label": "Hörgársveit",
+      "party_code": "D",
+      "party_label": "Sjálfstæðisflokkurinn",
+      "tagline": "Sjálfstæðisflokkur og óháðir í Hörgársveit"
+    },
+    {
+      "id": "HOR.HGH",
+      "muni_slug": "horgarsv",
+      "muni_label": "Hörgársveit",
+      "party_code": "HGH",
+      "party_label": "HGH",
+      "tagline": "H-listi Hörgársveitar — samvinna og þróun"
+    },
+    {
+      "id": "HRU.D",
+      "muni_slug": "hrunamannahreppur",
+      "muni_label": "Hrunamannahreppur",
+      "party_code": "D",
+      "party_label": "Sjálfstæðisflokkurinn",
+      "tagline": "Sjálfstæðismenn og óháðir í Hrunamannahreppi"
+    },
+    {
+      "id": "HRU.HRL",
+      "muni_slug": "hrunamannahreppur",
+      "muni_label": "Hrunamannahreppur",
+      "party_code": "HRL",
+      "party_label": "HRL",
+      "tagline": "L-listinn — íbúar í forgrunni í Hrunamannahreppi"
+    },
+    {
+      "id": "GRU.GFB",
+      "muni_slug": "grundarfjordur",
+      "muni_label": "Grundarfjörður",
+      "party_code": "GFB",
+      "party_label": "GFB",
+      "tagline": "Framsókn og Samfylking — áfram Grundarfjörður"
+    },
+    {
+      "id": "GRU.GFD",
+      "muni_slug": "grundarfjordur",
+      "muni_label": "Grundarfjörður",
+      "party_code": "GFD",
+      "party_label": "GFD",
+      "tagline": "Sjálfstæðisflokkur og óháðir — traust og framþróun"
+    },
+    {
+      "id": "GRI.B",
+      "muni_slug": "grindavik",
+      "muni_label": "Grindavík",
+      "party_code": "B",
+      "party_label": "Framsóknarflokkurinn",
+      "tagline": "Ásrún Helga Kristinsdóttir leiðir Framsókn í Grindavík"
+    },
+    {
+      "id": "GRI.D",
+      "muni_slug": "grindavik",
+      "muni_label": "Grindavík",
+      "party_code": "D",
+      "party_label": "Sjálfstæðisflokkurinn",
+      "tagline": "Guðbjörg Eyjólfsdóttir leiðir Sjálfstæðisflokkinn í Grindavík"
+    },
+    {
+      "id": "GRI.M",
+      "muni_slug": "grindavik",
+      "muni_label": "Grindavík",
+      "party_code": "M",
+      "party_label": "Miðflokkurinn",
+      "tagline": "Magnús Már Jakobsson leiðir Miðflokkinn í Grindavík"
+    },
+    {
+      "id": "HVA.HVB",
+      "muni_slug": "hvalfjardarsveit",
+      "muni_label": "Hvalfjarðarsveit",
+      "party_code": "HVB",
+      "party_label": "HVB",
+      "tagline": "Íbúahreyfingin Hvalfjörður — rödd þeirra sem búa hér"
+    },
+    {
+      "id": "FLO.FLT",
+      "muni_slug": "floahreppur",
+      "muni_label": "Flóahreppur",
+      "party_code": "FLT",
+      "party_label": "FLT",
+      "tagline": "T-listinn Flóa — samvinna og framfarir"
+    },
+    {
+      "id": "SKE.SGE",
+      "muni_slug": "skeidagnup",
+      "muni_label": "Skeiða- og Gnúpverjahreppur",
+      "party_code": "SGE",
+      "party_label": "SGE",
+      "tagline": "Uppbyggingarlistinn — framtíð Skeiða- og Gnúpverjahrepps"
+    },
+    {
+      "id": "SKE.SGL",
+      "muni_slug": "skeidagnup",
+      "muni_label": "Skeiða- og Gnúpverjahreppur",
+      "party_code": "SGL",
+      "party_label": "SGL",
+      "tagline": "Samvinnulistinn — samvinna og þróun"
+    },
+    {
+      "id": "SKA.D",
+      "muni_slug": "skaftarhreppur",
+      "muni_label": "Skaftárhreppur",
+      "party_code": "D",
+      "party_label": "Sjálfstæðisflokkurinn",
+      "tagline": "Sjálfstæðismenn og óháðir í Skaftárhreppi — byggðaþróun og velferð"
+    },
+    {
+      "id": "SKA.SKO",
+      "muni_slug": "skaftarhreppur",
+      "muni_label": "Skaftárhreppur",
+      "party_code": "SKO",
+      "party_label": "SKO",
+      "tagline": "Öflugt samfélag — samvinna íbúa í Skaftárhreppi"
+    },
+    {
+      "id": "VOP.VOP",
+      "muni_slug": "vopnafjordur",
+      "muni_label": "Vopnafjörður",
+      "party_code": "VOP",
+      "party_label": "VOP",
+      "tagline": "Vopnafjörður — eitt framboð, sameinaður hreppur"
+    },
+    {
+      "id": "SVA.SVSS",
+      "muni_slug": "svalbardsstrond",
+      "muni_label": "Svalbards- og Langadalshr.",
+      "party_code": "SVSS",
+      "party_label": "SVSS",
+      "tagline": "S-listi í Svalbarðsstrandarhreppi — samstaða og framþróun"
+    },
+    {
+      "id": "SVA.SVSH",
+      "muni_slug": "svalbardsstrond",
+      "muni_label": "Svalbards- og Langadalshr.",
+      "party_code": "SVSH",
+      "party_label": "SVSH",
+      "tagline": "Strönd til framtíðar — H-listi Svalbarðsstrandar"
+    },
+    {
+      "id": "SVA.SVSO",
+      "muni_slug": "svalbardsstrond",
+      "muni_label": "Svalbards- og Langadalshr.",
+      "party_code": "SVSO",
+      "party_label": "SVSO",
+      "tagline": "Ströndungur — Ö-listi í Svalbarðsstrandarhreppi"
+    },
+    {
+      "id": "SKA.B",
+      "muni_slug": "skagastrond",
+      "muni_label": "Skagaströnd",
+      "party_code": "B",
+      "party_label": "Framsóknarflokkurinn",
+      "tagline": "Framsókn og óháðir í Skagaströnd"
+    },
+    {
+      "id": "SKA.S",
+      "muni_slug": "skagastrond",
+      "muni_label": "Skagaströnd",
+      "party_code": "S",
+      "party_label": "Samfylkingin",
+      "tagline": "Samfylking og óháðir í Skagaströnd"
+    },
+    {
+      "id": "SKA.K",
+      "muni_slug": "skagastrond",
+      "muni_label": "Skagaströnd",
+      "party_code": "K",
+      "party_label": "Kex framboð",
+      "tagline": "Fyrir Skagaströnd — K-listi"
+    },
+    {
+      "id": "STR.B",
+      "muni_slug": "strandabyggd",
+      "muni_label": "Strandabyggð",
+      "party_code": "B",
+      "party_label": "Framsóknarflokkurinn",
+      "tagline": "Framsóknarmenn og óháðir í Strandabyggð"
+    },
+    {
+      "id": "STR.VGV",
+      "muni_slug": "strandabyggd",
+      "muni_label": "Strandabyggð",
+      "party_code": "VGV",
+      "party_label": "VGV",
+      "tagline": "Vegvísir — leiðum Strandabyggð í rétta átt"
+    },
+    {
+      "id": "STR.SBD",
+      "muni_slug": "strandabyggd",
+      "muni_label": "Strandabyggð",
+      "party_code": "SBD",
+      "party_label": "SBD",
+      "tagline": "Strandabandalagið — sameinuð um framtíðina"
+    },
+    {
+      "id": "KJO.KJA",
+      "muni_slug": "kjosarhreppur",
+      "muni_label": "Kjósarhreppur",
+      "party_code": "KJA",
+      "party_label": "KJA",
+      "tagline": "Íbúar í Kjós — A-listi Kjósarhrepps 2026"
+    },
+    {
+      "id": "REY.ROA",
+      "muni_slug": "reykholar",
+      "muni_label": "Reykhólar",
+      "party_code": "ROA",
+      "party_label": "ROA",
+      "tagline": "Raddir okkar allra — við tökum höndum saman"
+    },
+    {
+      "id": "REY.S",
+      "muni_slug": "reykholar",
+      "muni_label": "Reykhólar",
+      "party_code": "S",
+      "party_label": "Samfylkingin",
+      "tagline": "Samfylkingin í Reykhólahreppi"
+    },
+    {
+      "id": "SUD.FJL",
+      "muni_slug": "sudavik",
+      "muni_label": "Suðavík",
+      "party_code": "FJL",
+      "party_label": "FJL",
+      "tagline": "Fjarðarlistinn — hlutum okkur af framtíð Súðavíkur"
+    },
+    {
+      "id": "SUD.FTL",
+      "muni_slug": "sudavik",
+      "muni_label": "Suðavík",
+      "party_code": "FTL",
+      "party_label": "FTL",
+      "tagline": "Framtíðarlistinn — í átt að betri framtíð"
+    },
+    {
+      "id": "TJO.TJN",
+      "muni_slug": "tjornes",
+      "muni_label": "Þórshafnarhreppur",
+      "party_code": "TJN",
+      "party_label": "TJN",
+      "tagline": "Tjörnes — Eitt framboð"
+    }
+  ]
+}

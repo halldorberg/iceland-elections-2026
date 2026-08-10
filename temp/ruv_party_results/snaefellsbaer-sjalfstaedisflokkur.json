@@ -1,0 +1,15 @@
+{
+  "slug": "snaefellsbaer-sjalfstaedisflokkur",
+  "name": "Sjálfstæðisflokkur",
+  "color": "#41569D",
+  "answersString": "",
+  "abbreviation": "D",
+  "runningInConstituencies": [
+    {
+      "id": "3714",
+      "__typename": "Constituency"
+    }
+  ],
+  "answers": [],
+  "__typename": "Party"
+}

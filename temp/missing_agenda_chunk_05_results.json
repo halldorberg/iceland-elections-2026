@@ -1,0 +1,102 @@
+[
+  {
+    "muni_name": "Dalvíkurbyggð",
+    "code": "K",
+    "list_name": "K-listi Dalvíkurbyggðar",
+    "found": false,
+    "best_url": null,
+    "source_type": "none",
+    "notes": "K-listi (Helgi Einarsson) is an independent list and as of mid-April 2026 only the candidate roster has been published. The 2022-era kaffid.is/hedinsfjordur.is articles say the list 'increases grassroots democracy' and is 'still working on a comprehensive policy platform' — no 2026 stefnuskrá, op-ed, or dedicated party website found. No K-listi Facebook page identifiable from search.",
+    "fb_page_url": null
+  },
+  {
+    "muni_name": "Flóahreppur",
+    "code": "FLT",
+    "list_name": "T-listinn Flóa",
+    "found": true,
+    "best_url": "https://xtfloahreppi.is/",
+    "source_type": "official",
+    "notes": "T-listinn appears to have a dedicated party site at xtfloahreppi.is (returned by Google as 'Flóahreppur – Sveitarfélagið okkar allra!'). Direct fetch failed (ECONNREFUSED) at scan time but the domain is the official T-listi site according to search snippet listing four priorities (administration/operations, school/welfare, employment/livelihood/culture, environment/planning). Existing sunnlenska article in our data is about rival Framfaralistinn, not T-listinn. No FB page surfaced.",
+    "fb_page_url": null
+  },
+  {
+    "muni_name": "Hrunamannahreppur",
+    "code": "D",
+    "list_name": "Sjálfstæðismenn og óháðir í Hrunamannahreppi",
+    "found": false,
+    "best_url": "https://xd.is/jon-bjarnason/",
+    "source_type": "national-party-page",
+    "notes": "xd.is/jon-bjarnason confirms Jón Bjarnason as oddviti but contains no policy points or 2026 platform. xd.is/sveitastjornir/hrunamannahreppur shows only 2022 representatives and links to the national party 'Kosningaáherslur' (no muni-specific 2026 áherslur). No op-ed, dedicated site, or list-specific FB page found.",
+    "fb_page_url": null
+  },
+  {
+    "muni_name": "Húnaþing vestra",
+    "code": "B",
+    "list_name": "Framsókn og Framfarabandalag í Húnaþingi vestra",
+    "found": false,
+    "best_url": "https://huni.is/index.php?cid=22716&pid=32",
+    "source_type": "op-ed",
+    "notes": "huni.is article announces Sigurður Líndal as oddviti for Framsókn í Húnaþingi vestra 2026 but contains only a brief quote ('með stolti og af auðmýkt … gera samfélaginu okkar gagn') — not a substantive platform. No list-specific stefnuskrá, dedicated site, or FB page found. The framsokn.is muni page returned a 404 in subdir we tested.",
+    "fb_page_url": null
+  },
+  {
+    "muni_name": "Rangárþing eystra",
+    "code": "B",
+    "list_name": "Framsókn í Rangárþingi eystra",
+    "found": false,
+    "best_url": "https://www.dfs.is/frettir/kosningar/frambod-b-lista-i-rangathingi-eystra/",
+    "source_type": "op-ed",
+    "notes": "DFS.is article on B-listi Framsókn announcement quotes shared goal of 'bættum lífsgæðum, efla þjónustu við íbúa og styrkja uppbyggingu byggðar' but is light on detail and not really an op-ed. The 'saman-byggjum-vid-samfelag' URL in our existing data is an op-ed about Hveragerði D-listi (María Rún Þorsteinsdóttir), unrelated to Rafn Bergsson — that source link in candidates.js should be reviewed. No 2026 stefnuskrá or list-specific FB page found.",
+    "fb_page_url": null
+  },
+  {
+    "muni_name": "Skaftárhreppur",
+    "code": "SKO",
+    "list_name": "Öflugt samfélag (Ö-listi)",
+    "found": false,
+    "best_url": "https://www.sunnlenska.is/frettir/tvo-frambod-i-skaftarhreppi/",
+    "source_type": "op-ed",
+    "notes": "Sunnlenska article confirms Jóhannes Gissurarson leads Ö-listi 'Öflugt samfélag' (4 of 5 seats in 2022) but contains no policy/platform content beyond the candidate list. No dedicated party site, 2026 stefnuskrá, or FB page surfaced.",
+    "fb_page_url": null
+  },
+  {
+    "muni_name": "Svalbarðsstrandarhreppur",
+    "code": "SVSO",
+    "list_name": "Ströndungur (Ö-listi)",
+    "found": false,
+    "best_url": "https://www.svalbardsstrond.is/is/mannlifid/frettir/thrir-frambodslistar-samthykktir-vegna-sveitarstjornarkosninga",
+    "source_type": "none",
+    "notes": "Three lists confirmed (Samstaða S, Strönd til framtíðar H, Ströndungur Ö). Bjarni Þór Guðmundsson leads Ströndungur but no platform/áherslur, party site, or FB page found. The 'Ströndungur' name is also a long-running local newsletter section on svalbardsstrond.is — separate from this list. Kaffid.is roster article also has no policy detail.",
+    "fb_page_url": null
+  },
+  {
+    "muni_name": "Sveitarfélagið Stykkishólmur",
+    "code": "IBU",
+    "list_name": "Íbúalistinn",
+    "found": true,
+    "best_url": "https://www.mbl.is/frettir/innlent/2026/04/23/skuldsett_en_oflugt_sveitarfelag/",
+    "source_type": "op-ed",
+    "notes": "mbl.is interview with Sigurður Grétar Jónasson outlines Íbúalistinn 2026 priorities — fiscal restraint, debt paydown (3.3 bn ISK / ~2.3 m per resident), balance between development and discipline. mbl.is page is paywalled to WebFetch (403) but accessible publicly. Active list FB page exists (originally 2022 cycle, name covers 'Íbúalistinn Stykkishólmi og Helgafellssveit') and should be checked for 2026 posts/áherslur via Edge CDP.",
+    "fb_page_url": "https://www.facebook.com/IbualistinnStykkisholmiogHelgafellssveit/"
+  },
+  {
+    "muni_name": "Vopnafjarðarhreppur",
+    "code": "VOP",
+    "list_name": "Sterk stoð",
+    "found": false,
+    "best_url": "https://austurfrett.is/frettir/listi-sterkrar-stodhar-tilbuinn",
+    "source_type": "op-ed",
+    "notes": "Austurfrétt article quotes only generic stated goals — 'vinna að öflugu, jákvæðu og uppbyggilegu samfélagi á Vopnafirði' and 'stuðla að góðri og gagnsærri stjórnsýslu'. List was sjálfkjörið (only one list submitted, automatically elected). No dedicated stefnuskrá, party site, or FB page found.",
+    "fb_page_url": null
+  },
+  {
+    "muni_name": "Þingeyjarsveit",
+    "code": "THVN",
+    "list_name": "N-listi í Þingeyjarsveit",
+    "found": true,
+    "best_url": "https://www.mbl.is/frettir/innlent/2026/04/28/enn_deilt_um_mal_sem_klauf_sveitarstjornina/",
+    "source_type": "op-ed",
+    "notes": "mbl.is article (28 April 2026) covers N-listi positions across multiple issues — Eyþór Kári against EU negotiations, position on power plant in master plan, caution on school mergers, plan to rebuild Mývatnssveit pool. Substantive policy coverage in news format. No dedicated party site or list FB page surfaced; husavik.com and thingeyjarsveit.is announcements are roster-only.",
+    "fb_page_url": null
+  }
+]

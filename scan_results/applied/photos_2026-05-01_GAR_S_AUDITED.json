@@ -1,0 +1,207 @@
+{
+  "scan_type": "photos",
+  "scan_date": "2026-05-01",
+  "agent_note": "GAR.S photos from xs.is/frambjodendur-i-gardabae — official party site, replace all existing",
+  "results": [
+    {
+      "id": "GAR.S.1",
+      "muni_slug": "gardabaer",
+      "party_code": "S",
+      "ballot": 1,
+      "name": "Kjartan Atli Kjartansson",
+      "photo_url": "https://images.prismic.io/samfylkingin/afOoX8BOoF08xhPp_Kjartan.png?auto=format,compress",
+      "photo_local": "images/candidates/da7ff8d6f508600a.jpg",
+      "source": "https://xs.is/frambjodendur-i-gardabae"
+    },
+    {
+      "id": "GAR.S.2",
+      "muni_slug": "gardabaer",
+      "party_code": "S",
+      "ballot": 2,
+      "name": "Vilborg Anna Strange Garðarsdóttir",
+      "photo_url": "https://images.prismic.io/samfylkingin/afOoWMBOoF08xhPn_Vilborg.png?auto=format,compress",
+      "photo_local": "images/candidates/de2a269f8699a1fe.jpg",
+      "source": "https://xs.is/frambjodendur-i-gardabae"
+    },
+    {
+      "id": "GAR.S.3",
+      "muni_slug": "gardabaer",
+      "party_code": "S",
+      "ballot": 3,
+      "name": "Rakel Margrét Viggósdóttir",
+      "photo_url": "https://images.prismic.io/samfylkingin/afOoUsBOoF08xhPl_Rakel.png?auto=format,compress",
+      "photo_local": "images/candidates/d2fab1caa1df115a.jpg",
+      "source": "https://xs.is/frambjodendur-i-gardabae"
+    },
+    {
+      "id": "GAR.S.4",
+      "muni_slug": "gardabaer",
+      "party_code": "S",
+      "ballot": 4,
+      "name": "Vilmar Pétursson",
+      "photo_url": "https://images.prismic.io/samfylkingin/afOoS8BOoF08xhPj_Vilmar.png?auto=format,compress",
+      "photo_local": "images/candidates/ff26ea39ab9d1dbe.jpg",
+      "source": "https://xs.is/frambjodendur-i-gardabae"
+    },
+    {
+      "id": "GAR.S.5",
+      "muni_slug": "gardabaer",
+      "party_code": "S",
+      "ballot": 5,
+      "name": "Ögmundur Árni Sveinsson",
+      "photo_url": "https://images.prismic.io/samfylkingin/afOoRMBOoF08xhPg_%C3%96gmundur.png?auto=format,compress",
+      "photo_local": "images/candidates/41472cadfe5d1cc1.jpg",
+      "source": "https://xs.is/frambjodendur-i-gardabae"
+    },
+    {
+      "id": "GAR.S.6",
+      "muni_slug": "gardabaer",
+      "party_code": "S",
+      "ballot": 6,
+      "name": "Katrín Júlíusdóttir",
+      "photo_url": "https://images.prismic.io/samfylkingin/afOoPMBOoF08xhPe_Katr%C3%ADn.png?auto=format,compress",
+      "photo_local": "images/candidates/ddc07113896fcaaa.jpg",
+      "source": "https://xs.is/frambjodendur-i-gardabae"
+    },
+    {
+      "id": "GAR.S.7",
+      "muni_slug": "gardabaer",
+      "party_code": "S",
+      "ballot": 7,
+      "name": "Rósanna Andrésdóttir",
+      "photo_url": "https://images.prismic.io/samfylkingin/afOoNsBOoF08xhPc_R%C3%B3sanna.png?auto=format,compress",
+      "photo_local": "images/candidates/2c79e0301783f374.jpg",
+      "source": "https://xs.is/frambjodendur-i-gardabae"
+    },
+    {
+      "id": "GAR.S.9",
+      "muni_slug": "gardabaer",
+      "party_code": "S",
+      "ballot": 9,
+      "name": "Guðfinna Guðmundsdóttir",
+      "photo_url": "https://images.prismic.io/samfylkingin/afOoJsBOoF08xhPZ_Gu%C3%B0finna.png?auto=format,compress",
+      "photo_local": "images/candidates/6cf0e276fb579c01.jpg",
+      "source": "https://xs.is/frambjodendur-i-gardabae"
+    },
+    {
+      "id": "GAR.S.10",
+      "muni_slug": "gardabaer",
+      "party_code": "S",
+      "ballot": 10,
+      "name": "Ragnheiður Hergeirsdóttir",
+      "photo_url": "https://images.prismic.io/samfylkingin/afOoF8BOoF08xhPT_Ragnhei%C3%B0ur.png?auto=format,compress",
+      "photo_local": "images/candidates/e07a09352294a605.jpg",
+      "source": "https://xs.is/frambjodendur-i-gardabae"
+    },
+    {
+      "id": "GAR.S.11",
+      "muni_slug": "gardabaer",
+      "party_code": "S",
+      "ballot": 11,
+      "name": "Freyja Kvaran",
+      "photo_url": "https://images.prismic.io/samfylkingin/afOoD8BOoF08xhPQ_Freyja.png?auto=format,compress",
+      "photo_local": "images/candidates/548e0aabef59020c.jpg",
+      "source": "https://xs.is/frambjodendur-i-gardabae"
+    },
+    {
+      "id": "GAR.S.12",
+      "muni_slug": "gardabaer",
+      "party_code": "S",
+      "ballot": 12,
+      "name": "Jón Gunnlaugur Viggósson",
+      "photo_url": "https://images.prismic.io/samfylkingin/afOoBcBOoF08xhPM_J%2BonGunnlaugur.png?auto=format,compress",
+      "photo_local": "images/candidates/92bcb7ae3b6e8e50.jpg",
+      "source": "https://xs.is/frambjodendur-i-gardabae"
+    },
+    {
+      "id": "GAR.S.13",
+      "muni_slug": "gardabaer",
+      "party_code": "S",
+      "ballot": 13,
+      "name": "Ásdís Magnúsdóttir",
+      "photo_url": "https://images.prismic.io/samfylkingin/afOpocBOoF08xhRO_%C3%81sd%C3%ADs.png?auto=format,compress",
+      "photo_local": "images/candidates/0a3731adde7d15a2.jpg",
+      "source": "https://xs.is/frambjodendur-i-gardabae"
+    },
+    {
+      "id": "GAR.S.14",
+      "muni_slug": "gardabaer",
+      "party_code": "S",
+      "ballot": 14,
+      "name": "Ósk Sigurðardóttir",
+      "photo_url": "https://images.prismic.io/samfylkingin/afOn_cBOoF08xhPI_%C3%93Sk.png?auto=format,compress",
+      "photo_local": "images/candidates/50fa06df25c31a3c.jpg",
+      "source": "https://xs.is/frambjodendur-i-gardabae"
+    },
+    {
+      "id": "GAR.S.15",
+      "muni_slug": "gardabaer",
+      "party_code": "S",
+      "ballot": 15,
+      "name": "Stefán Arinbjarnarson",
+      "photo_url": "https://images.prismic.io/samfylkingin/afOn9cBOoF08xhPG_Stef%C3%A1n.png?auto=format,compress",
+      "photo_local": "images/candidates/7a6a35caeb78cdc2.jpg",
+      "source": "https://xs.is/frambjodendur-i-gardabae"
+    },
+    {
+      "id": "GAR.S.16",
+      "muni_slug": "gardabaer",
+      "party_code": "S",
+      "ballot": 16,
+      "name": "Greta Ósk Óskarsdóttir",
+      "photo_url": "https://images.prismic.io/samfylkingin/afOn58BOoF08xhPD_Gr%C3%A9ta.png?auto=format,compress",
+      "photo_local": "images/candidates/b6e15275cfda1345.jpg",
+      "source": "https://xs.is/frambjodendur-i-gardabae"
+    },
+    {
+      "id": "GAR.S.17",
+      "muni_slug": "gardabaer",
+      "party_code": "S",
+      "ballot": 17,
+      "name": "Birta Mjöll Antonsdóttir",
+      "photo_url": "https://images.prismic.io/samfylkingin/afOn4MBOoF08xhPB_Birta.png?auto=format,compress",
+      "photo_local": "images/candidates/c57bead5fc393300.jpg",
+      "source": "https://xs.is/frambjodendur-i-gardabae"
+    },
+    {
+      "id": "GAR.S.18",
+      "muni_slug": "gardabaer",
+      "party_code": "S",
+      "ballot": 18,
+      "name": "Heiða Mist Kristjánsdóttir",
+      "photo_url": "https://images.prismic.io/samfylkingin/afOnzcBOoF08xhO5_Hei%C3%B0a.png?auto=format,compress",
+      "photo_local": "images/candidates/166f207e705011e5.jpg",
+      "source": "https://xs.is/frambjodendur-i-gardabae"
+    },
+    {
+      "id": "GAR.S.19",
+      "muni_slug": "gardabaer",
+      "party_code": "S",
+      "ballot": 19,
+      "name": "Kristján Sveinbjörnsson",
+      "photo_url": "https://images.prismic.io/samfylkingin/afOnwMBOoF08xhO2_Kristj%C3%A1n.png?auto=format,compress",
+      "photo_local": "images/candidates/3b2636c297c7575b.jpg",
+      "source": "https://xs.is/frambjodendur-i-gardabae"
+    },
+    {
+      "id": "GAR.S.20",
+      "muni_slug": "gardabaer",
+      "party_code": "S",
+      "ballot": 20,
+      "name": "Rafn Svanur Oddsson",
+      "photo_url": "https://images.prismic.io/samfylkingin/afOnuMBOoF08xhO0_Rafn.png?auto=format,compress",
+      "photo_local": "images/candidates/007db577c2cd2787.jpg",
+      "source": "https://xs.is/frambjodendur-i-gardabae"
+    },
+    {
+      "id": "GAR.S.22",
+      "muni_slug": "gardabaer",
+      "party_code": "S",
+      "ballot": 22,
+      "name": "Guðmundur Andri Thorsson",
+      "photo_url": "https://images.prismic.io/samfylkingin/afOnsMBOoF08xhOw_Gu%C3%B0mundur.png?auto=format,compress",
+      "photo_local": "images/candidates/1bde25d0bdf3fc5f.jpg",
+      "source": "https://xs.is/frambjodendur-i-gardabae"
+    }
+  ]
+}

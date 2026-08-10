@@ -1,0 +1,321 @@
+{
+  "scan_type": "bios",
+  "scan_date": "2026-05-01",
+  "agent_note": "Agent A - slice 0-19",
+  "results": [
+    {
+      "id": "SKA.B.1",
+      "muni_slug": "skagafjordur",
+      "party_code": "B",
+      "ballot": 1,
+      "name": "Einar Eðvald Einarsson",
+      "age": null,
+      "bio": "Einar Eðvald Einarsson er bóndi frá Syðra-Skörðugili í Skagafirði og framkvæmdastjóri. Hann hefur leitt B-lista Framsóknarflokksins í Skagafirði, situr í sveitarstjórn og gegnir embætti forseta sveitarstjórnar Skagafjarðar. Hann er sonur Einars Eylerts Gíslasonar bónda á Syðra-Skörðugili. Einar Eðvald leiðir lista Framsóknar á ný í sveitarstjórnarkosningum 2026.",
+      "interests": ["sveitarstjórnarmál", "landbúnaður", "byggðaþróun", "samvinnufélög"],
+      "sources": [
+        "https://www.skagafjordur.is/is/stjornsysla/stjornskipulag/sveitarstjorn/svaitarstjorn",
+        "https://www.stjornarradid.is/library/03-Verkefni/Kosningar/Sveitarstjkosn2022/frambo%C3%B0slistar%20%C3%AD%20%C3%B6llum%20sveitarf%C3%A9l%C3%B6gum.pdf",
+        "https://www.skagafjordur.is/is/frettir/auglysing-um-fram-komin-frambod-vegna-sveitarstjornarkosninga-16-mai-2026"
+      ]
+    },
+    {
+      "id": "SKA.D.1",
+      "muni_slug": "skagafjordur",
+      "party_code": "D",
+      "ballot": 1,
+      "name": "Magnús Barðdal",
+      "age": 40,
+      "bio": "Magnús Barðdal Reynisson er lögfræðingur á Sauðárkróki og leiðir lista Sjálfstæðisflokksins í Skagafirði fyrir sveitarstjórnarkosningarnar 2026. Hann er BSc í viðskiptalögfræði og með ML-gráðu í lögfræði frá Háskólanum á Bifröst og hefur héraðsdómslögmannsréttindi. Magnús starfaði áður á lögfræðisviði Íbúðalánasjóðs og varð útibússtjóri Arion banka á Sauðárkróki árið 2015. Hann hefur starfað sem verkefnisstjóri fjárfestinga hjá Samtökum sveitarfélaga á Norðurlandi vestra (SSNV). Hann er kvæntur Önnu Hlín Jónsdóttur íþróttakennara og þau eiga tvö börn.",
+      "interests": ["sveitarstjórnarmál", "atvinnuþróun", "fjárfestingar", "lögfræði"],
+      "sources": [
+        "https://xd.is/2026/03/17/fullskipadur-frambodslisti-i-skagafirdi/",
+        "https://www.feykir.is/is/frettir/magnus-barddal-kynntur-sem-oddviti-sjalfstaedisflokksins-i-skagafirdi",
+        "https://www.mbl.is/vidskipti/frettir/2015/04/16/magnus_nyr_utibusstjori_a_saudarkroki/",
+        "https://www.ruv.is/frett/2021/08/10/nyr-verkefnisstjori-fjarfestinga-hja-ssnv"
+      ]
+    },
+    {
+      "id": "SKA.SFL.1",
+      "muni_slug": "skagafjordur",
+      "party_code": "SFL",
+      "ballot": 1,
+      "name": "Eyþór Fannar Sveinsson",
+      "age": null,
+      "bio": "Eyþór Fannar Sveinsson er byggingaverkfræðingur í Skagafirði og oddvitaefni Byggðalistans (Samstöðufólks í Skagafirði) í sveitarstjórnarkosningunum 2026. Hann hefur setið sem varamaður í sveitarstjórn Skagafjarðar. Eyþór hefur skrifað aðsendar greinar um sveitarstjórnarmál í Skagafirði, meðal annars um fjármál og rekstur sveitarfélagsins.",
+      "interests": ["sveitarstjórnarmál", "byggingaverkfræði", "fjármál sveitarfélaga", "byggðamál"],
+      "sources": [
+        "https://www.feykir.is/is/frettir/horfumst-i-augu-vid-stadreyndir-eythor-fannar-sveinsson-skrifar",
+        "https://www.skagafjordur.is/is/frettir/auglysing-um-fram-komin-frambod-vegna-sveitarstjornarkosninga-16-mai-2026"
+      ]
+    },
+    {
+      "id": "SKA.M.1",
+      "muni_slug": "skagafjordur",
+      "party_code": "M",
+      "ballot": 1,
+      "name": "Högni Elfar Gylfason",
+      "age": null,
+      "bio": "Högni Elfar Gylfason er sauðfjárbóndi og vélfræðingur í Skagafirði og leiðir lista Miðflokksins í sveitarstjórnarkosningunum 2026. Hann er varaþingmaður Miðflokksins og hefur verið virkur í stjórnmálum og hagsmunabaráttu landbúnaðarins. Hann skrifar reglulega aðsendar greinar um sveitarstjórnar- og byggðamál í Skagafirði. Þetta er fyrsta framboð Miðflokksins í sveitarfélaginu.",
+      "interests": ["sauðfjárrækt", "byggðamál", "sveitarstjórnarmál", "landsmál"],
+      "social": {
+        "facebook": "https://www.facebook.com/hognielfar.gylfason"
+      },
+      "sources": [
+        "https://www.feykir.is/is/frettir/listi-midflokksins-i-skagafirdi",
+        "https://midflokkurinn.is/timar-og-taekifaeri-i-skagafirdi",
+        "https://www.mbl.is/frettir/innlent/2026/02/28/midflokkurinn_bydur_fram_i_skagafirdi/",
+        "https://www.feykir.is/is/frettir/midflokkurinn-fyrir-skagfirdinga"
+      ]
+    },
+    {
+      "id": "SUD.M.1",
+      "muni_slug": "sudurnesjabaer",
+      "party_code": "M",
+      "ballot": 1,
+      "name": "Daði Bergþórsson",
+      "age": null,
+      "bio": "Daði Bergþórsson er búsettur í Sandgerði og leiðir lista Miðflokksins í Suðurnesjabæ í sveitarstjórnarkosningunum 2026. Hann hefur áður setið sem bæjarfulltrúi Framsóknarflokksins í Suðurnesjabæ og leitt þann lista í sveitarstjórnarkosningunum 2018. Daði hefur starfað sem deildarstjóri og hefur langa reynslu af sveitarstjórnarmálum á svæðinu.",
+      "interests": ["sveitarstjórnarmál", "byggðaþróun", "samfélagsmál"],
+      "sources": [
+        "https://www.vf.is/frettir/hvar-bua-thau-sem-aetla-ad-gaeta-hagsmuna-ibua-i-sudurnesjabae",
+        "https://www.ruv.is/frett/dadi-leidir-framsokn-i-sandgerdi-og-gardi",
+        "https://is-is.facebook.com/people/Da%C3%B0i-Berg%C3%BE%C3%B3rsson/100002132840284/"
+      ]
+    },
+    {
+      "id": "HOR.D.1",
+      "muni_slug": "hornafjordur",
+      "party_code": "D",
+      "ballot": 1,
+      "name": "Gauti Árnason",
+      "age": null,
+      "bio": "Gauti Árnason er verkstjóri hjá Vegagerðinni og forseti bæjarstjórnar Sveitarfélagsins Hornafjarðar. Hann hefur setið í bæjarstjórn fyrir Sjálfstæðisflokkinn og var kjörinn oddviti listans í prófkjöri 14. mars 2026, þar sem hann hlaut 168 atkvæði eða 52,2%. Hann leiðir D-lista Sjálfstæðisflokksins í sveitarstjórnarkosningunum 2026.",
+      "interests": ["sveitarstjórnarmál", "samgöngur", "atvinnumál", "byggðaþróun"],
+      "sources": [
+        "https://xd.is/2026/03/14/gauti-arnason-oddviti-sveitarfelagsins-hornafjardar/",
+        "https://xd.is/2026/03/27/fullskipadur-frambodslisti-sjalfstaedisflokksins-a-hornafirdi/",
+        "https://www.hornafjordur.is/stjornsysla/stjorn/baejarstjorn/"
+      ]
+    },
+    {
+      "id": "HOR.M.1",
+      "muni_slug": "hornafjordur",
+      "party_code": "M",
+      "ballot": 1,
+      "name": "Reynir Ásgeirsson",
+      "age": null,
+      "bio": "Reynir Ásgeirsson er framkvæmdastjóri og leiðir lista Miðflokksins í Sveitarfélaginu Hornafirði í sveitarstjórnarkosningunum 2026.",
+      "interests": ["sveitarstjórnarmál", "atvinnumál"],
+      "sources": [
+        "https://www.hornafjordur.is/stjornsysla/sveitarfelagid/frettasafn/frambodslistar-og-upplysingar-um-frambjodendur"
+      ],
+      "agent_note": "Search terms tried: 'Reynir Ásgeirsson Hornafjörður Miðflokkur', 'Reynir Ásgeirsson Hornafjörður framboð M-listi', 'Reynir Ásgeirsson Höfn í Hornafirði sveitarstjórn', 'Reynir Ásgeirsson Hornafjörður atvinnurekandi framkvæmdastjóri'. Multiple namesakes (academic, IMDb, footballer) make disambiguation hard; no clear bio details surfaced."
+    },
+    {
+      "id": "VOG.FYRS.1",
+      "muni_slug": "vogar",
+      "party_code": "FYRS",
+      "ballot": 1,
+      "name": "Gunnar J. Helgason",
+      "age": null,
+      "bio": "Gunnar J. Helgason (Gunnar Júlíus Helgason) er pípari og leiðir A-lista 'Fyrir samfélagið' í Vogum í sveitarstjórnarkosningunum 2026. Hann hefur verið mjög virkur í íþrótta- og félagsmálum í sveitarfélaginu, var formaður Ungmennafélagsins Þróttar í Vogum frá 19 ára aldri 1993 og tók síðan við formennsku á ný 2015. Hann lék með félaginu í þremur greinum, körfubolta, handbolta og fótbolta, og varð fyrstur leikmanna félagsins til að spila 100 leiki. Hann fékk menningarverðlaun Sveitarfélagsins Voga ásamt Þrótti fyrir áratugaframlag sitt til íþrótta- og menningarstarfs.",
+      "interests": ["íþróttastarf", "félagsstarf", "ungmennafélag", "sveitarstjórnarmál"],
+      "sources": [
+        "https://throtturvogum.is/hagnadur-vard-af-rekstri-knattspyrnudeildar-og-gunnar-j-helgason-afram-formadur/",
+        "https://www.vf.is/mannlif/gunnar-og-throttur-fengu-menningarverdlaun-1",
+        "https://www.vogar.is/is/stjornsysla/vogar/frettir/knattspyrnudeild-throttar-vogum",
+        "https://www.vogar.is/is/stjornsysla/vogar/frettir/gunnar-buinn-ad-spila-100-leiki-fyrir-thrott",
+        "https://www.vogar.is/is/stjornsysla/vogar/frettir/frambodslistar-i-sveitarstjornarkosningum"
+      ]
+    },
+    {
+      "id": "VOG.D.1",
+      "muni_slug": "vogar",
+      "party_code": "D",
+      "ballot": 1,
+      "name": "Björg Ásta Þórðardóttir",
+      "age": null,
+      "bio": "Björg Ásta Þórðardóttir er lögfræðingur í Vogum og leiðir D-lista Sjálfstæðisflokksins í sveitarstjórnarkosningunum 2026. Hún lauk meistaraprófi í lögfræði frá Háskóla Íslands árið 2014 og fékk héraðsdómslögmannsréttindi 2015. Björg Ásta starfaði sem yfirlögfræðingur Samtaka iðnaðarins frá 2015, áður sem lögmaður hjá Samtökum atvinnulífsins og á Lögmannastofu Reykjavíkur, og var lögreglumaður á Suðurnesjum. Hún var aðstoðarmaður Guðrúnar Hafsteinsdóttur dómsmálaráðherra 2023–2024 og gegndi embætti framkvæmdastjóra Sjálfstæðisflokksins í Valhöll frá apríl 2025 fram í desember 2025. Björg Ásta er fyrrverandi atvinnumaður í knattspyrnu og lék með íslenska kvennalandsliðinu, hún býr í Vogum með sambýliskonu sinni Ósk Laufeyju Breiðfjörð og þau eiga þrjú börn.",
+      "interests": ["lögfræði", "knattspyrna", "sveitarstjórnarmál", "atvinnulíf"],
+      "sources": [
+        "https://www.dv.is/frettir/2025/04/04/nyr-framkvaemdastjori-hja-sjalfstaedisflokknum/",
+        "https://www.mbl.is/frettir/innlent/2025/04/04/bjorg_asta_thordardottir_nyr_framkvaemdastjori_i_va/",
+        "https://www.visir.is/g/20252710480d/bjorg-asta-nyr-framkvaemdastjori-sjalfstaedisflokksins",
+        "https://www.mbl.is/frettir/innlent/2025/11/25/tryggvi_tekur_vid_af_bjorgu_i_valholl/",
+        "https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2023/09/21/Bjorg-Asta-Thordardottir-adstodar-domsmalaradherra/",
+        "https://www.ksi.is/mot/leikmadur/?leikmadur=29807"
+      ]
+    },
+    {
+      "id": "VOG.VOE.1",
+      "muni_slug": "vogar",
+      "party_code": "VOE",
+      "ballot": 1,
+      "name": "Birgir Örn Ólafsson",
+      "age": null,
+      "bio": "Birgir Örn Ólafsson er deildarstjóri og forseti bæjarstjórnar Sveitarfélagsins Voga. Hann leiðir E-lista (Framboðsfélag E-listans) í sveitarstjórnarkosningunum 2026 og hefur áralanga reynslu af sveitarstjórnarmálum, hefur setið sem aðalmaður í bæjarstjórn frá 2015 og áður gegnt embætti forseta bæjarstjórnar. Hann er kynntur sem reyndur sveitarstjórnarmaður sem leiðir lista með blöndu af reyndu fólki og nýjum röddum úr samfélaginu.",
+      "interests": ["sveitarstjórnarmál", "byggðaþróun", "samfélagsmál"],
+      "sources": [
+        "https://www.vf.is/frettir/e-listinn-i-vogum-kynnir-frambodslista-sinn-birgir-orn-leidir-hopinn",
+        "https://kosningasaga.wordpress.com/2026/04/13/frambodslisti-e-listans-i-vogum-2/",
+        "https://www.vogar.is/is/stjornsysla/stjornkerfi/fundargerdir/baejarstjorn-sveitarfelagsins-voga/116",
+        "https://www.vogar.is/is/stjornsysla/stjornkerfi/fundargerdir/baejarstjorn-sveitarfelagsins-voga/1240"
+      ]
+    },
+    {
+      "id": "VOG.VOL.1",
+      "muni_slug": "vogar",
+      "party_code": "VOL",
+      "ballot": 1,
+      "name": "Kristinn Björgvinsson",
+      "age": null,
+      "bio": "Kristinn Björgvinsson er verkefnastjóri og bæjarfulltrúi Sveitarfélagsins Voga, og leiðir L-lista (Framfarafélag L-listans) í sveitarstjórnarkosningunum 2026. Hann hefur einnig gegnt embætti forseta bæjarstjórnar Voga.",
+      "interests": ["sveitarstjórnarmál", "samfélagsmál", "byggðaþróun"],
+      "sources": [
+        "https://kosningasaga.wordpress.com/2026/03/28/frambodslisti-l-listans-i-vogum-2/",
+        "https://www.vogar.is/is/stjornsysla/vogar/frettir/frambodslistar-i-sveitarstjornarkosningum"
+      ]
+    },
+    {
+      "id": "SNA.D.1",
+      "muni_slug": "snaefellsbaer",
+      "party_code": "D",
+      "ballot": 1,
+      "name": "Auður Kjartansdóttir",
+      "age": null,
+      "bio": "Auður Kjartansdóttir er fjármálastjóri Fiskmarkaðs Íslands og bæjarfulltrúi í Snæfellsbæ. Hún leiðir D-lista Sjálfstæðisflokksins í Snæfellsbæ í sveitarstjórnarkosningunum 2026 og hefur áður setið í bæjarstjórn fyrir flokkinn. Auður er stjórnarformaður Brúar lífeyrissjóðs starfsmanna sveitarfélaga, situr í stjórn Landssamtaka lífeyrissjóða og á sæti í Heilbrigðisnefnd Vesturlands fyrir hönd Snæfellsbæjar á kjörtímabilinu 2022–2026.",
+      "interests": ["fjármál sveitarfélaga", "lífeyrismál", "sveitarstjórnarmál", "atvinnumál"],
+      "sources": [
+        "https://xd.is/2026/03/27/fullskipadur-frambodslisti-sjalfstaedisflokksins-i-snaefellsbae/",
+        "https://kosningasaga.wordpress.com/2026/03/26/frambodslisti-sjalfstaedisflokksins-i-snaefellsbae-2/",
+        "https://www.lifbru.is/is/um-bru/stjorn",
+        "https://www.hev.is/index.php/heilbrigdhiseftirlit/um-okkur/heilbrigdhisnefnd"
+      ]
+    },
+    {
+      "id": "HUN.B.1",
+      "muni_slug": "hunathing",
+      "party_code": "B",
+      "ballot": 1,
+      "name": "Sigurður Líndal Þórison",
+      "age": null,
+      "bio": "Sigurður Líndal Þórison er framkvæmdastjóri Selaseturs Íslands á Hvammstanga og leiðir lista Framsóknarflokks og annarra framfarasinna í Húnaþingi vestra í sveitarstjórnarkosningunum 2026. Hann er fæddur og uppalinn á Lækjamóti í Víðidal og býr nú á Hvammstanga. Sigurður er menntaður leikari frá ArtsEd í London og er með meistaragráðu í menningarstjórnun frá Birkbeck-háskóla í London. Hann hefur víðtæka reynslu af menningarmálum, nýsköpun, byggðaþróun og atvinnurekstri, þar á meðal framkvæmdastjórastöðu hjá stóru fyrirtæki erlendis.",
+      "interests": ["menningarmál", "byggðaþróun", "atvinnumál", "ferðaþjónusta", "leiklist"],
+      "sources": [
+        "https://huni.is/index.php?cid=22716&pid=32",
+        "https://www.feykir.is/is/frettir/sigurdur-lindal-i-stjorn-markadsstofu-nordurlands"
+      ]
+    },
+    {
+      "id": "HUN.D.1",
+      "muni_slug": "hunathing",
+      "party_code": "D",
+      "ballot": 1,
+      "name": "Örn Arnarson",
+      "age": null,
+      "bio": "Örn Arnarson er framkvæmdastjóri og leiðir D-lista Sjálfstæðismanna og óháðra í Húnaþingi vestra í sveitarstjórnarkosningunum 2026. Hann býr á Laugarbakka og tekur við oddvitasæti listans af Magnúsi Magnússyni, sem færir sig í þriðja sætið.",
+      "interests": ["sveitarstjórnarmál", "atvinnumál", "byggðamál"],
+      "sources": [
+        "https://www.huni.is/index.php?pid=32&cid=22730",
+        "https://kosningasaga.wordpress.com/2026/04/08/frambodslisti-sjalfstaedismanna-og-ohadra-i-hunathingi-vestra-2/"
+      ]
+    },
+    {
+      "id": "HUN.NHV.1",
+      "muni_slug": "hunathing",
+      "party_code": "NHV",
+      "ballot": 1,
+      "name": "Viktor Ingi Jónsson",
+      "age": null,
+      "bio": "Viktor Ingi Jónsson er kennari við Grunnskóla Húnaþings vestra og bæjarfulltrúi (varamaður) í sveitarstjórn frá 2022, þar sem hann leiðir framboðið N-listann í sveitarstjórnarkosningunum 2026. Hann er með B.Ed. í kennslufræðum frá Háskólanum á Akureyri, lauk stúdentsprófi frá Kvennaskólanum í Reykjavík og er í MT-námi til kennsluréttinda við HA. Áður starfaði hann sem stuðningsfulltrúi við skólann og á félagsmiðstöðinni Óríon (2019–2023) og hefur þjálfað yngri flokka í knattspyrnu hjá Kormáki frá 2018. Hann sat í ungmennaráði sveitarfélagsins 2019–2021. Viktor býr á Hvammstanga með sambýliskonu sinni Dagrúnu Sól Barkardóttur og þau eiga einn son.",
+      "interests": ["menntamál", "knattspyrna", "ungmennastarf", "sveitarstjórnarmál"],
+      "sources": [
+        "https://www.hunathing.is/is/viktor-ingi-jonsson",
+        "https://www.hunathing.is/is/stjornsysla/stjornkerfi/sveitarstjorn"
+      ]
+    },
+    {
+      "id": "HOR.D.1",
+      "muni_slug": "horgarsv",
+      "party_code": "D",
+      "ballot": 1,
+      "name": "Árni Rúnar Örvarsson",
+      "age": 32,
+      "bio": "Árni Rúnar Örvarsson er framkvæmdastjóri og leiðir D-lista Sjálfstæðismanna og óháðra í Hörgársveit í sveitarstjórnarkosningunum 2026. Hann er fæddur 1994 og býr að Reynihlíð 17 D í Hörgársveit. D-listinn er nýtt framboð í sveitarfélaginu sem var samþykktur einróma á opnum fundi, í fyrsta sinn í átta ár sem nýtt framboð leggur upp í kosningabaráttu þar.",
+      "interests": ["sveitarstjórnarmál", "atvinnumál", "byggðaþróun"],
+      "sources": [
+        "https://kaffid.is/d-listi-sjalfstaedismanna-og-ohadra-i-horgarsveit/",
+        "https://kaffid.is/thrir-listar-i-kjori-i-horgarsveit/",
+        "https://utvarpsaga.is/nytt-frambod-sjalfstaedismanna-og-ohadra-i-horgarsveit/",
+        "https://www.vikubladid.is/is/moya/news/sveitarstjornarkosningar-2026-thrir-listar-i-kjori-i-horgarsveit"
+      ]
+    },
+    {
+      "id": "HOR.HGH.1",
+      "muni_slug": "horgarsv",
+      "party_code": "HGH",
+      "ballot": 1,
+      "name": "Bjarki Brynjólfsson",
+      "age": 36,
+      "bio": "Bjarki Brynjólfsson er lögfræðingur og leiðir H-lista Hörgársveitar í sveitarstjórnarkosningunum 2026. Hann er fæddur 1990 og býr í Hvergilandi í Hörgársveit.",
+      "interests": ["lögfræði", "sveitarstjórnarmál", "byggðamál"],
+      "sources": [
+        "https://kaffid.is/thrir-listar-i-kjori-i-horgarsveit/",
+        "https://www.vikubladid.is/is/moya/news/sveitarstjornarkosningar-2026-thrir-listar-i-kjori-i-horgarsveit"
+      ]
+    },
+    {
+      "id": "HRU.D.1",
+      "muni_slug": "hrunamannahreppur",
+      "party_code": "D",
+      "ballot": 1,
+      "name": "Jón Bjarnason",
+      "age": null,
+      "bio": "Jón Bjarnason er bóndi á Skipholti í Hrunamannahreppi, búfræðingur, verktaki og ferða- og sauðfjárbóndi. Hann situr í sveitarstjórn Hrunamannahrepps og er oddviti D-lista Sjálfstæðismanna og óháðra. Hann leiðir lista Sjálfstæðisflokksins í sveitarstjórnarkosningunum 2026.",
+      "interests": ["sauðfjárrækt", "ferðaþjónusta", "sveitarstjórnarmál", "byggðamál"],
+      "sources": [
+        "https://xd.is/jon-bjarnason/",
+        "https://kosningasaga.wordpress.com/2026/03/09/frambodslisti-sjalfstaedismanna-og-ohadra-i-hrunamannahreppi-2/",
+        "https://xd.is/sveitastjornir/hrunamannahreppur/",
+        "https://www.fludir.is/is/stjornsysla/sveitarstjorn/sveitarstjorn"
+      ]
+    },
+    {
+      "id": "HRU.HRL.1",
+      "muni_slug": "hrunamannahreppur",
+      "party_code": "HRL",
+      "ballot": 1,
+      "name": "Daði Geir Samúelsson",
+      "age": null,
+      "bio": "Daði Geir Samúelsson er rekstrarstjóri og fjármálastjóri Sólskins, gróðurhúsa- og landbúnaðarfyrirtækis á Flúðum sem hefur ræktað tómata og gúrkur frá árinu 1944. Hann er uppalinn í Hrunamannahreppi og leiðir L-lista í sveitarstjórnarkosningunum 2026, þar sem hann situr nú þegar sem aðalmaður í sveitarstjórn fyrir L-listann.",
+      "interests": ["landbúnaður", "garðyrkja", "sveitarstjórnarmál", "atvinnumál"],
+      "social": {
+        "linkedin": "https://www.linkedin.com/in/dadigeir/"
+      },
+      "sources": [
+        "https://www.linkedin.com/in/dadigeir/",
+        "https://kosningasaga.wordpress.com/2026/04/06/frambodslisti-l-listans-i-hrunamannahreppi-2/",
+        "https://www.solskinsbudin.is/about-us",
+        "https://www.fludir.is/is/stjornsysla/sveitarstjorn/sveitarstjorn"
+      ]
+    },
+    {
+      "id": "HVA.HVA.1",
+      "muni_slug": "hvalfjardarsveit",
+      "party_code": "HVA",
+      "ballot": 1,
+      "name": "Haraldur Benediktsson",
+      "age": 60,
+      "bio": "Haraldur Benediktsson er bóndi á Vestra-Reyni undir Akrafjalli og fyrrverandi alþingismaður og bæjarstjóri Akraneskaupstaðar. Hann er fæddur 23. janúar 1966 og hefur búið á Vestra-Reyni frá 1995. Haraldur sat á Alþingi fyrir Sjálfstæðisflokkinn í Norðvesturkjördæmi 2013–2023 og átti meðal annars sæti í efnahags- og viðskiptanefnd, fjárlaganefnd og stjórnskipunar- og eftirlitsnefnd. Hann tók við starfi bæjarstjóra Akraneskaupstaðar í apríl 2023 en sagði því starfi lausu vorið 2026 til að leiða A-lista Samhentrar sveitar í Hvalfjarðarsveit. Áður gegndi hann formennsku í Búnaðarsamtökum Vesturlands 2002–2005 og var formaður Bændasamtaka Íslands. Haraldur er kvæntur Lilju Guðrúnu Eyþórsdóttur og þau eiga þrjú börn.",
+      "interests": ["landbúnaður", "byggðamál", "sveitarstjórnarmál", "samgöngur", "atvinnumál"],
+      "sources": [
+        "https://is.wikipedia.org/wiki/Haraldur_Benediktsson",
+        "https://www.althingi.is/altext/cv/is/?nfaerslunr=1164",
+        "https://www.ruv.is/frettir/innlent/2026-04-10-haettir-sem-baejarstjori-a-skaganum-og-fer-i-frambod-i-hvalfjardarsveit-472397",
+        "https://skessuhorn.is/2026/04/10/a-listi-samhentrar-sveitar-bydur-fram-i-hvalfjardarsveit",
+        "https://bb.is/2023/03/haraldur-benediktsson-althm-hefur-verid-radinn-baejarstjori-akraneskaupstadar/",
+        "https://skessuhorn.is/adsendar-greinar/a-listi-samhent-sveit-i-hvalfjardarsveit"
+      ]
+    }
+  ]
+}

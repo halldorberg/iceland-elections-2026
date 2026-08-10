@@ -1,0 +1,421 @@
+{
+  "scan_type": "bios",
+  "scan_date": "2026-05-01",
+  "agent_note": "Agent B",
+  "results": [
+    {
+      "id": "SKE.SGE.1",
+      "muni_slug": "skeidagnup",
+      "party_code": "SGE",
+      "ballot": 1,
+      "name": "Gunnar Örn Marteinsson",
+      "age": null,
+      "bio": "Gunnar Örn Marteinsson er ferðaþjónustubóndi á Steinsholti í Skeiða- og Gnúpverjahreppi þar sem hann rekur ferðaþjónustu með áherslu á hestaferðir, gistingu og gönguferðir. Hann hefur verið virkur í sveitarstjórnarmálum í áratugi og gegndi starfi oddvita og sveitarstjóra Skeiða- og Gnúpverjahrepps á árunum 2010–2012, meðal annars þegar samningar voru undirritaðir við Landsvirkjun. Hann skipar nú efsta sæti á sínum lista fyrir sveitarstjórnarkosningarnar 2026.",
+      "interests": [
+        "Ferðaþjónusta",
+        "Hestamennska",
+        "Sveitarstjórnarmál",
+        "Landbúnaður"
+      ],
+      "social": {},
+      "sources": [
+        "https://www.steinsholt.is/ridingtours/",
+        "https://grapevine.is/news/2013/09/13/horsing-around-in-steinholt/",
+        "https://www.mbl.is/frettir/innlent/2011/05/05/taka_yfir_sundlaug_i_thjorsardal/"
+      ]
+    },
+    {
+      "id": "SKE.SGL.1",
+      "muni_slug": "skeidagnup",
+      "party_code": "SGL",
+      "ballot": 1,
+      "name": "Haraldur Þór Jónsson",
+      "age": null,
+      "bio": "Haraldur Þór Jónsson er oddviti Skeiða- og Gnúpverjahrepps og bóndi á Hraunvöllum. Hann leiddi Samvinnulistann (L-listann) til hreins meirihluta í sveitarstjórnarkosningunum 2022 þegar listinn fékk þrjá af fimm fulltrúum og hefur gegnt embætti oddvita síðan. Hann hefur verið áberandi í umræðum um orkumál og ferðaþjónustu á svæðinu, þar á meðal um Búrfellslund og uppbyggingu í Þjórsárdal.",
+      "interests": [
+        "Sveitarstjórnarmál",
+        "Landbúnaður",
+        "Orkumál",
+        "Ferðaþjónusta"
+      ],
+      "social": {},
+      "sources": [
+        "https://www.sunnlenska.is/frettir/samvinnulistinn-med-hreinan-meirihluta/",
+        "https://www.buzzsprout.com/2322361/episodes/16988148-haraldur-thor-jonsson-oddviti-skeida-og-gnupverjahrepps",
+        "https://www.visir.is/g/20242520279d/burfellslundur-fyrir-hvern-",
+        "https://www.visir.is/g/20222264307d/l-listinn-med-thrja-af-fimm-fulltruum-i-skeida-og-gnupverjahreppi"
+      ]
+    },
+    {
+      "id": "SKA.D.1",
+      "muni_slug": "skaftarhreppur",
+      "party_code": "D",
+      "ballot": 1,
+      "name": "Sveinn Hreiðar Jensson",
+      "age": null,
+      "bio": "Sveinn Hreiðar Jensson er hótelstjóri Hótels Klausturs á Kirkjubæjarklaustri og sveitarstjórnarfulltrúi í Skaftárhreppi. Hann hlaut menntun sína í hótelstjórnun í Sviss og hefur leitt rekstur hótelsins með áherslu á staðbundin hráefni og samvinnu við nærsamfélagið. Sveinn skipar efsta sæti D-lista Sjálfstæðisflokks og óháðra í Skaftárhreppi fyrir sveitarstjórnarkosningarnar 2026.",
+      "interests": [
+        "Ferðaþjónusta",
+        "Hótelrekstur",
+        "Sveitarstjórnarmál",
+        "Atvinnuuppbygging"
+      ],
+      "social": {},
+      "sources": [
+        "https://www.sunnlenska.is/frettir/tvo-frambod-i-skaftarhreppi/",
+        "https://hotelklaustur.is/about-us/",
+        "https://scanmagazine.co.uk/hotel-klaustur-experience-the-powerful-tranquility-of-iceland/",
+        "https://xd.is/sveitastjornir/skaftarhreppur/"
+      ]
+    },
+    {
+      "id": "SKA.SKO.1",
+      "muni_slug": "skaftarhreppur",
+      "party_code": "SKO",
+      "ballot": 1,
+      "name": "Jóhannes Gissurarson",
+      "age": null,
+      "bio": "Jóhannes Gissurarson er bóndi á Herjólfsstöðum í Álftaveri og oddviti Skaftárhrepps. Hann hefur verið áberandi í umræðum um almannavarnir, rýmingaráætlanir og samskipti sveitarfélaga við ríkisstofnanir, meðal annars í kjölfar jökulhlaups í Skálm sumarið 2024 þar sem hann gagnrýndi viðbrögð yfirvalda og kallaði eftir bættum fjarskiptum á svæðinu. Hann leiðir lista Þróttar í sveitarstjórnarkosningunum 2026.",
+      "interests": [
+        "Landbúnaður",
+        "Almannavarnir",
+        "Sveitarstjórnarmál",
+        "Náttúruvá"
+      ],
+      "social": {},
+      "sources": [
+        "https://www.mbl.is/frettir/innlent/2024/07/30/var_bara_ekkert_hlustad_a_okkur/",
+        "https://www.mbl.is/frettir/innlent/2024/09/09/kominn_timi_a_nyja_rymingaraaetlun/",
+        "https://www.sunnlenska.is/frettir/tvo-frambod-i-skaftarhreppi/"
+      ]
+    },
+    {
+      "id": "VOP.VOP.1",
+      "muni_slug": "vopnafjordur",
+      "party_code": "VOP",
+      "ballot": 1,
+      "name": "Íris Edda Jónsdóttir",
+      "age": null,
+      "bio": "Íris Edda Jónsdóttir er verkefnastjóri stjórnsýslu hjá Vopnafjarðarhreppi og staðgengill sveitarstjóra. Hún hefur gegnt ritarastörfum fyrir sveitarstjórn og umhverfis- og framkvæmdaráð auk þess að taka virkan þátt í starfi grunnskólans á Vopnafirði sem bekkjarfulltrúi. Hún leiðir framboðslistann Sterka stoð í Vopnafirði fyrir sveitarstjórnarkosningarnar 2026 og varð sjálfkjörin þar sem listinn var sá eini sem skilað var inn.",
+      "interests": [
+        "Stjórnsýsla",
+        "Sveitarstjórnarmál",
+        "Skólastarf",
+        "Samfélagsmál"
+      ],
+      "social": {},
+      "sources": [
+        "https://www.visir.is/g/20262869385d/sjalfkjorid-a-vopnafirdi",
+        "https://austurfrett.is/frettir/sjalfkjoeridh-a-vopnafirdhi",
+        "https://vopnafjardarhreppur.is/stjornsysla/sveitarstjorn/fundargerdir/sveitarstjorn/225",
+        "https://www.vopnaskoli.is/is/nemendur/bekkjarfulltruar"
+      ]
+    },
+    {
+      "id": "VES.D.2",
+      "muni_slug": "vestmannaeyjar",
+      "party_code": "D",
+      "ballot": 2,
+      "name": "Trausti Hjaltason",
+      "age": 43,
+      "bio": "Trausti Hjaltason er 43 ára áhættustjóri og bæjarfulltrúi Sjálfstæðisflokksins í Vestmannaeyjum. Hann situr í bæjarráði og skólanefnd Framhaldsskólans í Vestmannaeyjum. Í prófkjöri Sjálfstæðisflokksins í mars 2026 hafnaði hann í 2. sæti og skipar nú annað sæti listans fyrir sveitarstjórnarkosningarnar 2026.",
+      "interests": [
+        "Sveitarstjórnarmál",
+        "Áhættustjórnun",
+        "Skólamál",
+        "Atvinnumál"
+      ],
+      "social": {},
+      "sources": [
+        "https://xd.is/trausti-hjaltason/",
+        "https://xd.is/2026/03/31/frambodslisti-sjalfstaedisflokksins-i-vestmannaeyjum/",
+        "https://xd.is/2026/03/14/lokatolur-fra-vestmannaeyjum-eythor-efstur/",
+        "https://eyjafrettir.is/tag/trausti-hjaltason/"
+      ]
+    },
+    {
+      "id": "VES.E.2",
+      "muni_slug": "vestmannaeyjar",
+      "party_code": "E",
+      "ballot": 2,
+      "name": "Anton Örn Björnsson",
+      "age": 34,
+      "bio": "Anton Örn Björnsson er 34 ára kennari og félagsráðgjafi sem starfar sem umsjónarkennari í 5. bekk Barnaskóla Vestmannaeyja. Hann er með diplóma í samskiptum og forvörnum og er kvæntur Ástu Lilíu Gunnarsdóttur þroskaþjálfa og eiga þau tvo syni. Hann skipar 2. sæti á Eyjalistanum fyrir sveitarstjórnarkosningarnar 2026 og leggur áherslu á þrautseigju, jákvæðni og varfærni í ákvarðanatöku.",
+      "interests": [
+        "Skólamál",
+        "Æskulýðsmál",
+        "Forvarnir",
+        "Samfélagsmál"
+      ],
+      "social": {},
+      "sources": [
+        "https://eyjafrettir.is/spurt-og-svarad-anton-orn-fra-eyjalistanum/",
+        "https://eyjafrettir.is/folkid-okkar-og-framtidin/"
+      ]
+    },
+    {
+      "id": "VES.M.2",
+      "muni_slug": "vestmannaeyjar",
+      "party_code": "M",
+      "ballot": 2,
+      "name": "Sæunn Magnúsdóttir",
+      "age": 38,
+      "bio": "Sæunn Magnúsdóttir er 38 ára lögfræðingur sem hefur til margra ára starfað sem fulltrúi og staðgengill sýslumannsins í Vestmannaeyjum. Hún hefur setið sem varabæjarfulltrúi, í bæjarráði og hafnarstjórn auk þess að sitja í stjórn Herjólfs og hafa gegnt formennsku ÍBV. Hún skipar 2. sæti á lista Miðflokksins í Vestmannaeyjum fyrir sveitarstjórnarkosningarnar 2026 og leggur áherslu á ábyrgan rekstur, samgöngumál og atvinnumál.",
+      "interests": [
+        "Lögfræði",
+        "Samgöngumál",
+        "Atvinnumál",
+        "Íþróttastarf"
+      ],
+      "social": {},
+      "sources": [
+        "https://eyjafrettir.is/spurt-og-svarad-saeunn-fra-midflokknum/",
+        "https://www.ibvsport.is/staff/view/saeunn-magnusdottir"
+      ]
+    },
+    {
+      "id": "SKA.B.2",
+      "muni_slug": "skagafjordur",
+      "party_code": "B",
+      "ballot": 2,
+      "name": "Hrund Pétursdóttir",
+      "age": null,
+      "bio": "Hrund Pétursdóttir er forstöðumaður fyrirtækjasviðs og núverandi sveitarstjórnarfulltrúi í Skagafirði. Hún situr í stjórn Framsóknarfélagsins í Skagafirði sem meðstjórnandi og skipar 2. sæti á B-lista Framsóknarflokksins í sveitarfélaginu fyrir sveitarstjórnarkosningarnar 2026.",
+      "interests": [
+        "Sveitarstjórnarmál",
+        "Atvinnumál",
+        "Fjármál",
+        "Byggðamál"
+      ],
+      "social": {},
+      "sources": [
+        "https://www.framsokn.is/sveitarfelog/skagafjordur",
+        "https://www.skagafjordur.is/is/frettir/auglysing-um-fram-komin-frambod-vegna-sveitarstjornarkosninga-16-mai-2026",
+        "https://www.skagafjordur.is/is/stjornsysla/stjornskipulag/sveitarstjorn/svaitarstjorn"
+      ]
+    },
+    {
+      "id": "SKA.D.2",
+      "muni_slug": "skagafjordur",
+      "party_code": "D",
+      "ballot": 2,
+      "name": "Sólborg S. Borgarsdóttir",
+      "age": 50,
+      "bio": "Sólborg Sigurrós Borgarsdóttir er sérfræðingur hjá HMS (Húsnæðis- og mannvirkjastofnun) og núverandi sveitarstjórnarfulltrúi Sjálfstæðisflokksins í Skagafirði þar sem hún situr meðal annars sem varaformaður hafnarstjórnar Skagafjarðarhafna. Hún skipar 2. sæti á D-lista Sjálfstæðisflokksins í Skagafirði fyrir sveitarstjórnarkosningarnar 2026, ásamt nýjum oddvita Magnúsi Barðdal.",
+      "interests": [
+        "Sveitarstjórnarmál",
+        "Vinnuvernd",
+        "Hafnarmál",
+        "Mannvirkjamál"
+      ],
+      "social": {},
+      "sources": [
+        "https://xd.is/solborg-sigurros-borgarsdottir/",
+        "https://xd.is/2026/03/17/fullskipadur-frambodslisti-i-skagafirdi/",
+        "https://www.skagafjordur.is/is/frettir/auglysing-um-fram-komin-frambod-vegna-sveitarstjornarkosninga-16-mai-2026",
+        "https://hafnir.skagafjordur.is/is/hofnin/hafnarstjorn"
+      ]
+    },
+    {
+      "id": "SKA.SFL.2",
+      "muni_slug": "skagafjordur",
+      "party_code": "SFL",
+      "ballot": 2,
+      "name": "Jóhanna Ey Harðardóttir",
+      "age": 38,
+      "bio": "Jóhanna Ey Harðardóttir er fatahönnuður búsett á Sauðárkróki og hefur jafnframt starfað sem húsa- og húsgagnasmíðanemi. Hún skipar 2. sæti á L-lista Byggðalistans í Skagafirði fyrir sveitarstjórnarkosningarnar 2026.",
+      "interests": [
+        "Fatahönnun",
+        "Handverk",
+        "Menning",
+        "Sveitarstjórnarmál"
+      ],
+      "social": {},
+      "sources": [
+        "https://www.skagafjordur.is/is/frettir/auglysing-um-fram-komin-frambod-vegna-sveitarstjornarkosninga-16-mai-2026"
+      ]
+    },
+    {
+      "id": "SKA.M.2",
+      "muni_slug": "skagafjordur",
+      "party_code": "M",
+      "ballot": 2,
+      "name": "Jódís Helga Káradóttir",
+      "age": null,
+      "bio": "Jódís Helga Káradóttir er dómritari og laganemi sem starfar við Héraðsdóm Norðurlands vestra og leggur stund á viðskiptalögfræði. Hún er formaður ungliðahreyfingar Miðflokksins á Norðurlandi vestra. Hún skipar 2. sæti á lista Miðflokksins í Skagafirði fyrir sveitarstjórnarkosningarnar 2026, á eftir oddvitanum Högna Elfari Gylfasyni.",
+      "interests": [
+        "Lögfræði",
+        "Dómsmál",
+        "Sveitarstjórnarmál",
+        "Stjórnmál"
+      ],
+      "social": {},
+      "sources": [
+        "https://www.feykir.is/is/frettir/listi-midflokksins-i-skagafirdi",
+        "https://www.feykir.is/is/frettir/hogni-og-jodis-verda-i-efstu-tveimur-hja-midflokkum-i-skagafirdi-2",
+        "https://www.feykir.is/is/frettir/adsent-fra-midflokknum-yfir-milljon-a-dag-vid-getum-gert-betur"
+      ]
+    },
+    {
+      "id": "SUD.M.2",
+      "muni_slug": "sudurnesjabaer",
+      "party_code": "M",
+      "ballot": 2,
+      "name": "Sigrún Harpa Sigurjónd. Heide",
+      "age": null,
+      "bio": "Sigrún Harpa Sigurjónsdóttir Heide starfar hjá Útfararþjónustu Suðurnesja og var kjörin formaður Miðflokksdeildar Suðurnesjabæjar þegar deildin var stofnuð í mars 2026. Hún skipar 2. sæti á lista Miðflokksins í Suðurnesjabæ fyrir sveitarstjórnarkosningarnar 2026.",
+      "interests": [
+        "Sveitarstjórnarmál",
+        "Stjórnmál",
+        "Samfélagsmál"
+      ],
+      "social": {},
+      "sources": [
+        "https://midflokkurinn.is/midflokksdeild-sudurnesjabaejar-stofnud",
+        "https://ja.is/utfararthjonusta-sudurnesja/"
+      ]
+    },
+    {
+      "id": "HOR.B.2",
+      "muni_slug": "hornafjordur",
+      "party_code": "B",
+      "ballot": 2,
+      "name": "Ingibjörg Sveinsdóttir",
+      "age": null,
+      "bio": "Ingibjörg Sveinsdóttir er grunnskólakennari og atvinnurekandi í sveitarfélaginu Hornafirði. Hún skipar 2. sæti á B-lista Framsóknar og stuðningsmanna í Hornafirði fyrir sveitarstjórnarkosningarnar 2026.",
+      "interests": [
+        "Skólamál",
+        "Atvinnumál",
+        "Sveitarstjórnarmál",
+        "Byggðamál"
+      ],
+      "social": {},
+      "sources": [
+        "https://kosningasaga.wordpress.com/2026/02/27/frambodslisti-framsoknar-og-studningsmanna-i-sveitarfelaginu-hornafirdi/",
+        "https://www.hornafjordur.is/stjornsysla/sveitarfelagid/frettasafn/frambodslistar-og-upplysingar-um-frambjodendur"
+      ]
+    },
+    {
+      "id": "HOR.D.2",
+      "muni_slug": "hornafjordur",
+      "party_code": "D",
+      "ballot": 2,
+      "name": "Hjördís Edda Olgeirsdóttir",
+      "age": 44,
+      "bio": "Hjördís Edda Olgeirsdóttir er þjónustufulltrúi og bæjarfulltrúi Sjálfstæðisflokksins í sveitarfélaginu Hornafirði. Hún er formaður umhverfis- og skipulagsnefndar og varaformaður atvinnu- og menningarmálanefndar auk þess að vera varamaður í bæjarráði. Í prófkjöri Sjálfstæðisflokksins fyrir sveitarstjórnarkosningarnar 2026 hlaut hún 156 atkvæði í 1.–2. sæti, eða um 48,4%, og skipar 2. sæti listans á Hornafirði.",
+      "interests": [
+        "Sveitarstjórnarmál",
+        "Umhverfis- og skipulagsmál",
+        "Atvinnumál",
+        "Menning"
+      ],
+      "social": {},
+      "sources": [
+        "https://xd.is/2026/03/27/fullskipadur-frambodslisti-sjalfstaedisflokksins-a-hornafirdi/",
+        "https://www.hornafjordur.is/stjornsysla/stjorn/baejarstjorn/",
+        "https://www.hornafjordur.is/stjornsysla/stjorn/nefndir-og-stjornir/"
+      ]
+    },
+    {
+      "id": "HOR.HFJK.2",
+      "muni_slug": "hornafjordur",
+      "party_code": "HFJK",
+      "ballot": 2,
+      "name": "Guðrún Stefanía Vopnfjörð Ingólfsdóttir",
+      "age": 32,
+      "bio": "Guðrún Stefanía Vopnfjörð Ingólfsdóttir er bæjarfulltrúi Kex-framboðsins í sveitarfélaginu Hornafirði og fyrsti varaforseti bæjarstjórnar auk þess að vera varamaður í bæjarráði. Hún hefur starfað sem yfirlandvörður og er einnig þekkt fyrir aðkomu sína að Humarhátíðinni á Höfn. Hún skipar 2. sæti á lista Kex-framboðsins fyrir sveitarstjórnarkosningarnar 2026.",
+      "interests": [
+        "Sveitarstjórnarmál",
+        "Náttúruvernd",
+        "Menning",
+        "Ferðaþjónusta"
+      ],
+      "social": {},
+      "sources": [
+        "https://www.xkex.is/greinar/fyrstu-manudurnir-og-vinnan-framundan",
+        "https://www.hornafjordur.is/stjornsysla/stjorn/baejarstjorn/",
+        "https://issuu.com/humarhatid/docs/2024_humarha_ti_arbla_enska_1_"
+      ]
+    },
+    {
+      "id": "HOR.M.2",
+      "muni_slug": "hornafjordur",
+      "party_code": "M",
+      "ballot": 2,
+      "name": "Stefán Freyr Jónsson",
+      "age": null,
+      "bio": "Stefán Freyr Jónsson er bóndi og slökkviliðsmaður í sveitarfélaginu Hornafirði. Hann er á lista Miðflokksins fyrir sveitarstjórnarkosningarnar 2026, en það er í fyrsta sinn sem Miðflokkurinn býður fram í sveitarfélaginu.",
+      "interests": [
+        "Landbúnaður",
+        "Slökkvistörf",
+        "Sveitarstjórnarmál",
+        "Almannavarnir"
+      ],
+      "social": {},
+      "sources": [
+        "https://kosningasaga.wordpress.com/2026/04/03/frambodslisti-midflokksins-i-svf-hornafirdi/",
+        "https://www.hornafjordur.is/stjornsysla/sveitarfelagid/frettasafn/frambodslistar-og-upplysingar-um-frambjodendur"
+      ]
+    },
+    {
+      "id": "VOG.FYRS.2",
+      "muni_slug": "vogar",
+      "party_code": "FYRS",
+      "ballot": 2,
+      "name": "Áslaug Fjóla Magnúsdóttir",
+      "age": null,
+      "bio": "Áslaug Fjóla Magnúsdóttir starfar hjá Útfararþjónustu Suðurnesja og er á A-lista framboðsins „Fyrir samfélagið“ í Sveitarfélaginu Vogum, sem er nýtt framboð í sveitarfélaginu. Hún skipar 2. sæti listans fyrir sveitarstjórnarkosningarnar 2026.",
+      "interests": [
+        "Sveitarstjórnarmál",
+        "Samfélagsmál",
+        "Þjónusta"
+      ],
+      "social": {},
+      "sources": [
+        "https://kosningasaga.wordpress.com/2026/04/16/frambodslisti-a-listans-i-vogum/",
+        "https://www.vogar.is/is/stjornsysla/vogar/frettir/frambodslistar-i-sveitarstjornarkosningum"
+      ]
+    },
+    {
+      "id": "VOG.D.2",
+      "muni_slug": "vogar",
+      "party_code": "D",
+      "ballot": 2,
+      "name": "Guðmann Rúnar Lúðvíksson",
+      "age": null,
+      "bio": "Guðmann Rúnar Lúðvíksson er sérfræðingur hjá Landhelgisgæslu Íslands og varabæjarfulltrúi í Sveitarfélaginu Vogum. Hann skipar 2. sæti á D-lista Sjálfstæðismanna og óháðra í Vogum fyrir sveitarstjórnarkosningarnar 2026.",
+      "interests": [
+        "Sveitarstjórnarmál",
+        "Öryggismál",
+        "Sjávarútvegur",
+        "Almannavarnir"
+      ],
+      "social": {},
+      "sources": [
+        "https://xd.is/sveitastjornir/sveitarfelagid-vogar/",
+        "https://www.vogar.is/is/stjornsysla/vogar/frettir/frambodslistar-i-sveitarstjornarkosningum",
+        "https://www.lhg.is/en/"
+      ]
+    },
+    {
+      "id": "VOG.VOE.2",
+      "muni_slug": "vogar",
+      "party_code": "VOE",
+      "ballot": 2,
+      "name": "Eva Björk Jónsdóttir",
+      "age": null,
+      "bio": "Eva Björk Jónsdóttir er deildarstjóri og bæjarfulltrúi í Sveitarfélaginu Vogum. Hún skipar 2. sæti á E-lista Framboðsfélags E-listans í Vogum fyrir sveitarstjórnarkosningarnar 2026.",
+      "interests": [
+        "Sveitarstjórnarmál",
+        "Atvinnumál",
+        "Skólamál",
+        "Samfélagsmál"
+      ],
+      "social": {},
+      "sources": [
+        "https://kosningasaga.wordpress.com/2026/04/13/frambodslisti-e-listans-i-vogum-2/",
+        "https://www.vogar.is/is/stjornsysla/vogar/frettir/frambodslistar-i-sveitarstjornarkosningum"
+      ]
+    }
+  ]
+}

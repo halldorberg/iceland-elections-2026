@@ -1,0 +1,36 @@
+{
+  "id": "ARB.S.7",
+  "bio": "Margrét Kristjana Sverrisdóttir er fædd 8. september 1958 í Reykjavík. Hún lauk stúdentsprófi frá Menntaskólanum í Reykjavík 1979, B.Ed.-gráðu frá Kennaraháskóla Íslands 1983 og B.A.-gráðu í íslensku frá Háskóla Íslands. Margrét er sérfræðingur á mennta- og menningarsviði Rannís og verkefnastjóri á sviði fullorðinsfræðslu í Erasmus+ og evrópska netkerfinu EPALE. Hún hefur langan stjórnmálaferil að baki, var framkvæmdastjóri þingflokks Frjálslynda flokksins frá 1998, varaþingmaður Reykvíkinga frá 2000, borgarfulltrúi í Reykjavík frá 2007 og um skeið forseti borgarstjórnar. Margrét var einn af stofnendum Íslandshreyfingarinnar 2007 og gekk í Samfylkinguna 2009; hún var formaður framkvæmdastjórnar flokksins 2015–2017. Hún byggir nú hús á Eyrarbakka og skipar 7. sæti á lista Samfylkingarinnar og óháðra í Árborg fyrir kosningarnar 2026.",
+  "sources": [
+    "https://lifdununa.is/grein/margret-k-sverrisdottir/",
+    "https://is.wikipedia.org/wiki/Margr%C3%A9t_Sverrisd%C3%B3ttir",
+    "https://www.sunnlenska.is/frettir/frambodslisti-samfylkingar-og-ohadra-i-arborg-samthykktur/"
+  ],
+  "statements": [
+    {"n":1,"status":"verified","claim":"Fædd 8. september 1958 í Reykjavík","quotes":["Margrét Kristjana Sverrisdóttir (fædd í Reykjavík 8. september 1958 )"]},
+    {"n":2,"status":"verified","claim":"MR 1979, B.Ed. KHÍ 1983, B.A. íslensku HÍ","quotes":["Margrét er stúdent frá MR 1979 og lauk B.Ed. prófi frá Kennaraháskóla Íslands 1983 , auk B.A. prófs í íslensku frá"]},
+    {"n":3,"status":"verified","claim":"Sérfræðingur á mennta- og menningarsviði Rannís, verkefnastjóri EPALE / Erasmus+","quotes":["frá árinu 2008 gegnt starfi sérfræðings á mennta- og menningarsviði Rannís, þar sem hún sinnir verkefnum á sviði fullorðinsfræðslu í Erasmus+ menntaáætlun Evrópusambandsins og er verkefnisstjóri EPALE"]},
+    {"n":4,"status":"verified","claim":"Framkvæmdastjóri þingflokks Frjálslynda flokksins frá 1998","quotes":["Árið 1998 varð Margrét framkvæmdastjóri þingflokks Frjálslynda flokksins"]},
+    {"n":5,"status":"flagged","claim":"Varaþingmaður Reykvíkinga frá 2000","quotes":[],"note":"Wikipedia tengir varaþingmennsku við 1998, ekki 2000."},
+    {"n":6,"status":"verified","claim":"Borgarfulltrúi/varaborgarfulltrúi í Reykjavík frá 2007 og forseti borgarstjórnar um skeið","quotes":["Hún hefur setið í borgarstjórn í forföllum Ólafs F. Magnússonar frá ársbyrjun 2007 og var kjörin forseti borgarstjórnar í Reykjavík 16. október"]},
+    {"n":7,"status":"verified","claim":"Stofnaði Íslandshreyfinguna 2007","quotes":["Fyrir Alþingiskosningarnar 2007 tók Margrét þátt í að stofna nýjan stjórnmálaflokk, Íslandshreyfinguna"]},
+    {"n":8,"status":"verified","claim":"Gekk í Samfylkinguna 2009","quotes":["Eftir hrun, árið 2009, gengu Margrét og samherjar hennar í Íslandshreyfingunni í Samfylkinguna"]},
+    {"n":9,"status":"verified","claim":"Formaður framkvæmdastjórnar Samfylkingar 2015–2017","quotes":["Hún var formaður framkvæmdastjórnar Samfylkingarinnar 2015-2017"]},
+    {"n":10,"status":"verified","claim":"Byggir hús á Eyrarbakka","quotes":["Við hjónin höfum síðustu árin unnið hörðum höndum að því að byggja hús á Eyrarbakka"]},
+    {"n":11,"status":"verified","claim":"7. sæti á lista Samfylkingarinnar og óháðra í Árborg 2026","quotes":["7. Margrét K. Sverrisdóttir, íslenskufræðingur"]}
+  ],
+  "summary": "All claims verified except start year of varaþingmennsku (sources point to 1998 not 2000). Rewrite corrects.",
+  "rescue": {
+    "rewrite": "Margrét Kristjana Sverrisdóttir er fædd 8. september 1958 í Reykjavík. Hún lauk stúdentsprófi frá Menntaskólanum í Reykjavík 1979, B.Ed.-gráðu frá Kennaraháskóla Íslands 1983 og B.A.-gráðu í íslensku frá Háskóla Íslands. Frá árinu 2008 hefur hún starfað sem sérfræðingur á mennta- og menningarsviði Rannís og er verkefnisstjóri EPALE og Erasmus+ á sviði fullorðinsfræðslu. Margrét varð framkvæmdastjóri þingflokks Frjálslynda flokksins árið 1998 og varaþingmaður Reykjavíkur, var varaborgarfulltrúi flokksins 2002 og 2006 og sat í borgarstjórn Reykjavíkur frá ársbyrjun 2007, þar sem hún var um skeið forseti borgarstjórnar. Hún var einn af stofnendum Íslandshreyfingarinnar 2007 og gekk í Samfylkinguna ásamt samherjum sínum árið 2009; hún var formaður framkvæmdastjórnar flokksins 2015–2017. Margrét byggir nú hús á Eyrarbakka og skipar 7. sæti á lista Samfylkingar og óháðra í Árborg fyrir sveitarstjórnarkosningarnar 2026.",
+    "rewrite_words": 145,
+    "new_sources": [],
+    "resolutions": [
+      {"n":5,"action":"corrected","reason":"Wikipedia og Lifðu núna tengja varaþingmennsku við 1998 (ekki 2000)"}
+    ],
+    "new_heimild": [
+      {"url":"https://lifdununa.is/grein/margret-k-sverrisdottir/","label":"Lifðu núna"},
+      {"url":"https://is.wikipedia.org/wiki/Margr%C3%A9t_Sverrisd%C3%B3ttir","label":"Wikipedia"},
+      {"url":"https://www.sunnlenska.is/frettir/frambodslisti-samfylkingar-og-ohadra-i-arborg-samthykktur/","label":"Sunnlenska"}
+    ]
+  }
+}

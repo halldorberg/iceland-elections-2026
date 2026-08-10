@@ -1,0 +1,243 @@
+{
+  "scope": "policy scan 2026-05-01 — all parties without platformUrl, no-agenda priority",
+  "agent_label": "B",
+  "slice": [
+    29,
+    58
+  ],
+  "count": 29,
+  "missing_policy": [
+    {
+      "id": "FJA.M",
+      "muni_slug": "fjardabyggd",
+      "muni_label": "Fjarðabyggð",
+      "party_code": "M",
+      "party_label": "Miðflokkurinn",
+      "tagline": "Miðflokkurinn í Fjarðabyggð"
+    },
+    {
+      "id": "FJA.S",
+      "muni_slug": "fjardabyggd",
+      "muni_label": "Fjarðabyggð",
+      "party_code": "S",
+      "party_label": "Samfylkingin",
+      "tagline": "Samfylkingin í Fjarðabyggð"
+    },
+    {
+      "id": "FLO.FLI",
+      "muni_slug": "floahreppur",
+      "muni_label": "Flóahreppur",
+      "party_code": "FLI",
+      "party_label": "FLI",
+      "tagline": "Framfaralistinn — öflugt Flóahreppur"
+    },
+    {
+      "id": "FLO.FLT",
+      "muni_slug": "floahreppur",
+      "muni_label": "Flóahreppur",
+      "party_code": "FLT",
+      "party_label": "FLT",
+      "tagline": "T-listinn Flóa — samvinna og framfarir"
+    },
+    {
+      "id": "GAR.B",
+      "muni_slug": "gardabaer",
+      "muni_label": "Garðabær",
+      "party_code": "B",
+      "party_label": "Framsóknarflokkurinn",
+      "tagline": "Hlynur Bæringsson leiðir Framsókn í Garðabæ"
+    },
+    {
+      "id": "GAR.D",
+      "muni_slug": "gardabaer",
+      "muni_label": "Garðabær",
+      "party_code": "D",
+      "party_label": "Sjálfstæðisflokkurinn",
+      "tagline": "Almar leiðir lista Sjálfstæðisflokksins — Garðabær á gott framhald"
+    },
+    {
+      "id": "GAR.S",
+      "muni_slug": "gardabaer",
+      "muni_label": "Garðabær",
+      "party_code": "S",
+      "party_label": "Samfylkingin",
+      "tagline": "Kjartan Atli leiðir Samfylkinguna í Garðabæ"
+    },
+    {
+      "id": "GRI.GGA",
+      "muni_slug": "grimsnesgrafningur",
+      "muni_label": "Grímsnes- og Grafningshreppur",
+      "party_code": "GGA",
+      "party_label": "GGA",
+      "tagline": "Öflugt samfélag í vaxandi sveitarfélagi"
+    },
+    {
+      "id": "GRI.GGO",
+      "muni_slug": "grimsnesgrafningur",
+      "muni_label": "Grímsnes- og Grafningshreppur",
+      "party_code": "GGO",
+      "party_label": "GGO",
+      "tagline": "Betri sveit — fyrir okkur öll"
+    },
+    {
+      "id": "GRI.B",
+      "muni_slug": "grindavik",
+      "muni_label": "Grindavík",
+      "party_code": "B",
+      "party_label": "Framsóknarflokkurinn",
+      "tagline": "Ásrún Helga Kristinsdóttir leiðir Framsókn í Grindavík"
+    },
+    {
+      "id": "GRI.D",
+      "muni_slug": "grindavik",
+      "muni_label": "Grindavík",
+      "party_code": "D",
+      "party_label": "Sjálfstæðisflokkurinn",
+      "tagline": "Guðbjörg Eyjólfsdóttir leiðir Sjálfstæðisflokkinn í Grindavík"
+    },
+    {
+      "id": "GRI.M",
+      "muni_slug": "grindavik",
+      "muni_label": "Grindavík",
+      "party_code": "M",
+      "party_label": "Miðflokkurinn",
+      "tagline": "Magnús Már Jakobsson leiðir Miðflokkinn í Grindavík"
+    },
+    {
+      "id": "GRU.GFB",
+      "muni_slug": "grundarfjordur",
+      "muni_label": "Grundarfjörður",
+      "party_code": "GFB",
+      "party_label": "GFB",
+      "tagline": "Framsókn og Samfylking — áfram Grundarfjörður"
+    },
+    {
+      "id": "GRU.GFD",
+      "muni_slug": "grundarfjordur",
+      "muni_label": "Grundarfjörður",
+      "party_code": "GFD",
+      "party_label": "GFD",
+      "tagline": "Sjálfstæðisflokkur og óháðir — traust og framþróun"
+    },
+    {
+      "id": "HOR.D",
+      "muni_slug": "horgarsv",
+      "muni_label": "Hörgársveit",
+      "party_code": "D",
+      "party_label": "Sjálfstæðisflokkurinn",
+      "tagline": "Sjálfstæðisflokkur og óháðir í Hörgársveit"
+    },
+    {
+      "id": "HOR.HGG",
+      "muni_slug": "horgarsv",
+      "muni_label": "Hörgársveit",
+      "party_code": "HGG",
+      "party_label": "HGG",
+      "tagline": "G listi — Grósku"
+    },
+    {
+      "id": "HOR.HGH",
+      "muni_slug": "horgarsv",
+      "muni_label": "Hörgársveit",
+      "party_code": "HGH",
+      "party_label": "HGH",
+      "tagline": "H-listi Hörgársveitar — samvinna og þróun"
+    },
+    {
+      "id": "HOR.B",
+      "muni_slug": "hornafjordur",
+      "muni_label": "Hornafjarðarsveit",
+      "party_code": "B",
+      "party_label": "Framsóknarflokkurinn",
+      "tagline": "Framsóknarflokkur á Hornafirði"
+    },
+    {
+      "id": "HOR.M",
+      "muni_slug": "hornafjordur",
+      "muni_label": "Hornafjarðarsveit",
+      "party_code": "M",
+      "party_label": "Miðflokkurinn",
+      "tagline": "Miðflokkurinn á Hornafirði"
+    },
+    {
+      "id": "HRU.D",
+      "muni_slug": "hrunamannahreppur",
+      "muni_label": "Hrunamannahreppur",
+      "party_code": "D",
+      "party_label": "Sjálfstæðisflokkurinn",
+      "tagline": "Sjálfstæðismenn og óháðir í Hrunamannahreppi"
+    },
+    {
+      "id": "HRU.HRL",
+      "muni_slug": "hrunamannahreppur",
+      "muni_label": "Hrunamannahreppur",
+      "party_code": "HRL",
+      "party_label": "HRL",
+      "tagline": "L-listinn — íbúar í forgrunni í Hrunamannahreppi"
+    },
+    {
+      "id": "HUN.B",
+      "muni_slug": "hunabyggd",
+      "muni_label": "Húnabyggð",
+      "party_code": "B",
+      "party_label": "Framsóknarflokkurinn",
+      "tagline": "Framsókn og framfarasinnar í Húnabyggð"
+    },
+    {
+      "id": "HUN.D",
+      "muni_slug": "hunabyggd",
+      "muni_label": "Húnabyggð",
+      "party_code": "D",
+      "party_label": "Sjálfstæðisflokkurinn",
+      "tagline": "Sjálfstæðismenn og óháðir í Húnabyggð"
+    },
+    {
+      "id": "HUN.HBA",
+      "muni_slug": "hunabyggd",
+      "muni_label": "Húnabyggð",
+      "party_code": "HBA",
+      "party_label": "HBA",
+      "tagline": "Öll saman — sameiginleg framtíð Húnabyggðar"
+    },
+    {
+      "id": "HUN.B",
+      "muni_slug": "hunathing",
+      "muni_label": "Húnavatnshreppur",
+      "party_code": "B",
+      "party_label": "Framsóknarflokkurinn",
+      "tagline": "Framsókn og Framfarabandalag í Húnaþingi vestra"
+    },
+    {
+      "id": "HUN.D",
+      "muni_slug": "hunathing",
+      "muni_label": "Húnavatnshreppur",
+      "party_code": "D",
+      "party_label": "Sjálfstæðisflokkurinn",
+      "tagline": "Sjálfstæðisflokkur og óháðir í Húnaþingi vestra"
+    },
+    {
+      "id": "HUN.NHV",
+      "muni_slug": "hunathing",
+      "muni_label": "Húnavatnshreppur",
+      "party_code": "NHV",
+      "party_label": "NHV",
+      "tagline": "Ný öfl — nýjar hugmyndir í Húnaþingi vestra"
+    },
+    {
+      "id": "HVA.HVB",
+      "muni_slug": "hvalfjardarsveit",
+      "muni_label": "Hvalfjarðarsveit",
+      "party_code": "HVB",
+      "party_label": "HVB",
+      "tagline": "Íbúahreyfingin Hvalfjörður — rödd þeirra sem búa hér"
+    },
+    {
+      "id": "HVE.B",
+      "muni_slug": "hveragerdi",
+      "muni_label": "Hveragerði",
+      "party_code": "B",
+      "party_label": "Framsóknarflokkurinn",
+      "tagline": "Framsókn í Hveragerði — framþróun og velferð"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "HAF.S.21",
+  "bio": "Tryggvi Rafnsson er leikari og verkefnastjóri sem var kjörinn Hafnfirðingur ársins 2021 í kosningu á vegum vefmiðla bæjarins. Hann hefur leikið í íslenskum kvikmyndum á borð við Cruelty (2016), Dramarama (2001) og Dorks & Damsels (2007) og er þekktur fyrir trúðagrín og leikhúsverkefni. Tryggvi var kjörinn formaður Samfylkingarinnar í Hafnarfirði í mars 2023 og tók þá við af Jóni Grétari Þórssyni. Hann hefur talað opinskátt um eigin glímu við þunglyndi og gaf út ljóðabókina Ég, þar sem hann fjallar um andlega líðan og geðheilbrigðismál á aðgengilegan hátt. Tryggvi skipar 21. sæti á lista Samfylkingarinnar í Hafnarfirði í sveitarstjórnarkosningum 2026.",
+  "sources": [
+    "https://www.dv.is/eyjan/2023/03/09/tryggvi-rafnsson-nyr-formadur-samfylkingarinnar-hafnarfirdi/",
+    "https://hafnfirdingur.is/tryggvi-rafnsson-er-hafnfirdingur-arsins/",
+    "https://www.imdb.com/name/nm2620173/",
+    "https://xs.is/frambjodendur-i-hafnarfirdi-2026"
+  ],
+  "statements": [
+    {"n":1,"status":"verified","claim":"Leikari og verkefnastjóri","quotes":["Tryggvi Rafnsson leikari var kosinn formaður Samfylkingarinnar í Hafnarfirði","21. Tryggvi Rafnsson Leikari og verkefnastjóri"]},
+    {"n":2,"status":"verified","claim":"Hafnfirðingur ársins 2021","quotes":["Tryggvi var valinn Hafnfirðingur ársins árið 2021"]},
+    {"n":3,"status":"flagged","claim":"Á vegum vefmiðla bæjarins","quotes":[],"note":"Heimasíðan hafnfirdingur.is var ekki tiltæk; ekki bein vitnað."},
+    {"n":4,"status":"verified","claim":"Filmography Cruelty (2016), Dramarama (2001), Dorks & Damsels (2007)","quotes":["Tryggvi Rafnsson is known for Cruelty (2016), Dramarama (2001) and Dorks & Damsels (2007)","Dramarama (2001) - Tryggvi Rafnsson as Krakkar í spilasal #20"]},
+    {"n":5,"status":"flagged","claim":"Trúðagrín og leikhúsverkefni","quotes":[],"note":"Ekki bein vitnað."},
+    {"n":6,"status":"verified","claim":"Kjörinn formaður Samfylkingarinnar Hafnarfirði í mars 2023, tók við af Jóni Grétari Þórssyni","quotes":["Tryggvi Rafnsson leikari var kosinn formaður Samfylkingarinnar í Hafnarfirði á aðalfundi mánudaginn 6. Mars","Hann tekur við af Jóni Grétari Þórssyni"]},
+    {"n":7,"status":"verified","claim":"Ljóðabókin Ég, fjallar um geðheilbrigði","quotes":["Tryggvi gaf út sína fyrstu ljóðabók, Ég, í fyrra, en hún fjallar á opinskáan hátt um glímu höfundarins við geð"]},
+    {"n":8,"status":"verified","claim":"21. sæti á lista Samfylkingarinnar í Hafnarfirði 2026","quotes":["21. Tryggvi Rafnsson Leikari og verkefnastjóri"]}
+  ],
+  "summary": "Most verified; minor descriptive details (vefmiðla bæjarins, trúðagrín) lack direct quotes and are softened/dropped.",
+  "rescue": {
+    "rewrite": "Tryggvi Rafnsson er leikari og verkefnastjóri sem var valinn Hafnfirðingur ársins 2021. Hann er m.a. þekktur fyrir hlutverk í kvikmyndunum Cruelty (2016), Dramarama (2001) og Dorks & Damsels (2007). Tryggvi var kjörinn formaður Samfylkingarinnar í Hafnarfirði á aðalfundi 6. mars 2023 og tók við af Jóni Grétari Þórssyni. Hann gaf út ljóðabókina Ég, þar sem hann fjallar opinskátt um glímu sína við geðheilbrigðismál. Tryggvi skipar 21. sæti á lista Samfylkingarinnar í Hafnarfirði í sveitarstjórnarkosningum 2026.",
+    "rewrite_words": 86,
+    "new_sources": [],
+    "resolutions": [
+      {"n":3,"action":"dropped","reason":"vefmiðla framkvæmd ekki bein vitnað"},
+      {"n":5,"action":"dropped","reason":"trúðagrín ekki bein vitnað"}
+    ],
+    "new_heimild": [
+      {"url":"https://www.dv.is/eyjan/2023/03/09/tryggvi-rafnsson-nyr-formadur-samfylkingarinnar-hafnarfirdi/","label":"DV — formaður Samfylkingar Hafnarfirði 2023"},
+      {"url":"https://www.imdb.com/name/nm2620173/","label":"IMDb — Tryggvi Rafnsson"},
+      {"url":"https://xs.is/frambjodendur-i-hafnarfirdi-2026","label":"xs.is — listi Hafnarfjarðar 2026"}
+    ]
+  }
+}

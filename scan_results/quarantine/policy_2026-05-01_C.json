@@ -1,0 +1,350 @@
+{
+  "scan_type": "policy",
+  "scan_date": "2026-05-01",
+  "agent_label": "C",
+  "agent_note": "Strict policy scan: every agenda bullet is anchored to a verbatim Icelandic quote on the cited page. xs.is/<muni>, midflokkurinn.is articles, austurfrett.is, dfs.is, vidreisn.is/<muni>/stefnan, kaffid.is and 270.is were the most fruitful. xd.is/sveitastjornir/<muni> pages contain no policy content. bb.is is bot-blocked (403) so any party that only had bb.is opinion pieces was skipped. KOSNINGASAGA WordPress index pages render only as navigation via WebFetch. 8/29 parties had verifiable platforms; 21 skipped because no fetchable URL contained 3+ supportable verbatim policy points.",
+  "results": [
+    {
+      "id": "HVE.D",
+      "muni_slug": "hveragerdi",
+      "party_code": "D",
+      "platform_url": "https://www.dfs.is/umraedan/saman-motum-vid-framtid-hveragerdis/",
+      "verified_source_kind": "news-with-rationale",
+      "audit_status": "KEPT-WITH-RATIONALE",
+      "audit_note": "Aðsend grein eftir Ingimar Guðmundsson, oddvita og bæjarstjóraefni D-lista í Hveragerði, á dfs.is. Sex tilvitnanir akkera dagskrána; xd.is/sveitastjornir/hveragerdi inniheldur ekkert stefnuefni.",
+      "tagline": "Sjálfstæðisflokkurinn í Hveragerði — vönduð stjórn og góð þjónusta við íbúa",
+      "agenda": [
+        {
+          "icon": "📋",
+          "title": "Vandað rekstur og forgangsröðun",
+          "text": "Vandað er til verka í rekstri bæjarins með skýrri forgangsröðun.",
+          "source_quote": "að vandað sé til verka í rekstri bæjarins með skýrri forgangsröðun"
+        },
+        {
+          "icon": "👨‍👩‍👧‍👦",
+          "title": "Þjónusta á öllum aldri",
+          "text": "Áhersla er lögð á að styrkja þjónustu við íbúa á öllum aldri og tryggja faglegar ákvarðanir.",
+          "source_quote": "að styrkja þjónustu við íbúa á öllum aldri og að tryggja faglegar ákvarðanir"
+        },
+        {
+          "icon": "🤝",
+          "title": "Samstarf og málefnaleg umræða",
+          "text": "Góð sveitarstjórn einkennist af samstarfi, opnum samskiptum og málefnalegri umræðu.",
+          "source_quote": "góð sveitarstjórn einkennist af samstarfi, opnum samskiptum og málefnalegri umræðu"
+        },
+        {
+          "icon": "🗺️",
+          "title": "Skýr stefna fyrir kjörtímabilið",
+          "text": "Markmiðið er að vinna saman að skýrri stefnu fyrir næsta kjörtímabil.",
+          "source_quote": "Markmið okkar er að vinna saman að skýrri stefnu fyrir næsta kjörtímabil"
+        },
+        {
+          "icon": "💼",
+          "title": "Ábyrgð á lykilmálum",
+          "text": "Ábyrgð er borin um þau verkefni sem skipta bæinn mestu máli.",
+          "source_quote": "ábyrgð um þau verkefni sem skipta bæinn mestu máli"
+        }
+      ]
+    },
+    {
+      "id": "HVE.S",
+      "muni_slug": "hveragerdi",
+      "party_code": "S",
+      "platform_url": "https://xs.is/hveragerdi",
+      "verified_source_kind": "own-site",
+      "audit_status": "OK",
+      "audit_note": "Síða Samfylkingarinnar í Hveragerði á xs.is. 'Kosningastefna S-listans í Hveragerði 2026-2030 og gerum góðan bæ betri'; íþróttir/heilsubær/skólastefna eru aðalstef.",
+      "tagline": "Samfylkingin í Hveragerði — gerum góðan bæ betri",
+      "agenda": [
+        {
+          "icon": "⚽",
+          "title": "Íþróttir í forgang",
+          "text": "Íþróttir eiga að vera forgangsmál í Hveragerði.",
+          "source_quote": "Í Hveragerði eiga íþróttir að vera forgangsmál."
+        },
+        {
+          "icon": "💪",
+          "title": "Lýðheilsa, ekki munaður",
+          "text": "Íþróttir eru ekki munaður heldur nauðsyn — lykill að betri lýðheilsu.",
+          "source_quote": "Þær eru ekki munaður heldur nauðsyn — lykill að betri lýðheilsu."
+        },
+        {
+          "icon": "🌿",
+          "title": "Heilsubærinn Hveragerði",
+          "text": "Hveragerði hefur lengi verið þekkt fyrir að vera heilsubær og það á að styrkja.",
+          "source_quote": "Hveragerði hefur lengi verið þekkt fyrir að vera heilsubær."
+        },
+        {
+          "icon": "🏞️",
+          "title": "Náttúra og vellíðan",
+          "text": "Nálægðin við náttúruna skapar kjöraðstæður fyrir vellíðan íbúa.",
+          "source_quote": "Nálægðin við náttúruna skapar kjöraðstæður fyrir vellíðan fólks."
+        },
+        {
+          "icon": "🏫",
+          "title": "Endurnýjuð skólastefna",
+          "text": "Skólastefna Hveragerðisbæjar er frá 2022 og þarf endurnýjun.",
+          "source_quote": "Skólastefna Hveragerðisbæjar er frá árinu 2022 og því komin til ára sinna."
+        }
+      ]
+    },
+    {
+      "id": "ISA.C",
+      "muni_slug": "isafjordur",
+      "party_code": "C",
+      "platform_url": "https://vidreisn.is/isafjardarbaer/stefnan/",
+      "verified_source_kind": "own-site",
+      "audit_status": "OK",
+      "audit_note": "Stefna Viðreisnar í Ísafjarðarbæ á vidreisn.is/isafjardarbaer/stefnan/. Átta tilvitnanir akkera dagskrána.",
+      "tagline": "Viðreisn í Ísafjarðarbæ — skólar, skipulag og ábyrg fjármál",
+      "agenda": [
+        {
+          "icon": "🧒",
+          "title": "Stærri leikskólar og fleiri kennarar",
+          "text": "Stækka á Eyrarskjól og Sólborg og fjölga leikskólakennurum í öllum byggðarkjörnum.",
+          "source_quote": "Stækka Eyrarskjól og Sólborg, og setja í gang áætlun um fjölgun leikskólakennara í öllum byggðarkjörnum."
+        },
+        {
+          "icon": "📚",
+          "title": "Metnaðarfull menntastefna",
+          "text": "Móta og innleiða metnaðarfulla menntastefnu með skýrri aðgerðaáætlun.",
+          "source_quote": "Móta og innleiða metnaðarfulla menntastefnu með skýrri aðgerðaáætlun."
+        },
+        {
+          "icon": "🗺️",
+          "title": "Bætt skipulag",
+          "text": "Koma ánægju íbúa með skipulagsmál upp fyrir landsmeðaltal með bættum ferlum.",
+          "source_quote": "Koma ánægju íbúa með skipulagsmál upp fyrir landsmeðaltal með bættum ferlum."
+        },
+        {
+          "icon": "🎯",
+          "title": "Tómstundir fyrir ungmenni",
+          "text": "Efla tómstundastarf og afþreyingu fyrir 16–23 ára og bæta framboð fyrir 5.–10. bekk utan íþrótta.",
+          "source_quote": "Efla tómstundastarf og afþreyingarmöguleika fyrir 16–23 ára og auka framboð af afþreyingu utan íþrótta fyrir börn í 5.–10. bekk."
+        },
+        {
+          "icon": "💰",
+          "title": "Lægri fasteignaskattur og minni skuldir",
+          "text": "Halda áfram að lækka fasteignaskattshlutfall og skuldir bæjarins.",
+          "source_quote": "Passa upp á peninga íbúanna, lækka fasteignaskattshlutfall enn meira og halda áfram að lækka skuldir bæjarins."
+        },
+        {
+          "icon": "🚢",
+          "title": "Höfn og skemmtiferðaskip",
+          "text": "Klára móttökuhús fyrir gesti skemmtiferðaskipa og rafvæða höfnina.",
+          "source_quote": "Klára móttökuhús fyrir gesti skemmtiferðaskipa, rafvæða höfnina fyrir skip og stór ökutæki."
+        }
+      ]
+    },
+    {
+      "id": "MOS.D",
+      "muni_slug": "mosfellsbaer",
+      "party_code": "D",
+      "platform_url": "https://www.270.is/",
+      "verified_source_kind": "own-site",
+      "audit_status": "OK",
+      "audit_note": "270.is er kosningasíða Hilmars Gunnarssonar (oddvita D-lista í Mosfellsbæ). Listinn 'Hilmar leggur áherslu á' tíundar fimm áherslupunkta orðrétt.",
+      "tagline": "Hilmar leiðir D-lista í Mosfellsbæ — góð þjónusta, skólar og blómlegt atvinnulíf",
+      "agenda": [
+        {
+          "icon": "🤝",
+          "title": "Traust þjónusta við íbúa",
+          "text": "Hilmar leggur áherslu á að bjóða íbúum Mosfellsbæjar góða og trausta þjónustu.",
+          "source_quote": "Góða og trausta þjónustu við íbúa"
+        },
+        {
+          "icon": "🏫",
+          "title": "Skólar þar sem börnum líður vel",
+          "text": "Áhersla á skólaumhverfi þar sem börnum líður vel.",
+          "source_quote": "Skólaumhverfi þar sem börnum líður vel"
+        },
+        {
+          "icon": "🎭",
+          "title": "Menning og íþróttir",
+          "text": "Stutt verður við öflugt menningar- og íþróttastarf í bænum.",
+          "source_quote": "Öflugt menningar- og íþróttastarf"
+        },
+        {
+          "icon": "🏗️",
+          "title": "Innviðir",
+          "text": "Forgangsraða þarf uppbyggingu og viðhaldi innviða.",
+          "source_quote": "Uppbyggingu og viðhald innviða"
+        },
+        {
+          "icon": "💼",
+          "title": "Blómlegt atvinnulíf",
+          "text": "Skapa þarf umhverfi þar sem atvinnulíf í Mosfellsbæ fær að blómstra.",
+          "source_quote": "Atvinnulíf sem fær að blómstra"
+        }
+      ]
+    },
+    {
+      "id": "MUL.D",
+      "muni_slug": "mulathing",
+      "party_code": "D",
+      "platform_url": "https://austurfrett.is/umraedan/a-rettri-leidh-i-mulathingi",
+      "verified_source_kind": "news-with-rationale",
+      "audit_status": "KEPT-WITH-RATIONALE",
+      "audit_note": "Aðsend grein eftir Berglindi Hörpu Svavarsdóttur, oddvita D-lista í Múlaþingi, á austurfrett.is. Sex tilvitnanir akkera dagskrána.",
+      "tagline": "Berglind Harpa leiðir Sjálfstæðisflokkinn í Múlaþingi — á réttri leið",
+      "agenda": [
+        {
+          "icon": "🏠",
+          "title": "Lægri fasteignagjöld",
+          "text": "Sjálfstæðisflokkurinn í Múlaþingi hefur tvívegis lækkað álagningarprósentu fasteignagjalda.",
+          "source_quote": "Við höfum í tvígang lækkað álagningarprósentu fasteignagjalda til að koma til móts við hækkandi fasteignagjöld"
+        },
+        {
+          "icon": "🏭",
+          "title": "Hvati til atvinnuuppbyggingar",
+          "text": "Verð atvinnulóða í Fellabæ var lækkað til að örva uppbyggingu.",
+          "source_quote": "Þá höfum við lækkað verð á atvinnulóðum í Fellabæ til að skapa hvata til frekari atvinnuuppbyggingar"
+        },
+        {
+          "icon": "⚽",
+          "title": "Tómstundastyrkur og íþróttafélög",
+          "text": "Tómstundastyrkur barna var hækkaður um 50% og 12 m.kr. veittar Íþróttafélaginu Hetti.",
+          "source_quote": "við höfum hækkað tómstundastyrk barna um 50% og nýlega samþykktum við 12 millj. kr. viðbótarframlag til Íþróttafélagsins Hattar"
+        },
+        {
+          "icon": "🧒",
+          "title": "Leikskólapláss frá 12 mánaða",
+          "text": "Loforð um leikskólapláss fyrir öll 12 mánaða börn í Múlaþingi var efnt.",
+          "source_quote": "okkur sjálfstæðismönnum tókst að efna loforð um leikskólapláss fyrir öll 12 mánaða börn í Múlaþingi"
+        },
+        {
+          "icon": "📚",
+          "title": "Lestrarkennsla og námsárangur",
+          "text": "Áhersla verður lögð á bættan námsárangur með sérstakri áherslu á lestrarkennslu.",
+          "source_quote": "beita mér fyrir bættum námsárangri í skólum Múlaþings með sérstakri áherslu á lestrarkennslu"
+        },
+        {
+          "icon": "🏛️",
+          "title": "Hagrætt stjórnkerfi",
+          "text": "Stefnt er að fækkun sviðsstjóra og aukinni áherslu á mannauðsmál.",
+          "source_quote": "fækkun sviðsstjóra, stopp í fjölgun stöðugilda á milli ára og aukna áherslu á mannauðsmál"
+        }
+      ]
+    },
+    {
+      "id": "MUL.M",
+      "muni_slug": "mulathing",
+      "party_code": "M",
+      "platform_url": "https://midflokkurinn.is/mulathing-til-framtidar-samfelag-fyrir-allar-kynslodir",
+      "verified_source_kind": "own-site",
+      "audit_status": "OK",
+      "audit_note": "Greinin 'Múlaþing til framtíðar – samfélag fyrir allar kynslóðir' eftir Lárus Bjarnason á midflokkurinn.is. Sex stefnumál með beinum tilvitnunum.",
+      "tagline": "Miðflokkurinn í Múlaþingi — samfélag fyrir allar kynslóðir",
+      "agenda": [
+        {
+          "icon": "🛣️",
+          "title": "Samgöngur",
+          "text": "Framgangur Fjarðarheiðarganga og uppbygging Axarvegar eru lykilatriði fyrir öryggi og tengingar.",
+          "source_quote": "Samgöngur eru þar lykilatriði. Framgangur Fjarðarheiðarganga og uppbygging Axarvegar skipta sköpum fyrir öryggi, tengingar og framtíðarsókn svæðisins."
+        },
+        {
+          "icon": "💼",
+          "title": "Atvinnulíf og skipulag",
+          "text": "Styrkja þarf atvinnulíf, vanda skipulagsmál og styðja við nýsköpun.",
+          "source_quote": "Þarf að styrkja atvinnulíf og vanda til skipulagsmála. Þar felast tækifæri til að byggja upp fjölbreytt störf, styðja við frumkvæði og nýsköpun."
+        },
+        {
+          "icon": "🧒",
+          "title": "Farsæld barna",
+          "text": "Öflugt fræðslukerfi og snemmtækur stuðningur eru fjárfesting í framtíðinni.",
+          "source_quote": "Öflugt fræðslukerfi, snemmtækur stuðningur og raunveruleg áhersla á farsæld barna eru ekki aðeins þjónusta – þau eru fjárfesting í framtíðinni."
+        },
+        {
+          "icon": "👴",
+          "title": "Aðbúnaður eldri borgara",
+          "text": "Aðbúnaður eldri borgara þarf að vera tryggur og mannsæmandi.",
+          "source_quote": "Aðbúnaður eldri borgara þarf að vera tryggur og mannsæmandi, með góðu aðgengi að þjónustu og raunverulegum valkostum í búsetu."
+        },
+        {
+          "icon": "🏥",
+          "title": "Heilsugæsla",
+          "text": "Heilsugæsla og heilbrigðisþjónusta skulu vera aðgengilegar og traustar fyrir alla aldurshópa.",
+          "source_quote": "Heilsugæsla og almenn heilbrigðisþjónusta þurfa að vera aðgengilegar, traustar og í takt við þarfir íbúa á öllum aldri."
+        },
+        {
+          "icon": "💰",
+          "title": "Ábyrg fjármálastjórn",
+          "text": "Stefna byggist á ábyrgri fjármálastjórn og skynsamlegri nýtingu sameiginlegra fjármuna.",
+          "source_quote": "Allt þetta byggir á ábyrgri fjármálastjórn og skynsamlegri nýtingu sameiginlegra fjármuna. Traust myndast þegar farið er vel með það sem sameiginlegt er."
+        }
+      ]
+    },
+    {
+      "id": "NOR.NPM",
+      "muni_slug": "nordurping",
+      "party_code": "NPM",
+      "platform_url": "https://kaffid.is/m-lista-samfelagsins-i-nordurthingi-samthykktur/",
+      "verified_source_kind": "news-with-rationale",
+      "audit_status": "KEPT-WITH-RATIONALE",
+      "audit_note": "Frétt á kaffid.is um framlagningu M-lista Samfélagsins (Rúnar Traustason oddviti) í Norðurþingi. Fjórar tilvitnanir akkera dagskrána; ekki tókst að finna sjálfstæða stefnusíðu.",
+      "tagline": "Listi Samfélagsins (M) í Norðurþingi — Rúnar Traustason leiðir",
+      "agenda": [
+        {
+          "icon": "💼",
+          "title": "Atvinnuuppbygging og velferð",
+          "text": "Áhersla á stuðning við frumkvöðlastarf og atvinnuuppbyggingu, skilvirkan rekstur og aukna velferð.",
+          "source_quote": "Stuðning við frumkvöðlastarf og atvinnuuppbyggingu, skilvirkni í rekstri og aukna velferð í sveitarfélaginu."
+        },
+        {
+          "icon": "🏛️",
+          "title": "Heiðarleg og skilvirk stjórnsýsla",
+          "text": "Stjórnsýslan á að vera heiðarleg og skilvirk og byggjast á samráði og samstarfi við íbúa.",
+          "source_quote": "Stjórnsýslan verður heiðarleg og skilvirk og byggist upp á samráði, samstarfi og þjónustu við íbúa."
+        },
+        {
+          "icon": "🤝",
+          "title": "Breiður hópur úr samfélaginu",
+          "text": "Listinn er skipaður óháðum, félagshyggjufólki og Miðflokksfólki.",
+          "source_quote": "Breiðan hóp einstaklinga úr samfélaginu, sem er skipaður óháðum, félagshyggjufólki og Miðflokksfólki."
+        },
+        {
+          "icon": "💪",
+          "title": "Tilbúin að axla ábyrgð",
+          "text": "Frambjóðendur eru tilbúin að axla ábyrgð og takast á við krefjandi mál með metnaði.",
+          "source_quote": "Frambjóðendur eru tilbúin að axla ábyrgð, takast á við krefjandi mál, leggja vinnu og metnað."
+        }
+      ]
+    },
+    {
+      "id": "NOR.S",
+      "muni_slug": "nordurping",
+      "party_code": "S",
+      "platform_url": "https://xs.is/nordurthing",
+      "verified_source_kind": "own-site",
+      "audit_status": "OK",
+      "audit_note": "Kosningastefna Samfylkingarinnar í Norðurþingi 2026-2030 birt á xs.is. Tilvitnanir akkera dagskrána.",
+      "tagline": "Samfylkingin í Norðurþingi — fyrir fólk og fjölskyldur",
+      "agenda": [
+        {
+          "icon": "👨‍👩‍👧",
+          "title": "Daglegt líf í forgang",
+          "text": "Áhersla á að létta daglega lífið hjá íbúum Norðurþings.",
+          "source_quote": "Aðaláhersla í málefnastarfi Samfylkingarinnar á landsvísu hefur snúist um hvernig við léttum ykkur daglega lífið."
+        },
+        {
+          "icon": "🌟",
+          "title": "Auðugt sveitarfélag",
+          "text": "Norðurþing er auðugt sveitarfélag þar sem ný tækifæri koma í stað gamalla.",
+          "source_quote": "Norðurþing er auðugt sveitarfélag. Tækifæri hafa farið og önnur komið í staðinn."
+        },
+        {
+          "icon": "🤝",
+          "title": "Öflug félagsþjónusta",
+          "text": "Hjá félagsþjónustu Norðurþings er rekið öflugt og metnaðarfullt starf sem á að styrkja áfram.",
+          "source_quote": "Hjá félagsþjónustu Norðurþings er rekið öflugt og metnaðarfullt starf."
+        },
+        {
+          "icon": "🎓",
+          "title": "Ungt fólk heim",
+          "text": "Forgangsmál er hvernig ungt fólk geti og vilji flytja aftur í heimahagana.",
+          "source_quote": "Eitt helsta umhugsunarefni sveitarfélaga á landsbyggðinni hefur verið hvernig ungt fólk geti og vilji flytja aftur í heimahagana."
+        }
+      ]
+    }
+  ]
+}

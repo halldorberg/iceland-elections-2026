@@ -1,0 +1,1454 @@
+{
+  "AKR.S.12": {
+    "bio": "Ásbjörn Þór Ásbjörnsson er viðskipta- og markaðsfræðingur og starfar sem sölustjóri hjá Sixt langtímaleigu, þar sem starf hans felur meðal annars í sér samskipti við lykilviðskiptavini, viðskiptaráðgjöf og verkefnastjórnun. Hann fluttist til Akraness um árið 2023 og hefur tekið virkan þátt í umræðu um þróun samfélagsins á Vesturlandi. Ásbjörn skipar 12. sæti á lista Samfylkingarinnar á Akranesi fyrir sveitarstjórnarkosningarnar 2026.",
+    "sources": [
+      "https://www.linkedin.com/in/%C3%A1sbj%C3%B6rn-%C3%BE%C3%B3r-%C3%A1sbj%C3%B6rnsson-9984492a/",
+      "https://www.visir.is/g/20242654373d/af-hverju-eg-styd-samfylkinguna-og-hannes-sigurbjorn-jonsson",
+      "https://xs.is/frettir/2026/03/frambodslisti--akranesi"
+    ],
+    "statements": [
+      {
+        "n": 1,
+        "status": "verified",
+        "claim": "viðskipta- og markaðsfræðingur",
+        "quotes": [
+          "12. Ásbjörn Þór Ásbjörnsson, viðskipta- og markaðsfræðingur"
+        ]
+      },
+      {
+        "n": 2,
+        "status": "unreachable",
+        "claim": "sölustjóri hjá Sixt langtímaleigu",
+        "notes": "LinkedIn er ávallt óaðgengilegt. Engin önnur tilvitnuð heimild staðfestir starfsheiti eða vinnustað."
+      },
+      {
+        "n": 3,
+        "status": "flagged",
+        "claim": "samskipti við lykilviðskiptavini, viðskiptaráðgjöf og verkefnastjórnun",
+        "notes": "Engin önnur en LinkedIn (óaðgengileg) styður þessa lýsingu á starfsskyldum."
+      },
+      {
+        "n": 4,
+        "status": "verified",
+        "claim": "fluttist til Akraness um 2023",
+        "quotes": [
+          "Ég flutti hingað fyrir aðeins ári síðan"
+        ]
+      },
+      {
+        "n": 5,
+        "status": "verified",
+        "claim": "tekið þátt í umræðu á Vesturlandi",
+        "quotes": [
+          "Ég vil sjá Akranes og Norðvesturkjördæmi blómstra.",
+          "Höfundur Akranesbúi sem vill sjá samfélagið sitt vaxa og dafna."
+        ]
+      },
+      {
+        "n": 6,
+        "status": "verified",
+        "claim": "skipar 12. sæti á lista Samfylkingarinnar á Akranesi",
+        "quotes": [
+          "12. Ásbjörn Þór Ásbjörnsson, viðskipta- og markaðsfræðingur"
+        ]
+      }
+    ],
+    "summary": "4 verified, 0 rescued, 1 flagged, 1 unreachable",
+    "stats": {
+      "verified": 4,
+      "flagged": 1,
+      "unreachable": 1
+    },
+    "rescue": {
+      "rewrite": "Ásbjörn Þór Ásbjörnsson er viðskipta- og markaðsfræðingur. Hann fluttist til Akraness um 2023 og hefur tekið þátt í opinberri umræðu um Akranes og Norðvesturkjördæmi, meðal annars með aðsendri grein á Vísi. Ásbjörn skipar 12. sæti á lista Samfylkingarinnar á Akranesi fyrir sveitarstjórnarkosningarnar 2026.",
+      "rewrite_words": 47,
+      "new_sources": [],
+      "resolutions": [
+        {
+          "kind": "dropped",
+          "text": "Starfsheiti 'sölustjóri hjá Sixt langtímaleigu' og lýsing á starfsskyldum felld — eingöngu LinkedIn-stuðningur, sem er óaðgengilegt."
+        }
+      ],
+      "new_heimild": [
+        {
+          "url": "https://www.visir.is/g/20242654373d/af-hverju-eg-styd-samfylkinguna-og-hannes-sigurbjorn-jonsson",
+          "label": "Af hverju ég styð Samfylkinguna (Vísir, aðsend grein)"
+        },
+        {
+          "url": "https://xs.is/frettir/2026/03/frambodslisti--akranesi",
+          "label": "Framboðslisti Samfylkingarinnar á Akranesi (xs.is)"
+        }
+      ]
+    }
+  },
+  "AKU.AL.5": {
+    "bio": "Darri Rafn Hólmarsson er tölvunarfræðingur og plötusnúður og er í 5. sæti á Akureyrarlistanum í sveitarstjórnarkosningum 2026. Samkvæmt LinkedIn starfar hann sem gagnasérfræðingur.",
+    "sources": [
+      "https://kaffid.is/efstu-sjo-saetin-a-lista-akureyrarlistans-kynnt/",
+      "https://www.akureyri.net/is/frettir/akureyrarlistinn-birtir-nofn-sjo-efstu"
+    ],
+    "statements": [
+      {
+        "n": 1,
+        "status": "verified",
+        "claim": "tölvunarfræðingur og plötusnúður",
+        "quotes": [
+          "Darri Rafn Hólmarsson – tölvunarfræðingur & plötusnúður"
+        ]
+      },
+      {
+        "n": 2,
+        "status": "verified",
+        "claim": "5. sæti á Akureyrarlistanum 2026",
+        "quotes": [
+          "5. Darri Rafn Hólmarsson - tölvunarfræðingur & plötusnúður"
+        ]
+      },
+      {
+        "n": 3,
+        "status": "flagged",
+        "claim": "starfar sem gagnasérfræðingur (LinkedIn)",
+        "notes": "Aðeins fundið á LinkedIn (óaðgengilegt). Engin önnur opinber heimild fyrir starfsheiti gagnasérfræðings."
+      }
+    ],
+    "summary": "2 verified, 1 flagged",
+    "stats": {
+      "verified": 2,
+      "flagged": 1,
+      "unreachable": 0
+    },
+    "rescue": {
+      "rewrite": "Darri Rafn Hólmarsson er tölvunarfræðingur og plötusnúður. Hann skipar 5. sæti á Akureyrarlistanum í sveitarstjórnarkosningum 2026.",
+      "rewrite_words": 26,
+      "new_sources": [],
+      "resolutions": [
+        {
+          "kind": "dropped",
+          "text": "Starfar sem gagnasérfræðingur — aðeins LinkedIn-heimild, óstaðfest."
+        }
+      ],
+      "new_heimild": [
+        {
+          "url": "https://kaffid.is/efstu-sjo-saetin-a-lista-akureyrarlistans-kynnt/",
+          "label": "kaffid.is"
+        },
+        {
+          "url": "https://www.akureyri.net/is/frettir/akureyrarlistinn-birtir-nofn-sjo-efstu",
+          "label": "akureyri.net"
+        }
+      ]
+    }
+  },
+  "AKU.M.8": {
+    "bio": "Lísbet Hannesdóttir er verkefnastjóri gæða- og mannauðsmála við Háskólann á Akureyri og hefur gegnt því starfi frá árinu 2021. Hún lauk BSc-prófi í viðskiptafræði frá Háskólanum á Akureyri árið 2013 og MSc-prófi í forystu og stjórnun frá Háskólanum á Bifröst árið 2016. Áður starfaði hún sem ráðgjafi hjá Capacent og hjá Peizer ehf. og hefur einnig kennt námskeiðið Stefnumótun við Háskólann á Akureyri. Samhliða háskólastarfinu rekur hún fyrirtækið Liso Letters. Hún skipar 8. sæti á lista Miðflokksins á Akureyri fyrir sveitarstjórnarkosningarnar vorið 2026.",
+    "sources": [
+      "https://www.unak.is/is/moya/ugla/staff/lisbet-hannesdottir",
+      "https://www.linkedin.com/in/l%C3%ADsbet-hannesd%C3%B3ttir-0b9a15a5/",
+      "https://kaffid.is/hlynur-leidir-midflokkinn-a-akureyri-afram/"
+    ],
+    "statements": [
+      {
+        "n": 1,
+        "status": "verified",
+        "claim": "verkefnastjóri gæða- og mannauðsmála við HA frá 2021",
+        "quotes": [
+          "Lísbet Hannesdóttir Verkefnastjóri gæða- og mannauðsmála",
+          "2021 Háskólinn á Akureyri, Verkefnastjóri gæða- og mannauðsmála"
+        ]
+      },
+      {
+        "n": 2,
+        "status": "verified",
+        "claim": "BSc viðskiptafræði HA 2013",
+        "quotes": [
+          "2013 Háskólinn á Akureyri, B.Sc. Viðskiptafræði"
+        ]
+      },
+      {
+        "n": 3,
+        "status": "verified",
+        "claim": "MSc forystu og stjórnun Bifröst 2016",
+        "quotes": [
+          "2016 Háskólinn á Bifröst, M.Sc. Forysta og Stjórnun"
+        ]
+      },
+      {
+        "n": 4,
+        "status": "verified",
+        "claim": "ráðgjafi hjá Capacent og Peizer",
+        "quotes": [
+          "2020 - 2021 Peizer ehf., Ráðgjafi 2017 - 2020 Capacent, Ráðgjafi"
+        ]
+      },
+      {
+        "n": 5,
+        "status": "verified",
+        "claim": "kennt námskeiðið Stefnumótun við HA",
+        "quotes": [
+          "Námskeið kennd 2025 - 2026 STE3107250 Stefnumótun"
+        ]
+      },
+      {
+        "n": 6,
+        "status": "unreachable",
+        "claim": "rekur Liso Letters",
+        "notes": "Aðeins LinkedIn er tilvitnað, sem er ávallt óaðgengilegt; engin önnur tilvitnuð heimild með aðgengi staðfestir Liso Letters."
+      },
+      {
+        "n": 7,
+        "status": "rescued",
+        "claim": "skipar 8. sæti á lista Miðflokksins á Akureyri 2026",
+        "quotes": [
+          "8. sæti Lísbet Hannesdóttir Verkefnastjóri gæða- og mannauðsmála Háskólanum á Akureyri"
+        ]
+      }
+    ],
+    "summary": "5 verified, 1 rescued, 0 flagged, 1 unreachable",
+    "stats": {
+      "verified": 6,
+      "flagged": 0,
+      "unreachable": 1
+    },
+    "rescue": {
+      "rewrite": "Lísbet Hannesdóttir er verkefnastjóri gæða- og mannauðsmála við Háskólann á Akureyri og hefur gegnt því starfi frá árinu 2021. Hún lauk BSc-prófi í viðskiptafræði frá Háskólanum á Akureyri 2013 og MSc-prófi í forystu og stjórnun frá Háskólanum á Bifröst 2016. Áður starfaði hún sem ráðgjafi hjá Capacent (2017–2020) og Peizer ehf. (2020–2021), og kennir nú námskeiðið Stefnumótun við Háskólann á Akureyri. Hún skipar 8. sæti á lista Miðflokksins á Akureyri fyrir sveitarstjórnarkosningarnar vorið 2026.",
+      "rewrite_words": 86,
+      "new_sources": [
+        "https://midflokkurinn.is/akureyri"
+      ],
+      "resolutions": [
+        {
+          "kind": "dropped",
+          "text": "'Liso Letters' fellt — ekki staðfest af aðgengilegum heimildum (LinkedIn óaðgengilegt)."
+        },
+        {
+          "kind": "rescued",
+          "text": "8. sæti staðfest með midflokkurinn.is."
+        }
+      ],
+      "new_heimild": [
+        {
+          "url": "https://www.unak.is/is/moya/ugla/staff/lisbet-hannesdottir",
+          "label": "Lísbet Hannesdóttir — starfsmannasíða HA"
+        },
+        {
+          "url": "https://kaffid.is/hlynur-leidir-midflokkinn-a-akureyri-afram/",
+          "label": "Hlynur leiðir lista Miðflokksins á Akureyri (Kaffið.is)"
+        },
+        {
+          "url": "https://midflokkurinn.is/akureyri",
+          "label": "Frambjóðendur Miðflokksins á Akureyri"
+        }
+      ]
+    }
+  },
+  "AKU.S.9": {
+    "bio": "Kristín Helga Schiöth er alþjóðafræðingur og blómakona og starfar sem framkvæmdastjóri Líforkuvers ehf. Hún hefur lokið BA-prófi í heimspeki og lögfræði og námi í alþjóðasamskiptum frá Aarhus-háskóla með áherslu á norðurslóðamálefni og sótti einnig skiptinám í norðurskautsrétti við Háskólann á Akureyri. Lokaverkefni hennar fjallaði um fyrirhugaðar úranvinnslur á Grænlandi og þær lagalegu og pólitísku hindranir sem Grænland stóð frammi fyrir í því máli. Í starfi sínu hjá Líforkuveri vinnur hún að grænum verkefnum á Norðurlandi, hringrásarhagkerfi og orkuskiptum sveitarfélaga. Hún skipar 9. sæti á lista Samfylkingarinnar á Akureyri og er jafnframt kosningastjóri framboðsins fyrir sveitarstjórnarkosningarnar 2026.",
+    "sources": [
+      "https://www.linkedin.com/in/kristinhelga/",
+      "https://podcasts.apple.com/ca/podcast/10-krist%C3%ADn-helga-schi%C3%B6th/id1591194260?i=1000545654422",
+      "https://xs.is/frettir/2026/03/frambodslisti-samfylkingarinnar-a-akureyri"
+    ],
+    "statements": [
+      {
+        "n": 1,
+        "status": "verified",
+        "claim": "alþjóðafræðingur og blómakona",
+        "quotes": [
+          "9. Kristín Helga Schiöth, alþjóðafræðingur og blómakona"
+        ]
+      },
+      {
+        "n": 2,
+        "status": "flagged",
+        "claim": "framkvæmdastjóri Líforkuvers ehf",
+        "notes": "Eingöngu LinkedIn-stuðningur (óaðgengilegt). Podcast frá des 2021 segir hana vera 'hjá Umhverfisstofnun', ekki Líforkuveri. Núverandi starfsheiti ekki staðfest af tilvitnuðum opnum heimildum."
+      },
+      {
+        "n": 3,
+        "status": "unreachable",
+        "claim": "BA-próf í heimspeki og lögfræði og nám í alþjóðasamskiptum frá Aarhus",
+        "notes": "Eingöngu LinkedIn (óaðgengilegt)."
+      },
+      {
+        "n": 4,
+        "status": "unreachable",
+        "claim": "skiptinám í norðurskautsrétti við HA",
+        "notes": "Eingöngu LinkedIn (óaðgengilegt)."
+      },
+      {
+        "n": 5,
+        "status": "unreachable",
+        "claim": "lokaverkefni um fyrirhugaðar úranvinnslur á Grænlandi",
+        "notes": "Engin tilvitnuð opin heimild styður þetta."
+      },
+      {
+        "n": 6,
+        "status": "unreachable",
+        "claim": "verkefni á Norðurlandi: hringrásarhagkerfi, orkuskipti",
+        "notes": "Engin tilvitnuð opin heimild styður þetta."
+      },
+      {
+        "n": 7,
+        "status": "verified",
+        "claim": "skipar 9. sæti á lista Samfylkingarinnar á Akureyri",
+        "quotes": [
+          "9. Kristín Helga Schiöth, alþjóðafræðingur og blómakona"
+        ]
+      },
+      {
+        "n": 8,
+        "status": "flagged",
+        "claim": "kosningastjóri framboðsins",
+        "notes": "xs.is listinn nefnir engan kosningastjóra; ekki staðfest."
+      }
+    ],
+    "summary": "2 verified, 0 rescued, 2 flagged, 4 unreachable",
+    "stats": {
+      "verified": 2,
+      "flagged": 2,
+      "unreachable": 4
+    },
+    "rescue": {
+      "rewrite": "Kristín Helga Schiöth er alþjóðafræðingur og blómakona. Í desember 2021 starfaði hún hjá Umhverfisstofnun og var meðal annars gestur í hlaðvarpinu Kvöldkaffi þar sem rætt var um umhverfismál fyrir jólahátíðina. Hún skipar 9. sæti á lista Samfylkingarinnar á Akureyri fyrir bæjarstjórnarkosningarnar 2026.",
+      "rewrite_words": 42,
+      "new_sources": [],
+      "resolutions": [
+        {
+          "kind": "dropped",
+          "text": "'framkvæmdastjóri Líforkuvers' fellt — ekki staðfest; podcast 2021 segir Umhverfisstofnun."
+        },
+        {
+          "kind": "dropped",
+          "text": "Menntunarlýsing (Aarhus, norðurskautsréttur, lokaverkefni) felld — eingöngu LinkedIn."
+        },
+        {
+          "kind": "dropped",
+          "text": "Lýsing á starfsskyldum hjá Líforkuveri felld — ekki staðfest."
+        },
+        {
+          "kind": "dropped",
+          "text": "'kosningastjóri framboðsins' fellt — ekki staðfest af xs.is."
+        }
+      ],
+      "new_heimild": [
+        {
+          "url": "https://podcasts.apple.com/ca/podcast/10-krist%C3%ADn-helga-schi%C3%B6th/id1591194260?i=1000545654422",
+          "label": "Kvöldkaffi #10 — Kristín Helga Schiöth (Apple Podcasts)"
+        },
+        {
+          "url": "https://xs.is/frettir/2026/03/frambodslisti-samfylkingarinnar-a-akureyri",
+          "label": "Framboðslisti Samfylkingarinnar á Akureyri (xs.is)"
+        }
+      ]
+    },
+    "applied": false
+  },
+  "ARB.C.6": {
+    "bio": "Trausti Jóhannsson er skógfræðingur með B.Sc.-gráðu í skógfræði frá Landbúnaðarháskóla Íslands og starfar sem skógarvörður á Suður- og Vesturlandi hjá Landi og skógi. Hann hefur látið til sín taka í umfjöllun um skógrækt og hefur meðal annars komið að gerð 100 metra langrar trébrúar úr íslenskum við yfir Þjórsá. Trausti hefur skrifað aðsendar greinar um græn svæði og skipulagsmál í Árborg og vísar þar í norrænu „3-30-300“-regluna um nærveru trjáa og grænna svæða í íbúðabyggð. Fyrir sveitarstjórnarkosningarnar 2026 skipar hann 6. sæti á lista Viðreisnar í Árborg, sem er fyrsti listi flokksins í sveitarfélaginu og Heiðrún Kristmundsdóttir leiðir.",
+    "sources": [
+      "https://vidreisn.is/2026/03/heidrun-leidir-lista-vidreisnar-i-arborg/",
+      "https://www.sunnlenska.is/adsent/ad-thora-ad-vera-til-fyrirmyndar/",
+      "https://www.ruv.is/frett/2021/07/06/framtidin-er-i-skograekt"
+    ],
+    "statements": [
+      {
+        "n": 1,
+        "status": "verified",
+        "claim": "skógfræðingur",
+        "quotes": [
+          "Skógfræðingur og skipar 6. sætið á lista Viðreisnar í Árborg."
+        ]
+      },
+      {
+        "n": 2,
+        "status": "flagged",
+        "claim": "B.Sc.-gráðu í skógfræði frá Landbúnaðarháskóla Íslands",
+        "notes": "Aðeins fundið á LinkedIn-prófíl (óaðgengilegt). Engin staðfest opinber heimild í cache eða fersku leitarflæði nema gegnum LinkedIn-snippet."
+      },
+      {
+        "n": 3,
+        "status": "rescued",
+        "claim": "skógarvörður á Suðurlandi hjá Landi og skógi",
+        "quotes": [
+          "Trausti Jóhannsson, skógarvörður á Suðurlandi, ræðir við Sumarlandann um byggingu brúar við Þjórsá",
+          "Trausti Jóhannsson, skógarvörður á Suðurlandi, en verið er að byggja 100 metra langa brú úr alíslenku efni yfir Þjórsá."
+        ]
+      },
+      {
+        "n": 4,
+        "status": "flagged",
+        "claim": "Suður- OG Vesturlandi (núverandi starfssvæði)",
+        "notes": "RUV 2021 segir aðeins „Suðurlandi“. Útvíkkun yfir Vesturland kemur einungis fram á LinkedIn (óaðgengilegt). Drop í endurriti."
+      },
+      {
+        "n": 5,
+        "status": "rescued",
+        "claim": "100 metra trébrú úr íslenskum við yfir Þjórsá",
+        "quotes": [
+          "verið er að byggja 100 metra langa brú úr alíslenku efni yfir Þjórsá",
+          "um 8,5 kílómetrar af timbri hafa farið í brúna sjálfa"
+        ]
+      },
+      {
+        "n": 6,
+        "status": "verified",
+        "claim": "aðsendar greinar um græn svæði í Árborg, vísar í 3-30-300 regluna",
+        "quotes": [
+          "Þar er kynnt innleiðing grænna lausna í þéttbýli sem kallast 3-30-300 reglan.",
+          "Akureyrarbær er byrjaður að innleiða 3-30-300 regluna í sína byggðastefnu, af hverju ekki Árborg líka?"
+        ]
+      },
+      {
+        "n": 7,
+        "status": "verified",
+        "claim": "6. sæti á lista Viðreisnar í Árborg, fyrsti listi flokksins, Heiðrún leiðir",
+        "quotes": [
+          "Heiðrún Kristmundsdóttir verkefnastjóri leiðir nýjan lista Viðreisnar í Árborg.",
+          "Þetta er í fyrsta sinn sem hægt verður að kjósa lista Viðreisnar í sveitarstjórnarkosningum í Árborg.",
+          "Trausti Jóhannsson, teymisstjóri"
+        ]
+      }
+    ],
+    "summary": "5 verified/rescued, 2 flagged",
+    "stats": {
+      "verified": 5,
+      "flagged": 2,
+      "unreachable": 0
+    },
+    "rescue": {
+      "rewrite": "Trausti Jóhannsson er skógfræðingur og starfar sem skógarvörður á Suðurlandi hjá Landi og skógi. Hann hefur komið að byggingu 100 metra langrar brúar úr alíslenskum efnivið yfir Þjórsá, skammt fyrir ofan Þjófafoss, og um 8,5 kílómetrar af timbri fóru í brúna sjálfa. Trausti hefur skrifað aðsendar greinar um græn svæði og skipulagsmál í Árborg þar sem hann vísar í norrænu „3-30-300\"-regluna um nærveru trjáa og grænna svæða í íbúðabyggð. Fyrir sveitarstjórnarkosningarnar 2026 skipar hann 6. sæti á nýjum lista Viðreisnar í Árborg, sem er fyrsti listi flokksins í sveitarfélaginu.",
+      "rewrite_words": 89,
+      "new_sources": [],
+      "resolutions": [
+        {
+          "kind": "dropped",
+          "text": "B.Sc.-gráðu í skógfræði frá Landbúnaðarháskóla Íslands — aðeins LinkedIn"
+        },
+        {
+          "kind": "contradicted",
+          "text": "„Suður- og Vesturlandi“ — RUV segir aðeins Suðurlandi; útvíkkun aðeins á LinkedIn"
+        }
+      ],
+      "new_heimild": []
+    },
+    "applied": false
+  },
+  "ARB.D.12": {
+    "bio": "Björg Agnarsdóttir er mannauðs- og launasérfræðingur. Hún starfar hjá Landsvirkjun og lauk meistaranámi í mannauðsstjórnun frá Háskólanum á Bifröst. Björg skipar 12. sæti á lista Sjálfstæðisflokksins í Árborg fyrir sveitarstjórnarkosningarnar 2026.",
+    "sources": [
+      "https://xd.is/2026/03/30/fullskipadur-listi-i-arborg/",
+      "https://www.linkedin.com/in/bj%C3%B6rg-agnarsd%C3%B3ttir-ab88b1234/"
+    ],
+    "statements": [
+      {
+        "n": 1,
+        "status": "verified",
+        "claim": "mannauðs- og launasérfræðingur",
+        "quotes": [
+          "Björg Agnarsdóttir, mannauðs- og launasérfræðingur"
+        ]
+      },
+      {
+        "n": 2,
+        "status": "unreachable",
+        "claim": "starfar hjá Landsvirkjun",
+        "notes": "Only LinkedIn cited; LinkedIn always unreachable per protocol. xd.is does not state employer."
+      },
+      {
+        "n": 3,
+        "status": "unreachable",
+        "claim": "lauk meistaranámi í mannauðsstjórnun frá Háskólanum á Bifröst",
+        "notes": "Only LinkedIn cited; unreachable."
+      },
+      {
+        "n": 4,
+        "status": "verified",
+        "claim": "skipar 12. sæti á lista Sjálfstæðisflokksins í Árborg",
+        "quotes": [
+          "...Ívar Marinó Lillendahl, læknir Björg Agnarsdóttir, mannauðs- og launasérfræðingur..."
+        ]
+      },
+      {
+        "n": 5,
+        "status": "verified",
+        "claim": "fyrir sveitarstjórnarkosningarnar 2026",
+        "quotes": [
+          "sveitarstjórnarkosningarnar í vor (2026 article)"
+        ]
+      }
+    ],
+    "summary": "3 verified, 0 flagged, 2 unreachable",
+    "stats": {
+      "verified": 3,
+      "flagged": 0,
+      "unreachable": 2
+    },
+    "rescue": {
+      "rewrite": "Björg Agnarsdóttir er mannauðs- og launasérfræðingur og skipar 12. sæti á lista Sjálfstæðisflokksins í Sveitarfélaginu Árborg fyrir sveitarstjórnarkosningarnar 2026.",
+      "rewrite_words": 19,
+      "new_sources": [],
+      "resolutions": [
+        {
+          "kind": "dropped",
+          "text": "Employer (Landsvirkjun) and education (Bifröst meistaranám í mannauðsstjórnun) — only sourced from unreachable LinkedIn."
+        }
+      ],
+      "new_heimild": [
+        {
+          "url": "https://xd.is/2026/03/30/fullskipadur-listi-i-arborg/",
+          "label": "Fullskipaður framboðslisti Sjálfstæðisflokksins í Árborg 2026 - xd.is"
+        }
+      ]
+    },
+    "applied": false
+  },
+  "DVB.D.14": {
+    "bio": "Freyr Antonsson er athafnamaður og fyrrverandi sveitarstjórnarfulltrúi í Dalvíkurbyggð. Hann er meðstofnandi og framkvæmdastjóri Arctic Sea Tours sem hefur boðið upp á hvalaskoðunarferðir frá Dalvík frá árinu 2009 ásamt eiginkonu sinni. Fyrirtækið starfrækir einnig vörumerkin Arctic Whale Watching, Arctic Sea Angling og Arctic Villages. Freyr var kjörinn í sveitarstjórn Dalvíkurbyggðar fyrir Sjálfstæðisflokkinn í kosningunum 2022 og gegndi embætti forseta sveitarstjórnar á kjörtímabilinu. Hann hefur einnig starfað innan Sambands íslenskra sveitarfélaga. Freyr skipar 14. sæti á D-lista Sjálfstæðisflokksins í Dalvíkurbyggð fyrir sveitarstjórnarkosningarnar 2026.",
+    "sources": [
+      "https://arcticseatours.is/",
+      "https://www.dalvikurbyggd.is/is/frettir-1/urslit-sveitarstjornarkosninga-2022",
+      "https://www.dalvikurbyggd.is/is/thatttaka/thinir-fulltruar",
+      "https://kosningasaga.wordpress.com/2026/04/11/frambodslisti-sjalfstaedisflokksins-i-dalvikurbyggd/"
+    ],
+    "statements": [
+      {
+        "n": 1,
+        "status": "verified",
+        "claim": "Eigandi/CEO Arctic Sea Tours í Dalvík; hvalaskoðun frá 2009",
+        "quotes": [
+          "Freyr Antonsson, sveitarstjórnarfulltrúi og eigandi Arctic Sea Tours",
+          "We have been observing whales since 2009",
+          "Beginning in 2009 with a small oak boat"
+        ]
+      },
+      {
+        "n": 2,
+        "status": "flagged",
+        "claim": "Meðstofnandi ásamt eiginkonu sinni",
+        "quotes": [],
+        "note": "LinkedIn ávallt ónáanlegt; SERP-samantekt nefnir 'co-founded with his wife' en bein vitnun ekki í tiltækum heimildum."
+      },
+      {
+        "n": 3,
+        "status": "flagged",
+        "claim": "Vörumerkin Arctic Whale Watching, Arctic Sea Angling, Arctic Villages",
+        "quotes": [],
+        "note": "Ekki listuð sem vörumerki á vefnum (sem birtir Arctic Sea Whales/Fish/Birds)."
+      },
+      {
+        "n": 4,
+        "status": "verified",
+        "claim": "Kjörinn í sveitarstjórn Dalvíkurbyggðar fyrir D-lista 2022",
+        "quotes": [
+          "D-listi Sjálfstæðisfélags Dalvíkurbyggðar hlaut 335 atkvæði, 32,8% og 2 menn kjörna",
+          "Freyr Antonsson (D)"
+        ]
+      },
+      {
+        "n": 5,
+        "status": "verified",
+        "claim": "Forseti sveitarstjórnar á yfirstandandi kjörtímabili",
+        "quotes": [
+          "Forseti sveitarstjórnar: Freyr Antonsson freyr.antonsson@dalvikurbyggd.is"
+        ]
+      },
+      {
+        "n": 6,
+        "status": "flagged",
+        "claim": "Starfað innan Sambands íslenskra sveitarfélaga",
+        "quotes": [],
+        "note": "Engin bein heimild fundin."
+      },
+      {
+        "n": 7,
+        "status": "verified",
+        "claim": "14. sæti á D-lista Sjálfstæðisflokksins í Dalvíkurbyggð 2026",
+        "quotes": [
+          "Jed Jovannie Cortes Nuez, sjómaður Freyr Antonsson, sveitarstjórnarfulltrúi og eigandi Arctic Sea Tours"
+        ]
+      }
+    ],
+    "summary": "Three claims unsupported by direct quotes: spousal co-founding, three named brands, and Samband role. Rewrite drops these.",
+    "stats": {
+      "verified": 4,
+      "flagged": 3,
+      "unreachable": 0
+    },
+    "rescue": {
+      "rewrite": "Freyr Antonsson er athafnamaður og sveitarstjórnarfulltrúi í Dalvíkurbyggð og er eigandi og framkvæmdastjóri Arctic Sea Tours, fyrirtækis sem hefur boðið upp á hvalaskoðunarferðir frá Dalvík frá árinu 2009. Freyr var kjörinn í sveitarstjórn Dalvíkurbyggðar fyrir D-lista Sjálfstæðisfélags Dalvíkurbyggðar í kosningunum 2022 og gegnir embætti forseta sveitarstjórnar á yfirstandandi kjörtímabili. Hann skipar 14. sæti á lista Sjálfstæðisflokksins í Dalvíkurbyggð fyrir sveitarstjórnarkosningarnar 2026.",
+      "rewrite_words": 76,
+      "new_sources": [
+        "https://kosningasaga.wordpress.com/2026/04/11/frambodslisti-sjalfstaedisflokksins-i-dalvikurbyggd/"
+      ],
+      "resolutions": [
+        {
+          "n": 2,
+          "action": "dropped",
+          "reason": "spousal co-founding not directly quoted (LinkedIn unreachable)"
+        },
+        {
+          "n": 3,
+          "action": "dropped",
+          "reason": "named brands not on the company's own site"
+        },
+        {
+          "n": 6,
+          "action": "dropped",
+          "reason": "Samband ÍS role not corroborated"
+        }
+      ],
+      "new_heimild": [
+        {
+          "url": "https://arcticseatours.is/",
+          "label": "Arctic Sea Tours"
+        },
+        {
+          "url": "https://www.dalvikurbyggd.is/is/frettir-1/urslit-sveitarstjornarkosninga-2022",
+          "label": "Dalvíkurbyggð — úrslit 2022"
+        },
+        {
+          "url": "https://www.dalvikurbyggd.is/is/thatttaka/thinir-fulltruar",
+          "label": "Dalvíkurbyggð — Þínir fulltrúar"
+        },
+        {
+          "url": "https://kosningasaga.wordpress.com/2026/04/11/frambodslisti-sjalfstaedisflokksins-i-dalvikurbyggd/",
+          "label": "KOSNINGASAGA — D-listi Dalvíkurbyggð 2026"
+        }
+      ]
+    }
+  },
+  "GAR.M.4": {
+    "bio": "Bessí Þóra Jónsdóttir er atferlishagfræðingur og lektor við Háskólann í Reykjavík. Hún stundaði meistaranám við London School of Economics and Political Science (LSE) og hefur sinnt rannsóknum á sviði atferlishagfræði og fjármálasögu samhliða kennslu við viðskiptadeild HR. Bessí Þóra hefur birt aðsendar greinar í Vísi um efnahags- og atvinnulífsmál, meðal annars greinarnar „Vanvirðing við einkaframtakið og verðmætasköpun“ (2024) og „Allir eru jafnir en enginn fær að blómstra“ (2026), þar sem hún tekur upp hanskann fyrir einkaframtakið og fjölbreytni í menntakerfi. Hún skipar 4. sæti á lista Miðflokksins í Garðabæ í sveitarstjórnarkosningum 2026 og er ein af þeim sem leggja áherslu á efnahags- og lýðheilsumál í málflutningi flokksins.",
+    "sources": [
+      "https://www.visir.is/g/20262875300d/allir-eru-jafnir-en-enginn-faer-ad-blomstra",
+      "https://www.visir.is/g/20242646481d/van-virding-vid-einka-fram-takid-og-verdmaeta-skopun",
+      "https://uk.linkedin.com/in/bess%C3%AD-%C3%BE%C3%B3ra-j%C3%B3nsd%C3%B3ttir-055298157"
+    ],
+    "statements": [
+      {
+        "n": 1,
+        "status": "verified",
+        "claim": "atferlishagfræðingur",
+        "quotes": [
+          "Höfundur er atferlishagfræðingur og frambjóðandi í 4. sæti á lista Miðflokksins í Garðabæ.",
+          "Höfundur er atferlishagfræðingur og frambjóðandi í 3. sæti á lista Miðflokksins í Reykjavíkurkjördæmi norður."
+        ]
+      },
+      {
+        "n": 2,
+        "status": "flagged",
+        "claim": "lektor við Háskólann í Reykjavík",
+        "notes": "Aðeins LinkedIn — óaðgengilegt. Vísir-undirskrift segir aðeins „atferlishagfræðingur“. HR-vefur skilar engri starfsfólks-síðu með nafninu í cache eða leit."
+      },
+      {
+        "n": 3,
+        "status": "flagged",
+        "claim": "meistaranám við London School of Economics and Political Science (LSE)",
+        "notes": "Aðeins LinkedIn — óaðgengilegt. Engin staðfest opinber heimild."
+      },
+      {
+        "n": 4,
+        "status": "flagged",
+        "claim": "rannsóknir á sviði atferlishagfræði og fjármálasögu, kennsla við viðskiptadeild HR",
+        "notes": "Aðeins LinkedIn-snippet. Ekki staðfest beint. Flag heild."
+      },
+      {
+        "n": 5,
+        "status": "verified",
+        "claim": "skrifaði aðsenda grein „Allir eru jafnir en enginn fær að blómstra“ (Vísir 2026)",
+        "quotes": [
+          "Bessí Þóra Jónsdóttir skrifar (Vísir, 2026 grein)"
+        ]
+      },
+      {
+        "n": 6,
+        "status": "verified",
+        "claim": "skrifaði aðsenda grein um vanvirðingu við einkaframtakið (Vísir 2024)",
+        "quotes": [
+          "Bessí Þóra Jónsdóttir skrifar (Vísir, 2024 grein um „ehf-gat“ og iðnaðarmenn)"
+        ]
+      },
+      {
+        "n": 7,
+        "status": "verified",
+        "claim": "4. sæti á lista Miðflokksins í Garðabæ 2026",
+        "quotes": [
+          "Höfundur er atferlishagfræðingur og frambjóðandi í 4. sæti á lista Miðflokksins í Garðabæ."
+        ]
+      },
+      {
+        "n": 8,
+        "status": "flagged",
+        "claim": "leggur áherslu á efnahags- og LÝÐHEILSUMÁL í málflutningi",
+        "notes": "Greinarnar fjalla um einkaframtak, atvinnulíf og menntamál — ekki lýðheilsu. Soft framing án heimildar."
+      }
+    ],
+    "summary": "4 verified, 4 flagged",
+    "stats": {
+      "verified": 4,
+      "flagged": 4,
+      "unreachable": 0
+    },
+    "rescue": {
+      "rewrite": "Bessí Þóra Jónsdóttir er atferlishagfræðingur. Hún hefur birt aðsendar greinar í Vísi um efnahags- og atvinnulífsmál, meðal annars „Vanvirðing við einkaframtakið og verðmætasköpun“ (2024) þar sem hún ver sjálfstæða atvinnurekendur og iðnaðarmenn gegn fyrirhuguðum skattahækkunum, og „Allir eru jafnir en enginn fær að blómstra“ (2026), þar sem hún tekur upp hanskann fyrir fjölbreytni í menntakerfi. Bessí Þóra var áður frambjóðandi í 3. sæti á lista Miðflokksins í Reykjavíkurkjördæmi norður í alþingiskosningum og skipar nú 4. sæti á lista Miðflokksins í Garðabæ fyrir sveitarstjórnarkosningarnar 16. maí 2026.",
+      "rewrite_words": 110,
+      "new_sources": [],
+      "resolutions": [
+        {
+          "kind": "dropped",
+          "text": "„lektor við HR“ — eingöngu LinkedIn"
+        },
+        {
+          "kind": "dropped",
+          "text": "„meistaranám við LSE“ — eingöngu LinkedIn"
+        },
+        {
+          "kind": "dropped",
+          "text": "„rannsóknir á atferlishagfræði og fjármálasögu samhliða kennslu við viðskiptadeild HR“ — eingöngu LinkedIn"
+        },
+        {
+          "kind": "dropped",
+          "text": "„lýðheilsumál sem áhersla“ — engin heimild"
+        }
+      ],
+      "new_heimild": []
+    }
+  },
+  "GAR.S.4": {
+    "bio": "Vilmar Pétursson er sérfræðingur hjá Vinnumálastofnun og hefur gegnt stöðu mannauðsstjóra stofnunarinnar undanfarin ár. Áður starfaði hann í um þrettán ár sem ráðgjafi á sviði stefnumótunar, fræðslu- og mannauðsmála hjá Capacent. Hjá Vinnumálastofnun hefur Vilmar leitt verkefni um raunfærnimat starfsfólks og stafræna umbreytingu á þjónustu og vinnulagi stofnunarinnar. Hann er íbúi í Urriðaholti í Garðabæ og hefur fjallað um nærsamfélagsmál, samgöngur og þjónustu í hverfinu í aðsendum greinum í Vísi vorið 2026, þar sem hann hefur meðal annars hvatt til ókeypis strætóferða fyrir börn og ungmenni og bættrar nærþjónustu í ört vaxandi hverfi. Vilmar skipar 4. sæti á lista Samfylkingarinnar í Garðabæ í sveitarstjórnarkosningum 2026.",
+    "sources": [
+      "https://www.visir.is/g/20262875932d/umferdarmal-i-urridaholti-flotti-fra-vandanum",
+      "https://www.visir.is/g/20262872324d/aukum-naerthjonustu-i-urridaholti",
+      "https://www.sameyki.is/frettir/stok-frett/2021/05/20/Raunfaernimat-og-faerniuppbygging-hja-Vinnumalastofnun-haefni-starfsfolks-gerd-synileg/"
+    ],
+    "statements": [
+      {
+        "n": 1,
+        "status": "verified",
+        "claim": "sérfræðingur hjá Vinnumálastofnun (núverandi)",
+        "quotes": [
+          "Vilmar Pétursson, sérfræðingur hjá Vinnumálastofnun (Kosningasaga listi Samfylk. Garðabæ 2026)"
+        ]
+      },
+      {
+        "n": 2,
+        "status": "rescued",
+        "claim": "gegndi stöðu mannauðsstjóra VMST",
+        "quotes": [
+          "Unni Sverrisdóttur forstjóra VMST og Vilmari Péturssyni mannauðsstjóra VMST (sameyki.is, Wayback Machine)"
+        ]
+      },
+      {
+        "n": 3,
+        "status": "flagged",
+        "claim": "starfaði í um 13 ár sem ráðgjafi hjá Capacent á sviði stefnumótunar, fræðslu- og mannauðsmála",
+        "notes": "Engin staðfest opinber heimild. Líklega LinkedIn-snippet (óaðgengilegt)."
+      },
+      {
+        "n": 4,
+        "status": "rescued",
+        "claim": "leiddi verkefni um raunfærnimat og stafræna umbreytingu hjá VMST",
+        "quotes": [
+          "lauk formlega tilraunarverkefninu raunfærnimat á móti starfi sérhæfðs þjónustufulltrúa hjá Vinnumálastofnun (VMST)",
+          "við vorum byrjuð í mikilli stafrænni umbyltingu (Vilmar Pétursson, sameyki)"
+        ]
+      },
+      {
+        "n": 5,
+        "status": "verified",
+        "claim": "íbúi í Urriðaholti, skrifað aðsendar greinar í Vísi vorið 2026 um umferðar- og nærþjónustu",
+        "quotes": [
+          "Vilmar Pétursson skrifar (Vísir 2026 — Umferðarmál í Urriðaholti)",
+          "Höfundur er íbúi í Urriðaholti og skipar 4.sæti á lista Samfylkingarinnar í Garðabæ"
+        ]
+      },
+      {
+        "n": 6,
+        "status": "flagged",
+        "claim": "hvatt til ókeypis strætóferða fyrir börn og ungmenni",
+        "notes": "Vilmar-greinarnar fjalla um almenningssamgöngur og nærþjónustu en orðuð „ókeypis strætóferðir fyrir börn“ er ekki bein tilvitnun. Önnur grein (Lárus Guðmundsson, „Allt frítt í Garðabæ“) virðist benda á flokksloforð, ekki greinarnar Vilmars. Drop sem soft fabricated framing."
+      },
+      {
+        "n": 7,
+        "status": "verified",
+        "claim": "4. sæti á lista Samfylkingarinnar í Garðabæ 2026",
+        "quotes": [
+          "Höfundur er íbúi í Urriðaholti og skipar 4.sæti á lista Samfylkingarinnar í Garðabæ"
+        ]
+      }
+    ],
+    "summary": "5 verified/rescued, 2 flagged",
+    "stats": {
+      "verified": 5,
+      "flagged": 2,
+      "unreachable": 0
+    },
+    "rescue": {
+      "rewrite": "Vilmar Pétursson er sérfræðingur hjá Vinnumálastofnun og hefur áður gegnt þar stöðu mannauðsstjóra. Hjá Vinnumálastofnun leiddi hann meðal annars tilraunaverkefni um raunfærnimat starfsfólks og kom að stafrænni umbyltingu á þjónustu stofnunarinnar. Vilmar er íbúi í Urriðaholti í Garðabæ og hefur skrifað aðsendar greinar í Vísi vorið 2026 um umferðarmál og nærþjónustu í hverfinu, þar sem hann kallar eftir aukinni þjónustu, betri almenningssamgöngum og bættri innkeyrslu inn í Urriðaholtið. Hann skipar 4. sæti á lista Samfylkingarinnar í Garðabæ fyrir sveitarstjórnarkosningarnar 16. maí 2026.",
+      "rewrite_words": 102,
+      "new_sources": [
+        "https://web.archive.org/web/2025/https://www.sameyki.is/frettir/stok-frett/2021/05/20/Raunfaernimat-og-faerniuppbygging-hja-Vinnumalastofnun-haefni-starfsfolks-gerd-synileg/"
+      ],
+      "resolutions": [
+        {
+          "kind": "dropped",
+          "text": "„um þrettán ár hjá Capacent“ — eingöngu LinkedIn-snippet"
+        },
+        {
+          "kind": "dropped",
+          "text": "„ókeypis strætóferðir fyrir börn og ungmenni“ — ekki í Vilmar-greinunum"
+        }
+      ],
+      "new_heimild": [
+        {
+          "url": "https://web.archive.org/web/2025/https://www.sameyki.is/frettir/stok-frett/2021/05/20/Raunfaernimat-og-faerniuppbygging-hja-Vinnumalastofnun-haefni-starfsfolks-gerd-synileg/",
+          "label": "Sameyki (Wayback) — Raunfærnimat hjá VMST 2021"
+        }
+      ]
+    }
+  },
+  "ISF.D.7": {
+    "bio": "Snorri Karl Birgisson er matvælafræðingur og verksmiðjustjóri (yfirverkstjóri) hjá Hraðfrystihúsinu-Gunnvör hf. í Hnífsdal. Hann lauk meistaragráðu í matvælafræði frá Háskóla Íslands og hefur reynslu af matvælaframleiðslu og fiskvinnslu, þar á meðal við vöruþróun og skynmat. Hraðfrystihúsið-Gunnvör er eitt af stærstu sjávarútvegsfyrirtækjum Vestfjarða, með höfuðstöðvar í Hnífsdal, og varð til árið 1999 við sameiningu Hraðfrystihússins hf. og Gunnvarar hf. Snorri Karl skipar 7. sæti á lista Sjálfstæðisflokks og óháðra í Ísafjarðarbæ við sveitarstjórnarkosningarnar 2026.",
+    "sources": [
+      "https://www.linkedin.com/in/snorri-karl-birgisson-41aa0b13a/",
+      "https://frosti.is/",
+      "https://kosningasaga.wordpress.com/2026/02/26/frambodslisti-sjalfstaedisflokks-i-isafjardarbae/"
+    ],
+    "statements": [
+      {
+        "n": 1,
+        "status": "rescued",
+        "claim": "Matvælafræðingur, verksmiðjustjóri/factory manager hjá Hraðfrystihúsinu-Gunnvör",
+        "quotes": [
+          "Snorri Karl Birgisson - Factory Manager - Hraðfrystihúsið-Gunnvör hf. | LinkedIn",
+          "strong research professional with a Master's degree focused in Food Science"
+        ]
+      },
+      {
+        "n": 2,
+        "status": "verified",
+        "claim": "Yfirverkstjóri (factory manager title in Icelandic on framboðslisti)",
+        "quotes": [
+          "Snorri Karl Birgisson, yfirverkstjóri"
+        ]
+      },
+      {
+        "n": 3,
+        "status": "rescued",
+        "claim": "Meistaragráða í matvælafræði frá HÍ",
+        "quotes": [
+          "strong research professional with a Master's degree focused in Food Science from Háskóli Íslands"
+        ]
+      },
+      {
+        "n": 4,
+        "status": "flagged",
+        "claim": "Reynsla af vöruþróun og skynmat (specific)",
+        "quotes": []
+      },
+      {
+        "n": 5,
+        "status": "verified",
+        "claim": "Hraðfrystihúsið-Gunnvör með höfuðstöðvar í Hnífsdal",
+        "quotes": [
+          "Hraðfrystihusið-Gunnvör hf. gerir út 2 togara, er með fiskvinnslu í Hnífsdal og niðursuðuverksmiðju í Súðavík",
+          "Hraðfrystihúsið-Gunnvör hf. Hnífsdalsbryggja 410 Hnífsdalur"
+        ]
+      },
+      {
+        "n": 6,
+        "status": "rescued",
+        "claim": "Stofnað 1999 við sameiningu Hraðfrystihússins hf. og Gunnvarar hf.",
+        "quotes": [
+          "Fyrirtækið varð til árið 1999 við sameingu Hraðfrystihúsins hf. og Gunnvarar hf."
+        ]
+      },
+      {
+        "n": 7,
+        "status": "verified",
+        "claim": "Skipar 7. sæti á lista Sjálfstæðisflokks og óháðra í Ísafjarðarbæ 2026",
+        "quotes": [
+          "Snorri Karl Birgisson, yfirverkstjóri"
+        ]
+      }
+    ],
+    "summary": "6/7 verified or rescued. Vöruþróun/skynmat unverifiable in atomic terms; rewrite required to drop unsupported phrase.",
+    "stats": {
+      "verified": 6,
+      "flagged": 1,
+      "unreachable": 0
+    },
+    "rescue": {
+      "rewrite": "Snorri Karl Birgisson er matvælafræðingur og yfirverkstjóri (verksmiðjustjóri) hjá Hraðfrystihúsinu-Gunnvör hf. í Hnífsdal. Hann lauk meistaragráðu í matvælafræði frá Háskóla Íslands. Hraðfrystihúsið-Gunnvör er eitt stærsta sjávarútvegsfyrirtæki Vestfjarða, með höfuðstöðvar í Hnífsdal, og varð til árið 1999 við sameiningu Hraðfrystihússins hf. og Gunnvarar hf. Snorri Karl skipar 7. sæti á lista Sjálfstæðisflokks og óháðra í Ísafjarðarbæ við sveitarstjórnarkosningarnar 2026.",
+      "rewrite_words": 78,
+      "new_sources": [],
+      "resolutions": [
+        {
+          "kind": "dropped",
+          "text": "Reynsla af vöruþróun og skynmat — no direct source for these specific subfields."
+        }
+      ],
+      "new_heimild": [
+        {
+          "url": "https://www.linkedin.com/in/snorri-karl-birgisson-41aa0b13a/",
+          "label": "LinkedIn – Snorri Karl Birgisson"
+        },
+        {
+          "url": "https://frosti.is/",
+          "label": "Hraðfrystihúsið-Gunnvör"
+        },
+        {
+          "url": "https://kosningasaga.wordpress.com/2026/02/26/frambodslisti-sjalfstaedisflokks-i-isafjardarbae/",
+          "label": "Kosningasaga – Sjálfstæðisflokkur Ísafjarðarbæ"
+        },
+        {
+          "url": "https://is.wikipedia.org/wiki/Hra%C3%B0frystih%C3%BAsi%C3%B0-Gunnv%C3%B6r",
+          "label": "Wikipedia – Hraðfrystihúsið-Gunnvör"
+        }
+      ]
+    }
+  },
+  "KOP.D.6": {
+    "bio": "Hildur Einarsdóttir starfar sem sölu- og markaðsstjóri og hefur reynslu af markaðs- og vörumerkjastjórnun í íslensku atvinnulífi, meðal annars hjá líftæknifyrirtæki. Hún er menntuð frá Háskólanum í Reykjavík. Hildur skipar sjötta sæti á lista Sjálfstæðisflokksins (D-lista) í Kópavogi fyrir sveitarstjórnarkosningarnar 2026.",
+    "sources": [
+      "https://xd.is/2026/03/17/fullskipadur-frambodslisti-i-kopavogi/",
+      "https://www.linkedin.com/in/hildur-einarsd%C3%B3ttir-01512176/"
+    ],
+    "statements": [
+      {
+        "n": 1,
+        "status": "verified",
+        "claim": "Sölu- og markaðsstjóri og 6. sæti á D-lista í Kópavogi 2026",
+        "quotes": [
+          "6. Hildur Einarsdóttir, sölu- og markaðsstjóri"
+        ]
+      },
+      {
+        "n": 2,
+        "status": "unreachable",
+        "claim": "Reynsla af markaðs- og vörumerkjastjórnun, m.a. hjá líftæknifyrirtæki",
+        "notes": "Heimild er LinkedIn — alltaf óaðgengilegt."
+      },
+      {
+        "n": 3,
+        "status": "unreachable",
+        "claim": "Menntuð frá Háskólanum í Reykjavík",
+        "notes": "Heimild er LinkedIn — alltaf óaðgengilegt."
+      }
+    ],
+    "summary": "1 verified, 0 rescued, 0 flagged, 2 unreachable",
+    "stats": {
+      "verified": 1,
+      "flagged": 0,
+      "unreachable": 2
+    },
+    "rescue": {
+      "rewrite": "Hildur Einarsdóttir er sölu- og markaðsstjóri og skipar sjötta sæti á lista Sjálfstæðisflokksins (D-lista) í Kópavogi fyrir sveitarstjórnarkosningarnar 2026.",
+      "rewrite_words": 24,
+      "new_sources": [],
+      "resolutions": [
+        {
+          "kind": "dropped",
+          "text": "Reynsla hjá líftæknifyrirtæki — LinkedIn óaðgengilegt"
+        },
+        {
+          "kind": "dropped",
+          "text": "Menntun frá HR — LinkedIn óaðgengilegt"
+        }
+      ],
+      "new_heimild": [
+        {
+          "url": "https://xd.is/2026/03/17/fullskipadur-frambodslisti-i-kopavogi/",
+          "label": "xd.is"
+        }
+      ]
+    }
+  },
+  "KOP.S.9": {
+    "bio": "Björn Þór Rögnvaldsson er lögfræðingur og starfar sem yfirlögfræðingur (Senior Legal Counsel) hjá Fjarskiptastofu, þar sem hann sinnir meðal annars netöryggismálum og fjarskiptaregluverki. Hann lauk LL.M.-prófi í alþjóða- og Evrópurétti og hefur tekið þátt í ráðstefnum og fræðslu á sviði netöryggis. Björn Þór hefur starfað innan Samfylkingarinnar í Kópavogi sem meðstjórnandi og skipar níunda sæti á lista Samfylkingarinnar (S-lista) í Kópavogi fyrir sveitarstjórnarkosningarnar 2026.",
+    "sources": [
+      "https://xs.is/frambjodendur-i-kopavogi-2026-",
+      "https://www.linkedin.com/in/bj%C3%B6rn-%C3%BE%C3%B3r-r%C3%B6gnvaldsson-b6497144/"
+    ],
+    "statements": [
+      {
+        "n": 1,
+        "status": "verified",
+        "claim": "Lögfræðingur og 9. sæti á S-lista í Kópavogi",
+        "quotes": [
+          "9. Björn Þór Rögnvaldsson Lögfræðingur"
+        ]
+      },
+      {
+        "n": 2,
+        "status": "unreachable",
+        "claim": "Yfirlögfræðingur hjá Fjarskiptastofu",
+        "notes": "Heimild er LinkedIn (alltaf óaðgengilegt); Fjarskiptastofa.is birtir ekki nafnalista."
+      },
+      {
+        "n": 3,
+        "status": "unreachable",
+        "claim": "Sinnir netöryggismálum og fjarskiptaregluverki",
+        "notes": "LinkedIn óaðgengilegt; engin önnur staðfesting."
+      },
+      {
+        "n": 4,
+        "status": "unreachable",
+        "claim": "LL.M.-próf í alþjóða- og Evrópurétti",
+        "notes": "LinkedIn óaðgengilegt."
+      },
+      {
+        "n": 5,
+        "status": "unreachable",
+        "claim": "Tekið þátt í ráðstefnum á sviði netöryggis",
+        "notes": "LinkedIn óaðgengilegt; engin önnur staðfesting."
+      },
+      {
+        "n": 6,
+        "status": "flagged",
+        "claim": "Hefur starfað innan Samfylkingarinnar í Kópavogi sem meðstjórnandi",
+        "notes": "Ekkert beint staðfest í tilfærðum heimildum eða heimasíðu Kópavogs (þó hann sé skráður sem aðalmaður (S) í menntaráði Kópavogs)."
+      }
+    ],
+    "summary": "1 verified, 0 rescued, 1 flagged, 4 unreachable",
+    "stats": {
+      "verified": 1,
+      "flagged": 1,
+      "unreachable": 4
+    },
+    "rescue": {
+      "rewrite": "Björn Þór Rögnvaldsson er lögfræðingur og á sæti í menntaráði Kópavogs á vegum Samfylkingarinnar. Hann skipar níunda sæti á lista Samfylkingarinnar (S-lista) í Kópavogi fyrir sveitarstjórnarkosningarnar 2026.",
+      "rewrite_words": 31,
+      "new_sources": [
+        "https://www.kopavogur.is/is/stjornsysla/rad-og-nefndir/skolanefnd"
+      ],
+      "resolutions": [
+        {
+          "kind": "dropped",
+          "text": "Fjarskiptastofu-titill og málaflokkar — LinkedIn óaðgengilegt"
+        },
+        {
+          "kind": "dropped",
+          "text": "LL.M. menntun — LinkedIn óaðgengilegt"
+        },
+        {
+          "kind": "dropped",
+          "text": "Ráðstefnu-/fræðsluþátttaka á sviði netöryggis — engin staðfesting"
+        },
+        {
+          "kind": "dropped",
+          "text": "Meðstjórnandi í Samfylkingunni í Kópavogi — engin staðfesting"
+        }
+      ],
+      "new_heimild": [
+        {
+          "url": "https://xs.is/frambjodendur-i-kopavogi-2026-",
+          "label": "xs.is — Frambjóðendur í Kópavogi 2026"
+        },
+        {
+          "url": "https://www.kopavogur.is/is/stjornsysla/rad-og-nefndir/skolanefnd",
+          "label": "kopavogur.is — Menntaráð"
+        }
+      ]
+    }
+  },
+  "MOS.D.13": {
+    "bio": "Jón Magnús Jónsson er fæddur 1962 og er bóndi og eigandi Reykjabúsins ehf. í Mosfellsbæ, sem er elsta starfandi alifuglabú á Íslandi. Hann nam alifuglarækt við Háskólann í Wisconsin í Bandaríkjunum og fetaði í fótspor föður síns og afa, sem báðir störfuðu á Suður-Reykjum frá árinu 1916. Jón Magnús tók við rekstri búsins árið 2005 og rekur það ásamt eiginkonu sinni, Kristínu Sverrisdóttur. Reykjabúið framleiðir kalkúna- og kjúklingakjöt og hefur Jón Magnús meðal annars sinnt kynbótum og uppeldi fyrir Ísfuglsbændur. Jón Magnús skipar 13. sæti á lista Sjálfstæðisflokksins í Mosfellsbæ fyrir sveitarstjórnarkosningarnar 2026.",
+    "sources": [
+      "https://kalkunn.is/saga-reykjabusins/",
+      "https://kalkunn.is/um-okkur/",
+      "https://isfugl.is/isfuglsbaendur/reykjabuid/",
+      "https://www.linkedin.com/in/j%C3%B3n-magn%C3%BAs-j%C3%B3nsson-27a96611/",
+      "https://xd.is/2026/02/27/fullskipadur-frambodslisti-sjalfstaedisflokksins-i-mosfellsbae/"
+    ],
+    "statements": [
+      {
+        "n": 1,
+        "status": "verified",
+        "claim": "Fæddur 1962",
+        "quotes": [
+          "Jón Magnús Jónsson (f. 1962) lýkur námi í alifuglarækt við háskólann í Madison"
+        ]
+      },
+      {
+        "n": 2,
+        "status": "verified",
+        "claim": "Bóndi og eigandi Reykjabúsins ehf. – elsta starfandi alifuglabú á Íslandi",
+        "quotes": [
+          "Reykjabúið í Mosfellsbæ er elsta starfandi alifuglabú landsins",
+          "Það er fjölskyldubú í eigu Jóns Magnúsar Jónssonar og Kristínar Sverrisdóttur bænda á Reykjum"
+        ]
+      },
+      {
+        "n": 3,
+        "status": "verified",
+        "claim": "Nam alifuglarækt við Háskólann í Wisconsin (Madison)",
+        "quotes": [
+          "lýkur námi í alifuglarækt við háskólann í Madison",
+          "fetar þar í fótspor föður síns og aflar sér að auki sérmenntunar í kalkúnarækt"
+        ]
+      },
+      {
+        "n": 4,
+        "status": "verified",
+        "claim": "Fjölskyldan á Suður-Reykjum frá 1916; faðir og afi",
+        "quotes": [
+          "Suður-Reykir hafa verið í eigu sömu fjölskyldna frá því árið 1916 þegar Guðmundur Jónsson, afi Jóns Magnúsar Jónssonar, núverandi ábúanda, keypti jörðina",
+          "fetar þar í fótspor föður síns",
+          "1999 Jón Magnús Guðmundsson og Málfríður Bjarnadóttir fá landbúnaðarverðlaun"
+        ]
+      },
+      {
+        "n": 5,
+        "status": "verified",
+        "claim": "Tók við 2005, rekur með Kristínu Sverrisdóttur",
+        "quotes": [
+          "2005 Jón Magnús Jónsson og Kristín Sverrisdóttir kaupa Reykjabúið ehf. af fjölskyldunni"
+        ]
+      },
+      {
+        "n": 6,
+        "status": "verified",
+        "claim": "Framleiðir kalkúna- og kjúklingakjöt; sinnir kynbótum/uppeldi fyrir Ísfuglsbændur",
+        "quotes": [
+          "Þau Jón Magnús og Kristín reka stofnfuglarækt fyrir kalkúna og kjúklinga Ísfuglsbænda á Reykjabúinu og eru einnig með kjúklinga- og kalkúnaeldi"
+        ]
+      },
+      {
+        "n": 7,
+        "status": "verified",
+        "claim": "13. sæti á lista Sjálfstæðisflokksins í Mosfellsbæ 2026",
+        "quotes": [
+          "Katrín Dögg Hilmarsdóttir - Golfkennari Jón Magnús Jónsson - Bóndi"
+        ]
+      }
+    ],
+    "summary": "Bio fully verified.",
+    "stats": {
+      "verified": 7,
+      "flagged": 0,
+      "unreachable": 0
+    },
+    "rescue": {
+      "rewrite": null,
+      "rewrite_words": 0,
+      "new_sources": [],
+      "resolutions": [],
+      "new_heimild": []
+    }
+  },
+  "MOS.D.15": {
+    "bio": "Þorsteinn Birgisson er formaður Félags aldraðra í Mosfellsbæ (FaMos) og starfar sem verkfræðingur hjá Mosfellsbæ. Þorsteinn skipar 15. sæti á lista Sjálfstæðisflokksins í Mosfellsbæ fyrir sveitarstjórnarkosningarnar 2026.",
+    "sources": [
+      "https://www.mbl.is/frettir/innlent/2026/02/27/svona_stillir_sjalfstaedisflokkurinn_upp_i_mosfells/",
+      "https://www.linkedin.com/in/%C3%BEorsteinn-birgisson-116894110/"
+    ],
+    "statements": [
+      {
+        "n": 1,
+        "status": "verified",
+        "claim": "Formaður FaMos (Félags aldraðra í Mosfellsbæ)",
+        "quotes": [
+          "15. Þorsteinn Birgisson - Formaður FaMos og rekstrartæknifræðingur",
+          "15. Þorsteinn Birgisson, Hamratún 9, Formaður FAMOS"
+        ]
+      },
+      {
+        "n": 2,
+        "status": "flagged",
+        "claim": "Verkfræðingur hjá Mosfellsbæ",
+        "notes": "Mbl.is segir hann ‚rekstrartæknifræðing‘ — ekki ‚verkfræðing‘ — og staðfestir ekki vinnustaðinn. LinkedIn óaðgengilegt."
+      },
+      {
+        "n": 3,
+        "status": "verified",
+        "claim": "Skipar 15. sæti á D-lista í Mosfellsbæ 2026",
+        "quotes": [
+          "15. Þorsteinn Birgisson"
+        ]
+      }
+    ],
+    "summary": "2 verified, 0 rescued, 1 flagged",
+    "stats": {
+      "verified": 2,
+      "flagged": 1,
+      "unreachable": 0
+    },
+    "rescue": {
+      "rewrite": "Þorsteinn Birgisson er rekstrartæknifræðingur og formaður Félags aldraðra í Mosfellsbæ (FaMos). Hann skipar 15. sæti á lista Sjálfstæðisflokksins í Mosfellsbæ fyrir sveitarstjórnarkosningarnar 2026.",
+      "rewrite_words": 27,
+      "new_sources": [],
+      "resolutions": [
+        {
+          "kind": "contradicted",
+          "text": "‚verkfræðingur hjá Mosfellsbæ‘ — mbl.is skráir starfsheiti rekstrartæknifræðings og nefnir ekki vinnustað"
+        }
+      ],
+      "new_heimild": [
+        {
+          "url": "https://www.mbl.is/frettir/innlent/2026/02/27/svona_stillir_sjalfstaedisflokkurinn_upp_i_mosfells/",
+          "label": "mbl.is — Listi Sjálfstæðisflokksins í Mosfellsbæ"
+        },
+        {
+          "url": "https://mos.is/wp-content/uploads/2026/04/2026_mosfellsbaer_frambodslistar_auglysing01.pdf",
+          "label": "mos.is — yfirkjörstjórn 2026"
+        }
+      ]
+    }
+  },
+  "RNB.D.9": {
+    "bio": "Ólöf Steinunn Lárusdóttir er vörumerkjastjóri hjá bílaleigunni Blue Car Rental, sem er í einkaeigu og með höfuðstöðvar á Reykjanesi. Hún hefur leitt endurskoðun á vörumerki fyrirtækisins og átt þátt í innleiðingu nýrrar markaðsstefnu þess. Ólöf er menntuð frá Háskólanum á Bifröst. Hún skipar 9. sæti á lista Sjálfstæðisflokksins í Reykjanesbæ fyrir sveitarstjórnarkosningarnar 2026.",
+    "sources": [
+      "https://www.linkedin.com/in/%C3%B3l%C3%B6f-l%C3%A1rusd%C3%B3ttir-9a395868/",
+      "https://www.mbl.is/frettir/innlent/2026/02/28/listi_sjalfstaedisflokksins_i_reykjanesbae_samthykk/"
+    ],
+    "statements": [
+      {
+        "n": 1,
+        "status": "verified",
+        "claim": "Vörumerkjastjóri Blue",
+        "quotes": [
+          "Ólöf Steinunn Lárusdóttir, vörumerkjastjóri Blue."
+        ]
+      },
+      {
+        "n": 2,
+        "status": "unreachable",
+        "claim": "Blue Car Rental, í einkaeigu, höfuðstöðvar á Reykjanesi",
+        "notes": "LinkedIn óaðgengilegt; ekki staðfest að 'Blue' sé Blue Car Rental né eignarhald/staðsetning."
+      },
+      {
+        "n": 3,
+        "status": "unreachable",
+        "claim": "Hefur leitt endurskoðun á vörumerki og innleiðingu nýrrar markaðsstefnu",
+        "notes": "LinkedIn óaðgengilegt; ekki staðfest."
+      },
+      {
+        "n": 4,
+        "status": "unreachable",
+        "claim": "Menntuð frá Háskólanum á Bifröst",
+        "notes": "LinkedIn óaðgengilegt; ekki staðfest."
+      },
+      {
+        "n": 5,
+        "status": "verified",
+        "claim": "Skipar 9. sæti á lista Sjálfstæðisflokksins í Reykjanesbæ",
+        "quotes": [
+          "Logi Þór Ágústsson ... Ólöf Steinunn Lárusdóttir, vörumerkjastjóri Blue"
+        ]
+      }
+    ],
+    "summary": "2 verified, 3 unreachable",
+    "stats": {
+      "verified": 2,
+      "flagged": 0,
+      "unreachable": 3
+    },
+    "rescue": {
+      "rewrite": "Ólöf Steinunn Lárusdóttir er vörumerkjastjóri hjá Blue og skipar 9. sæti á lista Sjálfstæðisflokksins í Reykjanesbæ fyrir sveitarstjórnarkosningarnar 2026.",
+      "rewrite_words": 23,
+      "new_sources": [],
+      "resolutions": [
+        {
+          "kind": "dropped",
+          "text": "Eignarhald, staðsetning og lýsingar á vörumerkjastarfinu (LinkedIn óaðgengilegt)"
+        },
+        {
+          "kind": "dropped",
+          "text": "Menntun frá Bifröst (LinkedIn óaðgengilegt)"
+        }
+      ],
+      "new_heimild": [
+        {
+          "url": "https://www.mbl.is/frettir/innlent/2026/02/28/listi_sjalfstaedisflokksins_i_reykjanesbae_samthykk/",
+          "label": "mbl.is — Listi Sjálfstæðisflokksins í Reykjanesbæ samþykktur"
+        }
+      ]
+    }
+  },
+  "RTY.D.3": {
+    "bio": "Þröstur Sigurðsson er framkvæmdastjóri Lífeyrissjóðs Rangæinga með aðsetur á Hellu. Hann sat um tíma sem varafulltrúi í sveitarstjórn Rangárþings ytra þegar hann tók sæti Bjarkar Grétarsdóttur í leyfi árið 2023, og hefur á undanförnum árum jafnframt starfað í skipulags- og umferðarnefnd sveitarfélagsins. Þröstur skipar 3. sæti á D-lista Sjálfstæðisflokks og óháðra í Rangárþingi ytra fyrir sveitarstjórnarkosningarnar 2026, sem leiddur er af Ingvari P. Guðbjörnssyni oddvita. Listinn var samþykktur á fjölmennum félagsfundi í mars 2026.",
+    "sources": [
+      "https://xd.is/2026/03/05/fullskipadur-frambodslisti-i-rangarthingi-ytra/",
+      "https://www.sunnlenska.is/frettir/d-listinn-i-rangarthingi-ytra-samthykktur-a-fjolmennum-fundi/",
+      "https://www.ry.is/is/stjornsysla/stjornsysla/fundargerdir/skipulags-og-umferdarnefnd-rangarthings-ytra/1676"
+    ],
+    "statements": [
+      {
+        "n": 1,
+        "status": "rescued",
+        "claim": "Framkvæmdastjóri Lífeyrissjóðs Rangæinga (á Hellu)",
+        "quotes": [
+          "Þröstur Sigurðsson - framkv.stj - Lífeyrissjóður Rangæinga (LinkedIn search snippet)",
+          "Þröstur Sigurðsson framkvæmdastjóri (D-listi)"
+        ]
+      },
+      {
+        "n": 2,
+        "status": "rescued",
+        "claim": "Varafulltrúi í sveitarstjórn er hann tók sæti Bjarkar Grétarsdóttur í leyfi árið 2023",
+        "quotes": [
+          "Þröstur Sigurðsson served as a varafulltrúi (alternate representative) in Rangárþing ytra, taking Björk Grétarsdóttir's seat while she was on leave until June 1, 2023 (search snippet)"
+        ]
+      },
+      {
+        "n": 3,
+        "status": "verified",
+        "claim": "Aðalmaður í skipulags- og umferðarnefnd",
+        "quotes": [
+          "Þröstur Sigurðsson aðalmaður (Skipulags- og umferðarnefnd)"
+        ]
+      },
+      {
+        "n": 4,
+        "status": "verified",
+        "claim": "3. sæti á D-lista Sjálfstæðisflokks og óháðra, leiddur af Ingvari P. Guðbjörnssyni",
+        "quotes": [
+          "Í þriðja sæti er Þröstur Sigurðsson framkvæmdastjóri",
+          "Ingvar P. Guðbjörnsson núverandi oddviti listans leiðir hann áfram í næstu kosningum"
+        ]
+      },
+      {
+        "n": 5,
+        "status": "verified",
+        "claim": "Listinn samþykktur á fjölmennum félagsfundi í mars 2026",
+        "quotes": [
+          "Framboðslistinn fyrir komandi sveitarstjórnarkosningar var staðfestur á fjölmennum félagsfundi á Hótel Stracta",
+          "xd.is dagsetning 5. mars 2026"
+        ]
+      }
+    ],
+    "summary": "Bio verified or rescued.",
+    "stats": {
+      "verified": 5,
+      "flagged": 0,
+      "unreachable": 0
+    },
+    "rescue": {
+      "rewrite": "Þröstur Sigurðsson er framkvæmdastjóri Lífeyrissjóðs Rangæinga með aðsetur á Hellu. Hann sat um tíma sem varafulltrúi í sveitarstjórn Rangárþings ytra þegar hann tók sæti Bjarkar Grétarsdóttur í leyfi árið 2023, og hefur á undanförnum árum jafnframt starfað í skipulags- og umferðarnefnd sveitarfélagsins. Þröstur skipar 3. sæti á D-lista Sjálfstæðisflokks og óháðra í Rangárþingi ytra fyrir sveitarstjórnarkosningarnar 2026. Listinn var samþykktur á fjölmennum félagsfundi í mars 2026.",
+      "rewrite_words": 66,
+      "new_sources": [],
+      "resolutions": [
+        {
+          "kind": "rescued",
+          "text": "Lífeyrissjóður Rangæinga embætti og varafulltrúa-tímabil staðfest úr search snippets."
+        }
+      ],
+      "new_heimild": []
+    },
+    "applied": false
+  },
+  "RVK.R.9": {
+    "bio": "Jón Viðar Óskarsson er rafvirkjameistari og rekur fyrirtækið KEMI ehf. í Reykjavík. Hann er löggiltur rafverktaki með starfsstöð í Kristnibraut í Grafarholti og vinnur við rafiðnaðarstörf á höfuðborgarsvæðinu. Jón Viðar skipar níunda sæti á lista Okkar borgar (R-lista) í borgarstjórnarkosningunum 2026.",
+    "sources": [
+      "https://utvarpsaga.is/okkar-borg-kynnir-frambodslista-sinn-i-reykjavik/",
+      "https://www.linkedin.com/in/j%C3%B3n-vi%C3%B0ar-%C3%B3skarsson-bb646628/"
+    ],
+    "statements": [
+      {
+        "n": 1,
+        "status": "verified",
+        "claim": "Rafvirkjameistari",
+        "quotes": [
+          "9 Jón Viðar Óskarsson, rafvirkjameistari"
+        ]
+      },
+      {
+        "n": 2,
+        "status": "unreachable",
+        "claim": "Rekur KEMI ehf. í Reykjavík; löggiltur rafverktaki með starfsstöð í Kristnibraut í Grafarholti",
+        "notes": "Eina heimild fyrir þessar fullyrðingar er LinkedIn, sem er ekki aðgengilegt fyrir vélræna staðfestingu."
+      },
+      {
+        "n": 3,
+        "status": "verified",
+        "claim": "9. sæti á lista Okkar borgar (R-lista)",
+        "quotes": [
+          "9 Jón Viðar Óskarsson, rafvirkjameistari",
+          "Listinn ber bókstafinn R"
+        ]
+      }
+    ],
+    "summary": "2 verified, 1 unreachable",
+    "stats": {
+      "verified": 2,
+      "flagged": 0,
+      "unreachable": 1
+    },
+    "rescue": {
+      "rewrite": "Jón Viðar Óskarsson er rafvirkjameistari og skipar 9. sæti á lista Okkar borgar (R-lista) í borgarstjórnarkosningunum í Reykjavík 2026.",
+      "rewrite_words": 22,
+      "new_sources": [],
+      "resolutions": [
+        {
+          "kind": "dropped",
+          "text": "Tilvísanir í KEMI ehf., löggiltan rafverktaka og starfsstöð í Kristnibraut fjarlægðar — eina heimild er LinkedIn (ekki aðgengilegt)."
+        }
+      ],
+      "new_heimild": [
+        {
+          "url": "https://utvarpsaga.is/okkar-borg-kynnir-frambodslista-sinn-i-reykjavik/",
+          "label": "Útvarp Saga — listi Okkar Borgar"
+        }
+      ]
+    }
+  },
+  "SNB.S.1": {
+    "bio": "Svavar Grétarsson er fæddur árið 1985 og er flotastjóri hjá Enterprise Rent-A-Car á Íslandi. Hann er búsettur í Sandgerði á Suðurnesjum og leiðir lista Samfylkingar og óháðra í sveitarstjórnarkosningum í Suðurnesjabæ 2026.",
+    "sources": [
+      "https://www.vf.is/frettir/hvar-bua-thau-sem-aetla-ad-gaeta-hagsmuna-ibua-i-sudurnesjabae",
+      "https://www.linkedin.com/in/svavar-gr%C3%A9tarsson-129448175/"
+    ],
+    "statements": [
+      {
+        "n": 1,
+        "status": "flagged",
+        "claim": "Fæddur árið 1985",
+        "quotes": [],
+        "notes": "Aldur ekki staðfestur með opinberum heimildum."
+      },
+      {
+        "n": 2,
+        "status": "verified",
+        "claim": "Flotastjóri hjá Enterprise Rent-A-Car á Íslandi",
+        "quotes": [
+          "Svavar Grétarsson is a Fleet Manager at Enterprise Rent-A-Car Iceland"
+        ]
+      },
+      {
+        "n": 3,
+        "status": "verified",
+        "claim": "Búsettur í Sandgerði og leiðir lista Samfylkingar og óháðra í Suðurnesjabæ 2026",
+        "quotes": [
+          "Svavar Grétarsson (position 1, Sandgerði resident)"
+        ]
+      }
+    ],
+    "summary": "2 verified, 1 flagged, 0 unreachable",
+    "stats": {
+      "verified": 2,
+      "flagged": 1,
+      "unreachable": 0
+    },
+    "rescue": {
+      "rewrite": "Svavar Grétarsson er flotastjóri (Fleet Manager) hjá Enterprise Rent-A-Car á Íslandi og býr í Sandgerði. Hann leiðir lista Samfylkingar og óháðra í Suðurnesjabæ í sveitarstjórnarkosningunum 2026.",
+      "rewrite_words": 28,
+      "new_sources": [
+        "https://www.vf.is/frettir/hvar-bua-thau-sem-aetla-ad-gaeta-hagsmuna-ibua-i-sudurnesjabae",
+        "https://www.linkedin.com/in/svavar-gr%C3%A9tarsson-129448175/"
+      ],
+      "resolutions": [
+        {
+          "kind": "dropped",
+          "text": "Fæðingarár ekki staðfest."
+        }
+      ],
+      "new_heimild": [
+        {
+          "url": "https://www.vf.is/frettir/hvar-bua-thau-sem-aetla-ad-gaeta-hagsmuna-ibua-i-sudurnesjabae",
+          "label": "vf.is"
+        }
+      ]
+    }
+  }
+}

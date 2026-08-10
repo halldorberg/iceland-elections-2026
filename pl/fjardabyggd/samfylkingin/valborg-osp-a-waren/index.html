@@ -43,13 +43,13 @@
   <link rel="alternate" hreflang="en" id="hreflang-en" href="https://lydraedisveislan.is/en/fjardabyggd/samfylkingin/valborg-osp-a-waren/" />
   <link rel="alternate" hreflang="pl" id="hreflang-pl" href="https://lydraedisveislan.is/pl/fjardabyggd/samfylkingin/valborg-osp-a-waren/" />
   <link rel="alternate" hreflang="x-default" id="hreflang-default" href="https://lydraedisveislan.is/fjardabyggd/samfylkingin/valborg-osp-a-waren/" />
-  <meta name="description" content="Valborg Ösp Á. Warén er verkefnastjóri sem skipar 3. sæti á S-lista Fjarðalistans í Fjarðabyggð 2026. Hún kemur með reynslu í verkefnastjórnun og skipulagi." />
+  <meta name="description" content="Valborg Ösp Á. Warén er verkefnastjóri sem skipar 3. sæti á S-lista Fjarðalistans í Fjarðabyggð 2026. Hún kemur með reynslu í verkefnastjórnun og skipulagi.…" />
   <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
 
   <!-- Open Graph / Social preview -->
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Valborg Ösp Á. Warén — Samfylkingin — Fjarðabyggð" />
-  <meta property="og:description" content="Valborg Ösp Á. Warén er verkefnastjóri sem skipar 3. sæti á S-lista Fjarðalistans í Fjarðabyggð 2026. Hún kemur með reynslu í verkefnastjórnun og skipulagi." />
+  <meta property="og:description" content="Valborg Ösp Á. Warén er verkefnastjóri sem skipar 3. sæti á S-lista Fjarðalistans í Fjarðabyggð 2026. Hún kemur með reynslu í verkefnastjórnun og skipulagi.…" />
   <meta property="og:image" content="https://lydraedisveislan.is/images/candidates/94a580c2f7e45781.png" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
@@ -75,22 +75,22 @@
 
   <!-- App styles -->
   <link rel="stylesheet" href="/css/variables.css?v=3" />
-  <link rel="stylesheet" href="/css/municipality.css?v=29" />
+  <link rel="stylesheet" href="/css/municipality.css?v=56" />
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Strona główna","item":"https://lydraedisveislan.is/pl/"},{"@type":"ListItem","position":2,"name":"Fjarðabyggð","item":"https://lydraedisveislan.is/pl/fjardabyggd/"},{"@type":"ListItem","position":3,"name":"Samfylkingin","item":"https://lydraedisveislan.is/pl/fjardabyggd/samfylkingin/"},{"@type":"ListItem","position":4,"name":"Valborg Ösp Á. Warén","item":"https://lydraedisveislan.is/pl/fjardabyggd/samfylkingin/valborg-osp-a-waren/"}]}</script>
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Valborg Ösp Á. Warén","jobTitle":"Verkefnastjóri","affiliation":{"@type":"Organization","name":"Samfylkingin — Fjarðabyggð","url":"https://lydraedisveislan.is/pl/fjardabyggd/samfylkingin/"},"homeLocation":{"@type":"Place","name":"Fjarðabyggð"},"image":"https://lydraedisveislan.is/images/candidates/94a580c2f7e45781.png","description":"Valborg Ösp Á. Warén er verkefnastjóri sem skipar 3. sæti á S-lista Fjarðalistans í Fjarðabyggð 2026. Hún kemur með reynslu í verkefnastjórnun og skipulagi."}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Valborg Ösp Á. Warén","jobTitle":"Verkefnastjóri","affiliation":{"@type":"Organization","name":"Samfylkingin — Fjarðabyggð","url":"https://lydraedisveislan.is/pl/fjardabyggd/samfylkingin/"},"homeLocation":{"@type":"Place","name":"Fjarðabyggð"},"image":"https://lydraedisveislan.is/images/candidates/94a580c2f7e45781.png","description":"Valborg Ösp Á. Warén er verkefnastjóri sem skipar 3. sæti á S-lista Fjarðalistans í Fjarðabyggð 2026. Hún kemur með reynslu í verkefnastjórnun og skipulagi.…"}</script>
 </head>
 <body class="page-municipality">
 
   <!-- Top nav -->
   <nav class="muni-nav">
-    <a href="/index.html" class="back-btn" id="back-btn">
+    <a href="/sveitastjornarkosningar2026/" class="back-btn" id="back-btn">
       <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
         <path d="M10 3L5 8L10 13" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
       </svg>
       <span id="back-btn-text">Til baka á kort</span>
     </a>
     <div class="muni-header-info">
-      <div class="muni-name" id="muni-name">–</div>
+      <h1 class="muni-name" id="muni-name">–</h1>
       <div class="muni-region" id="muni-region">–</div>
     </div>
     <div class="muni-nav-right">
@@ -109,6 +109,34 @@
     </div>
   </nav>
 
+  <!-- Coalition banner — collapsed strip + expandable panel showing all
+       minimum winning coalitions from the latest poll. Hidden by default;
+       JS reveals it on munis that have poll data. -->
+  <div class="coalition-strip" id="coalition-strip" hidden>
+    <button class="coalition-banner" id="coalition-banner" type="button"
+            aria-expanded="false" aria-controls="coalition-panel">
+      <span class="coalition-banner-text">Líklegustu meirihlutarnir</span>
+      <svg class="coalition-banner-chevron" width="12" height="12" viewBox="0 0 12 12" aria-hidden="true">
+        <path d="M2 4L6 8L10 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+      </svg>
+    </button>
+    <div class="coalition-panel" id="coalition-panel" aria-hidden="true">
+      <div class="coalition-cards" id="coalition-cards"></div>
+    </div>
+  </div>
+
+  <!-- Per-muni floating notice (currently only Múlaþing). Shown by JS
+       when muniId matches; hidden + position:fixed so it never blocks
+       the underlying content. -->
+  <aside id="muni-notice" class="muni-notice" hidden>
+    <button class="muni-notice-close" id="muni-notice-close" aria-label="Loka">×</button>
+    <div class="muni-notice-icon">ℹ️</div>
+    <div class="muni-notice-body">
+      <div class="muni-notice-title" id="muni-notice-title"></div>
+      <div class="muni-notice-text" id="muni-notice-text"></div>
+    </div>
+  </aside>
+
   <!-- Random party tooltip (fades in then out) -->
   <div class="random-tooltip" id="random-tooltip">
     <span class="dice-icon">🎲</span>
@@ -116,14 +144,14 @@
   </div>
 
   <!-- Election type notice (sjálfkjörið / óbundnar kosningar) -->
-  <div id="election-type-notice"></div>
+  <div id="election-type-notice" role="status" aria-live="polite"></div>
 
   <!-- Accordion -->
-  <section class="accordion-section">
+  <main class="accordion-section" id="main-content">
     <div class="accordion-container" id="accordion-container">
       <!-- Ribbons injected by JS -->
     </div>
-  </section>
+  </main>
 
   <!-- Disclaimer -->
   <div class="disclaimer-wrap" id="disclaimer-wrap">
@@ -144,11 +172,18 @@
     <button class="disclaimer-badge" id="disclaimer-badge" aria-label="Sýna fyrirvara" title="Fyrirvari um gögn">ℹ</button>
   </div>
 
+  <!-- mestlesid.is promo pill — expands on hover/focus to full tagline -->
+  <a href="https://mestlesid.is" target="_blank" rel="noopener noreferrer"
+     class="mestlesid-pill" id="mestlesid-pill"
+     aria-label="mestlesid.is – Prófið nýju fréttarsamantektarsíðuna mína">
+    <span class="mestlesid-pill-name">mestlesid.is</span><span class="mestlesid-pill-rest">&nbsp;&ndash;&nbsp;Prófið nýju fréttarsamantektarsíðuna mína</span>
+  </a>
+
   <!-- Share toast -->
   <div class="share-toast" id="share-toast" aria-live="polite"></div>
 
   <!-- Candidate Modal -->
-  <div class="modal-overlay" id="modal-overlay" role="dialog" aria-modal="true">
+  <div class="modal-overlay" id="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-name">
     <div class="modal-card" id="modal-card">
       <button class="modal-close" id="modal-close" aria-label="Loka">
         <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
@@ -214,8 +249,8 @@
   </div>
 
   <!-- App -->
-  <script type="module" src="/js/municipality.js?v=51"></script>
-  <script type="module" src="/js/outreach.js?v=1"></script>
+  <script type="module" src="/js/municipality.js?v=92"></script>
+  <script type="module" src="/js/outreach.js?v=2"></script>
   <script>
     (function () {
       const card  = document.getElementById('disclaimer-card');
@@ -241,5 +276,7 @@
       badge.addEventListener('click', expand);
     })();
   </script>
+
+  <script src="/js/starfandi-banner.js?v=7" defer></script>
 </body>
 </html>
