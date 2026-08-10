@@ -20,3 +20,7 @@ translations/pending.json
 .scratch/
 data/live-results.draft.json
 test-live-results.json
+
+temp/
+tmp_candidates/
+scan_results/
