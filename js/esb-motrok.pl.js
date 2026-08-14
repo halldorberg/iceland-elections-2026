@@ -659,5 +659,51 @@ const MOTROK = {
    "author": "Ingibjörg Sólrún Gísladóttir",
    "url": "https://www.dv.is/eyjan/2026/06/29/ingibjorg-solrun-gisladottir-skrifar-af-hverju-logdum-vid-upp-i-thessa-ferd"
   }
+ ],
+ "timagluggi": [
+  {
+   "title": "Termin uznany za niezrozumiały — samo UE w kryzysie",
+   "text": "Kristinn Sv. Helgason, badacz administracji publicznej, twierdzi, że wybrany moment jest wręcz niewłaściwy, a nie wyjątkową okazją: pogarszająca się konkurencyjność UE zagraża jej kluczowym celom zgodnie z raportem Draghiego, a „w kluczowych państwach Unii Europejskiej, takich jak Niemcy, Francja i Włochy, panuje duża niepewność polityczna”. W świetle gospodarczej i politycznej niepewności co do rozwoju UE „termin referendum jest niezrozumiały”.",
+   "source": "Heimildin",
+   "author": "Kristinn Sv. Helgason",
+   "url": "https://heimildin.is/grein/26823/af-hverju-eru-esb-vidraedur-oskynsamlegar-a-thessum-timapunkti/"
+  },
+  {
+   "title": "Pozycja negocjacyjna niczego nie zmieni — ramy są niezmienne od 2010 roku",
+   "text": "Hreinn Loftsson, adwokat przed Sądem Najwyższym, odrzuca twierdzenie, że silna pozycja negocjacyjna ma znaczenie: „Ramy negocjacyjne już w 2010 roku określiły, co jest, a co nie jest do uzyskania” i „niepewność dotyczy więc jedynie sposobu wdrożenia w ramach systemu, a nie samych kwestii fundamentalnych” — warunki UE dotyczące wspólnej polityki rybołówstwa i zasad rynku wewnętrznego pozostają niezmienione niezależnie od tego, kiedy złożono by wniosek.",
+   "source": "visir.is (Innherji)",
+   "author": "Hreinn Loftsson",
+   "url": "https://www.visir.is/g/20262900701d/samningur-a-forsendum-esb"
+  },
+  {
+   "title": "Nie ma pośpiechu — kosztowny proces, który prawdopodobnie niczego nie przyniesie",
+   "text": "Ingveldur Anna Sigurðardóttir, posłanka Sjálfstæðisflokksins, odrzuca pogląd, że trzeba teraz wykorzystać rzekomą okazję: wcześniejsze rozmowy z lat 2009–2013 nie przyniosły niczego, „nie potrzebujemy UE, aby opanować inflację i poziom stóp procentowych” oraz „nie wolno nam rezygnować z samodzielnego rządzenia sobą” — TAK w sierpniu związałoby kraj z kosztownym procesem, który z niewielkim prawdopodobieństwem doprowadzi do jakiegokolwiek rozstrzygnięcia.",
+   "source": "Sjálfstæðisflokkurinn (xd.is)",
+   "author": "Ingveldur Anna Sigurðardóttir",
+   "url": "https://xd.is/2026/07/27/ekkert-ad-sja-her/"
+  }
+ ],
+ "skyrslan": [
+  {
+   "title": "Minister finansów: Krytyka ani zasadna, ani sprawiedliwa",
+   "text": "Daði Már Kristófersson odpowiedział w Althingi na krytykę interpretacji raportu: w omówieniu ministerstwa wskazano pięć głównych wniosków, z których trzy wspierają przyjęcie euro, a dwa niezależną politykę pieniężną, a krytycy wybierają tylko to, co im odpowiada. „Trudno mi więc zgodzić się z tym, że ta krytyka jest zasadna i sprawiedliwa” — korona nie jest bezwartościowa, a euro nie jest pozbawione wad, i należy omawiać wnioski z taką powagą, na jaką zasługuje ta sprawa.",
+   "source": "Alþingi",
+   "author": "Daði Már Kristófersson",
+   "url": "https://www.althingi.is/altext/raeda/157/rad20260605T133314.html"
+  },
+  {
+   "title": "Minister przywołuje własną analizę Banku Centralnego",
+   "text": "W odpowiedzi na kontrargument, że płynny kurs walutowy dobrze służył Islandii, Daði Már Kristófersson przywołuje specjalną publikację samego Banku Centralnego z 2012 roku — „elastyczny kurs korony islandzkiej najwyraźniej nie służy ochronie krajowej gospodarki” przed wahaniami — i wskazuje, że oba nowe raporty ekspertów dochodzą do wniosku, iż inflację w Islandii napędzają czynniki zewnętrzne: przez 77 miesięcy w latach 1997–2020 przekraczała ona 5%, podczas gdy w strefie euro w tym samym okresie ani razu nie przekroczyła tego poziomu.",
+   "source": "visir.is",
+   "author": "Daði Már Kristófersson",
+   "url": "https://www.visir.is/g/20262919732d/sverd-islands-og-skjoldur"
+  },
+  {
+   "title": "„Dewaluacja kursu nie zwiększy liczby ryb w morzu“",
+   "text": "Minister Jóhann Páll Jóhannsson merytorycznie odpowiada na argumenty zwolenników korony o jej roli „amortyzatora”: główne gałęzie eksportu Islandii nie są w stanie zwiększyć produkcji, nawet jeśli kurs waluty spadnie — „dewaluacja kursu nie zwiększy liczby ryb w morzu” — i cytuje Indriði H. Þorláksson, że dewaluacje „nie ratują gospodarki narodowej przed już wyrządzoną szkodą, lecz rozstrzygają, kto ją ponosi”; trwałe koszty utrzymywania najmniejszej niezależnej waluty świata przeważają nad korzyściami z efektu amortyzatora.",
+   "source": "visir.is",
+   "author": "Jóhann Páll Jóhannsson",
+   "url": "https://www.visir.is/g/20262918769d/hoggdeyfir-fyrir-hverja-"
+  }
  ]
 };

@@ -164,11 +164,21 @@
     </section>
     
     <section class="articles-section">
-      <h2 class="section-head">Articles and debate on this argument <span class="count-badge">10</span></h2>
+      <h2 class="section-head">Articles and debate on this argument <span class="count-badge">13</span></h2>
       <div class="art-card" style="border-left:4px solid #e53935">
     <div class="art-meta"><span class="src">Heimssýn</span><span>Birgir Ármannsson</span><span>2026-03-07</span></div>
     <h3><a href="https://heimssyn.is/framhald-eda-nyjar-adildarvidraedur/" target="_blank" rel="noopener">Continuation or new accession talks?</a></h3>
     <p>The former Speaker of Alþingi considers the question fundamentally misleading: it conflates the continuation of old talks with entirely new accession negotiations.</p>
+  </div>
+      <div class="art-card" style="border-left:4px solid #e53935">
+    <div class="art-meta"><span class="src">Útvarp Saga</span><span>Guðlaugur Þór Þórðarson</span><span>2026-08-11</span></div>
+    <h3><a href="https://utvarpsaga.is/gudlaugur-storhaettulegt-ad-segja-ja-i-thjodaratkvaedagreidslunni/" target="_blank" rel="noopener">Guðlaugur: Extremely dangerous to vote yes in the referendum</a></h3>
+    <p>The former Minister for Foreign Affairs says it is extremely dangerous to begin new accession talks; in practice, this would mean applying for full membership on the basis of the 2009 application. The experience of the mackerel dispute, Icesave and vaccine distribution shows that the EU puts the interests of member states ahead of Iceland, and in negotiations Iceland’s position would be exposed to pressure.</p>
+  </div>
+      <div class="art-card" style="border-left:4px solid #e53935">
+    <div class="art-meta"><span class="src">Útvarp Saga</span><span>Sigmundur Davíð Gunnlaugsson</span><span>2026-08-09</span></div>
+    <h3><a href="https://utvarpsaga.is/thjodaratkvaedagreidslan-snyst-um-ad-rikisstjornin-fai-umbod-til-ad-semja-um-adild-ad-esb/" target="_blank" rel="noopener">The referendum is about giving the government a mandate to negotiate EU membership</a></h3>
+    <p>The chairman of Miðflokkurinn says in an interview that the vote is not about “taking a look inside the package” but about granting the government a mandate to negotiate membership; a yes vote would amount to a blank check on the nation’s sovereignty to the Minister for Foreign Affairs.</p>
   </div>
       <div class="art-card" style="border-left:4px solid #e53935">
     <div class="art-meta"><span class="src">visir.is</span><span>Hjörtur J. Guðmundsson</span><span>2026-07-30</span></div>
@@ -201,6 +211,11 @@
     <p>The Progressive Party parliamentary group chair: a new vote would concern the start of new talks, not the continuation of old ones, since the EU has changed dramatically; Iceland is doing well in the EEA.</p>
   </div>
       <div class="art-card" style="border-left:4px solid #e53935">
+    <div class="art-meta"><span class="src">visir.is</span><span>Ólafur Hannesson</span><span>2026-08-13</span></div>
+    <h3><a href="https://www.visir.is/g/20262920452d/ja-til-ad-sja-er-af-og-fra" target="_blank" rel="noopener">Saying yes just to see is out of the question</a></h3>
+    <p>The YES side is said to have changed its wording: from open support for membership to wanting to “just see the agreement.” Promises of a 25% price drop and lower interest rates are an illusion because they depend on adopting the euro after a long process of meeting the Maastricht criteria, which Iceland has never fulfilled simultaneously; the króna has enabled the economy to adjust to external shocks.</p>
+  </div>
+      <div class="art-card" style="border-left:4px solid #e53935">
     <div class="art-meta"><span class="src">Feykir</span><span>Erna Bjarnadóttir</span><span>2026-04-14</span></div>
     <h3><a href="https://www.feykir.is/is/adsendar-greinar/esb-tekur-vid-umsoknum-um-adild-ekki-um-vidraedur-erna-bjarnadottir-skrifar" target="_blank" rel="noopener">The EU accepts applications for membership — not for talks</a></h3>
     <p>In 2009, Iceland formally applied for full membership under Article 49 of the Treaty; talk of “just talks” is misleading.</p>
@@ -218,6 +233,44 @@
     </section>
     <div class="disclaimer">This page summarises the NO side's case as it appears in articles and public debate; it is a summary of advocates' positions, not a statement of fact. Report prepared on 6 August 2026. The analysis covered the websites of movements (Evrópuhreyfingin, SJÁ, Heimssýn, Áfram Ísland, Til vinstri við ESB, Frjálst land), media outlets (Vísir, mbl.is, RÚV, DV, Heimildin, Viðskiptablaðið, Bændablaðið, Skessuhorn, Austurfrétt, Feykir, BB.is, Eyjafréttir, Vikublaðið, Útvarp Saga, Mannlíf, Nútíminn), as well as open discussion on Reddit and Facebook. Neutral news reports are not counted in the columns.</div>
   </main>
+  <style>
+    .dw { position: fixed; bottom: 20px; left: 20px; z-index: 960; display: flex; flex-direction: column; align-items: flex-start; pointer-events: none; }
+    .dw-card {
+      pointer-events: auto; width: 300px; max-width: calc(100vw - 40px);
+      background: rgba(255,255,255,0.97); border: 1px solid rgba(0,0,0,0.12);
+      border-radius: 14px; padding: 14px 16px; box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+      transition: opacity 0.2s, transform 0.2s; transform-origin: bottom left;
+    }
+    .dw-card.hid { opacity: 0; pointer-events: none; transform: scale(0.92) translateY(6px); visibility: hidden; }
+    .dw-head { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; font-weight: 700; font-size: 0.9rem; color: #0f1923; }
+    .dw-min { margin-left: auto; background: none; border: none; cursor: pointer; color: #64748b; font-size: 1rem; }
+    .dw-text { font-size: 0.78rem; color: #4a5568; line-height: 1.5; }
+    .dw-badge {
+      pointer-events: auto; display: none; width: 34px; height: 34px; border-radius: 50%;
+      background: rgba(255,255,255,0.95); border: 1px solid rgba(0,0,0,0.15);
+      color: #1a4fa8; cursor: pointer; align-items: center; justify-content: center; font-size: 0.9rem;
+    }
+    .dw-badge.vis { display: flex; }
+    .dw-badge:hover { background: rgba(26,86,219,0.12); }
+    @media (max-width: 1150px) { .dw { bottom: 30px; left: 10px; } }
+  </style>
+  <div class="dw">
+    <div class="dw-card" id="dw-card">
+      <div class="dw-head">ℹ️ Disclaimer<button class="dw-min" id="dw-min" aria-label="Loka">▾</button></div>
+      <div class="dw-text">Content is compiled with AI assistance from public online sources. We cannot guarantee full accuracy and recommend verifying important information in the original sources.</div>
+    </div>
+    <button class="dw-badge" id="dw-badge" aria-label="Disclaimer">ℹ</button>
+  </div>
+  <script>
+    (function () {
+      var card = document.getElementById('dw-card'), badge = document.getElementById('dw-badge');
+      function min() { card.classList.add('hid'); badge.classList.add('vis'); localStorage.setItem('disclaimer-min', '1'); }
+      function exp() { card.classList.remove('hid'); badge.classList.remove('vis'); localStorage.removeItem('disclaimer-min'); }
+      if (localStorage.getItem('disclaimer-min') === '1') min(); else setTimeout(min, 5000);
+      document.getElementById('dw-min').addEventListener('click', min);
+      badge.addEventListener('click', exp);
+    })();
+  </script>
   <script src="/js/starfandi-banner.js?v=7" defer></script>
 </body>
 </html>

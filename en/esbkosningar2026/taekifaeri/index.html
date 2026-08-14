@@ -163,7 +163,7 @@
     </section>
     
     <section class="articles-section">
-      <h2 class="section-head">Articles and debate on this argument <span class="count-badge">2</span></h2>
+      <h2 class="section-head">Articles and debate on this argument <span class="count-badge">4</span></h2>
       <div class="art-card" style="border-left:4px solid #1e88e5">
     <div class="art-meta"><span class="src">Evrópuhreyfingin</span><span>Thomas Möller</span><span>2026-05-07</span></div>
     <h3><a href="https://www.evropa.is/greinar/kosningar-unga-folksins" target="_blank" rel="noopener">The election of young people</a></h3>
@@ -174,9 +174,57 @@
     <h3><a href="https://www.evropa.is/greinar/ja-er-ja-vid-nyjum-taekifaerum" target="_blank" rel="noopener">YES means yes to new opportunities</a></h3>
     <p>Yes ensures lower interest rates, stability, and better access to education and research; high interest rates hit young people hardest.</p>
   </div>
+      <div class="art-card" style="border-left:4px solid #1e88e5">
+    <div class="art-meta"><span class="src">Evrópuhreyfingin (Meginlandið, hlaðvarp)</span><span>2026-08-13</span></div>
+    <h3><a href="https://www.evropa.is/meginlandid/meginlandi-xx" target="_blank" rel="noopener">The Continent XX: A stronger countryside within the EU</a></h3>
+    <p>Anna Margréta Guðjónsdóttir, Managing Director of Evris, and Ásta Magnúsdóttir, former executive at EFTA, discuss regional development, support schemes and agriculture. They review opportunities in European funds and markets, not least for start-ups across the country.</p>
+  </div>
+      <div class="art-card" style="border-left:4px solid #1e88e5">
+    <div class="art-meta"><span class="src">Skessuhorn</span><span>Jóhannes Finnur Halldórsson</span><span>2026-08-11</span></div>
+    <h3><a href="https://skessuhorn.is/adsendar-greinar/afi-eg-aetla-ad-segja-ja" target="_blank" rel="noopener">Grandpa, I’m going to say yes</a></h3>
+    <p>The author’s conversation with his grandchild frames the case for YES: young people live with high interest rates and index-linked loans that European households do not know. The question is not what talks cost, but what it costs not to examine whether citizens’ welfare can be improved; yes means only completing the talks and then deciding on the basis of facts.</p>
+  </div>
     </section>
     <div class="disclaimer">This page summarises the YES side's case as it appears in articles and public debate; it is a summary of advocates' positions, not a statement of fact. Report prepared on 6 August 2026. The analysis covered the websites of movements (Evrópuhreyfingin, SJÁ, Heimssýn, Áfram Ísland, Til vinstri við ESB, Frjálst land), media outlets (Vísir, mbl.is, RÚV, DV, Heimildin, Viðskiptablaðið, Bændablaðið, Skessuhorn, Austurfrétt, Feykir, BB.is, Eyjafréttir, Vikublaðið, Útvarp Saga, Mannlíf, Nútíminn), as well as open discussion on Reddit and Facebook. Neutral news reports are not counted in the columns.</div>
   </main>
+  <style>
+    .dw { position: fixed; bottom: 20px; left: 20px; z-index: 960; display: flex; flex-direction: column; align-items: flex-start; pointer-events: none; }
+    .dw-card {
+      pointer-events: auto; width: 300px; max-width: calc(100vw - 40px);
+      background: rgba(255,255,255,0.97); border: 1px solid rgba(0,0,0,0.12);
+      border-radius: 14px; padding: 14px 16px; box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+      transition: opacity 0.2s, transform 0.2s; transform-origin: bottom left;
+    }
+    .dw-card.hid { opacity: 0; pointer-events: none; transform: scale(0.92) translateY(6px); visibility: hidden; }
+    .dw-head { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; font-weight: 700; font-size: 0.9rem; color: #0f1923; }
+    .dw-min { margin-left: auto; background: none; border: none; cursor: pointer; color: #64748b; font-size: 1rem; }
+    .dw-text { font-size: 0.78rem; color: #4a5568; line-height: 1.5; }
+    .dw-badge {
+      pointer-events: auto; display: none; width: 34px; height: 34px; border-radius: 50%;
+      background: rgba(255,255,255,0.95); border: 1px solid rgba(0,0,0,0.15);
+      color: #1a4fa8; cursor: pointer; align-items: center; justify-content: center; font-size: 0.9rem;
+    }
+    .dw-badge.vis { display: flex; }
+    .dw-badge:hover { background: rgba(26,86,219,0.12); }
+    @media (max-width: 1150px) { .dw { bottom: 30px; left: 10px; } }
+  </style>
+  <div class="dw">
+    <div class="dw-card" id="dw-card">
+      <div class="dw-head">ℹ️ Disclaimer<button class="dw-min" id="dw-min" aria-label="Loka">▾</button></div>
+      <div class="dw-text">Content is compiled with AI assistance from public online sources. We cannot guarantee full accuracy and recommend verifying important information in the original sources.</div>
+    </div>
+    <button class="dw-badge" id="dw-badge" aria-label="Disclaimer">ℹ</button>
+  </div>
+  <script>
+    (function () {
+      var card = document.getElementById('dw-card'), badge = document.getElementById('dw-badge');
+      function min() { card.classList.add('hid'); badge.classList.add('vis'); localStorage.setItem('disclaimer-min', '1'); }
+      function exp() { card.classList.remove('hid'); badge.classList.remove('vis'); localStorage.removeItem('disclaimer-min'); }
+      if (localStorage.getItem('disclaimer-min') === '1') min(); else setTimeout(min, 5000);
+      document.getElementById('dw-min').addEventListener('click', min);
+      badge.addEventListener('click', exp);
+    })();
+  </script>
   <script src="/js/starfandi-banner.js?v=7" defer></script>
 </body>
 </html>

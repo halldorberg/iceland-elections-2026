@@ -659,5 +659,51 @@ const MOTROK = {
    "author": "Ingibjörg Sólrún Gísladóttir",
    "url": "https://www.dv.is/eyjan/2026/06/29/ingibjorg-solrun-gisladottir-skrifar-af-hverju-logdum-vid-upp-i-thessa-ferd"
   }
+ ],
+ "timagluggi": [
+  {
+   "title": "The timing described as hard to understand — the EU itself in crisis",
+   "text": "Kristinn Sv. Helgason, a public administration scholar, says the timing is simply wrong, not a unique opportunity: according to the Draghi report, the EU’s worsening competitiveness threatens its key objectives, and “significant political uncertainty prevails in key European Union states, such as Germany, France and Italy.” In light of the economic and political uncertainty surrounding the EU’s development, “the timing of the referendum is hard to understand.”",
+   "source": "Heimildin",
+   "author": "Kristinn Sv. Helgason",
+   "url": "https://heimildin.is/grein/26823/af-hverju-eru-esb-vidraedur-oskynsamlegar-a-thessum-timapunkti/"
+  },
+  {
+   "title": "Negotiating position changes nothing — the framework has been fixed since 2010",
+   "text": "Hreinn Loftsson, a Supreme Court lawyer, rejects the idea that a strong negotiating position matters: “The negotiating framework already defined in 2010 what was and was not on offer” and “the uncertainty therefore concerns only implementation within the system, not the fundamental issues themselves” — the EU’s requirements on the Common Fisheries Policy and internal market rules would remain unchanged whenever an application was submitted.",
+   "source": "visir.is (Innherji)",
+   "author": "Hreinn Loftsson",
+   "url": "https://www.visir.is/g/20262900701d/samningur-a-forsendum-esb"
+  },
+  {
+   "title": "There is no rush — a costly process unlikely to deliver anything",
+   "text": "Ingveldur Anna Sigurðardóttir, an MP for Sjálfstæðisflokkurinn, rejects the idea that this supposed opportunity must be seized now: the previous talks in 2009–2013 produced nothing, “we do not need the EU in order to get inflation and interest rates under control” and “we must not give up on governing ourselves” — a YES vote in August would commit the nation to a costly process that is unlikely to produce a result.",
+   "source": "Sjálfstæðisflokkurinn (xd.is)",
+   "author": "Ingveldur Anna Sigurðardóttir",
+   "url": "https://xd.is/2026/07/27/ekkert-ad-sja-her/"
+  }
+ ],
+ "skyrslan": [
+  {
+   "title": "Minister of Finance: The criticism is neither justified nor fair",
+   "text": "Daði Már Kristófersson responded in Alþingi to criticism of the interpretation of the report: the ministry’s discussion highlights five main conclusions, three supporting adoption of the euro and two supporting an independent monetary policy, and critics choose only what suits them. “I therefore find it difficult to agree that the criticism is justified and fair” — the króna is not useless and the euro is not flawless, and the conclusions should be discussed with the seriousness the matter deserves.",
+   "source": "Alþingi",
+   "author": "Daði Már Kristófersson",
+   "url": "https://www.althingi.is/altext/raeda/157/rad20260605T133314.html"
+  },
+  {
+   "title": "Minister advances the Central Bank’s own analysis",
+   "text": "In response to the objection that a floating exchange rate has served Iceland well, Daði Már Kristófersson cites a 2012 special publication by the Central Bank itself — “the flexible exchange rate of the króna does not appear to be useful in protecting the domestic economy” from fluctuations — and points out that both new expert reports conclude that external factors drive inflation here: it was above 5% for 77 months in 1997–2020, but never above that threshold in the euro area during the same period.",
+   "source": "visir.is",
+   "author": "Daði Már Kristófersson",
+   "url": "https://www.visir.is/g/20262919732d/sverd-islands-og-skjoldur"
+  },
+  {
+   "title": "\"Currency depreciation does not increase the number of fish in the sea\"",
+   "text": "Minister Jóhann Páll Jóhannsson responds substantively to the shock-absorber arguments of krona supporters: Iceland’s main export industries cannot increase production even if the exchange rate falls — \"currency depreciation does not increase the number of fish in the sea\" — and he cites Indriði H. Þorláksson to the effect that devaluations \"do not save the national economy from damage already done, but determine who bears it\"; the ongoing cost of having the world’s smallest independent currency outweighs the benefits of the shock absorber.",
+   "source": "visir.is",
+   "author": "Jóhann Páll Jóhannsson",
+   "url": "https://www.visir.is/g/20262918769d/hoggdeyfir-fyrir-hverja-"
+  }
  ]
 };

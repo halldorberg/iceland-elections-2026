@@ -163,7 +163,7 @@
     </section>
     
     <section class="articles-section">
-      <h2 class="section-head">Greinar og umræða um þessi rök <span class="count-badge">2</span></h2>
+      <h2 class="section-head">Greinar og umræða um þessi rök <span class="count-badge">4</span></h2>
       <div class="art-card" style="border-left:4px solid #1e88e5">
     <div class="art-meta"><span class="src">Evrópuhreyfingin</span><span>Thomas Möller</span><span>2026-05-07</span></div>
     <h3><a href="https://www.evropa.is/greinar/kosningar-unga-folksins" target="_blank" rel="noopener">Kosningar unga fólksins</a></h3>
@@ -174,9 +174,57 @@
     <h3><a href="https://www.evropa.is/greinar/ja-er-ja-vid-nyjum-taekifaerum" target="_blank" rel="noopener">JÁ þýðir já við nýjum tækifærum</a></h3>
     <p>Já tryggir lægri vexti, stöðugleika og betri aðgang að námi og rannsóknum; hátt vaxtastig bitnar verst á ungu fólki.</p>
   </div>
+      <div class="art-card" style="border-left:4px solid #1e88e5">
+    <div class="art-meta"><span class="src">Evrópuhreyfingin (Meginlandið, hlaðvarp)</span><span>2026-08-13</span></div>
+    <h3><a href="https://www.evropa.is/meginlandid/meginlandi-xx" target="_blank" rel="noopener">Meginlandið XX: Sterkari landsbyggð innan ESB</a></h3>
+    <p>Anna Margréta Guðjónsdóttir framkvæmdastjóri Evris og Ásta Magnúsdóttir, fyrrverandi stjórnandi hjá EFTA, ræða byggðamál, styrkjakerfi og landbúnað. Farið er yfir tækifæri í evrópskum sjóðum og mörkuðum, ekki síst fyrir sprotafyrirtæki um allt land.</p>
+  </div>
+      <div class="art-card" style="border-left:4px solid #1e88e5">
+    <div class="art-meta"><span class="src">Skessuhorn</span><span>Jóhannes Finnur Halldórsson</span><span>2026-08-11</span></div>
+    <h3><a href="https://skessuhorn.is/adsendar-greinar/afi-eg-aetla-ad-segja-ja" target="_blank" rel="noopener">Afi ég ætla að segja já</a></h3>
+    <p>Samtal höfundar við barnabarn sitt rammar inn rök fyrir já: ungt fólk býr við háa vexti og verðtryggingu sem evrópsk heimili þekkja ekki. Spurningin sé ekki hvað viðræður kosti heldur hvað það kosti að kanna ekki hvort bæta megi hag borgaranna; já þýði aðeins að ljúka viðræðum og ákveða svo út frá staðreyndum.</p>
+  </div>
     </section>
-    <div class="disclaimer">Þessi síða dregur saman málflutning JÁ-hliðarinnar eins og hann birtist í greinum og umræðu; efnið er samantekt á afstöðu talsmanna, ekki staðreyndayfirlýsing. Skýrsla unnin 6. ágúst 2026. Greindar voru vefsíður hreyfinga (Evrópuhreyfingin, SJÁ, Heimssýn, Áfram Ísland, Til vinstri við ESB, Frjálst land), fjölmiðlar (Vísir, mbl.is, RÚV, DV, Heimildin, Viðskiptablaðið, Bændablaðið, Skessuhorn, Austurfrétt, Feykir, BB.is, Eyjafréttir, Vikublaðið, Útvarp Saga, Mannlíf, Nútíminn) auk opinnar umræðu á Reddit og Facebook. Hlutlausar fréttir eru ekki taldar í dálkunum.</div>
+    <div class="disclaimer">Þessi síða dregur saman málflutning JÁ-hliðarinnar eins og hann birtist í greinum og umræðu; efnið er samantekt á afstöðu talsmanna, ekki staðreyndayfirlýsing. Skýrsla unnin 6. ágúst 2026. Greindar voru vefsíður hreyfinga (Evrópuhreyfingin, SJÁ, Heimssýn, Áfram Ísland, Til vinstri við ESB, Frjálst land), fjölmiðlar (Vísir, mbl.is, RÚV, DV, Heimildin, Viðskiptablaðið, Bændablaðið, Skessuhorn, Austurfrétt, Feykir, BB.is, Eyjafréttir, Vikublaðið, Útvarp Saga, Mannlíf, Nútíminn) auk opinnar umræðu á Reddit og Facebook. Hlutlausar fréttir eru ekki taldar í dálkunum. Uppfært 14. ágúst 2026 með 63 nýjum greinum úr sömu heimildum.</div>
   </main>
+  <style>
+    .dw { position: fixed; bottom: 20px; left: 20px; z-index: 960; display: flex; flex-direction: column; align-items: flex-start; pointer-events: none; }
+    .dw-card {
+      pointer-events: auto; width: 300px; max-width: calc(100vw - 40px);
+      background: rgba(255,255,255,0.97); border: 1px solid rgba(0,0,0,0.12);
+      border-radius: 14px; padding: 14px 16px; box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+      transition: opacity 0.2s, transform 0.2s; transform-origin: bottom left;
+    }
+    .dw-card.hid { opacity: 0; pointer-events: none; transform: scale(0.92) translateY(6px); visibility: hidden; }
+    .dw-head { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; font-weight: 700; font-size: 0.9rem; color: #0f1923; }
+    .dw-min { margin-left: auto; background: none; border: none; cursor: pointer; color: #64748b; font-size: 1rem; }
+    .dw-text { font-size: 0.78rem; color: #4a5568; line-height: 1.5; }
+    .dw-badge {
+      pointer-events: auto; display: none; width: 34px; height: 34px; border-radius: 50%;
+      background: rgba(255,255,255,0.95); border: 1px solid rgba(0,0,0,0.15);
+      color: #1a4fa8; cursor: pointer; align-items: center; justify-content: center; font-size: 0.9rem;
+    }
+    .dw-badge.vis { display: flex; }
+    .dw-badge:hover { background: rgba(26,86,219,0.12); }
+    @media (max-width: 1150px) { .dw { bottom: 30px; left: 10px; } }
+  </style>
+  <div class="dw">
+    <div class="dw-card" id="dw-card">
+      <div class="dw-head">ℹ️ Fyrirvari<button class="dw-min" id="dw-min" aria-label="Loka">▾</button></div>
+      <div class="dw-text">Efnið er tekið saman með aðstoð gervigreindar úr opinberum heimildum á netinu. Við getum ekki ábyrgst fulla nákvæmni og mælum með að staðfesta mikilvægar upplýsingar í frumheimildum.</div>
+    </div>
+    <button class="dw-badge" id="dw-badge" aria-label="Fyrirvari">ℹ</button>
+  </div>
+  <script>
+    (function () {
+      var card = document.getElementById('dw-card'), badge = document.getElementById('dw-badge');
+      function min() { card.classList.add('hid'); badge.classList.add('vis'); localStorage.setItem('disclaimer-min', '1'); }
+      function exp() { card.classList.remove('hid'); badge.classList.remove('vis'); localStorage.removeItem('disclaimer-min'); }
+      if (localStorage.getItem('disclaimer-min') === '1') min(); else setTimeout(min, 5000);
+      document.getElementById('dw-min').addEventListener('click', min);
+      badge.addEventListener('click', exp);
+    })();
+  </script>
   <script src="/js/starfandi-banner.js?v=7" defer></script>
 </body>
 </html>

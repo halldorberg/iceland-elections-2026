@@ -1,0 +1,160 @@
+{
+  "articles": [
+    {
+      "side": "ja",
+      "title": "Afi ég ætla að segja já",
+      "url": "https://skessuhorn.is/adsendar-greinar/afi-eg-aetla-ad-segja-ja",
+      "source": "Skessuhorn",
+      "author": "Jóhannes Finnur Halldórsson",
+      "date": "2026-08-11",
+      "summary": "Samtal höfundar við barnabarn sitt rammar inn rök fyrir já: ungt fólk býr við háa vexti og verðtryggingu sem evrópsk heimili þekkja ekki. Spurningin sé ekki hvað viðræður kosti heldur hvað það kosti að kanna ekki hvort bæta megi hag borgaranna; já þýði aðeins að ljúka viðræðum og ákveða svo út frá staðreyndum.",
+      "args": ["vextir", "kikja", "taekifaeri"],
+      "impact": 2
+    },
+    {
+      "side": "ja",
+      "title": "Þúsund þorskar á færibandinu",
+      "url": "https://skessuhorn.is/adsendar-greinar/thusund-thorskar-a-faeribandinu",
+      "source": "Skessuhorn",
+      "author": "Óli Rúnar Ástþórsson",
+      "date": "2026-08-13",
+      "summary": "Tollar ESB á unnar sjávarafurðir hindra að bolfiskur og lax séu fullunnir í neytendaumbúðir hér heima. Fullvinnsla innanlands gæti skilað 35–55 milljörðum króna árlega, 1.100–2.300 störfum og auknum tekjum sveitarfélaga; án tollmúra héldist virðisaukinn í sjávarbyggðunum.",
+      "args": ["kjor", "byggd"],
+      "impact": 2
+    },
+    {
+      "side": "ja",
+      "title": "Hvað gæti ESB gert fyrir Austfirði?",
+      "url": "https://austurfrett.is/umraedan/hvadh-gaeti-esb-gert-fyrir-austfirdhi",
+      "source": "Austurfrétt",
+      "author": "Halldór Jörgen Olesen",
+      "date": "2026-08-07",
+      "summary": "Austfirðir glíma við fólksfækkun, ótryggar samgöngur og skerta heilbrigðisþjónustu. Byggðaþróunarsjóðir ESB (392 milljarðar evra á sjö árum), TEN-T samgöngufé, ljósleiðaravæðing og tollfrjáls markaðsaðgangur fyrir sjávarafurðir gætu snúið þróuninni við, líkt og í Lapplandi eftir inngöngu Finnlands.",
+      "args": ["byggd", "kjor"],
+      "impact": 2
+    },
+    {
+      "side": "ja",
+      "title": "Hvað gæti ESB gert fyrir Norðurland?",
+      "url": "https://www.feykir.is/is/adsendar-greinar/hvad-gaeti-esb-gert-fyrir-nordurland-halldor-jorgen-olesen-skrifar",
+      "source": "Feykir",
+      "author": "Halldór Jörgen Olesen",
+      "date": "2026-08-07",
+      "summary": "Norðurland gæti sótt í byggðaþróunarsjóði ESB, beingreiðslur landbúnaðarstefnunnar líkt og finnskir og sænskir bændur, fulla þátttöku Háskólans á Akureyri í Horizon Europe og samgöngufé í erfiða vetrarvegi. Viðræður séu könnun; reynist kjörin óhagstæð geti þjóðin hafnað samningi í seinni atkvæðagreiðslu.",
+      "args": ["byggd", "kikja"],
+      "impact": 2
+    },
+    {
+      "side": "ja",
+      "title": "Hvað gæti ESB gert fyrir Vestfirði?",
+      "url": "https://bb.is/2026/08/hvad-gaeti-esb-gert-fyrir-vestfirdi/",
+      "source": "BB.is",
+      "author": "Halldór Jörgen Olesen",
+      "date": "2026-08-06",
+      "summary": "Vestfirðir glíma við fólksfækkun, slæma vegi og skerta heilbrigðisþjónustu og ungt fólk flytur burt. Byggða- og innviðasjóðir ESB gætu fjármagnað uppbyggingu í fjórðungnum, líkt og í jaðarbyggðum annarra Norðurlanda.",
+      "args": ["byggd"],
+      "impact": 2
+    },
+    {
+      "side": "ja",
+      "title": "Stöndum saman",
+      "url": "https://www.bbl.is/skodun/stondum-saman",
+      "source": "Bændablaðið",
+      "author": "Þorvaldur Gylfason",
+      "date": "2026-08-10",
+      "summary": "Hagfræðiprófessor furðar sig á miklum mun á stuðningi eftir landshlutum (59% í Reykjavík, 24% á Austurlandi) þótt þjóðarhagur sé sá sami. Finnskir bændur voru andvígir aðild en skiptu margir um skoðun eftir inngöngu; landbúnaðarstefna ESB styður jaðarbyggðir og Ísland eigi að standa með Evrópu með evru á óvissutímum.",
+      "args": ["byggd", "oryggi", "vextir"],
+      "impact": 3
+    },
+    {
+      "side": "ja",
+      "title": "Samningsmarkmið Íslands ráði för í aðildarviðræðum",
+      "url": "https://utvarpsaga.is/samningsmarkmid-islands-radi-for-i-adildarvidraedum/",
+      "source": "Útvarp Saga",
+      "author": "Pawel Bartoszek",
+      "date": "2026-08-09",
+      "summary": "Formaður utanríkismálanefndar segir í viðtali að skýr samningsmarkmið um landbúnað, sjávarútveg og innflutning lifandi dýra muni ráða för í viðræðum. Engu verði tekið nema niðurstaðan teljist ásættanleg og þjóðin kjósi um endanlegan samning.",
+      "args": ["serlausnir", "kikja", "lydraedi"],
+      "impact": 2
+    },
+    {
+      "side": "nei",
+      "title": "Enn vantar upplýsingar",
+      "url": "https://www.bbl.is/skodun/leidari/enn-vantar-upplysingar",
+      "source": "Bændablaðið",
+      "author": "Þröstur Helgason",
+      "date": "2026-08-13",
+      "summary": "Leiðari Bændablaðsins gagnrýnir stjórnvöld fyrir að leggja ekki fram skýr svör fyrir atkvæðagreiðsluna um forræði yfir auðlindum og landbúnaðarstefnu. Sagan sýni að varanlegar undanþágur frá landbúnaðarstefnu ESB séu fátíðar og spurt er hvers vegna Ísland ætti að leggja auðlindir sem það ræður nú þegar yfir undir í samningum við yfirþjóðlegt vald.",
+      "args": ["umbod", "undanthagur", "landbunadur"],
+      "impact": 3
+    },
+    {
+      "side": "nei",
+      "title": "Þjóðaratkvæðagreiðslan snýst um að ríkisstjórnin fái umboð til að semja um aðild að ESB",
+      "url": "https://utvarpsaga.is/thjodaratkvaedagreidslan-snyst-um-ad-rikisstjornin-fai-umbod-til-ad-semja-um-adild-ad-esb/",
+      "source": "Útvarp Saga",
+      "author": "Sigmundur Davíð Gunnlaugsson",
+      "date": "2026-08-09",
+      "summary": "Formaður Miðflokksins segir í viðtali að atkvæðagreiðslan snúist ekki um að „kíkja í pakkann“ heldur um að veita ríkisstjórninni umboð til að semja um aðild; já-atkvæði jafngildi óútfylltri ávísun á fullveldi þjóðarinnar til utanríkisráðherra.",
+      "args": ["spurning", "umbod", "fullveldi"],
+      "impact": 3
+    },
+    {
+      "side": "nei",
+      "title": "Guðlaugur: Stórhættulegt að segja já í þjóðaratkvæðagreiðslunni",
+      "url": "https://utvarpsaga.is/gudlaugur-storhaettulegt-ad-segja-ja-i-thjodaratkvaedagreidslunni/",
+      "source": "Útvarp Saga",
+      "author": "Guðlaugur Þór Þórðarson",
+      "date": "2026-08-11",
+      "summary": "Fyrrverandi utanríkisráðherra segir stórhættulegt að hefja nýjar aðildarviðræður; í reynd sé verið að sækja um fulla aðild á grunni umsóknarinnar frá 2009. Reynslan af makríldeilunni, Icesave og bóluefnadreifingu sýni að ESB taki hagsmuni aðildarríkja fram yfir Ísland og í viðræðum yrði staða Íslands berskjölduð fyrir þrýstingi.",
+      "args": ["spurning", "adlogun", "ees"],
+      "impact": 3
+    },
+    {
+      "side": "nei",
+      "title": "Yrsa og Ólafur ætla að segja nei um aðild að Evrópusambandinu",
+      "url": "https://utvarpsaga.is/yrsa-og-olafur-aetla-ad-segja-nei-um-adild-ad-evropusambandinu/",
+      "source": "Útvarp Saga",
+      "author": null,
+      "date": "2026-08-09",
+      "summary": "Rithöfundurinn Yrsa Sigurðardóttir og Ólafur Þór Þórhallsson lýsa því í viðtali að þau ætli að kjósa nei. Yrsa segir reynslu sína úr útgáfustarfi sýna hve umfangsmikið regluverk ESB er og óttast aukið skrifræði; Ólafur telur Íslandi farnast vel sjálfstætt og eigi að halda ákvörðunarvaldi sínu.",
+      "args": ["fullveldi", "efnahagur"],
+      "impact": 2
+    },
+    {
+      "side": "nei",
+      "title": "„Ef ég væri Íslendingur myndi ég kjósa nei“ — fyrrverandi forseti EFTA-dómstólsins",
+      "url": "https://www.nutiminn.is/featured/ef-eg-vaeri-islendingur-myndi-eg-kjosa-nei-fyrrverandi-forseti-efta-domstolsinn-skyr-vardandi-adild-islands-ad-esb/",
+      "source": "Nútíminn",
+      "author": "Carl Baudenbacher",
+      "date": "2026-08-11",
+      "summary": "Carl Baudenbacher, fyrrverandi forseti EFTA-dómstólsins, varar við að líta á atkvæðagreiðsluna sem saklausa könnun: já setji allt pólitískt og stofnanalegt gangverk ESB af stað og „fyrra já-ið er úrslitaatkvæðið“. Mun erfiðara yrði að hafna aðildarsamningi síðar og sönnunarbyrðin hvíli á þeim sem vilja yfirgefa EES-fyrirkomulagið.",
+      "args": ["oafturkraeft", "adlogun", "ees"],
+      "impact": 3
+    },
+    {
+      "side": "nei",
+      "title": "SFS: aðild að ESB grundvallarbreyting á forræði Íslands yfir sjávarauðlindinni",
+      "url": "https://bb.is/2026/08/sfs-adild-ad-esb-grundvallabreyting-a-forraedi-islands-yfir-sjavaraudlindinni/",
+      "source": "BB.is",
+      "author": null,
+      "date": "2026-08-08",
+      "summary": "Greining Samtaka fyrirtækja í sjávarútvegi: aðild að ESB fæli í sér grundvallarbreytingu á forræði Íslands yfir sjávarauðlindinni og fiskveiðistjórnun. Yfirráð yfir auðlindinni færðust að hluta til sameiginlegrar sjávarútvegsstefnu sambandsins.",
+      "args": ["sjavarutvegur"],
+      "impact": 2
+    },
+    {
+      "side": "nei",
+      "title": "SFS vara við erlendum yfirráðum yfir aflaheimildum við inngöngu í ESB",
+      "url": "https://eyjafrettir.is/sfs-vara-vid-erlendum-yfirradum-yfir-aflaheimildum-vid-inngongu-i-esb/",
+      "source": "Eyjafréttir",
+      "author": null,
+      "date": "2026-08-14",
+      "summary": "SFS vara við að núgildandi 25% hámark á erlendu eignarhaldi í íslenskum sjávarútvegi stæðist ekki reglur innri markaðar ESB og EES-undanþága Íslands félli niður við aðild. Reynsla annarra Evrópuríkja sýni að erlend félög nái yfirráðum yfir veiðiheimildum gegnum dótturfélög og að eignarhald, hagnaður og ákvarðanir geti flust úr landi.",
+      "args": ["sjavarutvegur"],
+      "impact": 2
+    }
+  ],
+  "emerging_arguments": [],
+  "notes": "Sópað 2026-08-06 til 2026-08-14. bb.is skilar 403 á allar beiðnir; tvær bb.is-greinar (Vestfirðir 08-06, SFS 08-08) byggja á leitarniðurstöðum með skýrt efni og afstöðu — höfundur Vestfjarðagreinar ályktaður af greinaröðinni 'Hvað gæti ESB gert fyrir X?' (Norðurland/Feykir og Austfirðir/Austurfrétt eru merktar Halldóri Jörgen Olesen sömu daga), ekki staðfestur á síðunni sjálfri. Greinaröðin er skipulögð landshluta-herferð já-hliðar sem kortleggst á núverandi 'byggd'-lykil (ekki nýtt argument). Grein Óla Rúnars Ástþórssonar 'Þúsund þorskar á færibandinu' birtist samhliða í Skessuhorni og Feyki 08-13 (feykir.is/is/adsendar-greinar/thusund-thorskar-a-faeribandinu-thokast-naer-oli-runar-astthorsson-skrifar) — aðeins Skessuhorns-útgáfan tekin inn. Guðlaugur Þór var með tvö viðtöl á Útvarpi Sögu 08-11; hitt (gudlaugur-verid-er-ad-saekja-um-fulla-adild-ad-esb) er efnislega samhljóða og sleppt. SFS-greiningin fékk umfjöllun bæði á bb.is og eyjafrettir.is (báðar teknar, sín áherslan hvor). Sleppt sem hlutlausu/utan glugga: bbl.is 'Íslenskir bændur og ESB' (Trausti Hjálmarsson, hlutlaus kynning á 130 bls. skýrslu BÍ), bbl.is 'Lokum augunum og hlustum' (Margrét Ágústa, hlutlaus umræðugagnrýni), nutiminn.is 'Ýtir stækkun NATO og Úkraínustríðið Íslandi í ESB?' (Hilmar Þór Hilmarsson 08-10, spurul/hlutlaus), utvarpsaga.is könnunarfrétt 08-10, mannlif.is og vikubladid.is (ekkert argumentatíft í glugganum). Dagsetning Baudenbacher-greinar áætluð 08-11 út frá hlaðvarpsútgáfu sama efnis (staðfest 08-11 17:41); featured-slóðin svarar WebFetch með 404 en er raunveruleg skv. leit."
+}

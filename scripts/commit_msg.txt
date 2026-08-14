@@ -1,0 +1,12 @@
+ESB referendum relaunch: white theme, argument pages, translations, starfandi banner
+
+- Front page: white theme, ESB argument/article analysis, carousel, archive dropdown
+- 26 argument subpages at /esbkosningar2026/ with researched direct motrok (sourced)
+- All-articles page at /esbkosningar2026/greinar/
+- EN + PL translations: /en/ and /pl/ front pages + all argument pages
+- starfandi.is ad banner site-wide (theme-aware); mestlesid pill removed
+- Back links on 5k+ archive pages point to /sveitastjornarkosningar2026/
+- Node server.js replaces Python http.server (correct JS MIME types)
+- Sitemap: +81 ESB page URLs
+
+Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>

@@ -164,7 +164,17 @@
     </section>
     
     <section class="articles-section">
-      <h2 class="section-head">Artykuły i debata na ten temat <span class="count-badge">9</span></h2>
+      <h2 class="section-head">Artykuły i debata na ten temat <span class="count-badge">12</span></h2>
+      <div class="art-card" style="border-left:4px solid #e53935">
+    <div class="art-meta"><span class="src">Útvarp Saga</span><span>Guðlaugur Þór Þórðarson</span><span>2026-08-11</span></div>
+    <h3><a href="https://utvarpsaga.is/gudlaugur-storhaettulegt-ad-segja-ja-i-thjodaratkvaedagreidslunni/" target="_blank" rel="noopener">Guðlaugur: Powiedzenie TAK w referendum jest skrajnie niebezpieczne</a></h3>
+    <p>Były minister spraw zagranicznych twierdzi, że rozpoczęcie nowych negocjacji akcesyjnych jest skrajnie niebezpieczne; w praktyce chodzi o ubieganie się o pełne członkostwo na podstawie wniosku z 2009 roku. Doświadczenia związane ze sporem o makrelę, Icesave i dystrybucją szczepionek pokazują, że UE przedkłada interesy państw członkowskich nad Islandię, a w negocjacjach pozycja Islandii byłaby podatna na naciski.</p>
+  </div>
+      <div class="art-card" style="border-left:4px solid #e53935">
+    <div class="art-meta"><span class="src">Nútíminn</span><span>Carl Baudenbacher</span><span>2026-08-11</span></div>
+    <h3><a href="https://www.nutiminn.is/featured/ef-eg-vaeri-islendingur-myndi-eg-kjosa-nei-fyrrverandi-forseti-efta-domstolsinn-skyr-vardandi-adild-islands-ad-esb/" target="_blank" rel="noopener">„Gdybym był Islandczykiem, głosowałbym na NIE” — były prezes Trybunału EFTA</a></h3>
+    <p>Carl Baudenbacher, były prezes Trybunału EFTA, ostrzega przed traktowaniem głosowania jako niewinnego sondażu: TAK uruchomi cały polityczny i instytucjonalny mechanizm UE, a „to pierwsze tak jest głosem rozstrzygającym”. Odrzucenie umowy akcesyjnej na późniejszym etapie byłoby znacznie trudniejsze, a ciężar dowodu spoczywa na tych, którzy chcą odejść od modelu EOG.</p>
+  </div>
       <div class="art-card" style="border-left:4px solid #e53935">
     <div class="art-meta"><span class="src">visir.is</span><span>Hjörtur J. Guðmundsson</span><span>2026-07-30</span></div>
     <h3><a href="https://www.visir.is/g/20262915046d/vidraedurnar-snuast-um-adlogun" target="_blank" rel="noopener">Negocjacje dotyczą dostosowania</a></h3>
@@ -191,6 +201,11 @@
     <p>Krytyka Kristrún Frostadóttir za zmianę kursu: przed wyborami „nie wolno było wprowadzać w błąd”, a teraz sprawa UE jest forsowana bez szerokiego konsensusu.</p>
   </div>
       <div class="art-card" style="border-left:4px solid #e53935">
+    <div class="art-meta"><span class="src">Heimssýn (blog.is)</span><span>2026-08-13</span></div>
+    <h3><a href="https://heimssyn.blog.is/blog/heimssyn/entry/2327656/" target="_blank" rel="noopener">Steingrímur J. Sigfússon nie chce negocjacji z UE</a></h3>
+    <p>Zwrócono uwagę na artykuł Steingrímura J. Sigfússonara na Vísi, w którym, w świetle swoich doświadczeń z negocjacji po kryzysie, twierdzi on, że interesy Islandii są najlepiej zabezpieczone poza UE, oraz mówi, że ma bardzo ograniczoną wiarę w to, iż nowa runda negocjacji przyniesie jakikolwiek rezultat.</p>
+  </div>
+      <div class="art-card" style="border-left:4px solid #e53935">
     <div class="art-meta"><span class="src">visir.is</span><span>Hnikarr Bjarmi Franklínsson</span><span>2026-08-05</span></div>
     <h3><a href="https://www.visir.is/g/20262917220d/er-thad-hraedsla-ad-segja-nei-" target="_blank" rel="noopener">Czy powiedzenie „nie” to strach?</a></h3>
     <p>Głos na NIE nie wynika ze strachu, lecz z krytycznej oceny: proces trwałby 3–4 lata, angażowałby administrację publiczną i zamroziłby inne umowy o wolnym handlu.</p>
@@ -213,6 +228,44 @@
     </section>
     <div class="disclaimer">Ta strona podsumowuje argumentację strony NIE tak, jak pojawia się w artykułach i debacie publicznej; jest to podsumowanie stanowisk, a nie stwierdzenie faktów. Raport sporządzono 6 sierpnia 2026 r. Przeanalizowano strony internetowe ruchów (Evrópuhreyfingin, SJÁ, Heimssýn, Áfram Ísland, Til vinstri við ESB, Frjálst land), mediów (Vísir, mbl.is, RÚV, DV, Heimildin, Viðskiptablaðið, Bændablaðið, Skessuhorn, Austurfrétt, Feykir, BB.is, Eyjafréttir, Vikublaðið, Útvarp Saga, Mannlíf, Nútíminn), a także otwartą dyskusję na Reddit i Facebooku. Neutralne wiadomości nie są uwzględniane w kolumnach.</div>
   </main>
+  <style>
+    .dw { position: fixed; bottom: 20px; left: 20px; z-index: 960; display: flex; flex-direction: column; align-items: flex-start; pointer-events: none; }
+    .dw-card {
+      pointer-events: auto; width: 300px; max-width: calc(100vw - 40px);
+      background: rgba(255,255,255,0.97); border: 1px solid rgba(0,0,0,0.12);
+      border-radius: 14px; padding: 14px 16px; box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+      transition: opacity 0.2s, transform 0.2s; transform-origin: bottom left;
+    }
+    .dw-card.hid { opacity: 0; pointer-events: none; transform: scale(0.92) translateY(6px); visibility: hidden; }
+    .dw-head { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; font-weight: 700; font-size: 0.9rem; color: #0f1923; }
+    .dw-min { margin-left: auto; background: none; border: none; cursor: pointer; color: #64748b; font-size: 1rem; }
+    .dw-text { font-size: 0.78rem; color: #4a5568; line-height: 1.5; }
+    .dw-badge {
+      pointer-events: auto; display: none; width: 34px; height: 34px; border-radius: 50%;
+      background: rgba(255,255,255,0.95); border: 1px solid rgba(0,0,0,0.15);
+      color: #1a4fa8; cursor: pointer; align-items: center; justify-content: center; font-size: 0.9rem;
+    }
+    .dw-badge.vis { display: flex; }
+    .dw-badge:hover { background: rgba(26,86,219,0.12); }
+    @media (max-width: 1150px) { .dw { bottom: 30px; left: 10px; } }
+  </style>
+  <div class="dw">
+    <div class="dw-card" id="dw-card">
+      <div class="dw-head">ℹ️ Zastrzeżenie<button class="dw-min" id="dw-min" aria-label="Loka">▾</button></div>
+      <div class="dw-text">Treści są zestawiane z pomocą AI ze źródeł publicznie dostępnych w internecie. Nie możemy zagwarantować pełnej dokładności i zalecamy weryfikację ważnych informacji w źródłach.</div>
+    </div>
+    <button class="dw-badge" id="dw-badge" aria-label="Zastrzeżenie">ℹ</button>
+  </div>
+  <script>
+    (function () {
+      var card = document.getElementById('dw-card'), badge = document.getElementById('dw-badge');
+      function min() { card.classList.add('hid'); badge.classList.add('vis'); localStorage.setItem('disclaimer-min', '1'); }
+      function exp() { card.classList.remove('hid'); badge.classList.remove('vis'); localStorage.removeItem('disclaimer-min'); }
+      if (localStorage.getItem('disclaimer-min') === '1') min(); else setTimeout(min, 5000);
+      document.getElementById('dw-min').addEventListener('click', min);
+      badge.addEventListener('click', exp);
+    })();
+  </script>
   <script src="/js/starfandi-banner.js?v=7" defer></script>
 </body>
 </html>

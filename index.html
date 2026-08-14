@@ -797,8 +797,8 @@
   </div>
 
   <!-- ── Data + init ───────────────────────────────────────── -->
-  <script src="js/esb-data.js?v=2"></script>
-  <script src="js/esb-motrok.js?v=1"></script>
+  <script src="js/esb-data.js?v=3"></script>
+  <script src="js/esb-motrok.js?v=2"></script>
   <script>
   (function () {
     const PAGE = 20;
@@ -890,7 +890,7 @@
         const sideLbl = a.side === 'ja' ? 'JÁ' : 'NEI';
         const idx = argIndex(a.side);
         const pills = (a.args || []).map(k => idx[k]
-          ? `<a class="pill" href="/esbkosningar2026/${k}/" title="${esc(idx[k].title)}">${idx[k].icon}</a>`
+          ? `<a class="pill" href="/esbkosningar2026/${k}/" title="${esc(idx[k].title)}">${idx[k].icon}<span class="lbl">&nbsp;${esc(idx[k].title)}</span></a>`
           : '').join('');
         return `<div class="car-card ${cls}">
           <div class="car-side">${sideLbl}</div>

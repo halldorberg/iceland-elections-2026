@@ -169,11 +169,26 @@
     </section>
     
     <section class="articles-section">
-      <h2 class="section-head">Articles and debate on this argument <span class="count-badge">11</span></h2>
+      <h2 class="section-head">Articles and debate on this argument <span class="count-badge">15</span></h2>
+      <div class="art-card" style="border-left:4px solid #e53935">
+    <div class="art-meta"><span class="src">visir.is</span><span>Guðrún Hafsteinsdóttir</span><span>2026-08-06</span></div>
+    <h3><a href="https://www.visir.is/g/20262918065d/-evropusambandid-er-ekki-konfektkassi-" target="_blank" rel="noopener">“The European Union is not a box of chocolates”</a></h3>
+    <p>The chair of Sjálfstæðisflokkurinn says the EU is not a box of chocolates where you can pick the best pieces and reject the rest. The government has not clarified its negotiating objectives or red lines, for example on fisheries, and she doubts that permanent exemptions can be secured. The timing of the vote is political and liable to divert attention from economic issues.</p>
+  </div>
       <div class="art-card" style="border-left:4px solid #e53935">
     <div class="art-meta"><span class="src">bjorn.is</span><span>Björn Bjarnason</span><span>2026-07-06</span></div>
     <h3><a href="https://www.bjorn.is/dagbok/afram-island" target="_blank" rel="noopener">Áfram Ísland!</a></h3>
     <p>Former minister: the vote is about Icelanders’ control over their own destiny; membership would cost control over fisheries, agriculture, and the currency.</p>
+  </div>
+      <div class="art-card" style="border-left:4px solid #e53935">
+    <div class="art-meta"><span class="src">Bændablaðið</span><span>Þröstur Helgason</span><span>2026-08-13</span></div>
+    <h3><a href="https://www.bbl.is/skodun/leidari/enn-vantar-upplysingar" target="_blank" rel="noopener">Information is still lacking</a></h3>
+    <p>An editorial in Bændablaðið criticizes the authorities for not presenting clear answers before the vote on control over resources and agricultural policy. History shows that permanent exemptions from the EU’s agricultural policy are rare, and it asks why Iceland should place resources it already controls under negotiation with a supranational authority.</p>
+  </div>
+      <div class="art-card" style="border-left:4px solid #e53935">
+    <div class="art-meta"><span class="src">Útvarp Saga</span><span>Sigmundur Davíð Gunnlaugsson</span><span>2026-08-09</span></div>
+    <h3><a href="https://utvarpsaga.is/thjodaratkvaedagreidslan-snyst-um-ad-rikisstjornin-fai-umbod-til-ad-semja-um-adild-ad-esb/" target="_blank" rel="noopener">The referendum is about giving the government a mandate to negotiate EU membership</a></h3>
+    <p>The chairman of Miðflokkurinn says in an interview that the vote is not about “taking a look inside the package” but about granting the government a mandate to negotiate membership; a yes vote would amount to a blank check on the nation’s sovereignty to the Minister for Foreign Affairs.</p>
   </div>
       <div class="art-card" style="border-left:4px solid #e53935">
     <div class="art-meta"><span class="src">Reddit r/Iceland</span><span>Don_Ozwald</span><span>2026-06-09</span> · 20 upvotes, 43 comments</div>
@@ -221,6 +236,11 @@
     <p>Criticism of the speed of the process: Iceland could join the EU faster than any other applicant country if yes prevails.</p>
   </div>
       <div class="art-card" style="border-left:4px solid #e53935">
+    <div class="art-meta"><span class="src">Heimssýn (blog.is)</span><span>2026-08-11</span></div>
+    <h3><a href="https://heimssyn.blog.is/blog/heimssyn/entry/2327609/" target="_blank" rel="noopener">Does Daði Már mean what he says?</a></h3>
+    <p>The finance minister’s integrity in the fight against inflation is being called into question, and it is claimed that within Viðreisn it has been said that the only way to get Icelanders to accept the EU process is for the economy here to be in ruins.</p>
+  </div>
+      <div class="art-card" style="border-left:4px solid #e53935">
     <div class="art-meta"><span class="src">Nútíminn</span><span>2026-08-02</span></div>
     <h3><a href="https://www.nutiminn.is/forsida/esb-thingmadur-segir-sambandid-sjalft-reyna-ad-hafa-ahrif-a-kosningar-islendingar-kjosa-um-esb-29-agust/" target="_blank" rel="noopener">EU parliamentarian says the Union itself is trying to influence elections</a></h3>
     <p>MEP Fidias Panayiotou accuses the EU itself of trying to influence elections in other countries; doubts raised about the Union’s love of democracy.</p>
@@ -228,6 +248,44 @@
     </section>
     <div class="disclaimer">This page summarises the NO side's case as it appears in articles and public debate; it is a summary of advocates' positions, not a statement of fact. Report prepared on 6 August 2026. The analysis covered the websites of movements (Evrópuhreyfingin, SJÁ, Heimssýn, Áfram Ísland, Til vinstri við ESB, Frjálst land), media outlets (Vísir, mbl.is, RÚV, DV, Heimildin, Viðskiptablaðið, Bændablaðið, Skessuhorn, Austurfrétt, Feykir, BB.is, Eyjafréttir, Vikublaðið, Útvarp Saga, Mannlíf, Nútíminn), as well as open discussion on Reddit and Facebook. Neutral news reports are not counted in the columns.</div>
   </main>
+  <style>
+    .dw { position: fixed; bottom: 20px; left: 20px; z-index: 960; display: flex; flex-direction: column; align-items: flex-start; pointer-events: none; }
+    .dw-card {
+      pointer-events: auto; width: 300px; max-width: calc(100vw - 40px);
+      background: rgba(255,255,255,0.97); border: 1px solid rgba(0,0,0,0.12);
+      border-radius: 14px; padding: 14px 16px; box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+      transition: opacity 0.2s, transform 0.2s; transform-origin: bottom left;
+    }
+    .dw-card.hid { opacity: 0; pointer-events: none; transform: scale(0.92) translateY(6px); visibility: hidden; }
+    .dw-head { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; font-weight: 700; font-size: 0.9rem; color: #0f1923; }
+    .dw-min { margin-left: auto; background: none; border: none; cursor: pointer; color: #64748b; font-size: 1rem; }
+    .dw-text { font-size: 0.78rem; color: #4a5568; line-height: 1.5; }
+    .dw-badge {
+      pointer-events: auto; display: none; width: 34px; height: 34px; border-radius: 50%;
+      background: rgba(255,255,255,0.95); border: 1px solid rgba(0,0,0,0.15);
+      color: #1a4fa8; cursor: pointer; align-items: center; justify-content: center; font-size: 0.9rem;
+    }
+    .dw-badge.vis { display: flex; }
+    .dw-badge:hover { background: rgba(26,86,219,0.12); }
+    @media (max-width: 1150px) { .dw { bottom: 30px; left: 10px; } }
+  </style>
+  <div class="dw">
+    <div class="dw-card" id="dw-card">
+      <div class="dw-head">ℹ️ Disclaimer<button class="dw-min" id="dw-min" aria-label="Loka">▾</button></div>
+      <div class="dw-text">Content is compiled with AI assistance from public online sources. We cannot guarantee full accuracy and recommend verifying important information in the original sources.</div>
+    </div>
+    <button class="dw-badge" id="dw-badge" aria-label="Disclaimer">ℹ</button>
+  </div>
+  <script>
+    (function () {
+      var card = document.getElementById('dw-card'), badge = document.getElementById('dw-badge');
+      function min() { card.classList.add('hid'); badge.classList.add('vis'); localStorage.setItem('disclaimer-min', '1'); }
+      function exp() { card.classList.remove('hid'); badge.classList.remove('vis'); localStorage.removeItem('disclaimer-min'); }
+      if (localStorage.getItem('disclaimer-min') === '1') min(); else setTimeout(min, 5000);
+      document.getElementById('dw-min').addEventListener('click', min);
+      badge.addEventListener('click', exp);
+    })();
+  </script>
   <script src="/js/starfandi-banner.js?v=7" defer></script>
 </body>
 </html>

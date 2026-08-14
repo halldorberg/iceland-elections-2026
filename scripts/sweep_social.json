@@ -1,0 +1,52 @@
+{
+  "articles": [
+    {
+      "side": "ja",
+      "title": "Þorgerður krefst yfirráða yfir sjávarútvegi í ESB-viðræðum",
+      "url": "https://www.reddit.com/r/Iceland/comments/1vhdpel/",
+      "source": "Reddit r/Iceland",
+      "author": "rbhmmx",
+      "date": "2026-08-06",
+      "summary": "Deiling á frétt RÚV um ófrávíkjanlega kröfu utanríkisráðherra um yfirráð yfir sjávarútvegi í viðræðum. Höfundur segir tímabært að fá loks úr því skorið hvort hægt sé að semja um yfirráðin eftir tuttugu ára deilur um málið; ef niðurstaðan verði að það sé ekki hægt gangi Ísland einfaldlega ekki inn.",
+      "args": ["kikja", "serlausnir"],
+      "impact": 3,
+      "engagement": "39 upvotes, 77 comments"
+    },
+    {
+      "side": "ja",
+      "title": "Frjáls verslun 2. TBL. 2014: „Guðrún Hafsteinsdóttir er nýr formaður Samtaka Iðnaðarins. Hún vill klára ESB-viðræðurnar en segir ekki koma til greina að ganga í ESB án undanþágna í sjávarútvegi og landbúnaði“",
+      "url": "https://www.reddit.com/r/Iceland/comments/1vj7dv7/",
+      "source": "Reddit r/Iceland",
+      "author": "Don_Ozwald",
+      "date": "2026-08-08",
+      "summary": "Rifjað upp viðtal úr Frjálsri verslun 2014 þar sem Guðrún Hafsteinsdóttir, þá formaður Samtaka iðnaðarins, vildi klára ESB-viðræðurnar. Þráðurinn stillir þeirri afstöðu upp á móti andstöðu hennar við viðræðurnar nú sem formaður Sjálfstæðisflokksins.",
+      "args": ["kikja", "hraedslu"],
+      "impact": 2,
+      "engagement": "44 upvotes, 49 comments"
+    },
+    {
+      "side": "nei",
+      "title": "Af hverju segi ég nei í lok ágúst? - Vísir",
+      "url": "https://www.reddit.com/r/Iceland/comments/1vnjavq/",
+      "source": "Reddit r/Iceland",
+      "author": "Woodpecker-Visible",
+      "date": "2026-08-13",
+      "summary": "Notandi deilir grein Steingríms J. Sigfússonar, fyrrverandi formanns VG, á Vísi og tekur undir efasemdir hans um svigrúm Íslands í viðræðum. Ísland fari fram á „rosalegar undanþágur“ í sjávarútvegi og landbúnaði sem margir haldi ranglega að hægt sé að semja um. Flestar athugasemdir í þræðinum andmæla höfundi.",
+      "args": ["undanthagur", "sjavarutvegur", "landbunadur"],
+      "impact": 1
+    },
+    {
+      "side": "ja",
+      "title": "Yfir 70 prósent á móti aðildarviðræðunum",
+      "url": "https://www.reddit.com/r/Iceland/comments/1vn8u8v/",
+      "source": "Reddit r/Iceland",
+      "author": "Stutturdreki",
+      "date": "2026-08-13",
+      "summary": "Notandi gagnrýnir frétt mbl.is um könnun þar sem yfir 70% væru sögð á móti viðræðunum: könnunin var aðeins send 288 markaðs- og greiningaraðilum og 80 svör bárust (28% svarhlutfall). Hún endurspegli því ekki þverskurð þjóðarinnar og framsetning Morgunblaðsins sé villandi; athugasemdir taka undir og ræða áróðursham Moggans í aðdraganda kosninganna.",
+      "args": ["hraedslu"],
+      "impact": 2
+    }
+  ],
+  "emerging_arguments": [],
+  "notes": "Sópun 14. ágúst 2026, gluggi 6.–14. ágúst. Reddit: beinn aðgangur (old.reddit/JSON-API) lokaður (403); notast var við RSS-strauma reddit.com (new-listi + ESB-leit r/Iceland, 100 færslur aftur til 29. júlí = full þekja gluggans) auk Arctic Shift API fyrir engagement-tölur. r/island reyndist ljósmyndasubreddit án nokkurrar ESB-umræðu í glugganum. Hlutlausir fréttaþræðir (ÖSE-athugasemdir um fjármögnunarglufur 1vh4p10, kjörskrárfrestur 1vicp3s) og þræðir án skýrrar afstöðu (Þórður Snær um eigendur Moggans 1vhxz5f) ekki taldir með. Þráðurinn „Já í ágúst gæti fest Ísland í ESB“ (1vggbbj) féll utan glugga (5. ágúst). Engagement vantar á færslurnar frá 13. ágúst (Arctic Shift-snapshot of nýtt; 1vnjavq ≥8 athugasemdir, 1vn8u8v ≥13 athugasemdir skv. RSS). Engin Facebook-færsla á tímabilinu var sannreynanleg gegnum leitarniðurstöður; Facebook-færsla Sólveigar Önnu (nei) reyndist frá 13. júní og því utan glugga. Ekkert mynstur í 3+ færslum utan núverandi lykla."
+}

@@ -10,7 +10,7 @@ const detailsNei = JSON.parse(fs.readFileSync(path.join(__dirname, 'details_nei.
 
 // Direct mótrök researched from the literature (motrok_*.json); key → [{title,text,source,author,url}]
 const MOTROK = {};
-for (const f of ['motrok_ja1.json', 'motrok_ja2.json', 'motrok_nei1.json', 'motrok_nei2.json']) {
+for (const f of ['motrok_ja1.json', 'motrok_ja2.json', 'motrok_nei1.json', 'motrok_nei2.json', 'motrok_new.json']) {
   const p = path.join(__dirname, f);
   if (fs.existsSync(p)) Object.assign(MOTROK, JSON.parse(fs.readFileSync(p, 'utf8')));
 }
@@ -38,6 +38,8 @@ const UI = {
     election: 'ESB-kosningin 2026',
     disclaimer: side => `Þessi síða dregur saman málflutning ${side === 'ja' ? 'JÁ' : 'NEI'}-hliðarinnar eins og hann birtist í greinum og umræðu; efnið er samantekt á afstöðu talsmanna, ekki staðreyndayfirlýsing.`,
     ja: 'JÁ', nei: 'NEI',
+    infoTitle: 'Fyrirvari',
+    infoText: 'Efnið er tekið saman með aðstoð gervigreindar úr opinberum heimildum á netinu. Við getum ekki ábyrgst fulla nákvæmni og mælum með að staðfesta mikilvægar upplýsingar í frumheimildum.',
   },
   en: {
     sideLabel: s => s === 'ja' ? 'YES-side arguments' : 'NO-side arguments',
@@ -50,6 +52,8 @@ const UI = {
     election: 'The 2026 EU referendum',
     disclaimer: side => `This page summarises the ${side === 'ja' ? 'YES' : 'NO'} side's case as it appears in articles and public debate; it is a summary of advocates' positions, not a statement of fact.`,
     ja: 'YES', nei: 'NO',
+    infoTitle: 'Disclaimer',
+    infoText: 'Content is compiled with AI assistance from public online sources. We cannot guarantee full accuracy and recommend verifying important information in the original sources.',
   },
   pl: {
     sideLabel: s => s === 'ja' ? 'Argumenty strony TAK' : 'Argumenty strony NIE',
@@ -62,6 +66,8 @@ const UI = {
     election: 'Referendum UE 2026',
     disclaimer: side => `Ta strona podsumowuje argumentację strony ${side === 'ja' ? 'TAK' : 'NIE'} tak, jak pojawia się w artykułach i debacie publicznej; jest to podsumowanie stanowisk, a nie stwierdzenie faktów.`,
     ja: 'TAK', nei: 'NIE',
+    infoTitle: 'Zastrzeżenie',
+    infoText: 'Treści są zestawiane z pomocą AI ze źródeł publicznie dostępnych w internecie. Nie możemy zagwarantować pełnej dokładności i zalecamy weryfikację ważnych informacji w źródłach.',
   },
 };
 
@@ -69,6 +75,48 @@ const SIDE = {
   ja:  { label: 'Rök JÁ-hliðar',  color: '#1e88e5', bg: 'rgba(30,136,229,0.08)',  border: 'rgba(30,136,229,0.30)',  other: 'nei', otherLabel: 'Mótrök NEI-hliðar', details: detailsJa },
   nei: { label: 'Rök NEI-hliðar', color: '#e53935', bg: 'rgba(229,57,53,0.08)',   border: 'rgba(229,57,53,0.30)',   other: 'ja',  otherLabel: 'Mótrök JÁ-hliðar',  details: detailsNei },
 };
+
+// Info (ℹ) disclaimer widget — bottom-left, minimizes to a badge after 5s
+function infoWidget(U) {
+  return `<style>
+    .dw { position: fixed; bottom: 20px; left: 20px; z-index: 960; display: flex; flex-direction: column; align-items: flex-start; pointer-events: none; }
+    .dw-card {
+      pointer-events: auto; width: 300px; max-width: calc(100vw - 40px);
+      background: rgba(255,255,255,0.97); border: 1px solid rgba(0,0,0,0.12);
+      border-radius: 14px; padding: 14px 16px; box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+      transition: opacity 0.2s, transform 0.2s; transform-origin: bottom left;
+    }
+    .dw-card.hid { opacity: 0; pointer-events: none; transform: scale(0.92) translateY(6px); visibility: hidden; }
+    .dw-head { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; font-weight: 700; font-size: 0.9rem; color: #0f1923; }
+    .dw-min { margin-left: auto; background: none; border: none; cursor: pointer; color: #64748b; font-size: 1rem; }
+    .dw-text { font-size: 0.78rem; color: #4a5568; line-height: 1.5; }
+    .dw-badge {
+      pointer-events: auto; display: none; width: 34px; height: 34px; border-radius: 50%;
+      background: rgba(255,255,255,0.95); border: 1px solid rgba(0,0,0,0.15);
+      color: #1a4fa8; cursor: pointer; align-items: center; justify-content: center; font-size: 0.9rem;
+    }
+    .dw-badge.vis { display: flex; }
+    .dw-badge:hover { background: rgba(26,86,219,0.12); }
+    @media (max-width: 1150px) { .dw { bottom: 30px; left: 10px; } }
+  </style>
+  <div class="dw">
+    <div class="dw-card" id="dw-card">
+      <div class="dw-head">ℹ️ ${esc(U.infoTitle)}<button class="dw-min" id="dw-min" aria-label="Loka">▾</button></div>
+      <div class="dw-text">${esc(U.infoText)}</div>
+    </div>
+    <button class="dw-badge" id="dw-badge" aria-label="${esc(U.infoTitle)}">ℹ</button>
+  </div>
+  <script>
+    (function () {
+      var card = document.getElementById('dw-card'), badge = document.getElementById('dw-badge');
+      function min() { card.classList.add('hid'); badge.classList.add('vis'); localStorage.setItem('disclaimer-min', '1'); }
+      function exp() { card.classList.remove('hid'); badge.classList.remove('vis'); localStorage.removeItem('disclaimer-min'); }
+      if (localStorage.getItem('disclaimer-min') === '1') min(); else setTimeout(min, 5000);
+      document.getElementById('dw-min').addEventListener('click', min);
+      badge.addEventListener('click', exp);
+    })();
+  </script>`;
+}
 
 function articleCard(art, sideColor, lang) {
   lang = lang || 'is';
@@ -274,6 +322,7 @@ function buildPage(side, arg, lang) {
     ${articlesHtml}
     <div class="disclaimer">${esc(U.disclaimer(side))} ${esc(tr(lang, 'note', DATA.note || ''))}</div>
   </main>
+  ${infoWidget(U)}
   <script src="/js/starfandi-banner.js?v=7" defer></script>
 </body>
 </html>
@@ -435,6 +484,7 @@ function buildArticlesPage() {
       if (card) card.classList.toggle('open');
     });
   </script>
+  ${infoWidget(UI.is)}
   <script src="/js/starfandi-banner.js?v=7" defer></script>
 </body>
 </html>
