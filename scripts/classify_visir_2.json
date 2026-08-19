@@ -1,0 +1,682 @@
+{
+ "articles": [
+  {
+   "side": "ja",
+   "title": "Að hafna viðræðum er að hafna upplýsingum",
+   "url": "https://www.visir.is/g/20262862209d/ad-hafna-vidraedum-er-ad-hafna-upplysingum",
+   "source": "visir.is",
+   "author": "Magnús Árni Skjöld Magnússon",
+   "date": "2026-03-28",
+   "summary": "Formaður Evrópuhreyfingarinnar segir að kosið sé um framhald viðræðna, ekki aðild; viðræður séu leið til að afla upplýsinga svo þjóðin geti tekið upplýsta ákvörðun síðar. Að hafna viðræðum sé ákvörðun um að vilja ekki vita meira, en Ísland taki nú þegar upp stóran hluta regluverks ESB án sætis við borðið.",
+   "args": ["kikja", "ahrif"],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Hálfsannleikur og ósannindi Magnúsar Árna Skjaldar Magnússonar",
+   "url": "https://www.visir.is/g/20262862428d/halfsannleikur-og-osannindi-magnusar-arna-skjaldar-magnussonar",
+   "source": "visir.is",
+   "author": "Hjörvar Sigurðsson",
+   "date": "2026-03-29",
+   "summary": "Svarar grein formanns Evrópuhreyfingarinnar og segir hann endurtaka ósannindi um að viðræður séu einfalt upplýsingasamtal. Samkvæmt ESB sjálfu feli aðildarviðræður í sér upptöku gildandi laga sambandsins og innleiðingu umbóta, ekki hlutlausa upplýsingaöflun.",
+   "args": ["adlogun", "spurning"],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Ísland í Evrópusambandinu",
+   "url": "https://www.visir.is/g/20262862458d/island-i-evropusambandinu",
+   "source": "visir.is",
+   "author": "Jón Frímann Jónsson",
+   "date": "2026-03-29",
+   "summary": "Fer yfir valdmörk ESB samkvæmt Lissabon-sáttmálanum og segir aðildarríkin stjórna ferðinni; Ísland fengi sex Evrópuþingmenn og fulltrúa í stofnunum sambandsins. Segir Evrópuandstæðinga byggja á rangfærslum og samsæriskenningum af samfélagsmiðlum.",
+   "args": ["ahrif", "hraedslu"],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Gestalisti elítunnar",
+   "url": "https://www.visir.is/g/20262862859d/gestalisti-elitunnar",
+   "source": "visir.is",
+   "author": "Óðinn Freyr Baldursson",
+   "date": "2026-03-30",
+   "summary": "Svarar grein Halldórs Benjamíns og segir andstöðu hans hagsmunagæslu fasteignafélags sem hagnist á verðtryggingu og óstöðugleika krónunnar. Krónan kosti almenning hærri vexti og þúsund milljarða gjaldeyrisforða sem annars gæti farið í innviði.",
+   "args": ["vextir", "kjor"],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Mætti vera sammála sjálfum sér",
+   "url": "https://www.visir.is/g/20262862868d/maetti-vera-sammala-sjalfum-ser",
+   "source": "visir.is",
+   "author": "Hjörtur J. Guðmundsson",
+   "date": "2026-03-30",
+   "summary": "Bendir á að formaður Evrópuhreyfingarinnar hafi sjálfur sagt í janúar að vilji til inngöngu væri forsenda viðræðna en haldi nú fram að hægt sé að sækja um bara til að sjá hvað sé í boði. Viðræðurammi ESB kveði á um að sameiginlegt markmið umsóknar sé innganga og ferlið feli í sér aðlögun að regluverki sambandsins.",
+   "args": ["spurning", "adlogun"],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Þeir fiska sem róa",
+   "url": "https://www.visir.is/g/20262863052d/their-fiska-sem-roa",
+   "source": "visir.is",
+   "author": "Þorgerður Katrín Gunnarsdóttir",
+   "date": "2026-03-30",
+   "summary": "Utanríkisráðherra segir íslenskan sjávarútveg sterkan og samningsmarkmiðin frá síðustu viðræðum standa: forræði yfir fiskveiðiauðlindinni og hlutdeild í deilistofnum. Regla ESB um hlutfallslegan stöðugleika þýði að öðrum þjóðum yrði ekki heimilt að veiða í íslenskri lögsögu; sjávarútvegs- og landbúnaðarkaflar yrðu opnaðir sem fyrst.",
+   "args": ["serlausnir", "kikja"],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Á Landskjörstjórn að gera athugasemdir við spurninguna?",
+   "url": "https://www.visir.is/g/20262863385d/a-landskjorstjorn-ad-gera-athugasemdir-vid-spurninguna-",
+   "source": "visir.is",
+   "author": "Erna Bjarnadóttir",
+   "date": "2026-03-31",
+   "summary": "Ber orðalag spurningarinnar saman við Feneyjaviðmið Evrópuráðsins um að spurningar í þjóðaratkvæðagreiðslum skuli vera skýrar og ekki villandi. Orðið „halda áfram“ gefi til kynna ferli sem sé í gangi, en samkvæmt greinargerð tillögunnar þyrfti að hefja viðræður að nýju samkvæmt reglum sem ESB setur.",
+   "args": ["spurning"],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Flott að fá það á hreint, Þorgerður",
+   "url": "https://www.visir.is/g/20262863656d/flott-ad-fa-thad-a-hreint-thorgerdur",
+   "source": "visir.is",
+   "author": "Hjörtur J. Guðmundsson",
+   "date": "2026-04-02",
+   "summary": "Svarar utanríkisráðherra og segir regluna um hlutfallslega stöðugar veiðar enga tryggingu; hún eigi sér ekki stoð í Lissabon-sáttmálanum og megi afnema með auknum meirihluta í ráðherraráðinu. Reynsla Íra af sambærilegum samningi sýni að valdið yfir sjávarútvegsmálum færi til ESB.",
+   "args": ["sjavarutvegur", "undanthagur"],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Tvennt getur verið rétt á sama tíma",
+   "url": "https://www.visir.is/g/20262864081d/tvennt-getur-verid-rett-a-sama-tima",
+   "source": "visir.is",
+   "author": "Þorgerður Katrín Gunnarsdóttir",
+   "date": "2026-04-01",
+   "summary": "Utanríkisráðherra segir enga mótsögn í því að vilja þétta böndin við Evrópu og sjá hvað bjóðist með sæti við borðið en um leið verja fullveldi, menningu og tungu. Fyrir smáþjóð sé virk þátttaka í alþjóðasamstarfi forsenda þess að verja hagsmuni, gildi og lífskjör.",
+   "args": ["kikja", "ahrif", "oryggi"],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Eins gott að þjóðin viti ekki of mikið",
+   "url": "https://www.visir.is/g/20262864863d/eins-gott-ad-thjodin-viti-ekki-of-mikid",
+   "source": "visir.is",
+   "author": "Jón Pétur Zimsen",
+   "date": "2026-04-04",
+   "summary": "Þingmaður Sjálfstæðisflokksins segir ríkisstjórnina ekki treysta þjóðinni fyrir réttum upplýsingum; í greinargerð þingsályktunartillögunnar sjálfrar standi að viðræður snúist um að umsóknarríki lagi sig að reglum ESB. Dagsetning atkvæðagreiðslunnar sé valin til að lágmarka umræðu.",
+   "args": ["adlogun", "spurning"],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Verða ríki fátæk af því að ganga í Evrópusambandið?",
+   "url": "https://www.visir.is/g/20262864945d/verda-riki-fataek-af-thvi-ad-ganga-i-evropusambandid-",
+   "source": "visir.is",
+   "author": "Andrés Pétursson",
+   "date": "2026-04-04",
+   "summary": "Hrekur þau rök að Ísland tapi á að vera nettógreiðandi: ný aðildarríki hafa upplifað hraðan hagvöxt (Rúmenía +558% frá 2004) og framlög byggja á hlutfalli af þjóðarframleiðslu. Íslenskar stofnanir og sveitarfélög gætu sótt vegleg innviðastyrki og reynslan af EES sýni að meira fæst til baka.",
+   "args": ["kjor", "byggd"],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Sex ástæður til að segja já við ESB-viðræðum",
+   "url": "https://www.visir.is/g/20262864961d/sex-astaedur-til-ad-segja-ja-vid-esb-vidraedum",
+   "source": "visir.is",
+   "author": "Þorvaldur Ingi Jónsson",
+   "date": "2026-04-04",
+   "summary": "Setur fram sex rök fyrir já: þjóðin eigi að ráða, Ísland hafi áður tekið stórar ákvarðanir á erfiðum tímum, tollabandalag veiti skjól í tollastríðum og krónan kosti heimili og fyrirtæki 170–270 milljarða á ári í hærri vöxtum. Já í ágúst sé ekki aðild heldur að halda dyrunum opnum.",
+   "args": ["kikja", "lydraedi", "oryggi", "vextir"],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Sérhagsmunir eða almannahagur",
+   "url": "https://www.visir.is/g/20262865030d/serhagsmunir-eda-almannahagur",
+   "source": "visir.is",
+   "author": "Sigurður K Pálsson",
+   "date": "2026-04-04",
+   "summary": "Segir stjórnmálamenn sem áður kölluðu eftir þjóðaratkvæði um ESB nú berjast gegn því að þjóðin fái að taka afstöðu. Sterk tengsl séu milli stjórnmála og sérhagsmunahópa — sjávarútvegs, banka og fasteignafélaga — sem hagnist fjárhagslega á háum vöxtum og verðtryggingu utan ESB.",
+   "args": ["lydraedi", "vextir"],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Viltu vita?",
+   "url": "https://www.visir.is/g/20262865161d/viltu-vita-",
+   "source": "visir.is",
+   "author": "Gunnar Hólmsteinn Ársælsson",
+   "date": "2026-04-05",
+   "summary": "Rekur sögu EES-samningsins og frystingar viðræðnanna 2013 og segir ekkert aðildarríki hafa tapað fullveldi, sjálfstæði eða auðlindum. Króatía fékk stórlækkaða vexti og stórauknar fjárfestingar eftir aðild og upptöku evru; á Íslandi eru hæstu stýrivextir á Norðurlöndum.",
+   "args": ["vextir", "hraedslu", "kikja"],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Að kljúfa þjóð í herðar niður",
+   "url": "https://www.visir.is/g/20262865715d/ad-kljufa-thjod-i-herdar-nidur",
+   "source": "visir.is",
+   "author": "Ingólfur Sverrisson",
+   "date": "2026-04-07",
+   "summary": "Segir minnimáttarkennd um fámenni og áhrifaleysi ekki hafa hentað í landhelgisdeilunum og eiga ekki við nú. Þjóðin sé klofin: annar helmingurinn geri upp í evrum eða dollurum en hinn sé lokaður inni í krónuhagkerfinu með háum vöxtum og verðbólguálögum.",
+   "args": ["vextir", "ahrif"],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Á nú að hafa af manni fullveldið?",
+   "url": "https://www.visir.is/g/20262866196d/a-nu-ad-hafa-af-manni-fullveldid-",
+   "source": "visir.is",
+   "author": "Eiríkur Hjálmarsson",
+   "date": "2026-04-08",
+   "summary": "Stutt grein þar sem höfundur segist vilja fá samning á borðið til að geta tekið upplýsta afstöðu sem fullvalda kjósandi. Það gangi freklega á fullveldi hans þegar aðrir vilji ákveða fyrir hans hönd að hann sjái aldrei hvernig dæmið lítur út.",
+   "args": ["kikja", "lydraedi"],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Óttinn við nei-ið",
+   "url": "https://www.visir.is/g/20262866199d/ottinn-vid-nei-id",
+   "source": "visir.is",
+   "author": "Gunnar Ármannsson",
+   "date": "2026-04-08",
+   "summary": "Segir stjórnarmeirihlutann tala niður til þjóðarinnar af ótta við nei. Samvinna Evrópuþjóða sé góð í gegnum EES-samninginn og sjálfstæða samninga, en óskynsamlegt væri að ganga í ESB og afsala sér rétti til að semja við þjóðir utan sambandsins; formaður Samfylkingarinnar hafi gengið bak orða sinna.",
+   "args": ["ees", "umbod"],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Tala þvert á það sem ESB sjálft segir",
+   "url": "https://www.visir.is/g/20262866266d/tala-thvert-a-thad-sem-esb-sjalft-segir",
+   "source": "visir.is",
+   "author": "Hjörtur J. Guðmundsson",
+   "date": "2026-04-09",
+   "summary": "Vitnar í gögn ESB um að upptaka og innleiðing regluverksins sé grundvöllur viðræðnanna og að hraði þeirra ráðist af aðlögun umsóknarríkisins. Sama komi fram í greinargerð þingsályktunartillögu utanríkisráðherra; já sé því ávísun á áralangt aðlögunarferli, ekki einfaldar viðræður.",
+   "args": ["adlogun"],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Engar samningaviðræður lengur - einungis sótt um inngöngu",
+   "url": "https://www.visir.is/g/20262866451d/engar-samningavidraedur-lengur-einungis-sott-um-inngongu.",
+   "source": "visir.is",
+   "author": "Þollý Rósmundsdóttir",
+   "date": "2026-04-09",
+   "summary": "Segir ESB ekki lengur bjóða upp á samningaviðræður eins og Norðmenn áttu á sínum tíma; nú sæki ríki um inngöngu og aðlagi sig jafnt og þétt að regluverkinu. Í bæklingi ESB og orðum stækkunarstjóra komi fram að engar varanlegar undanþágur séu í boði, aðeins tímabundnar sérlausnir.",
+   "args": ["spurning", "adlogun", "undanthagur"],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Að setja puttana í eyrun og kalla það stefnu",
+   "url": "https://www.visir.is/g/20262866658d/ad-setja-puttana-i-eyrun-og-kalla-thad-stefnu",
+   "source": "visir.is",
+   "author": "Óðinn Freyr Baldursson",
+   "date": "2026-04-09",
+   "summary": "Bendir á að engin lagaskylda sé til að kjósa um viðræður; atkvæðagreiðslan sé aukaskref til að gera ferlið lýðræðislegra með aðkomu þjóðarinnar á báðum stigum. Viðræður séu ekki aðild heldur leið til að fá staðreyndir á borðið, og nei myndi frysta málið í mörg ár eða áratugi.",
+   "args": ["kikja", "lydraedi", "timagluggi"],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Hafa af þér fullveldið, Eiríkur??",
+   "url": "https://www.visir.is/g/20262867139d/hafa-af-ther-fullveldid-eirikur-",
+   "source": "visir.is",
+   "author": "Hjörtur J. Guðmundsson",
+   "date": "2026-04-11",
+   "summary": "Svarar grein Eiríks Hjálmarssonar og segir Evrópusambandssinna ekki geta útskýrt hvaða upplýsingar fáist úr inngöngusamningi sem ekki liggi þegar fyrir. Umsóknarferlið sé áralangt og kostnaðarsamt og gangi einkum út á aðlögun að regluverki og stjórnsýslu ESB áður en samningur lægi fyrir.",
+   "args": ["adlogun", "kostnadur"],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Evrópa fyrir Íslendinga",
+   "url": "https://www.visir.is/g/20262867216d/evropa-fyrir-islendinga",
+   "source": "visir.is",
+   "author": "Ásgeir Þorgeirsson",
+   "date": "2026-04-10",
+   "summary": "Skoðar málið út frá heimilisbókhaldinu: gengissveiflur krónunnar, hærri vextir og fákeppni á smáum markaði hækka daglegan kostnað. Evrópskt regluverk hafi lækkað kostnað neytenda, til dæmis með afnámi reikigjalda og takmörkunum á kortagjöldum banka.",
+   "args": ["vextir", "kjor"],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Afvegaleiðing umræðu um ESB",
+   "url": "https://www.visir.is/g/20262867769d/afvegaleiding-umraedu-um-esb",
+   "source": "visir.is",
+   "author": "Sigurður Kristinn Pálsson",
+   "date": "2026-04-11",
+   "summary": "Segir andstæðinga afbaka hugtakið aðildarviðræður í „aðlögunarviðræður“ og byggja á 15–17 ára gömlum tilvitnunum án samhengis. Skýrslur unnar að frumkvæði Guðlaugs Þórs staðfesti að aðildarviðræðum var aldrei formlega slitið heldur aðeins gert hlé 2013.",
+   "args": ["hraedslu", "kikja"],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Landskjörstjórn gerir athugasemd við spurninguna",
+   "url": "https://www.visir.is/g/20262867819d/landskjorstjorn-gerir-athugasemd-vid-spurninguna",
+   "source": "visir.is",
+   "author": "Erna Bjarnadóttir",
+   "date": "2026-04-11",
+   "summary": "Bendir á að umsögn Landskjörstjórnar taki undir fyrri gagnrýni hennar: orðalagið „halda áfram viðræðum“ byggi á umdeildri forsendu og geti haft áhrif á skilning kjósenda. Þurfi að breyta spurningunni efnislega sé í reynd verið að biðja þjóðina um annað umboð en upphaflega var lagt upp með.",
+   "args": ["spurning"],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Ljósið elt út í haug",
+   "url": "https://www.visir.is/g/20262868011d/ljosid-elt-ut-i-haug",
+   "source": "visir.is",
+   "author": "Sigurjón Njarðarson",
+   "date": "2026-04-12",
+   "summary": "Rekur gögn utanríkisráðuneytisins frá ágúst 2025 sem staðfesta að aðildarumsóknin frá 2009 var aldrei formlega afturkölluð; ESB hafi aldrei litið á bréf íslenskra yfirvalda sem afturköllun. Gagnrýnir Björn Bjarnason og Gunnar Braga Sveinsson fyrir að halda öðru fram.",
+   "args": ["kikja"],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Höfum við ekki nóg við peningana að gera?",
+   "url": "https://www.visir.is/g/20262868047d/hofum-vid-ekki-nog-vid-peningana-ad-gera-",
+   "source": "visir.is",
+   "author": "Þollý Rósmundsdóttir",
+   "date": "2026-04-13",
+   "summary": "Spyr hvað sé kosið um fyrst forsætisráðherra segi ekki kosið um inngöngu; aðildarviðræður snúist um aðlögun allrar löggjafar að ESB og engar varanlegar undanþágur fáist í sjávarútvegs- og landbúnaðarmálum. Kostnaðurinn við að „kíkja í pakkann“ hlaupi á hundruðum milljóna sem nær væri að nota innanlands.",
+   "args": ["spurning", "adlogun", "undanthagur", "kostnadur"],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Sólveig Anna um stöðu verkafólks innan eða utan ESB",
+   "url": "https://www.visir.is/g/20262868912d/solveig-anna-um-stodu-verkafolks-innan-eda-utan-esb",
+   "source": "visir.is",
+   "author": "Þorvaldur Ingi Jónsson",
+   "date": "2026-04-14",
+   "summary": "Svarar formanni Eflingar og segir íslenskt vinnumarkaðskerfi standa áfram innan ESB eins og í Danmörku og Svíþjóð; ESB setji aðeins lágmarksreglur. Ísland fylgi þegar evrópskum vinnumarkaðsreglum gegnum EES án áhrifa, og stöðugleiki í gjaldmiðli og vöxtum skili verkafólki atvinnuöryggi og betri kjörum.",
+   "args": ["ahrif", "kjor", "kikja"],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Í þágu heimilanna… utan ESB",
+   "url": "https://www.visir.is/g/20262869532d/i-thagu-heimilanna-utan-esb",
+   "source": "visir.is",
+   "author": "Hnikarr Bjarmi Franklínsson",
+   "date": "2026-04-15",
+   "summary": "Bendir á að ESB hafi varað Pólland og Spán við því að lækkun virðisaukaskatts á eldsneyti bryti gegn Evrópulöggjöfinni; sambærileg verðbólguaðgerð íslensku ríkisstjórnarinnar hefði því verið stöðvuð innan ESB. Hagsmunir sambandsins gangi alltaf framar hagsmunum íbúa einstakra ríkja.",
+   "args": ["fullveldi"],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Hagsmunir launafólks og Evrópusambandið",
+   "url": "https://www.visir.is/g/20262869904d/hagsmunir-launafolks-og-evropusambandid",
+   "source": "visir.is",
+   "author": "Hjörtur J. Guðmundsson",
+   "date": "2026-04-16",
+   "summary": "Segir viðvarandi atvinnuleysi og stöðnun einkenna ESB og að fastgengisstefna evrunnar færi sveiflur yfir í atvinnustigið. ESB setti tilskipun um lágmarkslaun 2022 þrátt fyrir mótmæli danskra og sænskra stjórnvalda og verkalýðshreyfinga, og dómstóll sambandsins hafnaði kröfu um ógildingu hennar.",
+   "args": ["efnahagur", "evra", "ahrifaleysi"],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Samningsmarkmið Íslands mega ekki vera leyndarmál",
+   "url": "https://www.visir.is/g/20262870109d/samningsmarkmid-islands-mega-ekki-vera-leyndarmal",
+   "source": "visir.is",
+   "author": "Júlíus Valsson",
+   "date": "2026-04-16",
+   "summary": "Rekur samningsmarkmið Íslands 2010 og segir þau hafa stangast á við reglur ESB: sameiginlega fiskveiðistefnan gefi sambandinu einkarétt á vernd lífríkis sjávar samkvæmt 3. gr. TFEU og tollvernd landbúnaðar standist ekki sameiginlegan markað. Því hafi verið um kerfislegan árekstur að ræða, ekki minniháttar aðlögun.",
+   "args": ["sjavarutvegur", "landbunadur", "fullveldi"],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Verða Íslendingar kvaddir í evrópskan her?",
+   "url": "https://www.visir.is/g/20262870482d/verda-islendingar-kvaddir-i-evropskan-her-",
+   "source": "visir.is",
+   "author": "Steinar Logi Hafsteinsson",
+   "date": "2026-04-17",
+   "summary": "Hrekur fullyrðingar um að Íslendingar yrðu kvaddir í evrópskan her: 42. gr. sáttmálans virði stjórnskipulega sérstöðu ríkja og NATO-skuldbindingar hafi forgang; stofnun hers krefðist einróma samþykkis. Í síðustu viðræðum var varnarmálakafli opnaður og lokaður á þeirri forsendu að Ísland yrði áfram herlaust.",
+   "args": ["hraedslu"],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Aðlögun Íslands að ESB: Þrír ólíkir farvegir",
+   "url": "https://www.visir.is/g/20262870571d/adlogun-islands-ad-esb-thrir-olikir-farvegir",
+   "source": "visir.is",
+   "author": "Elvar Örn Arason",
+   "date": "2026-04-17",
+   "summary": "Greinir tengsl Íslands við ESB í þrjá farvegi: EES-innleiðingu án aðkomu að ákvörðunum, sjálfviljugt samstarf á borð við Schengen og aðildarferlið með IPA-stuðningi. Ísland hafi aðlagast regluverki ESB í yfir þrjá áratugi og atkvæðagreiðslan snúist um á hvaða forsendum samstarfið haldi áfram.",
+   "args": ["ahrif", "kikja"],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Í stuttu máli: Villandi tal um aðlögunarviðræður",
+   "url": "https://www.visir.is/g/20262870766d/i-stuttu-mali-villandi-tal-um-adlogunarvidraedur",
+   "source": "visir.is",
+   "author": "Dagur B. Eggertsson",
+   "date": "2026-04-17",
+   "summary": "Þingmaður Samfylkingarinnar segir tal um aðlögun villandi: í skýrslu um framvindu viðræðnanna frá apríl 2013 segi að samningsaðilar hafi náð saman um að Ísland réðist ekki í breytingar á stofnunum eða löggjöf fyrr en að lokinni þjóðaratkvæðagreiðslu um samþykktan samning.",
+   "args": ["hraedslu", "kikja"],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Fullveldi eða ESB: Hver greiðir heimilisreikninginn?",
+   "url": "https://www.visir.is/g/20262870967d/fullveldi-eda-esb-hver-greidir-heimilisreikninginn-",
+   "source": "visir.is",
+   "author": "Sigurður Árni Reynisson",
+   "date": "2026-04-18",
+   "summary": "Segir að upplýstri þjóð beri skylda til að kanna skilmála aðildarsamnings áður en afstaða er tekin; það sé hvorki veikleiki né fullveldisafsal. Andstaðan eigi rætur í brotnu trausti á stjórnmálastéttinni og gjá milli höfuðborgar og landsbyggðar frekar en í efni málsins.",
+   "args": ["kikja"],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Hvernig stenzt þetta skoðun, Dagur?",
+   "url": "https://www.visir.is/g/20262871089d/hvernig-stenzt-thetta-skodun-dagur-",
+   "source": "visir.is",
+   "author": "Hjörtur J. Guðmundsson",
+   "date": "2026-04-19",
+   "summary": "Svarar Degi B. Eggertssyni og segir fullyrðingar um að engin aðlögun þyrfti að koma til fyrr en eftir þjóðaratkvæði ekki standast: í fréttatilkynningu ESB frá desember 2012 segi að Ísland þurfi að halda áfram að skila árangri í aðlögun og innleiðingu regluverksins, meðal annars í köflum utan EES.",
+   "args": ["adlogun"],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "30 ára aðlögun án áhrifa",
+   "url": "https://www.visir.is/g/20262871111d/30-ara-adlogun-an-ahrifa",
+   "source": "visir.is",
+   "author": "Ingólfur Sverrisson",
+   "date": "2026-04-18",
+   "summary": "Segir Ísland hafa aðlagað sig reglum ESB í 30 ár án nokkurrar aðkomu að mótun þeirra og hrakspár um EES hafi reynst ýkjur. Reglan um hlutfallslegan stöðugleika tryggi veiðireynslu og sjávarútvegsstjóri ESB hafi staðfest fjölmörg dæmi um tillit til sérkenna umsóknarríkja.",
+   "args": ["ahrif", "hraedslu", "serlausnir"],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Þetta segir fundargerð ESB frá 18. desember 2012 um aðlögun",
+   "url": "https://www.visir.is/g/20262871408d/thetta-segir-fundargerd-esb-fra-18.-desember-2012-um-adlogun",
+   "source": "visir.is",
+   "author": "Erna Bjarnadóttir",
+   "date": "2026-04-19",
+   "summary": "Rekur fundargerð ráðs ESB frá desember 2012 þar sem fram komi að framvinda viðræðna Íslands byggðist á framförum í aðlögun að regluverkinu; kröfur um lagabreytingar og stjórnsýslugetu í sköttum, peningamálum og byggðamálum hafi átt við á meðan viðræðum stóð, ekki eftir lokasamning.",
+   "args": ["adlogun"],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Hið fullkomna (Evrópu)samband",
+   "url": "https://www.visir.is/g/20262871526d/hid-fullkomna-evropu-samband",
+   "source": "visir.is",
+   "author": "Sveinn Atli Gunnarsson",
+   "date": "2026-04-20",
+   "summary": "Líkir ESB-andstöðu við Seinfeld-persónur sem slíta samböndum út af smáatriðum; sögusagnir um gúrkusveigjur og Brussel-vald megi ekki kosta öryggi, stöðugleika og lægra vöruverð. Brexit sýni eftirsjána þegar ákvörðun er knúin áfram af upplýsingaóreiðu.",
+   "args": ["hraedslu", "oryggi", "kjor"],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Aðlögun er hluti af aðildarferlinu",
+   "url": "https://www.visir.is/g/20262872184d/adlogun-er-hluti-af-adildarferlinu",
+   "source": "visir.is",
+   "author": "Erna Bjarnadóttir",
+   "date": "2026-04-21",
+   "summary": "Segir umsókn samkvæmt 49. gr. sáttmálans fela í sér inngöngu í samband með fyrirliggjandi regluverki og að rýniskýrslur krefjist lagalegrar aðlögunar meðan viðræður standa. Í viðræðunum 2009–2013 voru landbúnaðar- og byggðakaflar aldrei opnaðir og IPA-styrkir beindust að aðlögun stjórnsýslunnar.",
+   "args": ["adlogun", "undanthagur"],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Má vera gamalt ef það hentar mér",
+   "url": "https://www.visir.is/g/20262872631d/ma-vera-gamalt-ef-thad-hentar-mer",
+   "source": "visir.is",
+   "author": "Hjörtur J. Guðmundsson",
+   "date": "2026-04-22",
+   "summary": "Segir hugtakið aðlögunarviðræður lýsa ferlinu betur en aðildarviðræður og vitnar í stækkunarráðherra ESB um að ferlið snúist að miklu leyti um aðlögun löggjafar umsóknarríkis. Gagnrýnandi hans vísi sjálfur í eldri heimildir en þær sem hann kvarti yfir.",
+   "args": ["adlogun", "spurning"],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Vönduð niðurstaða Feneyjanefndarinnar",
+   "url": "https://www.visir.is/g/20262873006d/vondud-nidurstada-feneyjanefndarinnar",
+   "source": "visir.is",
+   "author": "Pawel Bartoszek",
+   "date": "2026-04-22",
+   "summary": "Formaður utanríkismálanefndar segir álit Feneyjanefndarinnar staðfesta að fyrirkomulag atkvæðagreiðslunnar samræmist evrópskum stöðlum; kosið sé um framhald samningaferlis en ekki inngöngu og lokaniðurstaða yrði borin undir þjóðina í annarri atkvæðagreiðslu.",
+   "args": ["kikja", "lydraedi"],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "„Sælla er að gefa en þiggja“ – Hvað getum við lagt til innan ESB?",
+   "url": "https://www.visir.is/g/20262874329d/-saella-er-ad-gefa-en-thiggja-hvad-getum-vid-lagt-til-innan-esb-",
+   "source": "visir.is",
+   "author": "Þorvaldur Ingi Jónsson",
+   "date": "2026-04-26",
+   "summary": "Spyr hvað Ísland geti lagt af mörkum innan ESB: menningu, friðarhefð, jöfnuð, menntun og þekkingu á sjálfbærri nýtingu sjávarauðlinda. Góðir samningar myndu tryggja öryggi, viðskiptafrelsi og sambærilega vexti, og rödd lítillar þjóðar geti haft mikið vægi.",
+   "args": ["gildi", "ahrif"],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Sjávarútvegur, fæðuöryggi og þróun heimsmála",
+   "url": "https://www.visir.is/g/20262874557d/sjavarutvegur-faeduoryggi-og-throun-heimsmala",
+   "source": "visir.is",
+   "author": "Þollý Rósmundsdóttir",
+   "date": "2026-04-27",
+   "summary": "Segir staðfest af ESB að einungis tímabundnar sérlausnir séu í boði í sjávarútvegi sem breyti engu um að valdið færi til sambandsins. Sjávarútvegurinn sé önnur stærsta útflutningsstoðin og lífæð byggðanna, og vaxandi áherslur á fæðuöryggi í heiminum auki mikilvægi hans enn frekar.",
+   "args": ["sjavarutvegur", "undanthagur", "efnahagur"],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Meðvituð blekking um og upplýsingaóreiða um fullveldið",
+   "url": "https://www.visir.is/g/20262874800d/medvitud-blekking-um-og-upplysingaoreida-um-fullveldid",
+   "source": "visir.is",
+   "author": "Kristinn Karl Brynjarsson",
+   "date": "2026-04-27",
+   "summary": "Formaður Verkalýðsráðs Sjálfstæðisflokksins segir fullyrðingar um að Ísland hafi innleitt allt að 80% af regluverki ESB blekkingu; samkvæmt skýrslunni Gengið til góðs sé hlutfallið 13,4%. Verklag ESB hafi breyst frá tíma Norðmanna og raunveruleg aðlögun fari nú fram jafnóðum í ferlinu.",
+   "args": ["fullveldi", "adlogun"],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Tölum hátt og stolt um frið, segjum nei við hervæðingunni",
+   "url": "https://www.visir.is/g/20262875268d/tolum-hatt-og-stolt-um-frid-segjum-nei-vid-hervaedingunni",
+   "source": "visir.is",
+   "author": "Guðmunda G. Guðmundsdóttir",
+   "date": "2026-04-28",
+   "summary": "Segir ESB hafa verið í farvegi hervæðingar og varar við „hernaðarlegu Schengen“, reglugerðartillögu frá nóvember 2025 um hraða flutninga hermanna og hergagna innan sambandsins. Ísland eigi að halda eigin friðarrödd og ekki taka upp utanríkisstefnu ESB.",
+   "args": ["hervaeding"],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Skrölt á gömlum Land Cruiser í þjóðaratkvæðagreiðslu",
+   "url": "https://www.visir.is/g/20262876163d/skrolt-a-gomlum-land-cruiser-i-thjodaratkvaedagreidslu",
+   "source": "visir.is",
+   "author": "Bjarki Fjalar Guðjónsson",
+   "date": "2026-04-30",
+   "summary": "Líkir nei-inu við að hætta við að skoða draumabíl af ótta við mögulega galla og missa þannig af tækifærinu. Kosið sé um viðræður en ekki aðild; þjóðin fái samninginn í hendur og segi já eða nei í síðari atkvæðagreiðslu, en nei sé glatað tækifæri sem komi ekki aftur.",
+   "args": ["kikja", "timagluggi", "hraedslu"],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Áhrifamat; Hvað aðild myndi þýða fyrir hinn almenna Íslending",
+   "url": "https://www.visir.is/g/20262876424d/ahrifamat-hvad-adild-myndi-thyda-fyrir-hinn-almenna-islending",
+   "source": "visir.is",
+   "author": "Matthías Ólafsson og Cailean Macleod",
+   "date": "2026-04-30",
+   "summary": "Höfundar með reynslu af hagsmunagæslu í Brussel setja fram áhrifamat fyrir óákveðna kjósendur: upptaka evru myndi lækka húsnæðisvexti um 200–300 punkta og gæti aukið millilandaverslun um allt að 60%, þótt krónan hafi sögulega þjónað sem höggdeyfir í áföllum.",
+   "args": ["vextir", "kjor"],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Þegar óttinn verður að röksemd",
+   "url": "https://www.visir.is/g/20262876457d/thegar-ottinn-verdur-ad-roksemd",
+   "source": "visir.is",
+   "author": "Gunnar Ármannsson",
+   "date": "2026-04-30",
+   "summary": "Sakar Evrópusambandssinna um hræðslustjórnun: Ísland sé sagt á barmi glötunar nema það segi já. Aðildarríki ESB glími sjálf við skuldavanda, hægan hagvöxt og innri togstreitu, og hugmyndir um að gera sambandið að sambandsríki séu viðraðar af málsmetandi aðilum innan þess.",
+   "args": ["efnahagur", "fullveldi"],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Lægri vextir eru STÓRA MÁLIÐ",
+   "url": "https://www.visir.is/g/20262876469d/laegri-vextir-eru-stora-malid",
+   "source": "visir.is",
+   "author": "Dagur B. Eggertsson",
+   "date": "2026-04-30",
+   "summary": "Ber saman greiðslubyrði: af 60 milljóna króna láni til 25 ára eru mánaðargreiðslur 509 þúsund með krónuvöxtum en 293 þúsund með evruvöxtum, og heildargreiðslur 152 á móti 88 milljónum. Verktakar greiði um fjórfaldan fjármagnskostnað á byggingartíma miðað við evrusvæðið.",
+   "args": ["vextir", "taekifaeri"],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Hvers vegna eru vextirnir lágir, Dagur?",
+   "url": "https://www.visir.is/g/20262876742d/hvers-vegna-eru-vextirnir-lagir-dagur-",
+   "source": "visir.is",
+   "author": "Hjörtur J. Guðmundsson",
+   "date": "2026-05-01",
+   "summary": "Segir lóðaskort í Reykjavík undir stjórn Dags meginástæðu verðbólgu og vaxta, ekki krónuna, og vitnar í Gylfa Magnússon um að umgjörðin skipti meira máli en gjaldmiðillinn. Til að taka upp evru þyrfti fyrst að ná verðbólgu og vöxtum niður, og lágir vextir evrusvæðisins skýrist af efnahagslegri stöðnun.",
+   "args": ["evra", "efnahagur"],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Þegar niðurstaðan kemur á undan greiningunni",
+   "url": "https://www.visir.is/g/20262877691d/thegar-nidurstadan-kemur-a-undan-greiningunni",
+   "source": "visir.is",
+   "author": "Erna Bjarnadóttir",
+   "date": "2026-05-03",
+   "summary": "Gagnrýnir „áhrifamat“ Matthíasar Ólafssonar og Caileans Macleod og segir niðurstöðuna fyrirfram gefna: kornvörur séu þegar tollfrjálsar til Íslands og við aðild legðust tollar á vörur frá þriðju löndum eins og Bandaríkjunum. Fullyrðingar um verðlækkanir á matvörum séu settar fram án talnalegra raka.",
+   "args": ["landbunadur"],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Sveitarfélög á Íslandi og Evrópusambandið",
+   "url": "https://www.visir.is/g/20262878297d/sveitarfelog-a-islandi-og-evropusambandid",
+   "source": "visir.is",
+   "author": "Eiríkur Björn Björgvinsson",
+   "date": "2026-05-05",
+   "summary": "Þingmaður Viðreisnar segir aðild geta styrkt sveitarfélög: aðgangur að styrkja- og þróunarsjóðum ESB til innviðauppbyggingar, umhverfisverkefna og nýsköpunar, auk lægri vaxta og stöðugri gjaldmiðils. Evrópskir byggðasjóðir gætu skapað atvinnutækifæri á landsbyggðunum og dregið úr fólksfækkun.",
+   "args": ["byggd", "vextir"],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Þegar áframhald verður bakslag",
+   "url": "https://www.visir.is/g/20262878579d/thegar-aframhald-verdur-bakslag",
+   "source": "visir.is",
+   "author": "Júlíus Valsson",
+   "date": "2026-05-05",
+   "summary": "Ber ESB saman við fall Rómaveldis: vaxandi reglugerðarfargan, efnahagsleg þreyta í Þýskalandi og Frakklandi, pólitísk sundrung og dýr hervæðing. Þjóðaratkvæðagreiðslan um „áframhaldandi viðræður“ afhjúpi veikleika ferlisins sjálfs.",
+   "args": ["efnahagur", "spurning"],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Kæmu úr okkar eigin vösum",
+   "url": "https://www.visir.is/g/20262878791d/kaemu-ur-okkar-eigin-vosum",
+   "source": "visir.is",
+   "author": "Hjörtur J. Guðmundsson",
+   "date": "2026-05-06",
+   "summary": "Bendir á að formaður utanríkismálanefndar hafi gengist við því að Ísland yrði nettógreiðandi í sjóði ESB; munurinn næmi fleiri milljörðum króna árlega. Styrkir til sveitarfélaga kæmu því í raun úr eigin vösum landsmanna og nær væri að nýta fjármunina í uppbyggingu innanlands.",
+   "args": ["kostnadur"],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Farið á bak við þing og þjóð?",
+   "url": "https://www.visir.is/g/20262878996d/farid-a-bak-vid-thing-og-thjod-",
+   "source": "visir.is",
+   "author": "Erna Bjarnadóttir",
+   "date": "2026-05-06",
+   "summary": "Rekur gögn til utanríkismálanefndar sem sýni að utanríkisráðherra hóf samtöl við ráðamenn ESB um nýtt aðildarferli strax í janúar 2025, löngu áður en málið kom til Alþingis í mars 2026. Spyr hvort það sé ný stjórnarframkvæmd að undirbúa stórmál í samtali við erlenda aðila áður en þing og þjóð fá það til umfjöllunar.",
+   "args": ["umbod"],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Ísland verði hluti af evrópsku sambandsríki",
+   "url": "https://www.visir.is/g/20262880699d/island-verdi-hluti-af-evropsku-sambandsriki",
+   "source": "visir.is",
+   "author": "Hjörtur J. Guðmundsson",
+   "date": "2026-05-09",
+   "summary": "Rekur Schuman-yfirlýsinguna og segir lokamarkmiðið evrópskt sambandsríki; helstu stofnanir ESB séu federalískar og Evrópuhreyfingin aðili að European Movement International sem hafi sambandsríki að meginmarkmiði. Guy Verhofstadt hafi á landsþingi Viðreisnar sagt að ESB þyrfti að verða heimsveldi.",
+   "args": ["fullveldi"],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Var orðalag spurningarinnar mótað í Brussel?",
+   "url": "https://www.visir.is/g/20262884034d/var-ordalag-spurningarinnar-motad-i-brussel-",
+   "source": "visir.is",
+   "author": "Erna Bjarnadóttir",
+   "date": "2026-05-15",
+   "summary": "Fjallar um skýrslu rannsóknaþjónustu Evrópuþingsins frá janúar 2026 þar sem sérstaklega er rætt um mikilvægi þess hvernig spurning þjóðaratkvæðagreiðslunnar verði orðuð og umsókn Íslands meðhöndluð sem lifandi ferli sem aldrei hafi verið afturkallað. Spyr hvort um afskipti af pólitískri umræðu á Íslandi sé að ræða.",
+   "args": ["spurning", "umbod"],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Alþjóðasamstarf er Íslendingum lífsnauðsynlegt",
+   "url": "https://www.visir.is/g/20262885444d/althjodasamstarf-er-islendingum-lifsnaudsynlegt",
+   "source": "visir.is",
+   "author": "Haraldur Ólafsson",
+   "date": "2026-05-18",
+   "summary": "Formaður Heimssýnar hafnar því að efasemdarfólk um ESB-aðild sé andsnúið alþjóðasamstarfi; frjáls verslun við umheiminn sé Íslendingum lífsnauðsynleg. Við inngöngu kvarnaðist úr samningsvaldi Íslands því ESB annaðist viðskiptasamninga við ríki utan sambandsins fyrir hönd allra aðildarríkja.",
+   "args": ["ees", "fullveldi"],
+   "impact": 3
+  }
+ ],
+ "skipped": [
+  {
+   "side": "skip",
+   "url": "https://www.visir.is/g/20262866853d/gervigreind-abyrgd-og-framtid-samfelags-okkar",
+   "reason": "Um gervigreind, ekki ESB-atkvæðagreiðsluna"
+  },
+  {
+   "side": "skip",
+   "url": "https://www.visir.is/g/20262868187d/taekifaeri-og-askoranir-i-samningavidraedum-vid-esb",
+   "reason": "Hlutlaus greining á kostum og áskorunum"
+  },
+  {
+   "side": "skip",
+   "url": "https://www.visir.is/g/20262869114d/vondum-okkur",
+   "reason": "Gagnrýni á undirbúning, ekki afstaða"
+  },
+  {
+   "side": "skip",
+   "url": "https://www.visir.is/g/20262871397d/nei-eda-ja-af-eda-a",
+   "reason": "Sálfræði umræðunnar, engin afstaða"
+  },
+  {
+   "side": "skip",
+   "url": "https://www.visir.is/g/20262874553d/amma-maetti-a-thing-kennara",
+   "reason": "Um skólamál, ekki ESB"
+  },
+  {
+   "side": "skip",
+   "url": "https://www.visir.is/g/20262874826d/dyrkeypt-vanthekking-og-loftslagsblinda-ingu-saeland",
+   "reason": "Loftslagsmál, ekki ESB-atkvæðagreiðslan"
+  },
+  {
+   "side": "skip",
+   "url": "https://www.visir.is/g/20262882185d/hvenaer-eiga-stjornvold-ad-standa-med-eigin-atvinnulifi-",
+   "reason": "Um Vélfag og refsiaðgerðir, ekki atkvæðagreiðsluna"
+  }
+ ],
+ "possible_new_arguments": [
+  "Nei-hlið: ESB stefni að evrópsku sambandsríki (federalisering) — kemur skýrt fram hjá Hirti J. Guðmundssyni (sambandsríkisgreinin) og hjá Gunnari Ármannssyni; flokkað hér undir fullveldi en gæti verið sérrök"
+ ]
+}

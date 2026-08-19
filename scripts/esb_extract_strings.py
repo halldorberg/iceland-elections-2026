@@ -34,7 +34,7 @@ for name in ('details_ja', 'details_nei'):
         for p_i, p in enumerate(paras):
             out[f'detail.{k}.{p_i}'] = p
 
-for name in ('motrok_ja1', 'motrok_ja2', 'motrok_nei1', 'motrok_nei2', 'motrok_new'):
+for name in ('motrok_ja1', 'motrok_ja2', 'motrok_nei1', 'motrok_nei2', 'motrok_new', 'motrok_new2'):
     d = json.load(io.open(ROOT / 'scripts' / f'{name}.json', encoding='utf-8'))
     for k, items in d.items():
         for m_i, m in enumerate(items):

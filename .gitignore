@@ -24,3 +24,10 @@ test-live-results.json
 temp/
 tmp_candidates/
 scan_results/
+scripts/visir_raw/
+scripts/visir_text/
+scripts/visir_clean_1/
+scripts/dv_cache/
+scripts/mbl_cache/
+scripts/vb8_extract/
+scripts/*.png

@@ -7,7 +7,7 @@ from pathlib import Path
 from openai import OpenAI
 
 MODEL = 'gpt-5.4'
-BATCH_SIZE = 10
+BATCH_SIZE = 20
 LANGS = ['en', 'pl']
 
 ROOT = Path(__file__).parent.parent

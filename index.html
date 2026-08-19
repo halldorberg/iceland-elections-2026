@@ -80,7 +80,7 @@
     .esb-headbar::before {
       content: '';
       position: absolute;
-      inset: -12px -20px -28px;
+      inset: -40px -20px -28px;
       z-index: 0;
       pointer-events: none;
       opacity: 0;
@@ -797,8 +797,8 @@
   </div>
 
   <!-- ── Data + init ───────────────────────────────────────── -->
-  <script src="js/esb-data.js?v=3"></script>
-  <script src="js/esb-motrok.js?v=2"></script>
+  <script src="js/esb-data.js?v=5"></script>
+  <script src="js/esb-motrok.js?v=3"></script>
   <script>
   (function () {
     const PAGE = 20;
@@ -1019,6 +1019,11 @@
     (function () {
       const bar = document.querySelector('.esb-headbar');
       const sentinel = document.getElementById('headbar-sentinel');
+      // Pin the sticky bar exactly to the real header height (varies with wrapping)
+      const header = document.querySelector('.site-header');
+      function syncTop() { bar.style.top = (header.offsetHeight + 2) + 'px'; }
+      syncTop();
+      window.addEventListener('resize', syncTop);
       const offset = parseInt(getComputedStyle(bar).top, 10) || 82;
       new IntersectionObserver(
         ([e]) => bar.classList.toggle('stuck', !e.isIntersecting),

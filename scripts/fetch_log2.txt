@@ -1,0 +1,88 @@
+1/88 adsend=True author=Mímir Kristjánsson
+2/88 adsend=False author=None
+3/88 adsend=True author=Albert Þór Jónsson
+4/88 adsend=True author=Bryndís Haraldsdóttir
+5/88 adsend=False author=None
+6/88 adsend=True author=Carl Baudenbacher
+7/88 adsend=True author=Diljá Mist Einarsdóttir
+8/88 adsend=False author=Árni Helgason
+9/88 adsend=False author=None
+10/88 adsend=True author=Guðni Ágústsson.
+11/88 adsend=True author=Geir H. Haarde
+12/88 adsend=True author=Hilmar Þór Hilmarsson
+13/88 adsend=True author=None
+14/88 adsend=False author=None
+15/88 adsend=True author=Albert Þór Jónsson
+16/88 adsend=True author=Sveinn Óskar Sigurðsson
+17/88 adsend=False author=None
+18/88 adsend=True author=Guðlaugur Þór Þórðarson
+19/88 adsend=False author=None
+20/88 adsend=True author=Sigurður Kári Kristjánsson
+21/88 adsend=False author=None
+22/88 adsend=True author=None
+23/88 adsend=True author=None
+24/88 adsend=True author=Birgir Ármannsson.
+25/88 adsend=True author=Arnar Þórisson
+26/88 adsend=True author=Baldur Guðlaugsson
+27/88 adsend=True author=Hjörtur J. Guðmundsson
+28/88 adsend=True author=Birgir Ármannsson.
+29/88 adsend=True author=None
+30/88 adsend=True author=Erna Bjarnadóttir
+31/88 adsend=False author=None
+32/88 adsend=True author=Albert Þór Jónsson
+33/88 adsend=False author=None
+34/88 adsend=False author=None
+35/88 adsend=False author=None
+36/88 adsend=True author=None
+37/88 adsend=False author=None
+38/88 adsend=True author=Einar S. Hálfdánarson
+39/88 adsend=False author=None
+40/88 adsend=True author=Eamonn Butler
+41/88 adsend=False author=None
+42/88 adsend=False author=None
+43/88 adsend=True author=Hjörleifur Guttormsson
+44/88 adsend=True author=Hjörtur J. Guðmundsson
+45/88 adsend=True author=Hilmar Þór Hilmarsson
+46/88 adsend=True author=Grímur Grímsson
+47/88 adsend=False author=None
+48/88 adsend=True author=Baldur Guðlaugsson
+49/88 adsend=False author=Sólveig Anna Jónsdóttir
+50/88 adsend=False author=None
+51/88 adsend=True author=Einar S. Hálfdánarson
+52/88 adsend=True author=Gunnar Pálsson
+53/88 adsend=True author=Hjörtur J. Guðmundsson
+54/88 adsend=False author=None
+55/88 adsend=False author=None
+56/88 adsend=True author=Jón Helgi Egilsson.
+57/88 adsend=True author=Sigmundur Davíð Gunnlaugsson
+58/88 adsend=False author=None
+59/88 adsend=True author=Elías Elíasson.
+60/88 adsend=True author=Gunnar Pálsson
+61/88 adsend=True author=Ragnar Árnason
+62/88 adsend=False author=None
+63/88 adsend=False author=None
+64/88 adsend=False author=None
+65/88 adsend=True author=Einar S. Hálfdánarson
+66/88 adsend=True author=Hjörtur J. Guðmundsson
+67/88 adsend=True author=None
+68/88 adsend=True author=None
+69/88 adsend=True author=Erna Bjarnadóttir
+70/88 adsend=True author=Guðni Ágústsson.
+71/88 adsend=False author=None
+72/88 adsend=False author=None
+73/88 adsend=False author=None
+74/88 adsend=False author=Björn Bjarnason
+75/88 adsend=False author=None
+76/88 adsend=True author=Gunnar Pálsson
+77/88 adsend=False author=None
+78/88 adsend=False author=None
+79/88 adsend=True author=Hjörtur J. Guðmundsson
+80/88 adsend=False author=None
+81/88 adsend=False author=None
+82/88 adsend=False author=None
+83/88 adsend=False author=None
+84/88 adsend=False author=None
+85/88 adsend=False author=None
+86/88 adsend=False author=None
+87/88 adsend=False author=None
+88/88 adsend=False author=None

@@ -1,0 +1,68 @@
+{
+  "surveyed": "2026-08-17",
+  "scope": "ESB-referendum opinion/adsent pieces, May 1 - Aug 17 2026, excluding visir.is",
+  "mbl.is": {
+    "estimated_count": 55,
+    "captured": 2,
+    "estimated_uncaptured": 53,
+    "index_url": "https://www.mbl.is/frettir/search/?qs=%22a%C3%B0send%20grein%22%20ESB&offset=0&limit=20&sort=1",
+    "fetchable": false,
+    "notes": "Free news search endpoint (form param qs, paginate offset=0,20,40...; needs browser UA, WebFetch gets 403). Monthly ESB adsend-grein counts: May 5, Jun 14, Jul 17, Aug 19 (to Aug 17). Slugs prefixed adsend_grein_. FULL TEXT PAYWALLED (Morgunbladid login) - only title + meta-description lede retrievable. greinasafn (print archive) also subscription-only. RSS/teaser scraping gives headline+author+first sentence only."
+  },
+  "dv.is/eyjan": {
+    "estimated_count": 75,
+    "captured": 13,
+    "estimated_uncaptured": 60,
+    "index_url": "https://www.dv.is/eyjan?page=N",
+    "fetchable": true,
+    "notes": "No paywall. curl needs browser UA and -L (301 on trailing slash). Crawled pages 0-30: 412 eyjan articles Apr-Aug; strict slug-keyword ESB filter = 54 (May-Aug), but keyword filter caught only 7/13 already-captured URLs, so true count ~70-90. Mix of adsendar greinar, fastir pennar (Thorsteinn Palsson, Sigmundur Ernir, Bjorn Jon), and interview/quote pieces (Gauti B. Eggertsson series, Albert Jonsson, Halla Hrund). Biggest uncaptured venue."
+  },
+  "heimildin.is": {
+    "estimated_count": 8,
+    "captured": 2,
+    "estimated_uncaptured": 6,
+    "index_url": "https://heimildin.is/greinar/?label=20",
+    "fetchable": "partial",
+    "notes": "label=20 = Adsent listing, newest first, ~20/page, 58 pages (page 1 covers Jul 12-Aug 17: 4 ESB; page 2 May 5-Jul 4: 3 ESB incl. 2 already captured). NOTE /adsent/ path is a stale 2017-2023 legacy archive - use ?label=20. Article text partially paywalled (subscription prompt mid-article). Separate staff-journalism series 'Horft til Evropu' (~36 articles) at /greinarod/horft-til-evropu/ - reporting/analysis, not adsent opinion."
+  },
+  "vb.is": {
+    "estimated_count": 13,
+    "captured": 1,
+    "estimated_uncaptured": 12,
+    "index_url": "https://vb.is/skodun/",
+    "fetchable": "partial",
+    "notes": "403 to WebFetch; curl with browser UA works. /skodun/ front page lists ~57 recent columns; ~12-15 ESB-related (e.g. hvers-vegna-er-hagsmunum-islands-betur-borgid-utan-evropusambandsins, island-og-vegferd-esb, kemur-evropusambandid-til-bjargar, gongum-i-esb-og-faum-odyrt-stoff2, nedanmals-odysseifur-eda-esb, haegfara-daudi-evropu2, stor-ja-en-hversu-stor, sannfaerandi-malflutningur-ja-lida, folkid-sem-segir-ja-til-ad-sja..., spurningar-sem-kalla-a-svor-fyrir-agustlok2). Named columns (Odinn/Tyr/Huginn og muninn) are subscriber-only; tested article showed ~5 free paragraphs."
+  },
+  "ruv.is": {
+    "estimated_count": 0,
+    "captured": 0,
+    "estimated_uncaptured": 0,
+    "index_url": null,
+    "fetchable": true,
+    "notes": "RUV carries no adsendar greinar / opinion section (public broadcaster). ESB coverage is news, polls, explainers only. Nothing to capture in the opinion category."
+  },
+  "frettin.is": {
+    "estimated_count": 30,
+    "captured": 0,
+    "estimated_uncaptured": 30,
+    "index_url": "https://frettin.is/page/N/?s=ESB",
+    "fetchable": true,
+    "notes": "NOT in dataset at all. Right-wing/anti-ESB outlet, WordPress, free. 403 to WebFetch; curl with browser UA works. ~5-6 ESB commentary pieces in the last 10 days alone (e.g. 2026/08/14 Carl Baudenbacher adsent piece, 2026/08/15 ja-skuldbindingin-og-ees-haettan, 2026/08/04 pawel-og-neitunarvaldid). Estimate 20-40 over May-Aug; search matches are noisy (426 result pages sitewide), filter by 2026/0[5-8] date slugs."
+  },
+  "samstodin.is": {
+    "estimated_count": 3,
+    "captured": 0,
+    "estimated_uncaptured": 3,
+    "index_url": "https://samstodin.is/?s=ESB",
+    "fetchable": true,
+    "notes": "Left outlet (aligned with 'Til vinstri vid ESB' angle). Mostly video clips/shows; few written opinion pieces (/opinion/ path, e.g. malefnalegt-samtal-thjodarinnar-um-esb-adild). Low volume, low priority."
+  },
+  "kjarninn.is": {
+    "estimated_count": 0,
+    "captured": 0,
+    "estimated_uncaptured": 0,
+    "index_url": null,
+    "fetchable": false,
+    "notes": "Merged into Heimildin in 2023; no longer publishes."
+  }
+}

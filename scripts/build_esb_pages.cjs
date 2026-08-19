@@ -10,7 +10,7 @@ const detailsNei = JSON.parse(fs.readFileSync(path.join(__dirname, 'details_nei.
 
 // Direct mótrök researched from the literature (motrok_*.json); key → [{title,text,source,author,url}]
 const MOTROK = {};
-for (const f of ['motrok_ja1.json', 'motrok_ja2.json', 'motrok_nei1.json', 'motrok_nei2.json', 'motrok_new.json']) {
+for (const f of ['motrok_ja1.json', 'motrok_ja2.json', 'motrok_nei1.json', 'motrok_nei2.json', 'motrok_new.json', 'motrok_new2.json']) {
   const p = path.join(__dirname, f);
   if (fs.existsSync(p)) Object.assign(MOTROK, JSON.parse(fs.readFileSync(p, 'utf8')));
 }

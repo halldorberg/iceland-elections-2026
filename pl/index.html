@@ -82,7 +82,7 @@
     .esb-headbar::before {
       content: '';
       position: absolute;
-      inset: -12px -20px -28px;
+      inset: -40px -20px -28px;
       z-index: 0;
       pointer-events: none;
       opacity: 0;
@@ -799,8 +799,8 @@
   </div>
 
   <!-- ── Data + init ───────────────────────────────────────── -->
-  <script src="/js/esb-data.pl.js?v=2"></script>
-  <script src="/js/esb-motrok.pl.js?v=3"></script>
+  <script src="/js/esb-data.pl.js?v=4"></script>
+  <script src="/js/esb-motrok.pl.js?v=4"></script>
   <script>
   (function () {
     const PAGE = 20;
@@ -892,7 +892,7 @@
         const sideLbl = a.side === 'ja' ? 'TAK' : 'NIE';
         const idx = argIndex(a.side);
         const pills = (a.args || []).map(k => idx[k]
-          ? `<a class="pill" href="/esbkosningar2026/${k}/" title="${esc(idx[k].title)}">${idx[k].icon}</a>`
+          ? `<a class="pill" href="/esbkosningar2026/${k}/" title="${esc(idx[k].title)}">${idx[k].icon}<span class="lbl">&nbsp;${esc(idx[k].title)}</span></a>`
           : '').join('');
         return `<div class="car-card ${cls}">
           <div class="car-side">${sideLbl}</div>
@@ -1021,6 +1021,11 @@
     (function () {
       const bar = document.querySelector('.esb-headbar');
       const sentinel = document.getElementById('headbar-sentinel');
+      // Pin the sticky bar exactly to the real header height (varies with wrapping)
+      const header = document.querySelector('.site-header');
+      function syncTop() { bar.style.top = (header.offsetHeight + 2) + 'px'; }
+      syncTop();
+      window.addEventListener('resize', syncTop);
       const offset = parseInt(getComputedStyle(bar).top, 10) || 82;
       new IntersectionObserver(
         ([e]) => bar.classList.toggle('stuck', !e.isIntersecting),

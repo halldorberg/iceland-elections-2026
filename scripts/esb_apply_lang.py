@@ -11,7 +11,7 @@ DATA = json.loads(subprocess.run(
     ['node', '-e', "const fs=require('fs');const src=fs.readFileSync('js/esb-data.js','utf8');const DATA=new Function(src+';return DATA;')();process.stdout.write(JSON.stringify(DATA))"],
     capture_output=True, text=True, encoding='utf-8', cwd=str(ROOT)).stdout)
 MOTROK = {}
-for name in ('motrok_ja1', 'motrok_ja2', 'motrok_nei1', 'motrok_nei2', 'motrok_new'):
+for name in ('motrok_ja1', 'motrok_ja2', 'motrok_nei1', 'motrok_nei2', 'motrok_new', 'motrok_new2'):
     MOTROK.update(json.load(io.open(ROOT / 'scripts' / f'{name}.json', encoding='utf-8')))
 
 # Hand-authored UI string replacements for the front page (is → en / pl)
@@ -53,8 +53,8 @@ UI = [
   {'en': 'content="Analysis of the debate around Iceland\\u2019s 29 August 2026 referendum on resuming EU accession talks. Arguments of both sides in one overview."'.replace('\\u2019', '’'),
    'pl': 'content="Analiza debaty wokół islandzkiego referendum z 29 sierpnia 2026 r. w sprawie negocjacji akcesyjnych z UE. Argumenty obu stron w jednym przeglądzie."'}),
  ('<link rel="canonical" href="https://lydraedisveislan.is/" />', '<link rel="canonical" href="https://lydraedisveislan.is/{L}/" />'),
- ('js/esb-data.js?v=3', '/js/esb-data.{L}.js?v=2'),
- ('js/esb-motrok.js?v=2', '/js/esb-motrok.{L}.js?v=3'),
+ ('js/esb-data.js?v=5', '/js/esb-data.{L}.js?v=4'),
+ ('js/esb-motrok.js?v=3', '/js/esb-motrok.{L}.js?v=4'),
  ('src="js/esb', 'src="/js/esb'),  # safety for relative refs from /en/
  ("from './js/i18n.js?v=4'", "from '/js/i18n.js?v=4'"),
  ('href="css/', 'href="/css/'),

@@ -216,6 +216,10 @@ const DATA = {
    "timagluggi": [
     "oafturkraeft",
     "adlogun"
+   ],
+   "tollfrelsi": [
+    "sjavarutvegur",
+    "landbunadur"
    ]
   },
   "nei": {
@@ -280,6 +284,9 @@ const DATA = {
    "skyrslan": [
     "vextir",
     "evra"
+   ],
+   "varnarsamningur": [
+    "oryggi"
    ]
   }
  },
@@ -356,6 +363,12 @@ const DATA = {
     "icon": "⏳",
     "title": "Szansa, która się nie powtórzy",
     "text": "Islandia ma właśnie teraz wyjątkowo silną pozycję negocjacyjną — ze względu na zmienioną sytuację geopolityczną i zainteresowanie UE rozszerzeniem na zachód — a to okno możliwości zamknie się, jeśli Wielka Brytania ponownie zbliży się do Unii lub Norwegia przystąpi wcześniej."
+   },
+   {
+    "key": "tollfrelsi",
+    "icon": "🏭",
+    "title": "Bezcłowy handel i pełne przetwarzanie w kraju",
+    "text": "Pełne członkostwo zniosłoby cła UE na przetworzone produkty rybne i umożliwiłoby pełne przetwarzanie połowów na Islandii zamiast eksportowania ich za granicę w stanie nieprzetworzonym; wartość dodana i miejsca pracy pozostałyby wtedy w kraju."
    }
   ],
   "nei": [
@@ -454,6 +467,12 @@ const DATA = {
     "icon": "📊",
     "title": "Raport walutowy uznany za niemający wartości",
     "text": "Raport walutowy, którego przygotowanie ministerstwo finansów zleciło zagranicznym ekspertom, ma nie mieć wartości jako argument w kampanii referendalnej: bank centralny ostro go skrytykował, a jeden z jego autorów sam sprzeciwia się przyjęciu euro przez Norwegię."
+   },
+   {
+    "key": "varnarsamningur",
+    "icon": "🇺🇸",
+    "title": "Umowa obronna ze Stanami Zjednoczonymi",
+    "text": "Obrona Islandii jest zapewniona dzięki dwustronnej umowie obronnej ze Stanami Zjednoczonymi oraz członkostwu w NATO; członkostwo w UE niczego by tu nie dodało, a mogłoby skomplikować ten układ, a nawet narazić te relacje na szwank."
    }
   ]
  },
@@ -3009,6 +3028,8280 @@ const DATA = {
    "summary": "Użytkownik krytykuje artykuł mbl.is o badaniu, według którego ponad 70% miało być przeciw negocjacjom: ankietę wysłano tylko do 288 podmiotów z branży marketingu i analiz, a napłynęło 80 odpowiedzi (28% wskaźnik odpowiedzi). Nie odzwierciedla więc ona przekroju całego społeczeństwa, a sposób przedstawienia sprawy przez Morgunblaðið jest mylący; komentarze przytakują i omawiają propagandowy ton Moggans w przededniu głosowania.",
    "args": [
     "hraedslu"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Naród wezwany do stołu",
+   "url": "https://www.visir.is/g/20262852328d/thjodin-kollud-ad-bordinu",
+   "source": "visir.is",
+   "author": "Jón Steindór Valdimarsson",
+   "date": "2026-03-07",
+   "summary": "Prawnik twierdzi, że członkostwo nie wchodzi w grę bez bezpośredniego udziału narodu, a głosowanie 29 sierpnia jest demokratycznym sposobem rozstrzygnięcia sporu trwającego od dziesięcioleci. Głosowanie nie podzieli narodu; jeśli różnica będzie niewielka, to znaczy, że naród już wcześniej był podzielony.",
+   "args": [
+    "lydraedi"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Wejdźmy do UE",
+   "url": "https://www.visir.is/g/20262852454d/latum-oss-ganga-i-esb",
+   "source": "visir.is",
+   "author": "Hannes Örn Blandon",
+   "date": "2026-03-07",
+   "summary": "Były proboszcz popiera przystąpienie do UE; tam lepiej potrafi się radzić sobie ze stopami procentowymi i indeksacją, a waluta służy ogółowi społeczeństwa, a nie tylko posiadaczom kapitału. Doświadczenia Suðureyja i Orkneyja związane z Brexitem mają pokazywać, że UE wzmacnia regiony peryferyjne.",
+   "args": [
+    "vextir",
+    "byggd"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Zasoby morskie w UE",
+   "url": "https://www.visir.is/g/20262852690d/sjavaraudlindin-i-esb",
+   "source": "visir.is",
+   "author": "Björn Leví Gunnarsson",
+   "date": "2026-03-07",
+   "summary": "Były poseł Píratar odpiera twierdzenia, jakoby zagraniczne statki miały przejąć islandzkie kwoty połowowe, a osady rybackie miały upaść; statki musiałyby pływać pod islandzką banderą i mieć licencję połowową zgodnie z islandzkim prawem. Cytuje wprost rozporządzenie UE 1380/2013, zgodnie z którym o przydziale uprawnień połowowych decydują interesy każdego państwa członkowskiego.",
+   "args": [
+    "hraedslu",
+    "serlausnir"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "„Doskonale wiecie, co jest w pakiecie”",
+   "url": "https://www.visir.is/g/20262852781d/-thid-vitid-fullkomlega-hvad-er-i-pakkanum-",
+   "source": "visir.is",
+   "author": "Hjörtur J. Guðmundsson",
+   "date": "2026-03-07",
+   "summary": "Przywołuje słowa Uffe Ellemann-Jensen, że zawartość „pakietu” jest już znana. Proces aplikacyjny nie jest prostą pogawędką, lecz dostosowaniem do przepisów i administracji UE równolegle z negocjacjami, co pokazują dokumenty Unii i słowa Olli Rehn.",
+   "args": [
+    "adlogun"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "To, co ma nadejść?",
+   "url": "https://www.visir.is/g/20262852875d/thad-sem-koma-skal-",
+   "source": "visir.is",
+   "author": "Sigurjón Njarðarson",
+   "date": "2026-03-08",
+   "summary": "Odpowiada na krytykę Björna Bjarnasona wobec strony informacyjnej ministerstwa spraw zagranicznych i omawia materiały szczegółowe, do których prowadzą tam linki, w tym wszystkie dokumenty negocjacji z lat 2009–2013. Głosowanie dotyczy kontynuacji negocjacji, a umowa akcesyjna zostałaby następnie poddana pod głosowanie narodu.",
+   "args": [
+    "kikja",
+    "lydraedi"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "„Zajrzeć do pakietu”, który już jest otwarty",
+   "url": "https://www.visir.is/g/20262853025d/ad-kikja-i-pakkann-sem-er-nu-thegar-opinn",
+   "source": "visir.is",
+   "author": "Jökull Sólberg Auðunsson",
+   "date": "2026-03-08",
+   "summary": "Zawartość „pakietu” została ustalona już dawno; nowe państwa muszą przyjąć cały dorobek prawny UE, a „Europa a la carte” należy już do przeszłości. Przywołuje wypowiedź Heather Grabbe z Bruegel, że nie ma już żadnych wyjątków, a jedynie okresy przejściowe, o co próbowali zabiegać polscy rolnicy.",
+   "args": [
+    "undanthagur",
+    "adlogun"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Zwolennicy Unii Europejskiej - nie wolno oszukiwać!",
+   "url": "https://www.visir.is/g/20262853043d/evropusambandssinnar-thad-er-bannad-ad-plata-",
+   "source": "visir.is",
+   "author": "Birgir Finnson",
+   "date": "2026-03-08",
+   "summary": "Twierdzi, że strona TAK posługuje się chwytami w rodzaju „zajrzyjmy do pakietu” i „miejsce przy stole”. Euro nie wynika automatycznie z członkostwa, lecz najpierw trzeba spełnić surowe kryteria z Maastricht dotyczące inflacji i stóp procentowych; przypomina słowa premiera, że „nie wolno oszukiwać”.",
+   "args": [
+    "evra",
+    "umbod"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Atrakcyjne stanowiska do obsadzenia dla państw UE",
+   "url": "https://www.visir.is/g/20262853128d/flott-embaetti-i-bodi-fyrir-esb-riki",
+   "source": "visir.is",
+   "author": "Diljá Mist Einarsdóttir",
+   "date": "2026-03-09",
+   "summary": "Poseł Sjálfstæðisflokksins zwraca uwagę, że najważniejsze rozdziały dotyczące rybołówstwa i rolnictwa nigdy nie zostały otwarte w latach 2009–2013. Przypomina projekt ustawy, zgodnie z którym osoby strzegące interesów Islandii w negocjacjach nie mogą po zakończeniu pracy przyjąć stanowiska w UE przez określony czas, aby perspektywa przyszłych nominacji nie wpływała na negocjacje.",
+   "args": [
+    "umbod"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Inga Sæland i niepodległość",
+   "url": "https://www.visir.is/g/20262853151d/inga-saeland-og-sjalfstaedid",
+   "source": "visir.is",
+   "author": "Gunnar Ármansson",
+   "date": "2026-03-09",
+   "summary": "Autor nie chce „zaglądać do pakietu”, jeśli miałoby to oznaczać zrzeczenie się niepodległości i prawa do samostanowienia, których odzyskanie zajęło narodowi całe stulecia. Decyzje o losie Islandczyków byłyby podejmowane przez innych, a członkostwo porównane jest do bliźniąt syjamskich, których nie da się rozdzielić; wojny dorszowe i Icesave mają pokazywać, że sojusze nie chronią Islandii.",
+   "args": [
+    "fullveldi",
+    "oafturkraeft",
+    "ahrifaleysi"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Pakiet UE jest szeroko otwarty",
+   "url": "https://www.visir.is/g/20262853296d/esb-pakkinn-er-galopinn",
+   "source": "visir.is",
+   "author": "Bergþór Ólason",
+   "date": "2026-03-09",
+   "summary": "Poseł Miðflokkurinn mówi, że w „pakiecie” nie ma nic zaskakującego; przepisy UE są znane, a żadne trwałe wyłączenia nie są dostępne. Cytuje Heather Grabbe z Bruegel, która mówi, że 95% unijnych zbiorów przepisów jest nienaruszalnych i można negocjować jedynie harmonogram wdrażania.",
+   "args": [
+    "undanthagur",
+    "adlogun"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Ludzie, którzy nie ufają narodowi, że potrafi sam o sobie decydować",
+   "url": "https://www.visir.is/g/20262853505d/folk-sem-treystir-ekki-thjod-til-ad-hafa-vit-fyrir-sjalfri-ser",
+   "source": "visir.is",
+   "author": "Þórður Snær Júlíusson",
+   "date": "2026-03-10",
+   "summary": "Dyrektor wykonawczy klubu parlamentarnego Samfylkingarinnar mówi, że opozycja nie ufa narodowi, by decydował o własnym losie. Głosowanie dotyczy rozmów, a nie członkostwa, w podwójnym głosowaniu tego samego rodzaju, którego sami chcieli Sjálfstæðisflokkur i Framsókn w kadencji 2009–2013.",
+   "args": [
+    "lydraedi",
+    "kikja"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Płaciłam przez wiele lat, a mimo to jestem winna więcej",
+   "url": "https://www.visir.is/g/20262853627d/eg-hef-borgad-i-morg-ar-samt-skulda-eg-meira",
+   "source": "visir.is",
+   "author": "Berglind Guðmundsdóttir",
+   "date": "2026-03-10",
+   "summary": "Pielęgniarka opisuje, jak kredyty rosną mimo regularnych spłat; kredyt studencki wzrósł z 4 do 8 milionów, a kredyt mieszkaniowy z 53 do 61 milionów. Chce rozważyć inne możliwości, zajrzeć do pakietu i mówi TAK dla kontynuacji negocjacji akcesyjnych.",
+   "args": [
+    "vextir",
+    "kikja"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Grupa, która zyskałaby najwięcej",
+   "url": "https://www.visir.is/g/20262853646d/hopurinn-sem-myndi-hagnast-mest",
+   "source": "visir.is",
+   "author": "Hjörtur J. Guðmundsson",
+   "date": "2026-03-11",
+   "summary": "Odpowiada na artykuł Magnúsar Árna Skjöld Magnússonar i twierdzi, że argumenty się nie bronią; raport Draghiego opisuje nadmiar regulacji, który hamuje inwestycje, innowacje i produktywność w UE. Niskie stopy procentowe w strefie euro są przejawem stagnacji gospodarczej, a przystąpienie wprowadziłoby Islandię za mury celne Unii.",
+   "args": [
+    "efnahagur",
+    "evra"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Debata o UE nie rozwiąże problemu gospodarczego",
+   "url": "https://www.visir.is/g/20262853683d/esb-umraedan-leysir-ekki-efnahagsvandann",
+   "source": "visir.is",
+   "author": "Guðlaugur Þór Þórðarson",
+   "date": "2026-03-10",
+   "summary": "Poseł Sjálfstæðisflokkur mówi, że rząd wpisał negocjacje akcesyjne do porządku dnia wbrew obietnicom przedwyborczym i wykorzystuje debatę, by odwrócić uwagę od trudnej sytuacji gospodarczej. Szerokiego konsensusu w sprawie członkostwa, który sama premier uznała za warunek wstępny, nie ma.",
+   "args": [
+    "umbod"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "TAK czy NIE - próba nadania ram debacie",
+   "url": "https://www.visir.is/g/20262853688d/ja-eda-nei-tilraun-til-ad-ramma-inn-umraeduna",
+   "source": "visir.is",
+   "author": "Dóra Sif Tynes",
+   "date": "2026-03-10",
+   "summary": "Prawnik i ekspert w dziedzinie prawa EOG mówi, że przeciwnicy muszą odpowiedzieć, jakie korzyści Porozumienia EOG przewyższają pełne członkostwo i dlaczego udział w kształtowaniu zasad rynku wewnętrznego nie miałby być pożądany. Rozważania o rozwiązaniach szczególnych można rozstrzygnąć jedynie poprzez wyjaśnienie tego w negocjacjach.",
+   "args": [
+    "kikja",
+    "ahrif"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Dlaczego wniosek do Unii Europejskiej z 2009 roku jest ukrywany?",
+   "url": "https://www.visir.is/g/20262853841d/hvers-vegna-er-umsoknin-til-evropusambandsins-fra-2009-falin-",
+   "source": "visir.is",
+   "author": "Júlíus Valsson",
+   "date": "2026-03-10",
+   "summary": "Lekarz przypomina uchwałę parlamentu z 2009 roku i list aplikacyjny Islandii do UE oraz pyta, czy głosowanie dotyczy kontynuacji tamtego wniosku, czy nowego wniosku. Pytanie zawarte w projekcie uchwały parlamentarnej ministra spraw zagranicznych jest celowo błędne i wprowadzające w błąd; w rzeczywistości głosowanie będzie dotyczyć członkostwa w UE.",
+   "args": [
+    "spurning"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Skoki kwotowe i UE",
+   "url": "https://www.visir.is/g/20262853887d/kvotahopp-og-esb",
+   "source": "visir.is",
+   "author": "Eggert Sigurbergsson",
+   "date": "2026-03-10",
+   "summary": "Odpowiada Birnir Leví i mówi, że prawo przedsiębiorczości oraz swobodny przepływ kapitału czynią skoki kwotowe całkowicie legalnymi w UE; zagraniczne przedsiębiorstwa rybackie mogłyby kupować islandzkie firmy sektora rybołówstwa, a zyski odpływałyby z kraju. Wyrok w sprawie Factortame pokazuje, że prawo UE ma pierwszeństwo przed krajowymi przepisami o przydziale kwot.",
+   "args": [
+    "sjavarutvegur",
+    "undanthagur"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "UE i rybołówstwo: kto ma decydować o morzu wokół Islandii?",
+   "url": "https://www.visir.is/g/20262853988d/esb-og-sjavarutvegurinn-hver-a-ad-rada-hafinu-vid-island-",
+   "source": "visir.is",
+   "author": "Svanur Guðmundsson",
+   "date": "2026-03-10",
+   "summary": "Otwarcie rozdziału dotyczącego rybołówstwa oznaczałoby przeniesienie części zarządzania rybołówstwem z islandzkiej jurysdykcji do wspólnej polityki rybołówstwa UE, gdzie kwoty są politycznym kompromisem, a nie wynikiem naukowym. Islandzki system jest międzynarodowym wzorem zrównoważonego rozwoju, podczas gdy system UE zmaga się z odrzutami i słabym nadzorem.",
+   "args": [
+    "sjavarutvegur",
+    "fullveldi"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Prawdziwa zdrada suwerenności narodu",
+   "url": "https://www.visir.is/g/20262854037d/raunveruleg-svik-vid-fullveldi-thjodarinnar",
+   "source": "visir.is",
+   "author": "Ása Lind Finnbogadóttir",
+   "date": "2026-03-10",
+   "summary": "Twierdzi, że stwierdzenia, jakoby negocjacje nieuchronnie prowadziły do członkostwa, są argumentem równi pochyłej; Norwegia dwukrotnie odrzuciła członkostwo w referendum po negocjacjach. Islandia już teraz wdraża 70–80% prawodawstwa UE poprzez EOG bez prawa głosu, a korona bardziej służy królom kwotowym i posiadaczom kapitału niż ogółowi społeczeństwa.",
+   "args": [
+    "kikja",
+    "hraedslu",
+    "ahrif"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "„Czy można to uznać za prawdę“",
+   "url": "https://www.visir.is/g/20262854309d/-ma-thetta-til-sanns-vegar-faera-",
+   "source": "visir.is",
+   "author": "Hjörtur J. Guðmundsson",
+   "date": "2026-03-12",
+   "summary": "Wskazuje, że w uzasadnieniu projektu uchwały parlamentarnej ministra spraw zagranicznych przyznano, iż negocjacje akcesyjne dotyczą dostosowania się nowych państw do zasad UE. Proces ten oznacza więc dostosowanie równolegle z negocjacjami, zgodnie z dokumentami samej Unii.",
+   "args": [
+    "adlogun"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Niepolityczna ciekawostka o UE",
+   "url": "https://www.visir.is/g/20262854473d/opolitiskur-frodleiksmoli-um-esb",
+   "source": "visir.is",
+   "author": "Snorri Másson",
+   "date": "2026-03-11",
+   "summary": "Poseł Miðflokksins krytykuje Vísindavef HÍ za stronniczą odpowiedź Eiríka Rögnvaldssona, że językowi islandzkiemu najlepiej służyłoby członkostwo w UE. Ideą Unii ma być gospodarcza i polityczna integracja państw, ważniejsza niż odrębność państw narodowych.",
+   "args": [
+    "fullveldi"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Droga Sigmundura Davíða i Trumpa czy więcej opcji dla Islandii?",
+   "url": "https://www.visir.is/g/20262854620d/leid-sigmundar-davids-og-trump-eda-fjolga-valkostum-fyrir-island-",
+   "source": "visir.is",
+   "author": "María Svanfríður Malmquist",
+   "date": "2026-03-12",
+   "summary": "Członkini zarządu Ungir Evrópusinnar i Uppreisn łączy Miðflokkurinn z izolacjonizmem ruchu Trumpa. Głosowanie ma dotyczyć zdobycia informacji i położenia umowy na stole, a nie przystąpienia, i odrzuca ona straszenie uprawiane przez izolacjonistów.",
+   "args": [
+    "kikja",
+    "hraedslu"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Chcą poprowadzić naród ślepo do Brukseli",
+   "url": "https://www.visir.is/g/20262854662d/vilja-leida-thjodina-blinda-til-brussel",
+   "source": "visir.is",
+   "author": "Tómas Þór Þórðarson",
+   "date": "2026-03-12",
+   "summary": "Asystent klubu parlamentarnego Sjálfstæðisflokksins twierdzi, że data 29 sierpnia została wybrana z premedytacją, by przed głosowaniem nie odbyła się żadna debata parlamentarna. Premier i minister spraw zagranicznych miały obie powiedzieć, że ludzie nie potrzebują wszystkich informacji o UE przed referendum.",
+   "args": [
+    "umbod"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Pielęgniarka, która jest bardziej zadłużona, sporo zyskuje i chce zajrzeć do pakietu",
+   "url": "https://www.visir.is/g/20262854681d/hjukrunarfraedingurinn-sem-skuldar-meira-graedir-helling-og-vill-kikja-i-pakka",
+   "source": "visir.is",
+   "author": "Haraldur Ólafsson",
+   "date": "2026-03-12",
+   "summary": "Przewodniczący Heimssýn odpowiada na artykuł Berglindar Guðmundsdóttur i wylicza, że pielęgniarka wzbogaciła się o 18 milionów wskutek wzrostu cen nieruchomości. Realne oprocentowanie kredytów mieszkaniowych ma być zmienne między krajami strefy euro, a członkostwo wiąże się z wysokimi rachunkami: składkami członkowskimi, rozbudową administracji, militaryzacją i wojną celną.",
+   "args": [
+    "evra",
+    "kostnadur"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "W Unii Europejskiej prawa pracowników są podporządkowane warunkom rynku",
+   "url": "https://www.visir.is/g/20262855165d/i-evropusambandinu-eru-rettindi-verkafolks-a-forsendum-markadarins",
+   "source": "visir.is",
+   "author": "Ágúst Valves Jóhannesson",
+   "date": "2026-03-13",
+   "summary": "Twierdzi, że unijne ustawodawstwo prawa pracy opiera się na przesłankach rynkowych; umowa Unii z Mołdawią pozwala wielkim przedsiębiorstwom wykorzystywać złe warunki pracowników na obrzeżach Europy. Islandia ma własny, niezależny model rynku pracy z ustawowo zagwarantowanymi prawami poprzez EOG i nie powinna stawać się częścią takiego systemu.",
+   "args": [
+    "ees"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Þorgerður Katrín nie ufa narodowi",
+   "url": "https://www.visir.is/g/20262855216d/thorgerdur-katrin-treystir-ekki-thjodinni",
+   "source": "visir.is",
+   "author": "Hjörvar Sigurðsson",
+   "date": "2026-03-13",
+   "summary": "Twierdzi, że minister spraw zagranicznych podsyca nieporozumienia, mówiąc o „zajrzeniu do pakietu”; formalne negocjacje akcesyjne są według definicji UE przygotowaniem do wdrożenia prawa i standardów Unii. Społeczeństwu nie przekazuje się rzetelnych informacji o tym, co oznacza głos TAK.",
+   "args": [
+    "adlogun",
+    "spurning"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Co stało się ze „specjalnym rozwiązaniem” Irlandii?",
+   "url": "https://www.visir.is/g/20262855296d/hvad-gerdist-med-serlausn-irlands-",
+   "source": "visir.is",
+   "author": "Erna Bjarnadóttir",
+   "date": "2026-03-13",
+   "summary": "Ekonomista wyjaśnia, że Irlandia w 1973 roku wynegocjowała jedynie dostosowanie w ramach wspólnej polityki rybołówstwa, a nie trwałe wyłączenie; władza miała przejść do Unii. Kryteria haskie nie są zapisane w traktatach UE, a spory z ostatniej zimy pokazują, że można je zrewidować.",
+   "args": [
+    "undanthagur",
+    "sjavarutvegur"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Szczęściara pielęgniarka, która ma sporo zyskać",
+   "url": "https://www.visir.is/g/20262855304d/heppni-hjukrunarfraedingurinn-sem-a-ad-graeda-helling",
+   "source": "visir.is",
+   "author": "Berglind Guðmundsdóttir",
+   "date": "2026-03-13",
+   "summary": "Odpowiada na krytykę Haraldara Ólafssona; papierowy wzrost cen nieruchomości nie opłaca ani jedzenia, ani ogrzewania, ani prądu, a wiele osób odczuwa, że ich długi rosną mimo spłat. Należy wznowić negocjacje akcesyjne, aby Islandczycy mieli świadomą debatę i rzeczywiste opcje wyboru.",
+   "args": [
+    "vextir",
+    "kikja"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Czy UE to „sojusz upadku“?",
+   "url": "https://www.visir.is/g/20262855334d/er-esb-hnignunarbandalag-",
+   "source": "visir.is",
+   "author": "Jean-Rémi Chareyre",
+   "date": "2026-03-13",
+   "summary": "Odrzuca tezę, że współpraca w UE powoduje gospodarczą stagnację; wzrost gospodarczy i bezrobocie bardzo się różnią między państwami członkowskimi, a Polska rośnie szybciej niż Islandia. Stagnacja od około 1975 roku ma źródło w kryzysie naftowym z 1973 roku, a nie w euro czy unijnych regulacjach.",
+   "args": [
+    "hraedslu"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Co się stanie, jeśli większość tego lata powie „tak“?",
+   "url": "https://www.visir.is/g/20262855766d/hvad-gerist-ef-meirihlutinn-segir-ja-i-sumar-",
+   "source": "visir.is",
+   "author": "Jón Pétur Zimsen",
+   "date": "2026-03-14",
+   "summary": "Poseł Sjálfstæðisflokksins mówi, że dostosowywanie Islandii do całego dorobku prawnego UE rozpocznie się już we wrześniu, jeśli wynik będzie na tak; ma to wynikać z samego uzasadnienia projektu. Żadne państwo kandydujące nie otrzymało trwałych wyłączeń, a Islandia jest jednym z najbogatszych narodów Europy, ma umowę obronną ze Stanami Zjednoczonymi i dziesiątki umów o wolnym handlu.",
+   "args": [
+    "adlogun",
+    "undanthagur",
+    "fullveldi",
+    "efnahagur"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Żadne z nich nie otrzymało trwałych wyłączeń",
+   "url": "https://www.visir.is/g/20262856047d/fengu-hvorugt-varanlegar-undanthagur",
+   "source": "visir.is",
+   "author": "Hjörtur J. Guðmundsson",
+   "date": "2026-03-14",
+   "summary": "Zarówno Malta, jak i Norwegia wnioskowały o trwałe wyłączenia spod nadrzędnej władzy UE w sprawach rybołówstwa i otrzymały odmowę; Norwegowie uzyskali jedynie tymczasowy okres dostosowawczy na niespełna cztery lata. Negocjować można jedynie to, jak i kiedy władza przejdzie na Unię, a nie to, czy w ogóle przejdzie.",
+   "args": [
+    "undanthagur",
+    "sjavarutvegur"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Przywódczyni narodu, z którą nikt już się nie liczy. Po co więc ona jest?",
+   "url": "https://www.visir.is/g/20262856052d/thjodarleidtogi-sem-enginn-tekur-lengur-mark-a.-til-hvers-er-hann-tha-",
+   "source": "visir.is",
+   "author": "Júlíus Valsson",
+   "date": "2026-03-14",
+   "summary": "Twierdzi, że Kristrún Frostadóttir obiecała unikać spraw dzielących społeczeństwo, a mimo to wpisała do porządku obrad jedno z najbardziej kontrowersyjnych zagadnień islandzkiej polityki, zarządzając referendum w sprawie kontynuacji rozmów. Rozdźwięk między obietnicami a decyzjami rządu rodzi pytania o wiarygodność premier.",
+   "args": [
+    "umbod"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Czy ja też mogę rozliczać się w euro?",
+   "url": "https://www.visir.is/g/20262856307d/ma-eg-lika-gera-upp-i-evrum-",
+   "source": "visir.is",
+   "author": "Berglind Guðmundsdóttir",
+   "date": "2026-03-15",
+   "summary": "Wskazuje, że wiele z największych firm Islandii prowadzi rozliczenia w euro, zaciąga kredyty i zawiera umowy w euro ze względu na stabilność, podczas gdy zwykli ludzie otrzymują pensje w koronach i ponoszą ryzyko kursowe. Pyta, czy euro mogłoby także zapewnić gospodarstwom domowym większą przewidywalność.",
+   "args": [
+    "vextir"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Wiedzieć dziś więcej niż wczoraj",
+   "url": "https://www.visir.is/g/20262856746d/ad-vita-meira-i-dag-en-i-gaer",
+   "source": "visir.is",
+   "author": "Kolbrún Áslaugar Baldursdóttir",
+   "date": "2026-03-17",
+   "summary": "Poseł Flokks fólksins mówi, że zdobycie dodatkowych informacji nigdy nie szkodzi; o dalszym ciągu zdecyduje naród, który ponownie będzie miał ostatnie słowo w sprawie umowy w drugim głosowaniu. Sjálfstæðisflokkurinn sam zaproponował w 2009 roku, by najpierw zapytać naród, czy należy rozpocząć rozmowy, a zmieniona sytuacja na świecie wymaga ponownej oceny.",
+   "args": [
+    "kikja",
+    "lydraedi"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Wspólnota mieszkaniowa",
+   "url": "https://www.visir.is/g/20262856823d/husfelagid",
+   "source": "visir.is",
+   "author": "Jens Garðar Helgason",
+   "date": "2026-03-17",
+   "summary": "Wiceprzewodniczący Sjálfstæðisflokksins porównuje UE do gigantycznej wspólnoty mieszkaniowej, w której założyciele posiadający największe mieszkania decydują niemal o wszystkim, a dziesięć mieszkań z 27 utrzymuje fundusz wspólnoty. Islandia byłaby płatnikiem netto, a zasady stanowią, że wspólnota przejmuje prawo do korzystania z „ogrodu“, czyli z zasobów naturalnych.",
+   "args": [
+    "kostnadur",
+    "ahrifaleysi",
+    "sjavarutvegur"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Czy ma znaczenie, czy Jens Garðar zasiada w parlamencie?",
+   "url": "https://www.visir.is/g/20262856933d/skiptir-mali-hvort-jens-gardar-se-a-thingi-",
+   "source": "visir.is",
+   "author": "Svanborg Sigmarsdóttir",
+   "date": "2026-03-17",
+   "summary": "Odpowiada na porównanie do wspólnoty mieszkaniowej autorstwa Jens Garðar; od 1994 roku Islandia jest w „dostosowaniu“ do przepisów UE, nie mając żadnego przedstawiciela przy stole, przy którym te przepisy są tworzone. Wpływ małych opiera się na pracowitości, podobnie jak poseł z Eskifjörður ma wpływ na Alþingi, choć stanowi zaledwie 2% składu parlamentu.",
+   "args": [
+    "ahrif"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Czy nie nadszedł już czas, by odczarować biurokratycznego potwora z Brukseli?",
+   "url": "https://www.visir.is/g/20262857033d/er-ekki-kominn-timi-til-ad-afskrimslavaeda-baknid-i-brussel-",
+   "source": "visir.is",
+   "author": "Þórhildur Davíðsdóttir Söebech",
+   "date": "2026-03-17",
+   "summary": "Młoda kobieta odpowiada na krytykę regulacji UE i mówi, że są one ochroną przed szkodliwymi skutkami nieokiełznanego rozwoju technologii, w tym cyfrowej przemocy ze względu na płeć, którą giganci technologiczni pozostawiają bez reakcji. Regulacje chronią obywateli tam, gdzie amerykańska bierność tego nie robi.",
+   "args": [
+    "gildi"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Klaskali europejskiemu imperium",
+   "url": "https://www.visir.is/g/20262857250d/kloppudu-fyrir-evropska-heimsveldinu",
+   "source": "visir.is",
+   "author": "Hjörtur J. Guðmundsson",
+   "date": "2026-03-18",
+   "summary": "Twierdzi, że ostatecznym celem procesu integracji UE jest jedno państwo związkowe, i przypomina, że Guy Verhofstadt otrzymał owację na stojąco na krajowym zjeździe Viðreisn za przemówienie o UE jako imperium. Waga Islandii wynosiłaby sześciu posłów z ponad 700 oraz około 0,08% w Radzie UE, co odpowiada 5% udziałowi w jednym pośle do Alþingi.",
+   "args": [
+    "ahrifaleysi",
+    "fullveldi"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Nie chcę jesienią wyborów w sprawie możliwego wniosku o członkostwo w UE",
+   "url": "https://www.visir.is/g/20262857413d/eg-vil-ekki-kosningar-um-mogulega-esb-umsokn-i-haust",
+   "source": "visir.is",
+   "author": "Gunnar Ármannsson",
+   "date": "2026-03-18",
+   "summary": "Mówi, że członkostwo w UE było tematem wyborczym tylko jednej partii z poparciem około 15%, więc rozpoczynanie teraz rozmów jest niedorzeczne; właściwiej byłoby, aby partie najpierw uzyskały mandat w wyborach parlamentarnych, a potem naród zagłosował nad gotową umową. On sam zagłosuje na nie, ponieważ nie chce zrzec się niepodległości narodu na rzecz instytucji UE.",
+   "args": [
+    "umbod",
+    "fullveldi"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Rozwiązania szczególne – nie wyłączenia",
+   "url": "https://www.visir.is/g/20262857447d/serlausnir-ekki-undanthagur",
+   "source": "visir.is",
+   "author": "Andrés Pétursson",
+   "date": "2026-03-18",
+   "summary": "Ekspert ds. europejskich rozróżnia między wyłączeniami typu opt-out, których nowe państwa nie otrzymują, a rozwiązaniami szczególnymi w ramach obowiązujących regulacji, które mogą mieć charakter trwały; Dania, Malta, Szwecja i Finlandia miały z nich skorzystać. Szczególna sytuacja islandzkiego rybołówstwa nie ma żadnego odpowiednika w UE, a Islandia może przystąpić do negocjacji z silnej pozycji.",
+   "args": [
+    "serlausnir"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Zbędne „poszukiwanie prawdy”",
+   "url": "https://www.visir.is/g/20262857489d/otharfa-sannleiksleit-",
+   "source": "visir.is",
+   "author": "Valdimar Guðjónsson",
+   "date": "2026-03-18",
+   "summary": "Hodowca bydła twierdzi, że zainteresowanie UE Islandią wynika ze strategicznie ważnego położenia kraju, a nie z dobrej pozycji negocjacyjnej. Poziom życia jest dobry, korona pozostawała stabilna przez sześć lat, a negocjacje nie są wyborem z bufetu, lecz podporządkowaniem się warunkom; żadne z ugrupowań rządzących nie mówiło o tej sprawie głośno przed wyborami.",
+   "args": [
+    "efnahagur",
+    "umbod",
+    "spurning"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "…a ja chcę, by naród wyraził swoją opinię",
+   "url": "https://www.visir.is/g/20262857714d/-og-eg-vil-ad-thjodin-segi-sitt-alit",
+   "source": "visir.is",
+   "author": "Helga Vala Helgadóttir",
+   "date": "2026-03-18",
+   "summary": "Odpowiada na argument, że nie powinno się głosować, ponieważ UE nie była kluczową kwestią w wyborach parlamentarnych; wybory nigdy nie dotyczą jednej sprawy, lecz całościowej wizji. Referendum jest właśnie właściwym narzędziem, by uzyskać jasne stanowisko narodu, i nie ma nic bardziej demokratycznego niż zapytać go bezpośrednio.",
+   "args": [
+    "lydraedi"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "W przeciwnym razie władza trafiłaby do Brukseli",
+   "url": "https://www.visir.is/g/20262858201d/valdid-faeri-annars-til-brussel",
+   "source": "visir.is",
+   "author": "Hjörtur J. Guðmundsson",
+   "date": "2026-03-23",
+   "summary": "Trwałe wyłączenia byłyby jedynym sposobem na zachowanie kontroli nad zasobami, lecz państwa kandydujące nigdy ich nie otrzymywały, co sam przyznaje Andrés Pétursson. Rozwiązania szczególne, takie jak fińskie rolnictwo arktyczne czy zasada 25 mil Malty, nie zmieniają faktu, że nadrzędne zarządzanie tymi obszarami polityki przechodzi do Brukseli.",
+   "args": [
+    "undanthagur",
+    "sjavarutvegur"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Osobliwa zgodność",
+   "url": "https://www.visir.is/g/20262858239d/serkennilegur-samhljomur",
+   "source": "visir.is",
+   "author": "Ingólfur Sverrisson",
+   "date": "2026-03-19",
+   "summary": "Twierdzi, że na Islandii żyją dwa narody: przedsiębiorstwa rozliczające się w euro lub dolarach i mające dostęp do niższych stóp procentowych oraz ci drudzy, uwięzieni w gospodarce opartej na koronie wraz z zadłużonymi osobami prywatnymi. Krytykuje to, że członkom SA zakazuje się omawiania zalet i wad członkostwa w UE oraz euro na publicznych spotkaniach.",
+   "args": [
+    "vextir"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Współuzależniona rodzina",
+   "url": "https://www.visir.is/g/20262858399d/medvirka-fjolskyldan",
+   "source": "visir.is",
+   "author": "Berglind Guðmundsdóttir",
+   "date": "2026-03-19",
+   "summary": "Odpowiada na analogię mieszkaniową Jens Garðars inną metaforą: Islandia bywa czasem jak współuzależniona rodzina, w której nie wolno pytać, czy poziom życia mógłby się poprawić, stopy procentowe spaść, a żywność stać się tańsza. Negocjacje akcesyjne mają służyć wyłącznie zbadaniu tych możliwości.",
+   "args": [
+    "kikja",
+    "kjor"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Zrzeczenie się suwerenności – czy nie? Czy to w ogóle pytanie?",
+   "url": "https://www.visir.is/g/20262858567d/afsal-fullveldis-eda-ekki.-er-thad-einhver-spurning-",
+   "source": "visir.is",
+   "author": "Gunnar Ármannsson",
+   "date": "2026-03-20",
+   "summary": "Przytacza postanowienia traktatów UE i stwierdza, że państwa członkowskie w sposób jednoznaczny przekazują część swojej władzy ustawodawczej i decyzyjnej Unii, między innymi wyłączną kompetencję w unii celnej i polityce pieniężnej. Takie przekazanie jest ze swej istoty zrzeczeniem się części suwerenności w określonych obszarach.",
+   "args": [
+    "fullveldi"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Jakie osiem miliardów, Þorgerður?",
+   "url": "https://www.visir.is/g/20262861083d/hvada-atta-milljardar-thorgerdur-",
+   "source": "visir.is",
+   "author": "Hjörtur J. Guðmundsson",
+   "date": "2026-03-26",
+   "summary": "Podaje w wątpliwość twierdzenie minister spraw zagranicznych o rocznej płatności w wysokości ośmiu miliardów z tytułu EOG; wpłaty do Funduszu Rozwoju EOG wynoszą średnio około 1,7 miliarda rocznie. Bezpośrednia płatność do UE wynosiłaby około 38 miliardów rocznie, Islandia stałaby się płatnikiem netto, a importowane towary spoza Unii podrożałyby z powodu jej barier celnych.",
+   "args": [
+    "kostnadur",
+    "efnahagur"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "To, czego minister spraw zagranicznych nie chce powiedzieć",
+   "url": "https://www.visir.is/g/20262861092d/thad-sem-utanrikisradherra-vill-ekki-segja",
+   "source": "visir.is",
+   "author": "Diljá Mist Einarsdóttir",
+   "date": "2026-03-26",
+   "summary": "Poseł Sjálfstæðisflokksins twierdzi, że minister spraw zagranicznych odmówiła odpowiedzi na pytania podczas otwartego posiedzenia komisji spraw zagranicznych, między innymi czy warunkiem rządu byłyby „full og varanleg yfirráð” nad zasobami Islandii. Słowa te pojawiają się jedynie jako cytat z celów rządu Jóhönnu, które określono jako „til hliðsjónar”.",
+   "args": [
+    "umbod",
+    "sjavarutvegur"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Irlandia kontra Islandia. Różni je tylko jedna litera?",
+   "url": "https://www.visir.is/g/20262861211d/irland-v.s.island.-munar-bara-einum-staf-",
+   "source": "visir.is",
+   "author": "Andrés Pétursson",
+   "date": "2026-03-26",
+   "summary": "Twierdzi, że cięcie irlandzkiego kwoty makrelowej opiera się na doradztwie naukowym ICES z powodu przełowienia i nie jest przykładem tego, że UE gnębi mały naród. Rybołówstwo stanowi mniej niż 0,2% PKB Irlandii, a na Islandii około 6%, a według Eurobarometer 91% Irlandczyków uważa, że członkostwo było korzystne dla kraju.",
+   "args": [
+    "hraedslu"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Nadzór nad negocjacjami - dzieciom wzbronione!",
+   "url": "https://www.visir.is/g/20262861316d/samningaeftirlitid-bannad-bornum-",
+   "source": "visir.is",
+   "author": "Hannes Friðriksson",
+   "date": "2026-03-26",
+   "summary": "Emeryt porównuje przeciwników negocjacji do dawnego Kvikmyndaeftirlitið, które zabraniało ludziom oglądać; teraz miałoby się zabraniać narodowi zobaczyć jeszcze nienapisane porozumienie. Pytanie jest proste, naród sam otrzyma możliwość zagłosowania nad traktatem akcesyjnym, a on mówi TAK, aby wiedzieć więcej.",
+   "args": [
+    "kikja",
+    "lydraedi"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Kilka słów do studni mądrości",
+   "url": "https://www.visir.is/g/20262861513d/nokkur-ord-i-viskubrunninn",
+   "source": "visir.is",
+   "author": "Einar Helgason",
+   "date": "2026-03-26",
+   "summary": "Senior kpi z argumentów strony NIE o „płonącym domu” i utraconej suwerenności; trudno uznać za większą suwerenność siedzenie na korytarzu i przyjmowanie rozporządzeń zamiast siedzenia przy stole obrad, gdzie podejmuje się decyzje. Cieszy się, że rząd dotrzymuje obietnicy wyborczej dotyczącej referendum.",
+   "args": [
+    "hraedslu",
+    "ahrif"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Unia celna UE i granice „szczególnych rozwiązań”",
+   "url": "https://www.visir.is/g/20262861517d/tollabandalag-esb-og-mork-serlausna-",
+   "source": "visir.is",
+   "author": "Erna Bjarnadóttir",
+   "date": "2026-03-26",
+   "summary": "Ekonomista twierdzi, że unia celna należy do wyłącznych kompetencji UE; cła między państwami członkowskimi znikają od pierwszego dnia i nie da się wynegocjować odroczenia bezcłowego handlu produktami rolnymi. Finowie próbowali tego bezskutecznie, a w negocjacjach Islandii w latach 2009–2013 postulat Bændasamtakanna dotyczący dalszej ochrony celnej został uznany za nierealistyczny.",
+   "args": [
+    "undanthagur",
+    "landbunadur"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "To, co poseł chce powiedzieć",
+   "url": "https://www.visir.is/g/20262861575d/thad-sem-thingmadur-vill-segja",
+   "source": "visir.is",
+   "author": "Sigmar Guðmundsson",
+   "date": "2026-03-27",
+   "summary": "Poseł Viðreisn odpowiada Diljá Mist i mówi, że oskarżenia o tajność kontaktów ministrów z UE są insynuacjami; kalendarz ministra jest jawny. Islandia ma pełną i trwałą władzę nad swoim terytorium, a minister spraw zagranicznych jasno powiedział, że należy zagwarantować władzę Islandii nad strefą rybołówstwa.",
+   "args": [
+    "serlausnir",
+    "hraedslu"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Zawarte porozumienia zdradzone przez UE",
+   "url": "https://www.visir.is/g/20262861706d/gerdir-samningar-sviknir-af-esb",
+   "source": "visir.is",
+   "author": "Erna Bjarnadóttir",
+   "date": "2026-03-27",
+   "summary": "Odpowiada Andrési Péturssyni i twierdzi, że sednem sprawy Irlandii jest to, że szczególne rozwiązanie, które Irlandczycy uważali za swoje, kryteria haskie, okazało się bezwartościowe, gdy przyszło do próby; najludniejsze państwa uniemożliwiły jego dotrzymanie dzięki sile liczby ludności. Wspólna polityka rybołówstwa należy do wyłącznych kompetencji UE, gdzie decyduje większość.",
+   "args": [
+    "sjavarutvegur",
+    "ahrifaleysi",
+    "undanthagur"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Bardzo mam nadzieję, że to nieprawda",
+   "url": "https://www.visir.is/g/20262861892d/mikid-vona-eg-ad-thetta-se-ekki-rett",
+   "source": "visir.is",
+   "author": "Jón Pétur Zimsen",
+   "date": "2026-03-28",
+   "summary": "Poseł Sjálfstæðisflokksins cytuje przedstawicieli biznesu, którzy pytają, czy rząd utrzymuje gospodarkę w nieładzie, aby zwiększyć szanse na TAK w referendum. Odwołuje się do słów Kristrún Frostadóttir z 2024 roku, że poparcie dla członkostwa w UE rośnie, gdy inflacja i stopy procentowe są wysokie.",
+   "args": [
+    "umbod",
+    "efnahagur"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Każdy odpowiada za to, co posiada!",
+   "url": "https://www.visir.is/g/20262862195d/veldur-hver-a-heldur-",
+   "source": "visir.is",
+   "author": "Andrés Pétursson",
+   "date": "2026-03-28",
+   "summary": "Odpowiada Ernu Bjarnadóttur i twierdzi, że Irlandczycy przy wejściu w 1973 roku nie zdefiniowali rybołówstwa jako ważnego dla gospodarki narodowej, lecz polegali na kryteriach haskich, które nie są częścią prawa pierwotnego UE. Jeśli zwierzchnictwo Islandii zostanie związane w traktacie akcesyjnym, nie będzie można tego zmienić bez zgody wszystkich państw członkowskich, w tym Islandii.",
+   "args": [
+    "serlausnir",
+    "hraedslu"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Odrzucić negocjacje to odrzucić informacje",
+   "url": "https://www.visir.is/g/20262862209d/ad-hafna-vidraedum-er-ad-hafna-upplysingum",
+   "source": "visir.is",
+   "author": "Magnús Árni Skjöld Magnússon",
+   "date": "2026-03-28",
+   "summary": "Przewodniczący Evrópuhreyfingin mówi, że głosowanie dotyczy kontynuacji negocjacji, a nie członkostwa; negocjacje są sposobem na zdobycie informacji, aby naród mógł później podjąć świadomą decyzję. Odrzucenie negocjacji jest decyzją, by nie chcieć wiedzieć więcej, podczas gdy Islandia już teraz przyjmuje dużą część dorobku prawnego UE bez miejsca przy stole.",
+   "args": [
+    "kikja",
+    "ahrif"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Półprawdy i nieprawdy Magnúsar Árna Skjaldar Magnússonar",
+   "url": "https://www.visir.is/g/20262862428d/halfsannleikur-og-osannindi-magnusar-arna-skjaldar-magnussonar",
+   "source": "visir.is",
+   "author": "Hjörvar Sigurðsson",
+   "date": "2026-03-29",
+   "summary": "Odpowiada na artykuł przewodniczącego Evrópuhreyfingin i twierdzi, że powtarza on nieprawdy, jakoby negocjacje były prostą rozmową informacyjną. Według samej UE negocjacje akcesyjne obejmują przyjęcie obowiązującego prawa Unii i wdrożenie reform, a nie neutralne pozyskiwanie informacji.",
+   "args": [
+    "adlogun",
+    "spurning"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Islandia w Unii Europejskiej",
+   "url": "https://www.visir.is/g/20262862458d/island-i-evropusambandinu",
+   "source": "visir.is",
+   "author": "Jón Frímann Jónsson",
+   "date": "2026-03-29",
+   "summary": "Omawia zakres kompetencji UE zgodnie z Traktatem z Lizbony i twierdzi, że to państwa członkowskie kierują procesem; Islandia miałaby sześciu europosłów i przedstawicieli w instytucjach Unii. Twierdzi, że przeciwnicy Europy opierają się na przekłamaniach i teoriach spiskowych z mediów społecznościowych.",
+   "args": [
+    "ahrif",
+    "hraedslu"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Mógłby być zgodny sam ze sobą",
+   "url": "https://www.visir.is/g/20262862868d/maetti-vera-sammala-sjalfum-ser",
+   "source": "visir.is",
+   "author": "Hjörtur J. Guðmundsson",
+   "date": "2026-03-30",
+   "summary": "Wskazuje, że przewodniczący Evrópuhreyfingin sam mówił w styczniu, iż wola przystąpienia jest warunkiem wstępnym negocjacji, a teraz twierdzi, że można złożyć wniosek tylko po to, by zobaczyć, co jest oferowane. Ramy negocjacyjne UE stanowią, że wspólnym celem wniosku jest członkostwo, a proces obejmuje dostosowanie do dorobku prawnego Unii.",
+   "args": [
+    "spurning",
+    "adlogun"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Łowią ci, którzy wypływają w morze",
+   "url": "https://www.visir.is/g/20262863052d/their-fiska-sem-roa",
+   "source": "visir.is",
+   "author": "Þorgerður Katrín Gunnarsdóttir",
+   "date": "2026-03-30",
+   "summary": "Minister spraw zagranicznych mówi, że islandzki sektor rybołówstwa jest silny, a cele negocjacyjne z poprzednich rozmów pozostają niezmienne: kontrola nad zasobami rybnymi i udział w stadach współdzielonych. Zasada UE dotycząca względnej stabilności miałaby oznaczać, że innym narodom nie wolno byłoby prowadzić połowów w islandzkiej jurysdykcji; rozdziały dotyczące rybołówstwa i rolnictwa zostałyby otwarte jak najwcześniej.",
+   "args": [
+    "serlausnir",
+    "kikja"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Czy Landskjörstjórn powinna zgłosić zastrzeżenia do pytania?",
+   "url": "https://www.visir.is/g/20262863385d/a-landskjorstjorn-ad-gera-athugasemdir-vid-spurninguna-",
+   "source": "visir.is",
+   "author": "Erna Bjarnadóttir",
+   "date": "2026-03-31",
+   "summary": "Porównuje brzmienie pytania z wytycznymi weneckimi Rady Europy, zgodnie z którymi pytania w referendach powinny być jasne i niewprowadzające w błąd. Słowo „kontynuować” sugeruje proces, który już trwa, podczas gdy zgodnie z uzasadnieniem projektu należałoby rozpocząć negocjacje na nowo według zasad ustalanych przez UE.",
+   "args": [
+    "spurning"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Dobrze, że to wyjaśniłaś, Þorgerður",
+   "url": "https://www.visir.is/g/20262863656d/flott-ad-fa-thad-a-hreint-thorgerdur",
+   "source": "visir.is",
+   "author": "Hjörtur J. Guðmundsson",
+   "date": "2026-04-02",
+   "summary": "Odpowiada minister spraw zagranicznych i mówi, że zasada względnie stabilnych połowów nie daje żadnej gwarancji; nie ma ona oparcia w Traktacie z Lizbony i może zostać zniesiona większością kwalifikowaną w Radzie Ministrów. Doświadczenie Irlandii z podobną umową pokazuje, że władza nad sprawami rybołówstwa przechodzi do UE.",
+   "args": [
+    "sjavarutvegur",
+    "undanthagur"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Dwie rzeczy mogą być prawdziwe jednocześnie",
+   "url": "https://www.visir.is/g/20262864081d/tvennt-getur-verid-rett-a-sama-tima",
+   "source": "visir.is",
+   "author": "Þorgerður Katrín Gunnarsdóttir",
+   "date": "2026-04-01",
+   "summary": "Minister spraw zagranicznych mówi, że nie ma sprzeczności między chęcią zacieśniania więzi z Europą i sprawdzenia, co można zyskać, mając miejsce przy stole, a jednoczesną obroną suwerenności, kultury i języka. Dla małego narodu aktywne uczestnictwo we współpracy międzynarodowej jest warunkiem obrony interesów, wartości i poziomu życia.",
+   "args": [
+    "kikja",
+    "ahrif",
+    "oryggi"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Byle tylko naród nie wiedział za dużo",
+   "url": "https://www.visir.is/g/20262864863d/eins-gott-ad-thjodin-viti-ekki-of-mikid",
+   "source": "visir.is",
+   "author": "Jón Pétur Zimsen",
+   "date": "2026-04-04",
+   "summary": "Poseł Sjálfstæðisflokksins mówi, że rząd nie ufa narodowi na tyle, by przekazać mu właściwe informacje; w uzasadnieniu samego projektu uchwały parlamentarnej napisano, że negocjacje polegają na dostosowaniu się państwa kandydującego do zasad UE. Termin głosowania wybrano tak, by zminimalizować debatę.",
+   "args": [
+    "adlogun",
+    "spurning"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Czy państwa biednieją przez wejście do Unii Europejskiej?",
+   "url": "https://www.visir.is/g/20262864945d/verda-riki-fataek-af-thvi-ad-ganga-i-evropusambandid-",
+   "source": "visir.is",
+   "author": "Andrés Pétursson",
+   "date": "2026-04-04",
+   "summary": "Odrzuca argument, że Islandia straci na byciu płatnikiem netto: nowe państwa członkowskie doświadczyły szybkiego wzrostu gospodarczego (Rumunia +558% od 2004), a składki opierają się na udziale w produkcie narodowym. Islandzkie instytucje i samorządy mogłyby ubiegać się o znaczące dotacje infrastrukturalne, a doświadczenia z EOG pokazują, że więcej się otrzymuje z powrotem.",
+   "args": [
+    "kjor",
+    "byggd"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Sześć powodów, by powiedzieć TAK negocjacjom z UE",
+   "url": "https://www.visir.is/g/20262864961d/sex-astaedur-til-ad-segja-ja-vid-esb-vidraedum",
+   "source": "visir.is",
+   "author": "Þorvaldur Ingi Jónsson",
+   "date": "2026-04-04",
+   "summary": "Przedstawia sześć argumentów za TAK: naród powinien decydować, Islandia wcześniej podejmowała wielkie decyzje w trudnych czasach, unia celna daje ochronę w wojnach celnych, a korona kosztuje gospodarstwa domowe i firmy 170–270 miliardów rocznie w wyższych odsetkach. TAK w sierpniu nie oznacza członkostwa, lecz pozostawienie otwartych drzwi.",
+   "args": [
+    "kikja",
+    "lydraedi",
+    "oryggi",
+    "vextir"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Interesy partykularne czy dobro ogółu",
+   "url": "https://www.visir.is/g/20262865030d/serhagsmunir-eda-almannahagur",
+   "source": "visir.is",
+   "author": "Sigurður K Pálsson",
+   "date": "2026-04-04",
+   "summary": "Mówi, że politycy, którzy wcześniej domagali się referendum w sprawie UE, teraz walczą przeciw temu, by naród mógł zająć stanowisko. Istnieją silne powiązania między polityką a grupami interesu — sektorem rybołówstwa, bankami i spółkami nieruchomościowymi — które czerpią finansowe korzyści z wysokich stóp procentowych i indeksacji poza UE.",
+   "args": [
+    "lydraedi",
+    "vextir"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Chcesz wiedzieć?",
+   "url": "https://www.visir.is/g/20262865161d/viltu-vita-",
+   "source": "visir.is",
+   "author": "Gunnar Hólmsteinn Ársælsson",
+   "date": "2026-04-05",
+   "summary": "Przedstawia historię porozumienia EOG i zamrożenia negocjacji w 2013 roku oraz stwierdza, że żadne państwo członkowskie nie utraciło suwerenności, niepodległości ani zasobów. Chorwacja po akcesji i przyjęciu euro uzyskała znacznie niższe stopy procentowe i ogromny wzrost inwestycji; na Islandii stopy procentowe banku centralnego są najwyższe w krajach nordyckich.",
+   "args": [
+    "vextir",
+    "hraedslu",
+    "kikja"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Rozdzielić naród na pół",
+   "url": "https://www.visir.is/g/20262865715d/ad-kljufa-thjod-i-herdar-nidur",
+   "source": "visir.is",
+   "author": "Ingólfur Sverrisson",
+   "date": "2026-04-07",
+   "summary": "Twierdzi, że kompleks niższości wynikający z małej liczebności i braku wpływu nie sprawdziłby się w sporach o wody terytorialne i nie ma zastosowania także teraz. Naród jest podzielony: jedna połowa rozlicza się w euro lub dolarach, a druga jest zamknięta w gospodarce opartej na koronie, z wysokimi stopami procentowymi i ciężarem inflacji.",
+   "args": [
+    "vextir",
+    "ahrif"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Czy teraz ma się człowieka pozbawić suwerenności?",
+   "url": "https://www.visir.is/g/20262866196d/a-nu-ad-hafa-af-manni-fullveldid-",
+   "source": "visir.is",
+   "author": "Eiríkur Hjálmarsson",
+   "date": "2026-04-08",
+   "summary": "Krótki tekst, w którym autor mówi, że chce dostać umowę na stół, aby móc zająć świadome stanowisko jako suwerenny wyborca. To poważnie narusza jego suwerenność, gdy inni chcą decydować w jego imieniu, aby nigdy nie zobaczył, jak ten układ wygląda.",
+   "args": [
+    "kikja",
+    "lydraedi"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Strach przed NIE",
+   "url": "https://www.visir.is/g/20262866199d/ottinn-vid-nei-id",
+   "source": "visir.is",
+   "author": "Gunnar Ármannsson",
+   "date": "2026-04-08",
+   "summary": "Twierdzi, że większość rządowa przemawia do narodu z góry ze strachu przed NIE. Współpraca narodów europejskich jest dobra dzięki porozumieniu EOG i niezależnym umowom, ale nierozsądne byłoby wejście do UE i zrzeczenie się prawa do zawierania umów z państwami spoza Unii; przewodniczący Samfylkingarinnar miał wycofać się ze swoich słów.",
+   "args": [
+    "ees",
+    "umbod"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Mówią wbrew temu, co sama UE twierdzi",
+   "url": "https://www.visir.is/g/20262866266d/tala-thvert-a-thad-sem-esb-sjalft-segir",
+   "source": "visir.is",
+   "author": "Hjörtur J. Guðmundsson",
+   "date": "2026-04-09",
+   "summary": "Przywołuje dokumenty UE, z których wynika, że przyjęcie i wdrożenie dorobku prawnego stanowi podstawę negocjacji, a ich tempo zależy od dostosowania państwa kandydującego. To samo ma wynikać z uzasadnienia projektu uchwały parlamentarnej ministra spraw zagranicznych; TAK oznacza więc wieloletni proces dostosowawczy, a nie zwykłe negocjacje.",
+   "args": [
+    "adlogun"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Nie ma już negocjacji umowy - składa się jedynie wniosek o członkostwo",
+   "url": "https://www.visir.is/g/20262866451d/engar-samningavidraedur-lengur-einungis-sott-um-inngongu.",
+   "source": "visir.is",
+   "author": "Þollý Rósmundsdóttir",
+   "date": "2026-04-09",
+   "summary": "Twierdzi, że UE nie oferuje już negocjacji umowy takich jak te, które Norwegowie mieli kiedyś; obecnie państwa składają wniosek o członkostwo i stopniowo dostosowują się do dorobku prawnego. Z broszury UE i słów komisarza ds. rozszerzenia ma wynikać, że nie ma w ofercie trwałych wyjątków, a jedynie tymczasowe rozwiązania szczególne.",
+   "args": [
+    "spurning",
+    "adlogun",
+    "undanthagur"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Zatykać uszy palcami i nazywać to polityką",
+   "url": "https://www.visir.is/g/20262866658d/ad-setja-puttana-i-eyrun-og-kalla-thad-stefnu",
+   "source": "visir.is",
+   "author": "Óðinn Freyr Baldursson",
+   "date": "2026-04-09",
+   "summary": "Wskazuje, że nie ma prawnego obowiązku głosowania nad negocjacjami; głosowanie jest dodatkowym krokiem, mającym uczynić proces bardziej demokratycznym dzięki udziałowi narodu na obu etapach. Negocjacje nie są członkostwem, lecz sposobem na wyłożenie faktów na stół, a NIE zamroziłoby sprawę na wiele lat lub dekad.",
+   "args": [
+    "kikja",
+    "lydraedi",
+    "timagluggi"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Pozbawić cię suwerenności, Eiríkur??",
+   "url": "https://www.visir.is/g/20262867139d/hafa-af-ther-fullveldid-eirikur-",
+   "source": "visir.is",
+   "author": "Hjörtur J. Guðmundsson",
+   "date": "2026-04-11",
+   "summary": "Odpowiada na artykuł Eiríka Hjálmarssona i twierdzi, że zwolennicy Unii Europejskiej nie potrafią wyjaśnić, jakie informacje można uzyskać z traktatu akcesyjnego, których nie ma już teraz. Proces aplikacyjny jest wieloletni i kosztowny, a polega przede wszystkim na dostosowaniu do unijnego dorobku prawnego i administracji UE, zanim powstałaby umowa.",
+   "args": [
+    "adlogun",
+    "kostnadur"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Europa dla Islandczyków",
+   "url": "https://www.visir.is/g/20262867216d/evropa-fyrir-islendinga",
+   "source": "visir.is",
+   "author": "Ásgeir Þorgeirsson",
+   "date": "2026-04-10",
+   "summary": "Przygląda się sprawie z perspektywy domowego budżetu: wahania kursu korony, wyższe stopy procentowe i ograniczona konkurencja na małym rynku podnoszą codzienne koszty. Europejskie regulacje obniżyły koszty ponoszone przez konsumentów, na przykład przez zniesienie opłat roamingowych i ograniczenia opłat kartowych pobieranych przez banki.",
+   "args": [
+    "vextir",
+    "kjor"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Odwracanie uwagi w debacie o UE",
+   "url": "https://www.visir.is/g/20262867769d/afvegaleiding-umraedu-um-esb",
+   "source": "visir.is",
+   "author": "Sigurður Kristinn Pálsson",
+   "date": "2026-04-11",
+   "summary": "Twierdzi, że przeciwnicy zniekształcają pojęcie negocjacji akcesyjnych do postaci „negocjacji dostosowawczych” i opierają się na cytatach sprzed 15–17 lat, wyrwanych z kontekstu. Raporty sporządzone z inicjatywy Guðlaugura Þóra potwierdzają, że negocjacje akcesyjne nigdy nie zostały formalnie zerwane, a jedynie wstrzymane w 2013 roku.",
+   "args": [
+    "hraedslu",
+    "kikja"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Landskjörstjórn zgłasza zastrzeżenie do pytania",
+   "url": "https://www.visir.is/g/20262867819d/landskjorstjorn-gerir-athugasemd-vid-spurninguna",
+   "source": "visir.is",
+   "author": "Erna Bjarnadóttir",
+   "date": "2026-04-11",
+   "summary": "Wskazuje, że opinia Landskjörstjórn podtrzymuje jej wcześniejszą krytykę: sformułowanie „kontynuować negocjacje” opiera się na kontrowersyjnym założeniu i może wpływać na rozumienie wyborców. Jeśli pytanie trzeba zmienić co do istoty, to w praktyce prosi się naród o inny mandat niż ten, który pierwotnie zakładano.",
+   "args": [
+    "spurning"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Światło zgasło na śmietniku",
+   "url": "https://www.visir.is/g/20262868011d/ljosid-elt-ut-i-haug",
+   "source": "visir.is",
+   "author": "Sigurjón Njarðarson",
+   "date": "2026-04-12",
+   "summary": "Przytacza dokumenty Ministerstwa Spraw Zagranicznych z sierpnia 2025 roku, które potwierdzają, że wniosek akcesyjny z 2009 roku nigdy nie został formalnie wycofany; UE nigdy nie uznała pisma władz islandzkich za wycofanie. Krytykuje Björn Bjarnason i Gunnar Braga Sveinsson za twierdzenie czegoś innego.",
+   "args": [
+    "kikja"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Czy naprawdę nie mamy lepszego pożytku z pieniędzy?",
+   "url": "https://www.visir.is/g/20262868047d/hofum-vid-ekki-nog-vid-peningana-ad-gera-",
+   "source": "visir.is",
+   "author": "Þollý Rósmundsdóttir",
+   "date": "2026-04-13",
+   "summary": "Pyta, nad czym właściwie ma się odbyć głosowanie, skoro premier twierdzi, że nie chodzi o głosowanie nad przystąpieniem; negocjacje akcesyjne dotyczą dostosowania całego ustawodawstwa do UE, a trwałych wyjątków w sprawach rybołówstwa i rolnictwa nie da się uzyskać. Koszt „zaglądania do pakietu” sięga setek milionów, które lepiej byłoby wykorzystać w kraju.",
+   "args": [
+    "spurning",
+    "adlogun",
+    "undanthagur",
+    "kostnadur"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Sólveig Anna o sytuacji pracowników w UE i poza nią",
+   "url": "https://www.visir.is/g/20262868912d/solveig-anna-um-stodu-verkafolks-innan-eda-utan-esb",
+   "source": "visir.is",
+   "author": "Þorvaldur Ingi Jónsson",
+   "date": "2026-04-14",
+   "summary": "Odpowiada przewodniczącej Efling i twierdzi, że islandzki system rynku pracy nadal funkcjonowałby w UE, tak jak w Danii i Szwecji; UE ustanawia jedynie minimalne regulacje. Islandia już teraz stosuje europejskie przepisy rynku pracy poprzez EOG, nie mając wpływu na ich kształt, a stabilność waluty i stóp procentowych daje pracownikom bezpieczeństwo zatrudnienia i lepsze warunki.",
+   "args": [
+    "ahrif",
+    "kjor",
+    "kikja"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "W interesie gospodarstw domowych… poza UE",
+   "url": "https://www.visir.is/g/20262869532d/i-thagu-heimilanna-utan-esb",
+   "source": "visir.is",
+   "author": "Hnikarr Bjarmi Franklínsson",
+   "date": "2026-04-15",
+   "summary": "Wskazuje, że UE ostrzegła Polskę i Hiszpanię, iż obniżenie podatku VAT na paliwo naruszałoby prawo europejskie; podobny środek antyinflacyjny islandzkiego rządu zostałby więc w UE zablokowany. Interesy Unii zawsze mają pierwszeństwo przed interesami mieszkańców poszczególnych państw.",
+   "args": [
+    "fullveldi"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Interesy pracowników najemnych a Unia Europejska",
+   "url": "https://www.visir.is/g/20262869904d/hagsmunir-launafolks-og-evropusambandid",
+   "source": "visir.is",
+   "author": "Hjörtur J. Guðmundsson",
+   "date": "2026-04-16",
+   "summary": "Twierdzi, że UE cechują trwałe bezrobocie i stagnacja, a polityka stałego kursu euro przenosi wahania na poziom zatrudnienia. UE przyjęła w 2022 roku dyrektywę o płacy minimalnej mimo protestów rządów Danii i Szwecji oraz związków zawodowych, a Trybunał Unii oddalił wniosek o stwierdzenie jej nieważności.",
+   "args": [
+    "efnahagur",
+    "evra",
+    "ahrifaleysi"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Cele negocjacyjne Islandii nie mogą być tajemnicą",
+   "url": "https://www.visir.is/g/20262870109d/samningsmarkmid-islands-mega-ekki-vera-leyndarmal",
+   "source": "visir.is",
+   "author": "Júlíus Valsson",
+   "date": "2026-04-16",
+   "summary": "Przedstawia cele negocjacyjne Islandii z 2010 roku i twierdzi, że były one sprzeczne z zasadami UE: wspólna polityka rybołówstwa przyznaje Unii wyłączne kompetencje w zakresie ochrony zasobów biologicznych morza zgodnie z art. 3 TFUE, a ochrona celna rolnictwa nie da się pogodzić ze wspólnym rynkiem. Chodziło więc o systemowy konflikt, a nie o drobną adaptację.",
+   "args": [
+    "sjavarutvegur",
+    "landbunadur",
+    "fullveldi"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Czy Islandczycy zostaną wezwani do europejskiej armii?",
+   "url": "https://www.visir.is/g/20262870482d/verda-islendingar-kvaddir-i-evropskan-her-",
+   "source": "visir.is",
+   "author": "Steinar Logi Hafsteinsson",
+   "date": "2026-04-17",
+   "summary": "Odrzuca twierdzenia, jakoby Islandczycy mieli zostać wcieleni do europejskiej armii: art. 42 traktatu szanuje konstytucyjną specyfikę państw, a zobowiązania wobec NATO mają pierwszeństwo; utworzenie armii wymagałoby jednomyślnej zgody. W ostatnich negocjacjach rozdział dotyczący obronności został otwarty i zamknięty przy założeniu, że Islandia pozostanie państwem bez armii.",
+   "args": [
+    "hraedslu"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Dostosowanie Islandii do UE: trzy różne ścieżki",
+   "url": "https://www.visir.is/g/20262870571d/adlogun-islands-ad-esb-thrir-olikir-farvegir",
+   "source": "visir.is",
+   "author": "Elvar Örn Arason",
+   "date": "2026-04-17",
+   "summary": "Analizuje relacje Islandii z UE w trzech wymiarach: wdrażanie EOG bez udziału w podejmowaniu decyzji, dobrowolną współpracę taką jak Schengen oraz proces akcesyjny ze wsparciem IPA. Islandia dostosowuje się do regulacji UE od ponad trzech dekad, a referendum dotyczy tego, na jakich warunkach współpraca ma być kontynuowana.",
+   "args": [
+    "ahrif",
+    "kikja"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "W skrócie: mylące mówienie o negocjacjach dostosowawczych",
+   "url": "https://www.visir.is/g/20262870766d/i-stuttu-mali-villandi-tal-um-adlogunarvidraedur",
+   "source": "visir.is",
+   "author": "Dagur B. Eggertsson",
+   "date": "2026-04-17",
+   "summary": "Poseł Samfylkingin twierdzi, że mówienie o dostosowaniu jest mylące: w raporcie o postępach negocjacji z kwietnia 2013 roku stwierdzono, że strony uzgodniły, iż Islandia nie będzie wprowadzać zmian w instytucjach ani ustawodawstwie przed zakończeniem referendum w sprawie przyjętej umowy.",
+   "args": [
+    "hraedslu",
+    "kikja"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Suwerenność czy UE: kto zapłaci rachunki gospodarstwa domowego?",
+   "url": "https://www.visir.is/g/20262870967d/fullveldi-eda-esb-hver-greidir-heimilisreikninginn-",
+   "source": "visir.is",
+   "author": "Sigurður Árni Reynisson",
+   "date": "2026-04-18",
+   "summary": "Twierdzi, że świadome społeczeństwo ma obowiązek zbadać warunki traktatu akcesyjnego przed zajęciem stanowiska; nie jest to ani oznaka słabości, ani zrzeczenie się suwerenności. Sprzeciw ma źródło raczej w utraconym zaufaniu do klasy politycznej i przepaści między stolicą a prowincją niż w samej treści sprawy.",
+   "args": [
+    "kikja"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Jak to wytrzymuje konfrontację z faktami, Dagur?",
+   "url": "https://www.visir.is/g/20262871089d/hvernig-stenzt-thetta-skodun-dagur-",
+   "source": "visir.is",
+   "author": "Hjörtur J. Guðmundsson",
+   "date": "2026-04-19",
+   "summary": "Odpowiada Degi B. Eggertssynowi i twierdzi, że nie da się obronić tez, jakoby żadna adaptacja nie była potrzebna aż do czasu po referendum: w komunikacie prasowym UE z grudnia 2012 r. stwierdzono, że Islandia musi nadal wykazywać postępy w dostosowaniu i wdrażaniu acquis, między innymi w rozdziałach poza EOG.",
+   "args": [
+    "adlogun"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "30 lat dostosowywania bez wpływu",
+   "url": "https://www.visir.is/g/20262871111d/30-ara-adlogun-an-ahrifa",
+   "source": "visir.is",
+   "author": "Ingólfur Sverrisson",
+   "date": "2026-04-18",
+   "summary": "Twierdzi, że Islandia od 30 lat dostosowuje się do przepisów UE bez jakiegokolwiek udziału w ich kształtowaniu, a katastroficzne prognozy dotyczące EOG okazały się przesadzone. Zasada względnej stabilności ma gwarantować historyczne uprawnienia połowowe, a komisarz UE ds. rybołówstwa potwierdził liczne przykłady uwzględniania szczególnych cech państw kandydujących.",
+   "args": [
+    "ahrif",
+    "hraedslu",
+    "serlausnir"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "To mówi protokół UE z 18 grudnia 2012 r. o dostosowaniu",
+   "url": "https://www.visir.is/g/20262871408d/thetta-segir-fundargerd-esb-fra-18.-desember-2012-um-adlogun",
+   "source": "visir.is",
+   "author": "Erna Bjarnadóttir",
+   "date": "2026-04-19",
+   "summary": "Przytacza protokół Rady UE z grudnia 2012 r., z którego wynika, że postęp negocjacji Islandii zależał od postępów w dostosowaniu do acquis; wymogi dotyczące zmian ustawowych i zdolności administracyjnych w dziedzinie podatków, spraw monetarnych i polityki regionalnej miały zastosowanie w trakcie negocjacji, a nie dopiero po zawarciu umowy końcowej.",
+   "args": [
+    "adlogun"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Doskonały (europejski) związek",
+   "url": "https://www.visir.is/g/20262871526d/hid-fullkomna-evropu-samband",
+   "source": "visir.is",
+   "author": "Sveinn Atli Gunnarsson",
+   "date": "2026-04-20",
+   "summary": "Porównuje sprzeciw wobec UE do postaci z Seinfelda, które zrywają związki z powodu drobiazgów; pogłoski o krzywiźnie ogórków i władzy Brukseli nie powinny kosztować bezpieczeństwa, stabilności i niższych cen towarów. Brexit pokazuje żal po decyzji napędzanej chaosem informacyjnym.",
+   "args": [
+    "hraedslu",
+    "oryggi",
+    "kjor"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Dostosowanie jest częścią procesu akcesyjnego",
+   "url": "https://www.visir.is/g/20262872184d/adlogun-er-hluti-af-adildarferlinu",
+   "source": "visir.is",
+   "author": "Erna Bjarnadóttir",
+   "date": "2026-04-21",
+   "summary": "Twierdzi, że wniosek złożony na podstawie art. 49 traktatu oznacza wejście do Unii z obowiązującym acquis oraz że raporty screeningowe wymagają dostosowania prawnego w czasie trwania negocjacji. W negocjacjach z lat 2009–2013 rozdziały dotyczące rolnictwa i polityki regionalnej nigdy nie zostały otwarte, a fundusze IPA kierowano na dostosowanie administracji.",
+   "args": [
+    "adlogun",
+    "undanthagur"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Może być stare, jeśli mi to pasuje",
+   "url": "https://www.visir.is/g/20262872631d/ma-vera-gamalt-ef-thad-hentar-mer",
+   "source": "visir.is",
+   "author": "Hjörtur J. Guðmundsson",
+   "date": "2026-04-22",
+   "summary": "Twierdzi, że pojęcie negocjacji dostosowawczych lepiej opisuje ten proces niż negocjacje akcesyjne, i cytuje komisarza UE ds. rozszerzenia, według którego proces ten w dużej mierze dotyczy dostosowania ustawodawstwa państwa kandydującego. Jego krytyk sam odwołuje się do starszych źródeł niż te, na które narzeka.",
+   "args": [
+    "adlogun",
+    "spurning"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Rzetelny wniosek Komisji Weneckiej",
+   "url": "https://www.visir.is/g/20262873006d/vondud-nidurstada-feneyjanefndarinnar",
+   "source": "visir.is",
+   "author": "Pawel Bartoszek",
+   "date": "2026-04-22",
+   "summary": "Przewodniczący komisji spraw zagranicznych mówi, że opinia Komisji Weneckiej potwierdza, iż sposób przeprowadzenia głosowania jest zgodny ze standardami europejskimi; głosowanie dotyczy kontynuacji procesu negocjacyjnego, a nie przystąpienia, a ostateczny wynik zostałby poddany pod głosowanie narodu w drugim referendum.",
+   "args": [
+    "kikja",
+    "lydraedi"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "„Więcej szczęścia jest w dawaniu aniżeli w braniu” – Co możemy wnieść w ramach UE?",
+   "url": "https://www.visir.is/g/20262874329d/-saella-er-ad-gefa-en-thiggja-hvad-getum-vid-lagt-til-innan-esb-",
+   "source": "visir.is",
+   "author": "Þorvaldur Ingi Jónsson",
+   "date": "2026-04-26",
+   "summary": "Pyta, co Islandia może wnieść do UE: kulturę, tradycję pokojową, równość, edukację i wiedzę o zrównoważonym wykorzystaniu zasobów morskich. Dobre umowy zapewniłyby bezpieczeństwo, swobodę handlu i porównywalny wzrost, a głos małego narodu może mieć duże znaczenie.",
+   "args": [
+    "gildi",
+    "ahrif"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Rybołówstwo, bezpieczeństwo żywnościowe i rozwój sytuacji na świecie",
+   "url": "https://www.visir.is/g/20262874557d/sjavarutvegur-faeduoryggi-og-throun-heimsmala",
+   "source": "visir.is",
+   "author": "Þollý Rósmundsdóttir",
+   "date": "2026-04-27",
+   "summary": "Twierdzi, że UE potwierdziła, iż w rybołówstwie dostępne są wyłącznie tymczasowe rozwiązania szczególne, które nie zmieniają faktu, że władza przeszłaby na Unię. Rybołówstwo jest drugim największym filarem eksportu i życiodajną siłą regionów, a rosnący na świecie nacisk na bezpieczeństwo żywnościowe jeszcze bardziej zwiększa jego znaczenie.",
+   "args": [
+    "sjavarutvegur",
+    "undanthagur",
+    "efnahagur"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Świadome wprowadzanie w błąd i chaos informacyjny wokół suwerenności",
+   "url": "https://www.visir.is/g/20262874800d/medvitud-blekking-um-og-upplysingaoreida-um-fullveldid",
+   "source": "visir.is",
+   "author": "Kristinn Karl Brynjarsson",
+   "date": "2026-04-27",
+   "summary": "Przewodniczący Verkalýðsráð Sjálfstæðisflokksins mówi, że twierdzenia, jakoby Islandia wdrożyła aż 80% acquis UE, są wprowadzaniem w błąd; według raportu Gengið til góðs odsetek ten wynosi 13,4%. Procedury UE zmieniły się od czasu Norwegów, a rzeczywiste dostosowanie odbywa się teraz na bieżąco w trakcie procesu.",
+   "args": [
+    "fullveldi",
+    "adlogun"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Mówmy głośno i z dumą o pokoju, powiedzmy nie militaryzacji",
+   "url": "https://www.visir.is/g/20262875268d/tolum-hatt-og-stolt-um-frid-segjum-nei-vid-hervaedingunni",
+   "source": "visir.is",
+   "author": "Guðmunda G. Guðmundsdóttir",
+   "date": "2026-04-28",
+   "summary": "Twierdzi, że UE podąża drogą militaryzacji, i ostrzega przed „wojskowym Schengen” – projektem rozporządzenia z listopada 2025 r. dotyczącym szybkiego przemieszczania żołnierzy i sprzętu wojskowego w obrębie Unii. Islandia powinna zachować własny głos na rzecz pokoju i nie przyjmować polityki zagranicznej UE.",
+   "args": [
+    "hervaeding"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Grzechotanie starym Land Cruiserem w referendum",
+   "url": "https://www.visir.is/g/20262876163d/skrolt-a-gomlum-land-cruiser-i-thjodaratkvaedagreidslu",
+   "source": "visir.is",
+   "author": "Bjarki Fjalar Guðjónsson",
+   "date": "2026-04-30",
+   "summary": "Porównuje głos na nie do rezygnacji z obejrzenia wymarzonego samochodu ze strachu przed możliwymi wadami i tym samym utraty szansy. Głosowanie dotyczy negocjacji, a nie członkostwa; naród otrzyma umowę do rąk i powie tak lub nie w późniejszym głosowaniu, natomiast nie oznacza utraconą szansę, która już nie wróci.",
+   "args": [
+    "kikja",
+    "timagluggi",
+    "hraedslu"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Ocena skutków; Co członkostwo oznaczałoby dla przeciętnego Islandczyka",
+   "url": "https://www.visir.is/g/20262876424d/ahrifamat-hvad-adild-myndi-thyda-fyrir-hinn-almenna-islending",
+   "source": "visir.is",
+   "author": "Matthías Ólafsson og Cailean Macleod",
+   "date": "2026-04-30",
+   "summary": "Autorzy mający doświadczenie w reprezentowaniu interesów w Brukseli przedstawiają ocenę skutków dla niezdecydowanych wyborców: przyjęcie euro obniżyłoby oprocentowanie kredytów mieszkaniowych o 200–300 punktów bazowych i mogłoby zwiększyć handel międzynarodowy nawet o 60%, choć korona historycznie służyła jako amortyzator wstrząsów.",
+   "args": [
+    "vextir",
+    "kjor"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Kiedy strach staje się argumentem",
+   "url": "https://www.visir.is/g/20262876457d/thegar-ottinn-verdur-ad-roksemd",
+   "source": "visir.is",
+   "author": "Gunnar Ármannsson",
+   "date": "2026-04-30",
+   "summary": "Oskarża zwolenników Unii Europejskiej o rządzenie strachem: mówi się, że Islandia stoi na krawędzi zagłady, jeśli nie powie tak. Same państwa członkowskie UE zmagają się z problemami zadłużenia, powolnym wzrostem gospodarczym i napięciami wewnętrznymi, a pomysły przekształcenia Unii w państwo federalne są przedstawiane przez wpływowe osoby w jej ramach.",
+   "args": [
+    "efnahagur",
+    "fullveldi"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Niższe stopy procentowe to KLUCZOWA SPRAWA",
+   "url": "https://www.visir.is/g/20262876469d/laegri-vextir-eru-stora-malid",
+   "source": "visir.is",
+   "author": "Dagur B. Eggertsson",
+   "date": "2026-04-30",
+   "summary": "Porównuje obciążenie spłatą: przy kredycie w wysokości 60 milionów koron na 25 lat miesięczne raty wynoszą 509 tysięcy przy stopach korony, a 293 tysiące przy stopach euro, zaś łączne spłaty 152 wobec 88 milionów. Wykonawcy płacą około czterokrotnie wyższe koszty finansowania w okresie budowy w porównaniu ze strefą euro.",
+   "args": [
+    "vextir",
+    "taekifaeri"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Dlaczego stopy procentowe są niskie, Dagur?",
+   "url": "https://www.visir.is/g/20262876742d/hvers-vegna-eru-vextirnir-lagir-dagur-",
+   "source": "visir.is",
+   "author": "Hjörtur J. Guðmundsson",
+   "date": "2026-05-01",
+   "summary": "Twierdzi, że główną przyczyną inflacji i stóp procentowych jest niedobór działek w Reykjavíku pod rządami Dags, a nie korona, i powołuje się na Gylfi Magnússon, według którego większe znaczenie mają ramy systemowe niż waluta. Aby przyjąć euro, należałoby najpierw obniżyć inflację i stopy procentowe, a niskie stopy w strefie euro wynikają ze stagnacji gospodarczej.",
+   "args": [
+    "evra",
+    "efnahagur"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Kiedy wniosek pojawia się przed analizą",
+   "url": "https://www.visir.is/g/20262877691d/thegar-nidurstadan-kemur-a-undan-greiningunni",
+   "source": "visir.is",
+   "author": "Erna Bjarnadóttir",
+   "date": "2026-05-03",
+   "summary": "Krytykuje „ocenę skutków” Matthíasa Ólafssona i Caileana Macleod i twierdzi, że wynik był z góry przesądzony: produkty zbożowe już teraz są bezcłowe w imporcie do Islandii, a po przystąpieniu cła zostałyby nałożone na towary z państw trzecich, takich jak Stany Zjednoczone. Twierdzenia o spadku cen żywności przedstawiane są bez liczbowego uzasadnienia.",
+   "args": [
+    "landbunadur"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Samorządy w Islandii i Unia Europejska",
+   "url": "https://www.visir.is/g/20262878297d/sveitarfelog-a-islandi-og-evropusambandid",
+   "source": "visir.is",
+   "author": "Eiríkur Björn Björgvinsson",
+   "date": "2026-05-05",
+   "summary": "Poseł Viðreisn twierdzi, że członkostwo może wzmocnić samorządy: dostęp do funduszy grantowych i rozwojowych UE na rozbudowę infrastruktury, projekty środowiskowe i innowacje, a także niższe stopy procentowe i stabilniejsza waluta. Europejskie fundusze regionalne mogłyby stworzyć miejsca pracy na obszarach wiejskich i ograniczyć depopulację.",
+   "args": [
+    "byggd",
+    "vextir"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Kiedy kontynuacja staje się krokiem wstecz",
+   "url": "https://www.visir.is/g/20262878579d/thegar-aframhald-verdur-bakslag",
+   "source": "visir.is",
+   "author": "Júlíus Valsson",
+   "date": "2026-05-05",
+   "summary": "Porównuje UE do upadku Cesarstwa Rzymskiego: rosnący ciężar regulacji, gospodarcze zmęczenie w Niemczech i Francji, polityczne podziały oraz kosztowna militaryzacja. Referendum w sprawie „kontynuacji negocjacji” ujawnia słabości samego procesu.",
+   "args": [
+    "efnahagur",
+    "spurning"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Pochodziłyby z naszych własnych kieszeni",
+   "url": "https://www.visir.is/g/20262878791d/kaemu-ur-okkar-eigin-vosum",
+   "source": "visir.is",
+   "author": "Hjörtur J. Guðmundsson",
+   "date": "2026-05-06",
+   "summary": "Wskazuje, że przewodniczący komisji spraw zagranicznych przyznał, iż Islandia byłaby płatnikiem netto do funduszy UE; różnica wynosiłaby kilka miliardów koron rocznie. Dotacje dla samorządów pochodziłyby więc w rzeczywistości z własnych kieszeni mieszkańców kraju i rozsądniej byłoby przeznaczyć te środki na rozwój wewnętrzny.",
+   "args": [
+    "kostnadur"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Czy pominięto parlament i naród?",
+   "url": "https://www.visir.is/g/20262878996d/farid-a-bak-vid-thing-og-thjod-",
+   "source": "visir.is",
+   "author": "Erna Bjarnadóttir",
+   "date": "2026-05-06",
+   "summary": "Przedstawia materiały dla komisji spraw zagranicznych, które mają pokazywać, że minister spraw zagranicznych rozpoczął rozmowy z decydentami UE o nowym procesie akcesyjnym już w styczniu 2025 roku, na długo przed tym, jak sprawa trafiła do Alþingi w marcu 2026 roku. Pyta, czy nową praktyką rządzenia jest przygotowywanie wielkich spraw w rozmowach z podmiotami zagranicznymi, zanim parlament i naród otrzymają je do rozpatrzenia.",
+   "args": [
+    "umbod"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Islandia ma stać się częścią europejskiego państwa federalnego",
+   "url": "https://www.visir.is/g/20262880699d/island-verdi-hluti-af-evropsku-sambandsriki",
+   "source": "visir.is",
+   "author": "Hjörtur J. Guðmundsson",
+   "date": "2026-05-09",
+   "summary": "Przywołuje deklarację Schumana i twierdzi, że celem ostatecznym jest europejskie państwo federalne; główne instytucje UE mają charakter federalistyczny, a Evrópuhreyfingin jest członkiem European Movement International, którego głównym celem ma być państwo federalne. Guy Verhofstadt miał na kongresie krajowym Viðreisn powiedzieć, że UE musi stać się imperium.",
+   "args": [
+    "fullveldi"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Czy brzmienie pytania ukształtowano w Brukseli?",
+   "url": "https://www.visir.is/g/20262884034d/var-ordalag-spurningarinnar-motad-i-brussel-",
+   "source": "visir.is",
+   "author": "Erna Bjarnadóttir",
+   "date": "2026-05-15",
+   "summary": "Omawia raport służby badawczej Parlamentu Europejskiego ze stycznia 2026 roku, w którym szczególnie mowa jest o znaczeniu sposobu sformułowania pytania w referendum oraz o traktowaniu islandzkiego wniosku jako żywego procesu, który nigdy nie został wycofany. Pyta, czy chodzi o ingerencję w debatę polityczną na Islandii.",
+   "args": [
+    "spurning",
+    "umbod"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Współpraca międzynarodowa jest dla Islandczyków koniecznością życiową",
+   "url": "https://www.visir.is/g/20262885444d/althjodasamstarf-er-islendingum-lifsnaudsynlegt",
+   "source": "visir.is",
+   "author": "Haraldur Ólafsson",
+   "date": "2026-05-18",
+   "summary": "Przewodniczący Heimssýn odrzuca pogląd, że osoby sceptyczne wobec członkostwa w UE są przeciwne współpracy międzynarodowej; wolny handel ze światem zewnętrznym jest dla Islandczyków koniecznością życiową. Po przystąpieniu Islandia utraciłaby część swojej siły negocjacyjnej, ponieważ UE prowadziłaby w imieniu wszystkich państw członkowskich umowy handlowe z państwami spoza Unii.",
+   "args": [
+    "ees",
+    "fullveldi"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Pytanie zmieniono – ale nie przesłanki",
+   "url": "https://www.visir.is/g/20262885971d/spurningunni-breytt-en-ekki-forsendunum",
+   "source": "visir.is",
+   "author": "Erna Bjarnadóttir",
+   "date": "2026-05-19",
+   "summary": "Brzmienie pytania zmieniono na „ponownie rozpocząć negocjacje” po krytyce ze strony Komisji Weneckiej, Landskjörstjórnar i Carla Baudenbachera. Opinia większości komisji spraw zagranicznych nadal jednak opiera się na założeniu, że wniosek z 2009 roku „wciąż obowiązuje” i że należy kontynuować negocjacje. Islandia została jednak usunięta ze wszystkich oficjalnych list UE państw kandydujących.",
+   "args": [
+    "spurning"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Kto rządzi na Morzu Barentsa?",
+   "url": "https://www.visir.is/g/20262886342d/hver-raedur-i-barentshafi-",
+   "source": "visir.is",
+   "author": "Hreinn Loftsson",
+   "date": "2026-05-20",
+   "summary": "UE naciskała na Norwegów, by ograniczyli współpracę z Rosjanami w zakresie rybołówstwa na Morzu Barentsa, ale Norwegowie trzymają się swojej suwerenności jako państwo nadbrzeżne. Ochrona biologicznych zasobów morza należy do wyłącznych kompetencji UE, a publikacje naukowe potwierdzają, że w rybołówstwie nie uzyskano żadnych trwałych wyjątków. To wyjaśnia, dlaczego Norwegia odrzuciła członkostwo w 1994 roku.",
+   "args": [
+    "sjavarutvegur",
+    "undanthagur",
+    "nagrannar"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Ólafur Ragnar i piłka ręczna",
+   "url": "https://www.visir.is/g/20262886438d/olafur-ragnar-og-handboltinn",
+   "source": "visir.is",
+   "author": "Diljá Mist Einarsdóttir",
+   "date": "2026-05-20",
+   "summary": "Poseł Sjálfstæðisflokksins odwołuje się do wywiadu z Ólafur Ragnar Grímsson, w którym ten ostrzega przed „gorączkowym pośpiechem” w polityce zagranicznej. Rząd nienaturalnie się spieszy w sprawie UE, a Alþingi otrzymuje tylko cztery dni na debatę. Islandia osiągnęła wyjątkowe sukcesy gospodarcze dzięki swojej niezależności.",
+   "args": [
+    "umbod",
+    "efnahagur"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Właśnie tak, doprawdy znakomita obrona",
+   "url": "https://www.visir.is/g/20262886478d/einmitt-alveg-hreint-storkostleg-vorn",
+   "source": "visir.is",
+   "author": "Hjörtur J. Guðmundsson",
+   "date": "2026-05-20",
+   "summary": "Islandia stałaby się płatnikiem netto do funduszy UE i otrzymywałaby z powrotem mniej, niż wpłacała, w tym w ramach wsparcia regionalnego i dopłat rolnych. Niskie stopy procentowe w strefie euro mają być przejawem stagnacji gospodarczej. W wojnie celnej UE uzyskała od Stanów Zjednoczonych gorsze warunki niż Islandia i musiała ustąpić.",
+   "args": [
+    "kostnadur",
+    "evra",
+    "efnahagur"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Gdzie Islandia jest przedstawiana jako państwo kandydujące?",
+   "url": "https://www.visir.is/g/20262886483d/hvar-er-island-kynnt-sem-umsoknarriki-",
+   "source": "visir.is",
+   "author": "Erna Bjarnadóttir",
+   "date": "2026-05-20",
+   "summary": "W konkluzjach Rady UE z czerwca 2024 roku Islandia jest wielokrotnie wymieniana jako państwo EOG i Schengen, ale nigdzie nie jest przedstawiana jako państwo kandydujące ani jako część procesu rozszerzenia. Ma to stać w sprzeczności z twierdzeniami władz, że wniosek z 2009 roku wciąż obowiązuje. Dokument stwierdza ponadto, że państwa spoza UE nie mogą korzystać z tych samych praw co państwa członkowskie bez przyjęcia tych samych zobowiązań.",
+   "args": [
+    "spurning",
+    "undanthagur"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Islandzcy żołnierze?",
+   "url": "https://www.visir.is/g/20262886668d/islenskir-hermenn-",
+   "source": "visir.is",
+   "author": "Jón Pétur Zimsen",
+   "date": "2026-05-21",
+   "summary": "Poseł zwraca uwagę, że środowisko bezpieczeństwa w Europie ulega zasadniczej zmianie: państwa rozbudowują armie, przywracają pobór, a art. 42.7 Traktatu z Lizbony zobowiązuje państwa członkowskie do wzajemnej obrony. W UE istnieją plany własnych sił zbrojnych, a wysoki przedstawiciel Unii do spraw zagranicznych wezwał do utworzenia stałej armii liczącej 100 tysięcy żołnierzy. Nic nie gwarantuje, że Islandczycy nie zostaliby powołani do ewentualnej armii UE, a pozycja Islandii jest silna dzięki umowie obronnej ze Stanami Zjednoczonymi i członkostwu w NATO.",
+   "args": [
+    "hervaeding"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Możecie nam bezpiecznie zaufać",
+   "url": "https://www.visir.is/g/20262886692d/ykkur-er-ohaett-ad-treysta-okkur",
+   "source": "visir.is",
+   "author": "Jón Steindór Valdimarsson",
+   "date": "2026-05-20",
+   "summary": "Każdemu wyborcy można w pełni zaufać, że odpowie na proste pytanie, czy należy wznowić negocjacje akcesyjne. Zmieniona sytuacja międzynarodowa i pogarszające się reguły stosunków międzynarodowych dla małych państw wymagają ponownej oceny pozycji Islandii. Wartości UE dotyczące godności człowieka, wolności, demokracji i państwa prawa są tymi samymi wartościami, na których opiera się islandzkie społeczeństwo.",
+   "args": [
+    "lydraedi",
+    "gildi",
+    "oryggi"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "To ludzie zdecydują o kierunku",
+   "url": "https://www.visir.is/g/20262887195d/folkid-faer-ad-rada-for",
+   "source": "visir.is",
+   "author": "Kolbrún Áslaugar Baldursdóttir",
+   "date": "2026-05-22",
+   "summary": "Posłanka Flokks fólksins mówi, że niedorzecznością byłoby, aby naród zajmował stanowisko w sprawie członkostwa już teraz, kiedy nie są jeszcze znane wyniki negocjacji; zapowiedziano dwa referenda ogólnokrajowe, a naród będzie miał ostatnie słowo w sprawie umowy. Wzywa posłów, by nie zaciemniali debaty błędnym twierdzeniem, że negocjacje oznaczają członkostwo.",
+   "args": [
+    "lydraedi",
+    "kikja"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Dagur i Diljá – wyrok zapadł",
+   "url": "https://www.visir.is/g/20262887955d/dagur-og-dilja-domur-er-fallinn",
+   "source": "visir.is",
+   "author": "Halldór Jörgen Olesen",
+   "date": "2026-05-23",
+   "summary": "Redaktor Verðbólguvaktarinnar wylicza, że twierdzenie Dags B. Eggertssonar o 100 miliardach rocznych kosztów odsetkowych gospodarstw domowych z powodu korony islandzkiej jest raczej niedoszacowane niż przeszacowane; przy 2.896 miliardach zadłużenia mieszkaniowego i różnicy oprocentowania wynoszącej 6,5–7 punktów procentowych koszt ten mógłby wynosić 188 miliardów. Bezrobocie na Islandii nie jest już niższe niż w strefie euro, a koszty mieszkaniowe są wyższe od średniej UE.",
+   "args": [
+    "vextir"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Chorwaci i korzyści z członkostwa w UE",
+   "url": "https://www.visir.is/g/20262887960d/kroatar-og-avextir-esb-adildar",
+   "source": "visir.is",
+   "author": "Gunnar Hólmsteinn Ársælsson",
+   "date": "2026-05-23",
+   "summary": "Politolog przedstawia doświadczenia Chorwacji od momentu akcesji w 2013 roku: kraj wpłacił około 5,2 miliarda euro składek członkowskich, ale otrzymał około 30 miliardów w dotacjach i inwestycjach zagranicznych. PKB na mieszkańca podwoił się, eksport wzrósł nawet o 70%, a bezrobocie spadło z 18% do 6%.",
+   "args": [
+    "byggd",
+    "kjor"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Najpierw informacje i stabilność, potem można głosować",
+   "url": "https://www.visir.is/g/20262887999d/fyrst-upplysingar-og-stodugleiki-svo-ma-kjosa",
+   "source": "visir.is",
+   "author": "Þórarinn Ingi Pétursson",
+   "date": "2026-05-23",
+   "summary": "Poseł Framsóknar mówi, że to oczywiste, iż naród powinien móc głosować, ale głosowanie musi opierać się na bezstronnych i przejrzystych informacjach, których nie przedstawia się w pośpiechu tuż przed dniem wyborów. Debata o planie finansowym rządu tonie w hałasie wokół UE, podczas gdy stopy procentowe rosną, a sytuacja gospodarstw domowych i firm się pogarsza.",
+   "args": [
+    "umbod"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Co zrobiłbyś z dodatkowym milionem rocznie?",
+   "url": "https://www.visir.is/g/20262888004d/hvad-myndir-thu-gera-vid-auka-milljon-a-ari-",
+   "source": "visir.is",
+   "author": "Ása Berglind Hjálmarsdóttir",
+   "date": "2026-05-23",
+   "summary": "Posłanka wskazuje, że różnica oprocentowania związana z koroną islandzką mogłaby oznaczać od jednego do dwóch milionów koron niższych rocznych płatności odsetkowych dla przeciętnej rodziny z kredytem mieszkaniowym w wysokości 40 milionów. Duże firmy rozliczają się w walutach obcych przy niższym oprocentowaniu, podczas gdy zwykli ludzie zostają z koroną. Kontrargumenty przypominają straszenie przeciwko EOG w swoim czasie, a rozpoczęcie negocjacji nie jest równoznaczne z przystąpieniem.",
+   "args": [
+    "vextir",
+    "hraedslu",
+    "kikja"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Energia wiatrowa – nowa bańka finansowa w państwach UE?",
+   "url": "https://www.visir.is/g/20262888014d/vindorkan-ny-fjarmalabola-i-rikjum-esb-",
+   "source": "visir.is",
+   "author": "Júlíus Valsson",
+   "date": "2026-05-23",
+   "summary": "Przepisy UE, m.in. dyrektywa RED III, sprzyjają szybkiemu rozwojowi farm wiatrowych, które okazały się finansowo nieopłacalne; w Finlandii wartość rynkowa energii wiatrowej spadła od 2019 roku o połowę, a fundusze emerytalne poniosły straty na tych projektach. Islandia dysponuje już wystarczającą ilością czystej energii z hydroenergetyki i geotermii, a szeroko zakrojona rozbudowa energetyki wiatrowej uszczupliłaby obszary dzikiej przyrody kraju.",
+   "args": [
+    "kostnadur"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Nie przewidział, że to my zapłacimy rachunek",
+   "url": "https://www.visir.is/g/20262888153d/gat-thess-ekki-ad-vid-myndum-borga-brusann",
+   "source": "visir.is",
+   "author": "Hjörtur J. Guðmundsson",
+   "date": "2026-05-24",
+   "summary": "Chorwacja otrzymała od UE około 20 miliardów euro więcej, niż do niej wpłaciła, podczas gdy Islandia byłaby przeciwnie w grupie płatników netto finansujących takie transfery. Państwa, które wpłacają więcej, niż dostają z powrotem, stanowią wyraźną mniejszość, a Islandczycy płaciliby za rozbudowę infrastruktury w Chorwacji i 16 innych państwach.",
+   "args": [
+    "kostnadur"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Zagłosować za szansą albo ją odrzucić",
+   "url": "https://www.visir.is/g/20262888262d/ad-kjosa-taekifaeri-eda-hafna-thvi",
+   "source": "visir.is",
+   "author": "Sigurjón Njarðarson",
+   "date": "2026-05-24",
+   "summary": "Po zakończeniu negocjacji gotowa jest umowa, którą muszą zatwierdzić zarówno Islandczycy, jak i państwa członkowskie; wszystkie 27 państw członkowskich weszły do Unii poprzez procesy demokratyczne, ponieważ widziały w tym korzyść dla siebie. Islandzka gospodarka jest wyjątkowo podatna na wstrząsy, jak pokazuje historia, a zadaniem jest ograniczać ich liczbę i skalę.",
+   "args": [
+    "kikja",
+    "vextir"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Współpraca międzynarodowa w sprawach środowiska: UE jako siła napędowa rozwiązań",
+   "url": "https://www.visir.is/g/20262888264d/althjodasamstarf-i-umhverfismalum-esb-sem-drifkraftur-lausna",
+   "source": "visir.is",
+   "author": "Sveinn Atli Gunnarsson",
+   "date": "2026-05-24",
+   "summary": "Polemika z przewodniczącym Heimssýn: UE była najważniejszym narzędziem kontynentu do przekształcania międzynarodowej woli w wiążące działania, od kwaśnych deszczy i warstwy ozonowej po system handlu uprawnieniami do emisji EU ETS od 2005 roku. Unia wdraża umowy międzynarodowe szybciej i bardziej rygorystycznie, niż wymagają tego przepisy prawa międzynarodowego, oraz wykorzystuje wielkość swojego rynku wewnętrznego do wymuszania zmian technologicznych.",
+   "args": [
+    "gildi",
+    "hraedslu"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Czy Islandia musi być najdroższym krajem świata?",
+   "url": "https://www.visir.is/g/20262888385d/tharf-island-ad-vera-dyrasta-land-i-heimi-",
+   "source": "visir.is",
+   "author": "Þórður Snær Júlíusson",
+   "date": "2026-05-25",
+   "summary": "Według analizy działu ekonomicznego Visku poziom cen na Islandii jest o 84% wyższy niż średnio w 27 krajach Europy, a koszyk żywnościowy o 44% droższy niż w pozostałych krajach nordyckich; czteroosobowa rodzina mogłaby zaoszczędzić nawet milion rocznie na zakupach żywności. Drożyzna ma być skutkiem utrzymywania indeksowanej korony przy stale rosnących stopach procentowych banku centralnego.",
+   "args": [
+    "kjor",
+    "vextir"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Kapitał, populizm, podkowa i UE",
+   "url": "https://www.visir.is/g/20262888437d/audvaldid-populismi-hestaskeifan-esb",
+   "source": "visir.is",
+   "author": "Kristján Reykjalín Vigfússon",
+   "date": "2026-05-25",
+   "summary": "Wykładowca HR stosuje teorię elit Millsa i Domhoffa do islandzkiej debaty: wielcy przedsiębiorcy i ich organizacje interesu mają bronić niezmienionego systemu korony i wykorzystywać własne media przeciw członkostwu. Kampanię wyborczą cechują populistyczne metody w duchu Müllera — zamęt, oskarżenia o zdradę i strach — a skrajna prawica i najbardziej radykalna lewica mają używać tych samych argumentów przeciw członkostwu.",
+   "args": [
+    "hraedslu"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Rozkręcanie samolotu w locie",
+   "url": "https://www.visir.is/g/20262888442d/ad-skrufa-i-sundur-flugvel-a-flugi",
+   "source": "visir.is",
+   "author": "Eggert Sigurbergsson",
+   "date": "2026-05-25",
+   "summary": "Klauzula wystąpienia z UE ma być pozorną obietnicą, a nie czymś danym za darmo, jak przekonali się Brytyjczycy w swoim procesie wychodzenia; Unii najbardziej zależało na odstraszeniu innych państw od pójścia tą samą drogą. Wyjście Wielkiej Brytanii było jednak łatwiejsze, bo nigdy nie przyjęła euro — z euro byłoby „jak atak nuklearny”. Wyjście z UE i ze strefy euro jest jak rozkręcanie samolotu w locie.",
+   "args": [
+    "oafturkraeft"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "UE dla elity – czy dla obywateli kraju?",
+   "url": "https://www.visir.is/g/20262888611d/esb-fyrir-elituna-eda-almenning-i-landinu-",
+   "source": "visir.is",
+   "author": "Dagbjört Hákonardóttir",
+   "date": "2026-05-26",
+   "summary": "Posłanka Samfylkingarinnar mówi, że stabilność to wielka kwestia równości społecznej: rosnące nierówności, przytłaczające koszty odsetkowe i brak równowagi na rynku mieszkaniowym sprawiają, że ludziom trudniej niż dawniej poprawić swój los. Malejące ryzyko walutowe ułatwiłoby zachowanie równowagi w finansach publicznych i dałoby dzieciom przyszłych pokoleń przewidywalność oraz stabilne otoczenie stóp procentowych, jakim cieszą się ich nordyccy rówieśnicy.",
+   "args": [
+    "vextir",
+    "taekifaeri"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Żołnierze Viðreisn",
+   "url": "https://www.visir.is/g/20262888878d/hermenn-vidreisnar",
+   "source": "visir.is",
+   "author": "Jón Pétur Zimsen",
+   "date": "2026-05-27",
+   "summary": "Odpowiedź na artykuł Óðins Freys: Andrius Kubilius nie jest europosłem, lecz komisarzem UE ds. obrony, najwyższym urzędnikiem Unii w dziedzinie obrony. Liczni przywódcy, w tym von der Leyen, Juncker, Merkel, Macron i Sánchez, wyrazili poparcie dla armii UE, podobnie jak lider ALDE, do którego należy Viðreisn.",
+   "args": [
+    "hervaeding"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Nie mieć odwagi rozmawiać ze swoimi sąsiadami",
+   "url": "https://www.visir.is/g/20262888917d/ad-thora-ekki-ad-raeda-vid-nagranna-sina",
+   "source": "visir.is",
+   "author": "Ragnar Sverrisson",
+   "date": "2026-05-26",
+   "summary": "Kupiec porównuje rozmowy z UE do własnych udanych interesów z zagranicznymi hurtownikami, które rozpoczęły się, zanim znane były wszystkie odpowiedzi. Odrzucenie rozmów wykluczyłoby większą konkurencję, bardziej zróżnicowaną bankowość z niższymi stopami procentowymi, niższe ceny żywności, prawdziwą walutę oraz dostęp do funduszy Unii na transport i dla wrażliwych regionów osadniczych.",
+   "args": [
+    "kikja",
+    "kjor",
+    "byggd"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Czyich interesów się tu broni?",
+   "url": "https://www.visir.is/g/20262888990d/hverra-hagsmuna-er-verid-ad-gaeta-",
+   "source": "visir.is",
+   "author": "Kolbrún Áslaugar Baldursdóttir",
+   "date": "2026-05-27",
+   "summary": "Posłanka Flokks fólksins pyta, czy najgłośniejsze protesty przeciw głosowaniu nie pochodzą od tych, którzy najbardziej korzystają na ograniczonej konkurencji i kontroli nad zasobami naturalnymi oraz obawiają się unijnych reguł konkurencji. Głosowanie 29. ágúst dotyczy zdobycia informacji, a nie członkostwa, i wszystkie partie zadeklarowały, że członkostwo nigdy nie zostanie zaakceptowane bez pełnej kontroli nad zasobami naturalnymi.",
+   "args": [
+    "kikja",
+    "lydraedi",
+    "hraedslu"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Czesi chcą zachować koronę i te same argumenty odnoszą się do Islandii",
+   "url": "https://www.visir.is/g/20262889380d/tekkar-vilja-halda-kronunni-og-somu-rok-eiga-vid-um-island",
+   "source": "visir.is",
+   "author": "Júlíus Valsson",
+   "date": "2026-05-27",
+   "summary": "Czeski rząd twierdzi, że korona jest kluczem do suwerenności gospodarczej, i nie zamierza ani przyjmować euro, ani robić kroków w tym kierunku; mówi się nawet o konstytucyjnej ochronie waluty. Wraz z euro państwo rezygnuje z niezależnej polityki stóp procentowych i kursu walutowego, a stopy procentowe zależą od sytuacji największych państw. Te same argumenty mają odnosić się do Islandii jako małej, otwartej i podatnej na wahania gospodarki.",
+   "args": [
+    "evra",
+    "fullveldi"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Historia dwóch koron: Prawo do utonięcia w imię suwerenności",
+   "url": "https://www.visir.is/g/20262889610d/saga-af-tveimur-kronum-retturinn-til-ad-drukkna-i-nafni-fullveldis",
+   "source": "visir.is",
+   "author": "Sveinn Atli Gunnarsson",
+   "date": "2026-05-28",
+   "summary": "Od 1970 duński wskaźnik cen konsumpcyjnych wzrósł ze 100 do około 856, podczas gdy islandzki do niespełna 157.000. Różnica ma wynikać z instytucjonalnych ram polityki pieniężnej: Islandia stosowała powtarzające się dewaluacje jako ukryty podatek nakładany na gospodarstwa domowe, by ratować firmy eksportowe, podczas gdy Duńczycy powiązali koronę z euro w ramach mechanizmu ERM II.",
+   "args": [
+    "vextir"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Jeśli Islandia ubiega się o „djobbið“",
+   "url": "https://www.visir.is/g/20262890206d/ef-island-saekir-um-djobbid-",
+   "source": "visir.is",
+   "author": "Guðmunda G. Guðmundsdóttir",
+   "date": "2026-05-29",
+   "summary": "Odpowiedź na porównanie Dóry Magnúsdóttur do rozmowy kwalifikacyjnej: Islandia doskonale wie, co zawiera pakiet, ponieważ 95% prawa UE nie podlega negocjacjom, a kraj musiałby zmienić konstytucję i uznać nadrzędność prawa UE, zanim zapadnie ostateczna decyzja. Proces kosztuje miliardy i nie da się go łatwo odwrócić.",
+   "args": [
+    "adlogun",
+    "oafturkraeft",
+    "kostnadur"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Pozwólcie nam wybrać naszą przyszłość",
+   "url": "https://www.visir.is/g/20262890212d/leyfid-okkur-ad-velja-framtid-okkar",
+   "source": "visir.is",
+   "author": "Kristrún Ágústsdóttir",
+   "date": "2026-05-29",
+   "summary": "Nieco ponad dwudziestoletnia kobieta mówi, że głosowanie dotyczy warunków życia jej pokolenia: wysokich cen, ograniczonej konkurencji, indeksacji i stóp procentowych. Tak dla negocjacji nie jest decyzją o przystąpieniu, lecz o poznaniu faktów i poddaniu umowy pod głosowanie narodu. Odwołuje się do Brexitu, gdzie starsze pokolenia zamknęły drzwi, z których konsekwencjami młodzi muszą żyć.",
+   "args": [
+    "taekifaeri",
+    "kikja",
+    "oryggi"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Wszyscy jesteśmy w tej samej drużynie",
+   "url": "https://www.visir.is/g/20262890315d/vid-erum-oll-i-sama-lidinu",
+   "source": "visir.is",
+   "author": "Jónas Hagan Guðmundsson",
+   "date": "2026-05-29",
+   "summary": "Autor, który mieszkał w siedmiu krajach, mówi, że większość dąży do tych samych celów — stabilności, niższych stóp procentowych i silnej gospodarki — a spór dotyczy drogi do ich osiągnięcia. Należy spokojnie rozważyć, czy współpraca walutowa lub członkostwo mogą sprzyjać tym celom, i przestać oskarżać tych, którzy chcą rozważyć europejską drogę, o to, że są mniej islandzcy.",
+   "args": [
+    "kikja",
+    "vextir"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Płonący dom",
+   "url": "https://www.visir.is/g/20262890944d/brennandi-hus",
+   "source": "visir.is",
+   "author": "Jón Steindór Valdimarsson",
+   "date": "2026-05-30",
+   "summary": "Fraza o UE jako „płonącym domu” nie wytrzymuje krytyki: w badaniu Parlamentu Europejskiego z listopada 2025 roku 62% mieszkańców państw członkowskich uznało członkostwo swojego kraju za dobre, w tym 86% w Irlandii oraz 85% w Danii i Szwecji. Islandia nie ma się czego obawiać bardziej niż jej partnerzy w krajach nordyckich.",
+   "args": [
+    "hraedslu"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Czy naprawdę nie ma o czym negocjować?",
+   "url": "https://www.visir.is/g/20262890946d/er-virkilega-ekki-um-neitt-ad-semja-",
+   "source": "visir.is",
+   "author": "Berglind Guðmundsdóttir",
+   "date": "2026-05-31",
+   "summary": "Gdyby nie było o czym negocjować, wszystkie państwa członkowskie nie przechodziłyby przez wieloletnie negocjacje akcesyjne. Negocjacje są sposobem, by ustalić, jakie warunki są oferowane Islandii, podobnie jak umowę kupna analizuje się przed jej podpisaniem. Koszt niewiedzy może się okazać większy niż koszt negocjacji, a naród może po prostu powiedzieć nie, jeśli umowa nie będzie korzystna.",
+   "args": [
+    "kikja"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "O czym można negocjować?",
+   "url": "https://www.visir.is/g/20262891308d/hvad-er-haegt-ad-semja-um-",
+   "source": "visir.is",
+   "author": "Hjörtur J. Guðmundsson",
+   "date": "2026-06-01",
+   "summary": "W materiałach informacyjnych UE sama Unia stwierdza, że pojęcie „negocjacje” może być mylące; rozmowy dotyczą warunków i terminów przyjęcia dorobku prawnego Unii, a komisarz ds. rozszerzenia Marta Kos to podkreśliła. Negocjować można jedynie rozwiązania szczególne i tymczasowe odstępstwa, ale nie trwałe wyłączenia spod nadrzędnej władzy Unii.",
+   "args": [
+    "adlogun",
+    "undanthagur"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Czego się boisz, Jón Pétur Zimsen?",
+   "url": "https://www.visir.is/g/20262891311d/hvad-ertu-hraeddur-vid-jon-petur-zimsen-",
+   "source": "visir.is",
+   "author": "Óðinn Freyr Baldursson",
+   "date": "2026-06-01",
+   "summary": "Autor przyznaje, że błędnie nazwał Kubiliusa posłem, ale wskazuje, że lista zwolenników jakiejś idei nie jest tym samym co wiążąca decyzja — nie istnieje żadna uchwała, decyzja ani traktat dotyczący armii UE. Unijne grupy bojowe od 2007 roku nigdy nie zostały wysłane do operacji wojskowej, ponieważ suwerenność państw w praktyce to blokuje. Sednem jest bezpieczeństwo gospodarcze w świecie ceł i sankcji handlowych.",
+   "args": [
+    "hraedslu",
+    "oryggi"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Zrównoważone rolnictwo jest kwestią bezpieczeństwa",
+   "url": "https://www.visir.is/g/20262891609d/sjalfbaer-landbunadur-er-oryggismal",
+   "source": "visir.is",
+   "author": "Þórarinn Ingi Pétursson",
+   "date": "2026-06-03",
+   "summary": "Poseł Framsóknar mówi, że ochrona celna jest warunkiem tego, by islandzka produkcja żywności mogła się utrzymać w wymagających warunkach; gdyby ją zniesiono, najmocniej uderzyłoby to w gospodarstwa rodzinne, które znikają jako pierwsze, gdy robi się trudno. Nieodpowiedzialne jest obiecywanie konsumentom niższych cen bez odpowiedzi na pytanie, ile kosztowałoby budżet państwa — być może 15 do 20 miliardów rocznie — chronienie porównywalnej produkcji i trwałości osadnictwa.",
+   "args": [
+    "landbunadur",
+    "kostnadur"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Kto wygrał wojny dorszowe?",
+   "url": "https://www.visir.is/g/20262891856d/hverjir-unnu-thorskastridin-",
+   "source": "visir.is",
+   "author": "Halldór Jörgen Olesen",
+   "date": "2026-06-02",
+   "summary": "Odpowiedź na artykuły dyrektora wykonawczego SFS i przewodniczącego Sjálfstæðisflokksins, którzy łączą wojny dorszowe z głosowaniem w sprawie UE: prawdziwymi zwycięzcami tych konfliktów byli armatorzy rybaccy, a nie naród, ponieważ kwoty przydzielono za darmo w 1985 roku, a ich przenoszenie dopuszczono w 1991 roku. Liczba przedsiębiorstw rybackich spadła z 350 do mniej niż 50, a od pięciu do ośmiu największych kontroluje ponad 60% uprawnień połowowych.",
+   "args": [
+    "hraedslu"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Kiedy debata i fakty się rozmijają",
+   "url": "https://www.visir.is/g/20262891863d/thegar-umraedan-og-stadreyndirnar-fara-ekki-saman",
+   "source": "visir.is",
+   "author": "Erna Bjarnadóttir",
+   "date": "2026-06-02",
+   "summary": "Twierdzenie, że Islandia pozostała w tyle za innymi krajami Europy, jest całkowicie błędne: Islandia zajmuje pierwsze miejsce na liście poziomu życia ONZ (HDI), podczas gdy najwyżej sklasyfikowany kraj UE, Dania, jest na 4. miejscu. Współczynnik Giniego Islandii (24,2) pokazuje mniejsze nierówności dochodowe niż w Niemczech, Francji i Włoszech, a UE nie jest jednolitą całością pod względem poziomu życia.",
+   "args": [
+    "efnahagur"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Ta rzekoma demokratyczna uczta",
+   "url": "https://www.visir.is/g/20262891881d/hin-meinta-lydraedisveisla",
+   "source": "visir.is",
+   "author": "Guðmunda G. Guðmundsdóttir",
+   "date": "2026-06-02",
+   "summary": "Członek Til vinstri við ESB sprzeciwia się narracji, że osoby powyżej 55. roku życia nie powinny głosować albo powinny „głosować właściwie” dla dobra młodych. Starsze pokolenie pamięta wojny dorszowe i dumę z niepodległości oraz samo zapoznaje się ze sprawami, zamiast pozwalać algorytmom czy influencerom kształtować swoje poglądy.",
+   "args": [
+    "fullveldi"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "O co tak naprawdę się pyta?",
+   "url": "https://www.visir.is/g/20262892009d/um-hvad-er-raunverulega-verid-ad-spyrja-",
+   "source": "visir.is",
+   "author": "Stefán Vagn Stefánsson",
+   "date": "2026-06-04",
+   "summary": "Poseł Framsóknar twierdzi, że błędem jest przedstawianie wyboru jako współpracy albo izolacji; Islandia już należy do EOG, NATO i blisko współpracuje z krajami nordyckimi. Pytanie brzmi, czy władza decyzyjna w ważnych obszarach ma zostać przeniesiona do instytucji UE oraz jakie trwałe gwarancje dotyczące zwierzchnictwa nad zasobami powinny być zapewnione, zanim naród zajmie stanowisko.",
+   "args": [
+    "fullveldi",
+    "ees",
+    "undanthagur"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Sama wybieram swoje kapelusze",
+   "url": "https://www.visir.is/g/20262892026d/eg-vel-hattana-sjalf",
+   "source": "visir.is",
+   "author": "Berglind Guðmundsdóttir",
+   "date": "2026-06-02",
+   "summary": "Autorka odrzuca określenie „zagorzała zwolenniczka Europy”, jak nazwał ją Hjörtur J. Guðmundsson; twierdzi, że nie wyrobiła sobie jeszcze ostatecznej opinii na temat członkostwa. Mimo to ma nadzieję, że naród zagłosuje na TAK, aby można było zobaczyć, co rzeczywiście oferuje się Islandii, i podjąć świadomą decyzję w sprawie umowy — którą naród mógłby równie dobrze odrzucić, tak jak Norwegowie zrobili to dwa razy.",
+   "args": [
+    "kikja",
+    "lydraedi"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Gra w węże i drabinę oraz machina oszustwa",
+   "url": "https://www.visir.is/g/20262892034d/slonguspilid-og-svikamyllan",
+   "source": "visir.is",
+   "author": "Teitur Atlason",
+   "date": "2026-06-02",
+   "summary": "Przeciwnicy głosowania przedstawiają sprzeczne twierdzenia o UE i mówią o wszystkim poza istotą sprawy. Największą korzyścią z członkostwa i euro byłoby uporanie się z „lichwą odsetkową”: przy wsparciu Europejskiego Banku Centralnego stopy procentowe mogłyby spaść, tak aby raty kredytów ludzi malały przy każdej spłacie, jak już się to stało w innych krajach.",
+   "args": [
+    "vextir",
+    "hraedslu"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Islandia i UE: cele negocjacyjne, rozmowy akcesyjne i euro",
+   "url": "https://www.visir.is/g/20262892634d/island-og-esb-samningsmarkmid-adildarvidraedur-og-evran",
+   "source": "visir.is",
+   "author": "Albert Jónsson",
+   "date": "2026-06-03",
+   "summary": "Euro nie jest przedmiotem rozmów akcesyjnych, lecz pojawia się dopiero po przystąpieniu i po spełnieniu stałych warunków przez co najmniej dwa lata. Szanse na to, że UE zgodzi się na żądania Islandii dotyczące trwałych wyjątków jako części prawa pierwotnego Unii, nie mogą być uznane za duże. Euro miałoby zarówno zalety, jak i wady, a żaden obiektywny miernik nie rozstrzyga, co służy interesom Islandii.",
+   "args": [
+    "undanthagur",
+    "evra"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Żołnierze i sztuczni ludzie Viðreisn",
+   "url": "https://www.visir.is/g/20262892708d/her-og-gervimenn-vidreisnar",
+   "source": "visir.is",
+   "author": "Jón Pétur Zimsen",
+   "date": "2026-06-03",
+   "summary": "Trzeci artykuł posła w polemice o armii UE: według badania dla Politico z marca taki rodzaj armii popiera 69% respondentów w sześciu państwach UE, najwięcej, bo 83%, w Belgii. Zalążek armii już istnieje i należy się spodziewać, że od Islandii oczekiwano by wniesienia swojego wkładu na równi z innymi państwami.",
+   "args": [
+    "hervaeding"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Połóżmy umowę na stole",
+   "url": "https://www.visir.is/g/20262892713d/faum-samninginn-a-bordid",
+   "source": "visir.is",
+   "author": "Greta Lind Kristjánsdóttir",
+   "date": "2026-06-03",
+   "summary": "Koszt korony przejawia się w wyższych stopach procentowych, ryzyku walutowym, droższym finansowaniu i kredytach indeksowanych, które rosną wtedy, gdy gospodarstwa domowe najmniej są w stanie to udźwignąć. Indeksacja przenosi ryzyko inflacyjne i kursowe z systemu finansowego na obywateli oraz osłabia skuteczność polityki pieniężnej. Trzeba położyć umowę na stole.",
+   "args": [
+    "vextir",
+    "kikja"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Korona czy euro? Debata, która zasługuje na coś więcej niż slogany",
+   "url": "https://www.visir.is/g/20262892720d/krona-eda-evra-umraeda-sem-a-skilid-meira-en-slagord",
+   "source": "visir.is",
+   "author": "Bryndís Haraldsdóttir",
+   "date": "2026-06-03",
+   "summary": "Posłanka Sjálfstæðisflokksins twierdzi, że twierdzenia przedstawicieli rządu, jakoby gospodarstwa domowe miały zyskać setki miliardów po przyjęciu euro, nie znajdują potwierdzenia w nowym raporcie walutowym. Prezes banku centralnego wskazał, że droga do niższych stóp procentowych jest taka sama niezależnie od tego, czy walutą jest korona, czy euro: niska inflacja, odpowiedzialne finanse publiczne i stabilny rynek pracy. Przyjęcie euro oznaczałoby rezygnację z niezależnej polityki pieniężnej w przypadku małej, otwartej gospodarki z wyłącznie islandzkimi wyzwaniami.",
+   "args": [
+    "evra",
+    "skyrslan"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Czy UE naprawdę jest aż tak popularna?",
+   "url": "https://www.visir.is/g/20262892887d/er-esb-i-alvoru-svona-vinsaelt-",
+   "source": "visir.is",
+   "author": "Erna Bjarnadóttir",
+   "date": "2026-06-04",
+   "summary": "Odpowiedź na artykuł Pawels Bartoszek o Eurobarometrze: sondaże mierzą postawy, ale nie dowodzą, że członkostwo w UE jest bardziej pożądane niż EOG. Całe pokolenia w państwach członkowskich nigdy nie żyły w innym systemie i nie mają osobistego porównania; bycie zadowolonym z systemu, który zna się od zawsze, to nie to samo co wybór go ponad rzeczywistą alternatywę.",
+   "args": [
+    "ees"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "„Baranie wyjaśnienie” nieładu w zarządzaniu rybołówstwem Islandii",
+   "url": "https://www.visir.is/g/20262893203d/-hrutskyring-a-fiskveidiostjorn-islands",
+   "source": "visir.is",
+   "author": "Guðmunda G. Guðmundsdóttir",
+   "date": "2026-06-04",
+   "summary": "Odpowiedź na pytanie „Kto wygrał wojny dorszowe?”: wojna o zasoby rybne jest bardzo daleka od zakończenia. Autor broni spotkań Til vinstri við ESB przed oskarżeniami o wspieranie „oligarchów” i przedstawia politykę partii lewicowych zmierzającą do odebrania kwot połowowych z rąk kapitału i przywrócenia ich lokalnym społecznościom.",
+   "args": [
+    "sjavarutvegur"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Otwarty czek z suwerennością postawioną na szali",
+   "url": "https://www.visir.is/g/20262893350d/opinn-tekki-med-fullveldid-ad-vedi",
+   "source": "visir.is",
+   "author": "Sigurður Egilsson",
+   "date": "2026-06-04",
+   "summary": "Były zwolennik członkostwa, który zmienił zdanie po zapoznaniu się ze sprawą: acquis communautaire nie podlega negocjacjom, a rozmowy dotyczą tego, jak i kiedy przepisy są wdrażane — dostosowanie samo w sobie jest procesem akcesyjnym. Trwałe wyjątki nie są już częścią polityki rozszerzenia UE, a debata walutowa jest fałszywą dychotomią między koroną a euro.",
+   "args": [
+    "adlogun",
+    "undanthagur",
+    "fullveldi"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Jaka jest różnica między Þorgerður Katrín a Donald Trump?",
+   "url": "https://www.visir.is/g/20262893475d/hver-er-munurinn-a-thorgerdi-katrinu-og-donald-trump-",
+   "source": "visir.is",
+   "author": "Júlíus Valsson",
+   "date": "2026-06-05",
+   "summary": "Członkostwo miałoby oznaczać przeniesienie władzy ustawodawczej z Alþingi, podporządkowanie władzy sądowniczej sądom UE oraz nadrzędność prawa UE nad prawem krajowym. Ministrowie spraw zagranicznych mieli już podważyć suwerenność poprzez trzeci pakiet energetyczny, Protokół 35 oraz opłaty węglowe ETS, które szczególnie uderzają w islandzkie firmy, takie jak Play i Icelandair. Przedstawianie pytania jako „niewinnego” ma być mylące.",
+   "args": [
+    "fullveldi",
+    "kostnadur",
+    "spurning"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Drodzy rodacy – Dlaczego powinniśmy powiedzieć TAK w sierpniu?",
+   "url": "https://www.visir.is/g/20262893916d/kaeru-landar-af-hverju-eigum-vid-ad-segja-ja-i-agust-",
+   "source": "visir.is",
+   "author": "Þorvaldur Ingi Jónsson",
+   "date": "2026-06-05",
+   "summary": "TAK w sierpniu oznacza tak dla informacji i negocjacji, a nie dla członkostwa; należy patrzeć 20 do 100 lat w przyszłość. Młodzi ludzie żyją w warunkach wyższych stóp procentowych i mniej stabilnego otoczenia niż ich rówieśnicy w Europie, a startupy przenoszą swoje siedziby za granicę. Małe państwa, takie jak Malta, Dania i Irlandia, pokazują, że nieliczne narody mogą być wpływowe w UE.",
+   "args": [
+    "kikja",
+    "taekifaeri",
+    "oryggi",
+    "ahrif"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Þorgerður szuka poparcia dla UE z najbardziej nieoczekiwanych stron",
+   "url": "https://www.visir.is/g/20262894155d/thorgerdur-leitar-esb-studnings-ur-otrulegustu-attum",
+   "source": "visir.is",
+   "author": "Júlíus Valsson",
+   "date": "2026-06-06",
+   "summary": "Minister spraw zagranicznych zabiega o poparcie zagranicznych polityków, którzy sami mają słabą pozycję u siebie w kraju; Beate Meinl-Reisinger, minister spraw zagranicznych Austrii, była ostro krytykowana za występowanie przeciw tradycji neutralności własnego narodu oraz za poparcie dla europejskiej współpracy obronnej i zbrojeń. Przedstawianie takiego polityka jako sojusznika trudno uznać za oznakę silnej pozycji nieuzbrojonej republiki.",
+   "args": [
+    "hervaeding"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Czy możemy się czegoś nauczyć od Bjartur í Sumarhúsum?",
+   "url": "https://www.visir.is/g/20262894157d/getum-vid-laert-af-bjarti-i-sumarhusum-",
+   "source": "visir.is",
+   "author": "Berglind Guðmundsdóttir",
+   "date": "2026-06-06",
+   "summary": "Bjartur í Sumarhúsum wybrał niedostatek i trudności zamiast polegać na kimkolwiek; pragnienie samodzielnego trwania stało się tak silne, że nie dostrzegał wartości współpracy. Negocjacje z UE nie są ani kapitulacją, ani zobowiązaniem, lecz sposobem na zdobycie informacji — niepodległy naród powinien mieć odwagę rozważyć wszystkie opcje.",
+   "args": [
+    "kikja"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "To nie ma znaczenia, chyba że wejdziemy do UE",
+   "url": "https://www.visir.is/g/20262894258d/skipti-engu-nema-vid-gongum-i-esb",
+   "source": "visir.is",
+   "author": "Hjörtur J. Guðmundsson",
+   "date": "2026-06-07",
+   "summary": "Odpowiedź na analogię Berglind z Bjartur: Islandczycy należą do narodów najbardziej zaangażowanych we współpracę międzynarodową, a współpraca na zasadzie równości to coś zupełnie innego niż połączenie w kierunku państwa federalnego, gdzie znaczenie zależy od liczby ludności. Trwałe wyjątki nie są dostępne, a dostosowanie do regulacji odbywa się równolegle z negocjacjami, więc głosowanie dotyczy rozpoczęcia wejścia do Unii.",
+   "args": [
+    "adlogun",
+    "undanthagur",
+    "ahrifaleysi"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Ryba, władza i poczucie suwerenności",
+   "url": "https://www.visir.is/g/20262894443d/fiskurinn-valdid-og-tilfinningin-fyrir-fullveldi",
+   "source": "visir.is",
+   "author": "Karen María Jónsdóttir",
+   "date": "2026-06-07",
+   "summary": "Choć przekazanie kompetencji decyzyjnych w sprawie rybołówstwa przy członkostwie jest realne, autor pyta, jakiej właściwie władzy się w praktyce broni: kwoty połowowe skupiły się w coraz mniejszej liczbie rąk, duże firmy rozliczają się w walutach obcych i zastawiają uprawnienia połowowe, podczas gdy społeczności rybackie odczuwają spadek wpływu. Prawna własność narodu i rzeczywisty udział społeczeństwa w tych wartościach to dwie różne rzeczy.",
+   "args": [
+    "hraedslu"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "ETS, UE i EOG – dostać miejsce przy stole",
+   "url": "https://www.visir.is/g/20262894462d/ets-esb-og-ees-ad-fa-saeti-vid-bordid",
+   "source": "visir.is",
+   "author": "Dóra Sif Tynes",
+   "date": "2026-06-08",
+   "summary": "Apel prezesa o trwałe rozwiązanie dla Islandii w systemie ETS uwidacznia różnicę między EOG a pełnym członkostwem: porozumienie EOG nie daje państwom EFTA żadnego formalnego udziału w kształtowaniu ustawodawstwa UE, a jedynie teksty dostosowawcze po przyjęciu prawa. Trwałego specjalnego rozwiązania w systemie będącym w ciągłym rozwoju nie da się uzyskać przez EOG.",
+   "args": [
+    "ahrif"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Tak, popieram negocjacje akcesyjne",
+   "url": "https://www.visir.is/g/20262894464d/ja-eg-styd-adildarvidraedur",
+   "source": "visir.is",
+   "author": "Ólafur Margeirsson",
+   "date": "2026-06-08",
+   "summary": "Ekonomista podkreśla, że przeciwnicy negocjacji niesłusznie wykorzystywali jego krytyczne teksty o koronie jako argument po swojej stronie; on sam całym sercem popiera negocjacje akcesyjne i zagłosuje na tak 29. sierpnia. NIE w sierpniu oznacza, że później nie będzie można wybrać tak albo nie, i właśnie dlatego przeciwnicy członkostwa do tego zachęcają.",
+   "args": [
+    "kikja",
+    "timagluggi"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Od suwerenności do Brukseli",
+   "url": "https://www.visir.is/g/20262894511d/fra-fullveldi-til-brussel",
+   "source": "visir.is",
+   "author": "Erna Bjarnadóttir",
+   "date": "2026-06-08",
+   "summary": "Przywołano artykuł irlandzkiego badacza Patricks Murphy, według którego sekwencja decyzji i rozwój instytucjonalny UE stopniowo podkopywały neutralność Irlandii, znacznie bardziej, niż wynikało to przy wejściu w 1973 roku. Instytucje rozwijają się poza swoje pierwotne role, m.in. poprzez orzecznictwo Trybunału Sprawiedliwości UE, a państwa nie są w stanie wiedzieć, na co się decydują w perspektywie dekad.",
+   "args": [
+    "hervaeding",
+    "fullveldi"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Rób to, co mówię, nie to, co robię!",
+   "url": "https://www.visir.is/g/20262894569d/gerdu-thad-sem-eg-segi-ekki-thad-sem-eg-geri-",
+   "source": "visir.is",
+   "author": "Guðni Freyr Öfjörð",
+   "date": "2026-06-08",
+   "summary": "Ci sami, którzy bronią korony jako narzędzia suwerenności — wielkie firmy rybackie i największe przedsiębiorstwa — sami rozliczają się w euro i zaciągają kredyty za granicą na lepszych warunkach, wyjęci z gospodarki korony, podczas gdy zwykli ludzie zostają z wahaniami, inflacją, wysokimi stopami procentowymi i spadkiem kursu waluty. Ta sama obłuda co u zwolenników miasta dla samochodów, którzy wakacje spędzają w europejskich miastach z ulicami pieszymi.",
+   "args": [
+    "vextir"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Najdroższy kraj świata w imię niepodległości",
+   "url": "https://www.visir.is/g/20262894747d/dyrasta-land-heims-i-nafni-sjalfstaedisins",
+   "source": "visir.is",
+   "author": "Inga Valgerður Henrikssen",
+   "date": "2026-06-08",
+   "summary": "Debata na Islandii tkwi w przeszłości, podczas gdy przywódcy Europy dyskutują o bezpieczeństwie i pozycji małych państw; prezydent Finlandii Stubb wspomniał szczególnie o referendum na Islandii. Korona jest największym źródłem niestabilności w społeczeństwie, z wysokimi stopami procentowymi, indeksacją i wahaniami kursu, które uderzają w gospodarstwa domowe.",
+   "args": [
+    "vextir",
+    "oryggi"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Czy należy palić nieprzeczytane książki?",
+   "url": "https://www.visir.is/g/20262894939d/a-ad-brenna-olesnar-baekur-",
+   "source": "visir.is",
+   "author": "Jón Páll Haraldsson",
+   "date": "2026-06-09",
+   "summary": "Porównuje odrzucenie negocjacji bez zobaczenia umowy do palenia nieprzeczytanych książek. Wskazuje, że 70–80% mieszkańców UE chce pozostać w Unii, a większość Brytyjczyków żałuje Brexitu; należy powiedzieć TAK dla młodych ludzi.",
+   "args": [
+    "kikja",
+    "taekifaeri"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Czy komisja negocjacyjna działała zgodnie z mandatem Alþingi?",
+   "url": "https://www.visir.is/g/20262895128d/var-samninganefndin-ad-vinna-eftir-umbodi-althingis-",
+   "source": "visir.is",
+   "author": "Erna Bjarnadóttir",
+   "date": "2026-06-09",
+   "summary": "Rezolucja parlamentarna z 2009 roku wiązała komisję negocjacyjną z podstawowymi interesami dotyczącymi zwierzchnictwa nad zasobami rybnymi. Przywołuje opinię komisji Bundestagu, według której Islandia nie zakładała wyjątków w rybołówstwie, i pyta, czy komisja działała zgodnie z mandatem Alþingi.",
+   "args": [
+    "undanthagur",
+    "sjavarutvegur",
+    "umbod"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Przedstawiciele UE w RÚV",
+   "url": "https://www.visir.is/g/20262895352d/fulltruar-esb-a-ruv",
+   "source": "visir.is",
+   "author": "Jón Bjarnason",
+   "date": "2026-06-09",
+   "summary": "Były minister rybołówstwa i rolnictwa opisuje proces aplikacyjny z lat 2009–2013 jako proces dostosowawczy na warunkach UE; fundusze IPA miały służyć finansowaniu zmian instytucjonalnych, a do kraju napływały środki na propagandę.",
+   "args": [
+    "adlogun",
+    "sjavarutvegur"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Drodzy rodacy – dlaczego mamy powiedzieć NIE w sierpniu?",
+   "url": "https://www.visir.is/g/20262895415d/kaeru-landar-af-hverju-eigum-vid-ad-segja-nei-i-agust-",
+   "source": "visir.is",
+   "author": "Þorvaldur Ingi Jónsson",
+   "date": "2026-06-10",
+   "summary": "Pyta, dlaczego należy mówić nie uzyskaniu informacji i zobaczeniu, jaką umowę Islandia mogłaby wynegocjować; sprawa jest większa niż polityka partyjna. Młodzi ludzie żyją przy wyższych stopach procentowych niż ich rówieśnicy w Europie, a zmienione środowisko bezpieczeństwa wymaga sprawdzenia, co umowa mogłaby przynieść.",
+   "args": [
+    "kikja",
+    "taekifaeri",
+    "oryggi"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Niskie bezrobocie? Spójrzmy na liczby",
+   "url": "https://www.visir.is/g/20262895499d/lagt-atvinnuleysi-litum-a-tolurnar",
+   "source": "visir.is",
+   "author": "Halldór Jörgen Olesen",
+   "date": "2026-06-10",
+   "summary": "Niska stopa bezrobocia jest myląca, ponieważ odsetek osób pobierających rentę z tytułu niezdolności do pracy na Islandii (9,4% osób w wieku produkcyjnym) jest niemal dwukrotnie wyższy niż w UE i oznacza ukryte bezrobocie; ponadto wskaźnik nędzy nie uwzględnia stóp procentowych, które islandzkie gospodarstwa domowe odczuwają najbardziej.",
+   "args": [
+    "vextir",
+    "hraedslu"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Stabilność czy elastyczność",
+   "url": "https://www.visir.is/g/20262895502d/stodugleiki-eda-sveigjanleiki",
+   "source": "visir.is",
+   "author": "Sigurjón Njarðarson",
+   "date": "2026-06-10",
+   "summary": "Przedstawia wnioski z raportu walutowego ministerstwa finansów: euro mogłoby przynieść niższe stopy procentowe, niższe koszty transakcyjne i większą stabilność, a zalety korony zostały przecenione. Odpowiada na zastrzeżenia prezesa banku centralnego i twierdzi, że reformy rynku pracy są pożądane niezależnie od waluty.",
+   "args": [
+    "vextir"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Inflacja czy bezrobocie – co wolisz bardziej?",
+   "url": "https://www.visir.is/g/20262895531d/verdbolga-eda-atvinnuleysi-hvort-viltu-frekar-",
+   "source": "visir.is",
+   "author": "Elliði Vignisson",
+   "date": "2026-06-10",
+   "summary": "W latach 2011–2025 inflacja na Islandii była średnio o 0,8 punktu procentowego wyższa niż w strefie euro, ale bezrobocie o 4,1 punktu procentowego niższe; własna waluta pozwala gospodarce szybko reagować na wstrząsy i utrzymywać ludzi w pracy.",
+   "args": [
+    "efnahagur",
+    "evra"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Czarownicy minionych wieków",
+   "url": "https://www.visir.is/g/20262896232d/seidkarlar-fyrri-alda",
+   "source": "visir.is",
+   "author": "Steingrímur Gunnarsson",
+   "date": "2026-06-11",
+   "summary": "Krytykuje raport walutowy za opieranie się na założeniach z lat kryzysu; mając euro, Islandia nie mogłaby prowadzić niezależnej polityki pieniężnej i stałaby się „maleńką jagodą” w gospodarce, która kieruje się przede wszystkim Niemcami i Francją.",
+   "args": [
+    "skyrslan",
+    "evra"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Suwerenność jest podstawą elastyczności: Dlaczego współpraca w ramach EOG nam wystarcza",
+   "url": "https://www.visir.is/g/20262896274d/fullveldid-er-undirstada-sveigjanleikans-hvers-vegna-ees-samstarfid-dugar-okkur",
+   "source": "visir.is",
+   "author": "Kristinn Karl Brynjarsson",
+   "date": "2026-06-11",
+   "summary": "Można popierać współpracę europejską, a zarazem odrzucać dalsze przekazywanie władzy; EOG i cztery swobody zapewniają dostęp do rynku bez poświęcania niezależnej polityki pieniężnej, zarządzania zasobami i polityki zagranicznej, na których opiera się elastyczność islandzkiej gospodarki.",
+   "args": [
+    "ees",
+    "fullveldi"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Wyspy Owcze nie są w UE, ale…",
+   "url": "https://www.visir.is/g/20262896824d/faereyingar-eru-ekki-i-esb-en-",
+   "source": "visir.is",
+   "author": "Sigurður Steinar Ásgeirsson",
+   "date": "2026-06-12",
+   "summary": "Korona Wysp Owczych jest powiązana z euro poprzez koronę duńską, a stopy procentowe wynoszą tam 1,6% wobec 7,75% na Islandii; Wyspy Owcze są w praktyce częścią strefy euro i dlatego nie są przykładem kraju, który dobrze sobie radzi bez współpracy z UE.",
+   "args": [
+    "hraedslu",
+    "vextir"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Czy islandzcy konsumenci mają gorsze prawa niż europejscy?",
+   "url": "https://www.visir.is/g/20262897032d/hafa-islenskir-neytendur-lakari-rett-en-evropskir-",
+   "source": "visir.is",
+   "author": "Arngrímur Stefánsson",
+   "date": "2026-06-12",
+   "summary": "Przedstawia wyroki dotyczące odszkodowań dla pasażerów lotniczych i jurysdykcji ochronnej dla konsumentów; UE odpowiedziała na globalizację zakupów konsumenckich przepisami, które pozwalają konsumentom dochodzić swoich praw przed własnymi sądami.",
+   "args": [
+    "kjor"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Niech płacą inni",
+   "url": "https://www.visir.is/g/20262897285d/latum-hina-borga",
+   "source": "visir.is",
+   "author": "Ingólfur Sverrisson",
+   "date": "2026-06-14",
+   "summary": "Młodzi ludzie i mniejsze firmy są uwięzieni w gospodarce korony i ponoszą cały ciężar podwyżek stóp procentowych, podczas gdy większe przedsiębiorstwa działają w euro lub dolarach; katastroficzne prognozy przeciwników porozumienia EOG sprzed trzydziestu lat okazały się bezpodstawne.",
+   "args": [
+    "vextir",
+    "taekifaeri",
+    "hraedslu"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Jak bogaci naprawdę jesteśmy?",
+   "url": "https://www.visir.is/g/20262897452d/hversu-rik-erum-vid-i-raun-",
+   "source": "visir.is",
+   "author": "Hjálmar Vilhjálmsson",
+   "date": "2026-06-14",
+   "summary": "PKB na mieszkańca zawyża obraz sytuacji Islandii, ponieważ opiera się on na wysokiej aktywności zawodowej i długim czasie pracy; wydajność na godzinę pracy jest niższa niż w wielu państwach UE, a niższy koszt kapitału ułatwiłby inwestycje zwiększające wydajność.",
+   "args": [
+    "vextir"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Dobrze poinformowany naród nie da sobą manipulować",
+   "url": "https://www.visir.is/g/20262897562d/vel-upplyst-thjod-neitar-ad-lata-spila-med-sig",
+   "source": "visir.is",
+   "author": "Ágúst Valves Jóhannesson",
+   "date": "2026-06-15",
+   "summary": "Rząd miał przetrzymywać materiały z dala od wyborców w zamkniętym pomieszczeniu Alþingis aż do rozpatrzenia sprawy; „zajrzenie do pakietu” to taktyka wprowadzania w błąd stosowana przez zwolenników członkostwa, którzy w rzeczywistości nigdy nie zmienili zdania na temat akcesji.",
+   "args": [
+    "spurning",
+    "umbod"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Gdy UE stosuje przemoc wobec małego narodu",
+   "url": "https://www.visir.is/g/20262898067d/thegar-esb-beitir-smathjod-ofriki",
+   "source": "visir.is",
+   "author": "Júlíus Valsson",
+   "date": "2026-06-16",
+   "summary": "Przedstawia spory o wody terytorialne, brytyjskie ustawodawstwo antyterrorystyczne z 2008 roku, Icesave oraz cła ochronne UE na żelazokrzem jako przykłady tego, że mocarstwa i system UE stosują naciski wobec małego państwa, gdy interesy się ścierają; wspomina także o opłatach ETS i podatkach węglowych.",
+   "args": [
+    "ahrifaleysi",
+    "kostnadur"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Nikt nie powinien wpychać Islandii do UE tylnymi drzwiami",
+   "url": "https://www.visir.is/g/20262898175d/enginn-a-ad-yta-islandi-inn-um-bakdyrnar",
+   "source": "visir.is",
+   "author": "Helgi S. Karlsson",
+   "date": "2026-06-16",
+   "summary": "Ostrożność wobec UE jest naturalna, ale zgoda na negocjacje może oznaczać wyłącznie zgodę na przedstawienie umowy do oceny, a nie zgodę na członkostwo; bez ostatecznego rezultatu naród będzie wybierał na podstawie wyobrażeń i lęków zamiast rzeczywistych warunków dla Islandii.",
+   "args": [
+    "kikja"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Kos nie potwierdziła istnienia porozumienia",
+   "url": "https://www.visir.is/g/20262898623d/kos-stadfesti-ekki-tilvist-samkomulags",
+   "source": "visir.is",
+   "author": "Hjörtur J. Guðmundsson",
+   "date": "2026-06-17",
+   "summary": "RÚV miało błędnie twierdzić, że komisarz ds. rozszerzenia Marta Kos potwierdziła porozumienie o braku dostosowania w poprzednich negocjacjach; ramy negocjacyjne z 2010 roku nadal obowiązują i przewidują dostosowanie równolegle z negocjacjami.",
+   "args": [
+    "adlogun"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Jak chronić niepodległość Islandii w przyszłości?",
+   "url": "https://www.visir.is/g/20262898705d/hvernig-verjum-vid-sjalfstaedi-islands-til-framtidar-",
+   "source": "visir.is",
+   "author": "Þorvaldur Ingi Jónsson",
+   "date": "2026-06-17",
+   "summary": "Niepodległość w XXI wieku polega na rozsądnym wyborze współpracy; głosowanie nie dotyczy członkostwa, lecz zdobycia informacji, a naród sam będzie miał ostatnie słowo w sprawie przyjęcia lub odrzucenia umowy.",
+   "args": [
+    "kikja",
+    "lydraedi"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Wolność młodych Islandczyków na przyszłość",
+   "url": "https://www.visir.is/g/20262898868d/frelsi-ungra-islendinga-til-framtidar",
+   "source": "visir.is",
+   "author": "Hjörvar Sigurðsson",
+   "date": "2026-06-18",
+   "summary": "Opisuje zebranie założycielskie Ungra gegn ESB-aðild w dniu święta narodowego; walka toczy się o prawo młodych ludzi do samostanowienia, aby przyszli islandzcy politycy nie byli spętani decyzjami odległych zagranicznych urzędników.",
+   "args": [
+    "fullveldi",
+    "ahrifaleysi"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Członkostwo w UE jest nierozsądne z ekonomicznego punktu widzenia",
+   "url": "https://www.visir.is/g/20262899157d/esb-adild-er-oskynsamleg-fra-efnahagslegu-sjonarmidi",
+   "source": "visir.is",
+   "author": "Kristinn Sv. Helgason",
+   "date": "2026-06-18",
+   "summary": "Omówienie odpowiedzi Instytutu Ekonomii na dziewięć pytań komisji spraw zagranicznych: PKB na mieszkańca miał rosnąć na Islandii od 2010 roku niemal trzykrotnie szybciej niż w UE, wpływ euro na ceny i stopy procentowe jest niepewny, a polityka pieniężna zostałaby utracona jako narzędzie zarządzania gospodarką.",
+   "args": [
+    "efnahagur",
+    "evra"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "EOG dla firm, UE dla ludzi?",
+   "url": "https://www.visir.is/g/20262899324d/ees-fyrir-fyrirtaekin-esb-fyrir-folkid-",
+   "source": "visir.is",
+   "author": "Yngvi Ómar Sigrúnarson",
+   "date": "2026-06-19",
+   "summary": "EOG miało przynieść korzyści biznesowi, ale dało bankom europejski rynek z islandzkim zapleczem i otworzyło rynek pracy bez równoległego rozwoju systemu mieszkaniowego; przy euro inflacja na małym islandzkim rynku mieszkaniowym nie decydowałaby sama o warunkach kredytowych wszystkich gospodarstw domowych.",
+   "args": [
+    "vextir"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Dlaczego nie powiedzieć NIE… dlaczego należałoby powiedzieć może?",
+   "url": "https://www.visir.is/g/20262899475d/af-hverju-ekki-ad-segja-nei-af-hverju-aetti-ad-segja-kannski-",
+   "source": "visir.is",
+   "author": "Gunnar Ármannsson",
+   "date": "2026-06-19",
+   "summary": "Sam rząd miał zdecydować o głosowaniu nad procesem, a nie nad wynikiem; mógł dokończyć negocjacje umowy i poddać ją pod referendum. NIE jest uprawnionym stanowiskiem wobec terminu, procedury i mandatu politycznego, a nie „pozbawianiem praw” innych wyborców.",
+   "args": [
+    "umbod",
+    "spurning"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Kto dostaje miejsca przy stole?",
+   "url": "https://www.visir.is/g/20262899935d/hverjir-fa-saetin-vid-bordid-",
+   "source": "visir.is",
+   "author": "Diljá Mist Einarsdóttir",
+   "date": "2026-06-21",
+   "summary": "Wpływy w UE zależą od liczby ludności; Islandia otrzymałaby 6 posłów z 726, około 0,08% wagi głosu, a jej przedstawiciel w Komisji nie mógłby strzec islandzkich interesów. Politycy i urzędnicy sami mają zawodowy interes w „miejscach przy stole”.",
+   "args": [
+    "ahrifaleysi"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Chcę sama decydować o swoich wakacjach",
+   "url": "https://www.visir.is/g/20262900010d/eg-vil-rada-minu-sumarfrii",
+   "source": "visir.is",
+   "author": "Magnea Gná Jóhannsdóttir",
+   "date": "2026-06-21",
+   "summary": "Porównuje negocjacje do wycieczki zorganizowanej do Brukseli, w której trzeba czytać drobny druk; nie trzeba zaglądać do pakietu, bo przepisy, kompetencje i zasady pierwszeństwa UE są już znane, a siła głosu Islandii byłaby niemal żadna.",
+   "args": [
+    "spurning",
+    "ahrifaleysi"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Miejsce przy stole – czy miejsce na korytarzu?",
+   "url": "https://www.visir.is/g/20262900035d/saeti-vid-bordid-eda-saeti-a-ganginum-",
+   "source": "visir.is",
+   "author": "Þorvaldur Ingi Jónsson",
+   "date": "2026-06-21",
+   "summary": "Odpowiedź na artykuł Diljá Mistar: Islandia już teraz przyjmuje dużą część przepisów rynku wewnętrznego „z korytarza” bez prawa głosu, ale po akcesji miałaby przedstawicieli w Radzie Ministrów, Komisji i komitetach; małe państwa, takie jak Malta, Luksemburg i Dania, mają wpływ daleko wykraczający poza ich liczbę ludności.",
+   "args": [
+    "ahrif"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Mały naród, wielkie możliwości",
+   "url": "https://www.visir.is/g/20262900134d/litil-thjod-stor-taekifaeri",
+   "source": "visir.is",
+   "author": "Þórður Birgisson",
+   "date": "2026-06-21",
+   "summary": "Poziom życia miał się znacznie poprawić pod własnymi rządami, a Islandia zajmuje wysokie miejsca w rankingach dobrobytu; UE zmaga się z powolnym wzrostem gospodarczym i zadłużeniem, Islandia wpłacałaby do Unii więcej, niż by z niej otrzymywała, a EOG już zapewnia szeroki dostęp do rynku.",
+   "args": [
+    "efnahagur",
+    "ees",
+    "kostnadur",
+    "fullveldi"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Czy Islandczycy głosują nogami?",
+   "url": "https://www.visir.is/g/20262900219d/kjosa-islendingar-med-fotunum-",
+   "source": "visir.is",
+   "author": "Hjálmar Vilhjálmsson",
+   "date": "2026-06-22",
+   "summary": "W ośmiu zachodnich krajach Europy mieszka niemal pięć razy więcej Islandczyków niż obywateli tych państw na Islandii; migracja kieruje się do tych krajów UE, które oferują najlepsze warunki życia, co ma wskazywać, że Islandia ma wiele do zaoferowania.",
+   "args": [
+    "kjor"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Nie potrzebujesz umowy, aby zobaczyć to, co najważniejsze",
+   "url": "https://www.visir.is/g/20262900333d/thu-tharft-ekki-samninginn-til-ad-sja-thad-sem-mestu-skiptir",
+   "source": "visir.is",
+   "author": "Daði Freyr Ólafsson",
+   "date": "2026-06-22",
+   "summary": "Najważniejsze kwestie są już określone w traktatach UE: około 0,09% siły głosu w Radzie Ministrów, sześć miejsc w Parlamencie z 720, wyłączna władza Unii nad ochroną zasobów rybnych i brak trwałego wyłączenia ze wspólnej polityki rybołówstwa. Założył stronę jatiladfela.com wraz ze źródłami.",
+   "args": [
+    "ahrifaleysi",
+    "sjavarutvegur",
+    "undanthagur"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Słoń w pokoju",
+   "url": "https://www.visir.is/g/20262900450d/fillinn-i-stofunni",
+   "source": "visir.is",
+   "author": "Eldur Smári Kristinsson",
+   "date": "2026-06-22",
+   "summary": "Debata o walucie odwraca uwagę od zrzeczenia się suwerenności nad zasobami i wpływu na prawa obywatelskie; wspólna polityka rybołówstwa przeniosłaby władzę do Brukseli, a narzędzia UE, takie jak „tarcza demokracji”, mogą ograniczać wolność słowa.",
+   "args": [
+    "fullveldi",
+    "sjavarutvegur"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Umowa na warunkach UE",
+   "url": "https://www.visir.is/g/20262900701d/samningur-a-forsendum-esb",
+   "source": "visir.is",
+   "author": "Hreinn Loftsson",
+   "date": "2026-06-23",
+   "summary": "Ramy negocjacyjne z 2010 roku, jednomyślnie zatwierdzone przez wszystkie państwa członkowskie, przewidują przyjęcie całego dorobku prawnego UE oraz jedynie tymczasowe środki dostosowawcze; pomysły dotyczące trwałych odstępstw od wspólnej polityki rybołówstwa nie mają oparcia w oficjalnych dokumentach.",
+   "args": [
+    "undanthagur",
+    "sjavarutvegur",
+    "adlogun"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Nadchodzą ważne wydarzenia",
+   "url": "https://www.visir.is/g/20262900787d/dregur-til-tidinda",
+   "source": "visir.is",
+   "author": "Hannes Pétursson",
+   "date": "2026-06-23",
+   "summary": "Cieszy się, że naród będzie mógł powiedzieć TAK lub NIE wobec negocjacji, i wskazuje, że zachowuje wszystkie atuty, ponieważ umowa akcesyjna ponownie trafiłaby pod referendum; krytykuje „stek bzdurnych twierdzeń” przeciwników o UE jako „płonącym domu”, co przypomina katastroficzne prognozy dotyczące EOG.",
+   "args": [
+    "lydraedi",
+    "kikja",
+    "hraedslu"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Czy 25% spadek cen żywności jest realny przy euro?",
+   "url": "https://www.visir.is/g/20262901206d/er-25-laekkun-a-matvaelum-raunhaef-med-evru-",
+   "source": "visir.is",
+   "author": "Sveinn Atli Gunnarsson",
+   "date": "2026-06-24",
+   "summary": "Twierdzenie o 25% w odniesieniu do pojedynczego fast foodu jest uproszczeniem, ale ceny żywności i tak spadłyby w dłuższej perspektywie po przyjęciu euro: różnica stóp procentowych obciąża wszystkie etapy łańcucha wartości, zniknęłaby premia kursowa, a cła mają duże znaczenie w wydatkach gospodarstw domowych na zakupy spożywcze.",
+   "args": [
+    "vextir",
+    "kjor"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Brexit i Islandia – czego możemy się nauczyć i dokąd powinniśmy zmierzać?",
+   "url": "https://www.visir.is/g/20262901457d/brexit-og-island-hvad-getum-vid-laert-og-hvert-eigum-vid-ad-stefna-",
+   "source": "visir.is",
+   "author": "Sigurður Sigurðsson",
+   "date": "2026-06-29",
+   "summary": "Dziesięć lat po Brexicie brytyjska gospodarka jest o 6–8% mniejsza, niż byłaby w innym przypadku, a 16.400 firm zaprzestało eksportu do UE; połowa tego ciosu wynika z samej niepewności. Dostęp do rynku wewnętrznego jest życiodajną arterią dla małej gospodarki zależnej od eksportu, takiej jak gospodarka Islandii.",
+   "args": [
+    "oryggi"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Czy przystąpienie do UE powiększa biurokrację? Liczby mówią co innego",
+   "url": "https://www.visir.is/g/20262901463d/staekkar-skrifraedid-vid-inngongu-i-esb-tolurnar-segja-annad",
+   "source": "visir.is",
+   "author": "Halldór Jörgen Olesen",
+   "date": "2026-06-24",
+   "summary": "Twierdzenia, że członkostwo rozdmucha islandzką biurokrację, nie wytrzymują krytyki: Islandia zajmuje 15. miejsce we wskaźniku efektywności Banku Światowego, nie ma żadnej korelacji między członkostwem w UE a nieefektywnością, a efektywność wzrosła w Finlandii, na Malcie i w Chorwacji po przystąpieniu.",
+   "args": [
+    "hraedslu"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Ceny żywności, cła i praca ze źródłami",
+   "url": "https://www.visir.is/g/20262901670d/matvaelaverd-tollar-og-heimildavinna",
+   "source": "visir.is",
+   "author": "Erna Bjarnadóttir",
+   "date": "2026-06-24",
+   "summary": "Twierdzenia Viðreisn o 25% spadku cen żywności opierają się na słabej pracy ze źródłami; spadek w Finlandii po akcesji wyniósł raczej 10–11%, a rozwój sytuacji w Szwecji w dużej mierze wyjaśniają zmiany kursowe. Władze mogłyby znieść cła natychmiast także bez członkostwa w UE.",
+   "args": [
+    "landbunadur"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Stańcie na korytarzu i czekajcie na wiadomości",
+   "url": "https://www.visir.is/g/20262901923d/hangid-frammi-a-gangi-i-von-um-frettir",
+   "source": "visir.is",
+   "author": "Hjörtur J. Guðmundsson",
+   "date": "2026-06-26",
+   "summary": "W negocjacjach dotyczących stad dzielonych na Północnym Atlantyku państwa UE, takie jak Irlandia i Dania, siedzą na korytarzu, podczas gdy Islandia, Norwegia i Wyspy Owcze siedzą przy stole; w ramach Unii znaczenie Islandii wynosiłoby jedynie około 0,08% w Radzie Ministrów.",
+   "args": [
+    "ahrifaleysi",
+    "sjavarutvegur"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Czy Islandia stanie się kruchą wspólnotą osadniczą?",
+   "url": "https://www.visir.is/g/20262902217d/verdur-island-brothaett-byggd-",
+   "source": "visir.is",
+   "author": "Sigurjón Þórðarson",
+   "date": "2026-06-27",
+   "summary": "Pozycja negocjacyjna Islandii jest znacznie przeceniana, ponieważ Islandczycy stanowią zaledwie 0,08% ludności UE; po przystąpieniu zagraniczne sieci spożywcze mogłyby wykupić największe przedsiębiorstwa rybackie i wywozić ryby z kraju bez przetworzenia, podobnie jak już zdarzają się takie przypadki.",
+   "args": [
+    "ahrifaleysi",
+    "sjavarutvegur"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Świadoma debata i przekazanie władzy państwowej",
+   "url": "https://www.visir.is/g/20262902326d/upplyst-umraeda-og-framsal-rikisvalds",
+   "source": "visir.is",
+   "author": "Margrét Einarsdóttir",
+   "date": "2026-06-26",
+   "summary": "Islandia już przekazała część władzy państwowej poprzez udział w MSE, NATO, umowie obronnej ze Stanami Zjednoczonymi i EOG; kraj przyjmuje obszerną legislację za pośrednictwem EOG przy bardzo ograniczonych możliwościach wpływu, podczas gdy państwa członkowskie UE same kształtują to prawodawstwo.",
+   "args": [
+    "ahrif"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Czyj to domek? TAK czy NIE?",
+   "url": "https://www.visir.is/g/20262902508d/hver-a-thennan-bustad-ja-eda-nei-",
+   "source": "visir.is",
+   "author": "Stefán Hrafn Jónsson",
+   "date": "2026-06-26",
+   "summary": "Głosowanie dotyczy wyłącznie tego, czy należy podjąć negocjacje, a nie członkostwa; wiele najważniejszych postępów w ochronie konsumentów w Islandii dokonało się za pośrednictwem EOG. Pyta, czego obawiają się grupy interesu walczące przeciw negocjacjom i co mogłoby wyjść na jaw.",
+   "args": [
+    "kikja",
+    "kjor"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Naród uwięziony w Groundhog Day korony",
+   "url": "https://www.visir.is/g/20262902534d/thjodin-fost-i-groundhog-day-kronunnar",
+   "source": "visir.is",
+   "author": "Baldur Pétursson",
+   "date": "2026-06-27",
+   "summary": "Inflacja, wysokie stopy procentowe i wahania kursowe nieustannie się powtarzają jako systemowy problem mikrowaluty; te same uwarunkowania co w latach 2005–2008 i 2016–2019 ponownie ujawniły się w latach 2024–2026, a system zamiast rozpraszać ryzyko, potęguje wahania.",
+   "args": [
+    "vextir"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Negocjować z samym sobą",
+   "url": "https://www.visir.is/g/20262902560d/ad-semja-vid-sjalfan-sig",
+   "source": "visir.is",
+   "author": "Sigurjón Njarðarson",
+   "date": "2026-06-27",
+   "summary": "Odpowiada dyrektorowi wykonawczemu SFS: prawo państw do zobowiązywania się umowami jest nieodłączną częścią suwerenności i formą jej wykonywania, a nie jej przekazaniem; powołuje się na Bjarna Má Magnússon i Einar Arnórsson, wskazując, że ograniczenie swobody działania nie pozbawia państwa suwerenności.",
+   "args": [
+    "hraedslu"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Drodzy rodacy – czy mamy odrzucić umowę, której nie widzieliśmy?",
+   "url": "https://www.visir.is/g/20262902660d/kaeru-landar-eigum-vid-ad-hafna-samningi-sem-vid-hofum-ekki-sed-",
+   "source": "visir.is",
+   "author": "Þorvaldur Ingi Jónsson",
+   "date": "2026-06-27",
+   "summary": "Głosowanie dotyczy wyłącznie uzyskania umowy, którą będzie można ocenić w sposób świadomy; jeśli okaże się zła, naród ją odrzuci. Cytuje Davíð Þór Björgvinsson, że małe narody w UE otrzymują wsparcie w zachowaniu języka i kultury.",
+   "args": [
+    "kikja",
+    "lydraedi"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Czy żądza władzy Flokkur fólksins doprowadzi go do upadku?",
+   "url": "https://www.visir.is/g/20262902707d/verdur-valdagraedgi-flokks-folksins-honum-ad-falli-",
+   "source": "visir.is",
+   "author": "Júlíus Valsson",
+   "date": "2026-06-27",
+   "summary": "Flokkur fólksins miał zdradzić swoją politykę suwerennościową dla ministerialnych stanowisk: poprzeć protokół 35 o pierwszeństwie przepisów EOG wbrew wcześniejszym deklaracjom Ingu Sæland oraz wycofać się z żądania cofnięcia wniosku o członkostwo w UE.",
+   "args": [
+    "umbod",
+    "fullveldi"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Kto ma piękniejszą ojczyznę?",
+   "url": "https://www.visir.is/g/20262902795d/hver-a-ser-fegurra-fodurland-",
+   "source": "visir.is",
+   "author": "Marta Eiríksdóttir",
+   "date": "2026-06-28",
+   "summary": "Wolność i suwerenność są fundamentami społeczeństwa, a Islandczycy zawsze chcieli sami o sobie decydować; naród może sam zmienić system bankowy i społeczeństwo bez ingerencji UE ani uciążliwych regulacji stamtąd.",
+   "args": [
+    "fullveldi"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Pakiet mieszkaniowy",
+   "url": "https://www.visir.is/g/20262903971d/husnaedispakkinn",
+   "source": "visir.is",
+   "author": "Magnea Gná Jóhannsdóttir",
+   "date": "2026-07-01",
+   "summary": "Zwolennicy Europy sprzedają przekonanie, że członkostwo rozwiąże problem mieszkaniowy, lecz raport UE pokazuje, że ceny mieszkań tam wyprzedziły dochody, a około 30% osób w wieku 25–34 lat nadal mieszka z rodzicami; na Islandczyków nie czekają żadne „europejskie średnie stopy procentowe”.",
+   "args": [
+    "evra",
+    "spurning"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Czy UE podkopuje własne interesy?",
+   "url": "https://www.visir.is/g/20262904129d/er-esb-ad-grafa-undan-eigin-hagsmunum-",
+   "source": "visir.is",
+   "author": "Erna Bjarnadóttir",
+   "date": "2026-07-01",
+   "summary": "Przedstawia krytykę Carls Baudenbacher, byłego prezesa Trybunału EFTA, że UE próbuje wyciągnąć Islandię z EOG do UE; przeciwnie, Unia powinna zachować EOG jako ważny model współpracy na przyszłość.",
+   "args": [
+    "ees"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Do kogo należy islandzka flaga?",
+   "url": "https://www.visir.is/g/20262904318d/hver-a-islenska-fanann-",
+   "source": "visir.is",
+   "author": "Berglind Guðmundsdóttir",
+   "date": "2026-07-01",
+   "summary": "Dyrektor wykonawczy SJÁ krytykuje fakt, że islandzka flaga stała się symbolem określonego stanowiska politycznego; nikt nie ma wyłącznego prawa do patriotyzmu, a demokracja opiera się na tym, że ludzie mogą się nie zgadzać i z szacunkiem rozmawiać o przyszłości kraju.",
+   "args": [
+    "lydraedi"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Mówić dwoma językami",
+   "url": "https://www.visir.is/g/20262904374d/ad-tala-tungum-tveim",
+   "source": "visir.is",
+   "author": "Ingólfur Sverrisson",
+   "date": "2026-07-01",
+   "summary": "Wskazuje na obłudę przeciwników, którzy twierdzą, że brakuje informacji, a jednocześnie sami udają, że wiedzą wszystko o umowie, której nikt nie widział; walka o wody terytorialne pokazuje, co może osiągnąć mały naród, zamiast umniejszać się do „5% znaczenia” i milczeć na korytarzu.",
+   "args": [
+    "kikja",
+    "hraedslu"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "„Sam sobie załatw ten cholerny podnośnik!”",
+   "url": "https://www.visir.is/g/20262904396d/-eigdu-sjalfur-thinn-helvitis-tjakk-",
+   "source": "visir.is",
+   "author": "Ólafur Hauksson",
+   "date": "2026-07-01",
+   "summary": "Przywołuje dowcip o człowieku, który wyobraża sobie wrogie przyjęcie przez rolnika, zanim poprosi go o podnośnik; argumentacja przeciwników negocjacji opiera się na podobnej z góry założonej urazie, zamiast sprawdzić, co naprawdę jest oferowane.",
+   "args": [
+    "hraedslu",
+    "kikja"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Przyjęcie euro ryzykowne dla małych gospodarek",
+   "url": "https://www.visir.is/g/20262904398d/upptaka-evru-ahaettusom-fyrir-litil-hagkerfi",
+   "source": "visir.is",
+   "author": "Kristinn Sv. Helgason",
+   "date": "2026-07-02",
+   "summary": "Badanie ekonomisty z Banku Centralnego pokazuje, że jednolita polityka pieniężna słabo odpowiada państwom peryferyjnym, a koszty poświęceń są u nich najwyższe; Finlandia zmaga się z bezrobociem na poziomie 9,6%, a raport walutowy nie odważył się zarekomendować przyjęcia euro.",
+   "args": [
+    "evra",
+    "skyrslan"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Próbował uniemożliwić, by Islandia doczekała się sprawiedliwości",
+   "url": "https://www.visir.is/g/20262904400d/reyndi-ad-hindra-ad-island-nyti-rettlaetis",
+   "source": "visir.is",
+   "author": "Hjörtur J. Guðmundsson",
+   "date": "2026-07-02",
+   "summary": "Odpowiada Ingólfur Sverrissonowi: UE poparła Brytyjczyków i Holendrów przeciwko Islandii w sprawie Icesave i przystąpiła do sprawy przed Trybunałem EFTA; Islandia odniosła zwycięstwo dzięki swojej suwerenności, podobnie jak w wojnach dorszowych.",
+   "args": [
+    "fullveldi"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Dziękuję, ale NIE dziękuję",
+   "url": "https://www.visir.is/g/20262904477d/takk-en-nei-takk",
+   "source": "visir.is",
+   "author": "Jón Pétur Zimsen",
+   "date": "2026-07-02",
+   "summary": "Wylicza powody, by powiedzieć nie: Islandia wpłaciłaby zadłużonej UE więcej, niż otrzymałaby z powrotem, dostosowanie rozpoczęłoby się natychmiast równolegle z negocjacjami zgodnie z uchwałą Althingu, doszłyby do tego armia UE i rozchwianie współpracy obronnej oraz umów o wolnym handlu, a ponadto ani naród, ani parlament nie popierają tej drogi.",
+   "args": [
+    "kostnadur",
+    "adlogun",
+    "hervaeding",
+    "umbod"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Tak, naprzód Islandio!",
+   "url": "https://www.visir.is/g/20262904555d/ja-afram-island-",
+   "source": "visir.is",
+   "author": "Óli Rúnar Ástþórsson",
+   "date": "2026-07-02",
+   "summary": "Opisuje, jak międzypokoleniowe wstrząsy nauczyły Islandczyków godzić się ze stanem rzeczy, który można by zmienić; trwała inflacja i poziom stóp procentowych, które gdzie indziej uznano by za stan nadzwyczajny, są burzą, którą naród wywołuje sam, a TAK przerywa to błędne koło.",
+   "args": [
+    "vextir"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Profesor, ekonomistka i suwerenność",
+   "url": "https://www.visir.is/g/20262904576d/professorinn-hagfraedingurinn-og-fullveldid",
+   "source": "visir.is",
+   "author": "Gunnar Ármannsson",
+   "date": "2026-07-02",
+   "summary": "Omawia wymianę poglądów między Margrét Einarsdóttir a Erna Bjarnadóttir i twierdzi, że kluczem jest rozróżnienie między zobowiązaniami prawa międzynarodowego a formalnym przekazaniem władzy państwowej; zgodnie z orzecznictwem Sądu Najwyższego EOG nie oznaczał przekazania władzy ustawodawczej, lecz członkostwo w UE poszłoby dalej.",
+   "args": [
+    "fullveldi"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Sojusz strachu elity z wieży z kości słoniowej",
+   "url": "https://www.visir.is/g/20262904623d/hraedslubandalag-elitunnar-i-filabeinsturninum",
+   "source": "visir.is",
+   "author": "Sveinn Atli Gunnarsson",
+   "date": "2026-07-02",
+   "summary": "Odpowiada na artykuł Jón Pétur Zimsen i twierdzi, że jest on podręcznikowym przykładem propagandy strachu: UE nie ma armii, a współpraca obronna ze Stanami Zjednoczonymi jest dwustronna. Elita, która korzysta na monopolu, barierach celnych i wahaniach korony, nie chce, by zwykli ludzie mogli zobaczyć umowę.",
+   "args": [
+    "hraedslu",
+    "kikja",
+    "lydraedi"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Człowiek, który ufał narodowi, ale już nie",
+   "url": "https://www.visir.is/g/20262904777d/madurinn-sem-treysti-thjodinni-en-ekki-lengur",
+   "source": "visir.is",
+   "author": "Halldór Jörgen Olesen",
+   "date": "2026-07-02",
+   "summary": "Wskazuje, że Ólafur Ragnar Grímsson, który dwukrotnie kierował sprawę Icesave do narodu w imię demokracji, teraz stoi na czele ruchu przeciwko temu, by naród mógł głosować; na liście mówców Áfram Ísland same jednoczą się elita prezesów i przywódcy związkowi, by zamknąć drzwi, zanim ludzie zobaczą umowę.",
+   "args": [
+    "lydraedi",
+    "kikja",
+    "vextir"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Złudzenie niższych kosztów mieszkaniowych dzięki euro",
+   "url": "https://www.visir.is/g/20262904886d/blekkingin-um-laegri-husnaediskostnad-med-evru",
+   "source": "visir.is",
+   "author": "Erlendur Magnússon",
+   "date": "2026-07-03",
+   "summary": "Niższe stopy procentowe w euro nie prowadzą do mniejszego obciążenia przy zakupie mieszkania, ponieważ ceny nieruchomości odpowiednio rosną; przyjęcie euro spowodowało bańki na rynku nieruchomości w Hiszpanii, Irlandii i Portugalii, a mieszkańcy krajów strefy euro kupują swoje pierwsze mieszkanie średnio w starszym wieku niż Islandczycy.",
+   "args": [
+    "evra"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Czy stracimy suwerenność, jeśli wejdziemy do UE?",
+   "url": "https://www.visir.is/g/20262905072d/topum-vid-fullveldinu-ef-vid-gongum-i-esb-",
+   "source": "visir.is",
+   "author": "Gunnar Ármannsson",
+   "date": "2026-07-03",
+   "summary": "Odpowiada Bjarni Má Magnússonowi: pytanie nie brzmi, czy państwo może wejść do UE, lecz jakie skutki konstytucyjne ma członkostwo tak długo, jak trwa; trafniej byłoby porównać członkostwo do szerokiego pełnomocnictwa, w ramach którego rzeczywista władza decyzyjna zostaje przekazana innym.",
+   "args": [
+    "fullveldi"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Umowa, którą wszyscy przeczytali",
+   "url": "https://www.visir.is/g/20262905097d/samningurinn-sem-allir-hafa-lesid",
+   "source": "visir.is",
+   "author": "",
+   "date": "2026-07-03",
+   "summary": "Satyra na tych, którzy udają, że dokładnie wiedzą, co znajdzie się w umowie, której nikt nie widział; głosowanie dotyczy tego, czy naród będzie mógł zobaczyć umowę, zanim zajmie stanowisko, a przekonanie nie jest tym samym co wiedza.",
+   "args": [
+    "kikja"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Co wiemy w sierpniu? Fakty i możliwości Islandii",
+   "url": "https://www.visir.is/g/20262905110d/hvad-vitum-vid-i-agust-stadreyndir-og-moguleikar-islands",
+   "source": "visir.is",
+   "author": "Þorvaldur Ingi Jónsson",
+   "date": "2026-07-03",
+   "summary": "Głosowanie dotyczy dokończenia umowy, którą naród następnie oceni, a nie członkostwa; nikt dziś nie wie, jak zostałyby rozwiązane kwestie rybołówstwa czy zasobów naturalnych. Porównuje Islandię z Maltą, gdzie nowe kredyty mieszkaniowe mają oprocentowanie około 2% wobec około 10% na Islandii.",
+   "args": [
+    "kikja",
+    "vextir"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Czy możemy zrobić jeszcze lepiej? Tak w sierpniu",
+   "url": "https://www.visir.is/g/20262905307d/getum-vid-gert-enn-betur-ja-i-agust",
+   "source": "visir.is",
+   "author": "Elvar Örn Arason",
+   "date": "2026-07-04",
+   "summary": "Pierwsze miejsce Islandii w rankingu jakości życia ONZ nie jest argumentem przeciw członkostwu, skoro siedem państw UE znajduje się wśród piętnastu najlepszych; ranking nie mierzy ani obciążenia odsetkowego, ani indeksacji, ani wahań kursowych. Islandia już teraz przyjmuje większość przepisów jednolitego rynku bez miejsca przy stole, a głos na tak nie zobowiązuje nikogo do członkostwa.",
+   "args": [
+    "vextir",
+    "ahrif",
+    "kikja"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Militaryzm",
+   "url": "https://www.visir.is/g/20262905366d/hernadarbrolt",
+   "source": "visir.is",
+   "author": "Gestur Valgarðsson",
+   "date": "2026-07-04",
+   "summary": "Odrzuca twierdzenia, że UE zmierza do wprowadzenia poboru i utworzenia armii europejskiej; sprawy obronności nadal pozostają w gestii suwerennych państw członkowskich. Zwiększone wydatki obronne Europy wynikają z inwazji Rosji na Ukrainę i potrzeby odstraszania, a islandzkie gospodarstwa domowe toczą własną wojnę obronną z systemem odsetkowym.",
+   "args": [
+    "hraedslu",
+    "oryggi"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Sprawna teraz, ale nie jeśli wejdziemy do UE",
+   "url": "https://www.visir.is/g/20262905530d/skilvirk-nuna-en-ekki-ef-vid-gongum-i-esb",
+   "source": "visir.is",
+   "author": "Hjörtur J. Guðmundsson",
+   "date": "2026-07-05",
+   "summary": "Przywołuje dokument MIPD Komisji Europejskiej z 2011 roku, według którego islandzka administracja jest zbyt mała, by sprostać zobowiązaniom wynikającym z członkostwa, i konieczna byłaby znaczna rozbudowa instytucjonalna. Artykuł polemiczny wobec Halldór Jörgen Olesen; funkcjonowanie systemu odbywałoby się kosztem budżetu państwa.",
+   "args": [
+    "kostnadur",
+    "adlogun"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Jednostka i suwerenność",
+   "url": "https://www.visir.is/g/20262905578d/einstaklingurinn-og-fullveldid",
+   "source": "visir.is",
+   "author": "Signý Sigurðardóttir",
+   "date": "2026-07-05",
+   "summary": "Osobista opowieść o kryzysie z 2008 roku, w którym kredyt mieszkaniowy autora w wysokości 9 milionów wzrósł do 34 milionów, zanim został uznany za nielegalny. Suwerenność nie obroniła jednostek, gdy 10.000 rodzin straciło swoje domy, a elita walczy dziś przeciw innemu modelowi gospodarczemu.",
+   "args": [
+    "vextir"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Informacje nie są zagrożeniem, są warunkiem wstępnym",
+   "url": "https://www.visir.is/g/20262905706d/upplysingar-eru-ekki-ogn-thaer-eru-forsenda",
+   "source": "visir.is",
+   "author": "Halldór Jörgen Olesen",
+   "date": "2026-07-05",
+   "summary": "Głosowanie dotyczy uzyskania umowy na stole, a nie członkostwa, i nikt nie podejmuje wielkiej decyzji bez informacji. Przywołuje Churchilla, Kofi Annana, Jón Sigurðsson i Mandelę, by podkreślić, że informacje i negocjacje są warunkiem demokratycznej decyzji.",
+   "args": [
+    "kikja",
+    "lydraedi"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Co jest w pakiecie?",
+   "url": "https://www.visir.is/g/20262905860d/hvad-er-i-pakkanum-",
+   "source": "visir.is",
+   "author": "Hannes Lúðvíksson",
+   "date": "2026-07-06",
+   "summary": "Państwo kandydujące musi przyjąć wszystkie przepisy UE zgodnie z kryteriami kopenhaskimi, a proces dostosowawczy rozpocząłby się natychmiast po głosie na tak. Islandia wdrożyła jedynie 13,4% aktów UE za pośrednictwem EOG, a 13 obszarów polityki, którymi Islandia obecnie zarządza samodzielnie, przeszłoby pod UE; euro nie jest żadnym magicznym rozwiązaniem.",
+   "args": [
+    "adlogun",
+    "evra",
+    "ees"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Nowa analiza: O ile spadłyby oprocentowanie kredytów mieszkaniowych wraz z UE i euro?",
+   "url": "https://www.visir.is/g/20262905881d/ny-greining-hvad-myndu-husnaedisvextir-laekka-med-esb-og-evru-",
+   "source": "visir.is",
+   "author": "Dagur B. Eggertsson",
+   "date": "2026-07-06",
+   "summary": "Przedstawia analizę profesora Gauta B. Eggertssona z Brown-háskóla: raty nowego kredytu mieszkaniowego spadłyby o jedną trzecią wraz z euro, a budowanie majątku przebiegałoby znacznie szybciej. Łączny koszt korony dla gospodarstw domowych szacuje się na ponad 100 miliardów koron rocznie.",
+   "args": [
+    "vextir"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "O życiu i śmierci, suwerenności i UE",
+   "url": "https://www.visir.is/g/20262905947d/um-lif-og-dauda-fullveldi-og-esb",
+   "source": "visir.is",
+   "author": "Bjarni Már Magnússon",
+   "date": "2026-07-06",
+   "summary": "Przedstawia rozumienie Bjarna Jónssonar frá Vogi i Einars Arnórssonar, architektów suwerenności z 1918 roku, według którego zobowiązania międzynarodowe są przejawem suwerenności, a nie jej ograniczeniem. Suwerenne państwo samo decyduje, jakie zobowiązania na siebie przyjmuje.",
+   "args": [
+    "hraedslu"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Brexit nie jest przyczyną brytyjskich wyzwań gospodarczych",
+   "url": "https://www.visir.is/g/20262906238d/brexit-ekki-orsok-efnahagsaskorana-breta",
+   "source": "visir.is",
+   "author": "Kristinn Sv. Helgason",
+   "date": "2026-07-06",
+   "summary": "Krytykuje media za obarczanie Brexitu winą za problemy gospodarcze Wielkiej Brytanii; wzrost gospodarczy po Brexicie był wyższy w Wielkiej Brytanii (1,4%) niż w Niemczech, Francji i we Włoszech. Raport Draghiego opisuje egzystencjalny kryzys gospodarczy UE wynikający ze spadającej konkurencyjności.",
+   "args": [
+    "efnahagur"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Gospodarka oparta na koronie i koszty gospodarstw domowych",
+   "url": "https://www.visir.is/g/20262906245d/kronuhagkerfid-og-kostnadur-heimilanna",
+   "source": "visir.is",
+   "author": "Sigurður Kristinn Pálsson",
+   "date": "2026-07-06",
+   "summary": "Ceny na Islandii są o 70–80% wyższe od średniej UE, a dewaluacje korony oznaczają transfer środków od gospodarstw domowych do firm eksportowych. Napędza to błędne koło indeksowanej korony, w którym inflacja podnosi kapitał kredytów i osłabia siłę nabywczą.",
+   "args": [
+    "vextir",
+    "kjor"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "O życiu i śmierci, suwerenności i UE II",
+   "url": "https://www.visir.is/g/20262906290d/um-lif-og-dauda-fullveldi-og-esb-ii",
+   "source": "visir.is",
+   "author": "Bjarni Már Magnússon",
+   "date": "2026-07-07",
+   "summary": "Kolejny artykuł, który przywołuje wystąpienie Ólafs Jóhannessonar z 1962 roku o tym, że członkostwo w potężnych organizacjach międzynarodowych zasadniczo nie pozbawia państw ich suwerenności. Pojęcie suwerenności ma być względne i dostosowywać się do zmieniających się poglądów każdej epoki.",
+   "args": [
+    "hraedslu"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Wyryte w kamieniu albo może, ewentualnie, być może",
+   "url": "https://www.visir.is/g/20262906346d/meitlad-i-stein-eda-kannski-hugsanlega-ef-til-vill",
+   "source": "visir.is",
+   "author": "Sigurður Egilsson",
+   "date": "2026-07-07",
+   "summary": "Zobowiązania członkowskie są prawnie wiążące, ale obiecywane korzyści to jedynie prognozy: dorobek prawny UE jest wyryty w kamieniu, natomiast spadki stóp procentowych i cen są niepewne. Europejski Bank Centralny dostosowuje stopy do największych gospodarek, a Finlandia nie uzyskała żadnego wyjątku od polityki rolnej.",
+   "args": [
+    "adlogun",
+    "evra",
+    "undanthagur"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Cytować poprawnie",
+   "url": "https://www.visir.is/g/20262906477d/ad-hafa-rett-eftir",
+   "source": "visir.is",
+   "author": "Ingólfur Sverrisson",
+   "date": "2026-07-07",
+   "summary": "Artykuł polemiczny skierowany do Hjört J. Guðmundsson, którego autor oskarża o błędne cytowanie jego wypowiedzi; Islandczycy często dochodzili sprawiedliwości przed zagranicznymi sądami. Nie ma nic do stracenia, mówiąc TAK w sierpniu i sprawdzając, jaki układ zostanie zaproponowany — wiedza jest lepsza niż domysły.",
+   "args": [
+    "kikja"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Dlaczego „NIE” 29 sierpnia?",
+   "url": "https://www.visir.is/g/20262906545d/af-hverju-nei-29.-agust-",
+   "source": "visir.is",
+   "author": "Alfreð Sturla Böðvarsson",
+   "date": "2026-07-07",
+   "summary": "Ci, którym dobrze służy oligopol gospodarki opartej na koronie, nie chcą zobaczyć umowy, podczas gdy zwykli ludzie płacą wielokrotność wartości swoich mieszkań i najwyższe ceny żywności w Europie. Na rozmowach nic się nie traci, a naród będzie mógł zatwierdzić lub odrzucić projekt umowy.",
+   "args": [
+    "kikja",
+    "vextir",
+    "kjor"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Dlaczego zmieniłem zdanie o członkostwie Islandii w Unii Europejskiej",
+   "url": "https://www.visir.is/g/20262906561d/hvers-vegna-eg-skipti-um-skodun-a-adild-islands-ad-evropusambandinu",
+   "source": "visir.is",
+   "author": "Gunnar Ármannsson",
+   "date": "2026-07-07",
+   "summary": "Prawnik i były zwolennik członkostwa zmienił zdanie po lekturze Traktatu z Lizbony. Zadeklarowany cel coraz ściślejszej integracji narodów Europy ma wskazywać na integrację polityczną, która jest sprzeczna z ustrojową pozycją Islandii.",
+   "args": [
+    "fullveldi"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Zapytajcie samych siebie: dla kogo pracuje islandzka korona?",
+   "url": "https://www.visir.is/g/20262906594d/spyrjid-ykkur-fyrir-hvern-vinnur-islenska-kronan-",
+   "source": "visir.is",
+   "author": "Þórður Snær Júlíusson",
+   "date": "2026-07-08",
+   "summary": "Według analizy Gauti B. Eggertsson stopy procentowe gwałtownie spadłyby po przyjęciu euro, a rezerwy walutowe w wysokości tysiąca miliardów można by zmniejszyć o połowę. Islandia jest najdroższym krajem na świecie, a korona chroni oligopol; służy posiadaczom kapitału, a nie ludziom pracy.",
+   "args": [
+    "vextir",
+    "kjor"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Nie żałuj swojego głosu!",
+   "url": "https://www.visir.is/g/20262906895d/ekki-sja-eftir-atkvaedinu-thinu-",
+   "source": "visir.is",
+   "author": "Arnar Steinn Þórarinsson",
+   "date": "2026-07-08",
+   "summary": "Młody wyborca zachęca do głosowania na TAK, aby zobaczyć umowę; decyzja dotyczy najbliższych 50–100 lat. Taka okazja może już nigdy się nie powtórzyć, a umowę zawsze można później odrzucić, jeśli okaże się zła.",
+   "args": [
+    "kikja",
+    "timagluggi"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "W kabinie wyborczej jesteśmy sami",
+   "url": "https://www.visir.is/g/20262906904d/i-kjorklefanum-erum-vid-ein",
+   "source": "visir.is",
+   "author": "Jón Steindór Valdimarsson",
+   "date": "2026-07-08",
+   "summary": "Opisuje proces podwójnego referendum: najpierw w sprawie rozmów, a później w sprawie gotowej umowy akcesyjnej; jeśli naród powie NIE, nic się nie zmieni. Proces ma być tak otwarty, przejrzysty i demokratyczny, jak to tylko możliwe, a w kabinie wyborczej każdy decyduje sam za siebie.",
+   "args": [
+    "lydraedi",
+    "kikja"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Tak czy nie? Głosowanie 29 sierpnia 2026",
+   "url": "https://www.visir.is/g/20262907061d/ja-eda-nei-kosningar-29.-agust-2026",
+   "source": "visir.is",
+   "author": "Grétar H. Óskarsson",
+   "date": "2026-07-08",
+   "summary": "Pyta, czy Islandia ma wspólną drogę z różnymi narodami UE, i wskazuje, że porozumienie EOG przez 32 lata wyjątkowo dobrze służyło Islandii i Norwegii. Członkostwo oznaczałoby kosztowne składki do funduszy UE, a przystąpienie nie jest nawet przedmiotem debaty w Norwegii.",
+   "args": [
+    "ees",
+    "kostnadur",
+    "nagrannar"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Błędne pytanie w słusznej debacie",
+   "url": "https://www.visir.is/g/20262907274d/rong-spurning-i-rettri-umraedu",
+   "source": "visir.is",
+   "author": "Hjálmar Bogi Hafliðason",
+   "date": "2026-07-09",
+   "summary": "Ostrzega przed mieszaniem niezadowolenia z sytuacji gospodarczej Islandii z kwestią UE; członkostwo nie jest środkiem gospodarczym i nie rozwiąże automatycznie problemów wynikających z własnych decyzji narodu. Członkostwo dotyczy także rybołówstwa, rolnictwa, regionów osadniczych i swobody stanowienia własnych regulacji.",
+   "args": [
+    "efnahagur"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Kto rządzi rządem Kristrún Frostadóttir?",
+   "url": "https://www.visir.is/g/20262907344d/hver-stjornar-rikisstjorn-kristrunar-frostadottur-",
+   "source": "visir.is",
+   "author": "Júlíus Valsson",
+   "date": "2026-07-09",
+   "summary": "Þorgerður Katrín Gunnarsdóttir miała przejąć główną rolę w sprawie UE, podczas gdy premier milczy; Landskjörstjórn zgłosiła poważne zastrzeżenia do sugerującego brzmienia pytania. Nie można przystąpić do negocjacji bez formalnego wniosku o członkostwo.",
+   "args": [
+    "spurning",
+    "umbod"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Chwileczkę! Czy nie głosujemy nad tym samym?",
+   "url": "https://www.visir.is/g/20262907358d/biddu-erum-vid-ekki-ad-kjosa-um-thad-sama-",
+   "source": "visir.is",
+   "author": "Yngvi Ómar Sigrúnarson",
+   "date": "2026-07-09",
+   "summary": "Głosowanie dotyczy wyłącznie rozpoczęcia negocjacji i uzyskania umowy, którą naród następnie sam oceni, ale debata pełna jest przekłamań o euro, łowiskach i armii europejskiej. Tę samą kampanię strachu słychać było kiedyś wokół EOG, ale umowa okazała się wielkim krokiem naprzód.",
+   "args": [
+    "kikja",
+    "hraedslu"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Stronniczość RÚV w debacie o UE",
+   "url": "https://www.visir.is/g/20262907736d/hlutdraegni-ruv-i-esb-umraedunni",
+   "source": "visir.is",
+   "author": "Birgir Finnsson",
+   "date": "2026-07-10",
+   "summary": "Premier Holandii Rob Jetten miał potwierdzić w holenderskim parlamencie, że polityka rybołówstwa UE jest nienegocjowalna i Islandia musiałaby zrzec się kontroli nad swoimi zasobami. Ma to być sprzeczne ze słowami ministra spraw zagranicznych, a redakcja wiadomości RÚV milczy w tej sprawie.",
+   "args": [
+    "sjavarutvegur",
+    "undanthagur"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Unia Europejska a rybołówstwo",
+   "url": "https://www.visir.is/g/20262907738d/evropusambandid-og-fiskveidar",
+   "source": "visir.is",
+   "author": "Finnur Torfi Magnússon",
+   "date": "2026-07-10",
+   "summary": "Islandia sprzedaje około 70% połowów do UE, a w ramach Unii zniesiono cła na przetworzone ryby, więc dochody mogłyby znacznie wzrosnąć. Zasada względnej stabilności z 1983 roku gwarantuje, że żadne państwo UE nie może łowić w islandzkiej jurysdykcji, a Islandia stałaby się liderem w zarządzaniu rybołówstwem w Unii.",
+   "args": [
+    "serlausnir",
+    "ahrif"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Co widzi młode pokolenie, czego ja nie dostrzegam?",
+   "url": "https://www.visir.is/g/20262907751d/hvad-ser-unga-folkid-sem-eg-se-ekki-",
+   "source": "visir.is",
+   "author": "Gunnar Salvarsson",
+   "date": "2026-07-10",
+   "summary": "Internacjonalista zastanawia się, dlaczego młodzi, dobrze wykształceni ludzie skłaniają się ku prawicy i zamierzają powiedzieć NIE. Sam chce dokładnie zbadać, jaką umowę o członkostwie Islandia mogłaby uzyskać, zanim zapadnie ostateczne stanowisko.",
+   "args": [
+    "kikja"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Warto przyjrzeć się możliwościom",
+   "url": "https://www.visir.is/g/20262907801d/thad-borgar-sig-ad-skoda-kostina",
+   "source": "visir.is",
+   "author": "Gunnar Ármannsson",
+   "date": "2026-07-10",
+   "summary": "Popiera słowa ministra sprawiedliwości o konieczności przyjrzenia się możliwościom, ale pyta, dlaczego naród dostaje na debatę tylko zaledwie kilka tygodni w szczycie lata w sprawie, którą przewodniczący Alþingi porównuje do przystąpienia do NATO w 1949 roku. Naród nie jest proszony jedynie o informacje, lecz o zatwierdzenie szeroko zakrojonego procesu akcesyjnego.",
+   "args": [
+    "umbod",
+    "adlogun"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Być może zadajemy niewłaściwe pytania",
+   "url": "https://www.visir.is/g/20262908184d/kannski-erum-vid-ad-spyrja-rangra-spurninga",
+   "source": "visir.is",
+   "author": "Haukur Logi Jóhannsson",
+   "date": "2026-07-11",
+   "summary": "Pytanie powinno brzmieć, czy system korony spełnił oczekiwania: gospodarstwa domowe żyją przy jednym z najwyższych poziomów stóp procentowych w krajach rozwiniętych, a elastyczność korony oznacza wyższe odsetki i niepewność. Ci, którzy odrzucają UE, są winni narodowi wiarygodny plan tego, co ma ją zastąpić.",
+   "args": [
+    "vextir"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Podatek korony nakładany na pokolenia: największy podatek w historii Islandii",
+   "url": "https://www.visir.is/g/20262908245d/kronuskatturinn-a-kynslodirnar-mesti-skattur-islandssogunnar",
+   "source": "visir.is",
+   "author": "Baldur Pétursson",
+   "date": "2026-07-11",
+   "summary": "Niewielka skala korony powoduje premię za ryzyko i wyższe stopy procentowe, które spadają na gospodarstwa domowe: różnica między 10% a 3% odsetek od kredytu w wysokości 50 milionów to około 250 tysięcy koron miesięcznie i 115–120 milionów przez cały okres kredytowania. Podatek korony opóźnia finansową samodzielność młodych ludzi i budowanie majątku.",
+   "args": [
+    "vextir",
+    "taekifaeri"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Żegnajcie bezcłowe Temu, Shein i Alibaba",
+   "url": "https://www.visir.is/g/20262908333d/bless-tollfrjalsu-temu-shein-og-alibaba",
+   "source": "visir.is",
+   "author": "Jón Pétur Zimsen",
+   "date": "2026-07-12",
+   "summary": "Odpowiada na krytykę Sveins Atli Gunnarssonar i podkreśla, że członkostwo w UE wywołałoby zamieszanie we współpracy obronnej ze Stanami Zjednoczonymi, powołując się na Gunnar Pálsson, byłego ambasadora przy NATO. UE ma już dowództwo wojskowe i siły szybkiego reagowania, a jej przywódcy, w tym von der Leyen, popierają utworzenie armii europejskiej.",
+   "args": [
+    "hervaeding"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Paczki Temu według JP Zimsen czy prawdziwe interesy Islandii",
+   "url": "https://www.visir.is/g/20262908506d/temu-pakkar-jp-zimsen-eda-alvoru-hagsmunir-islands",
+   "source": "visir.is",
+   "author": "Sveinn Atli Gunnarsson",
+   "date": "2026-07-12",
+   "summary": "Polemika z Jón Pétur Zimsen: zniesienie zwolnienia z ceł dla małych paczek chroni konsumentów i krajowy handel przed dumpingiem subsydiowanych gigantów. UE jest unią gospodarczą i polityczną, a nie sojuszem wojskowym, i nierozsądnie byłoby opierać obronę kraju wyłącznie na Stanach Zjednoczonych pod rządami Trumpa.",
+   "args": [
+    "hraedslu",
+    "oryggi"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Gdy mocarstwa robią, co im się podoba, UE jest dla nas najlepszym wyborem",
+   "url": "https://www.visir.is/g/20262908511d/thegar-storveldin-gera-thad-sem-theim-synist-er-esb-okkar-besti-kostur",
+   "source": "visir.is",
+   "author": "Eiríkur Ragnarsson",
+   "date": "2026-07-12",
+   "summary": "Porównania statystyczne z przeszłości odnoszą się do świata, który już nie istnieje; dziś Rosja atakuje sąsiadów, Chiny eksportują bezrobocie, a Stany Zjednoczone grożą Danii z powodu Grenlandii. Członkostwo w UE zmniejsza ryzyko dla nielicznej i bogatej wyspy bez obrony — Europa z większym prawdopodobieństwem przyjdzie Islandii z pomocą, jeśli krajowi zagrożą supertrawlery, przecinanie kabli podmorskich lub zakusy mocarstw.",
+   "args": [
+    "oryggi"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Nadmierne połowy w UE 500 lat temu",
+   "url": "https://www.visir.is/g/20262908621d/ofveidin-i-esb-fyrir-500-arum",
+   "source": "visir.is",
+   "author": "Sigurjón Þórðarson",
+   "date": "2026-07-13",
+   "summary": "Niezadowolenie z polityki rybołówstwa UE było ważnym czynnikiem Brexitu, a sektor rybołówstwa skurczył się w większości nadmorskich państw Unii. Bez uprzedzenia uprawnienia do połowów na islandzkich wodach podlegałyby przydziałowi z Brukseli na podstawie doradztwa Międzynarodowej Rady Badań Morza, opartego na poważnie wadliwych modelach obliczeniowych; śledź norwesko-islandzki okazał się o 16% liczniejszy mimo rzekomych 13 lat nadmiernych połowów.",
+   "args": [
+    "sjavarutvegur"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Ólafur Ragnar Grímsson i cherry-picking",
+   "url": "https://www.visir.is/g/20262908969d/olafur-ragnar-grimsson-og-cherry-picking",
+   "source": "visir.is",
+   "author": "Sigurður Kristinn Pálsson",
+   "date": "2026-07-13",
+   "summary": "Oskarża Ólafur Ragnar Grímsson o wybiórczy dobór danych na spotkaniu Áfram Íslands, gdzie wspomniał o 25% bezrobociu wśród młodzieży w Finlandii. Według urzędów statystycznych tych państw bezrobocie młodzieży wynosi 23,8% na Islandii i 23,2% w Finlandii według miary ILO, a rejestrowane bezrobocie jest znacznie niższe; wysokie wskaźniki wynikają z tego, że studenci poszukujący pracy są zaliczani do bezrobotnych.",
+   "args": [
+    "hraedslu"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Ograniczona władza niekoniecznie jest małą władzą",
+   "url": "https://www.visir.is/g/20262909118d/afmarkad-vald-er-ekki-endilega-litid-vald",
+   "source": "visir.is",
+   "author": "Gunnar Ármannsson",
+   "date": "2026-07-14",
+   "summary": "Polemika z Davíð Þór Björgvinsson: przy ocenie przekazania suwerenności znaczenie ma nie tylko to, jak wiele obszarów podlega władzy ponadnarodowej, lecz także to, jak ważne są to obszary. Większość polityk istotnych dla państw członkowskich podlega wspólnym kompetencjom, a rozwój integracji od Maastricht do Lizbony objął coraz więcej dziedzin rozszerzoną większością.",
+   "args": [
+    "fullveldi"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Historia ze Szwecji - Warunki życia nie mierzą się procentami wzrostu",
+   "url": "https://www.visir.is/g/20262909205d/saga-fra-svithjod-lifskjor-maelast-ekki-i-vaxtaprosentum",
+   "source": "visir.is",
+   "author": "Berglind Ragnarsdóttir",
+   "date": "2026-07-14",
+   "summary": "Autor mieszkał w Szwecji, gdzie zwykłych ludzi nie było stać na zakup nieruchomości, a długoterminowa umowa najmu była wielkim celem; sama UE uznaje poważny kryzys mieszkaniowy w Europie. Niższa stopa procentowa nie mówi całej prawdy, bo wyższe stałe wydatki i niższe płace zjadają tę różnicę.",
+   "args": [
+    "evra",
+    "efnahagur"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Uprzywilejowani, którzy mówią nie",
+   "url": "https://www.visir.is/g/20262909353d/forrettindafolk-sem-segir-nei",
+   "source": "visir.is",
+   "author": "Margrét Guðmundsdóttir",
+   "date": "2026-07-14",
+   "summary": "Uprzywilejowane grupy przez całą historię broniły swoich partykularnych interesów przed zmianami, a teraz były prezydent i dyrektor giełdy wykorzystują władzę i majątek, by skłonić ludzi do odrzucenia demokratycznego głosowania. Głosowanie dotyczy wyłącznie negocjacji akcesyjnych, a naród będzie mógł później zagłosować nad samą umową.",
+   "args": [
+    "kikja",
+    "lydraedi"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Czy zwolennik Europy kierujący się ideałami może przekonać przestraszony naród?",
+   "url": "https://www.visir.is/g/20262909373d/getur-evropusinni-af-hugsjon-sannfaert-hraedda-thjod-",
+   "source": "visir.is",
+   "author": "Sigurjón Ólafsson",
+   "date": "2026-07-14",
+   "summary": "Opisuje, jak sprzeciw i strach przed zagranicznymi wpływami towarzyszyły przystąpieniu do NATO w 1949 roku, do EFTA w 1970, do EOG w 1994, a nawet piwu w 1989 — lecz przeciwnicy mylili się we wszystkich tych przypadkach. UE powstała z ideału pokoju i jest kotwicą Islandii w czasach zawirowań, gdy siły faszystowskie zyskują na znaczeniu, a Stanom Zjednoczonym nie można ufać.",
+   "args": [
+    "hraedslu",
+    "gildi",
+    "oryggi"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Nie czy tak?",
+   "url": "https://www.visir.is/g/20262909680d/nei-eda-ja-",
+   "source": "visir.is",
+   "author": "Vilborg Gunnarsdóttir",
+   "date": "2026-07-15",
+   "summary": "Była sceptyczka wobec członkostwa mówi, że twierdzenia o utracie suwerenności to nonsens; Duńczycy, Finowie i Szwedzi decydują o swoich sprawach w demokratycznych wyborach. Islandczykom nie szło dobrze samodzielne zarządzanie finansami i stopami procentowymi, a zajęcie stanowiska jest niemożliwe, dopóki nie będzie gotowej umowy — ona zamierza powiedzieć tak, aby wiedzieć więcej.",
+   "args": [
+    "kikja",
+    "hraedslu"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Czemu nie wybrać czegoś tańszego niż euro?",
+   "url": "https://www.visir.is/g/20262909981d/hvi-ekki-ad-velja-eitthvad-odyrara-en-evru-",
+   "source": "visir.is",
+   "author": "Jóhann Óli Eiðsson",
+   "date": "2026-07-16",
+   "summary": "Analizuje sprawozdania finansowe restauracji: płace stanowią 40–45% przychodów, surowce 25–35%, a zysk rzadko przekracza 10%, więc obiecywany 25% spadek cen po wprowadzeniu euro nie ma sensu, chyba że ceny zakupu spadną wielokrotnie bardziej. Płace nie spadną po przystąpieniu, a niższe koszty kapitału raczej sprzyjają wyższym cenom aktywów i czynszom.",
+   "args": [
+    "landbunadur",
+    "evra"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Czy Islandia ma reprezentację narodową w piłce nożnej?",
+   "url": "https://www.visir.is/g/20262909983d/er-island-med-landslid-i-fotbolta-",
+   "source": "visir.is",
+   "author": "Jón Páll Haraldsson",
+   "date": "2026-07-16",
+   "summary": "Przypomina, że nieliczny naród wygrał wszystkie trzy wojny dorszowe z Wielką Brytanią i przeforsował na arenie międzynarodowej 200-milową strefę wód terytorialnych — ale nigdy by ich nie wygrał bez NATO. Wyraża przekonanie, że ten sam duch silnych negocjatorów będzie przewodził przy stole rokowań, jeśli rozmowy z UE będą kontynuowane.",
+   "args": [
+    "kikja",
+    "hraedslu"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Można by sobie darować wprowadzanie domowników w błąd",
+   "url": "https://www.visir.is/g/20262909989d/maetti-sleppa-thvi-ad-blekkja-heimilisfolkid",
+   "source": "visir.is",
+   "author": "Hjörtur J. Guðmundsson",
+   "date": "2026-07-17",
+   "summary": "Polemika z Berglind Guðmundsdóttir z SJÁ: umowa akcesyjna z natury rzeczy nic nie powie o przyszłych stopach procentowych ani inflacji i nic takiego nie zostanie zapisane w porozumieniach. Wykorzystuje się trudności ludzi do celów politycznych; problem wynika przede wszystkim z gwałtownego wzrostu cen mieszkań spowodowanego niewystarczającą podażą działek.",
+   "args": [
+    "evra",
+    "adlogun"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Granice państwa prawa i nienaruszalność prywatnej komunikacji",
+   "url": "https://www.visir.is/g/20262910384d/mork-rettarrikisins-og-fridhelgi-einkasamskipta",
+   "source": "visir.is",
+   "author": "Erna Bjarnadóttir",
+   "date": "2026-07-17",
+   "summary": "Opisuje, jak rozporządzenie Chat Control 1.0 dotyczące skanowania prywatnej komunikacji utrzymało się w Parlamencie Europejskim, mimo że 314 posłów głosowało przeciwko niemu, a 276 za, ponieważ do odrzucenia stanowiska Rady potrzebna była większość bezwzględna wszystkich 720 posłów. Procedura tuż przed przerwą letnią słabo współgra z demokratycznymi zasadami podstawowymi i ciągłym odwoływaniem się UE do własnych wartości.",
+   "args": [
+    "umbod"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Militarny syndrom Heimssýn",
+   "url": "https://www.visir.is/g/20262910493d/hernadarheilkenni-heimssynar",
+   "source": "visir.is",
+   "author": "Gunnar Hólmsteinn Ársælsson",
+   "date": "2026-07-17",
+   "summary": "Odpiera twierdzenia Haraldar Ólafssonara, przewodniczącego Heimssýn, jakoby UE miała armię i dążyła do utworzenia armii europejskiej: nie ma żadnych takich planów, a liczące 5000 żołnierzy siły szybkiego reagowania RDC z 2007 roku nigdy nie zostały użyte. W UE nacisk kładzie się na wzmacnianie NATO, a poparcie dla wspólnej armii jest w wielu miejscach niewielkie, np. w Irlandii wynosi tylko około 35%.",
+   "args": [
+    "hraedslu"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Powiedzenie „TAK” dotyczy sprawiedliwości i postępu",
+   "url": "https://www.visir.is/g/20262910621d/ad-segja-ja-snyst-um-sanngirni-og-framthroun",
+   "source": "visir.is",
+   "author": "Nichole Leigh Mosty",
+   "date": "2026-07-17",
+   "summary": "Imigrant mieszkający tu od dwóch dekad opisuje, jak fundusze UE rozbudowały infrastrukturę państw członkowskich: Irlandia otrzymała autostrady, sześć miliardów euro na szkoły i 1.500 mieszkań społecznych, Polska — szpitale, a Finlandia wysłała 130.000 studentów na wyjazdy w ramach Erasmus+. Islandia zmaga się z niedofinansowanym systemem edukacji, przepełnionymi szpitalami i niewystarczającą liczbą mieszkań społecznych i nie powinna odrzucać podobnego wsparcia.",
+   "args": [
+    "byggd",
+    "taekifaeri"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Waluta, która nigdy nie powinna była powstać i z którą naród wciąż musi żyć",
+   "url": "https://www.visir.is/g/20262910961d/gjaldmidill-sem-aldrei-atti-ad-verda-til-og-thjodin-situr-enn-uppi-med",
+   "source": "visir.is",
+   "author": "Baldur Pétursson",
+   "date": "2026-07-18",
+   "summary": "Korona nie była celem walki o niepodległość, lecz rozwiązaniem awaryjnym, gdy I wojna światowa rozbiła Nordycką Unię Walutową, do której Islandia należała w latach 1874–1916 i o której wspomniano w Akcie Unii z 1918 roku. Unia walutowa była euro swoich czasów i zapewniała niskie stopy procentowe oraz stabilność; rachunek za koronę od tamtej pory wystawiany jest gospodarstwom domowym w postaci inflacji, spadków kursu i wysokich stóp procentowych.",
+   "args": [
+    "vextir",
+    "hraedslu"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Czy argumentacja stowarzyszenia SJÁ jest wiarygodna?",
+   "url": "https://www.visir.is/g/20262910968d/er-malflutningur-sja-samtakanna-marktaekur-",
+   "source": "visir.is",
+   "author": "Birgir Finnsson",
+   "date": "2026-07-18",
+   "summary": "Stowarzyszenie SJÁ twierdziło w nagraniu wideo, że karton mleka kosztuje na Islandii 380 koron, podczas gdy prawidłowa cena to 235 koron, jak wskazywały media. Niezależnie od tego, czy chodzi o świadome kłamstwo, czy niestaranność, podważa to wiarygodność argumentacji stowarzyszenia w sprawie bardziej złożonych wskaźników gospodarczych.",
+   "args": [
+    "landbunadur"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Gdy twardy przeciwnik członkostwa Norwegii w UE zmienił zdanie",
+   "url": "https://www.visir.is/g/20262911092d/thegar-hardur-andstaedingur-esb-adildar-i-noregi-skipti-um-skodun",
+   "source": "visir.is",
+   "author": "Elvar Örn Arason",
+   "date": "2026-07-19",
+   "summary": "Kjell Magne Bondevik, który walczył przeciwko członkostwu Norwegii w UE w 1972 i 1994 roku, uważa teraz, że Norwegia byłaby najlepiej zabezpieczona wewnątrz Unii z powodu agresywnej Rosji i izolacjonizmu Stanów Zjednoczonych; obawy przed scentralizowanym superpaństwem okazały się bezpodstawne. Islandia przejmuje większość prawodawstwa UE przez EOG, nie mając miejsca przy stole, a głosowanie dotyczy wyłącznie dokończenia negocjacji — ostatnie słowo należy do narodu.",
+   "args": [
+    "oryggi",
+    "ahrif",
+    "kikja"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Ideały i interesy idą w parze",
+   "url": "https://www.visir.is/g/20262911321d/hugsjonir-og-hagsmunir-fara-saman",
+   "source": "visir.is",
+   "author": "Jón Steindór Valdimarsson",
+   "date": "2026-07-20",
+   "summary": "UE przekształciła kontynent wojen w wspólnotę państw rozwiązujących spory za pomocą prawa i demokracji; pytanie brzmi, gdzie jest miejsce Islandii w świecie, w którym mocarstwa wywierają presję, a wielkie korporacje mają większy wpływ niż pojedyncze państwa. Małe państwa mają ograniczony wpływ w pojedynkę, ale UE może ustanawiać reguły, których muszą przestrzegać nawet największe firmy technologiczne świata.",
+   "args": [
+    "gildi",
+    "oryggi"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Trwałe wyjątki?",
+   "url": "https://www.visir.is/g/20262911564d/varanlegar-undanthagur-",
+   "source": "visir.is",
+   "author": "Björn Leví Gunnarsson",
+   "date": "2026-07-20",
+   "summary": "Argument, że nie da się uzyskać trwałych wyjątków, nie jest argumentem przeciwko negocjacjom: nikt nie rezygnuje z kupna mieszkania w bloku tylko dlatego, że nie dostanie trwałego zwolnienia z regulaminu budynku, lecz ocenia porozumienie jako całość. Jedynym sposobem, by sprawdzić, czy da się uzyskać wyjątki, jest przetestowanie tego w negocjacjach, a następnie odrzucenie umowy, jeśli okaże się nie do przyjęcia.",
+   "args": [
+    "kikja"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Wycieczka naukowa do Brukseli czy wniosek o członkostwo?",
+   "url": "https://www.visir.is/g/20262911568d/visindaferd-i-brussel-eda-umsokn-um-adild-",
+   "source": "visir.is",
+   "author": "Kristinn Karl Brynjarsson",
+   "date": "2026-07-20",
+   "summary": "X przy TAK jest deklaracją woli przystąpienia, ponieważ UE nie uruchamia procesu akcesyjnego, jeśli nie istnieje wyraźna wola członkostwa zgodnie z art. 49 Traktatu z Lizbony. Każdy etap procesu wymaga jednomyślnej zgody wszystkich 27 państw członkowskich, a sam proces służy dostosowaniu państwa kandydującego do dorobku prawnego, a nie „sprawdzeniu, co jest do zaoferowania”.",
+   "args": [
+    "spurning",
+    "adlogun"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Jakie są zamiary rządu?",
+   "url": "https://www.visir.is/g/20262911645d/hvad-vakir-fyrir-rikisstjorninni-",
+   "source": "visir.is",
+   "author": "Hreinn Loftsson",
+   "date": "2026-07-21",
+   "summary": "Wyborcy mają prawo wiedzieć, jakie są cele negocjacyjne rządu, ponieważ głosowanie nie dotyczy zbierania informacji, lecz formalnego procesu akcesyjnego zgodnie z art. 49 Traktatu UE. Ramy negocjacyjne z 2010 r. przewidywały przyjęcie całego dorobku prawnego, a niemiecki Bundestag zastrzegł w 2010 r., że islandzkie rybołówstwo zostanie otwarte na inwestycje z UE.",
+   "args": [
+    "spurning",
+    "adlogun",
+    "sjavarutvegur"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Rybak z małej łodzi i UE",
+   "url": "https://www.visir.is/g/20262911791d/trillukarlinn-og-esb",
+   "source": "visir.is",
+   "author": "Sigurjón Þórðarson",
+   "date": "2026-07-21",
+   "summary": "W przypadku członkostwa naród zrzekłby się kontroli nad połowami poza granicą 12 mil i nie mógłby w żaden sposób odstąpić od decyzji Brukseli dotyczącej całkowitych kwot połowowych w obrębie jurysdykcji; łowiska UE i Wielkiej Brytanii przynoszą obecnie około jednej dziesiątej połowów dorsza i plamiaka w porównaniu z wcześniejszym okresem. Preferencje UE dla małych łodzi można by wprowadzić bez członkostwa, a trwałe odstępstwo wymagałoby zgody wszystkich państw członkowskich.",
+   "args": [
+    "sjavarutvegur",
+    "undanthagur"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Uczyńmy Islandię lepszą",
+   "url": "https://www.visir.is/g/20262911853d/gerum-island-betra",
+   "source": "visir.is",
+   "author": "Finnur Torfi Magnússon",
+   "date": "2026-07-21",
+   "summary": "Wyraża zdziwienie sprzeciwem liderów związkowych wobec negocjacji, skoro przetwórstwo rybne zniknęło z ich regionów; po wejściu do UE wszystkie cła zostałyby zniesione, a przetwórstwo mogłoby wrócić do kraju dzięki nawet o 50% wyższym cenom sprzedaży produktów i nowym miejscom pracy. Różnica w oprocentowaniu w porównaniu z Danią przy kredycie 50 milionów wynosi około 250.000 koron miesięcznie, a inflacja od 1944 r. wynosiła średnio ponad 14%.",
+   "args": [
+    "taekifaeri",
+    "vextir",
+    "tollfrelsi"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Zarządzanie zasobami, kapitał offshore i asymetryczna wojna o 29 sierpnia",
+   "url": "https://www.visir.is/g/20262911855d/audlindastyring-aflandsfjarmagn-og-hid-asymmetriska-strid-um-29.-agust",
+   "source": "visir.is",
+   "author": "Sigurður Sigurðsson",
+   "date": "2026-07-21",
+   "summary": "Twierdzi, że elita armatorów prowadzi przed 29 sierpnia asymetryczną wojnę, wykorzystując nieograniczony kapitał offshore, prawników, agencje PR i techniki wojny psychologicznej, aby zapewnić, że naród zagłosuje na NIE. Głosowanie ma dotyczyć tego, czy naród zachowa konstytucyjną kontrolę nad swoimi wspólnymi zasobami naturalnymi.",
+   "args": [
+    "hraedslu",
+    "lydraedi"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Potrzeba uczy nagiego Islandczyka prząść",
+   "url": "https://www.visir.is/g/20262911951d/neydin-kennir-noktum-islendingi-ad-spinna",
+   "source": "visir.is",
+   "author": "Yngvi Ómar Sigrúnarson",
+   "date": "2026-07-21",
+   "summary": "Opisuje załamanie z 2008 r., kiedy ogromna różnica stóp procentowych korony przyciągnęła kapitał zagraniczny, podsyciła zadłużenie i zwielokrotniła problem, gdy korona się załamała. Alþingi zatwierdził wniosek o członkostwo w 2009 r. bez pytania narodu o zdanie, w przeciwieństwie do tego, co planuje się teraz, a Ólafur Ragnar Grímsson wychwalał „wikingów ekspansji” w okresie poprzedzającym krach.",
+   "args": [
+    "vextir",
+    "lydraedi"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Ogromne korzyści dla dobrobytu z przyjęcia euro",
+   "url": "https://www.visir.is/g/20262912040d/gridarlegur-velferdarabati-med-upptoku-evru",
+   "source": "visir.is",
+   "author": "Dagur B. Eggertsson",
+   "date": "2026-07-22",
+   "summary": "Przywołuje raport Alþjóðamálastofnun HÍ z 2014 r., przygotowany na wniosek ASÍ, SA, FA i Viðskiptaráðs, według którego przyjęcie euro przyniosłoby ogromne korzyści dla dobrobytu, a Islandia już wynegocjowała rozwiązania szczególne, odstępstwa i okresy dostosowawcze w wielu sprawach. Ásgeir Jónsson, obecny prezes banku centralnego, napisał większą część rozdziału o walucie; korona miała prowadzić do wyższych stóp procentowych, inflacji i wahań kursowych.",
+   "args": [
+    "vextir",
+    "serlausnir"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Dagur, nie wolno wprowadzać w błąd!",
+   "url": "https://www.visir.is/g/20262912524d/dagur-bannad-ad-plata-",
+   "source": "visir.is",
+   "author": "Ásdís Kristjánsdóttir",
+   "date": "2026-07-22",
+   "summary": "Polemika z Dagur B. Eggertsson: pomija on wniosek z tego samego raportu, że ceną rezygnacji z niezależnej polityki pieniężnej jest większa zmienność bezrobocia oraz że wyższe nominalne podwyżki płac prowadziły do gorszej konkurencyjności i kryzysu. Raport opiera się na przestarzałej polityce pieniężnej z czasów kontroli kapitału, a Islandia jest dziś bez członkostwa w UE wśród narodów o najwyższych dochodach i największej równości dochodowej na świecie.",
+   "args": [
+    "evra",
+    "efnahagur"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Czy Islandczycy są nieudacznikami w negocjacjach?",
+   "url": "https://www.visir.is/g/20262912745d/eru-islendingar-afglapar-i-samningataekni-",
+   "source": "visir.is",
+   "author": "Signý Sigurðardóttir",
+   "date": "2026-07-23",
+   "summary": "Krytykuje zwolenników NIE za to, że z góry ogłaszają niezdolność Islandczyków do prowadzenia negocjacji; przy takim nastawieniu nie osiągnięto by żadnych sukcesów w sporach o granice morskie. Bogaci ludzie tego kraju chcą uniemożliwić osobom o zwykłych dochodach wyrwanie się z błędnego koła islandzkiej korony.",
+   "args": [
+    "hraedslu",
+    "vextir"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Stabilność w żelaznym uścisku",
+   "url": "https://www.visir.is/g/20262912798d/stodugleiki-i-heljargreipum",
+   "source": "visir.is",
+   "author": "Erna Bjarnadóttir",
+   "date": "2026-07-23",
+   "summary": "Kurs własnej waluty jest przede wszystkim narzędziem dostosowawczym, gdy kraj dotykają wstrząsy, szczególnie na Islandii, gdzie nie da się dowolnie zwiększać połowów ryb ani produkcji aluminium. Jeśli to narzędzie zostanie porzucone przez przyjęcie obcej waluty, dostosowanie przeniesie się na poziom zatrudnienia, płace i inwestycje, jak pokazują doświadczenia Finlandii.",
+   "args": [
+    "evra"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Korona czy euro?",
+   "url": "https://www.visir.is/g/20262912858d/krona-eda-evra-",
+   "source": "visir.is",
+   "author": "Bolli Héðinsson",
+   "date": "2026-07-23",
+   "summary": "Przewodniczący rady bankowej Seðlabankans opisuje, jak korona traciła na wartości od 1922 roku i jest obecnie warta mniej niż duński pięcioøre. Korona nigdy nie nadawała się do przechowywania wartości, a indeksacja jest tego konsekwencją.",
+   "args": [
+    "vextir"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "O czym można negocjować?",
+   "url": "https://www.visir.is/g/20262912888d/um-hvad-er-haegt-ad-semja-",
+   "source": "visir.is",
+   "author": "Jónas Már Torfason",
+   "date": "2026-07-23",
+   "summary": "Twierdzi, że bezsporne jest to, iż po przystąpieniu inflacja i stopy procentowe spadną, i krytykuje „rozstrojenie” strony NIE. Islandia nie dzieli z państwami UE ani granic, ani łowisk, dlatego ma mocne argumenty za szczególnym statusem w rybołówstwie.",
+   "args": [
+    "vextir",
+    "serlausnir",
+    "kikja"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Wielka sprawa korekty, jacyś Holendrzy i koledzy",
+   "url": "https://www.visir.is/g/20262912932d/stora-leidrettingarmalid-einhverjir-hollendingar-og-kollegar",
+   "source": "visir.is",
+   "author": "Guðlaugur Þór Þórðarson",
+   "date": "2026-07-23",
+   "summary": "Były minister przywołuje jednoznaczne odpowiedzi premiera Holandii i duńskich ministrów, że Islandia musiałaby podporządkować się wspólnej polityce rybołówstwa UE. Krytykuje minister spraw zagranicznych za to, że sprostowała mylącą informację dopiero 11 dni później, i domaga się od niej odpowiedzi.",
+   "args": [
+    "sjavarutvegur",
+    "undanthagur"
+   ],
+   "impact": 4
+  },
+  {
+   "side": "ja",
+   "title": "Dlaczego zwykli pracownicy powinni powiedzieć TAK?",
+   "url": "https://www.visir.is/g/20262912940d/hvers-vegna-venjulegt-launafolk-a-ad-segja-ja-",
+   "source": "visir.is",
+   "author": "Margrét Högnadóttir",
+   "date": "2026-07-23",
+   "summary": "Pracownicy ponoszą całe ryzyko związane z koroną i indeksacją, podczas gdy banki i wielkie firmy rybackie rozliczają się w euro. Euro zapewnia przewidywalne raty, przepisy UE nie ograniczają prawa do strajku, a zniesienie ceł obniży ceny żywności; naród powinien mieć możliwość zobaczenia umowy.",
+   "args": [
+    "vextir",
+    "kjor",
+    "hraedslu"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Jakie żądania powinniśmy postawić?",
+   "url": "https://www.visir.is/g/20262913033d/hvada-krofur-eigum-vid-ad-gera-",
+   "source": "visir.is",
+   "author": "Þorgerður Katrín Gunnarsdóttir",
+   "date": "2026-07-24",
+   "summary": "Minister spraw zagranicznych omawia stan rozdziału rolnego, który nigdy nie został otwarty w latach 2009–2013, oraz to, jakie żądania Islandia powinna postawić w negocjacjach. Krajowa produkcja pokrywa 90% spożycia mięsa i 99% produktów mlecznych, a szczególne rozwiązania Finów i Szwedów powinny stanowić minimalny punkt odniesienia.",
+   "args": [
+    "serlausnir",
+    "kikja"
+   ],
+   "impact": 5
+  },
+  {
+   "side": "nei",
+   "title": "Dlaczego „nie” jest jedyną racjonalną odpowiedzią 29 sierpnia",
+   "url": "https://www.visir.is/g/20262913035d/hvers-vegna-nei-er-eina-rokretta-svarid-thann-29.-agust",
+   "source": "visir.is",
+   "author": "Eggert Sigurbergsson",
+   "date": "2026-07-24",
+   "summary": "Podstawowe stanowisko UE jest niezmienne: nowe państwa przyjmują cały dorobek prawny, a trwałe wyłączenia nie są oferowane, jedynie czasowe okresy przejściowe. Rozdziały dotyczące rybołówstwa i rolnictwa nigdy nie zostały otwarte w latach 2009–2013, ponieważ różnica stanowisk była nie do przezwyciężenia, więc nowe rozmowy nie mają żadnego sensu.",
+   "args": [
+    "undanthagur",
+    "adlogun",
+    "spurning"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "To dotyczy członkostwa",
+   "url": "https://www.visir.is/g/20262913041d/thetta-snyst-um-adild",
+   "source": "visir.is",
+   "author": "Gunnar Bragi Sveinsson",
+   "date": "2026-07-24",
+   "summary": "Były minister spraw zagranicznych wskazuje, że proces rozpoczęty w 2009 roku był formalnym wnioskiem o członkostwo zgodnie z art. 49 Traktatu o UE. Głosowanie 29 sierpnia dotyczy więc kontynuowania wniosku o członkostwo, a nie „zobaczenia, co jest oferowane”.",
+   "args": [
+    "spurning"
+   ],
+   "impact": 4
+  },
+  {
+   "side": "nei",
+   "title": "Świadoma demokracja - lekcja z jednego sprostowania",
+   "url": "https://www.visir.is/g/20262913203d/upplyst-lydraedi-laerdomurinn-af-einni-leidrettingu",
+   "source": "visir.is",
+   "author": "Sigurður Sigurðsson",
+   "date": "2026-07-27",
+   "summary": "Opisuje sprostowanie Vísir dotyczące informacji o rzekomych rozmowach minister spraw zagranicznych z władzami Holandii na temat polityki rybołówstwa; minister nigdy nie rozmawiała bezpośrednio z Jettenem. Parlament Holandii potwierdził stosunkiem głosów 146 do 4, że pełne członkostwo oznacza pełny udział we wspólnej polityce rybołówstwa.",
+   "args": [
+    "sjavarutvegur",
+    "undanthagur"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Nie godźmy się na bezrobocie",
+   "url": "https://www.visir.is/g/20262913211d/saettum-okkur-ekki-vid-atvinnuleysi",
+   "source": "visir.is",
+   "author": "Illugi Gunnarsson og Ragnhildur Björt Björnsdóttir",
+   "date": "2026-07-25",
+   "summary": "Działacze Ungum vinstri grænum twierdzą, że warunki współpracy w strefie euro wymagają „elastyczności” na rynku pracy, umiarkowanych żądań płacowych i wyższego bezrobocia. Silne związki zawodowe wyjaśniają równość na Islandii, a decyzje powinny zapadać tutaj, a nie w Brukseli.",
+   "args": [
+    "evra",
+    "efnahagur"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Kto idzie do takich „negocjacji” ?",
+   "url": "https://www.visir.is/g/20262913266d/hver-fer-i-slikar-samningavidraedur-",
+   "source": "visir.is",
+   "author": "Hjörtur J. Guðmundsson",
+   "date": "2026-07-25",
+   "summary": "Przywołuje komisarza UE ds. rozszerzenia, broszurę Unii i ramy negocjacyjne, by wykazać, że rozmowy dotyczą dostosowania państwa kandydującego do dorobku prawnego, a nie właściwych negocjacji. Przyznaje to nawet uzasadnienie projektu uchwały parlamentarnej minister spraw zagranicznych.",
+   "args": [
+    "adlogun",
+    "spurning"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Historia bankructw linii lotniczych to poważne ostrzeżenie przed szkodami wyrządzanymi przez koronę",
+   "url": "https://www.visir.is/g/20262913637d/gjaldthrotasaga-flugfelaga-er-alvarleg-aminning-um-skada-kronunnar",
+   "source": "visir.is",
+   "author": "Baldur Pétursson",
+   "date": "2026-07-26",
+   "summary": "Autor wiąże bankructwa Arnarflug, WOW air, PLAY i innych linii lotniczych z okresami silnego kursu mikrowaluty, jaką jest korona. Air Atlanta i Cargolux mają pokazywać, że islandzkim przewoźnikom lotniczym lepiej wiedzie się w ramach większych walut, takich jak euro.",
+   "args": [
+    "vextir"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Trwałe wyłączenia są możliwe",
+   "url": "https://www.visir.is/g/20262913673d/varanlegar-undanthagur-eru-moguleiki",
+   "source": "visir.is",
+   "author": "Per Ekström",
+   "date": "2026-07-26",
+   "summary": "Były dyrektor departamentu w administracji autonomicznej Wysp Alandzkich opisuje własne doświadczenia związane z przystąpieniem Finlandii w 1995 roku, kiedy Wyspy Alandzkie otrzymały trwały protokół (Ålandsprotokollet) dotyczący szczególnych zasad sprzecznych z podstawowymi regulacjami UE. Trwałe wyłączenia mają więc być realną możliwością.",
+   "args": [
+    "serlausnir",
+    "hraedslu"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Obmacano już „pakiet”",
+   "url": "https://www.visir.is/g/20262913677d/threifad-a-pakkanum-",
+   "source": "visir.is",
+   "author": "Hlín Leifsdóttir",
+   "date": "2026-07-26",
+   "summary": "Autor twierdzi, że „wystarczająco dobrze obmacał pakiet UE”, by wiedzieć, że odpowiedź brzmi nie. Nowe dyrektywy UE, by odmawiać ukraińskim mężczyznom odmawiającym służby wojskowej prawa pobytu, mają godzić w wolność sumienia i islandzką tradycję pokoju; poza UE Islandia nadal ma wybór.",
+   "args": [
+    "hervaeding"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Czy Islandia to Manchester City, a UE to Sheffield United",
+   "url": "https://www.visir.is/g/20262913683d/er-island-manchester-city-og-esb-sheffield-united",
+   "source": "visir.is",
+   "author": "Gauti Eggertsson",
+   "date": "2026-07-26",
+   "summary": "Profesor ekonomii odtworzył obliczenia z 40-stronicowej analizy Áfram Ísland i znalazł ponad dziesięć mylących lub błędnych punktów. Islandia ma być droższa niż wszystkie 27 państw UE, mieć najgorsze warunki kredytowe dla gospodarstw domowych, a 13 państw UE ma niższy poziom zadłużenia, niż się twierdzi.",
+   "args": [
+    "vextir",
+    "kjor",
+    "hraedslu"
+   ],
+   "impact": 4
+  },
+  {
+   "side": "nei",
+   "title": "Twierdzenia ministra spraw zagranicznych o polu manewru negocjacyjnego Islandii",
+   "url": "https://www.visir.is/g/20262913707d/fullyrdingar-utanrikisradherra-um-samningssvigrum-islands",
+   "source": "visir.is",
+   "author": "Erna Bjarnadóttir",
+   "date": "2026-07-26",
+   "summary": "Rozdziały dotyczące rolnictwa oraz żywności (11 i 12) nigdy nie zostały otwarte w latach 2009–2013, nie przedstawiono żadnego stanowiska negocjacyjnego i nie osiągnięto żadnych rezultatów. Twierdzenia ministra spraw zagranicznych o tym, jakie szczególne rozwiązania Islandia może sobie zapewnić, nie opierają się więc na źródłach pierwotnych.",
+   "args": [
+    "undanthagur",
+    "landbunadur"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Obca władza to kłopot",
+   "url": "https://www.visir.is/g/20262913935d/erlent-vald-er-vesen",
+   "source": "visir.is",
+   "author": "Guðmundur Fertram Sigurjónsson",
+   "date": "2026-07-27",
+   "summary": "Tekst przedstawia historię handlu monopolistycznego i duńskich rządów: gdy władza oddala się od ludzi, interesy małego narodu są poświęcane na rzecz większej całości, a biurokracja rośnie. Islandzkie przedsiębiorstwa miały rozkwitnąć dopiero wtedy, gdy władza decyzyjna wróciła do kraju, w duchu Jón Sigurðssonar.",
+   "args": [
+    "fullveldi",
+    "ahrifaleysi"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Trochę standardu, proszę",
+   "url": "https://www.visir.is/g/20262913937d/sma-standard-takk",
+   "source": "visir.is",
+   "author": "Jón Pétur Zimsen",
+   "date": "2026-07-27",
+   "summary": "Poseł Sjálfstæðisflokksins wylicza czternaście powodów na NIE: biurokrację w Brukseli, słabą politykę energetyczną, regulacje zabijające innowacyjność, zadłużenie systemów emerytalnych, chaos wokół 70 umów o wolnym handlu oraz umowy obronnej ze Stanami Zjednoczonymi. NIE ma być TAK dla najlepszego poziomu życia na świecie według ONZ.",
+   "args": [
+    "fullveldi",
+    "efnahagur",
+    "ahrifaleysi"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Jeden mały i niewinny krok naraz w stronę Brukseli",
+   "url": "https://www.visir.is/g/20262913944d/eitt-litid-og-saklaust-skref-i-einu-i-att-til-brussel",
+   "source": "visir.is",
+   "author": "Einar Geir Þorsteinsson",
+   "date": "2026-07-27",
+   "summary": "Tylko 11% wyborców wymieniło sprawy europejskie wśród najważniejszych kwestii przed ostatnimi wyborami, a Viðreisn otrzymał 15,8% głosów. Partia miała posuwać sprawę członkostwa naprzód małymi krokami, nigdy nie musząc zdobywać poparcia dla samego celu końcowego.",
+   "args": [
+    "umbod",
+    "spurning"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Dlatego TAK",
+   "url": "https://www.visir.is/g/20262913955d/thess-vegna-ja",
+   "source": "visir.is",
+   "author": "Arnór Sighvatsson",
+   "date": "2026-07-27",
+   "summary": "Międzynarodowy porządek, na którym opierała się Islandia, uległ załamaniu; Stany Zjednoczone używają ceł, by przymuszać dawne państwa sojusznicze, i nie są już tym sojusznikiem co kiedyś. Członkostwo ma dotyczyć wspólnych podstawowych wartości, bezpieczeństwa narodowego i społecznego kontraktu między narodami, a nie tylko księgowych wyliczeń.",
+   "args": [
+    "gildi",
+    "oryggi"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Czas trwałych wyłączeń minął",
+   "url": "https://www.visir.is/g/20262914141d/timi-varanlegra-undanthaga-er-lidinn",
+   "source": "visir.is",
+   "author": "Eggert Sigurbergsson",
+   "date": "2026-07-27",
+   "summary": "Wyłączenia typu opt-out Danii i Wielkiej Brytanii powstały w politycznej sytuacji nadzwyczajnej przy zmianach traktatowych w latach 1992–2009, gdy państwa te mogły stosować prawo weta od wewnątrz. Państwa kandydujące dziś muszą przyjąć całe acquis communautaire i żadne państwo od 2004 roku nie otrzymało trwałego wyłączenia.",
+   "args": [
+    "undanthagur",
+    "adlogun"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Odpowiedź na artykuł Per Ekström dotyczący trwałych wyłączeń",
+   "url": "https://www.visir.is/g/20262914277d/svar-vid-grein-per-ekstrom-vardandi-varanlegar-undanthagur",
+   "source": "visir.is",
+   "author": "Hjörvar Sigurðsson",
+   "date": "2026-07-28",
+   "summary": "Wyłączenie Wysp Alandzkich dotyczące bezcłowej sprzedaży na promach jest nieznaczne, ma 32 lata i w żaden sposób nie da się go porównać z pozostawieniem całego rybołówstwa poza władzą UE. Grenlandia, Norwegia i Irlandia pokazują, że nie uzyskano wyłączenia ze wspólnej polityki rybołówstwa.",
+   "args": [
+    "undanthagur",
+    "sjavarutvegur"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Umowa, która po cichu się rozszerza",
+   "url": "https://www.visir.is/g/20262914300d/samningurinn-sem-staekkar-i-kyrrthey",
+   "source": "visir.is",
+   "author": "Hjálmar Vilhjálmsson",
+   "date": "2026-07-28",
+   "summary": "Porozumienie EOG przez 32 lata rozszerzyło się na kwestie klimatyczne, cyberbezpieczeństwo, sztuczną inteligencję i nadzór finansowy, mimo że nie zostało przepisane na nowo. Islandia dostosowuje gospodarkę i administrację do coraz szerszych regulacji, ale nie ma żadnego głosu, gdy te przepisy są uchwalane.",
+   "args": [
+    "ahrif"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Zajrzeć do pakietu",
+   "url": "https://www.visir.is/g/20262914359d/kikt-i-pakkann",
+   "source": "visir.is",
+   "author": "Júlíus Valsson",
+   "date": "2026-07-28",
+   "summary": "Porównuje przekaz „zajrzeć do pakietu” do wędrownych sprzedawców z dawnych czasów: ten, kto zamierzał tylko obejrzeć, kończył jako kupujący. Państwa składają wniosek o członkostwo, proces polega na dostosowywaniu ustawodawstwa rozdział po rozdziale, a o wyłączeniach zapowiadanych przez ministra nikt w Brukseli nie słyszał.",
+   "args": [
+    "adlogun",
+    "spurning",
+    "undanthagur"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Sigmar Guðmundsson, Stany Zjednoczone i bezpieczeństwo Islandii",
+   "url": "https://www.visir.is/g/20262914522d/sigmar-gudmundsson-bandarikin-og-oryggi-islands",
+   "source": "visir.is",
+   "author": "Hjörvar Sigurðsson",
+   "date": "2026-08-03",
+   "summary": "Bezpieczeństwo pozbawionej armii Islandii opiera się na Stanach Zjednoczonych w ramach NATO, ale członkostwo w UE zobowiązywałoby Islandię do stanięcia po stronie Unii w sprawach zagranicznych i bezpieczeństwa. Krytykuje rząd za to, że nie bada, jakie konsekwencje członkostwo miałoby dla współpracy obronnej ze Stanami Zjednoczonymi.",
+   "args": [
+    "hervaeding"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Odpowiedź na wprowadzanie w błąd i przeinaczenia Gauti",
+   "url": "https://www.visir.is/g/20262914650d/afvegaleidingum-og-rangfaerslum-gauta-svarad",
+   "source": "visir.is",
+   "author": "Konráð S. Guðjónsson",
+   "date": "2026-07-28",
+   "summary": "Autor raportu Áfram Íslands i RSE odpowiada na krytykę Gauti Eggertssonar. Wzrost gospodarczy na mieszkańca jest ograniczonym wskaźnikiem z powodu krótszego czasu pracy, siła nabywcza należy na Islandii do najwyższych, a PKB na mieszkańca pokazuje bardzo silną pozycję kraju.",
+   "args": [
+    "efnahagur"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Czy przemoc ideologiczna ma miejsce w kampanii wyborczej?",
+   "url": "https://www.visir.is/g/20262914770d/a-hugmyndafraedilegt-ofbeldi-heima-i-kosningabarattu-",
+   "source": "visir.is",
+   "author": "Hnikarr Bjarmi Franklínsson",
+   "date": "2026-07-29",
+   "summary": "Krytykuje sposób przedstawiania sprawy przez „Já til að sjá”, który ukazuje głos na nie jako antydemokratyczny i wynikający z niewiedzy. Obietnice ruchu, że negocjacje ujawnią informacje o stopach procentowych i cenach żywności, nie wytrzymują próby, bo takie informacje nie pojawiają się w traktacie akcesyjnym.",
+   "args": [
+    "spurning"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "UE i twoi ideowi pobratymcy",
+   "url": "https://www.visir.is/g/20262914856d/esb-og-skodanabraedur-thinir",
+   "source": "visir.is",
+   "author": "Yngvi Ómar Sigrúnarson",
+   "date": "2026-07-29",
+   "summary": "Satyra w formie listy kontrolnej pokazującej, kto zasila szeregi przeciwników: właściciele kapitału, beneficjenci oligopolu i wysokich stóp procentowych oraz inni. Autor deklaruje, że mówi tak, aby zobaczyć, a potem chce podjąć świadomą decyzję w sprawie umowy.",
+   "args": [
+    "kikja",
+    "hraedslu"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Tosca wyskakuje z wieży w Brukseli",
+   "url": "https://www.visir.is/g/20262914922d/tosca-skyst-upp-ur-turninum-i-brussel",
+   "source": "visir.is",
+   "author": "Jónas Sen",
+   "date": "2026-07-29",
+   "summary": "Głosowanie dotyczy negocjacji, a nie członkostwa; zgoda na negocjacje jest jak możliwość zobaczenia menu. Islandia już teraz jest małym państwem w NATO, ONZ i EOG oraz już przyjmuje wiele przepisów UE, nie mając nic do powiedzenia na temat ich treści.",
+   "args": [
+    "kikja",
+    "ahrif"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Uzbrojeni jedynie w strach",
+   "url": "https://www.visir.is/g/20262914999d/med-ottann-einan-ad-vopni",
+   "source": "visir.is",
+   "author": "Benedikt Jóhannesson",
+   "date": "2026-07-29",
+   "summary": "Koryguje twierdzenia strony NIE: zasada względnej stabilności gwarantuje, że limity połowowe na wodach Islandii pozostałyby nienaruszone, nie istnieje żadna wspólna armia europejska, a islandzki system emerytalny należy do trzech najbardziej stabilnych na świecie według Mercer.",
+   "args": [
+    "hraedslu",
+    "serlausnir"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Naród powinien korzystać z dobrodziejstwa wątpliwości",
+   "url": "https://www.visir.is/g/20262915008d/thjodin-a-ad-njota-vafans",
+   "source": "visir.is",
+   "author": "Snorri Másson",
+   "date": "2026-07-29",
+   "summary": "Poseł z Miðflokkurinn mówi, że powszechnie uznaje się, iż przystąpieniu towarzyszy wzrost bezrobocia, a swobodny przepływ osób rozwijał się w sposób niezrównoważony. Pełne członkostwo jeszcze bardziej ograniczyłoby wolność małego narodu do samodzielnego życia i zawęziłoby możliwości reagowania Islandii.",
+   "args": [
+    "fullveldi",
+    "efnahagur"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Dlaczego tak?",
+   "url": "https://www.visir.is/g/20262915083d/af-hverju-ja-",
+   "source": "visir.is",
+   "author": "Reynir Böðvarsson",
+   "date": "2026-07-30",
+   "summary": "UE należy do czołowych obszarów świata pod względem ochrony konsumentów, ochrony danych osobowych oraz polityki środowiskowej i klimatycznej, a jej przepisy stały się międzynarodowymi standardami. Stany Zjednoczone obrały inną drogę, w której interesy firm często ważą więcej niż interesy konsumentów.",
+   "args": [
+    "kjor",
+    "gildi"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Kristrún wreszcie wyjaśniła, czego będzie dotyczyć głosowanie",
+   "url": "https://www.visir.is/g/20262915136d/kristrun-skyrdi-loksins-hvad-verdur-kosid-um",
+   "source": "visir.is",
+   "author": "Gunnar Ármannsson",
+   "date": "2026-07-30",
+   "summary": "W wywiadzie dla The Rest Is Politics premier potwierdziła, że głos na TAK daje rządowi mandat do rozpoczęcia formalnego procesu akcesyjnego i jego zakończenia. To zupełnie inna kwestia niż „zajrzenie do pakietu” czy zbieranie informacji.",
+   "args": [
+    "spurning",
+    "umbod"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Suwerenność dla kogo?",
+   "url": "https://www.visir.is/g/20262915168d/fullveldi-fyrir-hvern-",
+   "source": "visir.is",
+   "author": "Hjálmar Vilhjálmsson",
+   "date": "2026-07-30",
+   "summary": "Islandia już dzieli władzę decyzyjną w ramach EOG bez prawa głosu, ale doświadczenia są ogólnie dobre: ochrona danych osobowych, prawa pasażerów lotniczych, ochrona konsumentów i zasady konkurencji przyszły przez EOG. Suwerenność państwa i wolność obywateli nie zawsze idą w parze.",
+   "args": [
+    "ahrif",
+    "kjor"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Debata o UE i sztuczna inteligencja",
+   "url": "https://www.visir.is/g/20262915478d/esb-umraedan-og-gervigreindin",
+   "source": "visir.is",
+   "author": "Ólafur Hannesson",
+   "date": "2026-07-30",
+   "summary": "Opisuje rozmowę ze sztuczną inteligencją, która po zwróceniu jej uwagi przyznała, że państwa kandydujące są obecnie zobowiązane do dostosowywania się do acquis równolegle z negocjacjami oraz że żadne państwo nie otrzymało trwałych wyłączeń po zmianie polityki UE na przełomie tysiącleci.",
+   "args": [
+    "adlogun",
+    "undanthagur"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Odmowa poszukiwania",
+   "url": "https://www.visir.is/g/20262915613d/ad-neita-ad-leita",
+   "source": "visir.is",
+   "author": "Kristrún Ágústsdóttir",
+   "date": "2026-07-31",
+   "summary": "Powiedzenie nie negocjacjom to wydanie wyroku, zanim pozna się fakty; tak zachowuje zarówno przyszłe tak, jak i przyszłe nie. Suwerenny naród nie powinien obawiać się negocjacji, lecz stawiać wymagania, jak Islandia robiła to wcześniej w sprawie wód terytorialnych, EOG i wolnego handlu.",
+   "args": [
+    "kikja",
+    "taekifaeri"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Hasła zamiast danych: artykuł Snorri Mássonar o członkostwie w UE",
+   "url": "https://www.visir.is/g/20262915653d/slagord-i-stad-gagna-grein-snorra-massonar-um-esb-adild",
+   "source": "visir.is",
+   "author": "Halldór Jörgen Olesen",
+   "date": "2026-07-31",
+   "summary": "Odpiera twierdzenie Snorri Mássonar dotyczące bezrobocia: Estonia zeszła z 10,3% bezrobocia do 4,6% po wejściu w 2004 roku, a Chorwacja z 17% do 6,5%. Swobodny przepływ osób już istnieje w ramach EOG i członkostwo nic tu nie zmieni.",
+   "args": [
+    "hraedslu"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "„Nie” nie jest końcem sprawy, - to jej odroczenie",
+   "url": "https://www.visir.is/g/20262916078d/-nei-er-ekki-lok-malsins-thad-er-frestun-thess",
+   "source": "visir.is",
+   "author": "Hjálmar Vilhjálmsson",
+   "date": "2026-08-01",
+   "summary": "Ponad 14.000 aktów UE zostało już przyjętych do EOG, a duża część regulacji już obowiązuje. Negocjacje mają doprowadzić do rozstrzygnięcia kwestii, które wciąż pozostają otwarte — rybołówstwa, rolnictwa, waluty i funduszy regionalnych — tak aby naród mógł je ocenić.",
+   "args": [
+    "kikja",
+    "ahrif"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Niesprawiedliwość RKV czy UE?",
+   "url": "https://www.visir.is/g/20262916080d/rkv-eda-esb-ranglaetid-",
+   "source": "visir.is",
+   "author": "Benedikt V Warén",
+   "date": "2026-08-01",
+   "summary": "Mieszkańcy Austurland doświadczyli skutków odległej władzy Reykjavíku, a UE jest jeszcze większą wersją tego samego systemu z dłuższymi kanałami decyzyjnymi. Unijny system podatku od emisji ETS, wdrożony od 2007 roku, podnosi koszty wszystkich dostaw do kraju i uderza w siłę nabywczą mieszkańców.",
+   "args": [
+    "ahrifaleysi",
+    "kostnadur"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Czy to, co stare, zawsze jest dobre?",
+   "url": "https://www.visir.is/g/20262916082d/er-hid-gamla-alltaf-gott-",
+   "source": "visir.is",
+   "author": "Ebba Margrét Magnúsdóttir",
+   "date": "2026-08-01",
+   "summary": "Położnik porównuje swój stary radiobudzik, który po 44 latach zaczyna się psuć, do sytuacji, przed którą stoi naród w tych wyborach. Pyta, czy Islandczycy potrafią pożegnać się ze starym i odważą się wybrać nowe w niebezpiecznym świecie.",
+   "args": [
+    "oryggi"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Kapitałowi najlepiej w Brukseli - nie narodowi",
+   "url": "https://www.visir.is/g/20262916084d/audvaldinu-best-borgid-i-brussel-ekki-thjodinni",
+   "source": "visir.is",
+   "author": "Ögmundur Jónasson",
+   "date": "2026-08-01",
+   "summary": "Były minister wskazuje na pozytywne wypowiedzi prezesa Brim i przewodniczącego rady dyrektorów Ísfélagsins o członkostwie w UE: wielkie firmy rybackie będą dobrze prosperować w ramach Unii, ale gorzej wyjdą na tym mniejsze przedsiębiorstwa, ogół społeczeństwa, regiony i gospodarka narodowa.",
+   "args": [
+    "sjavarutvegur",
+    "efnahagur"
+   ],
+   "impact": 4
+  },
+  {
+   "side": "ja",
+   "title": "Euro czy korona?",
+   "url": "https://www.visir.is/g/20262916089d/evra-eda-krona-",
+   "source": "visir.is",
+   "author": "Grímur Grímsson",
+   "date": "2026-08-01",
+   "summary": "Poseł deklaruje poparcie dla członkostwa przede wszystkim ze względu na kwestie walutowe, choć nie zaakceptowałby każdej umowy. Bezsporne jest, że przy euro poziom stóp procentowych byłby niższy; inflacja systemu korony obniża płace realne i automatycznie podnosi indeksowane kredyty.",
+   "args": [
+    "vextir"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Pęknięcie w człowieczeństwie – UE i uchodźcy",
+   "url": "https://www.visir.is/g/20262916199d/brestur-i-manngaesku-esb-og-flottafolk",
+   "source": "visir.is",
+   "author": "Ari Orrason",
+   "date": "2026-08-02",
+   "summary": "Krytykuje rozwój polityki migracyjnej UE: Frontex działa jak wojsko bez prawomocnego mandatu i nadzoru, a Unia stworzyła podstawy do masowego wywożenia ludzi do obozów poza obszarem UE, prawdopodobnie do Afryki Północnej.",
+   "args": [
+    "hervaeding"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Kristrún Frostadóttir zgadza się ze stroną NIE",
+   "url": "https://www.visir.is/g/20262916202d/kristrun-frostadottir-sammala-nei-sinnum",
+   "source": "visir.is",
+   "author": "Guðmundur Edgarsson",
+   "date": "2026-08-02",
+   "summary": "Słowa premier, że proces akcesyjny „wysysałby tlen z administracji państwowej”, potwierdzają argument strony NIE: proces ten to rozległe, czasochłonne i kosztowne dostosowanie ustawodawstwa i administracji w 35 obszarach tematycznych, a nie zwykłe rozeznanie.",
+   "args": [
+    "adlogun",
+    "kostnadur"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Twierdzenia a rzeczywistość",
+   "url": "https://www.visir.is/g/20262916204d/fullyrdingar-og-raunveruleikinn",
+   "source": "visir.is",
+   "author": "Jón Frímann Jónsson",
+   "date": "2026-08-02",
+   "summary": "Twierdzenia przeciwników UE to fikcja, której nigdy nie popiera się przykładami. Islandzcy rolnicy zyskaliby dostęp do lepszego systemu wsparcia i swobodnego eksportu, a katastroficzne prognozy rybołówstwa o końcu branży nie mają podstaw w argumentach.",
+   "args": [
+    "hraedslu",
+    "serlausnir"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Islandia w nowym obrazie świata",
+   "url": "https://www.visir.is/g/20262916207d/island-i-nyrri-heimsmynd",
+   "source": "visir.is",
+   "author": "Dagur Jónsson",
+   "date": "2026-08-02",
+   "summary": "Dyskusja amerykańskich decydentów o kontroli nad Grenlandią pokazuje, że dawny obraz świata nie jest już czymś oczywistym, a polityka amerykańska stała się nieprzewidywalna. To naturalne, by Islandia ponownie oceniła swoją pozycję i zbadała, czy należy wzmocnić polityczne więzi z Europą; głosowanie dotyczy negocjacji, a nie członkostwa.",
+   "args": [
+    "oryggi",
+    "kikja"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Sześć powodów, by w sierpniu zagłosować TAK",
+   "url": "https://www.visir.is/g/20262916341d/sex-astaedur-fyrir-ja-i-i-agust",
+   "source": "visir.is",
+   "author": "Þorvaldur Ingi Jónsson",
+   "date": "2026-08-02",
+   "summary": "Sześć pytań do wyborców: czy należy pozostawić otwarte drzwi dla młodych ludzi, zbadać bardziej konkurencyjne otoczenie stóp procentowych i zapytać, czy EOG wystarczy na najbliższe dekady, skoro cła na produkty przetworzone przenoszą miejsca pracy za granicę, a Islandia nie ma przedstawiciela przy stole.",
+   "args": [
+    "taekifaeri",
+    "vextir",
+    "ahrif",
+    "oryggi"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Katastroficzne prognozy Haralda o poborze zniekształcają realistyczne spojrzenie na obronność",
+   "url": "https://www.visir.is/g/20262916489d/herskylduhrakspar-haraldar-skekkja-raunhaefa-syn-a-varnarmal",
+   "source": "visir.is",
+   "author": "Svanur Sigurbjörnsson",
+   "date": "2026-08-03",
+   "summary": "Odpowiada przewodniczącemu Heimssýn: zwiększony nacisk UE na obronność jest reakcją na inwazję Rosji, a nie samodzielnym dążeniem do militaryzacji. Harald miesza fakty, propozycje i własne prognozy na przyszłość, a dokument, na który się powołuje w sprawie poboru, jest jedynie raportem informacyjnym.",
+   "args": [
+    "hraedslu",
+    "oryggi"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Każde kłamstwo tworzy dług wobec prawdy",
+   "url": "https://www.visir.is/g/20262916519d/hver-lygi-skapar-skuld-vid-sannleikann",
+   "source": "visir.is",
+   "author": "Yngvi Ómar Sigrúnarson",
+   "date": "2026-08-03",
+   "summary": "Przypomina kampanię strachu przeciwko umowie EOG, która okazała się fałszywa, oraz to, jak kłamstwa sprzed kryzysu i z Panamaskjölum zakończyły się rozliczeniem. Przeciwnicy negocjacji twierdzą teraz, że znają treść umowy, która nie istnieje.",
+   "args": [
+    "hraedslu"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Przekłamania nadal pozostają bez sprostowania",
+   "url": "https://www.visir.is/g/20262916521d/rangfaerslurnar-standa-enn-og-ekkert-ad-theim-vikid",
+   "source": "visir.is",
+   "author": "Konráð S. Guðjónsson",
+   "date": "2026-08-03",
+   "summary": "Powtarza, że krytyka Gauti Eggertssonar nie odpowiedziała na sześć wskazanych przekłamań dotyczących raportu Áfram Íslands i RSE. Raport opiera się także na produktywności i PKB na mieszkańca oraz pokazuje bardzo silną pozycję Islandii na tle państw porównawczych.",
+   "args": [
+    "efnahagur"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Stopy procentowe na manowcach",
+   "url": "https://www.visir.is/g/20262916524d/vextir-a-villigotum",
+   "source": "visir.is",
+   "author": "Agnar Tómas Möller",
+   "date": "2026-08-03",
+   "summary": "Porównanie stóp procentowych w debacie jest mylące, ponieważ nie rozróżnia się stóp nominalnych i realnych; realne stopy islandzkich obligacji skarbowych są o 1,2–2,4 punktu procentowego wyższe niż w strefie euro, a nie o 4,5–5,5%. Ujemne realne stopy w strefie euro są między innymi świadectwem słabych perspektyw wzrostu gospodarczego UE.",
+   "args": [
+    "evra"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Sprostowanie w związku z artykułem o Kristrún w brytyjskim podcaście",
+   "url": "https://www.visir.is/g/20262916531d/leidretting-vegna-greinar-um-kristrunar-i-breskum-hladvarpsthaetti",
+   "source": "visir.is",
+   "author": "Guðmundur Edgarsson",
+   "date": "2026-08-03",
+   "summary": "Koryguje cytat premiera, ale podtrzymuje wniosek: jej słowa, że proces ten „wysysa tlen z systemu administracji” i jest „ogromnie dużym zadaniem”, trudno odnosić jedynie do rozmów rozpoznawczych, by zajrzeć do pakietu.",
+   "args": [
+    "adlogun",
+    "spurning"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Świat nie czeka na Islandię",
+   "url": "https://www.visir.is/g/20262916565d/heimurinn-bidur-ekki-eftir-islandi",
+   "source": "visir.is",
+   "author": "Birgir Orri Ásgrímsson",
+   "date": "2026-08-03",
+   "summary": "System międzynarodowy, który chronił małe państwa, słabnie, a gdy reguły zawodzą, tracą państwa takie jak Islandia, nie mocarstwa. Członkostwo zapewniłoby miejsce przy stole, przy którym kształtowane są zasady dotyczące Islandii; TAK w sierpniu to jedynie TAK dla rozmów i wyłożenia faktów na stół.",
+   "args": [
+    "oryggi",
+    "ahrif",
+    "kikja"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Islandia i UE: spojrzenie z mostka",
+   "url": "https://www.visir.is/g/20262916692d/island-og-esb-horft-af-brunni",
+   "source": "visir.is",
+   "author": "Þorvaldur Gylfason",
+   "date": "2026-08-04",
+   "summary": "Profesor ekonomii twierdzi, że agresywna wojna Rosji i słabnące zobowiązanie Stanów Zjednoczonych wobec NATO całkowicie zmieniły środowisko bezpieczeństwa Islandii. EOG oznacza „lekkie” członkostwo z zobowiązaniami, ale bez prawa głosu, a członkostwo może być konieczne ze względów bezpieczeństwa i gospodarczych.",
+   "args": [
+    "oryggi",
+    "ahrif"
+   ],
+   "impact": 4
+  },
+  {
+   "side": "ja",
+   "title": "To, czego nauczyli mnie mama i tata",
+   "url": "https://www.visir.is/g/20262916708d/thad-sem-mamma-og-pabbi-kenndu-mer",
+   "source": "visir.is",
+   "author": "Gréta María Grétarsdóttir",
+   "date": "2026-08-04",
+   "summary": "Członek zarządu SJÁ mówi, że głosowanie dotyczy uzyskania wyniku negocjacji, który naród będzie mógł ocenić, a nie członkostwa. Przyznaje, że rozmowy są częścią procesu akcesyjnego i kosztują czas oraz pieniądze, ale nie wiążą Islandii automatycznie; jeśli wynik okaże się nie do przyjęcia, naród powinien go odrzucić.",
+   "args": [
+    "kikja",
+    "lydraedi"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "TAK, żeby zobaczyć, to złudzenie",
+   "url": "https://www.visir.is/g/20262916710d/ja-til-ad-sja-er-talsyn",
+   "source": "visir.is",
+   "author": "Guðmundur Edgarsson",
+   "date": "2026-08-04",
+   "summary": "Porównuje głos za do Hotel California: zgodnie z unijną broszurą o rozszerzeniu rozpoczyna się szeroko zakrojony proces dostosowawczy, w którym islandzkie ustawodawstwo jest harmonizowane z acquis rozdział po rozdziale. TAK jest w istocie zgodą na proces akcesyjny zmierzający do pełnego członkostwa, którego nie da się odwrócić bez konsekwencji.",
+   "args": [
+    "adlogun",
+    "spurning",
+    "oafturkraeft"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Tabela na manowcach",
+   "url": "https://www.visir.is/g/20262916712d/tafla-a-villigotum",
+   "source": "visir.is",
+   "author": "Gauti Eggertsson",
+   "date": "2026-08-04",
+   "summary": "Odpowiada Agnar Tómas Möller: dane o realnych stopach procentowych 4,5–5,5% dotyczą kredytów mieszkaniowych gospodarstw domowych według danych Banku Centralnego, a nie obligacji skarbowych. Rodzina z kredytem w wysokości 60 milionów zapłaci miesięcznie około 113 tysięcy koron więcej przy koronie niż przy stopach procentowych strefy euro.",
+   "args": [
+    "vextir"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Co właściwie poświęcamy dla „niższego bezrobocia”?",
+   "url": "https://www.visir.is/g/20262913910d/hverju-erum-vid-eiginlega-ad-forna-fyrir-laegra-atvinnuleysi-",
+   "source": "visir.is",
+   "author": "Sveinn Atli Gunnarsson",
+   "date": "2026-07-27",
+   "summary": "Dewaluacja korony jest automatyczną obniżką płac dla całego narodu. Według Eurostat w 2025 roku osiem państw UE miało zarówno niższe bezrobocie, jak i niższą inflację niż Islandia; wybór między inflacją a bezrobociem to mit.",
+   "args": [
+    "vextir",
+    "hraedslu"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Finowie kochają UE",
+   "url": "https://www.visir.is/g/20262913921d/finnar-elska-esb",
+   "source": "visir.is",
+   "author": "Halldór Jörgen Olesen",
+   "date": "2026-07-27",
+   "summary": "Mimo bezrobocia przekraczającego 10%, 79% Finów w Eurobarometrze twierdzi, że UE daje ochronę, a 76% że Finlandia skorzystała na członkostwie. Problemy gospodarcze wynikają z załamania handlu z Rosją, upadku Nokia i starzenia się społeczeństwa, a nie z UE ani euro.",
+   "args": [
+    "hraedslu",
+    "oryggi"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Islandzcy wyborcy czy europejscy urzędnicy?",
+   "url": "https://www.visir.is/g/20262916785d/islenskir-kjosendur-eda-evropskir-embaettismenn-",
+   "source": "visir.is",
+   "author": "Ólafur Hannesson",
+   "date": "2026-08-04",
+   "summary": "Władza powinna należeć do islandzkich wyborców, a nie do aparatu urzędniczego w Brukseli, który jest oderwany od realiów różnych państw członkowskich. W UE głos Islandii jako jednego państwa z 28 utonąłby, podczas gdy poza nią kraj stoi jako wolna wyspa z jednym głosem.",
+   "args": [
+    "fullveldi",
+    "ahrifaleysi"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Sygnały ostrzegawcze w europejskim biznesie",
+   "url": "https://www.visir.is/g/20262916808d/vidvorunarljos-i-evropsku-atvinnulifi",
+   "source": "visir.is",
+   "author": "Guðrún Hafsteinsdóttir",
+   "date": "2026-08-04",
+   "summary": "Przywołuje raporty Draghiego i Letty o słabnącej konkurencyjności UE wobec Stanów Zjednoczonych oraz badania BusinessEurope i BDI o pogarszającym się otoczeniu biznesowym i odpływie badań i rozwoju z Europy. Letta podkreśla, że korzyści jednolitego rynku nie są ograniczone do członkostwa, i określa porozumienie EOG jako kamień węgielny współpracy.",
+   "args": [
+    "efnahagur",
+    "ees"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "W UE „Islandia będzie zarządzać rybołówstwem na Północnym Atlantyku”",
+   "url": "https://www.visir.is/g/20262916979d/innan-esb-mun-island-stjorna-fiskveidum-i-nordur-atlantshafi-",
+   "source": "visir.is",
+   "author": "Óli Rúnar Ástþórsson",
+   "date": "2026-08-04",
+   "summary": "Przytacza wywiad Heimildarinnar z Indriði Benediktsson, który przez 30 lat pracował w Komisji Europejskiej: Islandia nie musiałaby niczego zmieniać w swoim systemie zarządzania rybołówstwem, chyba że sama by tego chciała, i mogłaby prowadzić w imieniu UE negocjacje dotyczące stad migrujących. Obecnie nadarza się wyjątkowo dobra okazja, która już nigdy się nie powtórzy — jeśli Wielka Brytania albo Norwegia wejdą wcześniej, Islandia nie będzie miała żadnych szans, a współpraca w ramach EOG nie będzie długowieczna.",
+   "args": [
+    "timagluggi",
+    "serlausnir"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Letnie festyny, drakońsko wysokie odsetki i nieotwarta koperta",
+   "url": "https://www.visir.is/g/20262917091d/sumarhatidir-randyrir-vextir-og-oopnad-umslag",
+   "source": "visir.is",
+   "author": "Pétur Marteinsson",
+   "date": "2026-08-05",
+   "summary": "Radny miejski zachęca, by podejść do głosowania z szacunkiem dla odmiennych opinii; UE nie jest żadnym magicznym rozwiązaniem, ale trzeba położyć umowę na stół, aby debata opierała się na faktach, a nie na domysłach. TAK dla rozmów nie jest ani decyzją o przystąpieniu, ani deklaracją, że wszystko będzie idealne, lecz decyzją o zebraniu faktów.",
+   "args": [
+    "kikja",
+    "vextir"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Co jest najważniejsze?",
+   "url": "https://www.visir.is/g/20262917171d/hvad-er-mikilvaegast-",
+   "source": "visir.is",
+   "author": "Jónas Hagan Guðmundsson",
+   "date": "2026-08-05",
+   "summary": "Badanie Maskína pokazuje, że 77% mieszkańców kraju nie podejmuje ważnych decyzji bez pełnej informacji, i tak samo należy podchodzić do kwestii UE: najpierw trzeba wiedzieć, jaka umowa jest oferowana. Czerwone linie powinny wzmacniać pozycję negocjacyjną Islandii, a nie uniemożliwiać zawarcie porozumienia; negocjacje akcesyjne nie są kapitulacją, lecz sposobem sprawdzenia, czy można osiągnąć lepszy rezultat.",
+   "args": [
+    "kikja"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Oskarżenia o zdradę i żałosne przedstawienia",
+   "url": "https://www.visir.is/g/20262917175d/landradabrigsl-og-skripaleikir",
+   "source": "visir.is",
+   "author": "Einar Kárason",
+   "date": "2026-08-05",
+   "summary": "Pisarz twierdzi, że debatę zalały skrajnie czarnowidcza negatywność i uszczypliwości, choć głosowanie dotyczy jedynie tego, czy rozpocząć rozmowy. Ólafur Ragnar znów powtarza swoje katastroficzne prognozy z czasu debaty o EOG o rozpadzie, ubóstwie i załamaniu gałęzi gospodarki, które wszystkie okazały się błędne.",
+   "args": [
+    "hraedslu",
+    "lydraedi"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Więcej niż kryteria kopenhaskie",
+   "url": "https://www.visir.is/g/20262917225d/meira-en-kaupmannahafnarskilyrdin",
+   "source": "visir.is",
+   "author": "Erna Bjarnadóttir",
+   "date": "2026-08-05",
+   "summary": "Odpowiada na artykuł Ásta Guðrún Helgadóttir: acquis communautaire obejmuje znacznie więcej niż rozporządzenia i dyrektywy — traktaty założycielskie, orzecznictwo i praktykę administracyjną — a proces screeningu ocenia, jakie zmiany państwo kandydujące musi wprowadzić, zanim rozdziały zostaną zamknięte. Kryteria kopenhaskie są początkiem procesu akcesyjnego, a nie jego punktem końcowym.",
+   "args": [
+    "adlogun"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "EOG czy UE – oto jest pytanie",
+   "url": "https://www.visir.is/g/20262917498d/ees-eda-esb-thar-er-efinn",
+   "source": "visir.is",
+   "author": "Dóra Sif Tynes",
+   "date": "2026-08-05",
+   "summary": "Przedstawia istotę Porozumienia EOG: państwa EFTA zobowiązują się do przyjmowania całego prawodawstwa UE dotyczącego rynku wewnętrznego bez możliwości wybierania, co przyjąć, a co odrzucić, a Urząd Nadzoru EFTA i Trybunał EFTA egzekwują te obowiązki. Wyborcy powinni ocenić, czy EOG wystarczy na przyszłość, czy też należy sprawdzić, czy pełne członkostwo byłoby lepszą opcją.",
+   "args": [
+    "ahrif"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Kredyty mieszkaniowe w realnym świecie: odpowiedź na uwagi Gauti B. Eggertsson",
+   "url": "https://www.visir.is/g/20262917500d/ibudalan-i-raunheimum-svar-vid-athugasemdum-gauta-b.-eggertssonar",
+   "source": "visir.is",
+   "author": "Agnar Tómas Möller",
+   "date": "2026-08-05",
+   "summary": "Odpowiada na krytykę Gauti B. Eggertsson dotyczącą jego porównania stóp procentowych: zdyskontowana różnica w spłatach kredytów mieszkaniowych przy uwzględnieniu realnych stóp procentowych wynosi około 22%, podczas gdy debata publiczna sugerowała wielokrotnie większą różnicę. Twierdzenia, że Islandczycy płacą za mieszkanie trzy razy albo o 72% więcej, nie uwzględniają inflacji i wartości realnych.",
+   "args": [
+    "evra"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Ile obecna sytuacja kosztuje handel i islandzkich konsumentów?",
+   "url": "https://www.visir.is/g/20262917643d/hvad-kostar-nuverandi-stada-verslunina-og-islenska-neytendur-",
+   "source": "visir.is",
+   "author": "Þorvaldur Ingi Jónsson",
+   "date": "2026-08-06",
+   "summary": "Islandzki handel działa przy wyższych kosztach finansowania, ryzyku kursowym i poza unią celną UE, co przekłada się na wyższe ceny, mniejszy wybór towarów i gorszą obsługę konsumentów. UE ustala reguły dotyczące handlu internetowego i rynków cyfrowych; Porozumienie EOG prawdopodobnie już niedługo nie będzie wystarczające, a Islandia nie ma miejsca przy stole, gdy kształtowane są zasady funkcjonowania gospodarki.",
+   "args": [
+    "kjor",
+    "vextir",
+    "ahrif"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Z powrotem do okopów",
+   "url": "https://www.visir.is/g/20262917645d/ofan-i-skotgrafirnar",
+   "source": "visir.is",
+   "author": "Júlíus Valsson",
+   "date": "2026-08-06",
+   "summary": "To natarcie jest własnej roboty: nikt nie atakuje Islandii, lecz to same władze zamierzają usiąść do stołu negocjacyjnego, przy którym — jak twierdzą — będą musiały „bronić” rybołówstwa, rolnictwa i suwerenności. Państwa kandydujące przyjmują dorobek prawny Unii rozdział po rozdziale, trwałych wyjątków w rybołówstwie nigdy nie uzyskano, a pozycja Islandii poza UE jest silna.",
+   "args": [
+    "undanthagur",
+    "adlogun",
+    "ees"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Moje pokolenie zawiodło!",
+   "url": "https://www.visir.is/g/20262917647d/min-kynslod-brast-",
+   "source": "visir.is",
+   "author": "Margrét Kristmannsdóttir",
+   "date": "2026-08-06",
+   "summary": "Po blisko 40 latach prowadzenia działalności gospodarczej mówi, że system został zaprojektowany dla niektórych: małe firmy i gospodarstwa domowe nie mogą rozkwitać przy finansowaniu oprocentowanym na 14%, podczas gdy duże przedsiębiorstwa funkcjonują poza gospodarką opartą na koronie. Korona jest niesprawiedliwa i dyskryminuje firmy oraz gospodarstwa domowe; ona bez wahania mówi TAK dla dzieci i wnuków.",
+   "args": [
+    "vextir",
+    "taekifaeri"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Dlaczego 29 sierpnia głosuję TAK",
+   "url": "https://www.visir.is/g/20262917793d/af-hverju-eg-kys-ja-29.-agust",
+   "source": "visir.is",
+   "author": "Halldór Jörgen Olesen",
+   "date": "2026-08-06",
+   "summary": "Porównuje swoje oprocentowanie kredytu mieszkaniowego w Danii na poziomie 2,32% z warunkami islandzkimi: stopy procentowe mają wynosić 7,75% wobec 2,25% w Europejskim Banku Centralnym, a indeksacja, nieznana w Europie, podnosi kapitał wraz z inflacją. Trzy banki niemal samodzielnie kontrolują islandzki rynek kredytowy, ponieważ korona odstrasza europejskie banki od konkurowania.",
+   "args": [
+    "vextir"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Historie o duchach naszych czasów",
+   "url": "https://www.visir.is/g/20262917848d/draugasogur-nutimans",
+   "source": "visir.is",
+   "author": "Ingólfur Sverrisson",
+   "date": "2026-08-06",
+   "summary": "Porównuje argumentację strony NIE do wiary w duchy z minionych stuleci; UE nigdy nie odebrała zasobów żadnemu państwu członkowskiemu, a katastroficzne prognozy przypominają „móðuharðindi af mannavöldum”, które przepowiadano przy okazji umowy EOG trzydzieści lat temu. Zasada względnej stabilności zakłada, że zasoby ryb są poławiane przez te państwa, które mają doświadczenie połowowe.",
+   "args": [
+    "hraedslu",
+    "serlausnir"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Armia europejska i udział Islandczyków",
+   "url": "https://www.visir.is/g/20262917968d/evropuherinn-og-hlutur-islendinga",
+   "source": "visir.is",
+   "author": "Haraldur Ólafsson",
+   "date": "2026-08-06",
+   "summary": "Przewodniczący Heimssýn mówi, że w UE istnieje silna wola militaryzacji, od społeczeństwa po najwyższe kręgi władzy, a Parlament Europejski przyjął w tej sprawie rezolucję znaczącą większością głosów. Ostatni czteroletni plan zbrojeniowy kosztowałby Islandię około 50 miliardów koron rocznie i dziwne jest przystępowanie do tego w przekonaniu, że militaryzacja nigdy nie dojdzie do skutku.",
+   "args": [
+    "hervaeding",
+    "kostnadur",
+    "fullveldi"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Czy to była ta obietnica wyborcza?",
+   "url": "https://www.visir.is/g/20262917971d/var-thetta-kosningalofordid-",
+   "source": "visir.is",
+   "author": "Fannar Logi Waldorff Sigurðsson",
+   "date": "2026-08-06",
+   "summary": "Rząd został wybrany po to, by obniżyć stopy procentowe i osiągnąć stabilność, a zamiast tego organizuje referendum w sprawie UE, gdzie problemy są jeszcze większe: bezrobocie wśród młodych ludzi, rosnące zadłużenie i ciężki gorset regulacyjny. Islandia powinna zachować wszystkie narzędzia suwerennego państwa i wykorzystywać atuty swojej niewielkiej skali.",
+   "args": [
+    "efnahagur",
+    "umbod",
+    "fullveldi"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Wielcy wszystkowiedzący",
+   "url": "https://www.visir.is/g/20262918002d/hinir-miklu-alvitringar",
+   "source": "visir.is",
+   "author": "Baldur Vignir Karlsson",
+   "date": "2026-08-06",
+   "summary": "Krytykuje „wszystkowiedzących”, którzy udają, że dokładnie wiedzą, jak będzie wyglądała umowa i co stanie się po wyborach. To czyste kłamstwo, że TAK dla podjęcia negocjacji oznacza TAK dla Unii Europejskiej albo że suwerenność zostanie utracona — wszystkie państwa w UE są suwerenne.",
+   "args": [
+    "hraedslu",
+    "kikja"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "O umiłowaniu prawdy i prawach pracowniczych",
+   "url": "https://www.visir.is/g/20262918028d/af-sannleiksast-og-vinnurettindum",
+   "source": "visir.is",
+   "author": "Vilborg Gunnarsdóttir",
+   "date": "2026-08-07",
+   "summary": "W debacie dominują półprawdy, a umiłowanie prawdy jest jeszcze mniej obecne po stronie NIE; mówienie o przekazaniu suwerenności i władzy sądowniczej to bzdura. Przedstawia prawa pracownicze i konsumenckie zagwarantowane przez regulacje EOG i chce, by naród zobaczył umowę oraz podjął świadomą decyzję w drugim głosowaniu.",
+   "args": [
+    "hraedslu",
+    "kikja"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Korona islandzka, szwedzka albo żadna",
+   "url": "https://www.visir.is/g/20262918034d/islensk-saensk-eda-engin-krona",
+   "source": "visir.is",
+   "author": "Yngvi Ómar Sigrúnarson",
+   "date": "2026-08-06",
+   "summary": "Prostuje twierdzenie, że korona szwedzka jest powiązana z euro, ale wskazuje, że Szwedzi przystąpili do UE ze względu na unię celną i miejsce przy stole decyzyjnym oraz wynegocjowali rozwiązania szczególne, takie jak odstępstwo dotyczące snusu. Główna stopa procentowa wynosi 7,75% na Islandii, 2,4% w strefie euro i 1,75% w Szwecji; Islandczycy widzą jedną z głównych korzyści członkostwa w pozbyciu się korony.",
+   "args": [
+    "vextir",
+    "ahrif"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Oddychajmy do torby! Z Islandią będzie dobrze",
+   "url": "https://www.visir.is/g/20262918044d/ondum-i-poka-island-verdur-i-lagi",
+   "source": "visir.is",
+   "author": "Jóhannes Óli Sveinsson",
+   "date": "2026-08-07",
+   "summary": "Wzywa do opanowania w debacie, która szybko zamienia się w wojnę okopową; po obu stronach są ważne argumenty i nic strasznego się nie stanie bez względu na wynik. Głosuje TAK z powodu zmienionego porządku międzynarodowego, w którym Stany Zjednoczone demontują dawny ład, szans dla gospodarstw domowych i firm w większej strefie walutowej oraz doświadczenia, że szersza współpraca międzynarodowa znacznie poprawiła jakość życia.",
+   "args": [
+    "oryggi",
+    "vextir"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "A co jeśli ...?",
+   "url": "https://www.visir.is/g/20262918056d/hvad-ef-...-",
+   "source": "visir.is",
+   "author": "Brynjar M. Ólafsson",
+   "date": "2026-08-07",
+   "summary": "Więcej było straszenia ze strony obozu NIE; można równie dobrze pytać „a co jeśli zyskamy bardziej stabilną walutę i korzystniejsze kredyty mieszkaniowe?” a w najgorszym razie można wycofać się z procesu, jak pokazali Brytyjczycy poprzez Brexit. Strach przed zmianą nie może blokować możliwości lepszej przyszłości.",
+   "args": [
+    "hraedslu",
+    "vextir"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Czy ze Szwajcarii też się śmiali, Ólafur Ragnar?",
+   "url": "https://www.visir.is/g/20262918096d/hlogu-their-lika-ad-sviss-olafur-ragnar-",
+   "source": "visir.is",
+   "author": "Gauti B. Eggertsson",
+   "date": "2026-08-07",
+   "summary": "Odpowiada Ólafi Ragnariemu, który przywołuje śmiech dwóch anonimowych mężczyzn w Paryżu, twierdząc, że dwuetapowe głosowanie jest „út úr kú“. Przedstawia udokumentowane przykłady — Szwajcaria 2001, Rumunia 2003, Mołdawia 2024 i Macedonia Północna 2018 — w których głosowano nad rozmowami lub procesem akcesyjnym, a Komisja Europejska uszanowała wynik lub go z zadowoleniem przyjęła, zamiast się śmiać.",
+   "args": [
+    "kikja",
+    "hraedslu"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Co dałoby euro? – odpowiedź dla Ásdís Kristjánsdóttur",
+   "url": "https://www.visir.is/g/20262918120d/hverju-myndi-evran-skila-svar-til-asdisar-kristjansdottur",
+   "source": "visir.is",
+   "author": "Dagur B. Eggertsson",
+   "date": "2026-08-07",
+   "summary": "Odpowiada Ásdís Kristjánsdóttir: raport ASÍ, SA, FA i Viðskiptaráðs z 2014 r. o „gríðarlegan velferðarábata” wynikającym z euro nie jest nieaktualny, a komisja, w której zasiadała Ásdís, nie mogła analizować żadnych innych opcji niż korona. Koszt kredytów mieszkaniowych dla gospodarstw domowych przekracza sto miliardów rocznie, inflacja jest dwukrotnie wyższa od celu, a stopy procentowe banku centralnego wynoszą 7,75% wobec 2,25% w strefie euro.",
+   "args": [
+    "vextir"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Producent filmowy po stronie TAK",
+   "url": "https://www.visir.is/g/20262918316d/jakvaedur-kvikmyndaframleidandi",
+   "source": "visir.is",
+   "author": "Grímar Jónsson",
+   "date": "2026-08-07",
+   "summary": "Producent Hrúta i Héraðsins finansuje około 60% swoich projektów w euro i opisuje wielomilionowe straty kursowe spowodowane niestabilnością korony, przed którymi małe firmy nie są w stanie się zabezpieczyć. Europejskie banki udzielają kredytów na rozsądnych warunkach przy płatnościach w euro, podczas gdy nikt nie chce mieć do czynienia z koroną, a islandzki bank komercyjny oferuje oprocentowanie 13,5%.",
+   "args": [
+    "vextir"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Płacilibyśmy za wejście Czarnogóry",
+   "url": "https://www.visir.is/g/20262918331d/myndum-borga-fyrir-inngongu-svartfjallalands",
+   "source": "visir.is",
+   "author": "Hjörtur J. Guðmundsson",
+   "date": "2026-08-08",
+   "summary": "Cytuje anonimowych urzędników Komisji Europejskiej w Politico, według których Islandia mogłaby przystąpić równolegle z Czarnogórą i ze względu na swoje bogactwo w praktyce zapłaciłaby za jej wejście. Islandia byłaby pierwszym płatnikiem netto od ponad 30 lat, 17 z 27 państw członkowskich otrzymuje z funduszy UE więcej, niż wpłaca, a zaproponowano podwyższenie składek o 48%.",
+   "args": [
+    "kostnadur"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Pierwsze TAK to głosowanie kluczowe",
+   "url": "https://www.visir.is/g/20262918504d/the-first-yes-is-the-crucial-vote",
+   "source": "visir.is",
+   "author": "Carl Baudenbacher",
+   "date": "2026-08-08",
+   "summary": "Były prezes Trybunału EFTA odpowiada Gauti B. Eggertssonowi: przykłady Szwajcarii, Rumunii, Mołdawii i Macedonii Północnej nie są analogiczne do przypadku Islandii, ponieważ inicjatywa wychodzi tam od samych władz, a nie od narodu. To pierwsze TAK jest naprawdę decydującym głosowaniem.",
+   "args": [
+    "spurning"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Negocjować przeciwko samemu sobie",
+   "url": "https://www.visir.is/g/20262918517d/ad-semja-gegn-sjalfum-ser",
+   "source": "visir.is",
+   "author": "Gísli Hjálmtýsson",
+   "date": "2026-08-10",
+   "summary": "Porównuje relacjonowanie przez Morgunblaðið i stanowisko kierownictwa Sjálfstæðisflokksins wobec „niemożliwości” negocjowania z UE do górnolotnych celów i kompleksu niższości dawnych islandzkich młodzieżowych reprezentacji. Reprezentacja dokonała niemożliwego w 2016 i 2018 roku; autor nie wierzy, że nie warto wejść na boisko i powiedzieć tak, żeby zobaczyć.",
+   "args": [
+    "hraedslu",
+    "kikja"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Polityczne chorągiewki, które teraz chcą odebrać narodowi stanowisko",
+   "url": "https://www.visir.is/g/20262918635d/politiskir-vindhanar-sem-vilja-nu-hafa-afstodu-af-thjod",
+   "source": "visir.is",
+   "author": "Þórður Snær Júlíusson",
+   "date": "2026-08-10",
+   "summary": "Przypomina słowa Bjarni Benediktssonar z 2009 roku, że euro wraz z członkostwem w UE było jedyną silną alternatywą dla korony, że należało uruchomić demokrację i że naród powinien móc zagłosować, czy rozpocząć negocjacje. Te same partie, które w 2009 roku domagały się podwójnego referendum, chcą teraz odebrać narodowi możliwość zajęcia stanowiska.",
+   "args": [
+    "lydraedi",
+    "kikja"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Jak zapewnić naszym dzieciom przyszłość na Islandii?",
+   "url": "https://www.visir.is/g/20262918637d/hvernig-tryggjum-vid-bornum-okkar-framtid-a-islandi-",
+   "source": "visir.is",
+   "author": "Þorvaldur Ingi Jónsson",
+   "date": "2026-08-08",
+   "summary": "Najważniejsze pytanie brzmi, czy młodzi ludzie na Islandii mają takie same możliwości jak ich rówieśnicy w krajach nordyckich, by kupić pierwsze mieszkanie, założyć firmę i budować przedsiębiorstwa międzynarodowe bez przeszkody w postaci wysokich kosztów kapitału. Zniesienie ceł mogłoby zwiększyć stopień przetwarzania produktów rybnych, a inwestycje nie trafiają tam, gdzie panuje niepewność co do dostępu do rynku.",
+   "args": [
+    "taekifaeri",
+    "vextir",
+    "tollfrelsi"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Islandio, tak proszę",
+   "url": "https://www.visir.is/g/20262918748d/island-ja-takk",
+   "source": "visir.is",
+   "author": "Jón Pétur Zimsen",
+   "date": "2026-08-09",
+   "summary": "Poseł Sjálfstæðisflokksins mówi, że około 95% dorobku prawnego UE jest nienegocjowalne według samej Unii, a Islandia stałaby się płatnikiem netto, który w praktyce finansowałby członkostwo Czarnogóry. Islandia już teraz ma najlepsze warunki życia, największą równość, bezpieczeństwo i sprawiedliwość społeczną na świecie, a zwolennicy UE umniejszają kraj.",
+   "args": [
+    "undanthagur",
+    "kostnadur",
+    "efnahagur"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Dywagacje",
+   "url": "https://www.visir.is/g/20262918750d/bollaleggingar",
+   "source": "visir.is",
+   "author": "Sigurður Kári Kristjánsson",
+   "date": "2026-08-09",
+   "summary": "Były poseł i członek rady banku centralnego krytykuje przewodniczącego rady banku centralnego Bolla Héðinssona za umniejszanie wartości korony w wywiadzie radiowym oraz opowiadanie się za euro i członkostwem w UE. Takie postępowanie jest nieprofesjonalne i nieodpowiedzialne oraz podważa zaufanie do waluty, polityki pieniężnej i samego banku centralnego.",
+   "args": [
+    "umbod"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Droga od TAK-zobaczmy do TAK-TAK",
+   "url": "https://www.visir.is/g/20262918752d/ja-sja-leidir-til-ja-ja",
+   "source": "visir.is",
+   "author": "Guðmundur Edgarsson",
+   "date": "2026-08-09",
+   "summary": "TAK w sierpniu oznaczałoby formalny wniosek o przystąpienie, po którym nastąpiłoby dostosowanie administracji i ustawodawstwa do liczącego 170 tysięcy stron dorobku prawnego UE, z którego trudno byłoby się potem wycofać. Cytuje Baudenbacher, że proces nabrałby własnego impetu, oraz Ólafur Ragnar, że UE przeciągałaby negocjacje tak długo, aż TAK stałoby się prawdopodobne w drugim głosowaniu.",
+   "args": [
+    "adlogun",
+    "spurning",
+    "oafturkraeft"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Amortyzator dla kogo?",
+   "url": "https://www.visir.is/g/20262918769d/hoggdeyfir-fyrir-hverja-",
+   "source": "visir.is",
+   "author": "Jóhann Páll Jóhannsson",
+   "date": "2026-08-09",
+   "summary": "Minister odpowiada na „argumenty o amortyzatorze” dla korony: największe gałęzie eksportu nie mogą zwiększyć produkcji przy osłabieniu kursu, bo słabsza korona ani nie zwiększy liczby ryb w morzu, ani nie wyczaruje hut aluminium. Spadek wartości waluty przede wszystkim zwiększa zyski firm eksportowych, ale przerzuca koszty na ogół społeczeństwa poprzez spadek siły nabywczej i transfer majątku od pracowników najemnych do właścicieli kapitału.",
+   "args": [
+    "vextir"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Naród się wykrwawia – a to podobno samo ma się jakoś ułożyć",
+   "url": "https://www.visir.is/g/20262918814d/thjodinni-er-ad-blaeda-ut-og-thetta-a-bara-ad-reddast",
+   "source": "visir.is",
+   "author": "Vilhelm Jónsson",
+   "date": "2026-08-10",
+   "summary": "Przez niemal pół wieku Islandczycy zmagali się z tą samą chorobą gospodarczą — inflacją, wysokimi stopami procentowymi i wahaniami kursu walutowego — a wyjaśnień zawsze szukano za granicą zamiast spojrzeć na własne podwórko. Indeksacja z 1979 roku nadal obowiązuje, inflacja jest daleko powyżej celu, a stopy procentowe banku centralnego są wielokrotnie wyższe niż w strefie euro; rachunek płacą rodziny z kredytami mieszkaniowymi i młodzi ludzie.",
+   "args": [
+    "vextir"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Katastrofalna sytuacja mieszkaniowa młodych ludzi w UE",
+   "url": "https://www.visir.is/g/20262919020d/hormuleg-husnaedisstada-ungs-folks-i-esb",
+   "source": "visir.is",
+   "author": "Hjörtur J. Guðmundsson",
+   "date": "2026-08-10",
+   "summary": "Odpowiada Þorvaldu Ingi Jónssyni: spośród krajów nordyckich tylko Finlandia przyjęła euro, podczas gdy Dania i Szwecja odrzuciły je w referendach. Nowy raport UE kreśli ponury obraz sytuacji mieszkaniowej młodych ludzi w Unii, gdzie ceny miejscami wzrosły trzykrotnie, niskie stopy procentowe niewiele pomogły, a wielu młodych ludzi jest zmuszonych mieszkać z rodzicami aż do dorosłości.",
+   "args": [
+    "evra",
+    "efnahagur"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Zamierzam zaufać przyszłym pokoleniom",
+   "url": "https://www.visir.is/g/20262919022d/eg-aetla-ad-treysta-komandi-kynslodum",
+   "source": "visir.is",
+   "author": "Margrét Sveinsdóttir",
+   "date": "2026-08-10",
+   "summary": "Nauczyciel i artysta plastyk zamierza powiedzieć nie i zaufać przyszłym pokoleniom, że same będą rządzić krajem, zamiast przekazywać ważną część władzy UE, jak opisano w opinii Instytutu Prawa Uniwersytetu Islandzkiego. UE nie jest żadnym dobrotliwym świętym Mikołajem, a korupcja i nierówności są tam bynajmniej nie mniejsze niż u nas.",
+   "args": [
+    "fullveldi"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Jak to jest mieć miejsce przy stole",
+   "url": "https://www.visir.is/g/20262919024d/hvernig-er-ad-eiga-saeti-vid-bordid",
+   "source": "visir.is",
+   "author": "Ásta Guðrún Helgadóttir",
+   "date": "2026-08-10",
+   "summary": "Odpowiada na wątpliwości dotyczące miejsca przy stole: w ramach EOG Islandia nie ma żadnego głosu w procesie legislacyjnym UE. Znaczenie Islandii stanowiłoby nie tylko sześć miejsc w parlamencie z 720, lecz także jeden komisarz z 28 z równą siłą głosu oraz udział w sojuszach państw myślących podobnie, zwłaszcza że w systemie wbudowano zabezpieczenia chroniące interesy mniejszych państw.",
+   "args": [
+    "ahrif"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Powody, dla których 29 sierpnia zagłosuję NIE",
+   "url": "https://www.visir.is/g/20262919026d/astaedur-thess-ad-eg-kys-nei-thann-29.-agust",
+   "source": "visir.is",
+   "author": "Sigurður P. Sigmundsson",
+   "date": "2026-08-10",
+   "summary": "Uważa, że porozumienie EOG zapewnia wystarczający dostęp do rynku wewnętrznego, a oczekiwanie, że Islandia uzyska rozwiązania specjalne i trwałe wyłączenia w sprawach rybołówstwa i rolnictwa, jest nierealistycznym myśleniem życzeniowym. Główne organizacje reprezentujące interesy poszczególnych branż oraz przywódcy związkowi mieli opowiedzieć się przeciw negocjacjom, a rząd ponosi odpowiedzialność za podział narodu.",
+   "args": [
+    "ees",
+    "undanthagur",
+    "fullveldi"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "TAK to kapitulacja, a NIE to za mało",
+   "url": "https://www.visir.is/g/20262919028d/ja-er-uppgjof-og-nei-er-ekki-nog",
+   "source": "visir.is",
+   "author": "Ágústa Árnadóttir",
+   "date": "2026-08-10",
+   "summary": "Mówi, że TAK oznacza kapitulację wobec władz i systemu, który jej zdaniem opiera się na oszustwie; banki zarabiają setki miliardów rocznie, podczas gdy dochody do dyspozycji społeczeństwa pochłaniają odsetki. Nie ufa „walkiriom”, które miały podzielić naród tym głosowaniem.",
+   "args": [
+    "umbod"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Biznes powinien chcieć zobaczyć tę umowę",
+   "url": "https://www.visir.is/g/20262919089d/atvinnulifid-aetti-ad-vilja-sja-samninginn",
+   "source": "visir.is",
+   "author": "Margrét Guðmundsdóttir",
+   "date": "2026-08-10",
+   "summary": "Była dyrektor generalna dziwi się, że 66% firm członkowskich SA sprzeciwia się członkostwu, zanim przedstawiono jakąkolwiek umowę; przez długie lata pracy kierowniczej nie pamięta zarządu, który odrzuciłby ważne negocjacje umowy, nie wiedząc, co jest oferowane. Obawy o suwerenność i zasoby naturalne są uzasadnione, ale nie prowadzą automatycznie do wniosku, że nie należy rozmawiać z UE.",
+   "args": [
+    "kikja"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Pierwsze tak ma znaczenie",
+   "url": "https://www.visir.is/g/20262919091d/fyrsta-jaid-skiptir-mali",
+   "source": "visir.is",
+   "author": "Gunnar Ármannsson",
+   "date": "2026-08-10",
+   "summary": "TAK nie jest neutralnym poszukiwaniem informacji, lecz mandatem do rozpoczęcia formalnego procesu akcesyjnego z jasno określonym celem; koszty już poniesione, oczekiwania i interesy powstające wokół tego procesu mogą utrudnić powiedzenie nie w późniejszym referendum. Cytuje Baudenbachera, że wycofanie się z raz uruchomionego procesu może okazać się trudne.",
+   "args": [
+    "spurning",
+    "adlogun",
+    "oafturkraeft"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "29 sierpnia ‒ Odzyskana suwerenność?",
+   "url": "https://www.visir.is/g/20262919103d/29.-agust-fullveldid-endurheimt-",
+   "source": "visir.is",
+   "author": "Jean-Rémi Chareyre",
+   "date": "2026-08-10",
+   "summary": "Zestawia historię „wolności” amerykańskich niewolników po 1863 roku — wolnych na papierze, lecz uwikłanych w niewolę długów — z ideą suwerenności: formalna suwerenność bez realnego wpływu może być pusta. Suwerenność narodów w powiązanym świecie bardziej przypomina współżycie w bloku mieszkalnym niż odizolowany dom jednorodzinny.",
+   "args": [
+    "ahrif"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Kotwica i zabezpieczenie dla Islandii",
+   "url": "https://www.visir.is/g/20262919172d/akkeri-og-trygging-fyrir-island",
+   "source": "visir.is",
+   "author": "Gunnar Örn Gunnarsson",
+   "date": "2026-08-10",
+   "summary": "Islandia jest „na subskrypcji” reguł EOG, nie uczestnicząc w ich tworzeniu; jego prace komisji nad dyrektywą wodną UE miały pokazać, że przepisy są ustanawiane bez jakiegokolwiek udziału Islandii i źle dostosowane do islandzkich warunków. Członkostwo uczyniłoby Islandię pełnoprawnym uczestnikiem kształtowania regulacji, a niewystawienie negocjacji na próbę byłoby nierozsądne.",
+   "args": [
+    "ahrif",
+    "kikja"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Fatalna sytuacja mieszkaniowa młodych ludzi na Islandii",
+   "url": "https://www.visir.is/g/20262919177d/hormuleg-husnaedisstada-ungs-folks-a-islandi",
+   "source": "visir.is",
+   "author": "Yngvi Ómar Sigrúnarson",
+   "date": "2026-08-10",
+   "summary": "Przewodniczący Leigjendasamtakanna odpowiada Hirti J. Guðmundssyni: wybiera on sobie prawdziwe informacje o problemach mieszkaniowych w UE, ale pomija porównanie z Islandią, która wypada gorzej w większości kwestii ważnych dla najemców i młodych ludzi. Ceny mieszkań miały wzrosnąć realnie o 103% od 2015 roku, a na sytuację składają się wysokie stopy procentowe, indeksacja, słaby sektor mieszkań społecznych i niewielkie bezpieczeństwo mieszkaniowe.",
+   "args": [
+    "vextir",
+    "taekifaeri"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Gdzie jest nasze miejsce?",
+   "url": "https://www.visir.is/g/20262919238d/hvar-eigum-vid-heima-",
+   "source": "visir.is",
+   "author": "Martha Árnadóttir",
+   "date": "2026-08-10",
+   "summary": "Najważniejsze pytanie nie dotyczy koron i euro, lecz tego, gdzie Islandczycy chcą przynależeć: UE to polityczna współpraca państw demokratycznych oparta na prawach człowieka, państwie prawa i pokoju po dwóch wojnach światowych. Islandia jest w tym domu poprzez EOG i Schengen, ale siedzi na korytarzu — i można zapytać, do kogo naprawdę należy Islandia, gdy nieliczni kontrolują zasoby naturalne, kapitał i reguły gry.",
+   "args": [
+    "gildi",
+    "ahrif",
+    "oryggi"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Czy Islandia powinna wystąpić z UEFA?",
+   "url": "https://www.visir.is/g/20262919426d/a-island-ad-segja-sig-ur-uefa-",
+   "source": "visir.is",
+   "author": "Theódór S. Halldórsson",
+   "date": "2026-08-11",
+   "summary": "Umieszcza argumenty o suwerenności w żartobliwym kontekście: zgodnie z rygorystycznym myśleniem suwerennościowym KSÍ powinien wystąpić z UEFA i FIFA, bo islandzka piłka nożna nie decyduje ani o rozmiarze boiska, ani o przepisie o spalonym. Islandczycy godzą się na wspólne reguły gry, bo bez nich nie byłoby wspólnej gry — a mała Islandia bywa tam czasem równorzędna z wielkimi narodami.",
+   "args": [
+    "ahrif"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Kto powinien mieć ostatnie słowo w sprawach Islandii?",
+   "url": "https://www.visir.is/g/20262919451d/hver-a-ad-hafa-sidasta-ordid-um-malefni-islands-",
+   "source": "visir.is",
+   "author": "Hreinn Loftsson",
+   "date": "2026-08-11",
+   "summary": "Zwolennicy członkostwa mieli odejść od mówienia o trwałym wyłączeniu ze wspólnej polityki rybołówstwa i teraz powołują się na względną stabilność; parlament Holandii przyjął, że politykę tę należy uznawać za nierozerwalną część acquis w negocjacjach z Islandią. Po przystąpieniu cztery swobody objęłyby sektor rybołówstwa, w tym inwestycje i prawo przedsiębiorczości, a przekazanie kompetencji wymagałoby zmian konstytucyjnych.",
+   "args": [
+    "undanthagur",
+    "sjavarutvegur",
+    "fullveldi"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Jest wiele rzeczy, których nie rozumiem",
+   "url": "https://www.visir.is/g/20262919604d/thad-er-margt-sem-eg-ekki-skil",
+   "source": "visir.is",
+   "author": "Elinóra Inga Sigurðardóttir",
+   "date": "2026-08-11",
+   "summary": "Pyta, dlaczego samowystarczalny i suwerenny naród miałby ubiegać się o członkostwo w UE po wielowiekowej walce o niepodległość; samostanowienie trafiłoby do rządzących w Brukseli. Nie ma w ofercie żadnych trwałych wyjątków — te same reguły obowiązują wszystkie państwa członkowskie, a negocjowalny jest jedynie okres dostosowawczy — i środki wydane na proces aplikacyjny lepiej byłoby wykorzystać w kraju. Stopy procentowe i poziom cen są problemem wytworzonym na miejscu, który politycy mogą sami naprawić.",
+   "args": [
+    "fullveldi",
+    "undanthagur",
+    "kostnadur"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Nagły zwrot czy skok na kasę?",
+   "url": "https://www.visir.is/g/20262919704d/kuvending-eda-ferd-til-fjar-",
+   "source": "visir.is",
+   "author": "Hallgrímur Oddsson",
+   "date": "2026-08-11",
+   "summary": "Założyciel Evrópustrauma wyjaśnia, że wraz z członkostwem ochrona celna by zniknęła, a system wsparcia zostałby dostosowany do wspólnej polityki rolnej UE; wskaźnik wsparcia PSE OECD wynosi około 47% na Islandii wobec 16,4% w UE. Produkty mleczne i jaja są na Islandii około 76% droższe niż w sześciu najdroższych państwach UE, a mięso około 62% droższe; większy bezcłowy import obniżyłby ceny. Skutki byłyby wyraźnie różne w zależności od gałęzi produkcji rolnej, a negocjacje akcesyjne rzuciłyby światło na te uwarunkowania.",
+   "args": [
+    "kjor",
+    "kikja"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "„Bierz swoje leki”",
+   "url": "https://www.visir.is/g/20262919712d/-taktu-lyfin-thin-",
+   "source": "visir.is",
+   "author": "Ása Lind Finnbogadóttir",
+   "date": "2026-08-11",
+   "summary": "Twierdzi, że argumentacja strony NIE jest pełna błędów logicznych: nikt nie może z góry wiedzieć, jak będzie wyglądała ostateczna umowa, a „argument kuli śnieżnej”, według którego negocjacje oznaczają członkostwo, nie wytrzymuje krytyki — Norwegia odrzuciła członkostwo po negocjacjach akcesyjnych. Naród może odrzucić ostateczną umowę w drugim referendum, a twierdzenia przeciwne są błędnymi wyobrażeniami opartymi na strachu.",
+   "args": [
+    "hraedslu",
+    "kikja"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Miecz i tarcza Islandii",
+   "url": "https://www.visir.is/g/20262919732d/sverd-islands-og-skjoldur",
+   "source": "visir.is",
+   "author": "Daði Már Kristófersson",
+   "date": "2026-08-12",
+   "summary": "Minister finansów przywołuje słowa Hans G. Andersen, że prawo jest mieczem i tarczą małego państwa, ale mówi, że zgoda co do międzynarodowych reguł gry się załamała; spory handlowe się zaostrzają, a nawet podstawowe zasady nienaruszalności granic i suwerenności są zagrożone. Pytanie dotyczy tego, gdzie Islandia chce znaleźć polityczną i gospodarczą kotwicę, a przyjęcie euro mogłoby znacznie zmniejszyć obciążenie odsetkowe sektora publicznego.",
+   "args": [
+    "oryggi",
+    "vextir"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Suwerenność narodu i suwerenność państwa",
+   "url": "https://www.visir.is/g/20262919836d/fullveldi-thjodar-og-fullveldi-rikis",
+   "source": "visir.is",
+   "author": "Þorsteinn Siglaugsson",
+   "date": "2026-08-11",
+   "summary": "Rozróżnia zewnętrzną suwerenność państwa i wewnętrzną suwerenność narodu: naród może sam zdecydować o związaniu władzy państwowej współpracą ponadnarodową, nie zrzekając się przy tym suwerenności wewnętrznej. Przeciwnicy negocjacji mieli najpierw próbować zablokować referendum, a następnie oświadczyć, że jego wynik może zostać zignorowany, jeśli przejmą władzę — powołują się oni na suwerenność, a zarazem odrzucają jej istotę, czyli ostateczne prawo narodu do rozstrzygania.",
+   "args": [
+    "lydraedi",
+    "kikja"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Druga dusza Europy",
+   "url": "https://www.visir.is/g/20262919905d/europe-s-second-soul",
+   "source": "visir.is",
+   "author": "Carl Baudenbacher",
+   "date": "2026-08-12",
+   "summary": "Były prezes Trybunału EFTA mówi, że UE powinna przestać wabić Islandię wątpliwymi obietnicami i uznać EOG za „inny porządek instytucjonalny” Europy. Model EOG/EFTA pokazuje, że udział w rynku wewnętrznym nie wymaga politycznej integracji i zachowuje suwerenność państw; taki porządek mógłby się także przydać Wielkiej Brytanii po Brexicie, Szwajcarii, a nawet Turcji.",
+   "args": [
+    "ees",
+    "fullveldi"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Suwerenność narodu i suwerenność państwa",
+   "url": "https://www.visir.is/g/20262919928d/fullveldi-thjodar-og-fullveldi-rikis",
+   "source": "visir.is",
+   "author": "Gunnar Ármannsson",
+   "date": "2026-08-12",
+   "summary": "Odpowiada Þorsteinnowi Siglaugssonowi: referendum w sprawie negocjacji ma znaczenie polityczne, ale nie zmienia konstytucyjnej pozycji Alþingi — nowy parlament nie jest związany decyzjami poprzedniego parlamentu i może zatrzymać ten proces. Porównanie do hierarchii sądów nie oddaje ustroju konstytucyjnego, ponieważ tam chodzi o hierarchię ustanowioną ustawowo, której referendum nie tworzy.",
+   "args": [
+    "spurning"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "EOG kontra UE - Ile miejsc pracy tracimy z powodu ceł?",
+   "url": "https://www.visir.is/g/20262919965d/ees-vs.-esb-hversu-morg-storf-missum-vid-vegna-tollanna-",
+   "source": "visir.is",
+   "author": "Þorvaldur Ingi Jónsson",
+   "date": "2026-08-12",
+   "summary": "Islandia znajduje się poza unią celną UE, a rybołówstwo i rolnictwo nie korzystają z pełnej swobody przepływu towarów; cła i niepewność co do przyszłych warunków handlu odstraszają inwestycje rzędu miliardów od pełnego przetwarzania produktów w kraju. Należy zapytać, ile wartościowych miejsc pracy w technologii żywności, biotechnologii, badaniach i rozwoju produktów nigdy nie powstanie na Islandii z powodu obecnej pozycji konkurencyjnej.",
+   "args": [
+    "taekifaeri",
+    "kjor",
+    "tollfrelsi"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Czy potrzebujemy jeszcze jednej władzy?",
+   "url": "https://www.visir.is/g/20262919981d/thurfum-vid-enn-eitt-yfirvaldid-",
+   "source": "visir.is",
+   "author": "Gísli Stefánsson",
+   "date": "2026-08-12",
+   "summary": "Poseł zastępczy z Sjálfstæðisflokkurinn mówi, że doświadczenie samorządowców pokazuje, jak decyzje podejmowane daleko od miejsca ich skutków w mniejszym stopniu uwzględniają lokalne uwarunkowania; po akcesji decyzje dotyczące energetyki i wykorzystania zasobów byłyby w coraz większym stopniu kształtowane w Brukseli. Nacisk powinien być położony na korzystne umowy międzypaństwowe na własnych warunkach, a nie na przekazywanie kompetencji decyzyjnych.",
+   "args": [
+    "fullveldi",
+    "ahrifaleysi"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Czy ubieganie się o członkostwo w UE jest zbyt drogie?",
+   "url": "https://www.visir.is/g/20262920012d/er-of-dyrt-ad-saekja-um-adild-ad-esb-",
+   "source": "visir.is",
+   "author": "Björn Leví Gunnarsson",
+   "date": "2026-08-12",
+   "summary": "Odpowiada na argumenty o kosztach liczbami z raportu ministra spraw zagranicznych z 2012 r.: proces aplikacyjny w latach 2009–2012 kosztował państwo około 400 milionów koron, ale w zamian Islandia otrzymała blisko 30 milionów euro pomocy IPA, około 5 miliardów koron według ówczesnej wartości. Dotacje przeznaczono między innymi na statystykę publiczną, bezpieczeństwo żywności, kształcenie zawodowe i tłumaczenia, a określenie „dotacje dostosowawcze” daje mylący obraz tego, co obejmowały.",
+   "args": [
+    "hraedslu"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Śmierć czy odrodzenie",
+   "url": "https://www.visir.is/g/20262920288d/daudi-eda-upprisa",
+   "source": "visir.is",
+   "author": "Jón Bragi Gunnlaugsson",
+   "date": "2026-08-12",
+   "summary": "Twierdzi, że islandzkie rolnictwo znajduje się w głębokim kryzysie niezależnie od UE: według raportu Byggðastofnun z 2022 r. podstawa hodowli owiec załamała się, a obwinianie UE za rozwój fińskiego rolnictwa, który wynika z postępu technologicznego, jest niedorzeczne. System dopłat UE uwalnia rolników od limitów produkcji, znacznie zwiększa ich swobodę i uwzględnia współczesne wymogi środowiskowe; dlatego należy przyjrzeć się pakietowi i powiedzieć TAK 29 sierpnia.",
+   "args": [
+    "kikja",
+    "byggd"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Pochopne sądy ministra",
+   "url": "https://www.visir.is/g/20262920341d/sleggjudomar-radherra",
+   "source": "visir.is",
+   "author": "Sveinn Óskar Sigurðsson",
+   "date": "2026-08-13",
+   "summary": "Wskazuje, że stopy procentowe banku centralnego wynoszą 7,75%, a inflacja wzrosła mimo obietnic Samfylkingin, że „przybije stopy do ziemi”, i mówi, że Jóhann Pál Jóhannsson wybiórczo cytuje raport walutowy: stwierdza on również, że bez korony dostosowanie do wstrząsów odbywałoby się poprzez bezpośrednie obniżki płac i bezrobocie. Bank centralny zwrócił ponadto uwagę w liście, że twierdzenia z projektu raportu o wielokrotnie większych wahaniach kursu korony opierały się na wadliwej statystyce.",
+   "args": [
+    "evra",
+    "skyrslan"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "„Tysiąc dorszy na taśmie...”",
+   "url": "https://www.visir.is/g/20262920378d/-thusund-thorskar-a-faeribandinu...-",
+   "source": "visir.is",
+   "author": "Óli Rúnar Ástþórsson",
+   "date": "2026-08-13",
+   "summary": "Autor, który w młodości pracował w przetwórstwie rybnym, mówi, że cła UE na przetworzone produkty rybne uniemożliwiają pełne przetwarzanie ryb dennych i łososia hodowlanego na Islandii do postaci gotowych opakowań konsumenckich. Pełne przetwórstwo produktów morskich mogłoby stać się następną wielką rewolucją przemysłową prowincji, gdyby mur celny UE został przełamany poprzez członkostwo. Twierdzi, że głosowanie nie dotyczy zrzeczenia się suwerenności, ponieważ wszystkie państwa UE są suwerenne.",
+   "args": [
+    "byggd",
+    "hraedslu",
+    "tollfrelsi"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Czy EOG to poczekalnia czy stacja końcowa?",
+   "url": "https://www.visir.is/g/20262920427d/er-ees-bidstofa-eda-endastod-",
+   "source": "visir.is",
+   "author": "",
+   "date": "2026-08-16",
+   "summary": "Omówienie nowej książki Carla i Laury Melusine Baudenbacher przed referendum. Autorzy uważają, że Islandia powinna raczej wzmocnić swoją pozycję w ramach EOG niż rozpoczynać negocjacje akcesyjne; EOG nie jest poczekalnią, lecz samodzielnym i trwałym europejskim modelem współpracy. Sprawa Icesave pokazuje, że system EOG dał małemu państwu realną przestrzeń do obrony własnych interesów.",
+   "args": [
+    "ees"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Szansa w pełnym przetwórstwie - Dlaczego członkostwo w UE mogłoby otworzyć nowe drzwi",
+   "url": "https://www.visir.is/g/20262920468d/soknarfaeri-i-fullvinnslu-hvers-vegna-esb-adild-gaeti-opnad-nyjar-dyr",
+   "source": "visir.is",
+   "author": "Halldór Jörgen Olesen",
+   "date": "2026-08-13",
+   "summary": "Wyraża zadowolenie, że SFS nie sprzeciwia się negocjacjom akcesyjnym przy jasno określonych celach negocjacyjnych dotyczących islandzkiej własności zasobu. UE nakłada wyższe cła na gotowe produkty konsumenckie niż na nieprzetworzony surowiec, zachęcając tym samym do tego, by końcowe przetwarzanie odbywało się za granicą; po akcesji wszystkie cła by zniknęły. Obecnie tylko 1,4% wartości eksportu produktów rybnych stanowią gotowe produkty konsumenckie.",
+   "args": [
+    "byggd",
+    "tollfrelsi"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Cele negocjacyjne",
+   "url": "https://www.visir.is/g/20262920737d/samningsmarkmid",
+   "source": "visir.is",
+   "author": "Haukur Eggertsson",
+   "date": "2026-08-13",
+   "summary": "Inżynier twierdzi, że żądania, by cele negocjacyjne Islandii zostały opublikowane z wyprzedzeniem, osłabiają pozycję negocjacyjną kraju; druga strona nie powinna wiedzieć, gdzie przebiegają czerwone linie. UE bardzo zależy na włączeniu Islandii do swojego grona i należy to wykorzystać. Naród będzie mógł ocenić umowę w późniejszym referendum.",
+   "args": [
+    "kikja",
+    "serlausnir"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "To, co wskazał MFW, a czego Dagur nie podkreśla",
+   "url": "https://www.visir.is/g/20262920751d/thad-sem-ags-tilgreindi-en-dagur-dregur-ekki-fram",
+   "source": "visir.is",
+   "author": "Sveinn Óskar Sigurðsson",
+   "date": "2026-08-14",
+   "summary": "Odpowiada na artykuł Dags B. Eggertssonar o ocenie MFW dotyczącej przyjęcia euro i twierdzi, że pomija on zastrzeżenia zawarte w dokumencie. MFW wskazuje, że euro usunęłoby koronę jako mechanizm amortyzujący wahania oraz że duże specyficzne szoki wymagałyby wewnętrznej dewaluacji poprzez bezrobocie, jak w Hiszpanii i Grecji. „Ogromna korzyść dla dobrobytu” to, jego zdaniem, wniosek samego Dags, a nie MFW, który nie zajmuje stanowiska.",
+   "args": [
+    "evra"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Brak obrony przed chorobami zwierząt – nieodwracalny wypadek",
+   "url": "https://www.visir.is/g/20262920871d/engar-varnir-gegn-dyrasjukdomum-oafturkraeft-slys",
+   "source": "visir.is",
+   "author": "Halldór Runólfsson",
+   "date": "2026-08-14",
+   "summary": "Ostrzega, że członkostwo mogłoby naruszyć budowaną przez dziesięciolecia islandzką ochronę przed chorobami zwierząt, i domaga się, by zakaz importu żywych zwierząt oraz inne środki ochronne były czerwonymi liniami w negocjacjach. Przytacza przykłady, jak zakazy importu uchroniły kraj przed wąglikiem i BSE. Ubolewa, że rząd nie ogłasza tych wymogów jako czerwonych linii.",
+   "args": [
+    "landbunadur"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "O suwerenności i przekazywaniu jej",
+   "url": "https://www.visir.is/g/20262920920d/um-fullveldi-og-framsal-thess",
+   "source": "visir.is",
+   "author": "Axel Kristinsson",
+   "date": "2026-08-14",
+   "summary": "Historyk rozróżnia między przekazaniem a zrzeczeniem się suwerenności i twierdzi, że przekazanie jest warunkiem istnienia ludzkiej wspólnoty. Współpraca wzmacnia suwerenność, ponieważ odizolowane gospodarstwo domowe lub państwo jest zdane na otoczenie i zagrożenia, nad którymi nie ma żadnej kontroli. Najważniejsze jest mieć wpływ na instytucje, które ustanawiają reguły.",
+   "args": [
+    "hraedslu",
+    "ahrif"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Dlaczego rybacy mogliby powiedzieć „tak”",
+   "url": "https://www.visir.is/g/20262920970d/af-hverju-sjomenn-maettu-mogulega-segja-ja-",
+   "source": "visir.is",
+   "author": "Kjartan Jónsson",
+   "date": "2026-08-14",
+   "summary": "Twierdzi, że unijne zasady równości i przejrzystości prawdopodobnie wymagałyby rozdzielenia połowów i przetwórstwa, tak aby połów zawsze sprzedawano po cenie rynkowej. Poprawiłoby to warunki rybaków, którzy otrzymywali nawet trzykrotnie niższe ceny za gromadnika i makrelę niż uzyskuje się na Wyspach Owczych, oraz podniosłoby opłatę połowową dla państwa. Jako precedens wskazuje szczególne rozwiązanie Norwegów dotyczące kontroli nad północną częścią strefy morskiej.",
+   "args": [
+    "kikja",
+    "serlausnir"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Jakie jest rzeczywiste zagrożenie dla islandzkich uprawnień połowowych w razie członkostwa w UE?",
+   "url": "https://www.visir.is/g/20262920972d/hver-er-raunveruleg-haetta-fyrir-islenskar-veidiheimildir-vid-esb-adild-",
+   "source": "visir.is",
+   "author": "Þórir Garðarsson",
+   "date": "2026-08-14",
+   "summary": "Pyta, co stanie się z własnością islandzkich uprawnień połowowych 10–30 lat po akcesji, skoro Komisja Europejska wcześniej uznawała islandzkie ograniczenia dotyczące zagranicznych inwestycji w rybołówstwie za niezgodne z regulacjami. Poszerzone grono nabywców mogłoby podnieść cenę kwot i skłonić rodzinne firmy rybackie do sprzedaży swoich uprawnień. Wspólna polityka rybołówstwa UE jest dziś wyraźnie wyłączona z porozumienia EOG.",
+   "args": [
+    "sjavarutvegur"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "To, co nigdy się nie wydarzyło, z łatwością może wydarzyć się znowu!",
+   "url": "https://www.visir.is/g/20262920982d/thad-sem-aldrei-hefur-gerst-getur-haeglega-gerst-aftur-",
+   "source": "visir.is",
+   "author": "Ingólfur Sverrisson",
+   "date": "2026-08-14",
+   "summary": "Odrzuca twierdzenia Ólafs Ragnars Grímssonar i Carls Baudenbacher, że negocjacje są nieodwracalnym procesem akcesyjnym i że UE zagarnie zasoby kraju. Żadne państwo UE nie utraciło swoich zasobów, a zasada doświadczenia połowowego gwarantuje, że lokalne stada pozostaną islandzkie. Przypomina, że katastroficzne prognozy dotyczące porozumienia EOG nigdy się nie sprawdziły.",
+   "args": [
+    "hraedslu",
+    "serlausnir"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Żart dnia",
+   "url": "https://www.visir.is/g/20262920985d/brandari-dagsins",
+   "source": "visir.is",
+   "author": "Einar Helgason",
+   "date": "2026-08-14",
+   "summary": "Satyryczny artykuł przypomina, że poprzednik UE został utworzony prawie osiemdziesiąt lat temu, by zapobiec nowej wojnie światowej po tym, jak zginęły dziesiątki milionów ludzi. Kpi z tego, że Islandczycy oceniają współpracę europejską wyłącznie przez pryzmat własnych korzyści, skoro naród skorzystał na obu wojnach światowych.",
+   "args": [
+    "gildi"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Dorobek islandzkich polityków",
+   "url": "https://www.visir.is/g/20262920989d/arangur-islenskra-stjornmalamanna",
+   "source": "visir.is",
+   "author": "Steinn Kári Ragnarsson",
+   "date": "2026-08-14",
+   "summary": "Wylicza to, co islandzcy politycy zaniedbali: system ochrony zdrowia, edukację i sieć dróg, 99,99% spadek wartości korony od 1922 roku, indeksację oraz jeden z najdroższych koszyków żywnościowych na świecie. Chce powiedzieć TAK dla zbadania, co UE ma do zaoferowania, ponieważ potrzebna jest zmiana obecnego modelu.",
+   "args": [
+    "kikja",
+    "kjor"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Tak, ze względu na wszystkich",
+   "url": "https://www.visir.is/g/20262921089d/ja-vegna-allra",
+   "source": "visir.is",
+   "author": "Ragnar Thorarensen",
+   "date": "2026-08-14",
+   "summary": "Zamierza zagłosować na TAK mimo wątpliwości co do członkostwa, ponieważ chce wiedzieć, jaką umowę Islandia może uzyskać; później nadal będzie można powiedzieć NIE. Odwołuje się do Brexitu, gdzie starsze pokolenia przesądziły o decyzji, z którą żyją młodzi ludzie, a 52% Brytyjczyków chce dziś ponownie wejść do UE. Wspomina też o sile negocjacyjnej unii celnej oraz o wzajemnym obowiązku obrony w traktacie UE.",
+   "args": [
+    "kikja",
+    "taekifaeri",
+    "oryggi"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "O długach – i długu wdzięczności",
+   "url": "https://www.visir.is/g/20262921104d/um-skuldir-og-thakkarskuldir",
+   "source": "visir.is",
+   "author": "Jón Baldvin Hannibalsson",
+   "date": "2026-08-14",
+   "summary": "Były minister spraw zagranicznych broni swojego prawa do wysłuchania Carla Baudenbachera i wyjaśnia, w jaki sposób Trybunał EFTA rozstrzygnął spór Icesave. Twierdzi, że oskarżenia o zdradę ojczyzny i nieuczciwość towarzyszyły przystąpieniu do NATO w 1949 r., umowie obronnej, członkostwu w EFTA i porozumieniom EOG — oraz że ta sama brzydka historia zdaje się chcieć powtórzyć także teraz.",
+   "args": [
+    "hraedslu"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Myślmy i pytajmy razem – Co najlepiej posłuży Islandii w przyszłości?",
+   "url": "https://www.visir.is/g/20262921107d/hugsum-og-spyrjum-saman-hvad-thjonar-islandi-best-til-framtidar-",
+   "source": "visir.is",
+   "author": "Þorvaldur Ingi Jónsson",
+   "date": "2026-08-14",
+   "summary": "Pyta, czy suwerenność polega na pozostawaniu na zewnątrz, czy na wywieraniu wpływu tam, gdzie podejmowane są decyzje; członkostwo w NATO i EOG nie odebrało niepodległości. Islandia już teraz przyjmuje znaczną część przepisów rynku wewnętrznego bez miejsca przy stole. Pozycja negocjacyjna Islandii może osłabnąć, jeśli będzie się czekać, podczas gdy stanowisko Norwegów i Brytyjczyków się zmieni.",
+   "args": [
+    "ahrif",
+    "kikja",
+    "timagluggi"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Norwegowie zaczęli się nam przyglądać",
+   "url": "https://www.visir.is/g/20262921363d/nordmenn-eru-farnir-ad-horfa-a-okkur",
+   "source": "visir.is",
+   "author": "Baldur Johnsen",
+   "date": "2026-08-15",
+   "summary": "Podczas Arendalsviku norwescy decydenci dyskutowali o przyszłości EOG, a minister spraw zagranicznych Norwegii twierdzi, że władze muszą brać pod uwagę, iż Islandia może stać się państwem UE już w 2030 roku. Ine Eriksen Søreide, przewodnicząca Høyre, uważa, że porozumienie EOG nie przetrwa w dłuższej perspektywie, niemal niezależnie od tego, co zrobi Islandia. Wynik islandzkiego głosowania ma więc bezpośredni wpływ na pozycję Norwegii i filar EFTA.",
+   "args": [
+    "timagluggi"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Tani populizm w przededniu 29 sierpnia",
+   "url": "https://www.visir.is/g/20262921490d/loddaralist-i-addraganda-29.-agust",
+   "source": "visir.is",
+   "author": "Daði Freyr Ólafsson",
+   "date": "2026-08-15",
+   "summary": "Redaktor evropumalin.is twierdzi, że rząd złamał obietnicę wyborczą, by nie wpisywać ani negocjacji akcesyjnych, ani referendum do porządku dnia. Ministerstwo Spraw Zagranicznych zaniża koszty członkostwa: niezależna analiza Samtaka skattgreiðenda szacuje koszt netto na 23–44 miliardy koron rocznie, podczas gdy ministerstwo podaje 2–7 miliardów. Organizacja skierowała formalne pismo do OBWE w sprawie tego sposobu przedstawienia sprawy.",
+   "args": [
+    "kostnadur",
+    "umbod"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Walka o niepodległość nigdy się nie kończy",
+   "url": "https://www.visir.is/g/20262921546d/sjalfstaedisbarattan-haettir-aldrei",
+   "source": "visir.is",
+   "author": "Anton Kristinn Guðmundsson",
+   "date": "2026-08-16",
+   "summary": "Przedstawia walkę o niepodległość od zniesienia monopolu handlowego w 1787 roku po utworzenie republiki w 1944 roku i twierdzi, że prawdziwa niezależność przejawia się w tym, gdzie leży władza decyzyjna: kto stanowi prawa, sądzi i sprawuje kontrolę nad zasobami. Członkostwo w UE dotyczy samych fundamentów państwa islandzkiego i dziedzictwa długiej walki. Islandia ma już porozumienie EOG.",
+   "args": [
+    "fullveldi",
+    "ees"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Kiedy autorytet zastępuje rozumowanie",
+   "url": "https://www.visir.is/g/20262921549d/thegar-kennivald-kemur-i-stad-raka",
+   "source": "visir.is",
+   "author": "Sigurður Sigurðsson",
+   "date": "2026-08-16",
+   "summary": "Krytykuje Carla Baudenbachera za to, że przedstawia oceny naukowe, wnioski polityczne i prognozy z tym samym autorytetem co fakty. Nie można twierdzić, że EOG jest lepszą opcją niż traktat akcesyjny, którego wciąż jeszcze nie ma; takie porównanie musi uwzględniać niepewność. Wyrok w sprawie Icesave dowodzi wartości filaru EFTA w jednej konkretnej sprawie, ale niczego nie przesądza o przyszłości.",
+   "args": [
+    "kikja"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Czerwony autobus już tu jest! Strzeżcie się czerwonego autobusu",
+   "url": "https://www.visir.is/g/20262921574d/rauda-rutan-er-maett-varist-raudu-rutuna",
+   "source": "visir.is",
+   "author": "Þórður Snær Júlíusson",
+   "date": "2026-08-16",
+   "summary": "Porównuje argumentację ruchu NIE do czerwonego autobusu Brexitu, w którym ton nadawała wprowadzająca w błąd liczba 350 milionów funtów; dziesięć lat później brytyjska gospodarka jest bezsprzecznie słabsza. Głosowanie dotyczy wykorzystania silnej pozycji negocjacyjnej Islandii, a naród będzie mógł odrzucić członkostwo w późniejszym referendum. Grupy interesu gospodarki opartej na koronie i oligopolu walczą przeciw temu, by Islandczycy mogli dowiedzieć się więcej.",
+   "args": [
+    "hraedslu",
+    "kikja",
+    "timagluggi"
+   ],
+   "impact": 4
+  },
+  {
+   "side": "nei",
+   "title": "Seminarium związku rolników z perspektywy rolnika",
+   "url": "https://www.visir.is/g/20262921586d/malthing-baendasamtakanna-fra-sjonarholi-bonda",
+   "source": "visir.is",
+   "author": "Sigríður Ólafsdóttir",
+   "date": "2026-08-16",
+   "summary": "Rolnik twierdzi, że zjazd rolniczy przyjął zdecydowaną większością głosów uchwałę, iż interesy rolników są najlepiej chronione poza UE. Nordyccy przedstawiciele rolników na seminarium Bændasamtakanna mieli wskazywać, że skuteczność w UE wymaga lobbingu w Brukseli, a korzyści Szwecji z członkostwa to elementy, które Islandczycy już mają dzięki EOG. Przedstawiciel Norwegii zwrócił uwagę, że przy członkostwie wszystkie kanały komunikacji między obywatelami a władzami się wydłużają.",
+   "args": [
+    "landbunadur",
+    "ees",
+    "ahrifaleysi"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Nie chcemy wchodzić do UE",
+   "url": "https://www.visir.is/g/20262921594d/vid-viljum-ekki-ganga-i-esb",
+   "source": "visir.is",
+   "author": "Jón Ívar Einarsson",
+   "date": "2026-08-16",
+   "summary": "Twierdzi, że sformułowanie „zajrzeć do pakietu” jest mylące, ponieważ negocjacje akcesyjne są rozległym procesem politycznym, którego celem końcowym jest pełne członkostwo. Sondaż Gallupa pokazuje, że 54% jest przeciwnych członkostwu wśród tych, którzy zajmują stanowisko, a tylko 26 z 63 posłów pochodzi z partii mających członkostwo w programie. Negocjacje zabrałyby czas i środki innym zadaniom, a członkostwo oznaczałoby rezygnację z niezależnych umów handlowych, takich jak umowa o wolnym handlu z Chinami.",
+   "args": [
+    "adlogun",
+    "umbod",
+    "kostnadur"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Jaka jest różnica dla lewicy między EOG a UE?",
+   "url": "https://www.visir.is/g/20262921599d/hver-er-munurinn-fyrir-vinstrid-a-ees-og-esb-",
+   "source": "visir.is",
+   "author": "Jökull Sólberg Auðunsson",
+   "date": "2026-08-16",
+   "summary": "Perspektywa lewicowa: korona jest amortyzatorem, który przyspieszył odbicie po kryzysie, podczas gdy Irlandia, Hiszpania i Grecja zmagały się z bezrobociem na poziomie 15–27%. Wraz z euro zniknęłyby zarówno elastyczność kursowa, jak i pole manewru w polityce fiskalnej z powodu unijnej zasady 3% deficytu, czego Finowie doświadczają teraz. Inflacja i indeksacja to kwestie islandzkiej polityki, a nie nieuchronne skutki uboczne korony.",
+   "args": [
+    "evra",
+    "oafturkraeft"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Czy chcesz, aby Islandia poręczyła 250 mld ISK długu UE?",
+   "url": "https://www.visir.is/g/20262921651d/vilt-thu-ad-island-abyrgist-250-ma.kr.-af-skuldum-esb-",
+   "source": "visir.is",
+   "author": "Eiríkur S. Svavarsson",
+   "date": "2026-08-16",
+   "summary": "Przedstawia narastanie zadłużenia UE jako samodzielnej osoby prawnej od 2009 r.: pakiet NextGenerationEU wynosi ok. 807 mld euro, oprócz szeroko zakrojonego finansowania dłużnego związanego z pomocą dla Ukrainy. Spłaty mają trwać do 2058 r. Po przystąpieniu Islandia poręczyłaby przypadający na nią udział w tych długach w wysokości ok. 250 mld koron.",
+   "args": [
+    "kostnadur"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Rolnicy hamują",
+   "url": "https://www.visir.is/g/20262921653d/baendur-a-bremsunni",
+   "source": "visir.is",
+   "author": "Gunnar Hólmsteinn Ársælsson",
+   "date": "2026-08-16",
+   "summary": "Opisuje trudną sytuację dochodową rolników, ich średni wiek wynoszący 66 lat oraz problem braku napływu nowych osób do zawodu; zawrotnie wysokie stopy procentowe i drogie środki produkcji obciążają działalność w islandzkich realiach gospodarczych. Przypomina, że negocjacje akcesyjne po kryzysie zostały zerwane listem ministra spraw zagranicznych bez udziału narodu.",
+   "args": [
+    "vextir",
+    "lydraedi"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Zasoby naturalne są nasze, niezależnie od tego, czy jesteśmy w EOG, czy w UE",
+   "url": "https://www.visir.is/g/20262921655d/audlindirnar-eru-okkar-hvort-sem-vid-erum-i-ees-eda-esb",
+   "source": "visir.is",
+   "author": "Lárus M. K. Ólafsson",
+   "date": "2026-08-16",
+   "summary": "Prawnik przedstawia podstawowe zasady prawa międzynarodowego dotyczące trwałej suwerenności państw nad ich zasobami naturalnymi oraz art. 194 Traktatu o funkcjonowaniu UE, który gwarantuje państwom członkowskim kontrolę nad zasobami energii i strukturą energetyczną. Trybunał Sprawiedliwości UE miał potwierdzić ten zakres swobody w sprawie Hinkley Point. Twierdzenia, że członkostwo w EOG lub UE zagraża kontroli Islandczyków nad zasobami naturalnymi, są błędnym wyobrażeniem.",
+   "args": [
+    "hraedslu"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Naród jest zawsze podzielony",
+   "url": "https://www.visir.is/g/20262921679d/thjodin-er-alltaf-klofin",
+   "source": "visir.is",
+   "author": "Gunnar Salvarsson",
+   "date": "2026-08-16",
+   "summary": "Odpowiada na wypowiedzi Guðrúnar Hafsteinsdóttur, że naród jest z powodu sprawy UE „podzielony aż do szpiku kości”, i twierdzi, że różnica zdań nie jest objawem choroby, lecz oznaką zdrowej debaty demokratycznej. Naród nie zgadza się w niezliczonych sprawach, nie będąc przez to podzielony. Cytuje Sigmar Guðmundsson, że referenda krajowe są właśnie po to, by rozstrzygać kwestie kontrowersyjne.",
+   "args": [
+    "lydraedi"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Dlaczego 29 sierpnia powiem nie",
+   "url": "https://www.visir.is/g/20262921681d/hvers-vegna-eg-segi-nei-29.-agust",
+   "source": "visir.is",
+   "author": "Sunna G. Sigurðardóttir",
+   "date": "2026-08-16",
+   "summary": "Twierdzi, że Islandczycy żyją na naprawdę wysokim poziomie we wszystkich międzynarodowych porównaniach, a droga do UE wynika z politycznych targów w rządzie, w których Viðreisn uzyskuje swoją sprawę. Najprawdopodobniej nie ma większości parlamentarnej za negocjacjami, a wszystkie partie opozycyjne są przeciw. Przedstawiciele rybołówstwa i rolnictwa są przeciwni, a Islandia płaciłaby do UE więcej, niż otrzymałaby z powrotem.",
+   "args": [
+    "efnahagur",
+    "umbod",
+    "kostnadur"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Specyfika Islandii najpewniej wyklucza członkostwo w UE",
+   "url": "https://www.visir.is/g/20262921685d/serstada-islands-utilokar-ad-likindum-adild-ad-esb",
+   "source": "visir.is",
+   "author": "Albert Jónsson",
+   "date": "2026-08-16",
+   "summary": "Ekspert ds. polityki zagranicznej wyjaśnia, że rozmowy dotyczące rybołówstwa utknęły w 2011 r., gdy UE zażądała harmonogramu dostosowania do wspólnej polityki rybołówstwa oraz zniesienia ograniczeń dotyczących zagranicznych inwestycji w przedsiębiorstwa rybackie. UE w swojej istocie nie jest przystosowana do wyjątkowości, a wbudowana niechęć wobec wyjątków, które tworzą precedens, jest silna. Dlatego specyfika Islandii w kwestiach rybołówstwa i energii najpewniej wyklucza członkostwo; wymogiem musiałyby być trwałe wyjątki.",
+   "args": [
+    "sjavarutvegur",
+    "undanthagur",
+    "adlogun"
+   ],
+   "impact": 4
+  },
+  {
+   "side": "ja",
+   "title": "Czy Islandia naprawdę jest aż tak dużo bogatsza od reszty świata?",
+   "url": "https://www.visir.is/g/20262921693d/er-island-i-alvoru-svo-miklu-rikara-en-umheimurinn-",
+   "source": "visir.is",
+   "author": "Egill Almar Ágústsson",
+   "date": "2026-08-16",
+   "summary": "Wykorzystuje indeks Big Maca, by pokazać, że poziom cen na Islandii jest obecnie o 151% wyższy niż w Stanach Zjednoczonych, a realny kurs korony znajduje się na historycznym maksimum, w tym samym miejscu co tuż przed kryzysem. Utrzymująca się różnica stóp procentowych względem zagranicy podtrzymuje kurs mimo wyższej inflacji niż w krajach sąsiednich. W 2007 r. ten sam indeks przewidywał 50% spadek kursu korony.",
+   "args": [
+    "vextir"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "TAK, żeby zobaczyć, czy NIE, żeby ratować niezależność?",
+   "url": "https://www.visir.is/g/20262921859d/ja-til-ad-sja-eda-nei-til-ad-bjarga-sjalfstaedinu-",
+   "source": "visir.is",
+   "author": "Jón Daníelsson",
+   "date": "2026-08-17",
+   "summary": "Zamierza powiedzieć TAK, aby uzyskać umowę jako podstawę decyzji, ale zastrzega sobie prawo do powiedzenia NIE przystąpieniu, jeśli umowa nie ochroni rolników i bezpieczeństwa żywnościowego. Twierdzi, że lęk przed utratą suwerenności zawiera w sobie tezę, iż 27 narodów UE nie jest suwerennych. Magnaci zasobowi działający w warunkach ograniczonej konkurencji oraz sektor rybacki walczą przeciw negocjacjom z obawy, że umowa okaże się zbyt dobra i konkurencja wzrośnie.",
+   "args": [
+    "kikja",
+    "hraedslu"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Zobaczmy, co można zaoferować regionom poza stolicą",
+   "url": "https://www.visir.is/g/20262921887d/sjaum-hvad-landsbyggdunum-bydst",
+   "source": "visir.is",
+   "author": "Sæunn Gísladóttir",
+   "date": "2026-08-16",
+   "summary": "Zastępca posła Samfylkingarinnar z okręgu wyborczego Norðausturkjördæmi wskazuje na analizę Þórodda Bjarnasona, zgodnie z którą łączne środki na politykę regionalną mogłyby wzrosnąć pięciokrotnie do 9–10 mld rocznie dzięki współfinansowaniu ze strony UE. Głosowanie dotyczy wyłącznie ponownego rozpoczęcia negocjacji, a jedynym sposobem, by dowiedzieć się, co można zaoferować rybołówstwu i rolnictwu, jest negocjować i zobaczyć umowę.",
+   "args": [
+    "byggd",
+    "kikja"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Szansa na lepszą infrastrukturę transportową",
+   "url": "https://www.visir.is/g/20262921889d/taekifaeri-til-baettra-samganga",
+   "source": "visir.is",
+   "author": "Arna Lára Jónsdóttir",
+   "date": "2026-08-17",
+   "summary": "Opisuje, w jaki sposób instrument „Łącząc Europę” (CEF) wspiera inwestycje transportowe w ramach sieci TEN-T, w której Islandia jest już ujęta poprzez EOG. Członkostwo mogłoby otworzyć dostęp do finansowania dróg, portów i lotnisk; w negocjacjach należałoby podkreślać specyfikę kraju słabo zaludnionego i o trudnych warunkach życia. Najważniejszą sprawą dla gospodarstw domowych pozostaje jednak obniżenie stóp procentowych i inflacji.",
+   "args": [
+    "byggd",
+    "vextir"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Naród i władza",
+   "url": "https://www.visir.is/g/20262921893d/thjodin-og-valdid",
+   "source": "visir.is",
+   "author": "Guðmundur Ari Sigurjónsson",
+   "date": "2026-08-17",
+   "summary": "Posłanka/poseł mówi, że słusznie jest zaufać narodowi i dać obywatelom oraz organizacjom społecznym przestrzeń do prowadzenia debaty; spotkania i nowe stowarzyszenia w całym kraju pokazują siłę demokracji. Członkostwo otworzyłoby drogę do niższych stóp procentowych dzięki euro oraz miejsca przy stole, ale nikt nie wie, jak wyglądałaby ostatecznie wynegocjowana umowa, dopóki negocjacje się nie zakończą. Strona NIE nie chce skonfrontować własnych twierdzeń z rzeczywistością, pozwalając narodowi zobaczyć umowę.",
+   "args": [
+    "lydraedi",
+    "kikja",
+    "vextir",
+    "ahrif"
+   ],
+   "impact": 4
+  },
+  {
+   "side": "nei",
+   "title": "Kim jest ten człowiek?",
+   "url": "https://www.visir.is/g/20262921901d/hver-er-madurinn-",
+   "source": "visir.is",
+   "author": "Ragnhildur Jónsdóttir",
+   "date": "2026-08-17",
+   "summary": "Krytykuje analogie do nieruchomości i paczek w reklamach „Já til að sjá”: Islandia należy do EOG od 1994 roku i dobrze wie, co oznacza członkostwo w UE, w tym to, że Islandia stałaby się płatnikiem netto. Tego, czego brakuje, to informacje o celach negocjacyjnych i czerwonych liniach samej Islandii w rybołówstwie, rolnictwie i sprawach energetycznych. Niez otwarta paczka to stanowisko negocjacyjne władz, a nie Unia Europejska.",
+   "args": [
+    "spurning",
+    "kostnadur"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Ideologiczny zwrot xD",
+   "url": "https://www.visir.is/g/20262921906d/umsnuningur-hugmyndafraedi-xd",
+   "source": "visir.is",
+   "author": "Gísli Hjálmtýsson",
+   "date": "2026-08-17",
+   "summary": "Chwali występ Kristrúnar Frostadóttur w zagranicznym podcaście i zestawia ją jako przeciwieństwo spotkania założycielskiego Áfram Íslands. Mówi, że Ólaf Ragnar Grímsson wygłaszał tę samą zniechęcającą mowę już wcześniej, między innymi przeciwko umowie EOG, i dziwi się, że stał się ideologicznym przywódcą Sjálfstæðisflokksins.",
+   "args": [
+    "hraedslu"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "„Norwegia prowadzi negocjacje akcesyjne z Unią Europejską”",
+   "url": "https://www.visir.is/g/20262921920d/-noregur-hefur-adildarvidraedur-vid-evropusambandid-",
+   "source": "visir.is",
+   "author": "Gunnar H. Garðarsson",
+   "date": "2026-08-17",
+   "summary": "Autor, mieszkający w Brukseli, kreśli scenariusz, w którym Norwegia wstępuje do UE przed Islandią, i porównuje go do scenariusza z czasów COVID: „co jeśli ludzie przestaną latać do Islandii”, który wydawał się niedorzeczny. Krótkowzroczność może obrócić się przeciwko Islandczykom, jeśli założenia współpracy w ramach EOG zmienią się bez przygotowania.",
+   "args": [
+    "timagluggi"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Teraz ruch należy do narodu – TAK, aby zobaczyć 29 sierpnia",
+   "url": "https://www.visir.is/g/20262922015d/nu-a-thjodin-leik-ja-til-ad-sja-29.-agust",
+   "source": "visir.is",
+   "author": "Árni Rúnar Þorvaldsson",
+   "date": "2026-08-17",
+   "summary": "Podkreśla, że głosowanie dotyczy wyłącznie negocjacji akcesyjnych i że ostateczna umowa zostałaby przedstawiona narodowi w drugim głosowaniu. Odrzuca twierdzenia Ólafs Ragnars Grímssonar, jakoby nie było żadnej gwarancji drugiego głosowania; żadne państwo nie przystąpiło do UE bez referendum, a Norwegowie dwukrotnie odrzucili umowę. Głos TAK to droga do wyłożenia wszystkich faktów na stół.",
+   "args": [
+    "kikja",
+    "lydraedi",
+    "hraedslu"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Wreszcie zjednoczeni!",
+   "url": "https://www.visir.is/g/20262922022d/loksins-sameinud-",
+   "source": "visir.is",
+   "author": "Martha Árnadóttir",
+   "date": "2026-08-17",
+   "summary": "Twierdzi, że obóz NIE jednoczy się wokół wspólnego wroga — Brukseli — a nie wspólnej wizji przyszłości; jedni widzą w UE socjalistyczne imperium regulacyjne, a inni sojusz wolnorynkowy, i obie te wizje nie mogą być jednocześnie prawdziwe. Głosowanie na NIE teraz nie jest odrzuceniem złej umowy, lecz odrzuceniem zdobycia informacji. Władza, która nie znajduje się w Brukseli, nie trafia automatycznie do obywateli, lecz może pozostawać w rękach zamożnych grup w kraju.",
+   "args": [
+    "kikja",
+    "hraedslu"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Na własnej skórze",
+   "url": "https://www.visir.is/g/20262922176d/a-eigin-skinni",
+   "source": "visir.is",
+   "author": "Gauti Kristmannsson",
+   "date": "2026-08-17",
+   "summary": "Opisuje własne doświadczenia z indeksowanymi kredytami studenckimi i hipotecznymi, które podczas kryzysu gwałtownie wzrosły; 17 lat później rodzina nadal płaci setki tysięcy miesięcznie na „lichwiarskich warunkach odsetkowych” korony. Przypomina, że głównym celem UE było utrzymanie pokoju na kontynencie przez 70 lat. Zwolennicy NIE nie chcą nawet pozwolić narodowi zobaczyć, jaka umowa jest oferowana.",
+   "args": [
+    "vextir",
+    "gildi",
+    "kikja"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Wizja przyszłości oparta na sprawiedliwości i stabilności",
+   "url": "https://www.visir.is/g/20262922214d/framtidarsyn-um-rettlaeti-og-stodugleika",
+   "source": "visir.is",
+   "author": "Sandra Sigurðardóttir",
+   "date": "2026-08-17",
+   "summary": "Posłanka/poseł Viðreisnar mówi, że inflacja i wysokie stopy procentowe działają jak niewidzialny podatek, który przenosi kapitał z gospodarstw domowych do właścicieli kapitału; miliarder otrzymuje na Islandii 75–85 milionów odsetek, a w strefie euro 20–30. Pełne uczestnictwo w rynku wewnętrznym zwiększyłoby konkurencję w usługach bankowych i ubezpieczeniowych oraz obniżyło ceny towarów. TAK to krok w stronę zobaczenia, co mogłaby przynieść umowa.",
+   "args": [
+    "vextir",
+    "kjor",
+    "kikja"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Birgir Hermannsson pisze: Framsókn i UE",
+   "url": "https://www.dv.is/eyjan/2026/08/18/birgir-hermannsson-skrifar-framsokn-og-esb",
+   "source": "dv.is",
+   "author": "Birgir Hermannsson",
+   "date": "2026-08-18",
+   "summary": "Politolog przedstawia historię Framsóknarflokkurinn w sprawach europejskich i przypomina, że zjazd partyjny w 2009 roku zdecydowaną większością głosów poparł rozpoczęcie negocjacji akcesyjnych. Halldór Ásgrímsson uważał, że członkostwo nie stanowi zagrożenia dla rybołówstwa i zasobów naturalnych, i wprowadził kwestię członkostwa w UE do głównego nurtu islandzkiej polityki. Obecny sprzeciw partii to historyczna amnezja.",
+   "args": [
+    "serlausnir"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Halldór Jörgen Olesen: Twierdzenia strony NIE nie wytrzymują krytyki – niemal 80% mieszkańców UE jest zadowolonych z członkostwa",
+   "url": "https://www.dv.is/eyjan/2026/08/17/halldor-jorgen-olesen-stadhaefingar-nei-sinna-standast-ekki-naestum-80-ibua-esb",
+   "source": "dv.is",
+   "author": "Halldór Jörgen Olesen",
+   "date": "2026-08-17",
+   "summary": "Redaktor naczelny Verðbólguvaktarinnar mówi w podcaście Eyjunnar, że twierdzenia, jakoby cała władza miała przejść do Brukseli, nie wytrzymują żadnej analizy; państwa członkowskie zachowują swoją suwerenność. Dane strony NIE o bezrobociu w UE są błędne i wprowadzające w błąd, a niemal 80% mieszkańców UE jest zadowolonych z członkostwa swojego kraju. Chce zobaczyć, jaka oferta jest dla nadchodzących pokoleń.",
+   "args": [
+    "hraedslu",
+    "kikja",
+    "taekifaeri"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Hrund Rudolfsdóttir: To śmieszne skupiać się na kosztach negocjacji akcesyjnych – stawka jest o wiele większa",
+   "url": "https://www.dv.is/eyjan/2026/08/17/hrund-rudolfsdottir-hlaegilegt-ad-horfa-i-kostnad-vid-adildarvidraedur",
+   "source": "dv.is",
+   "author": "Hrund Rudolfsdóttir",
+   "date": "2026-08-17",
+   "summary": "Przedsiębiorczyni mówi w podcaście Eyjunnar, że Islandia zawsze znajduje się pomiędzy mocarstwami uwikłanymi w konflikty, a agresywne działania Trumpa wobec Grenlandii powinny być ostrzeżeniem. Wojny celne i całkowicie zmieniona geopolityka wymagają ponownego przemyślenia pozycji Islandii poza uniami celnymi. Skupianie się na kosztach negocjacji akcesyjnych jest śmieszne w porównaniu z wagą interesów, o które chodzi.",
+   "args": [
+    "oryggi",
+    "kikja"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Kristrún twierdzi, że głosowanie nie podzieli narodu",
+   "url": "https://www.dv.is/eyjan/2026/08/16/kristrun-segir-thjodina-ekki-klofna-ut-af-atkvaedagreidslunni-tilfinningahiti",
+   "source": "dv.is",
+   "author": null,
+   "date": "2026-08-16",
+   "summary": "Premier Kristrún Frostadóttir powiedziała podczas Hólahátíð, że naród podchodzi do głosowania z odpowiedzialnością i rozwagą, ale niektórzy liderzy i komentatorzy próbują podsycać podziały. Mieszkańcy kraju są w pełni zdolni do podjęcia własnej decyzji, nie dając się wprowadzić w błąd. Zapewnia, że uszanuje wynik, niezależnie od tego, jaki będzie.",
+   "args": [
+    "lydraedi"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Davíð Þór Björgvinsson pisze: UE a długi państw członkowskich",
+   "url": "https://www.dv.is/eyjan/2026/08/14/david-thor-bjorgvinsson-skrifar-esb-og-skuldir-adildarrikja",
+   "source": "dv.is",
+   "author": "Davíð Þór Björgvinsson",
+   "date": "2026-08-14",
+   "summary": "Były sędzia omawia zasadę „no-bailout” z art. 125 Traktatu o funkcjonowaniu Unii Europejskiej: ani Unia, ani państwa członkowskie nie ponoszą odpowiedzialności za zobowiązania poszczególnych państw. Twierdzenia, że Islandia przejęłaby długi innych państw lub ich funduszy emerytalnych, są więc nieprawdziwe, por. wyrok Trybunału Sprawiedliwości Unii Europejskiej w sprawie Pringle z 2012 roku.",
+   "args": [
+    "hraedslu"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Twierdzi, że sprzeciw firm rybackich wobec UE dotyczy czegoś zupełnie innego niż kontrola Islandczyków nad zasobami morskimi",
+   "url": "https://www.dv.is/eyjan/2026/08/14/segir-andstodu-utgerdarinnar-vid-esb-snuast-um-allt-annad-en-yfirrad-islendinga",
+   "source": "dv.is",
+   "author": "Óskar Steinn Ómarsson",
+   "date": "2026-08-14",
+   "summary": "Óskar Steinn Ómarsson, zastępca radnego miejskiego z Samfylkingarinnar, twierdzi, że sprzeciw firm rybackich wynika z ich interesów finansowych związanych z transfer pricingiem produktów rybnych, a nie z kontroli nad zasobem. Odwołuje się do Samherjaskjölin i mówi, że w ramach UE taki transfer zysków byłby niemożliwy.",
+   "args": [
+    "hraedslu"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Carl Bildt: Jest pole do kompromisów w rybołówstwie i rolnictwie – negocjacje akcesyjne przebiegałyby szybko",
+   "url": "https://www.dv.is/eyjan/2026/08/10/carl-bildt-svigrum-til-malamidlana-i-sjavarutvegi-og-landbunadi-adildarvidraedur",
+   "source": "dv.is",
+   "author": null,
+   "date": "2026-08-10",
+   "summary": "Carl Bildt, były premier i minister spraw zagranicznych Szwecji, który przyjął wniosek akcesyjny Islandii w 2009 roku, uważa, że negocjacje trwałyby mniej niż dwa lata i że istnieje pole do kompromisów w sprawach rybołówstwa i rolnictwa. Pełne członkostwo w rzeczywistości wzmocniłoby suwerenność Islandii, ponieważ kraj uzyskałby wpływ na decyzje, które już teraz wdraża za pośrednictwem EOG.",
+   "args": [
+    "serlausnir",
+    "ahrif"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Jóhann Páll Jóhannsson: Pozostawanie poza UE i prowadzenie działań na rzecz własnych interesów kosztuje bardzo dużo",
+   "url": "https://www.dv.is/eyjan/2026/08/11/johann-pall-johannsson-thad-kostar-mikla-fjarmuni-ad-standa-utan-esb-og-stunda",
+   "source": "dv.is",
+   "author": null,
+   "date": "2026-08-11",
+   "summary": "Minister środowiska, energii i klimatu mówi w podcaście Eyjunnar, że Islandia wynegocjowała trzyletnie przedłużenie zwolnienia z opłat ETS dla lotnictwa i że w negocjacjach akcesyjnych dążono by do trwałego zwolnienia. Pozostawanie poza UE i prowadzenie działań na rzecz własnych interesów wobec regulacji, które Islandia i tak wdraża, kosztuje bardzo dużo.",
+   "args": [
+    "ahrif"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Jóhann Páll Jóhannsson: Musimy zakończyć negocjacje, aby móc ocenić sytuację",
+   "url": "https://www.dv.is/eyjan/2026/08/09/johann-pall-johannsson-verdum-ad-ljuka-vidraedum-til-ad-geta-metid-stoduna",
+   "source": "dv.is",
+   "author": null,
+   "date": "2026-08-09",
+   "summary": "Minister mówi, że teraz jest właściwy moment, w świetle całkowicie zmienionej sytuacji międzynarodowej, aby zakończyć negocjacje akcesyjne i móc ocenić sytuację. Cena suwerenności stała się wyższa niż wcześniej, ponieważ nie można już ufać, że mocarstwa będą przestrzegać prawa międzynarodowego; to było powodem przyspieszenia głosowania.",
+   "args": [
+    "kikja",
+    "timagluggi",
+    "oryggi"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Gauti B. Eggertsson: Suwerenność chroni się w gronie silnych państw o wspólnych wartościach",
+   "url": "https://www.dv.is/eyjan/2026/08/08/gauti-b-eggertsson-thu-verndar-fullveldid-i-hopi-sterkra-rikja-med-sameiginleg",
+   "source": "dv.is",
+   "author": null,
+   "date": "2026-08-08",
+   "summary": "Profesor ekonomii na Brown, Gauti B. Eggertsson, mówi, że środowisko wolnego handlu załamało się wskutek wojny celnej Trumpa, a umowa obronna z 1951 roku nie ma żadnej wartości, jeśli NATO się rozpadnie. Islandia najlepiej chroni swoją suwerenność w gronie państw, które szanują suwerenność innych, a członkostwo w unii celnej UE leży w jej istotnym interesie.",
+   "args": [
+    "oryggi",
+    "gildi",
+    "ahrif"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Sigmundur Ernir pisze: Suwerenność rośnie wraz z członkostwem",
+   "url": "https://www.dv.is/eyjan/2026/08/07/sigmundur-ernir-skrifar-fullveldid-eykst-vid-adild",
+   "source": "dv.is",
+   "author": "Sigmundur Ernir Rúnarsson",
+   "date": "2026-08-07",
+   "summary": "Felietonista wskazuje na sprzeczność w tym, by chcieć pozostawać w ramach regulacji UE poprzez EOG, a jednocześnie walczyć przeciw członkostwu. Przy EOG bez UE Islandczycy żyją w warunkach „kserodemokracji” i przyjmują regulacje od innych bez prawa głosu; dlatego suwerenność wzrosłaby wraz z członkostwem.",
+   "args": [
+    "ahrif",
+    "hraedslu"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Sigvaldi Einarsson pisze: Stany Zjednoczone sprzedały euro, by ratować jena – czy euro stało się nową bezpieczną przystanią świata?",
+   "url": "https://www.dv.is/eyjan/2026/08/07/sigvaldi-einarsson-skrifar-bandarikin-seldu-evrur-til-ad-bjarga-jeninu-er-evran",
+   "source": "dv.is",
+   "author": "Sigvaldi Einarsson",
+   "date": "2026-08-07",
+   "summary": "Autor opisuje, że w lipcu 2026 roku Stany Zjednoczone sprzedały euro ze swoich rezerw walutowych, aby wesprzeć japońskiego jena, i uważa, że pokazuje to, iż euro stało się rzeczywistą bezpieczną przystanią w światowym systemie finansowym. Wzmacnia to argumenty za euro jako przyszłą walutą Islandii.",
+   "args": [
+    "vextir"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Davíð Þór Björgvinsson pisze: UE a zasoby naturalne",
+   "url": "https://www.dv.is/eyjan/2026/08/05/david-thor-bjorgvinsson-skrifar-esb-og-natturuaudlindir",
+   "source": "dv.is",
+   "author": "Davíð Þór Björgvinsson",
+   "date": "2026-08-05",
+   "summary": "Autor wyjaśnia, że państwa członkowskie UE same sprawują kontrolę nad swoimi zasobami naturalnymi i systemem własności, por. art. 345 Traktatu o funkcjonowaniu Unii Europejskiej oraz zasadę prawa międzynarodowego dotyczącą trwałej suwerenności państw nad zasobami. Islandia już teraz uczestniczy w rynku wewnętrznym poprzez EOG, dlatego zasady eksploatacji zmieniłyby się przy członkostwie tylko nieznacznie.",
+   "args": [
+    "hraedslu"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Sveinn Atli Gunnarsson pisze: Sprzedawcy eurosceptycyzmu",
+   "url": "https://www.dv.is/adsendar-greinar/2026/07/31/sveinn-atli-gunnarsson-skrifar-solumenn-esb-efans",
+   "source": "dv.is",
+   "author": "Sveinn Atli Gunnarsson",
+   "date": "2026-07-31",
+   "summary": "Autor porównuje argumentację przeciwników negocjacji do metod przemysłu tytoniowego i naftowego: sprzedawania wątpliwości zamiast faktów. Zwolennicy NIE nie muszą bronić obecnego systemu z 10% oprocentowaniem kredytów mieszkaniowych, indeksacją i mikrowalutą w gorączce – wystarczy, że sieją niepewność przed głosowaniem.",
+   "args": [
+    "hraedslu",
+    "vextir"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Davíð Þór Björgvinsson pisze: UE, władza ustawodawcza, wykonawcza i sądownicza",
+   "url": "https://www.dv.is/eyjan/2026/07/28/david-thor-bjorgvinsson-skrifar-esb-loggjafarvald-framkvaemdarvald-og-domsvald",
+   "source": "dv.is",
+   "author": "Davíð Þór Björgvinsson",
+   "date": "2026-07-28",
+   "summary": "Autor wyjaśnia, że UE dysponuje wyłącznie tymi kompetencjami, które przyznają jej państwa członkowskie, a państwa zachowują pełnię władzy ustawodawczej, wykonawczej i sądowniczej w innych obszarach. Po przystąpieniu zniknąłby dualny tryb wdrażania aktów EOG, a Alþingi zostałby zwolniony z obowiązku zatwierdzania rozporządzeń, których i tak nie może zmienić. Członkostwo wymagałoby zmiany konstytucji, ale nie oznaczałoby zrzeczenia się suwerenności.",
+   "args": [
+    "ahrif",
+    "hraedslu"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Mówi, że Unia Europejska musi się zmienić, i wyjaśnia, co pomogło Davíðowi tak długo utrzymać się u władzy",
+   "url": "https://www.dv.is/eyjan/2026/07/27/segir-evropusambandid-verda-ad-breytast-og-utskyrir-hvad-hjalpadi-david-ad-vera",
+   "source": "dv.is",
+   "author": null,
+   "date": "2026-07-27",
+   "summary": "W wywiadzie dla The Rest is Politics premier Kristrún Frostadóttir powiedziała, że w obecnych warunkach światowych przystąpienie Islandii do UE byłoby korzystne, dlatego nadszedł czas, by ponownie podjąć negocjacje. Głosowanie przyspieszono z powodu mniej stabilnej sytuacji międzynarodowej oraz zakusów Trumpa na Grenlandię. TAK pod koniec sierpnia nie oznacza jednak tego samego co tak dla przystąpienia.",
+   "args": [
+    "oryggi",
+    "kikja",
+    "timagluggi"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Svarthöfði pisze: Suwerenność niewiele tu znaczyła",
+   "url": "https://www.dv.is/eyjan/2026/07/27/svarthofdi-skrifar-thar-fullveldid-fyrir-litid",
+   "source": "dv.is",
+   "author": null,
+   "date": "2026-07-27",
+   "summary": "Svarthöfði wskazuje na sprzeczność po stronie Miðflokkurinn: partia twierdzi, że broni suwerenności przed UE, a jednocześnie krytykuje rząd za to, że nie przedłożył wniosku akcesyjnego władzom amerykańskim. Kampania na NIE nie dotyczy więc suwerenności, lecz podtrzymywania roli Islandii jako kolonii pomocniczej Stanów Zjednoczonych.",
+   "args": [
+    "hraedslu"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Sveinn Andri Sveinsson: Zadowolenie społeczeństwa jedyną miarą członkostwa – mieszkańcy UE są bardzo zadowoleni",
+   "url": "https://www.dv.is/eyjan/2026/07/23/sveinn-andri-sveinsson-anaegja-almennings-eini-maelikvardinn-a-adild-folkid-i-esb",
+   "source": "dv.is",
+   "author": null,
+   "date": "2026-07-23",
+   "summary": "Adwokat występujący przed Sądem Najwyższym mówi w podcaście Eyjunnar, że zadowolenie mieszkańców jest jedyną miarą tego, czy członkostwo się sprawdza, a miejscami przekracza ono 90%. Najuczciwiej byłoby po prostu położyć gotową umowę na stole i pozwolić narodowi ją odrzucić albo przyjąć; Norwegia dwukrotnie odrzuciła traktat akcesyjny, nie wchodząc do UE. Wyborcy nie pozwalają elitom mówić sobie, co mają robić.",
+   "args": [
+    "kikja",
+    "lydraedi"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Þórdís Kolbrún: Oczywiście członkostwo w UE musi być opcją dla Islandii",
+   "url": "https://www.dv.is/eyjan/2026/07/22/thordis-kolbrun-ad-sjalfsogdu-hlytur-adild-ad-esb-ad-vera-valkostur-fyrir-island",
+   "source": "dv.is",
+   "author": null,
+   "date": "2026-07-22",
+   "summary": "Þórdís Kolbrún Reykfjörð Gylfadóttir, wiceprzewodnicząca Sjálfstæðisflokksins i była minister spraw zagranicznych, powiedziała w przemówieniu okolicznościowym na Skálholtshátíð, że Islandczycy nie mogą udawać, iż są zbyt wyjątkowi, by rozważać, czy członkostwo w UE jest opcją – bo oczywiście nią jest. System międzynarodowy, który powstał po II wojnie światowej, stoi dziś na bardziej chwiejnych podstawach niż kiedykolwiek, a Islandczycy muszą zareagować na całkowicie zmienioną sytuację.",
+   "args": [
+    "oryggi",
+    "kikja"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Krytykuje ingerencję Ólafs Ragnara w referendum – „Były prezydent dzieli naród”",
+   "url": "https://www.dv.is/eyjan/2026/07/21/gagnrynir-afskipti-olafs-ragnars-af-thjodaratkvaedagreidslunni-fyrrverandi-forseti",
+   "source": "dv.is",
+   "author": null,
+   "date": "2026-07-21",
+   "summary": "Pisarz Guðjón Jensson krytykuje Ólafur Ragnar Grímsson za dzielenie narodu w interesie grupy zamożnych przeciwników negocjacji. Żaden naród nie musiał utracić swojej suwerenności we współpracy z UE, a Unia przewyższa Islandię w dziedzinie praw człowieka, ochrony konsumentów, praw socjalnych i ochrony środowiska. Zachęca do oddania głosu na TAK 29 sierpnia.",
+   "args": [
+    "gildi",
+    "hraedslu"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Davíð Þór Björgvinsson pisze: UE i pracownicy najemni",
+   "url": "https://www.dv.is/eyjan/2026/07/19/david-thor-bjorgvinsson-skrifar-esb-og-launthegar",
+   "source": "dv.is",
+   "author": "Davíð Þór Björgvinsson",
+   "date": "2026-07-19",
+   "summary": "Autor odrzuca tezę, że członkostwo osłabi pozycję pracowników najemnych, i przedstawia system ochrony praw w UE: bezpieczeństwo i higiena pracy, czas pracy, równość, układy zbiorowe i prawo do strajku, które są chronione w Karcie praw podstawowych Unii. EOG już zapewnił islandzkim pracownikom znaczną część tej ochrony, a państwa mogą wykraczać poza minimalne wymogi UE.",
+   "args": [
+    "kjor",
+    "hraedslu"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Pawel mówi, że Islandczycy mogliby przyjąć euro za pięć lat",
+   "url": "https://www.dv.is/eyjan/2026/07/14/pawel-segir-ad-islendingar-gaetu-tekid-upp-evru-eftir-fimm-ar",
+   "source": "dv.is",
+   "author": null,
+   "date": "2026-07-14",
+   "summary": "Pawel Bartoszek, poseł Viðreisn, mówi, że Islandczycy mogliby przyjąć euro najwcześniej za pięć lat, i pyta, czy słuszne jest odrzucanie trwałego rozwiązania problemu wysokich odsetek obciążających gospodarstwa domowe tylko dlatego, że nie jest ono rozwiązaniem natychmiastowym. Wskazuje na Chorwację, gdzie stopy procentowe banku centralnego szybko spadły w procesie akcesyjnym i wynoszą obecnie 2-3% wobec ponad 7% na Islandii.",
+   "args": [
+    "vextir",
+    "taekifaeri"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Davíð Þór Björgvinsson pisze: Ograniczona ponadnarodowa władza UE w służbie rynku wewnętrznego",
+   "url": "https://www.dv.is/eyjan/2026/07/10/david-thor-bjorgvinsson-skrifar-afmarkad-yfirthjodlegt-vald-esb-i-thagu-innri",
+   "source": "dv.is",
+   "author": "Davíð Þór Björgvinsson",
+   "date": "2026-07-10",
+   "summary": "Autor odpowiada na przemówienia wygłoszone na spotkaniu założycielskim Áfram Íslands i twierdzi, że opierają się one na błędnym przekonaniu, iż kompetencje państw członkowskich są dzielone z UE w znacznie większym stopniu, niż ma to miejsce w rzeczywistości. Unia wykonuje tylko te kompetencje, które zostały jej przyznane, a jedynie około 10% Szwedów chce wyjścia z UE.",
+   "args": [
+    "hraedslu"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Þorgerður Katrín Gunnarsdóttir: Unia Europejska szczególnie wspiera obszary słabo zaludnione – zwłaszcza obszary wrażliwe",
+   "url": "https://www.dv.is/eyjan/2026/07/06/thorgerdur-katrin-gunnarsdottir-evropusambandid-stydur-serstaklega-vid-dreifdar",
+   "source": "dv.is",
+   "author": null,
+   "date": "2026-07-06",
+   "summary": "Minister spraw zagranicznych mówi w podcaście Eyjunnar, że UE jest ważnym źródłem wsparcia dla obszarów słabo zaludnionych i wrażliwych, a członkostwo mogłoby wesprzeć rozwój infrastruktury na Islandii, np. dróg krajowych poza stolicą. Członkostwo otworzyłoby również duże rynki dla islandzkich produktów rolnych, a ona chce państwa dobrobytu w europejskim stylu.",
+   "args": [
+    "byggd",
+    "kjor",
+    "gildi"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Þorgerður Katrín Gunnarsdóttir: Członkostwo w UE może wzmocnić pozycję islandzkich rolników i zwiększyć napływ nowych osób do sektora",
+   "url": "https://www.dv.is/eyjan/2026/07/03/thorgerdur-katrin-gunnarsdottir-adild-ad-esb-getur-styrkt-stodu-islenskra-baenda",
+   "source": "dv.is",
+   "author": null,
+   "date": "2026-07-03",
+   "summary": "Minister spraw zagranicznych mówi w podcaście Eyjunnar, że Islandia uzyska mocny rezultat w negocjacjach akcesyjnych dotyczących rybołówstwa i rolnictwa. Obniżenie kosztów finansowania dzięki powiązaniu z euro jest ważną kwestią dla rolników, którzy już zainwestowali lub chcą wejść do sektora, i należy stanowczo domagać się dalszego ukierunkowanego wsparcia dla islandzkiego rolnictwa.",
+   "args": [
+    "serlausnir",
+    "vextir",
+    "byggd"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Þorgerður Katrín Gunnarsdóttir: Jedność i wsparcie Unii Europejskiej były siłą Duńczyków i Grenlandczyków",
+   "url": "https://www.dv.is/eyjan/2026/07/03/thorgerdur-katrin-gunnarsdottir-samstada-og-studningur-evropusambandsins-var",
+   "source": "dv.is",
+   "author": null,
+   "date": "2026-07-03",
+   "summary": "Minister spraw zagranicznych mówi, że gdy Stany Zjednoczone chciały przejąć Grenlandię, pełne wsparcie UE było siłą Duńczyków i Grenlandczyków; Europa stoi na straży demokracji, nienaruszalności granic i prawa narodów do samostanowienia. Wniosek o członkostwo jest rzeczywistym procesem negocjacyjnym, a naród musi powiedzieć TAK, by zobaczyć i dowiedzieć się więcej, zanim zapadnie ostateczna decyzja.",
+   "args": [
+    "oryggi",
+    "gildi",
+    "kikja"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Były negocjator Norwegii z UE: Jest jasne, że Islandia otrzyma trwałe odstępstwa od wspólnej polityki rybołówstwa UE",
+   "url": "https://www.dv.is/eyjan/2026/07/02/fyrrum-samningamadur-noregs-vid-esb-thad-liggur-fyrir-ad-island-mun-fa-varanlegar",
+   "source": "dv.is",
+   "author": null,
+   "date": "2026-07-02",
+   "summary": "Torben Foss, były dyrektor departamentu w norweskim ministerstwie rybołówstwa i doradca Islandii w negocjacjach do 2013 roku, mówi, że negocjatorzy UE posunęli się daleko w potwierdzeniu, iż całkowity połów z islandzkich stad będzie ustalany w Reykjavíku, ponieważ islandzki szelf kontynentalny stanowi wyraźnie wyodrębniony ekosystem; Wyspy Kanaryjskie i Madera otrzymały podobne rozwiązanie. Uważa on również, że względy militarne powinny mocno skłaniać pozbawioną obrony Islandię do przystąpienia.",
+   "args": [
+    "serlausnir",
+    "oryggi"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Davíð Þór Björgvinsson pisze: UE a rozproszone osadnictwo Islandii",
+   "url": "https://www.dv.is/eyjan/2026/06/30/david-thor-bjorgvinsson-skrifar-esb-og-hinar-dreifdu-byggdir-islands",
+   "source": "dv.is",
+   "author": "Davíð Þór Björgvinsson",
+   "date": "2026-06-30",
+   "summary": "Autor omawia politykę spójności i rozwoju regionalnego UE (art. 174–178 traktatu), która poświęca szczególną uwagę obszarom wiejskim i wyspom, wraz z funduszem rozwoju regionalnego, funduszem społecznym i instrumentem „Łącząc Europę”. Członkostwo mogłoby zapewnić regionom Islandii finansowanie infrastruktury transportowej, np. poprzez włączenie lotniska w Keflavíku i portów do sieci TEN-T.",
+   "args": [
+    "byggd"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Major uważa, że Brytyjczycy mogą wrócić do Unii Europejskiej: „To zaszkodziło narodowi”",
+   "url": "https://www.dv.is/eyjan/2026/06/30/major-telur-breta-eiga-afturkvaemt-i-evropusambandid-thetta-hefur-skadad-thjodina",
+   "source": "dv.is",
+   "author": null,
+   "date": "2026-06-30",
+   "summary": "John Major, były premier Wielkiej Brytanii, mówi, że Brexit kosztuje brytyjską gospodarkę 100 miliardów funtów rocznie, a obietnica odzyskania władzy z Brukseli była pustym sloganem. Korea Północna jest jedynym państwem w pełni suwerennym pod każdym względem; inne narody dzielą suwerenność w ramach współpracy międzynarodowej.",
+   "args": [
+    "ahrif",
+    "hraedslu"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Sigmundur Ernir pisze: Zadowolenie narodów UE z członkostwa szybko wzrosło",
+   "url": "https://www.dv.is/eyjan/2026/06/19/sigmundur-ernir-skrifar-anaegja-esb-thjoda-med-adild-hefur-vaxid-hratt",
+   "source": "dv.is",
+   "author": "Sigmundur Ernir Rúnarsson",
+   "date": "2026-06-19",
+   "summary": "Publicysta zwraca uwagę, że zadowolenie z członkostwa w UE przekracza 50% w 24 z 27 państw członkowskich, wynosi 76-85% w krajach nordyckich, a najwyższe jest w Irlandii — 86%. Narody te mogły zapoznać się z umową i zagłosować nad nią; nikt nie utracił zasobów, suwerenności ani kultury, ponieważ to państwa członkowskie kierują UE, a nie odwrotnie.",
+   "args": [
+    "kikja",
+    "hraedslu"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Davíð Þór Björgvinsson pisze: UE, język islandzki i kultura",
+   "url": "https://www.dv.is/eyjan/2026/06/19/david-thor-bjorgvinsson-skrifar-esb-islensk-tunga-og-menning-0",
+   "source": "dv.is",
+   "author": "Davíð Þór Björgvinsson",
+   "date": "2026-06-19",
+   "summary": "Autor koryguje błędne przekonanie, że UE dąży do ujednolicenia kultury; art. 167 traktatu stanowi o poszanowaniu różnorodności narodowej. Islandzkie podmioty otrzymały od 2014 roku około 3-4 miliardów koron dotacji z Creative Europe, a pełne członkostwo mogłoby jeszcze bardziej wzmocnić język islandzki i kulturę.",
+   "args": [
+    "gildi",
+    "hraedslu"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Þorsteinn Pálsson pisze: Czy Islandia powinna należeć do unii celnej w czasie wojny celnej?",
+   "url": "https://www.dv.is/eyjan/2026/06/18/thorsteinn-palsson-skrifar-island-heima-tollabandalagi-tollastridi",
+   "source": "dv.is",
+   "author": "Þorsteinn Pálsson",
+   "date": "2026-06-18",
+   "summary": "Były premier mówi, że wojna celna prowadzona przez Stany Zjednoczone wywróciła do góry nogami bezpieczeństwo w światowym handlu i że mały naród musi ocenić, czy jego miejsce jest w unii celnej UE. Chwali niezależny raport Evrópustraumar o wpływie członkostwa na konkurencyjność przedsiębiorstw i krytykuje SA oraz SI za milczenie wobec zmienionej rzeczywistości, w przeciwieństwie do ich norweskich organizacji siostrzanych.",
+   "args": [
+    "tollfrelsi",
+    "kikja"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Słowo z ulicy: Þorsteinn Már zamierza zapłacić 25 milionów koron za call center w sierpniu",
+   "url": "https://www.dv.is/eyjan/2026/06/09/ordid-a-gotunni-thorsteinn-mar-aetlar-ad-borga-25-milljonir-krona-fyrir",
+   "source": "dv.is",
+   "author": null,
+   "date": "2026-06-09",
+   "summary": "Autor rubryki twierdzi, że Þorsteinn Már Baldvinsson, założyciel Samherja, zamierza zapłacić 25 milionów koron z własnej kieszeni za call center prowadzące propagandę przeciwko TAK. Wielkie firmy, które finansują się przy stopach procentowych euro lub dolara, chcą utrzymać swoją przewagę konkurencyjną, podczas gdy ogół społeczeństwa i mniejsze firmy płacą islandzkie lichwiarskie odsetki z powodu korony. Głosowanie ma dotyczyć interesów partykularnych kontra interes publiczny.",
+   "args": [
+    "vextir",
+    "hraedslu",
+    "lydraedi"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Davíð Þór Björgvinsson pisze: UE jest demokratyczna",
+   "url": "https://www.dv.is/eyjan/2026/06/05/david-thor-bjorgvinsson-skrifar-esb-er-lydraedislegt",
+   "source": "dv.is",
+   "author": "Davíð Þór Björgvinsson",
+   "date": "2026-06-05",
+   "summary": "Autor odpowiada na zarzuty o deficyt demokracji w UE i wyjaśnia, że kompetencje władcze Unii opierają się na demokratycznym mandacie państw członkowskich, Parlament Europejski jest wybierany bezpośrednio przez obywateli, a Rada UE czerpie mandat od parlamentów narodowych. UE spełnia wszystkie podstawowe warunki demokratycznego ustroju, choć jest instytucją wielonarodową, a nie państwem.",
+   "args": [
+    "hraedslu"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Hilmar Þór pisze: Unia Europejska, Grecja i przykłady z praktyki",
+   "url": "https://www.dv.is/eyjan/2026/06/01/hilmar-thor-skrifar-evropusambandid-grikkland-og-raundaemi",
+   "source": "dv.is",
+   "author": "Hilmar Þór",
+   "date": "2026-06-01",
+   "summary": "Autor odpowiada Þorsteinnowi Pálssonowi, przytaczając dane z bazy AGS: Grecja nigdy nie spełniała unijnego kryterium zadłużenia na poziomie 60%, podczas gdy Islandia je spełnia, a w przeciwieństwie do Greków Islandczycy poradzili sobie z problemem zadłużenia bez członkostwa w UE i bez euro. Reguły fiskalne UE są w praktyce kompletnie ignorowane, o czym świadczy sytuacja zadłużenia Francji i Włoch.",
+   "args": [
+    "evra",
+    "efnahagur"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Halldór Jörgen Olesen pisze: W UE nie ma poboru — i nie ma żadnej drogi prawnej, by narzucić go Islandczykom",
+   "url": "https://www.dv.is/eyjan/2026/05/28/halldor-jorgen-olesen-skrifar-engin-herskylda-esb-og-engin-lagaleid-til-ad-setja-hana-islendinga",
+   "source": "dv.is",
+   "author": "Halldór Jörgen Olesen",
+   "date": "2026-05-28",
+   "summary": "Autor odpowiada posłowi Miðflokksins: w UE nie ma poboru, w traktatach nie ma podstawy prawnej do narzucenia go państwom członkowskim, a bezpieczeństwo narodowe pozostaje wyłączną odpowiedzialnością każdego państwa. Tylko dziewięć z 27 państw UE ma pobór i każde państwo decyduje o tym samodzielnie; Niemcy zniosły go w 2011 roku jako pełnoprawne państwo UE.",
+   "args": [
+    "hraedslu"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Davíð Þór Björgvinsson pisze: Współpraca Stanów Zjednoczonych i państw UE w sprawach bezpieczeństwa i obrony",
+   "url": "https://www.dv.is/eyjan/2026/05/28/david-thor-bjorgvinsson-skrifar-samstarf-bandarikjanna-og-esb-rikja-oryggis-og-varnarmalum",
+   "source": "dv.is",
+   "author": "Davíð Þór Björgvinsson",
+   "date": "2026-05-28",
+   "summary": "Autor odrzuca tezę, że członkostwo w UE zaszkodziłoby powiązaniom obronnym Islandii ze Stanami Zjednoczonymi: 23 z 27 państw UE należy do NATO, traktat UE stanowi, że polityka Unii ma respektować zobowiązania NATO, a Stany Zjednoczone mają dwustronne umowy obronne z poszczególnymi państwami UE, takimi jak Hiszpania, Grecja i Polska.",
+   "args": [
+    "oryggi",
+    "hraedslu"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Þorsteinn Pálsson miażdży straszenie Ólafs Ragnars Grímssonar dotyczące Islandii i UE",
+   "url": "https://www.dv.is/eyjan/2026/05/21/thorsteinn-palsson-taetir-sig-hraedsluarodur-olafs-ragnars-grimssonar-um-island-og-esb",
+   "source": "dv.is",
+   "author": null,
+   "date": "2026-05-21",
+   "summary": "Þorsteinn Pálsson punkt po punkcie obala siedem „przykładów z praktyki” Ólafs Ragnars Grímssonar: Irlandia, która leży bliżej Reykjavíku niż Oslo i Londynu, jest w UE, ma euro i najwyższy wzrost gospodarczy spośród państw sąsiednich; waluty Grenlandii i Wysp Owczych są na stałe powiązane z euro poprzez koronę duńską. Rozpatrywane jako całość, te przykłady z praktyki stanowią mocne uzasadnienie pełnego członkostwa.",
+   "args": [
+    "hraedslu",
+    "vextir"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Davíð Þór Björgvinsson pisze: Ochrona praw człowieka w UE",
+   "url": "https://www.dv.is/eyjan/2026/05/19/david-thor-bjorgvinsson-skrifar-vernd-mannrettinda-vettvangi-esb",
+   "source": "dv.is",
+   "author": "Davíð Þór Björgvinsson",
+   "date": "2026-05-19",
+   "summary": "Autor przedstawia rozwój ochrony praw człowieka w UE: od traktatu lizbońskiego z 2009 roku Karta praw podstawowych Unii ma taki sam status jak traktaty założycielskie i wiąże instytucje oraz państwa członkowskie przy wykonywaniu prawa UE. Jednostki mogą się na nią powoływać przed sądami państw członkowskich.",
+   "args": [
+    "gildi"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Kristrún Frostadóttir: Unia Europejska ustępuje bardziej niż my – rybołówstwo nie jest w Unii wielkim problemem",
+   "url": "https://www.dv.is/eyjan/2026/05/19/kristrun-frostadottir-evropusambandid-gefur-meira-eftir-en-vid-fiskveidar-ekki-risamal-sambandinu",
+   "source": "dv.is",
+   "author": null,
+   "date": "2026-05-19",
+   "summary": "Premier mówi w podcaście Eyjunnar, że UE jest elastyczną współpracą polityczną, która wielokrotnie zmieniała zasady i warunki przystąpienia; zarządzanie rybołówstwem nie jest w Unii wielkim problemem, a więc istnieje pole manewru dla Islandii w kwestiach zasobów naturalnych. Negocjacje akcesyjne nie zmienią niczego w relacjach Islandii ze Stanami Zjednoczonymi.",
+   "args": [
+    "serlausnir",
+    "hraedslu"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Kristrún Frostadóttir: Jesteśmy w ciągłym dostosowywaniu do przepisów UE poprzez EOG",
+   "url": "https://www.dv.is/eyjan/2026/05/18/kristrun-frostadottir-erum-stodugri-adlogun-ad-regluverki-esb-gegnum-ees",
+   "source": "dv.is",
+   "author": null,
+   "date": "2026-05-18",
+   "summary": "Premier mówi, że odrzucenie w referendum byłoby brzemienne w skutki, ponieważ upłynęłoby dużo czasu, zanim decyzja zostałaby ponownie rozpatrzona. To całkowita nieprawda, że cele negocjacyjne Islandii są nieokreślone; są one przedstawione w uzasadnieniu projektu uchwały parlamentarnej i w opinii komisji spraw zagranicznych. Islandia już teraz stale dostosowuje się do przepisów UE poprzez porozumienie EOG.",
+   "args": [
+    "hraedslu",
+    "timagluggi"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Profesor uniwersytecki o członkostwie Islandii w UE: „Nie jest merytoryczne obiecywanie niższych stóp procentowych, większych inwestycji i wyższego poziomu życia bez pokazania założeń“",
+   "url": "https://www.dv.is/eyjan/2026/05/03/haskolaprofessor-um-adild-islands-ad-esb-ekki-malefnalegt-ad-lofa-laegri-voxtum-meiri-fjarfestingu-og-haerri-lifskjorum-thess-ad-syna-forsendurnar",
+   "source": "dv.is",
+   "author": null,
+   "date": "2026-05-03",
+   "summary": "Profesor historii Sigurður Gylfi Magnússon krytykuje wyliczenia kosztów w wysokości 118 miliardów autorstwa Haraldar Ólafssonar, przewodniczącego Heimssýn, za pomijanie korzyści z członkostwa – trzeba liczyć zarówno stronę debetową, jak i kredytową. Wzywa obie strony do pokazania założeń swoich liczb i sam omawia korzyści gospodarcze związane z przyjęciem euro.",
+   "args": [
+    "hraedslu"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Profesor uniwersytecki: Przeciwnicy członkostwa czepiają się zupełnych drobiazgów – zabijają merytoryczną debatę w zarodku",
+   "url": "https://www.dv.is/eyjan/2026/04/30/haskolaprofessor-andstaedingar-adildar-hengja-sig-algjor-smaatridi-drepa-innihaldsrikri-umraedu-dreif",
+   "source": "dv.is",
+   "author": null,
+   "date": "2026-04-30",
+   "summary": "Profesor historii Sigurður Gylfi Magnússon mówi, że przeciwnicy członkostwa czepiają się drobiazgów, m.in. zaciekle atakują brzmienie pytania, które jego zdaniem trudno byłoby sformułować inaczej, i krytykuje oświadczenie krajowej komisji wyborczej jako ingerencję polityczną. Sam nie podjął jeszcze decyzji w sprawie członkostwa, ale zamierza powiedzieć TAK dla kontynuowania negocjacji.",
+   "args": [
+    "lydraedi",
+    "hraedslu"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Halla Hrund Logadóttir: Członkostwo w Unii Europejskiej zwiększa szanse na obniżki stóp procentowych",
+   "url": "https://www.dv.is/eyjan/2026/04/29/halla-hrund-logadottir-evropusambandsadild-eykur-likur-vaxtalaekkunum",
+   "source": "dv.is",
+   "author": null,
+   "date": "2026-04-29",
+   "summary": "Posłanka Framsókn Halla Hrund Logadóttir mówi w podcaście Eyjunnar, że koszty odsetek najbardziej obciążają młodych ludzi i że szanse na obniżkę stóp byłyby większe, gdyby Islandia weszła do UE. Okoliczności takie jak przystąpienie Norwegii mogłyby skłonić do rewizji pozycji Islandii, choć porozumienie EOG dobrze służyło krajowi.",
+   "args": [
+    "vextir"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Davíð Þór Björgvinsson pisze: Ponadnarodowa władza UE",
+   "url": "https://www.dv.is/eyjan/2026/04/29/david-thor-bjorgvinsson-skrifar-yfirthjodlegt-vald-esb",
+   "source": "dv.is",
+   "author": "Davíð Þór Björgvinsson",
+   "date": "2026-04-29",
+   "summary": "Autor wyjaśnia, że ponadnarodowa władza UE jest ograniczona do określonych obszarów, zwłaszcza rynku wewnętrznego, gdzie ujednolicone przepisy muszą obowiązywać jednakowo wszędzie. W innych dziedzinach państwa zachowują prawo do samostanowienia i podejmują decyzje jednomyślnie; debata staje się chaotyczna, gdy te dwie kwestie są ze sobą mieszane.",
+   "args": [
+    "hraedslu"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Halla Hrund Logadóttir: Popieram referendum – chcę wyraźnych czerwonych linii na piasku",
+   "url": "https://www.dv.is/eyjan/2026/04/28/halla-hrund-logadottir-styd-thjodaratkvaedagreidsluna-vil-skyr-raud-strik-sandinn",
+   "source": "dv.is",
+   "author": null,
+   "date": "2026-04-28",
+   "summary": "Posłanka Framsókn Halla Hrund Logadóttir popiera to, by naród mógł zdecydować o dalszym ciągu negocjacji akcesyjnych, ponieważ sprawy mające wpływ na odległą przyszłość idealnie nadają się do referendum. Chce bardziej szczegółowej uchwały parlamentarnej z celami negocjacyjnymi oraz wyraźnych czerwonych linii dotyczących zasobów naturalnych w negocjacjach.",
+   "args": [
+    "lydraedi"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Eyjólfur Ármannsson: Głosowanie nad kontynuacją negocjacji nie zaszkodzi porozumieniu EOG – EOG to norweska konstrukcja",
+   "url": "https://www.dv.is/eyjan/2026/04/22/eyjolfur-armannsson-skadar-ekki-ees-samninginn-ad-kjosa-um-framhald-vidraedna-ees-er-norskt-batteri",
+   "source": "dv.is",
+   "author": null,
+   "date": "2026-04-22",
+   "summary": "Minister infrastruktury Eyjólfur Ármannsson mówi, że stanowisko Flokks fólksins jest jasne: partia nie popiera członkostwa w UE, choć popiera to, by naród mógł zdecydować o dalszym ciągu negocjacji. Jest bardzo przychylny porozumieniu EOG, mówi, że Islandia ma dodatkowe członkostwo i jest „w 80% w środku“ Unii.",
+   "args": [
+    "ees"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Wszyscy mają wiedzieć, o co będzie pytanie w referendum",
+   "url": "https://www.dv.is/eyjan/2026/04/15/allir-viti-um-hvad-verdi-spurt-thjodaratkvaedagreidslunni",
+   "source": "dv.is",
+   "author": null,
+   "date": "2026-04-15",
+   "summary": "Davíð Þór Björgvinsson, były sędzia Europejskiego Trybunału Praw Człowieka, sprzeciwia się wnioskowi krajowej komisji wyborczej, że pytanie referendalne jest niejasne. Istnieją mocne podstawy, by uznać, że wniosek akcesyjny z 2009 roku nadal obowiązuje, por. notatkę Ministerstwa Spraw Zagranicznych i oświadczenia UE, a wszyscy zdają sobie sprawę, o co pada pytanie.",
+   "args": [
+    "hraedslu"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Davíð Þór Björgvinsson: Baudenbacher błądzi – jeśli UE i Islandia uznają wniosek akcesyjny za obowiązujący, to on obowiązuje",
+   "url": "https://www.dv.is/eyjan/2026/04/06/david-thor-bjorgvinsson-baudenbacher-vedur-villu-vegar-ef-esb-og-island-telja-adildarumsoknina-gildi-tha-er-hun-gildi",
+   "source": "dv.is",
+   "author": null,
+   "date": "2026-04-06",
+   "summary": "Davíð Þór Björgvinsson twierdzi, że argumentacja Carls Baudenbacher, jakoby wniosek akcesyjny Islandii został wycofany, nie wytrzymuje krytyki; Komisja Europejska i komisarz ds. rozszerzenia oświadczyli, że wniosek pozostaje w pełni ważny. Spór toczy się o pietruszkę.",
+   "args": [
+    "hraedslu"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Davíð Þór Björgvinsson: Potrzeba lepszych wyjaśnień – czy negocjacje mogą zakończyć się inaczej niż porozumieniem przedstawionym narodowi?",
+   "url": "https://www.dv.is/eyjan/2026/04/03/david-thor-bjorgvinsson-thorf-betri-utskyringum-getur-vidraedum-ekki-lokid-odruvisi-en-med-samningi-sem-lagdur-yrdi-fyrir-thjodina",
+   "source": "dv.is",
+   "author": null,
+   "date": "2026-04-03",
+   "summary": "Davíð Þór Björgvinsson, który sam określa się jako raczej zwolennik Europy, uważa, że wobec wyborców uczciwiej byłoby, gdyby główne założenia celów negocjacyjnych były znane przed głosowaniem. Ministrowie mieli już postawić pełną kontrolę nad łowiskami jako warunek, a negocjacje zakończą się porozumieniem, które zostałoby przedstawione narodowi.",
+   "args": [
+    "kikja"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Davíð Þór Björgvinsson: Rozwiązania szczególne są jak najbardziej na stole – traktaty akcesyjne są rzeczywistymi umowami – trzeba negocjować warunki",
+   "url": "https://www.dv.is/eyjan/2026/04/02/david-thor-bjorgvinsson-serlausnir-eru-sannarlega-bordinu-adildarsamningar-eru-raunverulegir-samningar-thad-tharf-ad-semja-um-skilmala",
+   "source": "dv.is",
+   "author": null,
+   "date": "2026-04-02",
+   "summary": "Davíð Þór Björgvinsson wyjaśnia, że zgodnie z art. 49 Traktatu o UE warunki członkostwa opierają się na umowie między państwami członkowskimi a państwem kandydującym. Państwa kandydujące wielokrotnie otrzymywały trwałe rozwiązania szczególne oparte na ich podstawowych interesach, a każdy traktat akcesyjny staje się integralną częścią traktatów założycielskich.",
+   "args": [
+    "serlausnir",
+    "kikja"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Davíð Þór Björgvinsson pisze: Przystępowanie nowych państw do UE",
+   "url": "https://www.dv.is/eyjan/2026/03/28/david-thor-bjorgvinsson-skrifar-innganga-nyrra-rikja-esb",
+   "source": "dv.is",
+   "author": "Davíð Þór Björgvinsson",
+   "date": "2026-03-28",
+   "summary": "Autor podsumowuje swój wykład o zasadach przyjmowania do UE: traktaty akcesyjne poszczególnych państw są częścią prawa pierwotnego Unii, ponieważ muszą je zatwierdzić wszystkie państwa członkowskie, a UE nie ma innych kompetencji niż te, które suwerenne państwa uzgodniły między sobą, by z nią dzielić.",
+   "args": [
+    "serlausnir"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Yngvi Ómar Sigrúnarson pisze: Kupowanie głosów narodu",
+   "url": "https://www.dv.is/eyjan/2026/08/18/yngvi-omar-sigrunarson-skrifar-ad-kaupa-atkvaedi-thjodar",
+   "source": "dv.is",
+   "author": "Yngvi Ómar Sigrúnarson",
+   "date": "2026-08-18",
+   "summary": "Autor wskazuje, że według biblioteki reklam Meta Áfram Ísland wydało na reklamy na Facebooku i Instagramie około dziesięć razy więcej niż Já til að sjá. Ruch miał wejść do gry w pełni przygotowany z silną agencją reklamową, mimo że twierdzi, iż nie jest finansowany, a brak przejrzystości uniemożliwia ustalenie, kto płaci. Naród jest straszony wyolbrzymionym nacjonalizmem.",
+   "args": [
+    "lydraedi",
+    "hraedslu"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Hrund Rudolfsdóttir: NIE teraz stawia nas w niezwykle trudnej sytuacji",
+   "url": "https://www.dv.is/eyjan/2026/08/14/hrund-rudolfsdottir-nei-nuna-setur-okkur-i-ofsalega-erfida-stodu",
+   "source": "dv.is",
+   "author": null,
+   "date": "2026-08-14",
+   "summary": "Hrund Rudolfsdóttir, przedsiębiorczyni i członkini zarządu Já til að sjá, mówi, że głos na NIE 29. sierpnia jedynie odłoży sprawę, którą i tak trzeba będzie doprowadzić do końca, i pozostawi naród podzielony. Lepiej powiedzieć TAK, dokończyć negocjacje i zająć stanowisko wobec porozumienia; jeśli będzie złe, naród powie NIE, jeśli będzie dobre, powie TAK.",
+   "args": [
+    "kikja",
+    "timagluggi"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Guðmundur Einarsson pisze: Ólafur Ragnar wrócił do domu",
+   "url": "https://www.dv.is/eyjan/2026/08/13/gudmundur-einarsson-skrifar-olafur-ragnar-er-kominn-heim",
+   "source": "dv.is",
+   "author": "Guðmundur Einarsson",
+   "date": "2026-08-13",
+   "summary": "Autor opisuje polityczną wędrówkę Ólafur Ragnars Grímssonara przez system partyjny i twierdzi, że stał się on teraz głównym rzecznikiem Sjálfstæðisflokkurinn jako czołowa postać na spotkaniach Áfram Íslands w Sjálfstæðishúsinu, gdzie pojawiło się kierownictwo tej partii i Framsóknar. Artykuł kreśli obraz ruchu NIE jako sojuszu dawnych bloków władzy.",
+   "args": [
+    "hraedslu"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Orðið á götunni: Sprowadzono zagranicznego durnia, by powiedział Islandczykom, że ich osądowi nie można ufać",
+   "url": "https://www.dv.is/eyjan/2026/08/12/ordid-a-gotunni-erlendur-sjalfviti-fenginn-til-ad-segja-islendingum-ad-domgreind",
+   "source": "dv.is",
+   "author": null,
+   "date": "2026-08-12",
+   "summary": "Felieton twierdzi, że Áfram Ísland sprowadziło Carl Baudenbacher, który obecnie prowadzi lobbing m.in. na rzecz podmiotów rosyjskich, by powiedział Islandczykom, że ich osądowi nie można ufać i że Europa nie jest atrakcyjną opcją. Spotkanie miało zostać przeniesione z auli HÍ po tym, jak okazało się, że sala została zarezerwowana pod fałszywym pretekstem.",
+   "args": [
+    "hraedslu"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Margrét Guðmundsdóttir: Żaden dobry menedżer nie odrzuca z góry ważnych negocjacji",
+   "url": "https://www.dv.is/eyjan/2026/08/10/margret-gudmundsdottir-enginn-godur-stjornandi-hafnar-mikilvaegum",
+   "source": "dv.is",
+   "author": null,
+   "date": "2026-08-10",
+   "summary": "Margrét Guðmundsdóttir, była dyrektor generalna i przewodnicząca Félag atvinnurekenda, mówi, że przez 40 lat kariery menedżerskiej nigdy nie widziała, by zarząd odrzucał ważne negocjacje, zanim wiadomo, co jest do uzyskania. Podstawowe interesy, takie jak kontrola nad zasobami naturalnymi, należy jasno przedstawić przy stole negocjacyjnym i odrzucić wynik, jeśli będzie nie do przyjęcia; duńskie i norweskie organizacje pracodawców postrzegają rynek wewnętrzny jako podstawę handlu.",
+   "args": [
+    "kikja"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Orðið á götunni: Plan się nie powiódł – Baudenbacher, przyjaciel Rosji, współpracuje ze zwolennikami NIE",
+   "url": "https://www.dv.is/eyjan/2026/08/09/ordid-a-gotunni-plottid-mistokst-baudenbacher-russavinur-vinnur-med-nei-sinnum",
+   "source": "dv.is",
+   "author": null,
+   "date": "2026-08-09",
+   "summary": "Felieton twierdzi, że Hannes Hólmstein Gissurarson i Ragnar Árnason zarezerwowali aulę HÍ na spotkanie, które w rzeczywistości było organizowane przez Áfram Íslands, a rektor wstrzymał wykorzystanie sali. Carl Baudenbacher, który miał prowadzić lobbing na rzecz podmiotów rosyjskich, został sprowadzony, by wzbudzić nieufność wobec UE.",
+   "args": [
+    "hraedslu"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Inga Dóra Ingvadóttir pisze: Rolnik, ryba i porozumienie, którego jeszcze nie ma",
+   "url": "https://www.dv.is/eyjan/2026/08/07/inga-dora-ingvadottir-skrifar-bondinn-fiskurinn-og-samningurinn-sem-er",
+   "source": "dv.is",
+   "author": "Inga Dóra Ingvadóttir",
+   "date": "2026-08-07",
+   "summary": "Autorka poważnie traktuje obawy rolników, ale wskazuje, że raport Bændasamtakanna o członkostwie w UE został przygotowany przez organizację interesu, a nie jako niezależna analiza, oraz że wiele najważniejszych pytań nadal pozostaje bez odpowiedzi. Ostrzega przed zamienianiem potencjalnego ryzyka w przesądzony wniosek, zanim porozumienie będzie gotowe.",
+   "args": [
+    "hraedslu",
+    "kikja"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Głos z ulicy: „Jeśli ludzie chcą izolacji, muszą ponieść jej konsekwencje“",
+   "url": "https://www.dv.is/eyjan/2026/08/07/ordid-a-gotunni-ef-menn-vilja-einangrun-tha-verda-their-ad-taka-afleidingum-hennar",
+   "source": "dv.is",
+   "author": null,
+   "date": "2026-08-07",
+   "summary": "Autor felietonu twierdzi, że przeciwnicy negocjacji posługują się propagandą strachu wbrew oświadczeniom przedstawicieli UE, że możliwe są trwałe rozwiązania szczególne. Heimssýn ma opowiadać się za izolacją i być w dużej mierze finansowane przez firmy z sektora rybołówstwa oraz Bændasamtökin, podczas gdy społeczeństwo płaci trzykrotnie wyższe odsetki od kredytów mieszkaniowych niż kraje strefy euro.",
+   "args": [
+    "hraedslu",
+    "vextir"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Þorvaldur Ingi Jónsson pisze: Czy otoczenie stóp procentowych kosztuje młodą rodzinę trzy miesiące roku pracy w 2026 roku?",
+   "url": "https://www.dv.is/eyjan/2026/08/06/thorvaldur-ingi-jonsson-skrifar-kostar-vaxtaumhverfid-unga-fjolskyldu-thrja-manudi",
+   "source": "dv.is",
+   "author": "Þorvaldur Ingi Jónsson",
+   "date": "2026-08-06",
+   "summary": "Autor wylicza, że różnica oprocentowania wynosząca 5,9% względem Danii kosztuje młodą rodzinę z kredytem mieszkaniowym w wysokości 50 milionów koron rocznie około 2,25 miliona koron – co odpowiada ponad trzem miesiącom pełnej pracy. W 30-letnim okresie kredytowania nawet ostrożniej przyjęta różnica oprocentowania na poziomie 4% odpowiadałaby ponad czterem latom pracy.",
+   "args": [
+    "vextir",
+    "taekifaeri"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Svarthöfði pisze: TAK idzie naprzód",
+   "url": "https://www.dv.is/eyjan/2026/08/03/svarthofdi-skrifar-ja-id-er-i-framsokn",
+   "source": "dv.is",
+   "author": null,
+   "date": "2026-08-03",
+   "summary": "Svarthöfði kpi z Framsókn za walkę przeciw temu, by naród mógł zająć stanowisko wobec traktatu akcesyjnego, oraz za to, że chce, by kolejne pokolenia nadal zmagały się z tymi samymi stopami procentowymi i indeksacją. Sondaże mają pokazywać, że poparcie dla TAK rośnie; m.in. 60% najstarszych wyborców miało przejść na stronę poparcia członkostwa po tym, jak Áfram Ísland rozpoczęło swoją kampanię.",
+   "args": [
+    "vextir",
+    "hraedslu"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Pawel Bartoszek: W czasie negocjacji nie musimy u nas niczego zmieniać – to absolutnie nie ulega wątpliwości",
+   "url": "https://www.dv.is/eyjan/2026/08/01/pawel-bartoszek-vid-thurfum-engu-ad-breyta-hja-okkur-a-samningstimanum-algerlega",
+   "source": "dv.is",
+   "author": null,
+   "date": "2026-08-01",
+   "summary": "Pawel Bartoszek, przewodniczący komisji spraw zagranicznych Alþingi, mówi, że stanowisko UE zmieniło się od 2009 roku: Donald Tusk i inni przywódcy mówią dziś o elastyczności wobec krajów takich jak Islandia, a wcześniej było to słowo tabu. Mowa o dostosowaniu ma dotyczyć dawnych państw zza żelaznej kurtyny, podczas gdy Islandia jest już w 75% w Unii poprzez EOG i w czasie negocjacji nie musi niczego zmieniać.",
+   "args": [
+    "hraedslu",
+    "serlausnir"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Sigmundur Ernir pisze: TAK jest dla zwykłych ludzi, a NIE dla elity",
+   "url": "https://www.dv.is/eyjan/2026/07/31/sigmundur-ernir-skrifar-ja-er-fyrir-almenning-en-nei-er-handa-elitunni",
+   "source": "dv.is",
+   "author": "Sigmundur Ernir Rúnarsson",
+   "date": "2026-07-31",
+   "summary": "Felietonista twierdzi, że sprzeciw pracodawców wobec głosowania jest wymowny: korona chroni rynek oligopolistyczny przed zagraniczną konkurencją, a posiadacze kapitału korzystają z dziewięcioprocentowego oprocentowania depozytów, podczas gdy zwykli ludzie płacą trzykrotnie wyższe odsetki od kredytów mieszkaniowych. Branża rybacka ma zaciągać kredyty w euro na 3% i wykupywać mieszkania w Islandii.",
+   "args": [
+    "vextir",
+    "kjor"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Pawel Bartoszek: Wśród zwolenników NIE i TAK są wartościowi ludzie – bardzo chętnie miałbym wielu zwolenników NIE w swoim zespole",
+   "url": "https://www.dv.is/eyjan/2026/07/31/pawel-bartoszek-gaedafolk-baedi-medal-nei-sinna-og-ja-sinna-vildi-alveg-hafa-marga",
+   "source": "dv.is",
+   "author": null,
+   "date": "2026-07-31",
+   "summary": "Pawel Bartoszek, przewodniczący komisji spraw zagranicznych, cieszy się, że sondaże nadal pokazują większość dla TAK, i mówi, że poparcie dla kontynuowania negocjacji od lat pozostaje stabilne. Wzywa do umiarkowanej i wyważonej debaty oraz podkreśla, że po obu stronach są dobrzy ludzie.",
+   "args": [
+    "lydraedi"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Haraldur Ólafsson pisze: X-NIE dla dzieci",
+   "url": "https://www.dv.is/eyjan/2026/07/29/haraldur-olafsson-skrifar-x-nei-fyrir-bornin",
+   "source": "dv.is",
+   "author": "Haraldur Ólafsson",
+   "date": "2026-07-29",
+   "summary": "Przewodniczący Heimssýn mówi, że bycie w UE kosztuje dużo pieniędzy – składki członkowskie, cła, rozbudowę administracji i projekty zbrojeniowe – pieniędzy, które w przeciwnym razie mogłyby służyć dzieciom. Islandzcy nastolatkowie nie muszą obawiać się planów militaryzacji UE, jeśli Islandia pozostanie poza Unią, a islandzki paszport już teraz otwiera wszystkie drzwi.",
+   "args": [
+    "kostnadur",
+    "hervaeding"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Thomas Möller pisze: „Dziwnie jest mówić nie“",
+   "url": "https://www.dv.is/eyjan/2026/07/28/thomas-moller-skrifar-thad-er-skrytid-ad-segja-nei",
+   "source": "dv.is",
+   "author": "Thomas Möller",
+   "date": "2026-07-28",
+   "summary": "Autor opowiada o młodym mężczyźnie w gorącym basenie w Eskifjörður, który zwrócił uwagę, że tej jesieni głosuje się jedynie nad zgodą na negocjacje, a nie nad przystąpieniem; powiedzenie nie jest jak odmowa przyjrzenia się ofercie kupna przed złożeniem podpisu. Członkostwo mogłoby później oznaczać niższe oprocentowanie kredytu mieszkaniowego.",
+   "args": [
+    "kikja",
+    "vextir"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Arnór Sighvatsson: Siedzieć przy stole czy być w menu",
+   "url": "https://www.dv.is/eyjan/2026/07/28/arnor-sighvatsson-ad-sitja-vid-bordid-eda-vera-a-matsedlinum",
+   "source": "dv.is",
+   "author": null,
+   "date": "2026-07-28",
+   "summary": "Arnór Sighvatsson, były zastępca prezesa banku centralnego, mówi, że Stany Zjednoczone nie podzielają już podstawowych wartości z Islandią i Europą oraz że Islandia, jedno z najbardziej zależnych od handlu państw świata, należy do grona krajów szanujących suwerenność, granice i prawa człowieka. UE opiera się na tych podstawowych wartościach.",
+   "args": [
+    "gildi",
+    "oryggi",
+    "ahrif"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Kolbrún Bergþórsdóttir pisze: Przesłanie Sjálfstæðisflokksins",
+   "url": "https://www.dv.is/eyjan/2026/07/24/kolbrun-bergthorsdottir-skrifar-skilabod-sjalfstaedisflokksins",
+   "source": "dv.is",
+   "author": "Kolbrún Bergþórsdóttir",
+   "date": "2026-07-24",
+   "summary": "Felietonistka chwali Þórdísi Kolbrún za stwierdzenie, że członkostwo jest oczywistą opcją, ale krytykuje Sjálfstæðisflokkinn za tłumienie takich głosów i powtarzanie, że nie ma o czym negocjować. Naród głosuje nad kontynuowaniem negocjacji, a nie nad członkostwem, i powinien mieć spokój, by ocenić dostępne możliwości.",
+   "args": [
+    "kikja",
+    "lydraedi"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Sveinn Andri Sveinsson: Ólafur Ragnar nigdy nie miał proroczej natury",
+   "url": "https://www.dv.is/eyjan/2026/07/25/sveinn-andri-sveinsson-olafur-ragnar-hefur-aldrei-verid-spamannlega-vaxinn",
+   "source": "dv.is",
+   "author": null,
+   "date": "2026-07-25",
+   "summary": "Adwokat przed Sądem Najwyższym mówi, że przekaz obozu TAK jest prosty – naród udziela mandatu do zasiadania przy stole negocjacyjnym – podczas gdy obóz NIE musi poświęcać siły na kampanię strachu. Mowa o dostosowaniu ma dotyczyć dawnych państw zza żelaznej kurtyny; Islandia już dostosowała się poprzez EOG i otrzymałaby wsparcie Europejskiego Banku Centralnego przy przyjęciu euro.",
+   "args": [
+    "hraedslu",
+    "kikja"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Głos ulicy: Nie pozwólmy, by starsze pokolenie ze wsi wybierało młodym ludziom przyszłość",
+   "url": "https://www.dv.is/eyjan/2026/07/23/ordid-a-gotunni-latum-ekki-aldrada-sveit-velja-unga-folksinu-framtid",
+   "source": "dv.is",
+   "author": null,
+   "date": "2026-07-23",
+   "summary": "Autor felietonu twierdzi, że głosowanie dotyczy przyszłości młodych ludzi, i krytykuje powszechnie znanych seniorów, takich jak Hjörleif Guttormsson, Jón Bjarnason i Ólaf Ragnar Grímsson, za protekcjonalizm i propagandę przeciw temu, by wyborcy sami decydowali o swojej przyszłości.",
+   "args": [
+    "taekifaeri"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Erna Bjarnadóttir pisze: Ograniczone stosowanie antybiotyków w hodowli zwierząt jest wartością społeczną",
+   "url": "https://www.dv.is/eyjan/2026/07/23/erna-bjarnadottir-skrifar-takmorkud-notkun-syklalyfja-i-bufjarraekt-er",
+   "source": "dv.is",
+   "author": "Erna Bjarnadóttir",
+   "date": "2026-07-23",
+   "summary": "Autorka wskazuje, że stosowanie antybiotyków w islandzkiej hodowli zwierząt należy według ESVAC do najniższych w Europie, a jest znacznie wyższe w krajach, z których importuje się najwięcej produktów rolnych. Tej wyjątkowej pozycji należy bronić jako wartości dla zdrowia publicznego i społeczeństwa w obliczu narastającej oporności na antybiotyki.",
+   "args": [
+    "landbunadur"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Sveinn Andri Sveinsson: Rozpacz w obozie NIE – grupy interesu stawiające wraz z inflacją przeciw społeczeństwu",
+   "url": "https://www.dv.is/eyjan/2026/07/22/sveinn-andri-sveinsson-orvaenting-hja-nei-lidinu-hagsmunaadilar-sem-vedja-med",
+   "source": "dv.is",
+   "author": null,
+   "date": "2026-07-22",
+   "summary": "Adwokat przed Sądem Najwyższym twierdzi, że Áfram Ísland opiera się na firmach czerpiących zyski z inflacji: spółka nieruchomościowa Heimar zarobiłaby dodatkowo 4,5 miliarda, gdyby inflacja wzrosła z pięciu do dziesięciu procent, a banki komercyjne po dwa do trzech miliardów każdy przy każdym punkcie procentowym. Dominujące siły najbardziej obawiają się tego, że komisji negocjacyjnej uda się wypracować korzystne porozumienie z UE.",
+   "args": [
+    "hraedslu",
+    "vextir"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Sigmundur Ernir pisze: Sjálfstæðismenn wiedzą, co to znaczy siedzieć przy stole",
+   "url": "https://www.dv.is/eyjan/2026/07/17/sigmundur-ernir-skrifar-sjalfstaedismenn-thekkja-thad-ad-sitja-vid-bordid",
+   "source": "dv.is",
+   "author": "Sigmundur Ernir Rúnarsson",
+   "date": "2026-07-17",
+   "summary": "Felietonista przypomina, że ministrowie Sjálfstæðisflokksins bardzo cenili sobie zasiadanie przy stole w Radzie Ministrów UE poprzez Schengen, gdzie Islandia i Norwegia postawiły w 2001 roku warunek, by uczestnictwo miało charakter instytucjonalny i polityczny, a nie tylko techniczny. Doświadczenie pokazuje, że małe państwa mają wpływ, jeśli uczestniczą wewnątrz procesu.",
+   "args": [
+    "ahrif"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Sigvaldi Einarsson pisze: Już teraz jesteśmy najemcami, tylko bez prawa głosu",
+   "url": "https://www.dv.is/eyjan/2026/07/16/sigvaldi-einarsson-skrifar-vid-erum-nu-thegar-leigulidar-bara-atkvaedisrettar",
+   "source": "dv.is",
+   "author": "Sigvaldi Einarsson",
+   "date": "2026-07-16",
+   "summary": "Autor twierdzi, że Islandia przyjęła już około dwóch trzecich ustawodawstwa UE poprzez EOG bez prawa głosu – to pozycja najemcy, który mieszka w domu i przestrzega zasad gospodarza, ale o niczym nie decyduje. NIE utrwaliłoby ten system; TAK jest drogą do stołu. Głośny sprzeciw broni oligopolu i partykularnych interesów, a nie dobra gospodarstw domowych.",
+   "args": [
+    "ahrif"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Thomas Möller pisze: Powiedzmy TAK dla młodych ludzi",
+   "url": "https://www.dv.is/eyjan/2026/07/15/thomas-moller-skrifar-segjum-ja-fyrir-unga-folkid",
+   "source": "dv.is",
+   "author": "Thomas Möller",
+   "date": "2026-07-15",
+   "summary": "Autor twierdzi, że większość analiz pokazuje, iż pełne członkostwo poprawiłoby poziom życia, obniżyło stopy procentowe i ceny żywności oraz wzmocniło pozycję Islandii w niepewnym świecie. 74% mieszkańców państw UE uważa, że ich kraj skorzystał na członkostwie, co jest historycznym maksimum, i żadne państwo członkowskie nie uważa, że utraciło suwerenność. Islandia zachowałaby pełną kontrolę nad swoimi łowiskami, ponieważ dzieli stada z krajami UE tylko w niewielkim stopniu.",
+   "args": [
+    "taekifaeri",
+    "kjor",
+    "vextir"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Sigurður Gylfi Magnússon: Przesłanie Ólafur Ragnara takie samo jak wtedy, gdy wychwalał wikingów ekspansji finansowej przed krachem",
+   "url": "https://www.dv.is/eyjan/2026/07/13/sigurdur-gylfi-magnusson-inntakid-hja-olafi-ragnari-hid-sama-og-thegar-hann",
+   "source": "dv.is",
+   "author": null,
+   "date": "2026-07-13",
+   "summary": "Profesor historii Sigurður Gylfi Magnússon przypomina przemówienie Ólafur Ragnars Grímssonar z 2006 roku, w którym wychwalał wikingów ekspansji finansowej, i twierdzi, że przesłanie na zebraniu założycielskim Áfram Ísland jest takie samo: Islandczycy mają być lepsi i wyżsi od wszystkich innych. Ta nacjonalistyczna ideologia okazała się dla narodu bardzo kosztowna przed krachem.",
+   "args": [
+    "hraedslu"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Głos ulicy: Baronowie morza i przedstawiciele partykularnych interesów chcą mówić wyborcom, co mają robić",
+   "url": "https://www.dv.is/eyjan/2026/07/08/ordid-a-gotunni-saegreifar-og-fulltruar-serhagsmuna-vilja-segja-kjosendum-fyrir",
+   "source": "dv.is",
+   "author": null,
+   "date": "2026-07-08",
+   "summary": "Autor felietonu krytykuje Kristján Loftsson, dyrektora generalnego Hvals, za to, że twierdzi, iż nie wierzy, by naród był „aż tak głupi”, żeby powiedzieć tak, i pisze, że potentaci morscy wykładają ogromne sumy na propagandę przeciw negocjacjom. Taki protekcjonalizm wobec wyborców jest źle odbierany przez społeczeństwo.",
+   "args": [
+    "lydraedi",
+    "hraedslu"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Haraldur Ólafsson pisze: Nie, dziękuję opiera się na mocnych fundamentach rozsądku i argumentach ciężkich jak ołów",
+   "url": "https://www.dv.is/eyjan/2026/07/05/haraldur-olafsson-skrifar-nei-takk-hvilir-a-styrkum-stodum-skynsemi-og-blythungum",
+   "source": "dv.is",
+   "author": "Haraldur Ólafsson",
+   "date": "2026-07-05",
+   "summary": "Przewodniczący Heimssýn przedstawia powody osób opowiadających się za NIE: przekazanie władzy ustawodawczej doprowadzi do ustaw, od których nie będzie można się uwolnić, europejskie narody z wielowiekowym doświadczeniem rybackim będą chciały wrócić na łowiska Islandii, UE zmierza ku militaryzacji, islandzkie rolnictwo mogłoby upaść, a bezpośrednie i pośrednie koszty członkostwa stale rosną, m.in. z powodu długów dużych państw członkowskich.",
+   "args": [
+    "fullveldi",
+    "sjavarutvegur",
+    "hervaeding",
+    "kostnadur"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Kolbrún Bergþórsdóttir pisze: Jasnowidztwo przeciwników",
+   "url": "https://www.dv.is/eyjan/2026/07/03/kolbrun-bergthorsdottir-skrifar-skyggnigafa-nei-sinna",
+   "source": "dv.is",
+   "author": "Kolbrún Bergþórsdóttir",
+   "date": "2026-07-03",
+   "summary": "Publicystka pyta, jak Guðrún Hafsteinsdóttir i inni przeciwnicy mogą z góry twierdzić, jaki układ zostanie przedstawiony narodowi – coś takiego trzeba by uznać za jasnowidztwo. Ludzie chcą zajrzeć do pakietu i nie pozwolić, by Ólaf Ragnar, Björn Bjarnason i inni podjęli decyzję za nich.",
+   "args": [
+    "kikja",
+    "hraedslu"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Svarthöfði pisze: Jedyne, co może uratować Morgunblaðið, to TAK 29 sierpnia",
+   "url": "https://www.dv.is/eyjan/2026/07/01/svarthofdi-skrifar-thad-eina-sem-getur-bjargad-morgunbladinu-er-ja-thann-29-agust",
+   "source": "dv.is",
+   "author": null,
+   "date": "2026-07-01",
+   "summary": "Svarthöfði pyta, dlaczego przeciwnicy boją się głosowania, jeśli są pewni, że porozumienie okaże się niemożliwe do przyjęcia – naród po prostu by je wtedy odrzucił. Ta gorliwość wskazuje, że spodziewają się korzystnego porozumienia. Właściciele Morgunblaðið mają dochody i finansowanie w euro przy jednej trzeciej islandzkich stóp procentowych i chcą bronić tej przewagi.",
+   "args": [
+    "kikja",
+    "hraedslu",
+    "vextir"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Brexit wzorem dla przeciwników – stosują te same chwyty propagandowe – Brytyjczycy teraz żałują wyjścia",
+   "url": "https://www.dv.is/eyjan/2026/06/22/brexit-fyrirmynd-nei-sinna-beita-somu-arodursbrogdum-bretar-sja-nu-eftir-utgongu",
+   "source": "dv.is",
+   "author": null,
+   "date": "2026-06-22",
+   "summary": "Artykuł wyjaśniający, że Haraldur Ólafsson, przewodniczący Heimssýn, mówi w The Sunday Telegraph, iż Brexit jest wzorem dla ruchu przeciwników, a hasło „Take Back Control” stanowi inspirację. Tekst przypomina, że obietnice zwolenników Brexitu się nie sprawdziły, gospodarka Wielkiej Brytanii ucierpiała, a sposób argumentacji przeciwników wskazuje, że ich celem ostatecznym jest wyjście z EOG.",
+   "args": [
+    "hraedslu"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Thomas Möller pisze: Nie mów NIE... powiedz może",
+   "url": "https://www.dv.is/eyjan/2026/06/17/thomas-moller-skrifar-segdu-ekki-nei-segdu-kannski",
+   "source": "dv.is",
+   "author": "Thomas Möller",
+   "date": "2026-06-17",
+   "summary": "Autor zwraca uwagę, że głosowanie nie dotyczy członkostwa, lecz uzyskania możliwości zobaczenia porozumienia, nad którym później odbyłoby się głosowanie; tak naprawdę tak oznacza „może” i nie pociąga za sobą żadnego zobowiązania. Nie definitywnie zamyka tę możliwość, a więc jest większą decyzją niż tak. Krytykuje też jednostronny przekaz Morgunblaðið, które w jednym weekendowym wydaniu zamieściło 18 artykułów ostrzegawczych.",
+   "args": [
+    "kikja",
+    "hraedslu"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Sigmundur Ernir pisze: Heimssýn to sojusz strachu",
+   "url": "https://www.dv.is/eyjan/2026/06/13/sigmundur-ernir-skrifar-heimssyn-er-hraedslubandalag",
+   "source": "dv.is",
+   "author": "Sigmundur Ernir Rúnarsson",
+   "date": "2026-06-13",
+   "summary": "Publicysta twierdzi, że Heimssýn zdemaskowało się groźbami pod adresem RÚV za zaproszenie do studia ekspertów, gdzie obalono kolejne bzdury, m.in. że żadna adaptacja nie rozpocznie się przed zatwierdzeniem porozumień. Organizacja żywi się strachem i izolacjonizmem.",
+   "args": [
+    "hraedslu"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Głos ulicy: Negatywizm i wykręty cechują stronę NIE – gdy brakuje argumentów, dochodzi jeszcze arogancja",
+   "url": "https://www.dv.is/eyjan/2026/05/31/ordid-gotunni-neikvaedni-og-utursnuningar-einkenna-nei-lida-hroki-baetist-vid-thegar-rokin-vantar",
+   "source": "dv.is",
+   "author": null,
+   "date": "2026-05-31",
+   "summary": "Rubryka porównuje wystąpienia Þorgerður Katrín i Sigríður Andersen w Kastljós po tym, jak parlament zatwierdził referendum 34 głosami przeciw ośmiu. Miðflokkurinn miał głosować przeciw temu, by naród mógł wyrazić swoją opinię, a przekaz strony NIE cechują propaganda strachu i wykręty, takie jak nazywanie głosowania „fałszywym sondażem opinii”.",
+   "args": [
+    "lydraedi",
+    "hraedslu"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Halldór Jörgen pisze: Kiedy warunkowe nie staje się „po prostu tak”",
+   "url": "https://www.dv.is/eyjan/2026/05/25/halldor-jorgen-skrifar-thegar-skilyrt-nei-verdur-einfaldlega-ja",
+   "source": "dv.is",
+   "author": "Halldór Jörgen Olesen",
+   "date": "2026-05-25",
+   "summary": "Autor odpowiada Hildur Sverrisdóttir, która zinterpretowała warunkowe nie ministra spraw zagranicznych wobec dostosowania jako „po prostu tak”. Porozumienie z procesu akcesyjnego 2009-2013, o którym Hildur mówi, że nikt go nie widział, jest publicznym dokumentem parlamentarnym z 2013 roku, a zastrzeżenie dotyczące niezależnych celów krajowych oznacza islandzkie ustawodawstwo, nie dostosowanie; Chorwacja wprowadziła 14 takich zmian bez trudności.",
+   "args": [
+    "hraedslu"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Mówi, że Dagur ma rację, a Diljá Mist się myli - „Czy liczby też mamy potraktować poważnie”",
+   "url": "https://www.dv.is/eyjan/2026/05/23/segir-ad-dagur-hafi-rett-fyrir-ser-en-dilja-mist-rangt-thurfum-vid-lika-ad-taka-tolurnar-alvarlega",
+   "source": "dv.is",
+   "author": null,
+   "date": "2026-05-23",
+   "summary": "Halldór Jörgen Olesen, redaktor Verðbólguvaktarinnar, wylicza, że różnica stóp procentowych między Islandią a strefą euro kosztuje gospodarstwa domowe 101-188 miliardów koron rocznie przy zadłużeniu mieszkaniowym wynoszącym 2.897 miliarda; liczba 100 miliardów podana przez Dagur B. Eggertsson jest bliższa minimum niż maksimum. Państwa bałtyckie, Słowacja i Chorwacja dowodzą, że po wejściu stopy procentowe trwale spadają.",
+   "args": [
+    "vextir"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Kristrún Frostadóttir: Kto nie chce pozwolić narodowi zobaczyć porozumienia? – Czyich interesów oni strzegą?",
+   "url": "https://www.dv.is/eyjan/2026/05/21/kristrun-frostadottir-hverjir-vilja-ekki-leyfa-thjodinni-ad-sja-samning-hverra-hagsmuna-gaeta",
+   "source": "dv.is",
+   "author": null,
+   "date": "2026-05-21",
+   "summary": "Premier mówi, że wejście do UE natychmiast zmniejszyłoby koszty małej i niestabilnej korony oraz zwiększyło konkurencję w handlu artykułami spożywczymi, paliwami, ubezpieczeniami i na rynku kredytowym. Obywatele powinni pytać, kto korzysta na braku konkurencji i nie chce nawet pozwolić narodowi zobaczyć porozumienia.",
+   "args": [
+    "kikja",
+    "vextir",
+    "kjor"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Kristrún Frostadóttir: Powiedz tak, jeśli nie jesteś pewien – później zawsze będziesz mieć okazję powiedzieć nie",
+   "url": "https://www.dv.is/eyjan/2026/05/20/kristrun-frostadottir-segdu-ja-ef-thu-ert-oviss-faerd-alltaf-taekifaeri-seinna-til-ad-segja-nei",
+   "source": "dv.is",
+   "author": null,
+   "date": "2026-05-20",
+   "summary": "Premier mówi, że teraz jest dobra okazja, by wynegocjować porozumienia uwzględniające szczególną sytuację Islandii, i przypomina, że Islandia w swojej historii uzyskiwała rozwiązania szczególne, od pomocy Marshalla po członkostwo w NATO bez składek. Niezdecydowani wyborcy powinni powiedzieć tak, ponieważ możliwość odrzucenia porozumienia pojawi się później.",
+   "args": [
+    "kikja",
+    "serlausnir",
+    "timagluggi"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Sigmundur Ernir pisze: Najpopularniejszy ruch współpracy w Europie",
+   "url": "https://www.dv.is/eyjan/2026/05/02/sigmundur-ernir-skrifar-vinsaelasta-samvinnuhreyfing-evropu",
+   "source": "dv.is",
+   "author": "Sigmundur Ernir Rúnarsson",
+   "date": "2026-05-02",
+   "summary": "Publicysta twierdzi, że opozycja obawia się, iż negocjacje przyniosą tak dobry wynik, że społeczeństwu się on spodoba; najpierw utrzymuje się, że nie ma o czym negocjować, a potem że odstępstwa nie będą trwałe, choć oba te twierdzenia zostały obalone. Zadowolenie narodów z członkostwa w UE miało wszędzie rosnąć po przystąpieniu.",
+   "args": [
+    "serlausnir",
+    "hraedslu"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Thomas Möller pisze: NIE jest większe niż TAK",
+   "url": "https://www.dv.is/eyjan/2026/05/06/thomas-moller-skrifar-nei-er-staerra-en-ja",
+   "source": "dv.is",
+   "author": "Thomas Möller",
+   "date": "2026-05-06",
+   "summary": "Autor twierdzi, że NIE jest decyzją znacznie bardziej brzemienną w skutki niż TAK: zamyka możliwość członkostwa na dziesięciolecia, utrwala model EOG, w którym Islandia przyjmuje przepisy bez wpływu na ich kształt, i pozostawia naród w gospodarce opartej na koronie z wyższymi stopami procentowymi. TAK oznacza jedynie zgodę na negocjacje i analizę umowy, bez jakiegokolwiek zobowiązania.",
+   "args": [
+    "kikja",
+    "ahrif",
+    "vextir"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Kolbrún Bergþórsdóttir pisze: Strach przed TAK",
+   "url": "https://www.dv.is/eyjan/2026/04/05/kolbrun-bergthorsdottir-skrifar-ottinn-vid-ja-id",
+   "source": "dv.is",
+   "author": "Kolbrún Bergþórsdóttir",
+   "date": "2026-04-05",
+   "summary": "Publicystka twierdzi, że opozycję całkowicie opanował lęk przed tym, że naród powie TAK; utrzymuje ona, że nie ma o czym negocjować i że nie ma żadnych odstępstw do uzyskania, podczas gdy naród sam chce się dowiedzieć, co jest możliwe. Współpraca państw Europy ma być czymś dobrym i zdecydowanie wartym zbadania korzyści płynących z członkostwa.",
+   "args": [
+    "kikja",
+    "hraedslu"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Davíð Þór Björgvinsson: Jeśli NATO się rozpadnie, umowa obronna z USA przestanie obowiązywać",
+   "url": "https://www.dv.is/eyjan/2026/04/05/david-thor-bjorgvinsson-ef-nato-fer-skrufuna-er-varnarsamningurinn-vid-bandarikin-brostinn",
+   "source": "dv.is",
+   "author": null,
+   "date": "2026-04-05",
+   "summary": "Davíð Þór Björgvinsson wskazuje, że umowa obronna z 1951 roku oznacza, iż Stany Zjednoczone bronią Islandii z upoważnienia NATO; jeśli NATO dobiegnie końca, wszystkie prawne podstawy tej umowy przestaną istnieć. Nieprzewidywalne działania Stanów Zjednoczonych sprawiają, że trzeba ponownie ocenić filary islandzkiego bezpieczeństwa.",
+   "args": [
+    "oryggi"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Thomas Möller pisze: Wybory młodych ludzi",
+   "url": "https://www.dv.is/eyjan/2026/04/22/thomas-moller-skrifar-kosningar-unga-folksins",
+   "source": "dv.is",
+   "author": "Thomas Möller",
+   "date": "2026-04-22",
+   "summary": "Autor twierdzi, że głosowanie ukształtuje rozwój społeczeństwa na następne 40 lat, a więc są to wybory młodych ludzi. TAK stwarza możliwości swobody podróżowania, nauki i pracy w 27 krajach oraz stabilności zamiast wahań koniunktury z 20% stopami procentowymi, 50% dewaluacjami i 100% inflacją, które starsze pokolenia musiały znosić; głosowanie dotyczy wyłącznie kontynuacji negocjacji.",
+   "args": [
+    "taekifaeri",
+    "kikja",
+    "vextir"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Orðið á götunni: Rozpacz jest oczywista – odkurzono nawet Heiðrún Lind",
+   "url": "https://www.dv.is/eyjan/2026/04/19/ordid-gotunni-orvaentingin-blasir-vid-rykid-meira-ad-segja-dustad-af-heidrunu-lind",
+   "source": "dv.is",
+   "author": null,
+   "date": "2026-04-19",
+   "summary": "Autorzy rubryki twierdzą, że unijny komisarz ds. rybołówstwa potwierdził, iż negocjacje akcesyjne są rzeczywistymi rokowaniami, w których uwzględnia się specyfikę państw kandydujących, i wskazują na precedensy, takie jak trwałe szczególne rozwiązanie Danii dotyczące domów letniskowych. Heiðrún Lind Marteinsdóttir z SFS miała bez uzasadnienia twierdzić, że nie ma żadnych precedensów dla trwałego odstępstwa.",
+   "args": [
+    "serlausnir",
+    "hraedslu"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Orðið á götunni: Seniorzy w różnym wieku przeciw przyszłości – typowe teksty przeciwników Europy w Morgunblaðið",
+   "url": "https://www.dv.is/eyjan/2026/03/29/ordid-gotunni-oldungar-ymsum-aldri-moti-framtidinni-daemigerd-skrif-evropuandstaedinga-morgunbladinu",
+   "source": "dv.is",
+   "author": null,
+   "date": "2026-03-29",
+   "summary": "Rubryka odpowiada na artykuł w Morgunblaðið, jakoby korona okazała się „zbawieniem po krachu”, i wskazuje, że to właśnie krach ujawnił największe słabości korony, gdy inne państwa nie chciały mieć z nią nic wspólnego. Zwolennicy izolacji próbują przestraszyć mieszkańców kraju, aby nie zbadali w pełni zalet i wad członkostwa.",
+   "args": [
+    "hraedslu",
+    "vextir"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Krajowa komisja wyborcza musi podać się do dymisji – wkroczyła na scenę polityczną",
+   "url": "https://www.dv.is/eyjan/2026/04/11/landskjorstjorn-hlytur-ad-segja-af-ser-stigin-inn-hid-politiska-svid",
+   "source": "dv.is",
+   "author": null,
+   "date": "2026-04-11",
+   "summary": "Profesor historii Sigurður Gylfi Magnússon twierdzi, że opinia krajowej komisji wyborczej o pytaniu referendalnym jest deklaracją polityczną, i odwołuje się do notatki Ministerstwa Spraw Zagranicznych z sierpnia 2025 roku dotyczącej przebiegu wniosku akcesyjnego. Krajowa komisja wyborcza miała w zdecydowany sposób wkroczyć na scenę polityczną i pojawia się pytanie, czy jej przedstawiciele mogą nadal pozostać na stanowiskach.",
+   "args": [
+    "hraedslu"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Lewica musi powiedzieć NIE UE",
+   "url": "https://www.mbl.is/frettir/innlent/2026/08/17/vinstri_vaengurinn_verdur_ad_segja_nei_vid_esb/",
+   "source": "Morgunblaðið",
+   "author": "Mímir Kristjánsson",
+   "date": "2026-08-17",
+   "summary": "Autor twierdzi, że UE jest machiną, która przenosi władzę i bogactwo od zwykłych ludzi do biurokratycznych i gospodarczych elit, a cztery swobody prowadzą do koordynacji warunków płacowych między krajami. W Brukseli miała powstać biurokracja z poważnym deficytem demokracji, gdzie organizacje obywatelskie mają niewielkie szanse w starciu z grupami interesu.",
+   "args": [
+    "fullveldi",
+    "efnahagur"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Artykuł nadesłany: Osobiste doświadczenie Steingrímur J. z negocjacji z UE mówi samo za siebie",
+   "url": "https://www.mbl.is/frettir/innlent/2026/08/17/adsend_grein_personuleg_reynsla_steingrims_j_af_esb/",
+   "source": "Morgunblaðið",
+   "author": "Guðni Ágústsson",
+   "date": "2026-08-17",
+   "summary": "Guðni odwołuje się do artykułu Steingrímur J. Sigfússon o jego doświadczeniach z negocjacji akcesyjnych w 2009 roku i zachęca sceptyków, którzy chcą „zajrzeć do pakietu”, by się z nim zapoznali. Twierdzi, że to niewiarygodne, iż Þorgerður Katrín utrzymuje, że Islandia może uzyskać pełną kontrolę nad rybołówstwem i rolnictwem.",
+   "args": [
+    "adlogun",
+    "sjavarutvegur",
+    "landbunadur"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Aðsend grein: Er eftirspurn eftir 40% atvinnuleysi og 50% kaupmáttarrýrnun með ESB-aðild?",
+   "url": "https://www.mbl.is/frettir/innlent/2026/08/17/adsend_grein_er_eftirspurn_eftir_40_prosent_atvinnu/",
+   "source": "Morgunblaðið",
+   "author": "Albert Þór Jónsson",
+   "date": "2026-08-17",
+   "summary": "Höfundur segir ferðalag ríkisstjórnarinnar inn í „tæknilega gjaldþrota“ Evrópu vera feigðarför og að Ísland sé eitt þriggja lífsgæðamestu landa heims sem öll standi utan ESB og evru. Nei 29. ágúst sé eina rétta svarið.",
+   "args": [
+    "efnahagur",
+    "evra"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Aðsend grein: Dugar sæti við borðið?",
+   "url": "https://www.mbl.is/frettir/innlent/2026/08/17/adsend_grein_dugar_saeti_vid_bordid/",
+   "source": "Morgunblaðið",
+   "author": "Bryndís Haraldsdóttir",
+   "date": "2026-08-17",
+   "summary": "Þingmaðurinn bendir á að þótt Ísland héldi sæti sínu í Norðurskautsráðinu innan ESB færi sambandið með samningsumboð á sviðum eins og verndun sjávarauðlinda, líkt og fyrir Svíþjóð og Finnland. Verðmætast sé að umboðið í sætinu sé íslenskt og röddin okkar eigin — þá stöðu eigi alls ekki að gefa frá sér.",
+   "args": [
+    "fullveldi",
+    "sjavarutvegur"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Aðsend grein: Sjálfstraust Íslands og hræðslupólitíkin fyrir þjóðaratkvæðagreiðsluna um ESB",
+   "url": "https://www.mbl.is/frettir/innlent/2026/08/15/adsend_grein_sjalfstraust_islands_og_hraedslupoliti/",
+   "source": "Morgunblaðið",
+   "author": "Carl Baudenbacher",
+   "date": "2026-08-15",
+   "summary": "Fyrrverandi forseti EFTA-dómstólsins segir erfitt að koma auga á sannfærandi rök fyrir ESB-aðild Íslands; EES/EFTA-líkanið sé starfhæft fyrirkomulag sem veiti víðtækan aðgang að innri markaðnum en varðveiti yfirráð yfir fiskveiðum, landbúnaði og gjaldmiðli. Baráttan fyrir aðild eigi á hættu að verða hræðslupólitík því jákvæðu rökin séu veik.",
+   "args": [
+    "ees"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Aðsend grein: Tökum enga áhættu með EES-samninginn!",
+   "url": "https://www.mbl.is/frettir/innlent/2026/08/15/adsend_grein_tokum_enga_ahaettu_med_ees_samninginn/",
+   "source": "Morgunblaðið",
+   "author": "Diljá Mist Einarsdóttir",
+   "date": "2026-08-15",
+   "summary": "Þingmaðurinn segir grímulausan áróður ESB-sinna gegn EES-samningnum hafa komið í ljós í aðdraganda atkvæðagreiðslunnar; fullyrt sé ranglega að Ísland sé þegar að mestu leyti inni í ESB. Evrópskir þingmenn segi henni ítrekað að Íslendingar fái mikið fyrir lítið með EES-samningnum.",
+   "args": [
+    "ees"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Aðsend grein: Viðreisnarverkfræðingur skemmir skrúðgönguna",
+   "url": "https://www.mbl.is/frettir/innlent/2026/08/13/adsend_grein_vidreisnarverkfraedingur_skemmir_skrud/",
+   "source": "Morgunblaðið",
+   "author": "Guðni Ágústsson",
+   "date": "2026-08-13",
+   "summary": "Guðni líkir ESB-umræðunni við nýju fötin keisarans og vísar í samantekt verkfræðings um afleiðingar aðildar sem honum rennur kalt vatn milli skinns og hörunds við að lesa. Hann vísar einnig til fundar Ólafs Ragnars Grímssonar og Carls Baudenbachers um framsal á fullveldi Íslands.",
+   "args": [
+    "fullveldi"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Aðsend grein: Er virkilega engin áhætta tekin?",
+   "url": "https://www.mbl.is/frettir/innlent/2026/08/13/adsend_grein_er_virkilega_engin_ahaetta_tekin/",
+   "source": "Morgunblaðið",
+   "author": "Geir H. Haarde",
+   "date": "2026-08-13",
+   "summary": "Fyrrverandi forsætisráðherra hafnar því að engin áhætta fylgi nýjum aðildarviðræðum; þær taki nokkur ár óháð niðurstöðu og krefjist samkomulags á Alþingi. Hann óttast að EES-samstarfið geti stórlaskast í millitíðinni því stjórnkerfið verði upptekið við viðræðurnar.",
+   "args": [
+    "ees",
+    "kostnadur"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Aðsend grein: Evran, hamingjan og óttinn",
+   "url": "https://www.mbl.is/frettir/innlent/2026/08/12/adsend_grein_evran_hamingjan_og_ottinn/",
+   "source": "Morgunblaðið",
+   "author": "Hilmar Þór Hilmarsson",
+   "date": "2026-08-12",
+   "summary": "Prófessorinn ber saman Finnland og Ísland: finnska hagkerfið glími við lítinn hagvöxt, mikið atvinnuleysi og opinberar skuldir um 90% af landsframleiðslu, og landsframleiðsla á mann hafi vaxið mun minna í Finnlandi en á Íslandi frá upptöku evrunnar 1999.",
+   "args": [
+    "evra",
+    "efnahagur"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Aðsend grein: Hvers vegna er ríkisstjórnin ekki að gera neitt?",
+   "url": "https://www.mbl.is/frettir/innlent/2026/08/11/adsend_grein_hvers_vegna_er_rikisstjornin_ekki_ad_g/",
+   "source": "Morgunblaðið",
+   "author": "Hjörtur J. Guðmundsson",
+   "date": "2026-08-11",
+   "summary": "Höfundur spyr hvað skýri aðgerðaleysi ríkisstjórnarinnar gagnvart verðbólgunni, sem mældist 5,3% í júlí og gæti virkjað forsenduákvæði kjarasamninga. Hann vitnar í raddir úr atvinnulífinu sem spyrji hvort ríkisstjórn sem vilji „troða okkur í ESB“ sé að vanrækja efnahagsstjórnina.",
+   "args": [
+    "umbod"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Aðsend grein: Hvaða lærdóm má draga af atburðunum í Ceuta?",
+   "url": "https://www.mbl.is/frettir/innlent/2026/08/11/adsend_grein_hvada_laerdom_ma_draga_af_atburdunum_i/",
+   "source": "Morgunblaðið",
+   "author": "Erna Bjarnadóttir",
+   "date": "2026-08-11",
+   "summary": "Erna fjallar um fjöldakomu fólks yfir landamærin við Ceuta í lok júlí og segir atburðina vekja spurningar um landamæragæslu, Schengen-samstarfið og ábyrgð ESB þegar mikið reynir á. Hún spyr hvaða stjórnskipulega umgjörð þjóni hagsmunum smáríkis best.",
+   "args": [
+    "fullveldi"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Aðsend grein: ESB er bákn en Ísland er einstakur demantur",
+   "url": "https://www.mbl.is/frettir/innlent/2026/08/10/adsend_grein_esb_er_bakn_en_island_er_einstakur_dem/",
+   "source": "Morgunblaðið",
+   "author": "Albert Þór Jónsson",
+   "date": "2026-08-10",
+   "summary": "Höfundur segir ESB miðstýrt hernaðar- og tollabandalag sem takmarki frelsi einstaklinga með þyngri reglugerðum og rekur sjálfstæðissögu Íslands frá 1874 til lýðveldisstofnunar 1944.",
+   "args": [
+    "fullveldi",
+    "efnahagur"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Aðsend grein: Hvað heldur eiginlega dyrunum opnum?",
+   "url": "https://www.mbl.is/frettir/innlent/2026/08/10/adsend_grein_hvad_heldur_eiginlega_dyrunum_opnum/",
+   "source": "Morgunblaðið",
+   "author": "Sveinn Óskar Sigurðsson",
+   "date": "2026-08-10",
+   "summary": "Höfundur snýr við „kíkja í pakkann“-rökunum: utan ESB eigi Ísland báða kosti opna, að ganga inn eða standa utan, og það sé opnasta staða sem hugsast getur. Það sé nei sem haldi dyrunum opnum, ekki já.",
+   "args": [
+    "oafturkraeft",
+    "adlogun"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Aðsend grein: Af hverju vill ríkisstjórnin ekki lækka vexti?",
+   "url": "https://www.mbl.is/frettir/innlent/2026/08/08/adsend_grein_af_hverju_vill_rikisstjornin_ekki_laek/",
+   "source": "Morgunblaðið",
+   "author": "Guðlaugur Þór Þórðarson",
+   "date": "2026-08-08",
+   "summary": "Guðlaugur Þór rifjar upp að ríkisstjórnarflokkarnir hafi lofað lægri verðbólgu og vöxtum og að forsætisráðherra hafi ætlað að „negla niður vextina“, en í ágúst 2026 sé verðbólgan enn langt yfir markmiði og meginvextir 7,75%.",
+   "args": [
+    "umbod",
+    "evra"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Aðsend grein: Rétt skal vera rétt",
+   "url": "https://www.mbl.is/frettir/innlent/2026/08/06/adsend_grein_rett_skal_vera_rett/",
+   "source": "Morgunblaðið",
+   "author": "Sigurður Kári Kristjánsson",
+   "date": "2026-08-06",
+   "summary": "Höfundur segir umræðuna um fullveldisframsal komna í ógöngur: fram til þessa hafi verið óumdeilt að ESB-aðild krefjist framsals á hluta fullveldis Íslands, en það virðist hafa breyst í aðdraganda þjóðaratkvæðagreiðslunnar.",
+   "args": [
+    "fullveldi"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Aðsend grein: Dýraheilbrigði sem undirstaða matvælahagkerfisins",
+   "url": "https://www.mbl.is/frettir/innlent/2026/08/05/adsend_grein_dyraheilbrigdi_sem_undirstada_matvaela/",
+   "source": "Morgunblaðið",
+   "author": "Erna Bjarnadóttir",
+   "date": "2026-08-05",
+   "summary": "Erna fjallar um rýniskýrslu ESB um 12. samningskafla um matvælaöryggi og dýraheilbrigði; Ísland hafi talið nauðsynlegt að viðhalda sérreglum um varnir gegn dýrasjúkdómum og málið hafi verið óleyst þegar viðræðurnar stöðvuðust 2012. Hún spyr hvort lagabreytingar við aðild auki rekstraráhættu í matvælavirðiskeðjunni.",
+   "args": [
+    "landbunadur",
+    "adlogun"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Aðsend grein: Ósamstiga um afskipti erlendra ráðamanna?",
+   "url": "https://www.mbl.is/frettir/innlent/2026/08/04/adsend_grein_osamstiga_um_afskipti_erlendra_radaman/",
+   "source": "Morgunblaðið",
+   "author": "Hjörtur J. Guðmundsson",
+   "date": "2026-08-04",
+   "summary": "Höfundur ber saman ummæli forsætisráðherra um að hún vilji engin erlend afskipti af þjóðaratkvæðagreiðslunni og framgöngu utanríkisráðherra, sem hafi á árinu boðið hingað fimm utanríkisráðherrum ESB-ríkja sem talað hafi fyrir aðild á fundum og í fjölmiðlum.",
+   "args": [
+    "umbod"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Aðsend grein: Enn um víðtækt framsal valds til ESB",
+   "url": "https://www.mbl.is/frettir/innlent/2026/08/04/adsend_grein_enn_um_vidtaekt_framsal_valds_til_esb/",
+   "source": "Morgunblaðið",
+   "author": "Birgir Ármannsson",
+   "date": "2026-08-04",
+   "summary": "Fyrrverandi þingforseti rekur að í lögfræðilegri umfjöllun síðustu 35 ára hafi verið góður samhljómur um að ESB-aðild krefjist framsals valds á öllum sviðum ríkisvaldsins og að ráðast þyrfti í stjórnarskrárbreytingar fyrir aðild.",
+   "args": [
+    "fullveldi"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Aðsend grein: Við semjum ekki um grundvallarreglurnar",
+   "url": "https://www.mbl.is/frettir/innlent/2026/08/01/adsend_grein_vid_semjum_ekki_um_grundvallarreglurna/",
+   "source": "Morgunblaðið",
+   "author": "Arnar Þórisson",
+   "date": "2026-08-01",
+   "summary": "Höfundur segist munu svara nei, ekki af andstöðu við Evrópusamvinnu heldur því aðildarviðræður snúist í grunninn um að umsóknarríki taki upp regluverk ESB; aðeins megi semja um aðlögunartíma, varúðarákvæði og sérlausnir innan þess ramma.",
+   "args": [
+    "adlogun",
+    "undanthagur"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Aðsend grein: Við vitum nú þegar meira en nóg",
+   "url": "https://www.mbl.is/frettir/innlent/2026/07/30/adsend_grein_vid_vitum_nu_thegar_meira_en_nog/",
+   "source": "Morgunblaðið",
+   "author": "Baldur Guðlaugsson",
+   "date": "2026-07-30",
+   "summary": "Fyrrverandi ráðuneytisstjóri segir þegar liggja fyrir nóg af upplýsingum um hvað ESB-aðild fæli í sér; yfirráð yfir auðlindum væru grundvallaratriði. Hann vísar í spá AGS um að hagvöxtur í ESB verði aðeins um 1,44% á ári 2027-2031 og enn minni á evrusvæðinu.",
+   "args": [
+    "adlogun",
+    "undanthagur",
+    "efnahagur"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Aðsend grein: Hvers vegna þurfti þá meint samkomulag?",
+   "url": "https://www.mbl.is/frettir/innlent/2026/07/28/adsend_grein_hvers_vegna_thurfti_tha_meint_samkomul/",
+   "source": "Morgunblaðið",
+   "author": "Hjörtur J. Guðmundsson",
+   "date": "2026-07-28",
+   "summary": "Höfundur segir fullyrðingar utanríkisráðherra um að viðræður snúist ekki um aðlögun ganga gegn viðræðuramma ESB sjálfs, þar sem fram komi að viðræðurnar gangi út á aðlögun að regluverki og stjórnsýslu sambandsins.",
+   "args": [
+    "adlogun"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Aðsend grein: Upplýsingaóreiða í boði „sjáfólksins“",
+   "url": "https://www.mbl.is/frettir/innlent/2026/07/25/adsend_grein_upplysingaoreida_i_bodi_sjafolksins/",
+   "source": "Morgunblaðið",
+   "author": "Birgir Ármannsson",
+   "date": "2026-07-25",
+   "summary": "Birgir gagnrýnir auglýsingar á borð við „Má ég sjá … hvort börnin mín geti fengið lægri vexti?“ og segir aðildarviðræður ekki munu leiða fram neinar nýjar upplýsingar um slíkt; ekkert bendi til að ríkisstjórnin hyggist setja fram sérstakar kröfur á þessum sviðum.",
+   "args": [
+    "adlogun",
+    "evra"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Aðsend grein: Gjáin milli sannleikans og Evrópusambandssinna",
+   "url": "https://www.mbl.is/frettir/innlent/2026/07/23/adsend_grein_gjain_milli_sannleikans_og_evropusamba/",
+   "source": "Morgunblaðið",
+   "author": "Einar S. Hálfdánarson",
+   "date": "2026-07-23",
+   "summary": "Höfundur rifjar upp að Ólafur Ragnar Grímsson hafi vísað til gjár milli þings og þjóðar og segir rökin fyrir aðild vera efnahagsleg, um vexti og gjaldmiðla og um öryggi — öryggisrökin megi afgreiða út af borðinu með lágmarksþekkingu. Ekkert fyrirtæki taki fjárfestingarákvörðun án áhættumats.",
+   "args": [
+    "efnahagur",
+    "umbod"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Aðsend grein: Það skiptir máli á hvaða grunni viðræður eru hafnar á ný",
+   "url": "https://www.mbl.is/frettir/innlent/2026/07/23/adsend_grein_thad_skiptir_mali_a_hvada_grunni_vidra/",
+   "source": "Morgunblaðið",
+   "author": "Erna Bjarnadóttir",
+   "date": "2026-07-23",
+   "summary": "Erna bendir á að í leiðbeiningaefni landskjörstjórnar segi að skiptar skoðanir séu um hvort „hefja á ný aðildarviðræður“ feli í sér framhald viðræðnanna frá 2010 eða upphaf nýs aðildarferlis, og spyr hvort samningsrammi Íslands frá 2010 eigi enn við sextán árum síðar.",
+   "args": [
+    "spurning",
+    "adlogun"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Aðsend grein: Finnland á hraðri niðurleið eftir inngöngu í ESB",
+   "url": "https://www.mbl.is/frettir/innlent/2026/07/22/adsend_grein_finnland_a_hradri_nidurleid_eftir_inng/",
+   "source": "Morgunblaðið",
+   "author": "Albert Þór Jónsson",
+   "date": "2026-07-22",
+   "summary": "Höfundur segir Finnland glíma við efnahagslega stöðnun með yfir 10% atvinnuleysi, yfir 30% atvinnuleysi ungs fólks og opinberar skuldir sem nálgist 90% af þjóðarframleiðslu, eftir ESB-aðild 1995 og upptöku evru 1999.",
+   "args": [
+    "efnahagur",
+    "evra"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Aðsend grein: Evran lagar ekki umferðina",
+   "url": "https://www.mbl.is/frettir/innlent/2026/07/22/adsend_grein_evran_lagar_ekki_umferdina/",
+   "source": "Morgunblaðið",
+   "author": "Elías Elíasson",
+   "date": "2026-07-22",
+   "summary": "Höfundur segir hægrisveiflu vorsins í sveitarstjórnarkosningum að stórum hluta mega rekja til umferðartafa sem kosti þjóðfélagið tvö til þrjú prósent af landsframleiðslu — vandamál sem evran leysi ekki.",
+   "args": [
+    "evra"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Aðsend grein: Hlutfallslegur stöðugleiki tryggir ekki yfirráð yfir fiskveiðiauðlindinni",
+   "url": "https://www.mbl.is/frettir/innlent/2026/07/18/adsend_grein_hlutfallslegur_stodugleiki_tryggir_ekk/",
+   "source": "Morgunblaðið",
+   "author": "Heiðrún Lind Marteinsdóttir",
+   "date": "2026-07-18",
+   "summary": "Framkvæmdastjóri SFS segir að fullyrðingar um að Ísland haldi fullum yfirráðum yfir fiskveiðiauðlindinni og að reglan um hlutfallslegan stöðugleika verji hagsmuni Íslands geti ekki farið saman: ef Ísland þarf regluna er landið þegar komið undir sameiginlegu sjávarútvegsstefnuna.",
+   "args": [
+    "sjavarutvegur",
+    "undanthagur"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Aðsend grein: Með aðild að ESB glatar Ísland forræði yfir fiskimiðum landsins",
+   "url": "https://www.mbl.is/frettir/innlent/2026/07/18/adsend_grein_med_adild_ad_esb_glatar_island_forraed/",
+   "source": "Morgunblaðið",
+   "author": "Gunnar Gunnarsson",
+   "date": "2026-07-18",
+   "summary": "Höfundur segir aðildarsamninga að ESB að langstærstum hluta lagalegs eðlis og að tal um varanlega undanþágu frá sjávarútvegsstefnunni gleymi að málið snúist um lög, ekki pólitík.",
+   "args": [
+    "sjavarutvegur",
+    "undanthagur"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Aðsend grein: Fiskveiðar og fullveldi í Evrópusambandinu",
+   "url": "https://www.mbl.is/frettir/innlent/2026/07/16/adsend_grein_fiskveidar_og_fullveldi_i_evropusamban/",
+   "source": "Morgunblaðið",
+   "author": "Einar S. Hálfdánarson",
+   "date": "2026-07-16",
+   "summary": "Höfundur vísar í reynslu Breta sem hafi ekki áttað sig á framsali löggjafar- og dómsvalds fyrr en eftir inngöngu. Miðað við gildandi reglur fengju íslenskar útgerðir um 70% núverandi afla og æðstu dómstólar Íslands yrðu evrópskir; eftir inngöngu verði ekki aftur snúið.",
+   "args": [
+    "sjavarutvegur",
+    "fullveldi",
+    "oafturkraeft"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Aðsend grein: Íslendingar, hugsið ykkur tvisvar um",
+   "url": "https://www.mbl.is/frettir/innlent/2026/07/15/adsend_grein_islendingar_hugsid_ykkur_tvisvar_um/",
+   "source": "Morgunblaðið",
+   "author": "Eamonn Butler",
+   "date": "2026-07-15",
+   "summary": "Breski höfundurinn segir já við viðræðum kunna að virðast varfærið skref en mikið sé í húfi; ESB hafi sýnt þrautseigju við að halda ríkjum inni, eins og endurteknar atkvæðagreiðslur í Danmörku og á Írlandi sýni, og fjárfest mikið gegn Brexit 2016.",
+   "args": [
+    "oafturkraeft",
+    "fullveldi"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Aðsend grein: Nú reynir á kjölfestu Íslands sem sjálfstæðs þjóðríkis",
+   "url": "https://www.mbl.is/frettir/innlent/2026/07/14/adsend_grein_nu_reynir_a_kjolfestu_islands_sem_sjal/",
+   "source": "Morgunblaðið",
+   "author": "Hjörleifur Guttormsson",
+   "date": "2026-07-14",
+   "summary": "Fyrrverandi ráðherra rekur aldarþriðjungs sögu ESB-umræðunnar og kallar aðildarumsóknina 2009 meiriháttar ólýðræðisleg mistök studd af forystu VG andstætt flokkssamþykktum. Þjóðaratkvæðagreiðslan nú sé knúin fram af Viðreisn.",
+   "args": [
+    "fullveldi",
+    "umbod"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Evran og fólksflóttinn",
+   "url": "https://www.mbl.is/frettir/innlent/2026/07/11/adsend_grein_evran_og_folksflottinn/",
+   "source": "Morgunblaðið",
+   "author": "Hilmar Þór Hilmarsson",
+   "date": "2026-07-11",
+   "summary": "Prófessorinn segir eigin gjaldmiðil mikilvægt hagstjórnartæki fyrir fábreytt hagkerfi eins og Ísland; í myntbandalagi færist aðlögun við áföll yfir á fólkið sjálft í formi atvinnuleysis og búferlaflutninga úr landi.",
+   "args": [
+    "evra"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Þjóðaratkvæðagreiðsla í ágúst",
+   "url": "https://www.mbl.is/frettir/innlent/2026/07/08/adsend_grein_thjodaratkvaedagreidsla_i_agust/",
+   "source": "Morgunblaðið",
+   "author": "Grímur Grímsson",
+   "date": "2026-07-08",
+   "summary": "Þingmaðurinn segir undarlegan þann tón að ekki geti komið góður samningur út úr viðræðum; valkostir séu verðmæti og eðlilegt að sjá samninginn og meta þá hvort aðild fylgi fleiri kostir en gallar. Rúmlega helmingur þjóðarinnar sé samkvæmt könnunum á því að segja já.",
+   "args": [
+    "kikja",
+    "lydraedi"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Aðsend grein: Mætti ekki setja lög andstæð regluverki ESB",
+   "url": "https://www.mbl.is/frettir/innlent/2026/07/06/maetti_ekki_setja_log_andstaed_regluverki_esb/",
+   "source": "Morgunblaðið",
+   "author": "Hjörtur J. Guðmundsson",
+   "date": "2026-07-06",
+   "summary": "Höfundur bendir á að umsóknarríkjum ESB sé óheimilt að setja lög sem samrýmast ekki regluverki sambandsins á meðan á umsóknarferlinu stendur, enda gangi ferlið fyrst og fremst út á aðlögun umsóknarríkisins að regluverkinu.",
+   "args": [
+    "adlogun"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Í upphafi skyldi endinn skoða",
+   "url": "https://www.mbl.is/frettir/innlent/2026/07/04/adsend_grein_i_upphafi_skyldi_endinn_skoda/",
+   "source": "Morgunblaðið",
+   "author": "Baldur Guðlaugsson",
+   "date": "2026-07-04",
+   "summary": "Höfundur segir hættu á að talsmenn aðildar sem lengst hafa gengið í staðhæfingum um sérlausnir muni vilja sýna að þeir hafi staðið við stóru orðin, og að forystumenn ríkisstjórnarinnar gætu freistast til hins sama jafnvel þótt niðurstaða samningaferlisins yrði slæm.",
+   "args": [
+    "undanthagur",
+    "adlogun"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Hver yrðu örlög sjávarútvegs á Íslandi innan Evrópusambandsins?",
+   "url": "https://www.mbl.is/frettir/innlent/2026/06/26/adsend_grein_hver_yrdu_orlog_sjavarutvegs_a_islandi/",
+   "source": "Morgunblaðið",
+   "author": "Einar S. Hálfdánarson",
+   "date": "2026-06-26",
+   "summary": "Höfundur segir gríðarlega áhættu stafa af inngöngu í ESB fyrir sjávarútveginn; reynsla Breta af „undanþágum“ frá sjávarútvegsstefnunni sé hörmuleg því önnur ESB-ríki hafi fundið leiðir fram hjá þeim.",
+   "args": [
+    "sjavarutvegur",
+    "undanthagur"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Skeytið frá Rubio",
+   "url": "https://www.mbl.is/frettir/innlent/2026/06/24/adsend_grein_skeytid_fra_rubio/",
+   "source": "Morgunblaðið",
+   "author": "Gunnar Pálsson",
+   "date": "2026-06-24",
+   "summary": "Fyrrverandi sendiherra fjallar um árnaðaróskir Marcos Rubios á þjóðhátíðardaginn þar sem áréttað var að Bandaríkin muni áfram rækta varnarsamstarfið við Ísland á 75 ára afmæli varnarsamningsins, og segir ástæðu til að gefa þessu fullan gaum í ESB-umræðunni.",
+   "args": [
+    "hervaeding",
+    "varnarsamningur"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Aðsend grein: „Þið vitið fullkomlega hvað er í pakkanum“",
+   "url": "https://www.mbl.is/frettir/innlent/2026/06/23/adsend_grein_thid_vitid_fullkomlega_hvad_er_i_pakka/",
+   "source": "Morgunblaðið",
+   "author": "Hjörtur J. Guðmundsson",
+   "date": "2026-06-23",
+   "summary": "Höfundur vitnar í Uffe Ellemann-Jensen um að ESB sé ekki lokaður pakki — ríki viti hvað þau séu að fara út í — og segir óþarft að fara í umfangsmikið, kostnaðarsamt og tímafrekt umsóknarferli til að komast að því sem þegar liggur fyrir.",
+   "args": [
+    "adlogun",
+    "kostnadur"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Aðgát skal höfð í nærveru kletta",
+   "url": "https://www.mbl.is/frettir/innlent/2026/06/20/adsend_grein_adgat_skal_hofd_i_naerveru_kletta/",
+   "source": "Morgunblaðið",
+   "author": "Jón Helgi Egilsson",
+   "date": "2026-06-20",
+   "summary": "Fyrrverandi formaður bankaráðs Seðlabankans segir eigin gjaldmiðil skipta máli því gengið geti tekið hluta höggsins þegar áföll verða; flotgengi krónunnar tryggi betur samkeppnisstöðu hagkerfisins. Greinin er svar við grein Þrastar Ólafssonar.",
+   "args": [
+    "evra"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Aðsend grein: Er ástæða til að fagna í dag?",
+   "url": "https://www.mbl.is/frettir/innlent/2026/06/17/adsend_grein_er_astaeda_til_ad_fagna_i_dag/",
+   "source": "Morgunblaðið",
+   "author": "Sigmundur Davíð Gunnlaugsson",
+   "date": "2026-06-17",
+   "summary": "Formaður Miðflokksins skrifar á þjóðhátíðardaginn að velmegun fylgi sú hætta að fólk gleymi hvað þurfti til að ná árangrinum, og spyr hvort hluti Íslendinga hafi minna sjálfstraust fyrir hönd þjóðarinnar nú en þegar fátæk þjóð barðist fyrir sjálfstæði.",
+   "args": [
+    "fullveldi"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Húsnæðiserfiðleikar ungs fólks innan ESB",
+   "url": "https://www.mbl.is/frettir/innlent/2026/06/16/adsend_grein_husnaediserfidleikar_ungs_folks_innan_/",
+   "source": "Morgunblaðið",
+   "author": "Hjörtur J. Guðmundsson",
+   "date": "2026-06-16",
+   "summary": "Höfundur rekur skýrslu Eurofound frá því í desember þar sem dregin er upp dökk mynd af húsnæðiskrísu innan ESB; margt ungt fólk hafi ekki efni á að flytja að heiman þrátt fyrir vinnu og heimilisleysi hafi aukist í mörgum ríkjum sambandsins.",
+   "args": [
+    "efnahagur"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Aðsend grein: Þjóðaratkvæði um samningaviðræður",
+   "url": "https://www.mbl.is/frettir/innlent/2026/06/13/adsend_grein_thjodaratkvaedi_um_samningavidraedur/",
+   "source": "Morgunblaðið",
+   "author": "Elías Elíasson",
+   "date": "2026-06-13",
+   "summary": "Höfundur segir Ísland hafa áður átt í viðræðum mánuðum saman án þess að vera nær niðurstöðu; í raun sé samið við einstök aðildarríki sem hafi neitunarvald — við Spán um fiskinn — og Seðlabankinn missi áhættuvarnir sínar í gjaldeyrismálum.",
+   "args": [
+    "sjavarutvegur",
+    "evra"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Aðsend grein: Réttar forsendur, rangar ályktanir",
+   "url": "https://www.mbl.is/frettir/innlent/2026/06/12/adsend_grein_rettar_forsendur_rangar_alyktanir/",
+   "source": "Morgunblaðið",
+   "author": "Gunnar Pálsson",
+   "date": "2026-06-12",
+   "summary": "Fyrrverandi sendiherra segir svo virðast sem ekki hafi verið aflað formlegrar afstöðu bandarískra stjórnvalda til þess hvort sérstaða Íslands í öryggis- og varnarmálum haldist óbreytt við ESB-aðild; varnarsamningurinn frá 1951 sé tvíhliða og breyttar aðstæður annars aðilans geti haft áhrif.",
+   "args": [
+    "hervaeding",
+    "varnarsamningur"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Aðsend grein: Efnahagsleg hnignun ESB",
+   "url": "https://www.mbl.is/frettir/innlent/2026/06/12/adsend_grein_efnahagsleg_hnignun_esb/",
+   "source": "Morgunblaðið",
+   "author": "Ragnar Árnason",
+   "date": "2026-06-12",
+   "summary": "Prófessorinn segir hlutdeild ESB í heimsframleiðslunni hafa dregist verulega saman frá því um 1990 og efnahagslega frammistöðu sambandsins hafa verið slaka miðað við aðrar þjóðir heims samkvæmt hagtölum Alþjóðabankans.",
+   "args": [
+    "efnahagur"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Aðsend grein: Evran og áhættan",
+   "url": "https://www.mbl.is/frettir/innlent/2026/06/10/adsend_grein_evran_og_ahaettan/",
+   "source": "Morgunblaðið",
+   "author": "Hilmar Þór Hilmarsson",
+   "date": "2026-06-10",
+   "summary": "Prófessorinn segir evruna eiga að tryggja stöðugleika, lága verðbólgu og lága vexti, en verðbólga sé mjög mismunandi meðal evrulanda og sum þeirra með álíka háa verðbólgu og Ísland.",
+   "args": [
+    "evra"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Aðsend grein: Mun ríkisstjórnin þurfa að segja af sér eftir að tapa ESB-þjóðaratkvæðagreiðslunni?",
+   "url": "https://www.mbl.is/frettir/innlent/2026/06/10/adsend_grein_mun_rikisstjornin_thurfa_ad_segja_af_s/",
+   "source": "Morgunblaðið",
+   "author": "Einar S. Hálfdánarson",
+   "date": "2026-06-10",
+   "summary": "Höfundur gerir gagnrýni Eiríks Bergmanns á Kristrúnu Frostadóttur að umtalsefni og veltir fyrir sér pólitískum afleiðingum þess fyrir ríkisstjórnina að tapa þjóðaratkvæðagreiðslunni.",
+   "args": [
+    "umbod"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Aðsend grein: Málið snýst um stjórnunarréttinn",
+   "url": "https://www.mbl.is/frettir/innlent/2026/06/09/adsend_grein_malid_snyst_um_stjornunarrettinn/",
+   "source": "Morgunblaðið",
+   "author": "Hjörtur J. Guðmundsson",
+   "date": "2026-06-09",
+   "summary": "Höfundur bendir á að Lissabon-sáttmálinn kveði á um fullt vald ESB yfir vernd auðlinda sjávar og að einungis sambandið geti sett lög um þær; umræða um eignarhald á auðlindum breyti engu um stjórnunarréttinn.",
+   "args": [
+    "sjavarutvegur",
+    "undanthagur"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Aðsend grein: Krónan er ekki gallalaus en evran er heldur ekki töfralausn",
+   "url": "https://www.mbl.is/frettir/innlent/2026/06/06/adsend_grein_kronan_er_ekki_gallalaus_en_evran_er_h/",
+   "source": "Morgunblaðið",
+   "author": "Guðrún Hafsteinsdóttir",
+   "date": "2026-06-06",
+   "summary": "Formaður Sjálfstæðisflokksins segir umræðu um krónuna jafnan blossa upp þegar verðbólga er mikil og vextir bíta, enda snerti gjaldmiðillinn daglegt líf fólks, en evran sé engin töfralausn.",
+   "args": [
+    "evra"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Aðsend grein: Evran enginn happafengur",
+   "url": "https://www.mbl.is/frettir/innlent/2026/06/05/adsend_grein_evran_enginn_happafengur/",
+   "source": "Morgunblaðið",
+   "author": "Ragnar Árnason",
+   "date": "2026-06-05",
+   "summary": "Prófessorinn segir skýrslu erlendu sérfræðinganna um valkosti Íslands í gjaldeyrismálum ekki komast að þeirri niðurstöðu að upptaka evru sé ávinningur fyrir Ísland; helsti boðskapur hennar sé að upptöku evru fylgi bæði kostir og gallar.",
+   "args": [
+    "skyrslan",
+    "evra"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Hvað merkir að umsókn sé „enn í gildi“?",
+   "url": "https://www.mbl.is/frettir/innlent/2026/05/28/hvad_merkir_ad_umsokn_se_enn_i_gildi/",
+   "source": "Morgunblaðið",
+   "author": "Erna Bjarnadóttir",
+   "date": "2026-05-28",
+   "summary": "Erna spyr hvaða stjórnskipulegu stöðu sé verið að lýsa þegar sagt er að aðildarumsóknin frá 2009 sé „enn í gildi“, og rekur formlegt aðildarferli Íslands innan stofnanakerfis ESB frá 2009-2010.",
+   "args": [
+    "spurning",
+    "adlogun"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Fyrirspurn til Kristrúnar Frostadóttur",
+   "url": "https://www.mbl.is/frettir/innlent/2026/05/28/fyrirspurn_til_kristrunar_frostadottur/",
+   "source": "Morgunblaðið",
+   "author": "Guðni Ágústsson",
+   "date": "2026-05-28",
+   "summary": "Guðni biður forsætisráðherra að svara hvort hún hafi kynnt sér fyrirliggjandi gögn um áhrif ESB-aðildar á landbúnaðinn, þar á meðal skýrsluna Sveitalíf 2025 sem spáði hraðri fækkun mjólkurframleiðenda við inngöngu.",
+   "args": [
+    "landbunadur"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "En hvað það var skrítið",
+   "url": "https://www.mbl.is/frettir/innlent/2026/05/20/adsend_grein_en_hvad_thad_var_skritid/",
+   "source": "Morgunblaðið",
+   "author": "Gunnar Pálsson",
+   "date": "2026-05-20",
+   "summary": "Fyrrverandi sendiherra notar þuluna um Humpty Dumpty sem líkingu um lýðveldið og fjallar um stöðu þess í aðdraganda atkvæðagreiðslunnar.",
+   "args": [
+    "fullveldi"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Værum efnislega gengin í ESB",
+   "url": "https://www.mbl.is/frettir/innlent/2026/05/19/adsend_grein_vaerum_efnislega_gengin_i_esb/",
+   "source": "Morgunblaðið",
+   "author": "Hjörtur J. Guðmundsson",
+   "date": "2026-05-19",
+   "summary": "Höfundur segir að yrði samþykkt að hefja umsóknarferli á ný, með tilheyrandi fullri aðlögun að regluverki og stjórnsýslu ESB samhliða viðræðum, væru Íslendingar í raun efnislega gengnir í sambandið áður en samningur lægi fyrir.",
+   "args": [
+    "adlogun"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Fullveldið greinilega engin fyrirstaða",
+   "url": "https://www.mbl.is/frettir/innlent/2026/05/13/adsend_grein_fullveldid_greinilega_engin_fyrirstada/",
+   "source": "Morgunblaðið",
+   "author": "Hjörtur J. Guðmundsson",
+   "date": "2026-05-13",
+   "summary": "Höfundur svarar grein Péturs J. Eiríkssonar hagfræðings og gagnrýnir að fullveldið virðist engin fyrirstaða í augum þeirra sem kalla inngöngu í ESB „þátttöku í samstarfi lýðræðisþjóða“.",
+   "args": [
+    "fullveldi"
    ],
    "impact": 2
   }
