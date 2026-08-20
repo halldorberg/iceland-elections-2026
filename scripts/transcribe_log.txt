@@ -1,0 +1,23 @@
+loading model...
+10 transcribed
+20 transcribed
+FAIL 7666512244108299522.mp4: tuple index out of range
+FAIL 7666766826508094722.mp4: tuple index out of range
+FAIL 7667601447684525334.mp4: tuple index out of range
+30 transcribed
+FAIL 7671605713994517782.mp4: tuple index out of range
+FAIL 7672298106855247126.mp4: tuple index out of range
+40 transcribed
+FAIL 7673083027244764438.mp4: tuple index out of range
+50 transcribed
+60 transcribed
+70 transcribed
+FAIL 7657155477670759682.mp4: tuple index out of range
+80 transcribed
+90 transcribed
+100 transcribed
+110 transcribed
+120 transcribed
+130 transcribed
+140 transcribed
+TRANSCRIPTION DONE: 145 ok, 7 failed

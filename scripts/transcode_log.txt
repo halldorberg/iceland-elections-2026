@@ -1,0 +1,8 @@
+20 transcoded
+40 transcoded
+60 transcoded
+80 transcoded
+100 transcoded
+120 transcoded
+140 transcoded
+TRANSCODE DONE: 145 ok, 0 failed, 759 MB total

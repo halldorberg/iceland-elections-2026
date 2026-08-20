@@ -31,3 +31,5 @@ scripts/dv_cache/
 scripts/mbl_cache/
 scripts/vb8_extract/
 scripts/*.png
+
+esb-videos/

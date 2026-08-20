@@ -1,0 +1,13 @@
+bucket created
+20 uploaded
+40 uploaded
+60 uploaded
+80 uploaded
+100 uploaded
+120 uploaded
+140 uploaded
+upload done: 145 new, 0 skipped
+oac: E1IEB0WE6LXWML
+distribution: E35LQIAQBBR8FW d2phchlsyto3ho.cloudfront.net
+bucket policy set
+CDN READY: https://d2phchlsyto3ho.cloudfront.net/media/

@@ -541,6 +541,47 @@
     .ja .pill { background: var(--ja-bg); border-color: var(--ja-border); color: var(--ja); }
     .nei .pill { background: var(--nei-bg); border-color: var(--nei-border); color: var(--nei); }
 
+    /* ── Video teaser (phone frame) ─────────────────────────── */
+    .vt-row { margin-top: 14px !important; margin-bottom: 28px !important; row-gap: 0 !important; }
+    @media (max-width: 800px) {
+      .vt-phone { width: 96% !important; }
+      .vt-title { display: none; }
+      .vt-overlay { padding: 20px 8px 8px; text-align: center; }
+      .vt-cta { font-size: 0.66rem; padding: 4px 10px; }
+      .vt-badge { top: 7px; left: 7px; font-size: 0.7rem; padding: 2px 9px; }
+    }
+    .vt-phone {
+      position: relative; display: inline-block;
+      width: min(200px, 58%); aspect-ratio: 9/16;
+      border-radius: 26px; overflow: hidden;
+      background: #0a0e1a;
+      box-shadow: 0 10px 36px rgba(0,0,0,0.28), 0 0 0 6px #0f1923, 0 0 0 8px rgba(0,0,0,0.15);
+      cursor: pointer;
+      transition: transform 0.2s;
+    }
+    @media (hover: hover) { .vt-phone:hover { transform: scale(1.025); } }
+    .vt-phone video { width: 100%; height: 100%; object-fit: cover; }
+    .vt-badge {
+      position: absolute; top: 10px; left: 10px;
+      padding: 3px 12px; border-radius: 999px; color: #fff;
+      font-weight: 800; font-size: 0.8rem;
+      background: var(--ja);
+      transition: background 0.3s;
+    }
+    .vt-badge.nei { background: var(--nei); }
+    .vt-overlay {
+      position: absolute; left: 0; right: 0; bottom: 0;
+      padding: 26px 12px 12px;
+      background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
+      color: #fff; text-align: left;
+    }
+    .vt-title { font-size: 0.74rem; font-weight: 600; line-height: 1.3; margin-bottom: 6px; }
+    .vt-cta {
+      display: inline-block; padding: 5px 12px; border-radius: 999px;
+      background: rgba(255,255,255,0.92); color: #0f1923;
+      font-size: 0.72rem; font-weight: 700;
+    }
+
     /* ── Articles carousel ──────────────────────────────────── */
     .carousel-section {
       width: 80%;
@@ -588,6 +629,16 @@
       font-size: 0.79rem; color: var(--eu-muted); line-height: 1.45;
       display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden;
     }
+    .car-more {
+      display: flex; flex-direction: column;
+      align-items: center; justify-content: center; gap: 10px;
+      background: rgba(26,86,219,0.06);
+      border: 1px dashed rgba(26,86,219,0.35);
+      text-decoration: none;
+    }
+    .car-more-icon { font-size: 2rem; }
+    .car-more-text { color: #1a4fa8; font-weight: 700; font-size: 0.88rem; text-align: center; }
+    .car-more:hover { background: rgba(26,86,219,0.12); }
     .car-pills { margin-top: 8px; }
     .car-pills .pill { text-decoration: none; cursor: pointer; }
     .car-pills .pill:hover { filter: brightness(0.9); }
@@ -733,6 +784,30 @@
     <div class="esb-col nei"><h2>NIE — Nie kontynuować negocjacji</h2></div>
   </div>
 
+  <!-- Video teasers: one phone per side, under the JA/NEI pills -->
+  <div class="esb-columns vt-row">
+    <div class="esb-col ja" style="text-align:center">
+      <a class="vt-phone" href="/esbkosningar2026/videos/" aria-label="Myndbandaveislan JÁ">
+        <video id="vt-ja" muted playsinline preload="auto"></video>
+        <div class="vt-badge">JÁ</div>
+        <div class="vt-overlay">
+          <div class="vt-title" id="vt-ja-title"></div>
+          <div class="vt-cta">▶ Obejrzyj wszystkie filmy</div>
+        </div>
+      </a>
+    </div>
+    <div class="esb-col nei" style="text-align:center">
+      <a class="vt-phone" href="/esbkosningar2026/videos/" aria-label="Myndbandaveislan NEI">
+        <video id="vt-nei" muted playsinline preload="auto"></video>
+        <div class="vt-badge nei">NEI</div>
+        <div class="vt-overlay">
+          <div class="vt-title" id="vt-nei-title"></div>
+          <div class="vt-cta">▶ Obejrzyj wszystkie filmy</div>
+        </div>
+      </a>
+    </div>
+  </div>
+
   <!-- ── ESB: two-column content ───────────────────────────── -->
   <div class="esb-columns">
 
@@ -799,7 +874,7 @@
   </div>
 
   <!-- ── Data + init ───────────────────────────────────────── -->
-  <script src="/js/esb-data.pl.js?v=4"></script>
+  <script src="/js/esb-data.pl.js?v=5"></script>
   <script src="/js/esb-motrok.pl.js?v=4"></script>
   <script>
   (function () {
@@ -902,8 +977,12 @@
           <div class="pills car-pills">${pills}</div>
         </div>`;
       }).join('');
-      el.innerHTML += el.innerHTML; // duplicate for seamless loop
       const total = DATA.articles.length;
+      el.innerHTML += `<a class="car-card car-more" href="/esbkosningar2026/greinar/">
+        <div class="car-more-icon">📚</div>
+        <div class="car-more-text">Zobacz wszystkie ${total} artykuły →</div>
+      </a>`;
+      el.innerHTML += el.innerHTML; // duplicate for seamless loop
       document.getElementById('all-articles-btn').textContent = `Zobacz wszystkie ${total} artykuły →`;
       setupCarouselScroll(el);
     }
@@ -1013,6 +1092,38 @@
       else setTimeout(minimize, 5000);
       minBtn.addEventListener('click', minimize);
       badge.addEventListener('click', expand);
+    })();
+  </script>
+
+  <!-- Video teasers: each phone cycles silent 5s tastes of its side -->
+  <script src="/js/esb-videos.js?v=2"></script>
+  <script>
+    (function () {
+      function cycler(side, vidId, titleId) {
+        const vid = document.getElementById(vidId);
+        const title = document.getElementById(titleId);
+        if (!vid || typeof VIDEOFEED === 'undefined') return;
+        const clips = VIDEOFEED.filter(v => v.side === side).slice(0, 8);
+        if (!clips.length) return;
+        let i = 0, timer = null;
+        function show(n) {
+          const cl = clips[n % clips.length];
+          vid.src = 'https://d2phchlsyto3ho.cloudfront.net/media/' + cl.id + '.mp4';
+          vid.play().catch(() => {});
+          title.textContent = cl.title;
+        }
+        const io = new IntersectionObserver(es => {
+          if (es[0].isIntersecting) {
+            if (!vid.src) show(0);
+            vid.play().catch(() => {});
+            clearInterval(timer);
+            timer = setInterval(() => { i++; show(i); }, 5000);
+          } else { vid.pause(); clearInterval(timer); }
+        }, { threshold: 0.4 });
+        io.observe(vid);
+      }
+      cycler('ja', 'vt-ja', 'vt-ja-title');
+      cycler('nei', 'vt-nei', 'vt-nei-title');
     })();
   </script>
 

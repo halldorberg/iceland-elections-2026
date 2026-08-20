@@ -1,0 +1,31 @@
+{
+  "aframisland": {
+    "side": "nei",
+    "tiktok": "https://www.tiktok.com/@afram.island",
+    "instagram": "https://www.instagram.com/afram_island26",
+    "facebook": "https://www.facebook.com/profile.php?id=61591459617910",
+    "youtube": "https://www.youtube.com/@%C3%81fram%C3%8Dsland"
+  },
+  "sja": {
+    "side": "ja",
+    "tiktok": "https://www.tiktok.com/@jatiladsja",
+    "instagram": "https://www.instagram.com/jatiladsja",
+    "facebook": "https://www.facebook.com/jatiladsja/",
+    "youtube": "https://www.youtube.com/@jatiladsja"
+  },
+  "evropuhreyfingin": {
+    "side": "ja",
+    "tiktok": "https://www.tiktok.com/@evropuhreyfingin",
+    "instagram": "https://www.instagram.com/evropuhreyfingin/",
+    "facebook": "https://www.facebook.com/evropuhreyfingin",
+    "youtube": null
+  },
+  "heimssyn": {
+    "side": "nei",
+    "tiktok": "https://www.tiktok.com/@heimssyn",
+    "instagram": null,
+    "facebook": "https://www.facebook.com/Heimssyn/",
+    "youtube": "https://www.youtube.com/@heimssyn"
+  },
+  "notes": "Verified 2026-08-20. TikTok profiles confirmed via profile JSON: @afram.island (nickname 'Áfram Ísland', 1881 followers, 83 videos), @jatiladsja ('Já til að sjá', 1255 followers, 53 videos), @evropuhreyfingin ('Evrópuhreyfingin', 540 followers, 23 videos), @heimssyn ('Heimssyn', bio 'Félag um fullveldi Íslands', 10 followers, only 2 videos). YouTube confirmed: @ÁframÍsland ('Áfram Ísland'), @jatiladsja ('SJÁ'), @heimssyn ('Heimssýn - Afþökkum aðild að ESB', legacy /user/heimssyn). No Evrópuhreyfingin YouTube found; their Meginlandið podcast is audio-only on Spotify/Apple. Instagram profiles sit behind login wall so post content unverifiable directly, but afram_island26, jatiladsja and evropuhreyfingin handles are linked from the movements' own websites. Heimssýn has no Instagram found; its site footer also links a Facebook group at facebook.com/groups/heimssyn in addition to the page. Áfram Ísland Facebook is a numeric-ID page (id=61591459617910) linked from aframisland.is (site blocks bots; links extracted via curl with browser UA)."
+}

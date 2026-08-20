@@ -42,6 +42,7 @@ UI = [
  ('Nánar um þessi rök →', {'en': 'More about this argument →', 'pl': 'Więcej o tym argumencie →'}),
  ('Skoða allar ${total} greinarnar →', {'en': 'See all ${total} articles →', 'pl': 'Zobacz wszystkie ${total} artykuły →'}),
  ("const sideLbl = a.side === 'ja' ? 'JÁ' : 'NEI';", {'en': "const sideLbl = a.side === 'ja' ? 'YES' : 'NO';", 'pl': "const sideLbl = a.side === 'ja' ? 'TAK' : 'NIE';"}),
+ ('▶ Horfa á öll video', {'en': '▶ Watch all videos', 'pl': '▶ Obejrzyj wszystkie filmy'}),
  ('Fyrirvari', {'en': 'Disclaimer', 'pl': 'Zastrzeżenie'}),
  ('Efnið er tekið saman með aðstoð gervigreindar úr opinberum heimildum á netinu. Við getum ekki ábyrgst fulla nákvæmni og mælum með að staðfesta mikilvægar upplýsingar í frumheimildum.',
   {'en': 'Content is compiled with AI assistance from public online sources. We cannot guarantee full accuracy and recommend verifying important information in the original sources.',
@@ -53,7 +54,7 @@ UI = [
   {'en': 'content="Analysis of the debate around Iceland\\u2019s 29 August 2026 referendum on resuming EU accession talks. Arguments of both sides in one overview."'.replace('\\u2019', '’'),
    'pl': 'content="Analiza debaty wokół islandzkiego referendum z 29 sierpnia 2026 r. w sprawie negocjacji akcesyjnych z UE. Argumenty obu stron w jednym przeglądzie."'}),
  ('<link rel="canonical" href="https://lydraedisveislan.is/" />', '<link rel="canonical" href="https://lydraedisveislan.is/{L}/" />'),
- ('js/esb-data.js?v=5', '/js/esb-data.{L}.js?v=4'),
+ ('js/esb-data.js?v=6', '/js/esb-data.{L}.js?v=5'),
  ('js/esb-motrok.js?v=3', '/js/esb-motrok.{L}.js?v=4'),
  ('src="js/esb', 'src="/js/esb'),  # safety for relative refs from /en/
  ("from './js/i18n.js?v=4'", "from '/js/i18n.js?v=4'"),
