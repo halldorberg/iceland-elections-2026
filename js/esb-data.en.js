@@ -1,5 +1,5 @@
 const DATA = {
- "note": "Report prepared on 6 August 2026. The analysis covered the websites of movements (Evrópuhreyfingin, SJÁ, Heimssýn, Áfram Ísland, Til vinstri við ESB, Frjálst land), media outlets (Vísir, mbl.is, RÚV, DV, Heimildin, Viðskiptablaðið, Bændablaðið, Skessuhorn, Austurfrétt, Feykir, BB.is, Eyjafréttir, Vikublaðið, Útvarp Saga, Mannlíf, Nútíminn), as well as open discussion on Reddit and Facebook. Neutral news reports are not counted in the columns.",
+ "note": "Report first prepared on 6 August 2026 and last updated on 20 August 2026. All articles about the referendum on Vísir, Eyjan (DV), and submitted opinion pieces in Morgunblaðið were analysed, as well as the movements’ websites (Evrópuhreyfingin, SJÁ, Heimssýn, Áfram Ísland, Til vinstri við ESB, Frjálst land), other media outlets (RÚV, Heimildin, Viðskiptablaðið, Bændablaðið, Skessuhorn, Austurfrétt, Feykir, BB.is, Eyjafréttir, Vikublaðið, Útvarp Saga, Mannlíf, Nútíminn), public discussion on Reddit and Facebook, and TikTok videos by the campaign movements. Neutral news reports are not counted in the columns.",
  "movements": {
   "ja": [
    {
@@ -11307,12 +11307,12 @@ const DATA = {
   },
   {
    "side": "ja",
-   "title": "▶ Raddir af stofnfundi: af hverju já",
+   "title": "▶ Voices from the founding meeting: why yes",
    "url": "https://www.tiktok.com/@jatiladsja/video/7654565445189815555",
    "source": "TikTok · SJÁ",
    "author": null,
    "date": "2026-06-23",
-   "summary": "Viðmælendur á stofnfundi SJÁ vilja sjá samning, láta þjóðina ráða framtíðinni og telja ESB fela í sér tækifæri fyrir ungt fólk.",
+   "summary": "Interviewees at SJÁ’s founding meeting want to see an agreement, let the nation decide its future, and believe the EU offers opportunities for young people.",
    "args": [
     "kikja",
     "lydraedi",
@@ -11323,12 +11323,12 @@ const DATA = {
   },
   {
    "side": "ja",
-   "title": "▶ Segjum já og sjáum hvað kemur út",
+   "title": "▶ Let’s say yes and see what comes of it",
    "url": "https://www.tiktok.com/@jatiladsja/video/7654914276515138838",
    "source": "TikTok · SJÁ",
    "author": null,
    "date": "2026-06-24",
-   "summary": "Viðmælendur segja að aldrei fáist úr því skorið hvernig aðild liti út nema klára viðræður; galið sé að loka glugganum sem nú standi opinn.",
+   "summary": "Interviewees say there is no way to determine what membership would look like unless the talks are completed; that it would be crazy to close the window that is now open.",
    "args": [
     "kikja",
     "timagluggi"
@@ -11338,12 +11338,12 @@ const DATA = {
   },
   {
    "side": "ja",
-   "title": "▶ Ekki segja nei við óskrifuðum samningi",
+   "title": "▶ Don’t say no to an unwritten agreement",
    "url": "https://www.tiktok.com/@jatiladsja/video/7655362105553571094",
    "source": "TikTok · SJÁ",
    "author": null,
    "date": "2026-06-25",
-   "summary": "Ungt fólk á stofnfundi SJÁ segir ESB stórt tækifæri og vill taka upplýsta ákvörðun þegar samningur liggur fyrir í stað þess að hafna honum óséðum.",
+   "summary": "Young people at SJÁ’s founding meeting say the EU is a major opportunity and want to make an informed decision once an agreement is on the table instead of rejecting it unseen.",
    "args": [
     "kikja",
     "taekifaeri"
@@ -11353,12 +11353,12 @@ const DATA = {
   },
   {
    "side": "ja",
-   "title": "▶ Ég vil sjá hvað er í boði",
+   "title": "▶ I want to see what’s on offer",
    "url": "https://www.tiktok.com/@jatiladsja/video/7655693715071126806",
    "source": "TikTok · SJÁ",
    "author": null,
    "date": "2026-06-26",
-   "summary": "Viðmælendur segjast ætla að kjósa já til að sjá hvað er í boði og taka upplýsta ákvörðun út frá því.",
+   "summary": "Interviewees say they intend to vote yes in order to see what is on offer and make an informed decision on that basis.",
    "args": [
     "kikja"
    ],
@@ -11367,12 +11367,12 @@ const DATA = {
   },
   {
    "side": "ja",
-   "title": "▶ Vil sjá samning og sterkari gjaldmiðil",
+   "title": "▶ Want to see an agreement and a stronger currency",
    "url": "https://www.tiktok.com/@jatiladsja/video/7656066080955321622",
    "source": "TikTok · SJÁ",
    "author": null,
    "date": "2026-06-27",
-   "summary": "Viðmælendur vilja fá samning á borðið áður en afstaða er tekin og einn vill sterkari gjaldmiðil sem hrynur ekki í stað krónunnar.",
+   "summary": "Interviewees want an agreement on the table before a position is taken, and one wants a stronger currency that does not collapse in place of the króna.",
    "args": [
     "kikja",
     "vextir"
@@ -11382,12 +11382,12 @@ const DATA = {
   },
   {
    "side": "ja",
-   "title": "▶ Upplýst ákvörðun fyrir komandi kynslóðir",
+   "title": "▶ An informed decision for future generations",
    "url": "https://www.tiktok.com/@jatiladsja/video/7656464304027258134",
    "source": "TikTok · SJÁ",
    "author": null,
    "date": "2026-06-28",
-   "summary": "Viðmælendur segja óábyrgt að fleygja tækifærum á glæ; með jái fáist að sjá hvað er í boði fyrir komandi kynslóðir.",
+   "summary": "Interviewees say it is irresponsible to throw opportunities away; with a yes vote, people get to see what is on offer for future generations.",
    "args": [
     "kikja",
     "taekifaeri"
@@ -11397,12 +11397,12 @@ const DATA = {
   },
   {
    "side": "ja",
-   "title": "▶ Forvitni er grundvöllur framfara",
+   "title": "▶ Curiosity is the foundation of progress",
    "url": "https://www.tiktok.com/@jatiladsja/video/7656800291576139030",
    "source": "TikTok · SJÁ",
    "author": null,
    "date": "2026-06-29",
-   "summary": "Viðmælendur segja forvitni mannkost, vilja sjá lokasamning og tækifæri unga fólksins — og hrópa húrra fyrir lægri vöxtum.",
+   "summary": "Interviewees say curiosity is a virtue, want to see the final agreement and opportunities for young people — and cheer for lower interest rates.",
    "args": [
     "kikja",
     "taekifaeri",
@@ -11413,12 +11413,12 @@ const DATA = {
   },
   {
    "side": "ja",
-   "title": "▶ Gengismunurinn étur peningana þína",
+   "title": "▶ The exchange-rate spread eats your money",
    "url": "https://www.tiktok.com/@jatiladsja/video/7657943541020183811",
    "source": "TikTok · SJÁ",
    "author": null,
    "date": "2026-07-02",
-   "summary": "Sýnt er hvernig þúsundkall rýrnar um 500 krónur við það eitt að skipta krónum í evrur og til baka vegna gengismunar.",
+   "summary": "It is shown how a 1,000-króna note shrinks by 500 krónur simply by exchanging krónur into euros and back again because of the exchange-rate spread.",
    "args": [
     "vextir"
    ],
@@ -11427,12 +11427,12 @@ const DATA = {
   },
   {
    "side": "ja",
-   "title": "▶ Veit Sigmundur Davíð betur en Danir?",
+   "title": "▶ Does Sigmundur Davíð know better than the Danes?",
    "url": "https://www.tiktok.com/@jatiladsja/video/7659376066426932502",
    "source": "TikTok · SJÁ",
    "author": null,
    "date": "2026-07-06",
-   "summary": "Vitnað er í kannanir þar sem 75–91% Dana, Íra og Svía telja sig betur setta innan ESB og spurt hvort Sigmundur Davíð viti betur en íbúarnir sjálfir.",
+   "summary": "Polls are cited in which 75–91% of Danes, Irish people and Swedes say they are better off within the EU, and it is asked whether Sigmundur Davíð knows better than the residents themselves.",
    "args": [
     "kjor",
     "hraedslu"
@@ -11442,12 +11442,12 @@ const DATA = {
   },
   {
    "side": "ja",
-   "title": "▶ Tollafgreiðslan er vesen fyrir alla",
+   "title": "▶ Customs clearance is a hassle for everyone",
    "url": "https://www.tiktok.com/@jatiladsja/video/7659377265158917378",
    "source": "TikTok · SJÁ",
    "author": null,
    "date": "2026-07-09",
-   "summary": "Sögð saga af flutningamanni sem vill ekki tollabandalag því tollafgreiðsla sé tekjulind; sögumanni finnst það ekki góð ástæða til að viðhalda veseni fyrir aðra.",
+   "summary": "A story is told about a freight carrier who does not want a customs union because customs clearance is a source of income; the narrator does not think that is a good reason to maintain inconvenience for others.",
    "args": [
     "tollfrelsi"
    ],
@@ -11456,12 +11456,12 @@ const DATA = {
   },
   {
    "side": "ja",
-   "title": "▶ Mun Ísland hætta að vera Ísland?",
+   "title": "▶ Will Iceland stop being Iceland?",
    "url": "https://www.tiktok.com/@jatiladsja/video/7660170050233535766",
    "source": "TikTok · SJÁ",
    "author": null,
    "date": "2026-07-08",
-   "summary": "Bent er á að Finnland, Ítalía og Danmörk haldi menningu sinni innan ESB og Ísland gæti því áfram verið stolt af sinni.",
+   "summary": "It is pointed out that Finland, Italy and Denmark retain their culture within the EU, and Iceland could therefore continue to be proud of its own.",
    "args": [
     "hraedslu"
    ],
@@ -11470,12 +11470,12 @@ const DATA = {
   },
   {
    "side": "ja",
-   "title": "▶ Kosið um viðræður, ekki aðild",
+   "title": "▶ A vote on talks, not membership",
    "url": "https://www.tiktok.com/@jatiladsja/video/7660171018144615702",
    "source": "TikTok · SJÁ",
    "author": null,
    "date": "2026-07-09",
-   "summary": "Útskýrt er að atkvæðagreiðslan snúist um að hefja viðræður; náist samningur verði kosið aftur um hann sjálfan.",
+   "summary": "It is explained that the vote is about starting negotiations; if an agreement is reached, there will be another vote on the agreement itself.",
    "args": [
     "kikja"
    ],
@@ -11484,12 +11484,12 @@ const DATA = {
   },
   {
    "side": "ja",
-   "title": "▶ Hvað eiga Pútín og Halla sameiginlegt?",
+   "title": "▶ What do Putin and Halla have in common?",
    "url": "https://www.tiktok.com/@jatiladsja/video/7660171315877301526",
    "source": "TikTok · SJÁ",
    "author": null,
    "date": "2026-07-08",
-   "summary": "Farið er yfir Evrópukort og bent á að utan ESB-tengsla standi aðeins Hvíta-Rússland, Rússland og Ísland; Ísland eigi samleið með lýðræðisríkjum Evrópu.",
+   "summary": "A map of Europe is reviewed and it is pointed out that only Belarus, Russia and Iceland remain outside EU ties; Iceland belongs alongside Europe’s democracies.",
    "args": [
     "gildi"
    ],
@@ -11498,12 +11498,12 @@ const DATA = {
   },
   {
    "side": "ja",
-   "title": "▶ Búa hjá foreldrum til þrítugs?",
+   "title": "▶ Living with your parents until 30?",
    "url": "https://www.tiktok.com/@jatiladsja/video/7660171516000341250",
    "source": "TikTok · SJÁ",
    "author": null,
    "date": "2026-07-10",
-   "summary": "Ungt fólk komist ekki inn á fasteignamarkaðinn og spurt er hvort lægri vextir séu mögulegir; þess vegna vilji sögumaður sjá samninginn.",
+   "summary": "Young people cannot get into the housing market, and the question is raised whether lower interest rates are possible; that is why the narrator wants to see the agreement.",
    "args": [
     "vextir",
     "taekifaeri",
@@ -11514,12 +11514,12 @@ const DATA = {
   },
   {
    "side": "ja",
-   "title": "▶ Myndirðu segja nei við Kylie Jenner?",
+   "title": "▶ Would you say no to Kylie Jenner?",
    "url": "https://www.tiktok.com/@jatiladsja/video/7660171617468730646",
    "source": "TikTok · SJÁ",
    "author": null,
    "date": "2026-07-10",
-   "summary": "Stefnumótalíking: 29. ágúst sé ekki verið að giftast ESB heldur aðeins að kynnast og skoða hvað gæti orðið.",
+   "summary": "A dating analogy: on 29 August, Iceland is not marrying the EU, only getting to know it and seeing what might come of it.",
    "args": [
     "kikja"
    ],
@@ -11528,12 +11528,12 @@ const DATA = {
   },
   {
    "side": "ja",
-   "title": "▶ Myndirðu ekki opna happatreyjuna?",
+   "title": "▶ Wouldn’t you open the lucky sweater?",
    "url": "https://www.tiktok.com/@jatiladsja/video/7661281508295986454",
    "source": "TikTok · SJÁ",
    "author": null,
    "date": "2026-07-11",
-   "summary": "Líking um happatreyju: enginn hendir pakka óopnuðum og því eigi að opna og skoða hvað kemur upp úr honum.",
+   "summary": "An analogy about a lucky sweater: no one throws away a package unopened, so it should be opened and examined to see what is inside.",
    "args": [
     "kikja"
    ],
@@ -11542,12 +11542,12 @@ const DATA = {
   },
   {
    "side": "ja",
-   "title": "▶ 100–150 þúsund krónum meira á mánuði",
+   "title": "▶ 100–150 thousand krónur more per month",
    "url": "https://www.tiktok.com/@jatiladsja/video/7661989806225820950",
    "source": "TikTok · SJÁ",
    "author": null,
    "date": "2026-07-13",
-   "summary": "Fullyrt að íslensk heimili greiði 100–150 þúsund krónum meira á mánuði af húsnæðisláni en sambærileg evrópsk fjölskylda og því vilji sögumaður sjá samninginn.",
+   "summary": "It is claimed that Icelandic households pay 100–150 thousand krónur more per month on their mortgage than a comparable European family, and that is why the narrator wants to see the agreement.",
    "args": [
     "vextir",
     "kikja"
@@ -11557,12 +11557,12 @@ const DATA = {
   },
   {
    "side": "ja",
-   "title": "▶ Er Ísland að missa fullveldið?",
+   "title": "▶ Is Iceland losing its sovereignty?",
    "url": "https://www.tiktok.com/@jatiladsja/video/7661990096576679191",
    "source": "TikTok · SJÁ",
    "author": null,
    "date": "2026-07-13",
-   "summary": "Leiðréttur sagður misskilningur: 29. ágúst sé aðeins ákveðið hvort ræða eigi við ESB og ekkert fullveldi tapist við það.",
+   "summary": "What is described as a misunderstanding is corrected: on 29 August, the only decision is whether to talk to the EU, and no sovereignty would be lost by doing so.",
    "args": [
     "hraedslu",
     "kikja"
@@ -11572,12 +11572,12 @@ const DATA = {
   },
   {
    "side": "ja",
-   "title": "▶ 370 þúsund manns án sætis við borðið",
+   "title": "▶ 370 thousand people without a seat at the table",
    "url": "https://www.tiktok.com/@jatiladsja/video/7662769792398445846",
    "source": "TikTok · SJÁ",
    "author": null,
    "date": "2026-07-15",
-   "summary": "Á tímum innrásar Rússlands og fráhvarfs Bandaríkjanna standi Evrópa saman en fámenn þjóð eins og Ísland sitji ekki einu sinni við borðið.",
+   "summary": "At a time of Russia’s invasion and the United States’ withdrawal, Europe stands together, but a small nation like Iceland does not even have a seat at the table.",
    "args": [
     "oryggi",
     "ahrif"
@@ -11587,12 +11587,12 @@ const DATA = {
   },
   {
    "side": "ja",
-   "title": "▶ Kosning unga fólksins um framtíð Íslands",
+   "title": "▶ The young people’s vote on Iceland’s future",
    "url": "https://www.tiktok.com/@jatiladsja/video/7665328778377284886",
    "source": "TikTok · SJÁ",
    "author": null,
    "date": "2026-07-23",
-   "summary": "Ungt fólk hvatt til að mæta á kjörstað; eina leiðin til að fá upplýsingarnar sé að kjósa já, fá samninginn og meta kosti og galla.",
+   "summary": "Young people are encouraged to go to the polls; the only way to get the information is to vote yes, get the agreement and assess its pros and cons.",
    "args": [
     "kikja",
     "lydraedi"
@@ -11602,12 +11602,12 @@ const DATA = {
   },
   {
    "side": "ja",
-   "title": "▶ Króna eða evra?",
+   "title": "▶ Króna or euro?",
    "url": "https://www.tiktok.com/@jatiladsja/video/7665329075925306646",
    "source": "TikTok · SJÁ",
    "author": null,
    "date": "2026-07-22",
-   "summary": "Bent á að þeir sem noti evru borgi lægri vexti og að upplýsingarnar sem þurfi til ákvörðunar fáist aðeins með fullkláruðum samningi.",
+   "summary": "It is pointed out that those who use the euro pay lower interest rates and that the information needed to make a decision can only be obtained through a fully completed agreement.",
    "args": [
     "vextir",
     "kikja"
@@ -11617,12 +11617,12 @@ const DATA = {
   },
   {
    "side": "ja",
-   "title": "▶ Hver er kostnaðurinn við að breyta engu?",
+   "title": "▶ What is the cost of changing nothing?",
    "url": "https://www.tiktok.com/@jatiladsja/video/7666090618019613954",
    "source": "TikTok · SJÁ",
    "author": null,
    "date": "2026-07-24",
-   "summary": "Kostnaði við að klára viðræður er stillt upp á móti því að borga af fasteignalánum á hæstu vöxtum Evrópu ævilangt.",
+   "summary": "The cost of completing the talks is weighed against paying mortgage loans at the highest interest rates in Europe for life.",
    "args": [
     "vextir",
     "kikja"
@@ -11632,12 +11632,12 @@ const DATA = {
   },
   {
    "side": "ja",
-   "title": "▶ Lærum af Brexit — unga fólkið mæti",
+   "title": "▶ Learn from Brexit — young people, show up",
    "url": "https://www.tiktok.com/@jatiladsja/video/7667326418098900246",
    "source": "TikTok · SJÁ",
    "author": null,
    "date": "2026-07-27",
-   "summary": "Rifjað upp að ungt fólk í Bretlandi var andvígt Brexit en mætti ekki á kjörstað; unga fólkið eigi að ráða framtíð sinni og mæta 29. ágúst.",
+   "summary": "It is recalled that young people in Britain opposed Brexit but did not turn out to vote; young people should decide their own future and vote on 29 August.",
    "args": [
     "lydraedi",
     "taekifaeri"
@@ -11647,12 +11647,12 @@ const DATA = {
   },
   {
    "side": "ja",
-   "title": "▶ Allt upp á borðið fyrir upplýsta ákvörðun",
+   "title": "▶ Everything on the table for an informed decision",
    "url": "https://www.tiktok.com/@jatiladsja/video/7667531995718618370",
    "source": "TikTok · SJÁ",
    "author": null,
    "date": "2026-07-28",
-   "summary": "Vegfarendur segjast vilja fá allt upp á borðið og taka upplýsta ákvörðun um aðild þegar samningur liggur fyrir.",
+   "summary": "Passers-by say they want everything put on the table and to make an informed decision on membership once an agreement is in place.",
    "args": [
     "kikja"
    ],
@@ -11661,12 +11661,12 @@ const DATA = {
   },
   {
    "side": "ja",
-   "title": "▶ Stefnumót kostar en viska er máttur",
+   "title": "▶ Dating costs money, but knowledge is power",
    "url": "https://www.tiktok.com/@jatiladsja/video/7667586790752029974",
    "source": "TikTok · SJÁ",
    "author": null,
    "date": "2026-07-28",
-   "summary": "Viðræðum líkt við stefnumót: kostnaðurinn sé ekki á glæ kastað því upplýsingarnar styrki stöðu Íslands og betra sé að skilja en að rífast.",
+   "summary": "The talks are compared to dating: the cost is not money wasted because the information strengthens Iceland’s position, and it is better to understand than to argue.",
    "args": [
     "kikja"
    ],
@@ -11675,12 +11675,12 @@ const DATA = {
   },
   {
    "side": "ja",
-   "title": "▶ Þú mátar peysuna áður en þú kaupir",
+   "title": "▶ You try on the sweater before you buy it",
    "url": "https://www.tiktok.com/@jatiladsja/video/7667912143718599958",
    "source": "TikTok · SJÁ",
    "author": null,
    "date": "2026-07-29",
-   "summary": "Kosningin 29. ágúst snúist um að fá samning á borðið, lesa hann og taka upplýsta ákvörðun.",
+   "summary": "The vote on 29 August is about getting an agreement on the table, reading it, and making an informed decision.",
    "args": [
     "kikja"
    ],
@@ -11689,12 +11689,12 @@ const DATA = {
   },
   {
    "side": "ja",
-   "title": "▶ Hvernig hefurðu efni á að búa hér?",
+   "title": "▶ How can you afford to live here?",
    "url": "https://www.tiktok.com/@jatiladsja/video/7667913892995157270",
    "source": "TikTok · SJÁ",
    "author": null,
    "date": "2026-07-29",
-   "summary": "Vegfarendur lýsa háu verðlagi, sjö þúsund króna hamborgurum og telja engu að tapa á að skoða hvað aðild fæli í sér.",
+   "summary": "Passers-by describe the high cost of living, seven-thousand-króna hamburgers, and say there is nothing to lose by looking at what membership would entail.",
    "args": [
     "kjor",
     "kikja"
@@ -11704,12 +11704,12 @@ const DATA = {
   },
   {
    "side": "ja",
-   "title": "▶ Utankjörfundaratkvæðagreiðsla er hafin",
+   "title": "▶ Advance voting has begun",
    "url": "https://www.tiktok.com/@jatiladsja/video/7667915213399788822",
    "source": "TikTok · SJÁ",
    "author": null,
    "date": "2026-07-29",
-   "summary": "Bent á að hægt sé að kjósa utan kjörfundar strax í dag og hvatt til að segja já til að sjá samning.",
+   "summary": "It is pointed out that it is possible to vote in advance as early as today, and people are encouraged to vote yes in order to see an agreement.",
    "args": [
     "kikja"
    ],
@@ -11718,12 +11718,12 @@ const DATA = {
   },
   {
    "side": "ja",
-   "title": "▶ Engin stór ákvörðun án upplýsinga",
+   "title": "▶ No major decision without information",
    "url": "https://www.tiktok.com/@jatiladsja/video/7668646652328135958",
    "source": "TikTok · SJÁ",
    "author": null,
    "date": "2026-07-31",
-   "summary": "Sögumaður tæki aldrei mikilvæga ákvörðun um vinnu, nám eða íbúð án upplýsinga og 29. ágúst sé kosið um að fá samning á borðið.",
+   "summary": "The speaker says they would never make an important decision about work, studies, or housing without information, and that on 29 August people are voting on whether to get an agreement on the table.",
    "args": [
     "kikja"
    ],
@@ -11732,12 +11732,12 @@ const DATA = {
   },
   {
    "side": "ja",
-   "title": "▶ Bubbi: börnin eiga skilið bjarta framtíð",
+   "title": "▶ Bubbi: children deserve a bright future",
    "url": "https://www.tiktok.com/@jatiladsja/video/7671257829717626134",
    "source": "TikTok · SJÁ",
    "author": null,
    "date": "2026-08-07",
-   "summary": "Bubbi Morthens segist ætla að segja já fyrir börnin sín sem eigi rétt á fallegri framtíð.",
+   "summary": "Bubbi Morthens says he intends to vote yes for his children, who deserve a beautiful future.",
    "args": [
     "taekifaeri"
    ],
@@ -11746,12 +11746,12 @@ const DATA = {
   },
   {
    "side": "ja",
-   "title": "▶ Akureyri: já til að sjá samninginn",
+   "title": "▶ Akureyri: yes to seeing the agreement",
    "url": "https://www.tiktok.com/@jatiladsja/video/7671734303268736258",
    "source": "TikTok · SJÁ",
    "author": null,
    "date": "2026-08-08",
-   "summary": "Viðmælendur á viðburði SJÁ á Akureyri vilja sjá samninginn í stað þess að segja nei við einhverju sem enginn veit hvað er.",
+   "summary": "Interviewees at a SJÁ event in Akureyri want to see the agreement instead of saying no to something that no one knows what is.",
    "args": [
     "kikja"
    ],
@@ -11760,12 +11760,12 @@ const DATA = {
   },
   {
    "side": "ja",
-   "title": "▶ Stöðugleiki, tækifæri og staðreyndir á borðið",
+   "title": "▶ Stability, opportunities and the facts on the table",
    "url": "https://www.tiktok.com/@jatiladsja/video/7672130164423183619",
    "source": "TikTok · SJÁ",
    "author": null,
    "date": "2026-08-09",
-   "summary": "Viðmælendur á Akureyri vilja vita hvort aðild auki stöðugleika í bankakerfinu, fá staðreyndir á borðið og grípa tækifæri í samstöðu Evrópuþjóða.",
+   "summary": "Interviewees in Akureyri want to know whether membership would increase stability in the banking system, get the facts on the table, and seize the opportunities in the solidarity of European nations.",
    "args": [
     "kikja",
     "vextir",
@@ -11776,12 +11776,12 @@ const DATA = {
   },
   {
    "side": "ja",
-   "title": "▶ Kveðum drauginn niður í eitt skipti",
+   "title": "▶ Let’s lay the ghost to rest once and for all",
    "url": "https://www.tiktok.com/@jatiladsja/video/7672393856037555478",
    "source": "TikTok · SJÁ",
    "author": null,
    "date": "2026-08-10",
-   "summary": "Villi vandræðaskáld segir að ESB-draugurinn verði aldrei kveðinn niður nema þjóðin fái að vita hvað er í boði og taki svo afstöðu.",
+   "summary": "Villi vandræðaskáld says the EU ghost will never be laid to rest unless the nation gets to know what is on offer and then takes a position.",
    "args": [
     "kikja"
    ],
@@ -11790,12 +11790,12 @@ const DATA = {
   },
   {
    "side": "ja",
-   "title": "▶ A-liðið í samninganefnd Íslands",
+   "title": "▶ Iceland’s A-team in the negotiating committee",
    "url": "https://www.tiktok.com/@jatiladsja/video/7672898909391326486",
    "source": "TikTok · SJÁ",
    "author": null,
    "date": "2026-08-11",
-   "summary": "Treyst er á að ríkisstjórnin skipi bestu mögulegu samningamenn, líka erlenda ef þarf, fari málið lengra.",
+   "summary": "There is trust that the government will appoint the best possible negotiators, including foreign ones if necessary, if the matter goes further.",
    "args": [
     "serlausnir"
    ],
@@ -11804,12 +11804,12 @@ const DATA = {
   },
   {
    "side": "ja",
-   "title": "▶ Má bjóða þér að koma inn og skoða?",
+   "title": "▶ May I invite you in to take a look?",
    "url": "https://www.tiktok.com/@jatiladsja/video/7673869747431181590",
    "source": "TikTok · SJÁ",
    "author": null,
    "date": "2026-08-14",
-   "summary": "Búðarlíking: stórar ákvarðanir séu erfiðar en enn erfiðari ef maður neitar að skoða það sem er í boði.",
+   "summary": "Shop metaphor: major decisions are difficult, but even more difficult if one refuses to look at what is on offer.",
    "args": [
     "kikja"
    ],
@@ -11818,12 +11818,12 @@ const DATA = {
   },
   {
    "side": "ja",
-   "title": "▶ Ákvarðanir sem börnin lifa lengst með",
+   "title": "▶ Decisions the children will live with the longest",
    "url": "https://www.tiktok.com/@jatiladsja/video/7674559683239218454",
    "source": "TikTok · SJÁ",
    "author": null,
    "date": "2026-08-16",
-   "summary": "Barn vill ekki opna pakka og bent á að fullorðnir taki nú ákvarðanir sem móta framtíð þeirra sem yngri eru og þurfa að lifa lengst með þeim.",
+   "summary": "A child does not want to open a package, and it is pointed out that adults are now making decisions that shape the future of those who are younger and will have to live with them the longest.",
    "args": [
     "kikja",
     "taekifaeri"
@@ -11833,12 +11833,12 @@ const DATA = {
   },
   {
    "side": "ja",
-   "title": "▶ Minnsti gjaldmiðill heims ber áhættuálag",
+   "title": "▶ The world’s smallest currency carries a risk premium",
    "url": "https://www.tiktok.com/@jatiladsja/video/7674605156620619030",
    "source": "TikTok · SJÁ",
    "author": null,
    "date": "2026-08-16",
-   "summary": "Útskýrt að vextir og verð séu hærri á Íslandi því bankar leggi áhættuálag á minnsta sjálfstæða gjaldmiðil heims — álag sem enginn kaus.",
+   "summary": "It is explained that interest rates and prices are higher in Iceland because banks add a risk premium to the world’s smallest independent currency — a premium no one voted for.",
    "args": [
     "vextir"
    ],
@@ -11847,12 +11847,12 @@ const DATA = {
   },
   {
    "side": "ja",
-   "title": "▶ Borgarðu sömu mjólkina þrisvar?",
+   "title": "▶ Would you pay for the same milk three times?",
    "url": "https://www.tiktok.com/@jatiladsja/video/7674605302200765718",
    "source": "TikTok · SJÁ",
    "author": null,
    "date": "2026-08-16",
-   "summary": "Verðtryggingin sögð sér-íslenskt afbrigði þar sem verðbólga bætist á höfuðstólinn; í evrulöndum sé verðbólga lægri og verðtrygging nánast óþekkt.",
+   "summary": "Indexation is described as a uniquely Icelandic arrangement in which inflation is added to the principal; in euro countries inflation is lower and indexation is almost unknown.",
    "args": [
     "vextir"
    ],
@@ -11861,12 +11861,12 @@ const DATA = {
   },
   {
    "side": "ja",
-   "title": "▶ Norðmenn fengu samning og sögðu nei",
+   "title": "▶ Norwegians got an agreement and said no",
    "url": "https://www.tiktok.com/@jatiladsja/video/7674605475031239958",
    "source": "TikTok · SJÁ",
    "author": null,
    "date": "2026-08-16",
-   "summary": "Bent á að Norðmenn hafi tvisvar fellt aðildarsamning í þjóðaratkvæði án afleiðinga; já 29. ágúst þýði ekki aðild heldur að þjóðin kjósi aftur um sjálfan samninginn.",
+   "summary": "It is pointed out that Norwegians twice rejected an accession agreement in a referendum without consequences; a yes on 29 August would not mean membership, but rather that the nation votes again on the agreement itself.",
    "args": [
     "kikja",
     "lydraedi"
@@ -11876,12 +11876,12 @@ const DATA = {
   },
   {
    "side": "ja",
-   "title": "▶ Erfitt að velja án þess að skoða",
+   "title": "▶ Hard to choose without taking a look",
    "url": "https://www.tiktok.com/@jatiladsja/video/7674988704733154563",
    "source": "TikTok · SJÁ",
    "author": null,
    "date": "2026-08-17",
-   "summary": "Veitingalíking: ekki þurfi að ákveða neitt strax, aðeins að skoða valkostina sem eru í boði.",
+   "summary": "Restaurant metaphor: there is no need to decide anything right away, only to look at the options on offer.",
    "args": [
     "kikja"
    ],
@@ -11890,12 +11890,12 @@ const DATA = {
   },
   {
    "side": "ja",
-   "title": "▶ Sparsöm og hlakka til lægri vaxta",
+   "title": "▶ Frugal and looking forward to lower interest rates",
    "url": "https://www.tiktok.com/@jatiladsja/video/7674992747379445014",
    "source": "TikTok · SJÁ",
    "author": null,
    "date": "2026-08-17",
-   "summary": "Par lýsir því hvernig það hefur efni á að búa á Íslandi og hlakkar til að borga lægri vexti.",
+   "summary": "A couple describes how they can afford to live in Iceland and looks forward to paying lower interest rates.",
    "args": [
     "vextir"
    ],
@@ -11904,12 +11904,12 @@ const DATA = {
   },
   {
    "side": "ja",
-   "title": "▶ Ódýrara að lifa í Hollandi en Íslandi",
+   "title": "▶ Cheaper to live in the Netherlands than in Iceland",
    "url": "https://www.tiktok.com/@jatiladsja/video/7674993327992753430",
    "source": "TikTok · SJÁ",
    "author": null,
    "date": "2026-08-18",
-   "summary": "Maður búsettur í Hollandi lýsir því að þar taki enginn bílalán og að hærri tekjur þurfi á Íslandi fyrir sama lífsstandard.",
+   "summary": "A man living in the Netherlands says that no one there takes out car loans and that higher income is needed in Iceland to maintain the same standard of living.",
    "args": [
     "kjor"
    ],
@@ -11918,12 +11918,12 @@ const DATA = {
   },
   {
    "side": "ja",
-   "title": "▶ Trúi á samtalið þótt markmiðin séu óskýr",
+   "title": "▶ Believe in the dialogue even if the goals are unclear",
    "url": "https://www.tiktok.com/@jatiladsja/video/7674993405574860054",
    "source": "TikTok · SJÁ",
    "author": null,
    "date": "2026-08-17",
-   "summary": "Viðmælandi segist kjósa já því hann trúi á samtalið; fáránlegt væri að hlaupa frá borðinu og eiga ekki valmöguleikann þótt samningsmarkmiðin mættu vera skýrari.",
+   "summary": "The interviewee says he will vote yes because he believes in the dialogue; it would be absurd to walk away from the table and not have the option, even though the negotiating goals could be clearer.",
    "args": [
     "kikja"
    ],
@@ -11932,12 +11932,12 @@ const DATA = {
   },
   {
    "side": "ja",
-   "title": "▶ En hvað með fiskinn okkar?",
+   "title": "▶ But what about our fish?",
    "url": "https://www.tiktok.com/@jatiladsja/video/7675174221017894166",
    "source": "TikTok · SJÁ",
    "author": null,
    "date": "2026-08-18",
-   "summary": "Vísað í ummæli sjávarútvegsstjóra ESB í Financial Times um svigrúm til sérlausna fyrir Ísland og fordæmi Möltu með 25 mílna svæði.",
+   "summary": "Refers to remarks by the EU fisheries director in the Financial Times about room for special arrangements for Iceland and the precedent of Malta with a 25-mile zone.",
    "args": [
     "serlausnir"
    ],
@@ -11946,12 +11946,12 @@ const DATA = {
   },
   {
    "side": "ja",
-   "title": "▶ Finnskir bændur fá grunnstuðning frá ESB",
+   "title": "▶ Finnish farmers receive basic support from the EU",
    "url": "https://www.tiktok.com/@jatiladsja/video/7675174586291424534",
    "source": "TikTok · SJÁ",
    "author": null,
    "date": "2026-08-19",
-   "summary": "Leiðrétt sú fullyrðing að Finnar borgi bændum sínum sjálfir: grunnstuðningur upp á 875 milljónir evra komi frá ESB og stuðningur við íslenska bændur gæti einnig komið frá Evrópu.",
+   "summary": "Corrects the claim that the Finns pay their farmers themselves: basic support of 875 million euros comes from the EU, and support for Icelandic farmers could also come from Europe.",
    "args": [
     "hraedslu",
     "byggd"
@@ -11961,12 +11961,12 @@ const DATA = {
   },
   {
    "side": "ja",
-   "title": "▶ Upplýsingar fást bara með jái",
+   "title": "▶ Information can only be obtained with a yes vote",
    "url": "https://www.tiktok.com/@jatiladsja/video/7675175197682601239",
    "source": "TikTok · SJÁ",
    "author": null,
    "date": "2026-08-18",
-   "summary": "Vegfarendur segjast kjósa já því ákvörðun verði ekki tekin nema með upplýsingum sem fáist aðeins með því að klára viðræður.",
+   "summary": "Passers-by say they will vote yes because no decision can be made without the information that can only be obtained by completing the negotiations.",
    "args": [
     "kikja"
    ],
@@ -11975,12 +11975,12 @@ const DATA = {
   },
   {
    "side": "ja",
-   "title": "▶ Yfirráð yfir auðlindinni yrðu tryggð",
+   "title": "▶ Control over the resource would be guaranteed",
    "url": "https://www.tiktok.com/@jatiladsja/video/7675297992273939715",
    "source": "TikTok · SJÁ",
    "author": null,
    "date": "2026-08-18",
-   "summary": "Spiluð eldri ummæli um að í umsókn kæmi fram að Ísland gengi ekki í sambandið nema yfirráð yfir auðlindinni yrðu tryggð með skýrum hætti.",
+   "summary": "Replays older remarks stating that the application made clear that Iceland would not join the union unless control over the resource was clearly guaranteed.",
    "args": [
     "serlausnir",
     "kikja"
@@ -11990,12 +11990,12 @@ const DATA = {
   },
   {
    "side": "ja",
-   "title": "▶ Af hverju ekki að reyna og skoða?",
+   "title": "▶ Why not try and see?",
    "url": "https://www.tiktok.com/@jatiladsja/video/7675313034969009430",
    "source": "TikTok · SJÁ",
    "author": null,
    "date": "2026-08-18",
-   "summary": "Veiðilíking: sá sem þorir ekki að kasta fær aldrei fisk; reyna, skoða, spyrja og ákveða svo.",
+   "summary": "A fishing metaphor: whoever does not dare cast will never catch fish; try, look, ask questions, and then decide.",
    "args": [
     "kikja"
    ],
@@ -12004,12 +12004,12 @@ const DATA = {
   },
   {
    "side": "ja",
-   "title": "▶ Kaus já í Kringlunni",
+   "title": "▶ Voted yes at Kringlan",
    "url": "https://www.tiktok.com/@jatiladsja/video/7675746321218718998",
    "source": "TikTok · SJÁ",
    "author": null,
    "date": "2026-08-19",
-   "summary": "Gamansaga af manni sem kaus utan kjörfundar í Kringlunni því hann vill sjá og kíkja á samninginn.",
+   "summary": "An amusing story about a man who voted early at Kringlan because he wants to see and inspect the agreement.",
    "args": [
     "kikja"
    ],
@@ -12018,12 +12018,12 @@ const DATA = {
   },
   {
    "side": "ja",
-   "title": "▶ Hverra hagsmuna gætir krónan?",
+   "title": "▶ Whose interests does the króna serve?",
    "url": "https://www.tiktok.com/@evropuhreyfingin/video/7649716156454030614",
    "source": "TikTok · Evrópuhreyfingin",
    "author": null,
    "date": "2026-06-10",
-   "summary": "Guðrún Johnsen prófessor bendir á að hávaxtaumhverfi krónunnar sé afar þægilegt fyrir fjármagnseigendur sem fái háa ávöxtun áhættulaust á innlánsreikningum.",
+   "summary": "Professor Guðrún Johnsen points out that the króna’s high-interest-rate environment is extremely convenient for capital owners, who can earn high returns risk-free in deposit accounts.",
    "args": [
     "vextir"
    ],
@@ -12032,12 +12032,12 @@ const DATA = {
   },
   {
    "side": "ja",
-   "title": "▶ Sjálfstæð þjóð situr við borðið",
+   "title": "▶ An independent nation sits at the table",
    "url": "https://www.tiktok.com/@evropuhreyfingin/video/7652329105341402390",
    "source": "TikTok · Evrópuhreyfingin",
    "author": null,
    "date": "2026-06-17",
-   "summary": "Þjóðhátíðarkveðja: sjálfstæð þjóð sitji við borðið þar sem ákvarðanir um hana eru teknar.",
+   "summary": "National Day message: an independent nation should sit at the table where decisions about it are made.",
    "args": [
     "ahrif"
    ],
@@ -12046,12 +12046,12 @@ const DATA = {
   },
   {
    "side": "ja",
-   "title": "▶ Samningsmarkmið Íslands lesin upp",
+   "title": "▶ Iceland’s negotiating objectives read aloud",
    "url": "https://www.tiktok.com/@evropuhreyfingin/video/7653467162643893526",
    "source": "TikTok · Evrópuhreyfingin",
    "author": null,
    "date": "2026-06-20",
-   "summary": "Lesin upp ítarleg samningsmarkmið um yfirráð yfir orku- og fiskveiðiauðlindum, vernd landbúnaðar, byggðafjármagn og áfram herlaust land.",
+   "summary": "Detailed negotiating objectives were read aloud on control over energy and fishing resources, protection of agriculture, regional funding, and remaining a country without a military.",
    "args": [
     "serlausnir"
    ],
@@ -12060,12 +12060,12 @@ const DATA = {
   },
   {
    "side": "ja",
-   "title": "▶ Kristrún: sjáum samninginn og tækifærin",
+   "title": "▶ Kristrún: let’s see the agreement and the opportunities",
    "url": "https://www.tiktok.com/@evropuhreyfingin/video/7654938291543985411",
    "source": "TikTok · Evrópuhreyfingin",
    "author": null,
    "date": "2026-06-24",
-   "summary": "Kristrún Frostadóttir forsætisráðherra segist ætla að kjósa já; ákvörðunin sé þjóðarinnar og þeir sem vilji aukna samkeppni, gengisstöðugleika og lægri tolla ættu að vilja sjá samninginn.",
+   "summary": "Prime Minister Kristrún Frostadóttir says she intends to vote yes; the decision belongs to the nation, and those who want increased competition, exchange-rate stability and lower tariffs should want to see the agreement.",
    "args": [
     "kikja",
     "vextir",
@@ -12076,12 +12076,12 @@ const DATA = {
   },
   {
    "side": "ja",
-   "title": "▶ Guðni: fullveldi þróast og breytist",
+   "title": "▶ Guðni: sovereignty evolves and changes",
    "url": "https://www.tiktok.com/@evropuhreyfingin/video/7658941692287995158",
    "source": "TikTok · Evrópuhreyfingin",
    "author": null,
    "date": "2026-07-05",
-   "summary": "Guðni Th. Jóhannesson fyrrverandi forseti segir Ísland frjálst og fullvalda ríki, ekki þrátt fyrir alþjóðasamvinnu heldur vegna hennar.",
+   "summary": "Former President Guðni Th. Jóhannesson says Iceland is a free and sovereign state, not despite international cooperation but because of it.",
    "args": [
     "hraedslu"
    ],
@@ -12090,12 +12090,12 @@ const DATA = {
   },
   {
    "side": "ja",
-   "title": "▶ Er þín skoðun byggð á skoðun?",
+   "title": "▶ Is your opinion based on having examined the issue?",
    "url": "https://www.tiktok.com/@evropuhreyfingin/video/7660085595561020694",
    "source": "TikTok · Evrópuhreyfingin",
    "author": null,
    "date": "2026-07-08",
-   "summary": "Guðni Th. segir að á undan skoðun ætti að koma skoðun málsins; of algengt sé að fólk myndi sér skoðun án þess að kynna sér málin.",
+   "summary": "Guðni Th. says that before forming an opinion, one should examine the matter itself; it is far too common for people to form opinions without informing themselves about the issues.",
    "args": [
     "kikja"
    ],
@@ -12104,12 +12104,12 @@ const DATA = {
   },
   {
    "side": "ja",
-   "title": "▶ ESB ver vinnandi fólk betur",
+   "title": "▶ The EU protects working people better",
    "url": "https://www.tiktok.com/@evropuhreyfingin/video/7668712372680379670",
    "source": "TikTok · Evrópuhreyfingin",
    "author": null,
    "date": "2026-07-31",
-   "summary": "Steinar Harðarson segir nánast allar framfarir í vinnuvernd hafa komið með tilskipunum ESB sem fjalli um öryggi og heilbrigði vinnandi fólks.",
+   "summary": "Steinar Harðarson says that almost all progress in occupational health and safety has come through EU directives dealing with the safety and health of working people.",
    "args": [
     "kjor"
    ],
@@ -12118,12 +12118,12 @@ const DATA = {
   },
   {
    "side": "ja",
-   "title": "▶ Andstæðingar geta líka sagt já",
+   "title": "▶ Opponents can also say yes",
    "url": "https://www.tiktok.com/@evropuhreyfingin/video/7670577467458981142",
    "source": "TikTok · Evrópuhreyfingin",
    "author": null,
    "date": "2026-08-05",
-   "summary": "Bent á að jafnvel andstæðingar aðildar geti kosið já því kosningin snúist um aðildarviðræður, ekki endanlega aðild.",
+   "summary": "It is pointed out that even opponents of membership can vote yes, because the vote is about accession talks, not final membership.",
    "args": [
     "kikja"
    ],
@@ -12132,12 +12132,12 @@ const DATA = {
   },
   {
    "side": "ja",
-   "title": "▶ Já opnar tækifærin, nei lokar þeim",
+   "title": "▶ Yes opens opportunities, no closes them",
    "url": "https://www.tiktok.com/@evropuhreyfingin/video/7670892247927278870",
    "source": "TikTok · Evrópuhreyfingin",
    "author": null,
    "date": "2026-08-06",
-   "summary": "Vegfarendur nefna bjarta framtíð unga fólksins, efni á húsnæði, stöðugleika og að engu sé að tapa á aðildarviðræðum.",
+   "summary": "Passers-by mention a bright future for young people, the ability to afford housing, stability, and that there is nothing to lose by holding accession talks.",
    "args": [
     "taekifaeri",
     "kikja",
@@ -12148,12 +12148,12 @@ const DATA = {
   },
   {
    "side": "ja",
-   "title": "▶ Enginn Evrópuher er til",
+   "title": "▶ There is no European army",
    "url": "https://www.tiktok.com/@evropuhreyfingin/video/7671331211519757590",
    "source": "TikTok · Evrópuhreyfingin",
    "author": null,
    "date": "2026-08-07",
-   "summary": "Fullyrðingar nei-hliðar um að aðild þvingi Ísland í evrópskan her sagðar ósannindi; enginn Evrópuher sé til og varnarmál séu á forræði hvers aðildarríkis.",
+   "summary": "Claims by the NO side that membership would force Iceland into a European army are described as falsehoods; there is no European army, and defence matters remain under the authority of each member state.",
    "args": [
     "hraedslu"
    ],
@@ -12162,12 +12162,12 @@ const DATA = {
   },
   {
    "side": "ja",
-   "title": "▶ NATO ver ekki netkapla og orkuöryggi",
+   "title": "▶ NATO does not protect subsea cables and energy security",
    "url": "https://www.tiktok.com/@evropuhreyfingin/video/7671970128216575254",
    "source": "TikTok · Evrópuhreyfingin",
    "author": null,
    "date": "2026-08-09",
-   "summary": "Varnarsamningurinn og NATO dugi við innrás en öryggi snúist í dag einnig um orku-, net- og innviðaöryggi þar sem full aðild að ESB myndi auka öryggi Íslands.",
+   "summary": "The defence agreement and NATO are sufficient in the event of an invasion, but today security also concerns energy, cyber and infrastructure security, where full EU membership would increase Iceland’s security.",
    "args": [
     "oryggi",
     "hraedslu"
@@ -12177,12 +12177,12 @@ const DATA = {
   },
   {
    "side": "ja",
-   "title": "▶ Íhaldssemi eða frjálslyndi 29. ágúst",
+   "title": "▶ Conservatism or liberalism, 29 August",
    "url": "https://www.tiktok.com/@evropuhreyfingin/video/7673097854394584342",
    "source": "TikTok · Evrópuhreyfingin",
    "author": null,
    "date": "2026-08-12",
-   "summary": "Umræðan greind sem klassísk átök íhaldssemi og frjálslyndis: frjálslynd öfl sjái tækifæri í aukinni samkeppni, evru og öryggistengslum við Evrópu.",
+   "summary": "The debate is framed as a classic clash between conservatism and liberalism: liberal forces see opportunities in increased competition, the euro, and security ties with Europe.",
    "args": [
     "taekifaeri"
    ],
@@ -12191,12 +12191,12 @@ const DATA = {
   },
   {
    "side": "ja",
-   "title": "▶ Við deilum gildum með Evrópu",
+   "title": "▶ We share values with Europe",
    "url": "https://www.tiktok.com/@evropuhreyfingin/video/7673898331961134358",
    "source": "TikTok · Evrópuhreyfingin",
    "author": null,
    "date": "2026-08-14",
-   "summary": "Sólveig Arnarsdóttir segist hafa áttað sig í Berlín á mikilvægi þess að styrkja böndin við Evrópu því Íslendingar deili gildum með álfunni.",
+   "summary": "Sólveig Arnarsdóttir says she realized in Berlin how important it is to strengthen ties with Europe because Icelanders share values with the continent.",
    "args": [
     "gildi"
    ],
@@ -12205,12 +12205,12 @@ const DATA = {
   },
   {
    "side": "ja",
-   "title": "▶ Aðildarviðræður eða Eurovision — hvort er dýrara?",
+   "title": "▶ Accession talks or Eurovision — which is more expensive?",
    "url": "https://www.tiktok.com/@evropuhreyfingin/video/7674993889694059798",
    "source": "TikTok · Evrópuhreyfingin",
    "author": null,
    "date": "2026-08-17",
-   "summary": "Kostnaður við aðildarviðræður, 1,9 milljarður, settur í samhengi við pizzur, Eurovision og önnur útgjöld; góður samningur vari að eilífu.",
+   "summary": "The cost of accession talks, 1.9 billion, is put in context with pizzas, Eurovision, and other expenses; a good agreement would last forever.",
    "args": [
     "kikja"
    ],
@@ -12219,12 +12219,12 @@ const DATA = {
   },
   {
    "side": "ja",
-   "title": "▶ Snærós: lygar og hálfsannleikur nei-hliðarinnar",
+   "title": "▶ Snærós: lies and half-truths from the NO side",
    "url": "https://www.tiktok.com/@evropuhreyfingin/video/7675426028856069398",
    "source": "TikTok · Evrópuhreyfingin",
    "author": null,
    "date": "2026-08-18",
-   "summary": "Snærós Sindradóttir segir nei-hliðina ljúga um að kosið sé um aðild, um kostnað Íslands og áhrifaleysi, og horfa aldrei á heildarávinning þjóðarinnar.",
+   "summary": "Snærós Sindradóttir says the NO side is lying about the vote being on membership, about Iceland’s cost burden and lack of influence, and never looks at the nation’s overall benefits.",
    "args": [
     "hraedslu"
    ],
@@ -12233,12 +12233,12 @@ const DATA = {
   },
   {
    "side": "ja",
-   "title": "▶ Vaxtahækkun kostar þig 108 þúsund á ári",
+   "title": "▶ An interest rate hike costs you 108 thousand a year",
    "url": "https://www.tiktok.com/@evropuhreyfingin/video/7675664550884085014",
    "source": "TikTok · Evrópuhreyfingin",
    "author": null,
    "date": "2026-08-19",
-   "summary": "Vaxtahækkun í átta prósent sögð kosta heimili með 50 milljóna lán 9.000 krónur aukalega á mánuði; með evru fengist stöðugra og fyrirsjáanlegra efnahagslíf.",
+   "summary": "An interest rate increase to eight percent is said to cost a household with a 50 million loan an extra 9,000 krónur per month; with the euro, the economy would be more stable and predictable.",
    "args": [
     "vextir"
    ],
@@ -12247,12 +12247,12 @@ const DATA = {
   },
   {
    "side": "nei",
-   "title": "▶ Til hvers var þá barist?",
+   "title": "▶ What, then, was the struggle for?",
    "url": "https://www.tiktok.com/@afram.island/video/7659552682511731990",
    "source": "TikTok · Áfram Ísland",
    "author": null,
    "date": "2026-07-06",
-   "summary": "Brot af upphafsfundi Áfram Íslands þar sem spurt er í nafni horfinna kynslóða til hvers sjálfstæðisbaráttan hafi verið ef fullveldið verði framselt.",
+   "summary": "An excerpt from the opening meeting of Áfram Ísland, asking on behalf of vanished generations what the struggle for independence was for if sovereignty is to be handed over.",
    "args": [
     "fullveldi"
    ],
@@ -12261,12 +12261,12 @@ const DATA = {
   },
   {
    "side": "nei",
-   "title": "▶ Ríkustu þjóðir Evrópu utan ESB",
+   "title": "▶ Europe’s richest nations outside the EU",
    "url": "https://www.tiktok.com/@afram.island/video/7659785189211655446",
    "source": "TikTok · Áfram Ísland",
    "author": null,
    "date": "2026-07-07",
-   "summary": "Því er haldið fram að Ísland hafi farið úr fátækt í fremstu röð utan ESB og að þrjár af fimm ríkustu þjóðum Evrópu — Noregur, Sviss og Ísland — standi utan sambandsins og án evru.",
+   "summary": "It is argued that Iceland rose from poverty to the front ranks outside the EU, and that three of Europe’s five richest nations — Norway, Switzerland, and Iceland — are outside the Union and without the euro.",
    "args": [
     "efnahagur",
     "nagrannar"
@@ -12276,12 +12276,12 @@ const DATA = {
   },
   {
    "side": "nei",
-   "title": "▶ Ungt fólk: Hagsmunum betur borgið utan ESB",
+   "title": "▶ Young people: Interests better served outside the EU",
    "url": "https://www.tiktok.com/@afram.island/video/7659941218507345174",
    "source": "TikTok · Áfram Ísland",
    "author": null,
    "date": "2026-07-08",
-   "summary": "Ungur viðmælandi segir EES-samninginn veita aðgang að innri markaðnum með helstu kostum aðildar án gallanna og að kosningin snúist um framtíð unga fólksins.",
+   "summary": "A young interviewee says the EEA Agreement provides access to the internal market with the main benefits of membership without the drawbacks, and that the vote is about the future of young people.",
    "args": [
     "ees"
    ],
@@ -12290,12 +12290,12 @@ const DATA = {
   },
   {
    "side": "nei",
-   "title": "▶ Guðni Ágústsson: Verjum frelsið",
+   "title": "▶ Guðni Ágústsson: Let us defend freedom",
    "url": "https://www.tiktok.com/@afram.island/video/7659951824610266390",
    "source": "TikTok · Áfram Ísland",
    "author": null,
    "date": "2026-07-08",
-   "summary": "Guðni Ágústsson segir verið að plata fólk með tali um að kíkja í pakkann; Íslandi sé langbest borgið sem sjálfstæðri þjóð og EES-samningurinn sé það besta úr Evrópusamstarfinu.",
+   "summary": "Guðni Ágústsson says people are being misled by talk of taking a look inside the package; Iceland is far better off as an independent nation, and the EEA Agreement is the best part of European cooperation.",
    "args": [
     "adlogun",
     "fullveldi",
@@ -12306,12 +12306,12 @@ const DATA = {
   },
   {
    "side": "nei",
-   "title": "▶ Við ráðum okkar eigin málum",
+   "title": "▶ We decide our own affairs",
    "url": "https://www.tiktok.com/@afram.island/video/7662453125797874967",
    "source": "TikTok · Áfram Ísland",
    "author": null,
    "date": "2026-07-14",
-   "summary": "Viðmælandi vill ekki flytja hluta fullveldisins til Brussel, segir lífskjör betri á Íslandi en í Evrópu og að krónan sé ekki orsök hárrar verðbólgu og vaxta.",
+   "summary": "The interviewee does not want to transfer part of sovereignty to Brussels, says living standards are better in Iceland than in Europe, and that the króna is not the cause of high inflation and interest rates.",
    "args": [
     "fullveldi",
     "efnahagur",
@@ -12322,12 +12322,12 @@ const DATA = {
   },
   {
    "side": "nei",
-   "title": "▶ Fókusinn á að vera hér heima",
+   "title": "▶ The focus should be here at home",
    "url": "https://www.tiktok.com/@afram.island/video/7662453485853576470",
    "source": "TikTok · Áfram Ísland",
    "author": null,
    "date": "2026-07-14",
-   "summary": "Því er haldið fram að verið sé að biðja um umboð í margra ára, dýrt og tímafrekt ferli sem taki orku og fjármagn frá lífskjörum og efnahagsmálum heima fyrir.",
+   "summary": "It is argued that voters are being asked to grant a mandate for a costly and time-consuming process lasting many years, one that would divert energy and resources away from living standards and economic issues at home.",
    "args": [
     "umbod",
     "kostnadur"
@@ -12337,12 +12337,12 @@ const DATA = {
   },
   {
    "side": "nei",
-   "title": "▶ Regluverkið myndi þyngjast enn meir",
+   "title": "▶ The regulatory burden would grow even heavier",
    "url": "https://www.tiktok.com/@afram.island/video/7662742094678904067",
    "source": "TikTok · Áfram Ísland",
    "author": null,
    "date": "2026-07-15",
-   "summary": "Ungur kjósandi segir íþyngjandi regluverk berast frá ESB gegnum EES og að það myndi aukast enn frekar við inngöngu; berjast þurfi fyrir sama málstað og sjálfstæðiskynslóðirnar.",
+   "summary": "A young voter says burdensome regulation comes from the EU via the EEA and that it would increase even further with membership; the same cause must be fought for as the generations that secured independence.",
    "args": [
     "fullveldi",
     "ees"
@@ -12352,12 +12352,12 @@ const DATA = {
   },
   {
    "side": "nei",
-   "title": "▶ Ungir gegn ESB: Lesið ykkur til",
+   "title": "▶ Young people against the EU: Read up",
    "url": "https://www.tiktok.com/@afram.island/video/7662744196779887894",
    "source": "TikTok · Áfram Ísland",
    "author": null,
    "date": "2026-07-15",
-   "summary": "Formaður Ungra gegn ESB segir kosninguna snúast um hvort framselja eigi ákvörðunarvald sem fyrri kynslóðir börðust fyrir og hvetur ungt fólk til að kynna sér ferlið sjálft á heimasíðu ESB.",
+   "summary": "The chair of Ungir gegn ESB says the vote is about whether to hand over decision-making power that previous generations fought for, and urges young people to familiarize themselves with the process itself on the EU’s website.",
    "args": [
     "fullveldi"
    ],
@@ -12366,12 +12366,12 @@ const DATA = {
   },
   {
    "side": "nei",
-   "title": "▶ Fyrrverandi ESA-starfsmaður segir nei",
+   "title": "▶ Former ESA employee says no",
    "url": "https://www.tiktok.com/@afram.island/video/7662744343182118166",
    "source": "TikTok · Áfram Ísland",
    "author": null,
    "date": "2026-07-15",
-   "summary": "Viðmælandi sem starfaði hjá ESA í Brussel segir dómsvald og löggjafarvald eiga að vera áfram hjá Íslendingum og lítur á atkvæðagreiðsluna sem fyrsta skrefið í átt að inngöngu í sambandið.",
+   "summary": "An interviewee who worked for ESA in Brussels says judicial and legislative power should remain with Icelanders and sees the referendum as the first step toward joining the Union.",
    "args": [
     "fullveldi",
     "spurning"
@@ -12381,12 +12381,12 @@ const DATA = {
   },
   {
    "side": "nei",
-   "title": "▶ Ekki hægri-vinstri mál",
+   "title": "▶ Not a left-right issue",
    "url": "https://www.tiktok.com/@afram.island/video/7662744458651241750",
    "source": "TikTok · Áfram Ísland",
    "author": null,
    "date": "2026-07-16",
-   "summary": "Viðmælandi segir aðildarviðræður og inngöngu ekki aðskilda hluti; innganga þýði framsal löggjafarvalds, missi sjálfstæðrar peningastefnu og óskiptra yfirráða yfir auðlindum.",
+   "summary": "An interviewee says accession talks and membership are not separate matters; joining would mean transferring legislative power, losing an independent monetary policy, and losing undivided control over resources.",
    "args": [
     "adlogun",
     "fullveldi"
@@ -12396,12 +12396,12 @@ const DATA = {
   },
   {
    "side": "nei",
-   "title": "▶ Íslendingar ráði yfir Íslandi",
+   "title": "▶ Icelanders should govern Iceland",
    "url": "https://www.tiktok.com/@afram.island/video/7662744621553814806",
    "source": "TikTok · Áfram Ísland",
    "author": null,
    "date": "2026-07-16",
-   "summary": "Ung kona segir kosninguna snúast um að vernda fullveldið, krónuna og gjaldmiðilinn; 27 þjóðir hafi gengið í gegnum aðildarferlið og engin fengið sérstakan samning.",
+   "summary": "A young woman says the vote is about protecting sovereignty, the króna, and the currency; 27 nations have gone through the accession process and none received a special agreement.",
    "args": [
     "fullveldi",
     "undanthagur"
@@ -12411,12 +12411,12 @@ const DATA = {
   },
   {
    "side": "nei",
-   "title": "▶ Já þýðir umsókn um inngöngu",
+   "title": "▶ A yes means an application for membership",
    "url": "https://www.tiktok.com/@afram.island/video/7662747505381133590",
    "source": "TikTok · Áfram Ísland",
    "author": null,
    "date": "2026-07-16",
-   "summary": "Viðmælandi segir vald eiga að vera sem næst fólkinu; já-atkvæði setji af stað umsóknarferli sem hljóti að fela í sér inngöngu og hann hafi ekki trú á undanþágum.",
+   "summary": "An interviewee says power should be as close to the people as possible; a yes vote would set an application process in motion that must ultimately entail membership, and he does not believe in exemptions.",
    "args": [
     "spurning",
     "fullveldi",
@@ -12427,12 +12427,12 @@ const DATA = {
   },
   {
    "side": "nei",
-   "title": "▶ 0,1% vægi í ráðherraráðinu",
+   "title": "▶ 0,1% voting weight in the Council",
    "url": "https://www.tiktok.com/@afram.island/video/7662747631868808470",
    "source": "TikTok · Áfram Ísland",
    "author": null,
    "date": "2026-07-17",
-   "summary": "Fundargestur vísar í ræðu Ólafs Ragnars Grímssonar: fullveldið úr sjálfstæðisbaráttunni yrði framselt til 70.000 embættis- og hagsmunavarða í Brussel og Ísland fengi aðeins 0,1% atkvæðavægi í ráðherraráðinu.",
+   "summary": "An attendee cites a speech by Ólafur Ragnar Grímsson: the sovereignty won through the independence struggle would be transferred to 70.000 officials and lobbyists in Brussels, and Iceland would receive only 0,1% voting weight in the Council.",
    "args": [
     "fullveldi",
     "ahrifaleysi"
@@ -12442,12 +12442,12 @@ const DATA = {
   },
   {
    "side": "nei",
-   "title": "▶ Villi: Þetta er allt hægt hér heima",
+   "title": "▶ Villi: All of this can be done here at home",
    "url": "https://www.tiktok.com/@afram.island/video/7663465724912045314",
    "source": "TikTok · Áfram Ísland",
    "author": null,
    "date": "2026-07-17",
-   "summary": "Villi segir verðtryggingu, vaxtaokur og fjármálakerfið mannanna verk sem íslenskir stjórnmálamenn geti lagað sjálfir án þess að framselja fullveldi til Brussel.",
+   "summary": "Villi says indexation, usurious interest rates, and the financial system are man-made and that Icelandic politicians can fix them themselves without transferring sovereignty to Brussels.",
    "args": [
     "fullveldi",
     "evra"
@@ -12457,12 +12457,12 @@ const DATA = {
   },
   {
    "side": "nei",
-   "title": "▶ Ákvarðanir teknar á Íslandi",
+   "title": "▶ Decisions made in Iceland",
    "url": "https://www.tiktok.com/@afram.island/video/7663468795310263574",
    "source": "TikTok · Áfram Ísland",
    "author": null,
    "date": "2026-07-17",
-   "summary": "Valdís segir grundvallarspurninguna vera hvar ákvarðanir um framtíð Íslands eigi að vera teknar — af fólki sem þekki íslenskar aðstæður og beri ábyrgð gagnvart þjóðinni.",
+   "summary": "Valdís says the fundamental question is where decisions about Iceland’s future should be made — by people who know Icelandic conditions and are accountable to the nation.",
    "args": [
     "fullveldi"
    ],
@@ -12471,12 +12471,12 @@ const DATA = {
   },
   {
    "side": "nei",
-   "title": "▶ Chat Control: ESB vaktar skilaboðin",
+   "title": "▶ Chat Control: The EU monitors messages",
    "url": "https://www.tiktok.com/@afram.island/video/7663503227169574166",
    "source": "TikTok · Áfram Ísland",
    "author": null,
    "date": "2026-07-17",
-   "summary": "Því er haldið fram að ný ESB-löggjöf (Chat Control) heimili skönnun einkaskilaboða án dómsúrskurðar og að meirihluti atkvæða á Evrópuþinginu hafi verið hunsaður við afgreiðsluna.",
+   "summary": "It is claimed that new EU legislation (Chat Control) authorizes the scanning of private messages without a court order and that the majority vote in the European Parliament was ignored in its handling.",
    "args": [
     "umbod",
     "fullveldi"
@@ -12486,12 +12486,12 @@ const DATA = {
   },
   {
    "side": "nei",
-   "title": "▶ Villi: Kjark til eigin ákvarðana",
+   "title": "▶ Villi: Courage to make our own decisions",
    "url": "https://www.tiktok.com/@afram.island/video/7663506036854148374",
    "source": "TikTok · Áfram Ísland",
    "author": null,
    "date": "2026-07-17",
-   "summary": "Villi segir verðtryggingu, vaxtaokur og fjármálakerfið mannanna verk sem laga megi heima fyrir; stjórnmálamenn eigi ekki að láta þjóðina standa frammi fyrir framsali fullveldis til Brussel.",
+   "summary": "Villi says indexation, usurious interest rates and the financial system are man-made and can be fixed at home; politicians should not leave the nation facing a surrender of sovereignty to Brussels.",
    "args": [
     "fullveldi",
     "evra"
@@ -12501,12 +12501,12 @@ const DATA = {
   },
   {
    "side": "nei",
-   "title": "▶ Lærum af umsókninni 2009",
+   "title": "▶ Let us learn from the 2009 application",
    "url": "https://www.tiktok.com/@afram.island/video/7664323552769772822",
    "source": "TikTok · Áfram Ísland",
    "author": null,
    "date": "2026-07-19",
-   "summary": "Viðmælandi segir umsóknina 2009 hafa verið sótta með veiku lýðræðislegu umboði og gleypt orku stjórnkerfisins svo stjórnin féll; hann óttast að sama ferli endurtaki sig skref fyrir skref.",
+   "summary": "The interviewee says the 2009 application was made with a weak democratic mandate and swallowed up the energy of the administrative system until the government fell; he fears the same process will repeat itself step by step.",
    "args": [
     "umbod"
    ],
@@ -12515,12 +12515,12 @@ const DATA = {
   },
   {
    "side": "nei",
-   "title": "▶ Kerecis varð stórt því Ísland er lítið",
+   "title": "▶ Kerecis became big because Iceland is small",
    "url": "https://www.tiktok.com/@afram.island/video/7666390297672289538",
    "source": "TikTok · Áfram Ísland",
    "author": null,
    "date": "2026-07-25",
-   "summary": "Guðmundur Fertram segir Kerecis ekki hefðu orðið stærra eða betra fyrirtæki innan ESB; það hafi orðið alþjóðlegt einmitt vegna smæðar Íslands.",
+   "summary": "Guðmundur Fertram says Kerecis would not have become a bigger or better company within the EU; it became international precisely because of Iceland’s small size.",
    "args": [
     "efnahagur"
    ],
@@ -12529,12 +12529,12 @@ const DATA = {
   },
   {
    "side": "nei",
-   "title": "▶ Bóndi: Landbúnaði betur borgið utan ESB",
+   "title": "▶ Farmer: Agriculture is better off outside the EU",
    "url": "https://www.tiktok.com/@afram.island/video/7666393760049253654",
    "source": "TikTok · Áfram Ísland",
    "author": null,
    "date": "2026-07-25",
-   "summary": "Oddný Steina, bóndi og ráðunautur, segir landbúnað og matvælaframleiðslu á Íslandi betur borgið utan ESB og vill að Íslendingar framleiði mat sinn áfram.",
+   "summary": "Oddný Steina, a farmer and consultant, says agriculture and food production in Iceland are better off outside the EU and wants Icelanders to continue producing their own food.",
    "args": [
     "landbunadur"
    ],
@@ -12543,12 +12543,12 @@ const DATA = {
   },
   {
    "side": "nei",
-   "title": "▶ Smæð Íslands er samkeppnisforskot",
+   "title": "▶ Iceland’s small size is a competitive advantage",
    "url": "https://www.tiktok.com/@afram.island/video/7666764425356971286",
    "source": "TikTok · Áfram Ísland",
    "author": null,
    "date": "2026-07-26",
-   "summary": "Guðmundur Fertram segir það aldrei hafa reynst ókost að vera Íslendingur; smæðin sé samkeppnisforskot sem ekki eigi að afsala til Evrópusambandsins.",
+   "summary": "Guðmundur Fertram says it has never proved a disadvantage to be Icelandic; small size is a competitive advantage that should not be surrendered to the European Union.",
    "args": [
     "efnahagur"
    ],
@@ -12557,12 +12557,12 @@ const DATA = {
   },
   {
    "side": "nei",
-   "title": "▶ Frumkvöðull: Tækifæri í smæðinni",
+   "title": "▶ Entrepreneur: Opportunity in smallness",
    "url": "https://www.tiktok.com/@afram.island/video/7666766074729270550",
    "source": "TikTok · Áfram Ísland",
    "author": null,
    "date": "2026-07-26",
-   "summary": "Fyrirtækjastofnandi segir hagsmunum Íslendinga betur borgið utan sambandsins út frá viðskipta- og rekstrarsjónarmiðum; smæð landsins skapi nálægð og tækifæri í nýsköpun.",
+   "summary": "A company founder says Icelanders’ interests are better served outside the union from a business and operational perspective; the country’s small size creates closeness and opportunities for innovation.",
    "args": [
     "efnahagur"
    ],
@@ -12571,12 +12571,12 @@ const DATA = {
   },
   {
    "side": "nei",
-   "title": "▶ Sviss beygir sig ekki fyrir neinum",
+   "title": "▶ Switzerland bows to no one",
    "url": "https://www.tiktok.com/@afram.island/video/7667159897917656342",
    "source": "TikTok · Áfram Ísland",
    "author": null,
    "date": "2026-07-27",
-   "summary": "Því er haldið fram að þjóðum farnist best sem leiti ekki í skjól hinna stóru; Sviss haldi sjálfstæði sínu og fari sínu fram utan bandalaga.",
+   "summary": "It is claimed that nations do best when they do not seek shelter with the big powers; Switzerland preserves its independence and goes its own way outside alliances.",
    "args": [
     "nagrannar",
     "fullveldi"
@@ -12586,12 +12586,12 @@ const DATA = {
   },
   {
    "side": "nei",
-   "title": "▶ Bóndi: Verndum landbúnaðinn",
+   "title": "▶ Farmer: Let us protect agriculture",
    "url": "https://www.tiktok.com/@afram.island/video/7667161381535223062",
    "source": "TikTok · Áfram Ísland",
    "author": null,
    "date": "2026-07-27",
-   "summary": "Margrét Hrund, bóndi, segist ætla að segja nei til að vernda íslenskan landbúnað og hvetur til samstöðu um hann.",
+   "summary": "Margrét Hrund, a farmer, says she intends to vote no in order to protect Icelandic agriculture and calls for unity behind it.",
    "args": [
     "landbunadur"
    ],
@@ -12600,12 +12600,12 @@ const DATA = {
   },
   {
    "side": "nei",
-   "title": "▶ Framtíð Íslands í höndum Íslendinga",
+   "title": "▶ Iceland’s future in the hands of Icelanders",
    "url": "https://www.tiktok.com/@afram.island/video/7667922628727819542",
    "source": "TikTok · Áfram Ísland",
    "author": null,
    "date": "2026-07-29",
-   "summary": "Anton Berg segir fyrri kynslóðir hafa barist fyrir rétti Íslands til að standa á eigin fótum; núverandi kynslóð eigi að varðveita frelsið en ekki afhenda það öðrum.",
+   "summary": "Anton Berg says earlier generations fought for Iceland’s right to stand on its own feet; the current generation should preserve that freedom rather than hand it over to others.",
    "args": [
     "fullveldi"
    ],
@@ -12614,12 +12614,12 @@ const DATA = {
   },
   {
    "side": "nei",
-   "title": "▶ Skuldavandi Evrópu lendir á unga fólkinu",
+   "title": "▶ Europe’s debt problem falls on young people",
    "url": "https://www.tiktok.com/@afram.island/video/7667924268507860246",
    "source": "TikTok · Áfram Ísland",
    "author": null,
    "date": "2026-07-29",
-   "summary": "Anton Berg segir Frakkland hafa verið rekið með halla frá 1974 og Ítalíu og Spán nær samfellt í hálfa öld; með sameiginlegum skuldabréfum ESB lendi uppsafnaður skuldavandi stórríkjanna á komandi kynslóðum Íslendinga.",
+   "summary": "Anton Berg says France has run deficits since 1974 and Italy and Spain almost continuously for half a century; with joint EU bonds, the accumulated debt problem of the major states would fall on future generations of Icelanders.",
    "args": [
     "efnahagur",
     "kostnadur"
@@ -12629,12 +12629,12 @@ const DATA = {
   },
   {
    "side": "nei",
-   "title": "▶ Sæti Íslands við borðið: 0,1%",
+   "title": "▶ Iceland’s seat at the table: 0.1%",
    "url": "https://www.tiktok.com/@afram.island/video/7669776958820977942",
    "source": "TikTok · Áfram Ísland",
    "author": null,
    "date": "2026-08-03",
-   "summary": "Bent er á að atkvæðavægi í ráðherraráði ESB fari eftir íbúafjölda og að Ísland hefði um 0,1% vægi í langflestum ákvörðunum.",
+   "summary": "It is pointed out that voting weight in the EU Council follows population size and that Iceland would have about 0.1% weight in the vast majority of decisions.",
    "args": [
     "ahrifaleysi"
    ],
@@ -12643,12 +12643,12 @@ const DATA = {
   },
   {
    "side": "nei",
-   "title": "▶ Fótskemill, ekki sæti við borðið",
+   "title": "▶ A footstool, not a seat at the table",
    "url": "https://www.tiktok.com/@afram.island/video/7670169347859516694",
    "source": "TikTok · Áfram Ísland",
    "author": null,
    "date": "2026-08-04",
-   "summary": "Því er haldið fram að 6 þingmenn af 720 og um 0,1% vægi í ráðherraráðinu veiti Íslandi engin raunveruleg áhrif; nær væri að tala um fótskemil en sæti við borðið.",
+   "summary": "It is argued that 6 members of parliament out of 720 and about 0.1% weight in the Council provide Iceland with no real influence; it would be more accurate to speak of a footstool than a seat at the table.",
    "args": [
     "ahrifaleysi"
    ],
@@ -12657,12 +12657,12 @@ const DATA = {
   },
   {
    "side": "nei",
-   "title": "▶ Málskotsréttur forseta myndi þrengjast",
+   "title": "▶ The President’s referral power would be narrowed",
    "url": "https://www.tiktok.com/@afram.island/video/7670559634444520727",
    "source": "TikTok · Áfram Ísland",
    "author": null,
    "date": "2026-08-05",
-   "summary": "Útskýrt er að reglugerðir ESB giltu beint á Íslandi og færu ekki til forseta til staðfestingar; málskotsréttur forsetans og lokaorð þjóðarinnar næðu því til færri ákvarðana en í dag.",
+   "summary": "It is explained that EU regulations would apply directly in Iceland and would not go to the President for confirmation; the President’s referral power and the people’s final say would therefore extend to fewer decisions than today.",
    "args": [
     "fullveldi"
    ],
@@ -12671,12 +12671,12 @@ const DATA = {
   },
   {
    "side": "nei",
-   "title": "▶ EES: Fáum mest, gefum minnst",
+   "title": "▶ EEA: We get the most, give the least",
    "url": "https://www.tiktok.com/@afram.island/video/7671357271875538198",
    "source": "TikTok · Áfram Ísland",
    "author": null,
    "date": "2026-08-07",
-   "summary": "Því er haldið fram að Ísland sé alls ekki eitt á báti: EES-samningurinn veiti aðgang að innri markaðnum án þess að fórna fríverslunarsamningum, auðlindum og sjálfstjórn, en innganga þýddi 0,1% vægi og að reglugerðir frá Brussel tækju sjálfkrafa gildi.",
+   "summary": "It is argued that Iceland is not alone at all: the EEA Agreement provides access to the internal market without sacrificing free trade agreements, resources and self-government, whereas accession would mean 0.1% weight and that regulations from Brussels would automatically take effect.",
    "args": [
     "ees",
     "fullveldi",
@@ -12687,12 +12687,12 @@ const DATA = {
   },
   {
    "side": "nei",
-   "title": "▶ 800 milljarðar evra í hernaðaruppbyggingu",
+   "title": "▶ 800 billion euros in military build-up",
    "url": "https://www.tiktok.com/@afram.island/video/7671687286064434454",
    "source": "TikTok · Áfram Ísland",
    "author": null,
    "date": "2026-08-08",
-   "summary": "Bent er á Readiness 2030 áætlun ESB upp á 800 milljarða evra í varnarmál; með aðild þyrfti Ísland að taka þátt í sameiginlegum fjárlögum sambandsins og greiða fyrir vopnakaup.",
+   "summary": "It is pointed out that the EU’s Readiness 2030 plan amounts to 800 billion euros in defence spending; with membership, Iceland would have to take part in the Union’s common budget and pay for weapons purchases.",
    "args": [
     "hervaeding",
     "kostnadur"
@@ -12702,12 +12702,12 @@ const DATA = {
   },
   {
    "side": "nei",
-   "title": "▶ Þrjár ástæður til að segja nei",
+   "title": "▶ Three reasons to say no",
    "url": "https://www.tiktok.com/@afram.island/video/7672064724321783062",
    "source": "TikTok · Áfram Ísland",
    "author": null,
    "date": "2026-08-09",
-   "summary": "Þrjár ástæður eru gefnar: Íslandi hafi aldrei gengið betur en sem fullvalda þjóð, vald eigi að vera nálægt borgurunum en ekki hjá 450 milljóna sambandi, og íslenskur landbúnaður stæðist ekki samkeppni með tilheyrandi áhættu fyrir fæðuöryggi.",
+   "summary": "Three reasons are given: Iceland has never done better than as a sovereign nation, power should be close to citizens rather than with a union of 450 million, and Icelandic agriculture would not withstand the competition, with the associated risk to food security.",
    "args": [
     "fullveldi",
     "ahrifaleysi",
@@ -12718,12 +12718,12 @@ const DATA = {
   },
   {
    "side": "nei",
-   "title": "▶ Regluverk ESB fælir frumkvöðla burt",
+   "title": "▶ EU regulation drives entrepreneurs away",
    "url": "https://www.tiktok.com/@afram.island/video/7672127514038340886",
    "source": "TikTok · Áfram Ísland",
    "author": null,
    "date": "2026-08-09",
-   "summary": "Því er haldið fram að evrópsk fyrirtæki hefji vegferð sína í Bandaríkjunum eða Asíu vegna íþyngjandi regluverks Evrópu sem haldi aftur af sköpun og frelsi frumkvöðla.",
+   "summary": "It is argued that European companies begin their journey in the United States or Asia because Europe’s burdensome regulatory framework holds back creativity and the freedom of entrepreneurs.",
    "args": [
     "efnahagur"
    ],
@@ -12732,12 +12732,12 @@ const DATA = {
   },
   {
    "side": "nei",
-   "title": "▶ Á okkar eigin forsendum",
+   "title": "▶ On our own terms",
    "url": "https://www.tiktok.com/@afram.island/video/7672393555456937238",
    "source": "TikTok · Áfram Ísland",
    "author": null,
    "date": "2026-08-10",
-   "summary": "Stutt yfirlýsing: viðmælandi vill að Íslendingar haldi áfram að móta samfélagið á eigin forsendum út frá íslenskum aðstæðum og hagsmunum.",
+   "summary": "Brief statement: the interviewee wants Icelanders to continue shaping society on their own terms, based on Icelandic conditions and interests.",
    "args": [
     "fullveldi"
    ],
@@ -12746,12 +12746,12 @@ const DATA = {
   },
   {
    "side": "nei",
-   "title": "▶ Land auðlinda og hreinnar náttúru",
+   "title": "▶ A land of resources and unspoiled nature",
    "url": "https://www.tiktok.com/@afram.island/video/7672406521677909270",
    "source": "TikTok · Áfram Ísland",
    "author": null,
    "date": "2026-08-10",
-   "summary": "Viðmælandi segir Ísland land auðlinda og hreinnar náttúru með landbúnað í fremstu röð; nýta eigi tækifærin á eigin forsendum og njóta ávinningsins af þeim.",
+   "summary": "The interviewee says Iceland is a land of resources and unspoiled nature, with agriculture at the forefront; the opportunities should be used on our own terms and the benefits from them enjoyed.",
    "args": [
     "fullveldi",
     "landbunadur"
@@ -12761,12 +12761,12 @@ const DATA = {
   },
   {
    "side": "nei",
-   "title": "▶ Ísland séð með augum ungs fólks í ESB",
+   "title": "▶ Iceland through the eyes of young people in the EU",
    "url": "https://www.tiktok.com/@afram.island/video/7672489051928153366",
    "source": "TikTok · Áfram Ísland",
    "author": null,
    "date": "2026-08-10",
-   "summary": "Bent er á lágt atvinnuleysi, eina hæstu landsframleiðslu á mann í heimi og að fleiri ungir eignist húsnæði á Íslandi en víðast í Evrópu; árangurinn skýrist af því að Íslendingar hafi sjálfir tekið ákvarðanir sem henta Íslandi.",
+   "summary": "It is pointed out that unemployment is low, GDP per capita is among the highest in the world, and that more young people own housing in Iceland than in most of Europe; this success is explained by the fact that Icelanders themselves have made the decisions that suit Iceland.",
    "args": [
     "efnahagur",
     "fullveldi"
@@ -12776,12 +12776,12 @@ const DATA = {
   },
   {
    "side": "nei",
-   "title": "▶ Stefán Pálsson: Breytingar innan frá",
+   "title": "▶ Stefán Pálsson: Change from within",
    "url": "https://www.tiktok.com/@afram.island/video/7672558992828239126",
    "source": "TikTok · Áfram Ísland",
    "author": null,
    "date": "2026-08-11",
-   "summary": "Stefán Pálsson segir hvorki gott fyrir einstaklinga né þjóðir að reikna með að breytingar komi utan frá; Íslendingar geti átt samskipti við umheiminn á eigin forsendum og breytt því sem þeir kjósa sjálfir.",
+   "summary": "Stefán Pálsson says it is good neither for individuals nor for nations to expect change to come from outside; Icelanders can engage with the wider world on their own terms and change what they themselves choose.",
    "args": [
     "fullveldi"
    ],
@@ -12790,12 +12790,12 @@ const DATA = {
   },
   {
    "side": "nei",
-   "title": "▶ Helga Kristín: Sjálfstætt land áfram",
+   "title": "▶ Helga Kristín: An independent country going forward",
    "url": "https://www.tiktok.com/@afram.island/video/7672740991941610774",
    "source": "TikTok · Áfram Ísland",
    "author": null,
    "date": "2026-08-11",
-   "summary": "Helga Kristín vill búa áfram í sjálfstæðu landi þar sem Íslendingar taka ákvarðanir um innanlandsmál og náttúruauðlindir, fyrir sig og komandi kynslóðir.",
+   "summary": "Helga Kristín wants to continue living in an independent country where Icelanders make decisions about domestic affairs and natural resources, for themselves and for future generations.",
    "args": [
     "fullveldi"
    ],
@@ -12804,12 +12804,12 @@ const DATA = {
   },
   {
    "side": "nei",
-   "title": "▶ Herlaus þjóð, ekki hervæðing",
+   "title": "▶ A nation without an army, not militarisation",
    "url": "https://www.tiktok.com/@afram.island/video/7673045694944431382",
    "source": "TikTok · Áfram Ísland",
    "author": null,
    "date": "2026-08-12",
-   "summary": "Sunna Björg segir Ísland stolta herlausa þjóð sem eigi að beita sér fyrir friði á alþjóðavettvangi en ekki taka þátt í aukinni hervæðingu.",
+   "summary": "Sunna Björg says Iceland is a proud nation without an army and should work for peace on the international stage rather than take part in increased militarisation.",
    "args": [
     "hervaeding"
    ],
@@ -12818,12 +12818,12 @@ const DATA = {
   },
   {
    "side": "nei",
-   "title": "▶ Ungt fólk borgar skuldir Evrópu",
+   "title": "▶ Young people pay Europe's debts",
    "url": "https://www.tiktok.com/@afram.island/video/7673439483164970262",
    "source": "TikTok · Áfram Ísland",
    "author": null,
    "date": "2026-08-13",
-   "summary": "Því er haldið fram að Evrópa eldist og skuldir vaxi; lífeyrir sé víðast greiddur af skattgreiðendum dagsins ólíkt íslenska sjóðasöfnunarkerfinu, og þrýstingur á sameiginleg útgjöld ESB lendi á komandi kynslóðum.",
+   "summary": "It is argued that Europe is ageing and debts are growing; pensions are mostly paid by current taxpayers, unlike the Icelandic funded pension system, and pressure for joint EU spending will fall on future generations.",
    "args": [
     "efnahagur",
     "kostnadur"
@@ -12833,12 +12833,12 @@ const DATA = {
   },
   {
    "side": "nei",
-   "title": "▶ Hvað er líklegt í samningaviðræðum?",
+   "title": "▶ What is likely in negotiations?",
    "url": "https://www.tiktok.com/@afram.island/video/7674259051055697174",
    "source": "TikTok · Áfram Ísland",
    "author": null,
    "date": "2026-08-15",
-   "summary": "Rökstutt er að ólíklegt sé að fátækari aðildarríki sætti sig við að ein ríkasta þjóð Evrópu taki meira úr sjóðum ESB en hún greiðir, og að 27 þjóðir með 450 milljónir íbúa veiti 400.000 manna þjóð varanlegar undanþágur frá reglum sínum.",
+   "summary": "It is argued that poorer member states are unlikely to accept that one of Europe’s richest nations would take more from EU funds than it pays in, and that 27 nations with 450 million inhabitants would grant a nation of 400,000 people permanent exemptions from their rules.",
    "args": [
     "undanthagur"
    ],
@@ -12847,12 +12847,12 @@ const DATA = {
   },
   {
    "side": "nei",
-   "title": "▶ Hvaða framtíð er verið að bjóða?",
+   "title": "▶ What future is being offered?",
    "url": "https://www.tiktok.com/@afram.island/video/7674598302486236438",
    "source": "TikTok · Áfram Ísland",
    "author": null,
    "date": "2026-08-16",
-   "summary": "Bent er á að kaupmáttur ungs fólks á Íslandi sé 35% meiri en jafnaldra í ESB, atvinnuleysi lægra og fasteignakaup fyrr á ævinni; framtíð unga fólksins sé betur borgið undir eigin stjórn en hjá embættismönnum í Brussel.",
+   "summary": "It is pointed out that the purchasing power of young people in Iceland is 35% higher than that of their peers in the EU, unemployment is lower, and home purchases happen earlier in life; young people’s future is said to be better protected under their own control than under officials in Brussels.",
    "args": [
     "efnahagur",
     "fullveldi"
@@ -12862,12 +12862,12 @@ const DATA = {
   },
   {
    "side": "nei",
-   "title": "▶ Veistu hvað ESB-aðild kostar?",
+   "title": "▶ Do you know what EU membership costs?",
    "url": "https://www.tiktok.com/@afram.island/video/7674762323612962070",
    "source": "TikTok · Áfram Ísland",
    "author": null,
    "date": "2026-08-16",
-   "summary": "Vegfarendur eru spurðir hvað aðild að ESB kosti á ári; fæstir vita svarið, sem sagt er vera um 50 milljarðar króna á ári.",
+   "summary": "Passers-by are asked what EU membership costs per year; few know the answer, which is said to be around 50 billion krónur a year.",
    "args": [
     "kostnadur"
    ],
@@ -12876,12 +12876,12 @@ const DATA = {
   },
   {
    "side": "nei",
-   "title": "▶ Birkir: Framtíðin í okkar höndum",
+   "title": "▶ Birkir: The future in our hands",
    "url": "https://www.tiktok.com/@afram.island/video/7674768418498759958",
    "source": "TikTok · Áfram Ísland",
    "author": null,
    "date": "2026-08-16",
-   "summary": "Birkir segir framtíð ungs fólks betur borgið í höndum Íslendinga en innan Evrópusambandsins.",
+   "summary": "Birkir says the future of young people is better safeguarded in the hands of Icelanders than within the European Union.",
    "args": [
     "fullveldi"
    ],
@@ -12890,12 +12890,12 @@ const DATA = {
   },
   {
    "side": "nei",
-   "title": "▶ Dóra: Stjórn auðlinda hér á landi",
+   "title": "▶ Dóra: Control of natural resources here in Iceland",
    "url": "https://www.tiktok.com/@afram.island/video/7674768508600782102",
    "source": "TikTok · Áfram Ísland",
    "author": null,
    "date": "2026-08-16",
-   "summary": "Dóra Tómasar segir gott fyrir ungt fólk að stjórn auðlindanna sé áfram hér á landi.",
+   "summary": "Dóra Tómasar says it is good for young people that control of natural resources remains here in Iceland.",
    "args": [
     "fullveldi"
    ],
@@ -12904,12 +12904,12 @@ const DATA = {
   },
   {
    "side": "nei",
-   "title": "▶ Árni Daníel: Lýðræðishefðin styrkt",
+   "title": "▶ Árni Daníel: Democratic tradition strengthened",
    "url": "https://www.tiktok.com/@afram.island/video/7674939612749368598",
    "source": "TikTok · Áfram Ísland",
    "author": null,
    "date": "2026-08-17",
-   "summary": "Árni Daníel segist alinn upp við lýðræðishefð með djúpar rætur í íslenskri sögu og menningu og vill að sú hefð verði efld og styrkt.",
+   "summary": "Árni Daníel says he was raised in a democratic tradition with deep roots in Icelandic history and culture, and wants that tradition to be reinforced and strengthened.",
    "args": [
     "fullveldi"
    ],
@@ -12918,12 +12918,12 @@ const DATA = {
   },
   {
    "side": "nei",
-   "title": "▶ Birgitta: Sjálfstætt land til barnanna",
+   "title": "▶ Birgitta: An independent country for the children",
    "url": "https://www.tiktok.com/@afram.island/video/7674940390088215830",
    "source": "TikTok · Áfram Ísland",
    "author": null,
    "date": "2026-08-17",
-   "summary": "Birgitta segir foreldrana hafa skilað okkur sjálfstæðu landi; okkar ábyrgð sé að gera það sama fyrir börnin okkar.",
+   "summary": "Birgitta says our parents handed down to us an independent country; it is our responsibility to do the same for our children.",
    "args": [
     "fullveldi"
    ],
@@ -12932,12 +12932,12 @@ const DATA = {
   },
   {
    "side": "nei",
-   "title": "▶ Skipuritið stækkar við inngöngu",
+   "title": "▶ The organisational chart grows with accession",
    "url": "https://www.tiktok.com/@afram.island/video/7675022361057316118",
    "source": "TikTok · Áfram Ísland",
    "author": null,
    "date": "2026-08-17",
-   "summary": "Ákvörðunarvaldi þjóða er líkt við skipurit sem stækkaði við inngöngu í ESB: stjórnmálamenn gætu falið sig á bak við reglur frá Brussel og almenningur missti möguleikann á að draga ákvörðunartökufólk til ábyrgðar í eigin nærumhverfi.",
+   "summary": "Nations’ decision-making power is compared to an organisational chart that grew with accession to the EU: politicians could hide behind rules from Brussels, and the public lost the ability to hold decision-makers accountable in their own local communities.",
    "args": [
     "fullveldi"
    ],
@@ -12946,12 +12946,12 @@ const DATA = {
   },
   {
    "side": "nei",
-   "title": "▶ Ágústa: Gefum ekki auðlindirnar frá okkur",
+   "title": "▶ Ágústa: Let’s not give away our resources",
    "url": "https://www.tiktok.com/@afram.island/video/7675272414401514774",
    "source": "TikTok · Áfram Ísland",
    "author": null,
    "date": "2026-08-18",
-   "summary": "Ágústa segir náttúruauðlindirnar mikilvæga undirstöðu velmegunar og nýsköpunar á Íslandi sem ekki megi gefa frá sér.",
+   "summary": "Ágústa says natural resources are an important foundation of prosperity and innovation in Iceland and must not be given away.",
    "args": [
     "fullveldi"
    ],
@@ -12960,12 +12960,12 @@ const DATA = {
   },
   {
    "side": "nei",
-   "title": "▶ Berglind: Leysum vandamálin sjálf",
+   "title": "▶ Berglind: Let’s solve the problems ourselves",
    "url": "https://www.tiktok.com/@afram.island/video/7675275788131814678",
    "source": "TikTok · Áfram Ísland",
    "author": null,
    "date": "2026-08-18",
-   "summary": "Berglind segist trúa á Ísland og að Íslendingar geti leyst eigin vandamál sjálfir eins og þeir hafi alltaf gert í gegnum tíðina.",
+   "summary": "Berglind says she believes in Iceland and that Icelanders can solve their own problems themselves, as they have always done throughout history.",
    "args": [
     "fullveldi"
    ],
@@ -12974,12 +12974,12 @@ const DATA = {
   },
   {
    "side": "nei",
-   "title": "▶ Hvaðan koma 50 milljarðarnir?",
+   "title": "▶ Where do the 50 billion come from?",
    "url": "https://www.tiktok.com/@afram.island/video/7675298733235522838",
    "source": "TikTok · Áfram Ísland",
    "author": null,
    "date": "2026-08-18",
-   "summary": "Útskýrt er að aðildarríki greiði um 1% af þjóðartekjum til ESB, sem næmi um 50 milljörðum króna á ári fyrir Ísland — á við rekstur allra framhaldsskóla landsins; aðeins hluti komi til baka og þá með skilyrðum.",
+   "summary": "It is explained that member states pay around 1% of national income to the EU, which would amount to about ISK 50 billion a year for Iceland — equivalent to the operating costs of all the country’s upper secondary schools; only part of it would come back, and then with conditions attached.",
    "args": [
     "kostnadur"
    ],
@@ -12988,12 +12988,12 @@ const DATA = {
   },
   {
    "side": "nei",
-   "title": "▶ Bjarnheiður: Eftir hverju sækjumst við?",
+   "title": "▶ Bjarnheiður: What are we seeking?",
    "url": "https://www.tiktok.com/@afram.island/video/7675335871519853846",
    "source": "TikTok · Áfram Ísland",
    "author": null,
    "date": "2026-08-18",
-   "summary": "Bjarnheiður Hallsdóttir segir Ísland fremst meðal Evrópuþjóða á mælikvörðum hagsældar, velsældar, jafnréttis og mannréttinda; aðildarvegferðin yrði þungbær, dýr og tímafrek og ESB leysi ekki tímabundin vandamál íslensks hagkerfis.",
+   "summary": "Bjarnheiður Hallsdóttir says Iceland ranks among the leading European nations on measures of prosperity, wellbeing, equality and human rights; the path to membership would be burdensome, costly and time-consuming, and the EU would not solve the temporary problems of the Icelandic economy.",
    "args": [
     "efnahagur",
     "kostnadur"
@@ -13003,12 +13003,12 @@ const DATA = {
   },
   {
    "side": "nei",
-   "title": "▶ Bjarnheiður: EES-kostir án ægivalds",
+   "title": "▶ Bjarnheiður: EEA benefits without EU domination",
    "url": "https://www.tiktok.com/@afram.island/video/7675393474169998614",
    "source": "TikTok · Áfram Ísland",
    "author": null,
    "date": "2026-08-18",
-   "summary": "Bjarnheiður segir EES-samninginn færa Íslandi gríðarlega kosti; með inngöngu í ESB gæti lokast á aðra viðskiptasamninga og landið kæmist undir ægivald sambandsins í stað þess að stjórna auðlindum sínum sjálft.",
+   "summary": "Bjarnheiður says the EEA Agreement brings Iceland enormous benefits; joining the EU could shut off other trade agreements, and the country would come under the domination of the Union instead of controlling its own resources.",
    "args": [
     "ees",
     "fullveldi"
@@ -13018,12 +13018,12 @@ const DATA = {
   },
   {
    "side": "nei",
-   "title": "▶ 50 milljarðar á ári — enginn giskaði rétt",
+   "title": "▶ ISK 50 billion a year — no one guessed right",
    "url": "https://www.tiktok.com/@afram.island/video/7675505073467706646",
    "source": "TikTok · Áfram Ísland",
    "author": null,
    "date": "2026-08-18",
-   "summary": "Vegfarendur giska á árlegan kostnað við ESB-aðild; enginn hittir á töluna sem sögð er 50 milljarðar króna á ári og spurt er hvort peningarnir nýttust ekki betur til að efla landið inn á við.",
+   "summary": "Passers-by guess the annual cost of EU membership; no one lands on the figure, said to be ISK 50 billion a year, and the question is asked whether the money would not be better used to strengthen the country from within.",
    "args": [
     "kostnadur"
    ],
@@ -13032,12 +13032,12 @@ const DATA = {
   },
   {
    "side": "nei",
-   "title": "▶ Ungt fólk: Betri staða á Íslandi",
+   "title": "▶ Young people: Better circumstances in Iceland",
    "url": "https://www.tiktok.com/@afram.island/video/7675508260417408278",
    "source": "TikTok · Áfram Ísland",
    "author": null,
    "date": "2026-08-18",
-   "summary": "Ungir viðmælendur segja stöðu ungs fólks á Íslandi mun betri en í Evrópu og framtíðina betur borgið í eigin höndum; Íslandi hafi gengið vel síðustu 80 ár.",
+   "summary": "Young interviewees say the position of young people in Iceland is much better than in Europe and that the future is better secured in their own hands; Iceland has done well over the past 80 years.",
    "args": [
     "efnahagur",
     "fullveldi"
@@ -13047,12 +13047,12 @@ const DATA = {
   },
   {
    "side": "nei",
-   "title": "▶ Arna: Engin óvissuferð til Brussel",
+   "title": "▶ Arna: No uncertain journey to Brussels",
    "url": "https://www.tiktok.com/@afram.island/video/7675644452425288982",
    "source": "TikTok · Áfram Ísland",
    "author": null,
    "date": "2026-08-19",
-   "summary": "Arna Páls vill ekki margra ára óvissuferð til Brussel; ríkisstjórnin eigi að sinna verkefnunum sem hún var kosin til að sinna — lækka vexti, ná niður verðbólgu og styrkja menntakerfið.",
+   "summary": "Arna Páls does not want a years-long uncertain journey to Brussels; the government should focus on the tasks it was elected to carry out — lowering interest rates, bringing down inflation, and strengthening the education system.",
    "args": [
     "umbod"
    ],
@@ -13061,12 +13061,12 @@ const DATA = {
   },
   {
    "side": "nei",
-   "title": "▶ Daníel: Smæðin er styrkleiki",
+   "title": "▶ Daníel: Smallness is a strength",
    "url": "https://www.tiktok.com/@afram.island/video/7675644609577405718",
    "source": "TikTok · Áfram Ísland",
    "author": null,
    "date": "2026-08-19",
-   "summary": "Daníel segir smæð íslensks samfélags helsta styrkleika þess: stutt sé í alla valdhafa, minna skrifræði og styttri boðleiðir.",
+   "summary": "Daníel says the small size of Icelandic society is its greatest strength: everyone is close to those in power, there is less bureaucracy, and lines of communication are shorter.",
    "args": [
     "ahrifaleysi"
    ],
@@ -13075,12 +13075,12 @@ const DATA = {
   },
   {
    "side": "nei",
-   "title": "▶ Hilmar Veigar: Hnignun ESB í tölum",
+   "title": "▶ Hilmar Veigar: The decline of the EU in numbers",
    "url": "https://www.tiktok.com/@afram.island/video/7675863248389836034",
    "source": "TikTok · Áfram Ísland",
    "author": null,
    "date": "2026-08-19",
-   "summary": "Hilmar Veigar Pétursson rekur að ESB hafi fallið úr stærsta hagkerfi heims 2014 niður fyrir Bandaríkin og Kína; framleiðni á vinnustund hafi vaxið um 7% á áratug á móti 18% í Bandaríkjunum og 12% á Íslandi og hlutdeild ESB í 100 stærstu fyrirtækjum heims fallið úr 20% í 8%.",
+   "summary": "Hilmar Veigar Pétursson argues that the EU fell from being the world’s largest economy in 2014 to behind the United States and China; productivity per hour worked grew by 7% over a decade compared with 18% in the United States and 12% in Iceland, and the EU’s share of the world’s 100 largest companies fell from 20% to 8%.",
    "args": [
     "efnahagur"
    ],
@@ -13089,12 +13089,12 @@ const DATA = {
   },
   {
    "side": "nei",
-   "title": "▶ Georg: Reglubyrði hamlar nýsköpun",
+   "title": "▶ Georg: Regulatory burden hampers innovation",
    "url": "https://www.tiktok.com/@afram.island/video/7676015013470981398",
    "source": "TikTok · Áfram Ísland",
    "author": null,
    "date": "2026-08-20",
-   "summary": "Georg, sem kveðst alþjóðasinni, telur ESB á rangri leið vegna regluvæðingar sem íþyngi nýsköpun; orkan eigi nú að fara í að ná niður verðbólgu og vöxtum og nýta gervigreind til verðmætasköpunar heima fyrir.",
+   "summary": "Georg, who describes himself as an internationalist, believes the EU is on the wrong path because of increasing regulation that weighs on innovation; he says the focus should now be on bringing down inflation and interest rates and using artificial intelligence to create value at home.",
    "args": [
     "efnahagur",
     "umbod"
@@ -13104,12 +13104,12 @@ const DATA = {
   },
   {
    "side": "nei",
-   "title": "▶ Guðmundur: Tökum enga áhættu",
+   "title": "▶ Guðmundur: Let’s take no risks",
    "url": "https://www.tiktok.com/@afram.island/video/7676015144165477634",
    "source": "TikTok · Áfram Ísland",
    "author": null,
    "date": "2026-08-20",
-   "summary": "Guðmundur segir Íslendingum hafa gengið ævintýralega vel sem sjálfstæðri þjóð, bæði í hagsæld og réttindum, og vill ekki taka neina áhættu með því fyrir inngöngu í ESB.",
+   "summary": "Guðmundur says Icelanders have done extraordinarily well as an independent nation, both in prosperity and rights, and does not want to take any risks by pushing for EU membership.",
    "args": [
     "efnahagur",
     "fullveldi"
@@ -13119,12 +13119,12 @@ const DATA = {
   },
   {
    "side": "nei",
-   "title": "▶ ESB ákveður hver má veiða",
+   "title": "▶ The EU decides who may fish",
    "url": "https://www.tiktok.com/@heimssyn/video/7671445345691356438",
    "source": "TikTok · Heimssýn",
    "author": null,
    "date": "2026-08-08",
-   "summary": "Því er haldið fram að ESB ákveði hver megi draga fisk úr sjó og geti hvenær sem er breytt reglum um úthlutun veiðiheimilda; vestur-evrópskar þjóðir hafi alda veiðireynslu á Íslandsmiðum og gætu því sótt sér aflaheimildir við Ísland.",
+   "summary": "It is claimed that the EU decides who may catch fish from the sea and can at any time change the rules on the allocation of fishing quotas; Western European nations have centuries of fishing experience in Icelandic waters and could therefore seek catch quotas off Iceland.",
    "args": [
     "sjavarutvegur"
    ],

@@ -708,22 +708,22 @@ const MOTROK = {
  ],
  "tollfrelsi": [
   {
-   "title": "Fiskurinn gæti farið óunninn úr landi — dæmin þegar til",
-   "text": "Sigurjón Þórðarson, þingmaður Flokks fólksins, snýr fullvinnslurökunum við: „Að óbreyttum reglum og við inngöngu í Evrópusambandið gætu erlendar matvælakeðjur á borð við Unilever mjög auðveldlega keypt upp stærstu sjávarútvegsfyrirtækin og flutt fiskinn óunninn til vinnslu erlendis.“ Þetta séu engar draugasögur — Vinnslustöðin hafi lokað saltfiskvinnslu í Eyjum en aukið saltfiskvinnslu í fyrirtæki sínu í Portúgal, og innganga opnaði á sölu útgerða og veiðiheimilda til erlendra aðila.",
+   "title": "The fish could leave the country unprocessed — the examples already exist",
+   "text": "Sigurjón Þórðarson, MP for Flokkur fólksins, turns the full-processing argument on its head: “Under the current rules and with accession to the European Union, foreign food chains such as Unilever could very easily buy up the largest seafood companies and move the fish abroad unprocessed for processing there.” He says these are no ghost stories — Vinnslustöðin has closed its saltfish processing in the Westman Islands while expanding saltfish processing at its company in Portugal, and accession would open the way for the sale of fishing companies and fishing quotas to foreign parties.",
    "source": "visir.is",
    "author": "Sigurjón Þórðarson",
    "url": "https://www.visir.is/g/20262902217d/verdur-island-brothaett-byggd-"
   },
   {
-   "title": "EES veitir aðganginn — verðið fyrir tollfrelsið er yfirráðin",
-   "text": "Þórir Garðarsson bendir á að Ísland hafi nú þegar „víðtækan aðgang að innri markaði Evrópu“ gegnum EES en að „sameiginleg sjávarútvegsstefna Evrópusambandsins er hins vegar sérstaklega undanskilin EES-samningnum“ — Ísland fari því sjálft með stjórn fiskveiða og setji skorður við erlendu eignarhaldi. Við aðild breyttist það: framkvæmdastjórn ESB hafi í fyrri viðræðum talið íslenskar takmarkanir á erlendum fjárfestingum í sjávarútvegi ósamrýmanlegar regluverkinu, stækkaður kaupendahópur gæti hækkað kvótaverð og freistað fjölskylduútgerða til að selja heimildir sínar úr landi.",
+   "title": "The EEA provides the access — the price of tariff-free trade is control",
+   "text": "Þórir Garðarsson points out that Iceland already has “broad access to Europe’s internal market” through the EEA, but that “the European Union’s common fisheries policy is, however, specifically excluded from the EEA Agreement” — Iceland therefore retains control over fisheries management itself and imposes limits on foreign ownership. With membership, that would change: in earlier talks, the European Commission considered Icelandic restrictions on foreign investment in fisheries incompatible with the regulatory framework, and a larger pool of buyers could raise quota prices and tempt family-run fishing companies to sell their rights abroad.",
    "source": "visir.is",
    "author": "Þórir Garðarsson",
    "url": "https://www.visir.is/g/20262920972d/hver-er-raunveruleg-haetta-fyrir-islenskar-veidiheimildir-vid-esb-adild-"
   },
   {
-   "title": "„Er það ekki nóg?“ — óraunhæft að fórna forræðinu fyrir tolla",
-   "text": "Sigurður P. Sigmundsson spyr á móti: „Ísland er með góðan EES samning sem veitir aðgang að innri markaði ESB og fjórfrelsinu svokallaða. Er það ekki nóg?“ Af hverju ætti Ísland að fara í viðræður um að skerða vald sitt yfir sjávarútvegs- og landbúnaðarmálum — vald sem yrði framselt „að stórum hluta“ — þegar „óraunhæf óskhyggja“ sé að Ísland fái sérlausnir og varanlegar undanþágur sem einhverju máli skipta, og öll helstu hagsmunasamtök atvinnugreinanna hafi lagst gegn viðræðum.",
+   "title": "“Isn’t that enough?” — unrealistic to give up control for tariffs",
+   "text": "Sigurður P. Sigmundsson responds by asking: “Iceland has a good EEA agreement that provides access to the EU internal market and the so-called four freedoms. Isn’t that enough?” Why should Iceland enter talks about reducing its authority over fisheries and agriculture — authority that would be transferred “to a large extent” — when it is “unrealistic wishful thinking” that Iceland would obtain special arrangements and permanent exemptions of any real significance, and all the main interest groups in those sectors have opposed negotiations.",
    "source": "visir.is",
    "author": "Sigurður P. Sigmundsson",
    "url": "https://www.visir.is/g/20262919026d/astaedur-thess-ad-eg-kys-nei-thann-29.-agust"
@@ -731,22 +731,22 @@ const MOTROK = {
  ],
  "varnarsamningur": [
   {
-   "title": "Gauti B. Eggertsson: Samningurinn frá 1951 einskis virði án NATO",
-   "text": "Gauti B. Eggertsson, hagfræðiprófessor við Brown-háskóla, segir að varnarsamningurinn frá 1951 hafi ekkert gildi ef NATO leysist upp — og umhverfi frjálsra viðskipta sé þegar hrunið með tollastríði Trumps. Í stað þess að treysta á stoðir sem bresta kunni verndi Ísland fullveldi sitt best í hópi ríkja sem virða fullveldi annarra, og miklir hagsmunir felist í aðild að tollabandalagi ESB.",
+   "title": "Gauti B. Eggertsson: The 1951 agreement is worthless without NATO",
+   "text": "Gauti B. Eggertsson, professor of economics at Brown University, says the 1951 defence agreement has no value if NATO falls apart — and the environment for free trade has already collapsed with Trump’s tariff war. Instead of relying on pillars that may fail, Iceland best protects its sovereignty among a group of states that respect the sovereignty of others, and there are major interests at stake in joining the EU customs union.",
    "source": "dv.is (Eyjan)",
    "author": "Gauti B. Eggertsson",
    "url": "https://www.dv.is/eyjan/2026/08/08/gauti-b-eggertsson-thu-verndar-fullveldid-i-hopi-sterkra-rikja-med-sameiginleg"
   },
   {
-   "title": "Davíð Þór: Varnarsamningurinn stendur og fellur með NATO",
-   "text": "Davíð Þór Björgvinsson, fyrrverandi dómari við Mannréttindadómstól Evrópu, bendir á að varnarsamningurinn frá 1951 feli í sér að Bandaríkin verji Ísland í umboði NATO; líði NATO undir lok séu allar lagalegar forsendur samningsins brostnar — „ef NATO fer í skrúfuna er varnarsamningurinn við Bandaríkin brostinn“. Óútreiknanleg framganga Bandaríkjanna geri að verkum að endurmeta þurfi stoðir íslensks öryggis fremur en að ganga að þeim vísum.",
+   "title": "Davíð Þór: The defence agreement stands and falls with NATO",
+   "text": "Davíð Þór Björgvinsson, former judge at the European Court of Human Rights, points out that the 1951 defence agreement entails that the United States defends Iceland on NATO’s behalf; if NATO were to come to an end, all the legal foundations of the agreement would collapse — “if NATO goes down the drain, the defence agreement with the United States is broken”. The United States’ unpredictable conduct means that the pillars of Icelandic security must be reassessed rather than taken for granted.",
    "source": "dv.is (Eyjan)",
    "author": "Davíð Þór Björgvinsson",
    "url": "https://www.dv.is/eyjan/2026/04/05/david-thor-bjorgvinsson-ef-nato-fer-skrufuna-er-varnarsamningurinn-vid-bandarikin-brostinn"
   },
   {
-   "title": "ESB-aðild flækir ekkert — 23 af 27 ESB-ríkjum eru í NATO",
-   "text": "Davíð Þór Björgvinsson hafnar því að ESB-aðild tefli varnartengslunum við Bandaríkin í tvísýnu: 23 af 27 aðildarríkjum ESB eru í NATO, sáttmáli ESB kveður beinlínis á um að stefna sambandsins virði skuldbindingar aðildarríkja gagnvart NATO, og Bandaríkin hafa sjálf tvíhliða varnarsamninga við einstök ESB-ríki á borð við Spán, Grikkland og Pólland — ESB-aðild og tvíhliða varnarsamstarf við Bandaríkin fara því saman í reynd.",
+   "title": "EU membership does not complicate anything — 23 of 27 EU states are in NATO",
+   "text": "Davíð Þór Björgvinsson rejects the claim that EU membership would put defence ties with the United States at risk: 23 of the EU’s 27 member states are in NATO, the EU treaty explicitly provides that the Union’s policy shall respect member states’ commitments to NATO, and the United States itself has bilateral defence agreements with individual EU states such as Spain, Greece and Poland — EU membership and bilateral defence cooperation with the United States therefore go hand in hand in practice.",
    "source": "dv.is (Eyjan)",
    "author": "Davíð Þór Björgvinsson",
    "url": "https://www.dv.is/eyjan/2026/05/28/david-thor-bjorgvinsson-skrifar-samstarf-bandarikjanna-og-esb-rikja-oryggis-og-varnarmalum"
