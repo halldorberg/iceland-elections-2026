@@ -1048,7 +1048,7 @@
       });
 
       // Click delegation for fold/unfold, counter scroll-to, and mobile expand
-      document.querySelector('.esb-columns:not(.esb-headbar)').addEventListener('click', e => {
+      document.querySelector('.esb-columns:not(.esb-headbar):not(.vt-row)').addEventListener('click', e => {
         if (e.target.closest('a')) return;
         const lbl = e.target.closest('.counters-label');
         if (lbl) { lbl.parentElement.classList.toggle('unfolded'); return; }
