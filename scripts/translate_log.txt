@@ -1,3 +1,36 @@
-[en] 12 strings to translate (1910 already done)
-  error: RateLimitError: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/ (attempt 1)
-  error: RateLimitError: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https:/ (attempt 2)
+[en] 264 strings to translate (1910 already done)
+[en] 1930/2174
+[en] 1950/2174
+[en] 1970/2174
+[en] 1990/2174
+[en] 2010/2174
+[en] 2030/2174
+[en] 2050/2174
+[en] 2070/2174
+[en] 2090/2174
+[en] 2110/2174
+[en] 2130/2174
+[en] 2150/2174
+[en] 2170/2174
+[en] 2174/2174
+[pl] 370 strings to translate (1804 already done)
+[pl] 1824/2174
+[pl] 1844/2174
+[pl] 1864/2174
+[pl] 1884/2174
+[pl] 1904/2174
+[pl] 1924/2174
+[pl] 1944/2174
+[pl] 1964/2174
+[pl] 1984/2174
+[pl] 2004/2174
+[pl] 2024/2174
+[pl] 2044/2174
+[pl] 2064/2174
+[pl] 2084/2174
+[pl] 2104/2174
+[pl] 2124/2174
+[pl] 2144/2174
+[pl] 2164/2174
+[pl] 2174/2174
+All done

@@ -1860,17 +1860,8 @@ function renderResultsOverview() {
     meta.textContent = bits.join(' · ');
   }
 
-  // Results are now present. If the user hasn't explicitly minimized it,
-  // auto-open the banner (animates from the closed default). We don't
-  // persist this — a later manual toggle still takes over for good.
-  if (!_overviewUserChoice()) {
-    const el = document.getElementById('results-overview');
-    if (el && el.classList.contains('is-min')) {
-      el.classList.remove('is-min');
-      el.querySelector('#results-overview-toggle')
-        ?.setAttribute('aria-expanded', 'true');
-    }
-  }
+  // Election is over: keep the banner closed by default. The visitor's
+  // explicit toggle (localStorage) still governs; no auto-open.
 }
 
 async function fetchLiveResults() {
