@@ -1,5 +1,5 @@
 const DATA = {
- "note": "Skýrsla unnin 6. ágúst 2026. Greindar voru vefsíður hreyfinga (Evrópuhreyfingin, SJÁ, Heimssýn, Áfram Ísland, Til vinstri við ESB, Frjálst land), fjölmiðlar (Vísir, mbl.is, RÚV, DV, Heimildin, Viðskiptablaðið, Bændablaðið, Skessuhorn, Austurfrétt, Feykir, BB.is, Eyjafréttir, Vikublaðið, Útvarp Saga, Mannlíf, Nútíminn) auk opinnar umræðu á Reddit og Facebook. Hlutlausar fréttir eru ekki taldar í dálkunum. Uppfært 18. ágúst 2026: greinaskrif á Vísi, Eyjunni (DV) og aðsendar greinar Morgunblaðsins hafa nú verið greind í heild.",
+ "note": "Skýrsla fyrst unnin 6. ágúst 2026 og síðast uppfærð 20. ágúst 2026. Greind voru öll greinaskrif um atkvæðagreiðsluna á Vísi, Eyjunni (DV) og aðsendar greinar Morgunblaðsins, vefsíður hreyfinganna (Evrópuhreyfingin, SJÁ, Heimssýn, Áfram Ísland, Til vinstri við ESB, Frjálst land), aðrir fjölmiðlar (RÚV, Heimildin, Viðskiptablaðið, Bændablaðið, Skessuhorn, Austurfrétt, Feykir, BB.is, Eyjafréttir, Vikublaðið, Útvarp Saga, Mannlíf, Nútíminn), opin umræða á Reddit og Facebook auk TikTok-myndbanda framboðshreyfinganna. Hlutlausar fréttir eru ekki taldar í dálkunum.",
  "movements": {
   "ja": [
    {
