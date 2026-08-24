@@ -528,6 +528,30 @@ const VIDEOFEED = [
 "argIcon": "🏛️"
 },
 {
+"id": "7676070333169913110",
+"side": "ja",
+"title": "Spurningakeppni: já 29. ágúst",
+"summary": "Létt spurningakeppni; lægri vöxtum sagt já takk, verðtrygging sögð ísköld og viðmælandi ætlar að segja já 29. ágúst.",
+"account": "sja",
+"url": "https://www.tiktok.com/@jatiladsja/video/7676070333169913110",
+"views": 8144,
+"argKey": "vextir",
+"argTitle": "Lægri vextir og stöðugur gjaldmiðill",
+"argIcon": "💶"
+},
+{
+"id": "7672127514038340886",
+"side": "nei",
+"title": "Regluverk ESB fælir frumkvöðla burt",
+"summary": "Því er haldið fram að evrópsk fyrirtæki hefji vegferð sína í Bandaríkjunum eða Asíu vegna íþyngjandi regluverks Evrópu sem haldi aftur af sköpun og frelsi frumkvöðla.",
+"account": "aframisland",
+"url": "https://www.tiktok.com/@afram.island/video/7672127514038340886",
+"views": 3180,
+"argKey": "efnahagur",
+"argTitle": "Íslandi vegnar betur utan ESB",
+"argIcon": "📈"
+},
+{
 "id": "7674559683239218454",
 "side": "ja",
 "title": "Ákvarðanir sem börnin lifa lengst með",
@@ -540,13 +564,13 @@ const VIDEOFEED = [
 "argIcon": "📄"
 },
 {
-"id": "7672127514038340886",
+"id": "7672489051928153366",
 "side": "nei",
-"title": "Regluverk ESB fælir frumkvöðla burt",
-"summary": "Því er haldið fram að evrópsk fyrirtæki hefji vegferð sína í Bandaríkjunum eða Asíu vegna íþyngjandi regluverks Evrópu sem haldi aftur af sköpun og frelsi frumkvöðla.",
+"title": "Ísland séð með augum ungs fólks í ESB",
+"summary": "Bent er á lágt atvinnuleysi, eina hæstu landsframleiðslu á mann í heimi og að fleiri ungir eignist húsnæði á Íslandi en víðast í Evrópu; árangurinn skýrist af því að Íslendingar hafi sjálfir tekið ákvarðanir sem henta Íslandi.",
 "account": "aframisland",
-"url": "https://www.tiktok.com/@afram.island/video/7672127514038340886",
-"views": 3180,
+"url": "https://www.tiktok.com/@afram.island/video/7672489051928153366",
+"views": 8062,
 "argKey": "efnahagur",
 "argTitle": "Íslandi vegnar betur utan ESB",
 "argIcon": "📈"
@@ -564,13 +588,13 @@ const VIDEOFEED = [
 "argIcon": "💶"
 },
 {
-"id": "7672489051928153366",
+"id": "7674598302486236438",
 "side": "nei",
-"title": "Ísland séð með augum ungs fólks í ESB",
-"summary": "Bent er á lágt atvinnuleysi, eina hæstu landsframleiðslu á mann í heimi og að fleiri ungir eignist húsnæði á Íslandi en víðast í Evrópu; árangurinn skýrist af því að Íslendingar hafi sjálfir tekið ákvarðanir sem henta Íslandi.",
+"title": "Hvaða framtíð er verið að bjóða?",
+"summary": "Bent er á að kaupmáttur ungs fólks á Íslandi sé 35% meiri en jafnaldra í ESB, atvinnuleysi lægra og fasteignakaup fyrr á ævinni; framtíð unga fólksins sé betur borgið undir eigin stjórn en hjá embættismönnum í Brussel.",
 "account": "aframisland",
-"url": "https://www.tiktok.com/@afram.island/video/7672489051928153366",
-"views": 8062,
+"url": "https://www.tiktok.com/@afram.island/video/7674598302486236438",
+"views": 12600,
 "argKey": "efnahagur",
 "argTitle": "Íslandi vegnar betur utan ESB",
 "argIcon": "📈"
@@ -636,13 +660,13 @@ const VIDEOFEED = [
 "argIcon": "📄"
 },
 {
-"id": "7674598302486236438",
+"id": "7675508260417408278",
 "side": "nei",
-"title": "Hvaða framtíð er verið að bjóða?",
-"summary": "Bent er á að kaupmáttur ungs fólks á Íslandi sé 35% meiri en jafnaldra í ESB, atvinnuleysi lægra og fasteignakaup fyrr á ævinni; framtíð unga fólksins sé betur borgið undir eigin stjórn en hjá embættismönnum í Brussel.",
+"title": "Ungt fólk: Betri staða á Íslandi",
+"summary": "Ungir viðmælendur segja stöðu ungs fólks á Íslandi mun betri en í Evrópu og framtíðina betur borgið í eigin höndum; Íslandi hafi gengið vel síðustu 80 ár.",
 "account": "aframisland",
-"url": "https://www.tiktok.com/@afram.island/video/7674598302486236438",
-"views": 12600,
+"url": "https://www.tiktok.com/@afram.island/video/7675508260417408278",
+"views": 9830,
 "argKey": "efnahagur",
 "argTitle": "Íslandi vegnar betur utan ESB",
 "argIcon": "📈"
@@ -660,13 +684,13 @@ const VIDEOFEED = [
 "argIcon": "📄"
 },
 {
-"id": "7675508260417408278",
+"id": "7675863248389836034",
 "side": "nei",
-"title": "Ungt fólk: Betri staða á Íslandi",
-"summary": "Ungir viðmælendur segja stöðu ungs fólks á Íslandi mun betri en í Evrópu og framtíðina betur borgið í eigin höndum; Íslandi hafi gengið vel síðustu 80 ár.",
+"title": "Hilmar Veigar: Hnignun ESB í tölum",
+"summary": "Hilmar Veigar Pétursson rekur að ESB hafi fallið úr stærsta hagkerfi heims 2014 niður fyrir Bandaríkin og Kína; framleiðni á vinnustund hafi vaxið um 7% á áratug á móti 18% í Bandaríkjunum og 12% á Íslandi og hlutdeild ESB í 100 stærstu fyrirtækjum heims fallið úr 20% í 8%.",
 "account": "aframisland",
-"url": "https://www.tiktok.com/@afram.island/video/7675508260417408278",
-"views": 9830,
+"url": "https://www.tiktok.com/@afram.island/video/7675863248389836034",
+"views": 3383,
 "argKey": "efnahagur",
 "argTitle": "Íslandi vegnar betur utan ESB",
 "argIcon": "📈"
@@ -684,16 +708,16 @@ const VIDEOFEED = [
 "argIcon": "📢"
 },
 {
-"id": "7662744621553814806",
+"id": "7677244556454219030",
 "side": "nei",
-"title": "Íslendingar ráði yfir Íslandi",
-"summary": "Ung kona segir kosninguna snúast um að vernda fullveldið, krónuna og gjaldmiðilinn; 27 þjóðir hafi gengið í gegnum aðildarferlið og engin fengið sérstakan samning.",
+"title": "Bingó: er þetta ekki nóg?",
+"summary": "Farið yfir lista gegn aðild í bingóstíl: chat control-eftirlit, 0,08% atkvæðavægi, sameiginleg sjávarútvegsstefna, tollabandalag og 15 milljarða árleg útgjöld.",
 "account": "aframisland",
-"url": "https://www.tiktok.com/@afram.island/video/7662744621553814806",
-"views": 5939,
-"argKey": "fullveldi",
-"argTitle": "Fullveldisframsal",
-"argIcon": "🏛️"
+"url": "https://www.tiktok.com/@afram.island/video/7677244556454219030",
+"views": 268,
+"argKey": "ahrifaleysi",
+"argTitle": "Hverfandi vægi smáríkis",
+"argIcon": "🤏"
 },
 {
 "id": "7666090618019613954",
@@ -708,13 +732,13 @@ const VIDEOFEED = [
 "argIcon": "💶"
 },
 {
-"id": "7675863248389836034",
+"id": "7676015144165477634",
 "side": "nei",
-"title": "Hilmar Veigar: Hnignun ESB í tölum",
-"summary": "Hilmar Veigar Pétursson rekur að ESB hafi fallið úr stærsta hagkerfi heims 2014 niður fyrir Bandaríkin og Kína; framleiðni á vinnustund hafi vaxið um 7% á áratug á móti 18% í Bandaríkjunum og 12% á Íslandi og hlutdeild ESB í 100 stærstu fyrirtækjum heims fallið úr 20% í 8%.",
+"title": "Guðmundur: Tökum enga áhættu",
+"summary": "Guðmundur segir Íslendingum hafa gengið ævintýralega vel sem sjálfstæðri þjóð, bæði í hagsæld og réttindum, og vill ekki taka neina áhættu með því fyrir inngöngu í ESB.",
 "account": "aframisland",
-"url": "https://www.tiktok.com/@afram.island/video/7675863248389836034",
-"views": 3383,
+"url": "https://www.tiktok.com/@afram.island/video/7676015144165477634",
+"views": 1096,
 "argKey": "efnahagur",
 "argTitle": "Íslandi vegnar betur utan ESB",
 "argIcon": "📈"
@@ -732,13 +756,61 @@ const VIDEOFEED = [
 "argIcon": "📄"
 },
 {
-"id": "7676015144165477634",
+"id": "7676190550101347606",
 "side": "nei",
-"title": "Guðmundur: Tökum enga áhættu",
-"summary": "Guðmundur segir Íslendingum hafa gengið ævintýralega vel sem sjálfstæðri þjóð, bæði í hagsæld og réttindum, og vill ekki taka neina áhættu með því fyrir inngöngu í ESB.",
+"title": "Draghi-skýrslan dregur upp dökka mynd",
+"summary": "Draghi-skýrslan um samkeppnishæfni Evrópu sögð sýna að álfan dragist aftur úr og flókið regluverk hamli fyrirtækjum; rangur tími fyrir Ísland að binda sig fastar við kerfið.",
 "account": "aframisland",
-"url": "https://www.tiktok.com/@afram.island/video/7676015144165477634",
-"views": 1096,
+"url": "https://www.tiktok.com/@afram.island/video/7676190550101347606",
+"views": 1947,
+"argKey": "efnahagur",
+"argTitle": "Íslandi vegnar betur utan ESB",
+"argIcon": "📈"
+},
+{
+"id": "7660171516000341250",
+"side": "ja",
+"title": "Búa hjá foreldrum til þrítugs?",
+"summary": "Ungt fólk komist ekki inn á fasteignamarkaðinn og spurt er hvort lægri vextir séu mögulegir; þess vegna vilji sögumaður sjá samninginn.",
+"account": "sja",
+"url": "https://www.tiktok.com/@jatiladsja/video/7660171516000341250",
+"views": 4663,
+"argKey": "vextir",
+"argTitle": "Lægri vextir og stöðugur gjaldmiðill",
+"argIcon": "💶"
+},
+{
+"id": "7676422473881095446",
+"side": "nei",
+"title": "Ísak: stöndum okkur betur utan ESB",
+"summary": "Ísak bendir á að Ísland sé efst í mælikvörðum um lífskjör og efnahagsmál og spyr hvers vegna ætti að ganga í ESB þegar landið standi sig betur en aðildarríkin.",
+"account": "aframisland",
+"url": "https://www.tiktok.com/@afram.island/video/7676422473881095446",
+"views": 1911,
+"argKey": "efnahagur",
+"argTitle": "Íslandi vegnar betur utan ESB",
+"argIcon": "📈"
+},
+{
+"id": "7676065516049566978",
+"side": "ja",
+"title": "Spurningakeppni: lægri vextir, já takk",
+"summary": "Létt spurningakeppni þar sem lægri vöxtum er fagnað og verðtrygging sögð köld; já í ágúst þýði ekki inngöngu í ESB heldur aðeins að skoða möguleikana.",
+"account": "sja",
+"url": "https://www.tiktok.com/@jatiladsja/video/7676065516049566978",
+"views": 4553,
+"argKey": "vextir",
+"argTitle": "Lægri vextir og stöðugur gjaldmiðill",
+"argIcon": "💶"
+},
+{
+"id": "7676492455822314774",
+"side": "nei",
+"title": "Georg: ESB á rangri leið",
+"summary": "Georg segist alþjóðasinni en telji ESB á rangri leið, sérstaklega vegna regluverksbyrðar á nýsköpun.",
+"account": "aframisland",
+"url": "https://www.tiktok.com/@afram.island/video/7676492455822314774",
+"views": 1152,
 "argKey": "efnahagur",
 "argTitle": "Íslandi vegnar betur utan ESB",
 "argIcon": "📈"
@@ -756,16 +828,16 @@ const VIDEOFEED = [
 "argIcon": "🐟"
 },
 {
-"id": "7674259051055697174",
+"id": "7662744621553814806",
 "side": "nei",
-"title": "Hvað er líklegt í samningaviðræðum?",
-"summary": "Rökstutt er að ólíklegt sé að fátækari aðildarríki sætti sig við að ein ríkasta þjóð Evrópu taki meira úr sjóðum ESB en hún greiðir, og að 27 þjóðir með 450 milljónir íbúa veiti 400.000 manna þjóð varanlegar undanþágur frá reglum sínum.",
+"title": "Íslendingar ráði yfir Íslandi",
+"summary": "Ung kona segir kosninguna snúast um að vernda fullveldið, krónuna og gjaldmiðilinn; 27 þjóðir hafi gengið í gegnum aðildarferlið og engin fengið sérstakan samning.",
 "account": "aframisland",
-"url": "https://www.tiktok.com/@afram.island/video/7674259051055697174",
-"views": 7204,
-"argKey": "undanthagur",
-"argTitle": "Engar varanlegar undanþágur",
-"argIcon": "🚫"
+"url": "https://www.tiktok.com/@afram.island/video/7662744621553814806",
+"views": 5939,
+"argKey": "fullveldi",
+"argTitle": "Fullveldisframsal",
+"argIcon": "🏛️"
 },
 {
 "id": "7675426028856069398",
@@ -876,6 +948,30 @@ const VIDEOFEED = [
 "argIcon": "🐟"
 },
 {
+"id": "7674259051055697174",
+"side": "nei",
+"title": "Hvað er líklegt í samningaviðræðum?",
+"summary": "Rökstutt er að ólíklegt sé að fátækari aðildarríki sætti sig við að ein ríkasta þjóð Evrópu taki meira úr sjóðum ESB en hún greiðir, og að 27 þjóðir með 450 milljónir íbúa veiti 400.000 manna þjóð varanlegar undanþágur frá reglum sínum.",
+"account": "aframisland",
+"url": "https://www.tiktok.com/@afram.island/video/7674259051055697174",
+"views": 7204,
+"argKey": "undanthagur",
+"argTitle": "Engar varanlegar undanþágur",
+"argIcon": "🚫"
+},
+{
+"id": "7672898909391326486",
+"side": "ja",
+"title": "A-liðið í samninganefnd Íslands",
+"summary": "Treyst er á að ríkisstjórnin skipi bestu mögulegu samningamenn, líka erlenda ef þarf, fari málið lengra.",
+"account": "sja",
+"url": "https://www.tiktok.com/@jatiladsja/video/7672898909391326486",
+"views": 2856,
+"argKey": "serlausnir",
+"argTitle": "Sérlausnir raunhæfar — kvótinn íslenskur",
+"argIcon": "🐟"
+},
+{
 "id": "7672406521677909270",
 "side": "nei",
 "title": "Land auðlinda og hreinnar náttúru",
@@ -934,6 +1030,78 @@ const VIDEOFEED = [
 "argKey": "fullveldi",
 "argTitle": "Fullveldisframsal",
 "argIcon": "🏛️"
+},
+{
+"id": "7676459949051956502",
+"side": "ja",
+"title": "Fullveldið styrkist með sæti við borðið",
+"summary": "Fullveldi sagt tvenns konar: Ísland ráði áfram sínum innri málum en fylgi í dag regluverki ESB án áhrifa; með aðild fengist sæti við borðið og fullveldið ykist.",
+"account": "evropuhreyfingin",
+"url": "https://www.tiktok.com/@evropuhreyfingin/video/7676459949051956502",
+"views": 2423,
+"argKey": "ahrif",
+"argTitle": "Sæti við borðið í stað EES-áhrifaleysis",
+"argIcon": "🪑"
+},
+{
+"id": "7675393474169998614",
+"side": "nei",
+"title": "Bjarnheiður: EES-kostir án ægivalds",
+"summary": "Bjarnheiður segir EES-samninginn færa Íslandi gríðarlega kosti; með inngöngu í ESB gæti lokast á aðra viðskiptasamninga og landið kæmist undir ægivald sambandsins í stað þess að stjórna auðlindum sínum sjálft.",
+"account": "aframisland",
+"url": "https://www.tiktok.com/@afram.island/video/7675393474169998614",
+"views": 1246,
+"argKey": "ees",
+"argTitle": "EES dugar Íslandi vel",
+"argIcon": "🤝"
+},
+{
+"id": "7676070874637700374",
+"side": "ja",
+"title": "Bull að fullveldið tapist",
+"summary": "Fullyrðing um fullveldistap sögð bull; 27 ESB-þjóðir hafi ekki misst fullveldi sitt og með aðild fengi Ísland loks fulltrúa í stað þess að taka við EES-reglum án áhrifa.",
+"account": "sja",
+"url": "https://www.tiktok.com/@jatiladsja/video/7676070874637700374",
+"views": 1149,
+"argKey": "hraedslu",
+"argTitle": "Svar við hræðsluáróðri",
+"argIcon": "📢"
+},
+{
+"id": "7667159897917656342",
+"side": "nei",
+"title": "Sviss beygir sig ekki fyrir neinum",
+"summary": "Því er haldið fram að þjóðum farnist best sem leiti ekki í skjól hinna stóru; Sviss haldi sjálfstæði sínu og fari sínu fram utan bandalaga.",
+"account": "aframisland",
+"url": "https://www.tiktok.com/@afram.island/video/7667159897917656342",
+"views": 7914,
+"argKey": "nagrannar",
+"argTitle": "Ekkert nágrannaland í ESB",
+"argIcon": "🧭"
+},
+{
+"id": "7677242348153130262",
+"side": "ja",
+"title": "Lárus Welding: mikið upside, ekkert downside",
+"summary": "Lárus Welding segir já-kostinn hafa miklu meira upside en downside; Ísland eigi að vera með í samtalinu í ljósi stöðu heimsmála og samningur færi hvort sem er aftur til þjóðarinnar.",
+"account": "sja",
+"url": "https://www.tiktok.com/@jatiladsja/video/7677242348153130262",
+"views": 676,
+"argKey": "kikja",
+"argTitle": "Kosið um viðræður — sjáum samninginn",
+"argIcon": "📄"
+},
+{
+"id": "7659941218507345174",
+"side": "nei",
+"title": "Ungt fólk: Hagsmunum betur borgið utan ESB",
+"summary": "Ungur viðmælandi segir EES-samninginn veita aðgang að innri markaðnum með helstu kostum aðildar án gallanna og að kosningin snúist um framtíð unga fólksins.",
+"account": "aframisland",
+"url": "https://www.tiktok.com/@afram.island/video/7659941218507345174",
+"views": 8013,
+"argKey": "ees",
+"argTitle": "EES dugar Íslandi vel",
+"argIcon": "🤝"
 },
 {
 "id": "7674993889694059798",
@@ -1092,16 +1260,16 @@ const VIDEOFEED = [
 "argIcon": "📄"
 },
 {
-"id": "7660171516000341250",
+"id": "7676790323875564822",
 "side": "ja",
-"title": "Búa hjá foreldrum til þrítugs?",
-"summary": "Ungt fólk komist ekki inn á fasteignamarkaðinn og spurt er hvort lægri vextir séu mögulegir; þess vegna vilji sögumaður sjá samninginn.",
+"title": "Fótboltasamningur útskýrir já-ið",
+"summary": "Fyrrverandi atvinnumaður líkir atkvæðagreiðslunni við tilboð frá Hammarby 1995: já þýði aðeins að heyra hvað býðst, fullbúinn samningur fari svo aftur í þjóðaratkvæðagreiðslu.",
 "account": "sja",
-"url": "https://www.tiktok.com/@jatiladsja/video/7660171516000341250",
-"views": 4663,
-"argKey": "vextir",
-"argTitle": "Lægri vextir og stöðugur gjaldmiðill",
-"argIcon": "💶"
+"url": "https://www.tiktok.com/@jatiladsja/video/7676790323875564822",
+"views": 4586,
+"argKey": "kikja",
+"argTitle": "Kosið um viðræður — sjáum samninginn",
+"argIcon": "📄"
 },
 {
 "id": "7665328778377284886",
@@ -1114,6 +1282,18 @@ const VIDEOFEED = [
 "argKey": "kikja",
 "argTitle": "Kosið um viðræður — sjáum samninginn",
 "argIcon": "📄"
+},
+{
+"id": "7675174901036207382",
+"side": "ja",
+"title": "Ungt fólk, mætum og kjósum",
+"summary": "Ungt fólk hvatt til að mæta á kjörstað 29. ágúst; kosningin snúist um næstu 30–40 ár, húsnæðismál og framtíð þeirra sem lengst lifa með niðurstöðunni.",
+"account": "sja",
+"url": "https://www.tiktok.com/@jatiladsja/video/7675174901036207382",
+"views": 4399,
+"argKey": "lydraedi",
+"argTitle": "Þjóðin ráði ferðinni",
+"argIcon": "🗳️"
 },
 {
 "id": "7674605156620619030",
@@ -1164,16 +1344,16 @@ const VIDEOFEED = [
 "argIcon": "📄"
 },
 {
-"id": "7672898909391326486",
+"id": "7676070372554312982",
 "side": "ja",
-"title": "A-liðið í samninganefnd Íslands",
-"summary": "Treyst er á að ríkisstjórnin skipi bestu mögulegu samningamenn, líka erlenda ef þarf, fari málið lengra.",
+"title": "Bull að atvinnuleysi aukist",
+"summary": "Fullyrðing um aukið atvinnuleysi við inngöngu sögð bull; lönd eins og Lettland, Litáen, Pólland og Írland hafi upplifað minna atvinnuleysi eftir inngöngu í ESB.",
 "account": "sja",
-"url": "https://www.tiktok.com/@jatiladsja/video/7672898909391326486",
-"views": 2856,
-"argKey": "serlausnir",
-"argTitle": "Sérlausnir raunhæfar — kvótinn íslenskur",
-"argIcon": "🐟"
+"url": "https://www.tiktok.com/@jatiladsja/video/7676070372554312982",
+"views": 3035,
+"argKey": "hraedslu",
+"argTitle": "Svar við hræðsluáróðri",
+"argIcon": "📢"
 },
 {
 "id": "7660085595561020694",
@@ -1248,16 +1428,52 @@ const VIDEOFEED = [
 "argIcon": "📢"
 },
 {
-"id": "7659941218507345174",
-"side": "nei",
-"title": "Ungt fólk: Hagsmunum betur borgið utan ESB",
-"summary": "Ungur viðmælandi segir EES-samninginn veita aðgang að innri markaðnum með helstu kostum aðildar án gallanna og að kosningin snúist um framtíð unga fólksins.",
-"account": "aframisland",
-"url": "https://www.tiktok.com/@afram.island/video/7659941218507345174",
-"views": 8013,
-"argKey": "ees",
-"argTitle": "EES dugar Íslandi vel",
-"argIcon": "🤝"
+"id": "7676069567948688662",
+"side": "ja",
+"title": "Bull um flæði útlendinga",
+"summary": "Fullyrðing um að útlendingar flæði til landsins við inngöngu sögð bull; frjáls för hafi gilt frá 1994 gegnum EES og Danir setji sér sjálfir ströngustu innflytjendareglur í ESB.",
+"account": "sja",
+"url": "https://www.tiktok.com/@jatiladsja/video/7676069567948688662",
+"views": 1757,
+"argKey": "hraedslu",
+"argTitle": "Svar við hræðsluáróðri",
+"argIcon": "📢"
+},
+{
+"id": "7676068579187625238",
+"side": "ja",
+"title": "Bull að ekkert sé að semja um",
+"summary": "Fullyrðingu um að allt um ESB megi lesa á netinu svarað: enginn viti hvaða íslensku sérlausnir fáist fyrr en sest er að samningaborðinu, t.d. um sjávarútveg og landbúnað.",
+"account": "sja",
+"url": "https://www.tiktok.com/@jatiladsja/video/7676068579187625238",
+"views": 1742,
+"argKey": "kikja",
+"argTitle": "Kosið um viðræður — sjáum samninginn",
+"argIcon": "📄"
+},
+{
+"id": "7676070990455147778",
+"side": "ja",
+"title": "Bull að engar undanþágur fáist",
+"summary": "Fullyrðing um að engar varanlegar undanþágur fáist sögð bull; Danmörk hafi varanlega undanþágu frá evrunni og Finnland í landbúnaðarmálum.",
+"account": "sja",
+"url": "https://www.tiktok.com/@jatiladsja/video/7676070990455147778",
+"views": 675,
+"argKey": "hraedslu",
+"argTitle": "Svar við hræðsluáróðri",
+"argIcon": "📢"
+},
+{
+"id": "7677229491818728726",
+"side": "ja",
+"title": "Vaxtabyrði ríkissjóðs á við Grikkland",
+"summary": "Ásgeir Brynjar, doktor í fjármálum, segir ríkissjóð greiða álíka hátt hlutfall útgjalda í vexti og Grikkland vegna hávaxtaumhverfis krónunnar; með umsókn og ERM-skjóli fengist stöðugleiki.",
+"account": "evropuhreyfingin",
+"url": "https://www.tiktok.com/@evropuhreyfingin/video/7677229491818728726",
+"views": 322,
+"argKey": "vextir",
+"argTitle": "Lægri vextir og stöðugur gjaldmiðill",
+"argIcon": "💶"
 },
 {
 "id": "7662744196779887894",
@@ -1282,18 +1498,6 @@ const VIDEOFEED = [
 "argKey": "fullveldi",
 "argTitle": "Fullveldisframsal",
 "argIcon": "🏛️"
-},
-{
-"id": "7667159897917656342",
-"side": "nei",
-"title": "Sviss beygir sig ekki fyrir neinum",
-"summary": "Því er haldið fram að þjóðum farnist best sem leiti ekki í skjól hinna stóru; Sviss haldi sjálfstæði sínu og fari sínu fram utan bandalaga.",
-"account": "aframisland",
-"url": "https://www.tiktok.com/@afram.island/video/7667159897917656342",
-"views": 7914,
-"argKey": "nagrannar",
-"argTitle": "Ekkert nágrannaland í ESB",
-"argIcon": "🧭"
 },
 {
 "id": "7667922628727819542",
@@ -1476,18 +1680,6 @@ const VIDEOFEED = [
 "argIcon": "💸"
 },
 {
-"id": "7675393474169998614",
-"side": "nei",
-"title": "Bjarnheiður: EES-kostir án ægivalds",
-"summary": "Bjarnheiður segir EES-samninginn færa Íslandi gríðarlega kosti; með inngöngu í ESB gæti lokast á aðra viðskiptasamninga og landið kæmist undir ægivald sambandsins í stað þess að stjórna auðlindum sínum sjálft.",
-"account": "aframisland",
-"url": "https://www.tiktok.com/@afram.island/video/7675393474169998614",
-"views": 1246,
-"argKey": "ees",
-"argTitle": "EES dugar Íslandi vel",
-"argIcon": "🤝"
-},
-{
 "id": "7675505073467706646",
 "side": "nei",
 "title": "50 milljarðar á ári — enginn giskaði rétt",
@@ -1510,6 +1702,42 @@ const VIDEOFEED = [
 "argKey": "ahrifaleysi",
 "argTitle": "Hverfandi vægi smáríkis",
 "argIcon": "🤏"
+},
+{
+"id": "7676422619972881686",
+"side": "nei",
+"title": "Selma: næstu kynslóðir ráði landinu",
+"summary": "Selma segist trúa á framtíðartækifæri Íslands og vilja að næstu kynslóðir fái að ráða yfir landinu óheft.",
+"account": "aframisland",
+"url": "https://www.tiktok.com/@afram.island/video/7676422619972881686",
+"views": 1231,
+"argKey": "fullveldi",
+"argTitle": "Fullveldisframsal",
+"argIcon": "🏛️"
+},
+{
+"id": "7676492643299298582",
+"side": "nei",
+"title": "Jóhann: engan erlendan húsbónda",
+"summary": "Jóhann segist hvorki vilja né þurfa erlendan húsbónda og neiti að láta af hendi íslenska lögsögu, gjaldmiðil eða náttúruauðlindir.",
+"account": "aframisland",
+"url": "https://www.tiktok.com/@afram.island/video/7676492643299298582",
+"views": 1375,
+"argKey": "fullveldi",
+"argTitle": "Fullveldisframsal",
+"argIcon": "🏛️"
+},
+{
+"id": "7676809312026643734",
+"side": "nei",
+"title": "Jóhann: lögum málin sjálf heima",
+"summary": "Jóhann segir Ísland besta land í heimi og að öll mál sem þurfi að laga geti Íslendingar leyst sjálfir heima fyrir.",
+"account": "aframisland",
+"url": "https://www.tiktok.com/@afram.island/video/7676809312026643734",
+"views": 2442,
+"argKey": "fullveldi",
+"argTitle": "Fullveldisframsal",
+"argIcon": "🏛️"
 },
 {
 "id": "7653064167200427286",
@@ -1632,6 +1860,54 @@ const VIDEOFEED = [
 "argIcon": ""
 },
 {
+"id": "7676066216246611222",
+"side": "ja",
+"title": "El Grande: keppni um Evrópulönd",
+"summary": "Gamansöm keppni um hvor getur nefnt fleiri lönd í Evrópu; stemningsmyndband án málefnaraka.",
+"account": "sja",
+"url": "https://www.tiktok.com/@jatiladsja/video/7676066216246611222",
+"views": 8421,
+"argKey": "",
+"argTitle": "",
+"argIcon": ""
+},
+{
+"id": "7676067587188395286",
+"side": "ja",
+"title": "Keppni: fleiri borgir í Evrópu",
+"summary": "Gamansöm keppni um hvor getur nefnt fleiri borgir í Evrópu; stemningsmyndband án málefnaraka.",
+"account": "sja",
+"url": "https://www.tiktok.com/@jatiladsja/video/7676067587188395286",
+"views": 8465,
+"argKey": "",
+"argTitle": "",
+"argIcon": ""
+},
+{
+"id": "7676067865451138306",
+"side": "ja",
+"title": "El Grande: Evrópulönd talin upp",
+"summary": "Gamansöm keppni um hvor getur nefnt fleiri lönd í Evrópu; stemningsmyndband án málefnaraka.",
+"account": "sja",
+"url": "https://www.tiktok.com/@jatiladsja/video/7676067865451138306",
+"views": 5275,
+"argKey": "",
+"argTitle": "",
+"argIcon": ""
+},
+{
+"id": "7677182391508667670",
+"side": "ja",
+"title": "Bændur segja já fyrir landbúnaðinn",
+"summary": "Gamansamt myndband þar sem bændur í heyskap segjast ætla að kjósa já og vilja ekki vera afturhaldsseggir.",
+"account": "sja",
+"url": "https://www.tiktok.com/@jatiladsja/video/7677182391508667670",
+"views": 4487,
+"argKey": "",
+"argTitle": "",
+"argIcon": ""
+},
+{
 "id": "7662743992592846102",
 "side": "nei",
 "title": "Fjölmenni á upphafsfundi",
@@ -1735,6 +2011,18 @@ const VIDEOFEED = [
 "account": "aframisland",
 "url": "https://www.tiktok.com/@afram.island/video/7675062406065802518",
 "views": 2854,
+"argKey": "",
+"argTitle": "",
+"argIcon": ""
+},
+{
+"id": "7676809433921375510",
+"side": "nei",
+"title": "Magnús: fórnum ekki tækifærum Íslands",
+"summary": "Magnús segist ekki vilja að Ísland fórni tækifærum sínum og segir því nei 29. ágúst.",
+"account": "aframisland",
+"url": "https://www.tiktok.com/@afram.island/video/7676809433921375510",
+"views": 1422,
 "argKey": "",
 "argTitle": "",
 "argIcon": ""

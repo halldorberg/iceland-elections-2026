@@ -336,7 +336,7 @@ function buildArticlesPage() {
 
   const col = side => DATA.articles
     .filter(a => a.side === side)
-    .sort((a, b) => (b.impact || 0) - (a.impact || 0) || (b.date || '').localeCompare(a.date || ''))
+    .sort((a, b) => (b.date || '').localeCompare(a.date || '') || (b.impact || 0) - (a.impact || 0))
     .map(art => {
       const S = SIDE[side];
       const pills = (art.args || []).map(k => argIdx[side][k]

@@ -1,5 +1,5 @@
 const DATA = {
- "note": "Report first prepared on 6 August 2026 and last updated on 20 August 2026. All articles about the referendum on Vísir, Eyjan (DV), and submitted opinion pieces in Morgunblaðið were analysed, as well as the movements’ websites (Evrópuhreyfingin, SJÁ, Heimssýn, Áfram Ísland, Til vinstri við ESB, Frjálst land), other media outlets (RÚV, Heimildin, Viðskiptablaðið, Bændablaðið, Skessuhorn, Austurfrétt, Feykir, BB.is, Eyjafréttir, Vikublaðið, Útvarp Saga, Mannlíf, Nútíminn), public discussion on Reddit and Facebook, and TikTok videos by the campaign movements. Neutral news reports are not counted in the columns.",
+ "note": "Report first prepared on 6 August 2026 and last updated on 24 August 2026. All articles about the referendum on Vísir, Eyjan (DV), and submitted opinion pieces in Morgunblaðið were analysed, as well as the movements’ websites (Evrópuhreyfingin, SJÁ, Heimssýn, Áfram Ísland, Til vinstri við ESB, Frjálst land), other media outlets (RÚV, Heimildin, Viðskiptablaðið, Bændablaðið, Skessuhorn, Austurfrétt, Feykir, BB.is, Eyjafréttir, Vikublaðið, Útvarp Saga, Mannlíf, Nútíminn), public discussion on Reddit and Facebook, and TikTok videos from the campaign movements. Neutral news reports are not counted in the columns.",
  "movements": {
   "ja": [
    {
@@ -13130,6 +13130,1739 @@ const DATA = {
    ],
    "impact": 1,
    "engagement": "2.309 áhorf"
+  },
+  {
+   "side": "ja",
+   "title": "A person alone is but half a person – with others, they are more than themselves",
+   "url": "https://www.visir.is/g/20262924843d/madurinn-einn-er-ei-nema-halfur-med-odrum-er-hann-meiri-en-hann-sjalfur",
+   "source": "visir.is",
+   "author": "Kristín Bjarnadóttir",
+   "date": "2026-08-23",
+   "summary": "Traces the history of Iceland as a nation that from the outset chose to connect with European culture and society while also preserving its own identity. Points out that the sea is no longer a defence against modern threats and asks whether it is not wiser to stand not alone but within a community that places peace and security at the forefront.",
+   "args": [
+    "oryggi",
+    "gildi"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "When Path Dependence Becomes an Argument for Saying No",
+   "url": "https://www.visir.is/g/20262924838d/when-path-dependence-becomes-an-argument-for-saying-no",
+   "source": "visir.is",
+   "author": "Erna Bjarnadóttir",
+   "date": "2026-08-23",
+   "summary": "Responds to an article by Smári McCarthy and defends the arguments of Carl Baudenbacher. Says the EEA is based on a two-pillar system in which legislative power is not transferred to supranational institutions and that the adoption of acts requires the consent of the EFTA states. EU membership, by contrast, would bind Iceland to decisions made by qualified majority in far more areas, including fisheries, agriculture, and trade policy.",
+   "args": [
+    "ees",
+    "fullveldi"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "National sovereignty and individual freedom",
+   "url": "https://www.visir.is/g/20262924812d/fullveldi-thjodar-og-frelsi-einstaklings",
+   "source": "visir.is",
+   "author": "Pétur B. Sveinsson",
+   "date": "2026-08-23",
+   "summary": "Says individual freedom is curtailed by usurious interest rates and inflation associated with the króna; young people cannot afford to leave home and companies cancel investments. Sovereignty is described as a tool that Iceland has used through participation in NATO, the EEA, and Schengen, and the same thinking should apply to the currency.",
+   "args": [
+    "vextir"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "“The will to join the European Union”",
+   "url": "https://www.visir.is/g/20262924804d/-vilja-til-ad-ganga-i-evropusambandid-",
+   "source": "visir.is",
+   "author": "Hjörtur J. Guðmundsson",
+   "date": "2026-08-23",
+   "summary": "Quotes Professors Maximilian Conrad and Magnús Árni Skjöld Magnússon, as well as a former EU enlargement commissioner, saying that the accession process is driven by the will to join. There is no such thing as just taking a look inside the package; the EU’s negotiating framework for Iceland states that the shared objective of the talks is accession.",
+   "args": [
+    "spurning",
+    "adlogun"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "To understand, or not understand, the debate",
+   "url": "https://www.visir.is/g/20262924796d/ad-skilja-eda-skilja-ekki-umraeduna",
+   "source": "visir.is",
+   "author": "Lúðvík Bergvinsson",
+   "date": "2026-08-23",
+   "summary": "Says it is understandable that the owners of large companies and the media they own argue for NO because the króna protects them from foreign competition operating in a stable currency. Questions the political judgment of Ólafur Ragnar Grímsson, who opposed EFTA, NATO, and the EEA, all of which later proved beneficial for the nation.",
+   "args": [
+    "kjor",
+    "vextir"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "NO! An assault on democracy and the stripping away of voting rights",
+   "url": "https://www.visir.is/g/20262924791d/nei-atlaga-ad-lydraedi-og-svipting-kosningarettar",
+   "source": "visir.is",
+   "author": "Magnús Jónsson",
+   "date": "2026-08-23",
+   "summary": "Calls referendums the crown jewel of democracy and says organisations, interest groups, and a former president are trying to sabotage the vote with deception and fake news claiming it is about membership. Reminds readers that the same forces fought against the EEA Agreement, which most people believe was decisive for living standards.",
+   "args": [
+    "lydraedi",
+    "hraedslu"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "What do the other 20,000 companies say?",
+   "url": "https://www.visir.is/g/20262924778d/hvad-segja-hin-20.000-fyrirtaekin-",
+   "source": "visir.is",
+   "author": "Andrés Magnússon, Hrund Rudolfsdóttir og Margrét Kristmannsdóttir",
+   "date": "2026-08-23",
+   "summary": "Says SA’s survey was presented misleadingly because only 388 companies out of about 2,000 responded negatively, less than 20% of members. Small and medium-sized companies face enormous financing costs and the volatility of a micro-currency, and the króna is said to be one of the biggest obstacles in the day-to-day operations of retail and service companies.",
+   "args": [
+    "vextir",
+    "kjor"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Is Marta Kos misleading people too?.. but misleading people is not allowed",
+   "url": "https://www.visir.is/g/20262924774d/er-marta-kos-einnig-ad-plata-..-en-thad-ma-ekki-plata",
+   "source": "visir.is",
+   "author": "Júlíus Valsson",
+   "date": "2026-08-22",
+   "summary": "Questions the credibility of Marta Kos, the EU’s enlargement commissioner, by referring to writings about her alleged cooperation with the Slovenian intelligence service. Says she speaks with two voices: to Icelanders she says no adaptation takes place in the talks, but in an interview with NRK she said the process largely concerns adapting the applicant country’s legislation.",
+   "args": [
+    "adlogun",
+    "undanthagur"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Sovereignty, supranational institutions, and the basis of equality in Europe",
+   "url": "https://www.visir.is/g/20262924603d/fullveldi-yfirthjodlegar-stofnanir-og-jafnraedisgrundvollur-i-evropu",
+   "source": "visir.is",
+   "author": "Maximilian Conrad",
+   "date": "2026-08-22",
+   "summary": "A professor of political science at HÍ says the NO side’s sovereignty arguments are largely symbolic and exaggerated. A substantial transfer of decision-making power has already taken place through the EEA Agreement, under which Iceland implements a large share of EU rules without participating in the decisions.",
+   "args": [
+    "ahrif",
+    "hraedslu"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Where does a nation of 400,000 people have the greatest influence?",
+   "url": "https://www.visir.is/g/20262924470d/hvar-hefur-400.000-manna-thjod-mest-ahrif-",
+   "source": "visir.is",
+   "author": "Baldur Johnsen",
+   "date": "2026-08-21",
+   "summary": "He says that independence and influence are not the same thing, and explains how NATO membership strengthened Iceland’s position in the Cod Wars. A small nation has the most influence when it has a seat at the table, and he cites Guðni Th. Jóhannesson as saying that sovereignty is not carved in stone.",
+   "args": [
+    "ahrif",
+    "oryggi"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "The Moral High Ground",
+   "url": "https://www.visir.is/g/20262924397d/sidferdiskirtillinn",
+   "source": "visir.is",
+   "author": "Jón Bragi Gunnlaugsson",
+   "date": "2026-08-21",
+   "summary": "He points out that the fishing industry, heavy industry, data centres, energy companies, airlines and tech companies all settle accounts in foreign currency because the króna does not suit them. The króna is thus intended only for the general public and those companies that cannot escape it, with the associated Iceland premium and high interest rates.",
+   "args": [
+    "vextir",
+    "kjor"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Save Billions",
+   "url": "https://www.visir.is/g/20262924349d/sporum-milljarda",
+   "source": "visir.is",
+   "author": "Lárus Blöndal Sigurðsson",
+   "date": "2026-08-21",
+   "summary": "A city councillor for Miðflokkurinn says there is no majority for joining the EU, neither in Alþingi, in the business community nor among the public, and that permanent exemptions in key policy areas are unrealistic. A YES would cost billions, or tens of billions, in talks that would inevitably run aground.",
+   "args": [
+    "kostnadur",
+    "undanthagur",
+    "umbod"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Why accession talks?",
+   "url": "https://www.visir.is/g/20262924237d/af-hverju-adildarvidraedur-",
+   "source": "visir.is",
+   "author": "Björn Leví Gunnarsson",
+   "date": "2026-08-21",
+   "summary": "He says the vote is about completing the talks and obtaining the treaty terms for the nation to approve or reject, not about membership. Most counterarguments, such as concerns about fisheries and agriculture, are in fact demands to be addressed in the treaty, and the only way to get answers is to finish the talks. Iceland already adopts a large share of EU rules without voting rights.",
+   "args": [
+    "kikja",
+    "ahrif"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "What was adapted?",
+   "url": "https://www.visir.is/g/20262924234d/hvad-var-afadlagad-",
+   "source": "visir.is",
+   "author": "Þorvaldur Logason",
+   "date": "2026-08-21",
+   "summary": "A satirical piece about the “Spectre of Alignment”, which he says is a ghost story told by opponents of accession talks since 2009. He cites Vísindavefurinn as saying it is undisputed that there was no need for alignment and that it had been agreed that no legislative or institutional changes would be made until after the referendum had been concluded.",
+   "args": [
+    "hraedslu",
+    "kikja"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Referendum: The Status Quo is Path Dependent",
+   "url": "https://www.visir.is/g/20262924275d/referendum-the-status-quo-is-path-dependent",
+   "source": "visir.is",
+   "author": "Smári McCarthy",
+   "date": "2026-08-21",
+   "summary": "He responds to Carl Baudenbacher and says that the status quo is also a path: the EEA entails the continuous adoption of EU legislation without a seat at the table and an ever-deepening lock-in year by year. A NO is a bet that the world of 1994 will endure, and delay means Iceland will later face the same choice with less bargaining power.",
+   "args": [
+    "ahrif",
+    "timagluggi"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Promises That Do Not Hold Up",
+   "url": "https://www.visir.is/g/20262924173d/gyllibodin-sem-ekki-standast",
+   "source": "visir.is",
+   "author": "Ólafur Hannesson",
+   "date": "2026-08-21",
+   "summary": "He rejects claims that prices of goods would fall by 25% upon accession and points out that wages make up about half of costs in the restaurant sector. The only real reduction would be in imported agricultural products from the EU, which would put domestic agriculture under tough competition, while other goods could rise in price because of the EU’s tariff barriers against the rest of the world.",
+   "args": [
+    "landbunadur",
+    "umbod"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "When the Counterarguments Become Endorsements",
+   "url": "https://www.visir.is/g/20262924161d/thegar-motrokin-verda-medmaeli",
+   "source": "visir.is",
+   "author": "Rögnvaldur Guðmundsson",
+   "date": "2026-08-21",
+   "summary": "He reads SFS’s statement of reasons against membership as an argument for it: Iceland has a strong negotiating position to secure special arrangements in fisheries. Membership would mean complete tariff-free access for products regardless of processing stage, access to EU investment funds and to regional development funds that could support fishing communities.",
+   "args": [
+    "serlausnir",
+    "tollfrelsi",
+    "byggd"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Spliff, Donk & Gengja in Alþingi",
+   "url": "https://www.visir.is/g/20262924131d/spliff-donk-gengja-a-althingi",
+   "source": "visir.is",
+   "author": "Benedikt V Warén",
+   "date": "2026-08-21",
+   "summary": "He says the government has broken its promise that the EU process would not begin until the end of the electoral term. EU exemptions will be few, small and temporary, and no human power can absolutely guarantee that they will be permanent.",
+   "args": [
+    "umbod",
+    "undanthagur"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Icelandic Milk Production Is Not Bargaining Currency in Brussels",
+   "url": "https://www.visir.is/g/20262924123d/islensk-mjolkurframleidsla-er-ekki-skiptimynt-i-brussel",
+   "source": "visir.is",
+   "author": "Sigurbjörg Ottesen",
+   "date": "2026-08-21",
+   "summary": "The chair of Nautgripabændur BÍ asks what would happen to agricultural agreements, milk quotas and tariff protection upon accession; the EU abolished its milk quota system in 2015. Uncertainty alone reduces investment and new recruitment in agriculture, and imported food is not Icelandic food security.",
+   "args": [
+    "landbunadur"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Referendum: What Is Path Dependence?",
+   "url": "https://www.visir.is/g/20262924048d/referendum-what-is-path-dependence-",
+   "source": "visir.is",
+   "author": "Carl Baudenbacher",
+   "date": "2026-08-21",
+   "summary": "The former President of the EFTA Court says that although the vote is only on resuming negotiations, a YES result would create an institutional process with its own internal logic, in which later decisions would appear as follow-on decisions. The EU’s powerful promotional machinery would frame the question as whether Iceland is finally ready to take its natural place in Europe.",
+   "args": [
+    "adlogun",
+    "oafturkraeft"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "What European Union Are We Voting On?",
+   "url": "https://www.visir.is/g/20262923748d/hvada-evropusamband-erum-vid-ad-kjosa-um-",
+   "source": "visir.is",
+   "author": "Gunnar Ármannsson",
+   "date": "2026-08-21",
+   "summary": "A lawyer points out that the EU itself now considers its current structure inadequate, citing the Draghi report and the European Parliament resolution from November 2025 on more efficient decision-making. It is unclear what kind of European Union Iceland would be joining: how many states it would include, which decisions would be taken by expanded majority voting, and which responsibilities would have shifted from the member states to the Union.",
+   "args": [
+    "fullveldi"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Does Anyone Believe in Top Lists?",
+   "url": "https://www.visir.is/g/20262924041d/hefur-einhver-tru-a-topplistum-",
+   "source": "visir.is",
+   "author": "Dagbjört Hákonardóttir",
+   "date": "2026-08-21",
+   "summary": "Responding to Hilmar Veigar Pétursson’s criticism of the EU’s competitiveness, the author says that rankings by companies’ market value say little about what those companies deliver to society. The Nordic countries are among the most competitive regions in the world, with strong welfare systems, the lowest income inequality, and a robust innovation environment, unlike the United States, where there is no statutory paid leave nationwide.",
+   "args": [
+    "kjor",
+    "gildi"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "“Do You Want to Come Out and Play?”",
+   "url": "https://www.visir.is/g/20262923753d/-viltu-koma-ut-ad-leika-",
+   "source": "visir.is",
+   "author": "Hallgrímur Helgason",
+   "date": "2026-08-21",
+   "summary": "The writer says the debate is a repetition of the doomsday predictions made in 1993 about the EEA Agreement, none of which came true; today everyone agrees on the progress it brought. Most of Iceland’s advances have come from outside, from the herring boom to NATO, EFTA, and the EEA, and now the nation itself has the chance to answer whether it wants to come out and play.",
+   "args": [
+    "hraedslu",
+    "kikja"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "The Interest-Rate Serfs and the Others",
+   "url": "https://www.visir.is/g/20262924023d/vaxtathraelarnir-og-hinir",
+   "source": "visir.is",
+   "author": "Ingólfur Sverrisson",
+   "date": "2026-08-20",
+   "summary": "The author says the nation is divided into two groups: 260 companies that keep their accounts in euros or dollars and obtain cheap financing abroad, and the young people who bear the interest burden in a closed krona economy. Privileged groups that thrive under the current system, the author argues, see everything wrong with exploring the possibility of the euro and dress up their opposition in the language of sovereignty.",
+   "args": [
+    "vextir"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Are 72% of Europeans Really Content in the European Union?",
+   "url": "https://www.visir.is/g/20262924020d/una-72-evropubua-ser-vel-i-evropusambandinu-",
+   "source": "visir.is",
+   "author": "Andri Sigurðsson",
+   "date": "2026-08-20",
+   "summary": "The author criticizes Evrópuhreyfingin’s use of the 72% figure from Eurobarometer and points out that respondents were only asked whether their country had benefited from membership, without a neutral response option. In a comparable question with a neutral option, only 58% said membership was good, and the author cites scholars who believe Eurobarometer presents an overly flattering picture of public opinion.",
+   "args": [
+    "umbod"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "The EEA Lifeline Is Beginning to Fray",
+   "url": "https://www.visir.is/g/20262924018d/ees-liflinan-er-tekin-ad-trosna",
+   "source": "visir.is",
+   "author": "Einar Karl Haraldsson",
+   "date": "2026-08-20",
+   "summary": "The article traces how attitudes in the Nordic countries were turned upside down after Russia’s invasion of Ukraine: Finland and Sweden joined NATO, and Bondevik, the former leader of Norway’s NO movement, now wants a referendum on EU talks. Norway’s farmers’ association is preparing for EU membership to return to the forefront, because security issues could trump other interests.",
+   "args": [
+    "oryggi",
+    "timagluggi"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Medicines and the EU",
+   "url": "https://www.visir.is/g/20262923879d/lyfjamal-og-esb",
+   "source": "visir.is",
+   "author": "Einar Magnússon",
+   "date": "2026-08-20",
+   "summary": "For 30 years, Icelandic pharmaceutical legislation has been based on EU rules that Iceland implements through observer participation but without a seat at the table. There are only about 3,000 medicines authorized for the market here, compared with about 10,000 in the other Nordic countries, with frequent shortages and high prices, and full membership would increase the chances of solutions such as participation in a larger pharmaceutical market and joint EU drug procurement.",
+   "args": [
+    "ahrif",
+    "kjor"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Labour Market Parties Would Continue to Conclude Collective Agreements Within the EU",
+   "url": "https://www.visir.is/g/20262923795d/adilar-vinnumarkadar-munu-afram-gera-kjarasamninga-innan-esb",
+   "source": "visir.is",
+   "author": "Kristján Þórður Snæbjarnarson",
+   "date": "2026-08-20",
+   "summary": "The author says there is no basis for the claim that Iceland would have to change its system of collective bargaining if it joined the EU; the Union only requires minimum wages where no collective bargaining framework exists. With the adoption of the euro, workers would be guaranteed real value in exchange for their labour instead of constantly seeking ever higher pay rises to keep up with inflation in the volatile krona.",
+   "args": [
+    "hraedslu",
+    "vextir"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Let’s Not Close the Door",
+   "url": "https://www.visir.is/g/20262923792d/lokum-ekki-dyrum",
+   "source": "visir.is",
+   "author": "Þorsteinn Ólafsson",
+   "date": "2026-08-20",
+   "summary": "The author says the vote is about examining the outcome of negotiations and lists negotiating objectives on control over resources, fisheries, and agriculture. Citing a report showing 70% correlation in Iceland’s and the euro area’s business cycles, the author says euro adoption would lower interest rates, abolish indexation, and improve the position of the younger generation.",
+   "args": [
+    "kikja",
+    "vextir"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Innovation in Europe: The Bigger Picture Hilmar Leaves Out",
+   "url": "https://www.visir.is/g/20262923763d/nyskopun-i-evropu-heildarmyndin-sem-hilmar-sleppur",
+   "source": "visir.is",
+   "author": "Halldór Jörgen Olesen",
+   "date": "2026-08-20",
+   "summary": "Responds to an article by Hilmar Veigar Pétursson on the EU’s competitiveness problem and says it tells only half the story. Reviews progress in European innovation: the research and development share up to 2.24% of GDP, more than 140 unicorns at the end of 2024, and a tenfold increase in startup investment over five years, along with Horizon Europe, the world’s largest research programme.",
+   "args": [
+    "hraedslu",
+    "taekifaeri"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Great-grandmothers want to see – from Flatey to The Hague",
+   "url": "https://www.visir.is/g/20262923565d/langmaedgur-vilja-sja-fra-flatey-til-den-haag",
+   "source": "visir.is",
+   "author": "Guðrún Marta Jónsdóttir og Guðrún Marta Ársælsdóttir",
+   "date": "2026-08-20",
+   "summary": "Two great-grandmothers, one aged 79 in Flatey and the other 27 in The Hague, say they do not know how they would vote on a final accession agreement but want to see what Iceland would be offered. The younger has benefited from European study grants but wants to move home and asks about interest rates and housing; the older does not want to close doors that the next generation might wish to walk through.",
+   "args": [
+    "kikja",
+    "taekifaeri"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "What would a yes mean for farmers?",
+   "url": "https://www.visir.is/g/20262923759d/hvad-thydir-ja-fyrir-baendur-",
+   "source": "visir.is",
+   "author": "Stefán Magnússon",
+   "date": "2026-08-20",
+   "summary": "A dairy farmer says there is no pressing need for membership, as Iceland’s interests are well protected by the EEA Agreement. Many years of uncertainty during an accession process would reduce investment in agriculture and make it all but impossible for farmers to sell their holdings; significantly lower product prices due to increased imports could leave farms unable to service their debts.",
+   "args": [
+    "landbunadur",
+    "ees"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Who fears the European Union?",
+   "url": "https://www.visir.is/g/20262923744d/hverjir-ottast-evropusambandid-",
+   "source": "visir.is",
+   "author": "Haukur Logi Jóhannsson",
+   "date": "2026-08-20",
+   "summary": "Asks who has the most to lose from EU rules on transparency, competition and common ground rules. Describes how tougher EU rules on money laundering, tax avoidance and the registration of beneficial owners coincided with Brexit, and suggests that powerful vested interests in Iceland suddenly become preoccupied with popular sovereignty whenever the EU is mentioned.",
+   "args": [
+    "kjor",
+    "gildi"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "We are in a plastic boat on rough seas",
+   "url": "https://www.visir.is/g/20262923739d/vid-erum-a-plastbat-i-olgusjo",
+   "source": "visir.is",
+   "author": "Dagur B. Eggertsson",
+   "date": "2026-08-20",
+   "summary": "Compares policy-rate responses in Iceland and the euro area to three external shocks, COVID, Russia’s invasion and the war in the Middle East; the difference is 2.5 to 5.75 percentage points, and the real interest-rate gap is now about 3.4 percentage points. Likens the króna to a plastic boat with a small engine on rough seas and says the nation needs a bigger ship.",
+   "args": [
+    "vextir"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "The nations’ purchasing power in Europe’s Champions League",
+   "url": "https://www.visir.is/g/20262923643d/kaupmattur-thjodanna-i-meistaradeild-evropu",
+   "source": "visir.is",
+   "author": "Stefán Ólafsson",
+   "date": "2026-08-20",
+   "summary": "A professor corrects misleading claims about purchasing power using Eurostat measurements of the purchasing power of disposable income: Iceland ranks 9th in Europe in 2024, just above the euro-area average, not with the highest purchasing power in the world. In 2014, Iceland was at the bottom among the top twelve countries after purchasing power fell more here than elsewhere in the financial crisis.",
+   "args": [
+    "kjor"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "My NO people, you are so sweet when you obey",
+   "url": "https://www.visir.is/g/20262923624d/nei-folkid-mitt-thid-erud-svo-saet-thegar-thid-hlydid",
+   "source": "visir.is",
+   "author": "Viktor Ólason",
+   "date": "2026-08-20",
+   "summary": "A satirical piece that compares NO voters to a herd voting the way their father and grandfather voted. It says sovereignty shows itself in milk prices twice as high, housing loans three times as large, and a króna that dances like a drunken sailor, and reminds readers that the vote is only about talking to neighbouring nations, not joining anything.",
+   "args": [
+    "hraedslu",
+    "vextir"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "No plan, no sledgehammer",
+   "url": "https://www.visir.is/g/20262923594d/ekkert-plan-engin-sleggja",
+   "source": "visir.is",
+   "author": "Illugi Gunnarsson",
+   "date": "2026-08-20",
+   "summary": "The chair of UVG says Kristrún Frostadóttir’s plan and sledgehammer against interest rates and inflation have not worked, and now the nation is supposed to choose for the government. It would be irresponsible to devote the government’s efforts in the coming years to accession talks instead of prioritising living standards; a no vote would send a clear message about priorities.",
+   "args": [
+    "umbod"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Why I’m going to say YES",
+   "url": "https://www.visir.is/g/20262923592d/afhverju-eg-aetla-ad-segja-ja",
+   "source": "visir.is",
+   "author": "Sverrir Páll Einarsson",
+   "date": "2026-08-20",
+   "summary": "The chair of Uppreisn, Viðreisn’s youth movement, wants a more stable economic environment through adopting the euro and says the króna is not a defence against the problem but the problem itself. In a world of rising tariffs, an import-dependent small nation needs unrestricted access to the internal market and should not adopt rules without electing the representatives who set them.",
+   "args": [
+    "vextir",
+    "ahrif",
+    "kikja"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "On monetary sovereignty and its transfer",
+   "url": "https://www.visir.is/g/20262923543d/um-peningalegt-fullveldi-og-framsal-thess",
+   "source": "visir.is",
+   "author": "Jón Gunnar Jónsson",
+   "date": "2026-08-20",
+   "summary": "An academic discussion of monetary sovereignty with reference to Bodin, Mundell and Zimmermann. Says it is clear that by adopting the euro following entry into the EU, Iceland would transfer a substantial part of its sovereign authority, not only in monetary matters, to the European Central Bank.",
+   "args": [
+    "fullveldi"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "What do the oligarchs want you to vote on 29 August?",
+   "url": "https://www.visir.is/g/20262923576d/hvad-vilja-oligarkarnir-ad-thu-kjosir-29.-agust-",
+   "source": "visir.is",
+   "author": "Jón Þór Ólafsson",
+   "date": "2026-08-20",
+   "summary": "Says a small state needs strong ties with countries that share common values in a world where great powers respect neither sovereignty nor borders, while the United States is now undermining NATO and cooperation among European states. Criticizes Ólafur Ragnar Grímsson’s advice to cultivate ties instead with MAGA members of Congress and tech oligarchs, and asks what oligarchs fear the nation might see if it votes yes.",
+   "args": [
+    "oryggi",
+    "gildi"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Yes, for science, innovation and culture",
+   "url": "https://www.visir.is/g/20262923421d/ja-fyrir-visindi-nyskopun-og-menningu",
+   "source": "visir.is",
+   "author": "Logi Einarsson",
+   "date": "2026-08-19",
+   "summary": "A minister says Iceland’s contributions to EU cooperation programmes, around 34 billion for 2021–2027, return 1.7 krónur for every króna invested. Larger programmes lie ahead: the €175 billion Horizon Europe, an expanded Erasmus+, and a €234 billion competitiveness fund, and full membership would mean having a seat at the table when participation in them is negotiated.",
+   "args": [
+    "ahrif",
+    "taekifaeri"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Do you want lower inflation and lower interest rates?",
+   "url": "https://www.visir.is/g/20262923406d/viltu-minni-verdbolgu-og-laegri-vexti-",
+   "source": "visir.is",
+   "author": "Hjörtur J. Guðmundsson",
+   "date": "2026-08-19",
+   "summary": "Says inflation has risen and interest rates have increased since the government’s first budget, citing Kristrún Frostadóttir’s words that people want to join the EU when inflation and interest rates are high. The government therefore has a political incentive for the economic situation not to improve, and the only way to lower interest rates is to take the EU off the agenda with a no vote.",
+   "args": [
+    "umbod"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "The Prime Minister’s sledgehammer struck the bell",
+   "url": "https://www.visir.is/g/20262923391d/sirkussleggja-forsaetisradherra-slo-i-bjolluna",
+   "source": "visir.is",
+   "author": "Sveinn Óskar Sigurðsson",
+   "date": "2026-08-19",
+   "summary": "Attributes the year’s third policy rate hike, to 8%, to overheating and the government’s inaction; inflation is home-grown, driven by housing and labour costs. A yes vote changes nothing about the task of bringing wage developments and public spending into line with value creation; adopting the euro would not remove the need for restraint, only shift where it is applied.",
+   "args": [
+    "evra",
+    "umbod"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "The euro at their own discretion? No, Þórður Snær. Financial reporting doesn’t work that way.",
+   "url": "https://www.visir.is/g/20262923383d/evruna-fyrir-sig-nei-thordur-snaer.-reikningsskil-virka-ekki-thannig.",
+   "source": "visir.is",
+   "author": "Páll Steingrímsson",
+   "date": "2026-08-19",
+   "summary": "Responds to an article by Þórður Snær Júlíusson and says large companies do not get to choose the euro for themselves: under IAS 21 and the Annual Accounts Act, companies must report in the currency that carries the greatest weight in their operations. Notes that Síldarvinnslan reported in dollars from 2009–2025 and Landsvirkjun still does; the story that the fishing industry ‘fled the króna’ does not hold up under accounting rules.",
+   "args": [
+    "evra"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "How do we improve quality of life in the last 20–30 years of life?",
+   "url": "https://www.visir.is/g/20262923294d/hvernig-baetum-vid-lifsgaedi-sidustu-20-30-aeviarin-",
+   "source": "visir.is",
+   "author": "Þorvaldur Ingi Jónsson",
+   "date": "2026-08-19",
+   "summary": "Discusses the ageing of the nation and the need for a new service society that supports the independence, activity and dignity of older people. Asks why a nation of 400 thousand people should develop every solution on its own, and whether full EU membership could open the way to more structured cooperation, research, innovation and project funding in this field.",
+   "args": [
+    "kjor"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "When Ólafur Ragnar Grímsson points the way",
+   "url": "https://www.visir.is/g/20262923291d/thegar-olafur-ragnar-grimsson-visar-veginn",
+   "source": "visir.is",
+   "author": "Einar Páll Svavarsson",
+   "date": "2026-08-19",
+   "summary": "Reviews the career of Ólafur Ragnar Grímsson, who is urging a no vote, and asks whether that career gives reason to make his judgment a guiding light. Points out that his conventional political career was much shorter than his standing in the debate suggests: about ten years as an elected MP and just over two and a half years as a minister.",
+   "args": [
+    "hraedslu"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "SFS analysis: What is the fear?",
+   "url": "https://www.visir.is/g/20262923306d/greining-sfs.-hver-er-ottinn-",
+   "source": "visir.is",
+   "author": "Halldór Jörgen Olesen",
+   "date": "2026-08-19",
+   "summary": "Says SFS analyses claiming that foreign parties would buy up fishing quotas are fearmongering; nothing happens automatically upon accession, rather fisheries management and ownership are negotiated. The current quota system protects a closed private-rights system for a handful of large fishing companies, while only 1.4% of the catch is fully processed in Iceland; membership and a stable currency would provide tariff-free market access and incentives for full processing.",
+   "args": [
+    "hraedslu",
+    "tollfrelsi"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "You do not have to be pro-EU to say yes",
+   "url": "https://www.visir.is/g/20262923199d/thu-tharft-ekki-ad-vera-esb-sinni-til-ad-segja-ja",
+   "source": "visir.is",
+   "author": "Baldur Johnson",
+   "date": "2026-08-19",
+   "summary": "Says the question on the ballot is limited: whether to return to the negotiating table, not whether to join the EU. While talks are under way, no power is transferred to the EU, Alþingi can break them off at any time, and membership would require a constitutional amendment approved by two parliaments; undecided voters can therefore say yes.",
+   "args": [
+    "kikja",
+    "lydraedi"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "The same vision for the future in Reykjavík and Brussels",
+   "url": "https://www.visir.is/g/20262923209d/sama-framtidarsyn-i-reykjavik-og-brussel",
+   "source": "visir.is",
+   "author": "Ingvar Sverrisson",
+   "date": "2026-08-19",
+   "summary": "Points out that Iceland’s industrial policy to 2035 and the EU’s competitiveness policy, shaped in the wake of the Draghi report, emphasize the same priorities: productivity, innovation, simpler regulation, skills and market access. The EU’s Union of Skills plan on education and mobility of professional qualifications fits well with Icelandic goals for jobs in high-productivity sectors.",
+   "args": [
+    "taekifaeri"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "The European Union and healthcare - together we would be stronger",
+   "url": "https://www.visir.is/g/20262922615d/evropusambandid-og-heilbrigdismal-saman-vaerum-vid-sterkari",
+   "source": "visir.is",
+   "author": "Alma D. Möller",
+   "date": "2026-08-19",
+   "summary": "The Minister of Health points out that health emergency preparedness falls outside the EEA Agreement, meaning Iceland is not on equal footing with EU states when crises strike. During the pandemic, the Swedes were allowed to purchase vaccines for Iceland through the EU, but there is no guarantee that will happen again; preparedness cooperation must be secured through a bilateral agreement or membership.",
+   "args": [
+    "oryggi"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "What really matters to the people of this country",
+   "url": "https://www.visir.is/g/20262923030d/thad-sem-raunverulega-skiptir-mali-fyrir-folkid-i-landinu",
+   "source": "visir.is",
+   "author": "Sveinn Atli Gunnarsson",
+   "date": "2026-08-19",
+   "summary": "Says that each percentage point in the interest-rate gap with the euro area costs society around 120 billion a year, and that euro adoption could save families tens of thousands or more than a hundred thousand krónur a month on mortgage payments. Through the EEA, Iceland already adopts a large share of the regulatory framework without having a say; the talks are about getting the agreement on the table.",
+   "args": [
+    "vextir",
+    "ahrif"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Something of a problem child",
+   "url": "https://www.visir.is/g/20262922874d/halfgert-vandraedabarn",
+   "source": "visir.is",
+   "author": "Sigmar Guðmundsson",
+   "date": "2026-08-19",
+   "summary": "The parliamentary group chair of Viðreisn quotes Guðni Th. Jóhannesson’s words that the króna is something of a problem child: wonderful to have, terrible to owe. A household paying 300 thousand a month on a mortgage pays just over 200 thousand in interest, and the state’s interest costs are around 100 billion a year; lower interest rates would quickly wipe out the alleged 50 billion cost of membership.",
+   "args": [
+    "vextir"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Choosing the euro for themselves but the króna for the rest of us",
+   "url": "https://www.visir.is/g/20262922290d/ad-velja-evruna-fyrir-sig-en-kronuna-fyrir-okkur-hin",
+   "source": "visir.is",
+   "author": "Þórður Snær Júlíusson",
+   "date": "2026-08-19",
+   "summary": "The executive director of Samfylkingin’s parliamentary group points out that the owners of Morgunblaðið, the main owners of Ísfélagið, refinance the company’s debts in euros on terms unavailable to households while the paper fights against any discussion of the euro. He asks why big companies may escape the króna while the public remains stuck with 9–10% mortgage interest.",
+   "args": [
+    "vextir",
+    "kjor"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "The option that is not on the ballot",
+   "url": "https://www.visir.is/g/20262923010d/kosturinn-sem-er-ekki-a-kjorsedlinum",
+   "source": "visir.is",
+   "author": "Egill Gauti Þorkelsson",
+   "date": "2026-08-18",
+   "summary": "Examines the Prime Minister’s argument that a yes vote “preserves options” and points out that a no vote also preserves options; the issue was closed twice in fifteen years and reopened both times. A voter who wants to stay outside the EU but inside the EEA, the position of about half the nation according to polls, finds that option nowhere on the ballot, and nothing has been set out about what happens if no prevails.",
+   "args": [
+    "spurning",
+    "ees"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "“You’re going to need a bigger boat”",
+   "url": "https://www.visir.is/g/20262922988d/-thid-thurfid-staerri-bat-",
+   "source": "visir.is",
+   "author": "Erlingur Erlingsson",
+   "date": "2026-08-18",
+   "summary": "Rejects the claim that a yes vote is equivalent to membership and points out that the Norwegians twice completed negotiations and rejected the agreement in a referendum, and that Britain left the Union. In a turbulent world, membership offers economic benefits and greater security, including the EU’s mutual defence clause, which obliges member states to assist a state that is attacked.",
+   "args": [
+    "oryggi",
+    "kikja"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Prices could fall sharply in Iceland",
+   "url": "https://www.visir.is/g/20262922799d/verd-gaeti-storlaekkad-a-islandi",
+   "source": "visir.is",
+   "author": "Gauti B. Eggertsson",
+   "date": "2026-08-18",
+   "summary": "An economics professor shows, using Eurostat data, that prices in Iceland are 62–73% above the EU average and 24–31% higher than high wages can explain, the largest deviation of any country in the comparison. The purchasing power of an hour of work drops from 2nd place to 9th when price levels are taken into account, and the experience of EEA countries that joined the EU suggests that a substantial part of the price premium could recede with membership.",
+   "args": [
+    "kjor"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "A job interview with the EU?",
+   "url": "https://www.visir.is/g/20262922545d/atvinnuvidtal-hja-esb-",
+   "source": "visir.is",
+   "author": "Brynjar Níelsson",
+   "date": "2026-08-18",
+   "summary": "Turns the YES side’s analogies about going to a job interview, viewing a property, and trying on a hat on their head: no one goes to a job interview for a job they do not want. The EU regulatory framework is available and can simply be looked up; examples of permanent exemptions, such as the special rules of Åland, are of an entirely different nature from the exemptions from fisheries and agricultural policy that YES supporters talk about.",
+   "args": [
+    "undanthagur",
+    "adlogun"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Buying the nation’s vote",
+   "url": "https://www.visir.is/g/20262922496d/ad-kaupa-atkvaedi-thjodar",
+   "source": "visir.is",
+   "author": "Yngvi Ómar Sigrúnarson",
+   "date": "2026-08-18",
+   "summary": "Points out that according to Meta’s ad library, Áfram Ísland spent about ten times more on advertising on Facebook and Instagram than Já til að sjá, and that the movement’s domain is registered to the advertising agency Pipar\\TBWA. It asks who is paying and what interests lie behind it, and compares the fearmongering and information disorder to the 2016 Brexit vote.",
+   "args": [
+    "hraedslu"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "The future: bright or bleak?",
+   "url": "https://www.visir.is/g/20262922497d/framtidin-bjort-eda-svort-",
+   "source": "visir.is",
+   "author": "Ólafur Hannesson",
+   "date": "2026-08-18",
+   "summary": "Says the EU has moved from cooperation among sovereign states toward a federal state in which a supranational governing system gains ever more power. Mentions that the Germans blocked exports of medical supplies during COVID and warns of unfunded pension liabilities in France, Italy, Germany, and Spain, while Iceland benefits from a funded pension system.",
+   "args": [
+    "fullveldi",
+    "efnahagur"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Why are Icelandic startups incorporated in Delaware?",
+   "url": "https://www.visir.is/g/20262922452d/af-hverju-eru-islenskir-sprotar-skradir-i-delaware-",
+   "source": "visir.is",
+   "author": "Egill Almar Ágústsson",
+   "date": "2026-08-18",
+   "summary": "Says foreign venture capital funds invest in the United States, the United Kingdom, the EU and Switzerland, but Iceland is not on their lists; Icelandic entrepreneurs must register their companies in Delaware and minimise ties to the Icelandic economy to obtain funding. The króna, indexation and the history of capital controls are an insurmountable topic of conversation with investors, and Iceland ranks 37th on StartupBlink’s list of startup ecosystems, far behind comparable countries in the EU.",
+   "args": [
+    "vextir",
+    "taekifaeri"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "The króna is the valve holding back Icelandic business",
+   "url": "https://www.visir.is/g/20262922430d/kronan-er-ventillinn-sem-heldur-aftur-af-islensku-atvinnulifi",
+   "source": "visir.is",
+   "author": "Óðinn Freyr Baldursson",
+   "date": "2026-08-18",
+   "summary": "Compares the króna to a half-closed valve in the pipeline of an open market: currency risk deters foreign investors from small and medium-sized enterprises and makes capital more expensive. With the euro and membership in the customs union would come lower risk, increased foreign investment, cheaper financing, access to EU grants and greater competition in oligopolistic markets.",
+   "args": [
+    "vextir",
+    "taekifaeri"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "The EU multiplies the influence of small states: The example of Cyprus",
+   "url": "https://www.visir.is/g/20262922425d/esb-margfaldar-ahrif-smarikja-daemi-fra-kypur",
+   "source": "visir.is",
+   "author": "Dominic Scott",
+   "date": "2026-08-18",
+   "summary": "Reviews the experience of Cyprus, which has less than 0.25% of the EU’s population yet nominates a commissioner, sits on the Council of Ministers and has six Members of the European Parliament, proportionally more than its population would suggest. A blocking minority normally requires four states, and Cyprus held the Presidency of the Council of Ministers in the first half of 2026; membership gives a small state influence far beyond its size.",
+   "args": [
+    "ahrif"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Let us vote YES to strengthen our freedom and sovereignty",
+   "url": "https://www.visir.is/g/20262922379d/segjum-ja-til-ad-styrkja-frelsi-okkar-og-fullveldi",
+   "source": "visir.is",
+   "author": "Þorkell Helgason",
+   "date": "2026-08-18",
+   "summary": "Says economic issues are not the most important matter, but rather security and democracy at a time when dictators are on the march; it is urgent to strengthen ties with nations guided by democracy, the rule of law and solidarity. Membership would involve limits on the exercise of sovereignty, but not its surrender; the EU is a union of sovereign states, and any change into a federal state would require the consent of all member states.",
+   "args": [
+    "oryggi",
+    "gildi"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Grand Fenwick by Faxaflói",
+   "url": "https://www.visir.is/g/20262922320d/grand-fenwick-vid-faxafloa",
+   "source": "visir.is",
+   "author": "Júlíus Valsson",
+   "date": "2026-08-17",
+   "summary": "Compares the security arguments of the YES side to the novel The Mouse That Roared: seeking shelter in an alliance that has no army and has never flown a fighter jet under its own flag. Article 42 of the EU Treaty states that for NATO states, NATO remains the foundation of collective defence; Iceland has been in NATO since 1949 and has had a defence agreement with the United States since 1951, and security issues are a fallback argument because the older arguments have proved difficult to carry.",
+   "args": [
+    "varnarsamningur"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Back and forth down a blind alley",
+   "url": "https://www.dv.is/eyjan/2026/08/18/bjorgvin-g-sigurdsson-skrifar-fram-og-aftur-blindgotuna",
+   "source": "dv.is",
+   "author": "Björgvin G. Sigurðsson",
+   "date": "2026-08-18",
+   "summary": "A former parliamentary group chair of Samfylkingin recounts the history of Iceland’s international cooperation and says the EEA pillar will not stand forever, among other things if Norway takes the step to full membership. The euro could reduce the public’s interest burden by up to 30% and save hundreds of billions in interest costs. The only way to resolve disputed issues is to complete the negotiation process.",
+   "args": [
+    "kikja",
+    "vextir",
+    "timagluggi"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "How much is Iceland sacrificing now through reduced FREEDOM?",
+   "url": "https://www.dv.is/eyjan/2026/08/18/thorvaldur-ingi-jonsson-skrifar-hversu-miklu-fornar-island-nu-med-skertu-frelsi",
+   "source": "dv.is",
+   "author": "Þorvaldur Ingi Jónsson",
+   "date": "2026-08-18",
+   "summary": "The author asks how free Iceland really is: outside the customs union, without voting rights on the rules of the internal market, and with a micro-currency carrying exchange-rate risk. He wants to complete the negotiations, compare the agreement with the EEA and the króna, and reject it if it proves worse. A YES on 29 August is a step toward negotiating and seeing the agreement.",
+   "args": [
+    "tollfrelsi",
+    "ahrif",
+    "kikja"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Word on the Street: Trump intends to annex Greenland — so is Iceland next?",
+   "url": "https://www.dv.is/eyjan/2026/08/18/ordid-a-gotunni-trump-aetlar-ad-innlima-graenland-er-svo-island-naest",
+   "source": "dv.is",
+   "author": null,
+   "date": "2026-08-18",
+   "summary": "The column says Trump’s statements about annexing Greenland show that Iceland cannot remain passive. Iceland does not enjoy the same protection from the EU as Denmark, and therefore closer cooperation with European states, including on defence matters, is vital. The first step is to vote yes on 29 August.",
+   "args": [
+    "oryggi"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "One spoke first — the other now wants to settle the matter",
+   "url": "https://www.dv.is/eyjan/2026/08/19/thorsteinn-palsson-skrifar-onnur-tok-fyrst-til-mals-hin-vill-nu-sla-botn-i-malid",
+   "source": "dv.is",
+   "author": "Þorsteinn Pálsson",
+   "date": "2026-08-19",
+   "summary": "Þorsteinn recalls that Ragnhildur Helgadóttir was the first to raise the idea of full membership in Alþingi in 1990 and says Þorgerður Katrín is now following the same fundamental policy. Turning 75% membership through the EEA into full membership rests on the same ideology as Iceland’s foreign policy for nearly eight decades. A NO would increase the risk that Iceland will not itself decide what community of nations it ends up in.",
+   "args": [
+    "kikja",
+    "gildi"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Word on the Street: A knife-edge contest and the no side is using deception — yet the yes camp is gaining confidence",
+   "url": "https://www.dv.is/eyjan/2026/08/19/ordid-a-gotunni-hnifjafn-slagur-og-nei-id-beitir-blekkingum-samt-vex-ja-sinnum",
+   "source": "dv.is",
+   "author": null,
+   "date": "2026-08-19",
+   "summary": "The column says the no movement is better funded and that its advertisements claim, without supporting assumptions, that membership would cost 50 billion a year; Morgunblaðið then mentioned 90 billion. Despite these deceptions, the contest is on a knife edge and the yes side is gaining ground.",
+   "args": [
+    "hraedslu"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "A seat at the table...",
+   "url": "https://www.dv.is/eyjan/2026/08/20/ari-kr-saemundsen-skrifar-saeti-vid-bordid",
+   "source": "dv.is",
+   "author": "Ari Kr. Sæmundsen",
+   "date": "2026-08-20",
+   "summary": "The author says the claim by YES supporters about having a seat at the table is plainly wrong; the seat is of little use if the person sitting there sleeps through the meetings, as Icelanders have allegedly done regarding EU regulations. He also doubts that Iceland would ever get the euro and points out that Romania had not met the conditions nineteen years after joining.",
+   "args": [
+    "ahrifaleysi",
+    "evra"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "We are not voting on membership on 29 August!",
+   "url": "https://www.dv.is/eyjan/2026/08/20/david-thor-bjorgvinsson-skrifar-vid-erum-ekki-ad-kjosa-um-adild-29-agust",
+   "source": "dv.is",
+   "author": "Davíð Þór Björgvinsson",
+   "date": "2026-08-20",
+   "summary": "Davíð Þór says the vote is only about reopening negotiations, not about membership. Undecided voters can safely vote yes because they can say no later when an agreement is on the table. Claims that talks would automatically mean a loss of sovereignty and a grab of natural resources are false or misleading.",
+   "args": [
+    "kikja",
+    "hraedslu"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Sjálfstæðisflokkurinn is no longer on the beaten path",
+   "url": "https://www.dv.is/eyjan/2026/08/20/gudmundur-einarsson-skrifar-sjalfstaedisflokkurinn-er-ekki-lengur-i-alfaraleid",
+   "source": "dv.is",
+   "author": "Guðmundur Einarsson",
+   "date": "2026-08-20",
+   "summary": "A former MP criticizes Sjálfstæðisflokkurinn for putting forward the Swiss lawyer Carl Baudenbacher as its main speaker against negotiations. He asks why the party is so strongly opposed to membership that it does not even want to let the nation explore what it might have to offer.",
+   "args": [
+    "kikja"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "The bill always lands somewhere",
+   "url": "https://www.dv.is/eyjan/2026/08/20/sigvaldi-einarsson-skrifar-reikningurinn-lendir-alltaf-einhvers-stadar",
+   "source": "dv.is",
+   "author": "Sigvaldi Einarsson",
+   "date": "2026-08-20",
+   "summary": "The author links the year's third policy rate hike, to 8%, to the vote and says the level of interest rates and the EU issue are the same problem seen from two sides. The economy is cooling, defaults are rising and inflation is 5.3%; the cost of the króna always falls on the public.",
+   "args": [
+    "vextir"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Word on the Street: Bændasamtökin and farmers are showing voters the utmost disrespect",
+   "url": "https://www.dv.is/eyjan/2026/08/20/ordid-a-gotunni-baendasamtokin-og-baendur-syna-kjosendum-argasta-donaskap",
+   "source": "dv.is",
+   "author": null,
+   "date": "2026-08-20",
+   "summary": "The column accuses Bændasamtökin and farmers of lies and fake news in the run-up to the vote. A sector that receives 30 billion krónur a year in public support should show voters courtesy rather than spread deceitful propaganda.",
+   "args": [
+    "hraedslu"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Word on the Street: What interests are being defended, and why?",
+   "url": "https://www.dv.is/eyjan/2026/08/20/ordid-a-gotunni-hvada-hagsmuni-er-verid-ad-verja-og-hvers-vegna",
+   "source": "dv.is",
+   "author": null,
+   "date": "2026-08-20",
+   "summary": "The column says the Central Bank's rate hike tangibly highlights the drawbacks of maintaining an independent currency in a micro-economy. Interest rates in Iceland are many times higher than in the euro area, and the increase will be grist to the mill of YES supporters.",
+   "args": [
+    "vextir"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Svarthöfði writes: Barely literate people publish golden-age prose",
+   "url": "https://www.dv.is/eyjan/2026/08/20/svarthofdi-skrifar-litt-ritfaerir-birta-gullaldartexta",
+   "source": "dv.is",
+   "author": null,
+   "date": "2026-08-20",
+   "summary": "Svarthöfði mocks NO supporters who suddenly posted polished text on social media and suspects that campaign groups provided them with ready-made posts. Distortions of fact and misrepresentations, he says, characterize the writing on the NO side.",
+   "args": [
+    "hraedslu"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "29 August is Icelanders’ biggest interest-rate decision day",
+   "url": "https://www.dv.is/eyjan/2026/08/21/sigmundur-ernir-skrifar-29-agust-er-staersti-vaxtaakvordunardagur-islendinga",
+   "source": "dv.is",
+   "author": "Sigmundur Ernir Rúnarsson",
+   "date": "2026-08-21",
+   "summary": "Sigmundur Ernir echoes Guðmundur Andra Thorsson’s words that election day will be Icelanders’ biggest interest-rate decision day. The króna is a tiny currency that mainly benefits the wealthy, while the public is left with usurious interest rates, high prices and inflationary pressure.",
+   "args": [
+    "vextir"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Do MPs see further than the nation – 30 years into the future?",
+   "url": "https://www.dv.is/eyjan/2026/08/21/thorvaldur-ingi-jonsson-skrifar-sja-thingmenn-lengra-en-thjodin-30-ar-fram-i",
+   "source": "dv.is",
+   "author": "Þorvaldur Ingi Jónsson",
+   "date": "2026-08-21",
+   "summary": "The author lists ten reasons to vote yes for the sake of children and grandchildren and points out that no MP can see 30 years into the future. A yes is not approval of membership, but approval of exploring the option, defending Icelandic interests in negotiations and allowing the nation to make the final decision.",
+   "args": [
+    "kikja",
+    "taekifaeri"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "The damn tub can leak – just don’t rock it",
+   "url": "https://www.dv.is/eyjan/2026/08/21/vilhelm-jonsson-skrifar-helvitis-dallurinn-ma-leka-bara-ekki-rugga-honum",
+   "source": "dv.is",
+   "author": "Vilhelm Jónsson",
+   "date": "2026-08-21",
+   "summary": "The entrepreneur says Icelanders curse inflation, usurious interest rates, oligopoly and the quota system, yet sanctify the system whenever change is mentioned. He wants to test fisheries, agriculture, currency issues and special arrangements in negotiations and compare the result with the real Iceland of the króna, indexation and debt-burdened households.",
+   "args": [
+    "kikja",
+    "vextir"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Word on the Street: The thunderous speech and the speech that did not move the room",
+   "url": "https://www.dv.is/eyjan/2026/08/21/ordid-a-gotunni-thrumuraedan-og-raedan-sem-hreyfdi-ekki-vid-salnum",
+   "source": "dv.is",
+   "author": null,
+   "date": "2026-08-21",
+   "summary": "The article recalls a 2014 speech by Hilmar Veigar Pétursson of CCP in which he said the króna fostered a victim mentality among Icelanders and that the plan was to join the EU. According to the article, his stance has now changed because of his substantial wealth and state support for CCP/Fenris.",
+   "args": [
+    "vextir",
+    "taekifaeri"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "The opposition’s record",
+   "url": "https://www.dv.is/eyjan/2026/08/22/kolbrun-bergthorsdottir-skrifar-met-stjornarandstodunnar",
+   "source": "dv.is",
+   "author": "Kolbrún Bergþórsdóttir",
+   "date": "2026-08-22",
+   "summary": "Kolbrún says the NO campaign is marked by distortions and spin, comparing it to the opposition’s record filibustering during the fishing fee debate. Dire predictions of misery did not come true then, and the argument being made now is of the same kind.",
+   "args": [
+    "hraedslu"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Islands, outermost regions, special arrangements and exemptions",
+   "url": "https://www.mbl.is/frettir/innlent/2026/08/22/adsend_grein_eyjar_ystu_svaedin_serlausnir_og_undan/",
+   "source": "mbl.is",
+   "author": "Margrét Ágústa Sigurðardóttir",
+   "date": "2026-08-22",
+   "summary": "The managing director of Bændasamtakanna says Article 349 TFEU on outermost regions is not a realistic precedent for Iceland; the provision applies only to regions of France, Spain and Portugal with GDP below 75% of the EU average. Ireland, Malta and Cyprus received no permanent exemptions from the Common Agricultural Policy, only support within it. The Finnish model was conditional on production not increasing beyond the 1991-1993 reference levels.",
+   "args": [
+    "undanthagur",
+    "landbunadur"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "We certainly can do this ourselves",
+   "url": "https://www.mbl.is/frettir/innlent/2026/08/22/adsend_grein_vid_getum_thetta_vist_sjalf/",
+   "source": "mbl.is",
+   "author": "Hildur Sverrisdóttir",
+   "date": "2026-08-22",
+   "summary": "A Sjálfstæðisflokkurinn MP recalls the prime minister’s pre-election words that the EU would not be a priority issue and would not fix the poor economic situation. The years 2014-2020 show that Icelanders are fully capable of managing economic affairs themselves, with price stability and reasonable interest rates. An exploratory trip to Brussels is neither free nor risk-free while the home-grown inflation problem remains unresolved.",
+   "args": [
+    "umbod",
+    "efnahagur"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Þorgerður Katrín is not telling the truth in interviews",
+   "url": "https://www.mbl.is/frettir/innlent/2026/08/22/adsend_grein_thorgerdur_katrin_segir_ekki_satt_i_vi/",
+   "source": "mbl.is",
+   "author": "Einar S. Hálfdánarson",
+   "date": "2026-08-22",
+   "summary": "The Supreme Court attorney says the foreign minister is making false claims: exports to the EU are 50%, not 70%, and talk of a total accession cost of 13-15 billion is imaginary. Félag skattgreiðenda estimates gross payments at 43-53 billion a year and net costs at around 34 billion. Real interest rates in Iceland are not glaringly out of line with those in France and Italy.",
+   "args": [
+    "kostnadur",
+    "evra"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Main pillars on shaky foundations",
+   "url": "https://www.mbl.is/frettir/innlent/2026/08/21/adsend_grein_burdarasar_a_braudfotum/",
+   "source": "mbl.is",
+   "author": "Baldur Guðlaugsson",
+   "date": "2026-08-21",
+   "summary": "The lawyer and former permanent secretary says the leading states, France and Germany, are grappling with economic problems and growing political uncertainty; AfD is polling as Germany’s largest party and Le Pen has a realistic chance of the presidency. To seek shelter in the EU under these circumstances is to seek shelter in a wasteland. Iceland is a North Atlantic state with growing alignment with the United States, Canada, Britain and Norway.",
+   "args": [
+    "efnahagur",
+    "nagrannar"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Walling yourself in when the world is open",
+   "url": "https://www.mbl.is/frettir/innlent/2026/08/21/adsend_grein_ad_mura_sig_inni_thegar_heimurinn_sten/",
+   "source": "mbl.is",
+   "author": "Óli Björn Kárason",
+   "date": "2026-08-21",
+   "summary": "A former Sjálfstæðisflokkurinn MP says no one applies to join an organisation just to peek inside the package; a YES vote is a declaration of support for entry involving a major transfer of sovereignty. Accession talks create prolonged uncertainty that delays investment and costs the public growth and jobs. In a customs union, free trade agreements with China, India and more than 40 countries would lapse, and negotiating authority would shift to Brussels.",
+   "args": [
+    "spurning",
+    "ees",
+    "fullveldi"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "EU membership – major opportunities in trade with China would be lost",
+   "url": "https://www.mbl.is/frettir/innlent/2026/08/20/adild_ad_esb_mikil_taekifaeri_glatast_i_vidskiptum_/",
+   "source": "mbl.is",
+   "author": "Jónína Bjartmarz",
+   "date": "2026-08-20",
+   "summary": "The chairman of the Icelandic-Chinese Chamber of Commerce says the 2014 free trade agreement with China would lapse upon EU membership; China has likely become Iceland’s second-largest trading partner. EU tariffs on Chinese cars are 17-35%, and on clothing up to 70%, which would raise prices and inflation. Direct flights to Beijing from October would create tariff-free export opportunities for fresh seafood that would be lost within the EU.",
+   "args": [
+    "ees",
+    "efnahagur"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "EU enlargement and the YES side – a shared goal",
+   "url": "https://www.mbl.is/frettir/innlent/2026/08/20/staekkun_esb_og_ja_sameiginlegt_markmid/",
+   "source": "mbl.is",
+   "author": "Björn Bjarnason",
+   "date": "2026-08-20",
+   "summary": "A former minister describes the interaction between the foreign minister and the EU enlargement commissioner from January 2025: the Commission interprets the 2009 application as still valid, and POLITICO reported on the August vote before it was announced at home. Iceland is to be used by von der Leyen and Marta Kos to prove a new fast track in enlargement policy. The government is asking for an unconditional mandate without negotiation objectives, which Brussels already knows how to use.",
+   "args": [
+    "spurning",
+    "umbod"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "The freedom to move forward",
+   "url": "https://www.mbl.is/frettir/innlent/2026/08/20/frelsi_til_ad_saekja_fram/",
+   "source": "mbl.is",
+   "author": "Þorgerður Katrín Gunnarsdóttir",
+   "date": "2026-08-20",
+   "summary": "The foreign minister writes in Morgunblaðið that the vote is not about membership but about whether to sit down at the negotiating table; the final decision will always belong to the nation in a second vote. Internal market rules are having an ever greater impact on Iceland, while our influence on shaping them is limited. The figure of 50 billion in annual costs is a gross figure and part of an information muddle; the IMF points out that closer linkage to the euro could lower capital costs.",
+   "args": [
+    "kikja",
+    "ahrif",
+    "vextir"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "The blind spot",
+   "url": "https://www.mbl.is/frettir/innlent/2026/08/20/blindi_bletturinn/",
+   "source": "mbl.is",
+   "author": "Gunnar Pálsson",
+   "date": "2026-08-20",
+   "summary": "Iceland’s former ambassador to the EU says that, for the first time, the Union is now a direct party to armed conflict in Europe, and that its militarisation has shifted the power of initiative from elected representatives to unelected officials. War spending is draining resources from infrastructure and welfare, while energy costs, economic contraction and mounting debt are battering the Union. The EU itself has changed, even though the authorities speak only of a changed world situation.",
+   "args": [
+    "hervaeding",
+    "efnahagur"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "What is in these 100 documents that I am not allowed to access?",
+   "url": "https://www.mbl.is/frettir/innlent/2026/08/19/hvad_er_i_thessum_100_gognum_sem_eg_fae_ekki_adgang/",
+   "source": "mbl.is",
+   "author": "Gunnar Bragi Sveinsson",
+   "date": "2026-08-19",
+   "summary": "A former foreign minister says the Ministry for Foreign Affairs is denying him access to around 100 documents on its communications with the EU from his time in office. The 2009 application forms the basis of the process that the current foreign minister intends to complete, even though it is claimed that the vote is not about the application. He asks whether something in the documents could disrupt the package game.",
+   "args": [
+    "spurning",
+    "umbod"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Before \"whether\" becomes \"how\"",
+   "url": "https://heimssyn.blog.is/blog/heimssyn/entry/2327988/",
+   "source": "heimssyn.blog.is",
+   "author": null,
+   "date": "2026-08-23",
+   "summary": "Heimssýn says the question of whether Iceland should join the EU is being replaced by a question about an exploratory journey back to the negotiating table. Referring to Carl Baudenbacher’s article on path dependence and framing, it argues that a YES vote would set in motion a process in which the administration, experts and interest groups begin preparing for membership as an accepted reality. The later decision would therefore not be taken under the same circumstances as the first.",
+   "args": [
+    "adlogun"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Ministry-related work would move abroad with EU membership",
+   "url": "https://heimssyn.blog.is/blog/heimssyn/entry/2327958/",
+   "source": "heimssyn.blog.is",
+   "author": null,
+   "date": "2026-08-23",
+   "summary": "The blog republishes a section from a Morgunblaðið article by lawyer Tryggvi Axelsson arguing that Iceland’s vote in the Council of Ministers would never matter in the adoption of legislation except as a declaration of support. Council meetings take place for two days almost every week, and two to three ministers would have to attend them, with the resulting absences and an increase in staff in the Prime Minister’s Office and ministries. The constitution would be amended, and the country’s system of government would undergo a fundamental change.",
+   "args": [
+    "ahrifaleysi",
+    "fullveldi"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "RÚV covers the very serious debt position of the EU states",
+   "url": "https://heimssyn.blog.is/blog/heimssyn/entry/2327923/",
+   "source": "heimssyn.blog.is",
+   "author": null,
+   "date": "2026-08-22",
+   "summary": "Heimssýn points to a RÚV news analysis on an IMF expert report about Europe’s financial strains: public spending across the continent will rise by almost five percent of GDP by 2040 due to ageing, the energy transition and defence. The report’s authors say the European social model is at risk. A state of disintegration lies ahead in the Union that is supposed to draw Iceland in.",
+   "args": [
+    "efnahagur"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Hilmar Veigar Pétursson says NO on 29 August!",
+   "url": "https://heimssyn.blog.is/blog/heimssyn/entry/2327928/",
+   "source": "heimssyn.blog.is",
+   "author": null,
+   "date": "2026-08-21",
+   "summary": "The blog recounts a speech by Hilmar Veigar Pétursson at an Áfram Íslands meeting: in 2007, 46 European companies were among the 100 most valuable in the world, but now only 16 are, and 41 unicorn companies moved their headquarters out of the EU in 2008-2021. Around €300 billion flows annually from Europe into investment in the United States. Iceland is already in a stronger position in productivity, and the figures call for a NO vote.",
+   "args": [
+    "efnahagur"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Jón Baldvin, DV and Douglass North",
+   "url": "https://heimssyn.blog.is/blog/heimssyn/entry/2327908/",
+   "source": "heimssyn.blog.is",
+   "author": null,
+   "date": "2026-08-21",
+   "summary": "Heimssýn explains Douglass North’s concept of path dependence: once talks resume, an institutional process is created with its own logic, expectations and expert networks, making later decisions seem like a natural continuation. The EU’s propaganda machine would kick into gear with information campaigns, grants and conferences. A mandate that could formally be revoked might develop into a self-reinforcing process.",
+   "args": [
+    "adlogun"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Central banks and financial supervisors reiterate the trouble with the EU’s regulatory burden",
+   "url": "https://heimssyn.blog.is/blog/heimssyn/entry/2327890/",
+   "source": "heimssyn.blog.is",
+   "author": null,
+   "date": "2026-08-20",
+   "summary": "The blog says the Central Bank of Iceland and Nordic financial supervisors have repeatedly called for the EU’s regulatory burden to be eased, and refers to Draghi’s report on the Union’s sluggishness. Innovation is delayed and entrepreneurs give up on Europe. Hilmar Veigar Pétursson, previously positive towards the EU and the euro, now intends to say NO.",
+   "args": [
+    "efnahagur"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "What would happen to the Icesave judgment under EU membership?",
+   "url": "https://heimssyn.blog.is/blog/heimssyn/entry/2327861/",
+   "source": "heimssyn.blog.is",
+   "author": null,
+   "date": "2026-08-20",
+   "summary": "Heimssýn reviews an article by Carl Baudenbacher, president of the EFTA Court when the Icesave judgment was delivered in 2013: membership would not invalidate the judgment, but would render it obsolete for the future. The EU Deposit Guarantee Directive from 2014 has not been incorporated into the EEA Agreement, but would become binding upon membership, under the supervision of the European Commission and the jurisdiction of the Court of Justice of the European Union. The legal position that made Iceland’s victory possible within the EEA would not remain in place within the EU.",
+   "args": [
+    "ees",
+    "fullveldi"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "An Icelandic resource – but who enjoys the returns?",
+   "url": "https://heimssyn.blog.is/blog/heimssyn/entry/2327859/",
+   "source": "heimssyn.blog.is",
+   "author": null,
+   "date": "2026-08-19",
+   "summary": "Drawing on a new legal opinion by three law professors for the Prime Minister’s Office, the blog discusses foreign investment in fisheries under membership. Iceland has an exemption in the EEA that permits restrictions on foreign ownership, but the Court of Justice of the European Union rejected British nationality requirements against quota hopping in Factortame II. Real economic links to Iceland are not the same as Icelandic ownership, and the returns could flow out of the country.",
+   "args": [
+    "sjavarutvegur"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Daði Már’s currency report failed the IMF test",
+   "url": "https://heimssyn.blog.is/blog/heimssyn/entry/2327828/",
+   "source": "heimssyn.blog.is",
+   "author": null,
+   "date": "2026-08-18",
+   "summary": "The blog presents a memorandum by Jón Helgi Egilsson and Erna Bjarnadóttir comparing the finance minister’s currency report with criticism from the Central Bank and the latest IMF assessment. The IMF considers the króna no more volatile than comparable currencies and emphasizes the exchange rate as an adjustment tool in response to Iceland-specific shocks. The Prime Minister’s Office’s claim that the costs of the króna outweigh the benefits is not based on a comprehensive analysis by the report’s authors.",
+   "args": [
+    "skyrslan",
+    "evra"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Anne Sibert wanted us to guarantee Icesave – does not seem to be following developments",
+   "url": "https://heimssyn.blog.is/blog/heimssyn/entry/2327820/",
+   "source": "heimssyn.blog.is",
+   "author": null,
+   "date": "2026-08-18",
+   "summary": "Heimssýn criticizes writings by Anne Sibert, a former member of the Central Bank’s Monetary Policy Committee, who says it is right to adopt the euro even if the European Central Bank’s monetary policy suited Iceland poorly. Sibert is said not to have followed monetary policy developments since 2012. She had also believed that Icelanders should guarantee Icesave, but the nation rejected that twice and the EFTA Court ruled in Iceland’s favor.",
+   "args": [
+    "evra"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Icelanders have many reasons to revive their journey toward EU membership",
+   "url": "https://www.evropa.is/greinar/islendingar-hafa-astaedu",
+   "source": "evropa.is",
+   "author": "Carl Bildt",
+   "date": "2026-08-21",
+   "summary": "The former Prime Minister and Foreign Minister of Sweden writes that solitude is rarely reassuring in an unstable world; the unpredictable policy of the Trump administration and its designs on Greenland have made Iceland more vulnerable, and being outside the customs union leaves the country defenseless in trade wars. Full membership would strengthen sovereignty because it would bring participation in decisions that Iceland already implements through the EEA. After Brexit, Iceland shares no maritime border with any member state, and there is therefore room for compromises on fisheries, just as Sweden and Finland obtained special rules for northern agriculture.",
+   "args": [
+    "oryggi",
+    "serlausnir",
+    "ahrif"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "A thought on the EU, the ATAD directive, and why the moneyed interests want us to say NO on 29 August",
+   "url": "https://www.reddit.com/r/Iceland/comments/1vv9a6b/",
+   "source": "Reddit r/Iceland",
+   "author": "TheUpgradeParty",
+   "date": "2026-08-22",
+   "summary": "A user points out that the Brexit campaign intensified after the EU introduced the ATAD directive against tax avoidance by large corporations and asks whether the same pattern can be seen in Iceland. The strongest opponents of membership are the moneyed interests: the large fishing companies, CEOs, banks, and the power elite. The resistance may be more about transparency and tax loopholes than about fish.",
+   "args": [
+    "hraedslu",
+    "kikja"
+   ],
+   "impact": 1,
+   "engagement": "16 comments"
+  },
+  {
+   "side": "ja",
+   "title": "When claims meet reality",
+   "url": "https://www.reddit.com/r/Iceland/comments/1vvbz0i/",
+   "source": "Reddit r/Iceland",
+   "author": "onepiecemovement",
+   "date": "2026-08-22",
+   "summary": "Screenshot comparison: mbl.is quotes CCP CEO Hilmar Veigar as saying that no one believes in Europe, while Viðskiptablaðið simultaneously reports that billions are flowing back into European stocks and that European corporate profits are headed for 22% growth. The author asks whether people are being subjected to propaganda.",
+   "args": [
+    "hraedslu"
+   ],
+   "impact": 1,
+   "engagement": null
+  },
+  {
+   "side": "ja",
+   "title": "Concerts in the EU",
+   "url": "https://www.reddit.com/r/Iceland/comments/1vtlq0t/",
+   "source": "Reddit r/Iceland",
+   "author": "gsvavarsson",
+   "date": "2026-08-20",
+   "summary": "A user lists world-famous musicians who have played in EU countries in recent years but skipped Iceland, and says that a common market area would make it cheaper for artists to perform here. He himself half-jokingly calls these wishful claims, as a response to false claims from the NO side.",
+   "args": [
+    "kjor"
+   ],
+   "impact": 1,
+   "engagement": null
+  },
+  {
+   "side": "nei",
+   "title": "The EU is building an army",
+   "url": "https://www.reddit.com/r/Iceland/comments/1vsw011/",
+   "source": "Reddit r/Iceland",
+   "author": "Gervill",
+   "date": "2026-08-19",
+   "summary": "A short post sharing material about the EU’s military build-up, arguing that it is a governing authority that builds an army, not a trade association. The EU has therefore become something different from, and more than, economic cooperation.",
+   "args": [
+    "hervaeding"
+   ],
+   "impact": 1,
+   "engagement": null
+  },
+  {
+   "side": "ja",
+   "title": "▶ Young people, let’s show up and vote",
+   "url": "https://www.tiktok.com/@jatiladsja/video/7675174901036207382",
+   "source": "TikTok · SJÁ",
+   "author": null,
+   "date": "2026-08-20",
+   "summary": "Young people are urged to go to the polls on 29 August; the vote concerns the next 30–40 years, housing issues, and the future of those who will live longest with the outcome.",
+   "args": [
+    "lydraedi",
+    "taekifaeri"
+   ],
+   "impact": 1,
+   "engagement": "4.399 áhorf"
+  },
+  {
+   "side": "ja",
+   "title": "▶ Quiz: lower interest rates, yes please",
+   "url": "https://www.tiktok.com/@jatiladsja/video/7676065516049566978",
+   "source": "TikTok · SJÁ",
+   "author": null,
+   "date": "2026-08-20",
+   "summary": "A light-hearted quiz celebrating lower interest rates and describing indexation as cold; a yes vote in August would not mean joining the EU, only looking into the possibilities.",
+   "args": [
+    "vextir",
+    "kikja"
+   ],
+   "impact": 1,
+   "engagement": "4.553 áhorf"
+  },
+  {
+   "side": "ja",
+   "title": "▶ Nonsense that there is nothing to negotiate",
+   "url": "https://www.tiktok.com/@jatiladsja/video/7676068579187625238",
+   "source": "TikTok · SJÁ",
+   "author": null,
+   "date": "2026-08-21",
+   "summary": "A response to the claim that everything about the EU can be read online: no one knows what Icelandic special arrangements might be available until we sit down at the negotiating table, for example on fisheries and agriculture.",
+   "args": [
+    "kikja",
+    "serlausnir"
+   ],
+   "impact": 1,
+   "engagement": "1.742 áhorf"
+  },
+  {
+   "side": "ja",
+   "title": "▶ Nonsense about the influx of foreigners",
+   "url": "https://www.tiktok.com/@jatiladsja/video/7676069567948688662",
+   "source": "TikTok · SJÁ",
+   "author": null,
+   "date": "2026-08-22",
+   "summary": "The claim that foreigners would flood into the country upon accession is dismissed as nonsense; free movement has applied since 1994 through the EEA, and the Danes themselves have the strictest immigration rules in the EU.",
+   "args": [
+    "hraedslu"
+   ],
+   "impact": 1,
+   "engagement": "1.757 áhorf"
+  },
+  {
+   "side": "ja",
+   "title": "▶ Quiz: yes on 29 August",
+   "url": "https://www.tiktok.com/@jatiladsja/video/7676070333169913110",
+   "source": "TikTok · SJÁ",
+   "author": null,
+   "date": "2026-08-21",
+   "summary": "Light-hearted quiz; lower interest rates get a yes please, indexation is called ice-cold, and the interviewee intends to vote yes on 29 August.",
+   "args": [
+    "vextir"
+   ],
+   "impact": 1,
+   "engagement": "8.144 áhorf"
+  },
+  {
+   "side": "ja",
+   "title": "▶ Nonsense that unemployment would rise",
+   "url": "https://www.tiktok.com/@jatiladsja/video/7676070372554312982",
+   "source": "TikTok · SJÁ",
+   "author": null,
+   "date": "2026-08-21",
+   "summary": "The claim that unemployment would increase upon accession is dismissed as nonsense; countries such as Latvia, Lithuania, Poland and Ireland experienced lower unemployment after joining the EU.",
+   "args": [
+    "hraedslu"
+   ],
+   "impact": 1,
+   "engagement": "3.035 áhorf"
+  },
+  {
+   "side": "ja",
+   "title": "▶ Nonsense that sovereignty would be lost",
+   "url": "https://www.tiktok.com/@jatiladsja/video/7676070874637700374",
+   "source": "TikTok · SJÁ",
+   "author": null,
+   "date": "2026-08-22",
+   "summary": "The claim that sovereignty would be lost is dismissed as nonsense; the 27 EU nations have not lost their sovereignty, and with membership Iceland would finally gain representatives instead of accepting EEA rules without influence.",
+   "args": [
+    "hraedslu",
+    "ahrif"
+   ],
+   "impact": 1,
+   "engagement": "1.149 áhorf"
+  },
+  {
+   "side": "ja",
+   "title": "▶ Nonsense that no opt-outs are available",
+   "url": "https://www.tiktok.com/@jatiladsja/video/7676070990455147778",
+   "source": "TikTok · SJÁ",
+   "author": null,
+   "date": "2026-08-23",
+   "summary": "The claim that no permanent opt-outs are available is dismissed as nonsense; Denmark has a permanent opt-out from the euro and Finland in agricultural matters.",
+   "args": [
+    "hraedslu",
+    "serlausnir"
+   ],
+   "impact": 1,
+   "engagement": "675 áhorf"
+  },
+  {
+   "side": "ja",
+   "title": "▶ A football contract explains the yes vote",
+   "url": "https://www.tiktok.com/@jatiladsja/video/7676790323875564822",
+   "source": "TikTok · SJÁ",
+   "author": null,
+   "date": "2026-08-22",
+   "summary": "A former professional compares the vote to an offer from Hammarby in 1995: voting yes only means hearing what is on offer, and a final agreement would then go back to a referendum.",
+   "args": [
+    "kikja",
+    "lydraedi"
+   ],
+   "impact": 1,
+   "engagement": "4.586 áhorf"
+  },
+  {
+   "side": "ja",
+   "title": "▶ Lárus Welding: lots of upside, no downside",
+   "url": "https://www.tiktok.com/@jatiladsja/video/7677242348153130262",
+   "source": "TikTok · SJÁ",
+   "author": null,
+   "date": "2026-08-23",
+   "summary": "Lárus Welding says the yes option has far more upside than downside; Iceland should be part of the conversation in light of world affairs, and any agreement would in any case go back to the people.",
+   "args": [
+    "kikja",
+    "oryggi"
+   ],
+   "impact": 1,
+   "engagement": "676 áhorf"
+  },
+  {
+   "side": "ja",
+   "title": "▶ Sovereignty is strengthened by a seat at the table",
+   "url": "https://www.tiktok.com/@evropuhreyfingin/video/7676459949051956502",
+   "source": "TikTok · Evrópuhreyfingin",
+   "author": null,
+   "date": "2026-08-21",
+   "summary": "Sovereignty is described as twofold: Iceland would continue to govern its internal affairs, but today follows EU rules without influence; with membership it would gain a seat at the table and sovereignty would increase.",
+   "args": [
+    "ahrif",
+    "hraedslu"
+   ],
+   "impact": 1,
+   "engagement": "2.423 áhorf"
+  },
+  {
+   "side": "ja",
+   "title": "▶ Treasury interest burden comparable to Greece",
+   "url": "https://www.tiktok.com/@evropuhreyfingin/video/7677229491818728726",
+   "source": "TikTok · Evrópuhreyfingin",
+   "author": null,
+   "date": "2026-08-23",
+   "summary": "Ásgeir Brynjar, PhD in finance, says the Treasury pays a similarly high share of expenditure in interest as Greece because of the high-interest-rate environment of the króna; with an application and ERM shelter, stability would be gained.",
+   "args": [
+    "vextir"
+   ],
+   "impact": 1,
+   "engagement": "322 áhorf"
+  },
+  {
+   "side": "nei",
+   "title": "▶ The Draghi report paints a dark picture",
+   "url": "https://www.tiktok.com/@afram.island/video/7676190550101347606",
+   "source": "TikTok · Áfram Ísland",
+   "author": null,
+   "date": "2026-08-20",
+   "summary": "The Draghi report on Europe’s competitiveness is said to show that the continent is falling behind and that complex regulation is holding companies back; the wrong time for Iceland to bind itself more tightly to the system.",
+   "args": [
+    "efnahagur"
+   ],
+   "impact": 1,
+   "engagement": "1.947 áhorf"
+  },
+  {
+   "side": "nei",
+   "title": "▶ Ísak: we are doing better outside the EU",
+   "url": "https://www.tiktok.com/@afram.island/video/7676422473881095446",
+   "source": "TikTok · Áfram Ísland",
+   "author": null,
+   "date": "2026-08-21",
+   "summary": "Ísak points out that Iceland ranks at the top on measures of living standards and economic performance and asks why it should join the EU when the country is doing better than the member states.",
+   "args": [
+    "efnahagur"
+   ],
+   "impact": 1,
+   "engagement": "1.911 áhorf"
+  },
+  {
+   "side": "nei",
+   "title": "▶ Selma: let future generations govern the country",
+   "url": "https://www.tiktok.com/@afram.island/video/7676422619972881686",
+   "source": "TikTok · Áfram Ísland",
+   "author": null,
+   "date": "2026-08-21",
+   "summary": "Selma says she believes in Iceland’s opportunities for the future and wants future generations to be free to govern the country without constraint.",
+   "args": [
+    "fullveldi"
+   ],
+   "impact": 1,
+   "engagement": "1.231 áhorf"
+  },
+  {
+   "side": "nei",
+   "title": "▶ Georg: the EU is on the wrong path",
+   "url": "https://www.tiktok.com/@afram.island/video/7676492455822314774",
+   "source": "TikTok · Áfram Ísland",
+   "author": null,
+   "date": "2026-08-21",
+   "summary": "Georg says he is an internationalist but believes the EU is on the wrong path, especially because of the regulatory burden on innovation.",
+   "args": [
+    "efnahagur"
+   ],
+   "impact": 1,
+   "engagement": "1.152 áhorf"
+  },
+  {
+   "side": "nei",
+   "title": "▶ Jóhann: no foreign master",
+   "url": "https://www.tiktok.com/@afram.island/video/7676492643299298582",
+   "source": "TikTok · Áfram Ísland",
+   "author": null,
+   "date": "2026-08-21",
+   "summary": "Jóhann says he neither wants nor needs a foreign master and refuses to give up Icelandic jurisdiction, currency, or natural resources.",
+   "args": [
+    "fullveldi"
+   ],
+   "impact": 1,
+   "engagement": "1.375 áhorf"
+  },
+  {
+   "side": "nei",
+   "title": "▶ Jóhann: we can solve these issues ourselves at home",
+   "url": "https://www.tiktok.com/@afram.island/video/7676809312026643734",
+   "source": "TikTok · Áfram Ísland",
+   "author": null,
+   "date": "2026-08-22",
+   "summary": "Jóhann says Iceland is the best country in the world and that Icelanders can solve themselves at home any issues that need fixing.",
+   "args": [
+    "fullveldi"
+   ],
+   "impact": 1,
+   "engagement": "2.442 áhorf"
+  },
+  {
+   "side": "nei",
+   "title": "▶ Bingo: isn’t this enough?",
+   "url": "https://www.tiktok.com/@afram.island/video/7677244556454219030",
+   "source": "TikTok · Áfram Ísland",
+   "author": null,
+   "date": "2026-08-23",
+   "summary": "A bingo-style run-through of the list against membership: chat control surveillance, 0.08% voting weight, the common fisheries policy, the customs union, and 15 billion in annual expenditure.",
+   "args": [
+    "ahrifaleysi",
+    "sjavarutvegur",
+    "kostnadur"
+   ],
+   "impact": 1,
+   "engagement": "268 áhorf"
   }
  ]
 };

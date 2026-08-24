@@ -72,6 +72,11 @@
       font-size: 0.75rem; opacity: 0; transition: opacity 0.15s; pointer-events: none;
     }
     .progress.active .time { opacity: 1; }
+    .new-tag {
+      position: absolute; top: max(52px, calc(env(safe-area-inset-top) + 38px)); left: 14px; z-index: 5;
+      padding: 3px 10px; border-radius: 999px; background: #f9a825; color: #0f1923;
+      font-weight: 800; font-size: 0.68rem; letter-spacing: 0.05em;
+    }
   </style>
 </head>
 <body>
@@ -82,10 +87,32 @@
     const ACCURL = {"aframisland": "https://www.tiktok.com/@afram.island", "sja": "https://www.tiktok.com/@jatiladsja", "evropuhreyfingin": "https://www.tiktok.com/@evropuhreyfingin", "heimssyn": "https://www.tiktok.com/@heimssyn"};
     const feedEl = document.getElementById('feed');
     const esc = s => (s || '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-    feedEl.innerHTML = VIDEOFEED.map((v, i) => `
+
+    // Returning visitors: videos added since their last visit go FIRST
+    // (marked NYTT), then the feed continues from where they left off.
+    let FEED = VIDEOFEED, startAtSaved = true;
+    const knownRaw = localStorage.getItem('videofeed-known');
+    const savedId = localStorage.getItem('videofeed-pos');
+    if (knownRaw && savedId) {
+      try {
+        const known = new Set(JSON.parse(knownRaw));
+        const fresh = VIDEOFEED.filter(v => !known.has(v.id)).map(v => ({ ...v, isNew: true }));
+        if (fresh.length) {
+          const rest = VIDEOFEED.filter(v => known.has(v.id));
+          let si = rest.findIndex(v => v.id === savedId);
+          if (si < 0) si = 0;
+          FEED = [...fresh, ...rest.slice(si), ...rest.slice(0, si)];
+          startAtSaved = false;
+        }
+      } catch (e) {}
+    }
+    localStorage.setItem('videofeed-known', JSON.stringify(VIDEOFEED.map(v => v.id)));
+
+    feedEl.innerHTML = FEED.map((v, i) => `
       <div class="slide" data-i="${i}">
         <video src="https://d2phchlsyto3ho.cloudfront.net/media/${v.id}.mp4" loop muted playsinline preload="${i < 3 ? 'auto' : 'none'}"></video>
         <div class="badge ${v.side}">${v.side === 'ja' ? 'JÁ' : 'NEI'}</div>
+        ${v.isNew ? '<div class="new-tag">NÝTT</div>' : ''}
         ${v.argTitle ? `<div class="counter-tag">${v.argIcon} ${esc(v.argTitle)}</div>` : ''}
         <a class="back" href="/">← lýðræðisveislan.is</a>
         <div class="meta">
@@ -141,15 +168,15 @@
           if (!sound) { e.target.classList.add('show-hint'); setTimeout(() => e.target.classList.remove('show-hint'), 2500); }
           // Remember position (by video id, survives feed reordering)
           const i = +e.target.dataset.i;
-          if (VIDEOFEED[i]) localStorage.setItem('videofeed-pos', VIDEOFEED[i].id);
+          if (FEED[i] && !FEED[i].isNew) localStorage.setItem('videofeed-pos', FEED[i].id);
         } else { v.pause(); v.currentTime = 0; }
       });
     }, { threshold: 0.6 });
 
-    // Resume where the visitor left off
-    const savedId = localStorage.getItem('videofeed-pos');
-    if (savedId) {
-      const idx = VIDEOFEED.findIndex(v => v.id === savedId);
+    // Resume where the visitor left off (unless new videos were prepended —
+    // then we start at the top so they see the new ones first).
+    if (startAtSaved && savedId) {
+      const idx = FEED.findIndex(v => v.id === savedId);
       if (idx > 0) document.querySelector(`.slide[data-i="${idx}"]`).scrollIntoView({ behavior: 'instant', block: 'start' });
     }
     document.querySelectorAll('.slide').forEach(s => io.observe(s));
