@@ -163,6 +163,12 @@
       }
     }
 
+    /* Countdown colors on white pill */
+    #countdown-badge .cd-val { color: #1a4fa8 !important; }
+    #countdown-badge .cd-lbl { color: #64748b !important; }
+    #countdown-badge .cd-sep { color: #94a3b8 !important; }
+    .pill-sep { background: rgba(0,0,0,0.15) !important; }
+
     /* Header widgets on white */
     .archive-header-btn, .header-badge {
       height: 32px !important;
@@ -1190,6 +1196,27 @@
     const labels = { is: '29. ágúst 2026', en: '29 August 2026', pl: '29 sierpnia 2026' };
     const el = document.getElementById('election-date-label');
     if (el) el.textContent = labels[lang] || labels.is;
+
+    // Countdown to election day (polls open 09:00 on 29 Aug)
+    const target = new Date('2026-08-29T09:00:00');
+    const cdLbl = ({ is: ['d', 'klst', 'mín'], en: ['d', 'h', 'm'], pl: ['d', 'g', 'm'] })[lang] || ['d', 'klst', 'mín'];
+    if (el && Date.now() < target.getTime()) {
+      const sep = document.createElement('span');
+      sep.className = 'pill-sep';
+      el.after(sep);
+      const cd = document.createElement('span');
+      cd.id = 'countdown-badge';
+      sep.after(cd);
+      function tick() {
+        let s = Math.max(0, (target.getTime() - Date.now()) / 1000);
+        const d = Math.floor(s / 86400), h = Math.floor(s % 86400 / 3600), m = Math.floor(s % 3600 / 60);
+        cd.innerHTML = '<span class="cd-unit"><span class="cd-val">' + d + '</span><span class="cd-lbl">' + cdLbl[0] + '</span></span>' +
+          '<span class="cd-sep">:</span><span class="cd-unit"><span class="cd-val">' + h + '</span><span class="cd-lbl">' + cdLbl[1] + '</span></span>' +
+          '<span class="cd-sep">:</span><span class="cd-unit"><span class="cd-val">' + m + '</span><span class="cd-lbl">' + cdLbl[2] + '</span></span>';
+      }
+      tick();
+      setInterval(tick, 30000);
+    }
   </script>
 
 </body>
