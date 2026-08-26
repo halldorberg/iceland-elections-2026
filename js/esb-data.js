@@ -1,5 +1,5 @@
 const DATA = {
- "note": "Skýrsla fyrst unnin 6. ágúst 2026 og síðast uppfærð 24. ágúst 2026. Greind voru öll greinaskrif um atkvæðagreiðsluna á Vísi, Eyjunni (DV) og aðsendar greinar Morgunblaðsins, vefsíður hreyfinganna (Evrópuhreyfingin, SJÁ, Heimssýn, Áfram Ísland, Til vinstri við ESB, Frjálst land), aðrir fjölmiðlar (RÚV, Heimildin, Viðskiptablaðið, Bændablaðið, Skessuhorn, Austurfrétt, Feykir, BB.is, Eyjafréttir, Vikublaðið, Útvarp Saga, Mannlíf, Nútíminn), opin umræða á Reddit og Facebook auk TikTok-myndbanda framboðshreyfinganna. Hlutlausar fréttir eru ekki taldar í dálkunum.",
+ "note": "Skýrsla fyrst unnin 6. ágúst 2026 og síðast uppfærð 25. ágúst 2026. Greind voru öll greinaskrif um atkvæðagreiðsluna á Vísi, Eyjunni (DV) og aðsendar greinar Morgunblaðsins, vefsíður hreyfinganna (Evrópuhreyfingin, SJÁ, Heimssýn, Áfram Ísland, Til vinstri við ESB, Frjálst land), aðrir fjölmiðlar (RÚV, Heimildin, Viðskiptablaðið, Bændablaðið, Skessuhorn, Austurfrétt, Feykir, BB.is, Eyjafréttir, Vikublaðið, Útvarp Saga, Mannlíf, Nútíminn), opin umræða á Reddit og Facebook auk TikTok-myndbanda framboðshreyfinganna. Hlutlausar fréttir eru ekki taldar í dálkunum.",
  "movements": {
   "ja": [
    {
@@ -14863,6 +14863,978 @@ const DATA = {
    ],
    "impact": 1,
    "engagement": "268 áhorf"
+  },
+  {
+   "side": "nei",
+   "title": "Aðildarviðræður eru ekki prufuáskrift",
+   "url": "https://www.visir.is/g/20262926241d/adildarvidraedur-eru-ekki-prufuaskrift",
+   "source": "visir.is",
+   "author": "Guðbjörg Oddný Jónasdóttir",
+   "date": "2026-08-26",
+   "summary": "Guðbjörg Oddný, MA í alþjóðasamskiptum, segir aðildarviðræður ekki vera prufuáskrift heldur krefjast gríðarlegs tíma, fjármuna og vinnu alls stjórnkerfisins. Beinn kostnaður við enduruppteknar viðræður sé varlega áætlaður um 1,9 milljarðar króna og ferlið skapi langvarandi óvissu fyrir fyrirtæki og fjárfesta. Ísland standi sterkt í gegnum EES og þurfi ekki annan hring.",
+   "args": [
+    "adlogun",
+    "kostnadur",
+    "ees"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Trump á ekki að vera ástæðan",
+   "url": "https://www.visir.is/g/20262926239d/trump-a-ekki-ad-vera-astaedan",
+   "source": "visir.is",
+   "author": "Friðjón B. Friðjónsson",
+   "date": "2026-08-26",
+   "summary": "Friðjón segir óvissu á alþjóðavettvangi vegna Trumps vera fljótfærnislega og vonda ástæðu til að kjósa já; já feli í sér yfirlýsingu um vilja til að ganga í ESB, ekki bara að kíkja í pakkann. Trump sé tímabundin breyta í alþjóðakerfinu og skammsýnt að láta viðbrögð við einum forseta ráða langtímaákvörðun um stöðu Íslands.",
+   "args": [
+    "spurning"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Hvernig lækka vextir með upptöku evru?",
+   "url": "https://www.visir.is/g/20262926225d/hvernig-laekka-vextir-med-upptoku-evru-",
+   "source": "visir.is",
+   "author": "Gauti B. Eggertsson",
+   "date": "2026-08-26",
+   "summary": "Gauti B. Eggertsson hagfræðiprófessor útskýrir að langtímavextir lækki um leið og trúverðug áætlun um upptöku evru liggur fyrir, líkt og gerðist á Ítalíu og Spáni þar sem vextir féllu að þýskum vöxtum árum áður en evran var tekin upp. Króatía hóf gengissamstarf í júlí 2020 og tók upp evru 1. janúar 2023; fullyrðingar um 19 ára upptökuferli séu villandi meðaltalsreikningur.",
+   "args": [
+    "vextir"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Eldra fólk ætti alls ekki að kjósa nei",
+   "url": "https://www.visir.is/g/20262926223d/eldra-folk-aetti-alls-ekki-ad-kjosa-nei",
+   "source": "visir.is",
+   "author": "Björn B. Björnsson",
+   "date": "2026-08-26",
+   "summary": "Björn, leikstjóri og framleiðandi, segir aðild geta falið í sér bjartari framtíð fyrir yngri kynslóðir og að eldra fólk eigi ekki að nota atkvæði sitt til að loka á möguleika unga fólksins. Hann nefnir að 94% Maltverja telji ESB-aðild hafa reynst vel og að yfir 70% Breta telji Brexit hafa verið ranga ákvörðun.",
+   "args": [
+    "taekifaeri",
+    "kjor"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Fleiri valkostir og sterkari staða ef við segjum já",
+   "url": "https://www.visir.is/g/20262926220d/fleiri-valkostir-og-sterkari-stada-ef-vid-segjum-ja",
+   "source": "visir.is",
+   "author": "Ragna Sigurðardóttir",
+   "date": "2026-08-26",
+   "summary": "Ragna, þingmaður Samfylkingarinnar, segir Ísland hafa fleiri valkosti og sterkari stöðu ef gengið er til viðræðna. Dýrt sé að halda úti sjálfstæðri örmynt; krónan sé hávaxtamynt og vaxtakostnaður ríkis og sveitarfélaga miklu hærri en hann þyrfti að vera. Áhættuminna sé að fara í viðræður með hagsmuni Íslands að leiðarljósi en að loka dyrunum strax.",
+   "args": [
+    "vextir",
+    "kikja"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Opnum dyr fyrir innviðafjárfestingu um allt land",
+   "url": "https://www.visir.is/g/20262926215d/opnum-dyr-fyrir-innvidafjarfestingu-um-allt-land",
+   "source": "visir.is",
+   "author": "Logi Einarsson",
+   "date": "2026-08-26",
+   "summary": "Logi Einarsson ráðherra segir ESB-aðild geta stækkað fjármögnunarmöguleika Íslands fyrir innviðauppbyggingu verulega; Ísland yrði fullgildur þátttakandi í Evrópska fjárfestingarbankanum og fengi aðgang að evrópskum styrkja- og ábyrgðarkerfum. Íslensk stjórnvöld og sveitarfélög héldu áfram forgangsröðun verkefna og ESB hefði mögulega borið stóran hluta kostnaðar vegna jarðeldanna við Grindavík.",
+   "args": [
+    "byggd"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Hinn ólánsami Ólafur Ragnar",
+   "url": "https://www.visir.is/g/20262926175d/hinn-olansami-olafur-ragnar",
+   "source": "visir.is",
+   "author": "Lúðvík Bergvinsson",
+   "date": "2026-08-26",
+   "summary": "Lúðvík rekur að Ólafur Ragnar Grímsson hafi barist gegn EFTA-aðild 1970, verið andstæðingur NATO og greitt atkvæði gegn EES-samningnum, en hrakspár hans hafi ekki gengið eftir. Nú beiti hann sömu varnaðarorðum gegn ESB-viðræðum; réttara væri að semja, sjá hvað fæst og láta þjóðina taka upplýsta ákvörðun.",
+   "args": [
+    "hraedslu",
+    "kikja"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Ísland, Evrópa og áhrifasvæði stórvelda",
+   "url": "https://www.visir.is/g/20262926191d/island-evropa-og-ahrifasvaedi-storvelda",
+   "source": "visir.is",
+   "author": "Þorsteinn Kristinsson",
+   "date": "2026-08-26",
+   "summary": "Þorsteinn segir stærstu spurningu atkvæðagreiðslunnar snúast um stöðu Íslands í heimi þar sem stórveldi skipta heiminum í áhrifasvæði og frjálslynda alþjóðaskipanin brotnar niður. Hann rekur dæmi um þrýsting stórvelda á smáríki, þar á meðal þegar varaforseti Bandaríkjanna þakkaði Íslandi fyrir að hafna Belti og braut án þess að íslensk stjórnvöld hefðu tekið slíka ákvörðun.",
+   "args": [
+    "oryggi"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Hvaða þýðingu hefur óvissa um aðildarsamning að ESB?",
+   "url": "https://www.visir.is/g/20262926098d/hvada-thydingu-hefur-ovissa-um-adildarsamning-ad-esb-",
+   "source": "visir.is",
+   "author": "Jón Jónsson",
+   "date": "2026-08-26",
+   "summary": "Jón segir aðild að ESB fela í sér eðlisbreytingu frá EES þar sem tollamál, myntmál, utanríkis- og varnarmál og fleiri málaflokkar færu undir vald ESB. Langsótt sé að Ísland sem 28. ríkið fengi varanlegar undanþágur frá grundvallarreglum sambandsins í sjávarútvegi og landbúnaði. Betra sé að íslenskir stjórnmálamenn fari með þessa málaflokka en ESB.",
+   "args": [
+    "ees",
+    "undanthagur",
+    "fullveldi"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Referendum: Gratitude and Outlook from the Swiss Substitute",
+   "url": "https://www.visir.is/g/20262926132d/referendum-gratitude-and-outlook-from-the-swiss-substitute",
+   "source": "visir.is",
+   "author": "Carl Baudenbacher",
+   "date": "2026-08-25",
+   "summary": "Carl Baudenbacher, fyrrverandi forseti EFTA-dómstólsins, dregur saman átta punkta og spyr hvort Ísland fengi raunverulegan ávinning af inngöngu eða gæfi frá sér sannreynt stofnanalegt sjálfstæði. EES sé hvorki minjagripur né biðstofa heldur önnur stofnanaskipan Evrópu og öryggi Íslands hvíli á NATO og varnarsamningnum við Bandaríkin, ekki ESB.",
+   "args": [
+    "ees",
+    "varnarsamningur"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Eru 532 milljarðar minni tala en 245 milljarðar?",
+   "url": "https://www.visir.is/g/20262926121d/eru-532-milljardar-minni-tala-en-245-milljardar-",
+   "source": "visir.is",
+   "author": "Egill Almar Ágústsson",
+   "date": "2026-08-25",
+   "summary": "Egill svarar grein Konráðs Guðjónssonar og segir hagnað banka og fasteignafélaga hafa meira en tvöfaldast á verðbólgutímabilinu, úr 245 milljörðum 2016–2020 í 532 milljarða 2021–2025. Hann bendir á að Gauti B. Eggertsson hafi svarað skýrslu Áfram Íslands með 82 blaðsíðna greinargerð sem sýni 30 dæmi um villandi framsetningu.",
+   "args": [
+    "vextir"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Lágir vextir og lágt vöruverð?",
+   "url": "https://www.visir.is/g/20262926102d/lagir-vextir-og-lagt-voruverd-",
+   "source": "visir.is",
+   "author": "Reynir Zoëga",
+   "date": "2026-08-25",
+   "summary": "Reynir fer yfir helstu rök fyrir aðild og telur þau ekki standast skoðun; kaupmáttur launa sé mikill á Íslandi í alþjóðlegum samanburði þótt vöruverð sé hátt. Eigin gjaldmiðill geri ríkjum kleift að stjórna hagkerfi sínu betur og takast á við staðbundnar sveiflur, líkt og sást í bankahruninu 2008.",
+   "args": [
+    "evra",
+    "efnahagur"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Óviss um ESB? Segðu nei",
+   "url": "https://www.visir.is/g/20262926100d/oviss-um-esb-segdu-nei",
+   "source": "visir.is",
+   "author": "Jón Ívar Einarsson",
+   "date": "2026-08-25",
+   "summary": "Jón Ívar, læknir, segir naumt já hleypa af stað margra ára átakaferli en naumt nei leyfi þjóðinni að einbeita sér að brýnum verkefnum heima fyrir. Aðildarviðræður kosti mikið fé og pólitíska orku og stórar ákvarðanir um fullveldi eigi að hvíla á breiðri samstöðu sem ekki sé fyrir hendi. Nei í dag sé ekki nei að eilífu.",
+   "args": [
+    "kostnadur",
+    "adlogun",
+    "umbod"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Hóparnir þrír sem segja JÁ",
+   "url": "https://www.visir.is/g/20262926096d/hoparnir-thrir-sem-segja-ja",
+   "source": "visir.is",
+   "author": "Rúnar Vilhjálmsson",
+   "date": "2026-08-25",
+   "summary": "Rúnar greinir já-fylkinguna í þrjá hópa og segir viðræðurnar alvöru aðildarviðræður sem feli í sér frekari aðlögun að reglum sambandsins meðan á þeim stendur, ekki könnunarviðræður. Gjaldmiðill, lánakjör og verðlag séu ekki samningsatriði og ekki hafi verið fallist á fullt forræði yfir auðlindum í fyrri viðræðum við aðildarþjóðir.",
+   "args": [
+    "adlogun",
+    "spurning",
+    "undanthagur"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Segðu bara nei við sölumanninn",
+   "url": "https://www.visir.is/g/20262926092d/segdu-bara-nei-vid-solumanninn",
+   "source": "visir.is",
+   "author": "Egill Gautason",
+   "date": "2026-08-25",
+   "summary": "Egill líkir „já til að sjá“ málflutningnum við sölumennsku þar sem fóturinn er kominn inn fyrir dyrnar og snúin mál rædd í blálokin. Uppbygging ESB liggi fyrir, ástæðulaust sé að ætla að mikið tillit verði tekið til örþjóðar við ákvarðanir um frekari samruna og viðræður muni taka dýrmæta orku frá öðrum málaflokkum.",
+   "args": [
+    "spurning",
+    "adlogun",
+    "ahrifaleysi"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Sagan endurtekur sig",
+   "url": "https://www.visir.is/g/20262926090d/sagan-endurtekur-sig",
+   "source": "visir.is",
+   "author": "Daði Már Kristófersson",
+   "date": "2026-08-25",
+   "summary": "Daði Már, fjármála- og efnahagsráðherra og varaformaður Viðreisnar, rekur að hrakspár andstæðinga NATO, EFTA og EES hafi ekki ræst heldur hafi ákvarðanir um aukið alþjóðasamstarf reynst þjóðinni gæfuríkar. Sömu úrtöluraddir um fullveldi og auðlindir heyrist nú; þegar samningur liggi fyrir taki þjóðin upplýsta ákvörðun í annarri þjóðaratkvæðagreiðslu.",
+   "args": [
+    "hraedslu",
+    "kikja"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Í krónuklóm",
+   "url": "https://www.visir.is/g/20262925986d/i-kronuklom",
+   "source": "visir.is",
+   "author": "Jón Bragi Gunnlaugsson",
+   "date": "2026-08-25",
+   "summary": "Jón Bragi, cand. oecon og MBA, segir uppsagnir 1.100–1.400 iðnaðarmanna nær eingöngu bundnar við fyrirtæki sem fjármagna framkvæmdir í íslenskum krónum, á meðan fyrirtæki utan krónuhagkerfisins haldi framkvæmdum áfram. Krónan sé gjaldmiðill með innbyggða sjálfstortímingarhvöt og stöðugleiki náist með því að segja já.",
+   "args": [
+    "vextir"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Landsvirkjun, „Ísland allt“ og óvissan um ESB-aðild",
+   "url": "https://www.visir.is/g/20262925953d/landsvirkjun-island-allt-og-ovissan-um-esb-adild",
+   "source": "visir.is",
+   "author": "Þorgrímur Sigmundsson",
+   "date": "2026-08-25",
+   "summary": "Þorgrímur, þingmaður Miðflokksins, segir að fyrir ákvörðun um aðildarviðræður verði að liggja skýrt fyrir hvaða svigrúm stjórnvöld hefðu til að nota Landsvirkjun sem tæki fyrir byggðafestu, atvinnuuppbyggingu og orkuöryggi. Tryggja þurfi að nýtingar- og ráðstöfunarréttur orkuauðlinda verði hjá þjóðinni til allrar framtíðar; þangað til sé svarið nei.",
+   "args": [
+    "fullveldi"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Breytt heimsmynd",
+   "url": "https://www.visir.is/g/20262925885d/breytt-heimsmynd",
+   "source": "visir.is",
+   "author": "Sigurgeir Jónasson",
+   "date": "2026-08-25",
+   "summary": "Sigurgeir rekur hvernig Íslendingar nýttu „breytta heimsmynd“ á 20. öld til sóknar: fullveldi 1918, sjálfstæði 1944 og útfærslu landhelginnar í þorskastríðunum. Hann telur ósannfærandi að breytt heimsmynd nú eigi að leiða til inngöngu í ESB og að nota eigi aðstæðurnar til sóknar á eigin forsendum eins og fyrri kynslóðir gerðu.",
+   "args": [
+    "fullveldi"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Komin með nóg af umræðu um ESB?",
+   "url": "https://www.visir.is/g/20262925892d/komin-med-nog-af-umraedu-um-esb-",
+   "source": "visir.is",
+   "author": "Diljá Mist Einarsdóttir",
+   "date": "2026-08-25",
+   "summary": "Diljá Mist, þingmaður Sjálfstæðisflokksins og 2. varaformaður utanríkismálanefndar, segir kosið um hvort áframhald verði á umsókn Íslands um inngöngu í ESB og að já þýði langt, strangt og kostnaðarsamt ferli. Fullyrðingar um að kosið sé um að „sjá lægri vexti“ séu ósannar og atkvæðavægi Íslands innan ESB yrði 0,08%.",
+   "args": [
+    "spurning",
+    "kostnadur",
+    "ahrifaleysi"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Við höfum engu að tapa – þess vegna segi ég já",
+   "url": "https://www.visir.is/g/20262925738d/vid-hofum-engu-ad-tapa-thess-vegna-segi-eg-ja",
+   "source": "visir.is",
+   "author": "Sindri S. Kristjánsson",
+   "date": "2026-08-25",
+   "summary": "Sindri segir já þýða að vilja sjá hvað er í boði og rekur dæmi um sérlausnir aðildarríkja: Írland utan Schengen, 25 mílna verndarsvæði Möltu, sumarhúsaundanþágu Dana og munntóbaksundanþágu Svía. Málflutningur um að varanlegar sérlausnir séu ekki í boði falli því um sjálfan sig; fullyrðingar um sölu auðlinda eigi sér enga stoð.",
+   "args": [
+    "kikja",
+    "serlausnir",
+    "hraedslu"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Gosi og gylliboðin",
+   "url": "https://www.visir.is/g/20262925739d/gosi-og-gyllibodin",
+   "source": "visir.is",
+   "author": "Kristín Thoroddsen",
+   "date": "2026-08-25",
+   "summary": "Kristín líkir loforðum um ESB-aðild við Leikfangaland Gosa þar sem verðmiðinn kom síðar í ljós. ESB lagi ekki íslenska hagstjórn, byggi ekki húsnæði og evran sé ekki töfrasproti; lægri vextir og minni verðbólga náist með ábyrgri efnahagsstjórn heima fyrir. Pakkinn sé ekki óþekktur enda byggi sambandið á sameiginlegum sáttmálum.",
+   "args": [
+    "evra",
+    "adlogun"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Spánverjar vilja íslenskan sjávarútveg",
+   "url": "https://www.visir.is/g/20262925731d/spanverjar-vilja-islenskan-sjavarutveg",
+   "source": "visir.is",
+   "author": "Gunnar Bragi Sveinsson",
+   "date": "2026-08-25",
+   "summary": "Gunnar Bragi, fyrrverandi utanríkis-, sjávarútvegs- og landbúnaðarráðherra, segir að varanleg undanþága frá frjálsu flæði fjármagns og fjárfestinga í sjávarútvegi verði ekki samþykkt; Spánverjar hafi gert það ljóst sumarið 2009 og Hollendingar nýverið. Verði fjárfestingar heimilaðar muni slegist um að eignast íslensku sjávarútvegsfyrirtækin til að komast í auðlindina.",
+   "args": [
+    "sjavarutvegur",
+    "undanthagur"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Fólkið eða peningarnir?",
+   "url": "https://www.visir.is/g/20262925710d/folkid-eda-peningarnir-",
+   "source": "visir.is",
+   "author": "Yngvi Ómar Sigrúnarson",
+   "date": "2026-08-25",
+   "summary": "Yngvi Ómar rekur að hlutfall landsmanna í eigin húsnæði hafi farið úr 87% árið 2005 í 61% árið 2025 og að húsnæðisverð hafi hækkað um 103% að raunvirði á tíu árum á móti 24% innan ESB. Hann segir mun meira fjármagn að baki nei-hreyfingunni, Áfram Ísland kunni að hafa 200–300 milljónir til ráðstöfunar, og hvetur fólk til að kynna sér opinberar upplýsingar á þjóðaratkvæði.is.",
+   "args": [
+    "vextir",
+    "kjor"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Stöndum vörð um...hvað?",
+   "url": "https://www.visir.is/g/20262925706d/stondum-vord-um...hvad-",
+   "source": "visir.is",
+   "author": "Ingibjörg Rósa Björnsdóttir",
+   "date": "2026-08-25",
+   "summary": "Ingibjörg Rósa lýsir hvernig óðaverðbólga, verðtrygging og skuldir þyngdu líf foreldra hennar í landbúnaði og að lánin sem hún tók yfir hafi verið margfalt hærri en upphaflegar lánsupphæðir. Hún segir Ísland enn glíma við verðbólgu og vexti sem lækki aldrei nema stutt í senn og spyr hvort ekki sé kominn tími til að hugsa út fyrir rammann og prófa eitthvað nýtt.",
+   "args": [
+    "vextir"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Fullveldi hvað",
+   "url": "https://www.visir.is/g/20262925682d/fullveldi-hvad",
+   "source": "visir.is",
+   "author": "Ólafur Hannesson",
+   "date": "2026-08-25",
+   "summary": "Ólafur segir fullyrðingar um að Ísland missi ekki fullveldi við inngöngu rangar; framsalið yrði svo mikið að breyta þyrfti stjórnarskrá. Fullyrðing um að Ísland sé nú þegar 75% í ESB sé villandi enda hafi úttekt utanríkisráðuneytisins til ársloka 2016 sýnt 13,4% af heildarregluverki. Ísland gengist undir tollabandalag ESB og missti núgildandi fríverslunarsamninga, meðal annars við Kína.",
+   "args": [
+    "fullveldi",
+    "ees"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Nei er ókei",
+   "url": "https://www.visir.is/g/20262925674d/nei-er-okei",
+   "source": "visir.is",
+   "author": "Ágúst Valves Jóhannesson",
+   "date": "2026-08-25",
+   "summary": "Ágúst ber saman laun og húsnæðisverð á Íslandi og í Póllandi og segir meðallaun á Íslandi 913 þúsund krónur á móti 291 þúsund í Póllandi; hlutfall íbúðaverðs af árslaunum sé hærra í Póllandi. Staðan í ESB fari versnandi með auknum hernaðarútgjöldum, síhækkandi skuldum aðildarríkja og viðvarandi atvinnuleysi.",
+   "args": [
+    "efnahagur",
+    "hervaeding"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Hvað ef?",
+   "url": "https://www.visir.is/g/20262925475d/hvad-ef-",
+   "source": "visir.is",
+   "author": "Pétur B. Sveinsson",
+   "date": "2026-08-25",
+   "summary": "Pétur, starfsmaður þingflokks Viðreisnar og varaþingmaður, spyr hvað gerist ef vextir og verðbólga lækka, verðtryggingin hverfur, matarkarfan verður ódýrari og Ísland fær áhrif á reglurnar sem það tekur nú þegar upp í gegnum EES. Kosið sé um að fara í viðræður og fá samning sem þjóðin taki afstöðu til; sé hann ekki nógu góður verði sagt nei í seinni atkvæðagreiðslu.",
+   "args": [
+    "kikja",
+    "vextir",
+    "kjor"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Húsnæðisvextir lækka ekki sjálfkrafa með evru",
+   "url": "https://www.visir.is/g/20262925666d/husnaedisvextir-laekka-ekki-sjalfkrafa-med-evru",
+   "source": "visir.is",
+   "author": "Magnús B. Jóhannesson",
+   "date": "2026-08-25",
+   "summary": "Magnús segir fullyrðinguna um að húsnæðisvextir lækki sjálfkrafa með evru rugla saman mælikvarða og sjúkdómi; verðbólgan valdi háu vöxtunum og hún sé heimatilbúin. Ávöxtunarviðmið lífeyriskerfisins og vaxtamunur bankanna haldi vöxtum einnig uppi og hvort tveggja sé íslensk ákvörðun sem evran breyti engu um.",
+   "args": [
+    "evra"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Mun ESB hjálpa við vegagerð á Íslandi?",
+   "url": "https://www.visir.is/g/20262925660d/mun-esb-hjalpa-vid-vegagerd-a-islandi-",
+   "source": "visir.is",
+   "author": "Jón Þorvaldur Heiðarsson",
+   "date": "2026-08-25",
+   "summary": "Jón Þorvaldur segir ESB-aðild hjálpa við innviðauppbyggingu, bæði með beinum styrkjum úr CEF-sjóðnum, sem Írland hafi fengið 1,6–16 milljarða úr á ári, og með ódýru fjármagni frá Evrópska fjárfestingarbankanum. Raunvextir EIB-lána séu um 1% á móti 2,75% á íslensku ríkisfé, sem gæti lækkað veggjöld eða stytt endurgreiðslutíma vegaframkvæmda.",
+   "args": [
+    "byggd"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Við erum í partíinu en megum ekki velja lag",
+   "url": "https://www.visir.is/g/20262925645d/vid-erum-i-partiinu-en-megum-ekki-velja-lag",
+   "source": "visir.is",
+   "author": "Árni Páll Jónsson",
+   "date": "2026-08-25",
+   "summary": "Árni Páll, lögfræðingur, segist treysta Íslandi til að semja eins og það hafi gert um fiskistofna, EFTA, EES og varnarmál. Ísland sé þegar í ESB-partíinu gegnum EES, fylgi húsreglunum en megi ekki velja lag; raunverulegt fullveldi felist í að sitja við borðið. Kosið sé um að fá að sjá samninginn og síðan ráði þjóðin.",
+   "args": [
+    "ahrif",
+    "kikja"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Með öllum mjalla?",
+   "url": "https://www.visir.is/g/20262925642d/med-ollum-mjalla-",
+   "source": "visir.is",
+   "author": "Steingrímur Jónsson",
+   "date": "2026-08-25",
+   "summary": "Steingrímur beitir háði gegn andstöðu við viðræður og skrifar í orðastað þeirra sem tala ekki við útlendinga; þannig fái þjóðin aldrei að vita hvað er í boði eða hverjar fórnirnar yrðu. Hann rifjar upp að EES-samningurinn hafi aldrei verið borinn undir þjóðina og að útlendingar í Brussel stýri nú þegar ótrúlega mörgu á Íslandi í gegnum hann.",
+   "args": [
+    "kikja"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Fyrsti steinninn úr múrnum – af hverju ég segi já",
+   "url": "https://www.visir.is/g/20262925589d/fyrsti-steinninn-ur-murnum-af-hverju-eg-segi-ja",
+   "source": "visir.is",
+   "author": "Brynhildur Heiðar- og Ómarsdóttir",
+   "date": "2026-08-25",
+   "summary": "Brynhildur rekur söguna af norska skipstjóranum sem borgaði verkafólki á Siglufirði beint árið 1903 og segir opnun Íslands, verslunarfrelsi, EFTA og EES, alltaf hafa mætt andstöðu þeirra sem höfðu það best innan lokaða kerfisins. Hún segist segja já því nei þýði að dyrunum sé lokað án þess að litið sé út um þær; afstaðan sé persónuleg en ekki ályktun Visku.",
+   "args": [
+    "kikja",
+    "hraedslu"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Hræðsluáróður og staðreyndir um orkuauðlindir",
+   "url": "https://www.visir.is/g/20262925622d/hraedsluarodur-og-stadreyndir-um-orkuaudlindir",
+   "source": "visir.is",
+   "author": "Jóhann Páll Jóhannsson",
+   "date": "2026-08-25",
+   "summary": "Jóhann Páll, ráðherra orkumála, segir vel fjármagnaða auglýsingaherferð ala á ótta um að Ísland missi forræði yfir auðlindum. Samkvæmt 194. gr. sáttmálans um starfshætti ESB liggi ákvarðanir um nýtingu orkuauðlinda hjá aðildarríkjunum sjálfum og ESB geti ekki knúið á um sæstreng. Með viðræðum sé ekkert vald framselt og enginn samningur taki gildi nema þjóðin samþykki hann.",
+   "args": [
+    "hraedslu",
+    "kikja"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Til hvers var þá barist?",
+   "url": "https://www.visir.is/g/20262925309d/til-hvers-var-tha-barist-",
+   "source": "visir.is",
+   "author": "Jón Pétur Zimsen",
+   "date": "2026-08-25",
+   "summary": "Jón Pétur, þingmaður Sjálfstæðisflokksins, segir fyrri kynslóðir hafa barist fyrir sjálfstæði og fullveldi og að Ísland eigi þegar náið samstarf við Evrópu og aðgang að innri markaðnum, auk þess að geta gert eigin fríverslunarsamninga utan viðskiptastefnu ESB. Samningur fæli óhjákvæmilega í sér framsal á hluta ákvörðunarvalds og því beri að segja nei.",
+   "args": [
+    "fullveldi",
+    "ees"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Skynsamleg röð hlutanna",
+   "url": "https://www.visir.is/g/20262925615d/skynsamleg-rod-hlutanna",
+   "source": "visir.is",
+   "author": "Jón Steindór Valdimarsson",
+   "date": "2026-08-25",
+   "summary": "Jón Steindór, lögfræðingur, segir spurninguna skýra: já þýði að Ísland setjist aftur að samningaborðinu og fái skýra mynd af forsendum hugsanlegrar aðildar. Náist samningur verði hann lagður fyrir þjóðina í sérstakri þjóðaratkvæðagreiðslu; já sé því ekki lokaákvörðun heldur fyrsta skrefið að upplýstri ákvörðun.",
+   "args": [
+    "kikja",
+    "lydraedi"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Græða fyrirtæki á verðbólgu?",
+   "url": "https://www.visir.is/g/20262925608d/graeda-fyrirtaeki-a-verdbolgu-",
+   "source": "visir.is",
+   "author": "Konráð S. Guðjónsson",
+   "date": "2026-08-25",
+   "summary": "Konráð, hagfræðingur, svarar Agli Almari Ágústssyni og segir útreikninga á ríkissjóður.is og verðtrygging.is óraunhæfa; hreinar vaxtagreiðslur þjóðarbúsins séu um og undir 50 milljörðum á ári en ekki 250 milljarða mögulegur sparnaður. Verðbólga rýri arðsemi fyrirtækja fremur en að auka hana því vextir á óverðtryggðum skuldum og rekstrarkostnaður hækki á móti.",
+   "args": [
+    "evra"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Hvað er það sem við eigum eftir að sjá?",
+   "url": "https://www.visir.is/g/20262925543d/hvad-er-thad-sem-vid-eigum-eftir-ad-sja-",
+   "source": "visir.is",
+   "author": "Gunnar Ármannsson",
+   "date": "2026-08-25",
+   "summary": "Gunnar segir fyrsta jáið ekki vera hlutlausa upplýsingaleit heldur upphaf formlegs aðildarferlis; grundvallargerð ESB sé þekkt og aðeins útfærslur, aðlögunartímabil og mögulegar sérlausnir óvitaðar. Álitsgerð þriggja lagaprófessora sýni að ákvörðunarvald um verndun fiskistofna og heildarafla færi til ESB við aðild.",
+   "args": [
+    "adlogun",
+    "sjavarutvegur"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Tækifæri fyrir íslenskan landbúnað í ESB",
+   "url": "https://www.visir.is/g/20262925243d/taekifaeri-fyrir-islenskan-landbunad-i-esb",
+   "source": "visir.is",
+   "author": "Svavar Halldórsson",
+   "date": "2026-08-25",
+   "summary": "Svavar segir stærsta tækifæri íslenskra bænda innan ESB liggja í útflutningi og markaðssetningu; sambandið reki eitt umfangsmesta kynningar- og markaðskerfi heims fyrir matvæli undir slagorðinu Enjoy, it's from Europe. Raunhæft sé að hundruð milljóna króna á ári fengjust í markaðsstarf fyrir íslenskar afurðir auk víðtækari upprunaverndar á borð við PDO og PGI.",
+   "args": [
+    "kikja",
+    "tollfrelsi"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Hagsmunir Reykvíkinga og loðfíllinn í Ráðhúsinu",
+   "url": "https://www.visir.is/g/20262925241d/hagsmunir-reykvikinga-og-lodfillinn-i-radhusinu",
+   "source": "visir.is",
+   "author": "Pétur Marteinsson",
+   "date": "2026-08-25",
+   "summary": "Pétur, borgarfulltrúi, segir nálægðarreglu ESB tryggja að daglegur rekstur sveitarfélaga yrði áfram í Ráðhúsinu en bendir á að vaxtaberandi skuldir samstæðu Reykjavíkurborgar séu um 400 milljarðar króna. Hófleg 2% vaxtalækkun þýddi 3,6 milljarða árlegan sparnað fyrir A-hlutann og 30–40 milljarða fyrir samstæðuna á einu kjörtímabili.",
+   "args": [
+    "vextir"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Hvaða samningsrammi gildir?",
+   "url": "https://www.visir.is/g/20262925583d/hvada-samningsrammi-gildir-",
+   "source": "visir.is",
+   "author": "Erna Bjarnadóttir",
+   "date": "2026-08-24",
+   "summary": "Erna bendir á að ESB hafi tekið upp endurskoðaða aðferðafræði aðildarviðræðna árið 2020 með sex þemaklösum í stað einstakra kafla og spyr hvaða samningsrammi gildi ef viðræður yrðu teknar upp að nýju. Þegar viðræður stöðvuðust 2013 hafi mikilvægustu hagsmunakaflar Íslands, sjávarútvegur og landbúnaður, ekki verið opnaðir og stjórnvöld hafi ekki svarað þessari grundvallarspurningu.",
+   "args": [
+    "spurning",
+    "adlogun"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Gullasninn",
+   "url": "https://www.visir.is/g/20262925538d/gullasninn",
+   "source": "visir.is",
+   "author": "Guðjón Þórir Sigfússon",
+   "date": "2026-08-24",
+   "summary": "Guðjón Þórir, verkfræðingur, spyr hvort sjálfstæði Íslands sé verðmetið að verðleikum og hvort ein ríkasta þjóð heims þurfi að setja auðlindir sínar í hendur annarra til útdeilingar. Síðast hafi verið sagt stopp þegar Brussel krafðist útdeilingar á auðlindum landsins.",
+   "args": [
+    "fullveldi"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Samningaviðræður um Evrópusambandsaðild, já eða nei?",
+   "url": "https://www.visir.is/g/20262925534d/samningavidraedur-um-evropusambandsadild-ja-eda-nei-",
+   "source": "visir.is",
+   "author": "Magnús Tumi Guðmundsson",
+   "date": "2026-08-24",
+   "summary": "Magnús Tumi, prófessor, segir engan vafa á að best sé að kanna hvaða samningur næst; stækkunarstjóri ESB hafi sagt að Ísland þyrfti ekki að breyta neinum lögum fyrr en aðildarsamningur hefði verið samþykktur. Engin ESB-lönd hafi haft veiðirétt á Íslandsmiðum í hálfa öld og líklegast að Ísland stýrði miðunum áfram; yrði stjórn fiskveiða tekin yfir myndi hann segja nei við aðild. Varanleg hærri verðbólga og vextir leggist þungt á yngri kynslóðir.",
+   "args": [
+    "kikja",
+    "hraedslu",
+    "vextir"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "SFS, hagsmunir og sannleikurinn",
+   "url": "https://www.visir.is/g/20262925519d/sfs-hagsmunir-og-sannleikurinn",
+   "source": "visir.is",
+   "author": "Þórólfur Matthíasson",
+   "date": "2026-08-24",
+   "summary": "Þórólfur, hagfræðiprófessor, segir stighækkandi tolla ESB eftir vinnslustigi valda því að um 50.000 tonn af fiski séu flutt út lítt- eða óunnin árlega og kvótalausar vinnslur berjist í bökkum. Hann vísar í norska samningamanninn Torben Foss um að aflahlutdeildir hafi verið tilgreindar í aðildarsáttmála Noregs 1994, sem jafngildi þinglýsingu eignarréttinda, og Ísland myndi ekki tapa ráðstöfunarrétti yfir auðlindum sínum.",
+   "args": [
+    "tollfrelsi",
+    "serlausnir"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "ja",
+   "title": "Hégómi",
+   "url": "https://www.visir.is/g/20262925508d/hegomi",
+   "source": "visir.is",
+   "author": "Haukur Eggertsson",
+   "date": "2026-08-24",
+   "summary": "Haukur, verkfræðingur, segir furðu vekja að þeir sem staðhæfi að ekkert sé í pakkanum vilji ekki opna hann og afhjúpa mótherja sína. Verði ekki kíkt í pakkann haldi deilur áfram um hvað hefði verið í honum; best sé að segja já við viðræðum og eftir atvikum nei við samningi og taka þannig upplýsta og varanlega ákvörðun.",
+   "args": [
+    "kikja"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Við getum þetta sjálf – en hver græðir á því?",
+   "url": "https://www.visir.is/g/20262925433d/vid-getum-thetta-sjalf-en-hver-graedir-a-thvi-",
+   "source": "visir.is",
+   "author": "Margrét Högnadóttir",
+   "date": "2026-08-24",
+   "summary": "Margrét lýsir íslenska hagkerfinu sem gullfiski í hringekju verðbólgu og vaxtahækkana þar sem meginvextir Seðlabankans eru nú 8%. Hún bendir á að vextir sem einn greiðir séu tekjur annars; háir vextir séu ekki slæmir fyrir alla og fjármagnseigendur hagnist á vaxtamuninum meðan skuldsett heimili og ungt fólk beri byrðarnar.",
+   "args": [
+    "vextir"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Þarf fimm háskólagráður til að segja já?",
+   "url": "https://www.visir.is/g/20262925430d/tharf-fimm-haskolagradur-til-ad-segja-ja-",
+   "source": "visir.is",
+   "author": "Berglind Guðmundsdóttir",
+   "date": "2026-08-24",
+   "summary": "Berglind, stjórnarmaður í samtökunum Sjá, spyr hvort Ísland gæti búið við lægri vexti, minni verðbólgu og meiri stöðugleika og segir að ekki eigi að þurfa sérfræðiþekkingu í Evrópurétti til að mega segja já til að sjá. Áður en ákvörðun um aðild er tekin þurfi að vita hvað samningur feli í raun í sér.",
+   "args": [
+    "kikja",
+    "vextir"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Já, já eða nei",
+   "url": "https://www.visir.is/g/20262925428d/ja-ja-eda-nei",
+   "source": "visir.is",
+   "author": "Þorsteinn Bergsson",
+   "date": "2026-08-24",
+   "summary": "Þorsteinn segir aðildarviðræður ekki samningaviðræður tveggja jafngildra aðila heldur ferli þar sem umsóknarríki sýni fram á hvernig það uppfylli regluverk ESB; um lægri vexti eða matvælaverð sé ekki samið. Viðræðurnar byggðust á umsókninni frá 2009, hvert aðildarríkjanna 27 hafi neitunarvald og ríkisstjórnir innan ESB þurfi að bera fjárlög undir framkvæmdastjórnina.",
+   "args": [
+    "adlogun",
+    "spurning",
+    "undanthagur"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "nei",
+   "title": "Nei við hindrunum - Ákvarðanir um Ísland á Íslandi",
+   "url": "https://www.visir.is/g/20262925277d/nei-vid-hindrunum-akvardanir-um-island-a-islandi",
+   "source": "visir.is",
+   "author": "Guðmundur Fertram Sigurjónsson",
+   "date": "2026-08-24",
+   "summary": "Guðmundur Fertram, stofnandi Kerecis, segir helsta samkeppnisforskot Íslands vera hversu nálægt fólki ákvarðanir eru teknar og að framfarir hafi orðið í hvert sinn sem ákvörðunarvaldið færðist nær. Samstarf og yfirþjóðleg stjórnsýsla með framsali fullveldis séu ekki sami hluturinn; Draghi-skýrslan sýni að Evrópa hafi tapað samkeppnishæfni vegna hægrar ákvarðanatöku og skrifræðis.",
+   "args": [
+    "fullveldi",
+    "efnahagur"
+   ],
+   "impact": 3
+  },
+  {
+   "side": "nei",
+   "title": "Ísland á eilífa hagsmuni en ekki eilífa bandamenn",
+   "url": "https://www.visir.is/g/20262925280d/island-a-eilifa-hagsmuni-en-ekki-eilifa-bandamenn",
+   "source": "visir.is",
+   "author": "Lára Herborg Ólafsdóttir",
+   "date": "2026-08-24",
+   "summary": "Lára Herborg segir framsetninguna um að Ísland sé raddlaus þiggjandi regluverks ekki alls kostar rétta; samkvæmt 99. og 100. gr. EES-samningsins geti íslenskir fulltrúar tekið þátt í sérfræðinga- og ráðgjafanefndum framkvæmdastjórnarinnar við mótun nýrra reglna. Fulltrúi Íslands í framkvæmdastjórn ESB væri ekki hagsmunafulltrúi Íslands heldur starfaði alfarið í þágu sambandsins.",
+   "args": [
+    "ees",
+    "ahrifaleysi"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Ísland og Færeyjar, yfirráð yfir auðlindum og fullveldi",
+   "url": "https://www.visir.is/g/20262925235d/island-og-faereyjar-yfirrad-yfir-audlindum-og-fullveldi",
+   "source": "visir.is",
+   "author": "Ásgeir Daníelsson",
+   "date": "2026-08-24",
+   "summary": "Ásgeir ber saman Ísland og Færeyjar: peningastefna Færeyja ræðst af fastgengi dönsku krónunnar gagnvart evru og Færeyingar ráða einir yfir mun minni hluta þeirra auðlinda sem þeir nýta. Hann spyr hvort fullveldi, auðlindayfirráð og sjálfstæð peningastefna skili sér í betri efnahagsárangri og ber saman landsframleiðslu á mann í löndunum.",
+   "args": [
+    "vextir"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "Evrópskir hægrimenn eru Evrópusinnar",
+   "url": "https://www.visir.is/g/20262925231d/evropskir-haegrimenn-eru-evropusinnar",
+   "source": "visir.is",
+   "author": "Svavar Halldórsson",
+   "date": "2026-08-24",
+   "summary": "Svavar, stjórnmála- og stjórnsýslufræðingur og flokksbundinn Sjálfstæðismaður, bendir á að systurflokkar Sjálfstæðisflokksins í EPP, þar á meðal Høyre í Noregi, styðji ESB-aðild ríkja sinna. Andstaða núverandi forystu flokksins við viðræður sé frávik frá afstöðu evrópskra hægriflokka; kosið sé aðeins um að afla upplýsinga og þjóðin eigi lokaorðið um samning.",
+   "args": [
+    "kikja",
+    "oryggi"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "nei",
+   "title": "Evrópa - frá velferð til vígvæðingar",
+   "url": "https://www.visir.is/g/20262925228d/evropa-fra-velferd-til-vigvaedingar",
+   "source": "visir.is",
+   "author": "Ólöf Benediktsdóttir",
+   "date": "2026-08-24",
+   "summary": "Ólöf rekur að útgjöld ESB-ríkja til hermála hafi aukist úr 183 milljörðum evra 2021 í 408,1 milljarð 2025 og að sambandið styðji hervæðingu og hergagnaiðnað úr sjóðum sínum. Varnartengd útgjöld Íslands hafi aukist úr 7 milljörðum 2024 í 10 milljarða 2026 og Ísland hafi blandast inn í stríð í Evrópu með vopnakaupum og hernaðaraðstoð.",
+   "args": [
+    "hervaeding"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Ekki láta plata þig þann 29. ágúst",
+   "url": "https://www.visir.is/g/20262925156d/ekki-lata-plata-thig-thann-29.-agust",
+   "source": "visir.is",
+   "author": "Sveinn Atli Gunnarsson",
+   "date": "2026-08-24",
+   "summary": "Sveinn Atli segir skipulagðan hræðsluáróður Áfram Íslands og Heimssýnar yfirgnæfa málefnalega umræðu og fer yfir tólf fullyrðingar sem hann segir ekki standast skoðun. ESB hafi engan sameiginlegan her og engin völd til að koma á herskyldu, og stór hluti aðildarframlaga renni til baka gegnum byggða-, landbúnaðar- og sjávarútvegssjóði.",
+   "args": [
+    "hraedslu"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Hver á fiskinn – og hvar verða verðmætin til?",
+   "url": "https://www.visir.is/g/20262925152d/hver-a-fiskinn-og-hvar-verda-verdmaetin-til-",
+   "source": "visir.is",
+   "author": "Baldur Johnsen",
+   "date": "2026-08-24",
+   "summary": "Baldur segir álitsgerð þriggja lagaprófessora við HR benda til að staðbundnir íslenskir stofnar séu betur varðir en oft er látið; skipting veiðiheimilda byggist á sögulegri veiðireynslu og önnur ESB-ríki fengju að óbreyttu ekki heimildir í þeim, auk þess sem íslenska kvótakerfið hyrfi ekki. Samningsumboð um deilistofna færi þó til ESB og hann vilji sjá samninginn áður en hann sé dæmdur ómögulegur.",
+   "args": [
+    "serlausnir",
+    "kikja"
+   ],
+   "impact": 1
+  },
+  {
+   "side": "ja",
+   "title": "Grænland – áttu við Ísland?",
+   "url": "https://www.visir.is/g/20262925226d/graenland-attu-vid-island-",
+   "source": "visir.is",
+   "author": "Damien Degeorges",
+   "date": "2026-08-24",
+   "summary": "Damien Degeorges, ráðgjafi og alþjóðastjórnmálafræðingur, segir fjárhagslegt vald ESB hafa stöðvað Donald Trump gagnvart Grænlandi í janúar og þar með óbeint varið sjálfstæði Íslands. Öryggi Íslands þurfi að hvíla á tveimur stoðum, hernaðarafli NATO og fjárhagslegu afli ESB, og atkvæðagreiðslan snúist um að afla tilboðs frá öryggisþjónustuaðila.",
+   "args": [
+    "oryggi"
+   ],
+   "impact": 2
+  },
+  {
+   "side": "ja",
+   "title": "▶ Já til að sjá fyrir næstu kynslóðir",
+   "url": "https://www.tiktok.com/@jatiladsja/video/7677335903689280790",
+   "source": "TikTok · SJÁ",
+   "author": null,
+   "date": "2026-08-23",
+   "summary": "Röð fólks segist ætla að segja já til að sjá hvað er í boði fyrir næstu kynslóðir, treysta samningsstöðu Íslands og taka upplýsta ákvörðun.",
+   "args": [
+    "kikja",
+    "taekifaeri"
+   ],
+   "impact": 1,
+   "engagement": "3.932 áhorf"
+  },
+  {
+   "side": "ja",
+   "title": "▶ Ítalir: ESB er ekki brennandi hús",
+   "url": "https://www.tiktok.com/@jatiladsja/video/7677556834131168515",
+   "source": "TikTok · SJÁ",
+   "author": null,
+   "date": "2026-08-24",
+   "summary": "Ítalskir ferðamenn hafna því að ESB sé brennandi hús, segja mikilvægt að tilheyra stórri heild sem geri þjóðir sterkari og vilja að Ísland gangi inn.",
+   "args": [
+    "hraedslu"
+   ],
+   "impact": 1,
+   "engagement": "5.181 áhorf"
+  },
+  {
+   "side": "ja",
+   "title": "▶ Svíar: of lítið land fyrir krónu",
+   "url": "https://www.tiktok.com/@jatiladsja/video/7677557048040574230",
+   "source": "TikTok · SJÁ",
+   "author": null,
+   "date": "2026-08-24",
+   "summary": "Sænskir viðmælendur segjast alls ekki vilja úr ESB, þjóðirnar séu sterkari saman og Ísland sé of lítið land til að halda úti eigin krónu.",
+   "args": [
+    "vextir"
+   ],
+   "impact": 1,
+   "engagement": "26.900 áhorf"
+  },
+  {
+   "side": "ja",
+   "title": "▶ Biðröð inn, engin biðröð út",
+   "url": "https://www.tiktok.com/@jatiladsja/video/7677608525945736470",
+   "source": "TikTok · SJÁ",
+   "author": null,
+   "date": "2026-08-24",
+   "summary": "Bent á að engin af 27 þjóðum ESB sé að ganga út en Úkraína reyni að komast inn; sambandinu líkt við veitingastað með biðröð inn og sögumaður vill sjá matseðilinn.",
+   "args": [
+    "kikja"
+   ],
+   "impact": 1,
+   "engagement": "17.400 áhorf"
+  },
+  {
+   "side": "ja",
+   "title": "▶ Efasemdir um EES reyndust ástæðulausar",
+   "url": "https://www.tiktok.com/@jatiladsja/video/7677609463469182230",
+   "source": "TikTok · SJÁ",
+   "author": null,
+   "date": "2026-08-24",
+   "summary": "Rifjað upp að litasjónvarp, Hvalfjarðargöng og EES-samningurinn hafi mætt efasemdum en reynst vel; hvort það sama eigi við um ESB vitist ekki fyrr en samningur sést.",
+   "args": [
+    "kikja",
+    "hraedslu"
+   ],
+   "impact": 1,
+   "engagement": "9.238 áhorf"
+  },
+  {
+   "side": "ja",
+   "title": "▶ Sérlausnir fyrir norðlægan landbúnað",
+   "url": "https://www.tiktok.com/@jatiladsja/video/7677705134159383830",
+   "source": "TikTok · SJÁ",
+   "author": null,
+   "date": "2026-08-25",
+   "summary": "Bent á að Svíþjóð og Finnland hafi fengið sérlausnir fyrir landbúnað á norðlægum slóðum við inngöngu; sömu rök eigi við um Ísland og sérstaðan sé styrkleiki við samningaborðið.",
+   "args": [
+    "serlausnir"
+   ],
+   "impact": 1,
+   "engagement": "4.634 áhorf"
+  },
+  {
+   "side": "ja",
+   "title": "▶ Simmi Vill finnur ekki rökin fyrir nei",
+   "url": "https://www.tiktok.com/@jatiladsja/video/7678058896329608470",
+   "source": "TikTok · SJÁ",
+   "author": null,
+   "date": "2026-08-25",
+   "summary": "Simmi Vill segist ekki kaupa gífuryrði og heimsslitadóma nei-hliðarinnar; hann vilji kynna sér hvað Íslandi stendur til boða enda séu fordæmi fyrir að þjóðir semji sérstaklega um sína aðkomu.",
+   "args": [
+    "kikja",
+    "hraedslu"
+   ],
+   "impact": 1,
+   "engagement": "9.114 áhorf"
+  },
+  {
+   "side": "ja",
+   "title": "▶ Vegfarendur: já, ekki spurning",
+   "url": "https://www.tiktok.com/@jatiladsja/video/7678105112715349270",
+   "source": "TikTok · SJÁ",
+   "author": null,
+   "date": "2026-08-26",
+   "summary": "Vegfarendur segjast ákveðnir í að segja já, vilja sjá hvað er í boði og kíkja á samninginn af forvitni.",
+   "args": [
+    "kikja"
+   ],
+   "impact": 1,
+   "engagement": "112 áhorf"
+  },
+  {
+   "side": "nei",
+   "title": "▶ Kjóstu nei utan kjörfundar í dag",
+   "url": "https://www.tiktok.com/@afram.island/video/7677520085086375190",
+   "source": "TikTok · Áfram Ísland",
+   "author": null,
+   "date": "2026-08-24",
+   "summary": "Bent á að hægt sé að kjósa utan kjörfundar strax, finna kjörstað á Ísland.is og setja X við nei til að verja fullveldið.",
+   "args": [
+    "fullveldi"
+   ],
+   "impact": 1,
+   "engagement": "5.534 áhorf"
+  },
+  {
+   "side": "nei",
+   "title": "▶ Borgum meira en við fáum til baka",
+   "url": "https://www.tiktok.com/@afram.island/video/7677651191035366658",
+   "source": "TikTok · Áfram Ísland",
+   "author": null,
+   "date": "2026-08-24",
+   "summary": "Vegfarendur segjast ætla að kjósa nei; Ísland borgi meira til ESB en það fái til baka, líkt og að gefa 30 dali, fá 20 til baka og láta segja sér hvernig þeir séu notaðir.",
+   "args": [
+    "kostnadur"
+   ],
+   "impact": 1,
+   "engagement": "34.300 áhorf"
+  },
+  {
+   "side": "nei",
+   "title": "▶ Skrifum söguna sjálf",
+   "url": "https://www.tiktok.com/@afram.island/video/7677668134114872598",
+   "source": "TikTok · Áfram Ísland",
+   "author": null,
+   "date": "2026-08-24",
+   "summary": "Sjálfstæðið sagt samofið sögu þjóðarinnar; landið hafi ekki verið erft til að láta aðra taka ákvarðanir um framtíð þess og hvatt til að setja X við nei.",
+   "args": [
+    "fullveldi"
+   ],
+   "impact": 1,
+   "engagement": "23.300 áhorf"
+  },
+  {
+   "side": "nei",
+   "title": "▶ Land með þessi lífskjör sæki um?",
+   "url": "https://www.tiktok.com/@afram.island/video/7677969707328212247",
+   "source": "TikTok · Áfram Ísland",
+   "author": null,
+   "date": "2026-08-25",
+   "summary": "Því er haldið fram að í fyrsta sinn í áratugi láti land með sambærileg lífskjör og aðildarríkin sér detta í hug að sækja um aðild.",
+   "args": [
+    "efnahagur"
+   ],
+   "impact": 1,
+   "engagement": "4.011 áhorf"
+  },
+  {
+   "side": "nei",
+   "title": "▶ Brúttó eða nettó — yfirráðin skipta máli",
+   "url": "https://www.tiktok.com/@afram.island/video/7677971599462534422",
+   "source": "TikTok · Áfram Ísland",
+   "author": null,
+   "date": "2026-08-25",
+   "summary": "Farið yfir deiluna um hvort árlegur kostnaður sé 50 milljarðar brúttó eða 7–20 milljarðar nettó; jafnvel þótt nettótalan sé lægri skipti máli að Íslendingar ráði sjálfir hvernig peningunum er ráðstafað.",
+   "args": [
+    "kostnadur"
+   ],
+   "impact": 1,
+   "engagement": "2.595 áhorf"
+  },
+  {
+   "side": "nei",
+   "title": "▶ Enginn frír hádegismatur í ESB",
+   "url": "https://www.tiktok.com/@afram.island/video/7678020881540451606",
+   "source": "TikTok · Áfram Ísland",
+   "author": null,
+   "date": "2026-08-25",
+   "summary": "Skattfé Íslendinga sagt myndu fara í innviði á meginlandinu, t.d. brýr í Rúmeníu og vegakerfi á Balkanskaga; Ísland yrði nettógreiðandi og ætti frekar að framkvæma sjálft heima fyrir.",
+   "args": [
+    "kostnadur"
+   ],
+   "impact": 1,
+   "engagement": "2.948 áhorf"
   }
  ]
 };

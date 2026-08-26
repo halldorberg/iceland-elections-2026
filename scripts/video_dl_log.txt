@@ -10,80 +10,65 @@
 [tiktok:user] afram.island: Downloading page 6
 [tiktok:user] afram.island: Downloading page 7
 [info] Writing playlist metadata as JSON to: F:\Claude Projects\iceland-elections\esb-videos\raw\aframisland\MS4wLjABAAAAkpzV_qRX4-CK-EmAPKsbot-KQnWGDVmagJEbLnBHS2hu4mY3yMFBOdi7eiKSKYpR.info.json
-[tiktok:user] Playlist afram.island: Downloading 92 items of 92
-[download] Downloading item 1 of 92
-[TikTok] Extracting URL: https://www.tiktok.com/@afram.island/video/7677244556454219030
-[TikTok] 7677244556454219030: Downloading webpage
-[info] 7677244556454219030: Downloading 1 format(s): bytevc1_720p_334876-1
-[info] Writing video metadata as JSON to: F:\Claude Projects\iceland-elections\esb-videos\raw\aframisland\7677244556454219030.info.json
-[download] Sleeping 2.31 seconds ...
-[download] Destination: F:\Claude Projects\iceland-elections\esb-videos\raw\aframisland\7677244556454219030.mp4
-[download]   0.1% of    1.80MiB at  663.45KiB/s ETA 00:02[download]   0.2% of    1.80MiB at    1.46MiB/s ETA 00:01[download]   0.4% of    1.80MiB at    2.73MiB/s ETA 00:00[download]   0.8% of    1.80MiB at    4.87MiB/s ETA 00:00[download]   1.7% of    1.80MiB at    5.04MiB/s ETA 00:00[download]   3.4% of    1.80MiB at    1.58MiB/s ETA 00:01[download]   6.9% of    1.80MiB at    2.30MiB/s ETA 00:00[download]  13.8% of    1.80MiB at    2.60MiB/s ETA 00:00[download]  27.7% of    1.80MiB at    3.79MiB/s ETA 00:00[download]  55.4% of    1.80MiB at    5.70MiB/s ETA 00:00[download] 100.0% of    1.80MiB at    8.10MiB/s ETA 00:00[download] 100% of    1.80MiB in 00:00:00 at 1.88MiB/s   
-[download] Downloading item 2 of 92
-[TikTok] Extracting URL: https://www.tiktok.com/@afram.island/video/7676809433921375510
-[TikTok] 7676809433921375510: Downloading webpage
-[info] 7676809433921375510: Downloading 1 format(s): bytevc1_720p_338414-1
-[info] Writing video metadata as JSON to: F:\Claude Projects\iceland-elections\esb-videos\raw\aframisland\7676809433921375510.info.json
-[download] Sleeping 3.14 seconds ...
-[download] Destination: F:\Claude Projects\iceland-elections\esb-videos\raw\aframisland\7676809433921375510.mp4
-[download]   0.3% of  301.15KiB at  133.04KiB/s ETA 00:02[download]   1.0% of  301.15KiB at  374.21KiB/s ETA 00:00[download]   2.3% of  301.15KiB at  821.79KiB/s ETA 00:00[download]   5.0% of  301.15KiB at    1.62MiB/s ETA 00:00[download]  10.3% of  301.15KiB at    3.10MiB/s ETA 00:00[download]  20.9% of  301.15KiB at    2.53MiB/s ETA 00:00[download]  42.2% of  301.15KiB at    3.84MiB/s ETA 00:00[download]  84.7% of  301.15KiB at    4.27MiB/s ETA 00:00[download] 100.0% of  301.15KiB at    4.30MiB/s ETA 00:00[download] 100% of  301.15KiB in 00:00:00 at 423.20KiB/s 
-[download] Downloading item 3 of 92
-[TikTok] Extracting URL: https://www.tiktok.com/@afram.island/video/7676809312026643734
-[TikTok] 7676809312026643734: Downloading webpage
-[info] 7676809312026643734: Downloading 1 format(s): bytevc1_720p_254798-1
-[info] Writing video metadata as JSON to: F:\Claude Projects\iceland-elections\esb-videos\raw\aframisland\7676809312026643734.info.json
-[download] Sleeping 2.59 seconds ...
-[download] Destination: F:\Claude Projects\iceland-elections\esb-videos\raw\aframisland\7676809312026643734.mp4
-[download]   0.2% of  447.02KiB at  399.95KiB/s ETA 00:01[download]   0.7% of  447.02KiB at  999.75KiB/s ETA 00:00[download]   1.6% of  447.02KiB at    1.95MiB/s ETA 00:00[download]   3.4% of  447.02KiB at    3.66MiB/s ETA 00:00[download]   6.9% of  447.02KiB at    6.05MiB/s ETA 00:00[download]  14.1% of  447.02KiB at    2.11MiB/s ETA 00:00[download]  28.4% of  447.02KiB at    3.05MiB/s ETA 00:00[download]  57.0% of  447.02KiB at    3.74MiB/s ETA 00:00[download] 100.0% of  447.02KiB at    4.91MiB/s ETA 00:00[download] 100% of  447.02KiB in 00:00:00 at 1.12MiB/s   
-[download] Downloading item 4 of 92
-[TikTok] Extracting URL: https://www.tiktok.com/@afram.island/video/7676526527680482582
-[TikTok] 7676526527680482582: Downloading webpage
-[info] 7676526527680482582: Downloading 1 format(s): bytevc1_720p_153145-1
-[info] Writing video metadata as JSON to: F:\Claude Projects\iceland-elections\esb-videos\raw\aframisland\7676526527680482582.info.json
-[download] Sleeping 4.40 seconds ...
-[download] Destination: F:\Claude Projects\iceland-elections\esb-videos\raw\aframisland\7676526527680482582.mp4
-[download]   0.0% of    2.06MiB at   58.78KiB/s ETA 00:35[download]   0.1% of    2.06MiB at  166.51KiB/s ETA 00:12[download]   0.3% of    2.06MiB at  377.96KiB/s ETA 00:05[download]   0.7% of    2.06MiB at  788.62KiB/s ETA 00:02[download]   1.5% of    2.06MiB at    1.55MiB/s ETA 00:01[download]   3.0% of    2.06MiB at    2.43MiB/s ETA 00:00[download]   6.0% of    2.06MiB at    3.15MiB/s ETA 00:00[download]  12.1% of    2.06MiB at    3.75MiB/s ETA 00:00[download]  24.2% of    2.06MiB at    5.28MiB/s ETA 00:00[download]  48.5% of    2.06MiB at    7.61MiB/s ETA 00:00[download]  97.1% of    2.06MiB at    9.91MiB/s ETA 00:00[download] 100.0% of    2.06MiB at   10.15MiB/s ETA 00:00[download] 100% of    2.06MiB in 00:00:00 at 2.21MiB/s   
-[download] Downloading item 5 of 92
-[TikTok] Extracting URL: https://www.tiktok.com/@afram.island/video/7676492643299298582
-[TikTok] 7676492643299298582: Downloading webpage
-[info] 7676492643299298582: Downloading 1 format(s): bytevc1_720p_375429-1
-[info] Writing video metadata as JSON to: F:\Claude Projects\iceland-elections\esb-videos\raw\aframisland\7676492643299298582.info.json
-[download] Sleeping 4.12 seconds ...
-[download] Destination: F:\Claude Projects\iceland-elections\esb-videos\raw\aframisland\7676492643299298582.mp4
-[download]   0.2% of  603.24KiB at  398.93KiB/s ETA 00:01[download]   0.5% of  603.24KiB at  855.51KiB/s ETA 00:00[download]   1.2% of  603.24KiB at    1.71MiB/s ETA 00:00[download]   2.5% of  603.24KiB at    2.93MiB/s ETA 00:00[download]   5.1% of  603.24KiB at    4.65MiB/s ETA 00:00[download]  10.4% of  603.24KiB at    2.32MiB/s ETA 00:00[download]  21.1% of  603.24KiB at    3.20MiB/s ETA 00:00[download]  42.3% of  603.24KiB at    3.60MiB/s ETA 00:00[download]  84.7% of  603.24KiB at    5.08MiB/s ETA 00:00[download] 100.0% of  603.24KiB at    5.70MiB/s ETA 00:00[download] 100% of  603.24KiB in 00:00:00 at 831.55KiB/s 
-[download] Downloading item 6 of 92
-[TikTok] Extracting URL: https://www.tiktok.com/@afram.island/video/7676492455822314774
-[TikTok] 7676492455822314774: Downloading webpage
-[info] 7676492455822314774: Downloading 1 format(s): bytevc1_720p_316002-1
-[info] Writing video metadata as JSON to: F:\Claude Projects\iceland-elections\esb-videos\raw\aframisland\7676492455822314774.info.json
-[download] Sleeping 2.01 seconds ...
-[download] Destination: F:\Claude Projects\iceland-elections\esb-videos\raw\aframisland\7676492455822314774.mp4
-[download]   0.2% of  440.29KiB at   66.53KiB/s ETA 00:06[download]   0.7% of  440.29KiB at   64.94KiB/s ETA 00:06[download]   1.6% of  440.29KiB at  149.90KiB/s ETA 00:02[download]   3.4% of  440.29KiB at  314.48KiB/s ETA 00:01[download]   7.0% of  440.29KiB at  643.20KiB/s ETA 00:00[download]  14.3% of  440.29KiB at    1.26MiB/s ETA 00:00[download]  28.8% of  440.29KiB at    2.52MiB/s ETA 00:00[download]  57.9% of  440.29KiB at    3.25MiB/s ETA 00:00[download] 100.0% of  440.29KiB at    4.35MiB/s ETA 00:00[download] 100% of  440.29KiB in 00:00:04 at 100.87KiB/s 
-[download] Downloading item 7 of 92
-[TikTok] Extracting URL: https://www.tiktok.com/@afram.island/video/7676422619972881686
-[TikTok] 7676422619972881686: Downloading webpage
-[info] 7676422619972881686: Downloading 1 format(s): bytevc1_720p_411044-1
-[info] Writing video metadata as JSON to: F:\Claude Projects\iceland-elections\esb-videos\raw\aframisland\7676422619972881686.info.json
-[download] Sleeping 4.31 seconds ...
-[download] Destination: F:\Claude Projects\iceland-elections\esb-videos\raw\aframisland\7676422619972881686.mp4
-[download]   0.2% of  465.64KiB at  199.93KiB/s ETA 00:02[download]   0.6% of  465.64KiB at  544.93KiB/s ETA 00:00[download]   1.5% of  465.64KiB at    1.14MiB/s ETA 00:00[download]   3.2% of  465.64KiB at    2.25MiB/s ETA 00:00[download]   6.7% of  465.64KiB at    4.32MiB/s ETA 00:00[download]  13.5% of  465.64KiB at    2.56MiB/s ETA 00:00[download]  27.3% of  465.64KiB at    3.75MiB/s ETA 00:00[download]  54.8% of  465.64KiB at    4.22MiB/s ETA 00:00[download] 100.0% of  465.64KiB at    5.75MiB/s ETA 00:00[download] 100% of  465.64KiB in 00:00:00 at 658.92KiB/s 
-[download] Downloading item 8 of 92
-[TikTok] Extracting URL: https://www.tiktok.com/@afram.island/video/7676422473881095446
-[TikTok] 7676422473881095446: Downloading webpage
-[info] 7676422473881095446: Downloading 1 format(s): bytevc1_720p_356620-1
-[info] Writing video metadata as JSON to: F:\Claude Projects\iceland-elections\esb-videos\raw\aframisland\7676422473881095446.info.json
-[download] Sleeping 2.04 seconds ...
-[download] Destination: F:\Claude Projects\iceland-elections\esb-videos\raw\aframisland\7676422473881095446.mp4
-[download]   0.2% of  514.51KiB at  332.59KiB/s ETA 00:01[download]   0.6% of  514.51KiB at  855.28KiB/s ETA 00:00[download]   1.4% of  514.51KiB at    1.71MiB/s ETA 00:00[download]   2.9% of  514.51KiB at    3.25MiB/s ETA 00:00[download]   6.0% of  514.51KiB at    6.05MiB/s ETA 00:00[download]  12.2% of  514.51KiB at    1.98MiB/s ETA 00:00[download]  24.7% of  514.51KiB at    2.73MiB/s ETA 00:00[download]  49.6% of  514.51KiB at    3.75MiB/s ETA 00:00[download]  99.3% of  514.51KiB at    5.31MiB/s ETA 00:00[download] 100.0% of  514.51KiB at    4.39MiB/s ETA 00:00[download] 100% of  514.51KiB in 00:00:00 at 695.74KiB/s 
-[download] Downloading item 9 of 92
-[TikTok] Extracting URL: https://www.tiktok.com/@afram.island/video/7676190550101347606
-[TikTok] 7676190550101347606: Downloading webpage
-[info] 7676190550101347606: Downloading 1 format(s): bytevc1_720p_260963-1
-[info] Writing video metadata as JSON to: F:\Claude Projects\iceland-elections\esb-videos\raw\aframisland\7676190550101347606.info.json
-[download] Sleeping 2.99 seconds ...
-[download] Destination: F:\Claude Projects\iceland-elections\esb-videos\raw\aframisland\7676190550101347606.mp4
-[download]   0.1% of    1.86MiB at  666.82KiB/s ETA 00:02[download]   0.2% of    1.86MiB at    1.46MiB/s ETA 00:01[download]   0.4% of    1.86MiB at    2.73MiB/s ETA 00:00[download]   0.8% of    1.86MiB at    4.88MiB/s ETA 00:00[download]   1.6% of    1.86MiB at    4.32MiB/s ETA 00:00[download]   3.3% of    1.86MiB at    2.31MiB/s ETA 00:00[download]   6.7% of    1.86MiB at    2.81MiB/s ETA 00:00[download]  13.4% of    1.86MiB at    3.62MiB/s ETA 00:00[download]  26.8% of    1.86MiB at    5.40MiB/s ETA 00:00[download]  53.7% of    1.86MiB at    8.18MiB/s ETA 00:00[download] 100.0% of    1.86MiB at   11.74MiB/s ETA 00:00[download] 100% of    1.86MiB in 00:00:00 at 2.24MiB/s   
-[download] Downloading item 10 of 92
+[tiktok:user] Playlist afram.island: Downloading 98 items of 98
+[download] Downloading item 1 of 98
+[TikTok] Extracting URL: https://www.tiktok.com/@afram.island/video/7678020881540451606
+[TikTok] 7678020881540451606: Downloading webpage
+[info] 7678020881540451606: Downloading 1 format(s): bytevc1_720p_439581-1
+[info] Writing video metadata as JSON to: F:\Claude Projects\iceland-elections\esb-videos\raw\aframisland\7678020881540451606.info.json
+[download] Sleeping 4.76 seconds ...
+[download] Destination: F:\Claude Projects\iceland-elections\esb-videos\raw\aframisland\7678020881540451606.mp4
+[download]   0.0% of    5.13MiB at  Unknown B/s ETA Unknown[download]   0.1% of    5.13MiB at    2.92MiB/s ETA 00:01  [download]   0.1% of    5.13MiB at    4.56MiB/s ETA 00:01[download]   0.3% of    5.13MiB at    7.33MiB/s ETA 00:00[download]   0.6% of    5.13MiB at   10.09MiB/s ETA 00:00[download]   1.2% of    5.13MiB at    1.66MiB/s ETA 00:03[download]   2.4% of    5.13MiB at    2.48MiB/s ETA 00:02[download]   4.9% of    5.13MiB at    2.82MiB/s ETA 00:01[download]   9.7% of    5.13MiB at    3.74MiB/s ETA 00:01[download]  19.5% of    5.13MiB at    5.67MiB/s ETA 00:00[download]  39.0% of    5.13MiB at    8.85MiB/s ETA 00:00[download]  78.0% of    5.13MiB at   11.60MiB/s ETA 00:00[download] 100.0% of    5.13MiB at   13.31MiB/s ETA 00:00[download] 100% of    5.13MiB in 00:00:01 at 4.53MiB/s   
+[download] Downloading item 2 of 98
+[TikTok] Extracting URL: https://www.tiktok.com/@afram.island/video/7677971599462534422
+[TikTok] 7677971599462534422: Downloading webpage
+[info] 7677971599462534422: Downloading 1 format(s): bytevc1_720p_317900-1
+[info] Writing video metadata as JSON to: F:\Claude Projects\iceland-elections\esb-videos\raw\aframisland\7677971599462534422.info.json
+[download] Sleeping 3.95 seconds ...
+[download] Destination: F:\Claude Projects\iceland-elections\esb-videos\raw\aframisland\7677971599462534422.mp4
+[download]   0.0% of    3.53MiB at  142.72KiB/s ETA 00:25[download]   0.1% of    3.53MiB at  399.47KiB/s ETA 00:09[download]   0.2% of    3.53MiB at  873.84KiB/s ETA 00:04[download]   0.4% of    3.53MiB at    1.72MiB/s ETA 00:02[download]   0.9% of    3.53MiB at    3.36MiB/s ETA 00:01[download]   1.7% of    3.53MiB at    1.41MiB/s ETA 00:02[download]   3.5% of    3.53MiB at    2.00MiB/s ETA 00:01[download]   7.1% of    3.53MiB at    2.44MiB/s ETA 00:01[download]  14.1% of    3.53MiB at    3.60MiB/s ETA 00:00[download]  28.3% of    3.53MiB at    5.46MiB/s ETA 00:00[download]  56.6% of    3.53MiB at    8.16MiB/s ETA 00:00[download] 100.0% of    3.53MiB at   10.78MiB/s ETA 00:00[download] 100% of    3.53MiB in 00:00:01 at 3.17MiB/s   
+[download] Downloading item 3 of 98
+[TikTok] Extracting URL: https://www.tiktok.com/@afram.island/video/7677969707328212247
+[TikTok] 7677969707328212247: Downloading webpage
+[info] 7677969707328212247: Downloading 1 format(s): bytevc1_720p_316248-1
+[info] Writing video metadata as JSON to: F:\Claude Projects\iceland-elections\esb-videos\raw\aframisland\7677969707328212247.info.json
+[download] Sleeping 2.81 seconds ...
+[download] Destination: F:\Claude Projects\iceland-elections\esb-videos\raw\aframisland\7677969707328212247.mp4
+[download]   0.2% of  585.59KiB at  Unknown B/s ETA 00:00[download]   0.5% of  585.59KiB at    1.95MiB/s ETA 00:00[download]   1.2% of  585.59KiB at    3.42MiB/s ETA 00:00[download]   2.6% of  585.59KiB at    5.86MiB/s ETA 00:00[download]   5.3% of  585.59KiB at    6.05MiB/s ETA 00:00[download]  10.8% of  585.59KiB at    1.71MiB/s ETA 00:00[download]  21.7% of  585.59KiB at    2.53MiB/s ETA 00:00[download]  43.5% of  585.59KiB at    2.69MiB/s ETA 00:00[download]  87.3% of  585.59KiB at    3.82MiB/s ETA 00:00[download] 100.0% of  585.59KiB at    4.15MiB/s ETA 00:00[download] 100% of  585.59KiB in 00:00:00 at 716.62KiB/s 
+[download] Downloading item 4 of 98
+[TikTok] Extracting URL: https://www.tiktok.com/@afram.island/video/7677668134114872598
+[TikTok] 7677668134114872598: Downloading webpage
+[info] 7677668134114872598: Downloading 1 format(s): bytevc1_720p_570019-1
+[info] Writing video metadata as JSON to: F:\Claude Projects\iceland-elections\esb-videos\raw\aframisland\7677668134114872598.info.json
+[download] Sleeping 2.96 seconds ...
+[download] Destination: F:\Claude Projects\iceland-elections\esb-videos\raw\aframisland\7677668134114872598.mp4
+[download]   0.0% of    4.08MiB at  998.64KiB/s ETA 00:04[download]   0.1% of    4.08MiB at    2.93MiB/s ETA 00:01[download]   0.2% of    4.08MiB at    3.41MiB/s ETA 00:01[download]   0.4% of    4.08MiB at    5.84MiB/s ETA 00:00[download]   0.7% of    4.08MiB at    4.03MiB/s ETA 00:01[download]   1.5% of    4.08MiB at    1.50MiB/s ETA 00:02[download]   3.0% of    4.08MiB at    1.92MiB/s ETA 00:02[download]   6.1% of    4.08MiB at    2.55MiB/s ETA 00:01[download]  12.2% of    4.08MiB at    3.65MiB/s ETA 00:00[download]  24.5% of    4.08MiB at    5.75MiB/s ETA 00:00[download]  49.0% of    4.08MiB at    8.67MiB/s ETA 00:00[download]  98.0% of    4.08MiB at   11.71MiB/s ETA 00:00[download] 100.0% of    4.08MiB at   11.90MiB/s ETA 00:00[download] 100% of    4.08MiB in 00:00:01 at 3.98MiB/s   
+[download] Downloading item 5 of 98
+[TikTok] Extracting URL: https://www.tiktok.com/@afram.island/video/7677651191035366658
+[TikTok] 7677651191035366658: Downloading webpage
+[info] 7677651191035366658: Downloading 1 format(s): bytevc1_720p_483010-1
+[info] Writing video metadata as JSON to: F:\Claude Projects\iceland-elections\esb-videos\raw\aframisland\7677651191035366658.info.json
+[download] Sleeping 3.52 seconds ...
+[download] Destination: F:\Claude Projects\iceland-elections\esb-videos\raw\aframisland\7677651191035366658.mp4
+[download]   0.1% of    1.21MiB at  Unknown B/s ETA Unknown[download]   0.2% of    1.21MiB at    2.93MiB/s ETA 00:00  [download]   0.6% of    1.21MiB at    4.55MiB/s ETA 00:00[download]   1.2% of    1.21MiB at    1.71MiB/s ETA 00:00[download]   2.5% of    1.21MiB at    1.83MiB/s ETA 00:00[download]   5.1% of    1.21MiB at    1.56MiB/s ETA 00:00[download]  10.3% of    1.21MiB at    2.08MiB/s ETA 00:00[download]  20.6% of    1.21MiB at    2.65MiB/s ETA 00:00[download]  41.2% of    1.21MiB at    3.84MiB/s ETA 00:00[download]  82.6% of    1.21MiB at    5.58MiB/s ETA 00:00[download] 100.0% of    1.21MiB at    6.23MiB/s ETA 00:00[download] 100% of    1.21MiB in 00:00:00 at 3.27MiB/s   
+[download] Downloading item 6 of 98
+[TikTok] Extracting URL: https://www.tiktok.com/@afram.island/video/7677520085086375190
+[TikTok] 7677520085086375190: Downloading webpage
+[info] 7677520085086375190: Downloading 1 format(s): bytevc1_720p_481064-1
+[info] Writing video metadata as JSON to: F:\Claude Projects\iceland-elections\esb-videos\raw\aframisland\7677520085086375190.info.json
+[download] Sleeping 3.86 seconds ...
+[download] Destination: F:\Claude Projects\iceland-elections\esb-videos\raw\aframisland\7677520085086375190.mp4
+[download]   0.1% of    1.38MiB at  222.20KiB/s ETA 00:06[download]   0.2% of    1.38MiB at  599.99KiB/s ETA 00:02[download]   0.5% of    1.38MiB at    1.37MiB/s ETA 00:01[download]   1.1% of    1.38MiB at    2.44MiB/s ETA 00:00[download]   2.2% of    1.38MiB at    2.52MiB/s ETA 00:00[download]   4.5% of    1.38MiB at    2.46MiB/s ETA 00:00[download]   9.0% of    1.38MiB at    3.18MiB/s ETA 00:00[download]  18.0% of    1.38MiB at    3.86MiB/s ETA 00:00[download]  36.1% of    1.38MiB at    5.60MiB/s ETA 00:00[download]  72.4% of    1.38MiB at    7.97MiB/s ETA 00:00[download] 100.0% of    1.38MiB at    9.01MiB/s ETA 00:00[download] 100% of    1.38MiB in 00:00:00 at 1.61MiB/s   
+[download] 7677244556454219030: Er þetta ekki bara nóg? #aframisland #iceland #fyp  has already been recorded in the archive
+[download] 7676809433921375510: Raddir úr öllum áttum. Ein skýr afstaða.  Fólk um allt land segir f... has already been recorded in the archive
+[download] 7676809312026643734: Raddir úr öllum áttum. Ein skýr afstaða.  Fólk um allt land segir f... has already been recorded in the archive
+[download] 7676526527680482582: Hvenær gætum við tekið upp evru í fyrsta lagi?  Á sama tíma og hótel ... has already been recorded in the archive
+[download] 7676492643299298582: Raddir úr öllum áttum. Ein skýr afstaða.  Fólk um allt land segir f... has already been recorded in the archive
+[download] 7676492455822314774: Raddir úr öllum áttum. Ein skýr afstaða.  Fólk um allt land segir f... has already been recorded in the archive
+[download] 7676422619972881686: Raddir úr öllum áttum. Ein skýr afstaða.  Fólk um allt land segir f... has already been recorded in the archive
+[download] 7676422473881095446: Raddir úr öllum áttum. Ein skýr afstaða.  Fólk um allt land segir f... has already been recorded in the archive
+[download] 7676190550101347606: Hvað segir Draghi skýrslan? #ÁframÍsland #Ísland #fyrirþig #aframisland  has already been recorded in the archive
+[download] Downloading item 16 of 98
 [TikTok] Extracting URL: https://www.tiktok.com/@afram.island/video/7676152983385623830
 [TikTok] 7676152983385623830: Downloading webpage
 [download] 7676015144165477634: Raddir úr öllum áttum. Ein skýr afstaða.  Fólk um allt land segir f... has already been recorded in the archive
@@ -100,16 +85,16 @@
 [download] 7675272414401514774: Raddir úr öllum áttum. Ein skýr afstaða.  Fólk um allt land segir f... has already been recorded in the archive
 [download] 7675062406065802518: Það er alltaf gaman að skiptast á skoðunum, sérstaklega þegar þær eru... has already been recorded in the archive
 [download] 7675022361057316118: Höfum þetta á bakvið eyrað á meðan við ræðum ESB! has already been recorded in the archive
-[download] Downloading item 25 of 92
+[download] Downloading item 31 of 98
 [TikTok] Extracting URL: https://www.tiktok.com/@afram.island/video/7674988330211233046
 [TikTok] 7674988330211233046: Downloading webpage
 [download] 7674967552468208899: Raddir úr öllum áttum. Ein skýr afstaða.  Fólk um allt land segir f... has already been recorded in the archive
 [download] 7674940390088215830: Raddir úr öllum áttum. Ein skýr afstaða.  Fólk um allt land segir f... has already been recorded in the archive
 [download] 7674939612749368598: Raddir úr öllum áttum. Ein skýr afstaða.  Fólk um allt land segir f... has already been recorded in the archive
-[download] Downloading item 29 of 92
+[download] Downloading item 35 of 98
 [TikTok] Extracting URL: https://www.tiktok.com/@afram.island/video/7674938814925737238
 [TikTok] 7674938814925737238: Downloading webpage
-[download] Downloading item 30 of 92
+[download] Downloading item 36 of 98
 [TikTok] Extracting URL: https://www.tiktok.com/@afram.island/video/7674930539769531650
 [TikTok] 7674930539769531650: Downloading webpage
 [download] 7674768508600782102: Raddir úr öllum áttum. Ein skýr afstaða.  Fólk um allt land segir f... has already been recorded in the archive
@@ -118,13 +103,13 @@
 [download] 7674599568532704534: Nei hreyfingin eins og hún leggur sig! has already been recorded in the archive
 [download] 7674598302486236438: Hvaða framtíð er það?! has already been recorded in the archive
 [download] 7674259051055697174: Hvað er líklegt? #ÁframÍsland #Ísland #fyrirþig #aframisland  has already been recorded in the archive
-[download] Downloading item 37 of 92
+[download] Downloading item 43 of 98
 [TikTok] Extracting URL: https://www.tiktok.com/@afram.island/video/7673548389023321366
 [TikTok] 7673548389023321366: Downloading webpage
-[download] Downloading item 38 of 92
+[download] Downloading item 44 of 98
 [TikTok] Extracting URL: https://www.tiktok.com/@afram.island/video/7673548239110425878
 [TikTok] 7673548239110425878: Downloading webpage
-[download] Downloading item 39 of 92
+[download] Downloading item 45 of 98
 [TikTok] Extracting URL: https://www.tiktok.com/@afram.island/video/7673548042468986114
 [TikTok] 7673548042468986114: Downloading webpage
 [download] 7673439483164970262: Ungt fólk á Íslandi þarf að vita þetta! #ÁframÍsland #Ísland #fyrir... has already been recorded in the archive
@@ -192,120 +177,86 @@ aframisland exit 1
 [tiktok:user] jatiladsja: Downloading page 3
 [tiktok:user] jatiladsja: Downloading page 4
 [tiktok:user] jatiladsja: Downloading page 5
+[tiktok:user] jatiladsja: Downloading page 6
 [info] Writing playlist metadata as JSON to: F:\Claude Projects\iceland-elections\esb-videos\raw\sja\MS4wLjABAAAArXJUbwIIItMjQYT6NP2j4oI5PLQ-YZsdaiWAFf4c1MYqvBskIpWmFr4MyqA6g9zH.info.json
-[tiktok:user] Playlist jatiladsja: Downloading 70 items of 70
-[download] Downloading item 1 of 70
-[TikTok] Extracting URL: https://www.tiktok.com/@jatiladsja/video/7677242348153130262
-[TikTok] 7677242348153130262: Downloading webpage
-[info] 7677242348153130262: Downloading 1 format(s): bytevc1_720p_243284-1
-[info] Writing video metadata as JSON to: F:\Claude Projects\iceland-elections\esb-videos\raw\sja\7677242348153130262.info.json
-[download] Sleeping 3.35 seconds ...
-[download] Destination: F:\Claude Projects\iceland-elections\esb-videos\raw\sja\7677242348153130262.mp4
-[download]   0.1% of    1.18MiB at  153.73KiB/s ETA 00:07[download]   0.2% of    1.18MiB at  428.25KiB/s ETA 00:02[download]   0.6% of    1.18MiB at  538.25KiB/s ETA 00:02[download]   1.2% of    1.18MiB at    1.13MiB/s ETA 00:01[download]   2.6% of    1.18MiB at    2.09MiB/s ETA 00:00[download]   5.2% of    1.18MiB at    1.76MiB/s ETA 00:00[download]  10.5% of    1.18MiB at    2.92MiB/s ETA 00:00[download]  21.0% of    1.18MiB at    3.71MiB/s ETA 00:00[download]  42.2% of    1.18MiB at    5.25MiB/s ETA 00:00[download]  84.4% of    1.18MiB at    7.89MiB/s ETA 00:00[download] 100.0% of    1.18MiB at    8.72MiB/s ETA 00:00[download] 100% of    1.18MiB in 00:00:00 at 1.53MiB/s   
-[download] Downloading item 2 of 70
-[TikTok] Extracting URL: https://www.tiktok.com/@jatiladsja/video/7676070990455147778
-[TikTok] 7676070990455147778: Downloading webpage
-[info] 7676070990455147778: Downloading 1 format(s): bytevc1_720p_457692-1
-[info] Writing video metadata as JSON to: F:\Claude Projects\iceland-elections\esb-videos\raw\sja\7676070990455147778.info.json
-[download] Sleeping 4.44 seconds ...
-[download] Destination: F:\Claude Projects\iceland-elections\esb-videos\raw\sja\7676070990455147778.mp4
-[download]   0.1% of    1.01MiB at  857.03KiB/s ETA 00:01[download]   0.3% of    1.01MiB at  686.50KiB/s ETA 00:01[download]   0.7% of    1.01MiB at    1.27MiB/s ETA 00:00[download]   1.5% of    1.01MiB at    2.49MiB/s ETA 00:00[download]   3.0% of    1.01MiB at    3.61MiB/s ETA 00:00[download]   6.1% of    1.01MiB at    1.39MiB/s ETA 00:00[download]  12.3% of    1.01MiB at    2.44MiB/s ETA 00:00[download]  24.7% of    1.01MiB at    2.66MiB/s ETA 00:00[download]  49.4% of    1.01MiB at    3.73MiB/s ETA 00:00[download]  98.9% of    1.01MiB at    5.58MiB/s ETA 00:00[download] 100.0% of    1.01MiB at    5.54MiB/s ETA 00:00[download] 100% of    1.01MiB in 00:00:00 at 1.19MiB/s   
-[download] Downloading item 3 of 70
-[TikTok] Extracting URL: https://www.tiktok.com/@jatiladsja/video/7676067865451138306
-[TikTok] 7676067865451138306: Downloading webpage
-[info] 7676067865451138306: Downloading 1 format(s): h264_540p_2506765-1
-[info] Writing video metadata as JSON to: F:\Claude Projects\iceland-elections\esb-videos\raw\sja\7676067865451138306.info.json
-[download] Sleeping 2.08 seconds ...
-[download] Destination: F:\Claude Projects\iceland-elections\esb-videos\raw\sja\7676067865451138306.mp4
-[download]   0.0% of   10.29MiB at  Unknown B/s ETA Unknown[download]   0.0% of   10.29MiB at    2.93MiB/s ETA 00:03  [download]   0.1% of   10.29MiB at    4.56MiB/s ETA 00:02[download]   0.1% of   10.29MiB at    7.33MiB/s ETA 00:01[download]   0.3% of   10.29MiB at    3.78MiB/s ETA 00:02[download]   0.6% of   10.29MiB at    1.56MiB/s ETA 00:06[download]   1.2% of   10.29MiB at    2.29MiB/s ETA 00:04[download]   2.4% of   10.29MiB at    2.73MiB/s ETA 00:03[download]   4.8% of   10.29MiB at    3.82MiB/s ETA 00:02[download]   9.7% of   10.29MiB at    5.81MiB/s ETA 00:01[download]  19.4% of   10.29MiB at    8.89MiB/s ETA 00:00[download]  38.9% of   10.29MiB at   12.08MiB/s ETA 00:00[download]  77.7% of   10.29MiB at   14.43MiB/s ETA 00:00[download] 100.0% of   10.29MiB at   16.47MiB/s ETA 00:00[download] 100% of   10.29MiB in 00:00:01 at 8.22MiB/s   
-[download] Downloading item 4 of 70
-[TikTok] Extracting URL: https://www.tiktok.com/@jatiladsja/video/7677182391508667670
-[TikTok] 7677182391508667670: Downloading webpage
-[info] 7677182391508667670: Downloading 1 format(s): bytevc1_720p_579128-1
-[info] Writing video metadata as JSON to: F:\Claude Projects\iceland-elections\esb-videos\raw\sja\7677182391508667670.info.json
-[download] Sleeping 2.06 seconds ...
-[download] Destination: F:\Claude Projects\iceland-elections\esb-videos\raw\sja\7677182391508667670.mp4
-[download]   0.0% of    4.44MiB at  999.60KiB/s ETA 00:04[download]   0.1% of    4.44MiB at    1.95MiB/s ETA 00:02[download]   0.2% of    4.44MiB at    1.71MiB/s ETA 00:02[download]   0.3% of    4.44MiB at    3.18MiB/s ETA 00:01[download]   0.7% of    4.44MiB at    5.93MiB/s ETA 00:00[download]   1.4% of    4.44MiB at    1.26MiB/s ETA 00:03[download]   2.8% of    4.44MiB at    1.65MiB/s ETA 00:02[download]   5.6% of    4.44MiB at    2.00MiB/s ETA 00:02[download]  11.2% of    4.44MiB at    2.59MiB/s ETA 00:01[download]  22.5% of    4.44MiB at    3.56MiB/s ETA 00:00[download]  45.0% of    4.44MiB at    5.20MiB/s ETA 00:00[download]  90.0% of    4.44MiB at    7.27MiB/s ETA 00:00[download] 100.0% of    4.44MiB at    7.50MiB/s ETA 00:00[download] 100% of    4.44MiB in 00:00:01 at 3.42MiB/s   
-[download] Downloading item 5 of 70
-[TikTok] Extracting URL: https://www.tiktok.com/@jatiladsja/video/7676070874637700374
-[TikTok] 7676070874637700374: Downloading webpage
-[info] 7676070874637700374: Downloading 1 format(s): h264_540p_1020507-1
-[info] Writing video metadata as JSON to: F:\Claude Projects\iceland-elections\esb-videos\raw\sja\7676070874637700374.info.json
-[download] Sleeping 2.74 seconds ...
-[download] Destination: F:\Claude Projects\iceland-elections\esb-videos\raw\sja\7676070874637700374.mp4
-[download]   0.0% of    2.93MiB at  398.58KiB/s ETA 00:07[download]   0.1% of    2.93MiB at  996.59KiB/s ETA 00:03[download]   0.2% of    2.93MiB at    2.27MiB/s ETA 00:01[download]   0.5% of    2.93MiB at    3.24MiB/s ETA 00:00[download]   1.0% of    2.93MiB at    6.03MiB/s ETA 00:00[download]   2.1% of    2.93MiB at    1.05MiB/s ETA 00:02[download]   4.2% of    2.93MiB at    2.09MiB/s ETA 00:01[download]   8.5% of    2.93MiB at    2.28MiB/s ETA 00:01[download]  17.0% of    2.93MiB at    3.00MiB/s ETA 00:00[download]  34.1% of    2.93MiB at    4.43MiB/s ETA 00:00[download]  68.2% of    2.93MiB at    6.37MiB/s ETA 00:00[download] 100.0% of    2.93MiB at    7.54MiB/s ETA 00:00[download] 100% of    2.93MiB in 00:00:01 at 2.84MiB/s   
-[download] Downloading item 6 of 70
-[TikTok] Extracting URL: https://www.tiktok.com/@jatiladsja/video/7676069567948688662
-[TikTok] 7676069567948688662: Downloading webpage
-[info] 7676069567948688662: Downloading 1 format(s): h264_540p_1301110-1
-[info] Writing video metadata as JSON to: F:\Claude Projects\iceland-elections\esb-videos\raw\sja\7676069567948688662.info.json
-[download] Sleeping 2.69 seconds ...
-[download] Destination: F:\Claude Projects\iceland-elections\esb-videos\raw\sja\7676069567948688662.mp4
-[download]   0.0% of    4.49MiB at  Unknown B/s ETA Unknown[download]   0.1% of    4.49MiB at  Unknown B/s ETA Unknown[download]   0.2% of    4.49MiB at    4.55MiB/s ETA 00:00  [download]   0.3% of    4.49MiB at    9.76MiB/s ETA 00:00[download]   0.7% of    4.49MiB at    5.02MiB/s ETA 00:00[download]   1.4% of    4.49MiB at    1.68MiB/s ETA 00:02[download]   2.8% of    4.49MiB at    2.34MiB/s ETA 00:01[download]   5.5% of    4.49MiB at    2.78MiB/s ETA 00:01[download]  11.1% of    4.49MiB at    3.69MiB/s ETA 00:01[download]  22.2% of    4.49MiB at    5.61MiB/s ETA 00:00[download]  44.5% of    4.49MiB at    9.15MiB/s ETA 00:00[download]  89.0% of    4.49MiB at   11.63MiB/s ETA 00:00[download] 100.0% of    4.49MiB at   12.37MiB/s ETA 00:00[download] 100% of    4.49MiB in 00:00:01 at 4.38MiB/s   
-[download] Downloading item 7 of 70
-[TikTok] Extracting URL: https://www.tiktok.com/@jatiladsja/video/7676067587188395286
-[TikTok] 7676067587188395286: Downloading webpage
-[info] 7676067587188395286: Downloading 1 format(s): h264_540p_1804249-1
-[info] Writing video metadata as JSON to: F:\Claude Projects\iceland-elections\esb-videos\raw\sja\7676067587188395286.info.json
-[download] Sleeping 4.56 seconds ...
-[download] Destination: F:\Claude Projects\iceland-elections\esb-videos\raw\sja\7676067587188395286.mp4
-[download]   0.0% of    7.80MiB at  666.61KiB/s ETA 00:11[download]   0.0% of    7.80MiB at    1.46MiB/s ETA 00:05[download]   0.1% of    7.80MiB at    2.73MiB/s ETA 00:02[download]   0.2% of    7.80MiB at    4.88MiB/s ETA 00:01[download]   0.4% of    7.80MiB at    7.57MiB/s ETA 00:01[download]   0.8% of    7.80MiB at    1.56MiB/s ETA 00:04[download]   1.6% of    7.80MiB at    2.27MiB/s ETA 00:03[download]   3.2% of    7.80MiB at    2.69MiB/s ETA 00:02[download]   6.4% of    7.80MiB at    3.67MiB/s ETA 00:01[download]  12.8% of    7.80MiB at    5.58MiB/s ETA 00:01[download]  25.6% of    7.80MiB at    9.00MiB/s ETA 00:00[download]  51.3% of    7.80MiB at   12.45MiB/s ETA 00:00[download] 100.0% of    7.80MiB at   15.22MiB/s ETA 00:00[download] 100% of    7.80MiB in 00:00:00 at 8.84MiB/s   
-[download] Downloading item 8 of 70
-[TikTok] Extracting URL: https://www.tiktok.com/@jatiladsja/video/7676790323875564822
-[TikTok] 7676790323875564822: Downloading webpage
-[info] 7676790323875564822: Downloading 1 format(s): bytevc1_720p_425154-1
-[info] Writing video metadata as JSON to: F:\Claude Projects\iceland-elections\esb-videos\raw\sja\7676790323875564822.info.json
-[download] Sleeping 3.38 seconds ...
-[download] Destination: F:\Claude Projects\iceland-elections\esb-videos\raw\sja\7676790323875564822.mp4
-[download]   0.0% of    3.56MiB at  285.09KiB/s ETA 00:12[download]   0.1% of    3.56MiB at  748.49KiB/s ETA 00:04[download]   0.2% of    3.56MiB at    1.52MiB/s ETA 00:02[download]   0.4% of    3.56MiB at    2.93MiB/s ETA 00:01[download]   0.8% of    3.56MiB at    5.50MiB/s ETA 00:00[download]   1.7% of    3.56MiB at    1.66MiB/s ETA 00:02[download]   3.5% of    3.56MiB at    2.08MiB/s ETA 00:01[download]   7.0% of    3.56MiB at    2.42MiB/s ETA 00:01[download]  14.0% of    3.56MiB at    3.81MiB/s ETA 00:00[download]  28.0% of    3.56MiB at    5.52MiB/s ETA 00:00[download]  56.1% of    3.56MiB at    8.48MiB/s ETA 00:00[download] 100.0% of    3.56MiB at   11.41MiB/s ETA 00:00[download] 100% of    3.56MiB in 00:00:00 at 3.71MiB/s   
-[download] Downloading item 9 of 70
-[TikTok] Extracting URL: https://www.tiktok.com/@jatiladsja/video/7676070333169913110
-[TikTok] 7676070333169913110: Downloading webpage
-[info] 7676070333169913110: Downloading 1 format(s): h264_540p_1650459-1
-[info] Writing video metadata as JSON to: F:\Claude Projects\iceland-elections\esb-videos\raw\sja\7676070333169913110.info.json
-[download] Sleeping 4.94 seconds ...
-[download] Destination: F:\Claude Projects\iceland-elections\esb-videos\raw\sja\7676070333169913110.mp4
-[download]   0.0% of    4.38MiB at  Unknown B/s ETA Unknown[download]   0.1% of    4.38MiB at    1.95MiB/s ETA 00:02  [download]   0.2% of    4.38MiB at    3.41MiB/s ETA 00:01[download]   0.3% of    4.38MiB at    5.85MiB/s ETA 00:00[download]   0.7% of    4.38MiB at    3.56MiB/s ETA 00:01[download]   1.4% of    4.38MiB at    1.68MiB/s ETA 00:02[download]   2.8% of    4.38MiB at    2.29MiB/s ETA 00:01[download]   5.7% of    4.38MiB at    2.81MiB/s ETA 00:01[download]  11.4% of    4.38MiB at    3.75MiB/s ETA 00:01[download]  22.8% of    4.38MiB at    5.70MiB/s ETA 00:00[download]  45.7% of    4.38MiB at    9.13MiB/s ETA 00:00[download]  91.4% of    4.38MiB at   11.83MiB/s ETA 00:00[download] 100.0% of    4.38MiB at   12.48MiB/s ETA 00:00[download] 100% of    4.38MiB in 00:00:01 at 4.02MiB/s   
-[download] Downloading item 10 of 70
-[TikTok] Extracting URL: https://www.tiktok.com/@jatiladsja/video/7676068579187625238
-[TikTok] 7676068579187625238: Downloading webpage
-[info] 7676068579187625238: Downloading 1 format(s): bytevc1_720p_545958-1
-[info] Writing video metadata as JSON to: F:\Claude Projects\iceland-elections\esb-videos\raw\sja\7676068579187625238.info.json
-[download] Sleeping 4.81 seconds ...
-[download] Destination: F:\Claude Projects\iceland-elections\esb-videos\raw\sja\7676068579187625238.mp4
-[download]   0.0% of    2.00MiB at  399.50KiB/s ETA 00:05[download]   0.1% of    2.00MiB at  997.85KiB/s ETA 00:02[download]   0.3% of    2.00MiB at    2.27MiB/s ETA 00:00[download]   0.7% of    2.00MiB at    3.65MiB/s ETA 00:00[download]   1.5% of    2.00MiB at    6.04MiB/s ETA 00:00[download]   3.1% of    2.00MiB at    1.60MiB/s ETA 00:01[download]   6.2% of    2.00MiB at    2.36MiB/s ETA 00:00[download]  12.4% of    2.00MiB at    2.79MiB/s ETA 00:00[download]  24.9% of    2.00MiB at    3.86MiB/s ETA 00:00[download]  49.9% of    2.00MiB at    5.73MiB/s ETA 00:00[download]  99.8% of    2.00MiB at    8.54MiB/s ETA 00:00[download] 100.0% of    2.00MiB at    8.54MiB/s ETA 00:00[download] 100% of    2.00MiB in 00:00:00 at 5.69MiB/s   
-[download] Downloading item 11 of 70
-[TikTok] Extracting URL: https://www.tiktok.com/@jatiladsja/video/7676070372554312982
-[TikTok] 7676070372554312982: Downloading webpage
-[info] 7676070372554312982: Downloading 1 format(s): h264_540p_2789100-1
-[info] Writing video metadata as JSON to: F:\Claude Projects\iceland-elections\esb-videos\raw\sja\7676070372554312982.info.json
-[download] Sleeping 3.69 seconds ...
-[download] Destination: F:\Claude Projects\iceland-elections\esb-videos\raw\sja\7676070372554312982.mp4
-[download]   0.0% of    6.69MiB at   68.86KiB/s ETA 01:39[download]   0.0% of    6.69MiB at  199.64KiB/s ETA 00:34[download]   0.1% of    6.69MiB at  450.84KiB/s ETA 00:15[download]   0.2% of    6.69MiB at  935.95KiB/s ETA 00:07[download]   0.5% of    6.69MiB at    1.78MiB/s ETA 00:03[download]   0.9% of    6.69MiB at    1.62MiB/s ETA 00:04[download]   1.9% of    6.69MiB at    2.38MiB/s ETA 00:02[download]   3.7% of    6.69MiB at    2.59MiB/s ETA 00:02[download]   7.5% of    6.69MiB at    3.63MiB/s ETA 00:01[download]  14.9% of    6.69MiB at    5.12MiB/s ETA 00:01[download]  29.9% of    6.69MiB at    4.51MiB/s ETA 00:01[download]  59.8% of    6.69MiB at    8.97MiB/s ETA 00:00[download] 100.0% of    6.69MiB at   11.21MiB/s ETA 00:00[download] 100% of    6.69MiB in 00:00:00 at 9.23MiB/s   
-[download] Downloading item 12 of 70
-[TikTok] Extracting URL: https://www.tiktok.com/@jatiladsja/video/7676066216246611222
-[TikTok] 7676066216246611222: Downloading webpage
-[info] 7676066216246611222: Downloading 1 format(s): bytevc1_720p_620338-1
-[info] Writing video metadata as JSON to: F:\Claude Projects\iceland-elections\esb-videos\raw\sja\7676066216246611222.info.json
-[download] Sleeping 3.57 seconds ...
-[download] Destination: F:\Claude Projects\iceland-elections\esb-videos\raw\sja\7676066216246611222.mp4
-[download]   0.0% of    2.16MiB at   95.14KiB/s ETA 00:23[download]   0.1% of    2.16MiB at  260.56KiB/s ETA 00:08[download]   0.3% of    2.16MiB at  558.79KiB/s ETA 00:03[download]   0.7% of    2.16MiB at    1.12MiB/s ETA 00:01[download]   1.4% of    2.16MiB at    2.24MiB/s ETA 00:00[download]   2.9% of    2.16MiB at    1.62MiB/s ETA 00:01[download]   5.7% of    2.16MiB at    2.10MiB/s ETA 00:00[download]  11.5% of    2.16MiB at    2.58MiB/s ETA 00:00[download]  23.1% of    2.16MiB at    3.72MiB/s ETA 00:00[download]  46.3% of    2.16MiB at    5.69MiB/s ETA 00:00[download]  92.6% of    2.16MiB at    8.42MiB/s ETA 00:00[download] 100.0% of    2.16MiB at    8.50MiB/s ETA 00:00[download] 100% of    2.16MiB in 00:00:00 at 5.78MiB/s   
-[download] Downloading item 13 of 70
-[TikTok] Extracting URL: https://www.tiktok.com/@jatiladsja/video/7676065516049566978
-[TikTok] 7676065516049566978: Downloading webpage
-[info] 7676065516049566978: Downloading 1 format(s): h264_540p_1427374-1
-[info] Writing video metadata as JSON to: F:\Claude Projects\iceland-elections\esb-videos\raw\sja\7676065516049566978.info.json
-[download] Sleeping 3.91 seconds ...
-[download] Destination: F:\Claude Projects\iceland-elections\esb-videos\raw\sja\7676065516049566978.mp4
-[download]   0.0% of    7.26MiB at  181.85KiB/s ETA 00:40[download]   0.0% of    7.26MiB at  500.06KiB/s ETA 00:14[download]   0.1% of    7.26MiB at    1.14MiB/s ETA 00:06[download]   0.2% of    7.26MiB at    1.95MiB/s ETA 00:03[download]   0.4% of    7.26MiB at    3.78MiB/s ETA 00:01[download]   0.8% of    7.26MiB at    1.71MiB/s ETA 00:04[download]   1.7% of    7.26MiB at    2.48MiB/s ETA 00:02[download]   3.4% of    7.26MiB at    2.62MiB/s ETA 00:02[download]   6.9% of    7.26MiB at    3.78MiB/s ETA 00:01[download]  13.8% of    7.26MiB at    5.70MiB/s ETA 00:01[download]  27.5% of    7.26MiB at    8.60MiB/s ETA 00:00[download]  55.1% of    7.26MiB at   12.35MiB/s ETA 00:00[download] 100.0% of    7.26MiB at   16.20MiB/s ETA 00:00[download] 100% of    7.26MiB in 00:00:01 at 6.64MiB/s   
-[download] Downloading item 14 of 70
-[TikTok] Extracting URL: https://www.tiktok.com/@jatiladsja/video/7675174901036207382
-[TikTok] 7675174901036207382: Downloading webpage
-[info] 7675174901036207382: Downloading 1 format(s): h264_540p_954163-1
-[info] Writing video metadata as JSON to: F:\Claude Projects\iceland-elections\esb-videos\raw\sja\7675174901036207382.info.json
-[download] Sleeping 3.43 seconds ...
-[download] Destination: F:\Claude Projects\iceland-elections\esb-videos\raw\sja\7675174901036207382.mp4
-[download]   0.0% of    3.41MiB at  Unknown B/s ETA Unknown[download]   0.1% of    3.41MiB at    1.95MiB/s ETA 00:01  [download]   0.2% of    3.41MiB at    3.41MiB/s ETA 00:00[download]   0.4% of    3.41MiB at    4.87MiB/s ETA 00:00[download]   0.9% of    3.41MiB at    6.72MiB/s ETA 00:00[download]   1.8% of    3.41MiB at    1.66MiB/s ETA 00:02[download]   3.6% of    3.41MiB at    2.53MiB/s ETA 00:01[download]   7.3% of    3.41MiB at    2.86MiB/s ETA 00:01[download]  14.6% of    3.41MiB at    4.00MiB/s ETA 00:00[download]  29.3% of    3.41MiB at    5.67MiB/s ETA 00:00[download]  58.6% of    3.41MiB at    7.84MiB/s ETA 00:00[download] 100.0% of    3.41MiB at   10.06MiB/s ETA 00:00[download] 100% of    3.41MiB in 00:00:01 at 3.17MiB/s   
+[tiktok:user] Playlist jatiladsja: Downloading 77 items of 77
+[download] Downloading item 1 of 77
+[TikTok] Extracting URL: https://www.tiktok.com/@jatiladsja/video/7678105112715349270
+[TikTok] 7678105112715349270: Downloading webpage
+[info] 7678105112715349270: Downloading 1 format(s): bytevc1_720p_608008-1
+[info] Writing video metadata as JSON to: F:\Claude Projects\iceland-elections\esb-videos\raw\sja\7678105112715349270.info.json
+[download] Sleeping 2.21 seconds ...
+[download] Destination: F:\Claude Projects\iceland-elections\esb-videos\raw\sja\7678105112715349270.mp4
+[download]   0.1% of    1.68MiB at  333.38KiB/s ETA 00:05[download]   0.2% of    1.68MiB at  857.03KiB/s ETA 00:02[download]   0.4% of    1.68MiB at    1.71MiB/s ETA 00:00[download]   0.9% of    1.68MiB at    3.25MiB/s ETA 00:00[download]   1.8% of    1.68MiB at    2.24MiB/s ETA 00:00[download]   3.7% of    1.68MiB at    2.62MiB/s ETA 00:00[download]   7.4% of    1.68MiB at    3.10MiB/s ETA 00:00[download]  14.8% of    1.68MiB at    3.83MiB/s ETA 00:00[download]  29.7% of    1.68MiB at    5.54MiB/s ETA 00:00[download]  59.5% of    1.68MiB at    7.99MiB/s ETA 00:00[download] 100.0% of    1.68MiB at    9.92MiB/s ETA 00:00[download] 100% of    1.68MiB in 00:00:00 at 2.07MiB/s   
+[download] Downloading item 2 of 77
+[TikTok] Extracting URL: https://www.tiktok.com/@jatiladsja/video/7678058896329608470
+[TikTok] 7678058896329608470: Downloading webpage
+[info] 7678058896329608470: Downloading 1 format(s): bytevc1_720p_339608-1
+[info] Writing video metadata as JSON to: F:\Claude Projects\iceland-elections\esb-videos\raw\sja\7678058896329608470.info.json
+[download] Sleeping 2.63 seconds ...
+[download] Destination: F:\Claude Projects\iceland-elections\esb-videos\raw\sja\7678058896329608470.mp4
+[download]   0.0% of    2.03MiB at  285.70KiB/s ETA 00:07[download]   0.1% of    2.03MiB at  750.01KiB/s ETA 00:02[download]   0.3% of    2.03MiB at    1.52MiB/s ETA 00:01[download]   0.7% of    2.03MiB at    2.93MiB/s ETA 00:00[download]   1.5% of    2.03MiB at    4.66MiB/s ETA 00:00[download]   3.0% of    2.03MiB at    1.54MiB/s ETA 00:01[download]   6.1% of    2.03MiB at    2.26MiB/s ETA 00:00[download]  12.3% of    2.03MiB at    2.75MiB/s ETA 00:00[download]  24.6% of    2.03MiB at    3.83MiB/s ETA 00:00[download]  49.3% of    2.03MiB at    5.60MiB/s ETA 00:00[download]  98.6% of    2.03MiB at    9.09MiB/s ETA 00:00[download] 100.0% of    2.03MiB at    9.18MiB/s ETA 00:00[download] 100% of    2.03MiB in 00:00:00 at 5.90MiB/s   
+[download] Downloading item 3 of 77
+[TikTok] Extracting URL: https://www.tiktok.com/@jatiladsja/video/7677705134159383830
+[TikTok] 7677705134159383830: Downloading webpage
+[info] 7677705134159383830: Downloading 1 format(s): bytevc1_720p_413618-1
+[info] Writing video metadata as JSON to: F:\Claude Projects\iceland-elections\esb-videos\raw\sja\7677705134159383830.info.json
+[download] Sleeping 4.48 seconds ...
+[download] Destination: F:\Claude Projects\iceland-elections\esb-videos\raw\sja\7677705134159383830.mp4
+[download]   0.1% of    1.19MiB at  221.87KiB/s ETA 00:05[download]   0.2% of    1.19MiB at  547.34KiB/s ETA 00:02[download]   0.6% of    1.19MiB at    1.13MiB/s ETA 00:01[download]   1.2% of    1.19MiB at    2.24MiB/s ETA 00:00[download]   2.5% of    1.19MiB at    4.02MiB/s ETA 00:00[download]   5.2% of    1.19MiB at    1.58MiB/s ETA 00:00[download]  10.4% of    1.19MiB at    2.36MiB/s ETA 00:00[download]  21.0% of    1.19MiB at    2.81MiB/s ETA 00:00[download]  42.0% of    1.19MiB at    3.95MiB/s ETA 00:00[download]  84.1% of    1.19MiB at    5.78MiB/s ETA 00:00[download] 100.0% of    1.19MiB at    6.27MiB/s ETA 00:00[download] 100% of    1.19MiB in 00:00:00 at 1.35MiB/s   
+[download] Downloading item 4 of 77
+[TikTok] Extracting URL: https://www.tiktok.com/@jatiladsja/video/7677608525945736470
+[TikTok] 7677608525945736470: Downloading webpage
+[info] 7677608525945736470: Downloading 1 format(s): h264_540p_527263-1
+[info] Writing video metadata as JSON to: F:\Claude Projects\iceland-elections\esb-videos\raw\sja\7677608525945736470.info.json
+[download] Sleeping 4.36 seconds ...
+[download] Destination: F:\Claude Projects\iceland-elections\esb-videos\raw\sja\7677608525945736470.mp4
+[download]   0.0% of    2.59MiB at   86.86KiB/s ETA 00:30[download]   0.1% of    2.59MiB at  249.66KiB/s ETA 00:10[download]   0.3% of    2.59MiB at  559.26KiB/s ETA 00:04[download]   0.6% of    2.59MiB at  907.98KiB/s ETA 00:02[download]   1.2% of    2.59MiB at    1.73MiB/s ETA 00:01[download]   2.4% of    2.59MiB at    1.53MiB/s ETA 00:01[download]   4.8% of    2.59MiB at    1.96MiB/s ETA 00:01[download]   9.6% of    2.59MiB at    2.46MiB/s ETA 00:00[download]  19.2% of    2.59MiB at    3.62MiB/s ETA 00:00[download]  38.5% of    2.59MiB at    5.25MiB/s ETA 00:00[download]  77.0% of    2.59MiB at    7.92MiB/s ETA 00:00[download] 100.0% of    2.59MiB at    9.14MiB/s ETA 00:00[download] 100% of    2.59MiB in 00:00:00 at 6.24MiB/s   
+[download] Downloading item 5 of 77
+[TikTok] Extracting URL: https://www.tiktok.com/@jatiladsja/video/7677557048040574230
+[TikTok] 7677557048040574230: Downloading webpage
+[info] 7677557048040574230: Downloading 1 format(s): h264_540p_948941-1
+[info] Writing video metadata as JSON to: F:\Claude Projects\iceland-elections\esb-videos\raw\sja\7677557048040574230.info.json
+[download] Sleeping 4.71 seconds ...
+[download] Destination: F:\Claude Projects\iceland-elections\esb-videos\raw\sja\7677557048040574230.mp4
+[download]   0.0% of    3.71MiB at  110.97KiB/s ETA 00:34[download]   0.1% of    3.71MiB at  315.38KiB/s ETA 00:12[download]   0.2% of    3.71MiB at  698.85KiB/s ETA 00:05[download]   0.4% of    3.71MiB at    1.39MiB/s ETA 00:02[download]   0.8% of    3.71MiB at    2.63MiB/s ETA 00:01[download]   1.7% of    3.71MiB at    1.68MiB/s ETA 00:02[download]   3.3% of    3.71MiB at    2.43MiB/s ETA 00:01[download]   6.7% of    3.71MiB at    2.84MiB/s ETA 00:01[download]  13.4% of    3.71MiB at    4.02MiB/s ETA 00:00[download]  26.9% of    3.71MiB at    5.90MiB/s ETA 00:00[download]  53.9% of    3.71MiB at    8.63MiB/s ETA 00:00[download] 100.0% of    3.71MiB at   10.92MiB/s ETA 00:00[download] 100% of    3.71MiB in 00:00:00 at 8.12MiB/s   
+[download] Downloading item 6 of 77
+[TikTok] Extracting URL: https://www.tiktok.com/@jatiladsja/video/7677609463469182230
+[TikTok] 7677609463469182230: Downloading webpage
+[info] 7677609463469182230: Downloading 1 format(s): bytevc1_720p_416769-1
+[info] Writing video metadata as JSON to: F:\Claude Projects\iceland-elections\esb-videos\raw\sja\7677609463469182230.info.json
+[download] Sleeping 3.56 seconds ...
+[download] Destination: F:\Claude Projects\iceland-elections\esb-videos\raw\sja\7677609463469182230.mp4
+[download]   0.1% of    1.30MiB at  116.12KiB/s ETA 00:11[download]   0.2% of    1.30MiB at  312.11KiB/s ETA 00:04[download]   0.5% of    1.30MiB at  692.23KiB/s ETA 00:01[download]   1.1% of    1.30MiB at    1.45MiB/s ETA 00:00[download]   2.3% of    1.30MiB at    2.72MiB/s ETA 00:00[download]   4.7% of    1.30MiB at    1.49MiB/s ETA 00:00[download]   9.5% of    1.30MiB at    2.21MiB/s ETA 00:00[download]  19.1% of    1.30MiB at    2.66MiB/s ETA 00:00[download]  38.3% of    1.30MiB at    3.80MiB/s ETA 00:00[download]  76.6% of    1.30MiB at    5.75MiB/s ETA 00:00[download] 100.0% of    1.30MiB at    6.25MiB/s ETA 00:00[download] 100% of    1.30MiB in 00:00:00 at 1.52MiB/s   
+[download] Downloading item 7 of 77
+[TikTok] Extracting URL: https://www.tiktok.com/@jatiladsja/video/7677556834131168515
+[TikTok] 7677556834131168515: Downloading webpage
+[info] 7677556834131168515: Downloading 1 format(s): h264_540p_1354951-1
+[info] Writing video metadata as JSON to: F:\Claude Projects\iceland-elections\esb-videos\raw\sja\7677556834131168515.info.json
+[download] Sleeping 2.50 seconds ...
+[download] Destination: F:\Claude Projects\iceland-elections\esb-videos\raw\sja\7677556834131168515.mp4
+[download]   0.0% of    9.82MiB at    4.82KiB/s ETA 34:47[download]   0.0% of    9.82MiB at   12.65KiB/s ETA 13:14[download]   0.1% of    9.82MiB at   26.64KiB/s ETA 06:17[download]   0.1% of    9.82MiB at   51.21KiB/s ETA 03:16[download]   0.3% of    9.82MiB at  105.49KiB/s ETA 01:35[download]   0.6% of    9.82MiB at  214.03KiB/s ETA 00:46[download]   1.3% of    9.82MiB at  430.72KiB/s ETA 00:23[download]   2.5% of    9.82MiB at  759.91KiB/s ETA 00:12[download]   5.1% of    9.82MiB at    1.17MiB/s ETA 00:07[download]  10.2% of    9.82MiB at    1.74MiB/s ETA 00:05[download]  20.4% of    9.82MiB at    2.31MiB/s ETA 00:03[download]  40.7% of    9.82MiB at    2.75MiB/s ETA 00:02[download]  75.4% of    9.82MiB at    3.02MiB/s ETA 00:00[download] 100.0% of    9.82MiB at    3.22MiB/s ETA 00:00[download] 100% of    9.82MiB in 00:00:03 at 3.08MiB/s   
+[download] Downloading item 8 of 77
+[TikTok] Extracting URL: https://www.tiktok.com/@jatiladsja/video/7677335903689280790
+[TikTok] 7677335903689280790: Downloading webpage
+[info] 7677335903689280790: Downloading 1 format(s): bytevc1_720p_338501-1
+[info] Writing video metadata as JSON to: F:\Claude Projects\iceland-elections\esb-videos\raw\sja\7677335903689280790.info.json
+[download] Sleeping 3.04 seconds ...
+[download] Destination: F:\Claude Projects\iceland-elections\esb-videos\raw\sja\7677335903689280790.mp4
+[download]   0.1% of    1.27MiB at  999.36KiB/s ETA 00:01[download]   0.2% of    1.27MiB at    1.46MiB/s ETA 00:00[download]   0.5% of    1.27MiB at    2.73MiB/s ETA 00:00[download]   1.1% of    1.27MiB at    4.88MiB/s ETA 00:00[download]   2.4% of    1.27MiB at    6.05MiB/s ETA 00:00[download]   4.8% of    1.27MiB at    1.56MiB/s ETA 00:00[download]   9.7% of    1.27MiB at    2.10MiB/s ETA 00:00[download]  19.5% of    1.27MiB at    2.77MiB/s ETA 00:00[download]  39.2% of    1.27MiB at    3.91MiB/s ETA 00:00[download]  78.4% of    1.27MiB at    5.71MiB/s ETA 00:00[download] 100.0% of    1.27MiB at    5.95MiB/s ETA 00:00[download] 100% of    1.27MiB in 00:00:00 at 2.25MiB/s   
+[download] 7677242348153130262: „Miklu meira upside, eiginlega ekkert downside.” Lárus Welding í Þjóð... has already been recorded in the archive
+[download] 7676070990455147778: Kjósum Já! has already been recorded in the archive
+[download] 7676067865451138306: El Grande has already been recorded in the archive
+[download] 7677182391508667670: Já fyrir landbúnaðinn!  has already been recorded in the archive
+[download] 7676070874637700374: Kjósum Já! has already been recorded in the archive
+[download] 7676069567948688662: Kjósum Já! has already been recorded in the archive
+[download] 7676790323875564822: Þetta er ekki flókið. Sjáum hvað okkur býðst  has already been recorded in the archive
+[download] 7676070333169913110: Spurningakeppni SJÁ has already been recorded in the archive
+[download] 7676068579187625238: Kjósum Já! has already been recorded in the archive
+[download] 7676070372554312982: Kjósum Já! has already been recorded in the archive
+[download] 7676066216246611222: El Grande SJÁ has already been recorded in the archive
+[download] 7676065516049566978: Spurningakeppni SJÁ has already been recorded in the archive
+[download] 7675174901036207382: Ætlar þú að mæta? has already been recorded in the archive
 [download] 7675746321218718998: Sendu þetta á einhvern sem er á dollunni Já til að SJÁ has already been recorded in the archive
 [download] 7675174586291424534: Segjum Já fyrir  bændur! has already been recorded in the archive
 [download] 7675174221017894166: Segjum Já! has already been recorded in the archive
@@ -372,23 +323,17 @@ sja exit 0
 [tiktok:user] evropuhreyfingin: Downloading page 1
 [tiktok:user] evropuhreyfingin: Downloading page 2
 [info] Writing playlist metadata as JSON to: F:\Claude Projects\iceland-elections\esb-videos\raw\evropuhreyfingin\MS4wLjABAAAAYJa_tr8A-zEZKNtJe1IQLt4NjNCq9sNppR-fvUyUGfBCC_K5tKtD2k8I_zinRxtG.info.json
-[tiktok:user] Playlist evropuhreyfingin: Downloading 25 items of 25
-[download] Downloading item 1 of 25
-[TikTok] Extracting URL: https://www.tiktok.com/@evropuhreyfingin/video/7677229491818728726
-[TikTok] 7677229491818728726: Downloading webpage
-[info] 7677229491818728726: Downloading 1 format(s): bytevc1_720p_418148-1
-[info] Writing video metadata as JSON to: F:\Claude Projects\iceland-elections\esb-videos\raw\evropuhreyfingin\7677229491818728726.info.json
-[download] Sleeping 3.64 seconds ...
-[download] Destination: F:\Claude Projects\iceland-elections\esb-videos\raw\evropuhreyfingin\7677229491818728726.mp4
-[download]   0.0% of    3.06MiB at  996.04KiB/s ETA 00:03[download]   0.1% of    3.06MiB at    1.46MiB/s ETA 00:02[download]   0.2% of    3.06MiB at    2.73MiB/s ETA 00:01[download]   0.5% of    3.06MiB at    4.88MiB/s ETA 00:00[download]   1.0% of    3.06MiB at    7.56MiB/s ETA 00:00[download]   2.0% of    3.06MiB at    1.68MiB/s ETA 00:01[download]   4.1% of    3.06MiB at    1.37MiB/s ETA 00:02[download]   8.1% of    3.06MiB at    1.95MiB/s ETA 00:01[download]  16.3% of    3.06MiB at    3.02MiB/s ETA 00:00[download]  32.6% of    3.06MiB at    4.64MiB/s ETA 00:00[download]  65.3% of    3.06MiB at    7.10MiB/s ETA 00:00[download] 100.0% of    3.06MiB at    9.09MiB/s ETA 00:00[download] 100% of    3.06MiB in 00:00:00 at 3.10MiB/s   
-[download] Downloading item 2 of 25
-[TikTok] Extracting URL: https://www.tiktok.com/@evropuhreyfingin/video/7676459949051956502
-[TikTok] 7676459949051956502: Downloading webpage
-[info] 7676459949051956502: Downloading 1 format(s): bytevc1_720p_344106-1
-[info] Writing video metadata as JSON to: F:\Claude Projects\iceland-elections\esb-videos\raw\evropuhreyfingin\7676459949051956502.info.json
-[download] Sleeping 2.82 seconds ...
-[download] Destination: F:\Claude Projects\iceland-elections\esb-videos\raw\evropuhreyfingin\7676459949051956502.mp4
-[download]   0.1% of    1.75MiB at  399.69KiB/s ETA 00:04[download]   0.2% of    1.75MiB at  856.91KiB/s ETA 00:02[download]   0.4% of    1.75MiB at    1.95MiB/s ETA 00:00[download]   0.8% of    1.75MiB at    3.25MiB/s ETA 00:00[download]   1.7% of    1.75MiB at    5.50MiB/s ETA 00:00[download]   3.5% of    1.75MiB at    1.56MiB/s ETA 00:01[download]   7.1% of    1.75MiB at    2.43MiB/s ETA 00:00[download]  14.2% of    1.75MiB at    2.45MiB/s ETA 00:00[download]  28.6% of    1.75MiB at    3.40MiB/s ETA 00:00[download]  57.2% of    1.75MiB at    3.61MiB/s ETA 00:00[download] 100.0% of    1.75MiB at    5.75MiB/s ETA 00:00[download] 100% of    1.75MiB in 00:00:01 at 1.69MiB/s   
+[tiktok:user] Playlist evropuhreyfingin: Downloading 26 items of 26
+[download] Downloading item 1 of 26
+[TikTok] Extracting URL: https://www.tiktok.com/@evropuhreyfingin/video/7677979620347612438
+[TikTok] 7677979620347612438: Downloading webpage
+[info] 7677979620347612438: Downloading 1 format(s): bytevc1_720p_512570-1
+[info] Writing video metadata as JSON to: F:\Claude Projects\iceland-elections\esb-videos\raw\evropuhreyfingin\7677979620347612438.info.json
+[download] Sleeping 2.99 seconds ...
+[download] Destination: F:\Claude Projects\iceland-elections\esb-videos\raw\evropuhreyfingin\7677979620347612438.mp4
+[download]   0.1% of  780.81KiB at  399.99KiB/s ETA 00:01[download]   0.4% of  780.81KiB at  999.83KiB/s ETA 00:00[download]   0.9% of  780.81KiB at    1.95MiB/s ETA 00:00[download]   1.9% of  780.81KiB at    3.66MiB/s ETA 00:00[download]   4.0% of  780.81KiB at    5.50MiB/s ETA 00:00[download]   8.1% of  780.81KiB at    1.60MiB/s ETA 00:00[download]  16.3% of  780.81KiB at    2.36MiB/s ETA 00:00[download]  32.7% of  780.81KiB at    2.83MiB/s ETA 00:00[download]  65.4% of  780.81KiB at    3.90MiB/s ETA 00:00[download] 100.0% of  780.81KiB at    5.01MiB/s ETA 00:00[download] 100% of  780.81KiB in 00:00:00 at 952.90KiB/s 
+[download] 7677229491818728726: Ásgeir Brynjar, doktor í fjármálum og ritstjóri Vísbendingar, talar u... has already been recorded in the archive
+[download] 7676459949051956502: Fullveldi Íslands myndi styrkjast með inngöngu í ESB. Þó kosningin 29... has already been recorded in the archive
 [download] 7675664550884085014: Þetta er ekkert grín heldur grafalvarleg staða. Við vorum nú þegar va... has already been recorded in the archive
 [download] 7675426028856069398: Snærós Sindradóttir framkvæmdastjóri Evrópuhreyfingarinnar benti rétt... has already been recorded in the archive
 [download] 7674993889694059798: Setjum þennan 1,9 milljarð í samhengi. Hvort er dýrara, aðildarviðræð... has already been recorded in the archive

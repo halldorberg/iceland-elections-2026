@@ -54,7 +54,7 @@ UI = [
   {'en': 'content="Analysis of the debate around Iceland\\u2019s 29 August 2026 referendum on resuming EU accession talks. Arguments of both sides in one overview."'.replace('\\u2019', '’'),
    'pl': 'content="Analiza debaty wokół islandzkiego referendum z 29 sierpnia 2026 r. w sprawie negocjacji akcesyjnych z UE. Argumenty obu stron w jednym przeglądzie."'}),
  ('<link rel="canonical" href="https://lydraedisveislan.is/" />', '<link rel="canonical" href="https://lydraedisveislan.is/{L}/" />'),
- ('js/esb-data.js?v=8', '/js/esb-data.{L}.js?v=7'),
+ ('js/esb-data.js?v=9', '/js/esb-data.{L}.js?v=8'),
  ('js/esb-motrok.js?v=3', '/js/esb-motrok.{L}.js?v=4'),
  ('src="js/esb', 'src="/js/esb'),  # safety for relative refs from /en/
  ("from './js/i18n.js?v=4'", "from '/js/i18n.js?v=4'"),

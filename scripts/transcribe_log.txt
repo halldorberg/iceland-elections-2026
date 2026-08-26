@@ -5,8 +5,8 @@ FAIL 7667601447684525334.mp4: tuple index out of range
 FAIL 7671605713994517782.mp4: tuple index out of range
 FAIL 7672298106855247126.mp4: tuple index out of range
 FAIL 7673083027244764438.mp4: tuple index out of range
-70 transcribed
 FAIL 7676526527680482582.mp4: tuple index out of range
+80 transcribed
 FAIL 7657155477670759682.mp4: tuple index out of range
-160 transcribed
-TRANSCRIPTION DONE: 169 ok, 8 failed
+180 transcribed
+TRANSCRIPTION DONE: 184 ok, 8 failed
