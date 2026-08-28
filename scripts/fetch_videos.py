@@ -27,6 +27,8 @@ for name, (side, url) in ACCOUNTS.items():
         '-o', str(dest / '%(id)s.%(ext)s'),
         '-f', 'mp4/bv*+ba/b',
         '--sleep-interval', '2', '--max-sleep-interval', '5',
+        '--socket-timeout', '30',
+        '--retries', '3',
         '--ignore-errors',
         url,
     ])
