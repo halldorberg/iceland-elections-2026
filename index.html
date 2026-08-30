@@ -778,6 +778,89 @@
     </div>
   </section>
 
+  <!-- ── Úrslit (results banner) ─────────────────────────────── -->
+  <style>
+    .result-banner { max-width: 880px; margin: 6px auto 22px; padding: 0 20px; }
+    .rb-card { background: #eef2f5; border: 1px solid #d8e0e6; border-radius: 16px;
+      padding: 18px 20px 20px; box-shadow: 0 1px 3px rgba(20,40,60,.06); }
+    .rb-head { font-size: 12px; font-weight: 700; letter-spacing: .04em; color: #5f7482;
+      text-transform: uppercase; margin: 0 0 14px; text-align: center; }
+    .rb-bar { display: flex; height: 28px; border-radius: 8px; overflow: hidden; background: #dbe3e8; }
+    .rb-bar .ja  { background: var(--ja); }
+    .rb-bar .nei { background: var(--nei); }
+    .rb-nums { display: flex; justify-content: space-between; gap: 16px; margin-top: 14px; }
+    .rb-side { flex: 1; min-width: 0; }
+    .rb-side.nei { text-align: right; }
+    .rb-tag { display: inline-block; font-weight: 800; font-size: 14px; color: #fff;
+      padding: 3px 12px; border-radius: 6px; letter-spacing: .04em; }
+    .rb-side.ja  .rb-tag { background: var(--ja); }
+    .rb-side.nei .rb-tag { background: var(--nei); }
+    .rb-pct { font-size: 30px; font-weight: 800; line-height: 1.1; margin-top: 8px; color: #243642; }
+    .rb-votes { font-size: 13px; color: #6b7c88; margin-top: 2px; }
+    .rb-tabs { display: flex; flex-wrap: wrap; gap: 6px; justify-content: center; margin-bottom: 14px; }
+    .rb-tab { font: inherit; font-size: 12px; padding: 5px 11px; border-radius: 999px;
+      border: 1px solid #cdd8dd; background: #fff; color: #3a4d57; cursor: pointer; }
+    .rb-tab.active { background: #213d46; border-color: #213d46; color: #fff; }
+    @media (max-width: 480px) { .rb-pct { font-size: 25px; } }
+  </style>
+  <section class="result-banner" aria-label="Úrslit þjóðaratkvæðagreiðslunnar">
+    <div class="rb-card">
+      <div class="rb-head">Úrslit · Þjóðaratkvæðagreiðsla um ESB · 29. ágúst 2026</div>
+      <div class="rb-tabs" id="rb-tabs"></div>
+      <div class="rb-bar">
+        <div class="ja"  id="rb-ja-bar"></div>
+        <div class="nei" id="rb-nei-bar"></div>
+      </div>
+      <div class="rb-nums">
+        <div class="rb-side ja">
+          <span class="rb-tag">JÁ</span>
+          <div class="rb-pct" id="rb-ja-pct"></div>
+          <div class="rb-votes" id="rb-ja-votes"></div>
+        </div>
+        <div class="rb-side nei">
+          <span class="rb-tag">NEI</span>
+          <div class="rb-pct" id="rb-nei-pct"></div>
+          <div class="rb-votes" id="rb-nei-votes"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script>
+  (function () {
+    // Final results, 29 Aug 2026 (source: is.wikipedia + landskjörstjórn). The six
+    // constituencies sum exactly to the national 105.339 Já / 118.040 Nei.
+    const R = [
+      ['Landið allt',        105339, 118040],
+      ['Reykjavík norður',    22266,  16448],
+      ['Reykjavík suður',     20738,  17317],
+      ['Suðurkjördæmi',       13473,  20597],
+      ['Norðausturkjördæmi',  10022,  15822],
+      ['Norðvesturkjördæmi',   7060,  11953],
+      ['Suðvesturkjördæmi',   31780,  35903],
+    ];
+    const nf = n => n.toLocaleString('is-IS');
+    const pf = p => p.toLocaleString('is-IS', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+    const tabs = document.getElementById('rb-tabs');
+    function render(i) {
+      const [, ja, nei] = R[i], tot = ja + nei, jp = ja / tot * 100, np = nei / tot * 100;
+      document.getElementById('rb-ja-bar').style.width  = jp + '%';
+      document.getElementById('rb-nei-bar').style.width = np + '%';
+      document.getElementById('rb-ja-pct').textContent  = pf(jp) + '%';
+      document.getElementById('rb-nei-pct').textContent = pf(np) + '%';
+      document.getElementById('rb-ja-votes').textContent  = nf(ja) + ' atkvæði';
+      document.getElementById('rb-nei-votes').textContent = nf(nei) + ' atkvæði';
+      [...tabs.children].forEach((b, bi) => b.classList.toggle('active', bi === i));
+    }
+    R.forEach((r, i) => {
+      const b = document.createElement('button');
+      b.className = 'rb-tab'; b.type = 'button'; b.textContent = r[0];
+      b.onclick = () => render(i);
+      tabs.appendChild(b);
+    });
+    render(0);
+  })();
+  </script>
+
   <!-- ── ESB zone (dark) ──────────────────────────────────── -->
   <div class="esb-zone">
 
